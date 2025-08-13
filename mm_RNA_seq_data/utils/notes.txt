@@ -201,3 +201,7 @@ Saved summary statistics to results_low/survival_analysis_summary.json
 
 Analysis completed successfully!
 Results saved to: results_low
+-----
+
+results plotting script
+python plot_survival_results.py --results-dir results_low --expression-file geo_data/mouse_expression_transposed.tsv --survival-file outputs/survival_df.csv

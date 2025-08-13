@@ -9,6 +9,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import json
 import os
+import argparse
+import glob
 from lifelines import KaplanMeierFitter
 from lifelines.statistics import logrank_test
 import warnings
@@ -18,15 +20,82 @@ warnings.filterwarnings('ignore')
 plt.style.use('default')
 sns.set_palette("husl")
 
-def load_results(results_dir="results"):
+def parse_arguments():
+    """Parse command line arguments."""
+    parser = argparse.ArgumentParser(description='Plot EEI survival analysis results')
+    parser.add_argument('--results-dir', '-r', default='results', 
+                       help='Directory containing analysis results (default: results)')
+    parser.add_argument('--expression-file', '-e', 
+                       help='Expression data file (TSV format)')
+    parser.add_argument('--survival-file', '-s', 
+                       help='Survival data file (CSV format)')
+    parser.add_argument('--output-dir', '-o', default='results/plots',
+                       help='Output directory for plots (default: results/plots)')
+    parser.add_argument('--coord-mapping-dir', '-c', default='coord_gene_mapping_files',
+                       help='Directory for coordinate to gene mapping files (default: coord_gene_mapping_files)')
+    parser.add_argument('--list-results', action='store_true',
+                       help='List available results directories and exit')
+    parser.add_argument('--batch-mode', action='store_true',
+                       help='Process all results directories found in current directory')
+    
+    return parser.parse_args()
+
+def find_results_directories():
+    """Find all results directories in the current directory."""
+    results_dirs = []
+    
+    # Look for directories that might contain results
+    potential_dirs = glob.glob('*results*') + glob.glob('results*') + glob.glob('*_results*')
+    
+    for dir_path in potential_dirs:
+        if os.path.isdir(dir_path):
+            # Check if it contains expected result files
+            expected_files = ['all_eei_survival_results.tsv', 'significant_eei_survival_results.tsv', 
+                            'survival_analysis_summary.json']
+            if any(os.path.exists(os.path.join(dir_path, f)) for f in expected_files):
+                results_dirs.append(dir_path)
+    
+    return sorted(results_dirs)
+
+def find_data_files():
+    """Find expression and survival data files."""
+    expression_files = []
+    survival_files = []
+    
+    # Look for expression files
+    for pattern in ['*expression*.tsv', '*expression*.csv', '*expression*.txt']:
+        expression_files.extend(glob.glob(pattern))
+    
+    # Look for survival files
+    for pattern in ['*survival*.csv', '*survival*.tsv', '*survival*.txt']:
+        survival_files.extend(glob.glob(pattern))
+    
+    return expression_files, survival_files
+
+def load_results(results_dir):
     """Load all results from the analysis."""
     
+    # Check if results directory exists
+    if not os.path.exists(results_dir):
+        raise FileNotFoundError(f"Results directory '{results_dir}' not found")
+    
     # Load main results
-    all_results = pd.read_csv(f"{results_dir}/all_eei_survival_results.tsv", sep='\t')
-    significant_results = pd.read_csv(f"{results_dir}/significant_eei_survival_results.tsv", sep='\t')
+    all_results_file = os.path.join(results_dir, "all_eei_survival_results.tsv")
+    significant_results_file = os.path.join(results_dir, "significant_eei_survival_results.tsv")
+    summary_file = os.path.join(results_dir, "survival_analysis_summary.json")
+    
+    if not os.path.exists(all_results_file):
+        raise FileNotFoundError(f"File '{all_results_file}' not found")
+    if not os.path.exists(significant_results_file):
+        raise FileNotFoundError(f"File '{significant_results_file}' not found")
+    if not os.path.exists(summary_file):
+        raise FileNotFoundError(f"File '{summary_file}' not found")
+    
+    all_results = pd.read_csv(all_results_file, sep='\t')
+    significant_results = pd.read_csv(significant_results_file, sep='\t')
     
     # Load summary statistics
-    with open(f"{results_dir}/survival_analysis_summary.json", 'r') as f:
+    with open(summary_file, 'r') as f:
         summary_stats = json.load(f)
     
     return all_results, significant_results, summary_stats
@@ -129,17 +198,33 @@ def plot_significance_summary(significant_results, summary_stats, output_dir="re
     
     print(f"✓ Significance summary plot saved to {output_dir}/significance_summary.png")
 
-def plot_survival_curves(significant_results, expression_file, survival_file, output_dir="results/plots"):
+def plot_survival_curves(significant_results, expression_file, survival_file, output_dir, coord_mapping_dir):
     """Plot Kaplan-Meier survival curves for significant EEIs."""
     
     os.makedirs(output_dir, exist_ok=True)
     
+    # Check if files exist
+    if not os.path.exists(expression_file):
+        print(f"Warning: Expression file '{expression_file}' not found. Skipping survival curves.")
+        return
+    if not os.path.exists(survival_file):
+        print(f"Warning: Survival file '{survival_file}' not found. Skipping survival curves.")
+        return
+    
     # Load data
-    expression_df = pd.read_csv(expression_file, sep='\t', index_col=0)
-    survival_df = pd.read_csv(survival_file, index_col=0)
+    try:
+        expression_df = pd.read_csv(expression_file, sep='\t', index_col=0)
+        survival_df = pd.read_csv(survival_file, index_col=0)
+    except Exception as e:
+        print(f"Error loading data files: {e}")
+        return
     
     # Align samples
     common_samples = set(expression_df.columns) & set(survival_df.index)
+    if len(common_samples) < 4:
+        print(f"Warning: Only {len(common_samples)} common samples found. Need at least 4 for survival analysis.")
+        return
+    
     expression_df = expression_df[list(common_samples)]
     survival_df = survival_df.loc[list(common_samples)]
     
@@ -151,9 +236,14 @@ def plot_survival_curves(significant_results, expression_file, survival_file, ou
             exon2_coord = eei_row['mouse_exon2']
             
             # Map to genes
-            from utils.coord_gene_mapping import coordinate_to_gene_mapping_with_files
-            gene1 = coordinate_to_gene_mapping_with_files(exon1_coord, "coord_gene_mapping_files")
-            gene2 = coordinate_to_gene_mapping_with_files(exon2_coord, "coord_gene_mapping_files")
+            try:
+                from utils.coord_gene_mapping import coordinate_to_gene_mapping_with_files
+                gene1 = coordinate_to_gene_mapping_with_files(exon1_coord, coord_mapping_dir)
+                gene2 = coordinate_to_gene_mapping_with_files(exon2_coord, coord_mapping_dir)
+            except ImportError:
+                print(f"Warning: coord_gene_mapping module not found. Using coordinates as gene names.")
+                gene1 = exon1_coord.split(':')[1] if ':' in exon1_coord else exon1_coord
+                gene2 = exon2_coord.split(':')[1] if ':' in exon2_coord else exon2_coord
             
             if gene1 and gene2 and gene1 in expression_df.index and gene2 in expression_df.index:
                 # Get expression data
@@ -180,10 +270,31 @@ def plot_survival_curves(significant_results, expression_file, survival_file, ou
                     kmf_present = KaplanMeierFitter()
                     kmf_absent = KaplanMeierFitter()
                     
-                    # Use 'survival_days' instead of 'survival_time'
-                    kmf_present.fit(present_survival['survival_days'], present_survival['event_status'], 
+                    # Try different column names for survival time
+                    time_col = None
+                    for col in ['survival_days', 'survival_time', 'time', 'days']:
+                        if col in survival_df.columns:
+                            time_col = col
+                            break
+                    
+                    if time_col is None:
+                        print(f"Warning: No survival time column found in {survival_file}")
+                        continue
+                    
+                    # Try different column names for event status
+                    event_col = None
+                    for col in ['event_status', 'status', 'event', 'dead']:
+                        if col in survival_df.columns:
+                            event_col = col
+                            break
+                    
+                    if event_col is None:
+                        print(f"Warning: No event status column found in {survival_file}")
+                        continue
+                    
+                    kmf_present.fit(present_survival[time_col], present_survival[event_col], 
                                   label=f'EEI Present (n={len(present_samples)})')
-                    kmf_absent.fit(absent_survival['survival_days'], absent_survival['event_status'], 
+                    kmf_absent.fit(absent_survival[time_col], absent_survival[event_col], 
                                  label=f'EEI Absent (n={len(absent_samples)})')
                     
                     # Plot curves
@@ -192,8 +303,8 @@ def plot_survival_curves(significant_results, expression_file, survival_file, ou
                     
                     # Perform log-rank test
                     logrank_result = logrank_test(
-                        present_survival['survival_days'], absent_survival['survival_days'],
-                        present_survival['event_status'], absent_survival['event_status']
+                        present_survival[time_col], absent_survival[time_col],
+                        present_survival[event_col], absent_survival[event_col]
                     )
                     
                     plt.title(f'EEI: {gene1}-{gene2}\nP-value: {eei_row["p_value"]:.3e} ({eei_row["prognostic_type"]})')
@@ -315,48 +426,140 @@ def create_results_report(significant_results, summary_stats, output_dir="result
     
     print(f"✓ Analysis report saved to {report_file}")
 
-def main():
-    """Main function to generate all plots."""
+def process_single_results(results_dir, expression_file=None, survival_file=None, output_dir=None, coord_mapping_dir=None):
+    """Process a single results directory."""
     
-    print("=== EEI SURVIVAL ANALYSIS PLOTTING ===")
+    if output_dir is None:
+        output_dir = os.path.join(results_dir, "plots")
+    
+    if coord_mapping_dir is None:
+        coord_mapping_dir = "coord_gene_mapping_files"
+    
+    print(f"\n=== Processing results directory: {results_dir} ===")
     
     # Load results
     try:
-        all_results, significant_results, summary_stats = load_results()
+        all_results, significant_results, summary_stats = load_results(results_dir)
         print(f"✓ Loaded {len(all_results)} total results")
         print(f"✓ Loaded {len(significant_results)} significant results")
     except Exception as e:
-        print(f"Error loading results: {e}")
-        return
+        print(f"Error loading results from {results_dir}: {e}")
+        return False
     
     # Create plots directory
-    plots_dir = "results/plots"
-    os.makedirs(plots_dir, exist_ok=True)
+    os.makedirs(output_dir, exist_ok=True)
     
     # Generate plots
-    print("\nGenerating plots...")
+    print(f"Generating plots in {output_dir}...")
     
     # 1. P-value distribution
-    plot_p_value_distribution(all_results, significant_results, plots_dir)
+    plot_p_value_distribution(all_results, significant_results, output_dir)
     
     # 2. Significance summary
     if len(significant_results) > 0:
-        plot_significance_summary(significant_results, summary_stats, plots_dir)
+        plot_significance_summary(significant_results, summary_stats, output_dir)
     
     # 3. Survival curves for significant EEIs
-    if len(significant_results) > 0:
-        plot_survival_curves(significant_results, "geo_data/mouse_expression_transposed.tsv", 
-                           "outputs/survival_df.csv", plots_dir)
+    if len(significant_results) > 0 and expression_file and survival_file:
+        plot_survival_curves(significant_results, expression_file, survival_file, output_dir, coord_mapping_dir)
+    elif len(significant_results) > 0:
+        print("Skipping survival curves: expression or survival file not provided")
     
     # 4. Analysis overview
-    plot_analysis_overview(all_results, significant_results, summary_stats, plots_dir)
+    plot_analysis_overview(all_results, significant_results, summary_stats, output_dir)
     
     # 5. Create report
-    create_results_report(significant_results, summary_stats)
+    report_dir = os.path.dirname(output_dir) if output_dir != results_dir else results_dir
+    create_results_report(significant_results, summary_stats, report_dir)
     
-    print(f"\n=== PLOTTING COMPLETE ===")
-    print(f"All plots saved to: {plots_dir}")
-    print(f"Report saved to: results/analysis_report.txt")
+    print(f"✓ Completed processing {results_dir}")
+    return True
+
+def main():
+    """Main function to generate all plots."""
+    
+    args = parse_arguments()
+    
+    # List available results if requested
+    if args.list_results:
+        results_dirs = find_results_directories()
+        expression_files, survival_files = find_data_files()
+        
+        print("Available results directories:")
+        for i, dir_path in enumerate(results_dirs, 1):
+            print(f"  {i}. {dir_path}")
+        
+        print("\nAvailable expression files:")
+        for i, file_path in enumerate(expression_files, 1):
+            print(f"  {i}. {file_path}")
+        
+        print("\nAvailable survival files:")
+        for i, file_path in enumerate(survival_files, 1):
+            print(f"  {i}. {file_path}")
+        
+        return
+    
+    # Batch mode: process all results directories
+    if args.batch_mode:
+        results_dirs = find_results_directories()
+        if not results_dirs:
+            print("No results directories found. Use --list-results to see available options.")
+            return
+        
+        # Find data files
+        expression_files, survival_files = find_data_files()
+        expression_file = expression_files[0] if expression_files else None
+        survival_file = survival_files[0] if survival_files else None
+        
+        if not expression_file:
+            print("Warning: No expression file found. Survival curves will be skipped.")
+        if not survival_file:
+            print("Warning: No survival file found. Survival curves will be skipped.")
+        
+        print(f"Found {len(results_dirs)} results directories to process")
+        print(f"Using expression file: {expression_file}")
+        print(f"Using survival file: {survival_file}")
+        
+        # Process each directory
+        for results_dir in results_dirs:
+            output_dir = os.path.join(results_dir, "plots")
+            process_single_results(results_dir, expression_file, survival_file, output_dir, args.coord_mapping_dir)
+        
+        print(f"\n=== BATCH PROCESSING COMPLETE ===")
+        print(f"Processed {len(results_dirs)} results directories")
+        
+    else:
+        # Single directory mode
+        print("=== EEI SURVIVAL ANALYSIS PLOTTING ===")
+        
+        # Use provided files or try to find them
+        expression_file = args.expression_file
+        survival_file = args.survival_file
+        
+        if not expression_file:
+            expression_files, _ = find_data_files()
+            if expression_files:
+                expression_file = expression_files[0]
+                print(f"Using expression file: {expression_file}")
+            else:
+                print("Warning: No expression file found. Survival curves will be skipped.")
+        
+        if not survival_file:
+            _, survival_files = find_data_files()
+            if survival_files:
+                survival_file = survival_files[0]
+                print(f"Using survival file: {survival_file}")
+            else:
+                print("Warning: No survival file found. Survival curves will be skipped.")
+        
+        # Process single directory
+        success = process_single_results(args.results_dir, expression_file, survival_file, 
+                                      args.output_dir, args.coord_mapping_dir)
+        
+        if success:
+            print(f"\n=== PLOTTING COMPLETE ===")
+            print(f"All plots saved to: {args.output_dir}")
+            print(f"Report saved to: {args.results_dir}/analysis_report.txt")
 
 if __name__ == "__main__":
     main() 

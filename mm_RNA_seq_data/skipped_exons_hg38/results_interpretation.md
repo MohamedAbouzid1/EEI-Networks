@@ -1,5 +1,56 @@
 # Validation of Predicted Human EEI Networks Using Alternative Splicing Data
+I'll analyze this exon validation pipeline and explain how it works step by step.
 
+## Overview
+This pipeline validates predicted Exon-Exon Interactions (EEIs) by checking if the exons involved are known to be skipped exons (from RNA-seq data), which would indicate functional importance.
+
+### Input Data
+- **EEI predictions**: Files containing predicted exon-exon interactions from three different methods (PISA, EPPIC, Contact-based)
+- **Skipped exons data**: Coordinates of exons known to undergo alternative splicing (skipping events)
+- **Coordinate mapping**: Maps exon IDs to genomic coordinates (chr:start:end:strand format)
+- **PSI values**: Percent Spliced In values showing how often an exon is included vs skipped
+
+### Main Workflow
+
+**1. Data Loading**
+- Loads coordinate mapping to convert exon IDs to genomic positions
+- Reads EEI predictions (pairs of interacting exons)
+- Loads skipped exon events with their genomic coordinates
+
+**2. Matching Process**
+- For each EEI pair (exon1, exon2):
+  - Gets genomic coordinates for both exons
+  - Checks if either exon overlaps with any known skipped exon
+  - Uses tolerance window (±10 bp) for coordinate matching
+  - Records which exon matched and details about the skipping event
+
+**3. PSI Analysis** (if data available)
+- For matched skipped exons, loads PSI values across samples
+- Calculates statistics:
+  - Mean, median, standard deviation of inclusion rates
+  - Tissue-specific differences
+  - Classifies exons (constitutive, cassette, high-variance)
+
+**4. Statistical Summary**
+- Calculates validation metrics:
+  - Total EEIs vs EEIs with skipped exons
+  - Percentage of validated interactions
+  - Unique skipped events covered
+  - Confidence score comparisons (if available)
+
+**5. Cross-Method Comparison**
+- Compares results across PISA, EPPIC, and Contact methods
+- Identifies shared vs method-specific validated EEIs
+- Generates overlap statistics
+
+### Output Files
+- Individual validation results for each method
+- Summary statistics table
+- Matched EEI-skipped exon pairs with PSI data
+- Cross-method comparison metrics
+
+### Validation Logic
+The key assumption is that if an exon in an EEI is alternatively spliced (skipped), it suggests the EEI has functional importance in regulating splicing or protein structure, thus validating the prediction's biological relevance.
 ## Executive Summary
 
 Our orthology-based EEI prediction pipeline successfully identified exon-exon interactions that are validated by independent alternative splicing data. **Up to 24.6% of predicted exons and 12.8% of predicted EEIs involve alternatively spliced exons**, demonstrating that our predictions capture biologically relevant interactions involved in protein regulation.

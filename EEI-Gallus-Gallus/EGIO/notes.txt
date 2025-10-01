@@ -1,0 +1,19 @@
+cd /path/to/EGIO-main
+chmod 777 _RUN_egio.sh
+
+./_RUN_egio.sh \
+  -s hsa \
+  -S gge \
+  -r ../../data/ensembl_gtf/Homo_sapiens.GRCh38.114.gtf \
+  -R ../data/Gallus_gallus.bGalGal1.mat.broiler.GRCg7b.114.gtf \
+  -e ../../data/ensembl_cdna/Homo_sapiens.GRCh38.cdna.all.fa \
+  -E ../data/Gallus_gallus.bGalGal1.mat.broiler.GRCg7b.cdna.all.fa \
+  -o ../../data/ensembl_cds/Homo_sapiens.GRCh38.cds.all.fa \
+  -O ../data/Gallus_gallus.bGalGal1.mat.broiler.GRCg7b.cds.all.fa \
+  -h orthologs_prep/homogene.txt \
+  -p 6 \
+  -i 0.6 \
+  -c 0.6 \
+  -m 2 \
+  -n -2 \
+  -g -1

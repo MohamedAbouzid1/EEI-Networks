@@ -1,3 +1,43 @@
+latest update: success pipeline eei_analysis_survival
+
+(geo_env) bbf3630@mario:/cosybio_project/mabouzid/EEI_networks/EEI-Conservation-main/mm_RNA_seq_data/eei_analysis_survival $ python main.py 
+=== EEI VALIDATION USING TREATMENT RESPONSE ===
+Loading expression data from ../crc2022_exon_expression/crc2022_exon_cpm.tsv...
+Expression data shape: (588565, 25)
+First few exon IDs: ['ENSMUSE00001334242', 'ENSMUSE00001327336', 'ENSMUSE00001328607', 'ENSMUSE00001323371', 'ENSMUSE00001326783']
+Sample IDs (first 5): ['SRR17179989', 'SRR17179988', 'SRR17179987', 'SRR17179986', 'SRR17179985']
+Loading metadata from ../crc2022_exon_expression/samplesheet.csv...
+Metadata shape: (25, 13)
+Metadata columns: ['geo_accession', 'series', 'title', 'model', 'treatment', 'timepoint', 'replicate', 'Run', 'LibraryLayout', 'fastq_1', 'fastq_2', 'bam', 'strand']
+treatment_binary counts -> Control: 5, Treated: 20
+
+Response group distribution:
+response_group
+moderate_responder    10
+good_responder        10
+poor_control           5
+Name: count, dtype: int64
+
+Analyzing EEI associations with treatment response...
+
+Identifying time-dependent EEIs...
+
+Performing pseudo-survival analysis...
+
+Generating validation plots...
+Validation plots saved to ../results_survival_proxy/eei_response_validation_plots.png
+Saved response associations to ../results_survival_proxy/eei_response_associations.tsv
+Saved time-dependent EEIs to ../results_survival_proxy/time_dependent_eeis.tsv
+
+=== ANALYSIS SUMMARY ===
+Total EEIs analyzed: 331
+EEIs with expression data: 269
+Significant EEIs (p<0.05): 102
+Time-dependent EEIs: 44
+Top response-associated EEIs: 102
+
+
+---------------------------------------------------------------------------------
 python utils/coord_gene_mapping.py \
     --gtf geo_data/Mus_musculus.GRCm39.114.gtf \
     --expression geo_data/mouse_expression.tsv \
@@ -15,6 +55,46 @@ python 2_EEI_survival_analysis.py \
     --p-threshold 0.05 \
     --min-group-size 2
 
+----
+updated pipeline to use exon expression instead of gene expression
+
+python 2_EEI_survival_analysis_exons.py \
+    --mapped-eeis outputs/mapped_mouse_crpes.tsv \
+    --expression crc2022_exon_expression/crc2022_exon_cpm.tsv \
+    --survival outputs/survival_df.csv \
+    --mapping-files-dir exon_mapping_files \
+    --output-dir results_exon \
+    --cpm-threshold 0.5 \
+    --p-threshold 0.1 \
+    --min-group-size 2
+----
+failed: we need to recreate the survival data frame
+-----
+sucess: quantitative analysis instead of binary classification
+python 2_EEI_survival_treatment_analysis_exons.py \
+    --mapped-eeis outputs/mapped_mouse_crpes_brca.tsv \
+    --expression crc2022_exon_expression/crc2022_exon_cpm.tsv \
+    --metadata crc2022_exon_expression/samplesheet.csv \
+    --mapping-files-dir exon_mapping_files \
+    --output-dir results_treatment_quantitative_medium \
+    --cpm-threshold 0 \
+    --p-threshold 0.05 \
+    --min-group-size 2 \
+    --test-variable treatment_binary
+
+
+---
+second try without survival data
+python eei_treatment_analysis.py \
+    --mapped-eeis outputs/mapped_mouse_crpes.tsv \
+    --expression crc2022_exon_expression/crc2022_exon_cpm.tsv \
+    --metadata crc2022_exon_expression/samplesheet.csv \
+    --mapping-files-dir exon_mapping_files \
+    --output-dir results_treatment \
+    --cpm-threshold 0.5 \
+    --p-threshold 0.05 \
+    --min-group-size 2 \
+    --test-variable treatment
 
     -----
     Pipeline CLI output
@@ -202,6 +282,290 @@ Saved summary statistics to results_low/survival_analysis_summary.json
 Analysis completed successfully!
 Results saved to: results_low
 -----
+results medium
+(geo_env) bbf3630@mario:/cosybio_project/mabouzid/EEI_networks/EEI-Conservation-main/mm_RNA_seq_data $ python 2_EEI_survival_analysis.py     --mapped-eeis outputs/mapped_mouse_crpes_medium.tsv     --expression geo_data/mouse_expression_transposed.tsv     --survival outputs/survival_df.csv     --mapping-files-dir coord_gene_mapping_files     --output-dir results_medium     --cpm-threshold 0.5     --p-threshold 0.05     --min-group-size 2
+=== EEI SURVIVAL ANALYSIS PIPELINE ===
+Mapped EEIs file: outputs/mapped_mouse_crpes_medium.tsv
+Expression file: geo_data/mouse_expression_transposed.tsv
+Survival file: outputs/survival_df.csv
+Mapping files directory: coord_gene_mapping_files
+Output directory: results_medium
+CPM threshold: 0.5
+P-value threshold: 0.05
+Minimum group size: 2
+==================================================
+=== MOUSE EEI SURVIVAL ANALYSIS ===
+Loading data...
+Loaded 980 mapped mouse EEIs
+Loading expression data from geo_data/mouse_expression_transposed.tsv...
+Original expression data shape: (23699, 17)
+First few column names: ['BM663_mouse_1_KPC_HOP_DAC', 'BM667_mouse_2_KPC_HOP_DAC', 'BM726_mouse_3_KPC_HOP_DAC', 'BM730_mouse_4_KPC_HOP_PBS', 'BM731_mouse_5_KPC_HOP_PBS']
+First few row names: ['Xkr4', 'Rp1', 'Sox17', 'Mrpl15', 'Lypla1']
+Final expression data shape: (23699, 17)
+Sample IDs (first 5): ['BM663_mouse_1_KPC_HOP_DAC', 'BM667_mouse_2_KPC_HOP_DAC', 'BM726_mouse_3_KPC_HOP_DAC', 'BM730_mouse_4_KPC_HOP_PBS', 'BM731_mouse_5_KPC_HOP_PBS']
+Loaded expression data: (23699, 17)
+Loading survival data from outputs/survival_df.csv...
+Survival data columns: ['mouse_id', 'treatment_group', 'survival_days', 'event_status']
+Survival data shape: (17, 4)
+Processed survival data: (17, 4)
+Final columns: ['sample_id', 'treatment_group', 'survival_time', 'event_status']
+Loaded survival data: 17 samples
+Found 17 common samples
+Aligned data: 17 samples with both expression and survival data
 
+=== MAPPING COVERAGE ANALYSIS ===
+Sample analysis (first 50 EEIs):
+  Both exons mapped: 50 (100.0%)
+  One exon mapped: 0 (0.0%)
+  Neither exon mapped: 0 (0.0%)
+
+Estimated for all 980 EEIs:
+  Both exons mapped: ~980 (100.0%)
+
+Testing 980 EEIs for survival associations...
+Processed 50/980 EEIs...
+Processed 100/980 EEIs...
+Processed 150/980 EEIs...
+Processed 200/980 EEIs...
+Processed 250/980 EEIs...
+Processed 300/980 EEIs...
+Processed 350/980 EEIs...
+Processed 400/980 EEIs...
+Processed 450/980 EEIs...
+Processed 500/980 EEIs...
+Processed 550/980 EEIs...
+Processed 600/980 EEIs...
+Processed 650/980 EEIs...
+Processed 700/980 EEIs...
+Processed 750/980 EEIs...
+Processed 800/980 EEIs...
+Processed 850/980 EEIs...
+Processed 900/980 EEIs...
+Processed 950/980 EEIs...
+
+=== DEBUG SUMMARY ===
+Total mapped EEIs: 980
+EEIs with missing expression data: 118
+EEIs with insufficient group sizes: 785
+Successfully mapped and testable EEIs: 77
+Success rate: 77/980 (7.9%)
+
+==================================================
+SURVIVAL ANALYSIS RESULTS SUMMARY
+==================================================
+Total EEIs tested: 77
+Significant EEIs (p≤0.05): 1
+Significance rate: 1.3%
+Median p-value: 0.7865
+Minimum p-value: 2.16e-02
+
+Prognostic Types:
+  Favorable EEIs: 1
+  Unfavorable EEIs: 0
+  Average identity of significant EEIs: 0.910
+
+Top 5 most significant EEIs:
+  chr8:26050736:26050859:1 - chr3:37450334:37450437:1: p=2.16e-02 (Favorable)
+
+==================================================
+Saved all results to results_medium/all_eei_survival_results.tsv
+Saved significant results to results_medium/significant_eei_survival_results.tsv
+Saved summary statistics to results_medium/survival_analysis_summary.json
+
+Analysis completed successfully!
+Results saved to: results_medium
+-----
+
+## second run different parameters
+(geo_env) bbf3630@mario:/cosybio_project/mabouzid/EEI_networks/EEI-Conservation-main/mm_RNA_seq_data $ python 2_EEI_survival_analysis.py     --mapped-eeis outputs/mapped_mouse_crpes_medium.tsv     --expression geo_data/mouse_expression_transposed.tsv     --survival outputs/survival_df.csv     --mapping-files-dir coord_gene_mapping_files     --output-dir results_medium1     --cpm-threshold 0.05     --p-threshold 0.1     --min-group-size 1
+
+Testing 980 EEIs for survival associations...
+Processed 50/980 EEIs...
+Processed 100/980 EEIs...
+Processed 150/980 EEIs...
+Processed 200/980 EEIs...
+Processed 250/980 EEIs...
+Processed 300/980 EEIs...
+Processed 350/980 EEIs...
+Processed 400/980 EEIs...
+Processed 450/980 EEIs...
+Processed 500/980 EEIs...
+Processed 550/980 EEIs...
+Processed 600/980 EEIs...
+Processed 650/980 EEIs...
+Processed 700/980 EEIs...
+Processed 750/980 EEIs...
+Processed 800/980 EEIs...
+Processed 850/980 EEIs...
+Processed 900/980 EEIs...
+Processed 950/980 EEIs...
+
+=== DEBUG SUMMARY ===
+Total mapped EEIs: 980
+EEIs with missing expression data: 118
+EEIs with insufficient group sizes: 830
+Successfully mapped and testable EEIs: 32
+Success rate: 32/980 (3.3%)
+
+==================================================
+SURVIVAL ANALYSIS RESULTS SUMMARY
+==================================================
+Total EEIs tested: 32
+Significant EEIs (p≤0.05): 4
+Significance rate: 12.5%
+Median p-value: 1.0000
+Minimum p-value: 4.25e-02
+
+Prognostic Types:
+  Favorable EEIs: 0
+  Unfavorable EEIs: 4
+  Average identity of significant EEIs: 0.932
+
+Top 5 most significant EEIs:
+  chr15:101618188:101618313:-1 - chr11:100094934:100095154:-1: p=4.25e-02 (Unfavorable)
+  chr15:101618188:101618313:-1 - chr11:100095250:100095375:-1: p=4.25e-02 (Unfavorable)
+  chr15:101617311:101617531:-1 - chr11:100094934:100095154:-1: p=4.25e-02 (Unfavorable)
+  chr15:101617311:101617531:-1 - chr11:100095250:100095375:-1: p=4.25e-02 (Unfavorable)
+
+==================================================
+Saved all results to results_medium1/all_eei_survival_results.tsv
+Saved significant results to results_medium1/significant_eei_survival_results.tsv
+Saved summary statistics to results_medium1/survival_analysis_summary.json
+
+Analysis completed successfully!
+Results saved to: results_medium1
+
+---
+=== MAPPING COVERAGE ANALYSIS ===
+Sample analysis (first 50 EEIs):
+  Both exons mapped: 41 (82.0%)
+  One exon mapped: 6 (12.0%)
+  Neither exon mapped: 3 (6.0%)
+
+Estimated for all 342 EEIs:
+  Both exons mapped: ~280 (81.9%)
+
+(geo_env) bbf3630@mario:/cosybio_project/mabouzid/EEI_networks/EEI-Conservation-main/mm_RNA_seq_data $ python 2_EEI_survival_analysis.py     --mapped-eeis outputs/mapped_mouse_crpes_high.tsv     --expression geo_data/mouse_expression_transposed.tsv     --survival outputs/survival_df.csv     --mapping-files-dir coord_gene_mapping_files     --output-dir results_high1     --cpm-threshold 0.05     --p-threshold 0.1     --min-group-size 1
+
+
+Testing 342 EEIs for survival associations...
+Processed 50/342 EEIs...
+Processed 100/342 EEIs...
+Processed 150/342 EEIs...
+Processed 200/342 EEIs...
+Processed 250/342 EEIs...
+Processed 300/342 EEIs...
+
+=== DEBUG SUMMARY ===
+Total mapped EEIs: 342
+EEIs with missing expression data: 46
+EEIs with insufficient group sizes: 284
+Successfully mapped and testable EEIs: 12
+Success rate: 12/342 (3.5%)
+
+==================================================
+SURVIVAL ANALYSIS RESULTS SUMMARY
+==================================================
+Total EEIs tested: 12
+Significant EEIs (p≤0.05): 4
+Significance rate: 33.3%
+Median p-value: 0.5959
+Minimum p-value: 4.25e-02
+
+Prognostic Types:
+  Favorable EEIs: 0
+  Unfavorable EEIs: 4
+  Average identity of significant EEIs: 0.932
+
+Top 5 most significant EEIs:
+  chr15:101618188:101618313:-1 - chr11:100094934:100095154:-1: p=4.25e-02 (Unfavorable)
+  chr15:101618188:101618313:-1 - chr11:100095250:100095375:-1: p=4.25e-02 (Unfavorable)
+  chr15:101617311:101617531:-1 - chr11:100094934:100095154:-1: p=4.25e-02 (Unfavorable)
+  chr15:101617311:101617531:-1 - chr11:100095250:100095375:-1: p=4.25e-02 (Unfavorable)
+
+==================================================
+Saved all results to results_high1/all_eei_survival_results.tsv
+Saved significant results to results_high1/significant_eei_survival_results.tsv
+Saved summary statistics to results_high1/survival_analysis_summary.json
+
+Analysis completed successfully!
+Results saved to: results_high1
+
+---
+
+
+Processed 300/1321 EEIs...
+Processed 350/1321 EEIs...
+Processed 400/1321 EEIs...
+Processed 450/1321 EEIs...
+Processed 500/1321 EEIs...
+Processed 550/1321 EEIs...
+Processed 600/1321 EEIs...
+Processed 650/1321 EEIs...
+Processed 700/1321 EEIs...
+Processed 750/1321 EEIs...
+Processed 800/1321 EEIs...
+Processed 850/1321 EEIs...
+Processed 900/1321 EEIs...
+Processed 950/1321 EEIs...
+Processed 1000/1321 EEIs...
+Processed 1050/1321 EEIs...
+Processed 1100/1321 EEIs...
+Processed 1150/1321 EEIs...
+Processed 1200/1321 EEIs...
+Processed 1250/1321 EEIs...
+Processed 1300/1321 EEIs...
+
+=== DEBUG SUMMARY ===
+Total mapped EEIs: 1321
+EEIs with missing expression data: 141
+EEIs with insufficient group sizes: 1147
+Successfully mapped and testable EEIs: 33
+Success rate: 33/1321 (2.5%)
+
+==================================================
+SURVIVAL ANALYSIS RESULTS SUMMARY
+==================================================
+Total EEIs tested: 33
+Significant EEIs (p≤0.05): 4
+Significance rate: 12.1%
+Median p-value: 1.0000
+Minimum p-value: 4.25e-02
+
+Prognostic Types:
+  Favorable EEIs: 0
+  Unfavorable EEIs: 4
+  Average identity of significant EEIs: 0.932
+
+Top 5 most significant EEIs:
+  chr15:101618188:101618313:-1 - chr11:100094934:100095154:-1: p=4.25e-02 (Unfavorable)
+  chr15:101618188:101618313:-1 - chr11:100095250:100095375:-1: p=4.25e-02 (Unfavorable)
+  chr15:101617311:101617531:-1 - chr11:100094934:100095154:-1: p=4.25e-02 (Unfavorable)
+  chr15:101617311:101617531:-1 - chr11:100095250:100095375:-1: p=4.25e-02 (Unfavorable)
+
+==================================================
+Saved all results to results_low1/all_eei_survival_results.tsv
+Saved significant results to results_low1/significant_eei_survival_results.tsv
+Saved summary statistics to results_low1/survival_analysis_summary.json
+
+Analysis completed successfully!
+Results saved to: results_low1
+
+--
 results plotting script
 python plot_survival_results.py --results-dir results_low --expression-file geo_data/mouse_expression_transposed.tsv --survival-file outputs/survival_df.csv
+----
+update 03.09.2025
+new implementation:
+
+select only the breast cancer EEIs from khalique's paper --> run the current pipeline on them and find the correlation based on the methodology
+done in the skipped exons pipeline
+
+read the paper again carefully and figure out the survival timestamps --> then apply survival analysis 
+----
+To-do:
+1. read the paper again and come up with answers --> not found
+2. hopefully get the survival data
+3. extract the breast cancer EEIs
+4. modify the current cancer pipeline to use the same correlation methodoly used in the skipped exons pipeline
+5. run the pipeline and see the results

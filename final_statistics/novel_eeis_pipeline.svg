@@ -1,0 +1,165 @@
+<svg viewBox="0 0 900 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .title-text { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #2c3e50; }
+      .subtitle-text { font-family: Arial, sans-serif; font-size: 14px; fill: #34495e; }
+      .label-text { font-family: Arial, sans-serif; font-size: 12px; fill: #2c3e50; }
+      .small-text { font-family: Arial, sans-serif; font-size: 11px; fill: #7f8c8d; }
+      .exon-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: white; }
+      .percentage-text { font-family: Arial, sans-serif; font-size: 11px; fill: #27ae60; font-weight: bold; }
+      .confidence-text { font-family: Arial, sans-serif; font-size: 13px; fill: #2c3e50; font-weight: bold; }
+    </style>
+    
+    <!-- Arrow marker -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e" />
+    </marker>
+    
+    <!-- Gradient for boxes -->
+    <linearGradient id="mouseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff4e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffecb3;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="humanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="orthoGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bbdefb;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="predGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8bbd0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Title -->
+  <text x="450" y="30" class="title-text" text-anchor="middle">Novel Human EEI Prediction Pipeline</text>
+  
+  <!-- Step 1: Known Mouse EEIs -->
+  <g id="mouse-section">
+    <rect x="30" y="70" width="230" height="140" rx="8" fill="url(#mouseGrad)" stroke="#ff9800" stroke-width="2"/>
+    <text x="145" y="95" class="subtitle-text" text-anchor="middle" font-weight="bold">Step 1: Known species EEIs</text>
+    <text x="145" y="115" class="small-text" text-anchor="middle">(For example mouse)</text>
+
+    
+    <!-- Mouse exons -->
+    <circle cx="90" cy="160" r="25" fill="#ffa726" stroke="#f57c00" stroke-width="2"/>
+    <text x="90" y="165" class="exon-label" text-anchor="middle">A</text>
+    
+    <circle cx="200" cy="160" r="25" fill="#ffa726" stroke="#f57c00" stroke-width="2"/>
+    <text x="200" y="165" class="exon-label" text-anchor="middle">B</text>
+
+    <line x1="115" y1="160" x2="175" y2="160" stroke="#f57c00" stroke-width="3"/>
+
+
+    
+  </g>
+  
+  <!-- Step 2: Orthology Mapping -->
+  <g id="orthology-section">
+    <rect x="335" y="70" width="230" height="200" rx="8" fill="url(#orthoGrad)" stroke="#2196f3" stroke-width="2"/>
+    <text x="450" y="95" class="subtitle-text" text-anchor="middle" font-weight="bold">Step 2: Orthology Mapping</text>
+    <text x="450" y="115" class="small-text" text-anchor="middle">(EGIO output)</text>
+    
+    <!-- Mouse to Human mapping -->
+    <circle cx="380" cy="160" r="20" fill="#ffa726" stroke="#f57c00" stroke-width="2"/>
+    <text x="380" y="165" class="exon-label" text-anchor="middle">A</text>
+    
+    <circle cx="380" cy="220" r="20" fill="#ffa726" stroke="#f57c00" stroke-width="2"/>
+    <text x="380" y="225" class="exon-label" text-anchor="middle">B</text>
+    
+    <!-- Arrows with similarity -->
+    <path d="M 400 160 L 500 160" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+    <text x="440" y="153" class="percentage-text" text-anchor="middle">90% identity</text>
+    
+    <path d="M 400 220 L 500 220" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+    <text x="440" y="213" class="percentage-text" text-anchor="middle">85% identity</text>
+    
+    <!-- Human orthologs -->
+    <circle cx="520" cy="160" r="20" fill="#42a5f5" stroke="#1976d2" stroke-width="2"/>
+    <text x="520" y="165" class="exon-label" text-anchor="middle">X</text>
+    
+    <circle cx="520" cy="220" r="20" fill="#42a5f5" stroke="#1976d2" stroke-width="2"/>
+    <text x="520" y="225" class="exon-label" text-anchor="middle">Y</text>
+    
+  </g>
+  
+  <!-- Step 3: Known Human EEIs -->
+  <g id="human-section">
+    <rect x="640" y="70" width="230" height="140" rx="8" fill="url(#humanGrad)" stroke="#4caf50" stroke-width="2"/>
+    <text x="755" y="95" class="subtitle-text" text-anchor="middle" font-weight="bold">Step 3: Known Human EEIs</text>
+    <text x="755" y="115" class="small-text" text-anchor="middle">(Database check)</text>
+    
+    <!-- Human exons -->
+    <circle cx="700" cy="160" r="25" fill="#66bb6a" stroke="#388e3c" stroke-width="2"/>
+    <text x="700" y="165" class="exon-label" text-anchor="middle">W</text>
+    
+    <circle cx="810" cy="160" r="25" fill="#66bb6a" stroke="#388e3c" stroke-width="2"/>
+    <text x="810" y="165" class="exon-label" text-anchor="middle">Z</text>
+    
+    <!-- Known interaction -->
+    <line x1="725" y1="160" x2="785" y2="160" stroke="#388e3c" stroke-width="3"/>
+    <text x="755" y="190" class="small-text" text-anchor="middle">X-Y interaction unknown</text>
+  </g>
+  
+  <!-- Step 4: Prediction -->
+  <g id="prediction-section">
+    <rect x="285" y="330" width="330" height="120" rx="8" fill="url(#predGrad)" stroke="#e91e63" stroke-width="2"/>
+    <text x="450" y="355" class="subtitle-text" text-anchor="middle" font-weight="bold">Step 4: Novel EEI Prediction</text>
+    
+    <!-- Prediction logic -->
+    <text x="450" y="380" class="label-text" text-anchor="middle">IF: A-B interaction exists in mouse</text>
+    <text x="450" y="400" class="label-text" text-anchor="middle">AND: X and Y are orthologs with high identity</text>
+    <text x="450" y="420" class="label-text" text-anchor="middle">AND: X-Y interaction not in human database</text>
+  </g>
+  
+  <!-- Result -->
+  <g id="result-section">
+    <rect x="320" y="480" width="260" height="120" rx="8" fill="#ffffff" stroke="#9c27b0" stroke-width="2" stroke-dasharray="8,4"/>
+    
+    <text x="450" y="505" class="subtitle-text" text-anchor="middle" font-weight="bold">Predicted Novel Human EEI</text>
+    
+    <!-- Predicted interaction -->
+    <circle cx="390" cy="535" r="20" fill="#42a5f5" stroke="#1976d2" stroke-width="2"/>
+    <text x="390" y="540" class="exon-label" text-anchor="middle">X</text>
+    
+    <circle cx="510" cy="535" r="20" fill="#42a5f5" stroke="#1976d2" stroke-width="2"/>
+    <text x="510" y="540" class="exon-label" text-anchor="middle">Y</text>
+    
+    <!-- Predicted interaction line -->
+    <line x1="410" y1="535" x2="490" y2="535" stroke="#9c27b0" stroke-width="3" stroke-dasharray="5,3"/>
+    
+    <text x="450" y="575" class="confidence-text" text-anchor="middle">Confidence: 87.5%</text>
+  </g>
+  
+  <!-- Flow arrows -->
+  <path d="M 260 140 L 335 140" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 565 140 L 640 140" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 450 270 L 450 330" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 450 450 L 450 480" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Legend -->
+  <g id="legend" transform="translate(30, 600)">
+    <text x="0" y="0" class="label-text" font-weight="bold">Legend:</text>
+    <circle cx="15" cy="20" r="8" fill="#ffa726"/>
+    <text x="30" y="25" class="small-text">Mouse exon</text>
+    
+    <circle cx="110" cy="20" r="8" fill="#42a5f5"/>
+    <text x="125" y="25" class="small-text">Human exon</text>
+    
+    <circle cx="240" cy="20" r="8" fill="#66bb6a"/>
+    <text x="255" y="25" class="small-text">Human exon (known)</text>
+    
+    <line x1="370" y1="20" x2="400" y2="20" stroke="#34495e" stroke-width="3"/>
+    <text x="410" y="25" class="small-text">Known interaction</text>
+    
+    <line x1="520" y1="20" x2="550" y2="20" stroke="#9c27b0" stroke-width="3" stroke-dasharray="5,3"/>
+    <text x="560" y="25" class="small-text">Predicted interaction</text>
+  </g>
+</svg>

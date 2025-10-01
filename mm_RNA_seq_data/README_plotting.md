@@ -44,7 +44,7 @@ python plot_survival_results.py --results-dir my_results --coord-mapping-dir my_
 - `--results-dir, -r`: Directory containing analysis results (default: results)
 - `--expression-file, -e`: Expression data file (TSV format)
 - `--survival-file, -s`: Survival data file (CSV format)
-- `--output-dir, -o`: Output directory for plots (default: results/plots)
+- `--output-dir, -o`: Output directory for plots (defaults to the results directory)
 - `--coord-mapping-dir, -c`: Directory for coordinate to gene mapping files (default: coord_gene_mapping_files)
 - `--list-results`: List available results directories and exit
 - `--batch-mode`: Process all results directories found in current directory
@@ -81,7 +81,7 @@ python plot_survival_results.py \
   --results-dir experiment_1_results \
   --expression-file data/expression_matrix.tsv \
   --survival-file data/survival_data.csv \
-  --output-dir experiment_1_plots
+  --output-dir experiment_1_results
 ```
 
 ### Example 3: Batch Process All Experiments
@@ -103,4 +103,4 @@ The script will create:
 - Analysis overview plots
 - Text report with summary statistics
 
-All plots are saved in the specified output directory (or `results/plots` by default).
+All plots are saved in the specified output directory (or `results` by default).

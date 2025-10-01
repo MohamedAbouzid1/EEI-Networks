@@ -205,10 +205,10 @@ def load_exon_mapping_file(mapping_file):
 
 if __name__ == "__main__":
     egio_file = "EGIO/ExonGroup_testpro_hsa_mus.txt"
-    human_crpe_file = "CRPE_human/1_NETLOW_CRPES.txt"
+    human_crpe_file = "CRPE_human/BRCA_combined_EEIs_unique_pairs.txt"
     human_exon_mapping_file = "exon_mapping_files/exon_coord_mapping_human.tsv"
     mouse_exon_mapping_file = "exon_mapping_files/exon_coord_mapping_mouse.tsv"
-    output_file = "outputs/mapped_mouse_crpes_low.tsv"
+    output_file = "outputs/mapped_mouse_crpes_brca.tsv"
     
     # Run the mapping
     mapped_eeis, stats = map_human_crpes_to_mouse_orthologs(

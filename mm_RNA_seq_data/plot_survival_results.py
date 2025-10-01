@@ -29,8 +29,8 @@ def parse_arguments():
                        help='Expression data file (TSV format)')
     parser.add_argument('--survival-file', '-s', 
                        help='Survival data file (CSV format)')
-    parser.add_argument('--output-dir', '-o', default='results/plots',
-                       help='Output directory for plots (default: results/plots)')
+    parser.add_argument('--output-dir', '-o', 
+                       help='Output directory for plots (defaults to the results directory)')
     parser.add_argument('--coord-mapping-dir', '-c', default='coord_gene_mapping_files',
                        help='Directory for coordinate to gene mapping files (default: coord_gene_mapping_files)')
     parser.add_argument('--list-results', action='store_true',
@@ -320,11 +320,14 @@ def plot_survival_curves(significant_results, expression_file, survival_file, ou
                             bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
                     
                     # Save plot
-                    safe_name = f"{gene1}_{gene2}".replace(':', '_').replace('-', '_')
-                    plt.savefig(f"{output_dir}/survival_curve_{safe_name}.png", dpi=300, bbox_inches='tight')
+                    # Create unique identifier using coordinates to avoid overwriting
+                    coord1 = exon1_coord.replace(':', '_').replace('-', '_')
+                    coord2 = exon2_coord.replace(':', '_').replace('-', '_')
+                    safe_name = f"survival_curve_{gene1}_{coord1}_{gene2}_{coord2}"
+                    plt.savefig(f"{output_dir}/{safe_name}.png", dpi=300, bbox_inches='tight')
                     plt.close()
                     
-                    print(f"✓ Survival curve saved for {gene1}-{gene2}")
+                    print(f"✓ Survival curve saved for {gene1}-{gene2} ({coord1}-{coord2})")
                     
         except Exception as e:
             print(f"Error plotting EEI {exon1_coord}-{exon2_coord}: {e}")
@@ -430,7 +433,9 @@ def process_single_results(results_dir, expression_file=None, survival_file=None
     """Process a single results directory."""
     
     if output_dir is None:
-        output_dir = os.path.join(results_dir, "plots")
+        output_dir = results_dir  # Save plots directly in the results directory
+    elif output_dir == "results":  # If using default, use the actual results directory
+        output_dir = results_dir
     
     if coord_mapping_dir is None:
         coord_mapping_dir = "coord_gene_mapping_files"
@@ -446,10 +451,7 @@ def process_single_results(results_dir, expression_file=None, survival_file=None
         print(f"Error loading results from {results_dir}: {e}")
         return False
     
-    # Create plots directory
-    os.makedirs(output_dir, exist_ok=True)
-    
-    # Generate plots
+    # Generate plots directly in the results directory
     print(f"Generating plots in {output_dir}...")
     
     # 1. P-value distribution
@@ -469,8 +471,7 @@ def process_single_results(results_dir, expression_file=None, survival_file=None
     plot_analysis_overview(all_results, significant_results, summary_stats, output_dir)
     
     # 5. Create report
-    report_dir = os.path.dirname(output_dir) if output_dir != results_dir else results_dir
-    create_results_report(significant_results, summary_stats, report_dir)
+    create_results_report(significant_results, summary_stats, output_dir)
     
     print(f"✓ Completed processing {results_dir}")
     return True
@@ -522,8 +523,7 @@ def main():
         
         # Process each directory
         for results_dir in results_dirs:
-            output_dir = os.path.join(results_dir, "plots")
-            process_single_results(results_dir, expression_file, survival_file, output_dir, args.coord_mapping_dir)
+            process_single_results(results_dir, expression_file, survival_file, results_dir, args.coord_mapping_dir)
         
         print(f"\n=== BATCH PROCESSING COMPLETE ===")
         print(f"Processed {len(results_dirs)} results directories")
@@ -553,13 +553,14 @@ def main():
                 print("Warning: No survival file found. Survival curves will be skipped.")
         
         # Process single directory
+        # If no output directory specified, use the results directory
+        output_dir = args.output_dir if args.output_dir else args.results_dir
         success = process_single_results(args.results_dir, expression_file, survival_file, 
-                                      args.output_dir, args.coord_mapping_dir)
+                                      output_dir, args.coord_mapping_dir)
         
         if success:
             print(f"\n=== PLOTTING COMPLETE ===")
-            print(f"All plots saved to: {args.output_dir}")
-            print(f"Report saved to: {args.results_dir}/analysis_report.txt")
+            print(f"All plots and report saved to: {output_dir}")
 
 if __name__ == "__main__":
     main() 

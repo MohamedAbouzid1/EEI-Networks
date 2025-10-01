@@ -1,12 +1,132 @@
-EEI-Homo-Sapiens-2024/3-EPPIC-based/eppic_log.txt
-EEI-Homo-Sapiens-2024/results/
+# Large data directories (genomic and structural data)
 data/
-EEI-Mus-Musculus/
-EEI-Homo-Sapiens-2024/3-EPPIC-based
-mm_RNA_seq_data/data
+*/data/
+EEI-*/data/
+mm_RNA_seq_data/data/
+
+# Large genomic data files (keep code, exclude big data)
+*.fa
+*.fasta
+*.fna
+*.fas
+*.gtf
+*.gff
+*.gff3
+*.sam
+*.bam
+*.tmp
+*_processed*
+processed_*
+SA
+SAindex
+Genome
+
+# Large compressed archives
+*.tar.gz
+*.tar
+*.zip
+*.gz
+
+# STAR index directories (large binary files)
+*/refs/*/mm39_star/
+*/refs/*/star/
+
+# Large result directories in mm_RNA_seq_data
+mm_RNA_seq_data/mouse_studies/
+mm_RNA_seq_data/results_*/
+
+# PDB structure files
+*.cif
+*.pdb
+*.ent
+
+# SIFTS XML files
+*.xml
+
+# Large mapping files
+*_coord_mapping_*.tsv
+exon_coord_mapping_*.tsv
+*/exon_coord_map/exon_coord_map_*.tsv
+
+# Results directories
+*/results/
+results/
+orthology_based_EEI_prediction/results_CONTACT_BASED/
+mm_RNA_seq_data/results/
+EEI-Mus-Musculus/results_*/
+
+# EPPIC logs and data
+EPPIC/logs/
+EPPIC/data/
+EPPIC/results/
+*/EPPIC/logs/
+*/EPPIC/data/
+*/EPPIC/results/
+eppic/logs/
+eppic/data/
+eppic/results/
+*/eppic/logs/
+*/eppic/data/
+*/eppic/results/
+
+# Specific large files already identified
 mm_RNA_seq_data/geo_data/Mus_musculus.GRCm39.114.gtf
 mm_RNA_seq_data/geo_data/GSE101336_processed_matrix_FPKM.txt
 mm_RNA_seq_data/geo_data/GSE165856_family.soft.gz
 mm_RNA_seq_data/geo_data/GSE165856_Goncalves-MG-7833_2019_10_25_HTSeq.gene.counts.csv
 mm_RNA_seq_data/skipped_exons_hg38/skipped_exon_coords.tsv
 mm_RNA_seq_data/skipped_exons_hg38/ex_psi
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large directories to exclude completely
+EEINet
+
+# Additional large data directories that should not be committed
+EEI-Bos-Taurus/
+EEI-Rattus-Norvegicus/
+EEI-Saccharomyces/
+
+# Large EGIO data files
+*.exon
+*.tran
+*.exonfasta
+*_coord_mapping_*.json
+*_coord_mapping_*.tsv
+exon_coord_mapping_*.tsv
+
+# Large result and analysis directories
+mm_RNA_seq_data/crc2022_exon_expression/
+mm_RNA_seq_data/eei_quantitative_visualization_plots/
+mm_RNA_seq_data/overlapping_EEI_detector/
+mm_RNA_seq_data/skipped_exons_hg38/
+orthology_based_EEI_prediction/results_*/
+orthology_based_EEI_prediction/EEI_analysis/
+paralog_based_EEI_prediction/
+
+# Large mapping and coordinate files
+mm_RNA_seq_data/coord_gene_mapping_files/
+mm_RNA_seq_data/exon_mapping_files/
+
+# Large analysis output files
+mm_RNA_seq_data/BRCA_*
+mm_RNA_seq_data/brca_*
+mm_RNA_seq_data/CRPE_human/

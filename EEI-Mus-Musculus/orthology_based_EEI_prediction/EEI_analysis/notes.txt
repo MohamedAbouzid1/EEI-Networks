@@ -1,0 +1,20 @@
+python analyze_eei_predictions.py \
+  --human-eei /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Homo-Sapiens-2024/results/3-EPPIC_results/EPPIC_EEIN_filtered.txt \
+  --mouse-eei /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Mus-Musculus/3-EPPIC-based/results/EPPIC_EEIN_filtered.txt \
+  --egio /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EGIO/results/ExonGroup_testpro_hsa_mus.txt \
+  --predicted /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/orthology_based_EEI_prediction/results_EPPIC_Based/predicted_human_eeis_fixed_no_conf_threshold_all_iden_0.tsv \
+  --human-exon-map /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/orthology_based_EEI_prediction/results_CONTACT_BASED/exon_coord_mapping_human.tsv \
+  --mouse-exon-map /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/orthology_based_EEI_prediction/results_CONTACT_BASED/exon_coord_mapping_mouse.tsv \
+  --output-dir /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/orthology_based_EEI_prediction/results_EPPIC_BASED/analysis_results_EPPIC_based_no_conf_threshold
+
+python analyze_eei_predictions.py \
+  --human-eei /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Homo-Sapiens-2024/results/1-CONTACT_results/human_network_final.txt \
+  --mouse-eei /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Mus-Musculus/results/Mus_musculus/CONTACT_networks/CONTACT_net_6_1.txt \
+  --egio /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EGIO/results/ExonGroup_testpro_hsa_mus.txt \
+  --predicted /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/orthology_based_EEI_prediction/results_CONTACT_BASED/predicted_human_eeis_fixed_no_conf_threshold_all_relationships_iden_0.tsv \
+  --predicted-with-threshold /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/orthology_based_EEI_prediction/results_CONTACT_BASED/predicted_human_eeis_fixed_no_conf_threshold_all_relationships_iden_6.tsv \
+  --human-exon-map /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/orthology_based_EEI_prediction/results_CONTACT_BASED/exon_coord_mapping_human.tsv \
+  --mouse-exon-map /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/orthology_based_EEI_prediction/results_CONTACT_BASED/exon_coord_mapping_mouse.tsv \
+  --output-dir /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/orthology_based_EEI_prediction/results_CONTACT_BASED/enhanced_analysis_1 \
+  --analyze-clusters \
+  --min-cluster-size 3

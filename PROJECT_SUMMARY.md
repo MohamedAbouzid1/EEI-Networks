@@ -1,8 +1,8 @@
-# EEI Conservation Project: Executive Summary
+# EEI-Networks Project: Executive Summary
 
 ## Project Overview
 
-This thesis project implements a comprehensive three-pipeline approach for constructing and expanding Human Exon-Exon Interaction (EEI) networks through evolutionary conservation analysis. The work extends the original research on cancer-related protein complex interface aberrations by leveraging structural data from multiple eukaryote species and orthology relationships.
+This thesis project implements a comprehensive four-pipeline approach for constructing and expanding Human Exon-Exon Interaction (EEI) networks through evolutionary conservation analysis. The work extends the original research on cancer-related protein complex interface aberrations by leveraging structural data from multiple eukaryote species.
 
 ## Research Motivation
 
@@ -36,14 +36,20 @@ This thesis project implements a comprehensive three-pipeline approach for const
 
 **Implementation**: Same three-method approach as human for each species
 
-### Pipeline 3: Orthology Mapping and EEI Prediction
+### Pipeline 3: Orthology Mapping using EGIO
+**Objective**: Detect orthologous exons between human and each species using EGIO tool
+
+**Components**:
+Use EGIO to create a high-confidence map for each species and human for orthologous exons to use later in the fourth pipeline
+
+### Pipeline 4: Orthology Mapping and EEI Prediction
 **Objective**: Expand human EEI networks through evolutionary conservation
 
 **Components**:
-1. **EGIO Analysis**: Detect orthologous exons between human and each species
-2. **Orthology Mapping**: Map orthologous exons and transfer EEIs
-3. **Confidence Scoring**: Assign reliability metrics based on conservation patterns
-4. **Validation**: Cross-validate predictions against known human EEIs
+1. **EGIO Output**: Detect orthologous exons between human and each species
+2. **Exon-coordinate maps**: Map orthologous exons and transfer EEIs
+3. **Validation**: Cross-validate predictions against known human EEIs
+
 
 ## Key Innovations
 
@@ -96,9 +102,7 @@ This thesis project implements a comprehensive three-pipeline approach for const
 EEI-Conservation-main/
 ├── EEI-Homo-Sapiens/           # Pipeline 1: Human baseline
 ├── EEI-[Species]/              # Pipeline 2: Species networks (7 species)
-├── EGIO/                       # Orthology detection
 ├── orthology_based_EEI_prediction/  # Pipeline 3: Orthology mapping
-├── EEINet/                     # Web interface and database
 ├── data/                       # Shared data resources
 ├── THESIS_DOCUMENTATION.md     # Main documentation
 ├── TECHNICAL_IMPLEMENTATION.md # Technical details
@@ -176,4 +180,4 @@ For questions about the implementation or methodology:
 
 ---
 
-*This executive summary provides a high-level overview of the EEI Conservation project. For detailed information, refer to the comprehensive documentation files.*
+*This executive summary provides a high-level overview of the EEI-Networks project. For detailed information, refer to the comprehensive documentation files.*

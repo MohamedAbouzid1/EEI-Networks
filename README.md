@@ -8,9 +8,6 @@ In order to accomplish the task, three approaches have been used, divided in the
 #### EEI-Homo-Sapiens-2024
 + EEI-networks of Homo Sapiens are built using UniProt data updated to October 2024, while in the paper data from 2022 are used.
 
-#### PPI-Eukaryotes
-+ PPI-networks of all eukaryotes are built. The PDB complexes could be, in this case, both intraspecies and interspecies.
-
 #### EEI-Mus-Musculus
 + EEI-networks of Mus Musculus are built. Using **EGIO**, a method for detection of orthologous exons between species, EEI in Mus musculus are then compared to those in Homo Sapiens (data from 2024).
 

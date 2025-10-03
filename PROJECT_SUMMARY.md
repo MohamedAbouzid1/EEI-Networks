@@ -96,6 +96,18 @@ Use EGIO to create a high-confidence map for each species and human for ortholog
 - **PostgreSQL**: Database management
 - **Node.js**: Web interface (EEINet)
 
+### Web Interface
+The EEINet web interface provides an interactive platform for exploring and analyzing the EEI networks:
+
+- **Repository**: [EEINet GitHub Repository](https://github.com/MohamedAbouzid1/EEINet/)
+- **Live Application**: [EEINet Web Interface](https://apps.cosy.bio/eeinet/)
+
+The web interface enables users to:
+- Browse and search EEI networks across different species
+- Visualize network interactions and conservation patterns
+- Access detailed statistics and analysis results
+- Download network data and analysis outputs
+
 ### Computational Requirements
 - **CPU**: Multi-core processor (8+ cores)
 - **RAM**: 32GB+ for large-scale analysis

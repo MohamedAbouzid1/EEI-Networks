@@ -1,0 +1,518 @@
+ID   KPYM_RAT                Reviewed;         531 AA.
+AC   P11980; P11981;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   02-OCT-2024, entry version 208.
+DE   RecName: Full=Pyruvate kinase PKM;
+DE            EC=2.7.1.40 {ECO:0000250|UniProtKB:P14618};
+DE   AltName: Full=Pyruvate kinase muscle isozyme;
+DE   AltName: Full=Threonine-protein kinase PKM2 {ECO:0000305};
+DE            EC=2.7.11.1 {ECO:0000250|UniProtKB:P14618};
+DE   AltName: Full=Tyrosine-protein kinase PKM2 {ECO:0000305};
+DE            EC=2.7.10.2 {ECO:0000250|UniProtKB:P14618};
+GN   Name=Pkm; Synonyms=Pkm2, Pykm;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS M1 AND M2).
+RX   PubMed=3020052; DOI=10.1016/s0021-9258(18)67091-7;
+RA   Noguchi T., Inoue H., Tanaka T.;
+RT   "The M1- and M2-type isozymes of rat pyruvate kinase are produced from the
+RT   same gene by alternative RNA splicing.";
+RL   J. Biol. Chem. 261:13807-13812(1986).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS M1 AND M2), AND SEQUENCE
+RP   REVISION.
+RX   PubMed=2914912; DOI=10.1016/s0021-9258(18)94185-2;
+RA   Takenaka M., Noguchi T., Inoue H., Yamada K., Matsuda T., Tanaka T.;
+RT   "Rat pyruvate kinase M gene: its complete structure and characterization of
+RT   the 5'-flanking region.";
+RL   J. Biol. Chem. 264:2363-2367(1989).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM M1).
+RC   TISSUE=Pituitary;
+RX   PubMed=2780321; DOI=10.1093/nar/17.17.7106;
+RA   Parkinson C., Kato H., Cheng S.;
+RT   "The nucleotide sequence of a full length cDNA encoding rat pituitary
+RT   pyruvate kinase.";
+RL   Nucleic Acids Res. 17:7106-7106(1989).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 33-56; 74-89; 93-115; 174-186; 208-246; 279-294;
+RP   343-376; 393-400; 423-436; 476-498 AND 505-526, PROTEIN SEQUENCE OF 384-399
+RP   (ISOFORM M2), AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, Hippocampus, and Spinal cord;
+RA   Lubec G., Afjehi-Sadat L., Chen W.-Q., Kang S.U.;
+RL   Submitted (JUL-2007) to UniProtKB.
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-97 AND SER-100, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the final rate-limiting step of glycolysis by
+CC       mediating the transfer of a phosphoryl group from phosphoenolpyruvate
+CC       (PEP) to ADP, generating ATP. The ratio between the highly active
+CC       tetrameric form and nearly inactive dimeric form determines whether
+CC       glucose carbons are channeled to biosynthetic processes or used for
+CC       glycolytic ATP production. The transition between the 2 forms
+CC       contributes to the control of glycolysis and is important for tumor
+CC       cell proliferation and survival. {ECO:0000250|UniProtKB:P14618}.
+CC   -!- FUNCTION: [Isoform M2]: Isoform specifically expressed during
+CC       embryogenesis that has low pyruvate kinase activity by itself and
+CC       requires allosteric activation by D-fructose 1,6-bisphosphate (FBP) for
+CC       pyruvate kinase activity. In addition to its pyruvate kinase activity
+CC       in the cytoplasm, also acts as a regulator of transcription in the
+CC       nucleus by acting as a protein kinase. Translocates into the nucleus in
+CC       response to various signals, such as EGF receptor activation, and
+CC       homodimerizes, leading to its conversion into a protein threonine- and
+CC       tyrosine-protein kinase. Catalyzes phosphorylation of STAT3 at 'Tyr-
+CC       705' and histone H3 at 'Thr-11' (H3T11ph), leading to activate
+CC       transcription. Its ability to activate transcription plays a role in
+CC       cancer cells by promoting cell proliferation and promote tumorigenesis
+CC       (By similarity). Promotes the expression of the immune checkpoint
+CC       protein CD274 in BMAL1-deficient macrophages. May also act as a
+CC       translation regulator for a subset of mRNAs, independently of its
+CC       pyruvate kinase activity: associates with subpools of endoplasmic
+CC       reticulum-associated ribosomes, binds directly to the mRNAs translated
+CC       at the endoplasmic reticulum and promotes translation of these
+CC       endoplasmic reticulum-destined mRNAs (By similarity). Plays a role in
+CC       caspase independent cell death of tumor cells (By similarity).
+CC       {ECO:0000250|UniProtKB:P14618, ECO:0000250|UniProtKB:P52480}.
+CC   -!- FUNCTION: [Isoform M1]: Pyruvate kinase isoform expressed in adult
+CC       tissues, which replaces isoform M2 after birth. In contrast to isoform
+CC       M2, has high pyruvate kinase activity by itself and does not require
+CC       allosteric activation by D-fructose 1,6-bisphosphate (FBP) for
+CC       activity. {ECO:0000250|UniProtKB:P14618}.
+CC   -!- CATALYTIC ACTIVITY: [Isoform M2]:
+CC       Reaction=ATP + pyruvate = ADP + H(+) + phosphoenolpyruvate;
+CC         Xref=Rhea:RHEA:18157, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58702, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.40; Evidence={ECO:0000250|UniProtKB:P14618};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:18159;
+CC         Evidence={ECO:0000250|UniProtKB:P14618};
+CC   -!- CATALYTIC ACTIVITY: [Isoform M1]:
+CC       Reaction=ATP + pyruvate = ADP + H(+) + phosphoenolpyruvate;
+CC         Xref=Rhea:RHEA:18157, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58702, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.40; Evidence={ECO:0000250|UniProtKB:P14618};
+CC   -!- CATALYTIC ACTIVITY: [Isoform M2]:
+CC       Reaction=ATP + L-tyrosyl-[protein] = ADP + H(+) + O-phospho-L-tyrosyl-
+CC         [protein]; Xref=Rhea:RHEA:10596, Rhea:RHEA-COMP:10136, Rhea:RHEA-
+CC         COMP:10137, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:46858,
+CC         ChEBI:CHEBI:82620, ChEBI:CHEBI:456216; EC=2.7.10.2;
+CC         Evidence={ECO:0000250|UniProtKB:P14618};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:10597;
+CC         Evidence={ECO:0000250|UniProtKB:P14618};
+CC   -!- CATALYTIC ACTIVITY: [Isoform M2]:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1; Evidence={ECO:0000250|UniProtKB:P14618};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46609;
+CC         Evidence={ECO:0000250|UniProtKB:P14618};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P14618};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000250|UniProtKB:P14618};
+CC   -!- ACTIVITY REGULATION: [Isoform M2]: Isoform M2 is allosterically
+CC       activated by D-fructose 1,6-bisphosphate (FBP). Inhibited by oxalate
+CC       and 3,3',5-triiodo-L-thyronine (T3). The activity of the tetrameric
+CC       form is inhibited by PML. Selective binding to tyrosine-phosphorylated
+CC       peptides releases the allosteric activator FBP, leading to inhibition
+CC       of PKM enzymatic activity, this diverts glucose metabolites from energy
+CC       production to anabolic processes when cells are stimulated by certain
+CC       growth factors. Glycolytic flux are highly dependent on de novo
+CC       biosynthesis of serine and glycine, and serine is a natural ligand and
+CC       allosteric activator of isoform M2. {ECO:0000250|UniProtKB:P14618}.
+CC   -!- ACTIVITY REGULATION: [Isoform M1]: Has high pyruvate kinase activity by
+CC       itself and does not require allosteric activation by D-fructose 1,6-
+CC       bisphosphate (FBP) for activity. {ECO:0000250|UniProtKB:P14618}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 5/5. {ECO:0000250|UniProtKB:P14618}.
+CC   -!- SUBUNIT: [Isoform M2]: Monomer and homotetramer; exists as a monomer in
+CC       the absence of D-fructose 1,6-bisphosphate (FBP), and reversibly
+CC       associates to form a homotetramer in the presence of FBP. The monomeric
+CC       form binds 3,3',5-triiodo-L-thyronine (T3). Tetramer formation induces
+CC       pyruvate kinase activity. The tetrameric form has high affinity for the
+CC       substrate and is associated within the glycolytic enzyme complex. FBP
+CC       stimulates the formation of tetramers from dimers. Homodimer; exists in
+CC       a dimeric form in tumor cells and the dimeric form has less affinity
+CC       for the phosphoenolpyruvate substrate. The homodimer converts into a
+CC       protein kinase. Interacts with HERC1, POU5F1 and PML. Interacts with
+CC       EGLN3; the interaction hydroxylates PKM under hypoxia and enhances
+CC       binding to HIF1A. Interacts with HIF1A; the interaction is enhanced by
+CC       binding of EGLN3, promoting enhanced transcription activity under
+CC       hypoxia. Interacts with TRIM35; this interaction prevents FGFR1-
+CC       dependent tyrosine phosphorylation. Interacts with JMJD8. Interacts
+CC       with TRAF4. Interacts with (phosphorylated) CTNNB1; leading to activate
+CC       transcription. Interacts with TSC22D2; the interaction results in
+CC       reduced nuclear levels of PKM isoform M2, leading to repression of
+CC       cyclin CCND1 transcription and reduced cell growth (By similarity).
+CC       {ECO:0000250|UniProtKB:P14618}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform M2]: Cytoplasm
+CC       {ECO:0000250|UniProtKB:P14618}. Nucleus {ECO:0000250|UniProtKB:P14618}.
+CC       Note=Translocates to the nucleus in response to various signals, such
+CC       as EGF receptor activation or apoptotic stimuli.
+CC       {ECO:0000250|UniProtKB:P14618}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform M1]: Cytoplasm
+CC       {ECO:0000250|UniProtKB:P14618}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=M1 {ECO:0000303|PubMed:3020052}; Synonyms=PKM1
+CC       {ECO:0000303|PubMed:3020052};
+CC         IsoId=P11980-1; Sequence=Displayed;
+CC       Name=M2 {ECO:0000303|PubMed:3020052}; Synonyms=PKM2
+CC       {ECO:0000303|PubMed:3020052};
+CC         IsoId=P11980-2, P11981-1;
+CC         Sequence=VSP_011107;
+CC   -!- PTM: ISGylated. {ECO:0000250|UniProtKB:P14618}.
+CC   -!- PTM: Under hypoxia, hydroxylated by EGLN3.
+CC       {ECO:0000250|UniProtKB:P14618}.
+CC   -!- PTM: Acetylation at Lys-305 is stimulated by high glucose
+CC       concentration, it decreases enzyme activity and promotes its lysosomal-
+CC       dependent degradation via chaperone-mediated autophagy.
+CC       {ECO:0000250|UniProtKB:P14618}.
+CC   -!- PTM: [Isoform M2]: Acetylated by EP300, leading to impair
+CC       phosphoenolpyruvate substrate-binding and promote its homodimerization
+CC       and subsequent translocation to the nucleus. Deacetylation by SIRT6
+CC       promotes its nuclear export into the cytoplasm, leading to suppress its
+CC       nuclear localization and oncogenic function.
+CC       {ECO:0000250|UniProtKB:P14618}.
+CC   -!- PTM: [Isoform M2]: S-nitrosylation at Cys-423 and Cys-424 inhibits
+CC       homotetramerization and pyruvate kinase activity (By similarity). S-
+CC       nitrosylation is indirectly inhibited by AKR1A1 which degrades S-
+CC       nitroso-CoA, a cofactor required to S-nitrosylate proteins (By
+CC       similarity). {ECO:0000250|UniProtKB:P14618}.
+CC   -!- PTM: FGFR1-dependent tyrosine phosphorylation is reduced by interaction
+CC       with TRIM35. {ECO:0000250|UniProtKB:P14618}.
+CC   -!- MISCELLANEOUS: There are 4 isozymes of pyruvate kinase in mammals (L,
+CC       R, M1, M2) encoded by 2 different genes: PKLR and PKM. The L and R
+CC       isozymes are generated from the PKLR by differential splicing of RNA;
+CC       the M1 and M2 forms are produced from the PKM gene by differential
+CC       splicing. L type is major isozyme in the liver, R is found in red
+CC       cells, M1 is the main form in muscle, heart and brain, and M2 is found
+CC       in early fetal tissues as well as in most cancer cells.
+CC       {ECO:0000250|UniProtKB:P14618}.
+CC   -!- SIMILARITY: Belongs to the pyruvate kinase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M24359; AAB93666.1; -; Genomic_DNA.
+DR   EMBL; M24359; AAB93667.1; -; Genomic_DNA.
+DR   EMBL; M14377; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; X15800; CAA33799.1; -; mRNA.
+DR   PIR; A26186; A26186.
+DR   PIR; B26186; B26186.
+DR   RefSeq; NP_445749.1; NM_053297.2. [P11980-1]
+DR   RefSeq; XP_006243250.2; XM_006243188.3.
+DR   AlphaFoldDB; P11980; -.
+DR   SMR; P11980; -.
+DR   BioGRID; 247659; 9.
+DR   CORUM; P11980; -.
+DR   IntAct; P11980; 6.
+DR   MINT; P11980; -.
+DR   STRING; 10116.ENSRNOP00000015331; -.
+DR   BindingDB; P11980; -.
+DR   ChEMBL; CHEMBL4994; -.
+DR   MoonProt; P11980; -.
+DR   GlyGen; P11980; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; P11980; -.
+DR   PhosphoSitePlus; P11980; -.
+DR   jPOST; P11980; -.
+DR   PaxDb; 10116-ENSRNOP00000015331; -.
+DR   DNASU; 25630; -.
+DR   GeneID; 25630; -.
+DR   KEGG; rno:25630; -.
+DR   UCSC; RGD:3337; rat. [P11980-1]
+DR   AGR; RGD:3337; -.
+DR   CTD; 5315; -.
+DR   RGD; 3337; Pkm.
+DR   VEuPathDB; HostDB:ENSRNOG00000011329; -.
+DR   eggNOG; KOG2323; Eukaryota.
+DR   HOGENOM; CLU_015439_0_1_1; -.
+DR   InParanoid; P11980; -.
+DR   OrthoDB; 312683at2759; -.
+DR   PhylomeDB; P11980; -.
+DR   TreeFam; TF300390; -.
+DR   SABIO-RK; P11980; -.
+DR   UniPathway; UPA00109; UER00188.
+DR   PRO; PR:P11980; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000011329; Expressed in skeletal muscle tissue and 19 other cell types or tissues.
+DR   ExpressionAtlas; P11980; baseline and differential.
+DR   GO; GO:0005929; C:cilium; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:1902912; C:pyruvate kinase complex; IDA:CAFA.
+DR   GO; GO:0005791; C:rough endoplasmic reticulum; ISS:UniProtKB.
+DR   GO; GO:0043531; F:ADP binding; IDA:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; IDA:CAFA.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0003729; F:mRNA binding; ISS:UniProtKB.
+DR   GO; GO:0030955; F:potassium ion binding; IEA:InterPro.
+DR   GO; GO:0046983; F:protein dimerization activity; IDA:RGD.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IEA:RHEA.
+DR   GO; GO:0004743; F:pyruvate kinase activity; IDA:CAFA.
+DR   GO; GO:0070324; F:thyroid hormone binding; IDA:CAFA.
+DR   GO; GO:0031100; P:animal organ regeneration; IDA:RGD.
+DR   GO; GO:0061621; P:canonical glycolysis; ISO:RGD.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; IBA:GO_Central.
+DR   GO; GO:0006006; P:glucose metabolic process; IDA:RGD.
+DR   GO; GO:0006096; P:glycolytic process; IDA:CAFA.
+DR   GO; GO:0001889; P:liver development; IDA:RGD.
+DR   GO; GO:2000767; P:positive regulation of cytoplasmic translation; ISS:UniProtKB.
+DR   GO; GO:1903672; P:positive regulation of sprouting angiogenesis; ISS:UniProtKB.
+DR   GO; GO:0012501; P:programmed cell death; ISO:RGD.
+DR   GO; GO:0051289; P:protein homotetramerization; IDA:RGD.
+DR   GO; GO:0051262; P:protein tetramerization; IDA:RGD.
+DR   GO; GO:0042866; P:pyruvate biosynthetic process; IDA:RGD.
+DR   GO; GO:0006090; P:pyruvate metabolic process; IDA:RGD.
+DR   GO; GO:0009629; P:response to gravity; IEP:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0032868; P:response to insulin; IEP:RGD.
+DR   GO; GO:0014870; P:response to muscle inactivity; IEP:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0043403; P:skeletal muscle tissue regeneration; IDA:RGD.
+DR   CDD; cd00288; Pyruvate_Kinase; 1.
+DR   Gene3D; 3.20.20.60; Phosphoenolpyruvate-binding domains; 1.
+DR   Gene3D; 2.40.33.10; PK beta-barrel domain-like; 1.
+DR   Gene3D; 3.40.1380.20; Pyruvate kinase, C-terminal domain; 2.
+DR   InterPro; IPR001697; Pyr_Knase.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_Kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_Kinase-like_dom_sf.
+DR   InterPro; IPR011037; Pyrv_Knase-like_insert_dom_sf.
+DR   InterPro; IPR018209; Pyrv_Knase_AS.
+DR   InterPro; IPR015793; Pyrv_Knase_brl.
+DR   InterPro; IPR015795; Pyrv_Knase_C.
+DR   InterPro; IPR036918; Pyrv_Knase_C_sf.
+DR   InterPro; IPR015806; Pyrv_Knase_insert_dom_sf.
+DR   NCBIfam; TIGR01064; pyruv_kin; 1.
+DR   PANTHER; PTHR11817; PYRUVATE KINASE; 1.
+DR   PANTHER; PTHR11817:SF101; PYRUVATE KINASE PKM; 1.
+DR   Pfam; PF00224; PK; 1.
+DR   Pfam; PF02887; PK_C; 1.
+DR   PRINTS; PR01050; PYRUVTKNASE.
+DR   SUPFAM; SSF51621; Phosphoenolpyruvate/pyruvate domain; 1.
+DR   SUPFAM; SSF50800; PK beta-barrel domain-like; 1.
+DR   SUPFAM; SSF52935; PK C-terminal domain-like; 1.
+DR   PROSITE; PS00110; PYRUVATE_KINASE; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Allosteric enzyme; Alternative splicing; ATP-binding;
+KW   Cytoplasm; Direct protein sequencing; Glycolysis; Hydroxylation;
+KW   Isopeptide bond; Kinase; Magnesium; Metal-binding; Methylation;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Potassium; Pyruvate;
+KW   Reference proteome; S-nitrosylation; Transferase; Translation regulation;
+KW   Ubl conjugation.
+FT   CHAIN           1..531
+FT                   /note="Pyruvate kinase PKM"
+FT                   /id="PRO_0000112092"
+FT   REGION          307..531
+FT                   /note="Interaction with POU5F1"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   REGION          389..433
+FT                   /note="Intersubunit contact"
+FT   BINDING         70
+FT                   /ligand="L-serine"
+FT                   /ligand_id="ChEBI:CHEBI:33384"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         73
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         75..78
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         75
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         77
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         106
+FT                   /ligand="L-serine"
+FT                   /ligand_id="ChEBI:CHEBI:33384"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         113
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         114
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         120
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         207
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         270
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         272
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         295
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         296
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         296
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         328
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P30613"
+FT   BINDING         432..437
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         464
+FT                   /ligand="L-serine"
+FT                   /ligand_id="ChEBI:CHEBI:33384"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         482
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         489
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   BINDING         516..521
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /ligand_note="allosteric activator"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   SITE            270
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P00549"
+FT   MOD_RES         3
+FT                   /note="N6,N6,N6-trimethyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         37
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         41
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         62
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         66
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P52480"
+FT   MOD_RES         89
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         97
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         100
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         105
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         127
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         148
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P52480"
+FT   MOD_RES         166
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         166
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P52480"
+FT   MOD_RES         175
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         195
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         266
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         270
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P52480"
+FT   MOD_RES         305
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         322
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P52480"
+FT   MOD_RES         322
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P52480"
+FT   MOD_RES         408
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         475
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P52480"
+FT   MOD_RES         498
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P52480"
+FT   CROSSLNK        115
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   CROSSLNK        166
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   CROSSLNK        266
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   CROSSLNK        270
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   VAR_SEQ         389..433
+FT                   /note="VFHRLLFEELARASSQSTDPLEAMAMGSVEASYKCLAAALIVLTE -> IYH
+FT                   LQLFEELRRLAPITSDPTEAAAVGAVEASFKCCSGAIIVLTK (in isoform M2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_011107"
+FT   MOD_RES         P11980-2:423
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+FT   MOD_RES         P11980-2:424
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14618"
+SQ   SEQUENCE   531 AA;  57818 MW;  F0B133FDDD5991A9 CRC64;
+     MPKPDSEAGT AFIQTQQLHA AMADTFLEHM CRLDIDSAPI TARNTGIICT IGPASRSVEM
+     LKEMIKSGMN VARLNFSHGT HEYHAETIKN VRAATESFAS DPILYRPVAV ALDTKGPEIR
+     TGLIKGSGTA EVELKKGATL KITLDNAYME KCDENILWLD YKNICKVVEV GSKIYVDDGL
+     ISLQVKEKGA DYLVTEVENG GSLGSKKGVN LPGAAVDLPA VSEKDIQDLK FGVEQDVDMV
+     FASFIRKAAD VHEVRKVLGE KGKNIKIISK IENHEGVRRF DEILEASDGI MVARGDLGIE
+     IPAEKVFLAQ KMMIGRCNRA GKPVICATQM LESMIKKPRP TRAEGSDVAN AVLDGADCIM
+     LSGETAKGDY PLEAVRMQHL IAREAEAAVF HRLLFEELAR ASSQSTDPLE AMAMGSVEAS
+     YKCLAAALIV LTESGRSAHQ VARYRPRAPI IAVTRNPQTA RQAHLYRGIF PVLCKDAVLD
+     AWAEDVDLRV NLAMNVGKAR GFFKKGDVVI VLTGWRPGSG FTNTMRVVPV P
+//

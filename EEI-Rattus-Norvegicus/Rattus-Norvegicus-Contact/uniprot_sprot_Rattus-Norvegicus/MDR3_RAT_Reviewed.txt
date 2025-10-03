@@ -1,0 +1,387 @@
+ID   MDR3_RAT                Reviewed;        1278 AA.
+AC   Q08201; Q78E07;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   24-JUL-2024, entry version 160.
+DE   RecName: Full=Phosphatidylcholine translocator ABCB4 {ECO:0000305};
+DE            EC=7.6.2.1 {ECO:0000250|UniProtKB:P21440};
+DE   AltName: Full=ATP-binding cassette sub-family B member 4 {ECO:0000312|RGD:620248};
+DE   AltName: Full=Multidrug resistance protein 2 {ECO:0000303|PubMed:8103593};
+DE   AltName: Full=Multidrug resistance protein 3 {ECO:0000250|UniProtKB:P21439};
+DE   AltName: Full=P-glycoprotein 2 {ECO:0000303|PubMed:10067174};
+DE   AltName: Full=P-glycoprotein 3 {ECO:0000303|PubMed:7948020};
+GN   Name=Abcb4 {ECO:0000312|RGD:620248};
+GN   Synonyms=Mdr2 {ECO:0000303|PubMed:8103593},
+GN   Pgp3 {ECO:0000303|PubMed:7948020}, Pgy2 {ECO:0000303|PubMed:10067174};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Fischer;
+RX   PubMed=8103593; DOI=10.1093/nar/21.16.3885;
+RA   Brown P.C., Thorgeirsson S.S., Silverman J.A.;
+RT   "Cloning and regulation of the rat mdr2 gene.";
+RL   Nucleic Acids Res. 21:3885-3891(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1211-1278.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=1348630; DOI=10.1016/0167-4781(92)90523-3;
+RA   Deuchars K.L., Duthie M., Ling V.;
+RT   "Identification of distinct P-glycoprotein gene sequences in rat.";
+RL   Biochim. Biophys. Acta 1130:157-165(1992).
+RN   [3]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=7948020; DOI=10.1016/0167-4781(94)90222-4;
+RA   Furuya K.N., Gebhardt R., Schuetz E.G., Schuetz J.D.;
+RT   "Isolation of rat pgp3 cDNA: evidence for gender and zonal regulation of
+RT   expression in the liver.";
+RL   Biochim. Biophys. Acta 1219:636-644(1994).
+RN   [4]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=10067174; DOI=10.1538/expanim.47.283;
+RA   Moralejo D.H., Wei K., Wei S., Ogino T., Yamada T., Sogawa K., Hamakawa H.,
+RA   Szpirer C., Carbone C., Matsumoto K.;
+RT   "Mapping of the genes for rat P-glycoprotein 1, 2, and 3 (Pgy1, Pgy2, and
+RT   Pgy3) to chromosome 4.";
+RL   Exp. Anim. 47:283-284(1998).
+RN   [5]
+RP   INTERACTION WITH HAX1, SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=15159385; DOI=10.1074/jbc.m404337200;
+RA   Ortiz D.F., Moseley J., Calderon G., Swift A.L., Li S., Arias I.M.;
+RT   "Identification of HAX-1 as a protein that binds bile salt export protein
+RT   and regulates its abundance in the apical membrane of Madin-Darby canine
+RT   kidney cells.";
+RL   J. Biol. Chem. 279:32761-32770(2004).
+CC   -!- FUNCTION: Energy-dependent phospholipid efflux translocator that acts
+CC       as a positive regulator of biliary lipid secretion. Functions as a
+CC       floppase that translocates specifically phosphatidylcholine (PC) from
+CC       the inner to the outer leaflet of the canalicular membrane bilayer into
+CC       the canaliculi of hepatocytes. Translocation of PC makes the biliary
+CC       phospholipids available for extraction into the canaliculi lumen by
+CC       bile salt mixed micelles and therefore protects the biliary tree from
+CC       the detergent activity of bile salts. Plays a role in the recruitment
+CC       of phosphatidylcholine (PC), phosphatidylethanolamine (PE) and
+CC       sphingomyelin (SM) molecules to nonraft membranes and to further
+CC       enrichment of SM and cholesterol in raft membranes in hepatocytes.
+CC       Required for proper phospholipid bile formation. Indirectly involved in
+CC       cholesterol efflux activity from hepatocytes into the canalicular lumen
+CC       in the presence of bile salts in an ATP-dependent manner. May promote
+CC       biliary phospholipid secretion as canaliculi-containing vesicles from
+CC       the canalicular plasma membrane. In cooperation with ATP8B1, functions
+CC       to protect hepatocytes from the deleterious detergent activity of bile
+CC       salts. Does not confer multidrug resistance.
+CC       {ECO:0000250|UniProtKB:P21439, ECO:0000250|UniProtKB:P21440}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + phospholipidSide 1 = ADP + phosphate +
+CC         phospholipidSide 2.; EC=7.6.2.1;
+CC         Evidence={ECO:0000250|UniProtKB:P21440};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine(in) + ATP + H2O = a
+CC         1,2-diacyl-sn-glycero-3-phosphocholine(out) + ADP + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:66272, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:57643,
+CC         ChEBI:CHEBI:456216; Evidence={ECO:0000250|UniProtKB:P21440};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:66273;
+CC         Evidence={ECO:0000250|UniProtKB:P21440};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphoethanolamine(in) + ATP + H2O
+CC         = a 1,2-diacyl-sn-glycero-3-phosphoethanolamine(out) + ADP + H(+) +
+CC         phosphate; Xref=Rhea:RHEA:36439, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:64612, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000250|UniProtKB:P21439};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36440;
+CC         Evidence={ECO:0000250|UniProtKB:P21439};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a sphingomyelin(in) + ATP + H2O = a sphingomyelin(out) + ADP +
+CC         H(+) + phosphate; Xref=Rhea:RHEA:38903, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17636, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000250|UniProtKB:P21439};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38904;
+CC         Evidence={ECO:0000250|UniProtKB:P21439};
+CC   -!- ACTIVITY REGULATION: Translocation activity is inhibited by the ATPase
+CC       inhibitor vanadate and the calcium channel blocker verapamil.
+CC       Translocation activity is enhanced by the addition of the bile salt
+CC       taurocholate. {ECO:0000250|UniProtKB:P21439}.
+CC   -!- SUBUNIT: Interacts with HAX1 (PubMed:15159385). May interact with RACK1
+CC       (By similarity). {ECO:0000250|UniProtKB:P21439,
+CC       ECO:0000269|PubMed:15159385}.
+CC   -!- INTERACTION:
+CC       Q08201; Q7TSE9: Hax1; NbExp=3; IntAct=EBI-929988, EBI-930005;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P21439};
+CC       Multi-pass membrane protein {ECO:0000255|PROSITE-ProRule:PRU00441}.
+CC       Apical cell membrane {ECO:0000250|UniProtKB:P21439}; Multi-pass
+CC       membrane protein {ECO:0000255|PROSITE-ProRule:PRU00441}. Membrane raft
+CC       {ECO:0000250|UniProtKB:P21439}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:P21439}. Cytoplasmic vesicle, clathrin-coated
+CC       vesicle {ECO:0000269|PubMed:15159385}. Note=Localized at the apical
+CC       canalicular membrane of the epithelial cells lining the lumen of the
+CC       bile canaliculi and biliary ductules. Localized preferentially in lipid
+CC       nonraft domains of canalicular plasma membranes. Transported from the
+CC       Golgi to the apical bile canalicular membrane in a RACK1-dependent
+CC       manner. Redistributed into pseudocanaliculi formed between cells in a
+CC       bezafibrate- or PPARA-dependent manner. {ECO:0000250|UniProtKB:P21439,
+CC       ECO:0000250|UniProtKB:P21440}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the liver (PubMed:15159385). Expressed
+CC       in hepatocytes (PubMed:10067174, PubMed:7948020).
+CC       {ECO:0000269|PubMed:10067174, ECO:0000269|PubMed:15159385,
+CC       ECO:0000269|PubMed:7948020}.
+CC   -!- PTM: Phosphorylated. Phosphorylation is required for PC efflux
+CC       activity. Phosphorylation occurs on serine and threonine residues in a
+CC       protein kinase A- or C-dependent manner. May be phosphorylated on Thr-
+CC       41 and Ser-46. {ECO:0000250|UniProtKB:P21439}.
+CC   -!- PTM: Glycosylated. {ECO:0000250|UniProtKB:P21439}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. ABCB family.
+CC       Multidrug resistance exporter (TC 3.A.1.201) subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L15079; AAA02937.1; -; mRNA.
+DR   EMBL; X61105; CAA43417.1; -; Genomic_DNA.
+DR   PIR; S41646; S41646.
+DR   RefSeq; NP_036822.1; NM_012690.2.
+DR   AlphaFoldDB; Q08201; -.
+DR   SMR; Q08201; -.
+DR   IntAct; Q08201; 1.
+DR   STRING; 10116.ENSRNOP00000042556; -.
+DR   ChEMBL; CHEMBL2073706; -.
+DR   GlyCosmos; Q08201; 2 sites, No reported glycans.
+DR   GlyGen; Q08201; 2 sites.
+DR   PhosphoSitePlus; Q08201; -.
+DR   PaxDb; 10116-ENSRNOP00000042556; -.
+DR   GeneID; 24891; -.
+DR   KEGG; rno:24891; -.
+DR   AGR; RGD:620248; -.
+DR   CTD; 5244; -.
+DR   RGD; 620248; Abcb4.
+DR   eggNOG; KOG0055; Eukaryota.
+DR   InParanoid; Q08201; -.
+DR   OrthoDB; 5487044at2759; -.
+DR   PhylomeDB; Q08201; -.
+DR   BRENDA; 7.6.2.2; 5301.
+DR   Reactome; R-RNO-382556; ABC-family proteins mediated transport.
+DR   PRO; PR:Q08201; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:RGD.
+DR   GO; GO:0030136; C:clathrin-coated vesicle; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0000139; C:Golgi membrane; IDA:RGD.
+DR   GO; GO:0046581; C:intercellular canaliculus; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0045121; C:membrane raft; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0140359; F:ABC-type transporter activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0042626; F:ATPase-coupled transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0090554; F:phosphatidylcholine floppase activity; ISS:UniProtKB.
+DR   GO; GO:0032782; P:bile acid secretion; ISS:UniProtKB.
+DR   GO; GO:1903413; P:cellular response to bile acid; ISS:UniProtKB.
+DR   GO; GO:0055088; P:lipid homeostasis; ISS:UniProtKB.
+DR   GO; GO:0045332; P:phospholipid translocation; ISO:RGD.
+DR   GO; GO:0032376; P:positive regulation of cholesterol transport; ISS:UniProtKB.
+DR   GO; GO:0061092; P:positive regulation of phospholipid translocation; ISS:UniProtKB.
+DR   GO; GO:2001140; P:positive regulation of phospholipid transport; ISS:UniProtKB.
+DR   GO; GO:1901557; P:response to fenofibrate; ISS:UniProtKB.
+DR   GO; GO:0051384; P:response to glucocorticoid; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   CDD; cd18578; ABC_6TM_Pgp_ABCB1_D2_like; 1.
+DR   CDD; cd03249; ABC_MTABC3_MDL1_MDL2; 2.
+DR   Gene3D; 1.20.1560.10; ABC transporter type 1, transmembrane domain; 3.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 3.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011527; ABC1_TM_dom.
+DR   InterPro; IPR036640; ABC1_TM_sf.
+DR   InterPro; IPR003439; ABC_transporter-like_ATP-bd.
+DR   InterPro; IPR017871; ABC_transporter-like_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR039421; Type_1_exporter.
+DR   PANTHER; PTHR43394:SF11; ALPHA-FACTOR-TRANSPORTING ATPASE; 1.
+DR   PANTHER; PTHR43394; ATP-DEPENDENT PERMEASE MDL1, MITOCHONDRIAL; 1.
+DR   Pfam; PF00664; ABC_membrane; 2.
+DR   Pfam; PF00005; ABC_tran; 2.
+DR   SMART; SM00382; AAA; 2.
+DR   SUPFAM; SSF90123; ABC transporter transmembrane region; 2.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+DR   PROSITE; PS50929; ABC_TM1F; 2.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 2.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 2.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell membrane; Cytoplasm; Cytoplasmic vesicle; Glycoprotein;
+KW   Lipid transport; Membrane; Nucleotide-binding; Phosphoprotein;
+KW   Reference proteome; Repeat; Translocase; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..1278
+FT                   /note="Phosphatidylcholine translocator ABCB4"
+FT                   /id="PRO_0000093338"
+FT   TOPO_DOM        1..47
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        48..70
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        71..115
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        116..136
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        137..185
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        186..207
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        208..214
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        215..235
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        236..293
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        294..315
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        316..329
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        330..351
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        352..710
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        711..731
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        732..754
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        755..775
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        776..830
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        831..851
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        852
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        853..872
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        873..932
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        933..955
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        956..971
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        972..993
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        994..1278
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250"
+FT   DOMAIN          54..356
+FT                   /note="ABC transmembrane type-1 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   DOMAIN          391..627
+FT                   /note="ABC transporter 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   DOMAIN          710..998
+FT                   /note="ABC transmembrane type-1 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   DOMAIN          1033..1271
+FT                   /note="ABC transporter 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   REGION          622..646
+FT                   /note="Interaction with HAX1"
+FT                   /evidence="ECO:0000269|PubMed:15159385"
+FT   BINDING         403
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P21439"
+FT   BINDING         429..434
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P21439,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   BINDING         474
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P21439"
+FT   BINDING         533
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P21439"
+FT   BINDING         1045
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P21439"
+FT   BINDING         1070..1076
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P21439,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   BINDING         1116
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P21439"
+FT   BINDING         1176..1178
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P21439,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   MOD_RES         24
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P21440"
+FT   CARBOHYD        88
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        94
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   1278 AA;  140655 MW;  D4FB6BE745AF73BF CRC64;
+     MDLEAARNGT ARRLDGDFEL GSISNQSREK KKKVNLIGPL TLFRYSDWQD KLFMLLGTAM
+     AIAHGSGLPL MMIVFGEMTD KFVDNAGNFS LPVNFSLSML NPGRILEEEM TRYAYYYSGL
+     GGGVLLAAYI QVSFWTLAAG RQIRKIRQKF FHAILRQEMG WFDIKGTTEL NTRLTDDISK
+     ISEGIGDKVG MFFQAIATFF AGFIVGFIRG WKLTLVIMAI TAILGLSTAV WAKILSTFSD
+     KELAAYAKAG AVAEEALGAI RTVIAFGGQN KELERYQKHL ENAKKIGIKK AISANISMGI
+     AFLLIYASYA LAFWYGSTLV ISKEYTIGNA MTVFFSILIG AFSVGQAAPC IDAFPNARGA
+     AYVIFDIIDN NPKIDSFSER GHKPDSIKGN LEFSDVHFSY PSRANIKILK GLNLKVKSGQ
+     TVALVGNSGC GKSTTVQLLQ RLYDPTEGTI SIDGQDIRNF NVRCLREFIG VVSQEPVLFS
+     TTIAENIRYG RGNVTMDEIK KAVKEANAYD FIMKLPQKFD TLVGDRGAQL SGGQKQRIAI
+     ARALVRNPKI LLLDEATSAL DTESEAEVQA ALDKAREGRT TIVIAHRLST VRNADVIAGF
+     EDGVIVEQGS HSELIKKEGI YFRLVNMQTS GSQILSEEFE VELSDEKAAG GVAPNGWKAR
+     IFRNSTKKSL KSSRAHQNRL DVETNELDAN VPPVSFLKVL RLNKTEWPYF VVGTLCAIAN
+     GALQPAFSII LSEMIAIFGP GDDTVKQQKC NMFSLVFLGL GVHSFFTFFL QGFTFGKAGE
+     ILTTRLRSMA FKAMLRQDMS WFDDHKNSTG ALSTRLATDA AQVQGATGTR LALIAQNTAN
+     LGTGIIISFI YGWQLTLLLL SVVPFIAVAG IVEMKMLAGN AKRDKKEMEA AGKIATEAIE
+     NIRTVVSLTQ ERKFESMYVE KLHGPYRNSV RKAHIYGITF SISQAFMYFS YAGCFRFGSY
+     LIVNGHMRFK DVILVFSAIV LGAVALGHAS SFAPDYAKAK LSAAYLFSLF ERQPLIDSYS
+     REGMWPDKFE GSVTFNEVVF NYPTRANVPV LQGLSLEVKK GQTLALVGSS GCGKSTVVQL
+     LERFYDPMAG TVLLDGQEAK KLNVQWLRAQ LGIVSQEPIL FDCSIAKNIA YGDNSRVVSQ
+     DEIVRAAKEA NIHPFIETLP QKYETRVGDK GTQLSGGQKQ RIAIARALIR QPRVLLLDEA
+     TSALDTESEK VVQEALDKAR EGRTCIVIAH RLSTIQNADL IVVIDNGKVK EHGTHQQLLA
+     QKGIYFSMVN IQAGTQNL
+//

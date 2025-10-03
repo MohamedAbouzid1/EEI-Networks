@@ -1,0 +1,462 @@
+ID   PGFRB_RAT               Reviewed;        1097 AA.
+AC   Q05030; Q8R406; Q925F7;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   25-JUL-2003, sequence version 2.
+DT   02-OCT-2024, entry version 202.
+DE   RecName: Full=Platelet-derived growth factor receptor beta;
+DE            Short=PDGF-R-beta;
+DE            Short=PDGFR-beta;
+DE            EC=2.7.10.1;
+DE   AltName: Full=Beta platelet-derived growth factor receptor;
+DE   AltName: Full=Beta-type platelet-derived growth factor receptor;
+DE   AltName: Full=CD140 antigen-like family member B;
+DE   AltName: Full=Platelet-derived growth factor receptor 1;
+DE            Short=PDGFR-1;
+DE   AltName: CD_antigen=CD140b;
+DE   Flags: Precursor;
+GN   Name=Pdgfrb; Synonyms=Pdgfr, Pdgfr1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RA   Wang Y., Culty M.;
+RL   Submitted (MAR-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 35-533.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=8318539; DOI=10.1016/0167-4781(93)90127-y;
+RA   Herren B., Weyer K.A., Rouge M., Loetscher P., Pech M.;
+RT   "Conservation in sequence and affinity of human and rodent PDGF ligands and
+RT   receptors.";
+RL   Biochim. Biophys. Acta 1173:294-302(1993).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 528-1090.
+RC   STRAIN=Wistar;
+RX   PubMed=11346654; DOI=10.1074/jbc.m102995200;
+RA   Okuyama H., Shimahara Y., Kawada N., Seki S., Kristensen D.B.,
+RA   Yoshizato K., Uyama N., Yamaoka Y.;
+RT   "Regulation of cell growth by redox-mediated extracellular proteolysis of
+RT   platelet-derived growth factor receptor beta.";
+RL   J. Biol. Chem. 276:28274-28280(2001).
+CC   -!- FUNCTION: Tyrosine-protein kinase that acts as a cell-surface receptor
+CC       for homodimeric PDGFB and PDGFD and for heterodimers formed by PDGFA
+CC       and PDGFB, and plays an essential role in the regulation of embryonic
+CC       development, cell proliferation, survival, differentiation, chemotaxis
+CC       and migration. Plays an essential role in blood vessel development by
+CC       promoting proliferation, migration and recruitment of pericytes and
+CC       smooth muscle cells to endothelial cells. Plays a role in the migration
+CC       of vascular smooth muscle cells and the formation of neointima at
+CC       vascular injury sites. Required for normal development of the
+CC       cardiovascular system. Required for normal recruitment of pericytes
+CC       (mesangial cells) in the kidney glomerulus, and for normal formation of
+CC       a branched network of capillaries in kidney glomeruli. Promotes
+CC       rearrangement of the actin cytoskeleton and the formation of membrane
+CC       ruffles. Binding of its cognate ligands - homodimeric PDGFB,
+CC       heterodimers formed by PDGFA and PDGFB or homodimeric PDGFD -leads to
+CC       the activation of several signaling cascades; the response depends on
+CC       the nature of the bound ligand and is modulated by the formation of
+CC       heterodimers between PDGFRA and PDGFRB. Phosphorylates PLCG1, PIK3R1,
+CC       PTPN11, RASA1/GAP, CBL, SHC1 and NCK1. Activation of PLCG1 leads to the
+CC       production of the cellular signaling molecules diacylglycerol and
+CC       inositol 1,4,5-trisphosphate, mobilization of cytosolic Ca(2+) and the
+CC       activation of protein kinase C. Phosphorylation of PIK3R1, the
+CC       regulatory subunit of phosphatidylinositol 3-kinase, leads to the
+CC       activation of the AKT1 signaling pathway. Phosphorylation of SHC1, or
+CC       of the C-terminus of PTPN11, creates a binding site for GRB2, resulting
+CC       in the activation of HRAS, RAF1 and down-stream MAP kinases, including
+CC       MAPK1/ERK2 and/or MAPK3/ERK1. Promotes phosphorylation and activation
+CC       of SRC family kinases. Promotes phosphorylation of PDCD6IP/ALIX and
+CC       STAM. Receptor signaling is down-regulated by protein phosphatases that
+CC       dephosphorylate the receptor and its down-stream effectors, and by
+CC       rapid internalization of the activated receptor (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tyrosyl-[protein] = ADP + H(+) + O-phospho-L-tyrosyl-
+CC         [protein]; Xref=Rhea:RHEA:10596, Rhea:RHEA-COMP:10136, Rhea:RHEA-
+CC         COMP:10137, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:46858,
+CC         ChEBI:CHEBI:82620, ChEBI:CHEBI:456216; EC=2.7.10.1;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10028};
+CC   -!- ACTIVITY REGULATION: Present in an inactive conformation in the absence
+CC       of bound ligand. Binding of PDGFB and/or PDGFD leads to dimerization
+CC       and activation by autophosphorylation on tyrosine residues (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with homodimeric PDGFB and PDGFD, and with
+CC       heterodimers formed by PDGFA and PDGFB. May also interact with
+CC       homodimeric PDGFC. Monomer in the absence of bound ligand. Interaction
+CC       with homodimeric PDGFB, heterodimers formed by PDGFA and PDGFB or
+CC       homodimeric PDGFD, leads to receptor dimerization, where both PDGFRA
+CC       homodimers and heterodimers with PDGFRB are observed. Interacts with
+CC       SH2B2/APS. Interacts directly (tyrosine phosphorylated) with SHB.
+CC       Interacts (tyrosine phosphorylated) with PIK3R1 and RASA1. Interacts
+CC       (tyrosine phosphorylated) with CBL. Interacts (tyrosine phosphorylated)
+CC       with SRC and SRC family kinases. Interacts (tyrosine phosphorylated)
+CC       with PIK3C2B, maybe indirectly. Interacts (tyrosine phosphorylated)
+CC       with SHC1, GRB7, GRB10 and NCK1. Interaction with GRB2 is mediated by
+CC       SHC1. Interacts (via C-terminus) with NHERF1 (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Single-pass type I
+CC       membrane protein {ECO:0000250}. Cytoplasmic vesicle {ECO:0000250}.
+CC       Lysosome lumen {ECO:0000250}. Note=After ligand binding, the
+CC       autophosphorylated receptor is ubiquitinated and internalized, leading
+CC       to its degradation. {ECO:0000250}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250}.
+CC   -!- PTM: Ubiquitinated. After autophosphorylation, the receptor is
+CC       polyubiquitinated, leading to its degradation (By similarity).
+CC       {ECO:0000250}.
+CC   -!- PTM: Autophosphorylated on tyrosine residues upon ligand binding.
+CC       Autophosphorylation occurs in trans, i.e. one subunit of the dimeric
+CC       receptor phosphorylates tyrosine residues on the other subunit.
+CC       Phosphorylation at Tyr-578, and to a lesser degree, Tyr-580 is
+CC       important for interaction with SRC. Phosphorylation at Tyr-715 is
+CC       important for interaction with GRB2. Phosphorylation at Tyr-739 and
+CC       Tyr-750 is important for interaction with PIK3R1. Phosphorylation at
+CC       Tyr-750 is important for interaction with NCK1. Phosphorylation at Tyr-
+CC       770 and Tyr-856 is important for interaction with RASA1/GAP.
+CC       Phosphorylation at Tyr-856 is important for efficient phosphorylation
+CC       of PLCG1 and PTPN11, resulting in increased phosphorylation of AKT1,
+CC       MAPK1/ERK2 and/or MAPK3/ERK1, PDCD6IP/ALIX and STAM, and in increased
+CC       cell proliferation. Phosphorylation at Tyr-1008 is important for
+CC       interaction with PTPN11. Phosphorylation at Tyr-1008 and Tyr-1020 is
+CC       important for interaction with PLCG1. Dephosphorylated by PTPRJ at Tyr-
+CC       750, Tyr-856, Tyr-1008 and Tyr-1020. Dephosphorylated by PTPN2 at Tyr-
+CC       578 and Tyr-1020 (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. CSF-1/PDGF receptor subfamily. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00159}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY090783; AAM09098.1; -; mRNA.
+DR   EMBL; Z14119; CAA78489.1; -; mRNA.
+DR   EMBL; AF359356; AAK43716.1; -; mRNA.
+DR   PIR; S33766; S33766.
+DR   RefSeq; NP_113713.1; NM_031525.1.
+DR   RefSeq; XP_006254851.1; XM_006254789.3.
+DR   AlphaFoldDB; Q05030; -.
+DR   SMR; Q05030; -.
+DR   BioGRID; 246767; 2.
+DR   IntAct; Q05030; 2.
+DR   MINT; Q05030; -.
+DR   STRING; 10116.ENSRNOP00000060534; -.
+DR   BindingDB; Q05030; -.
+DR   ChEMBL; CHEMBL4125; -.
+DR   DrugCentral; Q05030; -.
+DR   GlyCosmos; Q05030; 11 sites, No reported glycans.
+DR   GlyGen; Q05030; 11 sites.
+DR   iPTMnet; Q05030; -.
+DR   PhosphoSitePlus; Q05030; -.
+DR   jPOST; Q05030; -.
+DR   PaxDb; 10116-ENSRNOP00000060534; -.
+DR   ABCD; Q05030; 1 sequenced antibody.
+DR   GeneID; 24629; -.
+DR   KEGG; rno:24629; -.
+DR   UCSC; RGD:3285; rat.
+DR   AGR; RGD:3285; -.
+DR   CTD; 5159; -.
+DR   RGD; 3285; Pdgfrb.
+DR   VEuPathDB; HostDB:ENSRNOG00000018461; -.
+DR   eggNOG; KOG0200; Eukaryota.
+DR   HOGENOM; CLU_000288_49_0_1; -.
+DR   InParanoid; Q05030; -.
+DR   OrthoDB; 1614410at2759; -.
+DR   PhylomeDB; Q05030; -.
+DR   Reactome; R-RNO-1257604; PIP3 activates AKT signaling.
+DR   Reactome; R-RNO-186763; Downstream signal transduction.
+DR   Reactome; R-RNO-186797; Signaling by PDGF.
+DR   Reactome; R-RNO-5673001; RAF/MAP kinase cascade.
+DR   Reactome; R-RNO-6811558; PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling.
+DR   PRO; PR:Q05030; -.
+DR   Proteomes; UP000002494; Chromosome 18.
+DR   Bgee; ENSRNOG00000018461; Expressed in ovary and 18 other cell types or tissues.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0009986; C:cell surface; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; IEA:UniProtKB-KW.
+DR   GO; GO:0043202; C:lysosomal lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0043235; C:receptor complex; IBA:GO_Central.
+DR   GO; GO:0001726; C:ruffle; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019899; F:enzyme binding; ISO:RGD.
+DR   GO; GO:0016301; F:kinase activity; ISO:RGD.
+DR   GO; GO:0043548; F:phosphatidylinositol 3-kinase binding; IPI:RGD.
+DR   GO; GO:0005019; F:platelet-derived growth factor beta-receptor activity; ISS:UniProtKB.
+DR   GO; GO:0048407; F:platelet-derived growth factor binding; ISO:RGD.
+DR   GO; GO:0005017; F:platelet-derived growth factor receptor activity; IDA:RGD.
+DR   GO; GO:0005161; F:platelet-derived growth factor receptor binding; ISO:RGD.
+DR   GO; GO:0004672; F:protein kinase activity; ISO:RGD.
+DR   GO; GO:0019901; F:protein kinase binding; ISO:RGD.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0005102; F:signaling receptor binding; ISO:RGD.
+DR   GO; GO:0038085; F:vascular endothelial growth factor binding; ISO:RGD.
+DR   GO; GO:0030325; P:adrenal gland development; ISO:RGD.
+DR   GO; GO:0035909; P:aorta morphogenesis; ISO:RGD.
+DR   GO; GO:0001568; P:blood vessel development; ISO:RGD.
+DR   GO; GO:0055003; P:cardiac myofibril assembly; ISS:UniProtKB.
+DR   GO; GO:0060326; P:cell chemotaxis; ISS:UniProtKB.
+DR   GO; GO:0060981; P:cell migration involved in coronary angiogenesis; ISS:UniProtKB.
+DR   GO; GO:0035441; P:cell migration involved in vasculogenesis; ISS:UniProtKB.
+DR   GO; GO:0070301; P:cellular response to hydrogen peroxide; ISO:RGD.
+DR   GO; GO:0048568; P:embryonic organ development; ISO:RGD.
+DR   GO; GO:0006024; P:glycosaminoglycan biosynthetic process; IMP:RGD.
+DR   GO; GO:0001701; P:in utero embryonic development; ISO:RGD.
+DR   GO; GO:0048839; P:inner ear development; IEP:RGD.
+DR   GO; GO:0035556; P:intracellular signal transduction; IMP:RGD.
+DR   GO; GO:0001822; P:kidney development; ISO:RGD.
+DR   GO; GO:0060437; P:lung growth; IMP:RGD.
+DR   GO; GO:0008584; P:male gonad development; IEP:RGD.
+DR   GO; GO:0072278; P:metanephric comma-shaped body morphogenesis; IEP:UniProtKB.
+DR   GO; GO:0072277; P:metanephric glomerular capillary formation; ISS:UniProtKB.
+DR   GO; GO:0072262; P:metanephric glomerular mesangial cell proliferation involved in metanephros development; ISS:UniProtKB.
+DR   GO; GO:0072223; P:metanephric glomerular mesangium development; ISO:RGD.
+DR   GO; GO:0072275; P:metanephric glomerulus morphogenesis; IEP:UniProtKB.
+DR   GO; GO:0035789; P:metanephric mesenchymal cell migration; IDA:UniProtKB.
+DR   GO; GO:0072075; P:metanephric mesenchyme development; IEP:UniProtKB.
+DR   GO; GO:0072284; P:metanephric S-shaped body morphogenesis; IEP:UniProtKB.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:0018108; P:peptidyl-tyrosine phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0046488; P:phosphatidylinositol metabolic process; ISS:UniProtKB.
+DR   GO; GO:0048008; P:platelet-derived growth factor receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0035791; P:platelet-derived growth factor receptor-beta signaling pathway; ISO:RGD.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:0090280; P:positive regulation of calcium ion import; ISS:UniProtKB.
+DR   GO; GO:0050850; P:positive regulation of calcium-mediated signaling; ISS:UniProtKB.
+DR   GO; GO:0030335; P:positive regulation of cell migration; ISS:UniProtKB.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IMP:RGD.
+DR   GO; GO:0038091; P:positive regulation of cell proliferation by VEGF-activated platelet derived growth factor receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0050921; P:positive regulation of chemotaxis; ISS:UniProtKB.
+DR   GO; GO:0032967; P:positive regulation of collagen biosynthetic process; IMP:RGD.
+DR   GO; GO:2000573; P:positive regulation of DNA biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0070374; P:positive regulation of ERK1 and ERK2 cascade; ISS:UniProtKB.
+DR   GO; GO:0048146; P:positive regulation of fibroblast proliferation; IMP:RGD.
+DR   GO; GO:2000491; P:positive regulation of hepatic stellate cell activation; IMP:RGD.
+DR   GO; GO:0043406; P:positive regulation of MAP kinase activity; ISS:UniProtKB.
+DR   GO; GO:0035793; P:positive regulation of metanephric mesenchymal cell migration by platelet-derived growth factor receptor-beta signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0045840; P:positive regulation of mitotic nuclear division; ISS:UniProtKB.
+DR   GO; GO:0051897; P:positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISS:UniProtKB.
+DR   GO; GO:2000379; P:positive regulation of reactive oxygen species metabolic process; ISS:UniProtKB.
+DR   GO; GO:0035025; P:positive regulation of Rho protein signal transduction; IMP:RGD.
+DR   GO; GO:0014911; P:positive regulation of smooth muscle cell migration; ISS:UniProtKB.
+DR   GO; GO:0048661; P:positive regulation of smooth muscle cell proliferation; ISS:UniProtKB.
+DR   GO; GO:0046777; P:protein autophosphorylation; ISS:UniProtKB.
+DR   GO; GO:0032956; P:regulation of actin cytoskeleton organization; ISO:RGD.
+DR   GO; GO:0050730; P:regulation of peptidyl-tyrosine phosphorylation; ISO:RGD.
+DR   GO; GO:0106096; P:response to ceramide; ISO:RGD.
+DR   GO; GO:0032355; P:response to estradiol; IEP:RGD.
+DR   GO; GO:0043627; P:response to estrogen; IEP:RGD.
+DR   GO; GO:0034405; P:response to fluid shear stress; IEP:RGD.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; IEP:RGD.
+DR   GO; GO:0055093; P:response to hyperoxia; IEP:RGD.
+DR   GO; GO:0033993; P:response to lipid; IEP:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:0032526; P:response to retinoic acid; IEP:RGD.
+DR   GO; GO:0009636; P:response to toxic substance; IEP:RGD.
+DR   GO; GO:0061298; P:retina vasculature development in camera-type eye; ISS:UniProtKB.
+DR   GO; GO:0097178; P:ruffle assembly; ISO:RGD.
+DR   GO; GO:0007165; P:signal transduction; ISO:RGD.
+DR   GO; GO:0048705; P:skeletal system morphogenesis; ISO:RGD.
+DR   GO; GO:0071670; P:smooth muscle cell chemotaxis; ISO:RGD.
+DR   GO; GO:0048745; P:smooth muscle tissue development; ISO:RGD.
+DR   GO; GO:0001894; P:tissue homeostasis; ISO:RGD.
+DR   CDD; cd00096; Ig; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 5.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR013151; Immunoglobulin_dom.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR027288; PGFRB.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR050122; RTK.
+DR   InterPro; IPR001245; Ser-Thr/Tyr_kinase_cat_dom.
+DR   InterPro; IPR008266; Tyr_kinase_AS.
+DR   InterPro; IPR020635; Tyr_kinase_cat_dom.
+DR   InterPro; IPR001824; Tyr_kinase_rcpt_3_CS.
+DR   PANTHER; PTHR24416:SF53; PLATELET-DERIVED GROWTH FACTOR RECEPTOR BETA; 1.
+DR   PANTHER; PTHR24416; TYROSINE-PROTEIN KINASE RECEPTOR; 1.
+DR   Pfam; PF00047; ig; 1.
+DR   Pfam; PF13927; Ig_3; 1.
+DR   Pfam; PF07714; PK_Tyr_Ser-Thr; 1.
+DR   PIRSF; PIRSF500948; Beta-PDGF_receptor; 1.
+DR   PIRSF; PIRSF000615; TyrPK_CSF1-R; 1.
+DR   PRINTS; PR01832; VEGFRECEPTOR.
+DR   SMART; SM00409; IG; 3.
+DR   SMART; SM00408; IGc2; 3.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF48726; Immunoglobulin; 4.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS50835; IG_LIKE; 3.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS00240; RECEPTOR_TYR_KIN_III; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Cell membrane; Chemotaxis; Cytoplasmic vesicle;
+KW   Developmental protein; Disulfide bond; Glycoprotein; Immunoglobulin domain;
+KW   Kinase; Lysosome; Membrane; Nucleotide-binding; Phosphoprotein; Receptor;
+KW   Reference proteome; Repeat; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix; Tyrosine-protein kinase; Ubl conjugation.
+FT   SIGNAL          1..31
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           32..1097
+FT                   /note="Platelet-derived growth factor receptor beta"
+FT                   /id="PRO_0000016759"
+FT   TOPO_DOM        32..531
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        532..552
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        553..1097
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          32..119
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          128..209
+FT                   /note="Ig-like C2-type 2"
+FT   DOMAIN          213..308
+FT                   /note="Ig-like C2-type 3"
+FT   DOMAIN          415..523
+FT                   /note="Ig-like C2-type 4"
+FT   DOMAIN          599..961
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          1016..1097
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1040..1063
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        825
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10028"
+FT   BINDING         605..613
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         633
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         561
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         578
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         580
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         685
+FT                   /note="Phosphotyrosine; by ABL1 and ABL2"
+FT                   /evidence="ECO:0000250|UniProtKB:P05622"
+FT   MOD_RES         715
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         739
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         750
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         762
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         770
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         774
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         777
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         856
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         933
+FT                   /note="Phosphotyrosine; by ABL1 and ABL2"
+FT                   /evidence="ECO:0000250|UniProtKB:P05622"
+FT   MOD_RES         969
+FT                   /note="Phosphotyrosine; by ABL1 and ABL2"
+FT                   /evidence="ECO:0000250|UniProtKB:P05622"
+FT   MOD_RES         1008
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   MOD_RES         1020
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P09619"
+FT   CARBOHYD        44
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        88
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        102
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        214
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        291
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        306
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        353
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        370
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        444
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        467
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        478
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        53..99
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        148..189
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        234..290
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        435..507
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+SQ   SEQUENCE   1097 AA;  122828 MW;  5E6540FA0C5CF22B CRC64;
+     MGLPEVMPAS VLRGQLLLFV LLLLGPQISQ GLVITPPGPE FVLNISSTFV LTCSSSAPVM
+     WEQMSQVPWQ EAAMNQDGTF SSVLTLTNVT GGDTGEYFCV YNNSLGPELS ERKRIYIFVP
+     DPTMGFLPMD SEDLFIFVTD VTETTIPCRV TDPQLEVTLH EKKVDIPLHV PYDHQRGFIG
+     TFEDKTYICK TTIGDREVDS DTYYVYSLQV SSINVSVNAV QTVVRQGESI TIRCIVMGND
+     VVNFQWTYPR MKSGRLVEPV TDYLFGVPSR IGSILHIPTA ELSDSGTYTC NVSVSVNDHG
+     DEKAINVTVI ENGYVRLLET LEDVQIAELH RSRTLQVVFE AYPTPSVLWF KDNRTLGDSS
+     AGELVLSTRN VSETRYVSEL TLVRVKVSEA GYYTMRAFHA DDQVQLSFKL QVNVPVRVLE
+     LSESHPANGE QILRCRGRGM PQPNVTWSTC RDLKRCPRKL SPTPLGNSSK EESQLETNVT
+     FWEEDQEYEV VSTLRLRHVD QPLSVRCMLQ NSMGRDSQEV TVVPHSLPFK VVVISAILAL
+     VVLTVISLII LIMLWQRKPR YEIRWKVIES VSSDGHEYIY VDPVQLPYDS TWELPRDQLV
+     LGRTLGSGAF GQVVEATAHG LSHSQATMKV AVKMLKSTAR SSEKQALMSE LKIMSHLGPH
+     LNVVNLLGAC TKGGPIYIIT EYCRYGDLVD YLHRNKHTFL QRHSNKHCPP STELYSNALP
+     VGLSLPSHLN LTGESDGGYM DMSKDESVDY VPMLDMKGHI KYADIESSSY MAPYDNYVPS
+     APERTYRATL INDSPVLSYT DLVGFSYQVA NGMEFLASKN CVHRDLAARN VLICEGKLVK
+     ICDFGLARDI MRDSNYISKG STFLPLKWMA PESIFNSLYT TLSDVWSFGI LLWEIFTLGG
+     TPYPELPMND QFYNAIKRGY RMAQPAHASD EIYEIMQKCW EEKFETRPPF SQLVLLLERL
+     LGEGYKKKYQ QVDEEFLRSD HPAILRSQAR LPGLHSLRSP LDTSSVLYTA VQPNETDNDY
+     IIPLPDPKPD AADEGLLEGS PSLASSTLNE VNTSSTISCD SPLELQEEPQ AEPEAQLEQP
+     QDSGCPGPLA EAEDSFL
+//

@@ -1,0 +1,227 @@
+ID   RGS3_RAT                Reviewed;         967 AA.
+AC   P49797; Q5RKK6; Q920Q9;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUN-2005, sequence version 2.
+DT   29-MAY-2024, entry version 152.
+DE   RecName: Full=Regulator of G-protein signaling 3;
+DE            Short=RGS3;
+DE   AltName: Full=SRB-RGS;
+GN   Name=Rgs3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), INTERACTION WITH ESR1, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Ovary;
+RX   PubMed=11595167; DOI=10.1016/s0378-1119(01)00589-3;
+RA   Ikeda M., Hirokawa M., Satani N., Kinoshita T., Watanabe Y., Inoue H.,
+RA   Tone S., Ishikawa T., Minatogawa Y.;
+RT   "Molecular cloning and characterization of a steroid receptor-binding
+RT   regulator of G-protein signaling protein cDNA.";
+RL   Gene 273:207-214(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 873-939 (ISOFORM 1), AND TISSUE SPECIFICITY.
+RC   TISSUE=Brain;
+RX   PubMed=8548815; DOI=10.1016/s0092-8674(00)80998-8;
+RA   Koelle M.R., Horvitz H.R.;
+RT   "EGL-10 regulates G protein signaling in the C. elegans nervous system and
+RT   shares a conserved domain with many mammalian proteins.";
+RL   Cell 84:115-125(1996).
+RN   [4]
+RP   PHOSPHORYLATION.
+RX   PubMed=10702309; DOI=10.1074/jbc.275.10.7365;
+RA   Pedram A., Razandi M., Kehrl J., Levin E.R.;
+RT   "Natriuretic peptides inhibit G protein activation. Mediation through
+RT   cross-talk between cyclic GMP-dependent protein kinase and regulators of G
+RT   protein-signaling proteins.";
+RL   J. Biol. Chem. 275:7365-7372(2000).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-713 AND SER-716, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Down-regulates signaling from heterotrimeric G-proteins by
+CC       increasing the GTPase activity of the alpha subunits, thereby driving
+CC       them into their inactive GDP-bound form. Down-regulates G-protein-
+CC       mediated release of inositol phosphates and activation of MAP kinases.
+CC   -!- SUBUNIT: Binds EFNB1 and EFNB2. Binds the GNB1-GNG2 heterodimer (By
+CC       similarity). Binds ESR1. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P49796}.
+CC       Membrane {ECO:0000250|UniProtKB:P49796}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:P49796}. Nucleus {ECO:0000250|UniProtKB:P49796}.
+CC       Note=Long isoforms are cytoplasmic and associated with the plasma
+CC       membrane. Short isoforms are nuclear. {ECO:0000250|UniProtKB:P49796}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P49797-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P49797-2; Sequence=VSP_013971, VSP_013972;
+CC   -!- TISSUE SPECIFICITY: Detected in kidney, uterus, ovary, heart, brain,
+CC       spleen, lung and testis. {ECO:0000269|PubMed:11595167,
+CC       ECO:0000269|PubMed:8548815}.
+CC   -!- PTM: Phosphorylated by cyclic GMP-dependent protein kinase.
+CC       {ECO:0000269|PubMed:10702309}.
+CC   -!- PTM: ISGylated. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB055153; BAB63460.1; -; mRNA.
+DR   EMBL; BC085710; AAH85710.1; -; mRNA.
+DR   EMBL; U32434; AAC52371.1; -; mRNA.
+DR   RefSeq; NP_062213.1; NM_019340.1. [P49797-1]
+DR   RefSeq; XP_006238327.1; XM_006238265.3. [P49797-2]
+DR   AlphaFoldDB; P49797; -.
+DR   SMR; P49797; -.
+DR   BioGRID; 248513; 2.
+DR   STRING; 10116.ENSRNOP00000071774; -.
+DR   iPTMnet; P49797; -.
+DR   PhosphoSitePlus; P49797; -.
+DR   PaxDb; 10116-ENSRNOP00000055954; -.
+DR   GeneID; 54293; -.
+DR   KEGG; rno:54293; -.
+DR   UCSC; RGD:3566; rat. [P49797-1]
+DR   AGR; RGD:3566; -.
+DR   CTD; 5998; -.
+DR   RGD; 3566; Rgs3.
+DR   VEuPathDB; HostDB:ENSRNOG00000024501; -.
+DR   eggNOG; KOG3589; Eukaryota.
+DR   HOGENOM; CLU_038537_0_0_1; -.
+DR   InParanoid; P49797; -.
+DR   PhylomeDB; P49797; -.
+DR   Reactome; R-RNO-416476; G alpha (q) signalling events.
+DR   Reactome; R-RNO-418594; G alpha (i) signalling events.
+DR   PRO; PR:P49797; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   Bgee; ENSRNOG00000024501; Expressed in lung and 20 other cell types or tissues.
+DR   ExpressionAtlas; P49797; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030695; F:GTPase regulator activity; IEA:UniProt.
+DR   GO; GO:0009968; P:negative regulation of signal transduction; IEA:UniProtKB-KW.
+DR   CDD; cd00992; PDZ_signaling; 1.
+DR   CDD; cd08713; RGS_RGS3; 1.
+DR   Gene3D; 1.10.196.10; -; 2.
+DR   Gene3D; 2.30.42.10; -; 1.
+DR   Gene3D; 2.30.29.30; Pleckstrin-homology domain (PH domain)/Phosphotyrosine-binding domain (PTB); 1.
+DR   Gene3D; 1.10.167.10; Regulator of G-protein Signalling 4, domain 2; 1.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   InterPro; IPR011993; PH-like_dom_sf.
+DR   InterPro; IPR016137; RGS.
+DR   InterPro; IPR034951; RGS_RGS3.
+DR   InterPro; IPR036305; RGS_sf.
+DR   InterPro; IPR024066; RGS_subdom1/3.
+DR   InterPro; IPR044926; RGS_subdomain_2.
+DR   PANTHER; PTHR46848; REGULATOR OF G-PROTEIN SIGNALING 3; 1.
+DR   PANTHER; PTHR46848:SF1; REGULATOR OF G-PROTEIN SIGNALING 3; 1.
+DR   Pfam; PF00595; PDZ; 1.
+DR   Pfam; PF00615; RGS; 1.
+DR   PRINTS; PR01301; RGSPROTEIN.
+DR   SMART; SM00228; PDZ; 1.
+DR   SMART; SM00315; RGS; 1.
+DR   SUPFAM; SSF50156; PDZ domain-like; 1.
+DR   SUPFAM; SSF50729; PH domain-like; 1.
+DR   SUPFAM; SSF48097; Regulator of G-protein signaling, RGS; 1.
+DR   PROSITE; PS50106; PDZ; 1.
+DR   PROSITE; PS50132; RGS; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cytoplasm; Membrane; Methylation; Nucleus;
+KW   Phosphoprotein; Reference proteome; Signal transduction inhibitor;
+KW   Ubl conjugation.
+FT   CHAIN           1..967
+FT                   /note="Regulator of G-protein signaling 3"
+FT                   /id="PRO_0000204184"
+FT   DOMAIN          18..95
+FT                   /note="PDZ"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00143"
+FT   DOMAIN          842..967
+FT                   /note="RGS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00171"
+FT   REGION          115..135
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          389..705
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          807..830
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        119..135
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        398..422
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        429..471
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        472..488
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        515..603
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        652..676
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         167
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49796"
+FT   MOD_RES         713
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         716
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         748
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DC04"
+FT   MOD_RES         777
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DC04"
+FT   VAR_SEQ         399..433
+FT                   /note="MFETEADEKEMPLVEGKGPGAEERTPSKDPSPSQE -> KLHPYGSLQQEMG
+FT                   PVTSINATQDRSFTSSGQTLIG (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_013971"
+FT   VAR_SEQ         434..967
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_013972"
+SQ   SEQUENCE   967 AA;  106380 MW;  5C558885DBA63A5B CRC64;
+     MNRFNGLCKV CSERRYRQIT IRRGKDGFGF TICCDSPVRV QAVDSGGPAE RAGLQQLDTV
+     LQLNERPVEH WKCVELAHEI RSCPSEIILL VWRVVPQIKP GPDGGVLRRA SCKSTHDLLS
+     PPNKREKNCT HGAPTRPEQR HSCHLVCDSS DGLLLGGWER YTEVGKRSGQ HTLPALSRAT
+     TPTDPNYIIL APLNPGSQLL RPVYQEDAIP EEPGTTTKGK SYTGLGKKSR LMKTVQTMKG
+     HSNYQDCSAL RPHIPHSSYG TYVTLAPKVL VFPVFVQPLD LCNPARTLLL SEELLLYEGR
+     NKTSQVTLFA YSDLLLFTKE EEPGRCDVLR NPLYLQSVKL QEGSSEDLKF CVLYLAEKAE
+     CLFTLEAHSQ EQKKRVCWCL SENIAKQQQL AATPTERKMF ETEADEKEMP LVEGKGPGAE
+     ERTPSKDPSP SQELPPGQEL PPSKDPSPSQ ELPPGQELPP SKDPSPSQEL PPGQELPSSK
+     NPSPSQELPA GQDLPPRKES FSGQEAAPGP ESPSSEDIAT CQNPPQSPET STSKDSPPGQ
+     GSSPTTEVPS CQGLPAGQES TSQDPLLSQE PPAIPESSAS DQNVLPSQES PPSQGSLSEK
+     ALAEQTISPG ELPAATAGEP SASRPNFVIP EVRLDSAYSQ QDGAHGGSSG EDEDAEEGEE
+     GEEGEEDEED DTNDDNYGDR NEAKRSSLIE TGQGAEGGLS LRVQNSLRRR THSEGSLLQE
+     ARGPCFASDT TLHCSDGEGT TSTWAIPSPR TLKKELGRNG GSMHHLSLFF TGHRKMSGTD
+     LADDVEASRK RKSKNIAKDM KNKLAIFRRR NESPGAQPAG KADKTTKSFK PTSEEALKWS
+     ESLEKLLLHK YGLEVFQAFL RTEFSEENLE FWLACEDFKK VKSQSKMAAK AKKIFAEFIA
+     IQACKEVNLD SYTREHTKEN LQSITRGCFD LAQKRIFGLM EKDSYPRFLR SDLYLDLINQ
+     KKMSPPL
+//

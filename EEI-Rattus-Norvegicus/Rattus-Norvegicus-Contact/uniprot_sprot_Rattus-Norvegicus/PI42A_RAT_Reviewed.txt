@@ -1,0 +1,228 @@
+ID   PI42A_RAT               Reviewed;         406 AA.
+AC   Q9R0I8;
+DT   25-OCT-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   24-JUL-2024, entry version 115.
+DE   RecName: Full=Phosphatidylinositol 5-phosphate 4-kinase type-2 alpha;
+DE            EC=2.7.1.149;
+DE   AltName: Full=1-phosphatidylinositol 5-phosphate 4-kinase 2-alpha;
+DE   AltName: Full=Diphosphoinositide kinase 2-alpha;
+DE   AltName: Full=PIPK2 alpha;
+DE   AltName: Full=Phosphatidylinositol 5-phosphate 4-kinase type II alpha;
+DE            Short=PI(5)P 4-kinase type II alpha;
+DE            Short=PIP4KII-alpha;
+DE   AltName: Full=PtdIns(5)P-4-kinase isoform 2-alpha;
+GN   Name=Pip4k2a {ECO:0000312|RGD:621708};
+GN   Synonyms=Pip4ka {ECO:0000303|PubMed:21847559}, Pip5k2a;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Kudo M., Saito S., Kondo H.;
+RT   "Rattus rat phosphatidylinositol 5-phosphate 4-kinase alpha, complete
+RT   cds.";
+RL   Submitted (SEP-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   SUBCELLULAR LOCATION, TISSUE SPECIFICITY, ACTIVITY REGULATION,
+RP   PHOSPHORYLATION, FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=20204506; DOI=10.1007/s11064-010-0146-y;
+RA   Huang Z., Anderson R.E., Cao W., Wiechmann A.F., Rajala R.V.S.;
+RT   "Light-induced tyrosine phosphorylation of rod outer segment membrane
+RT   proteins regulate the translocation, membrane binding and activation of
+RT   type II alpha phosphatidylinositol-5-phosphate 4-kinase.";
+RL   Neurochem. Res. 36:627-635(2011).
+RN   [3]
+RP   FUNCTION IN INSULIN-MEDIATED GLUCOSE UPTAKE.
+RX   PubMed=21847559; DOI=10.1007/s00424-011-1008-4;
+RA   Grainger D.L., Tavelis C., Ryan A.J., Hinchliffe K.A.;
+RT   "Involvement of phosphatidylinositol 5-phosphate in insulin-stimulated
+RT   glucose uptake in the L6 myotube model of skeletal muscle.";
+RL   Pflugers Arch. 462:723-732(2011).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of phosphatidylinositol 5-
+CC       phosphate (PtdIns5P) on the fourth hydroxyl of the myo-inositol ring,
+CC       to form phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P2). Has both
+CC       ATP- and GTP-dependent kinase activities. May exert its function by
+CC       regulating the levels of PtdIns5P, which functions in the cytosol by
+CC       increasing AKT activity and in the nucleus signals through ING2 (By
+CC       similarity). May regulate the pool of cytosolic PtdIns5P in response to
+CC       the activation of tyrosine phosphorylation (PubMed:20204506). Required
+CC       for lysosome-peroxisome membrane contacts and intracellular cholesterol
+CC       transport through modulating peroxisomal PtdIns(4,5)P2 level (By
+CC       similarity). In collaboration with PIP4K2B, has a role in mediating
+CC       autophagy in times of nutrient stress (By similarity). Required for
+CC       autophagosome-lysosome fusion and the regulation of cellular lipid
+CC       metabolism (By similarity). Negatively regulates insulin signaling
+CC       through a catalytic-independent mechanism. PIP4Ks interact with PIP5Ks
+CC       and suppress PIP5K-mediated PtdIns(4,5)P2 synthesis and insulin-
+CC       dependent conversion to PtdIns(3,4,5)P3 (PubMed:21847559). May be
+CC       involved in thrombopoiesis, and the terminal maturation of
+CC       megakaryocytes and regulation of their size (By similarity).
+CC       {ECO:0000250|UniProtKB:O70172, ECO:0000250|UniProtKB:P48426,
+CC       ECO:0000269|PubMed:20204506, ECO:0000269|PubMed:21847559}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol-5-
+CC         phosphate) + ATP = a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-
+CC         inositol-4,5-bisphosphate) + ADP + H(+); Xref=Rhea:RHEA:12280,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57795,
+CC         ChEBI:CHEBI:58456, ChEBI:CHEBI:456216; EC=2.7.1.149;
+CC         Evidence={ECO:0000269|PubMed:20204506};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:12281;
+CC         Evidence={ECO:0000305|PubMed:20204506};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihexadecanoyl-sn-glycero-3-phospho-(1D-myo-inositol-5-
+CC         phosphate) + ATP = 1,2-dihexadecanoyl-sn-glycero-3-phospho-(1D-myo-
+CC         inositol-4,5-bisphosphate) + ADP + H(+); Xref=Rhea:RHEA:55992,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:83423,
+CC         ChEBI:CHEBI:84968, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000250|UniProtKB:P48426};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55993;
+CC         Evidence={ECO:0000250|UniProtKB:P48426};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihexadecanoyl-sn-glycero-3-phospho-(1D-myo-inositol-5-
+CC         phosphate) + GTP = 1,2-dihexadecanoyl-sn-glycero-3-phospho-(1D-myo-
+CC         inositol-4,5-bisphosphate) + GDP + H(+); Xref=Rhea:RHEA:55964,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:37565, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:83423, ChEBI:CHEBI:84968;
+CC         Evidence={ECO:0000250|UniProtKB:P48426};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55965;
+CC         Evidence={ECO:0000250|UniProtKB:P48426};
+CC   -!- ACTIVITY REGULATION: In rod outer segments, activated by light.
+CC       {ECO:0000269|PubMed:20204506}.
+CC   -!- SUBUNIT: Homodimer. Interacts with PIP4K2B; the interaction may
+CC       regulate localization to the nucleus (By similarity). Probably
+CC       interacts with PIP5K1A; the interaction inhibits PIP5K1A kinase
+CC       activity (By similarity). {ECO:0000250|UniProtKB:P48426,
+CC       ECO:0000250|UniProtKB:Q8TBX8}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:O70172}.
+CC       Nucleus {ECO:0000250|UniProtKB:P48426}. Lysosome
+CC       {ECO:0000250|UniProtKB:O70172}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:P48426}. Photoreceptor inner segment
+CC       {ECO:0000250|UniProtKB:O70172}. Cell projection, cilium, photoreceptor
+CC       outer segment {ECO:0000250|UniProtKB:O70172}. Note=May translocate from
+CC       the cytosol to the cell membrane upon activation of tyrosine
+CC       phosphorylation. May translocate from the inner to the outer segments
+CC       of the rod photoreceptor cells in response to light (By similarity).
+CC       Localization to the nucleus is modulated by the interaction with
+CC       PIP4K2B (By similarity). {ECO:0000250|UniProtKB:O70172,
+CC       ECO:0000250|UniProtKB:P48426}.
+CC   -!- PTM: Phosphorylated in tyrosines. Phosphorylation is induced by light
+CC       and increases kinase activity. {ECO:0000269|PubMed:20204506}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB032899; BAA85160.1; -; mRNA.
+DR   RefSeq; NP_446378.1; NM_053926.2.
+DR   AlphaFoldDB; Q9R0I8; -.
+DR   SMR; Q9R0I8; -.
+DR   BioGRID; 250590; 1.
+DR   IntAct; Q9R0I8; 1.
+DR   iPTMnet; Q9R0I8; -.
+DR   PhosphoSitePlus; Q9R0I8; -.
+DR   SwissPalm; Q9R0I8; -.
+DR   jPOST; Q9R0I8; -.
+DR   PaxDb; 10116-ENSRNOP00000022375; -.
+DR   Ensembl; ENSRNOT00000022375.8; ENSRNOP00000022375.8; ENSRNOG00000016670.8.
+DR   Ensembl; ENSRNOT00055018504; ENSRNOP00055014889; ENSRNOG00055010925.
+DR   Ensembl; ENSRNOT00060035398; ENSRNOP00060029092; ENSRNOG00060020405.
+DR   Ensembl; ENSRNOT00065004375; ENSRNOP00065003122; ENSRNOG00065003110.
+DR   GeneID; 116723; -.
+DR   KEGG; rno:116723; -.
+DR   UCSC; RGD:621708; rat.
+DR   AGR; RGD:621708; -.
+DR   CTD; 5305; -.
+DR   RGD; 621708; Pip4k2a.
+DR   eggNOG; KOG0229; Eukaryota.
+DR   GeneTree; ENSGT00940000156508; -.
+DR   InParanoid; Q9R0I8; -.
+DR   OMA; MFTREIT; -.
+DR   OrthoDB; 5481504at2759; -.
+DR   PhylomeDB; Q9R0I8; -.
+DR   Reactome; R-RNO-1660499; Synthesis of PIPs at the plasma membrane.
+DR   Reactome; R-RNO-6811555; PI5P Regulates TP53 Acetylation.
+DR   Reactome; R-RNO-6811558; PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling.
+DR   Reactome; R-RNO-8847453; Synthesis of PIPs in the nucleus.
+DR   PRO; PR:Q9R0I8; -.
+DR   Proteomes; UP000002494; Chromosome 17.
+DR   GO; GO:0005776; C:autophagosome; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005764; C:lysosome; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0001917; C:photoreceptor inner segment; IEA:UniProtKB-SubCell.
+DR   GO; GO:0001750; C:photoreceptor outer segment; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0016308; F:1-phosphatidylinositol-4-phosphate 5-kinase activity; ISS:UniProtKB.
+DR   GO; GO:0016309; F:1-phosphatidylinositol-5-phosphate 4-kinase activity; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:1902635; P:1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0061909; P:autophagosome-lysosome fusion; ISS:UniProtKB.
+DR   GO; GO:0035855; P:megakaryocyte development; ISO:RGD.
+DR   GO; GO:0046627; P:negative regulation of insulin receptor signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0046854; P:phosphatidylinositol phosphate biosynthetic process; IBA:GO_Central.
+DR   GO; GO:2000786; P:positive regulation of autophagosome assembly; ISO:RGD.
+DR   GO; GO:0010506; P:regulation of autophagy; ISS:UniProtKB.
+DR   GO; GO:0090119; P:vesicle-mediated cholesterol transport; ISS:UniProtKB.
+DR   CDD; cd17309; PIPKc_PIP5K2A; 1.
+DR   Gene3D; 3.30.810.10; 2-Layer Sandwich; 2.
+DR   Gene3D; 3.30.800.10; Phosphatidylinositol Phosphate Kinase II Beta; 1.
+DR   InterPro; IPR027483; PInositol-4-P-4/5-kinase_C_sf.
+DR   InterPro; IPR002498; PInositol-4-P-4/5-kinase_core.
+DR   InterPro; IPR027484; PInositol-4-P-5-kinase_N.
+DR   InterPro; IPR023610; PInositol-4/5-P-5/4-kinase.
+DR   PANTHER; PTHR23086:SF21; PHOSPHATIDYLINOSITOL 5-PHOSPHATE 4-KINASE TYPE-2 ALPHA; 1.
+DR   PANTHER; PTHR23086; PHOSPHATIDYLINOSITOL-4-PHOSPHATE 5-KINASE; 1.
+DR   Pfam; PF01504; PIP5K; 1.
+DR   SMART; SM00330; PIPKc; 1.
+DR   SUPFAM; SSF56104; SAICAR synthase-like; 1.
+DR   PROSITE; PS51455; PIPK; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Cell membrane; Cell projection; Cytoplasm;
+KW   Kinase; Lipid metabolism; Lysosome; Membrane; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Reference proteome; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P48426"
+FT   CHAIN           2..406
+FT                   /note="Phosphatidylinositol 5-phosphate 4-kinase type-2
+FT                   alpha"
+FT                   /id="PRO_0000185468"
+FT   DOMAIN          33..405
+FT                   /note="PIPK"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00781"
+FT   REGION          59..65
+FT                   /note="Required for interaction with PIP5K1A"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8TBX8"
+FT   REGION          287..328
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        288..302
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P48426"
+FT   MOD_RES         3
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P48426"
+FT   MOD_RES         14
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P48426"
+FT   MOD_RES         89
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P48426"
+FT   MOD_RES         145
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P48426"
+SQ   SEQUENCE   406 AA;  46210 MW;  CA54529BC7FD8622 CRC64;
+     MATPSNLGSS VLASKTKTKK KHFVAQKVKL FRASDPLLSV LMWGVNHSIN ELSHVQIPVM
+     LMPDDFKAYS KIKVDNHLFN KENMPSHFKF KEYCPMVFRN LRERFGIDDQ DFQNSLTRSA
+     PLPNDSQARS GARFHTSYDK RYVIKTITSE DVAEMHNILK KYHQYIVECH GVTLLPQFLG
+     MYRLNVDGVE IYVIVTRNVF SHRLSVYRKY DLKGSTVARE ASDKEKAKEL PTLKDNDFIN
+     EGQKIYIDDS NKKIFLEKLK KDVEFLAQLK LMDYSLLVGI HDVERAEQEE VECEENEGEE
+     EGESDGAHPI GTPPDSPGNT LNSSPPLAPG EFDPNIDVYA IKCHENAPRK EVYFMAIIDI
+     LTHYDAKKKA AHAAKTVKHG AGAEISTVNP EQYSKRFLDF IGHILT
+//

@@ -1,0 +1,182 @@
+ID   NUDT4_RAT               Reviewed;         179 AA.
+AC   Q99MY2;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   29-MAY-2024, entry version 137.
+DE   RecName: Full=Diphosphoinositol polyphosphate phosphohydrolase 2 {ECO:0000305};
+DE            Short=DIPP-2;
+DE            Short=rDIPP2;
+DE            EC=3.6.1.52 {ECO:0000250|UniProtKB:Q9NZJ9};
+DE   AltName: Full=Diadenosine 5',5'''-P1,P6-hexaphosphate hydrolase 2;
+DE            EC=3.6.1.-;
+DE   AltName: Full=Nucleoside diphosphate-linked moiety X motif 4;
+DE            Short=Nudix motif 4;
+GN   Name=Nudt4 {ECO:0000312|RGD:621355}; Synonyms=Dipp2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND INDUCTION.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=11331144; DOI=10.1016/s0893-133x(00)00233-5;
+RA   Hua L.V., Green M., Warsh J.J., Li P.P.;
+RT   "Molecular cloning of a novel isoform of diphosphoinositol polyphosphate
+RT   phosphohydrolase: a potential target of lithium therapy.";
+RL   Neuropsychopharmacology 24:640-651(2001).
+CC   -!- FUNCTION: Cleaves a beta-phosphate from the diphosphate groups in PP-
+CC       InsP5 (diphosphoinositol pentakisphosphate), PP-InsP4 and [PP]2-InsP4
+CC       (bisdiphosphoinositol tetrakisphosphate), suggesting that it may play a
+CC       role in signal transduction (By similarity). Can also catalyze the
+CC       hydrolysis of diadenosine 5',5'''-P1,P6-hexaphosphate (Ap6A) but not
+CC       diadenosine 5',5'''-P1,P5-pentaphosphate (Ap5A) and the major reaction
+CC       products are ADP and p4a from Ap6A (By similarity). Also able to
+CC       hydrolyze 5-phosphoribose 1-diphosphate (By similarity). Does not play
+CC       a role in U8 snoRNA decapping activity (By similarity). Binds U8 snoRNA
+CC       (By similarity). {ECO:0000250|UniProtKB:Q8R2U6,
+CC       ECO:0000250|UniProtKB:Q9NZJ9}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=diphospho-myo-inositol polyphosphate + H2O = myo-inositol
+CC         polyphosphate + phosphate.; EC=3.6.1.52;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NZJ9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-diphospho-1D-myo-inositol 1,2,3,4,6-pentakisphosphate + H2O
+CC         = 1D-myo-inositol hexakisphosphate + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:22384, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58130, ChEBI:CHEBI:58628; EC=3.6.1.52;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NZJ9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3,5-bis(diphospho)-1D-myo-inositol 1,2,4,6-tetrakisphosphate +
+CC         H2O = 3-diphospho-1D-myo-inositol 1,2,4,5,6-pentakisphosphate + 2
+CC         H(+) + phosphate; Xref=Rhea:RHEA:56312, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:43474, ChEBI:CHEBI:140372,
+CC         ChEBI:CHEBI:140374; EC=3.6.1.52;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NZJ9};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q96G61};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q96G61};
+CC       Note=Binds 3 Mg(2+) or Mn(2+) ions per subunit.
+CC       {ECO:0000250|UniProtKB:Q96G61};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q9NZJ9}.
+CC   -!- INDUCTION: Overexpressed in frontal cortex upon chronic lithium
+CC       treatment. {ECO:0000269|PubMed:11331144}.
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. DIPP subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF253473; AAK29279.1; -; mRNA.
+DR   RefSeq; NP_446050.1; NM_053598.1.
+DR   AlphaFoldDB; Q99MY2; -.
+DR   SMR; Q99MY2; -.
+DR   IntAct; Q99MY2; 1.
+DR   STRING; 10116.ENSRNOP00000012363; -.
+DR   iPTMnet; Q99MY2; -.
+DR   PhosphoSitePlus; Q99MY2; -.
+DR   jPOST; Q99MY2; -.
+DR   PaxDb; 10116-ENSRNOP00000012363; -.
+DR   GeneID; 94267; -.
+DR   KEGG; rno:94267; -.
+DR   UCSC; RGD:621355; rat.
+DR   AGR; RGD:621355; -.
+DR   CTD; 11163; -.
+DR   RGD; 621355; Nudt4.
+DR   VEuPathDB; HostDB:ENSRNOG00000009094; -.
+DR   eggNOG; KOG2839; Eukaryota.
+DR   HOGENOM; CLU_037162_1_0_1; -.
+DR   InParanoid; Q99MY2; -.
+DR   OrthoDB; 5389130at2759; -.
+DR   PhylomeDB; Q99MY2; -.
+DR   TreeFam; TF106349; -.
+DR   Reactome; R-RNO-1855167; Synthesis of pyrophosphates in the cytosol.
+DR   PRO; PR:Q99MY2; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000009094; Expressed in kidney and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0034431; F:bis(5'-adenosyl)-hexaphosphatase activity; IBA:GO_Central.
+DR   GO; GO:0034432; F:bis(5'-adenosyl)-pentaphosphatase activity; IBA:GO_Central.
+DR   GO; GO:0008486; F:diphosphoinositol-polyphosphate diphosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0000298; F:endopolyphosphatase activity; IBA:GO_Central.
+DR   GO; GO:0052848; F:inositol-3,5-bisdiphosphate-2,3,4,6-tetrakisphosphate 5-diphosphatase activity; IEA:RHEA.
+DR   GO; GO:0052845; F:inositol-5-diphosphate-1,2,3,4,6-pentakisphosphate diphosphatase activity; IEA:RHEA.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030515; F:snoRNA binding; ISS:UniProtKB.
+DR   GO; GO:1901911; P:adenosine 5'-(hexahydrogen pentaphosphate) catabolic process; IBA:GO_Central.
+DR   GO; GO:1901909; P:diadenosine hexaphosphate catabolic process; IBA:GO_Central.
+DR   GO; GO:1901907; P:diadenosine pentaphosphate catabolic process; IBA:GO_Central.
+DR   GO; GO:0071543; P:diphosphoinositol polyphosphate metabolic process; IBA:GO_Central.
+DR   GO; GO:0046488; P:phosphatidylinositol metabolic process; NAS:RGD.
+DR   CDD; cd04666; Nudix_Hydrolase_9; 1.
+DR   Gene3D; 3.90.79.10; Nucleoside Triphosphate Pyrophosphohydrolase; 1.
+DR   InterPro; IPR047198; DDP-like_NUDIX.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   PANTHER; PTHR12629; DIPHOSPHOINOSITOL POLYPHOSPHATE PHOSPHOHYDROLASE; 1.
+DR   PANTHER; PTHR12629:SF6; DIPHOSPHOINOSITOL POLYPHOSPHATE PHOSPHOHYDROLASE 2-RELATED; 1.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   SUPFAM; SSF55811; Nudix; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Hydrolase; Magnesium; Manganese; Metal-binding;
+KW   Reference proteome; RNA-binding.
+FT   CHAIN           1..179
+FT                   /note="Diphosphoinositol polyphosphate phosphohydrolase 2"
+FT                   /id="PRO_0000057061"
+FT   DOMAIN          17..143
+FT                   /note="Nudix hydrolase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00794"
+FT   MOTIF           50..71
+FT                   /note="Nudix box"
+FT   ACT_SITE        68
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         9
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95989"
+FT   BINDING         17..19
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95989"
+FT   BINDING         38..40
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95989"
+FT   BINDING         49
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:O95989"
+FT   BINDING         65
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:O95989"
+FT   BINDING         65
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:O95989"
+FT   BINDING         69
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:O95989"
+FT   BINDING         88..90
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95989"
+FT   BINDING         114
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95989"
+FT   BINDING         132
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O95989"
+SQ   SEQUENCE   179 AA;  20138 MW;  DE59B9CCA615A6A9 CRC64;
+     MKFKPNQTRT YDREGFKKRA ACLCFRSEQE DEVLLVSSSR YPDQWIVPGG GVEPEEEPGG
+     AAAREVYEEA GVKGKLGRLL GIFENQDRKH RTYVYVLTVT EILEDWEDSV NIGRKREWFK
+     VEDAIKVLQC HKPVHAEYLE RLKLGCSPTN GNSTVPSLPD NNALFVTAAP PSGVPSSIR
+//

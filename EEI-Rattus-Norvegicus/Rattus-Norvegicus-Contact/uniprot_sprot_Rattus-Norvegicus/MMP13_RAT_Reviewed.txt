@@ -1,0 +1,377 @@
+ID   MMP13_RAT               Reviewed;         466 AA.
+AC   P23097;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1991, sequence version 1.
+DT   02-OCT-2024, entry version 170.
+DE   RecName: Full=Collagenase 3;
+DE            EC=3.4.24.-;
+DE   AltName: Full=Matrix metalloproteinase-13;
+DE            Short=MMP-13;
+DE   AltName: Full=UMRCASE;
+DE   Flags: Precursor; Fragment;
+GN   Name=Mmp13;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=2176215; DOI=10.1016/s0021-9258(18)45711-0;
+RA   Quinn C.O., Scott D.K., Brinckerhoff C.E., Matrisian L.M., Jeffrey J.J.,
+RA   Partridge N.C.;
+RT   "Rat collagenase. Cloning, amino acid sequence comparison, and parathyroid
+RT   hormone regulation in osteoblastic cells.";
+RL   J. Biol. Chem. 265:22342-22347(1990).
+CC   -!- FUNCTION: Plays a role in the degradation of extracellular matrix
+CC       proteins including fibrillar collagen, fibronectin, TNC and ACAN.
+CC       Cleaves triple helical collagens, including type I, type II and type
+CC       III collagen, but has the highest activity with soluble type II
+CC       collagen. Can also degrade collagen type IV, type XIV and type X. May
+CC       also function by activating or degrading key regulatory proteins, such
+CC       as TGFB1 and CCN2. Plays a role in wound healing, tissue remodeling,
+CC       cartilage degradation, bone development, bone mineralization and
+CC       ossification. Required for normal embryonic bone development and
+CC       ossification. Plays a role in the healing of bone fractures via
+CC       endochondral ossification. Plays a role in wound healing, probably by a
+CC       mechanism that involves proteolytic activation of TGFB1 and degradation
+CC       of CCN2. Plays a role in keratinocyte migration during wound healing.
+CC       May play a role in cell migration and in tumor cell invasion (By
+CC       similarity). {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Can bind about 5 Ca(2+) ions per subunit. {ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000305}. Secreted {ECO:0000250}.
+CC   -!- DOMAIN: The C-terminal region binds to collagen. {ECO:0000250}.
+CC   -!- DOMAIN: The conserved cysteine present in the cysteine-switch motif
+CC       binds the catalytic zinc ion, thus inhibiting the enzyme. The
+CC       dissociation of the cysteine from the zinc ion upon the activation-
+CC       peptide release activates the enzyme (By similarity). {ECO:0000250}.
+CC   -!- PTM: The proenzyme is activated by removal of the propeptide; this
+CC       cleavage can be effected by other matrix metalloproteinases, such as
+CC       MMP2, MMP3 and MMP14 and may involve several cleavage steps. Cleavage
+CC       can also be autocatalytic, after partial maturation by another protease
+CC       or after treatment with 4-aminophenylmercuric acetate (APMA) (in vitro)
+CC       (By similarity). {ECO:0000250}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250}.
+CC   -!- PTM: Tyrosine phosphorylated by PKDCC/VLK.
+CC       {ECO:0000250|UniProtKB:P45452}.
+CC   -!- SIMILARITY: Belongs to the peptidase M10A family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M60616; AAA72124.1; -; mRNA.
+DR   PIR; A23685; A23685.
+DR   AlphaFoldDB; P23097; -.
+DR   SMR; P23097; -.
+DR   STRING; 10116.ENSRNOP00000011507; -.
+DR   BindingDB; P23097; -.
+DR   ChEMBL; CHEMBL4944; -.
+DR   MEROPS; M10.013; -.
+DR   GlyCosmos; P23097; 3 sites, No reported glycans.
+DR   GlyGen; P23097; 3 sites.
+DR   PhosphoSitePlus; P23097; -.
+DR   PaxDb; 10116-ENSRNOP00000011507; -.
+DR   UCSC; RGD:620196; rat.
+DR   AGR; RGD:620196; -.
+DR   RGD; 620196; Mmp13.
+DR   eggNOG; KOG1565; Eukaryota.
+DR   InParanoid; P23097; -.
+DR   PhylomeDB; P23097; -.
+DR   BRENDA; 3.4.24.B4; 5301.
+DR   Reactome; R-RNO-1442490; Collagen degradation.
+DR   Reactome; R-RNO-1474228; Degradation of the extracellular matrix.
+DR   Reactome; R-RNO-1592389; Activation of Matrix Metalloproteinases.
+DR   Reactome; R-RNO-2022090; Assembly of collagen fibrils and other multimeric structures.
+DR   PRO; PR:P23097; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0031012; C:extracellular matrix; IEA:InterPro.
+DR   GO; GO:0005576; C:extracellular region; TAS:Reactome.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0046581; C:intercellular canaliculus; IDA:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:RGD.
+DR   GO; GO:0048306; F:calcium-dependent protein binding; IDA:RGD.
+DR   GO; GO:0005518; F:collagen binding; ISS:UniProtKB.
+DR   GO; GO:0004175; F:endopeptidase activity; ISO:RGD.
+DR   GO; GO:0001968; F:fibronectin binding; IPI:RGD.
+DR   GO; GO:0050750; F:low-density lipoprotein particle receptor binding; IPI:RGD.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IDA:RGD.
+DR   GO; GO:0008233; F:peptidase activity; ISO:RGD.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; TAS:Reactome.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:RGD.
+DR   GO; GO:0030282; P:bone mineralization; ISO:RGD.
+DR   GO; GO:0060349; P:bone morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0071498; P:cellular response to fluid shear stress; IEP:RGD.
+DR   GO; GO:0030574; P:collagen catabolic process; ISS:UniProtKB.
+DR   GO; GO:0035116; P:embryonic hindlimb morphogenesis; IEP:RGD.
+DR   GO; GO:0001958; P:endochondral ossification; IEP:RGD.
+DR   GO; GO:0044849; P:estrous cycle; IEP:RGD.
+DR   GO; GO:0022617; P:extracellular matrix disassembly; ISS:UniProtKB.
+DR   GO; GO:0030198; P:extracellular matrix organization; IBA:GO_Central.
+DR   GO; GO:0003417; P:growth plate cartilage development; ISO:RGD.
+DR   GO; GO:0007507; P:heart development; IDA:RGD.
+DR   GO; GO:0001554; P:luteolysis; IEP:RGD.
+DR   GO; GO:0001503; P:ossification; IEP:RGD.
+DR   GO; GO:0001649; P:osteoblast differentiation; IEP:RGD.
+DR   GO; GO:0007567; P:parturition; IEP:RGD.
+DR   GO; GO:1904244; P:positive regulation of pancreatic trypsinogen secretion; IDA:RGD.
+DR   GO; GO:0030163; P:protein catabolic process; IDA:RGD.
+DR   GO; GO:0006508; P:proteolysis; ISO:RGD.
+DR   GO; GO:0043627; P:response to estrogen; IEP:RGD.
+DR   GO; GO:0009725; P:response to hormone; IDA:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0009612; P:response to mechanical stimulus; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   CDD; cd00094; HX; 1.
+DR   CDD; cd04278; ZnMc_MMP; 1.
+DR   Gene3D; 3.40.390.10; Collagenase (Catalytic Domain); 1.
+DR   Gene3D; 2.110.10.10; Hemopexin-like domain; 1.
+DR   InterPro; IPR000585; Hemopexin-like_dom.
+DR   InterPro; IPR036375; Hemopexin-like_dom_sf.
+DR   InterPro; IPR018487; Hemopexin-like_repeat.
+DR   InterPro; IPR018486; Hemopexin_CS.
+DR   InterPro; IPR033739; M10A_MMP.
+DR   InterPro; IPR024079; MetalloPept_cat_dom_sf.
+DR   InterPro; IPR001818; Pept_M10_metallopeptidase.
+DR   InterPro; IPR021190; Pept_M10A.
+DR   InterPro; IPR021158; Pept_M10A_Zn_BS.
+DR   InterPro; IPR006026; Peptidase_Metallo.
+DR   InterPro; IPR002477; Peptidoglycan-bd-like.
+DR   InterPro; IPR036365; PGBD-like_sf.
+DR   PANTHER; PTHR10201:SF165; COLLAGENASE 3; 1.
+DR   PANTHER; PTHR10201; MATRIX METALLOPROTEINASE; 1.
+DR   Pfam; PF00045; Hemopexin; 4.
+DR   Pfam; PF00413; Peptidase_M10; 1.
+DR   Pfam; PF01471; PG_binding_1; 1.
+DR   PIRSF; PIRSF001191; Peptidase_M10A_matrix; 1.
+DR   PRINTS; PR00138; MATRIXIN.
+DR   SMART; SM00120; HX; 4.
+DR   SMART; SM00235; ZnMc; 1.
+DR   SUPFAM; SSF50923; Hemopexin-like domain; 1.
+DR   SUPFAM; SSF55486; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   SUPFAM; SSF47090; PGBD-like; 1.
+DR   PROSITE; PS00546; CYSTEINE_SWITCH; 1.
+DR   PROSITE; PS00024; HEMOPEXIN; 1.
+DR   PROSITE; PS51642; HEMOPEXIN_2; 4.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Collagen degradation; Direct protein sequencing; Disulfide bond;
+KW   Extracellular matrix; Glycoprotein; Hydrolase; Metal-binding;
+KW   Metalloprotease; Phosphoprotein; Protease; Reference proteome; Repeat;
+KW   Secreted; Signal; Zinc; Zymogen.
+FT   SIGNAL          <1..13
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          14..98
+FT                   /note="Activation peptide"
+FT                   /id="PRO_0000028794"
+FT   CHAIN           99..466
+FT                   /note="Collagenase 3"
+FT                   /id="PRO_0000028795"
+FT   REPEAT          276..325
+FT                   /note="Hemopexin 1"
+FT   REPEAT          326..372
+FT                   /note="Hemopexin 2"
+FT   REPEAT          374..422
+FT                   /note="Hemopexin 3"
+FT   REPEAT          423..466
+FT                   /note="Hemopexin 4"
+FT   REGION          171..241
+FT                   /note="Interaction with TIMP2"
+FT                   /evidence="ECO:0000250"
+FT   REGION          258..279
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          263..466
+FT                   /note="Interaction with collagen"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           89..96
+FT                   /note="Cysteine switch"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        218
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         91
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /note="in inhibited form"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         123
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         157
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         167
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         169
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         174
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         175
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         177
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         179
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         182
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         189
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         191
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         193
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         195
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         197
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         198
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         200
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         200
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         217
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         221
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         227
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         235
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         286
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         288
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         330
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         332
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         378
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         380
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         427
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         429
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         361
+FT                   /note="Phosphotyrosine; by PKDCC"
+FT                   /evidence="ECO:0000250|UniProtKB:P45452"
+FT   CARBOHYD        112
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        147
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        404
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        279..466
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         1
+SQ   SEQUENCE   466 AA;  53375 MW;  BF66021BD734813D CRC64;
+     ATFFLLSWTH CWSLPLPYGD DDDDDLSEED LEFAEHYLKS YYHPVTLAGI LKKSTVTSTV
+     DRLREMQSFF GLDVTGKLDD PTLDIMRKPR CGVPDVGVYN VFPRTLKWSQ TNLTYRIVNY
+     TPDISHSEVE KAFRKAFKVW SDVTPLNFTR IHDGTADIMI SFGTKEHGDF YPFDGPSGLL
+     AHAFPPGPNL GGDAHFDDDE TWTSSSKGYN LFIVAAHELG HSLGLDHSKD PGALMFPIYT
+     YTGKSHFMLP DDDVQGIQSL YGPGDEDPNP KHPKTPEKCD PALSLDAITS LRGETMIFKD
+     RFFWRLHPQQ VEPELFLTKS FWPELPNHVD AAYEHPSRDL MFIFRGRKFW ALNGYDIMEG
+     YPRKISDLGF PKEVKRLSAA VHFEDTGKTL FFSGNHVWSY DDANQTMDKD YPRLIEEEFP
+     GIGDKVDAVY EKNGYIYFFN GPIQFEYSIW SNRIVRVMPT NSLLWC
+//

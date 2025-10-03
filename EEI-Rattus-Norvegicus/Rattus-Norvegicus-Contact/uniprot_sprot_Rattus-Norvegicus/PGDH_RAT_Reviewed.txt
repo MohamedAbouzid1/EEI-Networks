@@ -1,0 +1,276 @@
+ID   PGDH_RAT                Reviewed;         266 AA.
+AC   O08699; Q6P687;
+DT   17-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 2.
+DT   29-MAY-2024, entry version 154.
+DE   RecName: Full=15-hydroxyprostaglandin dehydrogenase [NAD(+)];
+DE            Short=15-PGDH;
+DE            EC=1.1.1.141 {ECO:0000305|PubMed:9099857};
+DE   AltName: Full=Eicosanoid/docosanoid dehydrogenase [NAD(+)];
+DE            EC=1.1.1.- {ECO:0000250|UniProtKB:P15428};
+DE            EC=1.1.1.232 {ECO:0000250|UniProtKB:P15428};
+DE   AltName: Full=Prostaglandin dehydrogenase 1;
+GN   Name=Hpgd; Synonyms=Pgdh1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND CATALYTIC ACTIVITY.
+RC   TISSUE=Intestine;
+RX   PubMed=9099857; DOI=10.1016/s0378-1119(96)00774-3;
+RA   Zhang H., Matsuo M., Zhou H., Ensor C.M., Tai H.-H.;
+RT   "Cloning and expression of the cDNA for rat NAD+-dependent 15-
+RT   hydroxyprostaglandin dehydrogenase.";
+RL   Gene 188:41-44(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Catalyzes the NAD-dependent dehydrogenation (oxidation) of a
+CC       broad array of hydroxylated polyunsaturated fatty acids (mainly
+CC       eicosanoids and docosanoids, including prostaglandins, lipoxins and
+CC       resolvins), yielding their corresponding keto (oxo) metabolites (By
+CC       similarity) (PubMed:9099857). Decreases the levels of the pro-
+CC       proliferative prostaglandins such as prostaglandin E2 (whose activity
+CC       is increased in cancer because of an increase in the expression of
+CC       cyclooxygenase 2) and generates oxo-fatty acid products that can
+CC       profoundly influence cell function by abrogating pro-inflammatory
+CC       cytokine expression. Converts resolvins E1, D1 and D2 to their oxo
+CC       products, which represents a mode of resolvin inactivation. Resolvin E1
+CC       plays important roles during the resolution phase of acute
+CC       inflammation, while resolvins D1 and D2 have a unique role in obesity-
+CC       induced adipose inflammation (By similarity).
+CC       {ECO:0000250|UniProtKB:P15428, ECO:0000269|PubMed:9099857}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + prostaglandin E2 = 15-oxoprostaglandin E2 + H(+) +
+CC         NADH; Xref=Rhea:RHEA:11876, ChEBI:CHEBI:15378, ChEBI:CHEBI:57400,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:606564;
+CC         EC=1.1.1.141; Evidence={ECO:0000305|PubMed:9099857};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:11877;
+CC         Evidence={ECO:0000305|PubMed:9099857};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(15S)-hydroxy-(5Z,8Z,11Z,13E)-eicosatetraenoate + NAD(+) = 15-
+CC         oxo-(5Z,8Z,11Z,13E)-eicosatetraenoate + H(+) + NADH;
+CC         Xref=Rhea:RHEA:23260, ChEBI:CHEBI:15378, ChEBI:CHEBI:57409,
+CC         ChEBI:CHEBI:57410, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         EC=1.1.1.232; Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:23261;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(11R)-hydroxy-(5Z,8Z,12E,14Z)-eicosatetraenoate + NAD(+) = 11-
+CC         oxo-(5Z,8Z,12E,14Z)-eicosatetraenoate + H(+) + NADH;
+CC         Xref=Rhea:RHEA:48640, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:78836, ChEBI:CHEBI:90697;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48641;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=lipoxin A4 + NAD(+) = 15-oxo-(5S,6R)-dihydroxy-
+CC         (7E,9E,11Z,13E)-eicosatetraenoate + H(+) + NADH;
+CC         Xref=Rhea:RHEA:41572, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:67026, ChEBI:CHEBI:78311;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41573;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=15-oxo-(5S,6R)-dihydroxy-(7E,9E,11Z)-eicosatrienoate + H(+) +
+CC         NADH = (5S,6R,15S)-trihydroxy-(7E,9E,11Z)-eicosatrienoate + NAD(+);
+CC         Xref=Rhea:RHEA:41596, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:78325, ChEBI:CHEBI:78329;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41597;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + prostaglandin A1 = 15-oxo-prostaglandin A1 + H(+) +
+CC         NADH; Xref=Rhea:RHEA:41263, ChEBI:CHEBI:15378, ChEBI:CHEBI:57398,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:85072;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41264;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + prostaglandin E1 = 15-oxoprostaglandin E1 + H(+) +
+CC         NADH; Xref=Rhea:RHEA:16477, ChEBI:CHEBI:15378, ChEBI:CHEBI:57397,
+CC         ChEBI:CHEBI:57401, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16478;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=14-hydroxy-(4Z,7Z,10Z,12E,16Z,19Z)-docosahexaenoate + NAD(+) =
+CC         14-oxo-(4Z,7Z,10Z,12E,16Z,19Z)-docosahexaenoate + H(+) + NADH;
+CC         Xref=Rhea:RHEA:48952, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:90866, ChEBI:CHEBI:90867;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48953;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + resolvin E1 = 18-oxo-resolvin E1 + H(+) + NADH;
+CC         Xref=Rhea:RHEA:49244, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:91000, ChEBI:CHEBI:91001;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:49245;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + resolvin D1 = 8-oxoresolvin D1 + H(+) + NADH;
+CC         Xref=Rhea:RHEA:50124, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:132079, ChEBI:CHEBI:132080;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:50125;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + resolvin D1 = 17-oxoresolvin D1 + H(+) + NADH;
+CC         Xref=Rhea:RHEA:50128, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:132079, ChEBI:CHEBI:132081;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:50129;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + resolvin D2 = 7-oxoresolvin D2 + H(+) + NADH;
+CC         Xref=Rhea:RHEA:53584, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:133367, ChEBI:CHEBI:137497;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53585;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + resolvin D2 = 16-oxoresolvin D2 + H(+) + NADH;
+CC         Xref=Rhea:RHEA:53588, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:133367, ChEBI:CHEBI:137498;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53589;
+CC         Evidence={ECO:0000250|UniProtKB:P15428};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U44750; AAB53027.1; -; mRNA.
+DR   EMBL; BC062399; AAH62399.1; -; mRNA.
+DR   RefSeq; NP_077366.2; NM_024390.2.
+DR   AlphaFoldDB; O08699; -.
+DR   SMR; O08699; -.
+DR   STRING; 10116.ENSRNOP00000014229; -.
+DR   BindingDB; O08699; -.
+DR   iPTMnet; O08699; -.
+DR   PhosphoSitePlus; O08699; -.
+DR   PaxDb; 10116-ENSRNOP00000014229; -.
+DR   Ensembl; ENSRNOT00000014229.5; ENSRNOP00000014229.4; ENSRNOG00000010610.5.
+DR   Ensembl; ENSRNOT00055012970; ENSRNOP00055010353; ENSRNOG00055007748.
+DR   Ensembl; ENSRNOT00060011671; ENSRNOP00060008781; ENSRNOG00060007105.
+DR   Ensembl; ENSRNOT00065006230; ENSRNOP00065004436; ENSRNOG00065004274.
+DR   GeneID; 79242; -.
+DR   KEGG; rno:79242; -.
+DR   UCSC; RGD:620087; rat.
+DR   AGR; RGD:620087; -.
+DR   CTD; 3248; -.
+DR   RGD; 620087; Hpgd.
+DR   eggNOG; KOG4169; Eukaryota.
+DR   GeneTree; ENSGT00940000154593; -.
+DR   HOGENOM; CLU_010194_2_16_1; -.
+DR   InParanoid; O08699; -.
+DR   OMA; FCDPLTM; -.
+DR   OrthoDB; 2082185at2759; -.
+DR   PhylomeDB; O08699; -.
+DR   TreeFam; TF324093; -.
+DR   BRENDA; 1.1.1.141; 5301.
+DR   Reactome; R-RNO-2142700; Synthesis of Lipoxins (LX).
+DR   Reactome; R-RNO-9018676; Biosynthesis of D-series resolvins.
+DR   Reactome; R-RNO-9018896; Biosynthesis of E-series 18(S)-resolvins.
+DR   SABIO-RK; O08699; -.
+DR   PRO; PR:O08699; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000010610; Expressed in duodenum and 19 other cell types or tissues.
+DR   GO; GO:0016323; C:basolateral plasma membrane; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IEA:Ensembl.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0016404; F:15-hydroxyprostaglandin dehydrogenase (NAD+) activity; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0051287; F:NAD binding; ISS:UniProtKB.
+DR   GO; GO:0070403; F:NAD+ binding; ISS:UniProtKB.
+DR   GO; GO:0016616; F:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor; ISO:RGD.
+DR   GO; GO:0004957; F:prostaglandin E receptor activity; ISS:UniProtKB.
+DR   GO; GO:0097070; P:ductus arteriosus closure; ISS:UniProtKB.
+DR   GO; GO:0007565; P:female pregnancy; IEP:RGD.
+DR   GO; GO:0001822; P:kidney development; IEP:RGD.
+DR   GO; GO:0045786; P:negative regulation of cell cycle; ISS:UniProtKB.
+DR   GO; GO:0030728; P:ovulation; ISS:UniProtKB.
+DR   GO; GO:0007567; P:parturition; ISS:UniProtKB.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; IDA:RGD.
+DR   GO; GO:1904707; P:positive regulation of vascular associated smooth muscle cell proliferation; IMP:RGD.
+DR   GO; GO:0006693; P:prostaglandin metabolic process; IDA:RGD.
+DR   GO; GO:1905828; P:regulation of prostaglandin catabolic process; ISS:UniProtKB.
+DR   GO; GO:0032355; P:response to estradiol; IEP:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IDA:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0070493; P:thrombin-activated receptor signaling pathway; IEP:UniProtKB.
+DR   GO; GO:0007179; P:transforming growth factor beta receptor signaling pathway; ISS:UniProtKB.
+DR   CDD; cd05323; ADH_SDR_c_like; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR020904; Sc_DH/Rdtase_CS.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PANTHER; PTHR44229; 15-HYDROXYPROSTAGLANDIN DEHYDROGENASE [NAD(+)]; 1.
+DR   PANTHER; PTHR44229:SF4; 15-HYDROXYPROSTAGLANDIN DEHYDROGENASE [NAD(+)]; 1.
+DR   Pfam; PF00106; adh_short; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00061; ADH_SHORT; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Fatty acid metabolism; Lipid metabolism; NAD; Oxidoreductase;
+KW   Prostaglandin metabolism; Reference proteome; Tumor suppressor.
+FT   CHAIN           1..266
+FT                   /note="15-hydroxyprostaglandin dehydrogenase [NAD(+)]"
+FT                   /id="PRO_0000253627"
+FT   ACT_SITE        151
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10001"
+FT   BINDING         12..20
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         36..37
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         63..65
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         91
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         138
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         148
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         151..155
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         186..188
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        146
+FT                   /note="A -> T (in Ref. 1; AAB53027)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   266 AA;  28939 MW;  AF9CCD6185ABD6C0 CRC64;
+     MHVNGKVALV TGAAQGIGKA FTEALLLHGA KVALVDWNLE TGVKCKAALD EQFEPQKTLF
+     IQCDVADQKQ LRDTFRKVVD HFGRLDILVN NAGVNNEKNW EQTLQINLVS VISGTYLGLD
+     YMSKQNGGEG GIIINISSIA GLMPVAQQPV YCASKHGIIG FTRSAAMAAN LMKSGVRLNV
+     ICPGFVKTPI LESIEKEENM GQYIEYTDQI KAMMKFYGIL DPSAIANGLI NLIEDDALNG
+     AIMKITASKG IHFQDYDLFP SFSKAP
+//

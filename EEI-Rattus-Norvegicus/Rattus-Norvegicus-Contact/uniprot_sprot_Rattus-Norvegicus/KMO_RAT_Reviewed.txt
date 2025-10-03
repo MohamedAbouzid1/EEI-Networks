@@ -1,0 +1,328 @@
+ID   KMO_RAT                 Reviewed;         478 AA.
+AC   O88867;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   29-MAY-2024, entry version 149.
+DE   RecName: Full=Kynurenine 3-monooxygenase {ECO:0000255|HAMAP-Rule:MF_03018};
+DE            EC=1.14.13.9 {ECO:0000255|HAMAP-Rule:MF_03018};
+DE   AltName: Full=Kynurenine 3-hydroxylase {ECO:0000255|HAMAP-Rule:MF_03018};
+GN   Name=Kmo {ECO:0000312|RGD:620610};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAC62614.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Magagnin S., Covini N., Cini M., Bormetti R., Molinari A., Speciale C.,
+RA   Post C., Benatti L.;
+RL   Submitted (MAR-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3] {ECO:0000305}
+RP   CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, SUBCELLULAR LOCATION,
+RP   AND TISSUE SPECIFICITY.
+RX   PubMed=1332540; DOI=10.1016/0003-2697(92)90432-7;
+RA   Erickson J.B., Flanagan E.M., Russo S., Reinhard J.F. Jr.;
+RT   "A radiometric assay for kynurenine 3-hydroxylase based on the release of
+RT   3H2O during hydroxylation of L-[3,5-3H]kynurenine.";
+RL   Anal. Biochem. 205:257-262(1992).
+RN   [4]
+RP   REVIEW.
+RX   PubMed=12402501; DOI=10.1038/nrd870;
+RA   Stone T.W., Darlington L.G.;
+RT   "Endogenous kynurenines as targets for drug discovery and development.";
+RL   Nat. Rev. Drug Discov. 1:609-620(2002).
+RN   [5]
+RP   FUNCTION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=26752518; DOI=10.1038/nm.4020;
+RA   Mole D.J., Webster S.P., Uings I., Zheng X., Binnie M., Wilson K.,
+RA   Hutchinson J.P., Mirguet O., Walker A., Beaufils B., Ancellin N.,
+RA   Trottet L., Beneton V., Mowat C.G., Wilkinson M., Rowland P., Haslam C.,
+RA   McBride A., Homer N.Z., Baily J.E., Sharp M.G., Garden O.J., Hughes J.,
+RA   Howie S.E., Holmes D.S., Liddle J., Iredale J.P.;
+RT   "Kynurenine-3-monooxygenase inhibition prevents multiple organ failure in
+RT   rodent models of acute pancreatitis.";
+RL   Nat. Med. 22:202-209(2016).
+RN   [6]
+RP   FUNCTION.
+RX   PubMed=28398044; DOI=10.1021/acs.jmedchem.7b00055;
+RA   Walker A.L., Ancellin N., Beaufils B., Bergeal M., Binnie M., Bouillot A.,
+RA   Clapham D., Denis A., Haslam C.P., Holmes D.S., Hutchinson J.P., Liddle J.,
+RA   McBride A., Mirguet O., Mowat C.G., Rowland P., Tiberghien N., Trottet L.,
+RA   Uings I., Webster S.P., Zheng X., Mole D.J.;
+RT   "Development of a Series of Kynurenine 3-Monooxygenase Inhibitors Leading
+RT   to a Clinical Candidate for the Treatment of Acute Pancreatitis.";
+RL   J. Med. Chem. 60:3383-3404(2017).
+CC   -!- FUNCTION: Catalyzes the hydroxylation of L-kynurenine (L-Kyn) to form
+CC       3-hydroxy-L-kynurenine (L-3OHKyn). Required for synthesis of quinolinic
+CC       acid, a neurotoxic NMDA receptor antagonist and potential endogenous
+CC       inhibitor of NMDA receptor signaling in axonal targeting,
+CC       synaptogenesis and apoptosis during brain development. Quinolinic acid
+CC       may also affect NMDA receptor signaling in pancreatic beta cells,
+CC       osteoblasts, myocardial cells, and the gastrointestinal tract.
+CC       {ECO:0000255|HAMAP-Rule:MF_03018, ECO:0000269|PubMed:26752518,
+CC       ECO:0000269|PubMed:28398044}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + L-kynurenine + NADPH + O2 = 3-hydroxy-L-kynurenine +
+CC         H2O + NADP(+); Xref=Rhea:RHEA:20545, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15379, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:57959, ChEBI:CHEBI:58125, ChEBI:CHEBI:58349;
+CC         EC=1.14.13.9; Evidence={ECO:0000255|HAMAP-Rule:MF_03018,
+CC         ECO:0000269|PubMed:1332540};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000250|UniProtKB:O15229,
+CC         ECO:0000255|HAMAP-Rule:MF_03018};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=258 uM for L-kynurenine {ECO:0000269|PubMed:26752518};
+CC         KM=11.3 uM for NADPH {ECO:0000269|PubMed:1332540};
+CC         KM=316 uM for NADH {ECO:0000269|PubMed:1332540};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; quinolinate from
+CC       L-kynurenine: step 1/3. {ECO:0000255|HAMAP-Rule:MF_03018}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion outer membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_03018, ECO:0000269|PubMed:1332540}; Multi-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_03018, ECO:0000269|PubMed:1332540}.
+CC   -!- TISSUE SPECIFICITY: Highest activity in liver and kidney. Low activity
+CC       in spleen, stomach, intestinal tract, esophagus, heart and lung.
+CC       {ECO:0000269|PubMed:1332540}.
+CC   -!- DOMAIN: Transmembrane domains are required for enzymatic activity.
+CC       {ECO:0000250|UniProtKB:O15229}.
+CC   -!- MISCELLANEOUS: Increased in neuroinflammatory conditions. Inhibitors
+CC       are investigated as potential neuroprotective drugs since they lead to
+CC       an increased level of kynurenic acid, a neuroprotective NMDA receptor
+CC       agonist.
+CC   -!- SIMILARITY: Belongs to the aromatic-ring hydroxylase family. KMO
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_03018}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF056031; AAC62614.1; -; mRNA.
+DR   EMBL; BC088142; AAH88142.1; -; mRNA.
+DR   RefSeq; NP_067604.1; NM_021593.1.
+DR   PDB; 6LKD; X-ray; 3.00 A; A/B=1-478.
+DR   PDB; 6LKE; X-ray; 3.00 A; A/B=1-478.
+DR   PDBsum; 6LKD; -.
+DR   PDBsum; 6LKE; -.
+DR   AlphaFoldDB; O88867; -.
+DR   SMR; O88867; -.
+DR   STRING; 10116.ENSRNOP00000005005; -.
+DR   BindingDB; O88867; -.
+DR   ChEMBL; CHEMBL3457; -.
+DR   iPTMnet; O88867; -.
+DR   PhosphoSitePlus; O88867; -.
+DR   PaxDb; 10116-ENSRNOP00000005005; -.
+DR   Ensembl; ENSRNOT00000005005.7; ENSRNOP00000005005.3; ENSRNOG00000003709.7.
+DR   Ensembl; ENSRNOT00065040227; ENSRNOP00065032731; ENSRNOG00065023432.
+DR   GeneID; 59113; -.
+DR   KEGG; rno:59113; -.
+DR   UCSC; RGD:620610; rat.
+DR   AGR; RGD:620610; -.
+DR   CTD; 8564; -.
+DR   RGD; 620610; Kmo.
+DR   eggNOG; KOG2614; Eukaryota.
+DR   GeneTree; ENSGT00390000000747; -.
+DR   HOGENOM; CLU_023210_0_1_1; -.
+DR   InParanoid; O88867; -.
+DR   OMA; REFMFIA; -.
+DR   OrthoDB; 2250465at2759; -.
+DR   PhylomeDB; O88867; -.
+DR   TreeFam; TF312990; -.
+DR   BRENDA; 1.14.13.9; 5301.
+DR   Reactome; R-RNO-71240; Tryptophan catabolism.
+DR   SABIO-RK; O88867; -.
+DR   UniPathway; UPA00253; UER00328.
+DR   PRO; PR:O88867; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000003709; Expressed in adult mammalian kidney and 12 other cell types or tissues.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; IDA:UniProtKB.
+DR   GO; GO:0071949; F:FAD binding; ISS:UniProtKB.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; ISO:RGD.
+DR   GO; GO:0004502; F:kynurenine 3-monooxygenase activity; IDA:UniProtKB.
+DR   GO; GO:0016174; F:NAD(P)H oxidase H2O2-forming activity; ISS:UniProtKB.
+DR   GO; GO:0034354; P:'de novo' NAD biosynthetic process from tryptophan; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043420; P:anthranilate metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071347; P:cellular response to interleukin-1; IEP:RGD.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0034276; P:kynurenic acid biosynthetic process; IMP:RGD.
+DR   GO; GO:0070189; P:kynurenine metabolic process; IDA:UniProtKB.
+DR   GO; GO:0097052; P:L-kynurenine metabolic process; IDA:RGD.
+DR   GO; GO:0019674; P:NAD metabolic process; IDA:UniProtKB.
+DR   GO; GO:0014049; P:positive regulation of glutamate secretion; IMP:RGD.
+DR   GO; GO:1903296; P:positive regulation of glutamate secretion, neurotransmission; IMP:RGD.
+DR   GO; GO:0019805; P:quinolinate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0009651; P:response to salt stress; ISO:RGD.
+DR   GO; GO:0006569; P:tryptophan catabolic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 1.
+DR   HAMAP; MF_01971; Kynurenine_monooxygenase; 1.
+DR   InterPro; IPR002938; FAD-bd.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR027545; Kynurenine_monooxygenase.
+DR   PANTHER; PTHR46028; KYNURENINE 3-MONOOXYGENASE; 1.
+DR   PANTHER; PTHR46028:SF2; KYNURENINE 3-MONOOXYGENASE; 1.
+DR   Pfam; PF01494; FAD_binding_3; 1.
+DR   PRINTS; PR00420; RNGMNOXGNASE.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; FAD; Flavoprotein; Membrane; Mitochondrion;
+KW   Mitochondrion outer membrane; Monooxygenase; NADP; Oxidoreductase;
+KW   Pyridine nucleotide biosynthesis; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..478
+FT                   /note="Kynurenine 3-monooxygenase"
+FT                   /evidence="ECO:0000305"
+FT                   /id="PRO_0000229745"
+FT   TRANSMEM        385..404
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03018"
+FT   TRANSMEM        425..445
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03018"
+FT   BINDING         19
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:O15229"
+FT   BINDING         37..40
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:O15229"
+FT   BINDING         57
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:O15229"
+FT   BINDING         85
+FT                   /ligand="L-kynurenine"
+FT                   /ligand_id="ChEBI:CHEBI:57959"
+FT                   /evidence="ECO:0000250|UniProtKB:Q84HF5"
+FT   BINDING         99
+FT                   /ligand="L-kynurenine"
+FT                   /ligand_id="ChEBI:CHEBI:57959"
+FT                   /evidence="ECO:0000250|UniProtKB:Q84HF5"
+FT   BINDING         111
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:O15229"
+FT   BINDING         136
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:O15229"
+FT   BINDING         172
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:O15229"
+FT   BINDING         304
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:O15229"
+FT   BINDING         317..318
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:O15229"
+FT   BINDING         363
+FT                   /ligand="L-kynurenine"
+FT                   /ligand_id="ChEBI:CHEBI:57959"
+FT                   /evidence="ECO:0000250|UniProtKB:Q84HF5"
+FT   BINDING         398
+FT                   /ligand="L-kynurenine"
+FT                   /ligand_id="ChEBI:CHEBI:57959"
+FT                   /evidence="ECO:0000250|UniProtKB:Q84HF5"
+FT   STRAND          10..14
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           18..28
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   TURN            29..31
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          33..40
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   TURN            43..45
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          54..58
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           60..67
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   TURN            68..70
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           72..77
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          79..82
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          84..88
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          94..98
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          106..110
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           111..124
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          128..132
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          150..153
+FT                   /evidence="ECO:0007829|PDB:6LKE"
+FT   STRAND          161..165
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           172..177
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          184..199
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          205..208
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          210..217
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          219..227
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          229..231
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          233..240
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           241..246
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           250..260
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           264..267
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           272..277
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          283..291
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   TURN            296..298
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          299..301
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           303..305
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   STRAND          311..314
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           316..333
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   TURN            334..336
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           338..369
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           373..389
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   TURN            391..393
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           397..402
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+FT   HELIX           408..442
+FT                   /evidence="ECO:0007829|PDB:6LKD"
+SQ   SEQUENCE   478 AA;  54353 MW;  72E775D1C05CFFAB CRC64;
+     MASSDTEGKR VVVIGGGLVG ALNACFLAKR NFQVDVYEAR EDIRVANFMR GRSINLALSY
+     RGRQALKAVG LEDQIVSKGV PMKARMIHSL SGKKSAIPYG NKSQYILSIS REKLNKDLLT
+     AVESYPNAKV HFGHKLSKCC PEEGILTMLG PNKVPRDITC DLIVGCDGAY STVRAHLMKK
+     PRFDYSQQYI PHGYMELTIP PKNGEYAMEP NCLHIWPRNA FMMIALPNMD KSFTCTLFMS
+     FEEFEKLPTH SDVLDFFQKN FPDAIPLMGE QALMRDFFLL PAQPMISVKC SPFHLKSRCV
+     LMGDAAHAIV PFFGQGMNAG FEDCLVFDEL MDKFNNDLSV CLPEFSRFRI PDDHAISDLS
+     MYNYIEMRAH VNSRWFLFQR LLDKFLHALM PSTFIPLYTM VAFTRIRYHE AVLRWHWQKK
+     VINRGLFVLG SLVAIGSAYI LVHHLSPRPL ELLRSAWTGT SGHWNRSADI SPRVPWSH
+//

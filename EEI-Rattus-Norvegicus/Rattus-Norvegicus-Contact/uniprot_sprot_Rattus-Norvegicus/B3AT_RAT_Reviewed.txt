@@ -1,0 +1,330 @@
+ID   B3AT_RAT                Reviewed;         927 AA.
+AC   P23562;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   27-MAR-2002, sequence version 3.
+DT   02-OCT-2024, entry version 177.
+DE   RecName: Full=Band 3 anion transport protein;
+DE   AltName: Full=Anion exchange protein 1 {ECO:0000305};
+DE            Short=AE 1;
+DE            Short=Anion exchanger 1;
+DE   AltName: Full=Solute carrier family 4 member 1;
+DE   AltName: CD_antigen=CD233;
+GN   Name=Slc4a1 {ECO:0000312|RGD:3710}; Synonyms=Ae1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 46-927, AND TISSUE SPECIFICITY.
+RC   TISSUE=Kidney;
+RX   PubMed=2722777; DOI=10.1016/s0021-9258(18)83167-2;
+RA   Kudrycki K.E., Shull G.E.;
+RT   "Primary structure of the rat kidney band 3 anion exchange protein deduced
+RT   from a cDNA.";
+RL   J. Biol. Chem. 264:8185-8192(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-45.
+RX   PubMed=8456965; DOI=10.1152/ajprenal.1993.264.3.f540;
+RA   Kudrycki K.E., Shull G.E.;
+RT   "Rat kidney band 3 Cl-/HCO3- exchanger mRNA is transcribed from an
+RT   alternative promoter.";
+RL   Am. J. Physiol. 264:F540-F547(1993).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-18; SER-199 AND SER-222, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Functions both as a transporter that mediates electroneutral
+CC       anion exchange across the cell membrane and as a structural protein.
+CC       Component of the ankyrin-1 complex of the erythrocyte membrane;
+CC       required for normal flexibility and stability of the erythrocyte
+CC       membrane and for normal erythrocyte shape via the interactions of its
+CC       cytoplasmic domain with cytoskeletal proteins, glycolytic enzymes, and
+CC       hemoglobin. Functions as a transporter that mediates the 1:1 exchange
+CC       of inorganic anions across the erythrocyte membrane. Mediates chloride-
+CC       bicarbonate exchange in the kidney, and is required for normal
+CC       acidification of the urine. {ECO:0000250|UniProtKB:P02730}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(out) + hydrogencarbonate(in) = chloride(in) +
+CC         hydrogencarbonate(out); Xref=Rhea:RHEA:72363, ChEBI:CHEBI:17544,
+CC         ChEBI:CHEBI:17996; Evidence={ECO:0000250|UniProtKB:P02730};
+CC   -!- SUBUNIT: A dimer in solution, but in its membrane environment, it
+CC       exists primarily as a mixture of dimers and tetramers and spans the
+CC       membrane asymmetrically. Component of the ankyrin-1 complex in the
+CC       erythrocyte, composed of ANK1, RHCE, RHAG, SLC4A1, EPB42, GYPA, GYPB
+CC       and AQP1. Interacts with STOM; this interaction positively regulates
+CC       SLC4A1 activity. Interacts with GYPA; a GYPA monomer is bound at each
+CC       end of the SLC4A1 dimer forming a heterotetramer. Three SLC4A1 dimers
+CC       (Band 3-I, Band 3-II and Band 3-III) participates in the ankyrin-1
+CC       complex. Interacts (via the cytoplasmic domain) with EPB42; this
+CC       interaction is mediated by the SLC4A1 Band 3-I dimer. Interacts (via
+CC       the cytoplasmic domain) directly with ANK1; this interaction is
+CC       mediated by the SLC4A1 Band 3-II and Band 3-III dimers.
+CC       {ECO:0000250|UniProtKB:P02730}.
+CC   -!- SUBUNIT: [Isoform 2]: Interacts with TMEM139.
+CC       {ECO:0000250|UniProtKB:P02730}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P02730};
+CC       Multi-pass membrane protein {ECO:0000250|UniProtKB:P02730}. Basolateral
+CC       cell membrane {ECO:0000250|UniProtKB:P02730}; Multi-pass membrane
+CC       protein {ECO:0000250|UniProtKB:P02730}. Note=Detected in the
+CC       erythrocyte cell membrane and on the basolateral membrane of alpha-
+CC       intercalated cells in the collecting duct in the kidney.
+CC       {ECO:0000250|UniProtKB:P02730}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1; Synonyms=Erythrocyte;
+CC         IsoId=P23562-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Kidney;
+CC         IsoId=P23562-2; Sequence=VSP_000455;
+CC   -!- TISSUE SPECIFICITY: Kidney. {ECO:0000269|PubMed:2722777}.
+CC   -!- SIMILARITY: Belongs to the anion exchanger (TC 2.A.31) family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA40800.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J04793; AAA40800.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; L02943; AAA40801.1; -; mRNA.
+DR   PIR; A33810; A33810.
+DR   PIR; A48854; A48854.
+DR   RefSeq; NP_036783.2; NM_012651.2.
+DR   RefSeq; XP_008766168.1; XM_008767946.2. [P23562-1]
+DR   AlphaFoldDB; P23562; -.
+DR   SMR; P23562; -.
+DR   IntAct; P23562; 1.
+DR   STRING; 10116.ENSRNOP00000028445; -.
+DR   GlyCosmos; P23562; 1 site, No reported glycans.
+DR   GlyGen; P23562; 1 site.
+DR   iPTMnet; P23562; -.
+DR   PhosphoSitePlus; P23562; -.
+DR   SwissPalm; P23562; -.
+DR   PaxDb; 10116-ENSRNOP00000028445; -.
+DR   PeptideAtlas; P23562; -.
+DR   GeneID; 24779; -.
+DR   KEGG; rno:24779; -.
+DR   UCSC; RGD:3710; rat. [P23562-1]
+DR   AGR; RGD:3710; -.
+DR   CTD; 6521; -.
+DR   RGD; 3710; Slc4a1.
+DR   eggNOG; KOG1172; Eukaryota.
+DR   InParanoid; P23562; -.
+DR   OrthoDB; 1013180at2759; -.
+DR   PhylomeDB; P23562; -.
+DR   Reactome; R-RNO-1237044; Erythrocytes take up carbon dioxide and release oxygen.
+DR   Reactome; R-RNO-1247673; Erythrocytes take up oxygen and release carbon dioxide.
+DR   Reactome; R-RNO-425381; Bicarbonate transporters.
+DR   PRO; PR:P23562; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0170014; C:ankyrin-1 complex; ISS:UniProtKB.
+DR   GO; GO:0016323; C:basolateral plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0009986; C:cell surface; IDA:RGD.
+DR   GO; GO:0030863; C:cortical cytoskeleton; ISS:UniProtKB.
+DR   GO; GO:0009898; C:cytoplasmic side of plasma membrane; ISO:RGD.
+DR   GO; GO:0014704; C:intercalated disc; IDA:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0030018; C:Z disc; IDA:RGD.
+DR   GO; GO:0003779; F:actin binding; IPI:RGD.
+DR   GO; GO:0030506; F:ankyrin binding; ISO:RGD.
+DR   GO; GO:0015106; F:bicarbonate transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015108; F:chloride transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0140900; F:chloride:bicarbonate antiporter activity; ISS:UniProtKB.
+DR   GO; GO:0019899; F:enzyme binding; IPI:RGD.
+DR   GO; GO:0030492; F:hemoglobin binding; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0005452; F:solute:inorganic anion antiporter activity; ISS:UniProtKB.
+DR   GO; GO:0015701; P:bicarbonate transport; ISS:UniProtKB.
+DR   GO; GO:0007596; P:blood coagulation; ISO:RGD.
+DR   GO; GO:1902476; P:chloride transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0006821; P:chloride transport; ISS:UniProtKB.
+DR   GO; GO:0007623; P:circadian rhythm; IEP:RGD.
+DR   GO; GO:0048821; P:erythrocyte development; ISO:RGD.
+DR   GO; GO:1904539; P:negative regulation of glycolytic process through fructose-6-phosphate; ISO:RGD.
+DR   GO; GO:0035811; P:negative regulation of urine volume; ISO:RGD.
+DR   GO; GO:0045852; P:pH elevation; ISO:RGD.
+DR   GO; GO:0017121; P:plasma membrane phospholipid scrambling; ISO:RGD.
+DR   GO; GO:0042102; P:positive regulation of T cell proliferation; IDA:RGD.
+DR   GO; GO:0072659; P:protein localization to plasma membrane; ISO:RGD.
+DR   GO; GO:0051453; P:regulation of intracellular pH; IBA:GO_Central.
+DR   GO; GO:0010447; P:response to acidic pH; IEP:RGD.
+DR   GO; GO:0014823; P:response to activity; IDA:RGD.
+DR   GO; GO:0010446; P:response to alkaline pH; IEP:RGD.
+DR   GO; GO:0046685; P:response to arsenic-containing substance; IDA:RGD.
+DR   GO; GO:0010037; P:response to carbon dioxide; IDA:RGD.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; IDA:RGD.
+DR   GO; GO:0031667; P:response to nutrient levels; IEP:RGD.
+DR   GO; GO:0055085; P:transmembrane transport; IBA:GO_Central.
+DR   Gene3D; 1.10.287.570; Helical hairpin bin; 1.
+DR   InterPro; IPR001717; Anion_exchange.
+DR   InterPro; IPR002977; Anion_exchange_1.
+DR   InterPro; IPR018241; Anion_exchange_CS.
+DR   InterPro; IPR013769; Band3_cytoplasmic_dom.
+DR   InterPro; IPR011531; HCO3_transpt-like_TM_dom.
+DR   InterPro; IPR003020; HCO3_transpt_euk.
+DR   InterPro; IPR016152; PTrfase/Anion_transptr.
+DR   NCBIfam; TIGR00834; ae; 1.
+DR   PANTHER; PTHR11453; ANION EXCHANGE PROTEIN; 1.
+DR   PANTHER; PTHR11453:SF12; BAND 3 ANION TRANSPORT PROTEIN; 1.
+DR   Pfam; PF07565; Band_3_cyto; 1.
+DR   Pfam; PF00955; HCO3_cotransp; 2.
+DR   PRINTS; PR00165; ANIONEXCHNGR.
+DR   PRINTS; PR01187; ANIONEXHNGR1.
+DR   PRINTS; PR01231; HCO3TRNSPORT.
+DR   SUPFAM; SSF55804; Phoshotransferase/anion transport protein; 1.
+DR   PROSITE; PS00219; ANION_EXCHANGER_1; 1.
+DR   PROSITE; PS00220; ANION_EXCHANGER_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Alternative splicing; Anion exchange; Cell membrane;
+KW   Glycoprotein; Ion transport; Lipoprotein; Membrane; Palmitate;
+KW   Phosphoprotein; Reference proteome; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..927
+FT                   /note="Band 3 anion transport protein"
+FT                   /id="PRO_0000079211"
+FT   TOPO_DOM        1..420
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        421..444
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TOPO_DOM        445..452
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        453..473
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TOPO_DOM        474..476
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        477..493
+FT                   /note="Discontinuously helical; Name=3"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TOPO_DOM        494..502
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        503..523
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TOPO_DOM        524..535
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        536..558
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TOPO_DOM        559..586
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        587..607
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TOPO_DOM        608..618
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        619..639
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TOPO_DOM        640..679
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        680..700
+FT                   /note="Helical; Name=8"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TOPO_DOM        701..716
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        717..735
+FT                   /note="Helical; Name=9"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        736..753
+FT                   /note="Discontinuously helical; Name=10"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TOPO_DOM        754..776
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        777..797
+FT                   /note="Helical; Name=11"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TRANSMEM        798..816
+FT                   /note="Helical; Name=12"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TOPO_DOM        817..854
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   INTRAMEM        855..885
+FT                   /note="Discontinuously helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   TOPO_DOM        886..927
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   REGION          69..303
+FT                   /note="Globular"
+FT                   /evidence="ECO:0000250"
+FT   REGION          190..199
+FT                   /note="Interaction with ANK1"
+FT                   /evidence="ECO:0000250"
+FT   REGION          317..370
+FT                   /note="Dimerization arm"
+FT                   /evidence="ECO:0000250"
+FT   REGION          367..390
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   MOD_RES         18
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         31
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   MOD_RES         56
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   MOD_RES         199
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         222
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         372
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   MOD_RES         920
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P02730"
+FT   LIPID           859
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        658
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000305"
+FT   VAR_SEQ         1..79
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_000455"
+SQ   SEQUENCE   927 AA;  103173 MW;  681A228474E5E9DE CRC64;
+     MGDMQDHEKV LEIPDRDSEE ELEHVIEQIA YRDLDIPVTE MQESEALPTE QTATDYIPTS
+     TSTSHPSSSQ VYVELQELMM DQRNQELQWV EAAHWIGLEE NLREDGVWGR PHLSYLTFWS
+     LLELQKVFSK GTFLLDLAET SLAGVANKLL DSFIYEDQIR PQDRDELLRA LLLKRSHAED
+     LKDLEGVKPA VLTRSGAPSE PLLPHQPSLE TKLYCAQAEG GSEEPSPSGI LKIPPNSETT
+     LVLVGRASFL VKPVLGFVRL KEAVPLEDLV LPEPVSFLLV LLGPEAPHID YTQLGRAAAT
+     LMTERVFRVT ASLAQSRGEL LSSLDSFLDC SLVLPPTEAP SEKALLNLVP VQKELLRKRY
+     LPRPAKPDPN LYEALDGGKE GPGDEDDPLR RTGRIFGGLI RDIRRRYPYY LSDITDALSP
+     QVLAAVIFIY FAALSPAVTF GGLLGEKTRN LMGVSELLIS TAVQGILFAL LGAQPLLVLG
+     FSGPLLVFEE AFYSFCESNN LEYIVGRAWI GFWLILLVVL VVAFEGSFLV QYISRYTQEI
+     FSFLISLIFI YETFSKLIKI FQDYPLQESY APVVMKPKPQ GPVPNTALLS LVLMVGTFLL
+     AMMLRKFKNS TYFPGKLRRV IGDFGVPISI LIMVLVDTFI KNTYTQKLSV PDGLKVSNSS
+     ARGWVIHPLG LYNHFPKWMM FASVLPALLV FILIFLESQI TTLIVSKPER KMIKGSGFHL
+     DLLLVVGMGG VAALFGMPWL SATTVRSVTH ANALTVMGKA SGPGAAAQIQ EVKEQRISGL
+     LVSVLVGLSI LMEPILSRIP LAVLFGIFLY MGITSLSGIQ LFDRILLLFK PPKYHPDVPF
+     VKRVKTWRMH LFTGIQIICL AVLWVVKSTP ASLALPFVLI LTVPLRRLLL PLIFRELELQ
+     CLDGDDAKVT FDEAEGLDEY DEVPMPV
+//

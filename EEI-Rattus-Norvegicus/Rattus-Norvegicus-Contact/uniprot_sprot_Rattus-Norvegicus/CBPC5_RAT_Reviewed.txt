@@ -1,0 +1,202 @@
+ID   CBPC5_RAT               Reviewed;         832 AA.
+AC   B2GV17;
+DT   11-JAN-2011, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   24-JUL-2024, entry version 81.
+DE   RecName: Full=Cytosolic carboxypeptidase-like protein 5 {ECO:0000250|UniProtKB:Q09M02};
+DE            EC=3.4.17.- {ECO:0000250|UniProtKB:Q09M02};
+DE            EC=3.4.17.24 {ECO:0000250|UniProtKB:Q09M02};
+DE   AltName: Full=ATP/GTP-binding protein-like 5;
+DE   AltName: Full=Protein deglutamylase CCP5 {ECO:0000305};
+GN   Name=Agbl5; Synonyms=Ccp5 {ECO:0000250|UniProtKB:Q09M02};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Metallocarboxypeptidase that mediates deglutamylation of
+CC       tubulin and non-tubulin target proteins. Catalyzes the removal of
+CC       polyglutamate side chains present on the gamma-carboxyl group of
+CC       glutamate residues within the C-terminal tail of alpha- and beta-
+CC       tubulin. Cleaves alpha- and gamma-linked polyglutamate tubulin side-
+CC       chain, as well as the branching point glutamate. Also catalyzes the
+CC       removal of alpha-linked glutamate residues from the carboxy-terminus of
+CC       alpha-tubulin. Mediates deglutamylation of nucleotidyltransferase CGAS,
+CC       leading to CGAS antiviral defense response activation.
+CC       {ECO:0000250|UniProtKB:Q09M02}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=gamma-L-glutamyl-L-glutamyl-[protein] + H2O = L-glutamate + L-
+CC         glutamyl-[protein]; Xref=Rhea:RHEA:60152, Rhea:RHEA-COMP:10208,
+CC         Rhea:RHEA-COMP:15517, ChEBI:CHEBI:15377, ChEBI:CHEBI:29973,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:143622;
+CC         Evidence={ECO:0000250|UniProtKB:Q09M02};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60153;
+CC         Evidence={ECO:0000250|UniProtKB:Q09M02};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(L-glutamyl)(n+1)-gamma-L-glutamyl-L-glutamyl-[protein] + H2O
+CC         = (L-glutamyl)(n)-gamma-L-glutamyl-L-glutamyl-[protein] + L-
+CC         glutamate; Xref=Rhea:RHEA:60004, Rhea:RHEA-COMP:15519, Rhea:RHEA-
+CC         COMP:15675, ChEBI:CHEBI:15377, ChEBI:CHEBI:29985, ChEBI:CHEBI:143623;
+CC         Evidence={ECO:0000250|UniProtKB:Q09M02};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60005;
+CC         Evidence={ECO:0000250|UniProtKB:Q09M02};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=C-terminal L-alpha-aminoacyl-L-glutamyl-[tubulin] + H2O = C-
+CC         terminal L-alpha-aminoacyl-[tubulin] + L-glutamate;
+CC         Xref=Rhea:RHEA:63796, Rhea:RHEA-COMP:16436, Rhea:RHEA-COMP:16437,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:29985, ChEBI:CHEBI:90782,
+CC         ChEBI:CHEBI:149556; EC=3.4.17.24;
+CC         Evidence={ECO:0000250|UniProtKB:Q09M02};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63797;
+CC         Evidence={ECO:0000250|UniProtKB:Q09M02};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=C-terminal L-alpha-aminoacyl-L-glutamyl-L-glutamyl-[tubulin] +
+CC         H2O = C-terminal L-alpha-aminoacyl-L-glutamyl-[tubulin] + L-
+CC         glutamate; Xref=Rhea:RHEA:63792, Rhea:RHEA-COMP:16435, Rhea:RHEA-
+CC         COMP:16436, ChEBI:CHEBI:15377, ChEBI:CHEBI:29985, ChEBI:CHEBI:149555,
+CC         ChEBI:CHEBI:149556; EC=3.4.17.24;
+CC         Evidence={ECO:0000250|UniProtKB:Q09M02};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63793;
+CC         Evidence={ECO:0000250|UniProtKB:Q09M02};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P00730};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P00730};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:Q09M02}. Nucleus {ECO:0000250|UniProtKB:Q09M02}.
+CC       Cytoplasm, cytoskeleton, spindle {ECO:0000250|UniProtKB:Q8NDL9}.
+CC       Midbody {ECO:0000250|UniProtKB:Q8NDL9}. Note=Mainly cytoplasmic. Slight
+CC       accumulation in the nucleus is observed. Colocalizes with alpha-tubulin
+CC       in the mitotic spindle and with midbody microtubules in the
+CC       intercellular bridges formed during cytokinesis.
+CC       {ECO:0000250|UniProtKB:Q09M02, ECO:0000250|UniProtKB:Q8NDL9}.
+CC   -!- SIMILARITY: Belongs to the peptidase M14 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC166490; AAI66490.1; -; mRNA.
+DR   RefSeq; NP_001119844.1; NM_001126372.1.
+DR   AlphaFoldDB; B2GV17; -.
+DR   SMR; B2GV17; -.
+DR   STRING; 10116.ENSRNOP00000011635; -.
+DR   MEROPS; M14.036; -.
+DR   PhosphoSitePlus; B2GV17; -.
+DR   PaxDb; 10116-ENSRNOP00000011635; -.
+DR   GeneID; 362710; -.
+DR   KEGG; rno:362710; -.
+DR   AGR; RGD:1598311; -.
+DR   CTD; 60509; -.
+DR   RGD; 1598311; Agbl5.
+DR   VEuPathDB; HostDB:ENSRNOG00000008612; -.
+DR   eggNOG; KOG3641; Eukaryota.
+DR   HOGENOM; CLU_007523_3_2_1; -.
+DR   InParanoid; B2GV17; -.
+DR   OrthoDB; 168164at2759; -.
+DR   PRO; PR:B2GV17; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000008612; Expressed in testis and 19 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; ISS:UniProtKB.
+DR   GO; GO:0030496; C:midbody; ISS:UniProtKB.
+DR   GO; GO:0072686; C:mitotic spindle; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0004181; F:metallocarboxypeptidase activity; ISS:UniProtKB.
+DR   GO; GO:0015631; F:tubulin binding; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0035609; P:C-terminal protein deglutamylation; ISS:UniProtKB.
+DR   GO; GO:0051607; P:defense response to virus; ISS:UniProtKB.
+DR   GO; GO:0035611; P:protein branching point deglutamylation; ISS:UniProtKB.
+DR   GO; GO:0035608; P:protein deglutamylation; ISS:UniProtKB.
+DR   GO; GO:0035610; P:protein side chain deglutamylation; ISS:UniProtKB.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd06236; M14_AGBL5_like; 1.
+DR   Gene3D; 2.60.40.3120; -; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 2.
+DR   InterPro; IPR050821; Cytosolic_carboxypeptidase.
+DR   InterPro; IPR034286; M14_AGBL5-like.
+DR   InterPro; IPR040626; Pepdidase_M14_N.
+DR   InterPro; IPR000834; Peptidase_M14.
+DR   PANTHER; PTHR12756; CYTOSOLIC CARBOXYPEPTIDASE; 1.
+DR   PANTHER; PTHR12756:SF12; CYTOSOLIC CARBOXYPEPTIDASE-LIKE PROTEIN 5; 1.
+DR   Pfam; PF18027; Pepdidase_M14_N; 1.
+DR   Pfam; PF00246; Peptidase_M14; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+DR   PROSITE; PS52035; PEPTIDASE_M14; 1.
+PE   2: Evidence at transcript level;
+KW   Carboxypeptidase; Cytoplasm; Cytoskeleton; Hydrolase; Metal-binding;
+KW   Metalloprotease; Nucleus; Protease; Reference proteome; Zinc.
+FT   CHAIN           1..832
+FT                   /note="Cytosolic carboxypeptidase-like protein 5"
+FT                   /id="PRO_0000403762"
+FT   DOMAIN          157..571
+FT                   /note="Peptidase M14"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   REGION          27..50
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          343..362
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          376..402
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          606..752
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        343..357
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        380..399
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        606..667
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        692..706
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        707..752
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        517
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   BINDING         252
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   BINDING         255
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   BINDING         435
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+SQ   SEQUENCE   832 AA;  92554 MW;  D9977530F97FA44A CRC64;
+     MELRCGGLLF SSRFDSGNLA HVEKVETVPS DGEGVGGAAT APTSGSASSP DYEFNVWTRP
+     DCAETEYENG NRSWFYFSVR GGTPGKLIKI NIMNMNKQSK LYSQGMAPFV RTLPSRPRWE
+     RIRERPTFEM TETQFVLSFV HRFVEGRGAT TFFAFCYPFS YSDCQDLLSQ LDQRFPENYS
+     AHSSPLDSIY YHRELLCYSL DGLRVDLLTI TSCHGLRDDR EPRLEQLFPD VGTPRPFRFT
+     GKRIFFLSSR VHPGETPSSF VFNGFLDFIL RPDDPRAQTL RRLFVFKLIP MLNPDGVVRG
+     HYRTDSRGVN LNRQYLKPDA VLHPAIYGAK AVLLYHHVHS RLNSKNPSNQ QPSSLHLPPE
+     VPLSDLEKAN NLHNELHLGQ SPDGENHDRW TETEPTEEKT DPVWIMPQPI PELEEPAPDA
+     IPPKESGVAY YVDLHGHASK RGCFMYGNSF SDESTQVENM LYPKLISLNS AHFDFQGCNF
+     SEKNMYARDR RDGQSKEGSG RVAIYKASGI IHSYTLECNY NTGRSVNSIP AACHDNGRAS
+     PPPPPTFPSR YTVELFEQVG RALAIAALDM AECNPWPRIV LSEHSSLTNL RAWMLKHVRN
+     SRGLTSTANV GLNKKRGSRT PPKSNNGLPV SCSENALSRA RSFSTGTSTG GSSSQQNSPQ
+     MKNSPSFPFH GSRPAGLPGL GSSTQKVSHR VLGPVREPRC PDRRRRQQQQ QQQQQQQQQQ
+     QQQPLNQRST TSSLAPSPTL ASASPTSSRN MGSCLLPNSL SLSGSSCPFS SSGDKPEAVM
+     VIGKSLLGAG ARIPCIRTRL QTCQRRVSAR RGPGFPRLGP GWAGAHRRLA EG
+//

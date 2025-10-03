@@ -1,0 +1,219 @@
+ID   ALR_RAT                 Reviewed;         198 AA.
+AC   Q63042;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   16-DEC-2008, sequence version 2.
+DT   29-MAY-2024, entry version 148.
+DE   RecName: Full=FAD-linked sulfhydryl oxidase ALR;
+DE            EC=1.8.3.2;
+DE   AltName: Full=Augmenter of liver regeneration;
+GN   Name=Gfer; Synonyms=Alr;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND FUNCTION IN LIVER REGENERATION.
+RC   STRAIN=Fischer 344; TISSUE=Liver;
+RX   PubMed=8058770; DOI=10.1073/pnas.91.17.8142;
+RA   Hagiya M., Francavilla A., Polimeno L., Ihara I., Sakai H., Seki T.,
+RA   Shimonishi M., Porter K.A., Starzl T.E.;
+RT   "Cloning and sequence analysis of the rat augmenter of liver regeneration
+RT   (ALR) gene: expression of biologically active recombinant ALR and
+RT   demonstration of tissue distribution.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 91:8142-8146(1994).
+RN   [2]
+RP   ERRATUM OF PUBMED:8058770.
+RX   PubMed=7708779; DOI=10.1073/pnas.92.7.3076d;
+RA   Hagiya M., Francavilla A., Polimeno L., Ihara I., Sakai H., Seki T.,
+RA   Shimonishi M., Porter K.A., Starzl T.E.;
+RL   Proc. Natl. Acad. Sci. U.S.A. 92:3076-3076(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Wistar;
+RX   PubMed=12906155;
+RA   Dong J., Cheng J., Wang Q., Shi S., Wang G., Si C.;
+RT   "Cloning and analysis of the genomic DNA sequence of augmenter of liver
+RT   regeneration from rat.";
+RL   Chin. Med. Sci. J. 17:63-67(2002).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) IN COMPLEX WITH FAD, SUBUNIT,
+RP   COFACTOR, AND DISULFIDE BONDS.
+RX   PubMed=12717032; DOI=10.1110/ps.0238103;
+RA   Wu C.-K., Dailey T.A., Dailey H.A., Wang B.-C., Rose J.P.;
+RT   "The crystal structure of augmenter of liver regeneration: a mammalian FAD-
+RT   dependent sulfhydryl oxidase.";
+RL   Protein Sci. 12:1109-1118(2003).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF 74-198 IN COMPLEX WITH FAD, AND
+RP   SUBUNIT.
+RX   PubMed=22948913; DOI=10.1107/s0907444912022561;
+RA   Florence Q., Wu C.K., Habel J., Swindell J.T. II, Wang B.C., Rose J.P.;
+RT   "The structure of augmenter of liver regeneration crystallized in the
+RT   presence of 50 mM CdCl2 reveals a novel Cd2Cl4O6 cluster that aids in
+RT   crystal packing.";
+RL   Acta Crystallogr. D 68:1128-1133(2012).
+CC   -!- FUNCTION: FAD-dependent sulfhydryl oxidase that regenerates the redox-
+CC       active disulfide bonds in CHCHD4/MIA40, a chaperone essential for
+CC       disulfide bond formation and protein folding in the mitochondrial
+CC       intermembrane space. The reduced form of CHCHD4/MIA40 forms a transient
+CC       intermolecular disulfide bridge with GFER/ERV1, resulting in
+CC       regeneration of the essential disulfide bonds in CHCHD4/MIA40, while
+CC       GFER/ERV1 becomes re-oxidized by donating electrons to cytochrome c or
+CC       molecular oxygen. May have a function in liver regeneration and
+CC       spermatogenesis. {ECO:0000269|PubMed:8058770}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O2 + 2 R'C(R)SH = H2O2 + R'C(R)S-S(R)CR';
+CC         Xref=Rhea:RHEA:17357, ChEBI:CHEBI:15379, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:16520, ChEBI:CHEBI:17412; EC=1.8.3.2;
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00654,
+CC         ECO:0000269|PubMed:12717032};
+CC   -!- SUBUNIT: Homodimer; disulfide-linked (PubMed:12717032,
+CC       PubMed:22948913). Interacts with CHCHD4/MIA40 (By similarity).
+CC       {ECO:0000250|UniProtKB:P55789, ECO:0000269|PubMed:12717032,
+CC       ECO:0000269|PubMed:22948913}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion intermembrane space
+CC       {ECO:0000250|UniProtKB:P55789}. Mitochondrion
+CC       {ECO:0000250|UniProtKB:P55789}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAF12808.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=BAA06399.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D30735; BAA06399.1; ALT_INIT; mRNA.
+DR   EMBL; AF197192; AAF12808.1; ALT_INIT; Genomic_DNA.
+DR   PIR; I80184; I80184.
+DR   RefSeq; NP_037354.2; NM_013222.2.
+DR   PDB; 1OQC; X-ray; 1.80 A; A/B/C/D=74-198.
+DR   PDB; 3R7C; X-ray; 2.40 A; A/B/C/D=74-198.
+DR   PDBsum; 1OQC; -.
+DR   PDBsum; 3R7C; -.
+DR   AlphaFoldDB; Q63042; -.
+DR   SMR; Q63042; -.
+DR   STRING; 10116.ENSRNOP00000017917; -.
+DR   PhosphoSitePlus; Q63042; -.
+DR   PaxDb; 10116-ENSRNOP00000017917; -.
+DR   Ensembl; ENSRNOT00000017917.5; ENSRNOP00000017917.3; ENSRNOG00000013370.5.
+DR   GeneID; 27100; -.
+DR   KEGG; rno:27100; -.
+DR   UCSC; RGD:61845; rat.
+DR   AGR; RGD:61845; -.
+DR   CTD; 2671; -.
+DR   RGD; 61845; Gfer.
+DR   eggNOG; KOG3355; Eukaryota.
+DR   GeneTree; ENSGT00390000001979; -.
+DR   HOGENOM; CLU_070631_1_1_1; -.
+DR   InParanoid; Q63042; -.
+DR   OMA; TWMCEAH; -.
+DR   OrthoDB; 1265at2759; -.
+DR   PhylomeDB; Q63042; -.
+DR   TreeFam; TF105271; -.
+DR   BRENDA; 1.8.3.2; 5301.
+DR   EvolutionaryTrace; Q63042; -.
+DR   PRO; PR:Q63042; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000013370; Expressed in testis and 20 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; IEA:Ensembl.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005758; C:mitochondrial intermembrane space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; ISS:UniProtKB.
+DR   GO; GO:0016971; F:flavin-dependent sulfhydryl oxidase activity; IDA:RGD.
+DR   GO; GO:0008083; F:growth factor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0015035; F:protein-disulfide reductase activity; ISS:UniProtKB.
+DR   GO; GO:0072717; P:cellular response to actinomycin D; IEP:RGD.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0097237; P:cellular response to toxic substance; IEP:RGD.
+DR   GO; GO:0071356; P:cellular response to tumor necrosis factor; IEP:RGD.
+DR   GO; GO:0001889; P:liver development; IBA:GO_Central.
+DR   GO; GO:0097421; P:liver regeneration; IMP:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:0045953; P:negative regulation of natural killer cell mediated cytotoxicity; IDA:RGD.
+DR   GO; GO:2000573; P:positive regulation of DNA biosynthetic process; IDA:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   Gene3D; 1.20.120.310; ERV/ALR sulfhydryl oxidase domain; 1.
+DR   InterPro; IPR039799; ALR/ERV.
+DR   InterPro; IPR036774; ERV/ALR_sulphydryl_oxid_sf.
+DR   InterPro; IPR017905; ERV/ALR_sulphydryl_oxidase.
+DR   PANTHER; PTHR12645; ALR/ERV; 1.
+DR   PANTHER; PTHR12645:SF0; FAD-LINKED SULFHYDRYL OXIDASE ALR; 1.
+DR   Pfam; PF04777; Evr1_Alr; 1.
+DR   SUPFAM; SSF69000; FAD-dependent thiol oxidase; 1.
+DR   PROSITE; PS51324; ERV_ALR; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; FAD; Flavoprotein; Growth factor;
+KW   Mitochondrion; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..198
+FT                   /note="FAD-linked sulfhydryl oxidase ALR"
+FT                   /id="PRO_0000208550"
+FT   DOMAIN          88..188
+FT                   /note="ERV/ALR sulfhydryl oxidase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00654"
+FT   REGION          1..59
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        29..45
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         92..100
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:12717032,
+FT                   ECO:0000269|PubMed:22948913"
+FT   BINDING         104
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:12717032,
+FT                   ECO:0000269|PubMed:22948913"
+FT   BINDING         133
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:12717032,
+FT                   ECO:0000269|PubMed:22948913"
+FT   BINDING         164..176
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:12717032,
+FT                   ECO:0000269|PubMed:22948913"
+FT   BINDING         187..188
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:12717032,
+FT                   ECO:0000269|PubMed:22948913"
+FT   DISULFID        88
+FT                   /note="Interchain (with C-197)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00654,
+FT                   ECO:0000269|PubMed:12717032"
+FT   DISULFID        135..138
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00654,
+FT                   ECO:0000269|PubMed:12717032"
+FT   DISULFID        164..181
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00654,
+FT                   ECO:0000269|PubMed:12717032"
+FT   DISULFID        197
+FT                   /note="Interchain (with C-88)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00654,
+FT                   ECO:0000269|PubMed:12717032"
+FT   HELIX           92..108
+FT                   /evidence="ECO:0007829|PDB:1OQC"
+FT   HELIX           116..132
+FT                   /evidence="ECO:0007829|PDB:1OQC"
+FT   HELIX           136..148
+FT                   /evidence="ECO:0007829|PDB:1OQC"
+FT   HELIX           156..173
+FT                   /evidence="ECO:0007829|PDB:1OQC"
+FT   HELIX           181..183
+FT                   /evidence="ECO:0007829|PDB:1OQC"
+FT   HELIX           184..188
+FT                   /evidence="ECO:0007829|PDB:1OQC"
+SQ   SEQUENCE   198 AA;  22837 MW;  46AD9BEC2EF0C393 CRC64;
+     MAAPSEPAGF PRGSRFSFLP GGAHSEMTDD LVTDARGRGA RHRKDNAPAA APAPKGLEHG
+     KRPCRACVDF KSWMRTQQKR DIKFREDCPQ DREELGRNTW AFLHTLAAYY PDMPTPEQQQ
+     DMAQFIHIFS KFYPCEECAE DIRKRIDRSQ PDTSTRVSFS QWLCRLHNEV NRKLGKPDFD
+     CSRVDERWRD GWKDGSCD
+//

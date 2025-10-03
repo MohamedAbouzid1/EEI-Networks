@@ -1,0 +1,112 @@
+ID   MTL5_RAT                Reviewed;         475 AA.
+AC   Q5XHX9;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   02-SEP-2008, sequence version 2.
+DT   24-JAN-2024, entry version 100.
+DE   RecName: Full=Tesmin;
+DE   AltName: Full=Metallothionein-like 5, testis-specific;
+GN   Name=Tesmin {ECO:0000312|RGD:1309788}; Synonyms=Mtl5;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-34 AND SER-67, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: May have a role in spermatogenesis. {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q9WTJ6}. Nucleus
+CC       {ECO:0000250|UniProtKB:Q9WTJ6}. Note=Predominantly localized to the
+CC       cytoplasm. Translocates from the cytoplasm to the nucleus in the G2/M
+CC       transition upon treatment with cadmium, cobalt or zinc.
+CC       {ECO:0000250|UniProtKB:Q9WTJ6}.
+CC   -!- SIMILARITY: Belongs to the lin-54 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH83920.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC083920; AAH83920.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_001012069.2; NM_001012069.2.
+DR   AlphaFoldDB; Q5XHX9; -.
+DR   SMR; Q5XHX9; -.
+DR   STRING; 10116.ENSRNOP00000019861; -.
+DR   iPTMnet; Q5XHX9; -.
+DR   PhosphoSitePlus; Q5XHX9; -.
+DR   PaxDb; 10116-ENSRNOP00000019861; -.
+DR   Ensembl; ENSRNOT00000019861.7; ENSRNOP00000019861.4; ENSRNOG00000014671.7.
+DR   Ensembl; ENSRNOT00055035778; ENSRNOP00055029035; ENSRNOG00055020952.
+DR   Ensembl; ENSRNOT00060056258; ENSRNOP00060046464; ENSRNOG00060032481.
+DR   Ensembl; ENSRNOT00065053249; ENSRNOP00065043745; ENSRNOG00065030896.
+DR   GeneID; 309142; -.
+DR   KEGG; rno:309142; -.
+DR   UCSC; RGD:1309788; rat.
+DR   AGR; RGD:1309788; -.
+DR   CTD; 9633; -.
+DR   RGD; 1309788; Tesmin.
+DR   eggNOG; KOG1171; Eukaryota.
+DR   GeneTree; ENSGT00940000161379; -.
+DR   HOGENOM; CLU_025199_0_0_1; -.
+DR   InParanoid; Q5XHX9; -.
+DR   OMA; ILRIEFK; -.
+DR   OrthoDB; 402190at2759; -.
+DR   PhylomeDB; Q5XHX9; -.
+DR   TreeFam; TF313189; -.
+DR   PRO; PR:Q5XHX9; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000014671; Expressed in testis and 1 other cell type or tissue.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0001673; C:male germ cell nucleus; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0030154; P:cell differentiation; IEA:UniProtKB-KW.
+DR   GO; GO:0007140; P:male meiotic nuclear division; ISO:RGD.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; IBA:GO_Central.
+DR   GO; GO:0007283; P:spermatogenesis; ISO:RGD.
+DR   InterPro; IPR005172; CRC.
+DR   InterPro; IPR028307; Lin-54_fam.
+DR   InterPro; IPR033467; Tesmin/TSO1-like_CXC.
+DR   PANTHER; PTHR12446:SF22; TESMIN; 1.
+DR   PANTHER; PTHR12446; TESMIN/TSO1-RELATED; 1.
+DR   Pfam; PF03638; TCR; 1.
+DR   SMART; SM01114; CXC; 1.
+DR   PROSITE; PS51634; CRC; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Developmental protein; Differentiation; Nucleus; Phosphoprotein;
+KW   Reference proteome; Spermatogenesis.
+FT   CHAIN           1..475
+FT                   /note="Tesmin"
+FT                   /id="PRO_0000349273"
+FT   DOMAIN          263..372
+FT                   /note="CRC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00971"
+FT   MOD_RES         34
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         67
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   475 AA;  50469 MW;  FBB0DFBB345DA6A8 CRC64;
+     MEDALLGAMT GPEDELGAEL FGSERAFADG LALSPAGGAA DRDELPVLAD AYLGATEPGE
+     PLLRALSPPP GAEVPAALLG DFPGLPELRS SDDAAPPPAY SVHVLSSLLP GARGPALLPL
+     SAGVRVIPVE IKEAGGGVPG SSPEDAAFQA PLAQESCCKF SSSQEAEEAS GCPRKKDSSP
+     MVICQLKGGA QMLCIDNCGA RELKALHLLP QYDDQSSFPQ SELPKPMTTL VGRLLPVPAK
+     LNLITQVDNG ALPSAVNGAA FPSGPALQGP PKIALAGYCD CFSSGDFCNS CSCNNLRHEL
+     ERFKAIKACL DRNPEAFQPK MGKGRLGAAK LRHSKGCNCK RSGCLKNYCE CYEAKITCSS
+     ICKCIACKNY EESPERKMLM STPHYMEPGD FESSHHLSPA KFSGPPRLRK NRQAFSCISW
+     EVVEATCACL LAQGEEAEQE RCSPSLAEQM VLEEFGRCLS QILHIEFKSK GLKIE
+//

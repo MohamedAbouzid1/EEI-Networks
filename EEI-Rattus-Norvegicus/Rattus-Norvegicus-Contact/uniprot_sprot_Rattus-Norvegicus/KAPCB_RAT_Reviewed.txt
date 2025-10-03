@@ -1,0 +1,251 @@
+ID   KAPCB_RAT               Reviewed;         351 AA.
+AC   P68182; P05206;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   29-MAY-2024, entry version 158.
+DE   RecName: Full=cAMP-dependent protein kinase catalytic subunit beta;
+DE            Short=PKA C-beta;
+DE            EC=2.7.11.11;
+GN   Name=Prkacb; Synonyms=Pkacb;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=1610898; DOI=10.1016/0167-4781(92)90073-9;
+RA   Shuntoh H., Sakamoto N., Matsuyama S., Saitoh M., Tanaka C.;
+RT   "Molecular structure of the C beta catalytic subunit of rat cAMP-dependent
+RT   protein kinase and differential expression of C alpha and C beta isoforms
+RT   in rat tissues and cultured cells.";
+RL   Biochim. Biophys. Acta 1131:175-180(1992).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-8, AND DEAMIDATION AT ASN-3.
+RX   PubMed=9521123; DOI=10.1002/pro.5560070227;
+RA   Jedrzejewski P.T., Girod A., Tholey A., Koenig N., Thullner S., Kinzel V.,
+RA   Bossemeyer D.;
+RT   "A conserved deamidation site at Asn 2 in the catalytic subunit of
+RT   mammalian cAMP-dependent protein kinase detected by capillary LC-MS and
+RT   tandem mass spectrometry.";
+RL   Protein Sci. 7:457-469(1998).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-322 AND SER-339, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Mediates cAMP-dependent signaling triggered by receptor
+CC       binding to GPCRs. PKA activation regulates diverse cellular processes
+CC       such as cell proliferation, the cell cycle, differentiation and
+CC       regulation of microtubule dynamics, chromatin condensation and
+CC       decondensation, nuclear envelope disassembly and reassembly, as well as
+CC       regulation of intracellular transport mechanisms and ion flux.
+CC       Regulates the abundance of compartmentalized pools of its regulatory
+CC       subunits through phosphorylation of PJA2 which binds and ubiquitinates
+CC       these subunits, leading to their subsequent proteolysis. Phosphorylates
+CC       GPKOW which regulates its ability to bind RNA. Acts as a negative
+CC       regulator of mTORC1 by mediating phosphorylation of RPTOR.
+CC       {ECO:0000250|UniProtKB:P22694}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.11;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.11;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Activated by cAMP. {ECO:0000250|UniProtKB:P22694}.
+CC   -!- SUBUNIT: A number of inactive tetrameric holoenzymes are produced by
+CC       the combination of homo- or heterodimers of the different regulatory
+CC       subunits associated with two catalytic subunits. cAMP causes the
+CC       dissociation of the inactive holoenzyme into a dimer of regulatory
+CC       subunits bound to four cAMP and two free monomeric catalytic subunits.
+CC       Interacts with PRKAR1A and PRKAR2B (By similarity). The cAMP-dependent
+CC       protein kinase catalytic subunit binds PJA2. Interacts with GPKOW.
+CC       {ECO:0000250|UniProtKB:P05132, ECO:0000250|UniProtKB:P22694}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P22694}. Cell
+CC       membrane {ECO:0000250|UniProtKB:P22694}. Membrane
+CC       {ECO:0000250|UniProtKB:P22694}; Lipid-anchor
+CC       {ECO:0000250|UniProtKB:P22694}. Nucleus {ECO:0000250|UniProtKB:P05131}.
+CC       Note=Translocates into the nucleus (monomeric catalytic subunit). The
+CC       inactive holoenzyme is found in the cytoplasm.
+CC       {ECO:0000250|UniProtKB:P05131}.
+CC   -!- PTM: Asn-3 is deaminated to Asp in more than 25% of the proteins,
+CC       giving rise to 2 major isoelectric variants, called CB and CA
+CC       respectively (0.4 pH unit change). Deamidation proceeds via the so-
+CC       called beta-aspartyl shift mechanism and yields either 'D-Asp-2'
+CC       (major) or 'D-isoAsp-2' (minor), in addition to L-isomers. Deamidation
+CC       occurs after the addition of myristate. The Asn-3 form reaches a
+CC       significantly larger nuclear/cytoplasmic ratio than the 'Asp-2' form.
+CC       {ECO:0000269|PubMed:9521123}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. cAMP subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D10770; BAA01601.1; -; mRNA.
+DR   PIR; JQ1139; OKRTCB.
+DR   RefSeq; NP_001071113.1; NM_001077645.1.
+DR   AlphaFoldDB; P68182; -.
+DR   SMR; P68182; -.
+DR   BioGRID; 254303; 1.
+DR   IntAct; P68182; 2.
+DR   MINT; P68182; -.
+DR   STRING; 10116.ENSRNOP00000062228; -.
+DR   BindingDB; P68182; -.
+DR   GuidetoPHARMACOLOGY; 1477; -.
+DR   GlyGen; P68182; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; P68182; -.
+DR   PhosphoSitePlus; P68182; -.
+DR   jPOST; P68182; -.
+DR   PaxDb; 10116-ENSRNOP00000062228; -.
+DR   Ensembl; ENSRNOT00000068739.2; ENSRNOP00000062228.1; ENSRNOG00000004978.7.
+DR   Ensembl; ENSRNOT00055041233; ENSRNOP00055033550; ENSRNOG00055023932.
+DR   Ensembl; ENSRNOT00060001112; ENSRNOP00060000416; ENSRNOG00060000873.
+DR   Ensembl; ENSRNOT00065021101; ENSRNOP00065016277; ENSRNOG00065012881.
+DR   GeneID; 293508; -.
+DR   KEGG; rno:293508; -.
+DR   AGR; RGD:1310574; -.
+DR   CTD; 5567; -.
+DR   RGD; 1310574; Prkacb.
+DR   eggNOG; KOG0616; Eukaryota.
+DR   GeneTree; ENSGT00940000161169; -.
+DR   HOGENOM; CLU_000288_63_5_1; -.
+DR   InParanoid; P68182; -.
+DR   OrthoDB; 10768at2759; -.
+DR   PhylomeDB; P68182; -.
+DR   Reactome; R-RNO-163615; PKA activation.
+DR   Reactome; R-RNO-164378; PKA activation in glucagon signalling.
+DR   Reactome; R-RNO-180024; DARPP-32 events.
+DR   Reactome; R-RNO-381676; Glucagon-like Peptide-1 (GLP1) regulates insulin secretion.
+DR   Reactome; R-RNO-392517; Rap1 signalling.
+DR   Reactome; R-RNO-422356; Regulation of insulin secretion.
+DR   Reactome; R-RNO-432040; Vasopressin regulates renal water homeostasis via Aquaporins.
+DR   Reactome; R-RNO-4420097; VEGFA-VEGFR2 Pathway.
+DR   Reactome; R-RNO-442720; CREB1 phosphorylation through the activation of Adenylate Cyclase.
+DR   Reactome; R-RNO-5610785; GLI3 is processed to GLI3R by the proteasome.
+DR   Reactome; R-RNO-5610787; Hedgehog 'off' state.
+DR   Reactome; R-RNO-5687128; MAPK6/MAPK4 signaling.
+DR   Reactome; R-RNO-8853659; RET signaling.
+DR   Reactome; R-RNO-8963896; HDL assembly.
+DR   Reactome; R-RNO-9634597; GPER1 signaling.
+DR   Reactome; R-RNO-983231; Factors involved in megakaryocyte development and platelet production.
+DR   PRO; PR:P68182; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000004978; Expressed in frontal cortex and 18 other cell types or tissues.
+DR   GO; GO:0005952; C:cAMP-dependent protein kinase complex; IDA:RGD.
+DR   GO; GO:0005813; C:centrosome; ISO:RGD.
+DR   GO; GO:0097546; C:ciliary base; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004679; F:AMP-activated protein kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; ISS:UniProtKB.
+DR   GO; GO:0004691; F:cAMP-dependent protein kinase activity; IDA:RGD.
+DR   GO; GO:0000287; F:magnesium ion binding; ISS:UniProtKB.
+DR   GO; GO:0034237; F:protein kinase A regulatory subunit binding; IC:RGD.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; TAS:Reactome.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0051447; P:negative regulation of meiotic cell cycle; IDA:RGD.
+DR   GO; GO:0045879; P:negative regulation of smoothened signaling pathway; ISO:RGD.
+DR   GO; GO:1904262; P:negative regulation of TORC1 signaling; ISS:UniProtKB.
+DR   GO; GO:0001843; P:neural tube closure; ISO:RGD.
+DR   GO; GO:0010737; P:protein kinase A signaling; IBA:GO_Central.
+DR   GO; GO:0006468; P:protein phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0070613; P:regulation of protein processing; ISO:RGD.
+DR   CDD; cd14209; STKc_PKA; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   InterPro; IPR044109; STKc_PKA.
+DR   PANTHER; PTHR24353:SF116; CAMP-DEPENDENT PROTEIN KINASE CATALYTIC SUBUNIT BETA; 1.
+DR   PANTHER; PTHR24353; CYCLIC NUCLEOTIDE-DEPENDENT PROTEIN KINASE; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; cAMP; Cell membrane; Cytoplasm; Direct protein sequencing;
+KW   Kinase; Lipoprotein; Membrane; Myristate; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Reference proteome; Serine/threonine-protein kinase;
+KW   Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:9521123"
+FT   CHAIN           2..351
+FT                   /note="cAMP-dependent protein kinase catalytic subunit
+FT                   beta"
+FT                   /id="PRO_0000086063"
+FT   DOMAIN          44..298
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   DOMAIN          299..351
+FT                   /note="AGC-kinase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00618"
+FT   ACT_SITE        167
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         50..58
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         73
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         3
+FT                   /note="Deamidated asparagine"
+FT                   /evidence="ECO:0000269|PubMed:9521123"
+FT   MOD_RES         11
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P05132"
+FT   MOD_RES         69
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P68181"
+FT   MOD_RES         140
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P05132"
+FT   MOD_RES         198
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P05132"
+FT   MOD_RES         322
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         331
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P05132"
+FT   MOD_RES         339
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   LIPID           2
+FT                   /note="N-myristoyl glycine"
+FT                   /evidence="ECO:0000250|UniProtKB:P22694"
+SQ   SEQUENCE   351 AA;  40708 MW;  EBAC9B8041DF9F47 CRC64;
+     MGNTAIAKKG SEVESVKEFL AKAKEDFLRK WENPPPSNAG LEDFERKKTL GTGSFGRVML
+     VKHKATEQYY AMKILDKQKV VKLKQIEHTL NEKRILQAVE FPFLVRLEYS FKDNSNLYMV
+     MEYVPGGEMF SHLRRIGRFS EPHARFYAAQ IVLTFEYLHS LDLIYRDLKP ENLLIDHQGY
+     IQVTDFGFAK RVKGRTWTLC GTPEYLAPEI ILSKGYNKAV DWWALGVLIY EMAAGYPPFF
+     ADQPIQIYEK IVSGKVRFPS HFSSDLKDLL RNLLQVDLTK RFGNLKNGVS DIKTHKWFAT
+     TDWIAIYQRK VEAPFIPKFR GSGDTSNFDD YEEEEIRVSI TEKCGKEFCE F
+//

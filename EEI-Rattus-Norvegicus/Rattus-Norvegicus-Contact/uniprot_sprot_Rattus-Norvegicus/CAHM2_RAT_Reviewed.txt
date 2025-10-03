@@ -1,0 +1,140 @@
+ID   CAHM2_RAT               Reviewed;         323 AA.
+AC   Q5RJQ8;
+DT   07-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 1.
+DT   02-OCT-2024, entry version 108.
+DE   RecName: Full=Calcium homeostasis modulator protein 2;
+DE   AltName: Full=Protein FAM26B;
+GN   Name=Calhm2; Synonyms=Fam26b;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Pore-forming subunit of Ca(2+) homeostasis modulator
+CC       channels. Mediates ATP release from astrocytes and ATP-induced Ca(2+)
+CC       influx in microglia thus regulating neuronal ATP and Ca(2+)
+CC       homeostasis, synaptic transmission and neuroinflammatory response. May
+CC       form intercellular gap junctions. The gating mechanism remains unknown.
+CC       {ECO:0000250|UniProtKB:Q8VEC4, ECO:0000250|UniProtKB:Q9HA72}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP(in) = ATP(out); Xref=Rhea:RHEA:75687, ChEBI:CHEBI:30616;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HA72};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:75688;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEC4};
+CC   -!- SUBUNIT: Homo-undecamer. Two undecameric hemichannels can assemble in a
+CC       head-to-head manner to form a gap junction.
+CC       {ECO:0000250|UniProtKB:Q9HA72}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q8VEC4};
+CC       Multi-pass membrane protein {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the CALHM family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC086540; AAH86540.1; -; mRNA.
+DR   RefSeq; NP_001008307.1; NM_001008306.1.
+DR   AlphaFoldDB; Q5RJQ8; -.
+DR   SMR; Q5RJQ8; -.
+DR   IntAct; Q5RJQ8; 1.
+DR   MINT; Q5RJQ8; -.
+DR   STRING; 10116.ENSRNOP00000027526; -.
+DR   PhosphoSitePlus; Q5RJQ8; -.
+DR   SwissPalm; Q5RJQ8; -.
+DR   PaxDb; 10116-ENSRNOP00000027526; -.
+DR   Ensembl; ENSRNOT00000027526.4; ENSRNOP00000027526.3; ENSRNOG00000020325.7.
+DR   Ensembl; ENSRNOT00055006085; ENSRNOP00055004607; ENSRNOG00055003849.
+DR   Ensembl; ENSRNOT00060052625; ENSRNOP00060043765; ENSRNOG00060030309.
+DR   Ensembl; ENSRNOT00065053838; ENSRNOP00065044278; ENSRNOG00065031220.
+DR   GeneID; 294019; -.
+DR   KEGG; rno:294019; -.
+DR   AGR; RGD:1308276; -.
+DR   CTD; 51063; -.
+DR   RGD; 1308276; Calhm2.
+DR   eggNOG; ENOG502QVU7; Eukaryota.
+DR   GeneTree; ENSGT01030000234610; -.
+DR   HOGENOM; CLU_069286_1_0_1; -.
+DR   InParanoid; Q5RJQ8; -.
+DR   OMA; FAFHCPC; -.
+DR   OrthoDB; 2899675at2759; -.
+DR   PhylomeDB; Q5RJQ8; -.
+DR   TreeFam; TF329085; -.
+DR   PRO; PR:Q5RJQ8; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000020325; Expressed in spleen and 20 other cell types or tissues.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0005261; F:monoatomic cation channel activity; IBA:GO_Central.
+DR   GO; GO:1904669; P:ATP export; ISS:UniProtKB.
+DR   GO; GO:0070509; P:calcium ion import; ISS:UniProtKB.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; ISS:UniProtKB.
+DR   GO; GO:1903978; P:regulation of microglial cell activation; ISS:UniProtKB.
+DR   GO; GO:0048167; P:regulation of synaptic plasticity; ISS:UniProtKB.
+DR   InterPro; IPR029569; CALHM.
+DR   PANTHER; PTHR32261; CALCIUM HOMEOSTASIS MODULATOR PROTEIN; 1.
+DR   PANTHER; PTHR32261:SF3; CALCIUM HOMEOSTASIS MODULATOR PROTEIN 2; 1.
+DR   Pfam; PF14798; Ca_hom_mod; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Disulfide bond; Ion channel; Ion transport; Membrane;
+KW   Reference proteome; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..323
+FT                   /note="Calcium homeostasis modulator protein 2"
+FT                   /id="PRO_0000186722"
+FT   TOPO_DOM        1..21
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        22..43
+FT                   /note="Helical; Name=S1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HA72"
+FT   TOPO_DOM        44..52
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        53..76
+FT                   /note="Helical; Name=S2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HA72"
+FT   TOPO_DOM        77..101
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        102..132
+FT                   /note="Helical; Name=S3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HA72"
+FT   TOPO_DOM        133..179
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        180..206
+FT                   /note="Helical; Name=S4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HA72"
+FT   TOPO_DOM        207..323
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   REGION          14..39
+FT                   /note="Central pore"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HA72"
+FT   REGION          145..152
+FT                   /note="Hemichannel docking"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HA72"
+FT   REGION          214..251
+FT                   /note="Intersubunit interaction"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HA72"
+FT   SITE            168
+FT                   /note="Not N-glycosylated"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HA72"
+FT   DISULFID        46..130
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HA72"
+FT   DISULFID        48..162
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HA72"
+SQ   SEQUENCE   323 AA;  35931 MW;  B0B35F3510E65E1D CRC64;
+     MAALIAENFR FLSLFFKSKD VMIFNGLVAL GTVGSQELFS VVAFHCPCSP ARNYLYGLTA
+     IGVPALALFL IGVILNNHTW NLVAECQYRR AKNCSAAPTF LLLSSILGRA AVAPVTWSVI
+     SLLRGEAYVC ALSEFVDPSS LTAGDEGFPP DHATEILARF PCGEGPANLS GFREEVSRRL
+     KYESQLFGWL LIGVVAILVF LTKCFKHYCS PLSYRQEAYW AQYRTNEDQL FQRTAEVHSR
+     VLAANNVRRF FGFVALNKDD EELVTKFPVE GTQPRPQWNA ITGVYLYREN QGLPLYSRLH
+     KWAQGLTGNG TAPDNVEMAL LTV
+//

@@ -1,0 +1,162 @@
+ID   3BHS4_RAT               Reviewed;         373 AA.
+AC   Q62878; Q5FVK0;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   03-APR-2007, sequence version 4.
+DT   02-OCT-2024, entry version 175.
+DE   RecName: Full=3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 4;
+DE   AltName: Full=3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type IV;
+DE            Short=3-beta-HSD IV;
+DE   Includes:
+DE     RecName: Full=3-beta-hydroxy-Delta(5)-steroid dehydrogenase;
+DE              EC=1.1.1.145;
+DE     AltName: Full=3-beta-hydroxy-5-ene steroid dehydrogenase;
+DE     AltName: Full=Progesterone reductase;
+DE   Includes:
+DE     RecName: Full=Steroid Delta-isomerase;
+DE              EC=5.3.3.1;
+DE     AltName: Full=Delta-5-3-ketosteroid isomerase;
+GN   Name=Hsd3b6;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Ovary;
+RX   PubMed=7690038; DOI=10.1016/s0021-9258(19)36567-6;
+RA   Simard J., Couet J., Durocher F., Labrie Y., Sanchez R., Breton N.,
+RA   Turgeon C., Labrie F.;
+RT   "Structure and tissue-specific expression of a novel member of the rat 3
+RT   beta-hydroxysteroid dehydrogenase/delta 5-delta 4 isomerase (3 beta-HSD)
+RT   family. The exclusive 3 beta-HSD gene expression in the skin.";
+RL   J. Biol. Chem. 268:19659-19668(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Ovary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: 3-beta-HSD is a bifunctional enzyme, that catalyzes the
+CC       oxidative conversion of Delta(5)-ene-3-beta-hydroxy steroid, and the
+CC       oxidative conversion of ketosteroids. The 3-beta-HSD enzymatic system
+CC       plays a crucial role in the biosynthesis of all classes of hormonal
+CC       steroids.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 3beta-hydroxy-Delta(5)-steroid + NAD(+) = a 3-oxo-Delta(5)-
+CC         steroid + H(+) + NADH; Xref=Rhea:RHEA:24076, ChEBI:CHEBI:1722,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:47907, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.1.1.145;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 3-oxo-Delta(5)-steroid = a 3-oxo-Delta(4)-steroid;
+CC         Xref=Rhea:RHEA:14709, ChEBI:CHEBI:47907, ChEBI:CHEBI:47909;
+CC         EC=5.3.3.1;
+CC   -!- PATHWAY: Lipid metabolism; steroid biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane; Single-pass
+CC       membrane protein. Mitochondrion membrane; Single-pass membrane protein.
+CC   -!- TISSUE SPECIFICITY: Skin, placenta, also detectable in ovary and
+CC       adrenal gland.
+CC   -!- SIMILARITY: Belongs to the 3-beta-HSD family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L17138; AAA40606.1; -; mRNA.
+DR   EMBL; BC089937; AAH89937.1; -; mRNA.
+DR   PIR; A48769; A48769.
+DR   RefSeq; NP_058961.4; NM_017265.4.
+DR   RefSeq; XP_017446814.1; XM_017591325.1.
+DR   AlphaFoldDB; Q62878; -.
+DR   SMR; Q62878; -.
+DR   STRING; 10116.ENSRNOP00000026306; -.
+DR   PhosphoSitePlus; Q62878; -.
+DR   PaxDb; 10116-ENSRNOP00000026306; -.
+DR   Ensembl; ENSRNOT00000026306.6; ENSRNOP00000026306.4; ENSRNOG00000019441.6.
+DR   GeneID; 29632; -.
+DR   KEGG; rno:29632; -.
+DR   UCSC; RGD:67377; rat.
+DR   AGR; RGD:67377; -.
+DR   CTD; 3284; -.
+DR   RGD; 67377; Hsd3b6.
+DR   eggNOG; KOG1430; Eukaryota.
+DR   GeneTree; ENSGT00940000155444; -.
+DR   HOGENOM; CLU_007383_6_3_1; -.
+DR   InParanoid; Q62878; -.
+DR   OMA; DTFYTCA; -.
+DR   OrthoDB; 3675908at2759; -.
+DR   PhylomeDB; Q62878; -.
+DR   TreeFam; TF343138; -.
+DR   Reactome; R-RNO-193048; Androgen biosynthesis.
+DR   Reactome; R-RNO-193993; Mineralocorticoid biosynthesis.
+DR   Reactome; R-RNO-194002; Glucocorticoid biosynthesis.
+DR   UniPathway; UPA00062; -.
+DR   PRO; PR:Q62878; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000019441; Expressed in ovary and 1 other cell type or tissue.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IBA:GO_Central.
+DR   GO; GO:0031966; C:mitochondrial membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003854; F:3-beta-hydroxy-delta5-steroid dehydrogenase (NAD+) activity; IDA:RGD.
+DR   GO; GO:0016853; F:isomerase activity; TAS:RGD.
+DR   GO; GO:0016616; F:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor; IBA:GO_Central.
+DR   GO; GO:0004769; F:steroid delta-isomerase activity; IDA:RGD.
+DR   GO; GO:0030283; F:testosterone dehydrogenase [NAD(P)+] activity; TAS:RGD.
+DR   GO; GO:0006702; P:androgen biosynthetic process; IDA:RGD.
+DR   GO; GO:0006700; P:C21-steroid hormone biosynthetic process; IDA:RGD.
+DR   GO; GO:0008207; P:C21-steroid hormone metabolic process; IBA:GO_Central.
+DR   GO; GO:0021766; P:hippocampus development; IEP:RGD.
+DR   GO; GO:0033327; P:Leydig cell differentiation; IEP:RGD.
+DR   GO; GO:0034757; P:negative regulation of iron ion transport; IMP:RGD.
+DR   GO; GO:0046686; P:response to cadmium ion; IEP:RGD.
+DR   GO; GO:0051412; P:response to corticosterone; IEP:RGD.
+DR   GO; GO:0034698; P:response to gonadotropin; IEP:RGD.
+DR   GO; GO:0010288; P:response to lead ion; IEP:RGD.
+DR   GO; GO:0006694; P:steroid biosynthetic process; ISO:RGD.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR002225; 3Beta_OHSteriod_DH/Estase.
+DR   InterPro; IPR050177; Lipid_A_modif_metabolic_enz.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   PANTHER; PTHR43245; BIFUNCTIONAL POLYMYXIN RESISTANCE PROTEIN ARNA; 1.
+DR   PANTHER; PTHR43245:SF51; SHORT CHAIN DEHYDROGENASE_REDUCTASE FAMILY 42E, MEMBER 2; 1.
+DR   Pfam; PF01073; 3Beta_HSD; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Endoplasmic reticulum; Isomerase; Membrane; Mitochondrion;
+KW   Multifunctional enzyme; NAD; Oxidoreductase; Reference proteome;
+KW   Steroidogenesis; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..373
+FT                   /note="3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-
+FT                   isomerase type 4"
+FT                   /id="PRO_0000087790"
+FT   TRANSMEM        288..308
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        155
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         159
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         350
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q61694"
+FT   CONFLICT        208
+FT                   /note="S -> N (in Ref. 1; AAA40606)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        341
+FT                   /note="K -> E (in Ref. 1; AAA40606)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   373 AA;  41957 MW;  1B8A0FB794D05540 CRC64;
+     MPGWSCLVTG AGGFLGQRIV QLLVQEKDLK EVRVLDKVFR PETREEFFNL GTSIKVTVLE
+     GDILDTQCLR RACQGISVVI HTAALIDVTG VNPRQTILDV NLKGTQNLLE ACVQASVPAF
+     IYCSTVDVAG PNSYKKIILN GHEEEHHEST WSNPYPYSKK MAEKAVLAAN GSILKNGGTL
+     HTCALRPMYI YGERSPFLSV MILAALKSKG ILNVTGKFSI ANPVYVGNVA WAHILAARGL
+     RDPKKSQNVQ GQFYYISDDT PHQSYDDLNY TLSKEWGLHL DSSWSLPLPL LYWLAFLLEI
+     VSFFLHPVYN YRPSFNRHLV TLSNSKFTFS YKKAQRDLGY KPLVSWEEAK QKTSEWIGTL
+     VEQHRETLDT KSQ
+//

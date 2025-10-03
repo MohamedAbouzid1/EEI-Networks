@@ -1,0 +1,226 @@
+ID   NUDT5_RAT               Reviewed;         219 AA.
+AC   Q6AY63;
+DT   03-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   24-JUL-2024, entry version 126.
+DE   RecName: Full=ADP-sugar pyrophosphatase {ECO:0000250|UniProtKB:Q9UKK9};
+DE            EC=3.6.1.13 {ECO:0000250|UniProtKB:Q9UKK9};
+DE   AltName: Full=8-oxo-dGDP phosphatase {ECO:0000250|UniProtKB:Q9UKK9};
+DE            EC=3.6.1.58 {ECO:0000250|UniProtKB:Q9UKK9};
+DE   AltName: Full=Nuclear ATP-synthesis protein NUDIX5 {ECO:0000250|UniProtKB:Q9UKK9};
+DE            EC=2.7.7.96 {ECO:0000250|UniProtKB:Q9UKK9};
+DE   AltName: Full=Nucleoside diphosphate-linked moiety X motif 5 {ECO:0000305};
+DE            Short=Nudix motif 5 {ECO:0000305};
+GN   Name=Nudt5 {ECO:0000312|RGD:1359284};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Enzyme that can either act as an ADP-sugar pyrophosphatase in
+CC       absence of diphosphate or catalyze the synthesis of ATP in presence of
+CC       diphosphate. In absence of diphosphate, hydrolyzes with similar
+CC       activities various modified nucleoside diphosphates such as ADP-ribose,
+CC       ADP-mannose, ADP-glucose, 8-oxo-GDP and 8-oxo-dGDP. Can also hydrolyze
+CC       other nucleotide sugars with low activity. In presence of diphosphate,
+CC       mediates the synthesis of ATP in the nucleus by catalyzing the
+CC       conversion of ADP-ribose to ATP and ribose 5-phosphate. Nuclear ATP
+CC       synthesis takes place when dephosphorylated at Thr-45. Nuclear ATP
+CC       generation is required for extensive chromatin remodeling events that
+CC       are energy-consuming. Does not play a role in U8 snoRNA decapping
+CC       activity. Binds U8 snoRNA. {ECO:0000250|UniProtKB:Q9JKX6,
+CC       ECO:0000250|UniProtKB:Q9UKK9}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-ribose 5-phosphate + H(+) = ADP-D-ribose +
+CC         diphosphate; Xref=Rhea:RHEA:50248, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57967,
+CC         ChEBI:CHEBI:78346; EC=2.7.7.96;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UKK9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ADP-D-ribose + H2O = AMP + D-ribose 5-phosphate + 2 H(+);
+CC         Xref=Rhea:RHEA:10412, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57967, ChEBI:CHEBI:78346, ChEBI:CHEBI:456215;
+CC         EC=3.6.1.13; Evidence={ECO:0000250|UniProtKB:Q9UKK9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=8-oxo-dGDP + H2O = 8-oxo-dGMP + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:32063, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:63224, ChEBI:CHEBI:63715; EC=3.6.1.58;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UKK9};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UKK9};
+CC       Note=Binds 3 Mg(2+) ions per subunit. {ECO:0000250|UniProtKB:Q9UKK9};
+CC   -!- SUBUNIT: Homodimer. Interacts with PARG.
+CC       {ECO:0000250|UniProtKB:Q9UKK9}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q9UKK9}.
+CC   -!- PTM: Phosphorylation at Thr-45 is required for homodimer stability;
+CC       dephosphorylation results in destabilization of the homodimer.
+CC       Dephosphorylation at Thr-45 promotes the ATP-synthesis activity.
+CC       {ECO:0000250|UniProtKB:Q9UKK9}.
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079176; AAH79176.1; -; mRNA.
+DR   RefSeq; NP_001007734.1; NM_001007733.1.
+DR   AlphaFoldDB; Q6AY63; -.
+DR   SMR; Q6AY63; -.
+DR   BioGRID; 262565; 2.
+DR   STRING; 10116.ENSRNOP00000023893; -.
+DR   iPTMnet; Q6AY63; -.
+DR   PhosphoSitePlus; Q6AY63; -.
+DR   jPOST; Q6AY63; -.
+DR   PaxDb; 10116-ENSRNOP00000023893; -.
+DR   Ensembl; ENSRNOT00000082669.2; ENSRNOP00000075734.1; ENSRNOG00000017741.7.
+DR   Ensembl; ENSRNOT00055030240; ENSRNOP00055024309; ENSRNOG00055017867.
+DR   Ensembl; ENSRNOT00060014075; ENSRNOP00060010774; ENSRNOG00060008442.
+DR   Ensembl; ENSRNOT00065012077; ENSRNOP00065008815; ENSRNOG00065007710.
+DR   GeneID; 361274; -.
+DR   KEGG; rno:361274; -.
+DR   AGR; RGD:1359284; -.
+DR   CTD; 11164; -.
+DR   RGD; 1359284; Nudt5.
+DR   eggNOG; KOG3041; Eukaryota.
+DR   GeneTree; ENSGT00940000154045; -.
+DR   InParanoid; Q6AY63; -.
+DR   OMA; NDPGLCN; -.
+DR   OrthoDB; 991202at2759; -.
+DR   PhylomeDB; Q6AY63; -.
+DR   TreeFam; TF106347; -.
+DR   Reactome; R-RNO-2393930; Phosphate bond hydrolysis by NUDT proteins.
+DR   SABIO-RK; Q6AY63; -.
+DR   PRO; PR:Q6AY63; -.
+DR   Proteomes; UP000002494; Chromosome 17.
+DR   Bgee; ENSRNOG00000017741; Expressed in jejunum and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q6AY63; baseline and differential.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0044715; F:8-oxo-dGDP phosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0044716; F:8-oxo-GDP phosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0047631; F:ADP-ribose diphosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0019144; F:ADP-sugar diphosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0000287; F:magnesium ion binding; ISS:UniProtKB.
+DR   GO; GO:0017110; F:nucleoside diphosphate phosphatase activity; ISO:RGD.
+DR   GO; GO:0016779; F:nucleotidyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0030515; F:snoRNA binding; ISS:UniProtKB.
+DR   GO; GO:1990966; P:ATP generation from poly-ADP-D-ribose; ISO:RGD.
+DR   GO; GO:0006338; P:chromatin remodeling; ISS:UniProtKB.
+DR   GO; GO:0019303; P:D-ribose catabolic process; ISS:UniProtKB.
+DR   GO; GO:0006139; P:nucleobase-containing compound metabolic process; ISO:RGD.
+DR   GO; GO:0006753; P:nucleoside phosphate metabolic process; IBA:GO_Central.
+DR   GO; GO:0009191; P:ribonucleoside diphosphate catabolic process; ISS:UniProtKB.
+DR   GO; GO:0019693; P:ribose phosphate metabolic process; IBA:GO_Central.
+DR   CDD; cd03424; ADPRase_NUDT5; 1.
+DR   Gene3D; 3.90.79.10; Nucleoside Triphosphate Pyrophosphohydrolase; 1.
+DR   InterPro; IPR020476; Nudix_hydrolase.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   PANTHER; PTHR11839:SF1; ADP-SUGAR PYROPHOSPHATASE; 1.
+DR   PANTHER; PTHR11839; UDP/ADP-SUGAR PYROPHOSPHATASE; 1.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR00502; NUDIXFAMILY.
+DR   SUPFAM; SSF55811; Nudix; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Hydrolase; Isopeptide bond; Magnesium; Metal-binding; Nucleus;
+KW   Phosphoprotein; Reference proteome; RNA-binding; Transferase;
+KW   Ubl conjugation.
+FT   CHAIN           1..219
+FT                   /note="ADP-sugar pyrophosphatase"
+FT                   /id="PRO_0000250703"
+FT   DOMAIN          57..197
+FT                   /note="Nudix hydrolase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00794"
+FT   MOTIF           97..118
+FT                   /note="Nudix box"
+FT   BINDING         28
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   BINDING         46..47
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   BINDING         84
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   BINDING         96
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   BINDING         98
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   BINDING         112
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   BINDING         112
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   BINDING         116
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   BINDING         116
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   BINDING         133
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   BINDING         166
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   MOD_RES         10
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   MOD_RES         45
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   MOD_RES         210
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   MOD_RES         218
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+FT   CROSSLNK        42
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKK9"
+SQ   SEQUENCE   219 AA;  24117 MW;  87AFCD2BDD6E4B04 CRC64;
+     METQEPKDSS PPTEQRILSE ELISEGKWVK FEKTTYMDPT GKTRTWETVK LTTRKGKSAD
+     AVSVIPVLQR TLHHECIVLV KQFRPPMGGY CLEFPAGLIE DGESPEAAAL RELEEETGYK
+     GDIAECSPAV CMDPGLSNCT THVVTVTING DDAGNVRPKP KPGDGEFVEV ISLPKNDLLT
+     RLDALGAEDR LTVDARVYAY ALALKHANAK PFEVPFLKF
+//

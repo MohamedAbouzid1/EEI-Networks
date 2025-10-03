@@ -1,0 +1,143 @@
+ID   DDX52_RAT               Reviewed;         598 AA.
+AC   Q99PT0;
+DT   09-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   24-JUL-2024, entry version 137.
+DE   RecName: Full=Probable ATP-dependent RNA helicase DDX52;
+DE            EC=3.6.4.13;
+DE   AltName: Full=ATP-dependent RNA helicase ROK1-like;
+DE            Short=rROK1L;
+DE   AltName: Full=DEAD box protein 52;
+GN   Name=Ddx52; Synonyms=Rok1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RA   Li W., Suzuki T.;
+RT   "Identification of a novel ROK1-like protein in rat brain.";
+RL   Submitted (FEB-2001) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Required for efficient ribosome biogenesis. May control cell
+CC       cycle progression by regulating translation of mRNAs that contain a
+CC       terminal oligo pyrimidine (TOP) motif in their 5' UTRs, such as GTPBP4.
+CC       {ECO:0000250|UniProtKB:Q9VVK8}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC   -!- SUBCELLULAR LOCATION: Nucleus, nucleolus {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. DDX52/ROK1
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB055628; BAB32441.1; -; mRNA.
+DR   RefSeq; NP_445977.1; NM_053525.1.
+DR   AlphaFoldDB; Q99PT0; -.
+DR   SMR; Q99PT0; -.
+DR   STRING; 10116.ENSRNOP00000003600; -.
+DR   CarbonylDB; Q99PT0; -.
+DR   PhosphoSitePlus; Q99PT0; -.
+DR   PaxDb; 10116-ENSRNOP00000003600; -.
+DR   Ensembl; ENSRNOT00000003600.7; ENSRNOP00000003600.3; ENSRNOG00000002612.7.
+DR   Ensembl; ENSRNOT00055044649; ENSRNOP00055036554; ENSRNOG00055025868.
+DR   Ensembl; ENSRNOT00060037697; ENSRNOP00060031089; ENSRNOG00060021721.
+DR   Ensembl; ENSRNOT00065031146; ENSRNOP00065024799; ENSRNOG00065018531.
+DR   GeneID; 85432; -.
+DR   KEGG; rno:85432; -.
+DR   AGR; RGD:621743; -.
+DR   CTD; 11056; -.
+DR   RGD; 621743; Ddx52.
+DR   eggNOG; KOG0344; Eukaryota.
+DR   GeneTree; ENSGT00550000074863; -.
+DR   HOGENOM; CLU_003041_1_4_1; -.
+DR   InParanoid; Q99PT0; -.
+DR   OMA; EMAHSIM; -.
+DR   OrthoDB; 123064at2759; -.
+DR   PhylomeDB; Q99PT0; -.
+DR   TreeFam; TF314448; -.
+DR   Reactome; R-RNO-6791226; Major pathway of rRNA processing in the nucleolus and cytosol.
+DR   PRO; PR:Q99PT0; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000002612; Expressed in thymus and 20 other cell types or tissues.
+DR   GO; GO:0005730; C:nucleolus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:RHEA.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003724; F:RNA helicase activity; NAS:RGD.
+DR   GO; GO:0030490; P:maturation of SSU-rRNA; IBA:GO_Central.
+DR   GO; GO:0006364; P:rRNA processing; TAS:RGD.
+DR   CDD; cd17957; DEADc_DDX52; 1.
+DR   CDD; cd18787; SF2_C_DEAD; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   InterPro; IPR044764; DDX52/Rok1_DEADc.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR050079; DEAD_box_RNA_helicase.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C-like.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   PANTHER; PTHR47959; ATP-DEPENDENT RNA HELICASE RHLE-RELATED; 1.
+DR   PANTHER; PTHR47959:SF15; RNA HELICASE; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; ATP-binding; Helicase; Hydrolase; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Reference proteome; RNA-binding.
+FT   CHAIN           1..598
+FT                   /note="Probable ATP-dependent RNA helicase DDX52"
+FT                   /id="PRO_0000055062"
+FT   DOMAIN          197..375
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   DOMAIN          386..547
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00542"
+FT   REGION          59..98
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          578..598
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           166..194
+FT                   /note="Q motif"
+FT   MOTIF           319..322
+FT                   /note="DEAD box"
+FT   COMPBIAS        59..73
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        583..598
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         210..217
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   MOD_RES         15
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y2R4"
+FT   MOD_RES         39
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y2R4"
+SQ   SEQUENCE   598 AA;  67240 MW;  B9E818EA6B144425 CRC64;
+     MDSYDLFRRL GAGAKFDVKR FSADATRFQV GKRKFGSDSS ETVKGLDFFG NKKSVSDECG
+     GLQTQQELQN EETTEGGLLE RSKEPKKKKR KKMTADVPAQ EDLDGTIQWT SSVEAKLQDK
+     KANGEKKLTS EKLEHLRKEK INFFRNKHKI HVQGTDLPDP IATFQQLDQE YKISPRLLQN
+     ILDAGFQVPT PIQMQAIPVM LHGRELLASA PTGSGKTLAF SIPILMQLKQ PTNKGFRALV
+     ISPTRELASQ IHRELIKISE GTGFRIHMIH KAAIAAKKFG PKSSKKFDIL VTTPNRLIYL
+     LKQEPPGIDL TSVEWLVVDE SDKLFEDGKT GFRDQLASIF LACTSPKVRR AMFSATFAYD
+     VEQWCKLNLD NIVSVSIGAR NSAVETVEQE LLFVGSETGK LLAMRELVKK GFNPPVLVFV
+     QSIERAKELF HELIYEGINV DVIHAERTQQ QRDNTVHSFR AGKIWVLICT ALLARGIDFK
+     GVNLVINYDF PTSSVEYIHR IGRTGRAGNR GKAVTFFTED DKPLLRSVAN VIQQAGCPVP
+     EYIKGFQKLL SKQKKKMIKK PLERESISTT PKYFLEQAKQ KKVAGQNSKK KETLKGKS
+//

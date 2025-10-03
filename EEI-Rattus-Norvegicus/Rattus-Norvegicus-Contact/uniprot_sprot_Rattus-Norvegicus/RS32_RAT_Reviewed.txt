@@ -1,0 +1,86 @@
+ID   RS32_RAT                Reviewed;          25 AA.
+AC   P62948; P28751;
+DT   31-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   31-AUG-2004, sequence version 1.
+DT   29-MAY-2024, entry version 95.
+DE   RecName: Full=Small ribosomal subunit protein eS32 {ECO:0000305|Ref.2};
+DE   AltName: Full=60S ribosomal protein L41;
+DE   AltName: Full=Large ribosomal subunit protein eL41 {ECO:0000305};
+GN   Name=Rpl41;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=7575549; DOI=10.1006/bbrc.1995.2359;
+RA   Chan Y.-L., Olvera J., Wool I.G.;
+RT   "The primary structures of rat ribosomal proteins L4 and L41.";
+RL   Biochem. Biophys. Res. Commun. 214:810-818(1995).
+RN   [2]
+RP   REVISION OF SUBUNIT, AND NOMENCLATURE.
+RA   Leibundgut M.A., Ban N.;
+RL   Unpublished observations (OCT-2023).
+CC   -!- FUNCTION: Component of the small ribosomal subunit (Probable) (Ref.2).
+CC       The ribosome is a large ribonucleoprotein complex responsible for the
+CC       synthesis of proteins in the cell (By similarity). Interacts with the
+CC       beta subunit of protein kinase CKII and stimulates phosphorylation of
+CC       DNA topoisomerase II alpha by CKII (By similarity).
+CC       {ECO:0000250|UniProtKB:P62945, ECO:0000250|UniProtKB:P62947,
+CC       ECO:0000305|Ref.2}.
+CC   -!- SUBUNIT: Component of the large ribosomal subunit.
+CC       {ECO:0000250|UniProtKB:P62947}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P62947}.
+CC   -!- MISCELLANEOUS: Initially thought to be part of the large ribosomal
+CC       subunit. Crystal structures show eS32/eL41 to be a small ribosomal
+CC       subunit forming a bridge at the interface of the 2 subunits.
+CC       {ECO:0000305|Ref.2}.
+CC   -!- SIMILARITY: Belongs to the eukaryotic ribosomal protein eS32 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X82550; CAA57899.1; -; mRNA.
+DR   PIR; JC4278; JC4278.
+DR   RefSeq; NP_620783.1; NM_139083.2.
+DR   PDB; 7QGG; EM; 2.86 A; o=1-25.
+DR   PDBsum; 7QGG; -.
+DR   AlphaFoldDB; P62948; -.
+DR   EMDB; EMD-13954; -.
+DR   SMR; P62948; -.
+DR   GeneID; 124440; -.
+DR   KEGG; rno:124440; -.
+DR   UCSC; RGD:621210; rat.
+DR   AGR; RGD:621210; -.
+DR   CTD; 6171; -.
+DR   RGD; 621210; Rpl41.
+DR   eggNOG; ENOG502TDY0; Eukaryota.
+DR   HOGENOM; CLU_220499_1_0_1; -.
+DR   InParanoid; P62948; -.
+DR   PRO; PR:P62948; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000042233; Expressed in thymus and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0022625; C:cytosolic large ribosomal subunit; ISO:RGD.
+DR   GO; GO:0003730; F:mRNA 3'-UTR binding; ISO:RGD.
+DR   GO; GO:0048027; F:mRNA 5'-UTR binding; ISO:RGD.
+DR   GO; GO:0003735; F:structural constituent of ribosome; ISO:RGD.
+DR   GO; GO:0002181; P:cytoplasmic translation; ISO:RGD.
+DR   GO; GO:0006412; P:translation; TAS:RGD.
+DR   InterPro; IPR007836; Ribosomal_eS32.
+DR   Pfam; PF05162; Ribosomal_L41; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytoplasm; Reference proteome; Ribonucleoprotein;
+KW   Ribosomal protein.
+FT   CHAIN           1..25
+FT                   /note="Small ribosomal subunit protein eS32"
+FT                   /id="PRO_0000198057"
+FT   REGION          1..25
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   25 AA;  3456 MW;  9AD629C69ECC039E CRC64;
+     MRAKWRKKRM RRLKRKRRKM RQRSK
+//

@@ -1,0 +1,231 @@
+ID   GRK1_RAT                Reviewed;         564 AA.
+AC   Q63651;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   02-OCT-2024, entry version 166.
+DE   RecName: Full=Rhodopsin kinase GRK1;
+DE            Short=RK;
+DE            EC=2.7.11.14 {ECO:0000250|UniProtKB:Q9WVL4};
+DE   AltName: Full=G protein-coupled receptor kinase 1 {ECO:0000312|RGD:619712};
+DE   Flags: Precursor;
+GN   Name=Grk1 {ECO:0000312|RGD:619712}; Synonyms=Rhok;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Retina;
+RX   PubMed=9147475; DOI=10.1017/s0952523800011366;
+RA   Zhao X., Haeseleer F., Fariss R.N., Huang J., Baehr W., Milam A.H.,
+RA   Palczewski K.;
+RT   "Molecular cloning and localization of rhodopsin kinase in the mammalian
+RT   pineal.";
+RL   Vis. Neurosci. 14:225-232(1997).
+RN   [2]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=11717351; DOI=10.1523/jneurosci.21-23-09175.2001;
+RA   Weiss E.R., Ducceschi M.H., Horner T.J., Li A., Craft C.M., Osawa S.;
+RT   "Species-specific differences in expression of G-protein-coupled receptor
+RT   kinase (GRK) 7 and GRK1 in mammalian cone photoreceptor cells: implications
+RT   for cone cell phototransduction.";
+RL   J. Neurosci. 21:9175-9184(2001).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 20-31, IDENTIFICATION BY MASS SPECTROMETRY,
+RP   PHOSPHORYLATION AT SER-21, AND TISSUE SPECIFICITY.
+RX   PubMed=21504899; DOI=10.1074/jbc.m111.230904;
+RA   Osawa S., Jo R., Xiong Y., Reidel B., Tserentsoodol N., Arshavsky V.Y.,
+RA   Iuvone P.M., Weiss E.R.;
+RT   "Phosphorylation of G protein-coupled receptor kinase 1 (GRK1) is regulated
+RT   by light but independent of phototransduction in rod photoreceptors.";
+RL   J. Biol. Chem. 286:20923-20929(2011).
+CC   -!- FUNCTION: Retina-specific kinase involved in the signal turnoff via
+CC       phosphorylation of rhodopsin (RHO), the G protein- coupled receptor
+CC       that initiates the phototransduction cascade (By similarity). This
+CC       rapid desensitization is essential for scotopic vision and permits
+CC       rapid adaptation to changes in illumination (By similarity). May play a
+CC       role in the maintenance of the outer nuclear layer in the retina (By
+CC       similarity). {ECO:0000250|UniProtKB:Q9WVL4}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[rhodopsin] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[rhodopsin]; Xref=Rhea:RHEA:56552, Rhea:RHEA-COMP:14596,
+CC         Rhea:RHEA-COMP:14597, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.14; Evidence={ECO:0000250|UniProtKB:Q9WVL4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[rhodopsin] = ADP + H(+) + O-phospho-L-seryl-
+CC         [rhodopsin]; Xref=Rhea:RHEA:23356, Rhea:RHEA-COMP:14594, Rhea:RHEA-
+CC         COMP:14595, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.14;
+CC         Evidence={ECO:0000250|UniProtKB:Q9WVL4};
+CC   -!- ACTIVITY REGULATION: Inhibited by RCVRN, which prevents the interaction
+CC       between GRK1 and RHO (By similarity). Inhibition is calcium-dependent
+CC       (By similarity). {ECO:0000250|UniProtKB:P28327}.
+CC   -!- SUBUNIT: Interacts (via N-terminus) with RCVRN (via C-terminus); the
+CC       interaction is Ca(2+)-dependent (By similarity). Interacts (when
+CC       prenylated) with PDE6D; this promotes release from membranes (By
+CC       similarity). May form a complex composed of RHO, GRK1 and RCVRN in a
+CC       Ca(2+)-dependent manner; RCVRN prevents the interaction between GRK1
+CC       and RHO (By similarity). {ECO:0000250|UniProtKB:P28327}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250|UniProtKB:P28327}; Lipid-
+CC       anchor {ECO:0000250|UniProtKB:P28327}. Cell projection, cilium,
+CC       photoreceptor outer segment {ECO:0000250|UniProtKB:Q9WVL4}.
+CC       Note=Subcellular location is not affected by light or dark conditions.
+CC       {ECO:0000250|UniProtKB:Q9WVL4}.
+CC   -!- TISSUE SPECIFICITY: Detected in retina (at protein level)
+CC       (PubMed:21504899). Retina-specific. Expressed in rod and cone
+CC       photoreceptor cells. {ECO:0000269|PubMed:11717351,
+CC       ECO:0000269|PubMed:21504899}.
+CC   -!- PTM: Autophosphorylated, Ser-21 is a minor site of autophosphorylation
+CC       compared to Ser-491 and Thr-492 (By similarity). Phosphorylation at
+CC       Ser-21 is regulated by light and activated by cAMP. {ECO:0000250,
+CC       ECO:0000269|PubMed:21504899}.
+CC   -!- PTM: Farnesylation is required for full activity.
+CC       {ECO:0000250|UniProtKB:P28327}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. GPRK subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U63971; AAB05930.1; -; mRNA.
+DR   RefSeq; NP_112358.1; NM_031096.1.
+DR   AlphaFoldDB; Q63651; -.
+DR   SMR; Q63651; -.
+DR   STRING; 10116.ENSRNOP00000024999; -.
+DR   iPTMnet; Q63651; -.
+DR   PhosphoSitePlus; Q63651; -.
+DR   PaxDb; 10116-ENSRNOP00000024999; -.
+DR   GeneID; 81760; -.
+DR   KEGG; rno:81760; -.
+DR   UCSC; RGD:619712; rat.
+DR   AGR; RGD:619712; -.
+DR   CTD; 6011; -.
+DR   RGD; 619712; Grk1.
+DR   eggNOG; KOG0986; Eukaryota.
+DR   InParanoid; Q63651; -.
+DR   OrthoDB; 2906348at2759; -.
+DR   PhylomeDB; Q63651; -.
+DR   BRENDA; 2.7.11.14; 5301.
+DR   Reactome; R-RNO-2514859; Inactivation, recovery and regulation of the phototransduction cascade.
+DR   PRO; PR:Q63651; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0001750; C:photoreceptor outer segment; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050254; F:rhodopsin kinase activity; IDA:RGD.
+DR   GO; GO:0006915; P:apoptotic process; ISO:RGD.
+DR   GO; GO:0016056; P:G protein-coupled opsin signaling pathway; TAS:RGD.
+DR   GO; GO:0043524; P:negative regulation of neuron apoptotic process; ISO:RGD.
+DR   GO; GO:0008594; P:photoreceptor cell morphogenesis; ISO:RGD.
+DR   GO; GO:0042327; P:positive regulation of phosphorylation; ISO:RGD.
+DR   GO; GO:0060060; P:post-embryonic retina morphogenesis in camera-type eye; ISO:RGD.
+DR   GO; GO:0022400; P:regulation of opsin-mediated signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0009966; P:regulation of signal transduction; IBA:GO_Central.
+DR   GO; GO:0009416; P:response to light stimulus; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0097473; P:retinal rod cell apoptotic process; ISO:RGD.
+DR   GO; GO:0007601; P:visual perception; IEA:UniProtKB-KW.
+DR   CDD; cd05608; STKc_GRK1; 1.
+DR   Gene3D; 1.10.167.10; Regulator of G-protein Signalling 4, domain 2; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR000239; GPCR_kinase.
+DR   InterPro; IPR037716; GRK1_dom.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR016137; RGS.
+DR   InterPro; IPR036305; RGS_sf.
+DR   InterPro; IPR044926; RGS_subdomain_2.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   PANTHER; PTHR24355; G PROTEIN-COUPLED RECEPTOR KINASE/RIBOSOMAL PROTEIN S6 KINASE; 1.
+DR   PANTHER; PTHR24355:SF11; RHODOPSIN KINASE GRK1; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00615; RGS; 1.
+DR   PRINTS; PR00717; GPCRKINASE.
+DR   SMART; SM00315; RGS; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   SUPFAM; SSF48097; Regulator of G-protein signaling, RGS; 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS50132; RGS; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell projection; Direct protein sequencing; Kinase;
+KW   Lipoprotein; Membrane; Methylation; Nucleotide-binding; Phosphoprotein;
+KW   Prenylation; Reference proteome; Sensory transduction;
+KW   Serine/threonine-protein kinase; Transferase; Vision.
+FT   CHAIN           1..561
+FT                   /note="Rhodopsin kinase GRK1"
+FT                   /id="PRO_0000024379"
+FT   PROPEP          562..564
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000024380"
+FT   DOMAIN          58..175
+FT                   /note="RGS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00171"
+FT   DOMAIN          190..455
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   DOMAIN          456..521
+FT                   /note="AGC-kinase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00618"
+FT   REGION          1..189
+FT                   /note="N-terminal"
+FT   REGION          1..15
+FT                   /note="Interaction with RCVRN"
+FT                   /evidence="ECO:0000250|UniProtKB:P28327"
+FT   REGION          456..564
+FT                   /note="C-terminal"
+FT   ACT_SITE        317
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         196..204
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         219
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         5
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P28327"
+FT   MOD_RES         8
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P28327"
+FT   MOD_RES         21
+FT                   /note="Phosphoserine; by PKA and autocatalysis"
+FT                   /evidence="ECO:0000305|PubMed:21504899"
+FT   MOD_RES         491
+FT                   /note="Phosphoserine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P28327"
+FT   MOD_RES         492
+FT                   /note="Phosphothreonine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P28327"
+FT   MOD_RES         561
+FT                   /note="Cysteine methyl ester"
+FT                   /evidence="ECO:0000250|UniProtKB:P28327"
+FT   LIPID           561
+FT                   /note="S-farnesyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P28327"
+SQ   SEQUENCE   564 AA;  63769 MW;  17E05784E6D1ED00 CRC64;
+     MDFGSLETVV ANSAFIAARG SFDGSSTPSS RDKKYLAKLR LPPLSKCEGL RDSISLEFDN
+     LCSEQPIGKR LFQQFLKTDE RHVPALELWK DIEDYDTADD DLRPQKAQAI LAEYLDPQGT
+     LFCNFLDQGM VARVKEGPTG SQDGLFQPLL QATLEHLSQG PFQEYLGSLY FLRFLQWKWL
+     EAQPIGEDWF LDFRVLGKGG FGEVSACQMK ATGKMYACKK LNKKRLKKRK GYQGAIVEKR
+     ILAKVHSRFI VSLAYAFETK TDLCLVMTIM NGGDVRYHIY NVDEENPGFP EPRAIYYTAQ
+     IISGLEHLHQ RRIVYRDLKP ENVLLDNDGN IRISDLGLAV ELKEGQNKTK GYAGTPGFMA
+     PELLRGEEYD FSVDYFALGV TLYEMIAARG PFRARGEKVE NKELKQRIIS EPVKYPEKFS
+     QASKDFCEQL LEKDPEKRLG FRDGTCDALR ANVLFKDISW RQLEAGMLIP PFIPDSRTVY
+     AKNIQDVGAF STVKGVVFDK ADTEFFQEFA SGNCSIPWQE EMIETGFFGD LNVWRPDGQM
+     PDDMKGITVE EAAPTAKSGM CLIS
+//

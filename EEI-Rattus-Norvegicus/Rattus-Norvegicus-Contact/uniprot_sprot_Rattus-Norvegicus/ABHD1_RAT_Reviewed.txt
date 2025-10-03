@@ -1,0 +1,108 @@
+ID   ABHD1_RAT               Reviewed;         412 AA.
+AC   Q5RK23;
+DT   20-MAR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 1.
+DT   24-JUL-2024, entry version 110.
+DE   RecName: Full=Protein ABHD1 {ECO:0000305};
+DE            EC=3.1.1.-;
+DE   AltName: Full=Alpha/beta hydrolase domain-containing protein 1 {ECO:0000305};
+DE            Short=Abhydrolase domain-containing protein 1 {ECO:0000312|RGD:1310988};
+GN   Name=Abhd1 {ECO:0000312|RGD:1310988};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Ovary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass type II
+CC       membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the AB hydrolase superfamily. AB hydrolase 4
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC086351; AAH86351.1; -; mRNA.
+DR   RefSeq; NP_001008520.1; NM_001008520.1.
+DR   AlphaFoldDB; Q5RK23; -.
+DR   STRING; 10116.ENSRNOP00000009339; -.
+DR   ESTHER; ratno-abhd1; abh_upf0017.
+DR   GlyCosmos; Q5RK23; 1 site, No reported glycans.
+DR   GlyGen; Q5RK23; 1 site.
+DR   PhosphoSitePlus; Q5RK23; -.
+DR   PaxDb; 10116-ENSRNOP00000009339; -.
+DR   Ensembl; ENSRNOT00000010403.5; ENSRNOP00000009339.2; ENSRNOG00000025689.4.
+DR   Ensembl; ENSRNOT00055032107; ENSRNOP00055025965; ENSRNOG00055018844.
+DR   Ensembl; ENSRNOT00060018743; ENSRNOP00060014614; ENSRNOG00060011074.
+DR   Ensembl; ENSRNOT00065039647; ENSRNOP00065032238; ENSRNOG00065023212.
+DR   GeneID; 313917; -.
+DR   KEGG; rno:313917; -.
+DR   AGR; RGD:1310988; -.
+DR   CTD; 84696; -.
+DR   RGD; 1310988; Abhd1.
+DR   eggNOG; KOG1838; Eukaryota.
+DR   GeneTree; ENSGT00950000182902; -.
+DR   HOGENOM; CLU_032487_4_0_1; -.
+DR   InParanoid; Q5RK23; -.
+DR   OMA; MMTTSWG; -.
+DR   OrthoDB; 3665677at2759; -.
+DR   PhylomeDB; Q5RK23; -.
+DR   TreeFam; TF313195; -.
+DR   PRO; PR:Q5RK23; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000025689; Expressed in duodenum and 19 other cell types or tissues.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008126; F:acetylesterase activity; IBA:GO_Central.
+DR   GO; GO:0047372; F:acylglycerol lipase activity; IBA:GO_Central.
+DR   GO; GO:0051792; P:medium-chain fatty acid biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0051793; P:medium-chain fatty acid catabolic process; IBA:GO_Central.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR000073; AB_hydrolase_1.
+DR   InterPro; IPR050960; AB_hydrolase_4_sf.
+DR   InterPro; IPR012020; ABHD4.
+DR   PANTHER; PTHR10794; ABHYDROLASE DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR10794:SF60; PROTEIN ABHD1; 1.
+DR   Pfam; PF00561; Abhydrolase_1; 1.
+DR   PIRSF; PIRSF005211; Ab_hydro_YheT; 1.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+PE   2: Evidence at transcript level;
+KW   Glycoprotein; Hydrolase; Membrane; Reference proteome; Serine esterase;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..412
+FT                   /note="Protein ABHD1"
+FT                   /id="PRO_0000280206"
+FT   TRANSMEM        24..44
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          131..372
+FT                   /note="AB hydrolase-1"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        211
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        337
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        366
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        18
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   412 AA;  45557 MW;  BA73008A6198E82B CRC64;
+     MEYLHITKML SSSLSPQNGT WSDAISLLLA LGIALYLGYY WACVPQRPRL VAGPQFLAFL
+     EQHCPVTVET FYPTLWCFEG RLQTIFRVLL QSQPVIPYRS EVLQTPDGGQ FLLDWAEQPY
+     SSHCPDPTTQ PIVLLLPGIS GSSQEPYILH LVDQALKDGY RAVVFNNRGC RGEELLTHRA
+     YCASNTEDLE TVVKHIKHRY SRAPLLAVGI SFGGILVLNY LARTGKAGGL VAGLTMSACW
+     DSFETVDSLE TPLNSLLFNQ PLTAGLCRLV ARNRKSIEKV LDVDFAIKAR TIRQLDERYT
+     SVAFGYKDCA AYYHASSPRT KVDAICTPVL CLNAADDPFS PVQALPLQAA QKSPYVALLI
+     TARGGHIGFL EGLLPWQHCY MNRVLHQYAR AVFQHSVGLP GLGALTPEDG KS
+//

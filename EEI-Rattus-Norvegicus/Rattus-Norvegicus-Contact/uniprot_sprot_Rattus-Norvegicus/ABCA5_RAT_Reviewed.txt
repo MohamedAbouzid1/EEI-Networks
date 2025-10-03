@@ -1,0 +1,257 @@
+ID   ABCA5_RAT               Reviewed;        1642 AA.
+AC   Q8CF82; Q80Z07;
+DT   03-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   27-MAR-2024, entry version 125.
+DE   RecName: Full=Cholesterol transporter ABCA5 {ECO:0000305};
+DE            EC=7.6.2.- {ECO:0000250|UniProtKB:Q8K448};
+DE   AltName: Full=ATP-binding cassette sub-family A member 5 {ECO:0000305};
+GN   Name=Abca5 {ECO:0000312|RGD:628661};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar;
+RX   PubMed=12504089; DOI=10.1016/s0006-291x(02)02827-9;
+RA   Petry F., Kotthaus A., Hirsch-Ernst K.I.;
+RT   "Cloning of human and rat ABCA5/Abca5 and detection of a human splice
+RT   variant.";
+RL   Biochem. Biophys. Res. Commun. 300:343-350(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), TISSUE SPECIFICITY, AND SUBCELLULAR
+RP   LOCATION.
+RC   STRAIN=Wistar; TISSUE=Testis;
+RX   PubMed=16162093; DOI=10.1042/bj20050808;
+RA   Petry F., Ritz V., Meineke C., Middel P., Kietzmann T., Schmitz-Salue C.,
+RA   Hirsch-Ernst K.I.;
+RT   "Subcellular localization of rat Abca5, a rat ATP-binding-cassette
+RT   transporter expressed in Leydig cells, and characterization of its splice
+RT   variant apparently encoding a half-transporter.";
+RL   Biochem. J. 393:79-87(2006).
+CC   -!- FUNCTION: Cholesterol efflux transporter in macrophages that is
+CC       responsible for APOAI/high-density lipoproteins (HDL) formation at the
+CC       plasma membrane under high cholesterol levels and participates in
+CC       reverse cholesterol transport. May play a role in the processing of
+CC       autolysosomes. {ECO:0000250|UniProtKB:Q8K448}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + cholesterol(in) + H2O = ADP + cholesterol(out) + H(+) +
+CC         phosphate; Xref=Rhea:RHEA:39051, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16113, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000250|UniProtKB:Q8K448};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:39052;
+CC         Evidence={ECO:0000250|UniProtKB:Q8K448};
+CC   -!- SUBCELLULAR LOCATION: Lysosome membrane {ECO:0000269|PubMed:16162093};
+CC       Multi-pass membrane protein {ECO:0000269|PubMed:16162093}. Late
+CC       endosome membrane {ECO:0000250}; Multi-pass membrane protein
+CC       {ECO:0000250}. Golgi apparatus membrane {ECO:0000269|PubMed:16162093};
+CC       Multi-pass membrane protein {ECO:0000269|PubMed:16162093}. Cell
+CC       membrane {ECO:0000250|UniProtKB:Q8K448}. Note=Localized at cell
+CC       membrane under high cholesterol levels. {ECO:0000250|UniProtKB:Q8K448}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q8CF82-1; Sequence=Displayed;
+CC       Name=2; Synonyms=V20+16;
+CC         IsoId=Q8CF82-2; Sequence=VSP_020693, VSP_020694;
+CC   -!- TISSUE SPECIFICITY: Expressed in testis, epididymis, lung and brain.
+CC       {ECO:0000269|PubMed:12504089, ECO:0000269|PubMed:16162093}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. ABCA family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ426052; CAD19800.2; -; mRNA.
+DR   EMBL; AJ550165; CAD80052.1; -; mRNA.
+DR   RefSeq; NP_775429.1; NM_173307.1. [Q8CF82-1]
+DR   AlphaFoldDB; Q8CF82; -.
+DR   SMR; Q8CF82; -.
+DR   STRING; 10116.ENSRNOP00000066425; -.
+DR   CarbonylDB; Q8CF82; -.
+DR   GlyCosmos; Q8CF82; 5 sites, No reported glycans.
+DR   GlyGen; Q8CF82; 5 sites.
+DR   iPTMnet; Q8CF82; -.
+DR   PhosphoSitePlus; Q8CF82; -.
+DR   PaxDb; 10116-ENSRNOP00000005848; -.
+DR   Ensembl; ENSRNOT00000005848.7; ENSRNOP00000005848.4; ENSRNOG00000004378.8. [Q8CF82-1]
+DR   GeneID; 286970; -.
+DR   KEGG; rno:286970; -.
+DR   AGR; RGD:628661; -.
+DR   CTD; 23461; -.
+DR   RGD; 628661; Abca5.
+DR   eggNOG; KOG0059; Eukaryota.
+DR   GeneTree; ENSGT00940000158172; -.
+DR   HOGENOM; CLU_000604_19_1_1; -.
+DR   InParanoid; Q8CF82; -.
+DR   OMA; WMDLDDI; -.
+DR   OrthoDB; 6951at2759; -.
+DR   PhylomeDB; Q8CF82; -.
+DR   TreeFam; TF105192; -.
+DR   Reactome; R-RNO-1369062; ABC transporters in lipid homeostasis.
+DR   PRO; PR:Q8CF82; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000004378; Expressed in lung and 16 other cell types or tissues.
+DR   ExpressionAtlas; Q8CF82; baseline and differential.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005770; C:late endosome; ISO:RGD.
+DR   GO; GO:0031902; C:late endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005765; C:lysosomal membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005764; C:lysosome; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0140359; F:ABC-type transporter activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0042626; F:ATPase-coupled transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0005319; F:lipid transporter activity; IBA:GO_Central.
+DR   GO; GO:0033344; P:cholesterol efflux; ISO:RGD.
+DR   GO; GO:0042632; P:cholesterol homeostasis; ISS:UniProtKB.
+DR   GO; GO:0008203; P:cholesterol metabolic process; ISS:UniProtKB.
+DR   GO; GO:0034375; P:high-density lipoprotein particle remodeling; ISO:RGD.
+DR   GO; GO:0006869; P:lipid transport; IBA:GO_Central.
+DR   GO; GO:0010745; P:negative regulation of macrophage derived foam cell differentiation; ISO:RGD.
+DR   GO; GO:1903064; P:positive regulation of reverse cholesterol transport; ISS:UniProtKB.
+DR   GO; GO:0010874; P:regulation of cholesterol efflux; ISS:UniProtKB.
+DR   GO; GO:0015918; P:sterol transport; NAS:RGD.
+DR   CDD; cd03263; ABC_subfamily_A; 2.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR013525; ABC2_TM.
+DR   InterPro; IPR003439; ABC_transporter-like_ATP-bd.
+DR   InterPro; IPR017871; ABC_transporter-like_CS.
+DR   InterPro; IPR026082; ABCA.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR19229; ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY A ABCA; 1.
+DR   PANTHER; PTHR19229:SF100; CHOLESTEROL TRANSPORTER ABCA5; 1.
+DR   Pfam; PF12698; ABC2_membrane_3; 1.
+DR   Pfam; PF00005; ABC_tran; 2.
+DR   SMART; SM00382; AAA; 2.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 2.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; ATP-binding; Cell membrane; Endosome; Glycoprotein;
+KW   Golgi apparatus; Lipid transport; Lysosome; Membrane; Nucleotide-binding;
+KW   Reference proteome; Repeat; Translocase; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..1642
+FT                   /note="Cholesterol transporter ABCA5"
+FT                   /id="PRO_0000250671"
+FT   TRANSMEM        32..52
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        220..240
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        264..284
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        297..317
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        327..347
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        355..375
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        396..416
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        866..886
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        967..987
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1021..1041
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1071..1091
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1102..1122
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1139..1159
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1164..1184
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1207..1227
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          478..713
+FT                   /note="ABC transporter 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   DOMAIN          1290..1533
+FT                   /note="ABC transporter 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   BINDING         514..521
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   BINDING         1333..1340
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   CARBOHYD        86
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        190
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        458
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        919
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        996
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         922..925
+FT                   /note="DSDI -> GESV (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:16162093"
+FT                   /id="VSP_020693"
+FT   VAR_SEQ         926..1642
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:16162093"
+FT                   /id="VSP_020694"
+SQ   SEQUENCE   1642 AA;  185811 MW;  3592F1D90ABCB81F CRC64;
+     MATAIRDVGV WRQTRTLLLK NYLVKCRTKK SSVQEILFPL FFLFWLILIS MMHPNKKYEE
+     VSDIELSPMD KSILSNLILG YTPVTNTTSS VMQRVSTDHL PDVLVTEEYA SEKELLASSL
+     SKPSNFVGVV FKDVMSYELR FFPDMVPVSS VYMDSRAGCS KSCDAAQYWS SGFTALQASI
+     DAAIIQLKTN VSLWRELEST KAVIMGEAAV VEIDTFPRGV ILIYLVIAFS PFGYFLAIHI
+     VAEKEKRLKE FLKIMGLHDT AFWLSWVLLY TSLIFLMSLL MAVIATASSL FPQSSSIVIF
+     LLFFLYGLSS VFFALMLTPL FKKSKHVGVV EFFVTVVFGF VGLLIVLVES FPRSLVWLFS
+     PLCQCAFLIG IAQVMHLEDF NEGALFSSLT EGPYPLIITL TMLALDSVFY ALLAVYLDQV
+     IPGEFGLRRS SLYFLKPSYW SKNKRNYKEL SEGNINGNIS LNEIVEPVSS EFIGKEAIRI
+     SGIQKAYRKK NETVEALRNL SFDIYEGQIT ALLGHSGTGK STLMNILCGL CPPSDGFASI
+     YGHRVSEIDE MFEARKMIGI CPQSDMNFDV LTVEENLSIL ASVKGIPANN IIQEVQKVLL
+     DLDMQAIKDN QAKKLSGGQK RKLSLGIAVL GNPKILLLDE PTAGMDPCSR HIVWNLLKYR
+     KANRVTVFST HFMDEADILA DRKAVISQGM LKCVGSSIFL KSKWGIGYRL SMYIDRYCAT
+     ESLSSLVRQH IPAAALLQQN DQQIVYSLPF KDMDKFSGLF SALDIHSNLG VISYGVSMTT
+     LEDVFLKLEV EAEIDQADYS VFTQQPREEE TDSKSFDEME QSLLILSETK ASLVSTMSLW
+     KQQVSTIAKF HFLSLKRESK SVRSVLLLLL IFFAVQIFMF LVHHSFKNAV VPIKLVPDLY
+     FLKPGDKPHK YKTSLLLQNS TDSDINDLID FFTQQNIIVA MFNDSDYVSA APHSAALNVV
+     QSEKDYVFTA VFNSTMVYSL PVMMNIISNY YLYHLNVTDT IQIWSTPFIQ EITDIVFKVE
+     LYFQAALLGI IVTAMPPYFA MENAENHKIK AYTQLKLSGL LPSAYWIGQA VVDIPLFFVV
+     LTLMLGSLFA FHHGLYFYPV KFLAVVFCLI AYVPSVILFT YIASFTFKKI LNTKEFWSFI
+     YSVTALACVA VTEITFFLGY GVTAVFHYTF CIAIPIYPLL GCLISFIKGS WKNIPKTENA
+     YNPWDRLLVA VIMPYLQCVL WIFLLQHYEK KHGGRSIRKD PLFRALSQKA KHKKFPEPPI
+     NEDEDEDVKA ERLKVKELMG CQCCEEKPAI MVYNLHKEYD DKKDFLHSRK TTKVATKYVS
+     FCVKKGEILG LLGPNGAGKS TIINILVGDV EPTSGKIFLG DYGSHSNEDD ESTKCMGYCP
+     QTNPLWPDIT LQEHFEIYGA VKGMSSGDMK EVISRITKAL DLKEHLQKTV KKLPAGIKRK
+     LCFALSMLGN PQVTLLDEPS TGMDPRAKQH MWRAIRTAFK NKKRAALLTT HYMEEAEAVC
+     DRVAIMVSGQ LRCIGTVQHL KSKFGKGYFL EIKLKDWIEN LEIDRLQREI QYIFPNASRQ
+     ESFSSILAYK IPKEDVQSLS QSFAKLEEAK HTFAIEEYSF SQATLEQVFV ELTKEQEEED
+     NSCGTLNSTL WWERRQEDRV VF
+//

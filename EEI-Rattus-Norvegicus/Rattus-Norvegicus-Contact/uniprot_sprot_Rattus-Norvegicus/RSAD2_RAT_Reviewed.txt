@@ -1,0 +1,221 @@
+ID   RSAD2_RAT               Reviewed;         360 AA.
+AC   O70600;
+DT   13-NOV-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   24-JUL-2024, entry version 129.
+DE   RecName: Full=S-adenosylmethionine-dependent nucleotide dehydratase RSAD2 {ECO:0000303|PubMed:36387278};
+DE            Short=SAND {ECO:0000303|PubMed:36387278};
+DE            EC=4.2.-.- {ECO:0000250|UniProtKB:Q8WXG1};
+DE   AltName: Full=Bone-expressed sequence tag 5 protein;
+DE   AltName: Full=Radical S-adenosyl methionine domain-containing protein 2 {ECO:0000312|RGD:620495};
+DE   AltName: Full=Virus inhibitory protein, endoplasmic reticulum-associated, interferon-inducible;
+DE            Short=Viperin;
+GN   Name=Rsad2 {ECO:0000250|UniProtKB:Q8WXG1};
+GN   Synonyms=Best5 {ECO:0000312|RGD:620495};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:CAA68971.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, DEVELOPMENTAL STAGE, AND
+RP   INDUCTION.
+RC   STRAIN=Wistar {ECO:0000312|EMBL:CAA68971.1};
+RC   TISSUE=Bone {ECO:0000312|EMBL:CAA68971.1};
+RX   PubMed=10698968; DOI=10.1096/fasebj.14.3.523;
+RA   Grewal T.S., Genever P.G., Brabbs A.C., Birch M., Skerry T.M.;
+RT   "Best5: a novel interferon-inducible gene expressed during bone
+RT   formation.";
+RL   FASEB J. 14:523-531(2000).
+RN   [2]
+RP   NOMENCLATURE.
+RX   PubMed=36387278; DOI=10.3389/fmolb.2022.1032220;
+RA   Ji Y., Wei L., Da A., Stark H., Hagedoorn P.-L., Ciofi-Baffoni S.,
+RA   Cowley S.A., Louro R.O., Todorovic S., Mroginski M.A., Nicolet Y.,
+RA   Roessler M.M., Le Brun N.E., Piccioli M., James W.S., Hagen W.R.,
+RA   Ebrahimi K.H.;
+RT   "Radical-SAM dependent nucleotide dehydratase (SAND), rectification of the
+RT   names of an ancient iron-sulfur enzyme using NC-IUBMB recommendations.";
+RL   Front. Mol. Biosci. 9:0-0(2022).
+CC   -!- FUNCTION: Interferon-inducible antiviral protein which plays a major
+CC       role in the cell antiviral state induced by type I and type II
+CC       interferon. Catalyzes the conversion of cytidine triphosphate (CTP) to
+CC       3'-deoxy-3',4'-didehydro-CTP (ddhCTP) via a SAM-dependent radical
+CC       mechanism. In turn, ddhCTP acts as a chain terminator for the RNA-
+CC       dependent RNA polymerases from multiple viruses and directly inhibits
+CC       viral replication. Therefore, inhibits a wide range of DNA and RNA
+CC       viruses. Promotes also TLR7 and TLR9-dependent production of IFN-beta
+CC       production in plasmacytoid dendritic cells (pDCs) by facilitating 'Lys-
+CC       63'-linked ubiquitination of IRAK1 by TRAF6. Plays a role in CD4+ T-
+CC       cells activation and differentiation. Facilitates T-cell receptor
+CC       (TCR)-mediated GATA3 activation and optimal T-helper 2 (Th2) cytokine
+CC       production by modulating NFKB1 and JUNB activities. Can inhibit
+CC       secretion of soluble proteins. {ECO:0000250|UniProtKB:Q8WXG1}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AH2 + CTP + S-adenosyl-L-methionine = 3'-deoxy-3',4'-
+CC         didehydro-CTP + 5'-deoxyadenosine + A + H(+) + H2O + L-methionine;
+CC         Xref=Rhea:RHEA:65944, ChEBI:CHEBI:13193, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17319, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:37563, ChEBI:CHEBI:57844, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:166821; Evidence={ECO:0000250|UniProtKB:Q8WXG1};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000250|UniProtKB:Q8WXG1};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000250|UniProtKB:Q8WXG1};
+CC   -!- ACTIVITY REGULATION: IRAK1 and TRAF6 synergistically activate RSAD2
+CC       increasing its activity with CTP as substrate about 10-fold.
+CC       {ECO:0000250|UniProtKB:Q8WXG1}.
+CC   -!- SUBUNIT: Homodimer. Interacts with IRAK1 and TRAF6. Interacts with
+CC       FPPS. Interacts with HADHB. Interacts (via C-terminus) with VAPA/VAP33
+CC       (via C-terminus). {ECO:0000250, ECO:0000250|UniProtKB:Q8WXG1}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q8WXG1}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:Q8WXG1}; Cytoplasmic side
+CC       {ECO:0000250|UniProtKB:Q8WXG1}. Golgi apparatus
+CC       {ECO:0000250|UniProtKB:Q8WXG1}. Endoplasmic reticulum
+CC       {ECO:0000250|UniProtKB:Q8WXG1}. Lipid droplet
+CC       {ECO:0000250|UniProtKB:Q8WXG1}. Mitochondrion
+CC       {ECO:0000250|UniProtKB:Q8WXG1}. Mitochondrion inner membrane
+CC       {ECO:0000250|UniProtKB:Q8WXG1}. Mitochondrion outer membrane
+CC       {ECO:0000250|UniProtKB:Q8WXG1}.
+CC   -!- TISSUE SPECIFICITY: In neonatal rat tibia, specifically localized in
+CC       cells of the periosteum, in osteoblasts lining endosteal and peristeal
+CC       bone surfaces, to articular surfaces of cartilage and in perichondral
+CC       cells but not in chondrocytes (at protein level). Expressed
+CC       predominantly in bone marrow and spleen. {ECO:0000269|PubMed:10698968}.
+CC   -!- DEVELOPMENTAL STAGE: Not detected in undifferentiated primary
+CC       osteoblasts. Expression increases during differentiation and declines
+CC       to much reduced levels in mature osteoblasts.
+CC       {ECO:0000269|PubMed:10698968}.
+CC   -!- INDUCTION: By interferon type I, type II and LPS. Interferon alpha
+CC       induction is rapid and transient, peaks 4-6 hours after stimulation and
+CC       returns to basal levels 24 hours after stimulation. Interferon gamma
+CC       elicits a more prolonged response where expression remains elevated 48
+CC       hours after stimulation. Induced by infection with Vesicular stomatitis
+CC       virus and pseudorabies virus, presumably through type I interferon
+CC       pathway. {ECO:0000269|PubMed:10698968}.
+CC   -!- DOMAIN: The N-terminal region (1-41) is necessary for its localization
+CC       to the endoplasmic reticulum membrane and lipid droplet. {ECO:0000250}.
+CC   -!- PTM: Acetylated by HAT1. HAT1-mediated acetylation of Lys-196 in turn
+CC       recruits UBE4A that stimulates RSAD2 polyubiquitination leading to
+CC       proteasomal degradation. {ECO:0000250|UniProtKB:Q8WXG1}.
+CC   -!- PTM: 'Lys-6'-linked polyubiquitination at Lys-205 leads to RSAD2
+CC       protein degradation. {ECO:0000250|UniProtKB:Q8WXG1}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. RSAD2 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y07704; CAA68971.1; -; mRNA.
+DR   RefSeq; NP_620236.1; NM_138881.1.
+DR   AlphaFoldDB; O70600; -.
+DR   SMR; O70600; -.
+DR   STRING; 10116.ENSRNOP00000010092; -.
+DR   PhosphoSitePlus; O70600; -.
+DR   PaxDb; 10116-ENSRNOP00000010092; -.
+DR   GeneID; 65190; -.
+DR   KEGG; rno:65190; -.
+DR   AGR; RGD:620495; -.
+DR   CTD; 91543; -.
+DR   RGD; 620495; Rsad2.
+DR   eggNOG; ENOG502QQMH; Eukaryota.
+DR   HOGENOM; CLU_049058_2_1_1; -.
+DR   InParanoid; O70600; -.
+DR   OrthoDB; 3671494at2759; -.
+DR   PhylomeDB; O70600; -.
+DR   PRO; PR:O70600; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISS:UniProtKB.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005811; C:lipid droplet; ISS:UniProtKB.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISO:RGD.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; ISS:UniProtKB.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0035710; P:CD4-positive, alpha-beta T cell activation; ISS:UniProtKB.
+DR   GO; GO:0043367; P:CD4-positive, alpha-beta T cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0051607; P:defense response to virus; ISS:UniProtKB.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0050709; P:negative regulation of protein secretion; ISS:UniProtKB.
+DR   GO; GO:0045071; P:negative regulation of viral genome replication; ISO:RGD.
+DR   GO; GO:0001503; P:ossification; IDA:RGD.
+DR   GO; GO:0050778; P:positive regulation of immune response; IBA:GO_Central.
+DR   GO; GO:2000553; P:positive regulation of T-helper 2 cell cytokine production; ISS:UniProtKB.
+DR   GO; GO:0034157; P:positive regulation of toll-like receptor 7 signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0034165; P:positive regulation of toll-like receptor 9 signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0030278; P:regulation of ossification; IDA:RGD.
+DR   GO; GO:0009615; P:response to virus; ISS:UniProtKB.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006638; Elp3/MiaA/NifB-like_rSAM.
+DR   InterPro; IPR026372; RSAD2.
+DR   InterPro; IPR051196; RSAD2/Viperin_antiviral.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR04278; viperin; 1.
+DR   NCBIfam; NF038283; viperin_w_prok; 1.
+DR   PANTHER; PTHR21339; RADICAL S-ADENOSYL METHIONINE DOMAIN-CONTAINING PROTEIN 2; 1.
+DR   PANTHER; PTHR21339:SF0; RADICAL S-ADENOSYL METHIONINE DOMAIN-CONTAINING PROTEIN 2; 1.
+DR   Pfam; PF13353; Fer4_12; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   SFLD; SFLDG01088; antiviral_proteins; 1.
+DR   SFLD; SFLDG01067; SPASM/twitch_domain_containing; 1.
+DR   SFLD; SFLDF00318; Viperin; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Acetylation; Antiviral defense; Endoplasmic reticulum;
+KW   Golgi apparatus; Immunity; Innate immunity; Iron; Iron-sulfur;
+KW   Isopeptide bond; Lipid droplet; Lyase; Membrane; Metal-binding;
+KW   Mitochondrion; Mitochondrion inner membrane; Mitochondrion outer membrane;
+KW   Reference proteome; S-adenosyl-L-methionine; Ubl conjugation.
+FT   CHAIN           1..360
+FT                   /note="S-adenosylmethionine-dependent nucleotide
+FT                   dehydratase RSAD2"
+FT                   /id="PRO_0000309586"
+FT   DOMAIN          68..288
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01266"
+FT   REGION          44..71
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        47..61
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         82
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8CBB9"
+FT   BINDING         86
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8CBB9"
+FT   BINDING         89
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8CBB9"
+FT   MOD_RES         196
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WXG1"
+FT   CROSSLNK        205
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WXG1"
+SQ   SEQUENCE   360 AA;  41255 MW;  4947AF2A286CB500 CRC64;
+     MLVPTALAAR LLSLFQQQLG SLWSGLAMLF CWLRIALGWP DPGKGQPRVR GEPKETQETH
+     EDPGSAQPTT PVSVNYHFTR QCNYKCGFCF HTAKTSFVLP LEEAKRGLLL LKQAGMEKIN
+     FSGGEPFLQD RGEYLGKLVR FCKEELALPS VSIVSNGSLI RERWFKDYGD YLDILAISCD
+     SFDEQVNVLI GRGQGKKNHV ENLQKLRKWC RDYKVAFKIN SVINRFNVDE DMNEHIKALS
+     PVRWKVFQCL LIEGENSGED ALREAERFLI SNEEFEAFLQ RHKDVSCLVP ESNQKMKDSY
+     LILDEYMRFL NCTGGRKDPS RSILDVGVEE AIKFSGFDEK MFLKRGGKYV WSKADLKLDW
+//

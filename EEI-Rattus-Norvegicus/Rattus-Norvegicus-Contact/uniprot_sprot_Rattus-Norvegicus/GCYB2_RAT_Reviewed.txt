@@ -1,0 +1,134 @@
+ID   GCYB2_RAT               Reviewed;         682 AA.
+AC   P22717;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 1.
+DT   02-OCT-2024, entry version 151.
+DE   RecName: Full=Guanylate cyclase soluble subunit beta-2;
+DE            Short=GCS-beta-2;
+DE            EC=4.6.1.2;
+GN   Name=Gucy1b2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=1980215; DOI=10.1021/bi00501a002;
+RA   Yuen P.S.T., Potter L.R., Garbers D.L.;
+RT   "A new form of guanylyl cyclase is preferentially expressed in rat
+RT   kidney.";
+RL   Biochemistry 29:10872-10878(1990).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP = 3',5'-cyclic GMP + diphosphate; Xref=Rhea:RHEA:13665,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:37565, ChEBI:CHEBI:57746; EC=4.6.1.2;
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000250};
+CC       Note=Binds 1 or 2 heme groups per heterodimer. {ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Activated by nitric oxide in the presence of
+CC       magnesium or manganese ions.
+CC   -!- SUBUNIT: Heterodimer of an alpha and a beta chain.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- TISSUE SPECIFICITY: Kidney and liver.
+CC   -!- MISCELLANEOUS: There are two types of guanylate cyclases: soluble forms
+CC       and membrane-associated receptor forms.
+CC   -!- SIMILARITY: Belongs to the adenylyl cyclase class-4/guanylyl cyclase
+CC       family. {ECO:0000255|PROSITE-ProRule:PRU00099}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M57507; AAA41207.1; -; mRNA.
+DR   PIR; A36228; OYRTB2.
+DR   RefSeq; NP_001257640.1; NM_001270711.1.
+DR   RefSeq; NP_036902.2; NM_012770.2.
+DR   AlphaFoldDB; P22717; -.
+DR   SMR; P22717; -.
+DR   STRING; 10116.ENSRNOP00000012948; -.
+DR   PhosphoSitePlus; P22717; -.
+DR   PaxDb; 10116-ENSRNOP00000012948; -.
+DR   GeneID; 25206; -.
+DR   KEGG; rno:25206; -.
+DR   UCSC; RGD:2770; rat.
+DR   AGR; RGD:2770; -.
+DR   CTD; 2974; -.
+DR   RGD; 2770; Gucy1b2.
+DR   eggNOG; KOG4171; Eukaryota.
+DR   InParanoid; P22717; -.
+DR   OrthoDB; 2898719at2759; -.
+DR   PhylomeDB; P22717; -.
+DR   Reactome; R-RNO-445355; Smooth Muscle Contraction.
+DR   PRO; PR:P22717; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0008074; C:guanylate cyclase complex, soluble; IBA:GO_Central.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004383; F:guanylate cyclase activity; IBA:GO_Central.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0070026; F:nitric oxide binding; IDA:RGD.
+DR   GO; GO:0019934; P:cGMP-mediated signaling; IBA:GO_Central.
+DR   GO; GO:0070482; P:response to oxygen levels; IBA:GO_Central.
+DR   CDD; cd07302; CHD; 1.
+DR   Gene3D; 6.10.250.780; -; 1.
+DR   Gene3D; 3.90.1520.10; H-NOX domain; 1.
+DR   Gene3D; 3.30.450.260; Haem NO binding associated domain; 1.
+DR   Gene3D; 3.30.70.1230; Nucleotide cyclase; 1.
+DR   InterPro; IPR001054; A/G_cyclase.
+DR   InterPro; IPR018297; A/G_cyclase_CS.
+DR   InterPro; IPR038158; H-NOX_domain_sf.
+DR   InterPro; IPR011644; Heme_NO-bd.
+DR   InterPro; IPR011645; HNOB_dom_associated.
+DR   InterPro; IPR042463; HNOB_dom_associated_sf.
+DR   InterPro; IPR024096; NO_sig/Golgi_transp_ligand-bd.
+DR   InterPro; IPR029787; Nucleotide_cyclase.
+DR   PANTHER; PTHR45655; GUANYLATE CYCLASE SOLUBLE SUBUNIT BETA-2; 1.
+DR   PANTHER; PTHR45655:SF17; GUANYLATE CYCLASE SOLUBLE SUBUNIT BETA-2; 1.
+DR   Pfam; PF00211; Guanylate_cyc; 1.
+DR   Pfam; PF07700; HNOB; 1.
+DR   Pfam; PF07701; HNOBA; 1.
+DR   SMART; SM00044; CYCc; 1.
+DR   SUPFAM; SSF111126; Ligand-binding domain in the NO signalling and Golgi transport; 1.
+DR   SUPFAM; SSF55073; Nucleotide cyclase; 1.
+DR   PROSITE; PS00452; GUANYLATE_CYCLASE_1; 1.
+DR   PROSITE; PS50125; GUANYLATE_CYCLASE_2; 1.
+PE   2: Evidence at transcript level;
+KW   cGMP biosynthesis; Cytoplasm; GTP-binding; Heme; Iron; Lyase;
+KW   Metal-binding; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..682
+FT                   /note="Guanylate cyclase soluble subunit beta-2"
+FT                   /id="PRO_0000074120"
+FT   DOMAIN          408..536
+FT                   /note="Guanylate cyclase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00099"
+FT   REGION          592..667
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        613..631
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        643..667
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         43
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="proximal binding residue"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   682 AA;  76197 MW;  98C173C1A1CC7715 CRC64;
+     MEAILKLFGE YFFKFCKMSG YDRMLRTLGG NLTEFIENLD ALHSYLALSY QEMNAPSFRV
+     EEGADGAMLL HYYSDRHGLC HIVPGIIEAV AKDFFDTDVA MSILDMNEEV ERTGKKEHVV
+     FLVVQKAHRQ IRGAKASRPQ GSEDSQADQE ALQGTLLRMK ERYLNIPVCP GEKSHSTAVR
+     ASVLFGKGPL RDTFQPVYPE RLWVEEEVFC DAFPFHIVFD EALRVKQAGV NIQKYVPGIL
+     TQKFALDEYF SIIHPQVTFN ISSICKFINS QFVLKTRKEM MPKARKSQPM LKLRGQMIWM
+     ESLRCMIFMC SPNVRSLQEL EESKMHLSDI APHDTTRDLI LLNQQRLAEM ELSCQLEKKK
+     EELRVLSNHL AIEKKKTETL LYAMLPEHVA NQLKEGRKVA AGEFETCTIL FSDVVTFTNI
+     CAACEPIQIV NMLNSMYSKF DRLTSVHDVY KVETIGDAYM VVGGVPVPVE SHAQRVANFA
+     LGMRISAKEV MNPVTGEPIQ IRVGIHTGPV LAGVVGDKMP RYCLFGDTVN TASRMESHGL
+     PSKVHLSPTA HRALKNKGFE IVRRGEIEVK GKGKMTTYFL IQNLNATEDE IMGRPSAPAD
+     GKEVCTPGNQ VRKSPAVPRN TDHQQQVYKG DPADASNEVT LAGSPVAGRN STDAVNNQPS
+     PDETKTSVVA SGPVLSAFCV VL
+//

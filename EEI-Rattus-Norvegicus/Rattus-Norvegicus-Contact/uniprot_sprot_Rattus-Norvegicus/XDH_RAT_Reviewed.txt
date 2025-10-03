@@ -1,0 +1,701 @@
+ID   XDH_RAT                 Reviewed;        1331 AA.
+AC   P22985; Q63157;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   27-MAR-2024, entry version 189.
+DE   RecName: Full=Xanthine dehydrogenase/oxidase;
+DE   Includes:
+DE     RecName: Full=Xanthine dehydrogenase;
+DE              Short=XD;
+DE              EC=1.17.1.4 {ECO:0000269|PubMed:15878860, ECO:0000269|PubMed:17301076};
+DE   Includes:
+DE     RecName: Full=Xanthine oxidase;
+DE              Short=XO;
+DE              EC=1.17.3.2 {ECO:0000269|PubMed:15878860, ECO:0000269|PubMed:17301076};
+DE     AltName: Full=Xanthine oxidoreductase;
+DE              Short=XOR;
+GN   Name=Xdh;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, ACTIVITY REGULATION,
+RP   PROTEOLYTIC CONVERSION, AND SUBUNIT.
+RC   TISSUE=Liver;
+RX   PubMed=2387845; DOI=10.1016/s0021-9258(18)77283-9;
+RA   Amaya Y., Yamazaki K., Sato M., Noda K., Nishino T., Nishino T.;
+RT   "Proteolytic conversion of xanthine dehydrogenase from the NAD-dependent
+RT   type to the O2-dependent type. Amino acid sequence of rat liver xanthine
+RT   dehydrogenase and identification of the cleavage sites of the enzyme
+RT   protein during irreversible conversion by trypsin.";
+RL   J. Biol. Chem. 265:14170-14175(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE OF 1-55.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=8208609; DOI=10.1093/nar/22.10.1846;
+RA   Chow C.W., Clark M., Rinaldo J., Chalkley R.;
+RT   "Identification of the rat xanthine dehydrogenase/oxidase promoter.";
+RL   Nucleic Acids Res. 22:1846-1854(1994).
+RN   [3]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=11993848; DOI=10.1078/0065-1281-00629;
+RA   Frederiks W.M., Vreeling-Sindelarova H.;
+RT   "Ultrastructural localization of xanthine oxidoreductase activity in
+RT   isolated rat liver cells.";
+RL   Acta Histochem. 104:29-37(2002).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS) OF MUTANT ALA-535/ARG-992/SER-1324 IN
+RP   COMPLEX WITH FAD; URIC ACID AND IRON-SULFUR CENTERS, CATALYTIC ACTIVITY,
+RP   DISULFIDE BOND, ACTIVITY REGULATION, MUTAGENESIS OF CYS-535; CYS-992 AND
+RP   CYS-1316, AND COFACTOR.
+RX   PubMed=15878860; DOI=10.1074/jbc.m501830200;
+RA   Nishino T., Okamoto K., Kawaguchi Y., Hori H., Matsumura T., Eger B.T.,
+RA   Pai E.F., Nishino T.;
+RT   "Mechanism of the conversion of xanthine dehydrogenase to xanthine oxidase:
+RT   identification of the two cysteine disulfide bonds and crystal structure of
+RT   a non-convertible rat liver xanthine dehydrogenase mutant.";
+RL   J. Biol. Chem. 280:24888-24894(2005).
+RN   [5] {ECO:0007744|PDB:2E3T}
+RP   X-RAY CRYSTALLOGRAPHY (2.28 ANGSTROMS) OF MUTANT ALA-335/LEU-336 IN COMPLEX
+RP   WITH FAD AND IRON-SULFUR (2FE-2S), MUTAGENESIS OF 335-TRP-PHE-336,
+RP   CATALYTIC ACTIVITY, FUNCTION, AND COFACTOR.
+RX   PubMed=17301076; DOI=10.1093/jb/mvm054;
+RA   Asai R., Nishino T., Matsumura T., Okamoto K., Igarashi K., Pai E.F.,
+RA   Nishino T.;
+RT   "Two mutations convert mammalian xanthine oxidoreductase to highly
+RT   superoxide-productive xanthine oxidase.";
+RL   J. Biochem. 141:525-534(2007).
+CC   -!- FUNCTION: Key enzyme in purine degradation. Catalyzes the oxidation of
+CC       hypoxanthine to xanthine. Catalyzes the oxidation of xanthine to uric
+CC       acid. Contributes to the generation of reactive oxygen species.
+CC       {ECO:0000269|PubMed:17301076}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + NAD(+) + xanthine = H(+) + NADH + urate;
+CC         Xref=Rhea:RHEA:16669, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17712, ChEBI:CHEBI:17775, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.17.1.4;
+CC         Evidence={ECO:0000269|PubMed:15878860, ECO:0000269|PubMed:17301076};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + hypoxanthine + NAD(+) = H(+) + NADH + xanthine;
+CC         Xref=Rhea:RHEA:24670, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17368, ChEBI:CHEBI:17712, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.17.1.4;
+CC         Evidence={ECO:0000269|PubMed:15878860, ECO:0000269|PubMed:17301076};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O2 + xanthine = H2O2 + urate; Xref=Rhea:RHEA:21132,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15379, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:17712, ChEBI:CHEBI:17775; EC=1.17.3.2;
+CC         Evidence={ECO:0000269|PubMed:15878860, ECO:0000269|PubMed:17301076};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000269|PubMed:17301076};
+CC       Note=Binds 2 [2Fe-2S] clusters per subunit.
+CC       {ECO:0000269|PubMed:17301076};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000269|PubMed:17301076};
+CC   -!- COFACTOR:
+CC       Name=Mo-molybdopterin; Xref=ChEBI:CHEBI:71302; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mo-molybdopterin (Mo-MPT) cofactor per subunit.
+CC       {ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Can be converted from the dehydrogenase form (D)
+CC       to the oxidase form (O) irreversibly by proteolysis or reversibly
+CC       through the oxidation of sulfhydryl groups.
+CC       {ECO:0000269|PubMed:15878860, ECO:0000269|PubMed:2387845}.
+CC   -!- SUBUNIT: Homodimer. Interacts with BTN1A1 (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Peroxisome {ECO:0000269|PubMed:11993848}.
+CC       Cytoplasm {ECO:0000269|PubMed:11993848}. Secreted {ECO:0000250}.
+CC   -!- INDUCTION: By interferon.
+CC   -!- PTM: Subject to partial proteolysis; this alters the enzyme from the
+CC       dehydrogenase form (D) to the oxidase form (O).
+CC   -!- PTM: Contains sulfhydryl groups that are easily oxidized (in vitro);
+CC       this alters the enzyme from the dehydrogenase form (D) to the oxidase
+CC       form (O).
+CC   -!- SIMILARITY: Belongs to the xanthine dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J05579; AAA42349.1; -; mRNA.
+DR   EMBL; AH000836; AAA18869.1; -; Unassigned_DNA.
+DR   RefSeq; NP_058850.1; NM_017154.1.
+DR   PDB; 1WYG; X-ray; 2.60 A; A=1-1331.
+DR   PDB; 2E3T; X-ray; 2.28 A; A/B=1-1331.
+DR   PDB; 3AN1; X-ray; 1.73 A; A/B=1-1331.
+DR   PDB; 4YRW; X-ray; 1.99 A; A/B=1-1315.
+DR   PDB; 4YSW; X-ray; 1.99 A; A/B=1-1315.
+DR   PDB; 4YTY; X-ray; 2.20 A; A/B=1-1331.
+DR   PDB; 4YTZ; X-ray; 2.30 A; A/B=1-1315.
+DR   PDB; 6A7X; X-ray; 2.15 A; A/B=1-1331.
+DR   PDB; 6ABU; X-ray; 1.77 A; A/B=1-1331.
+DR   PDB; 6AC1; X-ray; 1.77 A; A/B=1-1331.
+DR   PDB; 6AC4; X-ray; 2.19 A; A/B=1-1331.
+DR   PDB; 6AD4; X-ray; 1.80 A; A/B=1-1331.
+DR   PDB; 6ADJ; X-ray; 2.18 A; A/B=1-1331.
+DR   PDB; 6AJU; X-ray; 1.94 A; A/F=1-1331.
+DR   PDBsum; 1WYG; -.
+DR   PDBsum; 2E3T; -.
+DR   PDBsum; 3AN1; -.
+DR   PDBsum; 4YRW; -.
+DR   PDBsum; 4YSW; -.
+DR   PDBsum; 4YTY; -.
+DR   PDBsum; 4YTZ; -.
+DR   PDBsum; 6A7X; -.
+DR   PDBsum; 6ABU; -.
+DR   PDBsum; 6AC1; -.
+DR   PDBsum; 6AC4; -.
+DR   PDBsum; 6AD4; -.
+DR   PDBsum; 6ADJ; -.
+DR   PDBsum; 6AJU; -.
+DR   AlphaFoldDB; P22985; -.
+DR   SMR; P22985; -.
+DR   STRING; 10116.ENSRNOP00000009634; -.
+DR   BindingDB; P22985; -.
+DR   ChEMBL; CHEMBL1075246; -.
+DR   DrugCentral; P22985; -.
+DR   iPTMnet; P22985; -.
+DR   PhosphoSitePlus; P22985; -.
+DR   PaxDb; 10116-ENSRNOP00000009634; -.
+DR   GeneID; 497811; -.
+DR   KEGG; rno:497811; -.
+DR   UCSC; RGD:62043; rat.
+DR   AGR; RGD:62043; -.
+DR   CTD; 7498; -.
+DR   RGD; 62043; Xdh.
+DR   eggNOG; KOG0430; Eukaryota.
+DR   InParanoid; P22985; -.
+DR   OrthoDB; 5485853at2759; -.
+DR   PhylomeDB; P22985; -.
+DR   BioCyc; MetaCyc:MONOMER-15163; -.
+DR   BRENDA; 1.17.1.4; 5301.
+DR   BRENDA; 1.17.3.2; 5301.
+DR   Reactome; R-RNO-74259; Purine catabolism.
+DR   Reactome; R-RNO-8851680; Butyrophilin (BTN) family interactions.
+DR   Reactome; R-RNO-9748787; Azathioprine ADME.
+DR   SABIO-RK; P22985; -.
+DR   EvolutionaryTrace; P22985; -.
+DR   PRO; PR:P22985; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; IDA:MGI.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005777; C:peroxisome; IDA:MGI.
+DR   GO; GO:0016529; C:sarcoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IDA:UniProtKB.
+DR   GO; GO:0071949; F:FAD binding; IEA:InterPro.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IDA:UniProtKB.
+DR   GO; GO:0070674; F:hypoxanthine dehydrogenase activity; ISO:RGD.
+DR   GO; GO:0070675; F:hypoxanthine oxidase activity; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0043546; F:molybdopterin cofactor binding; IDA:UniProtKB.
+DR   GO; GO:0050421; F:nitrite reductase (NO-forming) activity; IDA:RGD.
+DR   GO; GO:0016491; F:oxidoreductase activity; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0004854; F:xanthine dehydrogenase activity; IDA:UniProtKB.
+DR   GO; GO:0004855; F:xanthine oxidase activity; IDA:UniProtKB.
+DR   GO; GO:0006154; P:adenosine catabolic process; IDA:MGI.
+DR   GO; GO:0000255; P:allantoin metabolic process; IDA:MGI.
+DR   GO; GO:0043605; P:amide catabolic process; ISO:RGD.
+DR   GO; GO:0006196; P:AMP catabolic process; ISO:RGD.
+DR   GO; GO:0071347; P:cellular response to interleukin-1; IEP:RGD.
+DR   GO; GO:0071356; P:cellular response to tumor necrosis factor; IEP:RGD.
+DR   GO; GO:0046059; P:dAMP catabolic process; ISO:RGD.
+DR   GO; GO:0006157; P:deoxyadenosine catabolic process; ISO:RGD.
+DR   GO; GO:0006161; P:deoxyguanosine catabolic process; ISO:RGD.
+DR   GO; GO:0006149; P:deoxyinosine catabolic process; ISO:RGD.
+DR   GO; GO:0046055; P:dGMP catabolic process; ISO:RGD.
+DR   GO; GO:0046038; P:GMP catabolic process; ISO:RGD.
+DR   GO; GO:0006147; P:guanine catabolic process; IDA:MGI.
+DR   GO; GO:0009114; P:hypoxanthine catabolic process; IDA:MGI.
+DR   GO; GO:0006204; P:IMP catabolic process; ISO:RGD.
+DR   GO; GO:0006148; P:inosine catabolic process; IDA:MGI.
+DR   GO; GO:0016226; P:iron-sulfur cluster assembly; ISO:RGD.
+DR   GO; GO:0007595; P:lactation; ISO:RGD.
+DR   GO; GO:0045602; P:negative regulation of endothelial cell differentiation; ISO:RGD.
+DR   GO; GO:0001937; P:negative regulation of endothelial cell proliferation; ISO:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:0051898; P:negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISO:RGD.
+DR   GO; GO:0001933; P:negative regulation of protein phosphorylation; ISO:RGD.
+DR   GO; GO:1900747; P:negative regulation of vascular endothelial growth factor signaling pathway; ISO:RGD.
+DR   GO; GO:2001213; P:negative regulation of vasculogenesis; ISO:RGD.
+DR   GO; GO:1900745; P:positive regulation of p38MAPK cascade; ISO:RGD.
+DR   GO; GO:2000379; P:positive regulation of reactive oxygen species metabolic process; ISO:RGD.
+DR   GO; GO:0030856; P:regulation of epithelial cell differentiation; ISO:RGD.
+DR   GO; GO:0010044; P:response to aluminum ion; IDA:RGD.
+DR   GO; GO:0097184; P:response to azide; IEP:RGD.
+DR   GO; GO:0034465; P:response to carbon monoxide; IEP:RGD.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; IEP:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0009115; P:xanthine catabolic process; IDA:UniProtKB.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 3.30.465.10; -; 1.
+DR   Gene3D; 1.10.150.120; [2Fe-2S]-binding domain; 1.
+DR   Gene3D; 3.90.1170.50; Aldehyde oxidase/xanthine dehydrogenase, a/b hammerhead; 1.
+DR   Gene3D; 3.30.365.10; Aldehyde oxidase/xanthine dehydrogenase, molybdopterin binding domain; 5.
+DR   Gene3D; 3.30.390.50; CO dehydrogenase flavoprotein, C-terminal domain; 1.
+DR   Gene3D; 3.30.43.10; Uridine Diphospho-n-acetylenolpyruvylglucosamine Reductase, domain 2; 1.
+DR   InterPro; IPR002888; 2Fe-2S-bd.
+DR   InterPro; IPR036884; 2Fe-2S-bd_dom_sf.
+DR   InterPro; IPR036010; 2Fe-2S_ferredoxin-like_sf.
+DR   InterPro; IPR001041; 2Fe-2S_ferredoxin-type.
+DR   InterPro; IPR006058; 2Fe2S_fd_BS.
+DR   InterPro; IPR000674; Ald_Oxase/Xan_DH_a/b.
+DR   InterPro; IPR036856; Ald_Oxase/Xan_DH_a/b_sf.
+DR   InterPro; IPR016208; Ald_Oxase/xanthine_DH-like.
+DR   InterPro; IPR008274; AldOxase/xan_DH_MoCoBD1.
+DR   InterPro; IPR046867; AldOxase/xan_DH_MoCoBD2.
+DR   InterPro; IPR037165; AldOxase/xan_DH_Mopterin-bd_sf.
+DR   InterPro; IPR012675; Beta-grasp_dom_sf.
+DR   InterPro; IPR005107; CO_DH_flav_C.
+DR   InterPro; IPR036683; CO_DH_flav_C_dom_sf.
+DR   InterPro; IPR016166; FAD-bd_PCMH.
+DR   InterPro; IPR036318; FAD-bd_PCMH-like_sf.
+DR   InterPro; IPR016167; FAD-bd_PCMH_sub1.
+DR   InterPro; IPR016169; FAD-bd_PCMH_sub2.
+DR   InterPro; IPR002346; Mopterin_DH_FAD-bd.
+DR   InterPro; IPR022407; OxRdtase_Mopterin_BS.
+DR   InterPro; IPR014307; Xanthine_DH_ssu.
+DR   NCBIfam; TIGR02963; xanthine_xdhA; 1.
+DR   PANTHER; PTHR11908; XANTHINE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR11908:SF80; XANTHINE DEHYDROGENASE_OXIDASE; 1.
+DR   Pfam; PF01315; Ald_Xan_dh_C; 1.
+DR   Pfam; PF03450; CO_deh_flav_C; 1.
+DR   Pfam; PF00941; FAD_binding_5; 1.
+DR   Pfam; PF00111; Fer2; 1.
+DR   Pfam; PF01799; Fer2_2; 1.
+DR   Pfam; PF02738; MoCoBD_1; 1.
+DR   Pfam; PF20256; MoCoBD_2; 1.
+DR   PIRSF; PIRSF000127; Xanthine_DH; 1.
+DR   SMART; SM01008; Ald_Xan_dh_C; 1.
+DR   SMART; SM01092; CO_deh_flav_C; 1.
+DR   SUPFAM; SSF54292; 2Fe-2S ferredoxin-like; 1.
+DR   SUPFAM; SSF55447; CO dehydrogenase flavoprotein C-terminal domain-like; 1.
+DR   SUPFAM; SSF47741; CO dehydrogenase ISP C-domain like; 1.
+DR   SUPFAM; SSF54665; CO dehydrogenase molybdoprotein N-domain-like; 1.
+DR   SUPFAM; SSF56176; FAD-binding/transporter-associated domain-like; 1.
+DR   SUPFAM; SSF56003; Molybdenum cofactor-binding domain; 1.
+DR   PROSITE; PS00197; 2FE2S_FER_1; 1.
+DR   PROSITE; PS51085; 2FE2S_FER_2; 1.
+DR   PROSITE; PS51387; FAD_PCMH; 1.
+DR   PROSITE; PS00559; MOLYBDOPTERIN_EUK; 1.
+PE   1: Evidence at protein level;
+KW   2Fe-2S; 3D-structure; Cytoplasm; Direct protein sequencing; Disulfide bond;
+KW   FAD; Flavoprotein; Iron; Iron-sulfur; Metal-binding; Molybdenum; NAD;
+KW   Oxidoreductase; Peroxisome; Reference proteome; Secreted.
+FT   CHAIN           1..1331
+FT                   /note="Xanthine dehydrogenase/oxidase"
+FT                   /id="PRO_0000166086"
+FT   DOMAIN          4..91
+FT                   /note="2Fe-2S ferredoxin-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00465"
+FT   DOMAIN          228..413
+FT                   /note="FAD-binding PCMH-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00718"
+FT   ACT_SITE        1261
+FT                   /note="Proton acceptor"
+FT   BINDING         43
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:17301076,
+FT                   ECO:0007744|PDB:2E3T"
+FT   BINDING         48
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:17301076,
+FT                   ECO:0007744|PDB:2E3T"
+FT   BINDING         51
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:17301076,
+FT                   ECO:0007744|PDB:2E3T"
+FT   BINDING         73
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:17301076,
+FT                   ECO:0007744|PDB:2E3T"
+FT   BINDING         112
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:17301076,
+FT                   ECO:0007744|PDB:2E3T"
+FT   BINDING         115
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:17301076,
+FT                   ECO:0007744|PDB:2E3T"
+FT   BINDING         147
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:17301076,
+FT                   ECO:0007744|PDB:2E3T"
+FT   BINDING         149
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:17301076,
+FT                   ECO:0007744|PDB:2E3T"
+FT   BINDING         256..263
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:15878860,
+FT                   ECO:0000269|PubMed:17301076"
+FT   BINDING         336
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         346..350
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:15878860,
+FT                   ECO:0000269|PubMed:17301076"
+FT   BINDING         359
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:15878860,
+FT                   ECO:0000269|PubMed:17301076"
+FT   BINDING         403
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:15878860,
+FT                   ECO:0000269|PubMed:17301076"
+FT   BINDING         421
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         767
+FT                   /ligand="Mo-molybdopterin"
+FT                   /ligand_id="ChEBI:CHEBI:71302"
+FT                   /ligand_part="Mo"
+FT                   /ligand_part_id="ChEBI:CHEBI:28685"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         798
+FT                   /ligand="Mo-molybdopterin"
+FT                   /ligand_id="ChEBI:CHEBI:71302"
+FT                   /ligand_part="Mo"
+FT                   /ligand_part_id="ChEBI:CHEBI:28685"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         802
+FT                   /ligand="substrate"
+FT   BINDING         880
+FT                   /ligand="substrate"
+FT   BINDING         912
+FT                   /ligand="Mo-molybdopterin"
+FT                   /ligand_id="ChEBI:CHEBI:71302"
+FT                   /ligand_part="Mo"
+FT                   /ligand_part_id="ChEBI:CHEBI:28685"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         914
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         1010
+FT                   /ligand="substrate"
+FT   BINDING         1079
+FT                   /ligand="Mo-molybdopterin"
+FT                   /ligand_id="ChEBI:CHEBI:71302"
+FT                   /ligand_part="Mo"
+FT                   /ligand_part_id="ChEBI:CHEBI:28685"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        535..992
+FT                   /note="In oxidase form"
+FT                   /evidence="ECO:0000305|PubMed:15878860"
+FT   MUTAGEN         335..336
+FT                   /note="WF->AL: Converts the enzyme to the oxidase form that
+FT                   utilizes molecular oxygen as electron acceptor. Interferes
+FT                   with normal conversion to the dehydrogenase form by
+FT                   reducing agents."
+FT                   /evidence="ECO:0000269|PubMed:17301076"
+FT   MUTAGEN         535
+FT                   /note="C->A: Slows the conversion from the dehydrogenase
+FT                   form to the oxidase form; when associated with R-992.
+FT                   Abolishes conversion from the dehydrogenase form to the
+FT                   oxidase form; when associated with R-992 and S-1316."
+FT                   /evidence="ECO:0000269|PubMed:15878860"
+FT   MUTAGEN         992
+FT                   /note="C->R: Slows the conversion from the dehydrogenase
+FT                   form to the oxidase form; when associated with A-535.
+FT                   Abolishes conversion from the dehydrogenase form to the
+FT                   oxidase form; when associated with A-535 and S-1316."
+FT                   /evidence="ECO:0000269|PubMed:15878860"
+FT   MUTAGEN         1316
+FT                   /note="C->S: Abolishes conversion from the dehydrogenase
+FT                   form to the oxidase form; when associated with A-535 and R-
+FT                   992."
+FT                   /evidence="ECO:0000269|PubMed:15878860"
+FT   STRAND          6..10
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          13..17
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           26..32
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          44..48
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          52..59
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            60..63
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          64..71
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           72..74
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           77..79
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          84..86
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           88..91
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          94..96
+FT                   /evidence="ECO:0007829|PDB:1WYG"
+FT   HELIX           99..106
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           116..129
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           135..140
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            141..144
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          148..150
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           153..159
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           160..162
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           197..199
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           205..207
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           213..218
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          226..229
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          234..237
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           241..250
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           263..269
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          275..279
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           284..287
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          289..291
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          293..299
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           304..317
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           320..322
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           324..334
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           339..342
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           347..353
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           361..366
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          370..375
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          378..383
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           386..388
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          402..409
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          415..422
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          424..428
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          432..441
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          445..461
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            466..468
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           470..472
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          476..478
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           479..492
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           504..528
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            529..531
+FT                   /evidence="ECO:0007829|PDB:4YTY"
+FT   HELIX           532..535
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           540..546
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          555..559
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          565..567
+FT                   /evidence="ECO:0007829|PDB:1WYG"
+FT   HELIX           582..586
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           593..595
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          603..609
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          611..621
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           625..627
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          631..635
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           637..639
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          645..647
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          652..655
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          658..660
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          666..674
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           675..683
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          686..691
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           698..703
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          707..710
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          712..717
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           719..725
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          727..736
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          748..753
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          760..764
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           769..780
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           784..786
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          787..792
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            798..801
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          802..804
+FT                   /evidence="ECO:0007829|PDB:1WYG"
+FT   HELIX           806..819
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          823..826
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           829..835
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          842..850
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          856..866
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           874..883
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            884..888
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          892..901
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            912..915
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           916..934
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           938..945
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           964..974
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           977..990
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          992..1008
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           1012..1014
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          1016..1023
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          1029..1034
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          1038..1040
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           1042..1054
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           1058..1060
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          1061..1063
+FT                   /evidence="ECO:0007829|PDB:4YSW"
+FT   TURN            1068..1070
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            1079..1081
+FT                   /evidence="ECO:0007829|PDB:1WYG"
+FT   HELIX           1082..1107
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          1108..1111
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           1113..1122
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          1128..1134
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            1142..1145
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          1151..1165
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            1166..1168
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          1171..1181
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           1188..1207
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            1224..1226
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           1232..1234
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          1237..1243
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   TURN            1250..1252
+FT                   /evidence="ECO:0007829|PDB:1WYG"
+FT   HELIX           1253..1255
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           1264..1267
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           1268..1285
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   STRAND          1286..1289
+FT                   /evidence="ECO:0007829|PDB:2E3T"
+FT   HELIX           1301..1307
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+FT   HELIX           1311..1316
+FT                   /evidence="ECO:0007829|PDB:3AN1"
+SQ   SEQUENCE   1331 AA;  146243 MW;  BF2586A9C63A0B2C CRC64;
+     MTADELVFFV NGKKVVEKNA DPETTLLVYL RRKLGLCGTK LGCGEGGCGA CTVMISKYDR
+     LQNKIVHFSV NACLAPICSL HHVAVTTVEG IGNTQKLHPV QERIARSHGS QCGFCTPGIV
+     MSMYTLLRNQ PEPTVEEIEN AFQGNLCRCT GYRPILQGFR TFAKDGGCCG GSGNNPNCCM
+     NQTKDQTVSL SPSLFNPEDF KPLDPTQEPI FPPELLRLKD TPQKKLRFEG ERVTWIQAST
+     MEELLDLKAQ HPDAKLVVGN TEIGIEMKFK NMLFPLIVCP AWIPELNSVV HGPEGISFGA
+     SCPLSLVESV LAEEIAKLPE QKTEVFRGVM EQLRWFAGKQ VKSVASIGGN IITASPISDL
+     NPVFMASGAK LTLVSRGTRR TVRMDHTFFP GYRKTLLRPE EILLSIEIPY SKEGEFFSAF
+     KQASRREDDI AKVTSGMRVL FKPGTIEVQE LSLCFGGMAD RTISALKTTP KQLSKSWNEE
+     LLQSVCAGLA EELQLAPDAP GGMVEFRRTL TLSFFFKFYL TVLQKLGRAD LEDMCGKLDP
+     TFASATLLFQ KDPPANVQLF QEVPKDQSEE DMVGRPLPHL AANMQASGEA VYCDDIPRYE
+     NELSLRLVTS TRAHAKITSI DTSEAKKVPG FVCFLTAEDV PNSNATGLFN DETVFAKDEV
+     TCVGHIIGAV VADTPEHAQR AARGVKITYE DLPAIITIQD AINNNSFYGS EIKIEKGDLK
+     KGFSEADNVV SGELYIGGQE HFYLETNCTI AVPKGEAGEM ELFVSTQNTM KTQSFVAKML
+     GVPDNRIVVR VKRMGGGFGG KETRSTVVST ALALAAHKTG RPVRCMLDRD EDMLITGGRH
+     PFLAKYKVGF MKTGTVVALE VAHFSNGGNT EDLSRSIMER ALFHMDNAYK IPNIRGTGRI
+     CKTNLPSNTA FRGFGGPQGM LIAEYWMSEV AITCGLPAEE VRRKNMYKEG DLTHFNQKLE
+     GFTLPRCWDE CIASSQYLAR KREVEKFNRE NCWKKRGLCI IPTKFGISFT LPFLNQGGAL
+     VHVYTDGSVL LTHGGTEMGQ GLHTKMVQVA SRALKIPTSK IHISETSTNT VPNTSPTAAS
+     ASADLNGQGV YEACQTILKR LEPFKKKKPT GPWEAWVMDA YTSAVSLSAT GFYKTPNLGY
+     SFETNSGNPF HYFSYGVACS EVEIDCLTGD HKNLRTDIVM DVGSSLNPAI DIGQVEGAFV
+     QGLGLFTMEE LHYSPEGSLH TRGPSTYKIP AFGSIPIEFR VSLLRDCPNK RAIYASKAVG
+     EPPLFLASSI FFAIKDAIRA ARAQHGDNAK QLFQLDSPAT PEKIRNACVD QFTTLCVTGV
+     PENCKSWSVR I
+//

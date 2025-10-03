@@ -1,0 +1,123 @@
+ID   CDV3_RAT                Reviewed;         236 AA.
+AC   Q5XIM5;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   02-OCT-2024, entry version 98.
+DE   RecName: Full=Protein CDV3 homolog;
+GN   Name=Cdv3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-155, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the CDV3 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC083654; AAH83654.1; -; mRNA.
+DR   RefSeq; NP_001014119.1; NM_001014097.1.
+DR   AlphaFoldDB; Q5XIM5; -.
+DR   IntAct; Q5XIM5; 9.
+DR   STRING; 10116.ENSRNOP00000071373; -.
+DR   iPTMnet; Q5XIM5; -.
+DR   PhosphoSitePlus; Q5XIM5; -.
+DR   jPOST; Q5XIM5; -.
+DR   PaxDb; 10116-ENSRNOP00000040675; -.
+DR   Ensembl; ENSRNOT00000044956.3; ENSRNOP00000040675.2; ENSRNOG00000010186.8.
+DR   Ensembl; ENSRNOT00055021030; ENSRNOP00055017000; ENSRNOG00055012351.
+DR   Ensembl; ENSRNOT00060014940; ENSRNOP00060011586; ENSRNOG00060008874.
+DR   Ensembl; ENSRNOT00065012426; ENSRNOP00065009126; ENSRNOG00065007895.
+DR   GeneID; 315970; -.
+DR   KEGG; rno:315970; -.
+DR   UCSC; RGD:1359113; rat.
+DR   AGR; RGD:1359113; -.
+DR   CTD; 55573; -.
+DR   RGD; 1359113; Cdv3.
+DR   eggNOG; ENOG502QRFT; Eukaryota.
+DR   GeneTree; ENSGT00390000000805; -.
+DR   InParanoid; Q5XIM5; -.
+DR   OrthoDB; 5323046at2759; -.
+DR   PRO; PR:Q5XIM5; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000010186; Expressed in testis and 18 other cell types or tissues.
+DR   ExpressionAtlas; Q5XIM5; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   InterPro; IPR026806; CDV3.
+DR   PANTHER; PTHR16284; PROTEIN CDV3 HOMOLOG; 1.
+DR   PANTHER; PTHR16284:SF13; PROTEIN CDV3 HOMOLOG; 1.
+DR   Pfam; PF15359; CDV3; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Phosphoprotein; Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKY7"
+FT   CHAIN           2..236
+FT                   /note="Protein CDV3 homolog"
+FT                   /id="PRO_0000299562"
+FT   REGION          1..236
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..17
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        57..71
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        104..119
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        129..148
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        200..228
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKY7"
+FT   MOD_RES         4
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKY7"
+FT   MOD_RES         8
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKY7"
+FT   MOD_RES         120
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4VAA2"
+FT   MOD_RES         131
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKY7"
+FT   MOD_RES         155
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         205
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKY7"
+FT   MOD_RES         213
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q4VAA2"
+SQ   SEQUENCE   236 AA;  24310 MW;  3968799BB2070043 CRC64;
+     MAETEERSLD NFFAKRDKKK KKERSSRAAN AASGAGGSSA AAGSRPGDGG SLGSGARSGD
+     GGSSGSGARS GDGGSLGSGA RSGDGGTSRS GDGGSAGPGG KAITKDENEW KEFEQKEVDY
+     SGLRVQAMQI SEKEDDDNEK REDPGDNWEE GGGGSGAEKS SGPWNKTALV QAPPAPVTVT
+     ETPEPAMPSG VYRPPGARLT TTRKTPQGPP EIYSDTQFPS LQSTAKHVES RNRYLK
+//

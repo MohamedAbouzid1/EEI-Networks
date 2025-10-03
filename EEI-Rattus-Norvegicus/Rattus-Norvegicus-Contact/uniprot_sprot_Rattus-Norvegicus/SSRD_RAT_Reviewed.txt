@@ -1,0 +1,104 @@
+ID   SSRD_RAT                Reviewed;         173 AA.
+AC   Q07984;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   29-MAY-2024, entry version 135.
+DE   RecName: Full=Translocon-associated protein subunit delta;
+DE            Short=TRAP-delta;
+DE   AltName: Full=Signal sequence receptor subunit delta;
+DE            Short=SSR-delta;
+DE   Flags: Precursor;
+GN   Name=Ssr4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=7916687; DOI=10.1111/j.1432-1033.1993.tb17933.x;
+RA   Hartmann E., Goerlich D., Kostka S., Otto A., Kraft R., Knespel S.,
+RA   Buerger E., Rapoport T.A., Prehn S.;
+RT   "A tetrameric complex of membrane proteins in the endoplasmic reticulum.";
+RL   Eur. J. Biochem. 214:375-381(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: TRAP proteins are part of a complex whose function is to bind
+CC       calcium to the ER membrane and thereby regulate the retention of ER
+CC       resident proteins.
+CC   -!- SUBUNIT: Heterotetramer of TRAP-alpha, TRAP-beta, TRAP-delta and TRAP-
+CC       gamma.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane; Single-pass type
+CC       I membrane protein.
+CC   -!- SIMILARITY: Belongs to the TRAP-delta family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z19087; CAA79513.1; -; mRNA.
+DR   EMBL; BC058482; AAH58482.1; -; mRNA.
+DR   PIR; S33295; S33295.
+DR   RefSeq; NP_058895.1; NM_017199.1.
+DR   AlphaFoldDB; Q07984; -.
+DR   SMR; Q07984; -.
+DR   BioGRID; 248082; 1.
+DR   IntAct; Q07984; 2.
+DR   STRING; 10116.ENSRNOP00000070206; -.
+DR   PhosphoSitePlus; Q07984; -.
+DR   jPOST; Q07984; -.
+DR   PaxDb; 10116-ENSRNOP00000063309; -.
+DR   GeneID; 29435; -.
+DR   KEGG; rno:29435; -.
+DR   AGR; RGD:62034; -.
+DR   CTD; 6748; -.
+DR   RGD; 62034; Ssr4.
+DR   VEuPathDB; HostDB:ENSRNOG00000053172; -.
+DR   eggNOG; KOG4088; Eukaryota.
+DR   HOGENOM; CLU_100264_0_1_1; -.
+DR   InParanoid; Q07984; -.
+DR   OrthoDB; 2897958at2759; -.
+DR   PRO; PR:Q07984; -.
+DR   Proteomes; UP000002494; Chromosome X.
+DR   Bgee; ENSRNOG00000053172; Expressed in pancreas and 20 other cell types or tissues.
+DR   GO; GO:0012505; C:endomembrane system; IBA:GO_Central.
+DR   GO; GO:0005784; C:Sec61 translocon complex; IDA:RGD.
+DR   InterPro; IPR008855; TRAP-delta.
+DR   PANTHER; PTHR12731:SF1; TRANSLOCON-ASSOCIATED PROTEIN SUBUNIT DELTA; 1.
+DR   PANTHER; PTHR12731; TRANSLOCON-ASSOCIATED PROTEIN, DELTA SUBUNIT; 1.
+DR   Pfam; PF05404; TRAP-delta; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Endoplasmic reticulum; Isopeptide bond; Membrane;
+KW   Reference proteome; Signal; Transmembrane; Transmembrane helix;
+KW   Ubl conjugation.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..173
+FT                   /note="Translocon-associated protein subunit delta"
+FT                   /id="PRO_0000033295"
+FT   TOPO_DOM        24..144
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        145..165
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        166..173
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        26..57
+FT                   /evidence="ECO:0000250"
+FT   CROSSLNK        73
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:P51571"
+SQ   SEQUENCE   173 AA;  18980 MW;  CE673433DCD47EBB CRC64;
+     MAAMASFGAL ALLLLSGLSC CSAEACLEPQ ITPSYYTTSD AVISTETVFI VEISLTCKNR
+     VQNMALYADV SGKQFPVTRG QDVGRYQVSW SLEHKSAHAG TYEVRFFDEE SYSLLRKAQR
+     NNEDVSIIPP LFTVSVDHRG TWNGPWVSTE VLAAAIGIVI YYLAFSAKSH IQA
+//

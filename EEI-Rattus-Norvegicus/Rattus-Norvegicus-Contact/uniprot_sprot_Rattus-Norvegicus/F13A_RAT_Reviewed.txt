@@ -1,0 +1,171 @@
+ID   F13A_RAT                Reviewed;         732 AA.
+AC   O08619;
+DT   04-JAN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   24-JUL-2024, entry version 142.
+DE   RecName: Full=Coagulation factor XIII A chain;
+DE            Short=Coagulation factor XIIIa;
+DE            EC=2.3.2.13 {ECO:0000250|UniProtKB:P00488};
+DE   AltName: Full=Protein-glutamine gamma-glutamyltransferase A chain;
+DE   AltName: Full=Transglutaminase A chain;
+DE   Flags: Precursor;
+GN   Name=F13a1; Synonyms=F13a;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Diepholz D., Grundmann U., Zettlmeissl G.;
+RT   "cDNA cloning for rat factor XIIIa.";
+RL   Submitted (APR-1997) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Factor XIII is activated by thrombin and calcium ion to a
+CC       transglutaminase that catalyzes the formation of gamma-glutamyl-
+CC       epsilon-lysine cross-links between fibrin chains, thus stabilizing the
+CC       fibrin clot. Also cross-link alpha-2-plasmin inhibitor, or fibronectin,
+CC       to the alpha chains of fibrin. {ECO:0000250|UniProtKB:P00488}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutaminyl-[protein] + L-lysyl-[protein] = [protein]-L-
+CC         lysyl-N(6)-5-L-glutamyl-[protein] + NH4(+); Xref=Rhea:RHEA:54816,
+CC         Rhea:RHEA-COMP:9752, Rhea:RHEA-COMP:10207, Rhea:RHEA-COMP:14005,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:29969, ChEBI:CHEBI:30011,
+CC         ChEBI:CHEBI:138370; EC=2.3.2.13;
+CC         Evidence={ECO:0000250|UniProtKB:P00488};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:P00488};
+CC       Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000250|UniProtKB:P00488};
+CC   -!- SUBUNIT: Tetramer of two A chains (F13A1) and two B (F13B) chains.
+CC       {ECO:0000250|UniProtKB:P00488}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P00488}.
+CC       Secreted {ECO:0000250|UniProtKB:P00488}. Note=Secreted into the blood
+CC       plasma. Cytoplasmic in most tissues, but also secreted in the blood
+CC       plasma. {ECO:0000250|UniProtKB:P00488}.
+CC   -!- PTM: The activation peptide is released by thrombin. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the transglutaminase superfamily.
+CC       Transglutaminase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y12502; CAA73104.1; -; mRNA.
+DR   RefSeq; NP_067730.2; NM_021698.2.
+DR   AlphaFoldDB; O08619; -.
+DR   SMR; O08619; -.
+DR   STRING; 10116.ENSRNOP00000021568; -.
+DR   BindingDB; O08619; -.
+DR   GlyCosmos; O08619; 1 site, No reported glycans.
+DR   GlyGen; O08619; 1 site.
+DR   iPTMnet; O08619; -.
+DR   PhosphoSitePlus; O08619; -.
+DR   PaxDb; 10116-ENSRNOP00000021568; -.
+DR   GeneID; 60327; -.
+DR   KEGG; rno:60327; -.
+DR   UCSC; RGD:621495; rat.
+DR   AGR; RGD:621495; -.
+DR   CTD; 2162; -.
+DR   RGD; 621495; F13a1.
+DR   eggNOG; ENOG502QQ46; Eukaryota.
+DR   InParanoid; O08619; -.
+DR   OrthoDB; 5344745at2759; -.
+DR   PhylomeDB; O08619; -.
+DR   Reactome; R-RNO-114608; Platelet degranulation.
+DR   Reactome; R-RNO-140875; Common Pathway of Fibrin Clot Formation.
+DR   PRO; PR:O08619; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003810; F:protein-glutamine gamma-glutamyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0007596; P:blood coagulation; ISO:RGD.
+DR   GO; GO:0072378; P:blood coagulation, fibrin clot formation; ISS:UniProtKB.
+DR   GO; GO:0018149; P:peptide cross-linking; ISS:UniProtKB.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 3.
+DR   Gene3D; 3.90.260.10; Transglutaminase-like; 1.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR038765; Papain-like_cys_pep_sf.
+DR   InterPro; IPR050779; Transglutaminase.
+DR   InterPro; IPR002931; Transglutaminase-like.
+DR   InterPro; IPR036985; Transglutaminase-like_sf.
+DR   InterPro; IPR023608; Transglutaminase_animal.
+DR   InterPro; IPR013808; Transglutaminase_AS.
+DR   InterPro; IPR008958; Transglutaminase_C.
+DR   InterPro; IPR036238; Transglutaminase_C_sf.
+DR   InterPro; IPR001102; Transglutaminase_N.
+DR   PANTHER; PTHR11590:SF42; COAGULATION FACTOR XIII A CHAIN; 1.
+DR   PANTHER; PTHR11590; PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE; 1.
+DR   Pfam; PF00927; Transglut_C; 2.
+DR   Pfam; PF01841; Transglut_core; 1.
+DR   Pfam; PF00868; Transglut_N; 1.
+DR   PIRSF; PIRSF000459; TGM_EBP42; 1.
+DR   SMART; SM00460; TGc; 1.
+DR   SUPFAM; SSF54001; Cysteine proteinases; 1.
+DR   SUPFAM; SSF81296; E set domains; 1.
+DR   SUPFAM; SSF49309; Transglutaminase, two C-terminal domains; 2.
+DR   PROSITE; PS00547; TRANSGLUTAMINASES; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Acyltransferase; Blood coagulation; Calcium; Cytoplasm;
+KW   Glycoprotein; Hemostasis; Metal-binding; Reference proteome; Secreted;
+KW   Transferase; Zymogen.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P00488"
+FT   PROPEP          2..38
+FT                   /note="Activation peptide"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000033650"
+FT   CHAIN           39..732
+FT                   /note="Coagulation factor XIII A chain"
+FT                   /id="PRO_0000033651"
+FT   REGION          1..26
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        315
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10024"
+FT   ACT_SITE        374
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10024"
+FT   ACT_SITE        397
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10024"
+FT   BINDING         437
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P00488"
+FT   BINDING         439
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P00488"
+FT   BINDING         486
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P00488"
+FT   BINDING         491
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P00488"
+FT   SITE            38..39
+FT                   /note="Cleavage; by thrombin; to produce active factor
+FT                   XIII-A"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00488"
+FT   CARBOHYD        614
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   732 AA;  82659 MW;  22B052D3A73721ED CRC64;
+     MSDTPATTFG GRGAIPPNNS NAAGVDLPTE DLQGLVPRGV SLKDYLNVTA VHLFKERWDS
+     NKIVHHTDKF DNNKLIVRRG QTFYIQIDFN RPYDPRKDLF RVEYVIGRYP QENKGTYIPV
+     PVVTELQSGK WGAKVIMNED RSVRLSVQSS PECIVGKFRM YVAVWTPYGI LRTQRDPETD
+     TYILFNPWCE EDAVYLDDEK EREEYVLNDI GGIFHGDFND IKSRSWSYGQ FEDGILDACL
+     FVMDKAEMDL SGRGNPIKVS RVGSAMVNAK DDEGVLVGSW DNVYAYGIPP SAWTGSVDIL
+     LEYRSSETPV RYGQCWVLAG VFNTFLRCLG IPARVITNYS SAHDNDANLQ MDIFLEEDGS
+     VSFKLTKDSV WNYHCWNEAW MTRPDLPVGF GGWQAVDSTP QENSDGMYRC GPASVQAVKH
+     GHVCFQFDAP FVLGEVNSDL VYITAKKDGT HVVENVDATH IGKLIVTKEI GGDGMQDITD
+     TYKFQEGQEE ERLALETALM YGAKKTLNTE GMVKSSSDVD MNFDVENAVL GKDFRVTITF
+     QNNSSNLYTI LAYLSGNITF YTGVSKKEFK TESFEVTLDP LSLEKKEVLI RAGEYMSYLL
+     EQGLLHFFVT ARINETRVVL AKQKAIVLTI PKVTIKVRGT AMVGSDMVVT VEFTNPLKET
+     LKNVWLHLEG PGVMRPKRKM FREIRPNATV QWEEVCQPWV SGHRKLNASM TSDSLRHVYG
+     ELDLQIRRRP TV
+//

@@ -1,0 +1,276 @@
+ID   EAA4_RAT                Reviewed;         561 AA.
+AC   O35921; P97683;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   24-JUL-2024, entry version 136.
+DE   RecName: Full=Excitatory amino acid transporter 4;
+DE   AltName: Full=High-affinity neuronal glutamate transporter;
+DE   AltName: Full=Sodium-dependent glutamate/aspartate transporter;
+DE   AltName: Full=Solute carrier family 1 member 6;
+GN   Name=Slc1a6; Synonyms=Eaat4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Cerebellum;
+RA   Lin C.-L.G., Jin L., Rothstein J.D.;
+RL   Submitted (OCT-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 74-305.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RA   Matthews J.C., Kilberg M.S., Novak D.A.;
+RL   Submitted (JAN-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=14506254; DOI=10.1074/jbc.m307990200;
+RA   Melzer N., Biela A., Fahlke C.;
+RT   "Glutamate modifies ion conduction and voltage-dependent gating of
+RT   excitatory amino acid transporter-associated anion channels.";
+RL   J. Biol. Chem. 278:50112-50119(2003).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-2, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+RN   [5]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=26690923; DOI=10.1007/s00232-015-9863-0;
+RA   Abousaab A., Warsi J., Elvira B., Lang F.;
+RT   "Caveolin-1 Sensitivity of Excitatory Amino Acid Transporters EAAT1, EAAT2,
+RT   EAAT3, and EAAT4.";
+RL   J. Membr. Biol. 249:239-249(2016).
+CC   -!- FUNCTION: Sodium-dependent, high-affinity amino acid transporter that
+CC       mediates the uptake of L-glutamate and also L-aspartate and D-aspartate
+CC       (PubMed:14506254, PubMed:26690923). Functions as a symporter that
+CC       transports one amino acid molecule together with two or three Na(+)
+CC       ions and one proton, in parallel with the counter-transport of one K(+)
+CC       ion (PubMed:14506254). Mediates Cl(-) flux that is not coupled to amino
+CC       acid transport; this avoids the accumulation of negative charges due to
+CC       aspartate and Na(+) symport (PubMed:14506254). Plays a redundant role
+CC       in the rapid removal of released glutamate from the synaptic cleft,
+CC       which is essential for terminating the postsynaptic action of glutamate
+CC       (Probable). {ECO:0000269|PubMed:14506254, ECO:0000269|PubMed:26690923,
+CC       ECO:0000305}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + K(+)(in) + L-glutamate(out) + 3 Na(+)(out) =
+CC         H(+)(in) + K(+)(out) + L-glutamate(in) + 3 Na(+)(in);
+CC         Xref=Rhea:RHEA:70699, ChEBI:CHEBI:15378, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:29103, ChEBI:CHEBI:29985;
+CC         Evidence={ECO:0000250|UniProtKB:P48664};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + K(+)(in) + L-aspartate(out) + 3 Na(+)(out) =
+CC         H(+)(in) + K(+)(out) + L-aspartate(in) + 3 Na(+)(in);
+CC         Xref=Rhea:RHEA:70851, ChEBI:CHEBI:15378, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:29103, ChEBI:CHEBI:29991;
+CC         Evidence={ECO:0000250|UniProtKB:P48664};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-aspartate(out) + H(+)(out) + K(+)(in) + 3 Na(+)(out) = D-
+CC         aspartate(in) + H(+)(in) + K(+)(out) + 3 Na(+)(in);
+CC         Xref=Rhea:RHEA:71379, ChEBI:CHEBI:15378, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:29103, ChEBI:CHEBI:29990;
+CC         Evidence={ECO:0000250|UniProtKB:P48664};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=328 uM for L-glutamate {ECO:0000269|PubMed:26690923};
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:26690923};
+CC       Multi-pass membrane protein {ECO:0000305}.
+CC   -!- DOMAIN: Contains eight transmembrane regions plus two helical hairpins
+CC       that dip into the membrane. These helical hairpin structures play an
+CC       important role in the transport process. The first enters the membrane
+CC       from the cytoplasmic side, the second one from the extracellular side.
+CC       During the transport cycle, the regions involved in amino acid
+CC       transport, and especially the helical hairpins, move vertically by
+CC       about 15-18 Angstroms, alternating between exposure to the aqueous
+CC       phase and reinsertion in the lipid bilayer. In contrast, the regions
+CC       involved in trimerization do not move. {ECO:0000250|UniProtKB:P43003}.
+CC   -!- SIMILARITY: Belongs to the dicarboxylate/amino acid:cation symporter
+CC       (DAACS) (TC 2.A.23) family. SLC1A6 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U89608; AAB72086.1; -; mRNA.
+DR   EMBL; U80915; AAB40997.1; -; mRNA.
+DR   RefSeq; NP_114454.1; NM_032065.1.
+DR   AlphaFoldDB; O35921; -.
+DR   SMR; O35921; -.
+DR   BioGRID; 249878; 2.
+DR   IntAct; O35921; 1.
+DR   MINT; O35921; -.
+DR   STRING; 10116.ENSRNOP00000009931; -.
+DR   BindingDB; O35921; -.
+DR   ChEMBL; CHEMBL3700; -.
+DR   DrugCentral; O35921; -.
+DR   GuidetoPHARMACOLOGY; 871; -.
+DR   GlyCosmos; O35921; 3 sites, No reported glycans.
+DR   GlyGen; O35921; 3 sites.
+DR   iPTMnet; O35921; -.
+DR   PhosphoSitePlus; O35921; -.
+DR   PaxDb; 10116-ENSRNOP00000009931; -.
+DR   GeneID; 84012; -.
+DR   KEGG; rno:84012; -.
+DR   UCSC; RGD:620340; rat.
+DR   AGR; RGD:620340; -.
+DR   CTD; 6511; -.
+DR   RGD; 620340; Slc1a6.
+DR   eggNOG; KOG3787; Eukaryota.
+DR   InParanoid; O35921; -.
+DR   OrthoDB; 49426at2759; -.
+DR   PhylomeDB; O35921; -.
+DR   Reactome; R-RNO-210500; Glutamate Neurotransmitter Release Cycle.
+DR   Reactome; R-RNO-425393; Transport of inorganic cations/anions and amino acids/oligopeptides.
+DR   PRO; PR:O35921; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0098796; C:membrane protein complex; IDA:ARUK-UCL.
+DR   GO; GO:0098688; C:parallel fiber to Purkinje cell synapse; IDA:SynGO.
+DR   GO; GO:0005886; C:plasma membrane; IMP:UniProtKB.
+DR   GO; GO:0045211; C:postsynaptic membrane; IDA:SynGO.
+DR   GO; GO:0042734; C:presynaptic membrane; ISO:RGD.
+DR   GO; GO:0015501; F:glutamate:sodium symporter activity; ISO:RGD.
+DR   GO; GO:0005314; F:high-affinity L-glutamate transmembrane transporter activity; IDA:UniProtKB.
+DR   GO; GO:0015183; F:L-aspartate transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0005313; F:L-glutamate transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008509; F:monoatomic anion transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0015175; F:neutral L-amino acid transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0051649; P:establishment of localization in cell; ISO:RGD.
+DR   GO; GO:0140009; P:L-aspartate import across plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0098712; P:L-glutamate import across plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0015813; P:L-glutamate transmembrane transport; IDA:UniProtKB.
+DR   GO; GO:0001504; P:neurotransmitter uptake; ISO:RGD.
+DR   GO; GO:0042391; P:regulation of membrane potential; ISO:RGD.
+DR   Gene3D; 1.10.3860.10; Sodium:dicarboxylate symporter; 1.
+DR   InterPro; IPR050746; DAACS.
+DR   InterPro; IPR001991; Na-dicarboxylate_symporter.
+DR   InterPro; IPR018107; Na-dicarboxylate_symporter_CS.
+DR   InterPro; IPR036458; Na:dicarbo_symporter_sf.
+DR   PANTHER; PTHR11958:SF67; EXCITATORY AMINO ACID TRANSPORTER 4; 1.
+DR   PANTHER; PTHR11958; SODIUM/DICARBOXYLATE SYMPORTER-RELATED; 1.
+DR   Pfam; PF00375; SDF; 1.
+DR   PRINTS; PR00173; EDTRNSPORT.
+DR   SUPFAM; SSF118215; Proton glutamate symport protein; 1.
+DR   PROSITE; PS00713; NA_DICARBOXYL_SYMP_1; 1.
+DR   PROSITE; PS00714; NA_DICARBOXYL_SYMP_2; 1.
+PE   1: Evidence at protein level;
+KW   Amino-acid transport; Cell membrane; Chloride; Glycoprotein; Membrane;
+KW   Metal-binding; Phosphoprotein; Potassium; Reference proteome; Sodium;
+KW   Symport; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..561
+FT                   /note="Excitatory amino acid transporter 4"
+FT                   /id="PRO_0000202072"
+FT   TOPO_DOM        1..52
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        53..73
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        96..116
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        130..150
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        259..282
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   TRANSMEM        292..319
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   TRANSMEM        341..362
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   INTRAMEM        368..398
+FT                   /note="Discontinuously helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   TRANSMEM        408..434
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   INTRAMEM        448..481
+FT                   /note="Discontinuously helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   TRANSMEM        495..516
+FT                   /note="Helical; Name=8"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   BINDING         385..387
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   BINDING         416
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:O59010"
+FT   BINDING         418
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   BINDING         420
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:O59010"
+FT   BINDING         424
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   BINDING         465..469
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   BINDING         498
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   BINDING         505
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000250|UniProtKB:P43003"
+FT   BINDING         505
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:O59010"
+FT   BINDING         509
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:O59010"
+FT   MOD_RES         2
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CARBOHYD        213
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        229
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        236
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        119
+FT                   /note="K -> R (in Ref. 2; AAB40997)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   561 AA;  60715 MW;  AAF1298EE6AA8359 CRC64;
+     MSSHGNSLFL RESGAGGGCL QGLQDSLQQR ALRTRLRLQT MTREHVRRFL RRNAFILLTV
+     SAVIIGVSLA FALRPYQLTY RQIKYFSFPG ELLMRMLQML VLPLIVSSRV TGMASLDNKA
+     TGRMGMRAAV YYMVTTVIAV FIGILMVTII HPGKGSKEGL HREGRIETVP TADAFMDLVR
+     NMFPPNLVEA CFKQFKTQYS TRVVTRTIVR TDNGSELGAS ISPPSSAENE TSILENVTRA
+     LGTLQEVISF EETVPVPGSA NGINALGLVV FSVAFGLVIG GMKHKGRVLR DFFDSLNEAI
+     MRLVGIIIWY APVGILFLIA GKILEMEDMA VLGGQLGMYT LTVIVGLFLH AGGVLPLIYF
+     LVTHRNPFPF IGGILQALIT AMGTSSSSAT LPITFRCLEE GLGVDRRITR FVLPVGATVN
+     MDGTALYEAL AAIFIAQVNN YELNLGQITT ISITATAASV GAAGIPQAGL VTMVIVLTSV
+     GLPTEDITLI IAVDWFLDRL RTMTNVLGDS IGAAVIEHLS QRELELQEAE LTLPSLGKPY
+     KSLMAQAKGA SRGRGGNESV M
+//

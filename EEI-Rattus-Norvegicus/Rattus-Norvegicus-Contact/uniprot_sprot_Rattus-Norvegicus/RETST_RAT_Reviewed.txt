@@ -1,0 +1,113 @@
+ID   RETST_RAT               Reviewed;         609 AA.
+AC   Q8VHE9;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   24-JUL-2024, entry version 103.
+DE   RecName: Full=All-trans-retinol 13,14-reductase;
+DE            EC=1.3.99.23 {ECO:0000250|UniProtKB:Q64FW2};
+DE   AltName: Full=All-trans-13,14-dihydroretinol saturase;
+DE            Short=RetSat;
+DE   AltName: Full=PPAR-alpha-regulated and starvation-induced gene protein;
+DE   AltName: Full=RMT-7;
+DE   Flags: Precursor;
+GN   Name=Retsat; Synonyms=Ppsig, Rmt7;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND INDUCTION.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=11753649; DOI=10.1038/sj.onc.1204941;
+RA   Wang Y., Hu L., Yao R., Wang M., Crist K.A., Grubbs C.J., Johanning G.L.,
+RA   Lubet R.A., You M.;
+RT   "Altered gene expression profile in chemically induced rat mammary
+RT   adenocarcinomas and its modulation by an aromatase inhibitor.";
+RL   Oncogene 20:7710-7721(2001).
+CC   -!- FUNCTION: Catalyzes the saturation of all-trans-retinol to all-trans-
+CC       13,14-dihydroretinol. Does not exhibit any activity toward all-trans-
+CC       retinoic acid, nor 9-cis, 11-cis or 13-cis-retinol isomers. May play a
+CC       role in the metabolism of vitamin A. Independently of retinol
+CC       conversion, may regulate liver metabolism upstream of MLXIPL/ChREBP.
+CC       May play a role in adipocyte differentiation.
+CC       {ECO:0000250|UniProtKB:Q64FW2}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=A + all-trans-13,14-dihydroretinol = AH2 + all-trans-retinol;
+CC         Xref=Rhea:RHEA:19193, ChEBI:CHEBI:13193, ChEBI:CHEBI:17336,
+CC         ChEBI:CHEBI:17499, ChEBI:CHEBI:52075; EC=1.3.99.23;
+CC         Evidence={ECO:0000250|UniProtKB:Q64FW2};
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC         Evidence={ECO:0000250|UniProtKB:Q8S4R4};
+CC       Name=NADP(+); Xref=ChEBI:CHEBI:58349;
+CC         Evidence={ECO:0000250|UniProtKB:Q8S4R4};
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000250|UniProtKB:Q8S4R4};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q64FW2}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:Q64FW2}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in liver, kidney and heart.
+CC       {ECO:0000269|PubMed:11753649}.
+CC   -!- INDUCTION: Down-regulated in mammary adenocarcinomas.
+CC       {ECO:0000269|PubMed:11753649}.
+CC   -!- SIMILARITY: Belongs to the carotenoid/retinoid oxidoreductase family.
+CC       CrtISO subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF465614; AAL73494.1; -; mRNA.
+DR   RefSeq; NP_659552.1; NM_145084.1.
+DR   AlphaFoldDB; Q8VHE9; -.
+DR   SMR; Q8VHE9; -.
+DR   STRING; 10116.ENSRNOP00000019571; -.
+DR   iPTMnet; Q8VHE9; -.
+DR   PhosphoSitePlus; Q8VHE9; -.
+DR   jPOST; Q8VHE9; -.
+DR   PaxDb; 10116-ENSRNOP00000019571; -.
+DR   GeneID; 246298; -.
+DR   KEGG; rno:246298; -.
+DR   UCSC; RGD:628802; rat.
+DR   AGR; RGD:628802; -.
+DR   CTD; 54884; -.
+DR   RGD; 628802; Retsat.
+DR   eggNOG; KOG4254; Eukaryota.
+DR   InParanoid; Q8VHE9; -.
+DR   OrthoDB; 36283at2759; -.
+DR   PhylomeDB; Q8VHE9; -.
+DR   PRO; PR:Q8VHE9; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:HGNC-UCL.
+DR   GO; GO:0031965; C:nuclear membrane; ISS:HGNC-UCL.
+DR   GO; GO:0005640; C:nuclear outer membrane; ISS:HGNC-UCL.
+DR   GO; GO:0051786; F:all-trans-retinol 13,14-reductase activity; ISS:HGNC-UCL.
+DR   GO; GO:0042572; P:retinol metabolic process; ISS:HGNC-UCL.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR052206; Retinol_saturase.
+DR   PANTHER; PTHR46091:SF1; ALL-TRANS-RETINOL 13,14-REDUCTASE; 1.
+DR   PANTHER; PTHR46091; BLR7054 PROTEIN; 1.
+DR   Pfam; PF13450; NAD_binding_8; 1.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+PE   2: Evidence at transcript level;
+KW   Endoplasmic reticulum; FAD; Flavoprotein; Lipid metabolism; Membrane; NAD;
+KW   NADP; Oxidoreductase; Reference proteome; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..609
+FT                   /note="All-trans-retinol 13,14-reductase"
+FT                   /id="PRO_0000225668"
+SQ   SEQUENCE   609 AA;  67531 MW;  D492DC98E8D23963 CRC64;
+     MWITALLLVV LLLVVVHRVY VGLFTGSSPN PFAEDVKRPP EPLVTDKEAR KKVLKQAFSV
+     SRVPEKLDAV VIGSGIGGLA SAAVLAKAGK RVLVLEQHTK AGGCCHTFGE NGLEFDTGIH
+     YIGRMREGNI GRFILDQITE GQLDWAPMAS PFDLMILEGP NGRKEFPMYS GRKEYIQGLK
+     EKFPKEEAVI DKYMELVKVV AHGVSHAILL KFLPLPLTQL LNKFGLLTRF SPFCRASTQS
+     LAEVLKQLGA SPELQAVLSY ILPTYGVTPS HTTFSLHALL VDHYIQGAYY PRRGSSEIAF
+     HTIPLIQRAG GAVLTRATVQ SVLLDSAGRA CGVSVKKGQE LVNIYCPVVI SNAGMFNTYQ
+     HLLPESVRYL PDVKKQLTMV KPGLSMLSIF ICLKGTKEEL KLQSTNYYVY FDTDMDKAME
+     CYVSMPKEKA PEHIPLLFIP FPSSKDPTWE DRFPDRSTMT VLVPTAFEWF EEWQEEPKGK
+     RGVDYETLKN TFREASMSVI MKLFPQLEGK VESVTGGSPL TNQYYLAAHR GATYGADHDL
+     ARLHPHAMAS LRAQTPIPNL YLTGQDIFTC GLMGALQGAL LCSSAILKRN LYSDLQALGS
+     KVRAQKKKK
+//

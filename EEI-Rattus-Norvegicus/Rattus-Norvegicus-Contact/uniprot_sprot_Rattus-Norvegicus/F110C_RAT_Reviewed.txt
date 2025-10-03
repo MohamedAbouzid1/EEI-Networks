@@ -1,0 +1,101 @@
+ID   F110C_RAT               Reviewed;         326 AA.
+AC   Q5RKJ0;
+DT   10-JUL-2007, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 1.
+DT   29-MAY-2024, entry version 102.
+DE   RecName: Full=Protein FAM110C;
+GN   Name=Fam110c;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: May play a role in microtubule organization. May play a role
+CC       in cell spreading and cell migration of epithelial cells; the function
+CC       may involve the AKT1 signaling pathway. {ECO:0000250|UniProtKB:Q1W6H9}.
+CC   -!- SUBUNIT: Interacts with AKT1; the interaction is transient and follows
+CC       AKT1 activation. Interacts with PPP2CA and alpha-tubulin.
+CC       {ECO:0000250|UniProtKB:Q1W6H9}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton
+CC       {ECO:0000250|UniProtKB:Q1W6H9}. Cytoplasm, cytoskeleton, microtubule
+CC       organizing center, centrosome {ECO:0000250|UniProtKB:Q1W6H9}.
+CC       Cytoplasm, cytoskeleton, spindle pole {ECO:0000250|UniProtKB:Q1W6H9}.
+CC       Nucleus {ECO:0000250|UniProtKB:Q1W6H9}. Note=Colocalizes with
+CC       microtubules during interphase. Detected at the mitotic spindle poles.
+CC       Colocalizes with AKT1 at the cell cortex.
+CC       {ECO:0000250|UniProtKB:Q1W6H9}.
+CC   -!- SIMILARITY: Belongs to the FAM110 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC085778; AAH85778.1; -; mRNA.
+DR   RefSeq; NP_001020222.1; NM_001025051.1.
+DR   AlphaFoldDB; Q5RKJ0; -.
+DR   STRING; 10116.ENSRNOP00000007466; -.
+DR   PhosphoSitePlus; Q5RKJ0; -.
+DR   PaxDb; 10116-ENSRNOP00000007466; -.
+DR   GeneID; 500638; -.
+DR   KEGG; rno:500638; -.
+DR   UCSC; RGD:1564713; rat.
+DR   AGR; RGD:1564713; -.
+DR   CTD; 642273; -.
+DR   RGD; 1564713; Fam110c.
+DR   VEuPathDB; HostDB:ENSRNOG00000005660; -.
+DR   eggNOG; ENOG502S0DB; Eukaryota.
+DR   HOGENOM; CLU_050540_0_0_1; -.
+DR   InParanoid; Q5RKJ0; -.
+DR   OrthoDB; 5407076at2759; -.
+DR   PhylomeDB; Q5RKJ0; -.
+DR   TreeFam; TF330964; -.
+DR   PRO; PR:Q5RKJ0; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000005660; Expressed in duodenum and 12 other cell types or tissues.
+DR   GO; GO:0005938; C:cell cortex; ISS:UniProtKB.
+DR   GO; GO:0005813; C:centrosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005874; C:microtubule; IEA:UniProtKB-KW.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000922; C:spindle pole; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043014; F:alpha-tubulin binding; ISS:UniProtKB.
+DR   GO; GO:0030335; P:positive regulation of cell migration; ISS:UniProtKB.
+DR   GO; GO:0051897; P:positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISS:UniProtKB.
+DR   GO; GO:0060491; P:regulation of cell projection assembly; ISS:UniProtKB.
+DR   InterPro; IPR025740; FAM110.
+DR   InterPro; IPR025741; FAM110_C.
+DR   PANTHER; PTHR14758; AGAP005440-PA; 1.
+DR   PANTHER; PTHR14758:SF5; PROTEIN FAM110C; 1.
+DR   Pfam; PF14160; FAM110_C; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Cytoskeleton; Microtubule; Nucleus; Phosphoprotein;
+KW   Reference proteome.
+FT   CHAIN           1..326
+FT                   /note="Protein FAM110C"
+FT                   /id="PRO_0000293463"
+FT   REGION          1..37
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          51..80
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          201..221
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         255
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q1W6H9"
+SQ   SEQUENCE   326 AA;  35578 MW;  7AA2DCFA27928C62 CRC64;
+     MRALPTLDSL ARTRPSLGDS RAAEGTLTRQ PANKSAVERL AADRAKYVRS TLGSSRGPVS
+     ENRVPEAPGV QHRNPIPSTL APAPVARRAV ARKPLRPDSL VIYRQKCEFV RGSDADSSRV
+     GLMKKFFQGS GKDKMSVTPE TTRVADEYKT KETEATWTKA SQAAAAKPAS MLPPPAPVVA
+     MESPALPFEV APRVPVRRSG VELRASRSKG LQRSQSDLSS RYSTARAESD TFFQYCGLDP
+     EVVESLGREN FSAASDCVTP KMRSVSMATS DSSFSRHSED GLQEEELLEQ VPSTTSVVER
+     NARIIKWLFT CKKAKETPSQ KLQEPA
+//

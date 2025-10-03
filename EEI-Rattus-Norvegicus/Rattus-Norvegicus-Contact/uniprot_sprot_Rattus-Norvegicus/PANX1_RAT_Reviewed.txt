@@ -1,0 +1,243 @@
+ID   PANX1_RAT               Reviewed;         426 AA.
+AC   P60570;
+DT   15-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2004, sequence version 1.
+DT   29-MAY-2024, entry version 129.
+DE   RecName: Full=Pannexin-1;
+DE   Contains:
+DE     RecName: Full=Caspase-activated pannexin-1 {ECO:0000250|UniProtKB:Q96RD7};
+DE              Short=Caspase-activated PANX1 {ECO:0000305};
+GN   Name=Panx1; Synonyms=Px1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND SUBUNIT.
+RC   STRAIN=Wistar; TISSUE=Hippocampus;
+RX   PubMed=14597722; DOI=10.1073/pnas.2233464100;
+RA   Bruzzone R., Hormuzdi S.G., Barbe M., Herb A., Monyer H.;
+RT   "Pannexins, a family of gap junction proteins expressed in brain.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:13644-13649(2003).
+CC   -!- FUNCTION: Ion channel involved in a variety of physiological functions
+CC       such as blood pressure regulation, apoptotic cell clearance and
+CC       oogenesis (By similarity). Forms anion-selective channels with
+CC       relatively low conductance and an order of permeabilities:
+CC       nitrate>iodide>chlroride>>aspartate=glutamate=gluconate (By
+CC       similarity). Can release ATP upon activation through phosphorylation or
+CC       cleavage at C-terminus. May play a role as a Ca(2+)-leak channel to
+CC       regulate ER Ca(2+) homeostasis (By similarity).
+CC       {ECO:0000250|UniProtKB:Q96RD7, ECO:0000250|UniProtKB:Q9JIP4}.
+CC   -!- FUNCTION: [Caspase-activated pannexin-1]: During apoptosis, the C
+CC       terminal tail is cleaved by caspases, which opens the main pore acting
+CC       as a large-pore ATP efflux channel with a broad distribution, which
+CC       allows the regulated release of molecules and ions smaller than 1 kDa,
+CC       such as nucleotides ATP and UTP, and selective plasma membrane
+CC       permeability to attract phagocytes that engulf the dying cells.
+CC       {ECO:0000250|UniProtKB:Q96RD7}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Ca(2+)(in) = Ca(2+)(out); Xref=Rhea:RHEA:29671,
+CC         ChEBI:CHEBI:29108; Evidence={ECO:0000250|UniProtKB:Q96RD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP(in) = ATP(out); Xref=Rhea:RHEA:75687, ChEBI:CHEBI:30616;
+CC         Evidence={ECO:0000250|UniProtKB:Q96RD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=K(+)(in) = K(+)(out); Xref=Rhea:RHEA:29463, ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000250|UniProtKB:Q96RD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(in) = chloride(out); Xref=Rhea:RHEA:29823,
+CC         ChEBI:CHEBI:17996; Evidence={ECO:0000250|UniProtKB:Q96RD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=iodide(out) = iodide(in); Xref=Rhea:RHEA:66324,
+CC         ChEBI:CHEBI:16382; Evidence={ECO:0000250|UniProtKB:Q96RD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Na(+)(in) = Na(+)(out); Xref=Rhea:RHEA:34963,
+CC         ChEBI:CHEBI:29101; Evidence={ECO:0000250|UniProtKB:Q96RD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=nitrate(in) = nitrate(out); Xref=Rhea:RHEA:34923,
+CC         ChEBI:CHEBI:17632; Evidence={ECO:0000250|UniProtKB:Q9JIP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-aspartate(out) = L-aspartate(in); Xref=Rhea:RHEA:66332,
+CC         ChEBI:CHEBI:29991; Evidence={ECO:0000250|UniProtKB:Q9JIP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamate(out) = L-glutamate(in); Xref=Rhea:RHEA:66336,
+CC         ChEBI:CHEBI:29985; Evidence={ECO:0000250|UniProtKB:Q9JIP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-gluconate(in) = D-gluconate(out); Xref=Rhea:RHEA:76139,
+CC         ChEBI:CHEBI:18391; Evidence={ECO:0000250|UniProtKB:Q9JIP4};
+CC   -!- CATALYTIC ACTIVITY: [Caspase-activated pannexin-1]:
+CC       Reaction=spermidine(in) = spermidine(out); Xref=Rhea:RHEA:35039,
+CC         ChEBI:CHEBI:57834; Evidence={ECO:0000250|UniProtKB:Q96RD7};
+CC   -!- CATALYTIC ACTIVITY: [Caspase-activated pannexin-1]:
+CC       Reaction=ATP(in) = ATP(out); Xref=Rhea:RHEA:75687, ChEBI:CHEBI:30616;
+CC         Evidence={ECO:0000250|UniProtKB:Q96RD7};
+CC   -!- SUBUNIT: Homoheptameric. {ECO:0000305|PubMed:14597722}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q96RD7};
+CC       Multi-pass membrane protein {ECO:0000255|PROSITE-ProRule:PRU00351}.
+CC       Endoplasmic reticulum membrane {ECO:0000250|UniProtKB:Q96RD7}; Multi-
+CC       pass membrane protein {ECO:0000255|PROSITE-ProRule:PRU00351}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the eye, thyroid, prostate, kidney and
+CC       liver. Abundantly expressed in the CNS, including hippocampus,
+CC       olfactory bulb, cortex, cerebellum and white matter.
+CC       {ECO:0000269|PubMed:14597722}.
+CC   -!- PTM: S-nitrosylation inhibits channel currents and ATP release.
+CC       {ECO:0000250}.
+CC   -!- PTM: N-glycosylation plays a role in cell surface targeting.
+CC       Glycosylation at its extracellular surface makes unlikely that two
+CC       oligomers could dock to form an intercellular channel such as in gap
+CC       junctions. Exists in three glycosylation states: non-glycosylated
+CC       (GLY0), high-mannose glycosylated (GLY1), and fully mature glycosylated
+CC       (GLY2). {ECO:0000250|UniProtKB:Q96RD7}.
+CC   -!- PTM: Cleaved by CASP3 and CASP7 during apoptosis. Cleavage opens the
+CC       channel for the release of metabolites and induces plasma membrane
+CC       permeability during apoptosis. {ECO:0000250|UniProtKB:Q96RD7}.
+CC   -!- PTM: Phosphorylated at Tyr-198 by SRC. Phosphorylation activates ATP
+CC       release. Constitutively phosphorylated in vascular smooth muscle cells.
+CC       {ECO:0000250|UniProtKB:Q96RD7}.
+CC   -!- SIMILARITY: Belongs to the pannexin family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00351}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ557015; CAD89522.1; -; mRNA.
+DR   RefSeq; NP_955429.1; NM_199397.2.
+DR   AlphaFoldDB; P60570; -.
+DR   SMR; P60570; -.
+DR   STRING; 10116.ENSRNOP00000013577; -.
+DR   GlyCosmos; P60570; 1 site, No reported glycans.
+DR   GlyGen; P60570; 1 site.
+DR   iPTMnet; P60570; -.
+DR   PhosphoSitePlus; P60570; -.
+DR   PaxDb; 10116-ENSRNOP00000013577; -.
+DR   Ensembl; ENSRNOT00000013577.6; ENSRNOP00000013577.3; ENSRNOG00000010060.8.
+DR   Ensembl; ENSRNOT00055011550; ENSRNOP00055009085; ENSRNOG00055006999.
+DR   Ensembl; ENSRNOT00060009767; ENSRNOP00060007322; ENSRNOG00060005863.
+DR   GeneID; 315435; -.
+DR   KEGG; rno:315435; -.
+DR   UCSC; RGD:735204; rat.
+DR   AGR; RGD:735204; -.
+DR   CTD; 24145; -.
+DR   RGD; 735204; Panx1.
+DR   eggNOG; ENOG502QT58; Eukaryota.
+DR   GeneTree; ENSGT00940000153972; -.
+DR   HOGENOM; CLU_050054_1_0_1; -.
+DR   InParanoid; P60570; -.
+DR   OMA; IPDRFQC; -.
+DR   OrthoDB; 2996841at2759; -.
+DR   PhylomeDB; P60570; -.
+DR   TreeFam; TF333142; -.
+DR   Reactome; R-RNO-112303; Electric Transmission Across Gap Junctions.
+DR   Reactome; R-RNO-844456; The NLRP3 inflammasome.
+DR   PRO; PR:P60570; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000010060; Expressed in jejunum and 17 other cell types or tissues.
+DR   ExpressionAtlas; P60570; baseline and differential.
+DR   GO; GO:0032059; C:bleb; ISO:RGD.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISS:UniProtKB.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005921; C:gap junction; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:UniProtKB.
+DR   GO; GO:0003779; F:actin binding; ISO:RGD.
+DR   GO; GO:0051015; F:actin filament binding; ISO:RGD.
+DR   GO; GO:0005347; F:ATP transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0005262; F:calcium channel activity; ISS:UniProtKB.
+DR   GO; GO:0005243; F:gap junction channel activity; IMP:RGD.
+DR   GO; GO:0022840; F:leak channel activity; ISS:UniProtKB.
+DR   GO; GO:0005253; F:monoatomic anion channel activity; ISS:UniProtKB.
+DR   GO; GO:0002020; F:protease binding; IPI:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IMP:RGD.
+DR   GO; GO:0097110; F:scaffold protein binding; IPI:RGD.
+DR   GO; GO:0005102; F:signaling receptor binding; ISO:RGD.
+DR   GO; GO:0005198; F:structural molecule activity; IDA:UniProtKB.
+DR   GO; GO:0044325; F:transmembrane transporter binding; IPI:RGD.
+DR   GO; GO:0022829; F:wide pore channel activity; IBA:GO_Central.
+DR   GO; GO:0015867; P:ATP transport; ISS:UniProtKB.
+DR   GO; GO:0006816; P:calcium ion transport; ISS:UniProtKB.
+DR   GO; GO:0007267; P:cell-cell signaling; IMP:RGD.
+DR   GO; GO:0098656; P:monoatomic anion transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0006812; P:monoatomic cation transport; ISO:RGD.
+DR   GO; GO:0032730; P:positive regulation of interleukin-1 alpha production; ISO:RGD.
+DR   GO; GO:0032731; P:positive regulation of interleukin-1 beta production; ISO:RGD.
+DR   GO; GO:0060907; P:positive regulation of macrophage cytokine production; ISO:RGD.
+DR   GO; GO:0033198; P:response to ATP; ISO:RGD.
+DR   GO; GO:0002931; P:response to ischemia; ISO:RGD.
+DR   InterPro; IPR000990; Innexin.
+DR   InterPro; IPR039099; Pannexin.
+DR   PANTHER; PTHR15759; PANNEXIN; 1.
+DR   PANTHER; PTHR15759:SF5; PANNEXIN-1; 1.
+DR   Pfam; PF00876; Innexin; 1.
+DR   PROSITE; PS51013; PANNEXIN; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Calcium channel; Calcium transport; Cell membrane; Disulfide bond;
+KW   Endoplasmic reticulum; Glycoprotein; Ion channel; Ion transport; Membrane;
+KW   Phosphoprotein; Reference proteome; S-nitrosylation; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..426
+FT                   /note="Pannexin-1"
+FT                   /id="PRO_0000208487"
+FT   CHAIN           1..378
+FT                   /note="Caspase-activated pannexin-1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96RD7"
+FT                   /id="PRO_0000460044"
+FT   TOPO_DOM        1..40
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        41..61
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00351"
+FT   TOPO_DOM        62..106
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        107..127
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00351"
+FT   TOPO_DOM        128..216
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        217..237
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00351"
+FT   TOPO_DOM        238..277
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        278..298
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00351"
+FT   TOPO_DOM        299..426
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          407..426
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   SITE            375..378
+FT                   /note="Cleavage; by CASP3 or CASP7"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96RD7"
+FT   MOD_RES         40
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JIP4"
+FT   MOD_RES         198
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JIP4"
+FT   MOD_RES         346
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JIP4"
+FT   CARBOHYD        254
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        66..264
+FT                   /evidence="ECO:0000250|UniProtKB:Q96RD7"
+FT   DISULFID        84..245
+FT                   /evidence="ECO:0000250|UniProtKB:Q96RD7"
+SQ   SEQUENCE   426 AA;  48073 MW;  1C2AF8FF058323B4 CRC64;
+     MAIAHLATEY VFSDFLLKEP TEPKFKGLRL ELAVDKMVTC IAVGLPLLLI SLAFAQEISI
+     GTQISCFSPS SFSWRQAAFV DSYCWAAVQQ KNSLQSESGN LPLWLHKFFP YILLLFAILL
+     YLPALFWRFA AAPHLCSDLK FIMEELDKVY NRAIKAAKSA RDLDLRDGPG PPGVTENVGQ
+     SLWEISESHF KYPIVEQYLK TKKNSSHLIM KYISCRLVTF AVVLLACIYL SYYFSLSSLS
+     DEFLCSIKSG VLRNDSTIPD SFQCKLIAVG IFQLLSLINL LVYALLVPVV IYTLFVPFRQ
+     KTDVLKVYEI LPTFDVLHFK SEGYNDLSLY NLFLEENISE LKSYKCLKVL ENIKSNGQGI
+     DPMLLLTNLG MIKMDVIDGK VPMSLQTKGE DQGSQRMDFK DLDLSSETAA NNGEKNSRQR
+     LLNSSC
+//

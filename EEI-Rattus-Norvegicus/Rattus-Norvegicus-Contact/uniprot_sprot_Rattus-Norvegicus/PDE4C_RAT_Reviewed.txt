@@ -1,0 +1,221 @@
+ID   PDE4C_RAT               Reviewed;         536 AA.
+AC   P14644;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 2.
+DT   29-MAY-2024, entry version 140.
+DE   RecName: Full=3',5'-cyclic-AMP phosphodiesterase 4C {ECO:0000305};
+DE            EC=3.1.4.53 {ECO:0000250|UniProtKB:Q08493};
+DE   AltName: Full=DPDE1;
+DE   AltName: Full=cAMP-specific phosphodiesterase 4C {ECO:0000305};
+DE   Flags: Fragment;
+GN   Name=Pde4c {ECO:0000312|RGD:727918}; Synonyms=Dpde1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=7958996; DOI=10.1016/0378-1119(94)90155-4;
+RA   Bolger G.B., Rodgers L., Riggs M.;
+RT   "Differential CNS expression of alternative mRNA isoforms of the mammalian
+RT   genes encoding cAMP-specific phosphodiesterases.";
+RL   Gene 149:237-244(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 153-511.
+RC   TISSUE=Testis;
+RX   PubMed=2546153; DOI=10.1073/pnas.86.14.5325;
+RA   Swinnen J.V., Joseph D.R., Conti M.;
+RT   "Molecular cloning of rat homologues of the Drosophila melanogaster dunce
+RT   cAMP phosphodiesterase: evidence for a family of genes.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 86:5325-5329(1989).
+CC   -!- FUNCTION: Hydrolyzes the second messenger cAMP, which is a key
+CC       regulator of many important physiological processes.
+CC       {ECO:0000250|UniProtKB:Q08493}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3',5'-cyclic AMP + H2O = AMP + H(+); Xref=Rhea:RHEA:25277,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:58165,
+CC         ChEBI:CHEBI:456215; EC=3.1.4.53;
+CC         Evidence={ECO:0000250|UniProtKB:Q08493};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:25278;
+CC         Evidence={ECO:0000250|UniProtKB:Q08493};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q08493};
+CC       Note=Binds 2 divalent metal cations per subunit. Site 1 may
+CC       preferentially bind zinc ions. {ECO:0000250|UniProtKB:Q08493};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q08493};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q07343};
+CC       Note=Binds 2 divalent metal cations per subunit (By similarity). Site 2
+CC       has a preference for magnesium and/or manganese ions (By similarity).
+CC       {ECO:0000250|UniProtKB:Q07343, ECO:0000250|UniProtKB:Q08493};
+CC   -!- PATHWAY: Purine metabolism; 3',5'-cyclic AMP degradation; AMP from
+CC       3',5'-cyclic AMP: step 1/1. {ECO:0000250|UniProtKB:Q08493}.
+CC   -!- SUBUNIT: Part of a complex containing AKAP5, ADCY5, ADCY6 and PKD2.
+CC       {ECO:0000250|UniProtKB:Q3UEI1}.
+CC   -!- SUBCELLULAR LOCATION: Cell projection, cilium
+CC       {ECO:0000250|UniProtKB:Q3UEI1}.
+CC   -!- SIMILARITY: Belongs to the cyclic nucleotide phosphodiesterase family.
+CC       PDE4 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L27061; AAA56858.1; -; mRNA.
+DR   EMBL; M25347; AAA41847.1; -; mRNA.
+DR   PIR; I67945; I67945.
+DR   AlphaFoldDB; P14644; -.
+DR   SMR; P14644; -.
+DR   STRING; 10116.ENSRNOP00000026457; -.
+DR   BindingDB; P14644; -.
+DR   ChEMBL; CHEMBL2094267; -.
+DR   DrugCentral; P14644; -.
+DR   PhosphoSitePlus; P14644; -.
+DR   PaxDb; 10116-ENSRNOP00000026457; -.
+DR   AGR; RGD:727918; -.
+DR   RGD; 727918; Pde4c.
+DR   eggNOG; KOG3689; Eukaryota.
+DR   InParanoid; P14644; -.
+DR   PhylomeDB; P14644; -.
+DR   Reactome; R-RNO-180024; DARPP-32 events.
+DR   Reactome; R-RNO-418555; G alpha (s) signalling events.
+DR   UniPathway; UPA00762; UER00747.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005929; C:cilium; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IBA:GO_Central.
+DR   GO; GO:0004115; F:3',5'-cyclic-AMP phosphodiesterase activity; ISS:UniProtKB.
+DR   GO; GO:0047555; F:3',5'-cyclic-GMP phosphodiesterase activity; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006198; P:cAMP catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019933; P:cAMP-mediated signaling; IBA:GO_Central.
+DR   GO; GO:0061179; P:negative regulation of insulin secretion involved in cellular response to glucose stimulus; IMP:RGD.
+DR   CDD; cd00077; HDc; 1.
+DR   Gene3D; 1.10.1300.10; 3'5'-cyclic nucleotide phosphodiesterase, catalytic domain; 1.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR040844; PDE4_UCR.
+DR   InterPro; IPR023088; PDEase.
+DR   InterPro; IPR002073; PDEase_catalytic_dom.
+DR   InterPro; IPR036971; PDEase_catalytic_dom_sf.
+DR   InterPro; IPR023174; PDEase_CS.
+DR   PANTHER; PTHR11347:SF135; CAMP-SPECIFIC 3',5'-CYCLIC PHOSPHODIESTERASE 4C; 1.
+DR   PANTHER; PTHR11347; CYCLIC NUCLEOTIDE PHOSPHODIESTERASE; 1.
+DR   Pfam; PF18100; PDE4_UCR; 1.
+DR   Pfam; PF00233; PDEase_I; 1.
+DR   PRINTS; PR00387; PDIESTERASE1.
+DR   SMART; SM00471; HDc; 1.
+DR   SUPFAM; SSF109604; HD-domain/PDEase-like; 1.
+DR   PROSITE; PS00126; PDEASE_I_1; 1.
+DR   PROSITE; PS51845; PDEASE_I_2; 1.
+PE   2: Evidence at transcript level;
+KW   cAMP; Cell projection; Cilium; Hydrolase; Magnesium; Manganese;
+KW   Metal-binding; Phosphoprotein; Reference proteome; Zinc.
+FT   CHAIN           <1..536
+FT                   /note="3',5'-cyclic-AMP phosphodiesterase 4C"
+FT                   /id="PRO_0000198813"
+FT   DOMAIN          178..507
+FT                   /note="PDEase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01192"
+FT   REGION          49..69
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        50..67
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        254
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07343"
+FT   BINDING         254
+FT                   /ligand="3',5'-cyclic AMP"
+FT                   /ligand_id="ChEBI:CHEBI:58165"
+FT                   /evidence="ECO:0000250|UniProtKB:Q08499"
+FT   BINDING         254
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07343"
+FT   BINDING         258
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07343"
+FT   BINDING         258
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q08493"
+FT   BINDING         294
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q08493"
+FT   BINDING         295
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07343"
+FT   BINDING         295
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:Q08493"
+FT   BINDING         295
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07343"
+FT   BINDING         295
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q08493"
+FT   BINDING         295
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07343"
+FT   BINDING         412
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07343"
+FT   BINDING         412
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q08493"
+FT   BINDING         463
+FT                   /ligand="3',5'-cyclic AMP"
+FT                   /ligand_id="ChEBI:CHEBI:58165"
+FT                   /evidence="ECO:0000250|UniProtKB:Q08499"
+FT   BINDING         463
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07343"
+FT   BINDING         466
+FT                   /ligand="3',5'-cyclic AMP"
+FT                   /ligand_id="ChEBI:CHEBI:58165"
+FT                   /evidence="ECO:0000250|UniProtKB:Q08499"
+FT   BINDING         466
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07343"
+FT   MOD_RES         507
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q3UEI1"
+FT   CONFLICT        218
+FT                   /note="R -> S (in Ref. 2; AAA41847)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        507
+FT                   /note="S -> N (in Ref. 2; AAA41847)"
+FT                   /evidence="ECO:0000305"
+FT   NON_TER         1
+SQ   SEQUENCE   536 AA;  60064 MW;  87D12BE2C46642F3 CRC64;
+     NSSRTSSAAS DLHGEDMIVT PFAQVLASLR TVRSNVAALA HGAGSATRQA LLGTPPQSSQ
+     QAAPAEESGL QLAQETLEEL DWCLEQLETL QTRRSVGEMA SNKFKRMLNR ELTHLSETSR
+     SGNQVSEYIS QTFLDQQAEV ELPAPPTEDH PWPMAQITGL RKSCHTSLPT AAIPRFGVQT
+     DQEEQLAKEL EDTNKWGLDV FKVAELSGNR PLTAVIFRVL QERDLLKTFQ IPADTLLRYL
+     LTLEGHYHSN VAYHNSIHAA DVVQSAHVLL GTPALEAVFT DLEVLAAIFA CAIHDVDHPG
+     VSNQFLINTN SELALMYNDS SVLENHHLAV GFKLLQGENC DIFQNLSTKQ KLSLRRMVID
+     MVLATDMSKH MSLLADLKTM VETKKVTSLG VLLLDNYSDR IQVLQSLVHC ADLSNPAKPL
+     PLYRQWTERI MAEFFQQGDR ERESGLDISP MCDKHTASVE KSQVGFIDYI AHPLWETWAD
+     LVHPDAQELL DTLEDNREWY QSRVPCSPPH AIGPDRFKFE LTLEETEEEE EEDERH
+//

@@ -1,0 +1,110 @@
+ID   MIIP_RAT                Reviewed;         389 AA.
+AC   Q6AYH0;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   18-MAR-2008, sequence version 2.
+DT   29-MAY-2024, entry version 97.
+DE   RecName: Full=Migration and invasion-inhibitory protein;
+DE   AltName: Full=Invasion-inhibitory protein 45;
+DE            Short=IIp45;
+GN   Name=Miip; Synonyms=Iip45;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-309, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Inhibits glioma cells invasion and down-regulates
+CC       adhesion- and motility-associated genes such as NFKB2 and ICAM1.
+CC       Exhibits opposing effects to IGFBP2 on cell invasion (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with IGFBP2. {ECO:0000250}.
+CC   -!- CAUTION: It is uncertain whether Met-1 or Met-4 is the initiator.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH79047.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079047; AAH79047.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_001017450.1; NM_001017450.1.
+DR   RefSeq; XP_006239441.1; XM_006239379.2.
+DR   RefSeq; XP_006239442.1; XM_006239380.3.
+DR   RefSeq; XP_006239443.1; XM_006239381.2.
+DR   RefSeq; XP_006239468.1; XM_006239406.3.
+DR   RefSeq; XP_006239469.1; XM_006239407.3.
+DR   RefSeq; XP_006239470.1; XM_006239408.2.
+DR   RefSeq; XP_006239471.1; XM_006239409.2.
+DR   AlphaFoldDB; Q6AYH0; -.
+DR   STRING; 10116.ENSRNOP00000032889; -.
+DR   iPTMnet; Q6AYH0; -.
+DR   PhosphoSitePlus; Q6AYH0; -.
+DR   PaxDb; 10116-ENSRNOP00000032889; -.
+DR   Ensembl; ENSRNOT00000035695.6; ENSRNOP00000032889.3; ENSRNOG00000024139.7.
+DR   Ensembl; ENSRNOT00060045539; ENSRNOP00060037809; ENSRNOG00060026286.
+DR   GeneID; 298643; -.
+DR   KEGG; rno:298643; -.
+DR   UCSC; RGD:1587376; rat.
+DR   AGR; RGD:1587376; -.
+DR   CTD; 60672; -.
+DR   RGD; 1587376; Miip.
+DR   eggNOG; ENOG502RZQ8; Eukaryota.
+DR   GeneTree; ENSGT00390000003768; -.
+DR   HOGENOM; CLU_061576_0_0_1; -.
+DR   InParanoid; Q6AYH0; -.
+DR   OMA; PHVPRQK; -.
+DR   OrthoDB; 3174574at2759; -.
+DR   PhylomeDB; Q6AYH0; -.
+DR   TreeFam; TF335829; -.
+DR   PRO; PR:Q6AYH0; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   Bgee; ENSRNOG00000024139; Expressed in testis and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q6AYH0; baseline and differential.
+DR   GO; GO:0030336; P:negative regulation of cell migration; IEA:InterPro.
+DR   GO; GO:0010972; P:negative regulation of G2/M transition of mitotic cell cycle; IEA:InterPro.
+DR   InterPro; IPR031466; MIIP.
+DR   PANTHER; PTHR34831; MIGRATION AND INVASION-INHIBITORY PROTEIN; 1.
+DR   PANTHER; PTHR34831:SF1; MIGRATION AND INVASION-INHIBITORY PROTEIN; 1.
+DR   Pfam; PF15734; MIIP; 1.
+PE   1: Evidence at protein level;
+KW   Phosphoprotein; Reference proteome.
+FT   CHAIN           1..389
+FT                   /note="Migration and invasion-inhibitory protein"
+FT                   /id="PRO_0000324324"
+FT   REGION          44..80
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          131..150
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        44..71
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         309
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   389 AA;  43339 MW;  22554C41CD16F785 CRC64;
+     MTNMAETKDT VQLRLLSLEL LKQLWAGHEA MCQSVTRAAS ESNLDYSSSS NNLEMPLSQE
+     TSASSVAPNS QDKRHVWDPL DSHRGDTYDV AWYGKVNSRV DSLPPATCQH QEPQEGLRPS
+     SVPLLATEGL KRPVSLGGPK GLGPDKAQVP RSLPLRLGKL SKPKVTFSQE SSVPESSWYS
+     RPCLDYDWTA GSLDSSSPVS SESEAYFSML QRFREDNRED CVCNSPEAVF PELQESSGVE
+     EDHECVYCYR INRRLFPEPL DPGAPCCLCG IPRDEQGPQT LVEPVQVRVS IPLSIMDPPH
+     QYRIHRRKSF DASDTFALPR HCLLGWDILP PKSEKTSVPK SLDLWSSVSH GAAQRRNLSA
+     TNPSYQALRS RVPPPFWSEP QVARLCPSH
+//

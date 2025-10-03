@@ -1,0 +1,297 @@
+ID   CP11A_RAT               Reviewed;         526 AA.
+AC   P14137; Q5FWY8; Q6LDR9;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1990, sequence version 1.
+DT   02-OCT-2024, entry version 167.
+DE   RecName: Full=Cholesterol side-chain cleavage enzyme, mitochondrial {ECO:0000303|PubMed:2176216};
+DE            EC=1.14.15.6 {ECO:0000250|UniProtKB:P05108};
+DE   AltName: Full=CYPXIA1;
+DE   AltName: Full=Cholesterol desmolase;
+DE   AltName: Full=Cytochrome P450 11A1;
+DE   AltName: Full=Cytochrome P450(scc);
+DE   Flags: Precursor;
+GN   Name=Cyp11a1 {ECO:0000303|PubMed:21075169}; Synonyms=Cyp11a, Cyp11a-1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2480959; DOI=10.1016/s0021-9258(20)88275-1;
+RA   Oonk R.B., Krasnow J.S., Beattie W.G., Richards J.S.;
+RT   "Cyclic AMP-dependent and -independent regulation of cholesterol side chain
+RT   cleavage cytochrome P-450 (P-450scc) in rat ovarian granulosa cells and
+RT   corpora lutea. cDNA and deduced amino acid sequence of rat P-450scc.";
+RL   J. Biol. Chem. 264:21934-21942(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2176216; DOI=10.1016/s0021-9258(18)45718-3;
+RA   Oonk R.B., Parker K.L., Gibson J.L., Richards J.S.;
+RT   "Rat cholesterol side-chain cleavage cytochrome P-450 (P-450scc) gene.
+RT   Structure and regulation by cAMP in vitro.";
+RL   J. Biol. Chem. 265:22392-22401(1990).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Ovary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 344-526, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Ovary;
+RX   PubMed=3123325; DOI=10.1016/0378-1119(87)90170-3;
+RA   McMasters K.M., Dickson L.A., Shamy R.V., Robischon K., Macdonald G.J.,
+RA   Moyle W.R.;
+RT   "Rat cholesterol side-chain cleavage enzyme (P-450scc): use of a cDNA probe
+RT   to study the hormonal regulation of P-450scc mRNA levels in ovarian
+RT   granulosa cells.";
+RL   Gene 57:1-9(1987).
+RN   [5]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=3948785; DOI=10.1210/endo-118-4-1353;
+RA   Farkash Y., Timberg R., Orly J.;
+RT   "Preparation of antiserum to rat cytochrome P-450 cholesterol side chain
+RT   cleavage, and its use for ultrastructural localization of the
+RT   immunoreactive enzyme by protein A-gold technique.";
+RL   Endocrinology 118:1353-1365(1986).
+RN   [6]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=2170421; DOI=10.1083/jcb.111.4.1373;
+RA   Hanukoglu I., Suh B.S., Himmelhoch S., Amsterdam A.;
+RT   "Induction and mitochondrial localization of cytochrome P450scc system
+RT   enzymes in normal and transformed ovarian granulosa cells.";
+RL   J. Cell Biol. 111:1373-1381(1990).
+RN   [7]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=21075169; DOI=10.1016/j.mce.2010.10.020;
+RA   Pagotto M.A., Roldan M.L., Pagotto R.M., Lugano M.C., Pisani G.B.,
+RA   Rogic G., Molinas S.M., Trumper L., Pignataro O.P., Monasterolo L.A.;
+RT   "Localization and functional activity of cytochrome P450 side chain
+RT   cleavage enzyme (CYP11A1) in the adult rat kidney.";
+RL   Mol. Cell. Endocrinol. 332:253-260(2011).
+CC   -!- FUNCTION: A cytochrome P450 monooxygenase that catalyzes the side-chain
+CC       hydroxylation and cleavage of cholesterol to pregnenolone, the
+CC       precursor of most steroid hormones. Catalyzes three sequential
+CC       oxidation reactions of cholesterol, namely the hydroxylation at C22
+CC       followed with the hydroxylation at C20 to yield 20R,22R-
+CC       hydroxycholesterol that is further cleaved between C20 and C22 to yield
+CC       the C21-steroid pregnenolone and 4-methylpentanal. Mechanistically,
+CC       uses molecular oxygen inserting one oxygen atom into a substrate and
+CC       reducing the second into a water molecule. Two electrons are provided
+CC       by NADPH via a two-protein mitochondrial transfer system comprising
+CC       flavoprotein FDXR (adrenodoxin/ferredoxin reductase) and nonheme iron-
+CC       sulfur protein FDX1 or FDX2 (adrenodoxin/ferredoxin).
+CC       {ECO:0000250|UniProtKB:P05108}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cholesterol + 6 H(+) + 3 O2 + 6 reduced [adrenodoxin] = 4-
+CC         methylpentanal + 4 H2O + 6 oxidized [adrenodoxin] + pregnenolone;
+CC         Xref=Rhea:RHEA:35739, Rhea:RHEA-COMP:9998, Rhea:RHEA-COMP:9999,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16113, ChEBI:CHEBI:16581, ChEBI:CHEBI:17998,
+CC         ChEBI:CHEBI:33737, ChEBI:CHEBI:33738; EC=1.14.15.6;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:35740;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cholesterol + 2 H(+) + O2 + 2 reduced [adrenodoxin] = (22R)-
+CC         hydroxycholesterol + H2O + 2 oxidized [adrenodoxin];
+CC         Xref=Rhea:RHEA:34335, Rhea:RHEA-COMP:9998, Rhea:RHEA-COMP:9999,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16113, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:67237; Evidence={ECO:0000250|UniProtKB:P05108};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:34336;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(22R)-hydroxycholesterol + 2 H(+) + O2 + 2 reduced
+CC         [adrenodoxin] = (20R,22R)-20,22-dihydroxycholesterol + H2O + 2
+CC         oxidized [adrenodoxin]; Xref=Rhea:RHEA:34339, Rhea:RHEA-COMP:9998,
+CC         Rhea:RHEA-COMP:9999, ChEBI:CHEBI:1294, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15379, ChEBI:CHEBI:33737,
+CC         ChEBI:CHEBI:33738, ChEBI:CHEBI:67237;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:34340;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(20R,22R)-20,22-dihydroxycholesterol + 2 H(+) + O2 + 2 reduced
+CC         [adrenodoxin] = 4-methylpentanal + 2 H2O + 2 oxidized [adrenodoxin] +
+CC         pregnenolone; Xref=Rhea:RHEA:34343, Rhea:RHEA-COMP:9998, Rhea:RHEA-
+CC         COMP:9999, ChEBI:CHEBI:1294, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16581, ChEBI:CHEBI:17998,
+CC         ChEBI:CHEBI:33737, ChEBI:CHEBI:33738;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:34344;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC   -!- PATHWAY: Lipid metabolism; C21-steroid hormone metabolism.
+CC       {ECO:0000250|UniProtKB:P05108}.
+CC   -!- PATHWAY: Steroid metabolism; cholesterol metabolism.
+CC       {ECO:0000250|UniProtKB:P05108}.
+CC   -!- SUBUNIT: Interacts with FDX1/adrenodoxin.
+CC       {ECO:0000250|UniProtKB:P05108}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000269|PubMed:21075169, ECO:0000269|PubMed:2170421,
+CC       ECO:0000269|PubMed:3948785}; Peripheral membrane protein {ECO:0000305}.
+CC       Note=Localizes to the matrix side of the mitochondrion inner membrane.
+CC       {ECO:0000269|PubMed:3948785}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the kidney where it localizes to the
+CC       distal convoluted tubule and the thick ascending limb of the loop of
+CC       Henle (at protein level) (PubMed:21075169). In the ovary, highly
+CC       expressed in interstitial cells (at protein level) (PubMed:3948785).
+CC       Also expressed in adrenal gland and testis (PubMed:3123325).
+CC       {ECO:0000269|PubMed:21075169, ECO:0000269|PubMed:3123325,
+CC       ECO:0000269|PubMed:3948785}.
+CC   -!- INDUCTION: Induced by FSH or pregnant mare's serum gonadotropin in
+CC       ovaries of estrogen-treated immature rats in vivo.
+CC   -!- SIMILARITY: Belongs to the cytochrome P450 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J05156; AAA40989.1; -; mRNA.
+DR   EMBL; M63133; AAA40958.1; -; Genomic_DNA.
+DR   EMBL; M63125; AAA40958.1; JOINED; Genomic_DNA.
+DR   EMBL; M63126; AAA40958.1; JOINED; Genomic_DNA.
+DR   EMBL; M63127; AAA40958.1; JOINED; Genomic_DNA.
+DR   EMBL; M63128; AAA40958.1; JOINED; Genomic_DNA.
+DR   EMBL; M63129; AAA40958.1; JOINED; Genomic_DNA.
+DR   EMBL; M63130; AAA40958.1; JOINED; Genomic_DNA.
+DR   EMBL; M63131; AAA40958.1; JOINED; Genomic_DNA.
+DR   EMBL; M63132; AAA40958.1; JOINED; Genomic_DNA.
+DR   EMBL; BC089100; AAH89100.1; -; mRNA.
+DR   EMBL; M22615; AAA62267.1; -; mRNA.
+DR   PIR; A34164; A34164.
+DR   RefSeq; NP_058982.1; NM_017286.3.
+DR   AlphaFoldDB; P14137; -.
+DR   SMR; P14137; -.
+DR   STRING; 10116.ENSRNOP00000010831; -.
+DR   BindingDB; P14137; -.
+DR   ChEMBL; CHEMBL5246; -.
+DR   DrugCentral; P14137; -.
+DR   iPTMnet; P14137; -.
+DR   PhosphoSitePlus; P14137; -.
+DR   PaxDb; 10116-ENSRNOP00000010831; -.
+DR   GeneID; 29680; -.
+DR   KEGG; rno:29680; -.
+DR   UCSC; RGD:69325; rat.
+DR   AGR; RGD:69325; -.
+DR   CTD; 1583; -.
+DR   RGD; 69325; Cyp11a1.
+DR   eggNOG; KOG0159; Eukaryota.
+DR   HOGENOM; CLU_001570_28_4_1; -.
+DR   InParanoid; P14137; -.
+DR   OrthoDB; 2658719at2759; -.
+DR   PhylomeDB; P14137; -.
+DR   BRENDA; 1.14.15.6; 5301.
+DR   Reactome; R-RNO-196108; Pregnenolone biosynthesis.
+DR   Reactome; R-RNO-211976; Endogenous sterols.
+DR   SABIO-RK; P14137; -.
+DR   UniPathway; UPA00229; -.
+DR   UniPathway; UPA00296; -.
+DR   PRO; PR:P14137; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030061; C:mitochondrial crista; IDA:RGD.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IDA:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IDA:UniProtKB.
+DR   GO; GO:0043204; C:perikaryon; IDA:RGD.
+DR   GO; GO:0008386; F:cholesterol monooxygenase (side-chain-cleaving) activity; ISO:RGD.
+DR   GO; GO:0020037; F:heme binding; ISS:UniProtKB.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0018879; P:biphenyl metabolic process; IEP:RGD.
+DR   GO; GO:0006700; P:C21-steroid hormone biosynthetic process; IDA:RGD.
+DR   GO; GO:0071236; P:cellular response to antibiotic; IEP:RGD.
+DR   GO; GO:0071276; P:cellular response to cadmium ion; IEP:RGD.
+DR   GO; GO:0071320; P:cellular response to cAMP; IEP:RGD.
+DR   GO; GO:0044344; P:cellular response to fibroblast growth factor stimulus; IEP:RGD.
+DR   GO; GO:0071372; P:cellular response to follicle-stimulating hormone stimulus; IEP:RGD.
+DR   GO; GO:0071371; P:cellular response to gonadotropin stimulus; IEP:RGD.
+DR   GO; GO:0071347; P:cellular response to interleukin-1; IEP:RGD.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0071375; P:cellular response to peptide hormone stimulus; IEP:RGD.
+DR   GO; GO:0071560; P:cellular response to transforming growth factor beta stimulus; IEP:RGD.
+DR   GO; GO:0071356; P:cellular response to tumor necrosis factor; IEP:RGD.
+DR   GO; GO:0021549; P:cerebellum development; IEP:RGD.
+DR   GO; GO:0008203; P:cholesterol metabolic process; ISS:UniProtKB.
+DR   GO; GO:0034650; P:cortisol metabolic process; IBA:GO_Central.
+DR   GO; GO:0018894; P:dibenzo-p-dioxin metabolic process; IEP:RGD.
+DR   GO; GO:0006704; P:glucocorticoid biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0060014; P:granulosa cell differentiation; IEP:RGD.
+DR   GO; GO:0021766; P:hippocampus development; IEP:RGD.
+DR   GO; GO:0033327; P:Leydig cell differentiation; IEP:RGD.
+DR   GO; GO:0008584; P:male gonad development; IEP:RGD.
+DR   GO; GO:0060135; P:maternal process involved in female pregnancy; IEP:RGD.
+DR   GO; GO:0007617; P:mating behavior; IMP:RGD.
+DR   GO; GO:0006082; P:organic acid metabolic process; IEP:RGD.
+DR   GO; GO:0018958; P:phenol-containing compound metabolic process; IEP:RGD.
+DR   GO; GO:0018963; P:phthalate metabolic process; IEP:RGD.
+DR   GO; GO:0043279; P:response to alkaloid; IEP:RGD.
+DR   GO; GO:0043200; P:response to amino acid; IEP:RGD.
+DR   GO; GO:0046686; P:response to cadmium ion; IEP:RGD.
+DR   GO; GO:0051591; P:response to cAMP; IEP:RGD.
+DR   GO; GO:0051412; P:response to corticosterone; IEP:RGD.
+DR   GO; GO:0043627; P:response to estrogen; IEP:RGD.
+DR   GO; GO:0060992; P:response to fungicide; IEP:RGD.
+DR   GO; GO:0010332; P:response to gamma radiation; IEP:RGD.
+DR   GO; GO:0033595; P:response to genistein; IEP:RGD.
+DR   GO; GO:0034698; P:response to gonadotropin; IEP:RGD.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; IMP:RGD.
+DR   GO; GO:0017085; P:response to insecticide; IEP:RGD.
+DR   GO; GO:0010212; P:response to ionizing radiation; IEP:RGD.
+DR   GO; GO:0033591; P:response to L-ascorbic acid; IEP:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:0043434; P:response to peptide hormone; IEP:RGD.
+DR   GO; GO:0009651; P:response to salt stress; IEP:RGD.
+DR   GO; GO:0048545; P:response to steroid hormone; IEP:RGD.
+DR   GO; GO:0033197; P:response to vitamin E; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0014037; P:Schwann cell differentiation; IEP:RGD.
+DR   GO; GO:0006694; P:steroid biosynthetic process; IMP:RGD.
+DR   GO; GO:0061370; P:testosterone biosynthetic process; IEP:RGD.
+DR   Gene3D; 1.10.630.10; Cytochrome P450; 1.
+DR   InterPro; IPR050479; CYP11_CYP27_families.
+DR   InterPro; IPR001128; Cyt_P450.
+DR   InterPro; IPR017972; Cyt_P450_CS.
+DR   InterPro; IPR002401; Cyt_P450_E_grp-I.
+DR   InterPro; IPR036396; Cyt_P450_sf.
+DR   PANTHER; PTHR24279; -; 1.
+DR   PANTHER; PTHR24279:SF3; CHOLESTEROL SIDE-CHAIN CLEAVAGE ENZYME, MITOCHONDRIAL; 1.
+DR   Pfam; PF00067; p450; 1.
+DR   PRINTS; PR00463; EP450I.
+DR   PRINTS; PR00385; P450.
+DR   SUPFAM; SSF48264; Cytochrome P450; 1.
+DR   PROSITE; PS00086; CYTOCHROME_P450; 1.
+PE   1: Evidence at protein level;
+KW   Cholesterol metabolism; Heme; Iron; Lipid metabolism; Membrane;
+KW   Metal-binding; Mitochondrion; Mitochondrion inner membrane; Monooxygenase;
+KW   Oxidoreductase; Reference proteome; Steroid metabolism; Steroidogenesis;
+KW   Sterol metabolism; Transit peptide.
+FT   TRANSIT         1..36
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000250|UniProtKB:P00189"
+FT   CHAIN           37..526
+FT                   /note="Cholesterol side-chain cleavage enzyme,
+FT                   mitochondrial"
+FT                   /id="PRO_0000003590"
+FT   BINDING         459
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000250|UniProtKB:P05108"
+SQ   SEQUENCE   526 AA;  60586 MW;  B2930E40018DC1EE CRC64;
+     MLAKGLCLRS VLVKSCQPFL SPVWQGPGLA TGNGAGISST NSPRSFNEIP SPGDNGWINL
+     YHFLRENGTH RIHYHHMQNF QKYGPIYREK LGNMESVYIL DPKDAATLFS CEGPNPERYL
+     VPPWVAYHQY YQRPIGVLFK SSDAWRKDRI VLNQEVMAPD SIKNFVPLLE GVAQDFIKVL
+     HRRIKQQNSG KFSGDISDDL FRFAFESITS VVFGERLGML EEIVDPESQR FIDAVYQMFH
+     TSVPMLNMPP DLFRLFRTKT WKDHAAAWDV IFSKADEYTQ NFYWDLRQKR DFSKYPGVLY
+     SLLGGNKLPF KNIQANITEM LAGGVDTTSM TLQWNLYEMA HNLKVQEMLR AEVLAARRQA
+     QGDMAKMVQL VPLLKASIKE TLRLHPISVT LQRYIVNDLV LRNYKIPAKT LVQVASYAMG
+     RESSFFPNPN KFDPTRWLEK SQNTTHFRYL GFGWGVRQCL GRRIAELEMT IFLINVLENF
+     RIEVQSIRDV GTKFNLILMP EKPIFFNFQP LKQDLGSTMP RKGDTV
+//

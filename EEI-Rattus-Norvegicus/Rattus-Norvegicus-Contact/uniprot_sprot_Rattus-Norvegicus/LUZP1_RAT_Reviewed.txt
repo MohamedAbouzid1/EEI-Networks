@@ -1,0 +1,176 @@
+ID   LUZP1_RAT               Reviewed;        1051 AA.
+AC   Q9ESV1;
+DT   16-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   24-JUL-2024, entry version 90.
+DE   RecName: Full=Leucine zipper protein 1;
+DE   AltName: Full=Leucine zipper motif-containing protein;
+GN   Name=Luzp1; Synonyms=Luzp;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Brain;
+RX   PubMed=8812416; DOI=10.1006/geno.1996.0425;
+RA   Sun D.-S., Chang A.C., Jenkins N.A., Gilbert D.J., Copeland N.G.,
+RA   Chang N.-C.A.;
+RT   "Identification, molecular characterization, and chromosomal localization
+RT   of the cDNA encoding a novel leucine zipper motif-containing protein.";
+RL   Genomics 36:54-62(1996).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-261; SER-612 AND SER-660, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton, microtubule organizing
+CC       center, centrosome {ECO:0000250|UniProtKB:Q86V48}. Nucleus
+CC       {ECO:0000269|PubMed:8812416}. Note=Also detected in soma and dendrites
+CC       of neurons. {ECO:0000269|PubMed:8812416}.
+CC   -!- TISSUE SPECIFICITY: Expressed in cerebral cortex, cerebellum,
+CC       hippocampus and brain stem. {ECO:0000269|PubMed:8812416}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF181259; AAG02142.1; -; mRNA.
+DR   AlphaFoldDB; Q9ESV1; -.
+DR   SMR; Q9ESV1; -.
+DR   STRING; 10116.ENSRNOP00000016514; -.
+DR   iPTMnet; Q9ESV1; -.
+DR   PhosphoSitePlus; Q9ESV1; -.
+DR   PaxDb; 10116-ENSRNOP00000016514; -.
+DR   PeptideAtlas; Q9ESV1; -.
+DR   AGR; RGD:61839; -.
+DR   RGD; 61839; Luzp1.
+DR   eggNOG; ENOG502QV81; Eukaryota.
+DR   InParanoid; Q9ESV1; -.
+DR   PRO; PR:Q9ESV1; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005813; C:centrosome; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-KW.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0060840; P:artery development; ISO:RGD.
+DR   GO; GO:0021503; P:neural fold bending; ISO:RGD.
+DR   GO; GO:0003281; P:ventricular septum development; ISO:RGD.
+DR   InterPro; IPR050719; Cortactin-Actin_Reg.
+DR   PANTHER; PTHR23166; FILAMIN/GPBP-INTERACTING PROTEIN; 1.
+DR   PANTHER; PTHR23166:SF7; LEUCINE ZIPPER PROTEIN 1; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Coiled coil; Cytoplasm; Cytoskeleton; Nucleus; Phosphoprotein;
+KW   Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   CHAIN           2..1051
+FT                   /note="Leucine zipper protein 1"
+FT                   /id="PRO_0000234552"
+FT   REGION          247..293
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          374..401
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          432..554
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          569..601
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          675..727
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          789..837
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          929..1000
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          11..354
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        256..293
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        789..805
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        816..837
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        945..962
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        984..1000
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   MOD_RES         256
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   MOD_RES         261
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         395
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   MOD_RES         513
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   MOD_RES         571
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   MOD_RES         575
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   MOD_RES         612
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         660
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         680
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   MOD_RES         691
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   MOD_RES         746
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   MOD_RES         906
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   MOD_RES         957
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+FT   MOD_RES         993
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86V48"
+SQ   SEQUENCE   1051 AA;  117176 MW;  FE1F3D7100326843 CRC64;
+     MADIANYKDA ASNRHLRFKL QSLSRRLDEL EEATKNLQKA EDELLDLQDK VIQAEGSNSS
+     MLAEIEVLRQ RVLKIEGKDE EIKRAEDLCH TMKEKLEEEE NLTRELKSEI DRLQKRMADL
+     EKLEEALSRS KNECSQLCLS LNEERNLTKK ISSELEMLRV KVKELESSED RLEKTEQSLV
+     SELEKLKSLT LSFVNERKYL NEKEKENEKL IKELTQKLEQ NKKINRDHMR NASTFLERND
+     LRIEDGISST LPSKESRRKG SLDYLKQVEN ETRDKSENEK NRNQEDNKVK DLNQEIEKLK
+     TQIKHFESLE EELKKMRAKN NDLQDNYLTE LNKNRSLASQ LEEVKLQVKK QKELGNGDIE
+     GEDAFLLGRG RHERTKLKGH GGEVSVSKHT SREQSPQHKR ERLRNRGFAL NDEHCSLSNK
+     QVSSPAFTNK RAAKASNMGV GPDSGTQETK RTEDRLAPGS SQSEGKKGRE QPSVLSRYPP
+     AAQDHTKVWR GNPKPGTESG LKGKVEKTTR TFSDSAHGSV PNDVVGKGDK TSDFSSEAHC
+     GKRGQVPGHA SQVTQVAESG CSKAIGALAS SQRASSEGLS KGKKAANGLE TDANFPHSKA
+     PILSKYPYSS RSQENILQGF SVPNKEGVDH SVAVVMEDSS QHEALRCRVI KSSGREKPDS
+     DDDLDIESLV TAKLVNTTIT PEPEPKLQPN SREKVKSRGG TRTPLFENDK NAAVENDSAK
+     SMRSSSNAVE FPDANCAGVK NQRPFSPREA LRSRAIIKPV IIDKDVKKIM GGSGTEVVLE
+     KQKSTPKSVT SKVTSSITIY PSDSSGPRAV PTEAPRERHT STSNIQVGPP ELTSVSNHIS
+     SPLELSIHKH DITLQLTEAE RVGDGSPKNR AETVVSRSSI LIKPSDSVER NSHAFPAETI
+     RWKSHSTSSE VASSDTRHIT VRNAWKSKRD LKCSEDPPTR IGRNVEATNA YTQRSSTDFL
+     ELEQPRSHPP EQGTRKVGNS GDAPELSSRR TQSSLTASEV LTRRNRIGDA VTAASWNHSS
+     NVVSLTFLPS ALICLTEDLG NTEGWEMLNL R
+//

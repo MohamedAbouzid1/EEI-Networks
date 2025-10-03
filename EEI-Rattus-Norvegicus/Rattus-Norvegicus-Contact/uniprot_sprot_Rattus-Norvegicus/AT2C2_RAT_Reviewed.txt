@@ -1,0 +1,287 @@
+ID   AT2C2_RAT               Reviewed;         944 AA.
+AC   Q8R4C1;
+DT   16-DEC-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   24-JAN-2024, entry version 128.
+DE   RecName: Full=Calcium-transporting ATPase type 2C member 2;
+DE            Short=ATPase 2C2;
+DE            EC=7.2.2.10 {ECO:0000250|UniProtKB:O75185};
+DE   AltName: Full=Ca(2+)/Mn(2+)-ATPase 2C2 {ECO:0000250|UniProtKB:O75185};
+DE   AltName: Full=Secretory pathway Ca(2+)-transporting ATPase type 2;
+DE            Short=SPCA2 {ECO:0000303|Ref.1};
+GN   Name=Atp2c2; Synonyms=Spca2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Duodenum;
+RA   Kostina M.B., Pestov N.B., Korneenko T.V., Shakhparonov M.I.;
+RT   "Second isoform of mammalian secretory pathway Ca-ATPase, SPCA2.";
+RL   Submitted (FEB-2002) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: ATP-driven pump that supplies the Golgi apparatus with Ca(2+)
+CC       and Mn(2+) ions, both essential cofactors for processing and
+CC       trafficking of newly synthesized proteins in the secretory pathway.
+CC       Within a catalytic cycle, acquires Ca(2+) or Mn(2+) ions on the
+CC       cytoplasmic side of the membrane and delivers them to the lumenal side.
+CC       The transfer of ions across the membrane is coupled to ATP hydrolysis
+CC       and is associated with a transient phosphorylation that shifts the pump
+CC       conformation from inward-facing to outward-facing state. Induces Ca(2+)
+CC       influx independently of its ATP-driven pump function. At the
+CC       basolateral membrane of mammary epithelial cells, interacts with Ca(2+)
+CC       channel ORAI1 and mediates Ca(2+) entry independently of the Ca(2+)
+CC       content of endoplasmic reticulum or Golgi stores. May facilitate
+CC       transepithelial transport of large quantities of Ca(2+) for milk
+CC       secretion via activation of Ca(2+) influx channels at the plasma
+CC       membrane and active Ca(2+) transport at the Golgi apparatus.
+CC       {ECO:0000250|UniProtKB:A7L9Z8, ECO:0000250|UniProtKB:O75185}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + Ca(2+)(in) + H2O = ADP + Ca(2+)(out) + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:18105, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29108, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:456216; EC=7.2.2.10;
+CC         Evidence={ECO:0000250|UniProtKB:O75185};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:18106;
+CC         Evidence={ECO:0000250|UniProtKB:O75185};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + Mn(2+)(in) = ADP + H(+) + Mn(2+)(out) + phosphate;
+CC         Xref=Rhea:RHEA:66820, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29035, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:456216; Evidence={ECO:0000250|UniProtKB:O75185};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:66821;
+CC         Evidence={ECO:0000250|UniProtKB:O75185};
+CC   -!- SUBUNIT: Interacts (via N-terminus) with ORAI1 (via N- and C-termini);
+CC       this interaction regulates Ca(2+) influx at the plasma membrane.
+CC       {ECO:0000250|UniProtKB:O75185}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus, trans-Golgi network membrane
+CC       {ECO:0000250|UniProtKB:O75185}; Multi-pass membrane protein
+CC       {ECO:0000255}. Cell membrane {ECO:0000250|UniProtKB:O75185}; Multi-pass
+CC       membrane protein {ECO:0000255}. Basolateral cell membrane
+CC       {ECO:0000250|UniProtKB:A7L9Z8}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the cation transport ATPase (P-type) (TC 3.A.3)
+CC       family. Type IIA subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF484685; AAL91565.1; -; mRNA.
+DR   RefSeq; NP_604457.1; NM_134462.1.
+DR   AlphaFoldDB; Q8R4C1; -.
+DR   SMR; Q8R4C1; -.
+DR   STRING; 10116.ENSRNOP00000066506; -.
+DR   PhosphoSitePlus; Q8R4C1; -.
+DR   PaxDb; 10116-ENSRNOP00000066506; -.
+DR   Ensembl; ENSRNOT00000074753.3; ENSRNOP00000066506.3; ENSRNOG00000049334.3.
+DR   Ensembl; ENSRNOT00055036746; ENSRNOP00055029836; ENSRNOG00055021492.
+DR   Ensembl; ENSRNOT00060027567; ENSRNOP00060022144; ENSRNOG00060016097.
+DR   Ensembl; ENSRNOT00065010836; ENSRNOP00065007990; ENSRNOG00065006948.
+DR   GeneID; 171496; -.
+DR   KEGG; rno:171496; -.
+DR   AGR; RGD:620647; -.
+DR   CTD; 9914; -.
+DR   RGD; 620647; Atp2c2.
+DR   eggNOG; KOG0202; Eukaryota.
+DR   GeneTree; ENSGT00940000160275; -.
+DR   InParanoid; Q8R4C1; -.
+DR   OMA; IGWVQGK; -.
+DR   OrthoDB; 203629at2759; -.
+DR   PhylomeDB; Q8R4C1; -.
+DR   Reactome; R-RNO-936837; Ion transport by P-type ATPases.
+DR   PRO; PR:Q8R4C1; -.
+DR   Proteomes; UP000002494; Chromosome 19.
+DR   GO; GO:0016323; C:basolateral plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009898; C:cytoplasmic side of plasma membrane; ISO:RGD.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; ISO:RGD.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; IBA:GO_Central.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0032588; C:trans-Golgi network membrane; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005388; F:P-type calcium transporter activity; ISS:UniProtKB.
+DR   GO; GO:0140613; F:P-type manganese transporter activity; ISO:RGD.
+DR   GO; GO:0070588; P:calcium ion transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0006874; P:intracellular calcium ion homeostasis; IBA:GO_Central.
+DR   GO; GO:0061180; P:mammary gland epithelium development; ISO:RGD.
+DR   GO; GO:0006828; P:manganese ion transport; IBA:GO_Central.
+DR   GO; GO:0090280; P:positive regulation of calcium ion import; ISO:RGD.
+DR   GO; GO:0072659; P:protein localization to plasma membrane; ISO:RGD.
+DR   CDD; cd02085; P-type_ATPase_SPCA; 1.
+DR   Gene3D; 3.40.1110.10; Calcium-transporting ATPase, cytoplasmic domain N; 1.
+DR   Gene3D; 2.70.150.10; Calcium-transporting ATPase, cytoplasmic transduction domain A; 1.
+DR   Gene3D; 1.20.1110.10; Calcium-transporting ATPase, transmembrane domain; 1.
+DR   Gene3D; 3.40.50.1000; HAD superfamily/HAD-like; 1.
+DR   InterPro; IPR006068; ATPase_P-typ_cation-transptr_C.
+DR   InterPro; IPR004014; ATPase_P-typ_cation-transptr_N.
+DR   InterPro; IPR023299; ATPase_P-typ_cyto_dom_N.
+DR   InterPro; IPR018303; ATPase_P-typ_P_site.
+DR   InterPro; IPR023298; ATPase_P-typ_TM_dom_sf.
+DR   InterPro; IPR008250; ATPase_P-typ_transduc_dom_A_sf.
+DR   InterPro; IPR036412; HAD-like_sf.
+DR   InterPro; IPR023214; HAD_sf.
+DR   InterPro; IPR006413; P-type_ATPase_IIA_PMR1.
+DR   InterPro; IPR001757; P_typ_ATPase.
+DR   InterPro; IPR044492; P_typ_ATPase_HD_dom.
+DR   NCBIfam; TIGR01522; ATPase-IIA2_Ca; 1.
+DR   NCBIfam; TIGR01494; ATPase_P-type; 2.
+DR   PANTHER; PTHR42861; CALCIUM-TRANSPORTING ATPASE; 1.
+DR   PANTHER; PTHR42861:SF23; CALCIUM-TRANSPORTING ATPASE TYPE 2C MEMBER 2; 1.
+DR   Pfam; PF13246; Cation_ATPase; 1.
+DR   Pfam; PF00689; Cation_ATPase_C; 1.
+DR   Pfam; PF00690; Cation_ATPase_N; 1.
+DR   Pfam; PF00122; E1-E2_ATPase; 1.
+DR   Pfam; PF00702; Hydrolase; 1.
+DR   PRINTS; PR00119; CATATPASE.
+DR   PRINTS; PR00120; HATPASE.
+DR   SFLD; SFLDS00003; Haloacid_Dehalogenase; 1.
+DR   SFLD; SFLDF00027; p-type_atpase; 1.
+DR   SMART; SM00831; Cation_ATPase_N; 1.
+DR   SUPFAM; SSF81653; Calcium ATPase, transduction domain A; 1.
+DR   SUPFAM; SSF81665; Calcium ATPase, transmembrane domain M; 1.
+DR   SUPFAM; SSF56784; HAD-like; 1.
+DR   SUPFAM; SSF81660; Metal cation-transporting ATPase, ATP-binding domain N; 1.
+DR   PROSITE; PS00154; ATPASE_E1_E2; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Calcium; Calcium transport; Cell membrane; Golgi apparatus;
+KW   Ion transport; Magnesium; Membrane; Metal-binding; Nucleotide-binding;
+KW   Phosphoprotein; Reference proteome; Translocase; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..944
+FT                   /note="Calcium-transporting ATPase type 2C member 2"
+FT                   /id="PRO_0000356157"
+FT   TOPO_DOM        1..104
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        105..125
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        126..127
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        128..148
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        149..229
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        230..250
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        251..291
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        292..312
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        313..329
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        330..350
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        351..748
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        749..769
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        770..802
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        803..823
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        824..835
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        836..853
+FT                   /note="Helical; Name=8"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        854..872
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        873..893
+FT                   /note="Helical; Name=9"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        894..903
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        904..924
+FT                   /note="Helical; Name=10"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        925..944
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          69..93
+FT                   /note="Interaction with ORAI1"
+FT                   /evidence="ECO:0000250|UniProtKB:O75185"
+FT   ACT_SITE        377
+FT                   /note="4-aspartylphosphate intermediate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         330
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         331
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         333
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         335
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         672
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         676
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         766
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         770
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         262
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:O75185"
+FT   MOD_RES         266
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O75185"
+SQ   SEQUENCE   944 AA;  103020 MW;  EA1CF6891B3218B5 CRC64;
+     MGRRFKFLQK LAFLGQNHRY KALERDEVDT LIDEQYELKA IEREKAVAAL PPREACKCSK
+     EELARTFHVD LDSGLSEFAV AQRRLVHGWN EFVTDNTEPV WKKYLDQFRN PLILLLLGSS
+     VVSVLTKEYE DAISIALAVL IVVTVGFIQE YRSEKSLEEL TKLVPPECNC LRDGKLRHML
+     ARDLVPGDVV SLSMGDRIPA DIRLTEVTDL LVDESSFTGE VEPCSKTDSP LAGGGDLSTL
+     SNVVFMGTLV QCGKGQGVVI GTGEQSQFGE VFKMMRAEET PKTPLQKSMD KLGKQLTVFS
+     FGIIGLLMLV GWVQGKPLLS MFTIGVSLAV AAIPEGLPIV VMVTLVLGVL RMAKKRVIVK
+     KLPIVETLGC CNVICSDKTG TLTANEMTAT QLVTSDGFHA EVSGIGYSGE GTVCLLPSKE
+     VIKEFSNVSV GKLVEAGCVA NNAVVRKNAV MGQPTEGALV VLAMKMNLGS IKDSYIRKKE
+     IPFSSEQKWM AVRCSLKNED EEDVYFMKGA FEEVIHHCST YNNGGIPLPL TPQQKSYCQQ
+     EEKKMGSLGL RVLALASGPE LGRLTFLGLV GIIDPPRAGV KEAVQALSES DVSVKMVTGD
+     ALETALAIGR TIGLCDEKLK AMSGEEVEGM EQDALAARVR QVSVFFRTSP KHKVKIIKAL
+     QESGAIVAMT GDGVNDSVAL KSADIGIAMG QTGTDVSKEA ADMILVDDDF SAIMSAVEEG
+     KGIFYNIKNF VRFQLSTSIA ALSLITLSTV CNLPNPLNAM QILWVNIIMD GPPAQSLGVE
+     PVDRDALKRP PRSVKDTILN RALILKILMS AAVILGGTLF IFWREIPENR TSTPRTTTMA
+     FTCFVFFDLF NALSCRSQTK LIFEIGFFRN RMFLYSILGS LLGQLAVIYA PPLQKVFQTE
+     NLSALDLLLL TGLASSVFIL SELLKLCEKF CSRAKADQML PEAV
+//

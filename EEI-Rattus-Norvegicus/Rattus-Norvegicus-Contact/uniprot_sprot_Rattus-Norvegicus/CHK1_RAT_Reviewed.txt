@@ -1,0 +1,333 @@
+ID   CHK1_RAT                Reviewed;         476 AA.
+AC   Q91ZN7; Q91ZN6;
+DT   27-SEP-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   02-OCT-2024, entry version 165.
+DE   RecName: Full=Serine/threonine-protein kinase Chk1;
+DE            EC=2.7.11.1 {ECO:0000250|UniProtKB:O14757};
+DE   AltName: Full=CHK1 checkpoint homolog;
+DE   AltName: Full=Checkpoint kinase-1;
+GN   Name=Chek1; Synonyms=Chk1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), ALTERNATIVE PROMOTER USAGE,
+RP   AND TISSUE SPECIFICITY.
+RC   TISSUE=Liver;
+RX   PubMed=11687578; DOI=10.1074/jbc.m108253200;
+RA   Shann Y.-J., Hsu M.-T.;
+RT   "Cloning and characterization of liver-specific isoform of Chk1 gene from
+RT   rat.";
+RL   J. Biol. Chem. 276:48863-48870(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   STRAIN=Fischer 344;
+RA   Wang X., Wang Y.;
+RT   "The rat homolog of checkpoint kinase chk1.";
+RL   Submitted (NOV-2001) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Serine/threonine-protein kinase which is required for
+CC       checkpoint-mediated cell cycle arrest and activation of DNA repair in
+CC       response to the presence of DNA damage or unreplicated DNA. May also
+CC       negatively regulate cell cycle progression during unperturbed cell
+CC       cycles. This regulation is achieved by a number of mechanisms that
+CC       together help to preserve the integrity of the genome. Recognizes the
+CC       substrate consensus sequence [R-X-X-S/T]. Binds to and phosphorylates
+CC       CDC25A, CDC25B and CDC25C. Phosphorylation of CDC25A at 'Ser-178' and
+CC       'Thr-507' and phosphorylation of CDC25C at 'Ser-216' creates binding
+CC       sites for 14-3-3 proteins which inhibit CDC25A and CDC25C.
+CC       Phosphorylation of CDC25A at 'Ser-76', 'Ser-124', 'Ser-178', 'Ser-279'
+CC       and 'Ser-293' promotes proteolysis of CDC25A. Phosphorylation of CDC25A
+CC       at 'Ser-76' primes the protein for subsequent phosphorylation at 'Ser-
+CC       79', 'Ser-82' and 'Ser-88' by NEK11, which is required for
+CC       polyubiquitination and degradation of CDCD25A. Inhibition of CDC25
+CC       leads to increased inhibitory tyrosine phosphorylation of CDK-cyclin
+CC       complexes and blocks cell cycle progression. Also phosphorylates NEK6.
+CC       Binds to and phosphorylates RAD51 at 'Thr-309', which promotes the
+CC       release of RAD51 from BRCA2 and enhances the association of RAD51 with
+CC       chromatin, thereby promoting DNA repair by homologous recombination.
+CC       Phosphorylates multiple sites within the C-terminus of TP53, which
+CC       promotes activation of TP53 by acetylation and promotes cell cycle
+CC       arrest and suppression of cellular proliferation. Also promotes repair
+CC       of DNA cross-links through phosphorylation of FANCE. Binds to and
+CC       phosphorylates TLK1 at 'Ser-743', which prevents the TLK1-dependent
+CC       phosphorylation of the chromatin assembly factor ASF1A. This may
+CC       enhance chromatin assembly both in the presence or absence of DNA
+CC       damage. May also play a role in replication fork maintenance through
+CC       regulation of PCNA (By similarity). May regulate the transcription of
+CC       genes that regulate cell-cycle progression through the phosphorylation
+CC       of histones. Phosphorylates histone H3.1 (to form H3T11ph), which leads
+CC       to epigenetic inhibition of a subset of genes (By similarity). May also
+CC       phosphorylate RB1 to promote its interaction with the E2F family of
+CC       transcription factors and subsequent cell cycle arrest. Phosphorylates
+CC       SPRTN, promoting SPRTN recruitment to chromatin (By similarity).
+CC       Reduces replication stress and activates the G2/M checkpoint, by
+CC       phosphorylating and inactivating PABIR1/FAM122A and promoting the
+CC       serine/threonine-protein phosphatase 2A-mediated dephosphorylation and
+CC       stabilization of WEE1 levels and activity (By similarity).
+CC       {ECO:0000250|UniProtKB:O14757, ECO:0000250|UniProtKB:O35280}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000250|UniProtKB:O14757};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1; Evidence={ECO:0000250|UniProtKB:O14757};
+CC   -!- ACTIVITY REGULATION: Activated through phosphorylation predominantly by
+CC       ATR but also by ATM in response to DNA damage or inhibition of DNA
+CC       replication. Activation is modulated by several mediators including
+CC       CLSPN, BRCA1 and FEM1B. Proteolytic cleavage at the C-terminus by SPRTN
+CC       during normal DNA replication activates the protein kinase activity.
+CC       {ECO:0000250|UniProtKB:O14757}.
+CC   -!- SUBUNIT: Interacts (phosphorylated by ATR) with RAD51. Interacts with
+CC       and phosphorylates CLSPN, an adapter protein that regulates the ATR-
+CC       dependent phosphorylation of CHEK1. Interacts with BRCA1. Interacts
+CC       with and phosphorylates CDC25A, CDC25B and CDC25C. Interacts with
+CC       FBXO6, which regulates CHEK1. Interacts with PPM1D, which regulates
+CC       CHEK1 through dephosphorylation. Interacts with TIMELESS; DNA damage-
+CC       dependent. Interacts with FEM1B; activates CHEK1 in response to stress.
+CC       Interacts with TLK1. Interacts with XPO1 and YWHAZ. Interacts with
+CC       CDK5RAP3; antagonizes CHEK1. {ECO:0000250|UniProtKB:O14757}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:O14757}.
+CC       Chromosome {ECO:0000250|UniProtKB:O14757}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:O14757}. Cytoplasm, cytoskeleton, microtubule
+CC       organizing center, centrosome {ECO:0000250|UniProtKB:O14757}.
+CC       Note=Nuclear export is mediated at least in part by XPO1/CRM1. Also
+CC       localizes to the centrosome specifically during interphase, where it
+CC       may protect centrosomal CDC2 kinase from inappropriate activation by
+CC       cytoplasmic CDC25B. Proteolytic cleavage at the C-terminus by SPRTN
+CC       promotes removal from chromatin. {ECO:0000250|UniProtKB:O14757}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative promoter usage; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q91ZN7-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q91ZN7-2; Sequence=VSP_015770;
+CC   -!- TISSUE SPECIFICITY: [Isoform 1]: Expressed in brain, heart, liver,
+CC       lung, skeletal muscle, spleen and testis.
+CC       {ECO:0000269|PubMed:11687578}.
+CC   -!- TISSUE SPECIFICITY: [Isoform 2]: Expressed only in liver.
+CC       {ECO:0000269|PubMed:11687578}.
+CC   -!- DOMAIN: The autoinhibitory region (AIR) inhibits the activity of the
+CC       kinase domain. {ECO:0000250|UniProtKB:O14757}.
+CC   -!- PTM: Phosphorylated by ATR in a RAD17-dependent manner in response to
+CC       ultraviolet irradiation and inhibition of DNA replication.
+CC       Phosphorylated by ATM in response to ionizing irradiation. ATM and ATR
+CC       can both phosphorylate Ser-317 and Ser-345 and this results in enhanced
+CC       kinase activity. Phosphorylation at Ser-345 induces a change in the
+CC       conformation of the protein, activates the kinase activity and is a
+CC       prerequisite for interaction with FBXO6 and subsequent ubiquitination
+CC       at Lys-436. Phosphorylation at Ser-345 also increases binding to 14-3-3
+CC       proteins and promotes nuclear retention. Conversely, dephosphorylation
+CC       at Ser-345 by PPM1D may contribute to exit from checkpoint mediated
+CC       cell cycle arrest. Phosphorylation at Ser-280 by AKT1/PKB, may promote
+CC       mono and/or diubiquitination. Also phosphorylated at undefined residues
+CC       during mitotic arrest, resulting in decreased activity (By similarity).
+CC       {ECO:0000250|UniProtKB:O14757}.
+CC   -!- PTM: Ubiquitinated. Mono or diubiquitination promotes nuclear
+CC       exclusion. The activated form (phosphorylated on Ser-345) is
+CC       polyubiquitinated at Lys-436 by some SCF-type E3 ubiquitin ligase
+CC       complex containing FBXO6 promoting its degradation. Ubiquitination and
+CC       degradation are required to terminate the checkpoint and ensure that
+CC       activated CHEK1 does not accumulate as cells progress through S phase,
+CC       when replication forks encounter transient impediments during normal
+CC       DNA replication. 'Lys-63'-mediated ubiquitination by TRAF4 at Lys-132
+CC       activates cell cycle arrest and activation of DNA repair (By
+CC       similarity). {ECO:0000250|UniProtKB:O14757}.
+CC   -!- PTM: Proteolytically cleaved at the C-terminus by SPRTN during normal
+CC       DNA replication, thereby promoting CHEK1 removal from chromatin and
+CC       activating the protein kinase activity. {ECO:0000250|UniProtKB:O14757}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK Ser/Thr
+CC       protein kinase family. NIM1 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF414135; AAK98619.1; -; mRNA.
+DR   EMBL; AF414136; AAK98620.1; -; mRNA.
+DR   EMBL; AF443592; AAL37894.1; -; mRNA.
+DR   RefSeq; NP_536325.1; NM_080400.1. [Q91ZN7-1]
+DR   RefSeq; XP_008764264.1; XM_008766042.2. [Q91ZN7-1]
+DR   RefSeq; XP_008764265.1; XM_008766043.1. [Q91ZN7-1]
+DR   AlphaFoldDB; Q91ZN7; -.
+DR   SMR; Q91ZN7; -.
+DR   BioGRID; 250797; 2.
+DR   PhosphoSitePlus; Q91ZN7; -.
+DR   PaxDb; 10116-ENSRNOP00000011226; -.
+DR   Ensembl; ENSRNOT00000011226.6; ENSRNOP00000011226.4; ENSRNOG00000071217.1. [Q91ZN7-1]
+DR   Ensembl; ENSRNOT00055015545; ENSRNOP00055012460; ENSRNOG00055009175. [Q91ZN7-1]
+DR   Ensembl; ENSRNOT00060020694; ENSRNOP00060016295; ENSRNOG00060012193. [Q91ZN7-1]
+DR   Ensembl; ENSRNOT00065027646; ENSRNOP00065021767; ENSRNOG00065016588. [Q91ZN7-1]
+DR   GeneID; 140583; -.
+DR   KEGG; rno:140583; -.
+DR   UCSC; RGD:620545; rat. [Q91ZN7-1]
+DR   AGR; RGD:620545; -.
+DR   CTD; 1111; -.
+DR   RGD; 620545; Chek1.
+DR   eggNOG; KOG0590; Eukaryota.
+DR   GeneTree; ENSGT00940000159682; -.
+DR   HOGENOM; CLU_000288_59_8_1; -.
+DR   InParanoid; Q91ZN7; -.
+DR   OMA; GYTCKVG; -.
+DR   OrthoDB; 1341507at2759; -.
+DR   PhylomeDB; Q91ZN7; -.
+DR   TreeFam; TF351441; -.
+DR   Reactome; R-RNO-1433557; Signaling by SCF-KIT.
+DR   Reactome; R-RNO-176187; Activation of ATR in response to replication stress.
+DR   Reactome; R-RNO-5693607; Processing of DNA double-strand break ends.
+DR   Reactome; R-RNO-5693616; Presynaptic phase of homologous DNA pairing and strand exchange.
+DR   Reactome; R-RNO-6804756; Regulation of TP53 Activity through Phosphorylation.
+DR   Reactome; R-RNO-69473; G2/M DNA damage checkpoint.
+DR   Reactome; R-RNO-69601; Ubiquitin Mediated Degradation of Phosphorylated Cdc25A.
+DR   Reactome; R-RNO-8953750; Transcriptional Regulation by E2F6.
+DR   SABIO-RK; Q91ZN7; -.
+DR   PRO; PR:Q91ZN7; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000031896; Expressed in jejunum and 18 other cell types or tissues.
+DR   ExpressionAtlas; Q91ZN7; baseline and differential.
+DR   GO; GO:0005813; C:centrosome; ISS:UniProtKB.
+DR   GO; GO:0000785; C:chromatin; ISS:UniProtKB.
+DR   GO; GO:0000781; C:chromosome, telomeric region; ISO:RGD.
+DR   GO; GO:0000794; C:condensed nuclear chromosome; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0005657; C:replication fork; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0035402; F:histone H3T11 kinase activity; ISS:UniProtKB.
+DR   GO; GO:0019904; F:protein domain specific binding; ISO:RGD.
+DR   GO; GO:0004672; F:protein kinase activity; IDA:RGD.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; ISS:UniProtKB.
+DR   GO; GO:0006915; P:apoptotic process; ISO:RGD.
+DR   GO; GO:1902742; P:apoptotic process involved in development; ISO:RGD.
+DR   GO; GO:0071313; P:cellular response to caffeine; IEP:RGD.
+DR   GO; GO:0071260; P:cellular response to mechanical stimulus; ISO:RGD.
+DR   GO; GO:0006338; P:chromatin remodeling; ISS:UniProtKB.
+DR   GO; GO:0000077; P:DNA damage checkpoint signaling; ISS:UniProtKB.
+DR   GO; GO:0006974; P:DNA damage response; ISS:UniProtKB.
+DR   GO; GO:0006281; P:DNA repair; ISO:RGD.
+DR   GO; GO:0000086; P:G2/M transition of mitotic cell cycle; ISO:RGD.
+DR   GO; GO:0001833; P:inner cell mass cell proliferation; ISO:RGD.
+DR   GO; GO:0007095; P:mitotic G2 DNA damage checkpoint signaling; ISO:RGD.
+DR   GO; GO:0044818; P:mitotic G2/M transition checkpoint; ISS:UniProtKB.
+DR   GO; GO:2000279; P:negative regulation of DNA biosynthetic process; IMP:RGD.
+DR   GO; GO:0010972; P:negative regulation of G2/M transition of mitotic cell cycle; IMP:RGD.
+DR   GO; GO:0045814; P:negative regulation of gene expression, epigenetic; ISS:UniProtKB.
+DR   GO; GO:0045839; P:negative regulation of mitotic nuclear division; ISS:UniProtKB.
+DR   GO; GO:0006997; P:nucleus organization; ISO:RGD.
+DR   GO; GO:0018107; P:peptidyl-threonine phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0045787; P:positive regulation of cell cycle; ISO:RGD.
+DR   GO; GO:0042127; P:regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0010569; P:regulation of double-strand break repair via homologous recombination; ISS:UniProtKB.
+DR   GO; GO:0010468; P:regulation of gene expression; ISO:RGD.
+DR   GO; GO:0046602; P:regulation of mitotic centrosome separation; ISS:UniProtKB.
+DR   GO; GO:0042770; P:signal transduction in response to DNA damage; IMP:RGD.
+DR   CDD; cd14069; STKc_Chk1; 1.
+DR   Gene3D; 3.30.310.80; Kinase associated domain 1, KA1; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR034670; Chk1_catalytic_dom.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   PANTHER; PTHR24346; MAP/MICROTUBULE AFFINITY-REGULATING KINASE; 1.
+DR   PANTHER; PTHR24346:SF73; SERINE_THREONINE-PROTEIN KINASE CHK1; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative promoter usage; ATP-binding; Cell cycle; Chromosome; Cytoplasm;
+KW   Cytoskeleton; DNA damage; DNA repair; Isopeptide bond; Kinase;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Reference proteome;
+KW   Serine/threonine-protein kinase; Transferase; Ubl conjugation.
+FT   CHAIN           1..476
+FT                   /note="Serine/threonine-protein kinase Chk1"
+FT                   /id="PRO_0000085850"
+FT   DOMAIN          9..265
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          1..265
+FT                   /note="Interaction with CLSPN"
+FT                   /evidence="ECO:0000250"
+FT   REGION          267..329
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          391..476
+FT                   /note="Autoinhibitory region"
+FT                   /evidence="ECO:0000250"
+FT   COMPBIAS        280..329
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        130
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         15..23
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         38
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         280
+FT                   /note="Phosphoserine; by PKB/AKT1"
+FT                   /evidence="ECO:0000250|UniProtKB:O35280"
+FT   MOD_RES         286
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O14757"
+FT   MOD_RES         296
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O14757"
+FT   MOD_RES         301
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O14757"
+FT   MOD_RES         317
+FT                   /note="Phosphoserine; by ATM and ATR"
+FT                   /evidence="ECO:0000250|UniProtKB:O14757"
+FT   MOD_RES         345
+FT                   /note="Phosphoserine; by ATM and ATR"
+FT                   /evidence="ECO:0000250|UniProtKB:O14757"
+FT   MOD_RES         463
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O35280"
+FT   MOD_RES         467
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O14757"
+FT   MOD_RES         468
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O14757"
+FT   CROSSLNK        132
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:O14757"
+FT   CROSSLNK        436
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:O14757"
+FT   VAR_SEQ         1..282
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:11687578"
+FT                   /id="VSP_015770"
+SQ   SEQUENCE   476 AA;  54428 MW;  5635614A3E5B4657 CRC64;
+     MAVPFVEDWD LVQTLGEGAY GEVQLAVNRI TEEAVAVKIV DMKRAIDCPE NIKKEICINK
+     MLNHENVVKF YGHRREGNIQ YLFLEYCSGG ELFDRIEPDI GMPEQDAQRF FHQLMAGVVY
+     LHGIGITHRD IKPENLLLDE RDNLKISDFG LATVFRHNNR ERLLNKMCGT LPYVAPELLK
+     RKEFHAEPVD VWSCGIVLTA MLAGELPWDQ PSDSCQEYSD WKEKKTYLNP WKKIDSAPLA
+     LLHKILVENP SARITIPDIK KDRWYNKPLN RGAKRPRATS GGMSESSSGF SKHIHSNLDF
+     SPINSGSSEE NVKFSSSQPE PRTGLSLWDT GPSNVDKLVQ GISFSQPTCP DHMLVNSQLL
+     GTPGSSQNPW QRLVKRMTRF FTKLDADKSY QCLKETFEKL GYQWKKSCMN QVTVSTMDRR
+     NNKLIFKINL VEMDEKILVD FRLSKGDGLE FKRHFLKIKG KLSDIVSSQK VWFPVT
+//

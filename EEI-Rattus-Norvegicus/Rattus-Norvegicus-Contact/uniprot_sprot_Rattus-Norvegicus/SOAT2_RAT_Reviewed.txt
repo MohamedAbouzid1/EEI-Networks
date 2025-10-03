@@ -1,0 +1,269 @@
+ID   SOAT2_RAT               Reviewed;         524 AA.
+AC   Q7TQM4;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   24-JAN-2024, entry version 106.
+DE   RecName: Full=Sterol O-acyltransferase 2 {ECO:0000305};
+DE            EC=2.3.1.26 {ECO:0000250|UniProtKB:O75908};
+DE   AltName: Full=Acyl-coenzyme A:cholesterol acyltransferase 2;
+DE            Short=ACAT-2;
+DE   AltName: Full=Cholesterol acyltransferase 2;
+GN   Name=Soat2 {ECO:0000312|RGD:628865}; Synonyms=Acat2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RA   Horiuchi S., Hori M., Hakamata H., Sato M., Miyazaki A.;
+RT   "Acyl-coenzyme A:cholesterol acyltransferase 2 is responsible for elevated
+RT   intestinal cholesterol ester formation in streptozotocin-induced diabetic
+RT   rats.";
+RL   Submitted (JAN-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the formation of fatty acid-cholesterol esters,
+CC       which are less soluble in membranes than cholesterol. Plays a role in
+CC       lipoprotein assembly and dietary cholesterol absorption. Utilizes
+CC       oleoyl-CoA ((9Z)-octadecenoyl-CoA) and linolenoyl-CoA ((9Z,12Z,15Z)-
+CC       octadecatrienoyl-CoA) as substrates. May provide cholesteryl esters for
+CC       lipoprotein secretion from hepatocytes and intestinal mucosa.
+CC       {ECO:0000250|UniProtKB:O75908}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a long-chain fatty acyl-CoA + a sterol = a sterol ester + CoA;
+CC         Xref=Rhea:RHEA:59816, ChEBI:CHEBI:15889, ChEBI:CHEBI:35915,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:83139; EC=2.3.1.26;
+CC         Evidence={ECO:0000250|UniProtKB:O75908};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:59817;
+CC         Evidence={ECO:0000250|UniProtKB:O75908};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an acyl-CoA + cholesterol = a cholesterol ester + CoA;
+CC         Xref=Rhea:RHEA:17729, ChEBI:CHEBI:16113, ChEBI:CHEBI:17002,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:58342;
+CC         Evidence={ECO:0000250|UniProtKB:O75908};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:17730;
+CC         Evidence={ECO:0000250|UniProtKB:O75908};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-octadecenoyl-CoA + cholesterol = cholesteryl (9Z-
+CC         octadecenoate) + CoA; Xref=Rhea:RHEA:41436, ChEBI:CHEBI:16113,
+CC         ChEBI:CHEBI:46898, ChEBI:CHEBI:57287, ChEBI:CHEBI:57387;
+CC         Evidence={ECO:0000250|UniProtKB:O75908};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41437;
+CC         Evidence={ECO:0000250|UniProtKB:O75908};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA + cholesterol =
+CC         (5Z,8Z,11Z,14Z,17Z-eicosapentaenoyl)-cholesterol + CoA;
+CC         Xref=Rhea:RHEA:46612, ChEBI:CHEBI:16113, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:73862, ChEBI:CHEBI:84969;
+CC         Evidence={ECO:0000250|UniProtKB:O75908};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46613;
+CC         Evidence={ECO:0000250|UniProtKB:O75908};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z,12Z,15Z)-octadecatrienoyl-CoA + cholesterol = (9Z,12Z,15Z-
+CC         octadecatrienoyl)-cholesterol + CoA; Xref=Rhea:RHEA:46620,
+CC         ChEBI:CHEBI:16113, ChEBI:CHEBI:57287, ChEBI:CHEBI:74034,
+CC         ChEBI:CHEBI:84341; Evidence={ECO:0000250|UniProtKB:O75908};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46621;
+CC         Evidence={ECO:0000250|UniProtKB:O75908};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA + cholesterol =
+CC         cholesteryl (5Z,8Z,11Z,14Z)-eicosatetraenoate + CoA;
+CC         Xref=Rhea:RHEA:42816, ChEBI:CHEBI:16113, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57368, ChEBI:CHEBI:82751;
+CC         Evidence={ECO:0000250|UniProtKB:O75908};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:42817;
+CC         Evidence={ECO:0000250|UniProtKB:O75908};
+CC   -!- SUBUNIT: May form homo- or heterodimers (By similarity). Interacts with
+CC       INSIG1; the interaction is direct and promotes association with
+CC       AMFR/gp78 (By similarity). {ECO:0000250|UniProtKB:O75908,
+CC       ECO:0000250|UniProtKB:P35610}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:O88908}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- DOMAIN: Each protomer consists of 9 transmembrane segments, which
+CC       enclose a cytosolic tunnel and a transmembrane tunnel that converge at
+CC       the predicted catalytic site: acyl-CoA enters the active site through
+CC       the cytosolic tunnel, whereas cholesterol enters from the side through
+CC       the transmembrane tunnel. {ECO:0000250|UniProtKB:P35610}.
+CC   -!- PTM: Polyubiquitinated by AMFR/gp78 at Cys-279, leading to its
+CC       degradation when the lipid levels are low. Association with AMFR/gp78
+CC       is mediated via interaction with INSIG1. High concentration of
+CC       cholesterol and fatty acid results in Cys-279 oxidation, preventing
+CC       ubiquitination at the same site, resulting in protein stabilization.
+CC       {ECO:0000250|UniProtKB:O75908}.
+CC   -!- PTM: Oxidized at Cys-279: high concentration of cholesterol and fatty
+CC       acid induce reactive oxygen species, which oxidizes Cys-279, preventing
+CC       ubiquitination at the same site, and resulting in protein
+CC       stabilization. {ECO:0000250|UniProtKB:O75908}.
+CC   -!- SIMILARITY: Belongs to the membrane-bound acyltransferase family.
+CC       Sterol o-acyltransferase subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB101480; BAC78210.1; -; mRNA.
+DR   RefSeq; NP_714950.2; NM_153728.2.
+DR   AlphaFoldDB; Q7TQM4; -.
+DR   SMR; Q7TQM4; -.
+DR   STRING; 10116.ENSRNOP00000071253; -.
+DR   BindingDB; Q7TQM4; -.
+DR   ChEMBL; CHEMBL2856; -.
+DR   CarbonylDB; Q7TQM4; -.
+DR   PhosphoSitePlus; Q7TQM4; -.
+DR   PaxDb; 10116-ENSRNOP00000015367; -.
+DR   GeneID; 266770; -.
+DR   KEGG; rno:266770; -.
+DR   AGR; RGD:628865; -.
+DR   CTD; 8435; -.
+DR   RGD; 628865; Soat2.
+DR   eggNOG; KOG0380; Eukaryota.
+DR   InParanoid; Q7TQM4; -.
+DR   OrthoDB; 9612at2759; -.
+DR   PhylomeDB; Q7TQM4; -.
+DR   Reactome; R-RNO-8964038; LDL clearance.
+DR   PRO; PR:Q7TQM4; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005903; C:brush border; ISO:RGD.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0015485; F:cholesterol binding; ISO:RGD.
+DR   GO; GO:0034736; F:cholesterol O-acyltransferase activity; ISO:RGD.
+DR   GO; GO:0000062; F:fatty-acyl-CoA binding; ISO:RGD.
+DR   GO; GO:0004772; F:sterol O-acyltransferase activity; IDA:RGD.
+DR   GO; GO:0033344; P:cholesterol efflux; ISO:RGD.
+DR   GO; GO:0042632; P:cholesterol homeostasis; IEA:InterPro.
+DR   GO; GO:0008203; P:cholesterol metabolic process; IDA:RGD.
+DR   GO; GO:0010878; P:cholesterol storage; ISO:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0034379; P:very-low-density lipoprotein particle assembly; ISO:RGD.
+DR   InterPro; IPR004299; MBOAT_fam.
+DR   InterPro; IPR014371; Oat_ACAT_DAG_ARE.
+DR   InterPro; IPR030687; Sterol_acyltranf_meta.
+DR   PANTHER; PTHR10408; STEROL O-ACYLTRANSFERASE; 1.
+DR   PANTHER; PTHR10408:SF10; STEROL O-ACYLTRANSFERASE 2; 1.
+DR   Pfam; PF03062; MBOAT; 1.
+DR   PIRSF; PIRSF000439; Oat_ACAT_DAG_ARE; 1.
+DR   PIRSF; PIRSF500230; Sterol_acyltranf_ACAT; 1.
+PE   2: Evidence at transcript level;
+KW   Acyltransferase; Cholesterol metabolism; Endoplasmic reticulum;
+KW   Lipid metabolism; Membrane; Oxidation; Reference proteome;
+KW   Steroid metabolism; Sterol metabolism; Thioester bond; Transferase;
+KW   Transmembrane; Transmembrane helix; Ubl conjugation.
+FT   CHAIN           1..524
+FT                   /note="Sterol O-acyltransferase 2"
+FT                   /id="PRO_0000255713"
+FT   TOPO_DOM        1..118
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        119..140
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   TOPO_DOM        141..160
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        161..186
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   TOPO_DOM        187..198
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        199..222
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   TOPO_DOM        223..230
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        231..254
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   TOPO_DOM        255..295
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        296..328
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   TOPO_DOM        329..345
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        346..371
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   TOPO_DOM        372..419
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        420..444
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   TOPO_DOM        445..450
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        451..466
+FT                   /note="Helical; Name=8"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   TOPO_DOM        467..472
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        473..504
+FT                   /note="Helical; Name=9"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   TOPO_DOM        505..524
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   REGION          1..31
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           379..385
+FT                   /note="FYXDWWN motif"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   COMPBIAS        1..19
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        436
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   BINDING         117
+FT                   /ligand="cholesterol"
+FT                   /ligand_id="ChEBI:CHEBI:16113"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   BINDING         391
+FT                   /ligand="an acyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:58342"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   BINDING         394
+FT                   /ligand="an acyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:58342"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   BINDING         397
+FT                   /ligand="an acyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:58342"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   BINDING         401
+FT                   /ligand="an acyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:58342"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   BINDING         409
+FT                   /ligand="an acyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:58342"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   BINDING         432
+FT                   /ligand="an acyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:58342"
+FT                   /evidence="ECO:0000250|UniProtKB:P35610"
+FT   MOD_RES         279
+FT                   /note="Cysteine sulfenic acid (-SOH); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:O75908"
+FT   CROSSLNK        279
+FT                   /note="Glycyl cysteine thioester (Cys-Gly) (interchain with
+FT                   G-Cter in ubiquitin); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:O75908"
+SQ   SEQUENCE   524 AA;  60498 MW;  75CE7DE53F03C88A CRC64;
+     MEPKAPQLRR RERQGEEQEN GACGEGNTRT HRAPDLVQWT RHMEAVKTQC LEQAQRELAE
+     LMDRAIWEAV QAYPKQDRPL PSTASDSTRK TQELHPGKRK VFITRKSLLD ELMGVQHFRT
+     IYHMFIAGLC VLIISTLAID FIDEGRLMLE FDLLLFSFGQ LPLALMMWVP MFLSTLLLPY
+     QTLRLWARPR SGGAWTLGAS LGCVLLAAHA AVLCVLPVHV SVKHELPPAS RCVLVFEQVR
+     FLMKSYSFLR ETVPGIFCVR GGKGICTPSF SSYLYFLFCP TLIYRETYPR TPSIRWNYVA
+     KNFAQALGCL LYACFILGRL CVPVFANMSR EPFSTRALLL SILHATGPGI FMLLLIFFAF
+     LHCWLNAFAE MLRFGDRMFY RDWWNSTSFS NYYRTWNVVV HDWLYSYVYQ DGLWLLGRQG
+     RGAAMLGVFL VSALVHEYIF CFVLGFFYPV MLILFLVVGG LLNFTMNDRH TGPAWNILMW
+     TFLFLGQGIQ VSLYCQEWYA RRHCPLPQPT FWELVTPRSW SCHP
+//

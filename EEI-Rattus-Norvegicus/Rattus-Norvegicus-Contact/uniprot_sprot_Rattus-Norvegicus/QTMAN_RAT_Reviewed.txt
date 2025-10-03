@@ -1,0 +1,111 @@
+ID   QTMAN_RAT               Reviewed;         389 AA.
+AC   Q53E76;
+DT   13-NOV-2007, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAY-2005, sequence version 1.
+DT   02-OCT-2024, entry version 89.
+DE   RecName: Full=tRNA-queuosine alpha-mannosyltransferase {ECO:0000305};
+DE            Short=QTMAN {ECO:0000305};
+DE            EC=2.4.1.110 {ECO:0000269|PubMed:37992713};
+DE   AltName: Full=Glycosyltransferase-like domain-containing protein 1 {ECO:0000305};
+GN   Name=Gtdc1 {ECO:0000312|RGD:1563393};
+GN   Synonyms=Qtman {ECO:0000250|UniProtKB:Q4AE62};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Zhao E., Xie Y., Mao Y.;
+RT   "Cloning of novel rat gene with a glycosyltransferase-like domain.";
+RL   Submitted (APR-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=37992713; DOI=10.1016/j.cell.2023.10.026;
+RA   Zhao X., Ma D., Ishiguro K., Saito H., Akichika S., Matsuzawa I., Mito M.,
+RA   Irie T., Ishibashi K., Wakabayashi K., Sakaguchi Y., Yokoyama T.,
+RA   Mishima Y., Shirouzu M., Iwasaki S., Suzuki T., Suzuki T.;
+RT   "Glycosylated queuosines in tRNAs optimize translational rate and post-
+RT   embryonic growth.";
+RL   Cell 0:0-0(2023).
+CC   -!- FUNCTION: Glycosyltransferase that specifically catalyzes mannosylation
+CC       of cytoplasmic tRNA(Asp) modified with queuosine at position 34
+CC       (queuosine(34)) (PubMed:37992713). Mannosylates the cyclopentene moiety
+CC       of queuosine(34) in tRNA(Asp) to form mannosyl-queuosine(34)
+CC       (PubMed:37992713). Mannosylation of queuosine(34) in tRNA(Asp) is
+CC       required to slow-down elongation at cognate codons, GAC and GAU,
+CC       thereby regulating protein translation (By similarity).
+CC       {ECO:0000250|UniProtKB:Q4AE62, ECO:0000269|PubMed:37992713}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GDP-alpha-D-mannose + queuosine(34) in tRNA(Asp) = GDP + H(+)
+CC         + O-4''-alpha-D-mannosylqueuosine(34) in tRNA(Asp);
+CC         Xref=Rhea:RHEA:12885, Rhea:RHEA-COMP:18572, Rhea:RHEA-COMP:18581,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57527, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:194431, ChEBI:CHEBI:194442; EC=2.4.1.110;
+CC         Evidence={ECO:0000269|PubMed:37992713};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:12886;
+CC         Evidence={ECO:0000269|PubMed:37992713};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q4AE62}. Nucleus
+CC       {ECO:0000250|UniProtKB:Q4AE62}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase group 1 family.
+CC       Glycosyltransferase 4 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY281367; AAQ16409.1; -; mRNA.
+DR   RefSeq; NP_001019445.1; NM_001024274.1.
+DR   AlphaFoldDB; Q53E76; -.
+DR   SMR; Q53E76; -.
+DR   STRING; 10116.ENSRNOP00000056430; -.
+DR   CAZy; GT4; Glycosyltransferase Family 4.
+DR   PhosphoSitePlus; Q53E76; -.
+DR   PaxDb; 10116-ENSRNOP00000056430; -.
+DR   Ensembl; ENSRNOT00000059679.2; ENSRNOP00000056430.1; ENSRNOG00000031038.5.
+DR   Ensembl; ENSRNOT00055014749; ENSRNOP00055011789; ENSRNOG00055008708.
+DR   Ensembl; ENSRNOT00060055652; ENSRNOP00060046022; ENSRNOG00060032094.
+DR   Ensembl; ENSRNOT00065044876; ENSRNOP00065036767; ENSRNOG00065026018.
+DR   GeneID; 362129; -.
+DR   KEGG; rno:362129; -.
+DR   UCSC; RGD:1563393; rat.
+DR   AGR; RGD:1563393; -.
+DR   CTD; 79712; -.
+DR   RGD; 1563393; Gtdc1.
+DR   eggNOG; ENOG502QQJ3; Eukaryota.
+DR   GeneTree; ENSGT00390000006631; -.
+DR   HOGENOM; CLU_033439_1_0_1; -.
+DR   InParanoid; Q53E76; -.
+DR   OrthoDB; 5399874at2759; -.
+DR   PhylomeDB; Q53E76; -.
+DR   PRO; PR:Q53E76; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000031038; Expressed in frontal cortex and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0016438; F:tRNA-queuosine(34) beta-mannosyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0006417; P:regulation of translation; ISO:RGD.
+DR   GO; GO:0006400; P:tRNA modification; IDA:UniProtKB.
+DR   CDD; cd01635; Glycosyltransferase_GTB-type; 1.
+DR   Gene3D; 3.40.50.2000; Glycogen Phosphorylase B; 1.
+DR   InterPro; IPR001296; Glyco_trans_1.
+DR   InterPro; IPR051862; GT-like_domain_containing_1.
+DR   InterPro; IPR022701; QTMAN_N.
+DR   PANTHER; PTHR13615; GLYCOSYLTRANSFERASE-LIKE 1; 1.
+DR   PANTHER; PTHR13615:SF3; GLYCOSYLTRANSFERASE-LIKE DOMAIN-CONTAINING PROTEIN 1; 1.
+DR   Pfam; PF12038; DUF3524; 2.
+DR   Pfam; PF00534; Glycos_transf_1; 1.
+DR   SUPFAM; SSF53756; UDP-Glycosyltransferase/glycogen phosphorylase; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Glycosyltransferase; Nucleus; Reference proteome; Transferase.
+FT   CHAIN           1..389
+FT                   /note="tRNA-queuosine alpha-mannosyltransferase"
+FT                   /id="PRO_0000311090"
+SQ   SEQUENCE   389 AA;  44657 MW;  6B36E095F3855646 CRC64;
+     MSILIIEAFY GGSHRQLVEL LREEVDDCVL YTLPAKKWHW RARTAALYFS QSVPSSEHYS
+     LVADVVVFNS NFNMESFLTS IGKFLKLIPD HRPKDLESII RPKCQVIYFP IRFPDVSRFM
+     PKHKIAHLRR MLSLIGNDAA ALSVTLPPQP EQRLSKKSLE NFESKSDEHP GLDTEQETLD
+     TPTILKSVSL PVSEENPALG HSTFLCGAED QQRPLHITWP HRWEHDKDPE TFLKVLMHLK
+     ELRLNFYVSV LGETFTDVPD IFSEAKKALG SSVLHWGYLP SKEDYFRVLC TADVVISTAK
+     HEFFGVAMLE AVYCGCYPLC PKDLVYPEIF PAEYLYSTPE QLSKRLKSFC ERPDIIRKHL
+     YKGEVAPFSW AALHGKFRSL LTTEPREDL
+//

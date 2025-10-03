@@ -1,0 +1,120 @@
+ID   RISC_RAT                Reviewed;         452 AA.
+AC   Q920A6;
+DT   28-FEB-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   29-MAY-2024, entry version 137.
+DE   RecName: Full=Retinoid-inducible serine carboxypeptidase;
+DE            EC=3.4.16.-;
+DE   AltName: Full=Serine carboxypeptidase 1;
+DE   Flags: Precursor;
+GN   Name=Scpep1; Synonyms=Risc;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=11447226; DOI=10.1074/jbc.m104162200;
+RA   Chen J., Streb J.W., Maltby K.M., Kitchen C.M., Miano J.M.;
+RT   "Cloning of a novel retinoid-inducible serine carboxypeptidase from
+RT   vascular smooth muscle cells.";
+RL   J. Biol. Chem. 276:34175-34181(2001).
+CC   -!- FUNCTION: May be involved in vascular wall and kidney homeostasis.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in aorta, bladder, and kidney with
+CC       much lower levels in all other tissues analyzed. Expression in kidney
+CC       is restricted to proximal convoluted tubules.
+CC   -!- INDUCTION: By retinoic acid.
+CC   -!- SIMILARITY: Belongs to the peptidase S10 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF330051; AAK84661.1; -; mRNA.
+DR   RefSeq; NP_596874.1; NM_133383.1.
+DR   AlphaFoldDB; Q920A6; -.
+DR   SMR; Q920A6; -.
+DR   IntAct; Q920A6; 1.
+DR   STRING; 10116.ENSRNOP00000003219; -.
+DR   ESTHER; ratno-RISC; Carboxypeptidase_S10.
+DR   MEROPS; S10.013; -.
+DR   GlyCosmos; Q920A6; 5 sites, No reported glycans.
+DR   GlyGen; Q920A6; 5 sites.
+DR   iPTMnet; Q920A6; -.
+DR   PhosphoSitePlus; Q920A6; -.
+DR   jPOST; Q920A6; -.
+DR   PaxDb; 10116-ENSRNOP00000003219; -.
+DR   Ensembl; ENSRNOT00055046914; ENSRNOP00055038537; ENSRNOG00055027043.
+DR   Ensembl; ENSRNOT00060036306; ENSRNOP00060029871; ENSRNOG00060020712.
+DR   Ensembl; ENSRNOT00065033103; ENSRNOP00065026468; ENSRNOG00065019587.
+DR   GeneID; 114861; -.
+DR   KEGG; rno:114861; -.
+DR   AGR; RGD:620067; -.
+DR   CTD; 59342; -.
+DR   RGD; 620067; Scpep1.
+DR   VEuPathDB; HostDB:ENSRNOG00000002358; -.
+DR   eggNOG; KOG1283; Eukaryota.
+DR   HOGENOM; CLU_008523_1_0_1; -.
+DR   InParanoid; Q920A6; -.
+DR   OrthoDB; 1647009at2759; -.
+DR   PhylomeDB; Q920A6; -.
+DR   TreeFam; TF313740; -.
+DR   PRO; PR:Q920A6; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000002358; Expressed in adult mammalian kidney and 19 other cell types or tissues.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004185; F:serine-type carboxypeptidase activity; ISO:RGD.
+DR   GO; GO:0097746; P:blood vessel diameter maintenance; ISO:RGD.
+DR   GO; GO:0045776; P:negative regulation of blood pressure; ISO:RGD.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   GO; GO:0042573; P:retinoic acid metabolic process; IEP:RGD.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR001563; Peptidase_S10.
+DR   InterPro; IPR018202; Ser_caboxypep_ser_AS.
+DR   PANTHER; PTHR11802:SF3; RETINOID-INDUCIBLE SERINE CARBOXYPEPTIDASE; 1.
+DR   PANTHER; PTHR11802; SERINE PROTEASE FAMILY S10 SERINE CARBOXYPEPTIDASE; 1.
+DR   Pfam; PF00450; Peptidase_S10; 1.
+DR   PRINTS; PR00724; CRBOXYPTASEC.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+DR   PROSITE; PS00131; CARBOXYPEPT_SER_SER; 1.
+PE   2: Evidence at transcript level;
+KW   Carboxypeptidase; Glycoprotein; Hydrolase; Protease; Reference proteome;
+KW   Secreted; Signal.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           29..452
+FT                   /note="Retinoid-inducible serine carboxypeptidase"
+FT                   /id="PRO_0000004286"
+FT   ACT_SITE        167
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10074"
+FT   ACT_SITE        371
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10074"
+FT   ACT_SITE        431
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10074"
+FT   CARBOHYD        64
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        102
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        126
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        192
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        362
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   452 AA;  51175 MW;  9195A0E773E7853B CRC64;
+     MELSRRICLV RLWLLLLSFL LGFSAGSALN WREQEGKEVW DYVTVREDAR MFWWLYYATN
+     PCKNFSELPL VMWLQGGPGG SSTGFGNFEE IGPLDTRLKP RNTTWLQWAS LLFVDNPVGT
+     GFSYVNTTDA YAKDLDTVAS DMMVLLKSFF DCHKEFQTVP FYIFSESYGG KMAAGISLEL
+     HKAIQQGTIK CNFSGVALGD SWISPVDSVL SWGPYLYSVS LLDNKGLAEV SDIAEQVLNA
+     VNKGFYKEAT QLWGKAEMII EKNTDGVNFY NILTKSTPDT SMESSLEFFR SPLVRLCQRH
+     VRHLQGDALS QLMNGPIKKK LKIIPDDVSW GAQSSSVFIS MEEDFMKPVI DIVDTLLELG
+     VNVTVYNGQL DLIVDTIGQE SWVQKLKWPQ LSRFNQLKWK ALYTNPKSSE TSAFVKSYEN
+     LAFYWILKAG HMVPADQGDM ALKMMRLVTQ QE
+//

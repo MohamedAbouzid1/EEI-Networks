@@ -1,0 +1,217 @@
+ID   FUT1_RAT                Reviewed;         376 AA.
+AC   Q10980; Q549F8;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1999, sequence version 2.
+DT   29-MAY-2024, entry version 133.
+DE   RecName: Full=Galactoside alpha-(1,2)-fucosyltransferase 1 {ECO:0000305};
+DE   AltName: Full=Alpha 1,2-fucosyltransferase A;
+DE   AltName: Full=Alpha(1,2)FT 1;
+DE   AltName: Full=Fucosyltransferase 1;
+DE   AltName: Full=GDP-L-fucose:beta-D-galactoside 2-alpha-L-fucosyltransferase 1;
+DE   AltName: Full=Type 1 galactoside alpha-(1,2)-fucosyltransferase FUT1 {ECO:0000250|UniProtKB:O09160};
+DE            EC=2.4.1.69 {ECO:0000250|UniProtKB:O09160};
+DE   AltName: Full=Type 2 galactoside alpha-(1,2)-fucosyltransferase FUT1 {ECO:0000250|UniProtKB:P19526};
+DE            EC=2.4.1.344 {ECO:0000250|UniProtKB:P19526};
+GN   Name=Fut1 {ECO:0000312|RGD:2638}; Synonyms=Fta;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA].
+RC   TISSUE=Colon cancer;
+RA   Soejima M., Wang B., Koda Y., Kimura H.;
+RT   "Two distinct rat GDP-L-fucose:beta-D-galactoside 2-alpha-L-
+RT   fucosyltransferase genes.";
+RL   Submitted (JUN-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=BDIX;
+RX   PubMed=11179967; DOI=10.1046/j.1432-1327.2001.01962.x;
+RA   Bureau V., Marionneau S., Cailleau-Thomas A., Le Moullac-Vaidye B.,
+RA   Liehr T., Le Pendu J.;
+RT   "Comparison of the three rat GDP-L-fucose:beta-D-galactoside 2-alpha-L-
+RT   fucosyltransferases FTA, FTB and FTC.";
+RL   Eur. J. Biochem. 268:1006-1019(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 169-310.
+RC   STRAIN=BDIX;
+RX   PubMed=8010942; DOI=10.1042/bj3000623;
+RA   Piau J.-P., Labarriere N., Dabouis G., Denis M.G.;
+RT   "Evidence for two distinct alpha(1,2)-fucosyltransferase genes
+RT   differentially expressed throughout the rat colon.";
+RL   Biochem. J. 300:623-626(1994).
+CC   -!- FUNCTION: Catalyzes the transfer of L-fucose, from a guanosine
+CC       diphosphate-beta-L-fucose, to the terminal galactose residue of
+CC       glycoconjugates through an alpha(1,2) linkage leading to H antigen
+CC       synthesis that is an intermediate substrate in the synthesis of ABO
+CC       blood group antigens. H antigen is essential for maturation of the
+CC       glomerular layer of the main olfactory bulb, in cell migration and
+CC       early cell-cell contacts during tumor associated angiogenesis (By
+CC       similarity). Preferentially fucosylates soluble lactose and to a lesser
+CC       extent fucosylates glycolipids gangliosides GA1 and GM1a (By
+CC       similarity). {ECO:0000250|UniProtKB:O09160,
+CC       ECO:0000250|UniProtKB:P19526}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl
+CC         derivative + GDP-beta-L-fucose = an alpha-L-Fuc-(1->2)-beta-D-Gal-
+CC         (1->4)-beta-D-GlcNAc derivative + GDP + H(+); Xref=Rhea:RHEA:50668,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57273, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:133507, ChEBI:CHEBI:133510; EC=2.4.1.344;
+CC         Evidence={ECO:0000250|UniProtKB:P19526};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ganglioside GA1 + GDP-beta-L-fucose = a ganglioside Fuc-GA1
+CC         + GDP + H(+); Xref=Rhea:RHEA:48320, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57273, ChEBI:CHEBI:58189, ChEBI:CHEBI:88069,
+CC         ChEBI:CHEBI:90262; Evidence={ECO:0000250|UniProtKB:O09160};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48321;
+CC         Evidence={ECO:0000250|UniProtKB:O09160};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-D-Gal-(1->3)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-
+CC         beta-D-Glc-(1<->1')-Cer(d18:1(4E)) + GDP-beta-L-fucose = alpha-L-
+CC         fucosyl-(1->2)- beta-D-galactosyl-(1->3)-N-acetyl-beta-D-
+CC         glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-
+CC         (1<->1')-N-acylsphing-4-enine + GDP + H(+); Xref=Rhea:RHEA:32175,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17292, ChEBI:CHEBI:28743,
+CC         ChEBI:CHEBI:57273, ChEBI:CHEBI:58189; EC=2.4.1.69;
+CC         Evidence={ECO:0000250|UniProtKB:O09160};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:32176;
+CC         Evidence={ECO:0000250|UniProtKB:O09160};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a neolactoside nLc4Cer(d18:1(4E)) + GDP-beta-L-fucose = a
+CC         neolactoside IV(2)-alpha-Fuc-nLc4Cer(d18:1(4E)) + GDP + H(+);
+CC         Xref=Rhea:RHEA:48304, ChEBI:CHEBI:15378, ChEBI:CHEBI:17006,
+CC         ChEBI:CHEBI:28691, ChEBI:CHEBI:57273, ChEBI:CHEBI:58189;
+CC         Evidence={ECO:0000250|UniProtKB:O09160};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48305;
+CC         Evidence={ECO:0000250|UniProtKB:O09160};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ganglioside GM1 + GDP-beta-L-fucose = a ganglioside Fuc-GM1
+CC         + GDP + H(+); Xref=Rhea:RHEA:48292, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57273, ChEBI:CHEBI:58189, ChEBI:CHEBI:82639,
+CC         ChEBI:CHEBI:90189; Evidence={ECO:0000250|UniProtKB:F6Q1T7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48293;
+CC         Evidence={ECO:0000250|UniProtKB:F6Q1T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=beta-D-galactosyl-(1->3)-N-acetyl-D-galactosamine + GDP-beta-
+CC         L-fucose = alpha-L-fucosyl-(1->2)-beta-D-galactosyl-(1->3)-N-acetyl-
+CC         D-galactosamine + GDP + H(+); Xref=Rhea:RHEA:62964,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57273, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:84728, ChEBI:CHEBI:546807;
+CC         Evidence={ECO:0000250|UniProtKB:F6Q1T7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62965;
+CC         Evidence={ECO:0000250|UniProtKB:F6Q1T7};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000250|UniProtKB:P19526}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus, Golgi stack membrane
+CC       {ECO:0000250|UniProtKB:O09160}; Single-pass type II membrane protein
+CC       {ECO:0000250|UniProtKB:O09160}. Note=Membrane-bound form in trans
+CC       cisternae of Golgi. {ECO:0000250|UniProtKB:O09160}.
+CC   -!- MISCELLANEOUS: There are two genes (Fut1 and Fut2) which encode
+CC       galactoside 2-L-fucosyltransferase. They are expressed in a tissue-
+CC       specific manner with expression restricted to cells of mesodermal or
+CC       endodermal origin respectively.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 11 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB015637; BAA31130.1; -; Genomic_DNA.
+DR   EMBL; AB006137; BAA21741.1; -; mRNA.
+DR   EMBL; AF131237; AAD24468.1; -; Genomic_DNA.
+DR   EMBL; L26009; AAB41514.1; -; mRNA.
+DR   PIR; S51582; S51582.
+DR   RefSeq; NP_112515.1; NM_031236.1.
+DR   RefSeq; XP_008757642.1; XM_008759420.2.
+DR   AlphaFoldDB; Q10980; -.
+DR   STRING; 10116.ENSRNOP00000028494; -.
+DR   CAZy; GT11; Glycosyltransferase Family 11.
+DR   GlyCosmos; Q10980; 3 sites, No reported glycans.
+DR   GlyGen; Q10980; 3 sites.
+DR   iPTMnet; Q10980; -.
+DR   PhosphoSitePlus; Q10980; -.
+DR   PaxDb; 10116-ENSRNOP00000028494; -.
+DR   Ensembl; ENSRNOT00000028494.4; ENSRNOP00000028494.2; ENSRNOG00000020995.4.
+DR   Ensembl; ENSRNOT00055010798; ENSRNOP00055008382; ENSRNOG00055006629.
+DR   Ensembl; ENSRNOT00060017598; ENSRNOP00060013684; ENSRNOG00060010405.
+DR   Ensembl; ENSRNOT00065053107; ENSRNOP00065043621; ENSRNOG00065030817.
+DR   GeneID; 81919; -.
+DR   KEGG; rno:81919; -.
+DR   UCSC; RGD:2638; rat.
+DR   AGR; RGD:2638; -.
+DR   CTD; 2523; -.
+DR   RGD; 2638; Fut1.
+DR   eggNOG; ENOG502S316; Eukaryota.
+DR   GeneTree; ENSGT00390000001450; -.
+DR   HOGENOM; CLU_043399_0_1_1; -.
+DR   InParanoid; Q10980; -.
+DR   OMA; WPPSHRQ; -.
+DR   OrthoDB; 2959824at2759; -.
+DR   PhylomeDB; Q10980; -.
+DR   TreeFam; TF315810; -.
+DR   BRENDA; 2.4.1.344; 5301.
+DR   BRENDA; 2.4.1.69; 5301.
+DR   Reactome; R-RNO-9033807; ABO blood group biosynthesis.
+DR   Reactome; R-RNO-9840309; Glycosphingolipid biosynthesis.
+DR   SABIO-RK; Q10980; -.
+DR   UniPathway; UPA00378; -.
+DR   PRO; PR:Q10980; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000020995; Expressed in pancreas and 12 other cell types or tissues.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0032580; C:Golgi cisterna membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031127; F:alpha-(1,2)-fucosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0008417; F:fucosyltransferase activity; ISO:RGD.
+DR   GO; GO:0008107; F:galactoside 2-alpha-L-fucosyltransferase activity; ISO:RGD.
+DR   GO; GO:0036065; P:fucosylation; ISS:UniProtKB.
+DR   GO; GO:0006629; P:lipid metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0021772; P:olfactory bulb development; ISS:UniProtKB.
+DR   GO; GO:0009312; P:oligosaccharide biosynthetic process; ISO:RGD.
+DR   GO; GO:0001954; P:positive regulation of cell-matrix adhesion; ISS:UniProtKB.
+DR   GO; GO:0010595; P:positive regulation of endothelial cell migration; ISS:UniProtKB.
+DR   GO; GO:1904906; P:positive regulation of endothelial cell-matrix adhesion via fibronectin; ISS:UniProtKB.
+DR   GO; GO:1903672; P:positive regulation of sprouting angiogenesis; ISS:UniProtKB.
+DR   GO; GO:0006486; P:protein glycosylation; ISS:UniProtKB.
+DR   GO; GO:0030155; P:regulation of cell adhesion; ISS:UniProtKB.
+DR   GO; GO:0001936; P:regulation of endothelial cell proliferation; ISS:UniProtKB.
+DR   CDD; cd11301; Fut1_Fut2_like; 1.
+DR   InterPro; IPR002516; Glyco_trans_11.
+DR   PANTHER; PTHR11927; GALACTOSIDE 2-L-FUCOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11927:SF4; GALACTOSIDE ALPHA-(1,2)-FUCOSYLTRANSFERASE 1; 1.
+DR   Pfam; PF01531; Glyco_transf_11; 1.
+PE   2: Evidence at transcript level;
+KW   Glycoprotein; Glycosyltransferase; Golgi apparatus; Lipid metabolism;
+KW   Membrane; Reference proteome; Signal-anchor; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..376
+FT                   /note="Galactoside alpha-(1,2)-fucosyltransferase 1"
+FT                   /id="PRO_0000149102"
+FT   TOPO_DOM        1..12
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        13..29
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        30..376
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        64
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        302
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        328
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   376 AA;  42417 MW;  C350C737C758B7F8 CRC64;
+     MWTPSRKQLC LAFLSVCVLS AGSFFFHLNG GNFFQNALTF SVLCPDYHLL KSPVAMVCLP
+     YPSNASSGSP SCPEQSLLSG TWTITPGGRF GNQMGQYATL LALAQLNGRR AFIQPEMHTT
+     LAPVFRISLP VLDPEVDSLT PWQHLVLHDW MSEEYSHLED PFLKLSGFPC SWTFFHHLRE
+     QIRREFTLHD HLREDAQRLL SGLRIGPAGI RPRTYVGVHV RRGDYLEVMP NRWKGVVGDR
+     AYLQKAMDWF RARHKDPIFV VTSNGMRWCL ENIDTSHGDV VFAGNGQEGT PGKDFALLTQ
+     CNHTIMTIGT FGFWAAYLAG GDTVYLANFT LPDSEFLKIF RPKAAFLPEW VGINADLSPL
+     QAQFDPWETD SLFRLA
+//

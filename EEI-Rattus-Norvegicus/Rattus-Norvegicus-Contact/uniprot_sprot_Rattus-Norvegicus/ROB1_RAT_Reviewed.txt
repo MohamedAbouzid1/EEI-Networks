@@ -1,0 +1,112 @@
+ID   ROB1_RAT                Reviewed;         240 AA.
+AC   O55006;
+DT   11-JAN-2011, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   24-JUL-2024, entry version 98.
+DE   RecName: Full=Protein RoBo-1;
+DE   AltName: Full=Rodent bone protein;
+DE   Flags: Precursor;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, INDUCTION, TISSUE SPECIFICITY, AND
+RP   GLYCOSYLATION.
+RC   STRAIN=CD Charles River; TISSUE=Tibial bone;
+RX   PubMed=9461570; DOI=10.1074/jbc.273.7.3878;
+RA   Noel L.S., Champion B.R., Holley C.L., Simmons C.J., Morris D.C.,
+RA   Payne J.A., Lean J.M., Chambers T.J., Zaman G., Lanyon L.E., Suva L.J.,
+RA   Miller L.R.;
+RT   "RoBo-1, a novel member of the urokinase plasminogen activator
+RT   receptor/CD59/Ly-6/snake toxin family selectively expressed in rat bone and
+RT   growth plate cartilage.";
+RL   J. Biol. Chem. 273:3878-3883(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: May play a novel role in the growth or remodeling of bone.
+CC       {ECO:0000269|PubMed:9461570}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed abundantly in bone, including the
+CC       lengthening growth plate where cartilage is remodeled into bone.
+CC       {ECO:0000269|PubMed:9461570}.
+CC   -!- INDUCTION: Up-regulated by estradiol. {ECO:0000269|PubMed:9461570}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:9461570}.
+CC   -!- SIMILARITY: Belongs to the CNF-like-inhibitor family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF041083; AAC40033.1; -; mRNA.
+DR   EMBL; CH473948; EDM04544.1; -; Genomic_DNA.
+DR   RefSeq; NP_113725.1; NM_031537.1.
+DR   RefSeq; XP_006246439.1; XM_006246377.3.
+DR   AlphaFoldDB; O55006; -.
+DR   SMR; O55006; -.
+DR   STRING; 10116.ENSRNOP00000003797; -.
+DR   GlyGen; O55006; 2 sites.
+DR   PaxDb; 10116-ENSRNOP00000003797; -.
+DR   Ensembl; ENSRNOT00000003797.5; ENSRNOP00000003797.2; ENSRNOG00000002820.5.
+DR   Ensembl; ENSRNOT00055050514; ENSRNOP00055041595; ENSRNOG00055029163.
+DR   Ensembl; ENSRNOT00060048012; ENSRNOP00060039956; ENSRNOG00060027666.
+DR   Ensembl; ENSRNOT00065011820; ENSRNOP00065008644; ENSRNOG00065007550.
+DR   GeneID; 24906; -.
+DR   KEGG; rno:24906; -.
+DR   AGR; RGD:3683; -.
+DR   CTD; 24906; -.
+DR   RGD; 3683; LOC24906.
+DR   eggNOG; ENOG502SDSC; Eukaryota.
+DR   GeneTree; ENSGT00730000111648; -.
+DR   InParanoid; O55006; -.
+DR   OMA; PNGVECP; -.
+DR   OrthoDB; 4848787at2759; -.
+DR   PhylomeDB; O55006; -.
+DR   TreeFam; TF339495; -.
+DR   PRO; PR:O55006; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Proteomes; UP000234681; Chromosome 10.
+DR   Bgee; ENSRNOG00000002820; Expressed in spleen and 16 other cell types or tissues.
+DR   ExpressionAtlas; O55006; baseline and differential.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046849; P:bone remodeling; IEP:UniProtKB.
+DR   Gene3D; 2.10.60.10; CD59; 1.
+DR   InterPro; IPR050918; CNF-like_PLA2_Inhibitor.
+DR   InterPro; IPR016054; LY6_UPA_recep-like.
+DR   InterPro; IPR045860; Snake_toxin-like_sf.
+DR   PANTHER; PTHR20914:SF8; GENE 12253-RELATED; 1.
+DR   PANTHER; PTHR20914; LY6/PLAUR DOMAIN-CONTAINING PROTEIN 8; 1.
+DR   Pfam; PF00021; UPAR_LY6; 2.
+DR   SUPFAM; SSF57302; Snake toxin-like; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Glycoprotein; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..240
+FT                   /note="Protein RoBo-1"
+FT                   /id="PRO_0000402834"
+FT   CARBOHYD        42
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        153
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        47..76
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        81..102
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        103..108
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        127..151
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        144..171
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   240 AA;  26187 MW;  72D746C0284ACAFB CRC64;
+     MSWFLVLKCL LTVCIISHLS VSSTESYGCI RKTCFGGRCL HNTTRSCEFS KGCFSQLQEF
+     AVPLLLLNRR VEQRGCSEDN CTELAFSATL GIDWMFSYNH QCCYSEQCNN KPINVSPLSL
+     QPNGVECPTC YSELGTCRPV SLKCTGAQTT CVNVTGQGIR EDFIKIHAMG CATQTACNLK
+     NVIILNNIKI DTSCVSGSPP LRYSPSLSTD QKTSSATAPT LCLLAAVLPA IMVMESFSEL
+//

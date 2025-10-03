@@ -1,0 +1,105 @@
+ID   USBP1_RAT               Reviewed;         680 AA.
+AC   Q3T1I3;
+DT   27-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2005, sequence version 1.
+DT   24-JUL-2024, entry version 84.
+DE   RecName: Full=Harmonin-binding protein USHBP1 {ECO:0000305};
+DE   AltName: Full=Usher syndrome type-1C protein-binding protein 1;
+DE            Short=USH1C-binding protein 1;
+GN   Name=Ushbp1 {ECO:0000312|EMBL:AAI01906.1};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- SUBUNIT: Interacts via its C-terminus with the first PDZ domain of
+CC       USH1C. {ECO:0000250|UniProtKB:Q8N6Y0}.
+CC   -!- SIMILARITY: Belongs to the MCC family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC101905; AAI01906.1; -; mRNA.
+DR   RefSeq; NP_001028859.1; NM_001033687.1.
+DR   AlphaFoldDB; Q3T1I3; -.
+DR   SMR; Q3T1I3; -.
+DR   STRING; 10116.ENSRNOP00000042639; -.
+DR   PhosphoSitePlus; Q3T1I3; -.
+DR   PaxDb; 10116-ENSRNOP00000042639; -.
+DR   Ensembl; ENSRNOT00000040393.5; ENSRNOP00000042639.3; ENSRNOG00000023485.6.
+DR   Ensembl; ENSRNOT00055017856; ENSRNOP00055014379; ENSRNOG00055010539.
+DR   Ensembl; ENSRNOT00060019006; ENSRNOP00060014830; ENSRNOG00060011241.
+DR   Ensembl; ENSRNOT00065035859; ENSRNOP00065028918; ENSRNOG00065021079.
+DR   GeneID; 290629; -.
+DR   KEGG; rno:290629; -.
+DR   UCSC; RGD:1310859; rat.
+DR   AGR; RGD:1310859; -.
+DR   CTD; 83878; -.
+DR   RGD; 1310859; Ushbp1.
+DR   eggNOG; KOG3512; Eukaryota.
+DR   GeneTree; ENSGT00530000063974; -.
+DR   HOGENOM; CLU_024579_0_0_1; -.
+DR   InParanoid; Q3T1I3; -.
+DR   OMA; PLIGHEP; -.
+DR   OrthoDB; 5319610at2759; -.
+DR   PhylomeDB; Q3T1I3; -.
+DR   TreeFam; TF105384; -.
+DR   PRO; PR:Q3T1I3; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000023485; Expressed in lung and 19 other cell types or tissues.
+DR   GO; GO:0030165; F:PDZ domain binding; ISO:RGD.
+DR   InterPro; IPR040171; USBP1-like.
+DR   InterPro; IPR019536; USHBP1_PDZ-bd.
+DR   PANTHER; PTHR23347; COLORECTAL MUTANT CANCER PROTEIN MCC PROTEIN -RELATED; 1.
+DR   PANTHER; PTHR23347:SF5; USHER SYNDROME TYPE-1C PROTEIN-BINDING PROTEIN 1; 1.
+DR   Pfam; PF10506; USHBP1_PDZ-bd; 1.
+PE   2: Evidence at transcript level;
+KW   Coiled coil; Reference proteome.
+FT   CHAIN           1..680
+FT                   /note="Harmonin-binding protein USHBP1"
+FT                   /id="PRO_0000244493"
+FT   REGION          1..101
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          135..162
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          217..250
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          524..562
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          177..219
+FT                   /evidence="ECO:0000255"
+FT   COILED          362..386
+FT                   /evidence="ECO:0000255"
+FT   COILED          479..506
+FT                   /evidence="ECO:0000255"
+FT   COILED          573..661
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        225..241
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   680 AA;  74612 MW;  8AA28F9CC9DB8438 CRC64;
+     MSARATRPRS RRGRHPLPGE LDPVAESSEE VDTTNGSFET KPELLQEHLG PSLQGPGNRI
+     KEDCDVGSHG VLPLSPEERR EPEVEAHQAL QEAPLDTGPA EITAPNVYET LKCRLSSLEA
+     VVAAWRRHSL SFSKPVEAED RDPGAPGSFG NEEEASGPGQ QEAAHFIERN AWLRLALGTR
+     EEELARTQAS LQDAQAENET LQRQVQELED SLMQLEASPP PSMLRAGRRN SNSSSSGAER
+     RPWAPQDSPM AHPFLQRLRS DSSTQSFGCL STQRPSPEMY LMEDQMGQLQ GNIEKLKCFN
+     RLLLAVLQGY KGRCESLSIK LGKREAEATA LHLALQYSKD CEEVYEVLLA LKTAGLGAGV
+     GATNGDLQAA EKEASRLLVK KEVAMDVKTP QPSPEGSSVD KPTPEELAAQ LHGYVQHLRE
+     RWALLKIPPV LDPATAPKPT MPHAEATVQT ILEIQPGPTL PQLEKSQIQQ DLAATRDGLA
+     DLVLRLQLAQ REKRGLELRE AALRAQGPAL RLLLQQLRWE QAHLMGDGSS GGSSEDPSSE
+     EEAGEDRQQH YQGPPALLGG QMGKVWDSET VSQELSASLT RAVDLRAQLQ SLRRQLEQMA
+     QKGRTRGAQS AELNRELCKA HSALALAFRE AHRKQEEQCR KLEQQMARMQ AQQAEELAVL
+     TATARALGDP GAPQPVQTFL
+//

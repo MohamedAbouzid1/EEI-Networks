@@ -1,0 +1,189 @@
+ID   NDUS2_RAT               Reviewed;         463 AA.
+AC   Q641Y2;
+DT   01-JUL-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   02-OCT-2024, entry version 129.
+DE   RecName: Full=NADH dehydrogenase [ubiquinone] iron-sulfur protein 2, mitochondrial;
+DE            EC=7.1.1.2 {ECO:0000269|PubMed:30922174};
+DE   AltName: Full=Complex I-49kD;
+DE            Short=CI-49kD;
+DE   AltName: Full=NADH-ubiquinone oxidoreductase 49 kDa subunit;
+DE   Flags: Precursor;
+GN   Name=Ndufs2 {ECO:0000312|EMBL:AAH82067.1};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000312|EMBL:AAH82067.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Brown Norway {ECO:0000269|PubMed:15489334};
+RC   TISSUE=Testis {ECO:0000312|EMBL:AAH82067.1};
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY, AND SUBCELLULAR LOCATION.
+RX   PubMed=19343716; DOI=10.1002/pmic.200800664;
+RA   Maurya D.K., Sundaram C.S., Bhargava P.;
+RT   "Proteome profile of the mature rat olfactory bulb.";
+RL   Proteomics 9:2593-2599(2009).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBCELLULAR LOCATION, AND TOPOLOGY.
+RX   PubMed=30922174; DOI=10.1161/circresaha.118.314284;
+RA   Dunham-Snary K.J., Wu D., Potus F., Sykes E.A., Mewburn J.D., Charles R.L.,
+RA   Eaton P., Sultanian R.A., Archer S.L.;
+RT   "Ndufs2, a Core Subunit of Mitochondrial Complex I, Is Essential for Acute
+RT   Oxygen-Sensing and Hypoxic Pulmonary Vasoconstriction.";
+RL   Circ. Res. 124:1727-1746(2019).
+CC   -!- FUNCTION: Core subunit of the mitochondrial membrane respiratory chain
+CC       NADH dehydrogenase (Complex I) which catalyzes electron transfer from
+CC       NADH through the respiratory chain, using ubiquinone as an electron
+CC       acceptor (PubMed:30922174). Essential for the catalytic activity of
+CC       complex I (PubMed:30922174). Essential for the assembly of complex I
+CC       (By similarity). Redox-sensitive, critical component of the oxygen-
+CC       sensing pathway in the pulmonary vasculature which plays a key role in
+CC       acute pulmonary oxygen-sensing and hypoxic pulmonary vasoconstriction
+CC       (PubMed:30922174). Plays an important role in carotid body sensing of
+CC       hypoxia (By similarity). Essential for glia-like neural stem and
+CC       progenitor cell proliferation, differentiation and subsequent
+CC       oligodendrocyte or neuronal maturation (By similarity).
+CC       {ECO:0000250|UniProtKB:Q91WD5, ECO:0000269|PubMed:30922174}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ubiquinone + 5 H(+)(in) + NADH = a ubiquinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:29091, Rhea:RHEA-COMP:9565, Rhea:RHEA-
+CC         COMP:9566, ChEBI:CHEBI:15378, ChEBI:CHEBI:16389, ChEBI:CHEBI:17976,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=7.1.1.2;
+CC         Evidence={ECO:0000269|PubMed:30922174};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000305};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000305};
+CC   -!- SUBUNIT: Core subunit of respiratory chain NADH dehydrogenase (Complex
+CC       I) which is composed of 45 different subunits. Component of the iron-
+CC       sulfur (IP) fragment of the enzyme. Interacts with NDUFAF3. Interacts
+CC       with NDUFAF7 (By similarity). Interacts with CERS2 (By similarity).
+CC       {ECO:0000250|UniProtKB:O75306, ECO:0000250|UniProtKB:Q91WD5}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000269|PubMed:30922174}; Peripheral membrane protein
+CC       {ECO:0000305|PubMed:30922174}; Matrix side
+CC       {ECO:0000269|PubMed:30922174}.
+CC   -!- PTM: Dimethylation at Arg-118 by NDUFAF7 takes place after NDUFS2
+CC       assembles into the complex I, leading to stabilize the early
+CC       intermediate complex. {ECO:0000250|UniProtKB:O75306}.
+CC   -!- SIMILARITY: Belongs to the complex I 49 kDa subunit family.
+CC       {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC082067; AAH82067.1; -; mRNA.
+DR   RefSeq; NP_001011907.1; NM_001011907.1.
+DR   RefSeq; XP_003751325.1; XM_003751277.3.
+DR   AlphaFoldDB; Q641Y2; -.
+DR   SMR; Q641Y2; -.
+DR   BioGRID; 252831; 2.
+DR   IntAct; Q641Y2; 2.
+DR   MINT; Q641Y2; -.
+DR   STRING; 10116.ENSRNOP00000055224; -.
+DR   GlyGen; Q641Y2; 4 sites, 1 O-linked glycan (4 sites).
+DR   iPTMnet; Q641Y2; -.
+DR   PhosphoSitePlus; Q641Y2; -.
+DR   SwissPalm; Q641Y2; -.
+DR   jPOST; Q641Y2; -.
+DR   PaxDb; 10116-ENSRNOP00000055224; -.
+DR   Ensembl; ENSRNOT00000058423.5; ENSRNOP00000055224.3; ENSRNOG00000038372.5.
+DR   Ensembl; ENSRNOT00055037969; ENSRNOP00055031007; ENSRNOG00055022093.
+DR   Ensembl; ENSRNOT00060044950; ENSRNOP00060037288; ENSRNOG00060025952.
+DR   GeneID; 289218; -.
+DR   KEGG; rno:289218; -.
+DR   UCSC; RGD:1307109; rat.
+DR   AGR; RGD:1307109; -.
+DR   CTD; 4720; -.
+DR   RGD; 1307109; Ndufs2.
+DR   eggNOG; KOG2870; Eukaryota.
+DR   GeneTree; ENSGT00390000009529; -.
+DR   HOGENOM; CLU_015134_1_1_1; -.
+DR   InParanoid; Q641Y2; -.
+DR   OMA; IMGTSME; -.
+DR   OrthoDB; 191at2759; -.
+DR   PhylomeDB; Q641Y2; -.
+DR   Reactome; R-RNO-611105; Respiratory electron transport.
+DR   Reactome; R-RNO-6799198; Complex I biogenesis.
+DR   PRO; PR:Q641Y2; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000038372; Expressed in heart and 20 other cell types or tissues.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IDA:UniProtKB.
+DR   GO; GO:0005747; C:mitochondrial respiratory chain complex I; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0045271; C:respiratory chain complex I; IDA:UniProtKB.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; ISS:UniProtKB.
+DR   GO; GO:0003954; F:NADH dehydrogenase activity; IEA:Ensembl.
+DR   GO; GO:0019826; F:oxygen sensor activity; IMP:UniProtKB.
+DR   GO; GO:0048038; F:quinone binding; IEA:InterPro.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0071453; P:cellular response to oxygen levels; IMP:UniProtKB.
+DR   GO; GO:0042063; P:gliogenesis; ISS:UniProtKB.
+DR   GO; GO:0042775; P:mitochondrial ATP synthesis coupled electron transport; ISO:RGD.
+DR   GO; GO:0006120; P:mitochondrial electron transport, NADH to ubiquinone; IMP:UniProtKB.
+DR   GO; GO:0032981; P:mitochondrial respiratory chain complex I assembly; ISS:UniProtKB.
+DR   GO; GO:0061351; P:neural precursor cell proliferation; ISS:UniProtKB.
+DR   GO; GO:0022008; P:neurogenesis; ISS:UniProtKB.
+DR   GO; GO:0006979; P:response to oxidative stress; ISO:RGD.
+DR   Gene3D; 1.10.645.10; Cytochrome-c3 Hydrogenase, chain B; 1.
+DR   HAMAP; MF_01358; NDH1_NuoD; 1.
+DR   InterPro; IPR001135; NADH_Q_OxRdtase_suD.
+DR   InterPro; IPR014029; NADH_UbQ_OxRdtase_49kDa_CS.
+DR   InterPro; IPR022885; NDH1_su_D/H.
+DR   InterPro; IPR029014; NiFe-Hase_large.
+DR   NCBIfam; TIGR01962; NuoD; 1.
+DR   PANTHER; PTHR11993:SF10; NADH DEHYDROGENASE [UBIQUINONE] IRON-SULFUR PROTEIN 2, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11993; NADH-UBIQUINONE OXIDOREDUCTASE 49 KDA SUBUNIT; 1.
+DR   Pfam; PF00346; Complex1_49kDa; 1.
+DR   SUPFAM; SSF56762; HydB/Nqo4-like; 1.
+DR   PROSITE; PS00535; COMPLEX1_49K; 1.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Acetylation; Electron transport; Iron; Iron-sulfur; Membrane;
+KW   Metal-binding; Methylation; Mitochondrion; Mitochondrion inner membrane;
+KW   NAD; Oxidoreductase; Reference proteome; Respiratory chain;
+KW   Transit peptide; Translocase; Transport; Ubiquinone.
+FT   TRANSIT         1..33
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000250|UniProtKB:P17694"
+FT   CHAIN           34..463
+FT                   /note="NADH dehydrogenase [ubiquinone] iron-sulfur protein
+FT                   2, mitochondrial"
+FT                   /id="PRO_0000342702"
+FT   BINDING         326
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         332
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         347
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000305"
+FT   MOD_RES         62
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91WD5"
+FT   MOD_RES         118
+FT                   /note="Symmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17694"
+SQ   SEQUENCE   463 AA;  52562 MW;  B9919E581C229C19 CRC64;
+     MAALRAVCSL RGVGAQVLRA GSGIRLPSQP SRGARRWQPD IEWAEQFSGA VMYPSKETAH
+     WKPPPWNDVD VLKEKVVTNV TLNFGPQHPA AHGVLRLVLE LSGEMVRKCD PHIGLLHRGT
+     EKLIEYKTYL QALPYFDRLD YVSMMCNEQA YSLAVEKLLN IQPPPRAQWI RVLFGEITRI
+     LNHIMAVTTH ALDIGAMTPF FWMFEEREKM FEFYERVSGA RMHAAYIRPG GVHQDLPLGL
+     MDDIYEFSKN FSLRIDEVEE MLTNNRIWRN RTVDIGVVSA EDALNYGFSG VMLRGSGIQW
+     DLRKTQPYDV YDQVEFDVPI GSRGDCYDRY LCRVEEMRQS LRIIEQCLNK MPPGEIKVDD
+     AKVSPPKRAE MKTSMESLIH HFKLYTEGYQ VPPGATYTAI EAPKGEFGVY LVSDGSSRPY
+     RCKIKAPGFA HLAGLDKMSK GHMLADVVAI IGTQDIVFGE IDR
+//

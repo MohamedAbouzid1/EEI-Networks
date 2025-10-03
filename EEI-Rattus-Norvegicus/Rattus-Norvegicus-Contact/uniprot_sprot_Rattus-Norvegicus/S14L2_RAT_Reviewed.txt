@@ -1,0 +1,139 @@
+ID   S14L2_RAT               Reviewed;         403 AA.
+AC   Q99MS0;
+DT   20-JUN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   24-JUL-2024, entry version 130.
+DE   RecName: Full=SEC14-like protein 2;
+DE   AltName: Full=Alpha-tocopherol-associated protein;
+DE            Short=TAP;
+DE   AltName: Full=Squalene transfer protein;
+DE   AltName: Full=Supernatant protein factor;
+DE            Short=SPF;
+GN   Name=Sec14l2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 19-51 AND 231-252.
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=11226224; DOI=10.1073/pnas.041620398;
+RA   Shibata N., Arita M., Misaki Y., Dohmae N., Takio K., Ono T., Inoue K.,
+RA   Arai H.;
+RT   "Supernatant protein factor, which stimulates the conversion of squalene to
+RT   lanosterol, is a cytosolic squalene transfer protein and enhances
+RT   cholesterol biosynthesis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:2244-2249(2001).
+CC   -!- FUNCTION: Carrier protein. Binds to some hydrophobic molecules and
+CC       promotes their transfer between the different cellular sites. Binds
+CC       with high affinity to alpha-tocopherol. Also binds with a weaker
+CC       affinity to other tocopherols and to tocotrienols. May have a
+CC       transcriptional activatory activity via its association with alpha-
+CC       tocopherol (By similarity). Probably recognizes and binds some squalene
+CC       structure, suggesting that it may regulate cholesterol biosynthesis by
+CC       increasing the transfer of squalene to a metabolic active pool in the
+CC       cell. {ECO:0000250}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Nucleus {ECO:0000250}.
+CC       Note=Cytoplasmic in absence of alpha-tocopherol, and nuclear in
+CC       presence of alpha-tocopherol. {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC         Comment=Experimental confirmation may be lacking for some isoforms.;
+CC       Name=1;
+CC         IsoId=Q99MS0-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q99MS0-2; Sequence=Not described;
+CC       Name=3;
+CC         IsoId=Q99MS0-3; Sequence=Not described;
+CC   -!- TISSUE SPECIFICITY: Widely expressed. High expression in liver and
+CC       small intestine.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF309558; AAK16405.1; -; mRNA.
+DR   AlphaFoldDB; Q99MS0; -.
+DR   SMR; Q99MS0; -.
+DR   STRING; 10116.ENSRNOP00000006542; -.
+DR   iPTMnet; Q99MS0; -.
+DR   PhosphoSitePlus; Q99MS0; -.
+DR   jPOST; Q99MS0; -.
+DR   PaxDb; 10116-ENSRNOP00000006542; -.
+DR   Ensembl; ENSRNOT00055051587; ENSRNOP00055042531; ENSRNOG00055029740. [Q99MS0-1]
+DR   Ensembl; ENSRNOT00060038673; ENSRNOP00060031931; ENSRNOG00060022120. [Q99MS0-1]
+DR   UCSC; RGD:621779; rat. [Q99MS0-1]
+DR   AGR; RGD:621779; -.
+DR   RGD; 621779; Sec14l2.
+DR   eggNOG; KOG1471; Eukaryota.
+DR   InParanoid; Q99MS0; -.
+DR   PhylomeDB; Q99MS0; -.
+DR   PRO; PR:Q99MS0; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008047; F:enzyme activator activity; IDA:RGD.
+DR   GO; GO:0008289; F:lipid binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016765; F:transferase activity, transferring alkyl or aryl (other than methyl) groups; IDA:RGD.
+DR   GO; GO:0045542; P:positive regulation of cholesterol biosynthetic process; IDA:RGD.
+DR   CDD; cd00170; SEC14; 1.
+DR   Gene3D; 3.40.525.10; CRAL-TRIO lipid binding domain; 1.
+DR   Gene3D; 2.60.120.680; GOLD domain; 1.
+DR   InterPro; IPR001251; CRAL-TRIO_dom.
+DR   InterPro; IPR036865; CRAL-TRIO_dom_sf.
+DR   InterPro; IPR011074; CRAL/TRIO_N_dom.
+DR   InterPro; IPR036273; CRAL/TRIO_N_dom_sf.
+DR   InterPro; IPR009038; GOLD_dom.
+DR   InterPro; IPR036598; GOLD_dom_sf.
+DR   InterPro; IPR051064; SEC14/CRAL-TRIO_domain.
+DR   PANTHER; PTHR23324; SEC14 RELATED PROTEIN; 1.
+DR   PANTHER; PTHR23324:SF90; SEC14-LIKE PROTEIN 2; 1.
+DR   Pfam; PF00650; CRAL_TRIO; 1.
+DR   Pfam; PF03765; CRAL_TRIO_N; 1.
+DR   PRINTS; PR00180; CRETINALDHBP.
+DR   SMART; SM01100; CRAL_TRIO_N; 1.
+DR   SMART; SM00516; SEC14; 1.
+DR   SUPFAM; SSF52087; CRAL/TRIO domain; 1.
+DR   SUPFAM; SSF46938; CRAL/TRIO N-terminal domain; 1.
+DR   SUPFAM; SSF101576; Supernatant protein factor (SPF), C-terminal domain; 1.
+DR   PROSITE; PS50191; CRAL_TRIO; 1.
+DR   PROSITE; PS50866; GOLD; 1.
+PE   1: Evidence at protein level;
+KW   Activator; Alternative splicing; Cytoplasm; Direct protein sequencing;
+KW   Lipid-binding; Nucleus; Reference proteome; Transcription;
+KW   Transcription regulation; Transport.
+FT   CHAIN           1..403
+FT                   /note="SEC14-like protein 2"
+FT                   /id="PRO_0000210757"
+FT   DOMAIN          76..249
+FT                   /note="CRAL-TRIO"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00056"
+FT   DOMAIN          275..383
+FT                   /note="GOLD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00096"
+FT   MOD_RES         11
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99J08"
+FT   MOD_RES         51
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99J08"
+FT   MOD_RES         253
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99J08"
+FT   MOD_RES         257
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99J08"
+FT   MOD_RES         393
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99J08"
+SQ   SEQUENCE   403 AA;  46166 MW;  413CC8BC4E3A45BD CRC64;
+     MSGRVGDLSP KQEEALAKFR ENVQDVLPAL PNPDDYFLLR WLRARSFDLQ KSEAMLRKHV
+     EFRKQKDIDK IISWQPPEVI QQYLSGGRCG YDLDGCPVWY DIIGPLDAKG LLFSASKQDL
+     LRTKMRDCEL LLQECTQQTA KLGKKIETIT MIYDCEGLGL KHLWKPAVEA YGEFLTMFEE
+     NYPETLKRLF VVKAPKLFPV AYNLIKPFLS EDTRKKIMVL GANWKEVLLK HISPDQLPVE
+     YGGTMTDPDG NPKCKSKINY GGDIPKQYYV RDQVKQQYEH SVQISRGSSH QVEYEILFPG
+     CVLRWQFMSE GSDVGFGIFL KTKMGERQRA GEMTEVLPNQ RYNSHMVPED GTLTCSEPGI
+     YVLRFDNTYS FIHAKKVSFT VEVLLPDKAA EEKLNQQGAV TPK
+//

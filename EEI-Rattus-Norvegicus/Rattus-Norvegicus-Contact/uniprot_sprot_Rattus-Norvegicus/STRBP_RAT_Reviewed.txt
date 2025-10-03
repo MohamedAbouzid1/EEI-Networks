@@ -1,0 +1,127 @@
+ID   STRBP_RAT               Reviewed;         671 AA.
+AC   Q9JKU6;
+DT   06-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   24-JUL-2024, entry version 107.
+DE   RecName: Full=Spermatid perinuclear RNA-binding protein;
+DE   AltName: Full=74 kDa double-stranded RNA-binding protein;
+DE            Short=p74;
+GN   Name=Strbp;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, INTERACTION WITH EIF2AK2,
+RP   DNA-BINDING, RNA-BINDING, AND TISSUE SPECIFICITY.
+RC   TISSUE=Smooth muscle;
+RX   PubMed=10684936; DOI=10.1093/nar/28.6.1407;
+RA   Coolidge C.J., Patton J.G.;
+RT   "A new double-stranded RNA-binding protein that interacts with PKR.";
+RL   Nucleic Acids Res. 28:1407-1417(2000).
+CC   -!- FUNCTION: Involved in spermatogenesis and sperm function (By
+CC       similarity). Plays a role in regulation of cell growth. Binds to
+CC       double-stranded DNA and RNA. Binds most efficiently to poly(I:C) RNA
+CC       than to poly(dI:dC) DNA. Binds also to single-stranded poly(G) RNA.
+CC       Binds non-specifically to the mRNA PRM1 3'-UTR and adenovirus VA RNA
+CC       (By similarity). {ECO:0000250, ECO:0000269|PubMed:10684936}.
+CC   -!- SUBUNIT: Associates with microtubules; it is unsure whether such
+CC       interaction is direct or indirect (By similarity). Interacts with
+CC       EIF2AK2. {ECO:0000250, ECO:0000269|PubMed:10684936}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Note=Microtubule-
+CC       associated that localizes to the manchette in developing spermatids.
+CC       {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Ubiquitous. {ECO:0000269|PubMed:10684936}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF226864; AAF59924.1; -; mRNA.
+DR   STRING; 10116.ENSRNOP00000062543; -.
+DR   iPTMnet; Q9JKU6; -.
+DR   PhosphoSitePlus; Q9JKU6; -.
+DR   jPOST; Q9JKU6; -.
+DR   PaxDb; 10116-ENSRNOP00000062543; -.
+DR   PeptideAtlas; Q9JKU6; -.
+DR   UCSC; RGD:620673; rat.
+DR   AGR; RGD:620673; -.
+DR   RGD; 620673; Strbp.
+DR   eggNOG; KOG3792; Eukaryota.
+DR   InParanoid; Q9JKU6; -.
+DR   PRO; PR:Q9JKU6; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0002177; C:manchette; ISO:RGD.
+DR   GO; GO:0015630; C:microtubule cytoskeleton; ISO:RGD.
+DR   GO; GO:0003725; F:double-stranded RNA binding; ISO:RGD.
+DR   GO; GO:0008017; F:microtubule binding; ISO:RGD.
+DR   GO; GO:0003727; F:single-stranded RNA binding; ISO:RGD.
+DR   GO; GO:0015631; F:tubulin binding; ISO:RGD.
+DR   GO; GO:0048870; P:cell motility; ISO:RGD.
+DR   GO; GO:0007638; P:mechanosensory behavior; ISO:RGD.
+DR   GO; GO:0007286; P:spermatid development; ISO:RGD.
+DR   CDD; cd19909; DSRM_STRBP_rpt1; 1.
+DR   Gene3D; 1.10.1410.40; -; 1.
+DR   Gene3D; 3.30.160.20; -; 2.
+DR   Gene3D; 3.30.460.10; Beta Polymerase, domain 2; 1.
+DR   InterPro; IPR014720; dsRBD_dom.
+DR   InterPro; IPR006561; DZF_dom.
+DR   InterPro; IPR049402; DZF_dom_C.
+DR   InterPro; IPR049401; DZF_dom_N.
+DR   InterPro; IPR043519; NT_sf.
+DR   InterPro; IPR044472; STRBP_DSRM_1.
+DR   PANTHER; PTHR45762:SF1; SPERMATID PERINUCLEAR RNA-BINDING PROTEIN; 1.
+DR   PANTHER; PTHR45762; ZINC FINGER RNA-BINDING PROTEIN; 1.
+DR   Pfam; PF00035; dsrm; 2.
+DR   Pfam; PF20965; DZF_C; 1.
+DR   Pfam; PF07528; DZF_N; 1.
+DR   SMART; SM00358; DSRM; 2.
+DR   SMART; SM00572; DZF; 1.
+DR   SUPFAM; SSF54768; dsRNA-binding domain-like; 2.
+DR   PROSITE; PS50137; DS_RBD; 2.
+DR   PROSITE; PS51703; DZF; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Developmental protein; Differentiation; DNA-binding;
+KW   Methylation; Reference proteome; Repeat; RNA-binding; Spermatogenesis.
+FT   CHAIN           1..671
+FT                   /note="Spermatid perinuclear RNA-binding protein"
+FT                   /id="PRO_0000274920"
+FT   DOMAIN          5..363
+FT                   /note="DZF"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01040"
+FT   DOMAIN          387..453
+FT                   /note="DRBM 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00266"
+FT   DOMAIN          504..577
+FT                   /note="DRBM 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00266"
+FT   REGION          351..371
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          461..495
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        476..495
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         611
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91WM1"
+FT   MOD_RES         616
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91WM1"
+SQ   SEQUENCE   671 AA;  74005 MW;  2725F00C48865F56 CRC64;
+     MRSIRSFAND DRHVMVKHST IYPSPEELEA VQNMVSTVEC ALKHVSDWLD ETNKGTKPEG
+     ETEVKKDDAV ENYSKDQGGR TLCGVMRIGL VAKGLLIKDD MDLELVLMCK DKPTETLLNT
+     VKDNLPIQIQ KLTEEKYQVE QCINEASIII RNTKEPTLTL KVILHSPLIR DELEKKDGEN
+     VMMKDPPDLL DRQKCLNALA SLRHAKWFQA RANGLKSCVI VLRILRDLCN RVPTWAPLKG
+     WPLELICEKS IGTCNRPLGX GEALRRVMEC LASGILLPGG PGLHDPCERD PTDALSYMTT
+     QQKEDITHSA QHALRLSAFG QIYKVLEMDP LPSSKPFQKY SWSVTDKEGA GSSALKRPFE
+     DGLGDDKDPN KRMKRNLRKI LDSKAIDLMN ALMRLNQIRP GLQYKLLSQS GPVHAPVFTM
+     SVDVDGTTYE ASGPSKKTAK LHVAVKVLQA MGYPTGFDAD IECMSSDEKS DNESKNDTVS
+     SNSSNNTGNC TTETSSTLEV RTQGPILSSQ QVAKILCGAN EKRRGLKYEL ISETGGSHDK
+     RFVMEVEVDG QKFRGAGPNK KVAKEVQRTL EKLFSGPNAA NNKKKKIIPQ AKGVVNTAVS
+     DAVQAVRGRG RGTLTRGAFV GATAAPGYIA PGYGTPYGYS TASPAYGLPK RMVLLPVMKF
+     PTYPVPHYSF F
+//

@@ -1,0 +1,230 @@
+ID   NB5R4_RAT               Reviewed;         520 AA.
+AC   Q68EJ0; Q6VXY2; Q6VXY3; Q9EPZ4;
+DT   15-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAY-2007, sequence version 2.
+DT   02-OCT-2024, entry version 136.
+DE   RecName: Full=Cytochrome b5 reductase 4;
+DE            EC=1.6.2.2;
+DE   AltName: Full=Flavohemoprotein b5/b5R;
+DE            Short=b5+b5R;
+DE   AltName: Full=N-terminal cytochrome b5 and cytochrome b5 oxidoreductase domain-containing protein;
+DE   AltName: Full=cb5/cb5R;
+GN   Name=Cyb5r4; Synonyms=Ncb5or;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 35-520 (ISOFORM 1), ENZYME ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, FAD-BINDING, HEME-BINDING AT HIS-89 AND
+RP   HIS-112, AND MUTAGENESIS OF HIS-89 AND HIS-112.
+RX   PubMed=11913972; DOI=10.1006/abbi.2002.2783;
+RA   Davis C.A., Dhawan I.K., Johnson M.K., Barber M.J.;
+RT   "Heterologous expression of an endogenous rat cytochrome b(5)/cytochrome
+RT   b(5) reductase fusion protein: identification of histidines 62 and 85 as
+RT   the heme axial ligands.";
+RL   Arch. Biochem. Biophys. 400:63-75(2002).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 35-520 (ISOFORMS 1 AND 2), AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Testis;
+RX   PubMed=14962668; DOI=10.1016/j.ygeno.2003.08.020;
+RA   Curry B.J., Roman S.D., Wallace C.A., Scott R., Miriami E., Aitken R.J.;
+RT   "Identification and characterization of a novel splice variant of mouse and
+RT   rat cytochrome b5/cytochrome b5 reductase.";
+RL   Genomics 83:425-438(2004).
+CC   -!- FUNCTION: NADH-cytochrome b5 reductase involved in endoplasmic
+CC       reticulum stress response pathway. Plays a critical role in protecting
+CC       pancreatic beta-cells against oxidant stress, possibly by protecting
+CC       the cell from excess buildup of reactive oxygen species (ROS).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Fe(III)-[cytochrome b5] + NADH = 2 Fe(II)-[cytochrome b5] +
+CC         H(+) + NAD(+); Xref=Rhea:RHEA:46680, Rhea:RHEA-COMP:10438, Rhea:RHEA-
+CC         COMP:10439, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.6.2.2;
+CC         Evidence={ECO:0000269|PubMed:11913972};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000269|PubMed:11913972};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=28 uM for ferricyanide {ECO:0000269|PubMed:11913972};
+CC         KM=1 uM for NADPH {ECO:0000269|PubMed:11913972};
+CC         KM=7 uM for cytochrome c {ECO:0000269|PubMed:11913972};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum. Note=Soluble protein.
+CC       {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q68EJ0-1; Sequence=Displayed;
+CC       Name=2; Synonyms=cb5/cb5rDelta12;
+CC         IsoId=Q68EJ0-2; Sequence=VSP_025563;
+CC   -!- TISSUE SPECIFICITY: Isoform 2 is expressed in testis, brain, skeletal
+CC       muscle and in the male germline. {ECO:0000269|PubMed:14962668}.
+CC   -!- SIMILARITY: Belongs to the flavoprotein pyridine nucleotide cytochrome
+CC       reductase family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH80240.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC080240; AAH80240.1; ALT_INIT; mRNA.
+DR   EMBL; AF307840; AAG45053.1; -; mRNA.
+DR   EMBL; AY321370; AAQ83902.1; -; mRNA.
+DR   EMBL; AY321371; AAQ83903.1; -; mRNA.
+DR   RefSeq; NP_596918.3; NM_133427.3.
+DR   AlphaFoldDB; Q68EJ0; -.
+DR   SMR; Q68EJ0; -.
+DR   STRING; 10116.ENSRNOP00000013909; -.
+DR   PhosphoSitePlus; Q68EJ0; -.
+DR   jPOST; Q68EJ0; -.
+DR   PaxDb; 10116-ENSRNOP00000013909; -.
+DR   GeneID; 171015; -.
+DR   KEGG; rno:171015; -.
+DR   UCSC; RGD:621834; rat. [Q68EJ0-1]
+DR   AGR; RGD:621834; -.
+DR   CTD; 51167; -.
+DR   RGD; 621834; Cyb5r4.
+DR   eggNOG; KOG0534; Eukaryota.
+DR   eggNOG; KOG0536; Eukaryota.
+DR   InParanoid; Q68EJ0; -.
+DR   OrthoDB; 163533at2759; -.
+DR   PhylomeDB; Q68EJ0; -.
+DR   BRENDA; 1.6.2.2; 5301.
+DR   Reactome; R-RNO-1237044; Erythrocytes take up carbon dioxide and release oxygen.
+DR   SABIO-RK; Q68EJ0; -.
+DR   PRO; PR:Q68EJ0; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISO:RGD.
+DR   GO; GO:0004128; F:cytochrome-b5 reductase activity, acting on NAD(P)H; ISO:RGD.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IDA:RGD.
+DR   GO; GO:0020037; F:heme binding; IDA:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016174; F:NAD(P)H oxidase H2O2-forming activity; ISO:RGD.
+DR   GO; GO:0003958; F:NADPH-hemoprotein reductase activity; IDA:RGD.
+DR   GO; GO:0016653; F:oxidoreductase activity, acting on NAD(P)H, heme protein as acceptor; ISO:RGD.
+DR   GO; GO:0048468; P:cell development; ISO:RGD.
+DR   GO; GO:0042593; P:glucose homeostasis; ISO:RGD.
+DR   GO; GO:0030073; P:insulin secretion; ISO:RGD.
+DR   GO; GO:0006739; P:NADP metabolic process; IDA:RGD.
+DR   GO; GO:0072593; P:reactive oxygen species metabolic process; ISO:RGD.
+DR   GO; GO:0046677; P:response to antibiotic; ISO:RGD.
+DR   GO; GO:0006801; P:superoxide metabolic process; ISO:RGD.
+DR   CDD; cd06183; cyt_b5_reduct_like; 1.
+DR   CDD; cd06490; p23_NCB5OR; 1.
+DR   Gene3D; 2.60.40.790; -; 1.
+DR   Gene3D; 3.10.120.10; Cytochrome b5-like heme/steroid binding domain; 1.
+DR   Gene3D; 3.40.50.80; Nucleotide-binding domain of ferredoxin-NADP reductase (FNR) module; 1.
+DR   Gene3D; 2.40.30.10; Translation factors; 1.
+DR   InterPro; IPR001834; CBR-like.
+DR   InterPro; IPR008333; Cbr1-like_FAD-bd_dom.
+DR   InterPro; IPR007052; CS_dom.
+DR   InterPro; IPR001199; Cyt_B5-like_heme/steroid-bd.
+DR   InterPro; IPR036400; Cyt_B5-like_heme/steroid_sf.
+DR   InterPro; IPR018506; Cyt_B5_heme-BS.
+DR   InterPro; IPR017927; FAD-bd_FR_type.
+DR   InterPro; IPR039261; FNR_nucleotide-bd.
+DR   InterPro; IPR008978; HSP20-like_chaperone.
+DR   InterPro; IPR001433; OxRdtase_FAD/NAD-bd.
+DR   InterPro; IPR037908; p23_NCB5OR.
+DR   InterPro; IPR017938; Riboflavin_synthase-like_b-brl.
+DR   PANTHER; PTHR19370; NADH-CYTOCHROME B5 REDUCTASE; 1.
+DR   PANTHER; PTHR19370:SF185; NADH-CYTOCHROME B5 REDUCTASE 2; 1.
+DR   Pfam; PF04969; CS; 1.
+DR   Pfam; PF00173; Cyt-b5; 1.
+DR   Pfam; PF00970; FAD_binding_6; 1.
+DR   Pfam; PF00175; NAD_binding_1; 1.
+DR   PRINTS; PR00406; CYTB5RDTASE.
+DR   PRINTS; PR00363; CYTOCHROMEB5.
+DR   SMART; SM01117; Cyt-b5; 1.
+DR   SUPFAM; SSF55856; Cytochrome b5-like heme/steroid binding domain; 1.
+DR   SUPFAM; SSF52343; Ferredoxin reductase-like, C-terminal NADP-linked domain; 1.
+DR   SUPFAM; SSF49764; HSP20-like chaperones; 1.
+DR   SUPFAM; SSF63380; Riboflavin synthase domain-like; 1.
+DR   PROSITE; PS51203; CS; 1.
+DR   PROSITE; PS00191; CYTOCHROME_B5_1; 1.
+DR   PROSITE; PS50255; CYTOCHROME_B5_2; 1.
+DR   PROSITE; PS51384; FAD_FR; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Alternative splicing; Endoplasmic reticulum; FAD;
+KW   Flavoprotein; Heme; Iron; Metal-binding; NAD; Oxidoreductase;
+KW   Reference proteome.
+FT   CHAIN           1..520
+FT                   /note="Cytochrome b5 reductase 4"
+FT                   /id="PRO_0000287558"
+FT   DOMAIN          54..130
+FT                   /note="Cytochrome b5 heme-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00279"
+FT   DOMAIN          164..255
+FT                   /note="CS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00547"
+FT   DOMAIN          272..384
+FT                   /note="FAD-binding FR-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00716"
+FT   REGION          1..27
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         89
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT   BINDING         112
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT   BINDING         364..379
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         391..423
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7L1T6"
+FT   VAR_SEQ         318..368
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:14962668"
+FT                   /id="VSP_025563"
+FT   MUTAGEN         89
+FT                   /note="H->A,M: Abolishes heme-binding but does not affect
+FT                   reductase activity."
+FT                   /evidence="ECO:0000269|PubMed:11913972"
+FT   MUTAGEN         112
+FT                   /note="H->A,M: Abolishes heme-binding but does not affect
+FT                   reductase activity."
+FT                   /evidence="ECO:0000269|PubMed:11913972"
+FT   CONFLICT        38
+FT                   /note="F -> I (in Ref. 1; AAH80240)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        244
+FT                   /note="Q -> L (in Ref. 2; AAG45053)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   520 AA;  58835 MW;  F0C0553206F7976A CRC64;
+     MLNVPSQAFP APGSQQRVAS QGRSKVPLKQ GRSLMDWFRL TKSGKDFTGL KGGLIEVTEE
+     ELKKHNKKDD CWICIRGFVY NVSPYMEYHP GGEDELMRAA GADGTDLFNE VHRWVNYESM
+     LKECLVGRMA VKPAVPKDCH EGKRVLNGML PKSQVTDTLP REGPSSPSYD WFQTESSVTI
+     VIYTKQKNIN LDSVIVDLQD DSLRAEAVIK DHSYLIHIGL SHEVQENFSV RVIENVGKIE
+     IVLQKKETVS WKCLGDPLEK HDSFIPKKDT GLYYRQCQLI SKEDVTHDTR LFCLMLPPST
+     HLQVPVGQHV YLKLSVTGAE IVKPYTPVSE SLLSDFKEPV LSPNKYIYFL IKIYPAGLFT
+     PELDRLQIGD FVSVSGPEGN FKVSKLQEVE DLFLLAAGTG FTPMVTVLNH ALTHMSSLRK
+     VKLMFFNKTE DDIIWRCQLE KLALKDKRFH VEYVLSAPSP EWNGKQGHVS RALLSEFLQR
+     SLENSKVFLC ICGPTPFTDE GIRLLHDLNF SDDEIHGFTA
+//

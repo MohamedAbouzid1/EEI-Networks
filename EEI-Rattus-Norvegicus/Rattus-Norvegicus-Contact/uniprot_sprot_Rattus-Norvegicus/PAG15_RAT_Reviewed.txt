@@ -1,0 +1,891 @@
+ID   PAG15_RAT               Reviewed;         413 AA.
+AC   Q675A5;
+DT   19-OCT-2011, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   02-OCT-2024, entry version 114.
+DE   RecName: Full=Lysosomal phospholipase A and acyltransferase;
+DE            EC=2.3.1.- {ECO:0000269|PubMed:15294901};
+DE            EC=3.1.1.32 {ECO:0000269|PubMed:15294901};
+DE            EC=3.1.1.4 {ECO:0000269|PubMed:15294901};
+DE   AltName: Full=1-O-acylceramide synthase {ECO:0000303|PubMed:15294901};
+DE            Short=ACS {ECO:0000303|PubMed:15294901};
+DE   AltName: Full=LCAT-like lysophospholipase {ECO:0000250|UniProtKB:Q8NCC3};
+DE            Short=LLPL {ECO:0000250|UniProtKB:Q8NCC3};
+DE            EC=3.1.1.5 {ECO:0000250|UniProtKB:Q8NCC3};
+DE   AltName: Full=Lysophospholipase 3;
+DE   AltName: Full=Lysosomal phospholipase A2 {ECO:0000303|PubMed:15294901};
+DE            Short=LPLA2 {ECO:0000303|PubMed:15294901};
+DE   AltName: Full=Phospholipase A2 group XV {ECO:0000250|UniProtKB:Q8VEB4};
+DE   Flags: Precursor;
+GN   Name=Pla2g15; Synonyms=Lypla3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, ACTIVITY
+RP   REGULATION, BIOPHYSICOCHEMICAL PROPERTIES, AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar;
+RX   PubMed=15294901; DOI=10.1074/jbc.m407834200;
+RA   Abe A., Hiraoka M., Wild S., Wilcoxen S.E., Paine R., Shayman J.A.;
+RT   "Lysosomal phospholipase A2 is selectively expressed in alveolar
+RT   macrophages.";
+RL   J. Biol. Chem. 279:42605-42611(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Brown Norway; TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Has dual calcium-independent phospholipase and O-
+CC       acyltransferase activities with a potential role in glycerophospholipid
+CC       homeostasis and remodeling of acyl groups of lipophilic alcohols
+CC       present in acidic cellular compartments (PubMed:15294901). Catalyzes
+CC       hydrolysis of the ester bond of the fatty acyl group attached at sn-1
+CC       or sn-2 position of phospholipids (phospholipase A1 or A2 activity) and
+CC       transfer it to the hydroxyl group at the first carbon of lipophilic
+CC       alcohols (O-acyltransferase activity) (PubMed:15294901). Among
+CC       preferred fatty acyl donors are phosphatidylcholines,
+CC       phosphatidylethanolamines, phosphatidylglycerols and
+CC       phosphatidylserines. Favors sn-2 over sn-1 deacylation of unsaturated
+CC       fatty acyl groups of phosphatidylcholines, phosphatidylethanolamines,
+CC       and phosphatidylglycerols (By similarity). Among preferred fatty acyl
+CC       acceptors are natural lipophilic alcohols including short-chain
+CC       ceramide N-acetyl-sphingosine (C2 ceramide), alkylacylglycerols,
+CC       monoacylglycerols, and acylethanolamides such as anandamide and
+CC       oleoylethanolamide. Selectively hydrolyzes the sn-1 fatty acyl group of
+CC       truncated oxidized phospholipids and may play a role in detoxification
+CC       of reactive oxidized phospholipids during oxidative stress (By
+CC       similarity). Required for normal phospholipid degradation in alveolar
+CC       macrophages with potential implications in the clearance of pulmonary
+CC       surfactant, which is mainly composed of dipalmitoylphosphatidylcholine
+CC       (1,2-dihexadecanoyl-sn-glycero-3-phosphocholine) (PubMed:15294901).
+CC       Involved in the first step of bis(monoacylglycero)phosphate (BMP) de
+CC       novo synthesis from phosphatidylglycerol (1,2-diacyl-sn-glycero-3-
+CC       phospho-(1'-sn-glycerol), PG) (By similarity). BMP is an important
+CC       player in cargo sorting and degradation, regulation of cellular
+CC       cholesterol levels and intercellular communication. At neutral pH,
+CC       hydrolyzes the sn-1 fatty acyl group of the lysophosphatidylcholines
+CC       (By similarity). {ECO:0000250|UniProtKB:Q8NCC3,
+CC       ECO:0000250|UniProtKB:Q8VEB4, ECO:0000269|PubMed:15294901}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + H2O = a 2-acyl-sn-
+CC         glycero-3-phosphocholine + a fatty acid + H(+); Xref=Rhea:RHEA:18689,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28868,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:57875; EC=3.1.1.32;
+CC         Evidence={ECO:0000269|PubMed:15294901};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:18690;
+CC         Evidence={ECO:0000269|PubMed:15294901};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihexadecanoyl-sn-glycero-3-phosphocholine + H2O = 2-
+CC         hexadecanoyl-sn-glycero-3-phosphocholine + H(+) + hexadecanoate;
+CC         Xref=Rhea:RHEA:40487, ChEBI:CHEBI:7896, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:72999, ChEBI:CHEBI:76078;
+CC         Evidence={ECO:0000269|PubMed:15294901};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40488;
+CC         Evidence={ECO:0000269|PubMed:15294901};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+CC         + H2O = 2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + H(+) +
+CC         hexadecanoate; Xref=Rhea:RHEA:38783, ChEBI:CHEBI:7896,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:73001,
+CC         ChEBI:CHEBI:76071; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38784;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + H2O =
+CC         (9Z)-octadecenoate + 2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+CC         + H(+); Xref=Rhea:RHEA:56448, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30823, ChEBI:CHEBI:74669, ChEBI:CHEBI:76071;
+CC         Evidence={ECO:0000305|PubMed:15294901};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:56449;
+CC         Evidence={ECO:0000305|PubMed:15294901};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-glutaroyl-sn-glycero-3-phosphocholine + H2O =
+CC         2-glutaroyl-sn-glycero-3-phosphocholine + H(+) + hexadecanoate;
+CC         Xref=Rhea:RHEA:62480, ChEBI:CHEBI:7896, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:77756, ChEBI:CHEBI:145781;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62481;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-nonadioyl-sn-glycero-3-phosphocholine + H2O =
+CC         2-nonadioyl-sn-glycero-3-phosphocholine + H(+) + hexadecanoate;
+CC         Xref=Rhea:RHEA:62464, ChEBI:CHEBI:7896, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:78207, ChEBI:CHEBI:145780;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62465;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(5-oxopentanoyl)-sn-glycero-3-phosphocholine
+CC         + H2O = 2-(5-oxopentanoyl)-sn-glycero-3-phosphocholine + H(+) +
+CC         hexadecanoate; Xref=Rhea:RHEA:62484, ChEBI:CHEBI:7896,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:77890,
+CC         ChEBI:CHEBI:145782; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62485;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9-oxononanoyl)-sn-glycero-3-phosphocholine +
+CC         H2O = 2-(9-oxononanoyl)-sn-glycero-3-phosphocholine + H(+) +
+CC         hexadecanoate; Xref=Rhea:RHEA:62488, ChEBI:CHEBI:7896,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:61042,
+CC         ChEBI:CHEBI:145783; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62489;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + H2O = a 1-acyl-sn-
+CC         glycero-3-phosphocholine + a fatty acid + H(+); Xref=Rhea:RHEA:15801,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28868,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:58168; EC=3.1.1.4;
+CC         Evidence={ECO:0000269|PubMed:15294901};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15802;
+CC         Evidence={ECO:0000269|PubMed:15294901};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihexadecanoyl-sn-glycero-3-phosphocholine + H2O = 1-
+CC         hexadecanoyl-sn-glycero-3-phosphocholine + H(+) + hexadecanoate;
+CC         Xref=Rhea:RHEA:41223, ChEBI:CHEBI:7896, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:72998, ChEBI:CHEBI:72999;
+CC         Evidence={ECO:0000269|PubMed:15294901};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41224;
+CC         Evidence={ECO:0000269|PubMed:15294901};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+CC         + H2O = (9Z)-octadecenoate + 1-hexadecanoyl-sn-glycero-3-
+CC         phosphocholine + H(+); Xref=Rhea:RHEA:38779, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30823, ChEBI:CHEBI:72998,
+CC         ChEBI:CHEBI:73001; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38780;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + H2O =
+CC         (9Z)-octadecenoate + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+CC         + H(+); Xref=Rhea:RHEA:40923, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:28610, ChEBI:CHEBI:30823, ChEBI:CHEBI:74669;
+CC         Evidence={ECO:0000305|PubMed:15294901};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40924;
+CC         Evidence={ECO:0000305|PubMed:15294901};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1-acyl-sn-glycero-3-phosphocholine + H2O = a fatty acid +
+CC         H(+) + sn-glycerol 3-phosphocholine; Xref=Rhea:RHEA:15177,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16870,
+CC         ChEBI:CHEBI:28868, ChEBI:CHEBI:58168; EC=3.1.1.5;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15178;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-sn-glycero-3-phosphocholine + H2O = H(+) +
+CC         hexadecanoate + sn-glycerol 3-phosphocholine; Xref=Rhea:RHEA:40435,
+CC         ChEBI:CHEBI:7896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16870, ChEBI:CHEBI:72998;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40436;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphoethanolamine + N-(acetyl)-
+CC         sphing-4-enine = 1-O-acyl-N-(acetyl)-sphing-4-enine + a 2-acyl-sn-
+CC         glycero-3-phosphoethanolamine; Xref=Rhea:RHEA:44536,
+CC         ChEBI:CHEBI:46979, ChEBI:CHEBI:64612, ChEBI:CHEBI:65213,
+CC         ChEBI:CHEBI:84483; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:44537;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphoethanolamine + N-(acetyl)-sphing-4-enine = 1-hexadecanoyl-N-
+CC         (acetyl)-sphing-4-enine + 2-(9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphoethanolamine; Xref=Rhea:RHEA:38827, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:73007, ChEBI:CHEBI:76077, ChEBI:CHEBI:76088;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38828;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-
+CC         phosphoethanolamine + N-(acetyl)-sphing-4-enine = 1-hexadecanoyl-N-
+CC         (acetyl)-sphing-4-enine + 2-(9Z,12Z)-octadecadienoyl-sn-glycero-3-
+CC         phosphoethanolamine; Xref=Rhea:RHEA:38831, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:73008, ChEBI:CHEBI:76077, ChEBI:CHEBI:76090;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38832;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-
+CC         3-phosphoethanolamine + N-(acetyl)-sphing-4-enine = 1-hexadecanoyl-N-
+CC         (acetyl)-sphing-4-enine + 2-(5Z,8Z,11Z,14Z)-eicosatetraenoyl-sn-
+CC         glycero-3-phosphoethanolamine; Xref=Rhea:RHEA:38843,
+CC         ChEBI:CHEBI:46979, ChEBI:CHEBI:73009, ChEBI:CHEBI:76077,
+CC         ChEBI:CHEBI:76091; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38844;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphoethanolamine + N-(acetyl)-
+CC         sphing-4-enine = 1-O-acyl-N-(acetyl)-sphing-4-enine + a 1-acyl-sn-
+CC         glycero-3-phosphoethanolamine; Xref=Rhea:RHEA:44532,
+CC         ChEBI:CHEBI:46979, ChEBI:CHEBI:64381, ChEBI:CHEBI:64612,
+CC         ChEBI:CHEBI:84483; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:44533;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphoethanolamine + N-(acetyl)-sphing-4-enine = 1-(9Z-
+CC         octadecenoyl)-N-(acetyl)-sphing-4-enine + 1-hexadecanoyl-sn-glycero-
+CC         3-phosphoethanolamine; Xref=Rhea:RHEA:38823, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:73004, ChEBI:CHEBI:73007, ChEBI:CHEBI:76054;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38824;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-
+CC         phosphoethanolamine + N-(acetyl)-sphing-4-enine = 1-(9Z,12Z-
+CC         octadecadienoyl)-N-acetylsphing-4-enine + 1-hexadecanoyl-sn-glycero-
+CC         3-phosphoethanolamine; Xref=Rhea:RHEA:38835, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:73004, ChEBI:CHEBI:73008, ChEBI:CHEBI:76086;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38836;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-
+CC         3-phosphoethanolamine + N-(acetyl)-sphing-4-enine = 1-
+CC         (5Z,8Z,11Z,14Z)-eicosatetraenoyl-N-(acetyl)-sphing-4-enine + 1-
+CC         hexadecanoyl-sn-glycero-3-phosphoethanolamine; Xref=Rhea:RHEA:38839,
+CC         ChEBI:CHEBI:46979, ChEBI:CHEBI:73004, ChEBI:CHEBI:73009,
+CC         ChEBI:CHEBI:76080; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38840;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + N-(acetyl)-sphing-
+CC         4-enine = 1-O-acyl-N-(acetyl)-sphing-4-enine + a 2-acyl-sn-glycero-3-
+CC         phosphocholine; Xref=Rhea:RHEA:44512, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:57875, ChEBI:CHEBI:84483;
+CC         Evidence={ECO:0000305|PubMed:15294901};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:44513;
+CC         Evidence={ECO:0000305|PubMed:15294901};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+CC         + N-(acetyl)-sphing-4-enine = 1-hexadecanoyl-N-(acetyl)-sphing-4-
+CC         enine + 2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:38759, ChEBI:CHEBI:46979, ChEBI:CHEBI:73001,
+CC         ChEBI:CHEBI:76071, ChEBI:CHEBI:76077;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38760;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-
+CC         phosphocholine + N-(acetyl)-sphing-4-enine = 1-hexadecanoyl-N-
+CC         (acetyl)-sphing-4-enine + 2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-
+CC         phosphocholine; Xref=Rhea:RHEA:38811, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:73002, ChEBI:CHEBI:76077, ChEBI:CHEBI:76084;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38812;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-
+CC         3-phosphocholine + N-(acetyl)-sphing-4-enine = 1-hexadecanoyl-N-
+CC         (acetyl)-sphing-4-enine + 2-(5Z,8Z,11Z,14Z)-eicosatetraenoyl-sn-
+CC         glycero-3-phosphocholine; Xref=Rhea:RHEA:38775, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:73003, ChEBI:CHEBI:76077, ChEBI:CHEBI:76079;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38776;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-
+CC         glycero-3-phosphocholine + N-(acetyl)-sphing-4-enine = 1-
+CC         hexadecanoyl-N-(acetyl)-sphing-4-enine + 2-(4Z,7Z,10Z,13Z,16Z,19Z-
+CC         docosahexaenoyl)-sn-glycero-3-phosphocholine; Xref=Rhea:RHEA:38815,
+CC         ChEBI:CHEBI:46979, ChEBI:CHEBI:74963, ChEBI:CHEBI:76077,
+CC         ChEBI:CHEBI:76085; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38816;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-nonadioyl-sn-glycero-3-phosphocholine + N-
+CC         (acetyl)-sphing-4-enine = 1-hexadecanoyl-N-(acetyl)-sphing-4-enine +
+CC         2-nonadioyl-sn-glycero-3-phosphocholine; Xref=Rhea:RHEA:62472,
+CC         ChEBI:CHEBI:46979, ChEBI:CHEBI:76077, ChEBI:CHEBI:78207,
+CC         ChEBI:CHEBI:145780; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62473;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+CC         + N-(acetyl)-sphing-4-enine = 1-octadecanoyl-N-(acetyl)-sphing-4-
+CC         enine + 2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:38799, ChEBI:CHEBI:46979, ChEBI:CHEBI:75034,
+CC         ChEBI:CHEBI:76071, ChEBI:CHEBI:76074;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38800;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z)-octadecenoyl-2-octadecanoyl-sn-glycero-3-phosphocholine
+CC         + N-(acetyl)-sphing-4-enine = 1-(9Z-octadecenoyl)-N-(acetyl)-sphing-
+CC         4-enine + 2-octadecanoyl-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:38791, ChEBI:CHEBI:46979, ChEBI:CHEBI:76054,
+CC         ChEBI:CHEBI:76073, ChEBI:CHEBI:76076;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38792;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-
+CC         3-phosphocholine + N-(acetyl)-sphing-4-enine = 1-octadecanoyl-N-
+CC         (acetyl)-sphing-4-enine + 2-(5Z,8Z,11Z,14Z)-eicosatetraenoyl-sn-
+CC         glycero-3-phosphocholine; Xref=Rhea:RHEA:57120, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:74965, ChEBI:CHEBI:76074, ChEBI:CHEBI:76079;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:57121;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphocholine
+CC         + N-(acetyl)-sphing-4-enine = 1-(9Z-octadecenoyl)-N-(acetyl)-sphing-
+CC         4-enine + 2-hexadecanoyl-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:38767, ChEBI:CHEBI:46979, ChEBI:CHEBI:74667,
+CC         ChEBI:CHEBI:76054, ChEBI:CHEBI:76078;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38768;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + N-(acetyl)-sphing-
+CC         4-enine = 1-O-acyl-N-(acetyl)-sphing-4-enine + a 1-acyl-sn-glycero-3-
+CC         phosphocholine; Xref=Rhea:RHEA:44508, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:58168, ChEBI:CHEBI:84483;
+CC         Evidence={ECO:0000305|PubMed:15294901};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:44509;
+CC         Evidence={ECO:0000305|PubMed:15294901};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+CC         + N-(acetyl)-sphing-4-enine = 1-(9Z-octadecenoyl)-N-(acetyl)-sphing-
+CC         4-enine + 1-hexadecanoyl-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:38755, ChEBI:CHEBI:46979, ChEBI:CHEBI:72998,
+CC         ChEBI:CHEBI:73001, ChEBI:CHEBI:76054;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38756;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-
+CC         phosphocholine + N-(acetyl)-sphing-4-enine = 1-(9Z,12Z-
+CC         octadecadienoyl)-N-acetylsphing-4-enine + 1-hexadecanoyl-sn-glycero-
+CC         3-phosphocholine; Xref=Rhea:RHEA:38807, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:72998, ChEBI:CHEBI:73002, ChEBI:CHEBI:76086;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38808;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-
+CC         3-phosphocholine + N-(acetyl)-sphing-4-enine = 1-(5Z,8Z,11Z,14Z)-
+CC         eicosatetraenoyl-N-(acetyl)-sphing-4-enine + 1-hexadecanoyl-sn-
+CC         glycero-3-phosphocholine; Xref=Rhea:RHEA:38771, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:72998, ChEBI:CHEBI:73003, ChEBI:CHEBI:76080;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38772;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-
+CC         glycero-3-phosphocholine + N-(acetyl)-sphing-4-enine = 1-
+CC         (4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-N-(acetyl)-sphing-4-enine +
+CC         1-hexadecanoyl-sn-glycero-3-phosphocholine; Xref=Rhea:RHEA:38819,
+CC         ChEBI:CHEBI:46979, ChEBI:CHEBI:72998, ChEBI:CHEBI:74963,
+CC         ChEBI:CHEBI:76087; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38820;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+CC         + N-(acetyl)-sphing-4-enine = 1-(9Z-octadecenoyl)-N-(acetyl)-sphing-
+CC         4-enine + 1-octadecanoyl-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:38795, ChEBI:CHEBI:46979, ChEBI:CHEBI:73858,
+CC         ChEBI:CHEBI:75034, ChEBI:CHEBI:76054;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38796;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(9Z,12Z)-octadecadienoyl-sn-glycero-3-
+CC         phosphocholine + N-(acetyl)-sphing-4-enine = 1-(9Z,12Z-
+CC         octadecadienoyl)-N-acetylsphing-4-enine + 1-octadecanoyl-sn-glycero-
+CC         3-phosphocholine; Xref=Rhea:RHEA:57108, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:73858, ChEBI:CHEBI:76086, ChEBI:CHEBI:84822;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:57109;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphocholine
+CC         + N-(acetyl)-sphing-4-enine = 1-(9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphocholine + 1-hexadecanoyl-N-(acetyl)-sphing-4-enine;
+CC         Xref=Rhea:RHEA:38763, ChEBI:CHEBI:28610, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:74667, ChEBI:CHEBI:76077;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38764;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z)-octadecenoyl-2-octadecanoyl-sn-glycero-3-phosphocholine
+CC         + N-(acetyl)-sphing-4-enine = 1-(9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphocholine + 1-octadecanoyl-N-(acetyl)-sphing-4-enine;
+CC         Xref=Rhea:RHEA:38803, ChEBI:CHEBI:28610, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:76073, ChEBI:CHEBI:76074;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38804;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + N-
+CC         (acetyl)-sphing-4-enine = 1-(9Z-octadecenoyl)-N-(acetyl)-sphing-4-
+CC         enine + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:38703, ChEBI:CHEBI:28610, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:74669, ChEBI:CHEBI:76054;
+CC         Evidence={ECO:0000305|PubMed:15294901};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38704;
+CC         Evidence={ECO:0000305|PubMed:15294901};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-
+CC         3-phosphocholine + N-(acetyl)-sphing-4-enine = 1-(5Z,8Z,11Z,14Z)-
+CC         eicosatetraenoyl-N-(acetyl)-sphing-4-enine + 1-octadecanoyl-sn-
+CC         glycero-3-phosphocholine; Xref=Rhea:RHEA:57116, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:73858, ChEBI:CHEBI:74965, ChEBI:CHEBI:76080;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:57117;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-L-serine + N-(acetyl)-
+CC         sphing-4-enine = 1-O-acyl-N-(acetyl)-sphing-4-enine + a 2-acyl-sn-
+CC         glycero-3-phospho-L-serine; Xref=Rhea:RHEA:78355, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:57262, ChEBI:CHEBI:65214, ChEBI:CHEBI:84483;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78356;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-L-
+CC         serine + N-(acetyl)-sphing-4-enine = 1-octadecanoyl-N-(acetyl)-
+CC         sphing-4-enine + 2-(9Z-octadecenoyl)-sn-glycero-3-phospho-L-serine;
+CC         Xref=Rhea:RHEA:57140, ChEBI:CHEBI:46979, ChEBI:CHEBI:76074,
+CC         ChEBI:CHEBI:77342, ChEBI:CHEBI:78260;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:57141;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-L-serine + N-(acetyl)-
+CC         sphing-4-enine = 1-O-acyl-N-(acetyl)-sphing-4-enine + a 1-acyl-sn-
+CC         glycero-3-phospho-L-serine; Xref=Rhea:RHEA:78351, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:57262, ChEBI:CHEBI:64379, ChEBI:CHEBI:84483;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78352;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-L-
+CC         serine + N-(acetyl)-sphing-4-enine = 1-(9Z-octadecenoyl)-N-(acetyl)-
+CC         sphing-4-enine + 1-octadecanoyl-sn-glycero-3-phosphoserine;
+CC         Xref=Rhea:RHEA:57136, ChEBI:CHEBI:46979, ChEBI:CHEBI:76054,
+CC         ChEBI:CHEBI:78260, ChEBI:CHEBI:84467;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:57137;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + N-(acetyl)-
+CC         sphing-4-enine = 1-O-acyl-N-(acetyl)-sphing-4-enine + 2-acyl-sn-
+CC         glycero-3-phospho-(1'-sn-glycerol); Xref=Rhea:RHEA:78359,
+CC         ChEBI:CHEBI:46979, ChEBI:CHEBI:64716, ChEBI:CHEBI:76528,
+CC         ChEBI:CHEBI:84483; Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78360;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1'-
+CC         sn-glycerol) + N-(acetyl)-sphing-4-enine = 1-octadecanoyl-N-(acetyl)-
+CC         sphing-4-enine + 2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1'-sn-
+CC         glycerol); Xref=Rhea:RHEA:57144, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:72845, ChEBI:CHEBI:76074, ChEBI:CHEBI:141490;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:57145;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + N-(acetyl)-
+CC         sphing-4-enine = 1-acyl-sn-glycero-3-phospho-(1'-sn-glycerol) + 1-O-
+CC         acyl-N-(acetyl)-sphing-4-enine; Xref=Rhea:RHEA:78363,
+CC         ChEBI:CHEBI:46979, ChEBI:CHEBI:64716, ChEBI:CHEBI:64840,
+CC         ChEBI:CHEBI:84483; Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78364;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1'-
+CC         sn-glycerol) + N-(acetyl)-sphing-4-enine = 1-(9Z-octadecenoyl)-N-
+CC         (acetyl)-sphing-4-enine + 1-octadecanoyl-sn-glycero-3-phospho-(1'-sn-
+CC         glycerol); Xref=Rhea:RHEA:57148, ChEBI:CHEBI:46979,
+CC         ChEBI:CHEBI:72827, ChEBI:CHEBI:72845, ChEBI:CHEBI:76054;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:57149;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + an N-
+CC         acylethanolamine = 2-(acylamino)ethyl fatty acid + a 2-acyl-sn-
+CC         glycero-3-phosphocholine; Xref=Rhea:RHEA:78055, ChEBI:CHEBI:52640,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:57875, ChEBI:CHEBI:84481;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78056;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + an N-
+CC         acylethanolamine = 2-(acylamino)ethyl fatty acid + a 1-acyl-sn-
+CC         glycero-3-phosphocholine; Xref=Rhea:RHEA:78059, ChEBI:CHEBI:52640,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:58168, ChEBI:CHEBI:84481;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78060;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + N-
+CC         (5Z,8Z,11Z,14Z-eicosatetraenoyl)-ethanolamine = (9Z-octadecenoyl)-sn-
+CC         glycero-3-phosphocholine + 2-[(5Z,8Z,11Z,14Z)-
+CC         eicosatetraenoylamino]ethyl (9Z)-octadecenoate; Xref=Rhea:RHEA:38751,
+CC         ChEBI:CHEBI:2700, ChEBI:CHEBI:74669, ChEBI:CHEBI:76070,
+CC         ChEBI:CHEBI:76083; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38752;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + N-(9Z-
+CC         octadecenoyl) ethanolamine = (9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphocholine + 2-[(9Z)-octadecenoylamino]ethyl (9Z)-octadecenoate;
+CC         Xref=Rhea:RHEA:38747, ChEBI:CHEBI:71466, ChEBI:CHEBI:74669,
+CC         ChEBI:CHEBI:76068, ChEBI:CHEBI:76083;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38748;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + a 3-acyl-sn-
+CC         glycerol = a 1,3-diacylglycerol + a 1-acyl-sn-glycero-3-
+CC         phosphocholine; Xref=Rhea:RHEA:78131, ChEBI:CHEBI:47777,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:58168, ChEBI:CHEBI:64760;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78132;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + a 3-acyl-sn-
+CC         glycerol = a 1,3-diacylglycerol + a 2-acyl-sn-glycero-3-
+CC         phosphocholine; Xref=Rhea:RHEA:78135, ChEBI:CHEBI:47777,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:57875, ChEBI:CHEBI:64760;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78136;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + 3-(9Z-
+CC         octadecenoyl)-sn-glycerol = (9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphocholine + 1,3-di-(9Z-octadecenoyl)-glycerol;
+CC         Xref=Rhea:RHEA:38743, ChEBI:CHEBI:74669, ChEBI:CHEBI:75735,
+CC         ChEBI:CHEBI:75938, ChEBI:CHEBI:76083;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38744;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + 3-
+CC         hexadecanoyl-sn-glycerol = (9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphocholine + 1-(9Z)-octadecenoyl-3-hexadecanoyl-sn-glycerol;
+CC         Xref=Rhea:RHEA:38731, ChEBI:CHEBI:64757, ChEBI:CHEBI:74669,
+CC         ChEBI:CHEBI:75867, ChEBI:CHEBI:76083;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38732;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + a 1-acyl-sn-
+CC         glycerol = a 1,3-diacylglycerol + a 2-acyl-sn-glycero-3-
+CC         phosphocholine; Xref=Rhea:RHEA:78139, ChEBI:CHEBI:47777,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:57875, ChEBI:CHEBI:64683;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78140;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + a 1-acyl-sn-
+CC         glycerol = a 1,3-diacylglycerol + a 1-acyl-sn-glycero-3-
+CC         phosphocholine; Xref=Rhea:RHEA:78143, ChEBI:CHEBI:47777,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:58168, ChEBI:CHEBI:64683;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78144;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + 1-(9Z-
+CC         octadecenoyl)-sn-glycerol = (9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphocholine + 1,3-di-(9Z-octadecenoyl)-glycerol;
+CC         Xref=Rhea:RHEA:38739, ChEBI:CHEBI:74669, ChEBI:CHEBI:75735,
+CC         ChEBI:CHEBI:75757, ChEBI:CHEBI:76083;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38740;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + 1-
+CC         hexadecanoyl-sn-glycerol = (9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphocholine + 1-hexadecanoyl-3-(9Z)-octadecenoyl-sn-glycerol;
+CC         Xref=Rhea:RHEA:38727, ChEBI:CHEBI:74669, ChEBI:CHEBI:75542,
+CC         ChEBI:CHEBI:75868, ChEBI:CHEBI:76083;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38728;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + a 2-acylglycerol =
+CC         a 1,2-diacylglycerol + a 2-acyl-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:78443, ChEBI:CHEBI:17389, ChEBI:CHEBI:49172,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:57875;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78444;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + a 2-acylglycerol =
+CC         a 1,2-diacylglycerol + a 1-acyl-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:78439, ChEBI:CHEBI:17389, ChEBI:CHEBI:49172,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:58168;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78440;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + 2-
+CC         hexadecanoylglycerol = (9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+CC         + 1-(9Z)-octadecenoyl-2-hexadecanoylglycerol; Xref=Rhea:RHEA:38735,
+CC         ChEBI:CHEBI:74669, ChEBI:CHEBI:75455, ChEBI:CHEBI:76065,
+CC         ChEBI:CHEBI:76083; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38736;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-O-alkylglycerol + a 1,2-diacyl-sn-glycero-3-phosphocholine =
+CC         1-O-alkyl-3-acylglycerol + a 1-acyl-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:78039, ChEBI:CHEBI:57643, ChEBI:CHEBI:58168,
+CC         ChEBI:CHEBI:76225, ChEBI:CHEBI:77997;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78040;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-O-alkylglycerol + a 1,2-diacyl-sn-glycero-3-phosphocholine =
+CC         1-O-alkyl-3-acylglycerol + a 2-acyl-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:78043, ChEBI:CHEBI:57643, ChEBI:CHEBI:57875,
+CC         ChEBI:CHEBI:76225, ChEBI:CHEBI:77997;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78044;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + 1-O-
+CC         hexadecylglycerol = (9Z-octadecenoyl)-sn-glycero-3-phosphocholine +
+CC         1-O-hexadecyl-3-(9Z)-octadecenoylglycerol; Xref=Rhea:RHEA:38711,
+CC         ChEBI:CHEBI:74669, ChEBI:CHEBI:76061, ChEBI:CHEBI:76062,
+CC         ChEBI:CHEBI:76083; Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38712;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-O-alkyl-2-acyl-sn-glycerol + a 1,2-diacyl-sn-glycero-3-
+CC         phosphocholine = 1-O-alkyl-2,3-diacyl-sn-glycerol + a 2-acyl-sn-
+CC         glycero-3-phosphocholine; Xref=Rhea:RHEA:78431, ChEBI:CHEBI:52595,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:57875, ChEBI:CHEBI:76585;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78432;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-O-alkyl-2-acyl-sn-glycerol + a 1,2-diacyl-sn-glycero-3-
+CC         phosphocholine = 1-O-alkyl-2,3-diacyl-sn-glycerol + a 1-acyl-sn-
+CC         glycero-3-phosphocholine; Xref=Rhea:RHEA:78435, ChEBI:CHEBI:52595,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:58168, ChEBI:CHEBI:76585;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:78436;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + 1-O-
+CC         hexadecyl-2-acetyl-sn-glycerol = (9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphocholine + 1-O-hexadecyl-2-acetyl-3-(9Z)-octadecenoyl-sn-
+CC         glycerol; Xref=Rhea:RHEA:38707, ChEBI:CHEBI:74669, ChEBI:CHEBI:75936,
+CC         ChEBI:CHEBI:76055, ChEBI:CHEBI:76083;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38708;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + 1-O-
+CC         hexadecyl-2-O-methyl-sn-glycerol = (9Z-octadecenoyl)-sn-glycero-3-
+CC         phosphocholine + 1-O-hexadecyl-2-O-methyl-3-(9Z)-octadecenoyl-sn-
+CC         glycerol; Xref=Rhea:RHEA:38723, ChEBI:CHEBI:74669, ChEBI:CHEBI:76063,
+CC         ChEBI:CHEBI:76064, ChEBI:CHEBI:76083;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38724;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VEB4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphoethanolamine + H2O = a 1-
+CC         acyl-sn-glycero-3-phosphoethanolamine + a fatty acid + H(+);
+CC         Xref=Rhea:RHEA:44604, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:28868, ChEBI:CHEBI:64381, ChEBI:CHEBI:64612;
+CC         Evidence={ECO:0000250|UniProtKB:Q8WMP9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:44605;
+CC         Evidence={ECO:0000250|UniProtKB:Q8WMP9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-acyl-2-(5Z,8Z,11Z,14Z)-eicosatetraenoyl-sn-glycero-3-
+CC         phosphoethanolamine + H2O = (5Z,8Z,11Z,14Z)-eicosatetraenoate + a 1-
+CC         acyl-sn-glycero-3-phosphoethanolamine + H(+); Xref=Rhea:RHEA:40647,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:32395,
+CC         ChEBI:CHEBI:64381, ChEBI:CHEBI:75067;
+CC         Evidence={ECO:0000250|UniProtKB:Q8WMP9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40648;
+CC         Evidence={ECO:0000250|UniProtKB:Q8WMP9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + H2O = 1-
+CC         acyl-sn-glycero-3-phospho-(1'-sn-glycerol) + a fatty acid + H(+);
+CC         Xref=Rhea:RHEA:44416, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:28868, ChEBI:CHEBI:64716, ChEBI:CHEBI:64840;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:44417;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1'-
+CC         sn-glycerol) + H2O = (9Z)-octadecenoate + 1-hexadecanoyl-sn-glycero-
+CC         3-phospho-(1'-sn-glycerol) + H(+); Xref=Rhea:RHEA:40919,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30823,
+CC         ChEBI:CHEBI:72841, ChEBI:CHEBI:75158;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40920;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + H2O = 2-
+CC         acyl-sn-glycero-3-phospho-(1'-sn-glycerol) + a fatty acid + H(+);
+CC         Xref=Rhea:RHEA:67428, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:28868, ChEBI:CHEBI:64716, ChEBI:CHEBI:76528;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67429;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1'-
+CC         sn-glycerol) + H2O = 2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1'-sn-
+CC         glycerol) + H(+) + hexadecanoate; Xref=Rhea:RHEA:74103,
+CC         ChEBI:CHEBI:7896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:72841, ChEBI:CHEBI:141490;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:74104;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NCC3};
+CC   -!- ACTIVITY REGULATION: Transacylase activity is inhibited by MJ33.
+CC       {ECO:0000269|PubMed:15294901}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 4.5. {ECO:0000269|PubMed:15294901};
+CC   -!- SUBCELLULAR LOCATION: Lysosome {ECO:0000250|UniProtKB:Q6XPZ3}. Secreted
+CC       {ECO:0000250|UniProtKB:Q8NCC3}. Membrane
+CC       {ECO:0000250|UniProtKB:Q8NCC3}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:Q8NCC3}.
+CC   -!- TISSUE SPECIFICITY: Detected in alveolar macrophages (at protein
+CC       level). Widely expressed. Expressed at highest levels in alveolar
+CC       macrophages. {ECO:0000269|PubMed:15294901}.
+CC   -!- PTM: N-glycosylated. N-glycosylation is important for maturation of the
+CC       enzyme and normal subcellular location. {ECO:0000250|UniProtKB:Q8NCC3}.
+CC   -!- SIMILARITY: Belongs to the AB hydrolase superfamily. Lipase family.
+CC       {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY490816; AAS66767.1; -; mRNA.
+DR   EMBL; CH473972; EDL92440.1; -; Genomic_DNA.
+DR   EMBL; BC098894; AAH98894.1; -; mRNA.
+DR   RefSeq; NP_001004277.1; NM_001004277.2.
+DR   AlphaFoldDB; Q675A5; -.
+DR   SMR; Q675A5; -.
+DR   STRING; 10116.ENSRNOP00000026996; -.
+DR   ESTHER; ratno-q675a5; PC-sterol_acyltransferase.
+DR   GlyCosmos; Q675A5; 4 sites, No reported glycans.
+DR   GlyGen; Q675A5; 4 sites.
+DR   PhosphoSitePlus; Q675A5; -.
+DR   PaxDb; 10116-ENSRNOP00000026996; -.
+DR   Ensembl; ENSRNOT00000026996.6; ENSRNOP00000026996.4; ENSRNOG00000019859.6.
+DR   Ensembl; ENSRNOT00055030969; ENSRNOP00055024953; ENSRNOG00055018269.
+DR   Ensembl; ENSRNOT00060021420; ENSRNOP00060016919; ENSRNOG00060012615.
+DR   Ensembl; ENSRNOT00065019576; ENSRNOP00065015009; ENSRNOG00065012038.
+DR   GeneID; 361401; -.
+DR   KEGG; rno:361401; -.
+DR   UCSC; RGD:1302982; rat.
+DR   AGR; RGD:1302982; -.
+DR   CTD; 23659; -.
+DR   RGD; 1302982; Pla2g15.
+DR   eggNOG; KOG2369; Eukaryota.
+DR   GeneTree; ENSGT00940000157499; -.
+DR   HOGENOM; CLU_037070_1_1_1; -.
+DR   InParanoid; Q675A5; -.
+DR   OMA; QMTPPGV; -.
+DR   OrthoDB; 353098at2759; -.
+DR   PhylomeDB; Q675A5; -.
+DR   TreeFam; TF313258; -.
+DR   Reactome; R-RNO-1483115; Hydrolysis of LPC.
+DR   PRO; PR:Q675A5; -.
+DR   Proteomes; UP000002494; Chromosome 19.
+DR   Proteomes; UP000234681; Chromosome 19.
+DR   Bgee; ENSRNOG00000019859; Expressed in spleen and 19 other cell types or tissues.
+DR   GO; GO:0005615; C:extracellular space; ISS:UniProtKB.
+DR   GO; GO:0005764; C:lysosome; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0052740; F:1-acyl-2-lysophosphatidylserine acylhydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016411; F:acylglycerol O-acyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0047499; F:calcium-independent phospholipase A2 activity; IDA:RGD.
+DR   GO; GO:0008374; F:O-acyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0052739; F:phosphatidylserine 1-acylhydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008970; F:phospholipase A1 activity; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0006672; P:ceramide metabolic process; IDA:UniProtKB.
+DR   GO; GO:0006651; P:diacylglycerol biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0006631; P:fatty acid metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006650; P:glycerophospholipid metabolic process; ISS:UniProtKB.
+DR   GO; GO:0034638; P:phosphatidylcholine catabolic process; ISS:UniProtKB.
+DR   GO; GO:0046470; P:phosphatidylcholine metabolic process; IMP:RGD.
+DR   GO; GO:0046338; P:phosphatidylethanolamine catabolic process; ISS:UniProtKB.
+DR   GO; GO:0046471; P:phosphatidylglycerol metabolic process; ISS:UniProtKB.
+DR   GO; GO:0006658; P:phosphatidylserine metabolic process; ISS:UniProtKB.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 2.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR003386; LACT/PDAT_acylTrfase.
+DR   PANTHER; PTHR11440; LECITHIN-CHOLESTEROL ACYLTRANSFERASE-RELATED; 1.
+DR   PANTHER; PTHR11440:SF47; PHOSPHOLIPASE A2 GROUP XV; 1.
+DR   Pfam; PF02450; LCAT; 1.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+PE   1: Evidence at protein level;
+KW   Acyltransferase; Disulfide bond; Fatty acid metabolism; Glycoprotein;
+KW   Hydrolase; Lipid metabolism; Lysosome; Membrane; Metal-binding;
+KW   Reference proteome; Secreted; Signal; Transferase; Zinc.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NCC3"
+FT   CHAIN           34..413
+FT                   /note="Lysosomal phospholipase A and acyltransferase"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000413420"
+FT   ACT_SITE        198
+FT                   /note="Acyl-ester intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NCC3, ECO:0000255"
+FT   ACT_SITE        360
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NCC3"
+FT   ACT_SITE        392
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NCC3"
+FT   BINDING         46
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NCC3"
+FT   BINDING         198
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NCC3"
+FT   BINDING         199
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NCC3"
+FT   BINDING         355
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NCC3"
+FT   BINDING         392
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NCC3"
+FT   CARBOHYD        99
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        273
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        289
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        398
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        65..89
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NCC3"
+SQ   SEQUENCE   413 AA;  47391 MW;  A9CCED59B8B50957 CRC64;
+     MDRHLCICRE IQLRSGLLFP FLLLMMLADL ALPAQRHPPV VLVPGDLGNQ LEAKLDKPKV
+     VHYLCSKRTD SYFTLWLNLE LLLPVIIDCW IDNIRLVYNR TSRTTQFPDG VDVRVPGFGE
+     TFSLEFLDPS KRNVGSYFYT MVESLVGWGY TRGEDVRGAP YDWRRAPNEN GPYFLALQEM
+     IEEMYQMYGG PVVLVAHSMG NMYMLYFLQR QPQAWKDKYI QAFVSLGAPW GGVAKTLRVL
+     ASGDNNRIPV IGPLKIREQQ RSAVSTSWLL PYNHTWSHEK VFVYTPTANY TLRDYHRFFQ
+     DIGFEDGWFM RQDTQGLVEA LVPPGVELHC LYGTGVPTPN SFYYENFPDR DPKICFGDGD
+     GTVNLESVLQ CQAWQSRQEH KVSLQELPGS EHIEMLANAT TLAYLKRVLL EEP
+//

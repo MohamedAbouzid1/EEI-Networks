@@ -1,0 +1,277 @@
+ID   S22A4_RAT               Reviewed;         553 AA.
+AC   Q9R141;
+DT   19-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   27-MAR-2024, entry version 118.
+DE   RecName: Full=Solute carrier family 22 member 4 {ECO:0000303|PubMed:18670092};
+DE   AltName: Full=Organic cation/carnitine transporter 1 {ECO:0000303|PubMed:10825452};
+DE            Short=Octn1 {ECO:0000303|PubMed:10825452};
+GN   Name=Slc22a4 {ECO:0000312|RGD:621149}; Synonyms=Octn1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, MISCELLANEOUS, AND CAUTION.
+RC   TISSUE=Placenta;
+RX   PubMed=10825452; DOI=10.1016/s0005-2736(00)00189-9;
+RA   Wu X., George R.L., Huang W., Wang H., Conway S.J., Leibach F.H.,
+RA   Ganapathy V.;
+RT   "Structural and functional characteristics and tissue distribution pattern
+RT   of OCTN1, an organic cation transporter, cloned from placenta.";
+RL   Biochim. Biophys. Acta 1466:315-327(2000).
+RN   [2]
+RP   FUNCTION, AND TISSUE SPECIFICITY.
+RX   PubMed=17616214; DOI=10.1021/mp070023l;
+RA   Maeda T., Goto A., Kobayashi D., Tamai I.;
+RT   "Transport of organic cations across the blood-testis barrier.";
+RL   Mol. Pharm. 4:600-607(2007).
+RN   [3]
+RP   FUNCTION, TRANSPORTER ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=18670092; DOI=10.1248/bpb.31.1580;
+RA   Nakamura T., Yoshida K., Yabuuchi H., Maeda T., Tamai I.;
+RT   "Functional characterization of ergothioneine transport by rat organic
+RT   cation/carnitine transporter Octn1 (slc22a4).";
+RL   Biol. Pharm. Bull. 31:1580-1584(2008).
+CC   -!- FUNCTION: Transporter that mediates the transport of endogenous and
+CC       microbial zwitterions and organic cations (PubMed:18670092). Functions
+CC       as a Na(+)-dependent and pH-dependent high affinity microbial symporter
+CC       of potent food-derived antioxidant ergothioeine (PubMed:18670092).
+CC       Transports one sodium ion with one ergothioeine molecule
+CC       (PubMed:18670092). Involved in the absorption of ergothioneine from the
+CC       luminal/apical side of the small intestine and renal tubular cells, and
+CC       into non-parenchymal liver cells, thereby contributing to maintain
+CC       steady-state ergothioneine level in the body (By similarity). Also
+CC       mediates the bidirectional transport of acetycholine, although the
+CC       exact transport mechanism has not been fully identified yet (By
+CC       similarity). Most likely exports anti-inflammatory acetylcholine in
+CC       non-neuronal tissues, thereby contributing to the non-neuronal
+CC       cholinergic system (By similarity). Displays a general physiological
+CC       role linked to better survival by controlling inflammation and
+CC       oxidative stress, which may be related to ergothioneine and
+CC       acetycholine transports (By similarity). May contribute to regulate the
+CC       transport of cationic compounds in testis across the blood-testis-
+CC       barrier (PubMed:17616214). {ECO:0000250|UniProtKB:Q9H015,
+CC       ECO:0000269|PubMed:17616214, ECO:0000269|PubMed:18670092}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ergothioneine(out) + Na(+)(out) = ergothioneine(in) +
+CC         Na(+)(in); Xref=Rhea:RHEA:75843, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:134344; Evidence={ECO:0000269|PubMed:18670092};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetylcholine(in) = acetylcholine(out); Xref=Rhea:RHEA:74663,
+CC         ChEBI:CHEBI:15355; Evidence={ECO:0000250|UniProtKB:Q9H015};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycine betaine(out) + Na(+)(out) = glycine betaine(in) +
+CC         Na(+)(in); Xref=Rhea:RHEA:72115, ChEBI:CHEBI:17750,
+CC         ChEBI:CHEBI:29101; Evidence={ECO:0000250|UniProtKB:Q9H015};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:72116;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H015};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by intracellular ATP.
+CC       {ECO:0000250|UniProtKB:Q9H015}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=4.64 uM for ergothioneine (at pH 7.4)
+CC         {ECO:0000269|PubMed:18670092};
+CC       pH dependence:
+CC         Optimum pH is 8.5 for ergothioneine uptake and transport efficiency
+CC         decreased at more acidic pHs. {ECO:0000269|PubMed:18670092};
+CC   -!- SUBUNIT: Interacts with PDZK1. {ECO:0000250|UniProtKB:Q9Z306}.
+CC   -!- SUBCELLULAR LOCATION: Apical cell membrane
+CC       {ECO:0000250|UniProtKB:Q9H015}; Multi-pass membrane protein
+CC       {ECO:0000305}. Basal cell membrane {ECO:0000250|UniProtKB:Q9H015};
+CC       Multi-pass membrane protein {ECO:0000305}. Mitochondrion membrane
+CC       {ECO:0000250|UniProtKB:Q9H015}; Multi-pass membrane protein
+CC       {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed in intestine, liver and kidney. Weakly
+CC       expressed in brain, thymus, lung, spleen, heart and skin. In brain, it
+CC       is expressed in cerebellum, especially in the granular layer, in
+CC       hippocampus and cortex. In kidney, it is expressed in cortex and
+CC       medulla with relatively more abundance in the cortical-medullary
+CC       junction. In heart, it is expressed in myocardium and valves. Expressed
+CC       labyrinthine zone of the placenta (PubMed:10825452). Expressed in
+CC       Sertoli cells in testis (PubMed:17616214).
+CC       {ECO:0000269|PubMed:10825452, ECO:0000269|PubMed:17616214}.
+CC   -!- MISCELLANEOUS: Mediates the Na(+)-independent and pH-dependent
+CC       bidirectional transport of xenobiotic tetraethylammonium (TEA).
+CC       {ECO:0000269|PubMed:10825452}.
+CC   -!- SIMILARITY: Belongs to the major facilitator (TC 2.A.1) superfamily.
+CC       Organic cation transporter (TC 2.A.1.19) family. {ECO:0000305}.
+CC   -!- CAUTION: Unlike human or mouse orthologs, does not mediate carnitine
+CC       uptake. {ECO:0000269|PubMed:10825452}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF169831; AAD46922.1; -; mRNA.
+DR   RefSeq; NP_071606.1; NM_022270.1.
+DR   AlphaFoldDB; Q9R141; -.
+DR   SMR; Q9R141; -.
+DR   STRING; 10116.ENSRNOP00000055693; -.
+DR   BindingDB; Q9R141; -.
+DR   ChEMBL; CHEMBL2073667; -.
+DR   GlyCosmos; Q9R141; 3 sites, No reported glycans.
+DR   GlyGen; Q9R141; 3 sites.
+DR   iPTMnet; Q9R141; -.
+DR   PhosphoSitePlus; Q9R141; -.
+DR   PaxDb; 10116-ENSRNOP00000055693; -.
+DR   Ensembl; ENSRNOT00000058907.5; ENSRNOP00000055693.5; ENSRNOG00000046195.3.
+DR   Ensembl; ENSRNOT00055044085; ENSRNOP00055036062; ENSRNOG00055025539.
+DR   Ensembl; ENSRNOT00060042581; ENSRNOP00060035270; ENSRNOG00060024589.
+DR   Ensembl; ENSRNOT00065008531; ENSRNOP00065006015; ENSRNOG00065005711.
+DR   GeneID; 64037; -.
+DR   KEGG; rno:64037; -.
+DR   AGR; RGD:621149; -.
+DR   CTD; 6583; -.
+DR   RGD; 621149; Slc22a4.
+DR   eggNOG; KOG0255; Eukaryota.
+DR   GeneTree; ENSGT00940000154155; -.
+DR   InParanoid; Q9R141; -.
+DR   OMA; WTSIPTI; -.
+DR   OrthoDB; 1448128at2759; -.
+DR   PhylomeDB; Q9R141; -.
+DR   Reactome; R-RNO-549127; Organic cation transport.
+DR   PRO; PR:Q9R141; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   GO; GO:0016324; C:apical plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0009925; C:basal plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0031966; C:mitochondrial membrane; ISS:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0005277; F:acetylcholine transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015171; F:amino acid transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015199; F:amino-acid betaine transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015226; F:carnitine transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015101; F:organic cation transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0030165; F:PDZ domain binding; ISO:RGD.
+DR   GO; GO:0015651; F:quaternary ammonium group transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0015293; F:symporter activity; IEA:UniProtKB-KW.
+DR   GO; GO:0089718; P:amino acid import across plasma membrane; ISO:RGD.
+DR   GO; GO:0009437; P:carnitine metabolic process; ISO:RGD.
+DR   GO; GO:0015879; P:carnitine transport; ISO:RGD.
+DR   GO; GO:0015697; P:quaternary ammonium group transport; IDA:RGD.
+DR   GO; GO:0006814; P:sodium ion transport; IEA:UniProtKB-KW.
+DR   GO; GO:0006641; P:triglyceride metabolic process; ISO:RGD.
+DR   GO; GO:0042908; P:xenobiotic transport; ISO:RGD.
+DR   CDD; cd17376; MFS_SLC22A4_5_OCTN1_2; 1.
+DR   Gene3D; 1.20.1250.20; MFS general substrate transporter like domains; 1.
+DR   InterPro; IPR020846; MFS_dom.
+DR   InterPro; IPR005828; MFS_sugar_transport-like.
+DR   InterPro; IPR036259; MFS_trans_sf.
+DR   InterPro; IPR004749; Orgcat_transp/SVOP.
+DR   InterPro; IPR045915; S22A4/5.
+DR   InterPro; IPR005829; Sugar_transporter_CS.
+DR   NCBIfam; TIGR00898; 2A0119; 1.
+DR   PANTHER; PTHR24064; SOLUTE CARRIER FAMILY 22 MEMBER; 1.
+DR   PANTHER; PTHR24064:SF222; SOLUTE CARRIER FAMILY 22 MEMBER 4; 1.
+DR   Pfam; PF00083; Sugar_tr; 1.
+DR   SUPFAM; SSF103473; MFS general substrate transporter; 1.
+DR   PROSITE; PS50850; MFS; 1.
+DR   PROSITE; PS00216; SUGAR_TRANSPORT_1; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell membrane; Glycoprotein; Ion transport; Membrane;
+KW   Mitochondrion; Nucleotide-binding; Reference proteome; Sodium;
+KW   Sodium transport; Symport; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..553
+FT                   /note="Solute carrier family 22 member 4"
+FT                   /id="PRO_0000220499"
+FT   TOPO_DOM        1..20
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        21..41
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        42..142
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        143..163
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        164..171
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        172..192
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        193..197
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        198..218
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        219..232
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        233..253
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        254..257
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        258..278
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        279..339
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        340..360
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        361..373
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        374..394
+FT                   /note="Helical; Name=8"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        395..400
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        401..421
+FT                   /note="Helical; Name=9"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        422..428
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        429..449
+FT                   /note="Helical; Name=10"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        450..462
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        463..483
+FT                   /note="Helical; Name=11"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        484..488
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        489..509
+FT                   /note="Helical; Name=12"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        510..553
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         218..225
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        57
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        64
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        91
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   553 AA;  62362 MW;  E26C8155768A14AD CRC64;
+     MRDYDEVIAF LGDWGPFQRL IFFLLSASII PNGFNGMSVV FLAGTPEHRC LVPHTVNLSS
+     AWRNHSIPLE TKDGRQVPQS CRRYRLATIA NFSALGLEPG LDVDLEQLEQ ESCLDGWEYS
+     KDVFLSTIVT EWNLVCEDDW KTPLTTSLFF VGVLCGSFVS GQLSDRFGRK KVLFATMAVQ
+     TGFSFVQIFS TNWEMFTVLF AIVGMGQISN YVVAFILGTE ILSKSVRILF STLGVCTFFA
+     IGYMVLPLFA YFIRDWRMLL LALTLPGLFC VPLWWFIPES PRWLISQRRF EEAEQIIQKA
+     AKMNGIMAPA VIFDPLELQE LNSLKQQKVF ILDLFKTRNI ATITVMSVML WMLTSVGYFA
+     LSLNVPNLHG DVYLNCFLSG LIEVPAYFTA WLLLRTLPRR YIIAGVLFWG GGVLLLVQVV
+     PEDYNFVSIG LVMLGKFGVT SAFSMLYVFT AELYPTLVRN MAVGITSMAS RVGSIIAPYF
+     VYLGAYNRLL PYILMGSLTV LIGIITLFFP ESFGVTLPEN LEQMQKVRGF RCGKKSTVSM
+     DREENPKVLI TAF
+//

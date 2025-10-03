@@ -1,0 +1,287 @@
+ID   SODM_RAT                Reviewed;         222 AA.
+AC   P07895;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1992, sequence version 2.
+DT   24-JUL-2024, entry version 189.
+DE   RecName: Full=Superoxide dismutase [Mn], mitochondrial;
+DE            EC=1.15.1.1;
+DE   Flags: Precursor;
+GN   Name=Sod2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=3697077; DOI=10.1093/nar/15.23.10070;
+RA   Ho Y.-S., Crapo J.D.;
+RT   "Nucleotide sequences of cDNAs coding for rat manganese-containing
+RT   superoxide dismutase.";
+RL   Nucleic Acids Res. 15:10070-10070(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=2001291; DOI=10.1165/ajrcmb/4.3.278;
+RA   Ho Y.-S., Howard A.J., Crapo J.D.;
+RT   "Molecular structure of a functional rat gene for manganese-containing
+RT   superoxide dismutase.";
+RL   Am. J. Respir. Cell Mol. Biol. 4:278-286(1991).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 54-68; 76-108; 135-154 AND 203-216, AND IDENTIFICATION
+RP   BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, Hippocampus, and Spinal cord;
+RA   Lubec G., Afjehi-Sadat L., Diao W., Kang S.U.;
+RL   Submitted (JUL-2007) to UniProtKB.
+RN   [5]
+RP   NITRATION, AND FUNCTION DURING OXIDATIVE STRESS.
+RX   PubMed=12791589; DOI=10.1152/ajpheart.00096.2003;
+RA   Guo W., Adachi T., Matsui R., Xu S., Jiang B., Zou M.H., Kirber M.,
+RA   Lieberthal W., Cohen R.A.;
+RT   "Quantitative assessment of tyrosine nitration of manganese superoxide
+RT   dismutase in angiotensin II-infused rat kidney.";
+RL   Am. J. Physiol. 285:H1396-H1403(2003).
+RN   [6]
+RP   NITRATION AT TYR-58.
+RX   PubMed=16399855; DOI=10.1152/ajpheart.01293.2005;
+RA   Xu S., Ying J., Jiang B., Guo W., Adachi T., Sharov V., Lazar H.,
+RA   Menzoian J., Knyushko T.V., Bigelow D., Schoeneich C., Cohen R.A.;
+RT   "Detection of sequence-specific tyrosine nitration of manganese SOD and
+RT   SERCA in cardiovascular disease and aging.";
+RL   Am. J. Physiol. 290:H2220-H2227(2006).
+CC   -!- FUNCTION: Destroys superoxide anion radicals which are normally
+CC       produced within the cells and which are toxic to biological systems.
+CC       {ECO:0000269|PubMed:12791589}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+) + 2 superoxide = H2O2 + O2; Xref=Rhea:RHEA:20696,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15379, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:18421; EC=1.15.1.1;
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:P04179};
+CC       Note=Binds 1 Mn(2+) ion per subunit. {ECO:0000250|UniProtKB:P04179};
+CC   -!- SUBUNIT: Homotetramer.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix.
+CC   -!- PTM: Nitrated under oxidative stress. Nitration coupled with oxidation
+CC       inhibits the catalytic activity. {ECO:0000269|PubMed:12791589,
+CC       ECO:0000269|PubMed:16399855}.
+CC   -!- PTM: Acetylation at Lys-122 decreases enzymatic activity. Deacetylated
+CC       by SIRT3 upon exposure to ionizing radiations or after long fasting (By
+CC       similarity). {ECO:0000250|UniProtKB:P04179}.
+CC   -!- PTM: Polyubiquitinated; leading to proteasomal degradation.
+CC       Deubiquitinated by USP36 which increases protein stability.
+CC       {ECO:0000250|UniProtKB:P04179}.
+CC   -!- SIMILARITY: Belongs to the iron/manganese superoxide dismutase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y00497; CAA68549.1; -; mRNA.
+DR   EMBL; X56600; CAA39937.1; -; Genomic_DNA.
+DR   EMBL; BC070913; AAH70913.1; -; mRNA.
+DR   PIR; S21661; DSRTN.
+DR   RefSeq; NP_058747.1; NM_017051.2.
+DR   AlphaFoldDB; P07895; -.
+DR   SMR; P07895; -.
+DR   BioGRID; 246911; 1.
+DR   IntAct; P07895; 1.
+DR   STRING; 10116.ENSRNOP00000025794; -.
+DR   GlyGen; P07895; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; P07895; -.
+DR   PhosphoSitePlus; P07895; -.
+DR   SwissPalm; P07895; -.
+DR   jPOST; P07895; -.
+DR   PaxDb; 10116-ENSRNOP00000025794; -.
+DR   Ensembl; ENSRNOT00000025794.5; ENSRNOP00000025794.3; ENSRNOG00000019048.5.
+DR   Ensembl; ENSRNOT00055047331; ENSRNOP00055038911; ENSRNOG00055027354.
+DR   Ensembl; ENSRNOT00060015877; ENSRNOP00060012400; ENSRNOG00060009412.
+DR   Ensembl; ENSRNOT00065049834; ENSRNOP00065040920; ENSRNOG00065028871.
+DR   GeneID; 24787; -.
+DR   KEGG; rno:24787; -.
+DR   AGR; RGD:3732; -.
+DR   CTD; 6648; -.
+DR   RGD; 3732; Sod2.
+DR   eggNOG; KOG0876; Eukaryota.
+DR   GeneTree; ENSGT00390000011877; -.
+DR   HOGENOM; CLU_031625_2_1_1; -.
+DR   InParanoid; P07895; -.
+DR   OMA; DSLINWD; -.
+DR   OrthoDB; 4839at2759; -.
+DR   PhylomeDB; P07895; -.
+DR   TreeFam; TF105132; -.
+DR   BRENDA; 1.15.1.1; 5301.
+DR   Reactome; R-RNO-2151201; Transcriptional activation of mitochondrial biogenesis.
+DR   Reactome; R-RNO-3299685; Detoxification of Reactive Oxygen Species.
+DR   PRO; PR:P07895; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000019048; Expressed in heart and 19 other cell types or tissues.
+DR   GO; GO:0005759; C:mitochondrial matrix; ISO:RGD.
+DR   GO; GO:0042645; C:mitochondrial nucleoid; IDA:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0003677; F:DNA binding; IDA:RGD.
+DR   GO; GO:0019899; F:enzyme binding; IPI:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0030145; F:manganese ion binding; IDA:RGD.
+DR   GO; GO:0016491; F:oxidoreductase activity; ISO:RGD.
+DR   GO; GO:0019825; F:oxygen binding; IDA:RGD.
+DR   GO; GO:0004784; F:superoxide dismutase activity; IDA:RGD.
+DR   GO; GO:0003069; P:acetylcholine-mediated vasodilation involved in regulation of systemic arterial blood pressure; ISO:RGD.
+DR   GO; GO:0008637; P:apoptotic mitochondrial changes; ISO:RGD.
+DR   GO; GO:0071361; P:cellular response to ethanol; IEP:RGD.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; ISS:UniProtKB.
+DR   GO; GO:0003032; P:detection of oxygen; ISO:RGD.
+DR   GO; GO:0048773; P:erythrophore differentiation; ISO:RGD.
+DR   GO; GO:0006749; P:glutathione metabolic process; ISO:RGD.
+DR   GO; GO:0007507; P:heart development; ISO:RGD.
+DR   GO; GO:0030097; P:hemopoiesis; ISO:RGD.
+DR   GO; GO:0050665; P:hydrogen peroxide biosynthetic process; IDA:RGD.
+DR   GO; GO:0042743; P:hydrogen peroxide metabolic process; IMP:RGD.
+DR   GO; GO:0032364; P:intracellular oxygen homeostasis; ISO:RGD.
+DR   GO; GO:0008630; P:intrinsic apoptotic signaling pathway in response to DNA damage; ISO:RGD.
+DR   GO; GO:0008631; P:intrinsic apoptotic signaling pathway in response to oxidative stress; ISO:RGD.
+DR   GO; GO:0001889; P:liver development; ISO:RGD.
+DR   GO; GO:0007626; P:locomotory behavior; ISO:RGD.
+DR   GO; GO:0007005; P:mitochondrion organization; ISO:RGD.
+DR   GO; GO:0060586; P:multicellular organismal-level iron ion homeostasis; ISO:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0045599; P:negative regulation of fat cell differentiation; ISO:RGD.
+DR   GO; GO:0048147; P:negative regulation of fibroblast proliferation; ISO:RGD.
+DR   GO; GO:1902631; P:negative regulation of membrane hyperpolarization; IMP:RGD.
+DR   GO; GO:0043524; P:negative regulation of neuron apoptotic process; ISO:RGD.
+DR   GO; GO:1902176; P:negative regulation of oxidative stress-induced intrinsic apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:1904706; P:negative regulation of vascular associated smooth muscle cell proliferation; ISO:RGD.
+DR   GO; GO:0048666; P:neuron development; ISO:RGD.
+DR   GO; GO:0030335; P:positive regulation of cell migration; ISO:RGD.
+DR   GO; GO:0010729; P:positive regulation of hydrogen peroxide biosynthetic process; IMP:RGD.
+DR   GO; GO:0045429; P:positive regulation of nitric oxide biosynthetic process; ISO:RGD.
+DR   GO; GO:1905461; P:positive regulation of vascular associated smooth muscle cell apoptotic process; ISO:RGD.
+DR   GO; GO:1905932; P:positive regulation of vascular associated smooth muscle cell differentiation involved in phenotypic switching; ISO:RGD.
+DR   GO; GO:0009791; P:post-embryonic development; ISO:RGD.
+DR   GO; GO:0051289; P:protein homotetramerization; ISO:RGD.
+DR   GO; GO:0008217; P:regulation of blood pressure; ISO:RGD.
+DR   GO; GO:0051881; P:regulation of mitochondrial membrane potential; ISO:RGD.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; ISS:UniProtKB.
+DR   GO; GO:0001836; P:release of cytochrome c from mitochondria; ISO:RGD.
+DR   GO; GO:0019430; P:removal of superoxide radicals; IDA:RGD.
+DR   GO; GO:0022904; P:respiratory electron transport chain; ISO:RGD.
+DR   GO; GO:0014823; P:response to activity; IEP:RGD.
+DR   GO; GO:0048678; P:response to axon injury; ISO:RGD.
+DR   GO; GO:0046686; P:response to cadmium ion; IEP:RGD.
+DR   GO; GO:0051602; P:response to electrical stimulus; IEP:RGD.
+DR   GO; GO:0010332; P:response to gamma radiation; ISO:RGD.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; IEP:RGD.
+DR   GO; GO:0055093; P:response to hyperoxia; ISO:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0035902; P:response to immobilization stress; IEP:RGD.
+DR   GO; GO:0035900; P:response to isolation stress; IEP:RGD.
+DR   GO; GO:0033591; P:response to L-ascorbic acid; IEP:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0071000; P:response to magnetism; IEP:RGD.
+DR   GO; GO:0010042; P:response to manganese ion; IEP:RGD.
+DR   GO; GO:0031667; P:response to nutrient levels; IDA:RGD.
+DR   GO; GO:0006979; P:response to oxidative stress; IEP:RGD.
+DR   GO; GO:0000302; P:response to reactive oxygen species; ISO:RGD.
+DR   GO; GO:0010269; P:response to selenium ion; IEP:RGD.
+DR   GO; GO:0034021; P:response to silicon dioxide; IEP:RGD.
+DR   GO; GO:0000303; P:response to superoxide; ISO:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IDA:RGD.
+DR   GO; GO:0010043; P:response to zinc ion; IEP:RGD.
+DR   GO; GO:0042554; P:superoxide anion generation; ISO:RGD.
+DR   GO; GO:0006801; P:superoxide metabolic process; ISS:UniProtKB.
+DR   GO; GO:0042311; P:vasodilation; ISO:RGD.
+DR   Gene3D; 1.10.287.990; Fe,Mn superoxide dismutase (SOD) domain; 1.
+DR   Gene3D; 3.55.40.20; Iron/manganese superoxide dismutase, C-terminal domain; 1.
+DR   InterPro; IPR050265; Fe/Mn_Superoxide_Dismutase.
+DR   InterPro; IPR001189; Mn/Fe_SOD.
+DR   InterPro; IPR019833; Mn/Fe_SOD_BS.
+DR   InterPro; IPR019832; Mn/Fe_SOD_C.
+DR   InterPro; IPR019831; Mn/Fe_SOD_N.
+DR   InterPro; IPR036324; Mn/Fe_SOD_N_sf.
+DR   InterPro; IPR036314; SOD_C_sf.
+DR   PANTHER; PTHR11404; SUPEROXIDE DISMUTASE 2; 1.
+DR   PANTHER; PTHR11404:SF6; SUPEROXIDE DISMUTASE [MN], MITOCHONDRIAL; 1.
+DR   Pfam; PF02777; Sod_Fe_C; 1.
+DR   Pfam; PF00081; Sod_Fe_N; 1.
+DR   PIRSF; PIRSF000349; SODismutase; 1.
+DR   PRINTS; PR01703; MNSODISMTASE.
+DR   SUPFAM; SSF54719; Fe,Mn superoxide dismutase (SOD), C-terminal domain; 1.
+DR   SUPFAM; SSF46609; Fe,Mn superoxide dismutase (SOD), N-terminal domain; 1.
+DR   PROSITE; PS00088; SOD_MN; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; Manganese; Metal-binding;
+KW   Mitochondrion; Nitration; Oxidoreductase; Reference proteome;
+KW   Transit peptide; Ubl conjugation.
+FT   TRANSIT         1..24
+FT                   /note="Mitochondrion"
+FT   CHAIN           25..222
+FT                   /note="Superoxide dismutase [Mn], mitochondrial"
+FT                   /id="PRO_0000032874"
+FT   BINDING         50
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         98
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         183
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         187
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         58
+FT                   /note="3'-nitrotyrosine"
+FT                   /evidence="ECO:0000269|PubMed:16399855"
+FT   MOD_RES         68
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P04179"
+FT   MOD_RES         68
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P09671"
+FT   MOD_RES         75
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P09671"
+FT   MOD_RES         75
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P09671"
+FT   MOD_RES         114
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09671"
+FT   MOD_RES         122
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P09671"
+FT   MOD_RES         122
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P09671"
+FT   MOD_RES         130
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P04179"
+FT   MOD_RES         130
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P09671"
+FT   MOD_RES         202
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09671"
+FT   CONFLICT        167
+FT                   /note="Q -> H (in Ref. 1; CAA68549)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   222 AA;  24674 MW;  8CCC1E0E857B3138 CRC64;
+     MLCRAACSAG RRLGPAASTA GSRHKHSLPD LPYDYGALEP HINAQIMQLH HSKHHATYVN
+     NLNVTEEKYH EALAKGDVTT QVALQPALKF NGGGHINHSI FWTNLSPKGG GEPKGELLEA
+     IKRDFGSFEK FKEKLTAVSV GVQGSGWGWL GFNKEQGRLQ IAACSNQDPL QGTTGLIPLL
+     GIDVWEHAYY LQYKNVRPDY LKAIWNVINW ENVSQRYIVC KK
+//

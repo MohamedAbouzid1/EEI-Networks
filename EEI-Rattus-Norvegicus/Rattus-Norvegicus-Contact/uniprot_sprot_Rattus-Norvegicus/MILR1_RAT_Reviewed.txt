@@ -1,0 +1,124 @@
+ID   MILR1_RAT               Reviewed;         248 AA.
+AC   Q62875;
+DT   23-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 2.
+DT   24-JAN-2024, entry version 100.
+DE   RecName: Full=Allergin-1;
+DE   AltName: Full=Allergy inhibitory receptor 1;
+DE   AltName: Full=Mast cell antigen 32;
+DE            Short=MCA-32;
+DE            Short=Mast cell Ag-32;
+DE   AltName: Full=Mast cell immunoglobulin-like receptor 1;
+DE   Flags: Precursor;
+GN   Name=Milr1; Synonyms=Mca32;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, INDUCTION, AND TISSUE
+RP   SPECIFICITY.
+RX   PubMed=7499870;
+RA   Pirozzi G., Terry R.W., Epstein D., Labow M.A.;
+RT   "Identification and characterization of a novel surface antigen gene
+RT   induced in mast cells activated through the high affinity IgE receptor.";
+RL   J. Immunol. 155:5811-5818(1995).
+CC   -!- FUNCTION: Immunoglobulin-like receptor which plays an inhibitory role
+CC       in degranulation of mast cells. Negatively regulates IgE-mediated mast
+CC       cell activation and suppresses the type I immediate hypersensitivity
+CC       reaction (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Monomer. Interacts (tyrosine-phosphorylated) with PTPN6,
+CC       PTPN11 and INPP5D. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:7499870};
+CC       Single-pass type I membrane protein {ECO:0000269|PubMed:7499870}.
+CC   -!- TISSUE SPECIFICITY: Mast cell-specific. Expressed in primary and
+CC       transformed mast cells. {ECO:0000269|PubMed:7499870}.
+CC   -!- INDUCTION: Up-regulated in response to mast cell activation.
+CC       {ECO:0000269|PubMed:7499870}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAC52339.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U39546; AAC52339.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_067596.1; NM_021585.1.
+DR   AlphaFoldDB; Q62875; -.
+DR   STRING; 10116.ENSRNOP00000072914; -.
+DR   GlyCosmos; Q62875; 2 sites, No reported glycans.
+DR   GlyGen; Q62875; 2 sites.
+DR   iPTMnet; Q62875; -.
+DR   PhosphoSitePlus; Q62875; -.
+DR   PaxDb; 10116-ENSRNOP00000048321; -.
+DR   GeneID; 59105; -.
+DR   KEGG; rno:59105; -.
+DR   UCSC; RGD:620488; rat.
+DR   AGR; RGD:620488; -.
+DR   CTD; 284021; -.
+DR   RGD; 620488; Milr1.
+DR   InParanoid; Q62875; -.
+DR   OrthoDB; 5263500at2759; -.
+DR   PhylomeDB; Q62875; -.
+DR   PRO; PR:Q62875; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0043303; P:mast cell degranulation; ISS:UniProtKB.
+DR   GO; GO:0033004; P:negative regulation of mast cell activation; ISS:UniProtKB.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 1.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   Pfam; PF13895; Ig_2; 1.
+DR   SMART; SM00409; IG; 1.
+DR   SUPFAM; SSF48726; Immunoglobulin; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Disulfide bond; Glycoprotein; Immunoglobulin domain;
+KW   Membrane; Phosphoprotein; Reference proteome; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           34..248
+FT                   /note="Allergin-1"
+FT                   /id="PRO_0000307366"
+FT   TOPO_DOM        34..150
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        151..171
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        172..248
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          54..137
+FT                   /note="Ig-like C2-type"
+FT   MOTIF           216..221
+FT                   /note="ITIM motif"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           241..246
+FT                   /note="ITIM motif"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         218
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q3TB92"
+FT   MOD_RES         243
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q3TB92"
+FT   CARBOHYD        68
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        135
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        73..120
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+SQ   SEQUENCE   248 AA;  27459 MW;  47F1BC8906F51116 CRC64;
+     MGDDDTPVCL SVASCKGVSC WLDKLLLWAL TLSITLRNTA VDCRRVDRNG LLSPNLNSSM
+     SVVRMGQNVS LSCSSKNTSI DITYSLFLGK RYLESKRRRG GAVDFHLRIS NANESGPYKC
+     KVNDSNSSKY SQNFNFTIIQ DESCSSCLLS LLLPGVLLGL ILPGLAFLIY LKYKKGCTGK
+     TLKENESKGS GDAPTQGELY ANICETQKGS EQLQEIHYTT PVFKEVAPTE QEGLEDRKDD
+     YIYSELTY
+//

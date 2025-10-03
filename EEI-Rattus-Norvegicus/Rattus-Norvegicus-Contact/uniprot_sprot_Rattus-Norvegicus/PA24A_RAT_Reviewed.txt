@@ -1,0 +1,545 @@
+ID   PA24A_RAT               Reviewed;         752 AA.
+AC   P50393;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   02-OCT-2024, entry version 156.
+DE   RecName: Full=Cytosolic phospholipase A2;
+DE            Short=cPLA2;
+DE   AltName: Full=Phospholipase A2 group IVA;
+DE   Includes:
+DE     RecName: Full=Phospholipase A2;
+DE              EC=3.1.1.4 {ECO:0000250|UniProtKB:P47712};
+DE     AltName: Full=Phosphatidylcholine 2-acylhydrolase;
+DE   Includes:
+DE     RecName: Full=Lysophospholipase;
+DE              EC=3.1.1.5 {ECO:0000250|UniProtKB:P47712};
+GN   Name=Pla2g4a; Synonyms=Cpla2, Pla2g4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND INDUCTION.
+RC   TISSUE=Brain;
+RX   PubMed=7808237; DOI=10.1016/0169-328x(94)90174-0;
+RA   Owada Y., Tominaga T., Yoshimoto T., Kondo H.;
+RT   "Molecular cloning of rat cDNA for cytosolic phospholipase A2 and the
+RT   increased gene expression in the dentate gyrus following transient
+RT   forebrain ischemia.";
+RL   Brain Res. Mol. Brain Res. 25:364-368(1994).
+RN   [2]
+RP   ERRATUM OF PUBMED:7808237.
+RX   PubMed=7898324; DOI=10.1016/0169-328x(94)90023-x;
+RA   Owada Y., Tominaga T., Yoshimoto T., Kondo H.;
+RL   Brain Res. Mol. Brain Res. 27:355-355(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Pancreatic islet;
+RX   PubMed=9555100; DOI=10.1016/s0005-2760(98)00027-7;
+RA   Ma Z., Ramanadham S., Hu Z., Turk J.;
+RT   "Cloning and expression of a group IV cytosolic Ca2+-dependent
+RT   phospholipase A2 from rat pancreatic islets. Comparison of the expressed
+RT   activity with that of an islet group VI cytosolic Ca2+-independent
+RT   phospholipase A2.";
+RL   Biochim. Biophys. Acta 1391:384-400(1998).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-434; SER-437; SER-511;
+RP   SER-515 AND SER-727, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE
+RP   ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Has primarily calcium-dependent phospholipase and
+CC       lysophospholipase activities, with a major role in membrane lipid
+CC       remodeling and biosynthesis of lipid mediators of the inflammatory
+CC       response (By similarity). Plays an important role in embryo
+CC       implantation and parturition through its ability to trigger prostanoid
+CC       production (By similarity). Preferentially hydrolyzes the ester bond of
+CC       the fatty acyl group attached at sn-2 position of phospholipids
+CC       (phospholipase A2 activity). Selectively hydrolyzes sn-2 arachidonoyl
+CC       group from membrane phospholipids, providing the precursor for
+CC       eicosanoid biosynthesis via the cyclooxygenase pathway. In an
+CC       alternative pathway of eicosanoid biosynthesis, hydrolyzes sn-2 fatty
+CC       acyl chain of eicosanoid lysophopholipids to release free bioactive
+CC       eicosanoids. Hydrolyzes the ester bond of the fatty acyl group attached
+CC       at sn-1 position of phospholipids (phospholipase A1 activity) only if
+CC       an ether linkage rather than an ester linkage is present at the sn-2
+CC       position. This hydrolysis is not stereospecific. Has calcium-
+CC       independent phospholipase A2 and lysophospholipase activities in the
+CC       presence of phosphoinositides. Has O-acyltransferase activity.
+CC       Catalyzes the transfer of fatty acyl chains from phospholipids to a
+CC       primary hydroxyl group of glycerol (sn-1 or sn-3), potentially
+CC       contributing to monoacylglycerol synthesis (By similarity).
+CC       {ECO:0000250|UniProtKB:P47712, ECO:0000250|UniProtKB:P47713}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + H2O = a 1-acyl-sn-
+CC         glycero-3-phosphocholine + a fatty acid + H(+); Xref=Rhea:RHEA:15801,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28868,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:58168; EC=3.1.1.4;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15802;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1-acyl-sn-glycero-3-phosphocholine + H2O = a fatty acid +
+CC         H(+) + sn-glycerol 3-phosphocholine; Xref=Rhea:RHEA:15177,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16870,
+CC         ChEBI:CHEBI:28868, ChEBI:CHEBI:58168; EC=3.1.1.5;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15178;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-
+CC         3-phosphocholine + H2O = (5Z,8Z,11Z,14Z)-eicosatetraenoate + 1-
+CC         hexadecanoyl-sn-glycero-3-phosphocholine + H(+);
+CC         Xref=Rhea:RHEA:40427, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:32395, ChEBI:CHEBI:72998, ChEBI:CHEBI:73003;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40428;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-
+CC         phosphocholine + H2O = (5Z,8Z,11Z,14Z)-eicosatetraenoate + 1-
+CC         (5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphocholine + H(+);
+CC         Xref=Rhea:RHEA:41075, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:32395, ChEBI:CHEBI:60657, ChEBI:CHEBI:74344;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41076;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-
+CC         3-phosphocholine + H2O = (5Z,8Z,11Z,14Z)-eicosatetraenoate + 1-
+CC         octadecanoyl-sn-glycero-3-phosphocholine + H(+);
+CC         Xref=Rhea:RHEA:40519, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:32395, ChEBI:CHEBI:73858, ChEBI:CHEBI:74965;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40520;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-
+CC         phosphocholine + H2O = (9Z,12Z)-octadecadienoate + 1-hexadecanoyl-sn-
+CC         glycero-3-phosphocholine + H(+); Xref=Rhea:RHEA:40811,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30245,
+CC         ChEBI:CHEBI:72998, ChEBI:CHEBI:73002;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40812;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-
+CC         phosphocholine + H2O = (9Z,12Z,15Z)-octadecatrienoate + 1-
+CC         octadecanoyl-sn-glycero-3-phosphocholine + H(+);
+CC         Xref=Rhea:RHEA:41307, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:32387, ChEBI:CHEBI:73858, ChEBI:CHEBI:78022;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41308;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-2-hexadecanoyl-sn-glycero-
+CC         3-phosphocholine + H2O = 1-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-
+CC         glycero-3-phosphocholine + H(+) + hexadecanoate;
+CC         Xref=Rhea:RHEA:41071, ChEBI:CHEBI:7896, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:74344, ChEBI:CHEBI:77694;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41072;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-O-hexadecyl-2-(5Z,8Z,11Z,14Z)-eicosatetraenoyl-sn-glycero-3-
+CC         phosphocholine + H2O = (5Z,8Z,11Z,14Z)-eicosatetraenoate + 1-O-
+CC         hexadecyl-sn-glycero-3-phosphocholine + H(+); Xref=Rhea:RHEA:41067,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:32395,
+CC         ChEBI:CHEBI:55430, ChEBI:CHEBI:64496;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41068;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1'-sn-glycerol)
+CC         + H2O = (9Z)-octadecenoate + 1-(9Z-octadecenoyl)-sn-glycero-3-
+CC         phospho-(1'-sn-glycerol) + H(+); Xref=Rhea:RHEA:41123,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30823,
+CC         ChEBI:CHEBI:72828, ChEBI:CHEBI:75163;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41124;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-
+CC         3-phosphate + H2O = (5Z,8Z,11Z,14Z)-eicosatetraenoate + 1-
+CC         octadecanoyl-sn-glycero-3-phosphate + H(+); Xref=Rhea:RHEA:40451,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:32395,
+CC         ChEBI:CHEBI:74565, ChEBI:CHEBI:77091;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40452;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-sn-glycero-3-phosphocholine + H2O = H(+) +
+CC         hexadecanoate + sn-glycerol 3-phosphocholine; Xref=Rhea:RHEA:40435,
+CC         ChEBI:CHEBI:7896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16870, ChEBI:CHEBI:72998;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40436;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(prostaglandin E2)-sn-glycero-3-phosphoethanolamine + H2O =
+CC         H(+) + prostaglandin E2 + sn-glycero-3-phosphoethanolamine;
+CC         Xref=Rhea:RHEA:53704, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:137581, ChEBI:CHEBI:143890, ChEBI:CHEBI:606564;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53705;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-[(15S)-hydroxy-(5Z,8Z,11Z,13E)-eicosatetraenoyl]-sn-glycero-
+CC         3-phosphocholine + H2O = (15S)-hydroxy-(5Z,8Z,11Z,13E)-
+CC         eicosatetraenoate + H(+) + sn-glycerol 3-phosphocholine;
+CC         Xref=Rhea:RHEA:53700, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16870, ChEBI:CHEBI:57409, ChEBI:CHEBI:137584;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53701;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-[(15R)-hydroxy-(5Z,8Z,11Z,13E)-eicosatetraenoyl]-sn-glycero-
+CC         3-phosphocholine + H2O = (15R)-hydroxy-(5Z,8Z,11Z,13E)-
+CC         eicosatetraenoate + H(+) + sn-glycerol 3-phosphocholine;
+CC         Xref=Rhea:RHEA:53696, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16870, ChEBI:CHEBI:78837, ChEBI:CHEBI:137583;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53697;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(prostaglandin E2)-sn-glycero-3-phosphocholine + H2O = H(+)
+CC         + prostaglandin E2 + sn-glycerol 3-phosphocholine;
+CC         Xref=Rhea:RHEA:53692, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16870, ChEBI:CHEBI:137585, ChEBI:CHEBI:606564;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53693;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-[(11R)-hydroxy-(5Z,8Z,12E,14Z)-eicosatetraenoyl]-sn-glycero-
+CC         3-phosphocholine + H2O = (11R)-hydroxy-(5Z,8Z,12E,14Z)-
+CC         eicosatetraenoate + H(+) + sn-glycerol 3-phosphocholine;
+CC         Xref=Rhea:RHEA:53688, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16870, ChEBI:CHEBI:78836, ChEBI:CHEBI:137582;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53689;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-2-O-hexadecyl-sn-glycero-3-
+CC         phosphocholine + H2O = (5Z,8Z,11Z,14Z)-eicosatetraenoate + 2-O-
+CC         hexadecyl-sn-glycero-3-phosphocholine + H(+); Xref=Rhea:RHEA:41271,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:32395,
+CC         ChEBI:CHEBI:77695, ChEBI:CHEBI:77696;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41272;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-
+CC         3-phosphocholine + glycerol = 1-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-
+CC         glycerol + 1-octadecanoyl-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:41099, ChEBI:CHEBI:17754, ChEBI:CHEBI:73858,
+CC         ChEBI:CHEBI:74965, ChEBI:CHEBI:75612;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41100;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-2-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-
+CC         phosphocholine + glycerol = 1-(9Z,12Z,15Z-octadecatrienoyl)-glycerol
+CC         + 1-octadecanoyl-sn-glycero-3-phosphocholine; Xref=Rhea:RHEA:41087,
+CC         ChEBI:CHEBI:17754, ChEBI:CHEBI:73858, ChEBI:CHEBI:75610,
+CC         ChEBI:CHEBI:78022; Evidence={ECO:0000250|UniProtKB:P47712};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41088;
+CC         Evidence={ECO:0000250|UniProtKB:P47712};
+CC   -!- ACTIVITY REGULATION: Activated by cytosolic calcium, which is necessary
+CC       for binding to membrane lipids. Activated by phosphorylation in
+CC       response to mitogenic stimuli. {ECO:0000250|UniProtKB:P47712,
+CC       ECO:0000250|UniProtKB:P47713}.
+CC   -!- PATHWAY: Lipid metabolism; arachidonate metabolism.
+CC       {ECO:0000250|UniProtKB:P47712}.
+CC   -!- PATHWAY: Membrane lipid metabolism; glycerophospholipid metabolism.
+CC       {ECO:0000250|UniProtKB:P47713}.
+CC   -!- PATHWAY: Lipid metabolism; prostaglandin biosynthesis.
+CC       {ECO:0000250|UniProtKB:P47712}.
+CC   -!- PATHWAY: Lipid metabolism; leukotriene B4 biosynthesis.
+CC       {ECO:0000250|UniProtKB:P47712}.
+CC   -!- SUBUNIT: Interacts with KAT5. {ECO:0000250|UniProtKB:P47712}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P47712}. Golgi
+CC       apparatus membrane {ECO:0000250|UniProtKB:P47712}. Nucleus envelope
+CC       {ECO:0000250|UniProtKB:P47712}. Note=Translocates to intracellular
+CC       membranes in a calcium-dependent way. {ECO:0000250|UniProtKB:P47712}.
+CC   -!- TISSUE SPECIFICITY: In brain tissue, expressed in low levels in
+CC       olfactory mitral and granule cells, in hippocampal pyramidal cells and
+CC       in dentate and cerebellar granule cells. {ECO:0000269|PubMed:7808237}.
+CC   -!- INDUCTION: Levels of rat CPLA2 are increased in dentate granule cells
+CC       during ischemia. {ECO:0000269|PubMed:7808237}.
+CC   -!- DOMAIN: The N-terminal C2 domain associates with lipid membranes upon
+CC       calcium binding. It modulates enzyme activity by presenting the active
+CC       site to its substrate in response to elevations of cytosolic calcium.
+CC       In the presence of phosphoinositides, regulates phospholipase A2 and
+CC       lysophospholipase activities in a calcium-independent way.
+CC       {ECO:0000250|UniProtKB:P47712}.
+CC   -!- PTM: Phosphorylated at both Ser-505 and Ser-727 in response to
+CC       mitogenic stimuli. {ECO:0000250|UniProtKB:P47712}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; S77829; AAB33847.1; -; mRNA.
+DR   EMBL; U38376; AAC21591.1; -; mRNA.
+DR   AlphaFoldDB; P50393; -.
+DR   BMRB; P50393; -.
+DR   SMR; P50393; -.
+DR   STRING; 10116.ENSRNOP00000075329; -.
+DR   iPTMnet; P50393; -.
+DR   PhosphoSitePlus; P50393; -.
+DR   PaxDb; 10116-ENSRNOP00000003630; -.
+DR   UCSC; RGD:67366; rat.
+DR   AGR; RGD:67366; -.
+DR   RGD; 67366; Pla2g4a.
+DR   eggNOG; KOG1012; Eukaryota.
+DR   eggNOG; KOG1325; Eukaryota.
+DR   InParanoid; P50393; -.
+DR   PhylomeDB; P50393; -.
+DR   Reactome; R-RNO-111995; phospho-PLA2 pathway.
+DR   Reactome; R-RNO-1482788; Acyl chain remodelling of PC.
+DR   Reactome; R-RNO-1482798; Acyl chain remodeling of CL.
+DR   Reactome; R-RNO-1482801; Acyl chain remodelling of PS.
+DR   Reactome; R-RNO-1482839; Acyl chain remodelling of PE.
+DR   Reactome; R-RNO-1482922; Acyl chain remodelling of PI.
+DR   Reactome; R-RNO-1482925; Acyl chain remodelling of PG.
+DR   Reactome; R-RNO-1483115; Hydrolysis of LPC.
+DR   Reactome; R-RNO-1483166; Synthesis of PA.
+DR   Reactome; R-RNO-2142753; Arachidonic acid metabolism.
+DR   Reactome; R-RNO-418592; ADP signalling through P2Y purinoceptor 1.
+DR   Reactome; R-RNO-432142; Platelet sensitization by LDL.
+DR   Reactome; R-RNO-6811436; COPI-independent Golgi-to-ER retrograde traffic.
+DR   UniPathway; UPA00383; -.
+DR   UniPathway; UPA00662; -.
+DR   UniPathway; UPA00878; -.
+DR   UniPathway; UPA00940; -.
+DR   PRO; PR:P50393; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0000139; C:Golgi membrane; ISS:UniProtKB.
+DR   GO; GO:0005635; C:nuclear envelope; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:RGD.
+DR   GO; GO:0042588; C:zymogen granule; IDA:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0047498; F:calcium-dependent phospholipase A2 activity; IDA:RGD.
+DR   GO; GO:0005544; F:calcium-dependent phospholipid binding; ISS:UniProtKB.
+DR   GO; GO:0047499; F:calcium-independent phospholipase A2 activity; ISO:RGD.
+DR   GO; GO:1902387; F:ceramide 1-phosphate binding; ISS:UniProtKB.
+DR   GO; GO:0035035; F:histone acetyltransferase binding; IPI:RGD.
+DR   GO; GO:0004622; F:lysophospholipase activity; ISS:UniProtKB.
+DR   GO; GO:0008374; F:O-acyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0032266; F:phosphatidylinositol-3-phosphate binding; ISS:UniProtKB.
+DR   GO; GO:0070273; F:phosphatidylinositol-4-phosphate binding; ISS:UniProtKB.
+DR   GO; GO:0010314; F:phosphatidylinositol-5-phosphate binding; ISS:UniProtKB.
+DR   GO; GO:0004623; F:phospholipase A2 activity; ISO:RGD.
+DR   GO; GO:0019369; P:arachidonic acid metabolic process; IMP:RGD.
+DR   GO; GO:0050482; P:arachidonic acid secretion; ISO:RGD.
+DR   GO; GO:0071236; P:cellular response to antibiotic; ISO:RGD.
+DR   GO; GO:1905375; P:cellular response to homocysteine; IEP:RGD.
+DR   GO; GO:0046697; P:decidualization; IMP:RGD.
+DR   GO; GO:0051649; P:establishment of localization in cell; ISO:RGD.
+DR   GO; GO:0006071; P:glycerol metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0046475; P:glycerophospholipid catabolic process; IBA:GO_Central.
+DR   GO; GO:0046456; P:icosanoid biosynthetic process; ISO:RGD.
+DR   GO; GO:0019370; P:leukotriene biosynthetic process; ISO:RGD.
+DR   GO; GO:0001554; P:luteolysis; IEP:RGD.
+DR   GO; GO:0006640; P:monoacylglycerol biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0001542; P:ovulation from ovarian follicle; IMP:RGD.
+DR   GO; GO:0036151; P:phosphatidylcholine acyl-chain remodeling; ISO:RGD.
+DR   GO; GO:0034638; P:phosphatidylcholine catabolic process; ISS:UniProtKB.
+DR   GO; GO:0034478; P:phosphatidylglycerol catabolic process; ISS:UniProtKB.
+DR   GO; GO:0006663; P:platelet activating factor biosynthetic process; ISO:RGD.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:0030501; P:positive regulation of bone mineralization; IEP:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IMP:RGD.
+DR   GO; GO:0031622; P:positive regulation of fever generation; IEP:RGD.
+DR   GO; GO:0043032; P:positive regulation of macrophage activation; ISO:RGD.
+DR   GO; GO:0010572; P:positive regulation of platelet activation; ISO:RGD.
+DR   GO; GO:0031394; P:positive regulation of prostaglandin biosynthetic process; IMP:RGD.
+DR   GO; GO:0032308; P:positive regulation of prostaglandin secretion; ISO:RGD.
+DR   GO; GO:0002827; P:positive regulation of T-helper 1 type immune response; ISO:RGD.
+DR   GO; GO:0031340; P:positive regulation of vesicle fusion; IMP:RGD.
+DR   GO; GO:0001516; P:prostaglandin biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0042127; P:regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0051592; P:response to calcium ion; IMP:RGD.
+DR   GO; GO:0051384; P:response to glucocorticoid; IEP:RGD.
+DR   GO; GO:0009725; P:response to hormone; IEP:RGD.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; IEP:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0051597; P:response to methylmercury; IEP:RGD.
+DR   GO; GO:0033280; P:response to vitamin D; IEP:RGD.
+DR   GO; GO:0043129; P:surfactant homeostasis; IMP:RGD.
+DR   CDD; cd04036; C2_cPLA2; 1.
+DR   CDD; cd07200; cPLA2_Grp-IVA; 1.
+DR   Gene3D; 2.60.40.150; C2 domain; 1.
+DR   Gene3D; 3.40.1090.10; Cytosolic phospholipase A2 catalytic domain; 1.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR041847; C2_cPLA2.
+DR   InterPro; IPR000008; C2_dom.
+DR   InterPro; IPR035892; C2_domain_sf.
+DR   InterPro; IPR002642; LysoPLipase_cat_dom.
+DR   PANTHER; PTHR10728; CYTOSOLIC PHOSPHOLIPASE A2; 1.
+DR   PANTHER; PTHR10728:SF13; CYTOSOLIC PHOSPHOLIPASE A2; 1.
+DR   Pfam; PF00168; C2; 1.
+DR   Pfam; PF01735; PLA2_B; 1.
+DR   SMART; SM00239; C2; 1.
+DR   SMART; SM00022; PLAc; 1.
+DR   SUPFAM; SSF49562; C2 domain (Calcium/lipid-binding domain, CaLB); 1.
+DR   SUPFAM; SSF52151; FabD/lysophospholipase-like; 1.
+DR   PROSITE; PS50004; C2; 1.
+DR   PROSITE; PS51210; PLA2C; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Cytoplasm; Fatty acid biosynthesis; Fatty acid metabolism;
+KW   Glycerol metabolism; Golgi apparatus; Hydrolase; Isopeptide bond;
+KW   Leukotriene biosynthesis; Lipid biosynthesis; Lipid degradation;
+KW   Lipid metabolism; Lipid-binding; Membrane; Metal-binding; Nucleus;
+KW   Phospholipid degradation; Phospholipid metabolism; Phosphoprotein;
+KW   Prostaglandin biosynthesis; Prostaglandin metabolism; Reference proteome;
+KW   Ubl conjugation.
+FT   CHAIN           1..752
+FT                   /note="Cytosolic phospholipase A2"
+FT                   /id="PRO_0000187264"
+FT   DOMAIN          6..122
+FT                   /note="C2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   DOMAIN          140..740
+FT                   /note="PLA2c"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00555"
+FT   REGION          1..178
+FT                   /note="Phospholipid binding"
+FT                   /evidence="ECO:0000305"
+FT   REGION          427..457
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        228
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        549
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         40
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         40
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         41
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         43
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         43
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         65
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         93
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         94
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         95
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P47712"
+FT   MOD_RES         268
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P47712"
+FT   MOD_RES         434
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         435
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P47712"
+FT   MOD_RES         437
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         505
+FT                   /note="Phosphoserine; by MAPK"
+FT                   /evidence="ECO:0000250|UniProtKB:P47712"
+FT   MOD_RES         511
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         515
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         727
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         729
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P47712"
+FT   CROSSLNK        541
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P47712"
+FT   CROSSLNK        606
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P47712"
+FT   CONFLICT        139
+FT                   /note="C -> S (in Ref. 3; AAC21591)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        159
+FT                   /note="R -> Q (in Ref. 3; AAC21591)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        287
+FT                   /note="Q -> L (in Ref. 3; AAC21591)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        308..310
+FT                   /note="MST -> IVP (in Ref. 3; AAC21591)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        410
+FT                   /note="S -> L (in Ref. 3; AAC21591)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        489
+FT                   /note="E -> V (in Ref. 3; AAC21591)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        635
+FT                   /note="P -> T (in Ref. 3; AAC21591)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   752 AA;  85707 MW;  C68F71BB05FBF732 CRC64;
+     MSFIDPYQHI IVEHQYSHKF TVVVLRATKV TKGTFGDMLD TPDPYVELFI STTPDSRKRT
+     RHFNNDINPV WNETFEFILD PNQENVLEIT LMDANYVMDE TLGTATFPVS SMKVGEKKEV
+     PFIFNQVTEM ILEMSLEVCS CPDLRFSMAL CDQEKTFRRQ RKENIKENMK KLLGPKKSEG
+     LYSTRDVPVV AILGSGGGFR AMVGFSGVMK ALYESGILDC ATYVAGLSGS TWYMSTLYSH
+     PDFPEKGPEE INEELMKNVS HNPLLLLTPQ KVKRYVESLW KKKSSGQPVT FTDIFGMLIG
+     ETLIQNRMST TLSSLKEKVS AARCPLPLFT CLHVKPDVSE LMFADWVEFS PYEIGMAKYG
+     TFMTPDLFGS KFFMGTVVKK YEENPLHFLM GVWGSAFSIL FNRVLGVSGS QNKGSTMEEE
+     LENITAKHIV SNDSSDSDDE AQGPKGTENE DAEREYQNDN QASWVHRMLM ALVSDSALFN
+     TREGRAGKEH NFMLGLNLNT SYPLSPLRDF SPQDSFDDDE LDAAVADPDE FERIYEPLDV
+     KSKKIHVVDS GLTFNLPYPL ILRPQRGVDL IISFDFSARP SDTSPPFKEL LLAEKWAKMN
+     KLPFPKIDPY VFDREGLKEC YVFKPKNPDV EKDCPTIIHF VLANINFRKY KAPGVLRETK
+     EEKEIADFDI FDDPESPFST FNFQYPNQAF KRLHDLMYFN TLNNIDVIKD AIVESIEYRR
+     QNPSRCSVSL SNVEARKFFN KEFLSKPTAE SI
+//

@@ -1,0 +1,315 @@
+ID   MMSA_RAT                Reviewed;         535 AA.
+AC   Q02253;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   29-MAY-2024, entry version 166.
+DE   RecName: Full=Methylmalonate-semialdehyde/malonate-semialdehyde dehydrogenase [acylating], mitochondrial {ECO:0000305|PubMed:2768248};
+DE            Short=MMSDH {ECO:0000303|PubMed:1527093};
+DE            EC=1.2.1.27 {ECO:0000269|PubMed:1527093, ECO:0000269|PubMed:2768248};
+DE   AltName: Full=Aldehyde dehydrogenase family 6 member A1 {ECO:0000312|RGD:621556};
+DE   Flags: Precursor;
+GN   Name=Aldh6a1 {ECO:0000312|RGD:621556}; Synonyms=Mmsdh;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 33-50 AND 166-190,
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RC   TISSUE=Liver;
+RX   PubMed=1527093; DOI=10.1016/s0021-9258(18)41835-2;
+RA   Kedishvili N.Y., Popov K.M., Rougraff P.M., Zhao Y., Crabb D.W.,
+RA   Harris R.A.;
+RT   "CoA-dependent methylmalonate-semialdehyde dehydrogenase, a unique member
+RT   of the aldehyde dehydrogenase superfamily. cDNA cloning, evolutionary
+RT   relationships, and tissue distribution.";
+RL   J. Biol. Chem. 267:19724-19729(1992).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 33-50, FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, SUBUNIT, AND SUBCELLULAR LOCATION.
+RX   PubMed=2768248; DOI=10.1016/s0021-9258(18)63797-4;
+RA   Goodwin G.W., Rougraff P.M., Davis E.J., Harris R.A.;
+RT   "Purification and characterization of methylmalonate-semialdehyde
+RT   dehydrogenase from rat liver. Identity to malonate-semialdehyde
+RT   dehydrogenase.";
+RL   J. Biol. Chem. 264:14965-14971(1989).
+RN   [3]
+RP   PROTEIN SEQUENCE OF N-TERMINUS.
+RX   PubMed=1898092; DOI=10.1016/0003-9861(91)90586-8;
+RA   Kedishvili N.Y., Popov K.M., Harris R.A.;
+RT   "The effect of ligand binding on the proteolytic pattern of methylmalonate
+RT   semialdehyde dehydrogenase.";
+RL   Arch. Biochem. Biophys. 290:21-26(1991).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 56-70, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal cord;
+RA   Lubec G., Afjehi-Sadat L.;
+RL   Submitted (NOV-2006) to UniProtKB.
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY, AND TISSUE SPECIFICITY.
+RC   STRAIN=Holtzman; TISSUE=Sperm;
+RX   PubMed=20966424; DOI=10.2164/jandrol.110.010967;
+RA   Suryawanshi A.R., Khan S.A., Gajbhiye R.K., Gurav M.Y., Khole V.V.;
+RT   "Differential proteomics leads to identification of domain specific
+RT   epididymal sperm proteins.";
+RL   J. Androl. 32:240-259(2011).
+CC   -!- FUNCTION: Malonate and methylmalonate semialdehyde dehydrogenase
+CC       involved in the catabolism of valine, thymine, and compounds
+CC       catabolized by way of beta-alanine, including uracil and cytidine.
+CC       {ECO:0000269|PubMed:2768248}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-oxopropanoate + CoA + H2O + NAD(+) = acetyl-CoA + H(+) +
+CC         hydrogencarbonate + NADH; Xref=Rhea:RHEA:76615, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17544, ChEBI:CHEBI:33190,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.2.1.27; Evidence={ECO:0000269|PubMed:1527093,
+CC         ECO:0000269|PubMed:2768248};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76616;
+CC         Evidence={ECO:0000305|PubMed:2768248};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-methyl-3-oxopropanoate + CoA + H2O + NAD(+) = H(+) +
+CC         hydrogencarbonate + NADH + propanoyl-CoA; Xref=Rhea:RHEA:20804,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:17544,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57392, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57700, ChEBI:CHEBI:57945; EC=1.2.1.27;
+CC         Evidence={ECO:0000269|PubMed:2768248};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:20805;
+CC         Evidence={ECO:0000305|PubMed:2768248};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-2-methyl-3-oxopropanoate + CoA + H2O + NAD(+) = H(+) +
+CC         hydrogencarbonate + NADH + propanoyl-CoA; Xref=Rhea:RHEA:76623,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:17544,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57392, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:141212;
+CC         Evidence={ECO:0000269|PubMed:2768248};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76624;
+CC         Evidence={ECO:0000305|PubMed:2768248};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-2-methyl-3-oxopropanoate + CoA + H2O + NAD(+) = H(+) +
+CC         hydrogencarbonate + NADH + propanoyl-CoA; Xref=Rhea:RHEA:76627,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:17544,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57392, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:62413;
+CC         Evidence={ECO:0000269|PubMed:2768248};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76628;
+CC         Evidence={ECO:0000305|PubMed:2768248};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=5.3 uM for 2-methyl-3-oxopropanoate {ECO:0000269|PubMed:2768248};
+CC         KM=9.4 uM for 3-oxopropanoate {ECO:0000269|PubMed:2768248};
+CC         KM=150 uM for NAD(+) {ECO:0000269|PubMed:2768248};
+CC         KM=30 uM for CoA {ECO:0000269|PubMed:2768248};
+CC       pH dependence:
+CC         Optimum pH is 8. {ECO:0000269|PubMed:2768248};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:2768248}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000305|PubMed:2768248}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the head and flagellum of epididymal
+CC       sperm but not in testicular sperm (at protein level). Kidney > liver >
+CC       heart > muscle > brain. {ECO:0000269|PubMed:20966424}.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M93401; AAA41638.1; -; mRNA.
+DR   PIR; A44097; A44097.
+DR   RefSeq; NP_112319.2; NM_031057.2.
+DR   AlphaFoldDB; Q02253; -.
+DR   SMR; Q02253; -.
+DR   BioGRID; 249586; 1.
+DR   IntAct; Q02253; 2.
+DR   STRING; 10116.ENSRNOP00000015545; -.
+DR   CarbonylDB; Q02253; -.
+DR   GlyGen; Q02253; 4 sites, 1 O-linked glycan (4 sites).
+DR   iPTMnet; Q02253; -.
+DR   PhosphoSitePlus; Q02253; -.
+DR   jPOST; Q02253; -.
+DR   PaxDb; 10116-ENSRNOP00000015545; -.
+DR   Ensembl; ENSRNOT00055045106; ENSRNOP00055036995; ENSRNOG00055026126.
+DR   Ensembl; ENSRNOT00060043577; ENSRNOP00060036124; ENSRNOG00060025142.
+DR   Ensembl; ENSRNOT00065047785; ENSRNOP00065039195; ENSRNOG00065027727.
+DR   GeneID; 81708; -.
+DR   KEGG; rno:81708; -.
+DR   UCSC; RGD:621556; rat.
+DR   AGR; RGD:621556; -.
+DR   CTD; 4329; -.
+DR   RGD; 621556; Aldh6a1.
+DR   eggNOG; KOG2449; Eukaryota.
+DR   InParanoid; Q02253; -.
+DR   OrthoDB; 275238at2759; -.
+DR   PhylomeDB; Q02253; -.
+DR   Reactome; R-RNO-70895; Branched-chain amino acid catabolism.
+DR   SABIO-RK; Q02253; -.
+DR   PRO; PR:Q02253; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0018478; F:malonate-semialdehyde dehydrogenase (acetylating) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004491; F:methylmalonate-semialdehyde dehydrogenase (acylating, NAD) activity; IDA:UniProtKB.
+DR   GO; GO:0016790; F:thiolester hydrolase activity; IDA:RGD.
+DR   GO; GO:0019484; P:beta-alanine catabolic process; IDA:RGD.
+DR   GO; GO:0050873; P:brown fat cell differentiation; ISO:RGD.
+DR   GO; GO:0006210; P:thymine catabolic process; IDA:RGD.
+DR   GO; GO:0019859; P:thymine metabolic process; IDA:UniProtKB.
+DR   GO; GO:0006574; P:valine catabolic process; IDA:RGD.
+DR   GO; GO:0006573; P:valine metabolic process; IDA:UniProtKB.
+DR   CDD; cd07085; ALDH_F6_MMSDH; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   InterPro; IPR010061; MeMal-semiAld_DH.
+DR   NCBIfam; TIGR01722; MMSDH; 1.
+DR   PANTHER; PTHR43866; MALONATE-SEMIALDEHYDE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR43866:SF3; METHYLMALONATE-SEMIALDEHYDE DEHYDROGENASE [ACYLATING], MITOCHONDRIAL; 1.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; ALDH-like; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; Mitochondrion; NAD; Oxidoreductase;
+KW   Phosphoprotein; Reference proteome; Transit peptide.
+FT   TRANSIT         1..32
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000269|PubMed:1527093,
+FT                   ECO:0000269|PubMed:1898092, ECO:0000269|PubMed:2768248"
+FT   CHAIN           33..535
+FT                   /note="Methylmalonate-semialdehyde/malonate-semialdehyde
+FT                   dehydrogenase [acylating], mitochondrial"
+FT                   /id="PRO_0000007190"
+FT   ACT_SITE        317
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10008"
+FT   BINDING         183
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P42412"
+FT   BINDING         185
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P42412"
+FT   BINDING         209
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P42412"
+FT   BINDING         212
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P42412"
+FT   BINDING         213
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P42412"
+FT   BINDING         262
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P42412"
+FT   BINDING         417
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P42412"
+FT   MOD_RES         47
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         47
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         52
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         52
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         55
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         55
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         76
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         76
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         87
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         117
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         117
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         129
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         129
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         262
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q02252"
+FT   MOD_RES         298
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         330
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         331
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         364
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         364
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         376
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         376
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         380
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q02252"
+FT   MOD_RES         391
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         500
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   MOD_RES         517
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9EQ20"
+FT   CONFLICT        45
+FT                   /note="D -> N (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        50
+FT                   /note="E -> Q (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        166
+FT                   /note="D -> N (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        168
+FT                   /note="D -> N (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        184
+FT                   /note="P -> T (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        190
+FT                   /note="M -> G (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   535 AA;  57808 MW;  D914CE0311AA466A CRC64;
+     MAAAVAAAAA VRSRILQVSS KVNSTWYPAS SFSSSSVPTV KLFIDGKFVE SKSDKWIDIH
+     NPATNEVVGR VPQSTKAEME AAVAACKRAF PAWADTSILS RQQVLLRYQQ LIKENLKEIA
+     RLITLEQGKT LADAEGDVFR GLQVVEHACS VTSLMLGETM PSITKDMDLY SYRLPLGVCA
+     GIAPFNFPAM IPLWMFPMAM VCGNTFLMKP SERVPGATML LAKLLQDSGA PDGTLNIIHG
+     QHEAVNFICD HPDIKAISFV GSNQAGEYIF ERGSRNGKRV QANMGAKNHG VVMPDANKEN
+     TLNQLVGAAF GAAGQRCMAL STAVLVGEAK KWLPELVERA KNLRVNAGDQ PGADLGPLIT
+     PQAKERVCNL IDSGAKEGAS ILLDGRKIKV KGYENGNFVG PTIISNVKPS MTCYKEEIFG
+     PVLVVLETET LDEAIKIVND NPYGNGTAIF TTNGAIARKY AHMVDVGQVG VNVPIPVPLP
+     MFSFTGSRSS FRGDTNFYGK QGIQFYTQLK TITSQWKEED ATLSSPAVVM PTMGR
+//

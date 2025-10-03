@@ -1,0 +1,215 @@
+ID   KDM3A_RAT               Reviewed;        1214 AA.
+AC   Q63679;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-OCT-2024, entry version 133.
+DE   RecName: Full=Lysine-specific demethylase 3A;
+DE            EC=1.14.11.65 {ECO:0000250|UniProtKB:Q9Y4C1};
+DE   AltName: Full=JmjC domain-containing histone demethylation protein 2A;
+DE   AltName: Full=Jumonji domain-containing protein 1A;
+DE   AltName: Full=Testis-specific gene A protein;
+DE   AltName: Full=Zinc finger protein TSGA;
+DE   AltName: Full=[histone H3]-dimethyl-L-lysine(9) demethylase 3A {ECO:0000305};
+GN   Name=Kdm3a; Synonyms=Jhdm2a, Jmjd1a, Tsga;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Testis;
+RX   PubMed=1793593; DOI=10.1002/mrd.1080300302;
+RA   Hoog C., Schalling M., Brundell E., Daneholt B.;
+RT   "Analysis of a murine male germ cell-specific transcript that encodes a
+RT   putative zinc finger protein.";
+RL   Mol. Reprod. Dev. 30:173-181(1991).
+CC   -!- FUNCTION: Histone demethylase that specifically demethylates 'Lys-9' of
+CC       histone H3, thereby playing a central role in histone code.
+CC       Preferentially demethylates mono- and dimethylated H3 'Lys-9' residue,
+CC       with a preference for dimethylated residue, while it has weak or no
+CC       activity on trimethylated H3 'Lys-9'. Demethylation of Lys residue
+CC       generates formaldehyde and succinate. Involved in hormone-dependent
+CC       transcriptional activation, by participating in recruitment to
+CC       androgen-receptor target genes, resulting in H3 'Lys-9' demethylation
+CC       and transcriptional activation. Involved in spermatogenesis by
+CC       regulating expression of target genes such as PRM1 and TNP1 which are
+CC       required for packaging and condensation of sperm chromatin. Directly
+CC       regulates expression of PPARA and UCP1 and is involved in obesity
+CC       resistance (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 2-oxoglutarate + N(6),N(6)-dimethyl-L-lysyl(9)-[histone H3]
+CC         + 2 O2 = 2 CO2 + 2 formaldehyde + L-lysyl(9)-[histone H3] + 2
+CC         succinate; Xref=Rhea:RHEA:60188, Rhea:RHEA-COMP:15541, Rhea:RHEA-
+CC         COMP:15546, ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:16842, ChEBI:CHEBI:29969, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:61976; EC=1.14.11.65;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y4C1};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Interacts with VRK1. {ECO:0000250|UniProtKB:Q9Y4C1}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Nucleus {ECO:0000250}.
+CC       Note=Nuclear in round spermatids. When spermatids start to elongate,
+CC       localizes to the cytoplasm where it forms distinct foci which disappear
+CC       in mature spermatozoa (By similarity). {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Testis specific. Expressed only in male germ cells.
+CC   -!- DEVELOPMENTAL STAGE: Reaches a maximum during the meiotic and the
+CC       postmeiotic stages of germ cell development.
+CC   -!- DOMAIN: The JmjC domain and the C6-type zinc-finger are required for
+CC       the demethylation activity. {ECO:0000250}.
+CC   -!- DOMAIN: Leu-Xaa-Xaa-Leu-Leu (LXXLL) motifs are known to mediate the
+CC       association with nuclear receptors. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the JHDM2 histone demethylase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X59993; CAA42610.1; -; mRNA.
+DR   PIR; S28499; S28499.
+DR   RefSeq; NP_786940.1; NM_175764.2.
+DR   AlphaFoldDB; Q63679; -.
+DR   SMR; Q63679; -.
+DR   BioGRID; 260178; 1.
+DR   STRING; 10116.ENSRNOP00000072073; -.
+DR   PhosphoSitePlus; Q63679; -.
+DR   PaxDb; 10116-ENSRNOP00000041218; -.
+DR   GeneID; 312440; -.
+DR   KEGG; rno:312440; -.
+DR   UCSC; RGD:708351; rat.
+DR   AGR; RGD:708351; -.
+DR   CTD; 55818; -.
+DR   RGD; 708351; Kdm3a.
+DR   eggNOG; KOG1356; Eukaryota.
+DR   InParanoid; Q63679; -.
+DR   OrthoDB; 3473445at2759; -.
+DR   Reactome; R-RNO-3214842; HDMs demethylate histones.
+DR   PRO; PR:Q63679; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0000785; C:chromatin; IBA:GO_Central.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0000118; C:histone deacetylase complex; IBA:GO_Central.
+DR   GO; GO:0001673; C:male germ cell nucleus; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0003682; F:chromatin binding; ISO:RGD.
+DR   GO; GO:0031490; F:chromatin DNA binding; IBA:GO_Central.
+DR   GO; GO:0032454; F:histone H3K9 demethylase activity; ISO:RGD.
+DR   GO; GO:0140683; F:histone H3K9me/H3K9me2 demethylase activity; ISO:RGD.
+DR   GO; GO:0005506; F:iron ion binding; ISO:RGD.
+DR   GO; GO:0050681; F:nuclear androgen receptor binding; ISO:RGD.
+DR   GO; GO:0003712; F:transcription coregulator activity; ISO:RGD.
+DR   GO; GO:0030521; P:androgen receptor signaling pathway; ISO:RGD.
+DR   GO; GO:1990830; P:cellular response to leukemia inhibitory factor; ISO:RGD.
+DR   GO; GO:0046293; P:formaldehyde biosynthetic process; ISO:RGD.
+DR   GO; GO:0009755; P:hormone-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0008584; P:male gonad development; IEP:RGD.
+DR   GO; GO:0120162; P:positive regulation of cold-induced thermogenesis; ISS:YuBioLab.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; IMP:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0010468; P:regulation of gene expression; ISO:RGD.
+DR   GO; GO:2000736; P:regulation of stem cell differentiation; ISO:RGD.
+DR   GO; GO:2000036; P:regulation of stem cell population maintenance; ISO:RGD.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; IBA:GO_Central.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0007290; P:spermatid nucleus elongation; ISO:RGD.
+DR   GO; GO:0007283; P:spermatogenesis; ISO:RGD.
+DR   Gene3D; 2.60.120.650; Cupin; 1.
+DR   InterPro; IPR045109; JHDM2-like.
+DR   InterPro; IPR003347; JmjC_dom.
+DR   PANTHER; PTHR12549; JMJC DOMAIN-CONTAINING HISTONE DEMETHYLATION PROTEIN; 1.
+DR   PANTHER; PTHR12549:SF7; LYSINE-SPECIFIC DEMETHYLASE 3A; 1.
+DR   Pfam; PF02373; JmjC; 1.
+DR   Pfam; PF22987; KDM3B_Tudor; 1.
+DR   Pfam; PF22988; PWWP_KDM3B; 1.
+DR   SMART; SM00558; JmjC; 1.
+DR   SUPFAM; SSF51197; Clavaminate synthase-like; 1.
+DR   PROSITE; PS51184; JMJC; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Activator; Chromatin regulator; Cytoplasm; Differentiation;
+KW   Dioxygenase; Iron; Metal-binding; Nucleus; Oxidoreductase; Phosphoprotein;
+KW   Reference proteome; Spermatogenesis; Transcription;
+KW   Transcription regulation; Zinc; Zinc-finger.
+FT   CHAIN           1..1214
+FT                   /note="Lysine-specific demethylase 3A"
+FT                   /id="PRO_0000084287"
+FT   DOMAIN          944..1167
+FT                   /note="JmjC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   ZN_FING         546..571
+FT                   /note="C6-type"
+FT                   /evidence="ECO:0000255"
+FT   REGION          194..215
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          271..293
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          310..398
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           769..773
+FT                   /note="LXXLL motif"
+FT   COMPBIAS        194..212
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        274..293
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        317..333
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        352..370
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         1006
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   BINDING         1008
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   BINDING         1135
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   MOD_RES         150
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y4C1"
+FT   MOD_RES         209
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y4C1"
+FT   MOD_RES         330
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y4C1"
+FT   MOD_RES         779
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y4C1"
+SQ   SEQUENCE   1214 AA;  135404 MW;  8E6B52220760EA6E CRC64;
+     MYKSLLDKAG LGSITSVRFL GDQQSVFVSK DLLKPIQDVN SLRLSLTDNQ TVSKEFQALI
+     VKHLDESHLL QGDKNLVGSE VRIYSLDPST QWFSATVVHG NPSSKTLQVN CEEIPALKIV
+     DPALIHVEVV HDNFVTCGNS TRIGAVKRKS SENNGSSVSK QAKSCSEVSP SMCPVQSVPT
+     TVCKEILLGC TAATPSSNRQ QNTPQAANSP PNIGAKLPQG CHKQSLPEEI SSCLNTKSEV
+     LRTKPDVCKA GLLSSKSSQV GAGDLKILSE PKGSCIQPKT NTDQESRLES TPQPVTGLTK
+     ECLVTKTSSK AELDNATAPE LQKRLEHTAS TPDGLSDKPE VEAGVTRLNS CSEKKVGPSD
+     LGSQSQNLKE TSVKVDHDSC CTRSSNKTQT PPARKSVLTD PDKLKKLQQS GEAFVQDDSC
+     VNIVAQLPKC RECRLDSLRK DKDQQKDSPV FCRFFHFRRL QFNKHGVLRV EGFLTPNKYD
+     SEAIGLWLPL TKNVVGTDLD TAKYILANIG DHFCQMVISE KEAMSTIEPH RQVAWKRAVK
+     GVREMCDVCD TTIFNLHWVC PRCGFGVCVD CYRLKRKNCQ QGAAYKTFSW IRCVKSQIHE
+     PENLMPTQII PGKALYDVGD IVHSVRAKWG IKANCPCSNR QFKLFSKPAL KEDLKQASLS
+     GEKPSLGTMV QQSSPVLEPA AVCGEAPSKP ASNVKPICPA NTSPLNWLAD LTSGNVNKEN
+     KEKQLTMPIL KNEIKCLPPL PPLNKSSTVL HTFNSTILTP VSNNNSGFLR NLLNSSTGKT
+     ENGLKNTPKI LDDIFASLVQ NKTSSDLSKR PQGLTIKPSI LGFDTPHYWL CDNRLLCLQD
+     PNNKSNWNVF RECWKQGQPV MVSGVHHKLN TELWKPESFR KEFGEQEVDL VNCRTNEIIT
+     GATVGDFWDG FEDVPNRLKN EKEKEPMVLK LKDWPPGEDF RDMMPSRFDD LMANIPLPEY
+     TRRDGKLNLA SRLPNYFVRP DLGPKMYNAY GLITPEDRKY GTTNLHLDVS DAANVMVYVG
+     IPKGQCEQEE EVLRTIQDGD SDELTIKRFI EGKEKPGALW HIYAAKDTEK IREFLKKVSE
+     EQGQENPADH DPIHDQSWYL DRSLRKRLYQ EYGVQGWAIV QFLGDVVFIP AGAPHQVHNL
+     YSCIKVAEDF VSPEHVKHCF WLTQEFRHLS QTHTNHEDKL QVKNVIYHAV KDAVAMLKAV
+     NPVWANVNSS AHWR
+//

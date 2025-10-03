@@ -1,0 +1,225 @@
+ID   NALDL_RAT               Reviewed;         745 AA.
+AC   O54697;
+DT   11-FEB-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   29-MAY-2024, entry version 149.
+DE   RecName: Full=Aminopeptidase NAALADL1 {ECO:0000305};
+DE            EC=3.4.11.- {ECO:0000250|UniProtKB:Q9UQQ1};
+DE   AltName: Full=100 kDa ileum brush border membrane protein {ECO:0000303|PubMed:9388249};
+DE            Short=I100 {ECO:0000303|PubMed:9388249};
+DE   AltName: Full=Ileal dipeptidylpeptidase;
+DE   AltName: Full=N-acetylated-alpha-linked acidic dipeptidase-like protein;
+DE            Short=NAALADase L;
+GN   Name=Naaladl1; Synonyms=Naaladl;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 4-17, SUBCELLULAR LOCATION,
+RP   GLYCOSYLATION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Ileum;
+RX   PubMed=9388249; DOI=10.1074/jbc.272.49.31006;
+RA   Shneider B.L., Thevananther S., Moyer M.S., Walters H.C., Rinaldo P.,
+RA   Devarajan P., Sun A.Q., Dawson P.A., Ananthanarayanan M.;
+RT   "Cloning and characterization of a novel peptidase from rat and human
+RT   ileum.";
+RL   J. Biol. Chem. 272:31006-31015(1997).
+CC   -!- FUNCTION: Aminopeptidase with broad substrate specificity. Has lower
+CC       activity with substrates that have Asp or Glu in the P2' position, or
+CC       Pro in the P3' position. Lacks activity with substrates that have both
+CC       Pro in the P3' position and Asp or Glu in the P2' position. Lacks
+CC       carboxypeptidase activity. Lacks dipeptidyl-peptidase IV type activity.
+CC       {ECO:0000250|UniProtKB:Q9UQQ1}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UQQ1};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250|UniProtKB:Q9UQQ1};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q9UQQ1}.
+CC   -!- SUBCELLULAR LOCATION: Apical cell membrane
+CC       {ECO:0000269|PubMed:9388249}; Single-pass type II membrane protein
+CC       {ECO:0000305|PubMed:9388249}. Note=Ileal brush border membrane.
+CC       {ECO:0000269|PubMed:9388249}.
+CC   -!- TISSUE SPECIFICITY: Detected on apical villi on the brush border
+CC       membrane of ileum enterocytes (at protein level) (PubMed:9388249).
+CC       Mainly expressed in the distal small intestine (PubMed:9388249).
+CC       {ECO:0000269|PubMed:9388249}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:9388249}.
+CC   -!- SIMILARITY: Belongs to the peptidase M28 family. M28B subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF009921; AAB87644.1; -; mRNA.
+DR   RefSeq; NP_113947.1; NM_031759.1.
+DR   AlphaFoldDB; O54697; -.
+DR   SMR; O54697; -.
+DR   STRING; 10116.ENSRNOP00000051719; -.
+DR   MEROPS; M28.011; -.
+DR   GlyCosmos; O54697; 10 sites, No reported glycans.
+DR   GlyGen; O54697; 10 sites.
+DR   iPTMnet; O54697; -.
+DR   PhosphoSitePlus; O54697; -.
+DR   PaxDb; 10116-ENSRNOP00000051719; -.
+DR   Ensembl; ENSRNOT00000054835.4; ENSRNOP00000051719.3; ENSRNOG00000021000.7.
+DR   Ensembl; ENSRNOT00055037915; ENSRNOP00055030956; ENSRNOG00055022056.
+DR   Ensembl; ENSRNOT00065046708; ENSRNOP00065038298; ENSRNOG00065027077.
+DR   GeneID; 83568; -.
+DR   KEGG; rno:83568; -.
+DR   UCSC; RGD:620987; rat.
+DR   AGR; RGD:620987; -.
+DR   CTD; 10004; -.
+DR   RGD; 620987; Naaladl1.
+DR   eggNOG; KOG2195; Eukaryota.
+DR   GeneTree; ENSGT01030000234598; -.
+DR   HOGENOM; CLU_005688_3_2_1; -.
+DR   InParanoid; O54697; -.
+DR   OrthoDB; 2428249at2759; -.
+DR   PhylomeDB; O54697; -.
+DR   PRO; PR:O54697; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000021000; Expressed in jejunum and 13 other cell types or tissues.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0016020; C:membrane; IDA:UniProtKB.
+DR   GO; GO:0004177; F:aminopeptidase activity; ISS:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0004180; F:carboxypeptidase activity; IBA:GO_Central.
+DR   GO; GO:0008237; F:metallopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0043171; P:peptide catabolic process; ISS:UniProtKB.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd08022; M28_PSMA_like; 1.
+DR   CDD; cd02121; PA_GCPII_like; 1.
+DR   Gene3D; 3.50.30.30; -; 1.
+DR   Gene3D; 1.20.930.40; Transferrin receptor-like, dimerisation domain; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 1.
+DR   InterPro; IPR046450; PA_dom_sf.
+DR   InterPro; IPR003137; PA_domain.
+DR   InterPro; IPR007484; Peptidase_M28.
+DR   InterPro; IPR039373; Peptidase_M28B.
+DR   InterPro; IPR007365; TFR-like_dimer_dom.
+DR   InterPro; IPR036757; TFR-like_dimer_dom_sf.
+DR   PANTHER; PTHR10404:SF50; AMINOPEPTIDASE NAALADL1; 1.
+DR   PANTHER; PTHR10404; N-ACETYLATED-ALPHA-LINKED ACIDIC DIPEPTIDASE; 1.
+DR   Pfam; PF02225; PA; 1.
+DR   Pfam; PF04389; Peptidase_M28; 1.
+DR   Pfam; PF04253; TFR_dimer; 1.
+DR   SUPFAM; SSF52025; PA domain; 1.
+DR   SUPFAM; SSF47672; Transferrin receptor-like dimerisation domain; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+PE   1: Evidence at protein level;
+KW   Aminopeptidase; Calcium; Cell membrane; Direct protein sequencing;
+KW   Disulfide bond; Glycoprotein; Hydrolase; Membrane; Metal-binding;
+KW   Metalloprotease; Protease; Reference proteome; Signal-anchor;
+KW   Transmembrane; Transmembrane helix; Zinc.
+FT   CHAIN           1..745
+FT                   /note="Aminopeptidase NAALADL1"
+FT                   /id="PRO_0000174125"
+FT   TOPO_DOM        1..6
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        7..28
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        29..745
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        421
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+FT   BINDING         263
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+FT   BINDING         266
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+FT   BINDING         373
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+FT   BINDING         383
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+FT   BINDING         383
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+FT   BINDING         422
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+FT   BINDING         430
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+FT   BINDING         433
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+FT   BINDING         450
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+FT   BINDING         550
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+FT   CARBOHYD        128
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        141
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        235
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        279
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        304
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        350
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        456
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        497
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        593
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        620
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        301..318
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQQ1"
+SQ   SEQUENCE   745 AA;  80641 MW;  A59C2EFD23BE36B5 CRC64;
+     MHWAKILGVG IGAAALLGLG IILGHFAIPK ATEPLASSVS DSQDLDLAIL DSVMGQLDAS
+     RIRENLRELS KEPHVATSAR DEALVQLLLG RWKDSASGLD TAKTYEYTVL LSFPSTEQPN
+     SVEVVGPNGT VFHSFQPFEK NLTGEQAEPN VLQPYAAYAP PGTPKGPLVY ANRGSEDDFK
+     KLEAEGINLK GTIALTRYGS VGRGAKAINA ARHGVVGVLV YTDPGDINDG KSLPNETFPN
+     SWGLPPSGVE RGSYYEYFGD PLTPYLPAHP VSFRLDPHNI SGFPPIPTQP IGFEDAKNLL
+     CNLNGTSAPD SWQGALGCEY KLGPGFEPNG NFPAGSEVKV SVYNRLELRN SSNVLGIIQG
+     AVEPDRYVIY GNHRDSWVHG AVDPSSGTAV LLEISRVLGT LLKKGTWRPR RSIIFASWGA
+     EEFGLIGSTE FTEEFLSKLQ ERTVTYINVD ISVFSNATLR AQGTPPVQSV IFSATKEISA
+     PGSSGLSIYD NWIRYTNRSS PVYGLVPSMG TLGAGSDYAS FIHFLGITSM DLAYTYDRSK
+     TSARIYPTYH TAFDTFDYVE KFLDPGFSSH QAVARTAGSV LLRLSDSLFL PLNVSDYSET
+     LQSFLQAAQE NLGALLESHN ISLGPLVTAV EKFKAAAAAL NQHILTLQKS SPDPLQVRMV
+     NDQLMLLERA FLNPRAFPEE RYYSHVLWAP NTASVATFPG LANAYARAQE INSGAEAWAE
+     VERQLSIAVM ALEGAAATLQ PVTDL
+//

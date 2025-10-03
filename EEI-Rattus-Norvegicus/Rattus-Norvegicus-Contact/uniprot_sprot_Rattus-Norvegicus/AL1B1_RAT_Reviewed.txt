@@ -1,0 +1,160 @@
+ID   AL1B1_RAT               Reviewed;         519 AA.
+AC   Q66HF8;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   29-MAY-2024, entry version 113.
+DE   RecName: Full=Aldehyde dehydrogenase X, mitochondrial;
+DE            EC=1.2.1.3;
+DE   AltName: Full=Aldehyde dehydrogenase family 1 member B1;
+DE   Flags: Precursor;
+GN   Name=Aldh1b1; Synonyms=Aldhx;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 55-75; 162-174; 327-340 AND 444-453, AND IDENTIFICATION
+RP   BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Hippocampus, and Spinal cord;
+RA   Lubec G., Afjehi-Sadat L., Chen W.-Q.;
+RL   Submitted (APR-2007) to UniProtKB.
+CC   -!- FUNCTION: ALDHs play a major role in the detoxification of alcohol-
+CC       derived acetaldehyde. They are involved in the metabolism of
+CC       corticosteroids, biogenic amines, neurotransmitters, and lipid
+CC       peroxidation (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an aldehyde + H2O + NAD(+) = a carboxylate + 2 H(+) + NADH;
+CC         Xref=Rhea:RHEA:16185, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17478, ChEBI:CHEBI:29067, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.2.1.3;
+CC   -!- PATHWAY: Alcohol metabolism; ethanol degradation; acetate from ethanol:
+CC       step 2/2.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC081884; AAH81884.1; -; mRNA.
+DR   RefSeq; NP_001011975.1; NM_001011975.1.
+DR   AlphaFoldDB; Q66HF8; -.
+DR   SMR; Q66HF8; -.
+DR   STRING; 10116.ENSRNOP00000015282; -.
+DR   iPTMnet; Q66HF8; -.
+DR   PhosphoSitePlus; Q66HF8; -.
+DR   jPOST; Q66HF8; -.
+DR   PaxDb; 10116-ENSRNOP00000015282; -.
+DR   GeneID; 298079; -.
+DR   KEGG; rno:298079; -.
+DR   UCSC; RGD:1306737; rat.
+DR   AGR; RGD:1306737; -.
+DR   CTD; 219; -.
+DR   RGD; 1306737; Aldh1b1.
+DR   eggNOG; KOG2450; Eukaryota.
+DR   InParanoid; Q66HF8; -.
+DR   OrthoDB; 2291791at2759; -.
+DR   PhylomeDB; Q66HF8; -.
+DR   Reactome; R-RNO-71384; Ethanol oxidation.
+DR   Reactome; R-RNO-9837999; Mitochondrial protein degradation.
+DR   UniPathway; UPA00780; UER00768.
+DR   PRO; PR:Q66HF8; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005759; C:mitochondrial matrix; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004029; F:aldehyde dehydrogenase (NAD+) activity; IBA:GO_Central.
+DR   GO; GO:0043878; F:glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006068; P:ethanol catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd07141; ALDH_F1AB_F2_RALDH1; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR029510; Ald_DH_CS_GLU.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   PANTHER; PTHR11699:SF207; ALDEHYDE DEHYDROGENASE X, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11699; ALDEHYDE DEHYDROGENASE-RELATED; 1.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; ALDH-like; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+DR   PROSITE; PS00687; ALDEHYDE_DEHYDR_GLU; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; Mitochondrion; NAD; Oxidoreductase;
+KW   Reference proteome; Transit peptide.
+FT   TRANSIT         1..19
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..519
+FT                   /note="Aldehyde dehydrogenase X, mitochondrial"
+FT                   /id="PRO_0000271413"
+FT   ACT_SITE        287
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10007,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10008"
+FT   ACT_SITE        321
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10007,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10008"
+FT   BINDING         264..269
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   SITE            188
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         53
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+FT   MOD_RES         54
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+FT   MOD_RES         54
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+FT   MOD_RES         366
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+FT   MOD_RES         366
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+FT   MOD_RES         385
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+FT   MOD_RES         385
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+FT   MOD_RES         401
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+FT   MOD_RES         401
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+FT   MOD_RES         428
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+FT   MOD_RES         428
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+FT   MOD_RES         431
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CZS1"
+SQ   SEQUENCE   519 AA;  57625 MW;  6D25E0E806F8EA50 CRC64;
+     MLNARFLVPR LLCLQGRTTS YSTAAALPNP IPNPEIRYNQ LFINNEWHDA VSKKTFPTVN
+     PTTGEVIGHV AEGDRADVDL AVRAAREAFR LGSPWRRMDA SERGRLLNRL ADLVERDRVY
+     LASLETLDNG KPFQESYVLD LDEVIKVYRY LAGWADKWHG KTIPMDGEHF CFTRHEPVGV
+     CGQIIPWNFP LVMQGWKLAP ALATGNTVVM KVAEQTPLSA LYLASLIKEA GFPPGVVNII
+     TGYGPTAGAA IAQHMDVDKV AFTGSTEVGH LIQKAAGDSN LKRVTLELGG KSPSIVLADA
+     DMDHAVDQCH EALFFNMGQC CCAGSRTFVE ESIYHEFLER TVEKAKKRKV GNPFELDTQQ
+     GPQVDKEQFE KILGYIRLGQ KEGAKLLCGG ERFGERGFFI KPTVFGNVQD DMRIAREEIF
+     GPVQPLFKFK KIEEVIQRAN NTRYGLAAAV FTRDLDKALY FSQALQAGTV WVNTYNIVTC
+     HTPFGGFKES GNGRELGEDG LKAYTEVKTV TIKVSEKNS
+//

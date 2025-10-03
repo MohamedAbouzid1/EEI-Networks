@@ -1,0 +1,269 @@
+ID   ENPP7_RAT               Reviewed;         439 AA.
+AC   Q5EZ72;
+DT   07-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   29-MAY-2024, entry version 93.
+DE   RecName: Full=Ectonucleotide pyrophosphatase/phosphodiesterase family member 7 {ECO:0000305};
+DE            Short=E-NPP 7;
+DE            Short=NPP-7;
+DE            EC=3.1.4.12 {ECO:0000269|PubMed:15708357, ECO:0000269|PubMed:16255717};
+DE   AltName: Full=Alkaline sphingomyelin phosphodiesterase;
+DE   AltName: Full=Intestinal alkaline sphingomyelinase {ECO:0000303|PubMed:15205117, ECO:0000303|PubMed:15708357};
+DE            Short=Alk-SMase {ECO:0000250|UniProtKB:Q6UWV6};
+DE   Flags: Precursor;
+GN   Name=Enpp7 {ECO:0000312|RGD:1359324};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 32-40; 106-116; 204-211;
+RP   221-226; 255-263 AND 317-342, IDENTIFICATION BY MASS SPECTROMETRY,
+RP   CATALYTIC ACTIVITY, FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Intestinal mucosa;
+RX   PubMed=15708357; DOI=10.1016/j.bbalip.2004.11.006;
+RA   Wu J., Cheng Y., Palmberg C., Bergman T., Nilsson A., Duan R.-D.;
+RT   "Cloning of alkaline sphingomyelinase from rat intestinal mucosa and
+RT   adjusting of the hypothetical protein XP_221184 in GenBank.";
+RL   Biochim. Biophys. Acta 1687:94-102(2005).
+RN   [2]
+RP   SUBCELLULAR LOCATION, TOPOLOGY, AND TISSUE SPECIFICITY.
+RX   PubMed=15205117; DOI=10.1152/ajpgi.00190.2004;
+RA   Wu J., Liu F., Nilsson A., Duan R.D.;
+RT   "Pancreatic trypsin cleaves intestinal alkaline sphingomyelinase from
+RT   mucosa and enhances the sphingomyelinase activity.";
+RL   Am. J. Physiol. 287:G967-G973(2004).
+RN   [3]
+RP   CATALYTIC ACTIVITY, FUNCTION, ACTIVITY REGULATION, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, AND MUTAGENESIS OF ASP-198 AND ASP-245.
+RX   PubMed=16255717; DOI=10.1042/bj20051121;
+RA   Wu J., Nilsson A., Joensson B.A., Stenstad H., Agace W., Cheng Y.,
+RA   Duan R.D.;
+RT   "Intestinal alkaline sphingomyelinase hydrolyses and inactivates platelet-
+RT   activating factor by a phospholipase C activity.";
+RL   Biochem. J. 394:299-308(2006).
+CC   -!- FUNCTION: Choline-specific phosphodiesterase that hydrolyzes
+CC       sphingomyelin (SM) releasing the ceramide and phosphocholine and
+CC       therefore is involved in sphingomyelin digestion, ceramide formation,
+CC       and fatty acid (FA) absorption in the gastrointestinal tract
+CC       (PubMed:15708357, PubMed:16255717). Has also phospholipase C activity
+CC       and can also cleave phosphocholine from palmitoyl lyso-
+CC       phosphatidylcholine and platelet-activating factor (PAF) leading to its
+CC       inactivation. Does not have nucleotide pyrophosphatase activity
+CC       (PubMed:16255717). May promote cholesterol absorption by affecting the
+CC       levels of sphingomyelin derived from either diet or endogenous sources,
+CC       in the intestinal lumen (By similarity). {ECO:0000250|UniProtKB:Q3TIW9,
+CC       ECO:0000269|PubMed:15708357, ECO:0000269|PubMed:16255717}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a sphingomyelin + H2O = an N-acylsphing-4-enine + H(+) +
+CC         phosphocholine; Xref=Rhea:RHEA:19253, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17636, ChEBI:CHEBI:52639,
+CC         ChEBI:CHEBI:295975; EC=3.1.4.12;
+CC         Evidence={ECO:0000269|PubMed:15708357, ECO:0000269|PubMed:16255717};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19254;
+CC         Evidence={ECO:0000305|PubMed:15708357};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1-O-alkyl-2-acetyl-sn-glycero-3-phosphocholine + H2O = a 1-
+CC         O-alkyl-2-acetyl-sn-glycerol + H(+) + phosphocholine;
+CC         Xref=Rhea:RHEA:63380, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16291, ChEBI:CHEBI:36707, ChEBI:CHEBI:295975;
+CC         Evidence={ECO:0000269|PubMed:16255717};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63381;
+CC         Evidence={ECO:0000305|PubMed:16255717};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-O-octadecyl-2-acetyl-sn-glycero-3-phosphocholine + H2O = 1-
+CC         O-octadecyl-2-acetyl-sn-glycerol + H(+) + phosphocholine;
+CC         Xref=Rhea:RHEA:63384, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:52450, ChEBI:CHEBI:147296, ChEBI:CHEBI:295975;
+CC         Evidence={ECO:0000269|PubMed:16255717};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63385;
+CC         Evidence={ECO:0000305|PubMed:16255717};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-sn-glycero-3-phosphocholine + H2O = 1-
+CC         hexadecanoyl-sn-glycerol + H(+) + phosphocholine;
+CC         Xref=Rhea:RHEA:41119, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:72998, ChEBI:CHEBI:75542, ChEBI:CHEBI:295975;
+CC         Evidence={ECO:0000250|UniProtKB:Q6UWV6};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41120;
+CC         Evidence={ECO:0000250|UniProtKB:Q6UWV6};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q6UWV6};
+CC   -!- ACTIVITY REGULATION: platelet-activating factor hydrolysis is inhibited
+CC       by higher amount of sphingomyelin (PubMed:16255717). The hydrolysis of
+CC       platelet-activating factor and sphingomyelin can be inhibited by the
+CC       presence of sphingomyelin and platelet-activating factor respectively,
+CC       the inhibition of platelet-activating factor hydrolysis by
+CC       sphingomyelin being stronger (PubMed:16255717). PAF hydrolysis is dose-
+CC       dependently increased by both taurocholate (TC) and taurodeoxycholate
+CC       (TDC) (PubMed:16255717). Hydrolase activity against PAF is inhibited by
+CC       EDTA and stimulated by 0.1-0.25 mM Zn2+ (PubMed:16255717).
+CC       {ECO:0000269|PubMed:16255717}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=13.6 uM for 2-acetyl-1-alkyl-sn-glycero-3-phosphocholine
+CC         {ECO:0000269|PubMed:16255717};
+CC         Vmax=374 umol/h/mg enzyme {ECO:0000269|PubMed:16255717};
+CC       pH dependence:
+CC         Optimum pH is 7.5 (PubMed:16255717). Optimum pH is 9
+CC         (PubMed:15708357). {ECO:0000269|PubMed:15708357,
+CC         ECO:0000269|PubMed:16255717};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:15205117};
+CC       Single-pass type I membrane protein {ECO:0000269|PubMed:15205117}.
+CC       Note=The catalytic domain is released into the extracellular medium
+CC       when cells are treated with trypsin (PubMed:15205117). Localized at the
+CC       surface of the microvillar membrane in small intestine enterocytes, and
+CC       in endosome-like structures situated beneath the microvillar membrane,
+CC       and in Golgi complex (By similarity). {ECO:0000250|UniProtKB:Q6UWV6,
+CC       ECO:0000269|PubMed:15205117}.
+CC   -!- TISSUE SPECIFICITY: Detected in small intestine (at protein level)
+CC       (PubMed:15205117). Highly expressed in the jejunum (PubMed:15708357).
+CC       {ECO:0000269|PubMed:15205117, ECO:0000269|PubMed:15708357}.
+CC   -!- PTM: N-glycosylated; required for activity and transport to the plasma
+CC       membrane. {ECO:0000250|UniProtKB:Q6UWV6}.
+CC   -!- SIMILARITY: Belongs to the nucleotide pyrophosphatase/phosphodiesterase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY568760; AAU03450.1; -; mRNA.
+DR   RefSeq; NP_001012484.1; NM_001012466.1.
+DR   AlphaFoldDB; Q5EZ72; -.
+DR   SMR; Q5EZ72; -.
+DR   STRING; 10116.ENSRNOP00000064040; -.
+DR   GlyCosmos; Q5EZ72; 5 sites, No reported glycans.
+DR   GlyGen; Q5EZ72; 5 sites.
+DR   PhosphoSitePlus; Q5EZ72; -.
+DR   PaxDb; 10116-ENSRNOP00000064040; -.
+DR   GeneID; 303729; -.
+DR   KEGG; rno:303729; -.
+DR   AGR; RGD:1359324; -.
+DR   CTD; 339221; -.
+DR   RGD; 1359324; Enpp7.
+DR   eggNOG; KOG2645; Eukaryota.
+DR   InParanoid; Q5EZ72; -.
+DR   OrthoDB; 1366859at2759; -.
+DR   PhylomeDB; Q5EZ72; -.
+DR   Reactome; R-RNO-9840310; Glycosphingolipid catabolism.
+DR   PRO; PR:Q5EZ72; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0005902; C:microvillus; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0008081; F:phosphoric diester hydrolase activity; IDA:UniProtKB.
+DR   GO; GO:0004767; F:sphingomyelin phosphodiesterase activity; IDA:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0055089; P:fatty acid homeostasis; ISS:UniProtKB.
+DR   GO; GO:0044241; P:lipid digestion; ISS:UniProtKB.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0008156; P:negative regulation of DNA replication; ISO:RGD.
+DR   GO; GO:2000304; P:positive regulation of ceramide biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0045797; P:positive regulation of intestinal cholesterol absorption; ISS:UniProtKB.
+DR   GO; GO:2000755; P:positive regulation of sphingomyelin catabolic process; ISS:UniProtKB.
+DR   GO; GO:1904729; P:regulation of intestinal lipid absorption; ISS:UniProtKB.
+DR   GO; GO:0006684; P:sphingomyelin metabolic process; ISS:UniProtKB.
+DR   CDD; cd16018; Enpp; 1.
+DR   Gene3D; 3.30.1360.180; -; 1.
+DR   Gene3D; 3.40.720.10; Alkaline Phosphatase, subunit A; 1.
+DR   InterPro; IPR017850; Alkaline_phosphatase_core_sf.
+DR   InterPro; IPR002591; Phosphodiest/P_Trfase.
+DR   PANTHER; PTHR10151; ECTONUCLEOTIDE PYROPHOSPHATASE/PHOSPHODIESTERASE; 1.
+DR   PANTHER; PTHR10151:SF63; ECTONUCLEOTIDE PYROPHOSPHATASE_PHOSPHODIESTERASE FAMILY MEMBER 7; 1.
+DR   Pfam; PF01663; Phosphodiest; 1.
+DR   SUPFAM; SSF53649; Alkaline phosphatase-like; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Direct protein sequencing; Glycoprotein; Hydrolase;
+KW   Lipid metabolism; Membrane; Metal-binding; Reference proteome; Signal;
+KW   Transmembrane; Transmembrane helix; Zinc.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..439
+FT                   /note="Ectonucleotide pyrophosphatase/phosphodiesterase
+FT                   family member 7"
+FT                   /id="PRO_0000036404"
+FT   TOPO_DOM        22..422
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305|PubMed:15205117"
+FT   TRANSMEM        423..439
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   REGION          71..77
+FT                   /note="Required for enzyme activity"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6UWV6"
+FT   ACT_SITE        74
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6UWV6"
+FT   BINDING         38
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6UWV6"
+FT   BINDING         74
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6UWV6"
+FT   BINDING         95
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6UWV6"
+FT   BINDING         198
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6UWV6"
+FT   BINDING         202
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6UWV6"
+FT   BINDING         245
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6UWV6"
+FT   BINDING         246
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6UWV6"
+FT   BINDING         352
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6UWV6"
+FT   CARBOHYD        99
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        120
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        145
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        167
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        266
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   MUTAGEN         198
+FT                   /note="D->A: Abolishes the phosphoric diester hydrolase
+FT                   activity against PAF."
+FT                   /evidence="ECO:0000269|PubMed:16255717"
+FT   MUTAGEN         245
+FT                   /note="D->A: Abolishes the phosphoric diester hydrolase
+FT                   activity against PAF."
+FT                   /evidence="ECO:0000269|PubMed:16255717"
+SQ   SEQUENCE   439 AA;  49837 MW;  7CEABF0393C9480F CRC64;
+     MGHSAVLLSV ALVILPACVT GGPVQRQQQH KLLLVSFDGF RWNYDQDVET PNLDSMAQEG
+     VKARYMTPAF VTMTSPCHFT LVTGKYIENH GVVHNMFYNT TNKVRLPYHA TLGIQRWWDN
+     GSIPIWITAQ RQGLKTGSFF YPGGNVTYQG EAVTMSRKEG VLHNYKNETE WRANVDTVMK
+     WFTEEDVSLV TLYFGEPDST GHKYGPESQE RKDMVKQVDR TVGYLRDSIK RHHLTDSLNL
+     IITSDHGMTT VNKKASDLVE FHKFPNFTFR DIEFELLDYG PNGMLIPKEG MLEKVYSVLK
+     DAHPRLHVYK KEDFPKTFHY ANNPRITSLL MYSDLGYVIH GRVNVQFNSG EHGFDNQDMD
+     MKTIFRAVGP SFKAGLEVEP FESVHVYELM CQLLGIVPEP NDGHPGVLQP MLRSGSPLSR
+     QHHLVVVLMG ILTGLAKVV
+//

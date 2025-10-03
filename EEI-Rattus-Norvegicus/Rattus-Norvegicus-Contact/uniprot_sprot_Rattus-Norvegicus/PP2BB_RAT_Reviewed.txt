@@ -1,0 +1,308 @@
+ID   PP2BB_RAT               Reviewed;         525 AA.
+AC   P20651; Q6LDJ7;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1991, sequence version 1.
+DT   02-OCT-2024, entry version 177.
+DE   RecName: Full=Serine/threonine-protein phosphatase 2B catalytic subunit beta isoform;
+DE            EC=3.1.3.16 {ECO:0000250|UniProtKB:P16298};
+DE   AltName: Full=CAM-PRP catalytic subunit;
+DE   AltName: Full=Calmodulin-dependent calcineurin A subunit beta isoform;
+DE            Short=CNA beta {ECO:0000250|UniProtKB:P16298};
+GN   Name=Ppp3cb;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2558657; DOI=10.1016/0006-291x(89)92752-6;
+RA   Kuno T., Takeda T., Hirai M., Ito A., Mukai H., Tanaka C.;
+RT   "Evidence for a second isoform of the catalytic subunit of calmodulin-
+RT   dependent protein phosphatase (calcineurin A).";
+RL   Biochem. Biophys. Res. Commun. 165:1352-1358(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 245-315.
+RX   PubMed=2174876; DOI=10.1016/s0021-9258(18)45767-5;
+RA   Wadzinski B.E., Heasley L.E., Johnson G.L.;
+RT   "Multiplicity of protein serine-threonine phosphatases in PC12
+RT   pheochromocytoma and FTO-2B hepatoma cells.";
+RL   J. Biol. Chem. 265:21504-21508(1990).
+RN   [3]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=23699505; DOI=10.1523/jneurosci.4288-12.2013;
+RA   Kim S.H., Ryan T.A.;
+RT   "Balance of calcineurin Aalpha and CDK5 activities sets release probability
+RT   at nerve terminals.";
+RL   J. Neurosci. 33:8937-8950(2013).
+RN   [4]
+RP   INTERACTION WITH SLC12A1 AND SORL1, AND TISSUE SPECIFICITY.
+RX   PubMed=25967121; DOI=10.1681/asn.2014070728;
+RA   Borschewski A., Himmerkus N., Boldt C., Blankenstein K.I., McCormick J.A.,
+RA   Lazelle R., Willnow T.E., Jankowski V., Plain A., Bleich M., Ellison D.H.,
+RA   Bachmann S., Mutig K.;
+RT   "Calcineurin and sorting-related receptor with A-type repeats interact to
+RT   regulate the renal Na(+)-K(+)-2Cl(-) cotransporter.";
+RL   J. Am. Soc. Nephrol. 27:107-119(2016).
+CC   -!- FUNCTION: Calcium-dependent, calmodulin-stimulated protein phosphatase
+CC       which plays an essential role in the transduction of intracellular
+CC       Ca(2+)-mediated signals. Dephosphorylates TFEB in response to lysosomal
+CC       Ca(2+) release, resulting in TFEB nuclear translocation and stimulation
+CC       of lysosomal biogenesis. Dephosphorylates and activates transcription
+CC       factor NFATC1. Dephosphorylates and inactivates transcription factor
+CC       ELK1. Dephosphorylates DARPP32 (By similarity). Negatively regulates
+CC       MAP3K14/NIK signaling via inhibition of nuclear translocation of the
+CC       transcription factors RELA and RELB (By similarity). May play a role in
+CC       skeletal muscle fiber type specification (By similarity).
+CC       {ECO:0000250|UniProtKB:P16298, ECO:0000250|UniProtKB:P48453}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O-phospho-L-seryl-[protein] = L-seryl-[protein] +
+CC         phosphate; Xref=Rhea:RHEA:20629, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15377, ChEBI:CHEBI:29999, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:83421; EC=3.1.3.16;
+CC         Evidence={ECO:0000250|UniProtKB:P16298};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O-phospho-L-threonyl-[protein] = L-threonyl-[protein] +
+CC         phosphate; Xref=Rhea:RHEA:47004, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11605, ChEBI:CHEBI:15377, ChEBI:CHEBI:30013, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:61977; EC=3.1.3.16;
+CC         Evidence={ECO:0000250|UniProtKB:P16298};
+CC   -!- COFACTOR:
+CC       Name=Fe(3+); Xref=ChEBI:CHEBI:29034;
+CC         Evidence={ECO:0000250|UniProtKB:P16298};
+CC       Note=Binds 1 Fe(3+) ion per subunit. {ECO:0000250|UniProtKB:P16298};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P16298};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P16298};
+CC   -!- ACTIVITY REGULATION: Activated by Ca(2+)-bound calmodulin following an
+CC       increase in intracellular Ca(2+). At low Ca(2+) concentrations, the
+CC       catalytic subunit (also known as calcineurin A) is inactive and is
+CC       bound to the regulatory subunit (also known as calcineurin B) in which
+CC       only two high-affinity binding sites are occupied by Ca(2+). In
+CC       response to elevated calcium levels, the occupancy of the low-affinity
+CC       sites on calcineurin B by Ca(2+) causes a conformational change of the
+CC       C-terminal regulatory domain of calcineurin A, resulting in the
+CC       exposure of the calmodulin-binding domain and in the partial activation
+CC       of calcineurin A. The subsequent binding of Ca(2+)-bound calmodulin
+CC       leads to the displacement of the autoinhibitory domain from the active
+CC       site and possibly of the autoinhibitory segment from the substrate
+CC       binding site which fully activates calcineurin A.
+CC       {ECO:0000250|UniProtKB:P16298}.
+CC   -!- SUBUNIT: Forms a complex composed of a calmodulin-dependent catalytic
+CC       subunit (also known as calcineurin A) and a regulatory Ca(2+)-binding
+CC       subunit (also known as calcineurin B). There are three catalytic
+CC       subunits, each encoded by a separate gene (PPP3CA, PPP3CB, and PPP3CC)
+CC       and two regulatory subunits which are also encoded by separate genes
+CC       (PPP3R1 and PPP3R2). In response to an increase in Ca(2+) intracellular
+CC       levels, forms a complex composed of PPP3CB/calcineurin A, calcineurin B
+CC       and calmodulin. Interacts (via calcineurin B binding domain) with
+CC       regulatory subunit PPP3R1/calcineurin B. Interacts (via calmodulin-
+CC       binding domain) with calmodulin; the interaction depends on calmodulin
+CC       binding to Ca(2+). Interacts with SLC12A1 (PubMed:25967121). Interacts
+CC       with SORL1 (PubMed:25967121). Interacts with UNC119 (By similarity).
+CC       Interacts with MAP3K14/NIK (via C-terminus and kinase domain) (By
+CC       similarity). Interacts with TRAF3 (By similarity). Interacts with
+CC       SPATA33 (via PQIIIT motif) (By similarity). Interacts with IRGM;
+CC       promoting its association with TFEB and TFEB dephosphorylation (By
+CC       similarity). {ECO:0000250|UniProtKB:P16298,
+CC       ECO:0000250|UniProtKB:P48453, ECO:0000269|PubMed:25967121}.
+CC   -!- INTERACTION:
+CC       P20651; Q9WVC7: Akap6; NbExp=2; IntAct=EBI-7400670, EBI-7559840;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P16298}.
+CC   -!- TISSUE SPECIFICITY: Expressed in kidney (at protein level)
+CC       (PubMed:25967121). Expressed in hippocampal presynaptic termini (at
+CC       protein level) (PubMed:23699505). {ECO:0000269|PubMed:23699505,
+CC       ECO:0000269|PubMed:25967121}.
+CC   -!- DOMAIN: The poly-Pro domain may confer substrate specificity.
+CC       {ECO:0000250|UniProtKB:P16298}.
+CC   -!- DOMAIN: The autoinhibitory domain prevents access to the catalytic
+CC       site. {ECO:0000250|UniProtKB:P16298}.
+CC   -!- DOMAIN: The autoinhibitory segment prevents access to the substrate
+CC       binding site. {ECO:0000250|UniProtKB:P16298}.
+CC   -!- DOMAIN: Possible isomerization of Pro-318 within the SAPNY motif
+CC       triggers a conformation switch which affects the organization and thus
+CC       accessibility of the active site and the substrate binding region
+CC       (PxIxIF motif). The trans- to cis-transition may favor calcineurin A
+CC       activation and substrate binding. The reverse cis- to trans-transition
+CC       may be enhanced by peptidyl-prolyl isomerases such as PPIA.
+CC       {ECO:0000250|UniProtKB:Q08209}.
+CC   -!- MISCELLANEOUS: Unlike for protein substrates, PPP3CB activity towards
+CC       synthetic phosphatase substrate p-nitrophenyl phosphate (pNPP) is
+CC       increased in presence of the immunosuppressant complex FKBP12-FK506.
+CC       {ECO:0000250|UniProtKB:P16298}.
+CC   -!- SIMILARITY: Belongs to the PPP phosphatase family. PP-2B subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M31809; AAA40848.1; -; mRNA.
+DR   EMBL; D90036; BAA14084.1; -; mRNA.
+DR   EMBL; M58441; AAA41915.1; -; mRNA.
+DR   PIR; A33794; A33794.
+DR   RefSeq; NP_058738.1; NM_017042.2.
+DR   AlphaFoldDB; P20651; -.
+DR   SMR; P20651; -.
+DR   BioGRID; 246807; 3.
+DR   CORUM; P20651; -.
+DR   DIP; DIP-66N; -.
+DR   IntAct; P20651; 5.
+DR   MINT; P20651; -.
+DR   STRING; 10116.ENSRNOP00000074339; -.
+DR   iPTMnet; P20651; -.
+DR   PhosphoSitePlus; P20651; -.
+DR   jPOST; P20651; -.
+DR   PaxDb; 10116-ENSRNOP00000010476; -.
+DR   GeneID; 24675; -.
+DR   KEGG; rno:24675; -.
+DR   UCSC; RGD:3383; rat.
+DR   AGR; RGD:3383; -.
+DR   CTD; 5532; -.
+DR   RGD; 3383; Ppp3cb.
+DR   eggNOG; KOG0375; Eukaryota.
+DR   InParanoid; P20651; -.
+DR   OrthoDB; 1488111at2759; -.
+DR   PhylomeDB; P20651; -.
+DR   Reactome; R-RNO-2025928; Calcineurin activates NFAT.
+DR   Reactome; R-RNO-2871809; FCERI mediated Ca+2 mobilization.
+DR   Reactome; R-RNO-4086398; Ca2+ pathway.
+DR   Reactome; R-RNO-5607763; CLEC7A (Dectin-1) induces NFAT activation.
+DR   PRO; PR:P20651; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005955; C:calcineurin complex; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0045202; C:synapse; IDA:SynGO.
+DR   GO; GO:0030315; C:T-tubule; ISO:RGD.
+DR   GO; GO:0030018; C:Z disc; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0004723; F:calcium-dependent protein serine/threonine phosphatase activity; IDA:RGD.
+DR   GO; GO:0005516; F:calmodulin binding; IDA:RGD.
+DR   GO; GO:0033192; F:calmodulin-dependent protein phosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0019899; F:enzyme binding; ISS:UniProtKB.
+DR   GO; GO:0017018; F:myosin phosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046983; F:protein dimerization activity; ISO:RGD.
+DR   GO; GO:0030346; F:protein phosphatase 2B binding; ISS:UniProtKB.
+DR   GO; GO:0004722; F:protein serine/threonine phosphatase activity; ISO:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0097720; P:calcineurin-mediated signaling; ISS:UniProtKB.
+DR   GO; GO:0033173; P:calcineurin-NFAT signaling cascade; ISO:RGD.
+DR   GO; GO:0017156; P:calcium-ion regulated exocytosis; ISS:UniProtKB.
+DR   GO; GO:0007507; P:heart development; ISO:RGD.
+DR   GO; GO:0031987; P:locomotion involved in locomotory behavior; ISO:RGD.
+DR   GO; GO:0001946; P:lymphangiogenesis; ISO:RGD.
+DR   GO; GO:0046716; P:muscle cell cellular homeostasis; IEP:RGD.
+DR   GO; GO:0023057; P:negative regulation of signaling; ISS:UniProtKB.
+DR   GO; GO:0001915; P:negative regulation of T cell mediated cytotoxicity; ISO:RGD.
+DR   GO; GO:0035774; P:positive regulation of insulin secretion involved in cellular response to glucose stimulus; IMP:UniProtKB.
+DR   GO; GO:1905673; P:positive regulation of lysosome organization; ISO:RGD.
+DR   GO; GO:1900182; P:positive regulation of protein localization to nucleus; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0006468; P:protein phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0010468; P:regulation of gene expression; ISO:RGD.
+DR   GO; GO:0050796; P:regulation of insulin secretion; IDA:UniProtKB.
+DR   GO; GO:1900242; P:regulation of synaptic vesicle endocytosis; ISO:RGD.
+DR   GO; GO:0001975; P:response to amphetamine; IEP:RGD.
+DR   GO; GO:0034097; P:response to cytokine; ISO:RGD.
+DR   GO; GO:0006950; P:response to stress; ISO:RGD.
+DR   GO; GO:0048741; P:skeletal muscle fiber development; ISS:UniProtKB.
+DR   GO; GO:0030217; P:T cell differentiation; ISO:RGD.
+DR   GO; GO:0043029; P:T cell homeostasis; ISO:RGD.
+DR   GO; GO:0001913; P:T cell mediated cytotoxicity; ISO:RGD.
+DR   CDD; cd07416; MPP_PP2B; 1.
+DR   Gene3D; 3.60.21.10; -; 1.
+DR   InterPro; IPR004843; Calcineurin-like_PHP_ApaH.
+DR   InterPro; IPR029052; Metallo-depent_PP-like.
+DR   InterPro; IPR041751; MPP_PP2B.
+DR   InterPro; IPR043360; PP2B.
+DR   InterPro; IPR006186; Ser/Thr-sp_prot-phosphatase.
+DR   PANTHER; PTHR45673; SERINE/THREONINE-PROTEIN PHOSPHATASE 2B CATALYTIC SUBUNIT 1-RELATED; 1.
+DR   PANTHER; PTHR45673:SF7; SERINE_THREONINE-PROTEIN PHOSPHATASE 2B CATALYTIC SUBUNIT BETA ISOFORM; 1.
+DR   Pfam; PF00149; Metallophos; 1.
+DR   PRINTS; PR00114; STPHPHTASE.
+DR   SMART; SM00156; PP2Ac; 1.
+DR   SUPFAM; SSF56300; Metallo-dependent phosphatases; 1.
+DR   PROSITE; PS00125; SER_THR_PHOSPHATASE; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Calmodulin-binding; Cytoplasm; Hydrolase; Iron; Metal-binding;
+KW   Phosphoprotein; Protein phosphatase; Reference proteome; Zinc.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   CHAIN           2..525
+FT                   /note="Serine/threonine-protein phosphatase 2B catalytic
+FT                   subunit beta isoform"
+FT                   /id="PRO_0000058827"
+FT   REGION          1..23
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          65..356
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   REGION          357..379
+FT                   /note="Calcineurin B binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   REGION          402..416
+FT                   /note="Calmodulin-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   REGION          417..424
+FT                   /note="Autoinhibitory segment"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   REGION          475..497
+FT                   /note="Autoinhibitory domain"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   MOTIF           316..320
+FT                   /note="SAPNY motif"
+FT                   /evidence="ECO:0000250|UniProtKB:Q08209"
+FT   ACT_SITE        160
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q08209"
+FT   BINDING         99
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   BINDING         101
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   BINDING         127
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   BINDING         127
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   BINDING         159
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   BINDING         208
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   BINDING         290
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P16298"
+FT   MOD_RES         479
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P48453"
+SQ   SEQUENCE   525 AA;  59113 MW;  5E66AF3100BE3987 CRC64;
+     MAAPEPARAA PPPPPPPPPP LGADRVVKAV PFPPTHRLTS EEVFDMDGIP RVDVLKNHLV
+     KEGRVDEEIA LRIINEGAAI LRREKTMIEV EAPITVCGDI HGQFFDLMKL FEVGGSPANT
+     RYLFLGDYVD RGYFSIECVL YLWVLKILYP STLFLLRGNH ECRHLTEYFT FKQECKIKYS
+     ERVYEACMEA FDSLPLAALL NQQFLCVHGG LSPEIHTLDD IRRLDRFKEP PAFGPMCDLL
+     WSDPSEDFGN EKSQEHFSHN TVRGCSYFYN YPAVCEFLQN NNLLSIIRAH EAQDAGYRMY
+     RKSQTTGFPS LITIFSAPNY LDVYNNKAAV LKYENNVMNI RQFNCSPHPY WLPNFMDVFT
+     WSLPFVGEKV TEMLVNVLSI CSDDELMTEG EDQFDVGSAA ARKEIIRNKI RAIGKMARVF
+     SVLREESESV LTLKGLTPTG MLPSGVLAGG RQTLQSATVE AIEAEKAIRG SSPPHRICSF
+     EEAKGLDRIN ERMPPRKDAV QQDGFNSLNT AHTTENHGTG NHSAQ
+//

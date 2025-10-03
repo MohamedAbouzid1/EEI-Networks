@@ -1,0 +1,220 @@
+ID   NEUR2_RAT               Reviewed;         379 AA.
+AC   Q64627; Q63705;
+DT   16-NOV-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JAN-2024, entry version 139.
+DE   RecName: Full=Sialidase-2;
+DE            EC=3.2.1.18 {ECO:0000269|PubMed:8253770};
+DE   AltName: Full=Cytosolic sialidase;
+DE   AltName: Full=N-acetyl-alpha-neuraminidase 2;
+GN   Name=Neu2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], CATALYTIC ACTIVITY, AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Skeletal muscle;
+RX   PubMed=8253770; DOI=10.1016/s0021-9258(19)74333-6;
+RA   Miyagi T., Konno K., Emori Y., Kawasaki H., Suzuki K., Yasui A., Tsuiki S.;
+RT   "Molecular cloning and expression of cDNA encoding rat skeletal muscle
+RT   cytosolic sialidase.";
+RL   J. Biol. Chem. 268:26435-26440(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-67.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=8563137; DOI=10.1093/glycob/5.5.511;
+RA   Sato K., Miyagi T.;
+RT   "Genomic organization and the 5'-upstream sequence of the rat cytosolic
+RT   sialidase gene.";
+RL   Glycobiology 5:511-516(1995).
+CC   -!- FUNCTION: Exo-alpha-sialidase that catalyzes the hydrolytic cleavage of
+CC       the terminal sialic acid (N-acetylneuraminic acid, Neu5Ac) of a glycan
+CC       moiety in the catabolism of glycolipids, glycoproteins and
+CC       oligosacharides. Recognizes sialyl linkage positions of the glycan
+CC       moiety as well as the supramolecular organization of the
+CC       sialoglycoconjugate. Displays preference for alpha-(2->3)-sialylated
+CC       GD1a and GT1B gangliosides over alpha-(2->8)-sialylated GD1b, in both
+CC       monomeric forms and micelles. Hydrolyzes monomeric GM1 ganglioside, but
+CC       has no activity toward the miscellar form. Has lower sialidase activity
+CC       for glycoproteins such as fetuin and TF/transferrin that carry a
+CC       mixture of alpha-(2->3) and alpha-(2->6)-sialyl linkages. Cleaves milk
+CC       oligosaccharide alpha-(2->3)-sialyllactose, but is inactive toward
+CC       alpha-(2->6)-sialyllactose isomer. Has no activity toward colominic
+CC       acid, a homomer of alpha-(2->8)-linked Neu5Ac residues.
+CC       {ECO:0000250|UniProtKB:Q9Y3R4}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of alpha-(2->3)-, alpha-(2->6)-, alpha-
+CC         (2->8)- glycosidic linkages of terminal sialic acid residues in
+CC         oligosaccharides, glycoproteins, glycolipids, colominic acid and
+CC         synthetic substrates.; EC=3.2.1.18;
+CC         Evidence={ECO:0000269|PubMed:8253770};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ganglioside GD1a + H2O = a ganglioside GM1 + N-
+CC         acetylneuraminate; Xref=Rhea:RHEA:47832, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:35418, ChEBI:CHEBI:82637, ChEBI:CHEBI:82639;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47833;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ganglioside GM1 + H2O = a ganglioside GA1 + N-
+CC         acetylneuraminate; Xref=Rhea:RHEA:47872, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:35418, ChEBI:CHEBI:82639, ChEBI:CHEBI:88069;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47873;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ganglioside GT1b + H2O = a ganglioside GD1b + N-
+CC         acetylneuraminate; Xref=Rhea:RHEA:47828, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:35418, ChEBI:CHEBI:82939, ChEBI:CHEBI:82940;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47829;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ganglioside GD1b + H2O = a ganglioside GM1 + N-
+CC         acetylneuraminate; Xref=Rhea:RHEA:47876, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:35418, ChEBI:CHEBI:82639, ChEBI:CHEBI:82939;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47877;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ganglioside GD3 + H2O = a ganglioside GM3 + N-
+CC         acetylneuraminate; Xref=Rhea:RHEA:48120, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:35418, ChEBI:CHEBI:79210, ChEBI:CHEBI:79214;
+CC         Evidence={ECO:0000250|UniProtKB:Q9JMH3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48121;
+CC         Evidence={ECO:0000250|UniProtKB:Q9JMH3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ganglioside GM3 + H2O = a beta-D-galactosyl-(1->4)-beta-D-
+CC         glucosyl-(1<->1)-ceramide + N-acetylneuraminate;
+CC         Xref=Rhea:RHEA:48136, ChEBI:CHEBI:15377, ChEBI:CHEBI:35418,
+CC         ChEBI:CHEBI:79208, ChEBI:CHEBI:79210;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48137;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ganglioside GM2 + H2O = a ganglioside GA2 + N-
+CC         acetylneuraminate; Xref=Rhea:RHEA:48172, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:35418, ChEBI:CHEBI:79218, ChEBI:CHEBI:90085;
+CC         Evidence={ECO:0000250|UniProtKB:Q9JMH3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48173;
+CC         Evidence={ECO:0000250|UniProtKB:Q9JMH3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a neolactoside IV(3)-alpha-NeuAc-nLc4Cer(d18:1(4E)) + H2O = a
+CC         neolactoside nLc4Cer(d18:1(4E)) + N-acetylneuraminate;
+CC         Xref=Rhea:RHEA:47852, ChEBI:CHEBI:15377, ChEBI:CHEBI:17006,
+CC         ChEBI:CHEBI:35418, ChEBI:CHEBI:58665;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47853;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-acetyl-alpha-neuraminosyl-(2->3)-beta-D-galactosyl-
+CC         (1->4)-D-glucose = lactose + N-acetylneuraminate;
+CC         Xref=Rhea:RHEA:64640, ChEBI:CHEBI:15377, ChEBI:CHEBI:17716,
+CC         ChEBI:CHEBI:35418, ChEBI:CHEBI:156068;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64641;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y3R4};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:Q9Y3R4}.
+CC   -!- TISSUE SPECIFICITY: Detected in skeletal muscle.
+CC       {ECO:0000269|PubMed:8253770}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 33 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D16300; BAA03805.1; -; mRNA.
+DR   EMBL; D50606; BAA09169.1; -; Genomic_DNA.
+DR   PIR; A49679; A49679.
+DR   AlphaFoldDB; Q64627; -.
+DR   SMR; Q64627; -.
+DR   STRING; 10116.ENSRNOP00000022818; -.
+DR   CAZy; GH33; Glycoside Hydrolase Family 33.
+DR   PhosphoSitePlus; Q64627; -.
+DR   PaxDb; 10116-ENSRNOP00000022818; -.
+DR   UCSC; RGD:3164; rat.
+DR   AGR; RGD:3164; -.
+DR   RGD; 3164; Neu2.
+DR   eggNOG; ENOG502QSFT; Eukaryota.
+DR   InParanoid; Q64627; -.
+DR   PhylomeDB; Q64627; -.
+DR   Reactome; R-RNO-4085001; Sialic acid metabolism.
+DR   Reactome; R-RNO-9840310; Glycosphingolipid catabolism.
+DR   PRO; PR:Q64627; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:1902494; C:catalytic complex; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005764; C:lysosome; IBA:GO_Central.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0052794; F:exo-alpha-(2->3)-sialidase activity; ISS:UniProtKB.
+DR   GO; GO:0052795; F:exo-alpha-(2->6)-sialidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0052796; F:exo-alpha-(2->8)-sialidase activity; ISO:RGD.
+DR   GO; GO:0004308; F:exo-alpha-sialidase activity; IDA:RGD.
+DR   GO; GO:0006689; P:ganglioside catabolic process; ISS:UniProtKB.
+DR   GO; GO:0006516; P:glycoprotein catabolic process; ISO:RGD.
+DR   GO; GO:0009313; P:oligosaccharide catabolic process; ISS:UniProtKB.
+DR   GO; GO:0045663; P:positive regulation of myoblast differentiation; IDA:RGD.
+DR   GO; GO:0010831; P:positive regulation of myotube differentiation; IMP:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IEP:RGD.
+DR   CDD; cd15482; Sialidase_non-viral; 1.
+DR   Gene3D; 2.120.10.10; -; 1.
+DR   InterPro; IPR011040; Sialidase.
+DR   InterPro; IPR026856; Sialidase_fam.
+DR   InterPro; IPR036278; Sialidase_sf.
+DR   PANTHER; PTHR10628; SIALIDASE; 1.
+DR   PANTHER; PTHR10628:SF6; SIALIDASE-2; 1.
+DR   Pfam; PF13088; BNR_2; 1.
+DR   SUPFAM; SSF50939; Sialidases; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Cytoplasm; Glycosidase; Hydrolase;
+KW   Lipid degradation; Lipid metabolism; Reference proteome; Repeat.
+FT   CHAIN           1..379
+FT                   /note="Sialidase-2"
+FT                   /id="PRO_0000208901"
+FT   REPEAT          127..138
+FT                   /note="BNR 1"
+FT   REPEAT          197..208
+FT                   /note="BNR 2"
+FT   MOTIF           20..23
+FT                   /note="FRIP motif"
+FT   ACT_SITE        46
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        333
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        354
+FT                   /evidence="ECO:0000255"
+FT   BINDING         21
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         41
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         179
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         181
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         218
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         237
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         303
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   379 AA;  42382 MW;  55583C7043CA9784 CRC64;
+     METCPVLQKE TLFHTEVYAY RIPALLYLKK QKTLLAFAEK RASRTDEHAE LIVLRRGSYN
+     GATNHVKWQP EEVVTQAQLE GHRSMNPCPL YDKQTKTLFL FFIAVPGRVS EQHQLQTRVN
+     VTRLCRVTST DYGMNWSPVQ DLTETTIGST HQDWATFAVG PGHCLQLRNR AGSLLVPAYA
+     YRKLHPVHKP TPFAFCFISL DHGHTWELGN FVSENSLECQ VAEVGTGAHR VVYLNARSFI
+     GARVQAQSPN DGLDFQDNQV VSKLVEPPHG CHGSVVAFHS PTSKPDCLRH VAAYTHPTDS
+     RNRTNLGVYL NQTPLDPTAW SEPTLLATGT CAYSDLQIWG LGPDGSPQFG CLYESGNYDE
+     IIFLMFTLKQ AFPTVHGAQ
+//

@@ -1,0 +1,102 @@
+ID   IL11_RAT                Reviewed;         199 AA.
+AC   Q99MF5;
+DT   21-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   02-OCT-2024, entry version 116.
+DE   RecName: Full=Interleukin-11 {ECO:0000305};
+DE            Short=IL-11;
+DE   Flags: Precursor;
+GN   Name=Il11 {ECO:0000312|RGD:621475};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=11570967; DOI=10.1530/rep.0.1220593;
+RA   Li R., Hartley L., Robb L.;
+RT   "Cloning of rat interleukin 11 and interleukin 11 receptor alpha chain and
+RT   analysis of their expression in rat uterus in the peri-implantation
+RT   period.";
+RL   Reproduction 122:593-600(2001).
+CC   -!- FUNCTION: Cytokine that stimulates the proliferation of hematopoietic
+CC       stem cells and megakaryocyte progenitor cells and induces megakaryocyte
+CC       maturation resulting in increased platelet production. Also promotes
+CC       the proliferation of hepatocytes in response to liver damage. Binding
+CC       to its receptor formed by IL6ST and IL11RA activates a signaling
+CC       cascade that promotes cell proliferation. Signaling leads to the
+CC       activation of intracellular protein kinases and the phosphorylation of
+CC       STAT3. The interaction with the membrane-bound IL11RA and IL6ST
+CC       stimulates 'classic signaling', whereas the binding of IL11 and soluble
+CC       IL11RA to IL6ST stimulates 'trans-signaling'.
+CC       {ECO:0000250|UniProtKB:P20809, ECO:0000250|UniProtKB:P47873}.
+CC   -!- SUBUNIT: Interacts with IL11RA to associate with IL6ST, giving rise to
+CC       a multimeric signaling complex. {ECO:0000250|UniProtKB:P20809}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P47873}.
+CC   -!- SIMILARITY: Belongs to the IL-6 superfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF347935; AAK29623.1; -; mRNA.
+DR   AlphaFoldDB; Q99MF5; -.
+DR   SMR; Q99MF5; -.
+DR   STRING; 10116.ENSRNOP00000023489; -.
+DR   PhosphoSitePlus; Q99MF5; -.
+DR   PaxDb; 10116-ENSRNOP00000023489; -.
+DR   UCSC; RGD:621475; rat.
+DR   AGR; RGD:621475; -.
+DR   RGD; 621475; Il11.
+DR   eggNOG; ENOG502RZVA; Eukaryota.
+DR   InParanoid; Q99MF5; -.
+DR   PhylomeDB; Q99MF5; -.
+DR   Reactome; R-RNO-6788467; IL-6-type cytokine receptor ligand interactions.
+DR   PRO; PR:Q99MF5; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0005125; F:cytokine activity; ISO:RGD.
+DR   GO; GO:0008083; F:growth factor activity; ISO:RGD.
+DR   GO; GO:0005142; F:interleukin-11 receptor binding; ISO:RGD.
+DR   GO; GO:0008283; P:cell population proliferation; ISO:RGD.
+DR   GO; GO:0038154; P:interleukin-11-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0046888; P:negative regulation of hormone secretion; ISO:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0043410; P:positive regulation of MAPK cascade; ISO:RGD.
+DR   GO; GO:0033138; P:positive regulation of peptidyl-serine phosphorylation; ISO:RGD.
+DR   GO; GO:0050731; P:positive regulation of peptidyl-tyrosine phosphorylation; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0007165; P:signal transduction; ISO:RGD.
+DR   Gene3D; 1.20.1250.10; -; 1.
+DR   InterPro; IPR009079; 4_helix_cytokine-like_core.
+DR   InterPro; IPR020438; IL-11.
+DR   InterPro; IPR020412; IL-11_mml.
+DR   PANTHER; PTHR16922; INTERLEUKIN 11; 1.
+DR   PANTHER; PTHR16922:SF0; INTERLEUKIN-11; 1.
+DR   Pfam; PF07400; IL11; 1.
+DR   PRINTS; PR01943; INTLKN11MAML.
+DR   PRINTS; PR01927; INTRLEUKIN11.
+DR   SUPFAM; SSF47266; 4-helical cytokines; 1.
+PE   2: Evidence at transcript level;
+KW   Cytokine; Growth factor; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..199
+FT                   /note="Interleukin-11"
+FT                   /id="PRO_0000015621"
+FT   REGION          182..190
+FT                   /note="Important for interaction with IL11RA and for the
+FT                   stimulation of cell proliferation"
+FT                   /evidence="ECO:0000250|UniProtKB:P20809"
+FT   SITE            168
+FT                   /note="Important for interaction with IL6ST and for the
+FT                   stimulation of cell proliferation"
+FT                   /evidence="ECO:0000250|UniProtKB:P47873"
+SQ   SEQUENCE   199 AA;  21555 MW;  2AA560DC97A98224 CRC64;
+     MNCVCRLVLV VLSLWPDRVV APGPPAGSPR VSSDPRADLD SAVLLTRSLL ADTRQLAAQM
+     RDKFPADGDH NLDSLPTLAM SAGTLGSLQL PGVLTRLRVD LMSYFRHVQW LRRAAGPSLK
+     TLEPELGALQ ARLERLLRRL QLLMSRLALP QAAPDQPAVP LGPPASAWGS IRAAHAILGG
+     LHLTLDWAVR GLLLLKTRL
+//

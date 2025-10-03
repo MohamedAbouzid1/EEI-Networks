@@ -1,0 +1,251 @@
+ID   S28A1_RAT               Reviewed;         648 AA.
+AC   Q62674;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JUL-2024, entry version 134.
+DE   RecName: Full=Sodium/nucleoside cotransporter 1 {ECO:0000305|PubMed:8027026};
+DE   AltName: Full=Concentrative nucleoside transporter 1 {ECO:0000303|PubMed:11375981};
+DE            Short=CNT 1 {ECO:0000303|PubMed:11375981};
+DE   AltName: Full=Na(+)/nucleoside cotransporter 1 {ECO:0000303|PubMed:11375981};
+DE   AltName: Full=Sodium-coupled nucleoside transporter 1;
+DE   AltName: Full=Solute carrier family 28 member 1 {ECO:0000312|RGD:621223};
+GN   Name=Slc28a1 {ECO:0000312|RGD:621223};
+GN   Synonyms=Cnt1 {ECO:0000303|PubMed:11375981};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY, AND SUBCELLULAR
+RP   LOCATION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Jejunum;
+RX   PubMed=8027026; DOI=10.1016/s0021-9258(17)32370-0;
+RA   Huang Q.-Q., Yao S.Y.M., Ritzel M.W.L., Paterson A.R.P., Cass C.E.,
+RA   Young J.D.;
+RT   "Cloning and functional expression of a complementary DNA encoding a
+RT   mammalian nucleoside transport protein.";
+RL   J. Biol. Chem. 269:17757-17760(1994).
+RN   [2]
+RP   FUNCTION, TRANSPORTER ACTIVITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=8967974;
+RA   Yao S.Y., Ng A.M., Ritzel M.W., Gati W.P., Cass C.E., Young J.D.;
+RT   "Transport of adenosine by recombinant purine- and pyrimidine-selective
+RT   sodium/nucleoside cotransporters from rat jejunum expressed in Xenopus
+RT   laevis oocytes.";
+RL   Mol. Pharmacol. 50:1529-1535(1996).
+RN   [3]
+RP   TOPOLOGY, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, AND GLYCOSYLATION AT
+RP   ASN-605 AND ASN-643.
+RX   PubMed=11375981; DOI=10.1074/jbc.m100518200;
+RA   Hamilton S.R., Yao S.Y., Ingram J.C., Hadden D.A., Ritzel M.W.,
+RA   Gallagher M.P., Henderson P.J., Cass C.E., Young J.D., Baldwin S.A.;
+RT   "Subcellular distribution and membrane topology of the mammalian
+RT   concentrative Na+-nucleoside cotransporter rCNT1.";
+RL   J. Biol. Chem. 276:27981-27988(2001).
+CC   -!- FUNCTION: Sodium and pyrimidine nucleoside symporter of the plasma
+CC       membrane that imports uridine, thymidine and cytidine into cells by
+CC       coupling their transport to the transmembrane sodium electrochemical
+CC       gradient. Also transports adenosine, an atypical substrate transported
+CC       with high apparent affinity, but low maximum velocity. Therefore,
+CC       exhibits the transport characteristics of the nucleoside transport
+CC       system cit or N2 subtype (N2/cit) (PubMed:8027026, PubMed:8967974).
+CC       Involved in renal nucleoside (re)absorption (By similarity).
+CC       {ECO:0000250|UniProtKB:O00337, ECO:0000269|PubMed:8027026,
+CC       ECO:0000269|PubMed:8967974}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Na(+)(out) + uridine(out) = Na(+)(in) + uridine(in);
+CC         Xref=Rhea:RHEA:69887, ChEBI:CHEBI:16704, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000269|PubMed:8027026};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Na(+)(out) + thymidine(out) = Na(+)(in) + thymidine(in);
+CC         Xref=Rhea:RHEA:69891, ChEBI:CHEBI:17748, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000269|PubMed:8027026};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(out) + Na(+)(out) = cytidine(in) + Na(+)(in);
+CC         Xref=Rhea:RHEA:69895, ChEBI:CHEBI:17562, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000269|PubMed:8027026};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(out) + Na(+)(out) = adenosine(in) + Na(+)(in);
+CC         Xref=Rhea:RHEA:69927, ChEBI:CHEBI:16335, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000269|PubMed:8027026, ECO:0000269|PubMed:8967974};
+CC   -!- ACTIVITY REGULATION: Due to its high apparent affinity but slow
+CC       transport, adenosine could act as a negative regulator of pyrimidine
+CC       transport under some conditions. {ECO:0000250|UniProtKB:O00337}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:11375981,
+CC       ECO:0000269|PubMed:8027026, ECO:0000269|PubMed:8967974}; Multi-pass
+CC       membrane protein {ECO:0000269|PubMed:11375981}. Apical cell membrane
+CC       {ECO:0000250|UniProtKB:O00337}; Multi-pass membrane protein
+CC       {ECO:0000269|PubMed:11375981}.
+CC   -!- TISSUE SPECIFICITY: Expressed predominantly in the brush-border
+CC       membranes of the polarized epithelial cells of jejunum and renal
+CC       cortical tubules and in the bile canalicular membranes of liver
+CC       parenchymal cells. {ECO:0000269|PubMed:11375981}.
+CC   -!- PTM: N-glycosylated. N-glycosylation is required for localization to
+CC       the plasma membrane and the transporter activity.
+CC       {ECO:0000269|PubMed:11375981}.
+CC   -!- SIMILARITY: Belongs to the concentrative nucleoside transporter (CNT)
+CC       (TC 2.A.41) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U10279; AAB03626.1; -; mRNA.
+DR   PIR; A54892; A54892.
+DR   RefSeq; NP_446315.1; NM_053863.1.
+DR   AlphaFoldDB; Q62674; -.
+DR   SMR; Q62674; -.
+DR   STRING; 10116.ENSRNOP00000070095; -.
+DR   ChEMBL; CHEMBL1287615; -.
+DR   TCDB; 2.A.41.2.2; the concentrative nucleoside transporter (cnt) family.
+DR   GlyCosmos; Q62674; 2 sites, No reported glycans.
+DR   GlyGen; Q62674; 2 sites.
+DR   iPTMnet; Q62674; -.
+DR   PhosphoSitePlus; Q62674; -.
+DR   PaxDb; 10116-ENSRNOP00000025621; -.
+DR   Ensembl; ENSRNOT00055015037; ENSRNOP00055012004; ENSRNOG00055008906.
+DR   Ensembl; ENSRNOT00060006165; ENSRNOP00060004574; ENSRNOG00060003724.
+DR   Ensembl; ENSRNOT00065053624; ENSRNOP00065044072; ENSRNOG00065031108.
+DR   GeneID; 116642; -.
+DR   KEGG; rno:116642; -.
+DR   AGR; RGD:621223; -.
+DR   CTD; 9154; -.
+DR   RGD; 621223; Slc28a1.
+DR   eggNOG; KOG3747; Eukaryota.
+DR   InParanoid; Q62674; -.
+DR   OrthoDB; 1333063at2759; -.
+DR   PhylomeDB; Q62674; -.
+DR   Reactome; R-RNO-83936; Transport of nucleosides and free purine and pyrimidine bases across the plasma membrane.
+DR   PRO; PR:Q62674; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:RGD.
+DR   GO; GO:0031526; C:brush border membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:1901474; F:azole transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0005350; F:pyrimidine nucleobase transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0015389; F:pyrimidine- and adenosine-specific:sodium symporter activity; IDA:UniProtKB.
+DR   GO; GO:0015213; F:uridine transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0045117; P:azole transmembrane transport; ISO:RGD.
+DR   GO; GO:0015861; P:cytidine transport; ISS:UniProtKB.
+DR   GO; GO:0180015; P:nucleoside import across plasma membrane; ISS:UniProtKB.
+DR   GO; GO:1901642; P:nucleoside transmembrane transport; ISO:RGD.
+DR   GO; GO:0015855; P:pyrimidine nucleobase transport; IDA:RGD.
+DR   GO; GO:0072531; P:pyrimidine-containing compound transmembrane transport; ISO:RGD.
+DR   GO; GO:0015862; P:uridine transmembrane transport; ISS:UniProtKB.
+DR   InterPro; IPR008276; C_nuclsd_transpt.
+DR   InterPro; IPR018270; C_nuclsd_transpt_met_bac.
+DR   InterPro; IPR011657; CNT_C_dom.
+DR   InterPro; IPR002668; CNT_N_dom.
+DR   InterPro; IPR011642; Gate_dom.
+DR   NCBIfam; TIGR00804; nupC; 1.
+DR   PANTHER; PTHR10590; SODIUM/NUCLEOSIDE COTRANSPORTER; 1.
+DR   PANTHER; PTHR10590:SF16; SODIUM_NUCLEOSIDE COTRANSPORTER 1; 1.
+DR   Pfam; PF07670; Gate; 1.
+DR   Pfam; PF07662; Nucleos_tra2_C; 1.
+DR   Pfam; PF01773; Nucleos_tra2_N; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Glycoprotein; Membrane; Reference proteome; Symport;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..648
+FT                   /note="Sodium/nucleoside cotransporter 1"
+FT                   /id="PRO_0000070449"
+FT   TOPO_DOM        1..80
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        81..104
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        105..109
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        110..128
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        129..147
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        148..167
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        168..178
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        179..195
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        196..201
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        202..222
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        223..261
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        262..283
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        284..294
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        295..318
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        319..337
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        338..360
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        361..366
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        367..386
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        387..423
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        424..446
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        447..457
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        458..479
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        480..534
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        535..558
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        559..569
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   TRANSMEM        570..592
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        593..648
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   CARBOHYD        605
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+FT   CARBOHYD        643
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:11375981"
+SQ   SEQUENCE   648 AA;  71001 MW;  7618B4436DAED1A8 CRC64;
+     MADNTQRQRE SISLTPMAHG LENMGAEFLE SMEEGRLPHS HSSLPEGEGG LNKAERKAFS
+     RWRSLQPTVQ ARSFCREHRQ LFGWICKGLL STACLGFLMV ACLLDLQRAL ALLIITCVVL
+     VFLAYDLLKR LLGSKLRRCV KFQGHSCLSL WLKRGLALAA GVGLILWLSL DTAQRPEQLV
+     SFAGICVFLV LLFAGSKHHR AVSWRAVSWG LGLQFVLGLF VIRTEPGFIA FQWLGDQIQV
+     FLSYTEAGSS FVFGEALVKD VFAFQVLPII IFFSCVMSVL YYLGLMQWVI LKIAWLMQVT
+     MGTSATETLS VAGNIFVSQT EAPLLIRPYL ADMTLSEVHV VMTGGYATIA GSLLGAYISF
+     GIDAASLIAA SVMAAPCALA LSKLVYPEVE ESKFRSENGV KLTYGDAQNL LEAASAGAAI
+     SVKVVANIAA NLIAFLAVLA FVNAALSWLG DMVDIQGLSF QLICSYVLRP VAFLMGVAWE
+     DCPVVAELLG IKFFLNEFVA YQELSQYKQR RLAGAEEWLG DKKQWISVRA EILTTYALCG
+     FANFSSIGIM LGGLTSLVPQ RRSDFSQIVL RALITGAFVS LLNACVAGIL YVPRGVEVDC
+     VSLLNQTVSS SSFEVYLCCR QVFQSTSSEF SQVALDNCCR FYNHTVCT
+//

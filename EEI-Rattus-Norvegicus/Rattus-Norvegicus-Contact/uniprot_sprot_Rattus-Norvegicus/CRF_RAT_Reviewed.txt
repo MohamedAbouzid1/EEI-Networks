@@ -1,0 +1,181 @@
+ID   CRF_RAT                 Reviewed;         187 AA.
+AC   P01143;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1988, sequence version 1.
+DT   02-OCT-2024, entry version 166.
+DE   RecName: Full=Corticoliberin;
+DE   AltName: Full=Corticotropin-releasing factor;
+DE            Short=CRF;
+DE   AltName: Full=Corticotropin-releasing hormone;
+DE   Flags: Precursor;
+GN   Name=Crh;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RX   PubMed=3876950; DOI=10.1016/0014-5793(85)80994-7;
+RA   Jingami H., Mizuno N., Takahashi H., Shibahara S., Furutani Y., Imura H.,
+RA   Numa S.;
+RT   "Cloning and sequence analysis of cDNA for rat corticotropin-releasing
+RT   factor precursor.";
+RL   FEBS Lett. 191:63-66(1985).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   TISSUE=Liver;
+RX   PubMed=3274895; DOI=10.1210/mend-1-5-363;
+RA   Thompson R.C., Seasholtz A.F., Herbert E.;
+RT   "Rat corticotropin-releasing hormone gene: sequence and tissue-specific
+RT   expression.";
+RL   Mol. Endocrinol. 1:363-370(1987).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 145-185, FUNCTION, AMIDATION AT ILE-185, AND
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=6603620; DOI=10.1073/pnas.80.15.4851;
+RA   Rivier J., Spiess J., Vale W.;
+RT   "Characterization of rat hypothalamic corticotropin-releasing factor.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 80:4851-4855(1983).
+CC   -!- FUNCTION: Hormone regulating the release of corticotropin from
+CC       pituitary gland (PubMed:6603620). Induces NLRP6 in intestinal
+CC       epithelial cells, hence may influence gut microbiota profile (By
+CC       similarity). {ECO:0000250|UniProtKB:Q8CIT0,
+CC       ECO:0000269|PubMed:6603620}.
+CC   -!- SUBUNIT: Interacts (via C-terminus) with CRFR1 (via N-terminal
+CC       extracellular domain). {ECO:0000250|UniProtKB:P06850}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:6603620}.
+CC   -!- TISSUE SPECIFICITY: Produced by the hypothalamus.
+CC       {ECO:0000269|PubMed:3876950}.
+CC   -!- SIMILARITY: Belongs to the sauvagine/corticotropin-releasing
+CC       factor/urotensin I family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X03036; CAA26838.1; -; mRNA.
+DR   EMBL; M54987; AAA40965.1; -; Genomic_DNA.
+DR   PIR; A40906; RHRTCE.
+DR   RefSeq; NP_112281.1; NM_031019.1.
+DR   AlphaFoldDB; P01143; -.
+DR   STRING; 10116.ENSRNOP00000016953; -.
+DR   BindingDB; P01143; -.
+DR   ChEMBL; CHEMBL5291540; -.
+DR   PhosphoSitePlus; P01143; -.
+DR   PaxDb; 10116-ENSRNOP00000016953; -.
+DR   Ensembl; ENSRNOT00000016953.3; ENSRNOP00000016953.1; ENSRNOG00000012703.3.
+DR   Ensembl; ENSRNOT00055007602; ENSRNOP00055005722; ENSRNOG00055004773.
+DR   Ensembl; ENSRNOT00060036596; ENSRNOP00060030119; ENSRNOG00060021144.
+DR   Ensembl; ENSRNOT00065000467; ENSRNOP00065000417; ENSRNOG00065000302.
+DR   Ensembl; ENSRNOT00065033118; ENSRNOP00065026483; ENSRNOG00065019651.
+DR   GeneID; 81648; -.
+DR   KEGG; rno:81648; -.
+DR   UCSC; RGD:620505; rat.
+DR   AGR; RGD:620505; -.
+DR   CTD; 1392; -.
+DR   RGD; 620505; Crh.
+DR   eggNOG; ENOG502S25G; Eukaryota.
+DR   GeneTree; ENSGT00940000154473; -.
+DR   HOGENOM; CLU_136288_0_0_1; -.
+DR   InParanoid; P01143; -.
+DR   OMA; HNNRKLM; -.
+DR   OrthoDB; 4266825at2759; -.
+DR   PhylomeDB; P01143; -.
+DR   TreeFam; TF332956; -.
+DR   Reactome; R-RNO-373080; Class B/2 (Secretin family receptors).
+DR   PRO; PR:P01143; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000012703; Expressed in cerebral cortex and 2 other cell types or tissues.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0099013; C:neuronal dense core vesicle lumen; IDA:SynGO.
+DR   GO; GO:0043204; C:perikaryon; IDA:RGD.
+DR   GO; GO:0045202; C:synapse; IEA:GOC.
+DR   GO; GO:0043196; C:varicosity; IDA:RGD.
+DR   GO; GO:0017045; F:corticotropin-releasing hormone activity; IBA:GO_Central.
+DR   GO; GO:0051430; F:corticotropin-releasing hormone receptor 1 binding; IDA:RGD.
+DR   GO; GO:0051431; F:corticotropin-releasing hormone receptor 2 binding; IDA:RGD.
+DR   GO; GO:0030325; P:adrenal gland development; ISO:RGD.
+DR   GO; GO:0008306; P:associative learning; IDA:RGD.
+DR   GO; GO:0071314; P:cellular response to cocaine; IDA:UniProtKB.
+DR   GO; GO:0071549; P:cellular response to dexamethasone stimulus; IEP:RGD.
+DR   GO; GO:0016101; P:diterpenoid metabolic process; IEP:RGD.
+DR   GO; GO:0007565; P:female pregnancy; ISO:RGD.
+DR   GO; GO:0006704; P:glucocorticoid biosynthetic process; ISO:RGD.
+DR   GO; GO:0008628; P:hormone-mediated apoptotic signaling pathway; IDA:RGD.
+DR   GO; GO:0021854; P:hypothalamus development; IEP:RGD.
+DR   GO; GO:0006954; P:inflammatory response; ISO:RGD.
+DR   GO; GO:0007611; P:learning or memory; IMP:RGD.
+DR   GO; GO:0035641; P:locomotory exploration behavior; ISO:RGD.
+DR   GO; GO:0060291; P:long-term synaptic potentiation; IDA:RGD.
+DR   GO; GO:0030324; P:lung development; ISO:RGD.
+DR   GO; GO:0050801; P:monoatomic ion homeostasis; IEP:RGD.
+DR   GO; GO:0032811; P:negative regulation of epinephrine secretion; IDA:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; IMP:RGD.
+DR   GO; GO:0070093; P:negative regulation of glucagon secretion; IDA:RGD.
+DR   GO; GO:0033685; P:negative regulation of luteinizing hormone secretion; IMP:RGD.
+DR   GO; GO:0010700; P:negative regulation of norepinephrine secretion; IDA:RGD.
+DR   GO; GO:0003085; P:negative regulation of systemic arterial blood pressure; IDA:RGD.
+DR   GO; GO:0051402; P:neuron apoptotic process; IDA:RGD.
+DR   GO; GO:2000987; P:positive regulation of behavioral fear response; IDA:RGD.
+DR   GO; GO:0090280; P:positive regulation of calcium ion import; IDA:RGD.
+DR   GO; GO:0043950; P:positive regulation of cAMP-mediated signaling; IDA:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IDA:RGD.
+DR   GO; GO:2000854; P:positive regulation of corticosterone secretion; IDA:RGD.
+DR   GO; GO:0051461; P:positive regulation of corticotropin secretion; IDA:RGD.
+DR   GO; GO:0051464; P:positive regulation of cortisol secretion; ISO:RGD.
+DR   GO; GO:0060456; P:positive regulation of digestive system process; IDA:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; IMP:RGD.
+DR   GO; GO:0035774; P:positive regulation of insulin secretion involved in cellular response to glucose stimulus; IDA:RGD.
+DR   GO; GO:0001934; P:positive regulation of protein phosphorylation; IDA:RGD.
+DR   GO; GO:2000310; P:regulation of NMDA receptor activity; IDA:UniProtKB.
+DR   GO; GO:0014062; P:regulation of serotonin secretion; IDA:RGD.
+DR   GO; GO:0097305; P:response to alcohol; IEP:RGD.
+DR   GO; GO:1904044; P:response to aldosterone; IEP:RGD.
+DR   GO; GO:0042220; P:response to cocaine; IEP:RGD.
+DR   GO; GO:0051412; P:response to corticosterone; IEP:RGD.
+DR   GO; GO:0043627; P:response to estrogen; IEP:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IEP:RGD.
+DR   GO; GO:0045472; P:response to ether; IEP:RGD.
+DR   GO; GO:0035902; P:response to immobilization stress; IEP:RGD.
+DR   GO; GO:0048265; P:response to pain; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0008202; P:steroid metabolic process; IEP:RGD.
+DR   GO; GO:0001963; P:synaptic transmission, dopaminergic; IDA:UniProtKB.
+DR   Gene3D; 6.10.250.1920; -; 1.
+DR   InterPro; IPR018446; Corticotropin-releasing_fac_CS.
+DR   InterPro; IPR000187; CRF.
+DR   InterPro; IPR003620; Urocortin_CRF.
+DR   PANTHER; PTHR15035:SF9; CORTICOLIBERIN; 1.
+DR   PANTHER; PTHR15035; CORTICOLIBERIN/UROCORTIN; 1.
+DR   Pfam; PF00473; CRF; 1.
+DR   PRINTS; PR01612; CRFFAMILY.
+DR   SMART; SM00039; CRF; 1.
+DR   PROSITE; PS00511; CRF; 1.
+PE   1: Evidence at protein level;
+KW   Amidation; Cleavage on pair of basic residues; Direct protein sequencing;
+KW   Hormone; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          25..144
+FT                   /evidence="ECO:0000269|PubMed:6603620"
+FT                   /id="PRO_0000006218"
+FT   PEPTIDE         145..185
+FT                   /note="Corticoliberin"
+FT                   /evidence="ECO:0000269|PubMed:6603620"
+FT                   /id="PRO_0000006219"
+FT   REGION          75..95
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        75..90
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         185
+FT                   /note="Isoleucine amide"
+FT                   /evidence="ECO:0000269|PubMed:6603620"
+SQ   SEQUENCE   187 AA;  20680 MW;  911602C82A444CFB CRC64;
+     MRLRLLVSAG MLLVALSPCL PCRALLSRGS VSGAPRAPQP LNFLQPEQPQ QPQPILIRMG
+     EEYFLRLGNL NRSPAARLSP NSTPLTAGRG SRPSHDQAAA NFFRVLLQQL QMPQRPLDSS
+     TELAERGAED ALGGHQGALE RERRSEEPPI SLDLTFHLLR EVLEMARAEQ LAQQAHSNRK
+     LMEIIGK
+//

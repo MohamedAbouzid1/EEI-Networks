@@ -1,0 +1,375 @@
+ID   CSK_RAT                 Reviewed;         450 AA.
+AC   P32577; Q4G003;
+DT   01-OCT-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1993, sequence version 1.
+DT   24-JUL-2024, entry version 212.
+DE   RecName: Full=Tyrosine-protein kinase CSK;
+DE            EC=2.7.10.2 {ECO:0000269|PubMed:1722201, ECO:0000269|PubMed:21873224};
+DE   AltName: Full=C-Src kinase;
+GN   Name=Csk;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=1709258; DOI=10.1038/351069a0;
+RA   Nada S., Okada M., McAuley A., Cooper J.A., Nakagawa H.;
+RT   "Cloning of a complementary DNA for a protein-tyrosine kinase that
+RT   specifically phosphorylates a negative regulatory site of p60c-src.";
+RL   Nature 351:69-72(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Thymus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   FUNCTION IN PHOSPHORYLATION OF LYN AND FYN, CATALYTIC ACTIVITY, AND
+RP   COFACTOR.
+RX   PubMed=1722201; DOI=10.1016/s0021-9258(18)54220-4;
+RA   Okada M., Nada S., Yamanashi Y., Yamamoto T., Nakagawa H.;
+RT   "CSK: a protein-tyrosine kinase involved in regulation of src family
+RT   kinases.";
+RL   J. Biol. Chem. 266:24249-24252(1991).
+RN   [4]
+RP   FUNCTION IN PHOSPHORYLATION OF FGR.
+RX   PubMed=7515063; DOI=10.1016/s0021-9258(17)40763-0;
+RA   Ruzzene M., James P., Brunati A.M., Donella-Deana A., Pinna L.A.;
+RT   "Regulation of c-Fgr protein kinase by c-Src kinase (CSK) and by
+RT   polycationic effectors.";
+RL   J. Biol. Chem. 269:15885-15891(1994).
+RN   [5]
+RP   INTERACTION WITH PAG1.
+RX   PubMed=10801129; DOI=10.1038/35010121;
+RA   Kawabuchi M., Satomi Y., Takao T., Shimonishi Y., Nada S., Nagai K.,
+RA   Tarakhovsky A., Okada M.;
+RT   "Transmembrane phosphoprotein Cbp regulates the activities of Src-family
+RT   tyrosine kinases.";
+RL   Nature 404:999-1003(2000).
+RN   [6]
+RP   INTERACTION WITH PAG1.
+RX   PubMed=14613929; DOI=10.1074/jbc.m311278200;
+RA   Matsuoka H., Nada S., Okada M.;
+RT   "Mechanism of Csk-mediated down-regulation of Src family tyrosine kinases
+RT   in epidermal growth factor signaling.";
+RL   J. Biol. Chem. 279:5975-5983(2004).
+RN   [7]
+RP   SUBCELLULAR LOCATION, INTERACTION WITH PRAG1, AND FUNCTION IN
+RP   PHOSPHORYLATION OF PRAG1.
+RX   PubMed=21873224; DOI=10.1073/pnas.1107740108;
+RA   Safari F., Murata-Kamiya N., Saito Y., Hatakeyama M.;
+RT   "Mammalian Pragmin regulates Src family kinases via the Glu-Pro-Ile-Tyr-Ala
+RT   (EPIYA) motif that is exploited by bacterial effectors.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 108:14938-14943(2011).
+CC   -!- FUNCTION: Non-receptor tyrosine-protein kinase that plays an important
+CC       role in the regulation of cell growth, differentiation, migration and
+CC       immune response. Phosphorylates tyrosine residues located in the C-
+CC       terminal tails of Src-family kinases (SFKs) including LCK, SRC, HCK,
+CC       FYN, LYN, CSK or YES1. Upon tail phosphorylation, Src-family members
+CC       engage in intramolecular interactions between the phosphotyrosine tail
+CC       and the SH2 domain that result in an inactive conformation. To inhibit
+CC       SFKs, CSK is recruited to the plasma membrane via binding to
+CC       transmembrane proteins or adapter proteins located near the plasma
+CC       membrane. Suppresses signaling by various surface receptors, including
+CC       T-cell receptor (TCR) and B-cell receptor (BCR) by phosphorylating and
+CC       maintaining inactive several positive effectors such as FYN or LCK (By
+CC       similarity). {ECO:0000250, ECO:0000269|PubMed:1722201,
+CC       ECO:0000269|PubMed:21873224, ECO:0000269|PubMed:7515063}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tyrosyl-[protein] = ADP + H(+) + O-phospho-L-tyrosyl-
+CC         [protein]; Xref=Rhea:RHEA:10596, Rhea:RHEA-COMP:10136, Rhea:RHEA-
+CC         COMP:10137, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:46858,
+CC         ChEBI:CHEBI:82620, ChEBI:CHEBI:456216; EC=2.7.10.2;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10028,
+CC         ECO:0000269|PubMed:1722201, ECO:0000269|PubMed:21873224};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:1722201};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P41240};
+CC   -!- SUBUNIT: Homodimer (via SH3-domain). Interacts with PTPN22. Interacts
+CC       with phosphorylated SIT1, PAG1, LIME1 and TGFB1I1; these interactions
+CC       serve to recruit CSK to the membrane where it can phosphorylate and
+CC       inhibit Src-family kinases. Interacts with SRCIN1. Interacts with RHOH.
+CC       Interacts (via SH2 domain) with SCIMP; this interaction is dependent on
+CC       phosphorylation of SCIMP 'Tyr-96' (By similarity). Interacts (via SH2
+CC       domain) with PRAG1 (when phosphorylated at 'Tyr-391'); this interaction
+CC       prevents translocation of CSK from the cytoplasm to the membrane
+CC       leading to increased activity of CSK (PubMed:21873224). Interacts with
+CC       LRRK1 (By similarity). {ECO:0000250|UniProtKB:P41240,
+CC       ECO:0000250|UniProtKB:P41241, ECO:0000269|PubMed:21873224}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:21873224}. Cell
+CC       membrane {ECO:0000250}. Note=Mainly cytoplasmic, also present in lipid
+CC       rafts. {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Enriched in lymphoid tissues.
+CC   -!- DOMAIN: The architecture of this protein is similar to that of Src-
+CC       family kinases (SFKs) with one N-terminal SH3 domain, one SH2 domain,
+CC       and a C-terminal kinase domain. {ECO:0000250}.
+CC   -!- PTM: Phosphorylated at Ser-364 by PKA, leading to increased activity.
+CC       Autophosphorylated (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. CSK subfamily. {ECO:0000255|PROSITE-ProRule:PRU00159}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X58631; CAA41484.1; -; mRNA.
+DR   EMBL; BC098863; AAH98863.1; -; mRNA.
+DR   PIR; S15094; S15094.
+DR   RefSeq; NP_001025210.1; NM_001030039.1.
+DR   RefSeq; XP_006243225.1; XM_006243163.1.
+DR   RefSeq; XP_006243226.1; XM_006243164.3.
+DR   PDB; 1K9A; X-ray; 2.50 A; A/B/C/D/E/F=1-450.
+DR   PDB; 2RSY; NMR; -; A=80-173.
+DR   PDBsum; 1K9A; -.
+DR   PDBsum; 2RSY; -.
+DR   AlphaFoldDB; P32577; -.
+DR   BMRB; P32577; -.
+DR   SMR; P32577; -.
+DR   BioGRID; 261119; 6.
+DR   ELM; P32577; -.
+DR   IntAct; P32577; 20.
+DR   MINT; P32577; -.
+DR   STRING; 10116.ENSRNOP00000026358; -.
+DR   BindingDB; P32577; -.
+DR   ChEMBL; CHEMBL4365; -.
+DR   iPTMnet; P32577; -.
+DR   PhosphoSitePlus; P32577; -.
+DR   jPOST; P32577; -.
+DR   PaxDb; 10116-ENSRNOP00000026358; -.
+DR   Ensembl; ENSRNOT00000026358.7; ENSRNOP00000026358.5; ENSRNOG00000019374.7.
+DR   Ensembl; ENSRNOT00055051204; ENSRNOP00055042179; ENSRNOG00055029546.
+DR   Ensembl; ENSRNOT00060036569; ENSRNOP00060030095; ENSRNOG00060021015.
+DR   Ensembl; ENSRNOT00065028855; ENSRNOP00065022824; ENSRNOG00065017300.
+DR   GeneID; 315707; -.
+DR   KEGG; rno:315707; -.
+DR   UCSC; RGD:1308800; rat.
+DR   AGR; RGD:1308800; -.
+DR   CTD; 1445; -.
+DR   RGD; 1308800; Csk.
+DR   eggNOG; KOG0197; Eukaryota.
+DR   GeneTree; ENSGT00940000157431; -.
+DR   HOGENOM; CLU_000288_7_2_1; -.
+DR   InParanoid; P32577; -.
+DR   OMA; PTMTTHS; -.
+DR   OrthoDB; 1614410at2759; -.
+DR   PhylomeDB; P32577; -.
+DR   TreeFam; TF351634; -.
+DR   BRENDA; 2.7.10.2; 5301.
+DR   Reactome; R-RNO-180292; GAB1 signalosome.
+DR   Reactome; R-RNO-202427; Phosphorylation of CD3 and TCR zeta chains.
+DR   Reactome; R-RNO-354192; Integrin signaling.
+DR   Reactome; R-RNO-389948; PD-1 signaling.
+DR   Reactome; R-RNO-5674135; MAP2K and MAPK activation.
+DR   Reactome; R-RNO-9013407; RHOH GTPase cycle.
+DR   EvolutionaryTrace; P32577; -.
+DR   PRO; PR:P32577; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000019374; Expressed in spleen and 18 other cell types or tissues.
+DR   GO; GO:0005911; C:cell-cell junction; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004715; F:non-membrane spanning protein tyrosine kinase activity; IBA:GO_Central.
+DR   GO; GO:0070064; F:proline-rich region binding; IPI:BHF-UCL.
+DR   GO; GO:0034236; F:protein kinase A catalytic subunit binding; ISO:RGD.
+DR   GO; GO:0019903; F:protein phosphatase binding; IPI:BHF-UCL.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IDA:RGD.
+DR   GO; GO:1990782; F:protein tyrosine kinase binding; IPI:RGD.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0034332; P:adherens junction organization; IEP:RGD.
+DR   GO; GO:0071375; P:cellular response to peptide hormone stimulus; IDA:RGD.
+DR   GO; GO:0045779; P:negative regulation of bone resorption; IDA:RGD.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; IDA:RGD.
+DR   GO; GO:0070373; P:negative regulation of ERK1 and ERK2 cascade; IDA:RGD.
+DR   GO; GO:0042997; P:negative regulation of Golgi to plasma membrane protein transport; ISO:RGD.
+DR   GO; GO:0032715; P:negative regulation of interleukin-6 production; IDA:RGD.
+DR   GO; GO:0010989; P:negative regulation of low-density lipoprotein particle clearance; IDA:RGD.
+DR   GO; GO:0050765; P:negative regulation of phagocytosis; IDA:RGD.
+DR   GO; GO:0048709; P:oligodendrocyte differentiation; IEP:RGD.
+DR   GO; GO:0060368; P:regulation of Fc receptor mediated stimulatory signaling pathway; IDA:RGD.
+DR   CDD; cd05082; PTKc_Csk; 1.
+DR   CDD; cd09937; SH2_csk_like; 1.
+DR   CDD; cd11769; SH3_CSK; 1.
+DR   Gene3D; 3.30.505.10; SH2 domain; 1.
+DR   Gene3D; 2.30.30.40; SH3 Domains; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR035027; Csk-like_SH2.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR050198; Non-receptor_tyrosine_kinases.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr_kinase_cat_dom.
+DR   InterPro; IPR000980; SH2.
+DR   InterPro; IPR036860; SH2_dom_sf.
+DR   InterPro; IPR036028; SH3-like_dom_sf.
+DR   InterPro; IPR001452; SH3_domain.
+DR   InterPro; IPR008266; Tyr_kinase_AS.
+DR   InterPro; IPR020635; Tyr_kinase_cat_dom.
+DR   PANTHER; PTHR24418; TYROSINE-PROTEIN KINASE; 1.
+DR   PANTHER; PTHR24418:SF407; TYROSINE-PROTEIN KINASE CSK; 1.
+DR   Pfam; PF07714; PK_Tyr_Ser-Thr; 1.
+DR   Pfam; PF00017; SH2; 1.
+DR   Pfam; PF00018; SH3_1; 1.
+DR   PRINTS; PR00401; SH2DOMAIN.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00252; SH2; 1.
+DR   SMART; SM00326; SH3; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   SUPFAM; SSF55550; SH2 domain; 1.
+DR   SUPFAM; SSF50044; SH3-domain; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS50001; SH2; 1.
+DR   PROSITE; PS50002; SH3; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Adaptive immunity; ATP-binding; Cell membrane;
+KW   Cytoplasm; Direct protein sequencing; Immunity; Kinase; Magnesium;
+KW   Manganese; Membrane; Metal-binding; Nucleotide-binding; Phosphoprotein;
+KW   Reference proteome; SH2 domain; SH3 domain; Transferase;
+KW   Tyrosine-protein kinase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P41240"
+FT   CHAIN           2..450
+FT                   /note="Tyrosine-protein kinase CSK"
+FT                   /id="PRO_0000088072"
+FT   DOMAIN          9..70
+FT                   /note="SH3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00192"
+FT   DOMAIN          82..171
+FT                   /note="SH2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00191"
+FT   DOMAIN          195..445
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          9..70
+FT                   /note="Interaction with PTPN22"
+FT                   /evidence="ECO:0000250|UniProtKB:P41240"
+FT   ACT_SITE        314
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10028"
+FT   BINDING         201..209
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         222
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P41240"
+FT   MOD_RES         184
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P41240"
+FT   MOD_RES         304
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P41240"
+FT   MOD_RES         364
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000250|UniProtKB:P41240"
+FT   MOD_RES         416
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P41240"
+FT   STRAND          13..18
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          23..27
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          35..41
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          47..51
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          57..61
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           62..64
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          65..67
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          77..79
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           89..95
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          103..108
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          110..112
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          115..121
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          123..134
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          137..144
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          146..148
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           149..158
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          163..165
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           179..185
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           192..194
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          195..203
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          205..214
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          217..226
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           231..241
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          251..256
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          262..267
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           274..281
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   TURN            283..285
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           288..307
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           317..319
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          320..322
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   STRAND          328..330
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   TURN            350..352
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           355..359
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           365..380
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   TURN            381..383
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   TURN            392..394
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           395..400
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           413..422
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           427..429
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   HELIX           433..445
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+FT   TURN            446..449
+FT                   /evidence="ECO:0007829|PDB:1K9A"
+SQ   SEQUENCE   450 AA;  50746 MW;  393DC8D737DAC67A CRC64;
+     MSAIQASWPS GTECIAKYNF HGTAEQDLPF CKGDVLTIVA VTKDPNWYKA KNKVGREGII
+     PANYVQKREG VKAGTKLSLM PWFHGKITRE QAERLLYPPE TGLFLVREST NYPGDYTLCV
+     SCEGKVEHYR IMYHASKLSI DEEVYFENLM QLVEHYTTDA DGLCTRLIKP KVMEGTVAAQ
+     DEFYRSGWAL NMKELKLLQT IGKGEFGDVM LGDYRGNKVA VKCIKNDATA QAFLAEASVM
+     TQLRHSNLVQ LLGVIVEEKG GLYIVTEYMA KGSLVDYLRS RGRSVLGGDC LLKFSLDVCE
+     AMEYLEGNNF VHRDLAARNV LVSEDNVAKV SDFGLTKEAS STQDTGKLPV KWTAPEALRE
+     KKFSTKSDVW SFGILLWEIY SFGRVPYPRI PLKDVVPRVE KGYKMDAPDG CPPAVYDVMK
+     NCWHLDAATR PTFLQLREQL EHIRTHELHL
+//

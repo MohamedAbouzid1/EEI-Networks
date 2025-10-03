@@ -1,0 +1,322 @@
+ID   CATC_RAT                Reviewed;         462 AA.
+AC   P80067; P80068;
+DT   01-MAY-1992, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 3.
+DT   02-OCT-2024, entry version 187.
+DE   RecName: Full=Dipeptidyl peptidase 1;
+DE            EC=3.4.14.1 {ECO:0000269|PubMed:1740150};
+DE   AltName: Full=Cathepsin C;
+DE   AltName: Full=Cathepsin J;
+DE   AltName: Full=Dipeptidyl peptidase I;
+DE            Short=DPP-I;
+DE            Short=DPPI;
+DE   AltName: Full=Dipeptidyl transferase;
+DE   Contains:
+DE     RecName: Full=Dipeptidyl peptidase 1 exclusion domain chain;
+DE     AltName: Full=Dipeptidyl peptidase I exclusion domain chain;
+DE   Contains:
+DE     RecName: Full=Dipeptidyl peptidase 1 heavy chain;
+DE     AltName: Full=Dipeptidyl peptidase I heavy chain;
+DE   Contains:
+DE     RecName: Full=Dipeptidyl peptidase 1 light chain;
+DE     AltName: Full=Dipeptidyl peptidase I light chain;
+DE   Flags: Precursor;
+GN   Name=Ctsc;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=1885565; DOI=10.1016/s0021-9258(18)55298-4;
+RA   Ishidoh K., Muno D., Sato N., Kominami E.;
+RT   "Molecular cloning of cDNA for rat cathepsin C. Cathepsin C, a cysteine
+RT   proteinase with an extremely long propeptide.";
+RL   J. Biol. Chem. 266:16312-16317(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Kidney;
+RX   PubMed=1515062; DOI=10.1515/bchm3.1992.373.2.367;
+RA   Kominami E., Ishidoh K., Muno D., Sato N.;
+RT   "The primary structure and tissue distribution of cathepsin C.";
+RL   Biol. Chem. Hoppe-Seyler 373:367-373(1992).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 25-47; 230-251 AND 393-427, FUNCTION, CATALYTIC
+RP   ACTIVITY, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Liver;
+RX   PubMed=1740150; DOI=10.1111/j.1432-1033.1992.tb16647.x;
+RA   Nikawa T., Towatari T., Katunuma N.;
+RT   "Purification and characterization of cathepsin J from rat liver.";
+RL   Eur. J. Biochem. 204:381-393(1992).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF 25-462, SUBUNIT, GLYCOSYLATION AT
+RP   ASN-29 AND ASN-275, AND DISULFIDE BONDS.
+RX   PubMed=11602245; DOI=10.1016/s0014-5793(01)02911-8;
+RA   Olsen J.G., Kadziola A., Lauritzen C., Pedersen J., Larsen S., Dahl S.W.;
+RT   "Tetrameric dipeptidyl peptidase I directs substrate specificity by use of
+RT   the residual pro-part domain.";
+RL   FEBS Lett. 506:201-206(2001).
+CC   -!- FUNCTION: Thiol protease (PubMed:1740150). Has dipeptidylpeptidase
+CC       activity (PubMed:1740150). Active against a broad range of dipeptide
+CC       substrates composed of both polar and hydrophobic amino acids. Proline
+CC       cannot occupy the P1 position and arginine cannot occupy the P2
+CC       position of the substrate (PubMed:1740150). Can act as both an
+CC       exopeptidase and endopeptidase (By similarity). Activates serine
+CC       proteases such as elastase, cathepsin G and granzymes A and B (By
+CC       similarity). {ECO:0000250|UniProtKB:P53634,
+CC       ECO:0000269|PubMed:1740150}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of an N-terminal dipeptide, Xaa-Yaa-|-Zaa-, except
+CC         when Xaa is Arg or Lys, or Yaa or Zaa is Pro.; EC=3.4.14.1;
+CC         Evidence={ECO:0000269|PubMed:1740150};
+CC   -!- COFACTOR:
+CC       Name=chloride; Xref=ChEBI:CHEBI:17996;
+CC         Evidence={ECO:0000250|UniProtKB:P53634};
+CC       Note=Binds 1 Cl(-) ion per heavy chain. {ECO:0000250|UniProtKB:P53634};
+CC   -!- SUBUNIT: Tetramer of heterotrimers consisting of exclusion domain,
+CC       heavy- and light chains. {ECO:0000269|PubMed:11602245}.
+CC   -!- SUBCELLULAR LOCATION: Lysosome {ECO:0000269|PubMed:1740150}.
+CC   -!- TISSUE SPECIFICITY: Broadly distributed, but higher levels found in
+CC       liver, spleen, intestine, lung and kidney.
+CC       {ECO:0000269|PubMed:1515062}.
+CC   -!- SIMILARITY: Belongs to the peptidase C1 family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU10088, ECO:0000255|PROSITE-ProRule:PRU10089,
+CC       ECO:0000255|PROSITE-ProRule:PRU10090}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D90404; BAA14400.1; -; mRNA.
+DR   PIR; A41158; A41158.
+DR   RefSeq; NP_058793.1; NM_017097.1.
+DR   PDB; 1JQP; X-ray; 2.40 A; A=25-462.
+DR   PDBsum; 1JQP; -.
+DR   AlphaFoldDB; P80067; -.
+DR   SMR; P80067; -.
+DR   STRING; 10116.ENSRNOP00000022342; -.
+DR   BindingDB; P80067; -.
+DR   ChEMBL; CHEMBL3308944; -.
+DR   GuidetoPHARMACOLOGY; 2344; -.
+DR   MEROPS; C01.070; -.
+DR   GlyCosmos; P80067; 4 sites, No reported glycans.
+DR   GlyGen; P80067; 4 sites.
+DR   iPTMnet; P80067; -.
+DR   PhosphoSitePlus; P80067; -.
+DR   PaxDb; 10116-ENSRNOP00000022342; -.
+DR   Ensembl; ENSRNOT00000022342.6; ENSRNOP00000022342.3; ENSRNOG00000016496.8.
+DR   GeneID; 25423; -.
+DR   KEGG; rno:25423; -.
+DR   AGR; RGD:2445; -.
+DR   CTD; 1075; -.
+DR   RGD; 2445; Ctsc.
+DR   eggNOG; KOG1543; Eukaryota.
+DR   GeneTree; ENSGT00940000155787; -.
+DR   HOGENOM; CLU_048219_0_0_1; -.
+DR   InParanoid; P80067; -.
+DR   OMA; HWDWRNV; -.
+DR   OrthoDB; 5475703at2759; -.
+DR   PhylomeDB; P80067; -.
+DR   TreeFam; TF313225; -.
+DR   BRENDA; 3.4.14.1; 5301.
+DR   Reactome; R-RNO-204005; COPII-mediated vesicle transport.
+DR   Reactome; R-RNO-2132295; MHC class II antigen presentation.
+DR   Reactome; R-RNO-5694530; Cargo concentration in the ER.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   SABIO-RK; P80067; -.
+DR   EvolutionaryTrace; P80067; -.
+DR   PRO; PR:P80067; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000016496; Expressed in liver and 19 other cell types or tissues.
+DR   GO; GO:0005813; C:centrosome; IEA:Ensembl.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0005764; C:lysosome; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0031404; F:chloride ion binding; IDA:RGD.
+DR   GO; GO:0004197; F:cysteine-type endopeptidase activity; IBA:GO_Central.
+DR   GO; GO:0008234; F:cysteine-type peptidase activity; ISO:RGD.
+DR   GO; GO:0008239; F:dipeptidyl-peptidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0042802; F:identical protein binding; IDA:RGD.
+DR   GO; GO:0016505; F:peptidase activator activity involved in apoptotic process; ISO:RGD.
+DR   GO; GO:0019902; F:phosphatase binding; IPI:ParkinsonsUK-UCL.
+DR   GO; GO:0051087; F:protein-folding chaperone binding; IPI:ParkinsonsUK-UCL.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; ISO:RGD.
+DR   GO; GO:0031642; P:negative regulation of myelination; ISO:RGD.
+DR   GO; GO:2001235; P:positive regulation of apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:1903980; P:positive regulation of microglial cell activation; ISO:RGD.
+DR   GO; GO:1903052; P:positive regulation of proteolysis involved in protein catabolic process; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0006508; P:proteolysis; ISO:RGD.
+DR   GO; GO:0051603; P:proteolysis involved in protein catabolic process; IBA:GO_Central.
+DR   GO; GO:0001913; P:T cell mediated cytotoxicity; ISO:RGD.
+DR   CDD; cd02621; Peptidase_C1A_CathepsinC; 1.
+DR   Gene3D; 2.40.128.80; Cathepsin C, exclusion domain; 1.
+DR   Gene3D; 3.90.70.10; Cysteine proteinases; 1.
+DR   InterPro; IPR039412; CatC.
+DR   InterPro; IPR014882; CathepsinC_exc.
+DR   InterPro; IPR036496; CathepsinC_exc_dom_sf.
+DR   InterPro; IPR038765; Papain-like_cys_pep_sf.
+DR   InterPro; IPR025661; Pept_asp_AS.
+DR   InterPro; IPR000169; Pept_cys_AS.
+DR   InterPro; IPR025660; Pept_his_AS.
+DR   InterPro; IPR013128; Peptidase_C1A.
+DR   InterPro; IPR000668; Peptidase_C1A_C.
+DR   PANTHER; PTHR12411; CYSTEINE PROTEASE FAMILY C1-RELATED; 1.
+DR   PANTHER; PTHR12411:SF942; DIPEPTIDYL PEPTIDASE 1; 1.
+DR   Pfam; PF08773; CathepsinC_exc; 1.
+DR   Pfam; PF00112; Peptidase_C1; 1.
+DR   PRINTS; PR00705; PAPAIN.
+DR   SMART; SM00645; Pept_C1; 1.
+DR   SUPFAM; SSF54001; Cysteine proteinases; 1.
+DR   SUPFAM; SSF75001; Dipeptidyl peptidase I (cathepsin C), exclusion domain; 1.
+DR   PROSITE; PS00640; THIOL_PROTEASE_ASN; 1.
+DR   PROSITE; PS00139; THIOL_PROTEASE_CYS; 1.
+DR   PROSITE; PS00639; THIOL_PROTEASE_HIS; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Chloride; Direct protein sequencing; Disulfide bond;
+KW   Glycoprotein; Hydrolase; Lysosome; Protease; Reference proteome; Signal;
+KW   Thiol protease; Zymogen.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000269|PubMed:1740150"
+FT   CHAIN           25..134
+FT                   /note="Dipeptidyl peptidase 1 exclusion domain chain"
+FT                   /evidence="ECO:0000250|UniProtKB:P53634"
+FT                   /id="PRO_0000026350"
+FT   PROPEP          135..229
+FT                   /evidence="ECO:0000250|UniProtKB:P53634"
+FT                   /id="PRO_0000026351"
+FT   CHAIN           230..393
+FT                   /note="Dipeptidyl peptidase 1 heavy chain"
+FT                   /id="PRO_0000026352"
+FT   CHAIN           394..462
+FT                   /note="Dipeptidyl peptidase 1 light chain"
+FT                   /id="PRO_0000026353"
+FT   ACT_SITE        257
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10088"
+FT   ACT_SITE        404
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10089"
+FT   ACT_SITE        426
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10090"
+FT   BINDING         301
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000250|UniProtKB:P53634"
+FT   BINDING         303
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000250|UniProtKB:P53634"
+FT   BINDING         346
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000250|UniProtKB:P53634"
+FT   CARBOHYD        29
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:11602245"
+FT   CARBOHYD        53
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        144
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        275
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:11602245"
+FT   DISULFID        30..118
+FT                   /evidence="ECO:0000269|PubMed:11602245"
+FT   DISULFID        54..136
+FT                   /evidence="ECO:0000269|PubMed:11602245"
+FT   DISULFID        254..297
+FT                   /evidence="ECO:0000269|PubMed:11602245"
+FT   DISULFID        290..330
+FT                   /evidence="ECO:0000269|PubMed:11602245"
+FT   DISULFID        320..336
+FT                   /evidence="ECO:0000269|PubMed:11602245"
+FT   CONFLICT        30
+FT                   /note="C -> E (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        129
+FT                   /note="V -> Y (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        171
+FT                   /note="N -> H (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        191..192
+FT                   /note="EE -> RR (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        263
+FT                   /note="L -> I (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           32..35
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          36..43
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          62..69
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   TURN            70..72
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          73..75
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          77..79
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          81..87
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   TURN            88..90
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          91..96
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          99..110
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          113..121
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          123..128
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          133..141
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          253..255
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   HELIX           257..273
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   TURN            274..276
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   HELIX           284..290
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   HELIX           302..305
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   HELIX           308..312
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          315..317
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   HELIX           318..320
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          338..346
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   HELIX           356..366
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          369..373
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   HELIX           377..380
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          384..387
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          404..413
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   TURN            415..417
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          420..425
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          437..441
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   HELIX           446..448
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+FT   STRAND          454..459
+FT                   /evidence="ECO:0007829|PDB:1JQP"
+SQ   SEQUENCE   462 AA;  52235 MW;  F25F3953AA115D3C CRC64;
+     MGPWTHSLRA ALLLVLLGVC TVSSDTPANC TYPDLLGTWV FQVGPRHPRS HINCSVMEPT
+     EEKVVIHLKK LDTAYDEVGN SGYFTLIYNQ GFEIVLNDYK WFAFFKYEVK GSRAISYCHE
+     TMTGWVHDVL GRNWACFVGK KMANHSEKVY VNVAHLGGLQ EKYSERLYSH NHNFVKAINS
+     VQKSWTATTY EEYEKLSIRD LIRRSGHSGR ILRPKPAPIT DEIQQQILSL PESWDWRNVR
+     GINFVSPVRN QESCGSCYSF ASLGMLEARI RILTNNSQTP ILSPQEVVSC SPYAQGCDGG
+     FPYLIAGKYA QDFGVVEENC FPYTATDAPC KPKENCLRYY SSEYYYVGGF YGGCNEALMK
+     LELVKHGPMA VAFEVHDDFL HYHSGIYHHT GLSDPFNPFE LTNHAVLLVG YGKDPVTGLD
+     YWIVKNSWGS QWGESGYFRI RRGTDECAIE SIAMAAIPIP KL
+//

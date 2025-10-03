@@ -1,0 +1,271 @@
+ID   IVD_RAT                 Reviewed;         424 AA.
+AC   P12007;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1990, sequence version 2.
+DT   24-JUL-2024, entry version 187.
+DE   RecName: Full=Isovaleryl-CoA dehydrogenase, mitochondrial;
+DE            Short=IVD;
+DE            EC=1.3.8.4 {ECO:0000269|PubMed:6401713};
+DE   AltName: Full=Butyryl-CoA dehydrogenase;
+DE            EC=1.3.8.1 {ECO:0000250|UniProtKB:P26440};
+DE   Flags: Precursor;
+GN   Name=Ivd;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 31-61; 66-76; 77-83;
+RP   198-211; 212-230; 231-239 AND 261-272.
+RX   PubMed=2777793; DOI=10.1016/s0021-9258(18)71624-4;
+RA   Matsubara Y., Indo Y., Naito E., Ozasa H., Glassberg R., Vockley J.,
+RA   Ikeda Y., Kraus J., Tanaka K.;
+RT   "Molecular cloning and nucleotide sequence of cDNAs encoding the precursors
+RT   of rat long chain acyl-coenzyme A, short chain acyl-coenzyme A, and
+RT   isovaleryl-coenzyme A dehydrogenases. Sequence homology of four enzymes of
+RT   the acyl-CoA dehydrogenase family.";
+RL   J. Biol. Chem. 264:16321-16331(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-48.
+RX   PubMed=3446585; DOI=10.1016/0888-7543(87)90053-x;
+RA   Kraus J.P., Matsubara Y., Barton D., Yang-Feng T.L., Glassberg R., Ito M.,
+RA   Ikeda Y., Mole J., Francke U., Tanaka K.;
+RT   "Isolation of cDNA clones coding for rat isovaleryl-CoA dehydrogenase and
+RT   assignment of the gene to human chromosome 15.";
+RL   Genomics 1:264-269(1987).
+RN   [4]
+RP   SUBCELLULAR LOCATION, COFACTOR, AND CATALYTIC ACTIVITY.
+RX   PubMed=6401713; DOI=10.1016/s0021-9258(18)33161-2;
+RA   Ikeda Y., Tanaka K.;
+RT   "Purification and characterization of isovaleryl coenzyme A dehydrogenase
+RT   from rat liver mitochondria.";
+RL   J. Biol. Chem. 258:1077-1085(1983).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 119-140; 273-285 AND 400-411, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Hippocampus, and Spinal cord;
+RA   Lubec G., Afjehi-Sadat L., Chen W.-Q.;
+RL   Submitted (APR-2007) to UniProtKB.
+CC   -!- FUNCTION: Catalyzes the conversion of isovaleryl-CoA/3-methylbutanoyl-
+CC       CoA to 3-methylbut-2-enoyl-CoA as an intermediate step in the leucine
+CC       (Leu) catabolic pathway. To a lesser extent, is also able to catalyze
+CC       the oxidation of other saturated short-chain acyl-CoA thioesters as
+CC       pentanoyl-CoA, hexenoyl-CoA and butenoyl-CoA.
+CC       {ECO:0000250|UniProtKB:P26440}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-methylbutanoyl-CoA + H(+) + oxidized [electron-transfer
+CC         flavoprotein] = 3-methyl-(2E)-butenoyl-CoA + reduced [electron-
+CC         transfer flavoprotein]; Xref=Rhea:RHEA:12276, Rhea:RHEA-COMP:10685,
+CC         Rhea:RHEA-COMP:10686, ChEBI:CHEBI:15378, ChEBI:CHEBI:57344,
+CC         ChEBI:CHEBI:57345, ChEBI:CHEBI:57692, ChEBI:CHEBI:58307; EC=1.3.8.4;
+CC         Evidence={ECO:0000269|PubMed:6401713};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + oxidized [electron-transfer flavoprotein] + pentanoyl-
+CC         CoA = (2E)-pentenoyl-CoA + reduced [electron-transfer flavoprotein];
+CC         Xref=Rhea:RHEA:43456, Rhea:RHEA-COMP:10685, Rhea:RHEA-COMP:10686,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57389, ChEBI:CHEBI:57692,
+CC         ChEBI:CHEBI:58307, ChEBI:CHEBI:86160;
+CC         Evidence={ECO:0000250|UniProtKB:P26440};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + hexanoyl-CoA + oxidized [electron-transfer
+CC         flavoprotein] = (2E)-hexenoyl-CoA + reduced [electron-transfer
+CC         flavoprotein]; Xref=Rhea:RHEA:43464, Rhea:RHEA-COMP:10685, Rhea:RHEA-
+CC         COMP:10686, ChEBI:CHEBI:15378, ChEBI:CHEBI:57692, ChEBI:CHEBI:58307,
+CC         ChEBI:CHEBI:62077, ChEBI:CHEBI:62620;
+CC         Evidence={ECO:0000250|UniProtKB:P26440};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=butanoyl-CoA + H(+) + oxidized [electron-transfer
+CC         flavoprotein] = (2E)-butenoyl-CoA + reduced [electron-transfer
+CC         flavoprotein]; Xref=Rhea:RHEA:24004, Rhea:RHEA-COMP:10685, Rhea:RHEA-
+CC         COMP:10686, ChEBI:CHEBI:15378, ChEBI:CHEBI:57332, ChEBI:CHEBI:57371,
+CC         ChEBI:CHEBI:57692, ChEBI:CHEBI:58307; EC=1.3.8.1;
+CC         Evidence={ECO:0000250|UniProtKB:P26440};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000269|PubMed:6401713};
+CC   -!- PATHWAY: Amino-acid degradation; L-leucine degradation; (S)-3-hydroxy-
+CC       3-methylglutaryl-CoA from 3-isovaleryl-CoA: step 1/3.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:P26440}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix
+CC       {ECO:0000269|PubMed:6401713}.
+CC   -!- SIMILARITY: Belongs to the acyl-CoA dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J05031; AAA41454.1; -; mRNA.
+DR   EMBL; BC088401; AAH88401.1; -; mRNA.
+DR   EMBL; M19867; AAA41459.1; -; mRNA.
+DR   PIR; C34252; C34252.
+DR   RefSeq; NP_036724.1; NM_012592.2.
+DR   AlphaFoldDB; P12007; -.
+DR   SMR; P12007; -.
+DR   BioGRID; 246669; 2.
+DR   IntAct; P12007; 2.
+DR   STRING; 10116.ENSRNOP00000013829; -.
+DR   GlyGen; P12007; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; P12007; -.
+DR   PhosphoSitePlus; P12007; -.
+DR   SwissPalm; P12007; -.
+DR   jPOST; P12007; -.
+DR   PaxDb; 10116-ENSRNOP00000013829; -.
+DR   Ensembl; ENSRNOT00000013829.6; ENSRNOP00000013829.3; ENSRNOG00000009421.6.
+DR   Ensembl; ENSRNOT00055004286; ENSRNOP00055003194; ENSRNOG00055002697.
+DR   Ensembl; ENSRNOT00060043516; ENSRNOP00060036064; ENSRNOG00060025127.
+DR   Ensembl; ENSRNOT00065039414; ENSRNOP00065032042; ENSRNOG00065023036.
+DR   GeneID; 24513; -.
+DR   KEGG; rno:24513; -.
+DR   UCSC; RGD:2936; rat.
+DR   AGR; RGD:2936; -.
+DR   CTD; 3712; -.
+DR   RGD; 2936; Ivd.
+DR   eggNOG; KOG0141; Eukaryota.
+DR   GeneTree; ENSGT00940000158100; -.
+DR   HOGENOM; CLU_018204_0_1_1; -.
+DR   InParanoid; P12007; -.
+DR   OMA; CFITNSG; -.
+DR   OrthoDB; 275353at2759; -.
+DR   PhylomeDB; P12007; -.
+DR   TreeFam; TF105050; -.
+DR   BRENDA; 1.3.8.4; 5301.
+DR   Reactome; R-RNO-70895; Branched-chain amino acid catabolism.
+DR   SABIO-RK; P12007; -.
+DR   UniPathway; UPA00363; UER00860.
+DR   PRO; PR:P12007; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000009421; Expressed in heart and 20 other cell types or tissues.
+DR   GO; GO:0005759; C:mitochondrial matrix; IDA:BHF-UCL.
+DR   GO; GO:0031966; C:mitochondrial membrane; IDA:BHF-UCL.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0004085; F:butyryl-CoA dehydrogenase activity; IEA:RHEA.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0008470; F:isovaleryl-CoA dehydrogenase activity; IDA:BHF-UCL.
+DR   GO; GO:0009083; P:branched-chain amino acid catabolic process; ISO:RGD.
+DR   GO; GO:0033539; P:fatty acid beta-oxidation using acyl-CoA dehydrogenase; ISO:RGD.
+DR   GO; GO:0006552; P:L-leucine catabolic process; IDA:BHF-UCL.
+DR   GO; GO:0006551; P:L-leucine metabolic process; TAS:RGD.
+DR   CDD; cd01156; IVD; 1.
+DR   Gene3D; 1.10.540.10; Acyl-CoA dehydrogenase/oxidase, N-terminal domain; 1.
+DR   Gene3D; 2.40.110.10; Butyryl-CoA Dehydrogenase, subunit A, domain 2; 1.
+DR   Gene3D; 1.20.140.10; Butyryl-CoA Dehydrogenase, subunit A, domain 3; 1.
+DR   InterPro; IPR006089; Acyl-CoA_DH_CS.
+DR   InterPro; IPR006091; Acyl-CoA_Oxase/DH_mid-dom.
+DR   InterPro; IPR046373; Acyl-CoA_Oxase/DH_mid-dom_sf.
+DR   InterPro; IPR036250; AcylCo_DH-like_C.
+DR   InterPro; IPR009075; AcylCo_DH/oxidase_C.
+DR   InterPro; IPR013786; AcylCoA_DH/ox_N.
+DR   InterPro; IPR037069; AcylCoA_DH/ox_N_sf.
+DR   InterPro; IPR009100; AcylCoA_DH/oxidase_NM_dom_sf.
+DR   InterPro; IPR034183; IVD.
+DR   PANTHER; PTHR43884; ACYL-COA DEHYDROGENASE; 1.
+DR   PANTHER; PTHR43884:SF12; COMPLEX I ASSEMBLY FACTOR ACAD9, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF00441; Acyl-CoA_dh_1; 1.
+DR   Pfam; PF02770; Acyl-CoA_dh_M; 1.
+DR   Pfam; PF02771; Acyl-CoA_dh_N; 1.
+DR   SUPFAM; SSF47203; Acyl-CoA dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF56645; Acyl-CoA dehydrogenase NM domain-like; 1.
+DR   PROSITE; PS00072; ACYL_COA_DH_1; 1.
+DR   PROSITE; PS00073; ACYL_COA_DH_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; FAD; Flavoprotein; Mitochondrion;
+KW   Oxidoreductase; Reference proteome; Transit peptide.
+FT   TRANSIT         1..30
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000269|PubMed:2777793"
+FT   CHAIN           31..424
+FT                   /note="Isovaleryl-CoA dehydrogenase, mitochondrial"
+FT                   /id="PRO_0000000534"
+FT   ACT_SITE        284
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   BINDING         163..172
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   BINDING         172
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   BINDING         196..198
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   BINDING         220..221
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   BINDING         275
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   BINDING         282..285
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   BINDING         310
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   BINDING         321
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   BINDING         378..382
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   BINDING         405..406
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   BINDING         407..409
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   MOD_RES         56
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JHI5"
+FT   MOD_RES         56
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JHI5"
+FT   MOD_RES         65
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JHI5"
+FT   MOD_RES         65
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JHI5"
+FT   MOD_RES         76
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P26440"
+FT   MOD_RES         76
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JHI5"
+FT   MOD_RES         239
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JHI5"
+FT   MOD_RES         260
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JHI5"
+FT   MOD_RES         260
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JHI5"
+FT   MOD_RES         316
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JHI5"
+SQ   SEQUENCE   424 AA;  46435 MW;  D09FFD0A88EA5791 CRC64;
+     MATAVRLLGR RVSSWRLRPL PSPLAVPQRA HSMLPVDDDI NGLNEEQKQL RHTISKFVQE
+     NLAPKAQEID QSNDFKNLRE FWKQLGSLGV LGITAPVQYG GSGLGYLEHV LVMEEISRAS
+     AAVGLSYGAH SNLCINQIVR NGNEAQKEKY LPKLISGEFI GALAMSEPNA GSDVVSMRLK
+     AEKKGDHYVL NGNKFWITNG PDADVLVVYA KTDLTAVPAS RGITAFIVEK DMPGFSTSKK
+     LDKLGMRGSN TCELVFEDCK VPAANILSQE SKGVYVLMSG LDLERLVLAG GPLGIMQAVL
+     DHTIPYLHVR EAFGQKIGQF QLMQGKMADM YTRLMACRQY VYNVARACDE GHITAKDCAG
+     VILYTAECAT QVALDGIQCL GGNGYINDFP MGRFLRDAKL YEIGGGTSEV RRLVIGRAFN
+     ADFR
+//

@@ -1,0 +1,171 @@
+ID   GPV_RAT                 Reviewed;         567 AA.
+AC   O08770;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1997, sequence version 1.
+DT   24-JUL-2024, entry version 141.
+DE   RecName: Full=Platelet glycoprotein V;
+DE            Short=GPV;
+DE   AltName: Full=Glycoprotein 5;
+DE   AltName: CD_antigen=CD42d;
+DE   Flags: Precursor;
+GN   Name=Gp5;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=9129030;
+RA   Ravanat C., Morales M., Azorsa D.O., Moog S., Schuhler S., Grunert P.,
+RA   Loew D., van Dorsselaer A., Cazenave J.-P., Lanza F.;
+RT   "Gene cloning of rat and mouse platelet glycoprotein V: identification of
+RT   megakaryocyte-specific promoters and demonstration of functional thrombin
+RT   cleavage.";
+RL   Blood 89:3253-3262(1997).
+CC   -!- FUNCTION: The GPIb-V-IX complex functions as the vWF receptor and
+CC       mediates vWF-dependent platelet adhesion to blood vessels. The adhesion
+CC       of platelets to injured vascular surfaces in the arterial circulation
+CC       is a critical initiating event in hemostasis (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z69594; CAA93440.1; -; Genomic_DNA.
+DR   RefSeq; NP_036927.1; NM_012795.2.
+DR   AlphaFoldDB; O08770; -.
+DR   SMR; O08770; -.
+DR   STRING; 10116.ENSRNOP00000047810; -.
+DR   GlyCosmos; O08770; 7 sites, No reported glycans.
+DR   GlyGen; O08770; 7 sites.
+DR   iPTMnet; O08770; -.
+DR   PhosphoSitePlus; O08770; -.
+DR   PaxDb; 10116-ENSRNOP00000047810; -.
+DR   GeneID; 25259; -.
+DR   KEGG; rno:25259; -.
+DR   UCSC; RGD:2724; rat.
+DR   AGR; RGD:2724; -.
+DR   CTD; 2814; -.
+DR   RGD; 2724; Gp5.
+DR   eggNOG; KOG0619; Eukaryota.
+DR   InParanoid; O08770; -.
+DR   OrthoDB; 5300954at2759; -.
+DR   PhylomeDB; O08770; -.
+DR   Reactome; R-RNO-140837; Intrinsic Pathway of Fibrin Clot Formation.
+DR   Reactome; R-RNO-430116; GP1b-IX-V activation signalling.
+DR   Reactome; R-RNO-76009; Platelet Aggregation (Plug Formation).
+DR   PRO; PR:O08770; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0009986; C:cell surface; IDA:MGI.
+DR   GO; GO:1990779; C:glycoprotein Ib-IX-V complex; ISO:RGD.
+DR   GO; GO:0005518; F:collagen binding; ISO:RGD.
+DR   GO; GO:0007596; P:blood coagulation; ISO:RGD.
+DR   GO; GO:0007597; P:blood coagulation, intrinsic pathway; ISO:RGD.
+DR   GO; GO:0007160; P:cell-matrix adhesion; ISO:RGD.
+DR   GO; GO:0035855; P:megakaryocyte development; ISO:RGD.
+DR   GO; GO:0010544; P:negative regulation of platelet activation; ISO:RGD.
+DR   GO; GO:0030168; P:platelet activation; ISO:RGD.
+DR   GO; GO:0010572; P:positive regulation of platelet activation; ISO:RGD.
+DR   GO; GO:0051209; P:release of sequestered calcium ion into cytosol; ISO:RGD.
+DR   Gene3D; 3.80.10.10; Ribonuclease Inhibitor; 3.
+DR   InterPro; IPR000483; Cys-rich_flank_reg_C.
+DR   InterPro; IPR050328; Dev_Immune_Receptor.
+DR   InterPro; IPR001611; Leu-rich_rpt.
+DR   InterPro; IPR003591; Leu-rich_rpt_typical-subtyp.
+DR   InterPro; IPR032675; LRR_dom_sf.
+DR   PANTHER; PTHR24373:SF279; IG-LIKE DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR24373; SLIT RELATED LEUCINE-RICH REPEAT NEURONAL PROTEIN; 1.
+DR   Pfam; PF13855; LRR_8; 4.
+DR   SMART; SM00369; LRR_TYP; 14.
+DR   SMART; SM00082; LRRCT; 1.
+DR   SUPFAM; SSF52058; L domain-like; 2.
+DR   PROSITE; PS51450; LRR; 13.
+PE   3: Inferred from homology;
+KW   Blood coagulation; Cell adhesion; Glycoprotein; Hemostasis;
+KW   Leucine-rich repeat; Membrane; Reference proteome; Repeat; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..16
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           17..567
+FT                   /note="Platelet glycoprotein V"
+FT                   /id="PRO_0000021363"
+FT   TOPO_DOM        17..522
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        523..543
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        544..567
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          17..50
+FT                   /note="LRRNT"
+FT   REPEAT          75..96
+FT                   /note="LRR 1"
+FT   REPEAT          99..120
+FT                   /note="LRR 2"
+FT   REPEAT          123..144
+FT                   /note="LRR 3"
+FT   REPEAT          147..168
+FT                   /note="LRR 4"
+FT   REPEAT          171..193
+FT                   /note="LRR 5"
+FT   REPEAT          195..216
+FT                   /note="LRR 6"
+FT   REPEAT          219..240
+FT                   /note="LRR 7"
+FT   REPEAT          243..264
+FT                   /note="LRR 8"
+FT   REPEAT          267..288
+FT                   /note="LRR 9"
+FT   REPEAT          291..312
+FT                   /note="LRR 10"
+FT   REPEAT          315..337
+FT                   /note="LRR 11"
+FT   REPEAT          340..361
+FT                   /note="LRR 12"
+FT   REPEAT          364..385
+FT                   /note="LRR 13"
+FT   REPEAT          388..409
+FT                   /note="LRR 14"
+FT   DOMAIN          421..474
+FT                   /note="LRRCT"
+FT   REGION          474..499
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        51
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        181
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        243
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        298
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        312
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        385
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        498
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   567 AA;  63345 MW;  CA10708E0D03707F CRC64;
+     MLRSVLLSAV LSLVGAQPFP CPKTCKCVVR DAVQCSGGSV AHIAELGLPT NLTHILLFRM
+     DRGVLQSHSF SGMTVLQRLM LSDSHISAID PGTFNDLVKL KTLRLTRNKI SHLPRAILDK
+     MVLLEQLFLD HNALRDLDQN LFQKLLNLRD LCLNQNQLSF LPANLFSSLG KLKVLDLSRN
+     NLTHLPQGLL GAQIKLEKLL LYSNRLMSLD SGLLANLGAL TELRLERNHL RSIAPGAFDS
+     LGNLSTLTLS GNLLESLPPA LFLHVSWLTR LTLFENPLEE LPEVLFGEMA GLRELWLNGT
+     HLRTLPAAAF RNLSGLQTLG LTRNPLLSAL PPGMFHGLTE LRVLAVHTNA LEELPEDALR
+     GLGRLRQVSL RHNRLRALPR TLFRNLSSLV TVQLEHNQLK TLPGDVFAAL PQLTRVLLGH
+     NPWLCDCGLW PFLQWLRHHL ELLGRDEPPQ CNGPESRASL TFWELLQGDQ WCPSSRGLPP
+     DPPTENALKA PDPTQRPNSS QSWAWVQLVA RGESPDNRFY WNLYILLLIA QATIAGFIVF
+     AMIKIGQLFR TLIREELLFE AMGKSSN
+//

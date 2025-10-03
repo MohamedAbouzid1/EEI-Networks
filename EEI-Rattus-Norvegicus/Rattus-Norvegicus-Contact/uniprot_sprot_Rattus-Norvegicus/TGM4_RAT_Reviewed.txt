@@ -1,0 +1,264 @@
+ID   TGM4_RAT                Reviewed;         667 AA.
+AC   Q99041; Q6NYB5;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   22-SEP-2009, sequence version 2.
+DT   24-JUL-2024, entry version 147.
+DE   RecName: Full=Protein-glutamine gamma-glutamyltransferase 4;
+DE            EC=2.3.2.13;
+DE   AltName: Full=Dorsal prostate transglutaminase;
+DE   AltName: Full=Dorsal protein 1;
+DE            Short=DP1;
+DE   AltName: Full=Transglutaminase-4;
+DE            Short=TGase-4;
+GN   Name=Tgm4; Synonyms=Dp1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, TISSUE SPECIFICITY,
+RP   AND INDUCTION BY ANDROGEN.
+RC   STRAIN=Sprague-Dawley; TISSUE=Prostate;
+RX   PubMed=1352290; DOI=10.1016/s0021-9258(18)42328-9;
+RA   Ho K.-C., Quarmby V.E., French F.S., Wilson E.M.;
+RT   "Molecular cloning of rat prostate transglutaminase complementary DNA. The
+RT   major androgen-regulated protein DP1 of rat dorsal prostate and coagulating
+RT   gland.";
+RL   J. Biol. Chem. 267:12660-12667(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 59-75; 276-288; 313-344 AND 503-511, FUNCTION,
+RP   CATALYTIC ACTIVITY, COFACTOR, SUBCELLULAR LOCATION, GLYCOSYLATION AT
+RP   ASN-408 AND ASN-488, AND GPI-ANCHOR.
+RX   PubMed=8910321; DOI=10.1074/jbc.271.44.27416;
+RA   Esposito C., Pucci P., Amoresano A., Marino G., Cozzolino A., Porta R.;
+RT   "Transglutaminase from rat coagulating gland secretion. Post-translational
+RT   modifications and activation by phosphatidic acids.";
+RL   J. Biol. Chem. 271:27416-27423(1996).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 100-667, AND PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=3309953;
+RA   Ho K.-C., Wilson E.M., French F.S.;
+RT   "Androgen regulated prostate genes: structural analysis and regulation.";
+RL   Prog. Clin. Biol. Res. 239:125-153(1987).
+RN   [5]
+RP   TISSUE SPECIFICITY, SUBUNIT, AND INDUCTION BY ANDROGEN.
+RX   PubMed=7191854; DOI=10.1016/s0021-9258(19)70398-6;
+RA   Wilson E.M., French F.S.;
+RT   "Biochemical homology between rat dorsal prostate and coagulating gland.
+RT   Purification of a major androgen-induced protein.";
+RL   J. Biol. Chem. 255:10946-10953(1980).
+RN   [6]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=6149619; DOI=10.1126/science.6149619;
+RA   Paonessa G., Metafora S., Tajana G., Abrescia P., De Santis A., Gentile V.,
+RA   Porta R.;
+RT   "Transglutaminase-mediated modifications of the rat sperm surface in
+RT   vitro.";
+RL   Science 226:852-855(1984).
+RN   [7]
+RP   CATALYTIC ACTIVITY, SUBCELLULAR LOCATION, GLYCOSYLATION, AND GPI-ANCHOR.
+RX   PubMed=1676601; DOI=10.1016/0167-4838(91)99002-a;
+RA   Seitz J., Keppler C., Huentemann S., Rausch U., Aumueller G.;
+RT   "Purification and molecular characterization of a secretory
+RT   transglutaminase from coagulating gland of the rat.";
+RL   Biochim. Biophys. Acta 1078:139-146(1991).
+CC   -!- FUNCTION: Associated with the mammalian reproductive process. Plays an
+CC       important role in the formation of the seminal coagulum through the
+CC       cross-linking of specific proteins present in the seminal plasma.
+CC       Transglutaminase is also required to stabilize the copulatory plug.
+CC       {ECO:0000269|PubMed:6149619, ECO:0000269|PubMed:8910321}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutaminyl-[protein] + L-lysyl-[protein] = [protein]-L-
+CC         lysyl-N(6)-5-L-glutamyl-[protein] + NH4(+); Xref=Rhea:RHEA:54816,
+CC         Rhea:RHEA-COMP:9752, Rhea:RHEA-COMP:10207, Rhea:RHEA-COMP:14005,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:29969, ChEBI:CHEBI:30011,
+CC         ChEBI:CHEBI:138370; EC=2.3.2.13; Evidence={ECO:0000255|PROSITE-
+CC         ProRule:PRU10024, ECO:0000269|PubMed:1676601,
+CC         ECO:0000269|PubMed:6149619, ECO:0000269|PubMed:8910321};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:8910321};
+CC       Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000269|PubMed:8910321};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:7191854}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:1676601,
+CC       ECO:0000269|PubMed:8910321}. Cell membrane {ECO:0000305}; Lipid-anchor,
+CC       GPI-anchor {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the coagulating gland, the dorsal part
+CC       of the prostate and in semen (at protein level). Expressed at low
+CC       levels in the lateral prostate and seminal vesicle. Not expressed in
+CC       the epididymis, kidney, liver, serum, sperm plug, testes and ventral
+CC       prostate. {ECO:0000269|PubMed:1352290, ECO:0000269|PubMed:7191854}.
+CC   -!- INDUCTION: Androgen dependent, as shown by the decrease in the level of
+CC       the protein following castration. {ECO:0000269|PubMed:1352290,
+CC       ECO:0000269|PubMed:7191854}.
+CC   -!- PTM: The N-terminus is blocked.
+CC   -!- PTM: Probably linked to the cell membrane via a lipid-anchor, possibly
+CC       a GPI-anchor.
+CC   -!- PTM: N-glycosylated on 2 Asn residues by a high mannose oligosaccharide
+CC       consisting of five mannose residues and a fucosylated biantennary
+CC       complex glycan. {ECO:0000269|PubMed:1676601,
+CC       ECO:0000269|PubMed:8910321}.
+CC   -!- SIMILARITY: Belongs to the transglutaminase superfamily.
+CC       Transglutaminase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M90310; AAA42287.1; -; mRNA.
+DR   EMBL; BC066665; AAH66665.1; -; mRNA.
+DR   EMBL; M32725; AAA41092.1; -; mRNA.
+DR   PIR; A42803; A42803.
+DR   RefSeq; NP_073204.2; NM_022713.2.
+DR   AlphaFoldDB; Q99041; -.
+DR   SMR; Q99041; -.
+DR   STRING; 10116.ENSRNOP00000052677; -.
+DR   GlyCosmos; Q99041; 6 sites, No reported glycans.
+DR   GlyGen; Q99041; 6 sites.
+DR   iPTMnet; Q99041; -.
+DR   PhosphoSitePlus; Q99041; -.
+DR   PaxDb; 10116-ENSRNOP00000052677; -.
+DR   GeneID; 64679; -.
+DR   KEGG; rno:64679; -.
+DR   UCSC; RGD:620785; rat.
+DR   AGR; RGD:620785; -.
+DR   CTD; 7047; -.
+DR   RGD; 620785; Tgm4.
+DR   eggNOG; ENOG502QQ46; Eukaryota.
+DR   InParanoid; Q99041; -.
+DR   OrthoDB; 5344745at2759; -.
+DR   PhylomeDB; Q99041; -.
+DR   TreeFam; TF324278; -.
+DR   PRO; PR:Q99041; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0062023; C:collagen-containing extracellular matrix; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0098552; C:side of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003810; F:protein-glutamine gamma-glutamyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0042628; P:mating plug formation; ISO:RGD.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 3.
+DR   Gene3D; 3.90.260.10; Transglutaminase-like; 1.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR038765; Papain-like_cys_pep_sf.
+DR   InterPro; IPR050779; Transglutaminase.
+DR   InterPro; IPR002931; Transglutaminase-like.
+DR   InterPro; IPR036985; Transglutaminase-like_sf.
+DR   InterPro; IPR023608; Transglutaminase_animal.
+DR   InterPro; IPR013808; Transglutaminase_AS.
+DR   InterPro; IPR008958; Transglutaminase_C.
+DR   InterPro; IPR036238; Transglutaminase_C_sf.
+DR   InterPro; IPR001102; Transglutaminase_N.
+DR   PANTHER; PTHR11590; PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11590:SF70; PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE 4; 1.
+DR   Pfam; PF00927; Transglut_C; 1.
+DR   Pfam; PF01841; Transglut_core; 1.
+DR   Pfam; PF00868; Transglut_N; 1.
+DR   PIRSF; PIRSF000459; TGM_EBP42; 1.
+DR   SMART; SM00460; TGc; 1.
+DR   SUPFAM; SSF54001; Cysteine proteinases; 1.
+DR   SUPFAM; SSF81296; E set domains; 1.
+DR   SUPFAM; SSF49309; Transglutaminase, two C-terminal domains; 2.
+DR   PROSITE; PS00547; TRANSGLUTAMINASES; 1.
+PE   1: Evidence at protein level;
+KW   Acyltransferase; Calcium; Cell membrane; Copulatory plug;
+KW   Direct protein sequencing; Glycoprotein; GPI-anchor; Lipoprotein; Membrane;
+KW   Metal-binding; Reference proteome; Secreted; Transferase.
+FT   CHAIN           1..667
+FT                   /note="Protein-glutamine gamma-glutamyltransferase 4"
+FT                   /id="PRO_0000213712"
+FT   REGION          430..449
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        256
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10024"
+FT   ACT_SITE        315
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10024"
+FT   ACT_SITE        338
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10024"
+FT   BINDING         378
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         380
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         430
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         435
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        151
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        220
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        227
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        408
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:8910321"
+FT   CARBOHYD        472
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        488
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:8910321"
+FT   CONFLICT        106
+FT                   /note="D -> N (in Ref. 1; AAA42287)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        128
+FT                   /note="F -> L (in Ref. 1; AAA42287 and 4; AAA41092)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        173..196
+FT                   /note="QFEKYILNCCFRLLTHLEPKEMQS -> RLRSTLELLLPIVDPFGAQGNAE
+FT                   (in Ref. 1; AAA42287 and 4; AAA41092)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        280
+FT                   /note="F -> FGVLTTALRAVGIPARSVTNF (in Ref. 4; AAA41092/AA
+FT                   sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        316
+FT                   /note="M -> V (in Ref. 2; AAH66665)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        366
+FT                   /note="I -> F (in Ref. 1; AAA42287 and 4; AAA41092)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        394..402
+FT                   /note="KNVLIAVET -> RRMSHRCGDC (in Ref. 1; AAA42287 and 4;
+FT                   AAA41092)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        641
+FT                   /note="G -> GN (in Ref. 1; AAA42287 and 4; AAA41092)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   667 AA;  75587 MW;  FE9AED50E4677E59 CRC64;
+     MDSRNMLVVY SVNLEKKLNA AAHHTIEYQT QKLVLRRGQI FSLKVMLNRP LQSHDELKLI
+     FNTGHNMPFY TVELDPMTSY RSKGWQVKIA KQSGVEVVLN VISAADAVVG RYTMNVNEFD
+     AGVFFLLFNP WCSDDSVFMA SEEDRAEYVL NDTGYMYMGF AKQIKEKPWT FGQFEKYILN
+     CCFRLLTHLE PKEMQSPVLV SRAICTMMCA ANNFGVLVGN WTGDYSNGTA PYVWASSVPI
+     LQQHYITRMP VRFGQCWVFS GVLTTALRAV GIPARSVTNF ESAHDTEKNL RVDIYLDESG
+     KTIPHLTKDS VWNFHMWTDA WMKRQDLPQG HDGWQVLDST PQEISEGQFR IGPSPVSAIR
+     QGLVQIMYDT TFVFTEVNGD KYIWLVKQNQ EREKNVLIAV ETASIGKNIS TKMVGENRRQ
+     DITLHYKFPE GSPEERKAME KASGKRPDDK LNSRTLHISV LQNSVELGHP INLTIVLKRK
+     TATPQNVNIS CSLDLQTYTG NKKTNLGVIQ KTVQIQGQES EVSLSMDSSF YIYKLGMVDD
+     EMVIKGFIIA EIVDSGERVA TDTTLCFLYS AFSVEMPSTS KVNQPLTITC NFKNTLPIPL
+     TNIKFSVESL GLNNMKSWEQ ETVPPGKTIN FQIECTPVKT GPRKFIVKFI SRQVKEVHAE
+     KVVLITK
+//

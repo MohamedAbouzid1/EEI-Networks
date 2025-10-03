@@ -1,0 +1,80 @@
+ID   DFB50_RAT               Reviewed;          73 AA.
+AC   Q30KJ2;
+DT   14-OCT-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   24-JAN-2024, entry version 68.
+DE   RecName: Full=Beta-defensin 50;
+DE            Short=BD-50;
+DE   AltName: Full=Defensin, beta 50;
+DE   Flags: Precursor;
+GN   Name=Defb50;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=16033865; DOI=10.1152/physiolgenomics.00104.2005;
+RA   Patil A.A., Cai Y., Sang Y., Blecha F., Zhang G.;
+RT   "Cross-species analysis of the mammalian beta-defensin gene family:
+RT   presence of syntenic gene clusters and preferential expression in the male
+RT   reproductive tract.";
+RL   Physiol. Genomics 23:5-17(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Has bactericidal activity. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the beta-defensin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ012090; AAY59818.1; -; mRNA.
+DR   EMBL; BC168240; AAI68240.1; -; mRNA.
+DR   RefSeq; NP_001032602.1; NM_001037513.1.
+DR   AlphaFoldDB; Q30KJ2; -.
+DR   STRING; 10116.ENSRNOP00000041922; -.
+DR   PaxDb; 10116-ENSRNOP00000041922; -.
+DR   Ensembl; ENSRNOT00000046156.5; ENSRNOP00000041922.3; ENSRNOG00000033972.5.
+DR   Ensembl; ENSRNOT00060036587; ENSRNOP00060030112; ENSRNOG00060021133.
+DR   GeneID; 641639; -.
+DR   KEGG; rno:641639; -.
+DR   UCSC; RGD:1563282; rat.
+DR   AGR; RGD:1563282; -.
+DR   CTD; 387334; -.
+DR   RGD; 1563282; Defb50.
+DR   GeneTree; ENSGT00520000061209; -.
+DR   HOGENOM; CLU_2704193_0_0_1; -.
+DR   InParanoid; Q30KJ2; -.
+DR   OMA; KSVCCMV; -.
+DR   OrthoDB; 4832062at2759; -.
+DR   PRO; PR:Q30KJ2; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000033972; Expressed in thymus and 3 other cell types or tissues.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   InterPro; IPR035193; Defb50.
+DR   Pfam; PF17546; Defb50; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic; Antimicrobial; Defensin; Disulfide bond; Reference proteome;
+KW   Secreted; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..73
+FT                   /note="Beta-defensin 50"
+FT                   /id="PRO_0000352718"
+FT   DISULFID        34..63
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        46..64
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   73 AA;  7900 MW;  7861181462DD6613 CRC64;
+     MKTLHLLLLI SGLLSVFVKG VGSHPGTVHV RFKCIPKIAA VFGDNCPFYG NVDGLCNDKK
+     SVCCMVPVRL DNI
+//

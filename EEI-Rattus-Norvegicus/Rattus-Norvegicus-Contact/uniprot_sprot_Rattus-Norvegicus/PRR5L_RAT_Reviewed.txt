@@ -1,0 +1,101 @@
+ID   PRR5L_RAT               Reviewed;         370 AA.
+AC   A1L1K1;
+DT   29-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   24-JAN-2024, entry version 70.
+DE   RecName: Full=Proline-rich protein 5-like;
+DE   AltName: Full=Protein observed with Rictor-2;
+DE            Short=Protor-2;
+GN   Name=Prr5l; Synonyms=Protor2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Associates with the mTORC2 complex that regulates cellular
+CC       processes including survival and organization of the cytoskeleton.
+CC       Regulates the activity of the mTORC2 complex in a substrate-specific
+CC       manner preventing for instance the specific phosphorylation of PKCs and
+CC       thereby controlling cell migration. Plays a role in the stimulation of
+CC       ZFP36-mediated mRNA decay of several ZFP36-associated mRNAs, such as
+CC       TNF-alpha and GM-CSF, in response to stress. Required for ZFP36
+CC       localization to cytoplasmic stress granule (SG) and P-body (PB) in
+CC       response to stress. {ECO:0000250|UniProtKB:Q6MZQ0}.
+CC   -!- SUBUNIT: Interacts with the mammalian target of rapamycin complex 2
+CC       (mTORC2) which contains MTOR, MLST8, PRR5, RICTOR, MAPKAP1 and DEPTOR.
+CC       Interacts with RFFL. Interacts (via C-terminus) with ZFP36 (via C-
+CC       terminus); this interaction may accelerate ZFP36-mediated mRNA decay
+CC       during stress. Interacts with RICTOR. {ECO:0000250|UniProtKB:Q6MZQ0}.
+CC   -!- PTM: Ubiquitinated. Ubiquitination by RFFL promotes proteasomal
+CC       degradation of PRR5L thereby modifying the substrate-specific activity
+CC       of the mTORC2 complex. Ubiquitination by RFFL is stimulated by
+CC       LPA/lysophosphatidic acid (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PROTOR family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC129104; AAI29105.1; -; mRNA.
+DR   RefSeq; NP_001073619.1; NM_001080150.1.
+DR   AlphaFoldDB; A1L1K1; -.
+DR   SMR; A1L1K1; -.
+DR   STRING; 10116.ENSRNOP00000006291; -.
+DR   PhosphoSitePlus; A1L1K1; -.
+DR   PaxDb; 10116-ENSRNOP00000006291; -.
+DR   GeneID; 362171; -.
+DR   KEGG; rno:362171; -.
+DR   UCSC; RGD:1309969; rat.
+DR   AGR; RGD:1309969; -.
+DR   CTD; 79899; -.
+DR   RGD; 1309969; Prr5l.
+DR   eggNOG; ENOG502QSM7; Eukaryota.
+DR   InParanoid; A1L1K1; -.
+DR   OrthoDB; 5385062at2759; -.
+DR   PhylomeDB; A1L1K1; -.
+DR   PRO; PR:A1L1K1; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0031932; C:TORC2 complex; ISS:UniProtKB.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; ISS:UniProtKB.
+DR   GO; GO:0001933; P:negative regulation of protein phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0009968; P:negative regulation of signal transduction; IEA:UniProtKB-KW.
+DR   GO; GO:0043491; P:phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISO:RGD.
+DR   GO; GO:0090316; P:positive regulation of intracellular protein transport; ISS:UniProtKB.
+DR   GO; GO:0061014; P:positive regulation of mRNA catabolic process; ISS:UniProtKB.
+DR   GO; GO:0051897; P:positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISO:RGD.
+DR   GO; GO:0001934; P:positive regulation of protein phosphorylation; ISO:RGD.
+DR   GO; GO:0010762; P:regulation of fibroblast migration; ISS:UniProtKB.
+DR   GO; GO:0038203; P:TORC2 signaling; ISS:UniProtKB.
+DR   InterPro; IPR013745; Bit61/PRR5.
+DR   PANTHER; PTHR32428:SF3; PROLINE-RICH PROTEIN 5-LIKE; 1.
+DR   PANTHER; PTHR32428; TARGET OF RAPAMYCIN COMPLEX 2 SUBUNIT BIT61-RELATED; 1.
+DR   Pfam; PF08539; HbrB; 1.
+PE   2: Evidence at transcript level;
+KW   Phosphoprotein; Reference proteome; Signal transduction inhibitor;
+KW   Ubl conjugation.
+FT   CHAIN           1..370
+FT                   /note="Proline-rich protein 5-like"
+FT                   /id="PRO_0000332711"
+FT   REGION          327..370
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         28
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:A2AVJ5"
+SQ   SEQUENCE   370 AA;  41162 MW;  38F897C72643884A CRC64;
+     MTRGLAPLLP IEFHKMGSFR RPRPRFMSSP LLSELPRFQA ARQALQLSSN SAWNSVQTAV
+     INVFKGGGLQ SNELYALNES IRRLLKSELG SFITDYFQNQ LLAKGLSFVE EKIKQCEGDN
+     RIEVLAEVWD HFFTETLPTL QAIFYPVQGQ ELTIRQISLL GFRDLVLLKV KLGDLLLLSQ
+     SKLPSSVIQM LLILQSVHEP TGPSEGYLQL EELVKQVVSP FLGLSGDRSC SRPTHSLARR
+     HSRVRPKVTV LNYASLMTTV GRPLNEMVLT PLTEQEGEAY LEKCGSVRRH TVANAHSDIQ
+     LLAMATMMHS GLGEESGSED KHLLLPPTFP PPHRQCSSEP SILDSPDEME LEDVASGSQE
+     DSELNCASLS
+//

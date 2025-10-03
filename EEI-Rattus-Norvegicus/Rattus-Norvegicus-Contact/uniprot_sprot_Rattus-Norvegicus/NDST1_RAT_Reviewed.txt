@@ -1,0 +1,335 @@
+ID   NDST1_RAT               Reviewed;         882 AA.
+AC   Q02353;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   29-MAY-2024, entry version 160.
+DE   RecName: Full=Bifunctional heparan sulfate N-deacetylase/N-sulfotransferase 1 {ECO:0000305|PubMed:8483907};
+DE   AltName: Full=Glucosaminyl N-deacetylase/N-sulfotransferase 1;
+DE            Short=NDST-1;
+DE   AltName: Full=Golgi heparan sulfate N-deacetylase/N-sulfotransferase {ECO:0000303|PubMed:8483907};
+DE   AltName: Full=N-heparan sulfate sulfotransferase 1;
+DE            Short=N-HSST {ECO:0000303|PubMed:1379236};
+DE            Short=N-HSST 1;
+DE   AltName: Full=[Heparan sulfate]-glucosamine N-sulfotransferase 1;
+DE            Short=HSNST 1;
+DE   Includes:
+DE     RecName: Full=Heparan sulfate N-deacetylase 1;
+DE              EC=3.5.1.- {ECO:0000269|PubMed:8483907, ECO:0000269|PubMed:9890952};
+DE   Includes:
+DE     RecName: Full=Heparan sulfate N-sulfotransferase 1;
+DE              EC=2.8.2.8 {ECO:0000269|PubMed:1379236, ECO:0000269|PubMed:3422231, ECO:0000269|PubMed:8483907, ECO:0000269|PubMed:9890952};
+GN   Name=Ndst1 {ECO:0000312|RGD:69303}; Synonyms=Hsst, Hsst1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, FUNCTION, CATALYTIC
+RP   ACTIVITY, AND PATHWAY.
+RC   TISSUE=Liver;
+RX   PubMed=1379236; DOI=10.1016/s0021-9258(19)49598-7;
+RA   Hashimoto Y., Orellana A., Gil G., Hirschberg C.B.;
+RT   "Molecular cloning and expression of rat liver N-heparan sulfate
+RT   sulfotransferase.";
+RL   J. Biol. Chem. 267:15744-15750(1992).
+RN   [2]
+RP   IDENTIFICATION, FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=3422231; DOI=10.1016/s0021-9258(18)69223-3;
+RA   Brandan E., Hirschberg C.B.;
+RT   "Purification of rat liver N-heparan-sulfate sulfotransferase.";
+RL   J. Biol. Chem. 263:2417-2422(1988).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND ACTIVITY REGULATION.
+RX   PubMed=8483907; DOI=10.1073/pnas.90.9.3885;
+RA   Wei Z., Swiedler S.J., Ishihara M., Orellana A., Hirschberg C.B.;
+RT   "A single protein catalyzes both N-deacetylation and N-sulfation during the
+RT   biosynthesis of heparan sulfate.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 90:3885-3889(1993).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, MUTAGENESIS OF
+RP   CYS-56; CYS-159; CYS-486; CYS-586; CYS-601; CYS-751; CYS-818 AND CYS-828,
+RP   AND DISULFIDE BOND.
+RX   PubMed=9890952; DOI=10.1074/jbc.274.4.1966;
+RA   Wei Z., Swiedler S.J.;
+RT   "Functional analysis of conserved cysteines in heparan sulfate N-
+RT   deacetylase-N-sulfotransferases.";
+RL   J. Biol. Chem. 274:1966-1970(1999).
+RN   [5]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=11792394; DOI=10.1016/s0022-1759(01)00546-4;
+RA   Mura C.V., Becker M.I., Orellana A., Wolff D.;
+RT   "Immunopurification of Golgi vesicles by magnetic sorting.";
+RL   J. Immunol. Methods 260:263-271(2002).
+CC   -!- FUNCTION: Essential bifunctional enzyme that catalyzes both the N-
+CC       deacetylation and the N-sulfation of glucosamine (GlcNAc) of the
+CC       glycosaminoglycan in heparan sulfate (PubMed:1379236, PubMed:3422231,
+CC       PubMed:8483907, PubMed:9890952). Modifies the GlcNAc-GlcA disaccharide
+CC       repeating sugar backbone to make N-sulfated heparosan, a prerequisite
+CC       substrate for later modifications in heparin biosynthesis
+CC       (PubMed:1379236, PubMed:3422231). Plays a role in determining the
+CC       extent and pattern of sulfation of heparan sulfate. Participates in
+CC       biosynthesis of heparan sulfate that can ultimately serve as L-selectin
+CC       ligands, thereby playing a role in inflammatory response (By
+CC       similarity). Required for the exosomal release of SDCBP, CD63 and
+CC       syndecan (By similarity). {ECO:0000250|UniProtKB:P52848,
+CC       ECO:0000250|UniProtKB:Q3UHN9, ECO:0000269|PubMed:1379236,
+CC       ECO:0000269|PubMed:3422231, ECO:0000269|PubMed:8483907,
+CC       ECO:0000269|PubMed:9890952}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-acetyl-alpha-D-glucosaminyl-[heparan sulfate](n) =
+CC         acetate + alpha-D-glucosaminyl-[heparan sulfate](n);
+CC         Xref=Rhea:RHEA:70587, Rhea:RHEA-COMP:9830, Rhea:RHEA-COMP:11585,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:30089, ChEBI:CHEBI:58388,
+CC         ChEBI:CHEBI:70974; Evidence={ECO:0000250|UniProtKB:P52848};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70588;
+CC         Evidence={ECO:0000250|UniProtKB:P52848};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3'-phosphoadenylyl sulfate + alpha-D-glucosaminyl-[heparan
+CC         sulfate](n) = adenosine 3',5'-bisphosphate + 2 H(+) + N-sulfo-alpha-
+CC         D-glucosaminyl-[heparan sulfate](n); Xref=Rhea:RHEA:21980, Rhea:RHEA-
+CC         COMP:9830, Rhea:RHEA-COMP:14602, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:58339, ChEBI:CHEBI:58343, ChEBI:CHEBI:58388,
+CC         ChEBI:CHEBI:140572; EC=2.8.2.8; Evidence={ECO:0000269|PubMed:1379236,
+CC         ECO:0000269|PubMed:3422231, ECO:0000269|PubMed:8483907,
+CC         ECO:0000269|PubMed:9890952};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21981;
+CC         Evidence={ECO:0000305|PubMed:1379236};
+CC   -!- ACTIVITY REGULATION: The deacetylase activity is specifically inhibited
+CC       by N-Ethylmaleimide (PubMed:8483907). The sulfotransferase activity is
+CC       specifically inhibited by 3',5'-ADP (PubMed:8483907).
+CC       {ECO:0000269|PubMed:8483907}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=144 uM for K5 polysaccharide (for deacetylase activity)
+CC         {ECO:0000269|PubMed:9890952};
+CC         KM=160 uM for K5 polysaccharide (for sulfotransferase activity)
+CC         {ECO:0000269|PubMed:9890952};
+CC         Vmax=40 umol/min/mg enzyme with K5 polysaccharide as substrate (for
+CC         deacetylase activity) {ECO:0000269|PubMed:9890952};
+CC         Vmax=2104 umol/min/mg enzyme with K5 polysaccharide as substrate (for
+CC         sulfotransferase activity) {ECO:0000269|PubMed:9890952};
+CC   -!- PATHWAY: Glycan metabolism; heparan sulfate biosynthesis.
+CC       {ECO:0000269|PubMed:1379236, ECO:0000269|PubMed:3422231}.
+CC   -!- PATHWAY: Glycan metabolism; heparin biosynthesis.
+CC       {ECO:0000305|PubMed:1379236, ECO:0000305|PubMed:3422231}.
+CC   -!- SUBUNIT: Monomer. Interacts with heparan sulfate co-polymerase subunits
+CC       EXT1 and EXT2. {ECO:0000250|UniProtKB:P52848,
+CC       ECO:0000250|UniProtKB:Q3UHN9}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000269|PubMed:11792394}; Single-pass type II membrane protein
+CC       {ECO:0000255}. Golgi apparatus, trans-Golgi network membrane
+CC       {ECO:0000250|UniProtKB:P52848}; Single-pass type II membrane protein
+CC       {ECO:0000255}. Golgi apparatus, cis-Golgi network membrane
+CC       {ECO:0000250|UniProtKB:P52848}; Single-pass type II membrane protein
+CC       {ECO:0000255}.
+CC   -!- MISCELLANEOUS: The presence of 4 different heparan sulfate N-
+CC       deacetylase/N-sulfotransferase enzymes in mammals, as well as
+CC       differences in their enzyme activity suggest that some initiate heparan
+CC       sulfate modification/sulfation reactions, whereas other later on fill
+CC       in or extend already modified heparan sulfate sequences.
+CC   -!- SIMILARITY: Belongs to the sulfotransferase 1 family. NDST subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M92042; AAA41701.1; -; mRNA.
+DR   PIR; A42855; A42855.
+DR   RefSeq; NP_077337.1; NM_024361.1.
+DR   RefSeq; XP_017456417.1; XM_017600928.1.
+DR   RefSeq; XP_017456418.1; XM_017600929.1.
+DR   RefSeq; XP_017456419.1; XM_017600930.1.
+DR   RefSeq; XP_017456420.1; XM_017600931.1.
+DR   RefSeq; XP_017456421.1; XM_017600932.1.
+DR   RefSeq; XP_017456422.1; XM_017600933.1.
+DR   AlphaFoldDB; Q02353; -.
+DR   SMR; Q02353; -.
+DR   STRING; 10116.ENSRNOP00000025881; -.
+DR   GlyCosmos; Q02353; 4 sites, No reported glycans.
+DR   GlyGen; Q02353; 4 sites.
+DR   PhosphoSitePlus; Q02353; -.
+DR   PaxDb; 10116-ENSRNOP00000025881; -.
+DR   Ensembl; ENSRNOT00000025881.5; ENSRNOP00000025881.3; ENSRNOG00000019014.6.
+DR   Ensembl; ENSRNOT00055025567; ENSRNOP00055020854; ENSRNOG00055014950.
+DR   Ensembl; ENSRNOT00060036810; ENSRNOP00060030321; ENSRNOG00060021258.
+DR   Ensembl; ENSRNOT00065039064; ENSRNOP00065031720; ENSRNOG00065022860.
+DR   GeneID; 29633; -.
+DR   KEGG; rno:29633; -.
+DR   UCSC; RGD:69303; rat.
+DR   AGR; RGD:69303; -.
+DR   CTD; 3340; -.
+DR   RGD; 69303; Ndst1.
+DR   eggNOG; KOG3703; Eukaryota.
+DR   GeneTree; ENSGT00940000157857; -.
+DR   HOGENOM; CLU_011357_2_0_1; -.
+DR   InParanoid; Q02353; -.
+DR   OMA; VGPDCDE; -.
+DR   OrthoDB; 2913264at2759; -.
+DR   PhylomeDB; Q02353; -.
+DR   TreeFam; TF313193; -.
+DR   BRENDA; 2.8.2.8; 5301.
+DR   Reactome; R-RNO-2022928; HS-GAG biosynthesis.
+DR   SABIO-RK; Q02353; -.
+DR   UniPathway; UPA00756; -.
+DR   UniPathway; UPA00862; -.
+DR   PRO; PR:Q02353; -.
+DR   Proteomes; UP000002494; Chromosome 18.
+DR   Bgee; ENSRNOG00000019014; Expressed in lung and 18 other cell types or tissues.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0032588; C:trans-Golgi network membrane; ISS:UniProtKB.
+DR   GO; GO:0015016; F:[heparan sulfate]-glucosamine N-sulfotransferase activity; IDA:UniProtKB.
+DR   GO; GO:0019213; F:deacetylase activity; ISO:RGD.
+DR   GO; GO:0102140; F:heparan sulfate N-deacetylase activity; IDA:UniProtKB.
+DR   GO; GO:0050119; F:N-acetylglucosamine deacetylase activity; ISO:RGD.
+DR   GO; GO:0008146; F:sulfotransferase activity; ISO:RGD.
+DR   GO; GO:0009887; P:animal organ morphogenesis; ISO:RGD.
+DR   GO; GO:0035904; P:aorta development; ISO:RGD.
+DR   GO; GO:0003279; P:cardiac septum development; ISO:RGD.
+DR   GO; GO:0008283; P:cell population proliferation; ISO:RGD.
+DR   GO; GO:0060976; P:coronary vasculature development; ISO:RGD.
+DR   GO; GO:0048702; P:embryonic neurocranium morphogenesis; ISO:RGD.
+DR   GO; GO:0048703; P:embryonic viscerocranium morphogenesis; ISO:RGD.
+DR   GO; GO:0008543; P:fibroblast growth factor receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0030900; P:forebrain development; ISO:RGD.
+DR   GO; GO:0030203; P:glycosaminoglycan metabolic process; ISO:RGD.
+DR   GO; GO:0007507; P:heart development; ISO:RGD.
+DR   GO; GO:0015012; P:heparan sulfate proteoglycan biosynthetic process; IMP:UniProtKB.
+DR   GO; GO:0015014; P:heparan sulfate proteoglycan biosynthetic process, polysaccharide chain biosynthetic process; IDA:UniProtKB.
+DR   GO; GO:0030210; P:heparin biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006954; P:inflammatory response; IEA:UniProtKB-KW.
+DR   GO; GO:0030901; P:midbrain development; ISO:RGD.
+DR   GO; GO:0000271; P:polysaccharide biosynthetic process; ISO:RGD.
+DR   GO; GO:0043410; P:positive regulation of MAPK cascade; ISO:RGD.
+DR   GO; GO:0045880; P:positive regulation of smoothened signaling pathway; ISO:RGD.
+DR   GO; GO:0007585; P:respiratory gaseous exchange by respiratory system; ISO:RGD.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR021930; Heparan_SO4_deacetylase.
+DR   InterPro; IPR037359; NST/OST.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000863; Sulfotransferase_dom.
+DR   PANTHER; PTHR10605:SF30; BIFUNCTIONAL HEPARAN SULFATE N-DEACETYLASE_N-SULFOTRANSFERASE 1; 1.
+DR   PANTHER; PTHR10605; HEPARAN SULFATE SULFOTRANSFERASE; 1.
+DR   Pfam; PF12062; HSNSD; 1.
+DR   Pfam; PF00685; Sulfotransfer_1; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Golgi apparatus;
+KW   Hydrolase; Inflammatory response; Membrane; Multifunctional enzyme;
+KW   Reference proteome; Signal-anchor; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..882
+FT                   /note="Bifunctional heparan sulfate N-deacetylase/N-
+FT                   sulfotransferase 1"
+FT                   /id="PRO_0000085211"
+FT   TOPO_DOM        1..17
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        18..39
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        40..882
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   REGION          1..169
+FT                   /note="Sufficient for localization to Golgi membrane"
+FT                   /evidence="ECO:0000250|UniProtKB:P52848"
+FT   REGION          40..598
+FT                   /note="Heparan sulfate N-deacetylase 1"
+FT   REGION          599..882
+FT                   /note="Heparan sulfate N-sulfotransferase 1"
+FT   ACT_SITE        614
+FT                   /note="For sulfotransferase activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P52848"
+FT   BINDING         614..618
+FT                   /ligand="adenosine 3',5'-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58343"
+FT                   /evidence="ECO:0000250|UniProtKB:P52848"
+FT   BINDING         712
+FT                   /ligand="adenosine 3',5'-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58343"
+FT                   /evidence="ECO:0000250|UniProtKB:P52848"
+FT   BINDING         817
+FT                   /ligand="adenosine 3',5'-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58343"
+FT                   /evidence="ECO:0000250|UniProtKB:P52848"
+FT   BINDING         833..837
+FT                   /ligand="adenosine 3',5'-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58343"
+FT                   /evidence="ECO:0000250|UniProtKB:P52848"
+FT   CARBOHYD        231
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        351
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        401
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        667
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        818..828
+FT                   /evidence="ECO:0000305|PubMed:9890952"
+FT   MUTAGEN         56
+FT                   /note="C->A: Induces a reduction in sulfotransferase
+FT                   activity but does not affect deacetylase activity."
+FT                   /evidence="ECO:0000269|PubMed:9890952"
+FT   MUTAGEN         159
+FT                   /note="C->A: Induces a reduction in sulfotransferase
+FT                   activity but increases deacetylase activity."
+FT                   /evidence="ECO:0000269|PubMed:9890952"
+FT   MUTAGEN         486
+FT                   /note="C->A,V: Does not affect sulfotransferase activity
+FT                   but increases deacetylase activity."
+FT                   /evidence="ECO:0000269|PubMed:9890952"
+FT   MUTAGEN         486
+FT                   /note="C->F: Does not affect sulfotransferase activity but
+FT                   strongly decreases deacetylase activity."
+FT                   /evidence="ECO:0000269|PubMed:9890952"
+FT   MUTAGEN         486
+FT                   /note="C->G: Does not affect sulfotransferase activity but
+FT                   weakly affects deacetylase activity."
+FT                   /evidence="ECO:0000269|PubMed:9890952"
+FT   MUTAGEN         486
+FT                   /note="C->R,W: Does not affect sulfotransferase activity
+FT                   but abolishes deacetylase activity."
+FT                   /evidence="ECO:0000269|PubMed:9890952"
+FT   MUTAGEN         586
+FT                   /note="C->A: Loss of deacetylase and sulfotransferase
+FT                   activities."
+FT                   /evidence="ECO:0000269|PubMed:9890952"
+FT   MUTAGEN         601
+FT                   /note="C->A: Loss of sulfotransferase activity but does not
+FT                   affect deacetylase activity."
+FT                   /evidence="ECO:0000269|PubMed:9890952"
+FT   MUTAGEN         751
+FT                   /note="C->A: Does not affect neither deacetylase nor
+FT                   sulfotransferase activities."
+FT                   /evidence="ECO:0000269|PubMed:9890952"
+FT   MUTAGEN         818
+FT                   /note="C->A: Loss of sulfotransferase activity but does not
+FT                   affect deacetylase activity."
+FT                   /evidence="ECO:0000269|PubMed:9890952"
+FT   MUTAGEN         828
+FT                   /note="C->A: Loss of sulfotransferase activity but does not
+FT                   affect deacetylase activity."
+FT                   /evidence="ECO:0000269|PubMed:9890952"
+SQ   SEQUENCE   882 AA;  100785 MW;  F3AB9263EF6E4345 CRC64;
+     MPALACLRRL CRHLSPQAVL FLLFVFCLFS VFVSAYYLYG WNRGLEPSAD ASESDCGDPP
+     PVAPSRLLPI KPVQAVAPSR TDPLVLVFVE SLYSQLGQEV VAILESSRFK YRTEIAPGKG
+     DMPTLTDKGR GRFALIIYEN ILKYVNLDAW NRELLDKYCV AYGVGIIGFF KANENSLLSA
+     QLKGFPLFLH SNLGLKDCSI NPKSPLLYVT RPSEVEKGVL PGEDWTVFQS NHSTYEPVLL
+     AKTRSSESIP HLGADAGLHA ALHATVVQDL GLHDGIQRVL FGNNLNFWLH KLVFVDAVAF
+     LTGKRLSLPL DRYILVDIDD IFVGKEGTRM KVEDVKALFD TQNELRTHIP NFTFNLGYSG
+     KFFHTGTDAE DAGDDLLLSY VKEFWWFPHM WSHMQPHLFH NQSVLAEQMA LNKKFAVEHG
+     IPTDMGYAVA PHHSGVYPVH VQLYEAWKQV WNIRVTSTEE YPHLKPARYR RGFIHNGIMV
+     LPRQTCGLFT HTIFYNEYPG GSSELDKIIN GGELFLTVLL NPISVFMTHL SNYGNDRLGL
+     YTFKHLVRFL HSWTNLRLQT LPPVQLAQKY FQIFSEEKDP LWQDPCEDKR HKDIWSKEKT
+     CDRFPKLLII GPQKTGTTAL YLFLGMHPDL SSNYPSSETF EEIQFFNGHN YHKGIDWYME
+     FFPIPSNTTS DFYFEKSANY FDSEVAPRRA AALLPKAKVL TILINPADRA YSWYQHQRAH
+     DDPVALKYTF HEVITAGPDA SSKLRALQNR CLVPGWYATH IERWLSAFHA NQILVLDGKL
+     LRTEPAKVMD TVQKFLGVTS TVDYHKTLAF DPKKGFWCQL LEGGKTKCLG KSKGRKYPEM
+     DLDSRAFLKD YYRDHNIELS KLLYKMGQTL PTWLREDLQN TR
+//

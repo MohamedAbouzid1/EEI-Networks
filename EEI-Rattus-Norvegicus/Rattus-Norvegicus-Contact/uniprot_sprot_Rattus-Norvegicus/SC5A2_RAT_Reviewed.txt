@@ -1,0 +1,199 @@
+ID   SC5A2_RAT               Reviewed;         670 AA.
+AC   P53792;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   24-JUL-2024, entry version 135.
+DE   RecName: Full=Sodium/glucose cotransporter 2;
+DE            Short=Na(+)/glucose cotransporter 2;
+DE   AltName: Full=Low affinity sodium-glucose cotransporter;
+DE   AltName: Full=Solute carrier family 5 member 2;
+GN   Name=Slc5a2; Synonyms=Sglt2 {ECO:0000303|PubMed:7493971};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY, TISSUE
+RP   SPECIFICITY, DEVELOPMENTAL STAGE, AND GLYCOSYLATION AT ASN-248.
+RC   STRAIN=Sprague-Dawley; TISSUE=Kidney;
+RX   PubMed=7493971; DOI=10.1074/jbc.270.49.29365;
+RA   You G., Lee W.-S., Barros E.J.G., Kanai Y., Huo T.-L., Khawaja S.,
+RA   Wells R.G., Nigam S.K., Hediger M.A.;
+RT   "Molecular characteristics of Na(+)-coupled glucose transporters in adult
+RT   and embryonic rat kidney.";
+RL   J. Biol. Chem. 270:29365-29371(1995).
+CC   -!- FUNCTION: Electrogenic Na(+)-coupled sugar symporter that actively
+CC       transports D-glucose at the plasma membrane, with a Na(+) to sugar
+CC       coupling ratio of 1:1. Transporter activity is driven by a
+CC       transmembrane Na(+) electrochemical gradient set by the Na(+)/K(+) pump
+CC       (PubMed:7493971). Has a primary role in D-glucose reabsorption from
+CC       glomerular filtrate across the brush border of the early proximal
+CC       tubules of the kidney (By similarity). {ECO:0000250|UniProtKB:Q923I7,
+CC       ECO:0000269|PubMed:7493971}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glucose(out) + Na(+)(out) = D-glucose(in) + Na(+)(in);
+CC         Xref=Rhea:RHEA:70571, ChEBI:CHEBI:4167, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000269|PubMed:7493971};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70572;
+CC         Evidence={ECO:0000305|PubMed:7493971};
+CC   -!- SUBUNIT: Forms a heterodimer with PDZK1IP1; this interaction enhances
+CC       the transporter activity over a hundred-fold.
+CC       {ECO:0000250|UniProtKB:P31639}.
+CC   -!- SUBCELLULAR LOCATION: Apical cell membrane
+CC       {ECO:0000250|UniProtKB:Q923I7}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Kidney, in proximal tubule S1 segments.
+CC       {ECO:0000269|PubMed:7493971}.
+CC   -!- DEVELOPMENTAL STAGE: Appears on embryonic day 17 and gradually
+CC       increases until day 19. Decreases between day 19 and birth.
+CC       {ECO:0000269|PubMed:7493971}.
+CC   -!- PTM: Glycosylated at a single site. {ECO:0000305|PubMed:7493971}.
+CC   -!- SIMILARITY: Belongs to the sodium:solute symporter (SSF) (TC 2.A.21)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U29881; AAC52325.1; -; mRNA.
+DR   RefSeq; NP_072112.2; NM_022590.2.
+DR   AlphaFoldDB; P53792; -.
+DR   SMR; P53792; -.
+DR   STRING; 10116.ENSRNOP00000027265; -.
+DR   BindingDB; P53792; -.
+DR   ChEMBL; CHEMBL4316; -.
+DR   DrugCentral; P53792; -.
+DR   GuidetoPHARMACOLOGY; 916; -.
+DR   GlyCosmos; P53792; 1 site, No reported glycans.
+DR   GlyGen; P53792; 1 site.
+DR   iPTMnet; P53792; -.
+DR   PhosphoSitePlus; P53792; -.
+DR   PaxDb; 10116-ENSRNOP00000027265; -.
+DR   GeneID; 64522; -.
+DR   KEGG; rno:64522; -.
+DR   UCSC; RGD:620217; rat.
+DR   AGR; RGD:620217; -.
+DR   CTD; 6524; -.
+DR   RGD; 620217; Slc5a2.
+DR   eggNOG; KOG2349; Eukaryota.
+DR   InParanoid; P53792; -.
+DR   OrthoDB; 74094at2759; -.
+DR   PhylomeDB; P53792; -.
+DR   Reactome; R-RNO-189200; Cellular hexose transport.
+DR   PRO; PR:P53792; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016324; C:apical plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0031526; C:brush border membrane; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0015151; F:alpha-glucoside transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0055056; F:D-glucose transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0005412; F:glucose:sodium symporter activity; IDA:RGD.
+DR   GO; GO:0000017; P:alpha-glucoside transport; ISO:RGD.
+DR   GO; GO:0098708; P:glucose import across plasma membrane; ISO:RGD.
+DR   GO; GO:1904659; P:glucose transmembrane transport; IDA:RGD.
+DR   GO; GO:0035811; P:negative regulation of urine volume; IMP:RGD.
+DR   GO; GO:0035623; P:renal glucose absorption; ISS:UniProtKB.
+DR   GO; GO:0036359; P:renal potassium excretion; IMP:RGD.
+DR   GO; GO:0098719; P:sodium ion import across plasma membrane; ISO:RGD.
+DR   GO; GO:0006814; P:sodium ion transport; IBA:GO_Central.
+DR   Gene3D; 1.20.1730.10; Sodium/glucose cotransporter; 1.
+DR   InterPro; IPR038377; Na/Glc_symporter_sf.
+DR   InterPro; IPR001734; Na/solute_symporter.
+DR   InterPro; IPR018212; Na/solute_symporter_CS.
+DR   NCBIfam; TIGR00813; sss; 1.
+DR   PANTHER; PTHR11819:SF145; SODIUM_GLUCOSE COTRANSPORTER 2; 1.
+DR   PANTHER; PTHR11819; SOLUTE CARRIER FAMILY 5; 1.
+DR   Pfam; PF00474; SSF; 1.
+DR   PROSITE; PS00456; NA_SOLUT_SYMP_1; 1.
+DR   PROSITE; PS00457; NA_SOLUT_SYMP_2; 1.
+DR   PROSITE; PS50283; NA_SOLUT_SYMP_3; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Glycoprotein; Ion transport; Membrane; Reference proteome;
+KW   Sodium; Sodium transport; Sugar transport; Symport; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..670
+FT                   /note="Sodium/glucose cotransporter 2"
+FT                   /id="PRO_0000105375"
+FT   TOPO_DOM        1..23
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        24..42
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        43..59
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        60..80
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        81..100
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        101..121
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        122..166
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        167..187
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        188..203
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        204..224
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        225..268
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        269..289
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        290..312
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        313..332
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        333..421
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        422..441
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        442..453
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        454..474
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        475..524
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        525..545
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        546..648
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        649..669
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        248
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000305|PubMed:7493971"
+SQ   SEQUENCE   670 AA;  72962 MW;  0609562861618BB3 CRC64;
+     MEGHVEEGSE LGEQKVLIDN PADILVIAAY FLLVIGVGLW SMFRTNRGTV GGYFLAGRSM
+     VWWPVGASLF ASNIGSGHFV GLAGTGAASG LAVAGFEWNA LFVVLLLGWL FVPVYLTAGV
+     ITMPQYLRKR FGGRRIRLYL SVLSLFLYIF TKISVDMFSG AVFIQQALGW NIYASVIALL
+     GITMIYTVTG GLAALMYTDT VQTFVILAGA FILTGYAFHE VGGYSGLFDK YLGAVTSLTV
+     SKDPAVGNIS STCYQPRPDS YHLLRDPVTG GLPWPALLLG LTIVSGWHWC SDQVIVQRCL
+     AGKNLTHIKA GCILCGYLKL MPMFLMVMPG MISRILYPDE VACVVPEVCK RVCGTEVGCS
+     NIAYPRLVVK LMPNGLRGLM LAVMLAALMS SLASIFNSSS TLFTMDIYTR LRPRAGDREL
+     LLVGRLWVVF IVAVSVAWLP VVQAAQGGQL FDYIQSVSSY LAPPVSAVFV LALFVPRVNE
+     KGAFWGLIGG LLMGLARLIP EFFFGTGSCV RPSACPAIFC RVHYLYFAII LFFCSGFLTL
+     AISRCTAPIP QKHLHRLVFS LRHSKEERED LDAEELEGPA PPPVQNGCQE CAMGIEEVQS
+     PAPGLLRQCL LWFCGMSKSG SGSPPPTTEE VAATTRRLED ISEDPSWARV VNLNALLMMT
+     VAVFLWGFYA
+//

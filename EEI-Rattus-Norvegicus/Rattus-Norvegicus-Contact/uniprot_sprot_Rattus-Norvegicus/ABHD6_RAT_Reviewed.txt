@@ -1,0 +1,230 @@
+ID   ABHD6_RAT               Reviewed;         337 AA.
+AC   Q5XI64;
+DT   20-MAR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   24-JUL-2024, entry version 121.
+DE   RecName: Full=Monoacylglycerol lipase ABHD6 {ECO:0000305};
+DE            EC=3.1.1.23 {ECO:0000250|UniProtKB:Q9BV23};
+DE   AltName: Full=2-arachidonoylglycerol hydrolase {ECO:0000250|UniProtKB:Q8R2Y0};
+DE   AltName: Full=Abhydrolase domain-containing protein 6 {ECO:0000312|RGD:1359323};
+GN   Name=Abhd6 {ECO:0000312|RGD:1359323};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 245-254, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RA   Lubec G., Kang S.U., Lubec S.;
+RL   Submitted (SEP-2007) to UniProtKB.
+CC   -!- FUNCTION: Lipase that preferentially hydrolysis medium-chain saturated
+CC       monoacylglycerols including 2-arachidonoylglycerol (By similarity).
+CC       Through 2-arachidonoylglycerol degradation may regulate endocannabinoid
+CC       signaling pathways. Also has a lysophosphatidyl lipase activity with a
+CC       preference for lysophosphatidylglycerol among other lysophospholipids
+CC       (By similarity). Also able to degrade bis(monoacylglycero)phosphate
+CC       (BMP) and constitutes the major enzyme for BMP catabolism. BMP, also
+CC       known as lysobisphosphatidic acid, is enriched in late endosomes and
+CC       lysosomes and plays a key role in the formation of intraluminal
+CC       vesicles and in lipid sorting (By similarity).
+CC       {ECO:0000250|UniProtKB:Q8R2Y0, ECO:0000250|UniProtKB:Q9BV23}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolyzes glycerol monoesters of long-chain fatty acids.;
+CC         EC=3.1.1.23; Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octanoylglycerol + H2O = glycerol + H(+) + octanoate;
+CC         Xref=Rhea:RHEA:44328, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17754, ChEBI:CHEBI:25646, ChEBI:CHEBI:85241;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-decanoylglycerol + H2O = decanoate + glycerol + H(+);
+CC         Xref=Rhea:RHEA:44320, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17754, ChEBI:CHEBI:27689, ChEBI:CHEBI:75547;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-dodecanoylglycerol + H2O = dodecanoate + glycerol + H(+);
+CC         Xref=Rhea:RHEA:44316, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17754, ChEBI:CHEBI:18262, ChEBI:CHEBI:75539;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-tetradecanoylglycerol + H2O = glycerol + H(+) +
+CC         tetradecanoate; Xref=Rhea:RHEA:44312, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17754, ChEBI:CHEBI:30807,
+CC         ChEBI:CHEBI:75562; Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-hexadecanoylglycerol + H2O = glycerol + H(+) +
+CC         hexadecanoate; Xref=Rhea:RHEA:39963, ChEBI:CHEBI:7896,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:17754,
+CC         ChEBI:CHEBI:75455; Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(9Z-octadecenoyl)-glycerol + H2O = (9Z)-octadecenoate +
+CC         glycerol + H(+); Xref=Rhea:RHEA:38491, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17754, ChEBI:CHEBI:30823,
+CC         ChEBI:CHEBI:73990; Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z-octadecenoyl)-glycerol + H2O = (9Z)-octadecenoate +
+CC         glycerol + H(+); Xref=Rhea:RHEA:38487, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17754, ChEBI:CHEBI:30823,
+CC         ChEBI:CHEBI:75342; Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(9Z,12Z-octadecadienoyl)-glycerol + H2O = (9Z,12Z)-
+CC         octadecadienoate + glycerol + H(+); Xref=Rhea:RHEA:44732,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:17754,
+CC         ChEBI:CHEBI:30245, ChEBI:CHEBI:75457;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-glycerol + H2O =
+CC         (5Z,8Z,11Z,14Z)-eicosatetraenoate + glycerol + H(+);
+CC         Xref=Rhea:RHEA:26132, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17754, ChEBI:CHEBI:32395, ChEBI:CHEBI:52392;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-glycerol + H2O =
+CC         (5Z,8Z,11Z,14Z)-eicosatetraenoate + glycerol + H(+);
+CC         Xref=Rhea:RHEA:44728, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17754, ChEBI:CHEBI:32395, ChEBI:CHEBI:75612;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z,12Z-octadecadienoyl)-glycerol + H2O = (9Z,12Z)-
+CC         octadecadienoate + glycerol + H(+); Xref=Rhea:RHEA:48428,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:17754,
+CC         ChEBI:CHEBI:30245, ChEBI:CHEBI:75568;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-(9Z-octadecenoyl)-sn-glycero-1-phospho-(3'-(9Z-
+CC         octadecenoyl)-1'-sn-glycerol) + H2O = (9Z)-octadecenoate + 3-(9Z-
+CC         octadecenoyl)-sn-glycero-1-phospho-(1'-sn-glycerol) + H(+);
+CC         Xref=Rhea:RHEA:55712, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30823, ChEBI:CHEBI:139150, ChEBI:CHEBI:139152;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BV23};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S,S)-2-(9Z-octadecenoyl)-sn-glycero-1-phospho-(2'-(9Z-
+CC         octadecenoyl)-1'-sn-glycerol) + H2O = (9Z)-octadecenoate + (S,S)-2-
+CC         (9Z-octadecenoyl)-sn-glycero-1-phospho-(1'-sn-glycerol) + H(+);
+CC         Xref=Rhea:RHEA:55716, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30823, ChEBI:CHEBI:139156, ChEBI:CHEBI:139157;
+CC         Evidence={ECO:0000250|UniProtKB:Q8R2Y0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R,R)-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(2'-(9Z-
+CC         octadecenoyl)-3'-sn-glycerol) + H2O = (9Z)-octadecenoate + (R,R)-2-
+CC         (9Z-octadecenoyl)-sn-glycero-3-phospho-(3'-sn-glycerol) + H(+);
+CC         Xref=Rhea:RHEA:55804, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30823, ChEBI:CHEBI:139228, ChEBI:CHEBI:139230;
+CC         Evidence={ECO:0000250|UniProtKB:Q8R2Y0};
+CC   -!- SUBCELLULAR LOCATION: Late endosome membrane
+CC       {ECO:0000250|UniProtKB:Q8R2Y0}; Single-pass type II membrane protein
+CC       {ECO:0000255}. Lysosome membrane {ECO:0000250|UniProtKB:Q8R2Y0};
+CC       Single-pass type II membrane protein {ECO:0000255}. Mitochondrion
+CC       membrane {ECO:0000250|UniProtKB:Q8R2Y0}; Single-pass type II membrane
+CC       protein {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the AB hydrolase superfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC083826; AAH83826.1; -; mRNA.
+DR   RefSeq; NP_001007681.1; NM_001007680.1.
+DR   RefSeq; XP_006251828.1; XM_006251766.3.
+DR   RefSeq; XP_006251829.1; XM_006251767.3.
+DR   RefSeq; XP_006251830.1; XM_006251768.3.
+DR   AlphaFoldDB; Q5XI64; -.
+DR   SMR; Q5XI64; -.
+DR   CORUM; Q5XI64; -.
+DR   STRING; 10116.ENSRNOP00000074573; -.
+DR   ChEMBL; CHEMBL3708569; -.
+DR   GuidetoPHARMACOLOGY; 2919; -.
+DR   ESTHER; rat-abhd6; ABHD6-Lip.
+DR   PhosphoSitePlus; Q5XI64; -.
+DR   jPOST; Q5XI64; -.
+DR   PaxDb; 10116-ENSRNOP00000012271; -.
+DR   Ensembl; ENSRNOT00000012271.5; ENSRNOP00000012271.3; ENSRNOG00000008167.6.
+DR   GeneID; 305795; -.
+DR   KEGG; rno:305795; -.
+DR   AGR; RGD:1359323; -.
+DR   CTD; 57406; -.
+DR   RGD; 1359323; Abhd6.
+DR   eggNOG; KOG1454; Eukaryota.
+DR   GeneTree; ENSGT00510000047225; -.
+DR   InParanoid; Q5XI64; -.
+DR   OMA; NAMWQYS; -.
+DR   OrthoDB; 45773at2759; -.
+DR   PhylomeDB; Q5XI64; -.
+DR   TreeFam; TF331946; -.
+DR   Reactome; R-RNO-426048; Arachidonate production from DAG.
+DR   PRO; PR:Q5XI64; -.
+DR   Proteomes; UP000002494; Chromosome 15.
+DR   Bgee; ENSRNOG00000008167; Expressed in jejunum and 20 other cell types or tissues.
+DR   GO; GO:0032281; C:AMPA glutamate receptor complex; ISO:RGD.
+DR   GO; GO:0098982; C:GABA-ergic synapse; ISO:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0031902; C:late endosome membrane; ISS:UniProtKB.
+DR   GO; GO:0005765; C:lysosomal membrane; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0031966; C:mitochondrial membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0045211; C:postsynaptic membrane; ISO:RGD.
+DR   GO; GO:0047372; F:acylglycerol lipase activity; ISS:UniProtKB.
+DR   GO; GO:0004620; F:phospholipase activity; ISO:RGD.
+DR   GO; GO:0046464; P:acylglycerol catabolic process; ISS:UniProtKB.
+DR   GO; GO:0060292; P:long-term synaptic depression; ISO:RGD.
+DR   GO; GO:2001311; P:lysobisphosphatidic acid metabolic process; ISS:UniProtKB.
+DR   GO; GO:0052651; P:monoacylglycerol catabolic process; ISS:UniProtKB.
+DR   GO; GO:0030336; P:negative regulation of cell migration; ISO:RGD.
+DR   GO; GO:0120163; P:negative regulation of cold-induced thermogenesis; ISS:YuBioLab.
+DR   GO; GO:0009395; P:phospholipid catabolic process; ISO:RGD.
+DR   GO; GO:0046889; P:positive regulation of lipid biosynthetic process; ISO:RGD.
+DR   GO; GO:2000124; P:regulation of endocannabinoid signaling pathway; ISO:RGD.
+DR   GO; GO:0099178; P:regulation of retrograde trans-synaptic signaling by endocanabinoid; ISO:RGD.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR000073; AB_hydrolase_1.
+DR   InterPro; IPR050266; AB_hydrolase_sf.
+DR   InterPro; IPR000639; Epox_hydrolase-like.
+DR   PANTHER; PTHR43798; MONOACYLGLYCEROL LIPASE; 1.
+DR   PANTHER; PTHR43798:SF5; MONOACYLGLYCEROL LIPASE ABHD6; 1.
+DR   Pfam; PF00561; Abhydrolase_1; 1.
+DR   PRINTS; PR00111; ABHYDROLASE.
+DR   PRINTS; PR00412; EPOXHYDRLASE.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Endosome; Hydrolase; Lipid metabolism; Lysosome;
+KW   Membrane; Mitochondrion; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..337
+FT                   /note="Monoacylglycerol lipase ABHD6"
+FT                   /id="PRO_0000281577"
+FT   TOPO_DOM        1..8
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        9..29
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        30..337
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        148
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99685"
+FT   ACT_SITE        278
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99685"
+FT   ACT_SITE        306
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99685"
+SQ   SEQUENCE   337 AA;  38312 MW;  BDE7B746E276023E CRC64;
+     MDLDVVNMFV IAGGTLAIPI LAFVASFLLW PSALIRIYYW YWRRTLGMQV RYVHHEDYQF
+     CYSFRGRPGH KPSVLMLHGF SAHKDMWLSV VKFLPKNLHL VCVDMPGHEG TTRSSLDDLS
+     IVGQVKRIHQ FVECLKLNKK PFHLIGTSMG GNVAGVYAAY YPSDVCSLSL VCPAGLQYST
+     DNRFVQRLKE LEDSAATQKI PLIPSTPEEM SEMLQLCSYV RFKVPQQILQ GLVDVRIPHN
+     SFYRKLFLEI VSEKSRYSLH ENMDKIKVPT QIIWGKQDQV LDVSGADILA KSITNSQVEV
+     LENCGHSVVM ERPRKTAKLV VDFLASVHNP DNNKKLN
+//

@@ -1,0 +1,365 @@
+ID   SRCN1_RAT               Reviewed;        1197 AA.
+AC   Q9QXY2; Q9QXY3;
+DT   16-FEB-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   24-JUL-2024, entry version 142.
+DE   RecName: Full=SRC kinase signaling inhibitor 1 {ECO:0000305};
+DE   AltName: Full=SNAP-25-interacting protein;
+DE            Short=SNIP;
+DE   AltName: Full=p130Cas-associated protein;
+DE   AltName: Full=p140Cap {ECO:0000303|PubMed:18662323};
+GN   Name=Srcin1 {ECO:0000312|RGD:708439};
+GN   Synonyms=P140 {ECO:0000303|PubMed:18662323},
+GN   Snip {ECO:0000303|PubMed:22673903};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116 {ECO:0000312|EMBL:AAF25004.1};
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), FUNCTION, SUBCELLULAR
+RP   LOCATION, TISSUE SPECIFICITY, AND INTERACTION WITH SNAP25.
+RX   PubMed=10625663; DOI=10.1074/jbc.275.2.1191;
+RA   Chin L.-S., Nugent R.D., Raynor M.C., Vavalle J.P., Li L.;
+RT   "SNIP, a novel SNAP-25-interacting protein implicated in regulated
+RT   exocytosis.";
+RL   J. Biol. Chem. 275:1191-1200(2000).
+RN   [2]
+RP   INTERACTION WITH SORBS3, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, AND
+RP   DEVELOPMENTAL STAGE.
+RX   PubMed=18662323; DOI=10.1111/j.1471-4159.2008.05585.x;
+RA   Ito H., Atsuzawa K., Sudo K., Di Stefano P., Iwamoto I., Morishita R.,
+RA   Takei S., Semba R., Defilippi P., Asano T., Usuda N., Nagata K.;
+RT   "Characterization of a multidomain adaptor protein, p140Cap, as part of a
+RT   pre-synaptic complex.";
+RL   J. Neurochem. 107:61-72(2008).
+RN   [3]
+RP   FUNCTION, INTERACTION WITH MAPRE3, AND SUBCELLULAR LOCATION.
+RX   PubMed=19146815; DOI=10.1016/j.neuron.2008.11.013;
+RA   Jaworski J., Kapitein L.C., Gouveia S.M., Dortland B.R., Wulf P.S.,
+RA   Grigoriev I., Camera P., Spangler S.A., Di Stefano P., Demmers J.,
+RA   Krugers H., Defilippi P., Akhmanova A., Hoogenraad C.C.;
+RT   "Dynamic microtubules regulate dendritic spine morphology and synaptic
+RT   plasticity.";
+RL   Neuron 61:85-100(2009).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-98; SER-178; SER-200;
+RP   SER-204; SER-260; SER-378; SER-547; SER-556; SER-900; SER-1021 AND
+RP   SER-1077, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Acts as a negative regulator of SRC by activating CSK which
+CC       inhibits SRC activity and downstream signaling, leading to impaired
+CC       cell spreading and migration. Regulates dendritic spine morphology.
+CC       Involved in calcium-dependent exocytosis. May play a role in
+CC       neurotransmitter release or synapse maintenance.
+CC       {ECO:0000269|PubMed:10625663, ECO:0000269|PubMed:19146815}.
+CC   -!- SUBUNIT: Interacts with BCAR1/p130Cas through its C-terminal domain and
+CC       with CSK, CTTN and SRC (By similarity). Also interacts with MAPRE3/EB3,
+CC       SORBS3/vinexin and the N-terminal coiled-coil region of SNAP25.
+CC       {ECO:0000250, ECO:0000269|PubMed:10625663, ECO:0000269|PubMed:18662323,
+CC       ECO:0000269|PubMed:19146815}.
+CC   -!- INTERACTION:
+CC       Q9QXY2; P60881: Snap25; NbExp=3; IntAct=EBI-1394088, EBI-1027214;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Cytoplasm, cytoskeleton
+CC       {ECO:0000269|PubMed:22673903}. Cell projection, axon. Cell projection,
+CC       dendrite {ECO:0000269|PubMed:19146815}. Presynapse
+CC       {ECO:0000269|PubMed:18662323}. Postsynapse
+CC       {ECO:0000269|PubMed:18662323, ECO:0000269|PubMed:19146815}.
+CC       Postsynaptic density {ECO:0000269|PubMed:19146815}. Note=Localized to
+CC       the perinuclear region, lamellopodia, cortical actin and actin stress
+CC       fibers but not to focal adhesions. Strongly expressed in axons and
+CC       dendrites of the CA1 and CA3 hippocampal regions and of the dentate
+CC       gyrus. Detected in both presynapses and postsynapses and enriched in
+CC       postsynaptic density fractions. {ECO:0000269|PubMed:18662323,
+CC       ECO:0000269|PubMed:19146815, ECO:0000269|PubMed:22673903}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1 {ECO:0000269|PubMed:10625663}; Synonyms=SNIP-b
+CC       {ECO:0000303|PubMed:10625663};
+CC         IsoId=Q9QXY2-1; Sequence=Displayed;
+CC       Name=2 {ECO:0000269|PubMed:10625663}; Synonyms=SNIP-a
+CC       {ECO:0000303|PubMed:10625663};
+CC         IsoId=Q9QXY2-2; Sequence=VSP_050633;
+CC   -!- TISSUE SPECIFICITY: Expressed exclusively in brain. Abundant in
+CC       telencephalon and expressed moderately in cerebellum, hypothalamus,
+CC       thalamus, superior and inferior colliculi, and olfactory bulb. No
+CC       expression detected in medulla oblongata, spinal cord or pituitary
+CC       gland. Enriched in the neuropil rather than soma in the thalamus,
+CC       corpus striatum and cerebral cortex. Detected in astrocytes.
+CC       {ECO:0000269|PubMed:10625663, ECO:0000269|PubMed:18662323}.
+CC   -!- DEVELOPMENTAL STAGE: In the embryo, expression increases dramatically
+CC       between 14.5 dpc and 18.5 dpc (at protein level).
+CC       {ECO:0000269|PubMed:18662323}.
+CC   -!- PTM: Tyrosine-phosphorylated in response to EGF and to cell adhesion to
+CC       integrin ligands. {ECO:0000250|UniProtKB:Q9C0H9}.
+CC   -!- SIMILARITY: Belongs to the SRCIN1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF156981; AAF25003.1; -; mRNA.
+DR   EMBL; AF156982; AAF25004.1; -; mRNA.
+DR   RefSeq; NP_062251.1; NM_019378.1. [Q9QXY2-1]
+DR   AlphaFoldDB; Q9QXY2; -.
+DR   SMR; Q9QXY2; -.
+DR   BioGRID; 248555; 7.
+DR   IntAct; Q9QXY2; 7.
+DR   MINT; Q9QXY2; -.
+DR   STRING; 10116.ENSRNOP00000016070; -.
+DR   GlyGen; Q9QXY2; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; Q9QXY2; -.
+DR   PhosphoSitePlus; Q9QXY2; -.
+DR   SwissPalm; Q9QXY2; -.
+DR   PaxDb; 10116-ENSRNOP00000016070; -.
+DR   GeneID; 56029; -.
+DR   KEGG; rno:56029; -.
+DR   UCSC; RGD:708439; rat. [Q9QXY2-1]
+DR   AGR; RGD:708439; -.
+DR   CTD; 80725; -.
+DR   RGD; 708439; Srcin1.
+DR   VEuPathDB; HostDB:ENSRNOG00000011475; -.
+DR   eggNOG; ENOG502QPNH; Eukaryota.
+DR   HOGENOM; CLU_002507_0_0_1; -.
+DR   InParanoid; Q9QXY2; -.
+DR   OrthoDB; 5400282at2759; -.
+DR   PhylomeDB; Q9QXY2; -.
+DR   PRO; PR:Q9QXY2; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000011475; Expressed in frontal cortex and 17 other cell types or tissues.
+DR   GO; GO:0015629; C:actin cytoskeleton; IDA:RGD.
+DR   GO; GO:0030424; C:axon; IDA:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0030425; C:dendrite; IDA:UniProtKB.
+DR   GO; GO:0030175; C:filopodium; IDA:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0030027; C:lamellipodium; IDA:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0098794; C:postsynapse; IDA:SynGO.
+DR   GO; GO:0014069; C:postsynaptic density; IDA:UniProtKB.
+DR   GO; GO:0098793; C:presynapse; IDA:SynGO.
+DR   GO; GO:0045202; C:synapse; IDA:UniProtKB.
+DR   GO; GO:0019904; F:protein domain specific binding; IDA:RGD.
+DR   GO; GO:0019901; F:protein kinase binding; ISS:UniProtKB.
+DR   GO; GO:0006887; P:exocytosis; IEA:UniProtKB-KW.
+DR   GO; GO:0007162; P:negative regulation of cell adhesion; ISO:RGD.
+DR   GO; GO:0050709; P:negative regulation of protein secretion; IMP:RGD.
+DR   GO; GO:0061099; P:negative regulation of protein tyrosine kinase activity; ISS:UniProtKB.
+DR   GO; GO:0061098; P:positive regulation of protein tyrosine kinase activity; ISS:UniProtKB.
+DR   GO; GO:0098974; P:postsynaptic actin cytoskeleton organization; ISO:RGD.
+DR   GO; GO:0030334; P:regulation of cell migration; ISS:UniProtKB.
+DR   GO; GO:0061001; P:regulation of dendritic spine morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0051963; P:regulation of synapse assembly; ISO:RGD.
+DR   GO; GO:0034446; P:substrate adhesion-dependent cell spreading; ISS:UniProtKB.
+DR   Gene3D; 1.20.58.1540; Actin interacting protein 3, C-terminal domain; 1.
+DR   InterPro; IPR022782; AIP3-like_C.
+DR   InterPro; IPR051825; SRCIN1.
+DR   PANTHER; PTHR22741; P140CAP/SNIP-RELATED; 1.
+DR   PANTHER; PTHR22741:SF5; SRC KINASE SIGNALING INHIBITOR 1; 1.
+DR   Pfam; PF03915; AIP3; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell projection; Coiled coil; Cytoplasm;
+KW   Cytoskeleton; Exocytosis; Methylation; Phosphoprotein; Reference proteome;
+KW   Synapse.
+FT   CHAIN           1..1197
+FT                   /note="SRC kinase signaling inhibitor 1"
+FT                   /id="PRO_0000072013"
+FT   REGION          19..80
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          319..415
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          501..676
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          681..731
+FT                   /note="Interaction with SNAP25"
+FT                   /evidence="ECO:0000269|PubMed:10625663"
+FT   REGION          891..949
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          983..1065
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1141..1163
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          688..708
+FT                   /evidence="ECO:0000255"
+FT   COILED          760..780
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        20..41
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        323..343
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        518..532
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        534..570
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        631..658
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1015..1030
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1033..1047
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1048..1063
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         47
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         52
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         79
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9C0H9"
+FT   MOD_RES         86
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9C0H9"
+FT   MOD_RES         87
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9C0H9"
+FT   MOD_RES         98
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         178
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         200
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         204
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         214
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         260
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         276
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         333
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         342
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         359
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         364
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         371
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         378
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         397
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         399
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9C0H9"
+FT   MOD_RES         431
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         527
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         530
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         534
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         535
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         537
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         547
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         549
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         551
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         556
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         631
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         655
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         658
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         671
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         878
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   MOD_RES         900
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         918
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9C0H9"
+FT   MOD_RES         1021
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1077
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1094
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QWI6"
+FT   VAR_SEQ         1174..1197
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:10625663"
+FT                   /id="VSP_050633"
+SQ   SEQUENCE   1197 AA;  129744 MW;  8C9A2E630FB31C33 CRC64;
+     MQPWQCLRRF ALAWWERTAE GRARSPREEV GPRDPGGRGE PDPERSSPPM LSADDAEYPR
+     EYRTLGGGGS GGSGGRRFSN VGLVHTSERR HTVIAAQSLE ALSGLQKADA DRKRDAFMDH
+     LKSKYPQHAL ALRGQQDRMR EQQPNYWSFK TRSSRHTQGA QPGLADQAAK LSYASAESLE
+     TMSEAELPLG FSRMNRFRQS LPLSRSASQT KLRSPGVLFL QFGEETRRVH ITHEVSSLDT
+     LHALIAHMFP QKLTMGMLKS PNTAILIKDE ARNVFYELED VRDIQDRSII KIYRKEPLYA
+     AFPGSHLTNG DLRREMVYAS RESSPTRRLN NLSPASHLAS SSPPPGLPSG LPSGLPSGSP
+     SRSRLSYAGG RPPSYAGSPV HHAAERLGGA PTSQGVSPSP SAILERRDVK PDEDLAGKAG
+     GMVLVKGEGL YADPYGLLHE GRLSLAAAAG DPFAYPGAGG LYKRGSVRSL STYSAAALQS
+     DLEDSLYKAG AGGPLYGDGY GFRLPPSSPQ KLADVSAPSG GPPPPHSPYS GPPSRGSPVR
+     QSFRKDSGSS SVFAESPGGK ARSTGASTAG APPSELFPGP GERSLVGFGP PVPAKDTETR
+     ERMEAMEKQI ASLTGLVQSA LLRGSEPETP SEKIEGSNGA ATPSAPVCGS GSRSSGATPV
+     SGPPPPAVSS TPAGQPTAVS RLQMQMHLRG LQNSASDLRG QLQQLRKLQL QNQESVRALL
+     KRTEAELSMR VSEAARRQED PLQRQRTLVE EERLRYLNDE ELITQQLNDL EKSVEKIQRD
+     VAHNHRLVPG PELEEKALVL KQLGETLTEL KAHFPGLQSK MRVVLRVEVE AVKFLKEEPQ
+     RLDGLLKRCR VVTDTLAQIR RQVDEGVWPP PNNLLNQSPK KVAAETDFSK GLDFEIPPPS
+     PPLNLHELSG PAEGTPLTPK SGNPTKGLDA PSKRNMDKAV SVEAAERDWE EKRAALTQYS
+     AKDINRLLEE TQAELLKAIP DLDCASKTHP GPTPTPDHKP PKAPHGQKAA PRTEPSGRRG
+     SDELTVPRYR TEKPSKSPPP PPPRRSFPSS HGLTTTRTGE VVVTSKKDSV FIKKAESEEL
+     EIQKPQVKLR RAVSEVVRPA STPPIMASAI KDEDDEERII AELESGGGSV PPMKVVTPGA
+     SRLKAAQGPA GSPDKGKHGK QRTEYMRIQA QQQVRVGYQA PRPLEGCTPR LCYMPLS
+//

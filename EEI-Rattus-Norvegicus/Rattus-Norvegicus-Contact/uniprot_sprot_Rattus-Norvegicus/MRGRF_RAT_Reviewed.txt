@@ -1,0 +1,147 @@
+ID   MRGRF_RAT               Reviewed;         343 AA.
+AC   P23749;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1991, sequence version 1.
+DT   29-MAY-2024, entry version 138.
+DE   RecName: Full=Mas-related G-protein coupled receptor member F;
+DE            Short=Mas-related gene F protein;
+DE   AltName: Full=G-protein coupled receptor RTA;
+GN   Name=Mrgprf; Synonyms=Mrgf, Rta;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Aorta;
+RX   PubMed=2109324; DOI=10.1073/pnas.87.8.3052;
+RA   Ross P.C., Figler R.A., Corjay M.H., Barber C.M., Adam N., Harcus D.R.,
+RA   Lynch K.R.;
+RT   "RTA, a candidate G protein-coupled receptor: cloning, sequencing, and
+RT   tissue distribution.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:3052-3056(1990).
+CC   -!- FUNCTION: Orphan receptor. May bind to a neuropeptide and may regulate
+CC       nociceptor function and/or development, including the sensation or
+CC       modulation of pain (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Multi-pass membrane protein.
+CC   -!- TISSUE SPECIFICITY: Gut, vas deferens, uterus and aorta; barely
+CC       detectable in liver, kidney, lung, and salivary gland. In the brain,
+CC       markedly abundant in the cerebellum.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 1 family. Mas
+CC       subfamily. {ECO:0000255|PROSITE-ProRule:PRU00521}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M35297; AAA42087.1; -; mRNA.
+DR   EMBL; M35298; AAA42088.1; -; Genomic_DNA.
+DR   PIR; A35639; A35639.
+DR   RefSeq; NP_714944.1; NM_153722.2.
+DR   AlphaFoldDB; P23749; -.
+DR   SMR; P23749; -.
+DR   STRING; 10116.ENSRNOP00000017948; -.
+DR   GlyCosmos; P23749; 1 site, No reported glycans.
+DR   GlyGen; P23749; 1 site.
+DR   PhosphoSitePlus; P23749; -.
+DR   PaxDb; 10116-ENSRNOP00000017948; -.
+DR   Ensembl; ENSRNOT00060055615; ENSRNOP00060046007; ENSRNOG00060032080.
+DR   GeneID; 266762; -.
+DR   KEGG; rno:266762; -.
+DR   UCSC; RGD:708478; rat.
+DR   AGR; RGD:708478; -.
+DR   CTD; 116535; -.
+DR   RGD; 708478; Mrgprf.
+DR   eggNOG; ENOG502SIXZ; Eukaryota.
+DR   InParanoid; P23749; -.
+DR   OrthoDB; 4632869at2759; -.
+DR   PhylomeDB; P23749; -.
+DR   PRO; PR:P23749; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0004930; F:G protein-coupled receptor activity; IBA:GO_Central.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; IBA:GO_Central.
+DR   CDD; cd15109; 7tmA_MrgprF; 1.
+DR   Gene3D; 1.20.1070.10; Rhodopsin 7-helix transmembrane proteins; 1.
+DR   InterPro; IPR000276; GPCR_Rhodpsn.
+DR   InterPro; IPR017452; GPCR_Rhodpsn_7TM.
+DR   InterPro; IPR026228; MRGPCRF.
+DR   InterPro; IPR026234; MRGPCRFAMILY.
+DR   PANTHER; PTHR11334; MAS-RELATED G-PROTEIN COUPLED RECEPTOR; 1.
+DR   PANTHER; PTHR11334:SF3; MAS-RELATED G-PROTEIN COUPLED RECEPTOR MEMBER F; 1.
+DR   Pfam; PF00001; 7tm_1; 1.
+DR   PRINTS; PR00237; GPCRRHODOPSN.
+DR   PRINTS; PR02112; MRGPCRF.
+DR   PRINTS; PR02108; MRGPCRFAMILY.
+DR   SUPFAM; SSF81321; Family A G protein-coupled receptor-like; 1.
+DR   PROSITE; PS00237; G_PROTEIN_RECEP_F1_1; 1.
+DR   PROSITE; PS50262; G_PROTEIN_RECEP_F1_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; G-protein coupled receptor; Glycoprotein; Membrane;
+KW   Receptor; Reference proteome; Transducer; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..343
+FT                   /note="Mas-related G-protein coupled receptor member F"
+FT                   /id="PRO_0000069766"
+FT   TOPO_DOM        1..44
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        45..66
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        67..82
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        83..104
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        105..123
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        124..144
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        145..160
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        161..181
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        182..198
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        199..220
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        221..241
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        242..263
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        264..273
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        274..294
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        295..343
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          318..343
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        323..343
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        4
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   343 AA;  38364 MW;  E4630007770941F4 CRC64;
+     MAGNCSWEAH STNQNKMCPG MSEALELYSR GFLTIEQIAT LPPPAVTNYI FLLLCLCGLV
+     GNGLVLWFFG FSIKRTPFSI YFLHLASADG IYLFSKAVIA LLNMGTFLGS FPDYVRRVSR
+     IVGLCTFFAG VSLLPAISIE RCVSVIFPMW YWRRRPKRLS AGVCALLWLL SFLVTSIHNY
+     FCMFLGHEAS GTACLNMDIS LGILLFFLFC PLMVLPCLAL ILHVECRARR RQRSAKLNHV
+     VLAIVSVFLV SSIYLGIDWF LFWVFQIPAP FPEYVTDLCI CINSSAKPIV YFLAGRDKSQ
+     RLWEPLRVVF QRALRDGAEP GDAASSTPNT VTMEMQCPSG NAS
+//

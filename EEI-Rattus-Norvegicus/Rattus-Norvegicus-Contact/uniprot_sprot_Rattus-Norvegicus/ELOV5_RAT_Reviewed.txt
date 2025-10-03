@@ -1,0 +1,278 @@
+ID   ELOV5_RAT               Reviewed;         299 AA.
+AC   Q920L7; G9BD46;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   24-JUL-2024, entry version 132.
+DE   RecName: Full=Very long chain fatty acid elongase 5 {ECO:0000255|HAMAP-Rule:MF_03205};
+DE            EC=2.3.1.199 {ECO:0000255|HAMAP-Rule:MF_03205, ECO:0000269|PubMed:22216341, ECO:0000269|PubMed:23873268};
+DE   AltName: Full=3-keto acyl-CoA synthase Elovl5 {ECO:0000255|HAMAP-Rule:MF_03205};
+DE   AltName: Full=ELOVL fatty acid elongase 5 {ECO:0000255|HAMAP-Rule:MF_03205};
+DE            Short=ELOVL FA elongase 5 {ECO:0000255|HAMAP-Rule:MF_03205};
+DE   AltName: Full=Elongation of very long chain fatty acids protein 5 {ECO:0000255|HAMAP-Rule:MF_03205};
+DE   AltName: Full=Fatty acid elongase 1;
+DE            Short=rELO1;
+DE   AltName: Full=Very long chain 3-ketoacyl-CoA synthase 5 {ECO:0000255|HAMAP-Rule:MF_03205};
+DE   AltName: Full=Very long chain 3-oxoacyl-CoA synthase 5 {ECO:0000255|HAMAP-Rule:MF_03205};
+GN   Name=Elovl5 {ECO:0000255|HAMAP-Rule:MF_03205};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=12005057; DOI=10.1271/bbb.66.613;
+RA   Inagaki K., Aki T., Fukuda Y., Kawamoto S., Shigeta S., Ono K., Suzuki O.;
+RT   "Identification and expression of a rat fatty acid elongase involved in the
+RT   biosynthesis of C18 fatty acids.";
+RL   Biosci. Biotechnol. Biochem. 66:613-621(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=22216341; DOI=10.1371/journal.pone.0029662;
+RA   Gregory M.K., Gibson R.A., Cook-Johnson R.J., Cleland L.G., James M.J.;
+RT   "Elongase reactions as control points in long-chain polyunsaturated fatty
+RT   acid synthesis.";
+RL   PLoS ONE 6:E29662-E29662(2011).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, PATHWAY, AND MUTAGENESIS OF SER-218; CYS-219;
+RP   GLY-220; TRP-231 AND TYR-233.
+RX   PubMed=23873268; DOI=10.1194/jlr.m041368;
+RA   Gregory M.K., Cleland L.G., James M.J.;
+RT   "Molecular basis for differential elongation of omega-3 docosapentaenoic
+RT   acid by the rat Elovl5 and Elovl2.";
+RL   J. Lipid Res. 54:2851-2857(2013).
+CC   -!- FUNCTION: Catalyzes the first and rate-limiting reaction of the four
+CC       reactions that constitute the long-chain fatty acids elongation cycle.
+CC       This endoplasmic reticulum-bound enzymatic process allows the addition
+CC       of 2 carbons to the chain of long- and very long-chain fatty acids
+CC       (VLCFAs) per cycle. Condensing enzyme that acts specifically toward
+CC       polyunsaturated acyl-CoA with the higher activity toward C18:3(n-6)
+CC       acyl-CoA. May participate in the production of monounsaturated and of
+CC       polyunsaturated VLCFAs of different chain lengths that are involved in
+CC       multiple biological processes as precursors of membrane lipids and
+CC       lipid mediators (By similarity) (PubMed:22216341, PubMed:23873268). In
+CC       conditions where the essential linoleic and alpha linoleic fatty acids
+CC       are lacking it is also involved in the synthesis of Mead acid from
+CC       oleic acid (By similarity). {ECO:0000250|UniProtKB:Q8BHI7,
+CC       ECO:0000255|HAMAP-Rule:MF_03205, ECO:0000269|PubMed:22216341,
+CC       ECO:0000269|PubMed:23873268}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a very-long-chain acyl-CoA + H(+) + malonyl-CoA = a very-long-
+CC         chain 3-oxoacyl-CoA + CO2 + CoA; Xref=Rhea:RHEA:32727,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57384, ChEBI:CHEBI:90725, ChEBI:CHEBI:90736;
+CC         EC=2.3.1.199; Evidence={ECO:0000255|HAMAP-Rule:MF_03205,
+CC         ECO:0000269|PubMed:22216341, ECO:0000269|PubMed:23873268};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:32728;
+CC         Evidence={ECO:0000305|PubMed:22216341};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA + H(+) + malonyl-CoA =
+CC         (8Z,11Z,14Z,17Z)-3-oxoicosatetraenoyl-CoA + CO2 + CoA;
+CC         Xref=Rhea:RHEA:35391, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57384, ChEBI:CHEBI:71489,
+CC         ChEBI:CHEBI:71491; Evidence={ECO:0000269|PubMed:22216341};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:35392;
+CC         Evidence={ECO:0000305|PubMed:22216341};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6Z,9Z,12Z)-octadecatrienoyl-CoA + H(+) + malonyl-CoA =
+CC         (8Z,11Z,14Z)-3-oxoeicosatrienoyl-CoA + CO2 + CoA;
+CC         Xref=Rhea:RHEA:35379, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57363, ChEBI:CHEBI:57384,
+CC         ChEBI:CHEBI:71481; Evidence={ECO:0000269|PubMed:22216341};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:35380;
+CC         Evidence={ECO:0000305|PubMed:22216341};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA + H(+) + malonyl-CoA
+CC         = (7Z,10Z,13Z,16Z,19Z)-3-oxodocosapentaenoyl-CoA + CO2 + CoA;
+CC         Xref=Rhea:RHEA:36483, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57384, ChEBI:CHEBI:73862,
+CC         ChEBI:CHEBI:73863; Evidence={ECO:0000269|PubMed:22216341,
+CC         ECO:0000269|PubMed:23873268};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36484;
+CC         Evidence={ECO:0000305|PubMed:22216341};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA + H(+) + malonyl-CoA =
+CC         (7Z,10Z,13Z,16Z)-3-oxodocosatetraenoyl-CoA + CO2 + CoA;
+CC         Xref=Rhea:RHEA:36475, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57368, ChEBI:CHEBI:57384,
+CC         ChEBI:CHEBI:73852; Evidence={ECO:0000269|PubMed:22216341};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36476;
+CC         Evidence={ECO:0000305|PubMed:22216341};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z,12Z,15Z)-octadecatrienoyl-CoA + H(+) + malonyl-CoA =
+CC         (11Z,14Z,17Z)-3-oxoeicosatrienoyl-CoA + CO2 + CoA;
+CC         Xref=Rhea:RHEA:36523, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57384, ChEBI:CHEBI:74034,
+CC         ChEBI:CHEBI:74054; Evidence={ECO:0000250|UniProtKB:Q9NYP7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36524;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYP7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-hexadecenoyl-CoA + H(+) + malonyl-CoA = 3-oxo-(11Z)-
+CC         octadecenoyl-CoA + CO2 + CoA; Xref=Rhea:RHEA:39675,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57384, ChEBI:CHEBI:61540, ChEBI:CHEBI:76555;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYP7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:39676;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYP7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-octadecenoyl-CoA + H(+) + malonyl-CoA = (11Z)-3-
+CC         oxoicosenoyl-CoA + CO2 + CoA; Xref=Rhea:RHEA:36511,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57384, ChEBI:CHEBI:57387, ChEBI:CHEBI:74011;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYP7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36512;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYP7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(11Z)-octadecenoyl-CoA + H(+) + malonyl-CoA = 3-oxo-(13Z)-
+CC         eicosenoyl-CoA + CO2 + CoA; Xref=Rhea:RHEA:39679, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:57287, ChEBI:CHEBI:57384,
+CC         ChEBI:CHEBI:75121, ChEBI:CHEBI:76559;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYP7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:39680;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYP7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z,12Z)-octadecadienoyl-CoA + H(+) + malonyl-CoA = (11Z,14Z)-
+CC         3-oxoicosa-11,14-dienoyl-CoA + CO2 + CoA; Xref=Rhea:RHEA:36503,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57383, ChEBI:CHEBI:57384, ChEBI:CHEBI:74012;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYP7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36504;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYP7};
+CC   -!- PATHWAY: Lipid metabolism; polyunsaturated fatty acid biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_03205, ECO:0000269|PubMed:22216341,
+CC       ECO:0000269|PubMed:23873268}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_03205}; Multi-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_03205}. Cell projection, dendrite
+CC       {ECO:0000255|HAMAP-Rule:MF_03205}. Note=In Purkinje cells, the protein
+CC       localizes to the soma and proximal portion of the dendritic tree.
+CC       {ECO:0000255|HAMAP-Rule:MF_03205}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in lung and brain.
+CC       {ECO:0000269|PubMed:12005057}.
+CC   -!- SIMILARITY: Belongs to the ELO family. ELOVL5 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_03205}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB071985; BAB69887.1; -; mRNA.
+DR   EMBL; HQ404314; ADP36858.1; -; mRNA.
+DR   RefSeq; NP_599209.1; NM_134382.1.
+DR   RefSeq; XP_006243479.1; XM_006243417.2.
+DR   AlphaFoldDB; Q920L7; -.
+DR   SMR; Q920L7; -.
+DR   STRING; 10116.ENSRNOP00000010409; -.
+DR   SwissLipids; SLP:000000274; -.
+DR   SwissLipids; SLP:000000452; -.
+DR   PhosphoSitePlus; Q920L7; -.
+DR   PaxDb; 10116-ENSRNOP00000010409; -.
+DR   Ensembl; ENSRNOT00000010409.5; ENSRNOP00000010409.3; ENSRNOG00000006331.5.
+DR   GeneID; 171400; -.
+DR   KEGG; rno:171400; -.
+DR   UCSC; RGD:620583; rat.
+DR   AGR; RGD:620583; -.
+DR   CTD; 60481; -.
+DR   RGD; 620583; Elovl5.
+DR   eggNOG; KOG3071; Eukaryota.
+DR   GeneTree; ENSGT01050000244838; -.
+DR   HOGENOM; CLU_048483_0_1_1; -.
+DR   InParanoid; Q920L7; -.
+DR   OrthoDB; 168669at2759; -.
+DR   PhylomeDB; Q920L7; -.
+DR   TreeFam; TF323454; -.
+DR   Reactome; R-RNO-2046105; Linoleic acid (LA) metabolism.
+DR   Reactome; R-RNO-2046106; alpha-linolenic acid (ALA) metabolism.
+DR   Reactome; R-RNO-75876; Synthesis of very long-chain fatty acyl-CoAs.
+DR   UniPathway; UPA00658; -.
+DR   PRO; PR:Q920L7; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000006331; Expressed in liver and 19 other cell types or tissues.
+DR   GO; GO:0030425; C:dendrite; IEA:UniProtKB-SubCell.
+DR   GO; GO:0097447; C:dendritic tree; ISS:UniProtKB.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IBA:GO_Central.
+DR   GO; GO:0043025; C:neuronal cell body; ISS:UniProtKB.
+DR   GO; GO:0009922; F:fatty acid elongase activity; IDA:UniProtKB.
+DR   GO; GO:0034625; P:fatty acid elongation, monounsaturated fatty acid; ISS:UniProtKB.
+DR   GO; GO:0034626; P:fatty acid elongation, polyunsaturated fatty acid; IDA:UniProtKB.
+DR   GO; GO:0019367; P:fatty acid elongation, saturated fatty acid; IBA:GO_Central.
+DR   GO; GO:0035338; P:long-chain fatty-acyl-CoA biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045723; P:positive regulation of fatty acid biosynthetic process; ISO:RGD.
+DR   GO; GO:0030148; P:sphingolipid biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0006636; P:unsaturated fatty acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042761; P:very long-chain fatty acid biosynthetic process; IDA:UniProtKB.
+DR   HAMAP; MF_03205; VLCF_elongase_5; 1.
+DR   InterPro; IPR002076; ELO_fam.
+DR   InterPro; IPR033677; ELOVL5.
+DR   PANTHER; PTHR11157:SF18; ELONGATION OF VERY LONG CHAIN FATTY ACIDS PROTEIN 5; 1.
+DR   PANTHER; PTHR11157; FATTY ACID ACYL TRANSFERASE-RELATED; 1.
+DR   Pfam; PF01151; ELO; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cell projection; Endoplasmic reticulum;
+KW   Fatty acid biosynthesis; Fatty acid metabolism; Lipid biosynthesis;
+KW   Lipid metabolism; Membrane; Reference proteome; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..299
+FT                   /note="Very long chain fatty acid elongase 5"
+FT                   /id="PRO_0000282842"
+FT   TRANSMEM        26..46
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03205"
+FT   TRANSMEM        64..84
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03205"
+FT   TRANSMEM        112..132
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03205"
+FT   TRANSMEM        139..158
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03205"
+FT   TRANSMEM        168..187
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03205"
+FT   TRANSMEM        205..225
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03205"
+FT   TRANSMEM        227..247
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03205"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYP7"
+FT   MUTAGEN         218
+FT                   /note="S->L: No effect on fatty acid elongase activity."
+FT                   /evidence="ECO:0000269|PubMed:23873268"
+FT   MUTAGEN         219
+FT                   /note="C->S: No effect on fatty acid elongase activity."
+FT                   /evidence="ECO:0000269|PubMed:23873268"
+FT   MUTAGEN         220
+FT                   /note="G->A: No effect on fatty acid elongase activity."
+FT                   /evidence="ECO:0000269|PubMed:23873268"
+FT   MUTAGEN         231
+FT                   /note="W->C: Changed substrate specificity. Can elongate
+FT                   (7Z,10Z,13Z,16Z,19Z)-3-oxodocosapentaenoyl-CoA into
+FT                   (9Z,12Z,15Z,18Z,21Z)-3-oxotetracosapentaenoyl-CoA."
+FT                   /evidence="ECO:0000269|PubMed:23873268"
+FT   MUTAGEN         233
+FT                   /note="Y->I: No effect on fatty acid elongase activity."
+FT                   /evidence="ECO:0000269|PubMed:23873268"
+FT   CONFLICT        59
+FT                   /note="F -> S (in Ref. 2; ADP36858)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        64
+FT                   /note="I -> T (in Ref. 2; ADP36858)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        104
+FT                   /note="E -> G (in Ref. 2; ADP36858)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        130
+FT                   /note="F -> L (in Ref. 2; ADP36858)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   299 AA;  35235 MW;  661CFAD9E168D7A8 CRC64;
+     MEHFDASLST YFRALLGPRD TRVKGWFLLD NYIPTFVCSA IYLLIVWLGP KYMKNRQPFS
+     CRGILVVYNL GLTLLSLYMF YELVTGVWEG KYNFFCQGTR SAGESDMKVI RVLWWYYFSK
+     LIEFMDTFFF ILRKNNHQIT VLHVYHHATM LNIWWFVMNW VPCGHSYFGA TLNSFIHVLM
+     YSYYGLSSVP SMRPYLWWKK YITQGQLVQF VLTIIQTSCG VIWPCSFPLG WLYFQIGYMI
+     SLIALFTNFY IQTYNKKGAS RRKEHLKGHQ NGSMTAVNGH TNNFASLENS VTSRKQRKD
+//

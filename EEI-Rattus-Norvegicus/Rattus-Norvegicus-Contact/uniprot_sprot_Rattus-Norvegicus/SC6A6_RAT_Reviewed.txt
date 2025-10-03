@@ -1,0 +1,265 @@
+ID   SC6A6_RAT               Reviewed;         621 AA.
+AC   P31643;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   24-JUL-2024, entry version 146.
+DE   RecName: Full=Sodium- and chloride-dependent taurine transporter;
+DE   AltName: Full=Solute carrier family 6 member 6;
+GN   Name=Slc6a6;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, FUNCTION, TRANSPORTER
+RP   ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND ACTIVITY REGULATION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=1435737;
+RA   Smith K.E., Borden L.A., Wang C.H.D., Hartig P.R., Branchek T.A.,
+RA   Weinshank R.L.;
+RT   "Cloning and expression of a high affinity taurine transporter from rat
+RT   brain.";
+RL   Mol. Pharmacol. 42:563-569(1992).
+RN   [2]
+RP   FUNCTION, TRANSPORTER ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, ACTIVITY
+RP   REGULATION, AND SUBCELLULAR LOCATION.
+RX   PubMed=18501699; DOI=10.1016/j.bbamem.2008.04.012;
+RA   Tomi M., Tajima A., Tachikawa M., Hosoya K.;
+RT   "Function of taurine transporter (Slc6a6/TauT) as a GABA transporting
+RT   protein and its relevance to GABA transport in rat retinal capillary
+RT   endothelial cells.";
+RL   Biochim. Biophys. Acta 1778:2138-2142(2008).
+RN   [3]
+RP   FUNCTION, AND TRANSPORTER ACTIVITY.
+RX   PubMed=22896705; DOI=10.1074/jbc.m112.368175;
+RA   Zhou Y., Holmseth S., Guo C., Hassel B., Hofner G., Huitfeldt H.S.,
+RA   Wanner K.T., Danbolt N.C.;
+RT   "Deletion of the gamma-aminobutyric acid transporter 2 (GAT2 and SLC6A13)
+RT   gene in mice leads to changes in liver and brain taurine contents.";
+RL   J. Biol. Chem. 287:35733-35746(2012).
+CC   -!- FUNCTION: Mediates sodium- and chloride-dependent transport of taurine
+CC       (PubMed:1435737, PubMed:18501699, PubMed:22896705). Mediates transport
+CC       of gamma-aminobutyric acid (GABA) (PubMed:18501699). Can also mediate
+CC       transport of beta-alanine and hypotaurine (By similarity).
+CC       {ECO:0000250|UniProtKB:O35316, ECO:0000269|PubMed:1435737,
+CC       ECO:0000269|PubMed:18501699, ECO:0000269|PubMed:22896705}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-aminobutanoate(out) + chloride(out) + 2 Na(+)(out) = 4-
+CC         aminobutanoate(in) + chloride(in) + 2 Na(+)(in);
+CC         Xref=Rhea:RHEA:70687, ChEBI:CHEBI:17996, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:59888; Evidence={ECO:0000269|PubMed:18501699};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70688;
+CC         Evidence={ECO:0000305|PubMed:18501699};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(out) + 2 Na(+)(out) + taurine(out) = chloride(in) + 2
+CC         Na(+)(in) + taurine(in); Xref=Rhea:RHEA:71223, ChEBI:CHEBI:17996,
+CC         ChEBI:CHEBI:29101, ChEBI:CHEBI:507393;
+CC         Evidence={ECO:0000269|PubMed:1435737, ECO:0000269|PubMed:18501699,
+CC         ECO:0000269|PubMed:22896705};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71224;
+CC         Evidence={ECO:0000305|PubMed:1435737};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=beta-alanine(out) + chloride(out) + 2 Na(+)(out) = beta-
+CC         alanine(in) + chloride(in) + 2 Na(+)(in); Xref=Rhea:RHEA:71247,
+CC         ChEBI:CHEBI:17996, ChEBI:CHEBI:29101, ChEBI:CHEBI:57966;
+CC         Evidence={ECO:0000250|UniProtKB:O35316};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71248;
+CC         Evidence={ECO:0000250|UniProtKB:O35316};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(out) + hypotaurine(out) + 2 Na(+)(out) = chloride(in)
+CC         + hypotaurine(in) + 2 Na(+)(in); Xref=Rhea:RHEA:71243,
+CC         ChEBI:CHEBI:17996, ChEBI:CHEBI:29101, ChEBI:CHEBI:57853;
+CC         Evidence={ECO:0000250|UniProtKB:O35316};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71244;
+CC         Evidence={ECO:0000250|UniProtKB:O35316};
+CC   -!- ACTIVITY REGULATION: Taurine transport activity is inhibited by beta-
+CC       alanine and gamma-aminobutyric acid (GABA) (PubMed:1435737). GABA
+CC       transport activity is inhibited by taurine and beta-alanine
+CC       (PubMed:18501699). {ECO:0000269|PubMed:1435737,
+CC       ECO:0000269|PubMed:18501699}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=43 uM for taurine {ECO:0000269|PubMed:1435737};
+CC         KM=2.0 mM for GABA {ECO:0000269|PubMed:18501699};
+CC         Vmax=0.96 nmol/min/mg enzyme for taurine
+CC         {ECO:0000269|PubMed:1435737};
+CC         Vmax=5.8 pmol/min/mg enzyme for GABA {ECO:0000269|PubMed:18501699};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:18501699};
+CC       Multi-pass membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Brain and peripheral tissues.
+CC       {ECO:0000269|PubMed:1435737}.
+CC   -!- PTM: Taurine transport activity is down-regulated upon Ser-322
+CC       phosphorylation. {ECO:0000250|UniProtKB:Q00589}.
+CC   -!- SIMILARITY: Belongs to the sodium:neurotransmitter symporter (SNF) (TC
+CC       2.A.22) family. SLC6A6 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M96601; AAA42304.1; -; mRNA.
+DR   PIR; I57939; I57939.
+DR   RefSeq; NP_058902.1; NM_017206.1.
+DR   RefSeq; XP_006236965.1; XM_006236903.3.
+DR   AlphaFoldDB; P31643; -.
+DR   SMR; P31643; -.
+DR   STRING; 10116.ENSRNOP00000072080; -.
+DR   GlyCosmos; P31643; 4 sites, No reported glycans.
+DR   GlyGen; P31643; 4 sites.
+DR   iPTMnet; P31643; -.
+DR   PhosphoSitePlus; P31643; -.
+DR   PaxDb; 10116-ENSRNOP00000012875; -.
+DR   Ensembl; ENSRNOT00000012875.7; ENSRNOP00000012875.4; ENSRNOG00000009019.7.
+DR   Ensembl; ENSRNOT00055006981; ENSRNOP00055005212; ENSRNOG00055004410.
+DR   Ensembl; ENSRNOT00060047837; ENSRNOP00060039787; ENSRNOG00060027547.
+DR   Ensembl; ENSRNOT00065042545; ENSRNOP00065034810; ENSRNOG00065024758.
+DR   GeneID; 29464; -.
+DR   KEGG; rno:29464; -.
+DR   AGR; RGD:61912; -.
+DR   CTD; 6533; -.
+DR   RGD; 61912; Slc6a6.
+DR   eggNOG; KOG3660; Eukaryota.
+DR   GeneTree; ENSGT00940000154583; -.
+DR   HOGENOM; CLU_006855_9_5_1; -.
+DR   InParanoid; P31643; -.
+DR   OMA; TTEYSQP; -.
+DR   OrthoDB; 3084493at2759; -.
+DR   PhylomeDB; P31643; -.
+DR   TreeFam; TF343812; -.
+DR   Reactome; R-RNO-352230; Amino acid transport across the plasma membrane.
+DR   Reactome; R-RNO-442660; Na+/Cl- dependent neurotransmitter transporters.
+DR   PRO; PR:P31643; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000009019; Expressed in lung and 19 other cell types or tissues.
+DR   ExpressionAtlas; P31643; baseline and differential.
+DR   GO; GO:0016324; C:apical plasma membrane; ISO:RGD.
+DR   GO; GO:0016323; C:basolateral plasma membrane; ISO:RGD.
+DR   GO; GO:0042995; C:cell projection; IBA:GO_Central.
+DR   GO; GO:0030425; C:dendrite; IDA:ARUK-UCL.
+DR   GO; GO:0098982; C:GABA-ergic synapse; ISO:RGD.
+DR   GO; GO:0031528; C:microvillus membrane; ISO:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:ARUK-UCL.
+DR   GO; GO:0005886; C:plasma membrane; IDA:ARUK-UCL.
+DR   GO; GO:0098797; C:plasma membrane protein complex; IPI:ARUK-UCL.
+DR   GO; GO:0045211; C:postsynaptic membrane; ISO:RGD.
+DR   GO; GO:0022858; F:alanine transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015171; F:amino acid transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0005283; F:amino acid:sodium symporter activity; ISO:RGD.
+DR   GO; GO:0001761; F:beta-alanine transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015185; F:gamma-aminobutyric acid transmembrane transporter activity; IDA:ARUK-UCL.
+DR   GO; GO:0005332; F:gamma-aminobutyric acid:sodium:chloride symporter activity; IDA:UniProtKB.
+DR   GO; GO:0030977; F:taurine binding; IDA:RGD.
+DR   GO; GO:0005368; F:taurine transmembrane transporter activity; IDA:ARUK-UCL.
+DR   GO; GO:0005369; F:taurine:sodium symporter activity; IDA:UniProtKB.
+DR   GO; GO:0032328; P:alanine transport; ISO:RGD.
+DR   GO; GO:0089718; P:amino acid import across plasma membrane; ISO:RGD.
+DR   GO; GO:0006865; P:amino acid transport; IBA:GO_Central.
+DR   GO; GO:0001762; P:beta-alanine transport; ISO:RGD.
+DR   GO; GO:0051939; P:gamma-aminobutyric acid import; IDA:ARUK-UCL.
+DR   GO; GO:0098739; P:import across plasma membrane; IGI:ARUK-UCL.
+DR   GO; GO:0050804; P:modulation of chemical synaptic transmission; ISO:RGD.
+DR   GO; GO:0006836; P:neurotransmitter transport; IEA:UniProtKB-KW.
+DR   GO; GO:0045597; P:positive regulation of cell differentiation; ISO:RGD.
+DR   GO; GO:0035725; P:sodium ion transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0015734; P:taurine transmembrane transport; IDA:ARUK-UCL.
+DR   InterPro; IPR000175; Na/ntran_symport.
+DR   InterPro; IPR002434; Na/ntran_symport_taurine.
+DR   InterPro; IPR037272; SNS_sf.
+DR   PANTHER; PTHR11616:SF141; SODIUM- AND CHLORIDE-DEPENDENT TAURINE TRANSPORTER; 1.
+DR   PANTHER; PTHR11616; SODIUM/CHLORIDE DEPENDENT TRANSPORTER; 1.
+DR   Pfam; PF00209; SNF; 1.
+DR   PRINTS; PR00176; NANEUSMPORT.
+DR   PRINTS; PR01200; TAUTRANSPORT.
+DR   SUPFAM; SSF161070; SNF-like; 1.
+DR   PROSITE; PS00610; NA_NEUROTRAN_SYMP_1; 1.
+DR   PROSITE; PS00754; NA_NEUROTRAN_SYMP_2; 1.
+DR   PROSITE; PS50267; NA_NEUROTRAN_SYMP_3; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Glycoprotein; Membrane; Neurotransmitter transport;
+KW   Phosphoprotein; Reference proteome; Symport; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..621
+FT                   /note="Sodium- and chloride-dependent taurine transporter"
+FT                   /id="PRO_0000214769"
+FT   TOPO_DOM        1..49
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        50..70
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        78..97
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        122..142
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        143..217
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        218..236
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        245..262
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        298..315
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        327..348
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        381..400
+FT                   /note="Helical; Name=8"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        430..448
+FT                   /note="Helical; Name=9"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        465..485
+FT                   /note="Helical; Name=10"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        506..525
+FT                   /note="Helical; Name=11"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        545..563
+FT                   /note="Helical; Name=12"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        564..621
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          1..42
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..19
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        26..42
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         322
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q00589"
+FT   CARBOHYD        163
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        179
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        190
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        281
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   621 AA;  69869 MW;  EA5613F20DC5C7CD CRC64;
+     MATKEKLQCL KDFHKDILKP SPGKSPGTRP EDEADGKPPQ REKWSSKIDF VLSVAGGFVG
+     LGNVWRFPYL CYKNGGGAFL IPYFIFLFGS GLPVFFLEVI IGQYTSEGGI TCWEKICPLF
+     SGIGYASIVI VSLLNVYYIV ILAWATYYLF QSFQKDLPWA HCNHSWNTPQ CMEDTLRRNE
+     SHWVSLSAAN FTSPVIEFWE RNVLSLSSGI DHPGSLKWDL ALCLLLVWLV CFFCIWKGVR
+     STGKVVYFTA TFPFAMLLVL LVRGLTLPGA GEGIKFYLYP NISRLEDPQV WIDAGTQIFF
+     SYAICLGAMT SLGSYNKYKY NSYRDCMLLG CLNSGTSFVS GFAIFSILGF MAQEQGVDIA
+     DVAESGPGLA FIAYPKAVTM MPLPTFWSIL FFIMLLLLGL DSQFVEVEGQ ITSLVDLYPS
+     FLRKGYRREI FIAIVCSISY LLGLTMVTEG GMYVFQLFDY YAASGVCLLW VAFFECFVIA
+     WIYGGDNLYD GIEDMIGYRP GPWMKYSWAV ITPALCVGCF IFSLVKYVPL TYNKVYRYPD
+     WAIGLGWGLA LSSMVCIPLV IVILLCRTEG PLRVRIKYLI TPREPNRWAV EREGATPFHS
+     RATLMNGALM KPSHVIVETM M
+//

@@ -1,0 +1,110 @@
+ID   CD37L_RAT               Reviewed;         335 AA.
+AC   Q5XIC3;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   29-MAY-2024, entry version 102.
+DE   RecName: Full=Hsp90 co-chaperone Cdc37-like 1;
+GN   Name=Cdc37l1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Co-chaperone that binds to numerous proteins and promotes
+CC       their interaction with Hsp70 and Hsp90. {ECO:0000250}.
+CC   -!- SUBUNIT: Self-associates. Forms complexes with Hsp70 and Hsp90.
+CC       Interacts with CDC37, FKBP4, PPID and STIP1. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the CDC37 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC083761; AAH83761.1; -; mRNA.
+DR   RefSeq; NP_001011941.1; NM_001011941.1.
+DR   AlphaFoldDB; Q5XIC3; -.
+DR   SMR; Q5XIC3; -.
+DR   STRING; 10116.ENSRNOP00000016000; -.
+DR   PhosphoSitePlus; Q5XIC3; -.
+DR   PaxDb; 10116-ENSRNOP00000016000; -.
+DR   Ensembl; ENSRNOT00000016000.6; ENSRNOP00000016000.4; ENSRNOG00000010967.8.
+DR   Ensembl; ENSRNOT00055053400; ENSRNOP00055044145; ENSRNOG00055030732.
+DR   Ensembl; ENSRNOT00060053130; ENSRNOP00060044179; ENSRNOG00060030532.
+DR   Ensembl; ENSRNOT00065045820; ENSRNOP00065037591; ENSRNOG00065026478.
+DR   GeneID; 293886; -.
+DR   KEGG; rno:293886; -.
+DR   AGR; RGD:1309295; -.
+DR   CTD; 55664; -.
+DR   RGD; 1309295; Cdc37l1.
+DR   eggNOG; KOG2260; Eukaryota.
+DR   GeneTree; ENSGT00390000013443; -.
+DR   InParanoid; Q5XIC3; -.
+DR   OMA; GKWTKDD; -.
+DR   OrthoDB; 297041at2759; -.
+DR   PhylomeDB; Q5XIC3; -.
+DR   TreeFam; TF101059; -.
+DR   Reactome; R-RNO-114608; Platelet degranulation.
+DR   PRO; PR:Q5XIC3; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000010967; Expressed in quadriceps femoris and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q5XIC3; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; IEA:Ensembl.
+DR   GO; GO:0031072; F:heat shock protein binding; IBA:GO_Central.
+DR   GO; GO:0051087; F:protein-folding chaperone binding; IBA:GO_Central.
+DR   GO; GO:0051082; F:unfolded protein binding; IBA:GO_Central.
+DR   GO; GO:0006457; P:protein folding; IBA:GO_Central.
+DR   GO; GO:0050821; P:protein stabilization; IBA:GO_Central.
+DR   Gene3D; 1.20.58.610; Cdc37, Hsp90 binding domain; 1.
+DR   InterPro; IPR004918; Cdc37.
+DR   InterPro; IPR013874; Cdc37_Hsp90-bd.
+DR   InterPro; IPR038189; Cdc37_Hsp90-bd_sf.
+DR   PANTHER; PTHR12800; CDC37-RELATED; 1.
+DR   PANTHER; PTHR12800:SF2; HSP90 CO-CHAPERONE CDC37-LIKE 1; 1.
+DR   Pfam; PF08565; CDC37_M; 1.
+DR   SMART; SM01070; CDC37_M; 1.
+DR   SUPFAM; SSF101391; Hsp90 co-chaperone CDC37; 1.
+PE   2: Evidence at transcript level;
+KW   Chaperone; Coiled coil; Cytoplasm; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..335
+FT                   /note="Hsp90 co-chaperone Cdc37-like 1"
+FT                   /id="PRO_0000318524"
+FT   REGION          1..42
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          2..170
+FT                   /note="Self-association"
+FT                   /evidence="ECO:0000250"
+FT   REGION          147..276
+FT                   /note="Self-association and interaction with Hsp90"
+FT                   /evidence="ECO:0000250"
+FT   REGION          266..335
+FT                   /note="Interaction with Hsp70"
+FT                   /evidence="ECO:0000250"
+FT   REGION          277..335
+FT                   /note="Required for interaction with STIP1"
+FT                   /evidence="ECO:0000250"
+FT   COILED          84..120
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         32
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7L3B6"
+FT   MOD_RES         88
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7L3B6"
+SQ   SEQUENCE   335 AA;  38315 MW;  8D14DE43F9FEC937 CRC64;
+     MEQPWPPPGP WSFPRTGGET EEESDLDVSP SSSHYSPVPD GGAQMYSHGI ELACQRQKEF
+     VKSSVACKWN LAEAQQKLGS LALHNSESLD QEHAKAQTAV SELRQREEEW RQKEEALVQR
+     ERTCLWNVDA ISKDVFNKSF INQDKRKTED EDKSQSFMQK YEQKIRHFGM LSRWDDSQRF
+     LSDHPYLVCE ETAKYLILWC FHLEAEQKGA LMEQIAHQAV VMQFIMEMAK NCNVDPRGCF
+     RLFFQKAKAE EEGYFEAFKN ELEAFKARVR LYAQSQSFAP VTVENHAPHS GVGCIGSAEP
+     LPQNPDSLQC CPPAPLCSVD SVVHKEDDDR MMDTV
+//

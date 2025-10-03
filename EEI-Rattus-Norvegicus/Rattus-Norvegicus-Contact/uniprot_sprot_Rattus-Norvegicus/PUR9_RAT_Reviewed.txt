@@ -1,0 +1,336 @@
+ID   PUR9_RAT                Reviewed;         592 AA.
+AC   O35567; Q6IN16;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 2.
+DT   02-OCT-2024, entry version 155.
+DE   RecName: Full=Bifunctional purine biosynthesis protein ATIC;
+DE   AltName: Full=AICAR transformylase/inosine monophosphate cyclohydrolase;
+DE            Short=ATIC;
+DE   Includes:
+DE     RecName: Full=Phosphoribosylaminoimidazolecarboxamide formyltransferase;
+DE              EC=2.1.2.3 {ECO:0000250|UniProtKB:P31939};
+DE     AltName: Full=5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase;
+DE              Short=AICAR formyltransferase;
+DE     AltName: Full=AICAR transformylase;
+DE   Includes:
+DE     RecName: Full=Inosine 5'-monophosphate cyclohydrolase {ECO:0000305};
+DE              Short=IMP cyclohydrolase {ECO:0000305};
+DE              EC=3.5.4.10 {ECO:0000250|UniProtKB:P31939};
+DE     AltName: Full=IMP synthase;
+DE     AltName: Full=Inosinicase;
+GN   Name=Atic; Synonyms=Purh;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Donryu; TISSUE=Liver;
+RX   PubMed=9332377; DOI=10.1016/s0378-1119(97)00273-4;
+RA   Akira T., Komatsu M., Nango R., Tomooka A., Konaka K., Yamauchi M.,
+RA   Kitamura Y., Nomura S., Tsukamoto I.;
+RT   "Molecular cloning and expression of a rat cDNA encoding 5-aminoimidazole-
+RT   4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase.";
+RL   Gene 197:289-293(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 178-194; 531-545 AND 570-588, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal cord;
+RA   Lubec G., Afjehi-Sadat L.;
+RL   Submitted (NOV-2006) to UniProtKB.
+RN   [4]
+RP   FUNCTION, SUBUNIT, AND INTERACTION WITH INSR.
+RX   PubMed=25687571; DOI=10.1074/mcp.m114.047159;
+RA   Boutchueng-Djidjou M., Collard-Simard G., Fortier S., Hebert S.S.,
+RA   Kelly I., Landry C.R., Faure R.L.;
+RT   "The last enzyme of the de novo purine synthesis pathway 5-aminoimidazole-
+RT   4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase (ATIC)
+RT   plays a central role in insulin signaling and the Golgi/endosomes protein
+RT   network.";
+RL   Mol. Cell. Proteomics 14:1079-1092(2015).
+CC   -!- FUNCTION: Bifunctional enzyme that catalyzes the last two steps of
+CC       purine biosynthesis. Acts as a transformylase that incorporates a
+CC       formyl group to the AMP analog AICAR (5-amino-1-(5-phospho-beta-D-
+CC       ribosyl)imidazole-4-carboxamide) to produce the intermediate formyl-
+CC       AICAR (FAICAR). Can use both 10-formyldihydrofolate and 10-
+CC       formyltetrahydrofolate as the formyl donor in this reaction. Also
+CC       catalyzes the cyclization of FAICAR to IMP (By similarity). Promotes
+CC       insulin receptor/INSR autophosphorylation and is involved in INSR
+CC       internalization (PubMed:25687571). {ECO:0000250|UniProtKB:P31939,
+CC       ECO:0000269|PubMed:25687571}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-10-formyltetrahydrofolate + 5-amino-1-(5-phospho-beta-D-
+CC         ribosyl)imidazole-4-carboxamide = (6S)-5,6,7,8-tetrahydrofolate + 5-
+CC         formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide;
+CC         Xref=Rhea:RHEA:22192, ChEBI:CHEBI:57453, ChEBI:CHEBI:58467,
+CC         ChEBI:CHEBI:58475, ChEBI:CHEBI:195366; EC=2.1.2.3;
+CC         Evidence={ECO:0000250|UniProtKB:P31939};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:22193;
+CC         Evidence={ECO:0000250|UniProtKB:P31939};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=10-formyldihydrofolate + 5-amino-1-(5-phospho-beta-D-
+CC         ribosyl)imidazole-4-carboxamide = 5-formamido-1-(5-phospho-D-
+CC         ribosyl)imidazole-4-carboxamide + 7,8-dihydrofolate;
+CC         Xref=Rhea:RHEA:59144, ChEBI:CHEBI:57451, ChEBI:CHEBI:57452,
+CC         ChEBI:CHEBI:58467, ChEBI:CHEBI:58475;
+CC         Evidence={ECO:0000250|UniProtKB:P31939};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:59145;
+CC         Evidence={ECO:0000250|UniProtKB:P31939};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + IMP = 5-formamido-1-(5-phospho-D-ribosyl)imidazole-4-
+CC         carboxamide; Xref=Rhea:RHEA:18445, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:58053, ChEBI:CHEBI:58467; EC=3.5.4.10;
+CC         Evidence={ECO:0000250|UniProtKB:P31939};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:18447;
+CC         Evidence={ECO:0000250|UniProtKB:P31939};
+CC   -!- ACTIVITY REGULATION: AMP and XMP inhibit AICAR formyltransferase
+CC       activity. {ECO:0000250|UniProtKB:P31939}.
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide from 5-amino-
+CC       1-(5-phospho-D-ribosyl)imidazole-4-carboxamide (10-formyl THF route):
+CC       step 1/1. {ECO:0000250|UniProtKB:P31939}.
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; IMP
+CC       from 5-formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide: step
+CC       1/1. {ECO:0000250|UniProtKB:P31939}.
+CC   -!- SUBUNIT: Homodimer (By similarity). Associates with internalized INSR
+CC       complexes on Golgi/endosomal membranes (PubMed:25687571). Interacts
+CC       with INSR; ATIC together with PRKAA2/AMPK2 and HACD3/PTPLAD1 is
+CC       proposed to be part of a signaling network regulating INSR
+CC       autophosphorylation and endocytosis (PubMed:25687571).
+CC       {ECO:0000250|UniProtKB:P31939, ECO:0000269|PubMed:25687571}.
+CC   -!- INTERACTION:
+CC       O35567; PRO_0000016698 [P15127]: Insr; NbExp=3; IntAct=EBI-10768817, EBI-10768746;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:P54113}.
+CC   -!- TISSUE SPECIFICITY: Expressed in liver. {ECO:0000269|PubMed:9332377}.
+CC   -!- DOMAIN: The IMP cyclohydrolase activity resides in the N-terminal
+CC       region. {ECO:0000250|UniProtKB:P31939}.
+CC   -!- MISCELLANEOUS: The de novo purine synthesis pathway includes 10
+CC       sequential steps, beginning with phosphoribosyl pyrophosphate and
+CC       ending with inositol monophosphate (IMP), the first purin compound of
+CC       the pathway. {ECO:0000250|UniProtKB:P31939}.
+CC   -!- SIMILARITY: Belongs to the PurH family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D89514; BAA22837.1; -; mRNA.
+DR   EMBL; BC072496; AAH72496.1; -; mRNA.
+DR   RefSeq; NP_112276.2; NM_031014.2.
+DR   AlphaFoldDB; O35567; -.
+DR   SMR; O35567; -.
+DR   BioGRID; 249543; 3.
+DR   IntAct; O35567; 3.
+DR   MINT; O35567; -.
+DR   STRING; 10116.ENSRNOP00000021105; -.
+DR   iPTMnet; O35567; -.
+DR   PhosphoSitePlus; O35567; -.
+DR   SwissPalm; O35567; -.
+DR   jPOST; O35567; -.
+DR   PaxDb; 10116-ENSRNOP00000021105; -.
+DR   Ensembl; ENSRNOT00000098789.1; ENSRNOP00000084375.1; ENSRNOG00000015511.5.
+DR   Ensembl; ENSRNOT00000116844.1; ENSRNOP00000078278.1; ENSRNOG00000015511.5.
+DR   Ensembl; ENSRNOT00055017055; ENSRNOP00055013713; ENSRNOG00055010094.
+DR   Ensembl; ENSRNOT00060041758; ENSRNOP00060034616; ENSRNOG00060023906.
+DR   Ensembl; ENSRNOT00065013989; ENSRNOP00065010433; ENSRNOG00065008770.
+DR   GeneID; 81643; -.
+DR   KEGG; rno:81643; -.
+DR   UCSC; RGD:70879; rat.
+DR   AGR; RGD:70879; -.
+DR   CTD; 471; -.
+DR   RGD; 70879; Atic.
+DR   eggNOG; KOG2555; Eukaryota.
+DR   GeneTree; ENSGT00390000004553; -.
+DR   HOGENOM; CLU_016316_3_2_1; -.
+DR   InParanoid; O35567; -.
+DR   OMA; IKHNNPC; -.
+DR   OrthoDB; 275312at2759; -.
+DR   PhylomeDB; O35567; -.
+DR   TreeFam; TF105642; -.
+DR   BRENDA; 2.1.2.3; 5301.
+DR   BRENDA; 3.5.4.10; 5301.
+DR   Reactome; R-RNO-73817; Purine ribonucleoside monophosphate biosynthesis.
+DR   UniPathway; UPA00074; UER00133.
+DR   UniPathway; UPA00074; UER00135.
+DR   PRO; PR:O35567; -.
+DR   Proteomes; UP000002494; Chromosome 9.
+DR   Bgee; ENSRNOG00000015511; Expressed in thymus and 19 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; IEA:Ensembl.
+DR   GO; GO:0003937; F:IMP cyclohydrolase activity; IDA:RGD.
+DR   GO; GO:0004643; F:phosphoribosylaminoimidazolecarboxamide formyltransferase activity; IDA:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0044208; P:'de novo' AMP biosynthetic process; ISO:RGD.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IDA:RGD.
+DR   GO; GO:0097294; P:'de novo' XMP biosynthetic process; ISO:RGD.
+DR   GO; GO:0031100; P:animal organ regeneration; IEP:RGD.
+DR   GO; GO:0003360; P:brainstem development; IEP:RGD.
+DR   GO; GO:0098761; P:cellular response to interleukin-7; ISO:RGD.
+DR   GO; GO:0021549; P:cerebellum development; IEP:RGD.
+DR   GO; GO:0021987; P:cerebral cortex development; IEP:RGD.
+DR   GO; GO:0046452; P:dihydrofolate metabolic process; IDA:RGD.
+DR   GO; GO:0006177; P:GMP biosynthetic process; ISO:RGD.
+DR   GO; GO:0046654; P:tetrahydrofolate biosynthetic process; IDA:RGD.
+DR   CDD; cd01421; IMPCH; 1.
+DR   Gene3D; 1.10.287.440; -; 1.
+DR   Gene3D; 3.40.140.20; -; 2.
+DR   Gene3D; 3.40.50.1380; Methylglyoxal synthase-like domain; 1.
+DR   HAMAP; MF_00139; PurH; 1.
+DR   InterPro; IPR024051; AICAR_Tfase_dup_dom_sf.
+DR   InterPro; IPR024050; AICAR_Tfase_insert_dom_sf.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR011607; MGS-like_dom.
+DR   InterPro; IPR036914; MGS-like_dom_sf.
+DR   InterPro; IPR002695; PurH-like.
+DR   NCBIfam; TIGR00355; purH; 1.
+DR   PANTHER; PTHR11692:SF0; BIFUNCTIONAL PURINE BIOSYNTHESIS PROTEIN ATIC; 1.
+DR   PANTHER; PTHR11692; BIFUNCTIONAL PURINE BIOSYNTHESIS PROTEIN PURH; 1.
+DR   Pfam; PF01808; AICARFT_IMPCHas; 1.
+DR   Pfam; PF02142; MGS; 1.
+DR   PIRSF; PIRSF000414; AICARFT_IMPCHas; 1.
+DR   SMART; SM00798; AICARFT_IMPCHas; 1.
+DR   SMART; SM00851; MGS; 1.
+DR   SUPFAM; SSF53927; Cytidine deaminase-like; 1.
+DR   SUPFAM; SSF52335; Methylglyoxal synthase-like; 1.
+DR   PROSITE; PS51855; MGS; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Direct protein sequencing; Hydrolase;
+KW   Multifunctional enzyme; Purine biosynthesis; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..592
+FT                   /note="Bifunctional purine biosynthesis protein ATIC"
+FT                   /id="PRO_0000270214"
+FT   DOMAIN          1..146
+FT                   /note="MGS-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01202"
+FT   REGION          1..198
+FT                   /note="IMP cyclohydrolase"
+FT                   /evidence="ECO:0000250|UniProtKB:P31335"
+FT   REGION          199..592
+FT                   /note="AICAR formyltransferase"
+FT                   /evidence="ECO:0000250|UniProtKB:P31335"
+FT   ACT_SITE        137
+FT                   /note="Proton donor/acceptor; for FAICAR cyclization
+FT                   activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   ACT_SITE        267
+FT                   /note="Proton acceptor; for AICAR formyltransferase
+FT                   activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         12..14
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         34..37
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         64..67
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         101..102
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         125..126
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         207..208
+FT                   /ligand="5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-
+FT                   carboxamide"
+FT                   /ligand_id="ChEBI:CHEBI:58475"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         267
+FT                   /ligand="5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-
+FT                   carboxamide"
+FT                   /ligand_id="ChEBI:CHEBI:58475"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         316
+FT                   /ligand="5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-
+FT                   carboxamide"
+FT                   /ligand_id="ChEBI:CHEBI:58475"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         339
+FT                   /ligand="5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-
+FT                   carboxamide"
+FT                   /ligand_id="ChEBI:CHEBI:58475"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         431
+FT                   /ligand="5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-
+FT                   carboxamide"
+FT                   /ligand_id="ChEBI:CHEBI:58475"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         451
+FT                   /ligand="5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-
+FT                   carboxamide"
+FT                   /ligand_id="ChEBI:CHEBI:58475"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         452
+FT                   /ligand="(6R)-10-formyltetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:195366"
+FT                   /evidence="ECO:0000250|UniProtKB:P31335"
+FT   BINDING         541
+FT                   /ligand="5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-
+FT                   carboxamide"
+FT                   /ligand_id="ChEBI:CHEBI:58475"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   BINDING         546
+FT                   /ligand="(6R)-10-formyltetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:195366"
+FT                   /evidence="ECO:0000250|UniProtKB:P31335"
+FT   BINDING         565..566
+FT                   /ligand="(6R)-10-formyltetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:195366"
+FT                   /evidence="ECO:0000250|UniProtKB:P31335"
+FT   BINDING         588
+FT                   /ligand="5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-
+FT                   carboxamide"
+FT                   /ligand_id="ChEBI:CHEBI:58475"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   SITE            266
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   MOD_RES         199
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P31939"
+FT   CONFLICT        24
+FT                   /note="L -> H (in Ref. 1; BAA22837)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   592 AA;  64208 MW;  D9D710794BB12B95 CRC64;
+     MASSQLALFS VSDKTGLVEF ARNLASLGLS LVASGGTAKA IRDAGLAVRD VSELTGFPEM
+     LGGRVKTLHP AVHAGILARN IPEDAADMAR LDFNLIRVVV CNLYPFVKTV ASPDVTVEAA
+     VEQIDIGGVT LLRAAAKNHA RVTVVCEPED YGAVAAEMQG SGNKDTSLET RRHLALKAFT
+     HTAQYDEAIS DYFRRQYSKG ISQMPLRYGM NPHQTPAQLY TLKPKLPITV LNGAPGFINL
+     CDALNAWQLV TELRGAVDIP AAASFKHVSP AGAAVGVPLS EDEARVCMVY DLYPTLTPLA
+     IAYARARGAD RMSSFGDFVA LSDVCDVPTA KIISREVSDG IVAPGYEEEA LKILSKKKNG
+     SYCVLQMDQS YKPDENEVRT LFGLRLSQKR NNGVVDKSLF SNIVTKNKDL PESALRDLIV
+     ATIAVKYTQS NSVCYAKDGQ VIGIGAGQQS RIHCTRLAGD KANSWWLRHH PRVLSMKFKA
+     GVKRAEVSNA IDQYVTGTIG EGEDLVKWKA LFEEVPELLT EAEKKEWVDK LSGVSVSSDA
+     FFPFRDNVDR AKRSGVAYIV APSGSTADKV VIEACDELGI VLAHTDLRLF HH
+//

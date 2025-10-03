@@ -1,0 +1,168 @@
+ID   DYR_RAT                 Reviewed;         187 AA.
+AC   Q920D2;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   24-JUL-2024, entry version 143.
+DE   RecName: Full=Dihydrofolate reductase;
+DE            EC=1.5.1.3;
+GN   Name=Dhfr;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=11502523; DOI=10.1128/aac.45.9.2517-2523.2001;
+RA   Wang Y., Bruenn J.A., Queener S.F., Cody V.;
+RT   "Isolation of rat dihydrofolate reductase gene and characterization of
+RT   recombinant enzyme.";
+RL   Antimicrob. Agents Chemother. 45:2517-2523(2001).
+RN   [2]
+RP   SUBCELLULAR LOCATION, AND CATALYTIC ACTIVITY.
+RX   PubMed=25980602; DOI=10.1016/j.febslet.2015.05.017;
+RA   Hughes L., Carton R., Minguzzi S., McEntee G., Deinum E.E., O'Connell M.J.,
+RA   Parle-McDermott A.;
+RT   "An active second dihydrofolate reductase enzyme is not a feature of rat
+RT   and mouse, but they do have activity in their mitochondria.";
+RL   FEBS Lett. 589:1855-1862(2015).
+CC   -!- FUNCTION: Key enzyme in folate metabolism. Contributes to the de novo
+CC       mitochondrial thymidylate biosynthesis pathway. Catalyzes an essential
+CC       reaction for de novo glycine and purine synthesis, and for DNA
+CC       precursor synthesis. Binds its own mRNA (By similarity).
+CC       {ECO:0000250|UniProtKB:P00374}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6S)-5,6,7,8-tetrahydrofolate + NADP(+) = 7,8-dihydrofolate +
+CC         H(+) + NADPH; Xref=Rhea:RHEA:15009, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57451, ChEBI:CHEBI:57453, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.5.1.3; Evidence={ECO:0000255|PROSITE-
+CC         ProRule:PRU00660, ECO:0000269|PubMed:25980602};
+CC   -!- PATHWAY: Cofactor biosynthesis; tetrahydrofolate biosynthesis; 5,6,7,8-
+CC       tetrahydrofolate from 7,8-dihydrofolate: step 1/1.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:P00374}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000269|PubMed:25980602}.
+CC       Cytoplasm {ECO:0000269|PubMed:25980602}.
+CC   -!- SIMILARITY: Belongs to the dihydrofolate reductase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF318150; AAL11500.1; -; mRNA.
+DR   RefSeq; NP_569084.1; NM_130400.2.
+DR   AlphaFoldDB; Q920D2; -.
+DR   SMR; Q920D2; -.
+DR   STRING; 10116.ENSRNOP00000018259; -.
+DR   BindingDB; Q920D2; -.
+DR   ChEMBL; CHEMBL2363; -.
+DR   DrugCentral; Q920D2; -.
+DR   iPTMnet; Q920D2; -.
+DR   PhosphoSitePlus; Q920D2; -.
+DR   jPOST; Q920D2; -.
+DR   PaxDb; 10116-ENSRNOP00000018259; -.
+DR   Ensembl; ENSRNOT00000018259.6; ENSRNOP00000018259.3; ENSRNOG00000013521.6.
+DR   GeneID; 24312; -.
+DR   KEGG; rno:24312; -.
+DR   UCSC; RGD:2500; rat.
+DR   AGR; RGD:2500; -.
+DR   CTD; 1719; -.
+DR   RGD; 2500; Dhfr.
+DR   eggNOG; KOG1324; Eukaryota.
+DR   GeneTree; ENSGT00390000010283; -.
+DR   HOGENOM; CLU_043966_2_3_1; -.
+DR   InParanoid; Q920D2; -.
+DR   OMA; RDNQLPW; -.
+DR   OrthoDB; 1118873at2759; -.
+DR   PhylomeDB; Q920D2; -.
+DR   TreeFam; TF317636; -.
+DR   BRENDA; 1.5.1.3; 5301.
+DR   Reactome; R-RNO-196757; Metabolism of folate and pterines.
+DR   SABIO-RK; Q920D2; -.
+DR   UniPathway; UPA00077; UER00158.
+DR   PRO; PR:Q920D2; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000013521; Expressed in duodenum and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q920D2; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; IDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0004146; F:dihydrofolate reductase activity; IDA:UniProtKB.
+DR   GO; GO:0051871; F:dihydrofolic acid binding; IDA:RGD.
+DR   GO; GO:0005542; F:folic acid binding; ISO:RGD.
+DR   GO; GO:0003729; F:mRNA binding; ISS:UniProtKB.
+DR   GO; GO:0000900; F:mRNA regulatory element binding translation repressor activity; ISO:RGD.
+DR   GO; GO:0050661; F:NADP binding; IDA:RGD.
+DR   GO; GO:0070402; F:NADPH binding; ISO:RGD.
+DR   GO; GO:1990825; F:sequence-specific mRNA binding; ISO:RGD.
+DR   GO; GO:0031103; P:axon regeneration; IMP:BHF-UCL.
+DR   GO; GO:0046452; P:dihydrofolate metabolic process; IDA:RGD.
+DR   GO; GO:0046655; P:folic acid metabolic process; IDA:BHF-UCL.
+DR   GO; GO:0017148; P:negative regulation of translation; ISO:RGD.
+DR   GO; GO:2000121; P:regulation of removal of superoxide radicals; ISO:RGD.
+DR   GO; GO:0031427; P:response to methotrexate; IEA:UniProtKB-KW.
+DR   GO; GO:0035094; P:response to nicotine; IEP:RGD.
+DR   GO; GO:0006729; P:tetrahydrobiopterin biosynthetic process; ISO:RGD.
+DR   GO; GO:0046654; P:tetrahydrofolate biosynthetic process; IDA:RGD.
+DR   GO; GO:0035999; P:tetrahydrofolate interconversion; ISO:RGD.
+DR   GO; GO:0046653; P:tetrahydrofolate metabolic process; ISS:UniProtKB.
+DR   CDD; cd00209; DHFR; 1.
+DR   Gene3D; 3.40.430.10; Dihydrofolate Reductase, subunit A; 1.
+DR   InterPro; IPR012259; DHFR.
+DR   InterPro; IPR024072; DHFR-like_dom_sf.
+DR   InterPro; IPR017925; DHFR_CS.
+DR   InterPro; IPR001796; DHFR_dom.
+DR   PANTHER; PTHR48069; DIHYDROFOLATE REDUCTASE; 1.
+DR   PANTHER; PTHR48069:SF6; DIHYDROFOLATE REDUCTASE; 1.
+DR   Pfam; PF00186; DHFR_1; 1.
+DR   PRINTS; PR00070; DHFR.
+DR   SUPFAM; SSF53597; Dihydrofolate reductase-like; 1.
+DR   PROSITE; PS00075; DHFR_1; 1.
+DR   PROSITE; PS51330; DHFR_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Methotrexate resistance; Mitochondrion; NADP;
+KW   One-carbon metabolism; Oxidoreductase; Reference proteome; RNA-binding.
+FT   CHAIN           1..187
+FT                   /note="Dihydrofolate reductase"
+FT                   /id="PRO_0000186366"
+FT   DOMAIN          4..185
+FT                   /note="DHFR"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00660"
+FT   BINDING         10
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:P00374"
+FT   BINDING         16..22
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:P00374"
+FT   BINDING         31..36
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00374"
+FT   BINDING         55..57
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:P00374"
+FT   BINDING         71
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00374"
+FT   BINDING         77..79
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:P00374"
+FT   BINDING         117..124
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:P00374"
+FT   MOD_RES         33
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00375"
+FT   MOD_RES         33
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00375"
+SQ   SEQUENCE   187 AA;  21638 MW;  FE1DB4F3515F8B26 CRC64;
+     MVRPLNCIVA VSQNMGIGKN GDLPWPLLRN EFKYFQRMTT TSSVEGKQNL VIMGRKTWFS
+     IPEKNRPLKD RINIVLSREL KEPPQGAHFL AKSLDDALKL IEQPELASKV DMVWVVGGSS
+     VYQEAMNQPG HLRLFVTRIM QEFESDTFFP EIDLEKYKLL PEYPGVLSEI QEEKGIKYKF
+     EVYEKKD
+//

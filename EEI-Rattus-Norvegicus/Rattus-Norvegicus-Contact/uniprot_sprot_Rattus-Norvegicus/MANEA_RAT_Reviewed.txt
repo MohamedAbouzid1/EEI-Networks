@@ -1,0 +1,134 @@
+ID   MANEA_RAT               Reviewed;         462 AA.
+AC   Q5GF25; O35390;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   29-MAY-2024, entry version 105.
+DE   RecName: Full=Glycoprotein endo-alpha-1,2-mannosidase;
+DE            Short=Endo-alpha mannosidase;
+DE            Short=Endomannosidase;
+DE            Short=rEndo;
+DE            EC=3.2.1.130 {ECO:0000269|PubMed:15677381};
+DE   AltName: Full=Endo-alpha-D-mannosidase;
+DE            Short=Enman;
+GN   Name=Manea;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 245-253; 277-291 AND
+RP   381-400, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=9361017; DOI=10.1074/jbc.272.46.29356;
+RA   Spiro M.J., Bhoyroo V.D., Spiro R.G.;
+RT   "Molecular cloning and expression of rat liver endo-alpha-mannosidase, an
+RT   N-linked oligosaccharide processing enzyme.";
+RL   J. Biol. Chem. 272:29356-29363(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], CATALYTIC ACTIVITY, PTM, SUBCELLULAR LOCATION,
+RP   AND TOPOLOGY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=15677381; DOI=10.1093/glycob/cwi045;
+RA   Hamilton S.R., Li H., Wischnewski H., Prasad A., Kerley-Hamilton J.S.,
+RA   Mitchell T., Walling A.J., Davidson R.C., Wildt S., Gerngross T.U.;
+RT   "Intact alpha-1,2-endomannosidase is a typical type II membrane protein.";
+RL   Glycobiology 15:615-624(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-{alpha-Glc-(1->3)-alpha-Man-(1->2)-alpha-Man-(1->2)-
+CC         alpha-Man-(1->3)-[alpha-Man-(1->2)-alpha-Man-(1->3)-[alpha-Man-
+CC         (1->2)-alpha-Man-(1->6)]-alpha-Man-(1->6)]-beta-Man-(1->4)-beta-
+CC         GlcNAc-(1->4)-beta-GlcNAc}-L-asparaginyl-[protein] = alpha-D-
+CC         glucosyl-(1->3)-D-mannopyranose + N(4)-{alpha-D-Man-(1->2)-alpha-D-
+CC         Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-
+CC         beta-D-GlaNAc-(1->4)-beta-D-GlcNAc}-L-asparaginyl-[protein] (N-glucan
+CC         mannose isomer 8A1,2,3B1,2); Xref=Rhea:RHEA:54824, Rhea:RHEA-
+CC         COMP:14010, Rhea:RHEA-COMP:14011, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:52996, ChEBI:CHEBI:59080, ChEBI:CHEBI:60627;
+CC         EC=3.2.1.130; Evidence={ECO:0000269|PubMed:15677381};
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000269|PubMed:15677381}; Single-pass type II membrane protein
+CC       {ECO:0000269|PubMed:15677381}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in the liver and kidney.
+CC       {ECO:0000269|PubMed:9361017}.
+CC   -!- PTM: Undergoes proteolytic cleavage in the C-terminal region.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 99 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAB86925.1; Type=Miscellaneous discrepancy; Note=Cloning artifact. The sequence differs from that shown at the N-terminus (1-54).; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF023657; AAB86925.1; ALT_SEQ; mRNA.
+DR   EMBL; AY599499; AAT44962.1; -; mRNA.
+DR   RefSeq; NP_542963.2; NM_080785.2.
+DR   RefSeq; XP_006238022.1; XM_006237960.2.
+DR   RefSeq; XP_006238023.1; XM_006237961.2.
+DR   AlphaFoldDB; Q5GF25; -.
+DR   SMR; Q5GF25; -.
+DR   STRING; 10116.ENSRNOP00000011576; -.
+DR   CAZy; GH99; Glycoside Hydrolase Family 99.
+DR   PhosphoSitePlus; Q5GF25; -.
+DR   PaxDb; 10116-ENSRNOP00000011576; -.
+DR   Ensembl; ENSRNOT00000011576.7; ENSRNOP00000011576.4; ENSRNOG00000008626.7.
+DR   Ensembl; ENSRNOT00055017207; ENSRNOP00055013847; ENSRNOG00055010191.
+DR   Ensembl; ENSRNOT00060023653; ENSRNOP00060018805; ENSRNOG00060013846.
+DR   Ensembl; ENSRNOT00065008521; ENSRNOP00065006006; ENSRNOG00065005709.
+DR   GeneID; 140808; -.
+DR   KEGG; rno:140808; -.
+DR   UCSC; RGD:620327; rat.
+DR   AGR; RGD:620327; -.
+DR   CTD; 79694; -.
+DR   RGD; 620327; Manea.
+DR   eggNOG; ENOG502QPJV; Eukaryota.
+DR   GeneTree; ENSGT00390000016054; -.
+DR   HOGENOM; CLU_042710_1_1_1; -.
+DR   InParanoid; Q5GF25; -.
+DR   OMA; PQLPHWD; -.
+DR   OrthoDB; 5488150at2759; -.
+DR   PhylomeDB; Q5GF25; -.
+DR   TreeFam; TF324051; -.
+DR   BRENDA; 3.2.1.130; 5301.
+DR   Reactome; R-RNO-964739; N-glycan trimming and elongation in the cis-Golgi.
+DR   PRO; PR:Q5GF25; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   Bgee; ENSRNOG00000008626; Expressed in duodenum and 20 other cell types or tissues.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; ISO:RGD.
+DR   GO; GO:0004559; F:alpha-mannosidase activity; IDA:RGD.
+DR   GO; GO:0004569; F:glycoprotein endo-alpha-1,2-mannosidase activity; ISO:RGD.
+DR   CDD; cd11574; GH99; 1.
+DR   Gene3D; 3.20.20.80; Glycosidases; 1.
+DR   InterPro; IPR026071; Glyco_Hydrolase_99.
+DR   PANTHER; PTHR13572; ENDO-ALPHA-1,2-MANNOSIDASE; 1.
+DR   PANTHER; PTHR13572:SF1; GLYCOPROTEIN ENDO-ALPHA-1,2-MANNOSIDASE; 1.
+DR   Pfam; PF16317; Glyco_hydro_99; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Golgi apparatus; Hydrolase; Membrane;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..462
+FT                   /note="Glycoprotein endo-alpha-1,2-mannosidase"
+FT                   /id="PRO_0000282318"
+FT   TOPO_DOM        1..9
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        10..30
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        31..462
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   REGION          60..462
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   462 AA;  53416 MW;  0D8F1C3EB29C0785 CRC64;
+     MAKFRRRTCI ILSLFIVFIF SLMMGLKMLW PNAASFGPPF GLDLLPELRP PNTHLENKAD
+     FQRSDRIDME TNTKDLKGAG VTVHPPRASE VNLEELPPLN YFVHAFYYSW YGNPQFDGKY
+     VHWNHPVLEH WDPRIAKNYP QGRHSPPDDI GSSFYPELGS YSSRDPSVIE THMKQMRSAS
+     IGVLALSWYP PDASDENGEA TDYLVPTILD KAHKYNLKVT FHIEPYSNRD DQNMHQNVKY
+     IIDKYGNHPA FYRYKTRMGH SLPMFYIYDS YITKPKTWAN LLTPSGSQSV RGSPYDGLFI
+     ALLVEEKHKY DILQSGFDGI YTYFATNGFT YGSSHQNWNK LKSFCEKNNM IFIPSVGPGY
+     IDTSIRPWNT QNTRNRINGK YYEVGLSAAL QTQPSLISIT SFNEWHEGTQ IEKAVPKRTA
+     NTVYLDYRPH KPSLYLEITR KWSEKYSKER MTYALDQQLP AS
+//

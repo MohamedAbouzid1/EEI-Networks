@@ -1,0 +1,197 @@
+ID   GPX2_RAT                Reviewed;         190 AA.
+AC   P83645;
+DT   10-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 3.
+DT   27-MAR-2024, entry version 119.
+DE   RecName: Full=Glutathione peroxidase 2;
+DE            Short=GPx-2;
+DE            Short=GSHPx-2;
+DE            EC=1.11.1.9 {ECO:0000269|PubMed:9685647};
+DE   AltName: Full=Glutathione peroxidase-gastrointestinal;
+DE            Short=GPx-GI;
+DE            Short=GSHPx-GI;
+DE   AltName: Full=Phospholipid hydroperoxide glutathione peroxidase GPX2;
+DE            EC=1.11.1.12 {ECO:0000250|UniProtKB:P18283};
+GN   Name=Gpx2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116 {ECO:0000305};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-87.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal ganglion;
+RA   Xiao H.S., Han Z.G., Zhang F.X., Huang Q.H., Lu Y.J., Bao L., Fu G.,
+RA   Guo C., Yan Q., Jin S.X., Zhu Z.D., Xu X.R., Li N.G., Chen Z., Zhang X.;
+RT   "Distinct gene expression profiles of rat dorsal root ganglion induced by
+RT   peripheral nerve axotomy.";
+RL   Submitted (MAY-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 80-190.
+RC   STRAIN=Sprague-Dawley; TISSUE=Ileum;
+RX   PubMed=8889548; DOI=10.1101/gr.6.9.791;
+RA   Bonaldo M.F., Lennon G., Soares M.B.;
+RT   "Normalization and subtraction: two approaches to facilitate gene
+RT   discovery.";
+RL   Genome Res. 6:791-806(1996).
+RN   [3] {ECO:0000305}
+RP   PROTEIN SEQUENCE OF 7-27; 91-101; 121-138; 140-168 AND 175-181, CATALYTIC
+RP   ACTIVITY, TISSUE SPECIFICITY, AND FUNCTION.
+RC   STRAIN=CD Charles River {ECO:0000269|PubMed:9685647};
+RC   TISSUE=Gastrointestinal tract epithelium {ECO:0000269|PubMed:9685647};
+RX   PubMed=9685647; DOI=10.1016/s0304-4165(98)00032-4;
+RA   Esworthy R.S., Swiderek K.M., Ho Y.-S., Chu F.-F.;
+RT   "Selenium-dependent glutathione peroxidase-GI is a major glutathione
+RT   peroxidase activity in the mucosal epithelium of rodent intestine.";
+RL   Biochim. Biophys. Acta 1381:213-226(1998).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the reduction of hydroperoxides in a glutathione-
+CC       dependent manner thus regulating cellular redox homeostasis
+CC       (PubMed:9685647). Can reduce small soluble hydroperoxide such as H2O2
+CC       (PubMed:9685647). Can reduce cumene hydroperoxide and tert-butyl
+CC       hydroperoxide, as well as several fatty acid-derived hydroperoxides.
+CC       Cannot reduce phosphatidycholine hydroperoxide (By similarity).
+CC       {ECO:0000250|UniProtKB:P18283, ECO:0000269|PubMed:9685647}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 glutathione + H2O2 = glutathione disulfide + 2 H2O;
+CC         Xref=Rhea:RHEA:16833, ChEBI:CHEBI:15377, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:57925, ChEBI:CHEBI:58297; EC=1.11.1.9;
+CC         Evidence={ECO:0000269|PubMed:9685647};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16834;
+CC         Evidence={ECO:0000305|PubMed:9685647};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a hydroperoxy polyunsaturated fatty acid + 2 glutathione = a
+CC         hydroxy polyunsaturated fatty acid + glutathione disulfide + H2O;
+CC         Xref=Rhea:RHEA:19057, ChEBI:CHEBI:15377, ChEBI:CHEBI:57925,
+CC         ChEBI:CHEBI:58297, ChEBI:CHEBI:131871, ChEBI:CHEBI:134019;
+CC         EC=1.11.1.12; Evidence={ECO:0000250|UniProtKB:P18283};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19058;
+CC         Evidence={ECO:0000250|UniProtKB:P18283};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 glutathione + tert-butyl hydroperoxide = glutathione
+CC         disulfide + H2O + tert-butanol; Xref=Rhea:RHEA:69412,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:45895, ChEBI:CHEBI:57925,
+CC         ChEBI:CHEBI:58297, ChEBI:CHEBI:64090;
+CC         Evidence={ECO:0000250|UniProtKB:P18283};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:69413;
+CC         Evidence={ECO:0000250|UniProtKB:P18283};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cumene hydroperoxide + 2 glutathione = 2-phenylpropan-2-ol +
+CC         glutathione disulfide + H2O; Xref=Rhea:RHEA:69651, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:57925, ChEBI:CHEBI:58297, ChEBI:CHEBI:78673,
+CC         ChEBI:CHEBI:131607; Evidence={ECO:0000250|UniProtKB:P18283};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:69652;
+CC         Evidence={ECO:0000250|UniProtKB:P18283};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(13S)-hydroperoxy-(9Z,11E)-octadecadienoate + 2 glutathione =
+CC         (13S)-hydroxy-(9Z,11E)-octadecadienoate + glutathione disulfide +
+CC         H2O; Xref=Rhea:RHEA:48888, ChEBI:CHEBI:15377, ChEBI:CHEBI:57466,
+CC         ChEBI:CHEBI:57925, ChEBI:CHEBI:58297, ChEBI:CHEBI:90850;
+CC         Evidence={ECO:0000250|UniProtKB:P18283};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48889;
+CC         Evidence={ECO:0000250|UniProtKB:P18283};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5S)-hydroperoxy-(6E,8Z,11Z,14Z)-eicosatetraenoate + 2
+CC         glutathione = (5S)-hydroxy-(6E,8Z,11Z,14Z)-eicosatetraenoate +
+CC         glutathione disulfide + H2O; Xref=Rhea:RHEA:48620, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:57450, ChEBI:CHEBI:57925, ChEBI:CHEBI:58297,
+CC         ChEBI:CHEBI:90632; Evidence={ECO:0000250|UniProtKB:P18283};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48621;
+CC         Evidence={ECO:0000250|UniProtKB:P18283};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(12R)-hydroperoxy-(5Z,8Z,10E,14Z)-eicosatetraenoate + 2
+CC         glutathione = (12R)-hydroxy-(5Z,8Z,10E,14Z)-eicosatetraenoate +
+CC         glutathione disulfide + H2O; Xref=Rhea:RHEA:76691, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:57925, ChEBI:CHEBI:58297, ChEBI:CHEBI:75230,
+CC         ChEBI:CHEBI:83343; Evidence={ECO:0000250|UniProtKB:P18283};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76692;
+CC         Evidence={ECO:0000250|UniProtKB:P18283};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(15S)-hydroperoxy-(5Z,8Z,11Z,13E)-eicosatetraenoate + 2
+CC         glutathione = (15S)-hydroxy-(5Z,8Z,11Z,13E)-eicosatetraenoate +
+CC         glutathione disulfide + H2O; Xref=Rhea:RHEA:76695, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:57409, ChEBI:CHEBI:57446, ChEBI:CHEBI:57925,
+CC         ChEBI:CHEBI:58297; Evidence={ECO:0000250|UniProtKB:P18283};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76696;
+CC         Evidence={ECO:0000250|UniProtKB:P18283};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:P18283}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:P18283}.
+CC   -!- TISSUE SPECIFICITY: Mucosal epithelium of the gastrointestinal tract.
+CC       {ECO:0000269|PubMed:9685647}.
+CC   -!- SIMILARITY: Belongs to the glutathione peroxidase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BG664050; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; BQ196649; -; NOT_ANNOTATED_CDS; mRNA.
+DR   STRING; 10116.ENSRNOP00000072136; -.
+DR   PeroxiBase; 3731; RnoGPx02.
+DR   iPTMnet; P83645; -.
+DR   PhosphoSitePlus; P83645; -.
+DR   UCSC; RGD:727780; rat.
+DR   AGR; RGD:727780; -.
+DR   RGD; 727780; Gpx2.
+DR   InParanoid; P83645; -.
+DR   PhylomeDB; P83645; -.
+DR   BRENDA; 1.11.1.9; 5301.
+DR   Reactome; R-RNO-2142712; Synthesis of 12-eicosatetraenoic acid derivatives.
+DR   Reactome; R-RNO-2142770; Synthesis of 15-eicosatetraenoic acid derivatives.
+DR   Reactome; R-RNO-3299685; Detoxification of Reactive Oxygen Species.
+DR   Reactome; R-RNO-5628897; TP53 Regulates Metabolic Genes.
+DR   PRO; PR:P83645; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004602; F:glutathione peroxidase activity; IDA:RGD.
+DR   GO; GO:0047066; F:phospholipid-hydroperoxide glutathione peroxidase activity; ISO:RGD.
+DR   GO; GO:0051702; P:biological process involved in interaction with symbiont; ISO:RGD.
+DR   GO; GO:0002862; P:negative regulation of inflammatory response to antigenic stimulus; ISO:RGD.
+DR   GO; GO:0006979; P:response to oxidative stress; IEA:InterPro.
+DR   GO; GO:0009751; P:response to salicylic acid; IEP:RGD.
+DR   GO; GO:0010269; P:response to selenium ion; IEP:RGD.
+DR   GO; GO:0009609; P:response to symbiotic bacterium; ISO:RGD.
+DR   GO; GO:0001659; P:temperature homeostasis; ISO:RGD.
+DR   CDD; cd00340; GSH_Peroxidase; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   InterPro; IPR000889; Glutathione_peroxidase.
+DR   InterPro; IPR029759; GPX_AS.
+DR   InterPro; IPR029760; GPX_CS.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   PANTHER; PTHR11592; GLUTATHIONE PEROXIDASE; 1.
+DR   PANTHER; PTHR11592:SF36; GLUTATHIONE PEROXIDASE 2; 1.
+DR   Pfam; PF00255; GSHPx; 1.
+DR   PIRSF; PIRSF000303; Glutathion_perox; 1.
+DR   PRINTS; PR01011; GLUTPROXDASE.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS00460; GLUTATHIONE_PEROXID_1; 1.
+DR   PROSITE; PS00763; GLUTATHIONE_PEROXID_2; 1.
+DR   PROSITE; PS51355; GLUTATHIONE_PEROXID_3; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Direct protein sequencing; Oxidoreductase; Peroxidase;
+KW   Reference proteome; Selenocysteine.
+FT   CHAIN           1..190
+FT                   /note="Glutathione peroxidase 2"
+FT                   /id="PRO_0000066624"
+FT   ACT_SITE        40
+FT                   /evidence="ECO:0000250|UniProtKB:O70325"
+FT   NON_STD         40
+FT                   /note="Selenocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:O70325"
+FT   CONFLICT        91
+FT                   /note="H -> P (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   190 AA;  22014 MW;  9A69384CBEF81E70 CRC64;
+     MAYIAKSFYD LSAIGLDGEK IDFNTFRGRA VLIENVASLU GTTTRDYTQL NELQCRFPRR
+     LVVLGFPCNQ FGHQENCQNE EILNSLKYVR HGGGFQPTFS LTQKCDVNGQ NQHPVFAYLK
+     DKLPYPYDDP FSLMTDPKLI IWSPVRRSDV SWNFEKFLIG PEGEPFRRYS RTFQTINIEP
+     DIKRLLKVAI
+//

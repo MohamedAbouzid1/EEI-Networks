@@ -1,0 +1,226 @@
+ID   LGUL_RAT                Reviewed;         184 AA.
+AC   Q6P7Q4;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   29-MAY-2024, entry version 136.
+DE   RecName: Full=Lactoylglutathione lyase;
+DE            EC=4.4.1.5 {ECO:0000269|PubMed:8719777};
+DE   AltName: Full=Aldoketomutase;
+DE   AltName: Full=Glyoxalase I;
+DE            Short=Glx I;
+DE   AltName: Full=Ketone-aldehyde mutase;
+DE   AltName: Full=Methylglyoxalase;
+DE   AltName: Full=S-D-lactoylglutathione methylglyoxal lyase;
+GN   Name=Glo1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 29-38; 44-83; 89-95 AND 124-148, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Hippocampus, and Spinal cord;
+RA   Lubec G., Afjehi-Sadat L., Chen W.-Q.;
+RL   Submitted (APR-2007) to UniProtKB.
+RN   [3]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=8719777; DOI=10.1016/0047-6374(95)01632-a;
+RA   Kawase M., Kondoh C., Matsumoto S., Teshigawara M., Chisaka Y.,
+RA   Higashiura M., Nakata K., Ohmori S.;
+RT   "Contents of D-lactate and its related metabolites as well as enzyme
+RT   activities in the liver, muscle and blood plasma of aging rats.";
+RL   Mech. Ageing Dev. 84:55-63(1995).
+CC   -!- FUNCTION: Catalyzes the conversion of hemimercaptal, formed from
+CC       methylglyoxal and glutathione, to S-lactoylglutathione
+CC       (PubMed:8719777). Involved in the regulation of TNF-induced
+CC       transcriptional activity of NF-kappa-B (By similarity). Required for
+CC       normal osteoclastogenesis (By similarity).
+CC       {ECO:0000250|UniProtKB:Q04760, ECO:0000250|UniProtKB:Q9CPU0,
+CC       ECO:0000269|PubMed:8719777}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-S-lactoylglutathione = glutathione + methylglyoxal;
+CC         Xref=Rhea:RHEA:19069, ChEBI:CHEBI:17158, ChEBI:CHEBI:57474,
+CC         ChEBI:CHEBI:57925; EC=4.4.1.5; Evidence={ECO:0000269|PubMed:8719777};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:19071;
+CC         Evidence={ECO:0000305|PubMed:8719777};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q04760};
+CC       Note=Binds 1 zinc ion per subunit. In the homodimer, two zinc ions are
+CC       bound between subunits. {ECO:0000250|UniProtKB:Q04760};
+CC   -!- PATHWAY: Secondary metabolite metabolism; methylglyoxal degradation;
+CC       (R)-lactate from methylglyoxal: step 1/2.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q04760}.
+CC   -!- PTM: Glutathionylation at Cys-139 inhibits enzyme activity.
+CC       {ECO:0000250|UniProtKB:Q04760}.
+CC   -!- PTM: Phosphorylated at Thr-107 in the presence of CaMK2. However, this
+CC       is a consensus site for phosphorylation by CK2 so phosphorylation may
+CC       be mediated by CK2 rather than CaMK2. Phosphorylation is induced by TNF
+CC       and suppresses the TNF-induced transcriptional activity of NF-kappa-B
+CC       (By similarity). {ECO:0000250|UniProtKB:Q04760}.
+CC   -!- PTM: Exists in a nitric oxide (NO)-modified form. The exact nature of
+CC       the modification is unknown, but it suppresses the TNF-induced
+CC       transcriptional activity of NF-kappa-B (By similarity).
+CC       {ECO:0000250|UniProtKB:Q04760}.
+CC   -!- SIMILARITY: Belongs to the glyoxalase I family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC061570; AAH61570.1; -; mRNA.
+DR   RefSeq; NP_997477.1; NM_207594.2.
+DR   AlphaFoldDB; Q6P7Q4; -.
+DR   SMR; Q6P7Q4; -.
+DR   BioGRID; 254669; 1.
+DR   STRING; 10116.ENSRNOP00000000650; -.
+DR   ChEMBL; CHEMBL2306; -.
+DR   iPTMnet; Q6P7Q4; -.
+DR   PhosphoSitePlus; Q6P7Q4; -.
+DR   SwissPalm; Q6P7Q4; -.
+DR   jPOST; Q6P7Q4; -.
+DR   PaxDb; 10116-ENSRNOP00000000650; -.
+DR   Ensembl; ENSRNOT00000000650.7; ENSRNOP00000000650.4; ENSRNOG00000000541.7.
+DR   Ensembl; ENSRNOT00055012356; ENSRNOP00055009807; ENSRNOG00055007419.
+DR   Ensembl; ENSRNOT00060007895; ENSRNOP00060005937; ENSRNOG00060004723.
+DR   Ensembl; ENSRNOT00065053662; ENSRNOP00065044109; ENSRNOG00065031125.
+DR   GeneID; 294320; -.
+DR   KEGG; rno:294320; -.
+DR   UCSC; RGD:2702; rat.
+DR   AGR; RGD:2702; -.
+DR   CTD; 2739; -.
+DR   RGD; 2702; Glo1.
+DR   eggNOG; KOG2944; Eukaryota.
+DR   GeneTree; ENSGT00390000009312; -.
+DR   HOGENOM; CLU_046006_1_1_1; -.
+DR   InParanoid; Q6P7Q4; -.
+DR   OMA; THNWDTP; -.
+DR   OrthoDB; 245930at2759; -.
+DR   PhylomeDB; Q6P7Q4; -.
+DR   TreeFam; TF105011; -.
+DR   Reactome; R-RNO-70268; Pyruvate metabolism.
+DR   SABIO-RK; Q6P7Q4; -.
+DR   UniPathway; UPA00619; UER00675.
+DR   PRO; PR:Q6P7Q4; -.
+DR   Proteomes; UP000002494; Chromosome 20.
+DR   Bgee; ENSRNOG00000000541; Expressed in quadriceps femoris and 20 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; IEA:Ensembl.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0005886; C:plasma membrane; IEA:Ensembl.
+DR   GO; GO:0004462; F:lactoylglutathione lyase activity; IDA:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; ISO:RGD.
+DR   GO; GO:0006749; P:glutathione metabolic process; IDA:RGD.
+DR   GO; GO:0009438; P:methylglyoxal metabolic process; IDA:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISS:UniProtKB.
+DR   GO; GO:0030316; P:osteoclast differentiation; ISO:RGD.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   CDD; cd07233; GlxI_Zn; 1.
+DR   Gene3D; 3.10.180.10; 2,3-Dihydroxybiphenyl 1,2-Dioxygenase, domain 1; 1.
+DR   InterPro; IPR029068; Glyas_Bleomycin-R_OHBP_Dase.
+DR   InterPro; IPR004360; Glyas_Fos-R_dOase_dom.
+DR   InterPro; IPR004361; Glyoxalase_1.
+DR   InterPro; IPR018146; Glyoxalase_1_CS.
+DR   InterPro; IPR037523; VOC.
+DR   NCBIfam; TIGR00068; glyox_I; 1.
+DR   PANTHER; PTHR10374:SF30; LACTOYLGLUTATHIONE LYASE; 1.
+DR   PANTHER; PTHR10374; LACTOYLGLUTATHIONE LYASE GLYOXALASE I; 1.
+DR   Pfam; PF00903; Glyoxalase; 1.
+DR   SUPFAM; SSF54593; Glyoxalase/Bleomycin resistance protein/Dihydroxybiphenyl dioxygenase; 1.
+DR   PROSITE; PS00934; GLYOXALASE_I_1; 1.
+DR   PROSITE; PS00935; GLYOXALASE_I_2; 1.
+DR   PROSITE; PS51819; VOC; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; Disulfide bond; Glutathionylation;
+KW   Lyase; Metal-binding; Phosphoprotein; Reference proteome; Zinc.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04760"
+FT   CHAIN           2..184
+FT                   /note="Lactoylglutathione lyase"
+FT                   /id="PRO_0000168079"
+FT   DOMAIN          31..177
+FT                   /note="VOC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01163"
+FT   ACT_SITE        173
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         34
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         34
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04760"
+FT   BINDING         38
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         100
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04760"
+FT   BINDING         104
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         123
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         127
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         127
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04760"
+FT   BINDING         157..158
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         173
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04760"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04760"
+FT   MOD_RES         107
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04760"
+FT   MOD_RES         139
+FT                   /note="S-glutathionyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         148
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04760"
+FT   MOD_RES         148
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CPU0"
+FT   DISULFID        19..20
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   184 AA;  20820 MW;  1834FA5E9871A1C7 CRC64;
+     MAEPQPASSG LTDEAALSCC SDPDPSTKDF LLQQTMLRIK DPKKSLDFYT RVLGLTLLQK
+     LDFPSMKFSL YFLAYEDKND IPKDKTERTA WAFSRKATLE LTHNWGTEDD ETQSYHNGNS
+     DPRGFGHIGI AVPDVYEACK RFEELGVKFV KKPDDGKMKG LAFVQDPDGY WIEILNPNKM
+     ATII
+//

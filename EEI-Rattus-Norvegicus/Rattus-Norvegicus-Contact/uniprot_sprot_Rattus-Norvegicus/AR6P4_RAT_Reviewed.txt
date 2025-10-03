@@ -1,0 +1,114 @@
+ID   AR6P4_RAT               Reviewed;         231 AA.
+AC   Q4V8I5; Q499T6;
+DT   04-DEC-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 1.
+DT   29-MAY-2024, entry version 93.
+DE   RecName: Full=ADP-ribosylation factor-like protein 6-interacting protein 4;
+DE            Short=ARL-6-interacting protein 4;
+DE            Short=Aip-4;
+DE   AltName: Full=Splicing factor SRrp37;
+GN   Name=Arl6ip4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-142, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Involved in modulating alternative pre-mRNA splicing with
+CC       either 5' distal site activation or preferential use of 3' proximal
+CC       site. {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with ARL6. Interacts with ZCCHC17. Interacts with
+CC       SRSF2. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus, nucleolus {ECO:0000250}. Nucleus speckle
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the ARL6IP4 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC097374; AAH97374.1; -; mRNA.
+DR   RefSeq; NP_001020801.1; NM_001025630.1.
+DR   AlphaFoldDB; Q4V8I5; -.
+DR   STRING; 10116.ENSRNOP00000001432; -.
+DR   iPTMnet; Q4V8I5; -.
+DR   PhosphoSitePlus; Q4V8I5; -.
+DR   PaxDb; 10116-ENSRNOP00000001432; -.
+DR   Ensembl; ENSRNOT00000001432.6; ENSRNOP00000001432.4; ENSRNOG00000001080.6.
+DR   GeneID; 288656; -.
+DR   KEGG; rno:288656; -.
+DR   UCSC; RGD:1307657; rat.
+DR   AGR; RGD:1307657; -.
+DR   CTD; 51329; -.
+DR   RGD; 1307657; Arl6ip4.
+DR   eggNOG; ENOG502RYBZ; Eukaryota.
+DR   GeneTree; ENSGT00390000009670; -.
+DR   HOGENOM; CLU_055563_0_0_1; -.
+DR   InParanoid; Q4V8I5; -.
+DR   OMA; HKPERSK; -.
+DR   OrthoDB; 2919761at2759; -.
+DR   PhylomeDB; Q4V8I5; -.
+DR   TreeFam; TF350468; -.
+DR   PRO; PR:Q4V8I5; -.
+DR   Proteomes; UP000002494; Chromosome 12.
+DR   Bgee; ENSRNOG00000001080; Expressed in duodenum and 20 other cell types or tissues.
+DR   GO; GO:0016607; C:nuclear speck; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005730; C:nucleolus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0006397; P:mRNA processing; IEA:UniProtKB-KW.
+DR   GO; GO:0008380; P:RNA splicing; IEA:UniProtKB-KW.
+DR   InterPro; IPR019532; Nucl_RNA-splicing_assoc_SR-25.
+DR   Pfam; PF10500; SR-25; 1.
+PE   1: Evidence at protein level;
+KW   Isopeptide bond; mRNA processing; mRNA splicing; Nucleus; Phosphoprotein;
+KW   Reference proteome; Ubl conjugation.
+FT   CHAIN           1..231
+FT                   /note="ADP-ribosylation factor-like protein 6-interacting
+FT                   protein 4"
+FT                   /id="PRO_0000312272"
+FT   REGION          1..154
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..24
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        35..50
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        64..89
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        92..120
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         142
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         176
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q66PJ3"
+FT   CROSSLNK        193
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q66PJ3"
+SQ   SEQUENCE   231 AA;  25769 MW;  C198983F0EEC9357 CRC64;
+     MAHVSSRKRS RSRSRSRGRR GSEKRSKRSS KDSSRNCSTS KSQGHKASST SGVEERSKHK
+     AQRTSRSSSS SSSSSSSSSS SSTSSSSSSD GRKKRGKHKD KKKRKKKKKR KKKMKRKGKE
+     KAVVVHQAEA LPGPSLDQWH RSAGEDNDGP VLTDEQKSRI QAMKPMTKEE WDARQSVIRK
+     VVDPETGRTR LIKGDGEVLE EIVTKERHRE INKQATRGDG LAFQMRAGLL P
+//

@@ -1,0 +1,263 @@
+ID   MAP2_RAT                Reviewed;         478 AA.
+AC   P38062;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 2.
+DT   24-JUL-2024, entry version 168.
+DE   RecName: Full=Methionine aminopeptidase 2 {ECO:0000255|HAMAP-Rule:MF_03175};
+DE            Short=MAP 2 {ECO:0000255|HAMAP-Rule:MF_03175};
+DE            Short=MetAP 2 {ECO:0000255|HAMAP-Rule:MF_03175};
+DE            EC=3.4.11.18 {ECO:0000255|HAMAP-Rule:MF_03175};
+DE   AltName: Full=Initiation factor 2-associated 67 kDa glycoprotein {ECO:0000255|HAMAP-Rule:MF_03175};
+DE            Short=p67 {ECO:0000255|HAMAP-Rule:MF_03175};
+DE            Short=p67eIF2 {ECO:0000255|HAMAP-Rule:MF_03175};
+DE   AltName: Full=Peptidase M {ECO:0000255|HAMAP-Rule:MF_03175};
+GN   Name=Metap2; Synonyms=Mnpep, P67eif2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Reuber H35; TISSUE=Liver;
+RX   PubMed=8496145; DOI=10.1016/s0021-9258(18)82055-5;
+RA   Wu S., Gupta S., Chatterjee N., Hileman R.E., Kinzy T.G., Denslow N.D.,
+RA   Merrick W.C., Chakrabarti D., Osterman J.C., Gupta N.K.;
+RT   "Cloning and characterization of complementary DNA encoding the eukaryotic
+RT   initiation factor 2-associated 67-kDa protein (p67).";
+RL   J. Biol. Chem. 268:10796-10801(1993).
+RN   [2]
+RP   SEQUENCE REVISION TO C-TERMINUS.
+RX   PubMed=7644482; DOI=10.1073/pnas.92.17.7714;
+RA   Arfin S.M., Kendall R.L., Hall L., Weaver L.H., Stewart A.E.,
+RA   Matthews B.W., Bradshaw R.A.;
+RT   "Eukaryotic methionyl aminopeptidases: two classes of cobalt-dependent
+RT   enzymes.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 92:7714-7718(1995).
+RN   [3]
+RP   INDUCTION BY HEAT SHOCK.
+RX   PubMed=9705841; DOI=10.1006/bbrc.1998.9056;
+RA   Chatterjee M., Chatterjee N., Datta R., Datta B., Gupta N.K.;
+RT   "Expression and activity of p67 are induced during heat shock.";
+RL   Biochem. Biophys. Res. Commun. 249:113-117(1998).
+RN   [4]
+RP   GLYCOSYLATION AT SER-60 AND SER-63.
+RX   PubMed=12731887; DOI=10.1021/bi020699g;
+RA   Datta R., Choudhury P., Ghosh A., Datta B.;
+RT   "A glycosylation site, 60SGTS63, of p67 is required for its ability to
+RT   regulate the phosphorylation and activity of eukaryotic initiation factor
+RT   2alpha.";
+RL   Biochemistry 42:5453-5460(2003).
+RN   [5]
+RP   INTERACTION WITH EIF2S3.
+RX   PubMed=16857189; DOI=10.1016/j.yexcr.2006.03.034;
+RA   Ghosh A., Datta R., Majumdar A., Bhattacharya M., Datta B.;
+RT   "The N-terminal lysine residue-rich domain II and the 340-430 amino acid
+RT   segment of eukaryotic initiation factor 2-associated glycoprotein p67 are
+RT   the binding sites for the gamma-subunit of eIF2.";
+RL   Exp. Cell Res. 312:3184-3203(2006).
+RN   [6]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Cotranslationally removes the N-terminal methionine from
+CC       nascent proteins. The N-terminal methionine is often cleaved when the
+CC       second residue in the primary sequence is small and uncharged (Met-
+CC       Ala-, Cys, Gly, Pro, Ser, Thr, or Val).
+CC   -!- FUNCTION: Protects eukaryotic initiation factor EIF2S1 from
+CC       translation-inhibiting phosphorylation by inhibitory kinases such as
+CC       EIF2AK2/PKR and EIF2AK1/HCR. Plays a critical role in the regulation of
+CC       protein synthesis.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of N-terminal amino acids, preferentially methionine,
+CC         from peptides and arylamides.; EC=3.4.11.18;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03175};
+CC   -!- COFACTOR:
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03175};
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03175};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03175};
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03175};
+CC       Note=Binds 2 divalent metal cations per subunit. Has a high-affinity
+CC       and a low affinity metal-binding site. The true nature of the
+CC       physiological cofactor is under debate. The enzyme is active with
+CC       cobalt, zinc, manganese or divalent iron ions. Most likely, methionine
+CC       aminopeptidases function as mononuclear Fe(2+)-metalloproteases under
+CC       physiological conditions, and the catalytically relevant metal-binding
+CC       site has been assigned to the histidine-containing high-affinity site.
+CC       {ECO:0000255|HAMAP-Rule:MF_03175};
+CC   -!- SUBUNIT: Binds EIF2S1 at low magnesium concentrations (By similarity).
+CC       Interacts strongly with the eIF-2 gamma-subunit EIF2S3.
+CC       {ECO:0000255|HAMAP-Rule:MF_03175, ECO:0000269|PubMed:16857189}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Note=About 30% of expressed METAP2
+CC       associates with polysomes. {ECO:0000255|HAMAP-Rule:MF_03175}.
+CC   -!- INDUCTION: Heat shock increases expression by more than 36-fold.
+CC       {ECO:0000269|PubMed:9705841}.
+CC   -!- PTM: O-glycosylated; contains 12 O-linked GlcNAc.
+CC       {ECO:0000269|PubMed:12731887}.
+CC   -!- PTM: Contains approximately 12 O-linked N-acetylglucosamine (GlcNAc)
+CC       residues. O-glycosylation is required for EIF2S1 binding.
+CC       {ECO:0000255|HAMAP-Rule:MF_03175}.
+CC   -!- SIMILARITY: Belongs to the peptidase M24A family. Methionine
+CC       aminopeptidase eukaryotic type 2 subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_03175}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L10652; AAA41111.1; -; mRNA.
+DR   PIR; A46702; A46702.
+DR   RefSeq; NP_071984.1; NM_022539.1.
+DR   AlphaFoldDB; P38062; -.
+DR   SMR; P38062; -.
+DR   STRING; 10116.ENSRNOP00000032680; -.
+DR   MEROPS; M24.002; -.
+DR   GlyCosmos; P38062; 2 sites, No reported glycans.
+DR   GlyGen; P38062; 2 sites, 1 O-linked glycan (2 sites).
+DR   iPTMnet; P38062; -.
+DR   PhosphoSitePlus; P38062; -.
+DR   jPOST; P38062; -.
+DR   PaxDb; 10116-ENSRNOP00000032680; -.
+DR   PeptideAtlas; P38062; -.
+DR   GeneID; 64370; -.
+DR   KEGG; rno:64370; -.
+DR   UCSC; RGD:70995; rat.
+DR   AGR; RGD:70995; -.
+DR   CTD; 10988; -.
+DR   RGD; 70995; Metap2.
+DR   eggNOG; KOG2775; Eukaryota.
+DR   InParanoid; P38062; -.
+DR   OrthoDB; 5473250at2759; -.
+DR   PhylomeDB; P38062; -.
+DR   BRENDA; 3.4.11.18; 5301.
+DR   Reactome; R-RNO-2514859; Inactivation, recovery and regulation of the phototransduction cascade.
+DR   PRO; PR:P38062; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISS:HGNC-UCL.
+DR   GO; GO:0004177; F:aminopeptidase activity; ISS:UniProtKB.
+DR   GO; GO:0004239; F:initiator methionyl aminopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070006; F:metalloaminopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008235; F:metalloexopeptidase activity; ISS:HGNC.
+DR   GO; GO:0031365; P:N-terminal protein amino acid modification; ISS:HGNC-UCL.
+DR   GO; GO:0018206; P:peptidyl-methionine modification; ISS:HGNC-UCL.
+DR   GO; GO:0016485; P:protein processing; ISS:HGNC-UCL.
+DR   CDD; cd01088; MetAP2; 1.
+DR   Gene3D; 3.90.230.10; Creatinase/methionine aminopeptidase superfamily; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   HAMAP; MF_03175; MetAP_2_euk; 1.
+DR   InterPro; IPR036005; Creatinase/aminopeptidase-like.
+DR   InterPro; IPR050247; Met_Aminopeptidase_Type2.
+DR   InterPro; IPR000994; Pept_M24.
+DR   InterPro; IPR001714; Pept_M24_MAP.
+DR   InterPro; IPR002468; Pept_M24A_MAP2.
+DR   InterPro; IPR018349; Pept_M24A_MAP2_BS.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   NCBIfam; TIGR00501; met_pdase_II; 1.
+DR   PANTHER; PTHR45777; METHIONINE AMINOPEPTIDASE 2; 1.
+DR   PANTHER; PTHR45777:SF2; METHIONINE AMINOPEPTIDASE 2; 1.
+DR   Pfam; PF00557; Peptidase_M24; 1.
+DR   PRINTS; PR00599; MAPEPTIDASE.
+DR   SUPFAM; SSF55920; Creatinase/aminopeptidase; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+DR   PROSITE; PS01202; MAP_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Aminopeptidase; Cytoplasm; Glycoprotein; Hydrolase;
+KW   Metal-binding; Phosphoprotein; Protease; Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P50579"
+FT   CHAIN           2..478
+FT                   /note="Methionine aminopeptidase 2"
+FT                   /id="PRO_0000148984"
+FT   REGION          1..123
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        15..35
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        59..78
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         231
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03175"
+FT   BINDING         251
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03175"
+FT   BINDING         262
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03175"
+FT   BINDING         262
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03175"
+FT   BINDING         331
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03175"
+FT   BINDING         339
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03175"
+FT   BINDING         364
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03175"
+FT   BINDING         459
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03175"
+FT   BINDING         459
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03175"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50579"
+FT   MOD_RES         60
+FT                   /note="Phosphoserine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50579"
+FT   MOD_RES         63
+FT                   /note="Phosphoserine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50579"
+FT   CARBOHYD        60
+FT                   /note="O-linked (GlcNAc) serine; alternate"
+FT                   /evidence="ECO:0000305|PubMed:12731887"
+FT   CARBOHYD        63
+FT                   /note="O-linked (GlcNAc) serine; alternate"
+FT                   /evidence="ECO:0000305|PubMed:12731887"
+FT   CONFLICT        464..478
+FT                   /note="LRPTCKEVVSRGDDY -> CAQPVKKLSAEEMTIKT (in Ref. 1;
+FT                   AAA41111)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   478 AA;  53052 MW;  BE1C0E91E0CB3D74 CRC64;
+     MAGVEEASSF GGHLNRDLDP DDREEGTSST AEEAAKKKRR KKKKGKGAVS AGQQELDKES
+     GTSVDEVAKQ LERQALEEKE KDDDDEDGDG DGDGAAGKKK KKKKKKRGPR VQTDPPSVPI
+     CDLYPNGVFP KGQECEYPPT QDGRTAAWRT TSEEKKALDQ ASEEIWNDFR EAAEAHRQVR
+     KYVMSWIKPG MTMIEICEKL EDCSRKLIKE NGLNAGLAFP TGCSLNNCAA HYTPNAGDTT
+     VLQYDDICKI DFGTHISGRI IDCAFTVTFN PKYDILLKAV KDATNTGIKC AGIDVRLCDV
+     GEAIQEVMES YEVEIDGKTY QVKPIRNLNG HSIGPYRIHA GKTVPIVKGG EATRMEEGEV
+     YAIETFGSTG KGVVHDDMEC SHYMKNFDVG HVPIRLPRTK HLLNVINENF GTLAFCRRWL
+     DRLGESKYLM ALKNLCDLGI VDPYPPLCDI KGSYTAQFEH TILLRPTCKE VVSRGDDY
+//

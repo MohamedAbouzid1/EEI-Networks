@@ -1,0 +1,118 @@
+ID   EOGT_RAT                Reviewed;         527 AA.
+AC   Q5NDL0;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   29-MAY-2024, entry version 98.
+DE   RecName: Full=EGF domain-specific O-linked N-acetylglucosamine transferase;
+DE            EC=2.4.1.255 {ECO:0000250|UniProtKB:Q8BYW9};
+DE   AltName: Full=Extracellular O-linked N-acetylglucosamine transferase;
+DE   Flags: Precursor;
+GN   Name=Eogt; Synonyms=Aer61;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar;
+RA   Kiefer-Meyer M.C., Pagny S., Durambure G., Faye L., Gomord V.,
+RA   Mollicone R., Oriol R.;
+RT   "Phylogeny of xylosyltransferases.";
+RL   Submitted (DEC-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of a single N-acetylglucosamine from
+CC       UDP-GlcNAc to a serine or threonine residue in extracellular proteins
+CC       resulting in their modification with a beta-linked N-acetylglucosamine
+CC       (O-GlcNAc). Specifically glycosylates the Thr residue located between
+CC       the fifth and sixth conserved cysteines of folded EGF-like domains.
+CC       {ECO:0000250|UniProtKB:Q8BYW9}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + UDP-N-acetyl-alpha-D-glucosamine = 3-O-(N-
+CC         acetyl-beta-D-glucosaminyl)-L-seryl-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:48904, Rhea:RHEA-COMP:9863, Rhea:RHEA-COMP:12251,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:57705,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:90838; EC=2.4.1.255;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BYW9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonyl-[protein] + UDP-N-acetyl-alpha-D-glucosamine = 3-O-
+CC         (N-acetyl-beta-D-glucosaminyl)-L-threonyl-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:48908, Rhea:RHEA-COMP:11060, Rhea:RHEA-COMP:12252,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:57705,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:90840; EC=2.4.1.255;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BYW9};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen {ECO:0000255|PROSITE-
+CC       ProRule:PRU10138}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 61 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ868236; CAI30571.1; -; mRNA.
+DR   RefSeq; NP_001009502.1; NM_001009502.1.
+DR   RefSeq; XP_008761369.1; XM_008763147.2.
+DR   RefSeq; XP_017448256.1; XM_017592767.1.
+DR   AlphaFoldDB; Q5NDL0; -.
+DR   SMR; Q5NDL0; -.
+DR   STRING; 10116.ENSRNOP00000073147; -.
+DR   CAZy; GT61; Glycosyltransferase Family 61.
+DR   GlyCosmos; Q5NDL0; 1 site, No reported glycans.
+DR   GlyGen; Q5NDL0; 1 site.
+DR   PhosphoSitePlus; Q5NDL0; -.
+DR   jPOST; Q5NDL0; -.
+DR   PaxDb; 10116-ENSRNOP00000034561; -.
+DR   GeneID; 494219; -.
+DR   KEGG; rno:494219; -.
+DR   UCSC; RGD:1359357; rat.
+DR   AGR; RGD:1359357; -.
+DR   CTD; 285203; -.
+DR   RGD; 1359357; Eogt.
+DR   eggNOG; KOG4698; Eukaryota.
+DR   HOGENOM; CLU_039300_0_0_1; -.
+DR   InParanoid; Q5NDL0; -.
+DR   OrthoDB; 316918at2759; -.
+DR   PhylomeDB; Q5NDL0; -.
+DR   TreeFam; TF313716; -.
+DR   PRO; PR:Q5NDL0; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000024533; Expressed in lung and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q5NDL0; baseline and differential.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IBA:GO_Central.
+DR   GO; GO:0097363; F:protein O-acetylglucosaminyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0097370; P:protein O-GlcNAcylation via threonine; IBA:GO_Central.
+DR   GO; GO:0006493; P:protein O-linked glycosylation; ISS:UniProtKB.
+DR   InterPro; IPR049625; Glyco_transf_61_cat.
+DR   InterPro; IPR007657; Glycosyltransferase_61.
+DR   PANTHER; PTHR20961:SF124; EGF DOMAIN-SPECIFIC O-LINKED N-ACETYLGLUCOSAMINE TRANSFERASE; 1.
+DR   PANTHER; PTHR20961; GLYCOSYLTRANSFERASE; 1.
+DR   Pfam; PF04577; Glyco_transf_61; 1.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+PE   2: Evidence at transcript level;
+KW   Endoplasmic reticulum; Glycoprotein; Glycosyltransferase;
+KW   Reference proteome; Signal; Transferase.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..527
+FT                   /note="EGF domain-specific O-linked N-acetylglucosamine
+FT                   transferase"
+FT                   /id="PRO_0000301974"
+FT   MOTIF           295..297
+FT                   /note="Required for optimal activity"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           524..527
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10138"
+FT   CARBOHYD        354
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   527 AA;  61524 MW;  CB8678AFF3B00870 CRC64;
+     MLMLLVFGVL LHEVPLSGQD EAHPEADRVP GEALYDYSSL RLPEEHIPFF LHSNRHVASV
+     CREDSHCPYK KHLESLNSCW GYEKSCTPES RFGSPICSYV DLGWTDTLES AQDMFWKQAD
+     FGYARERLEE IRMFCRPESA SDSSLLCSRY LQYCRATGLY LDLRNIKRNH DRFKEDFLQG
+     GDIGGYCKLD RHALVSEGQR KSPLQSWFAE LQGYTQLNFR PIEDAKCDIV VEKPTYFMKL
+     DAGINMYHHF CDFLNLYLTQ HINNSFSTDV YIVMWDTSSY GYGDLFSDTW KAFTDYDVIH
+     LKTYDSKKVC FKEAVFSLLP RMRYGLFYNT PLISGCQNTG LFRAFSQHVL HRLNISQEGP
+     KDGKLRVTIL ARSTEYRKIL NQNELVNALK TVSTFEVRVV DYKYRELGFL DQLRITHNTD
+     IFIGMHGAGL THLLFLPDWA AVFELYNCED ERCYLDLARL RGIYYITWQK PSKVFPQDKG
+     HHPTLGEHPK FTNYSFDVEE FMYLVLQAAE HVLQHPQWPL KKNHDEL
+//

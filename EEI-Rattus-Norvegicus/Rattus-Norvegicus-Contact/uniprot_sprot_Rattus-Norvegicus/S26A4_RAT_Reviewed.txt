@@ -1,0 +1,261 @@
+ID   S26A4_RAT               Reviewed;         780 AA.
+AC   Q9R154;
+DT   05-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   29-MAY-2024, entry version 144.
+DE   RecName: Full=Pendrin;
+DE   AltName: Full=Sodium-independent chloride/iodide transporter;
+DE   AltName: Full=Solute carrier family 26 member 4;
+GN   Name=Slc26a4; Synonyms=Pds;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=10449762; DOI=10.1073/pnas.96.17.9727;
+RA   Everett L.A., Morsli H., Wu D.K., Green E.D.;
+RT   "Expression pattern of the mouse ortholog of the Pendred's syndrome gene
+RT   (Pds) suggests a key role for pendrin in the inner ear.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 96:9727-9732(1999).
+RN   [2]
+RP   FUNCTION, TRANSPORTER ACTIVITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=11208611; DOI=10.1152/ajprenal.2001.280.2.f356;
+RA   Soleimani M., Greeley T., Petrovic S., Wang Z., Amlal H., Kopp P.,
+RA   Burnham C.E.;
+RT   "Pendrin: an apical Cl-/OH-/HCO3- exchanger in the kidney cortex.";
+RL   Am. J. Physiol. 280:F356-F364(2001).
+RN   [3]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=11274445; DOI=10.1073/pnas.071516798;
+RA   Royaux I.E., Wall S.M., Karniski L.P., Everett L.A., Suzuki K.,
+RA   Knepper M.A., Green E.D.;
+RT   "Pendrin, encoded by the Pendred syndrome gene, resides in the apical
+RT   region of renal intercalated cells and mediates bicarbonate secretion.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:4221-4226(2001).
+RN   [4]
+RP   FUNCTION, AND TRANSPORTER ACTIVITY.
+RX   PubMed=12107249; DOI=10.1210/jcem.87.7.8679;
+RA   Yoshida A., Taniguchi S., Hisatome I., Royaux I.E., Green E.D., Kohn L.D.,
+RA   Suzuki K.;
+RT   "Pendrin is an iodide-specific apical porter responsible for iodide efflux
+RT   from thyroid cells.";
+RL   J. Clin. Endocrinol. Metab. 87:3356-3361(2002).
+RN   [5]
+RP   FUNCTION, TRANSPORTER ACTIVITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=26791486; DOI=10.1152/ajpcell.00210.2015;
+RA   Calil-Silveira J., Serrano-Nascimento C., Kopp P.A., Nunes M.T.;
+RT   "Iodide excess regulates its own efflux: a possible involvement of
+RT   pendrin.";
+RL   Am. J. Physiol. 310:C576-C582(2016).
+CC   -!- FUNCTION: Sodium-independent transporter of chloride and iodide
+CC       (PubMed:12107249, PubMed:26791486). Mediates electroneutral chloride-
+CC       bicarbonate and chloride-formate exchange with 1:1 stoichiometry
+CC       (PubMed:11208611). Mediates electroneutral iodide-chloride and iodide-
+CC       bicarbonate exchange (By similarity). {ECO:0000250|UniProtKB:Q9R155,
+CC       ECO:0000269|PubMed:11208611, ECO:0000269|PubMed:12107249,
+CC       ECO:0000269|PubMed:26791486}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(in) = chloride(out); Xref=Rhea:RHEA:29823,
+CC         ChEBI:CHEBI:17996; Evidence={ECO:0000269|PubMed:12107249};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:29825;
+CC         Evidence={ECO:0000305|PubMed:12107249};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=iodide(out) = iodide(in); Xref=Rhea:RHEA:66324,
+CC         ChEBI:CHEBI:16382; Evidence={ECO:0000269|PubMed:12107249,
+CC         ECO:0000269|PubMed:26791486};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:66325;
+CC         Evidence={ECO:0000305|PubMed:12107249};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:66326;
+CC         Evidence={ECO:0000305|PubMed:12107249};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(out) + hydrogencarbonate(in) = chloride(in) +
+CC         hydrogencarbonate(out); Xref=Rhea:RHEA:72363, ChEBI:CHEBI:17544,
+CC         ChEBI:CHEBI:17996; Evidence={ECO:0000269|PubMed:11208611};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hydrogencarbonate(out) + iodide(in) = hydrogencarbonate(in) +
+CC         iodide(out); Xref=Rhea:RHEA:72375, ChEBI:CHEBI:16382,
+CC         ChEBI:CHEBI:17544; Evidence={ECO:0000250|UniProtKB:Q9R155};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(out) + iodide(in) = chloride(in) + iodide(out);
+CC         Xref=Rhea:RHEA:72379, ChEBI:CHEBI:16382, ChEBI:CHEBI:17996;
+CC         Evidence={ECO:0000250|UniProtKB:Q9R155};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(out) + formate(in) = chloride(in) + formate(out);
+CC         Xref=Rhea:RHEA:72267, ChEBI:CHEBI:15740, ChEBI:CHEBI:17996;
+CC         Evidence={ECO:0000269|PubMed:11208611};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:26791486};
+CC       Multi-pass membrane protein {ECO:0000255}. Apical cell membrane
+CC       {ECO:0000269|PubMed:11208611, ECO:0000269|PubMed:11274445}; Multi-pass
+CC       membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in the kidney (at protein level).
+CC       {ECO:0000269|PubMed:11208611, ECO:0000269|PubMed:11274445}.
+CC   -!- SIMILARITY: Belongs to the SLC26A/SulP transporter (TC 2.A.53) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF167412; AAD51618.1; -; mRNA.
+DR   RefSeq; NP_062087.1; NM_019214.1.
+DR   RefSeq; XP_008762798.1; XM_008764576.2.
+DR   RefSeq; XP_017449543.1; XM_017594054.1.
+DR   AlphaFoldDB; Q9R154; -.
+DR   SMR; Q9R154; -.
+DR   STRING; 10116.ENSRNOP00000070261; -.
+DR   PhosphoSitePlus; Q9R154; -.
+DR   PaxDb; 10116-ENSRNOP00000010350; -.
+DR   Ensembl; ENSRNOT00000087300.2; ENSRNOP00000070261.1; ENSRNOG00000058692.2.
+DR   Ensembl; ENSRNOT00055009559; ENSRNOP00055007372; ENSRNOG00055005907.
+DR   Ensembl; ENSRNOT00060014113; ENSRNOP00060010811; ENSRNOG00060008467.
+DR   Ensembl; ENSRNOT00065017649; ENSRNOP00065013549; ENSRNOG00065010875.
+DR   GeneID; 29440; -.
+DR   KEGG; rno:29440; -.
+DR   UCSC; RGD:3293; rat.
+DR   AGR; RGD:3293; -.
+DR   CTD; 5172; -.
+DR   RGD; 3293; Slc26a4.
+DR   eggNOG; KOG0236; Eukaryota.
+DR   GeneTree; ENSGT01070000253775; -.
+DR   HOGENOM; CLU_003182_9_4_1; -.
+DR   InParanoid; Q9R154; -.
+DR   OMA; WKQNKTD; -.
+DR   OrthoDB; 1067648at2759; -.
+DR   PhylomeDB; Q9R154; -.
+DR   TreeFam; TF313784; -.
+DR   Reactome; R-RNO-427601; Multifunctional anion exchangers.
+DR   PRO; PR:Q9R154; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000058692; Expressed in kidney and 8 other cell types or tissues.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0031526; C:brush border membrane; ISS:UniProtKB.
+DR   GO; GO:0070062; C:extracellular exosome; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0015106; F:bicarbonate transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0015108; F:chloride transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0140900; F:chloride:bicarbonate antiporter activity; IDA:UniProtKB.
+DR   GO; GO:0015111; F:iodide transmembrane transporter activity; IDA:UniProtKB.
+DR   GO; GO:0019531; F:oxalate transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0008271; F:secondary active sulfate transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0015116; F:sulfate transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0015698; P:inorganic anion transport; IDA:RGD.
+DR   GO; GO:0015705; P:iodide transport; ISO:RGD.
+DR   GO; GO:0006885; P:regulation of pH; ISS:UniProtKB.
+DR   GO; GO:0032880; P:regulation of protein localization; ISS:UniProtKB.
+DR   CDD; cd07042; STAS_SulP_like_sulfate_transporter; 1.
+DR   Gene3D; 3.30.750.24; STAS domain; 1.
+DR   InterPro; IPR018045; S04_transporter_CS.
+DR   InterPro; IPR011547; SLC26A/SulP_dom.
+DR   InterPro; IPR001902; SLC26A/SulP_fam.
+DR   InterPro; IPR002645; STAS_dom.
+DR   InterPro; IPR036513; STAS_dom_sf.
+DR   NCBIfam; TIGR00815; sulP; 1.
+DR   PANTHER; PTHR11814:SF33; PENDRIN; 1.
+DR   PANTHER; PTHR11814; SULFATE TRANSPORTER; 1.
+DR   Pfam; PF01740; STAS; 1.
+DR   Pfam; PF00916; Sulfate_transp; 1.
+DR   SUPFAM; SSF52091; SpoIIaa-like; 1.
+DR   PROSITE; PS01130; SLC26A; 1.
+DR   PROSITE; PS50801; STAS; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Chloride; Membrane; Reference proteome; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..780
+FT                   /note="Pendrin"
+FT                   /id="PRO_0000080166"
+FT   TOPO_DOM        1..87
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        88..108
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        109
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        110..130
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        131..135
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        136..156
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        157..191
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        192..212
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        213..218
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        219..239
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        240..263
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        264..284
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        285..295
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        296..316
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        317..344
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        345..365
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        366..384
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        385..405
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        406..421
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        422..442
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        443..448
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        449..469
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        470..486
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        487..507
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        508..780
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          535..729
+FT                   /note="STAS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00198"
+SQ   SEQUENCE   780 AA;  85715 MW;  DA0CDB7496B8D535 CRC64;
+     MAARDRRSEP PQLAEYSCSY AVSRPVYSEL AFQQQRERRL PERRTLRDSL ARSCSCSRKR
+     AFGALKALLP ILDWLPKYRV KEWLLSDIIS GVSTGLVGTL QGMAYALLAA VPVQYGLYSA
+     FFPILTYFVF GTSRHISVGP FPVVSLMVGS VVLSMAPDDH FLVPSGNGST LNTTTLDTGT
+     RDAARVLLAS TLTLLVGIIQ LVFGGLQIGF IVRYLADPLV GGFTTAAAFQ VLVSQLKIVL
+     NVSTKNYNGV LSIIYTLIEI FQNIGDTNIA DFIAGLLTII VCMAVKELND RFKHKIPVPI
+     PIEVIVTIIA TAISYGANLE ANYNAGIVKS IPSGFLPPVL PSVGLFSDML AASFSIAVVA
+     YAIAVSVGKV YATKHDYIID GNQEFIAFGI SNVFSGFFSC FVATTALSRT AVQESTGGKT
+     QVAGLISAVI VMVAIVALGK LLEPLQKSVL AAVVIANLKG MFMQVCDVPR LWKQNKTDAV
+     IWVFTCIMSI ILGLDLGLLA GLLFGLLTVV LRVQFPSWNG LGSVPSTDIY KSITHYKNLE
+     EPEGVKILRF SSPIFYGNVD GFKKCVKSTV GFDAIRVYNK RLKALRRIQK LIKKGQLRAT
+     KNGIISDVGS SNNAFEPDED VEEPEELDIP TKEIEIQVDW NSELPVKVNV PKVPIHSLVL
+     DCGAVSFLDV VGVRSLRMIV KEFQRIDVNV YFALLQDDVL EKMEQCGFFD DNIRKDRFFL
+     TVHDAILYLQ NQAKSREGQD SLLETITLIQ DCKDPLELME AEINEEELDV QDEAMRRLAS
+//

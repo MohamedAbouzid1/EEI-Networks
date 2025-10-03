@@ -1,0 +1,148 @@
+ID   GCYA1_RAT               Reviewed;         690 AA.
+AC   P19686;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1991, sequence version 1.
+DT   02-OCT-2024, entry version 160.
+DE   RecName: Full=Guanylate cyclase soluble subunit alpha-1;
+DE            Short=GCS-alpha-1;
+DE            EC=4.6.1.2 {ECO:0000250|UniProtKB:Q02108};
+DE   AltName: Full=Guanylate cyclase soluble subunit alpha-3;
+DE            Short=GCS-alpha-3;
+DE   AltName: Full=Soluble guanylate cyclase large subunit;
+GN   Name=Gucy1a1; Synonyms=Guc1a1, Gucy1a3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   TISSUE=Lung;
+RX   PubMed=1698769; DOI=10.1016/s0021-9258(17)44837-x;
+RA   Nakane M., Arai K., Saheki S., Kuno T., Buechler W., Murad F.;
+RT   "Molecular cloning and expression of cDNAs coding for soluble guanylate
+RT   cyclase from rat lung.";
+RL   J. Biol. Chem. 265:16841-16845(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Corpus striatum;
+RX   PubMed=8997507; DOI=10.1016/s0165-3806(96)00162-9;
+RA   Smigrodzki R.M., Levitt P.;
+RT   "The alpha 1 subunit of soluble guanylyl cyclase is expressed prenatally in
+RT   the rat brain.";
+RL   Brain Res. Dev. Brain Res. 97:226-234(1996).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP = 3',5'-cyclic GMP + diphosphate; Xref=Rhea:RHEA:13665,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:37565, ChEBI:CHEBI:57746; EC=4.6.1.2;
+CC         Evidence={ECO:0000250|UniProtKB:Q02108};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q02108};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q02108};
+CC       Note=Has also activity with Mn(2+) (in vitro).
+CC       {ECO:0000250|UniProtKB:Q02108};
+CC   -!- ACTIVITY REGULATION: Activated by nitric oxide in the presence of
+CC       magnesium or manganese ions. {ECO:0000250|UniProtKB:Q02108}.
+CC   -!- SUBUNIT: The active enzyme is formed by a heterodimer of an alpha and a
+CC       beta subunit. Heterodimer with GUCY1B1. {ECO:0000250|UniProtKB:Q02108}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- MISCELLANEOUS: There are two types of guanylate cyclases: soluble forms
+CC       and membrane-associated receptor forms.
+CC   -!- SIMILARITY: Belongs to the adenylyl cyclase class-4/guanylyl cyclase
+CC       family. {ECO:0000255|PROSITE-ProRule:PRU00099}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M57405; AAA41206.1; -; mRNA.
+DR   EMBL; U60835; AAB17953.1; -; mRNA.
+DR   PIR; A38297; OYRTA1.
+DR   AlphaFoldDB; P19686; -.
+DR   SMR; P19686; -.
+DR   IntAct; P19686; 2.
+DR   STRING; 10116.ENSRNOP00000017190; -.
+DR   ChEMBL; CHEMBL4105800; -.
+DR   iPTMnet; P19686; -.
+DR   PhosphoSitePlus; P19686; -.
+DR   jPOST; P19686; -.
+DR   PaxDb; 10116-ENSRNOP00000017190; -.
+DR   Ensembl; ENSRNOT00055002192; ENSRNOP00055001712; ENSRNOG00055001336.
+DR   Ensembl; ENSRNOT00060011984; ENSRNOP00060009029; ENSRNOG00060007288.
+DR   UCSC; RGD:68436; rat.
+DR   AGR; RGD:68436; -.
+DR   RGD; 68436; Gucy1a1.
+DR   eggNOG; KOG4171; Eukaryota.
+DR   InParanoid; P19686; -.
+DR   BRENDA; 4.6.1.2; 5301.
+DR   Reactome; R-RNO-445355; Smooth Muscle Contraction.
+DR   PRO; PR:P19686; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0098982; C:GABA-ergic synapse; ISO:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0008074; C:guanylate cyclase complex, soluble; IDA:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0045202; C:synapse; ISO:RGD.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004383; F:guanylate cyclase activity; ISO:RGD.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0070026; F:nitric oxide binding; IDA:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0006182; P:cGMP biosynthetic process; ISO:RGD.
+DR   GO; GO:0019934; P:cGMP-mediated signaling; IBA:GO_Central.
+DR   GO; GO:0007263; P:nitric oxide mediated signal transduction; ISO:RGD.
+DR   GO; GO:0038060; P:nitric oxide-cGMP-mediated signaling; ISO:RGD.
+DR   GO; GO:0010750; P:positive regulation of nitric oxide mediated signal transduction; ISO:RGD.
+DR   GO; GO:0008217; P:regulation of blood pressure; ISO:RGD.
+DR   GO; GO:0060087; P:relaxation of vascular associated smooth muscle; ISO:RGD.
+DR   GO; GO:0009635; P:response to herbicide; IEP:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:0070482; P:response to oxygen levels; IBA:GO_Central.
+DR   GO; GO:0098925; P:retrograde trans-synaptic signaling by nitric oxide, modulating synaptic transmission; ISO:RGD.
+DR   CDD; cd07302; CHD; 1.
+DR   Gene3D; 6.10.250.780; -; 1.
+DR   Gene3D; 3.90.1520.10; H-NOX domain; 1.
+DR   Gene3D; 3.30.450.260; Haem NO binding associated domain; 1.
+DR   Gene3D; 3.30.70.1230; Nucleotide cyclase; 1.
+DR   InterPro; IPR001054; A/G_cyclase.
+DR   InterPro; IPR018297; A/G_cyclase_CS.
+DR   InterPro; IPR038158; H-NOX_domain_sf.
+DR   InterPro; IPR011645; HNOB_dom_associated.
+DR   InterPro; IPR042463; HNOB_dom_associated_sf.
+DR   InterPro; IPR024096; NO_sig/Golgi_transp_ligand-bd.
+DR   InterPro; IPR029787; Nucleotide_cyclase.
+DR   PANTHER; PTHR45655:SF4; GUANYLATE CYCLASE SOLUBLE SUBUNIT ALPHA-1; 1.
+DR   PANTHER; PTHR45655; GUANYLATE CYCLASE SOLUBLE SUBUNIT BETA-2; 1.
+DR   Pfam; PF00211; Guanylate_cyc; 1.
+DR   Pfam; PF07701; HNOBA; 1.
+DR   SMART; SM00044; CYCc; 1.
+DR   SUPFAM; SSF111126; Ligand-binding domain in the NO signalling and Golgi transport; 1.
+DR   SUPFAM; SSF55073; Nucleotide cyclase; 1.
+DR   PROSITE; PS00452; GUANYLATE_CYCLASE_1; 1.
+DR   PROSITE; PS50125; GUANYLATE_CYCLASE_2; 1.
+PE   1: Evidence at protein level;
+KW   cGMP biosynthesis; Cytoplasm; Direct protein sequencing; GTP-binding;
+KW   Lyase; Nucleotide-binding; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..690
+FT                   /note="Guanylate cyclase soluble subunit alpha-1"
+FT                   /id="PRO_0000074112"
+FT   DOMAIN          480..607
+FT                   /note="Guanylate cyclase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00099"
+FT   MOD_RES         266
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9ERL9"
+SQ   SEQUENCE   690 AA;  77567 MW;  E4819B2CA4F86401 CRC64;
+     MFCRKFKDLK ITGECPFSLL APGQVPTEPI EEVAGVSESC QATLPTCQEF AENAEGSHPQ
+     RKTSRNRVYL HTLAESIGKL IFPEFERLNL ALQRTLAKHK IKENRNSSEK EDLERIIAEE
+     AIAAGVPVEV LKDSLGEELF KICYEEDEHI LGVVGGTLKD FLNSFSTLLK QSSHCQEAER
+     RGRLEDASIL CLDKDQDFLN VYYFFPKRTT ALLLPGIIKA AARILYESHV EVSLMPPCFR
+     SECTEFVNQP YLLYSVHVKS TKPSLSPGKP QSSLVIPTSL FCKTFPFHFM LDRDLAILQL
+     GNGIRRLVNK RDFQGKPNFE EFFEILTPKI NQTFSGIMTM LNMQFVIRVR RWDNLVKKSS
+     RVMDLKGQMI YIVESSAILF LGSPCVDRLE DFTGRGLYLS DIPIHNALRD VVLIGEQARA
+     QDGLKKRLGK LKATLEHAHQ ALEEEKKKTV DLLCSIFPSE VAQQLWQGQI VQAKKFNEVT
+     MLFSDIVGFT AICSQCSPLQ VITMLNALYT RFDQQCGELD VYKVETIGDA YCVAGGLHRE
+     SDTHAVQIAL MALKMMELSN EVMSPHGEPI KMRIGLHSGS VFAGVVGVKM PRYCLFGNNV
+     TLANKFESCS VPRKINVSPT TYRLLKDCPG FVFTPRSREE LPPNFPSDIP GICHFLDAYQ
+     HQGPNSKPWF QQKDAEDGNA NFLGKASGVD
+//

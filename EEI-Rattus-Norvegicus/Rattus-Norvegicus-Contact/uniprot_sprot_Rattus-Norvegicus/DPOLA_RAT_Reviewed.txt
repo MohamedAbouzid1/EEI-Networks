@@ -1,0 +1,287 @@
+ID   DPOLA_RAT               Reviewed;        1451 AA.
+AC   O89042;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   24-JUL-2024, entry version 167.
+DE   RecName: Full=DNA polymerase alpha catalytic subunit;
+DE            EC=2.7.7.7 {ECO:0000269|PubMed:10541966};
+DE   AltName: Full=DNA polymerase alpha catalytic subunit p180;
+DE   Flags: Fragment;
+GN   Name=Pola1; Synonyms=Pola;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=10541966; DOI=10.1007/s004320050322;
+RA   Popanda O., Flohr T., Fox G., Thielmann H.W.;
+RT   "A mutation detected in DNA polymerase delta cDNA from Novikoff hepatoma
+RT   cells correlates with abnormal catalytic properties of the enzyme.";
+RL   J. Cancer Res. Clin. Oncol. 125:598-608(1999).
+CC   -!- FUNCTION: Catalytic subunit of the DNA polymerase alpha complex (also
+CC       known as the alpha DNA polymerase-primase complex) which plays an
+CC       essential role in the initiation of DNA synthesis (PubMed:10541966).
+CC       During the S phase of the cell cycle, the DNA polymerase alpha complex
+CC       (composed of a catalytic subunit POLA1, a regulatory subunit POLA2 and
+CC       two primase subunits PRIM1 and PRIM2) is recruited to DNA at the
+CC       replicative forks via direct interactions with MCM10 and WDHD1. The
+CC       primase subunit of the polymerase alpha complex initiates DNA synthesis
+CC       by oligomerising short RNA primers on both leading and lagging strands.
+CC       These primers are initially extended by the polymerase alpha catalytic
+CC       subunit and subsequently transferred to polymerase delta and polymerase
+CC       epsilon for processive synthesis on the lagging and leading strand,
+CC       respectively. The reason this transfer occurs is because the polymerase
+CC       alpha has limited processivity and lacks intrinsic 3' exonuclease
+CC       activity for proofreading error, and therefore is not well suited for
+CC       replicating long complexes. In the cytosol, responsible for a
+CC       substantial proportion of the physiological concentration of cytosolic
+CC       RNA:DNA hybrids, which are necessary to prevent spontaneous activation
+CC       of type I interferon responses (By similarity) (PubMed:10541966).
+CC       {ECO:0000250|UniProtKB:P09884, ECO:0000269|PubMed:10541966}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-triphosphate + DNA(n) =
+CC         diphosphate + DNA(n+1); Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:17339,
+CC         Rhea:RHEA-COMP:17340, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560,
+CC         ChEBI:CHEBI:173112; EC=2.7.7.7;
+CC         Evidence={ECO:0000269|PubMed:10541966};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:22509;
+CC         Evidence={ECO:0000269|PubMed:10541966};
+CC   -!- SUBUNIT: Component of the alpha DNA polymerase complex (also known as
+CC       the alpha DNA polymerase-primase complex) consisting of four subunits:
+CC       the catalytic subunit POLA1, the regulatory subunit POLA2, and the
+CC       primase complex subunits PRIM1 and PRIM2 respectively. Interacts with
+CC       PARP1; this interaction functions as part of the control of replication
+CC       fork progression. Interacts with MCM10 and WDHD1; these interactions
+CC       recruit the polymerase alpha complex to the pre-replicative complex
+CC       bound to DNA. Interacts with RPA1; this interaction stabilizes the
+CC       replicative complex and reduces the misincorporation rate of DNA
+CC       polymerase alpha by acting as a fidelity clamp (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:P09884}.
+CC       Cytoplasm, cytosol {ECO:0000250|UniProtKB:P09884}. Note=In the cytosol,
+CC       colocalizes with RNA:DNA hybrids with a speckled pattern.
+CC       {ECO:0000250|UniProtKB:P09884}.
+CC   -!- MISCELLANEOUS: In eukaryotes there are five DNA polymerases: alpha,
+CC       beta, gamma, delta, and epsilon which are responsible for different
+CC       reactions of DNA synthesis.
+CC   -!- SIMILARITY: Belongs to the DNA polymerase type-B family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ011605; CAA09720.1; -; mRNA.
+DR   RefSeq; NP_445931.1; NM_053479.1.
+DR   AlphaFoldDB; O89042; -.
+DR   SMR; O89042; -.
+DR   ComplexPortal; CPX-2089; DNA polymerase alpha:primase complex.
+DR   STRING; 10116.ENSRNOP00000018147; -.
+DR   iPTMnet; O89042; -.
+DR   PhosphoSitePlus; O89042; -.
+DR   jPOST; O89042; -.
+DR   PaxDb; 10116-ENSRNOP00000018147; -.
+DR   GeneID; 85241; -.
+DR   KEGG; rno:85241; -.
+DR   AGR; RGD:621816; -.
+DR   CTD; 5422; -.
+DR   RGD; 621816; Pola1.
+DR   eggNOG; KOG0970; Eukaryota.
+DR   InParanoid; O89042; -.
+DR   OrthoDB; 5477697at2759; -.
+DR   PhylomeDB; O89042; -.
+DR   Reactome; R-RNO-113501; Inhibition of replication initiation of damaged DNA by RB1/E2F1.
+DR   Reactome; R-RNO-174411; Polymerase switching on the C-strand of the telomere.
+DR   Reactome; R-RNO-174430; Telomere C-strand synthesis initiation.
+DR   Reactome; R-RNO-68952; DNA replication initiation.
+DR   Reactome; R-RNO-68962; Activation of the pre-replicative complex.
+DR   Reactome; R-RNO-69091; Polymerase switching.
+DR   Reactome; R-RNO-69166; Removal of the Flap Intermediate.
+DR   Reactome; R-RNO-69183; Processive synthesis on the lagging strand.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005658; C:alpha DNA polymerase:primase complex; IDA:RGD.
+DR   GO; GO:0000785; C:chromatin; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; ISS:UniProtKB.
+DR   GO; GO:0005635; C:nuclear envelope; ISS:UniProtKB.
+DR   GO; GO:0016363; C:nuclear matrix; ISS:UniProtKB.
+DR   GO; GO:0005730; C:nucleolus; ISS:UniProtKB.
+DR   GO; GO:0005654; C:nucleoplasm; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0003682; F:chromatin binding; ISS:UniProtKB.
+DR   GO; GO:0003677; F:DNA binding; ISS:UniProtKB.
+DR   GO; GO:0003688; F:DNA replication origin binding; IBA:GO_Central.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; IDA:RGD.
+DR   GO; GO:0003690; F:double-stranded DNA binding; IDA:RGD.
+DR   GO; GO:0000166; F:nucleotide binding; ISS:UniProtKB.
+DR   GO; GO:0019901; F:protein kinase binding; ISO:RGD.
+DR   GO; GO:0017076; F:purine nucleotide binding; IMP:RGD.
+DR   GO; GO:0019103; F:pyrimidine nucleotide binding; IMP:RGD.
+DR   GO; GO:0003697; F:single-stranded DNA binding; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0071897; P:DNA biosynthetic process; IMP:RGD.
+DR   GO; GO:0006281; P:DNA repair; ISO:RGD.
+DR   GO; GO:0006260; P:DNA replication; IMP:RGD.
+DR   GO; GO:0006270; P:DNA replication initiation; ISS:UniProtKB.
+DR   GO; GO:0006269; P:DNA replication, synthesis of primer; ISS:UniProtKB.
+DR   GO; GO:0006271; P:DNA strand elongation involved in DNA replication; ISS:UniProtKB.
+DR   GO; GO:0000731; P:DNA synthesis involved in DNA repair; ISO:RGD.
+DR   GO; GO:0006303; P:double-strand break repair via nonhomologous end joining; ISS:UniProtKB.
+DR   GO; GO:0006273; P:lagging strand elongation; ISS:UniProtKB.
+DR   GO; GO:0006272; P:leading strand elongation; ISS:UniProtKB.
+DR   GO; GO:1902975; P:mitotic DNA replication initiation; IBA:GO_Central.
+DR   GO; GO:0032479; P:regulation of type I interferon production; ISS:UniProtKB.
+DR   CDD; cd05776; DNA_polB_alpha_exo; 1.
+DR   CDD; cd05532; POLBc_alpha; 1.
+DR   Gene3D; 2.40.50.730; -; 1.
+DR   Gene3D; 3.30.70.2820; -; 1.
+DR   Gene3D; 1.10.3200.20; DNA Polymerase alpha, zinc finger; 1.
+DR   Gene3D; 1.10.132.60; DNA polymerase family B, C-terminal domain; 1.
+DR   Gene3D; 1.10.287.690; Helix hairpin bin; 1.
+DR   Gene3D; 3.90.1600.10; Palm domain of DNA polymerase; 1.
+DR   Gene3D; 3.30.420.10; Ribonuclease H-like superfamily/Ribonuclease H; 1.
+DR   InterPro; IPR006172; DNA-dir_DNA_pol_B.
+DR   InterPro; IPR017964; DNA-dir_DNA_pol_B_CS.
+DR   InterPro; IPR006133; DNA-dir_DNA_pol_B_exonuc.
+DR   InterPro; IPR006134; DNA-dir_DNA_pol_B_multi_dom.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR024647; DNA_pol_a_cat_su_N.
+DR   InterPro; IPR042087; DNA_pol_B_thumb.
+DR   InterPro; IPR023211; DNA_pol_palm_dom_sf.
+DR   InterPro; IPR038256; Pol_alpha_znc_sf.
+DR   InterPro; IPR045846; POLBc_alpha.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   InterPro; IPR015088; Znf_DNA-dir_DNA_pol_B_alpha.
+DR   NCBIfam; TIGR00592; pol2; 1.
+DR   PANTHER; PTHR45861; DNA POLYMERASE ALPHA CATALYTIC SUBUNIT; 1.
+DR   PANTHER; PTHR45861:SF1; DNA POLYMERASE ALPHA CATALYTIC SUBUNIT; 1.
+DR   Pfam; PF12254; DNA_pol_alpha_N; 1.
+DR   Pfam; PF00136; DNA_pol_B; 1.
+DR   Pfam; PF03104; DNA_pol_B_exo1; 1.
+DR   Pfam; PF08996; zf-DNA_Pol; 1.
+DR   PRINTS; PR00106; DNAPOLB.
+DR   SMART; SM00486; POLBc; 1.
+DR   SUPFAM; SSF56672; DNA/RNA polymerases; 1.
+DR   SUPFAM; SSF53098; Ribonuclease H-like; 1.
+DR   SUPFAM; SSF90234; Zinc finger domain of DNA polymerase-alpha; 1.
+DR   PROSITE; PS00116; DNA_POLYMERASE_B; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; DNA replication; DNA-binding;
+KW   DNA-directed DNA polymerase; Metal-binding; Nucleotidyltransferase;
+KW   Nucleus; Phosphoprotein; Reference proteome; Transferase; Zinc;
+KW   Zinc-finger.
+FT   CHAIN           1..>1451
+FT                   /note="DNA polymerase alpha catalytic subunit"
+FT                   /id="PRO_0000046430"
+FT   ZN_FING         1290..1320
+FT                   /note="CysA-type"
+FT   REGION          105..135
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          174..226
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          657..722
+FT                   /note="DNA-binding"
+FT                   /evidence="ECO:0000255"
+FT   REGION          816..836
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1252..1383
+FT                   /note="DNA-binding"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           1355..1381
+FT                   /note="CysB motif"
+FT   COMPBIAS        113..134
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        818..836
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         1290
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   BINDING         1293
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   BINDING         1317
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   BINDING         1322
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   BINDING         1355
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   BINDING         1360
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   BINDING         1378
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   BINDING         1381
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   MOD_RES         192
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   MOD_RES         196
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   MOD_RES         215
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   MOD_RES         230
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P33609"
+FT   MOD_RES         413
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09884"
+FT   MOD_RES         977
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P33609"
+FT   NON_TER         1451
+SQ   SEQUENCE   1451 AA;  165306 MW;  F0E1B16F8B8D5CD2 CRC64;
+     MAPVHGDDCK LETSAVSDSG SFVASRARRE KKSKKGRQEA LERLKKAKAG EKYKYEVEDL
+     TSVYEEVDEE QYSKLVQARQ DDDWIVDDDG IGYVEDGREI FDDDLEDDAL DTCGEGSDGK
+     AHRKDRKDVK KPSVTKPNNI KAMFIASAGK KTTDKTVDLS KDDLLGDILQ DLNTETPQIA
+     PPPVLIPKKK RSTGASPNPF SVHTATAVPS GKIASPVSRK EPPLTPVPLK RAEFAGDLAQ
+     PECPEDEQES GVIEFEDGDF DEPMDTEEVD EEEPVTAKIW DQESEPVEGV KHEADPETGT
+     TSFLDSFLPD VSCWDIDQKD ENSFLLQEVQ VDSNHLPLVK GADDEQVFQF YWLDAYEDPY
+     NQPGVVFLFG KVWVESAKTH VSCCVMVKNI ERTLYFLPRE MKIDLNTGKE TATPITMKDV
+     YEEFDSKISA KYKIMKFKSK IVEKNYAFEI PDVPEKSEYL EVRYSAEVPQ LPQNLKGETF
+     SHVFGTNTSS LELFLMNRKI KGPCWLEVKN PQLLNQPISW CKFEAMALKP DLVNVIKDVS
+     PPPLVVMSFS MKTMQNVQNH QHEIIAMAAL VHHNFPLDKA PPKPPFQTHF CVVSKPKDCI
+     FPCAFKEVIK KKNMEVEVAA TERTLLGFFL AKVHKLDPDI LVGHNICGFE LEVLLQRINE
+     CKVPFWSKIG RLRRSNMPKL GSRSGFGERN ATCGRMICDV EISVKELIHC KSYHLSELVQ
+     QILKTERIVI PTENIRNMYS EPSHLLYLLE HIWKDARFIL QIMCELNVLP LALQITNIAG
+     NIMSRTLMGG RSERNEFLLL HAFYENNYIV PDKQIFRKPQ QKPGDEDEEI DGDTNKYKKG
+     RKKAAYAGGL VLDPKVGFYD KFILLLDFNS LYPSIIQEFN ICFTTVQRVA SETLKATEDE
+     EQEQIPELPD PNLDMGILPR EIRKLVERRK QVKQLMKQQD LNPDLVLQYD IRQKALKLTA
+     NSMYGCLGFS YSRFYAKPLA ALVTYKGREI LMHTKEMVQK MNLEVIYGDT DSIMINTNST
+     NLEEVFKLGN KVKNEVNKLY KLLEIDIDGV FKSLLLLKKK KYAALVVEPT SDGNYITKQE
+     LKGLDIVRRD WCDLAKDTGN FVIGQILSDQ SRDTIVENIQ KRLIEIGENV LNGSVPVSQF
+     EINKALTKDP QDYPDKKSLP HVHVALWINS QGGRKVKAGD TVSYVICQDG SNLPATQRAY
+     APEQLQKQDN LAIDTQYYLA QQIHPVVARI CEPIDGIDAV LIALWLGLDS TQFRVHQYHK
+     DEENDALLGG PAQLTDEEKY KDCEKFKCLC PSCGTENIYD NVFEGSGMDM EPSLNRCSNI
+     DCKASPATFM VQLSNKLIMD IRRCIKKYYD GWLICEEPTC RNRIRRLPLH FSRNGPLCPA
+     CMKAVLRPEY SDKSLYTQLC FYRYIFDADC ALEKLPEHEK DKLKKQFFTP RVLQDYRKVK
+     NIAEHFLSWS G
+//

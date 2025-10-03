@@ -1,0 +1,108 @@
+ID   NPW_RAT                 Reviewed;         185 AA.
+AC   Q8K1M5;
+DT   25-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   29-MAY-2024, entry version 105.
+DE   RecName: Full=Neuropeptide W;
+DE   AltName: Full=Preproprotein L8;
+DE            Short=PPL8;
+DE   Contains:
+DE     RecName: Full=Neuropeptide W-23;
+DE              Short=NPW23;
+DE     AltName: Full=L8;
+DE   Contains:
+DE     RecName: Full=Neuropeptide W-30;
+DE              Short=NPW30;
+DE     AltName: Full=L8C;
+DE   Flags: Precursor;
+GN   Name=Npw; Synonyms=Ppl8;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND CHARACTERIZATION.
+RX   PubMed=12130646; DOI=10.1074/jbc.m205337200;
+RA   Shimomura Y., Harada M., Goto M., Sugo T., Matsumoto Y., Abe M.,
+RA   Watanabe T., Asami T., Kitada C., Mori M., Onda H., Fujino M.;
+RT   "Identification of neuropeptide W as the endogenous ligand for orphan G-
+RT   protein-coupled receptors GPR7 and GPR8.";
+RL   J. Biol. Chem. 277:35826-35832(2002).
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=12810535; DOI=10.1210/en.2002-0161;
+RA   Baker J.R., Cardinal K., Bober C., Taylor M.M., Samson W.K.;
+RT   "Neuropeptide W acts in brain to control prolactin, corticosterone, and
+RT   growth hormone release.";
+RL   Endocrinology 144:2816-2821(2003).
+CC   -!- FUNCTION: Plays a regulatory role in the organization of neuroendocrine
+CC       signals accessing the anterior pituitary gland. Stimulates water
+CC       drinking and food intake. May play a role in the hypothalamic response
+CC       to stress. When injected into the lateral cerebroventricle, it elevates
+CC       prolactin (PRL) and corticosterone and lowers growth hormone (GH)
+CC       release. {ECO:0000269|PubMed:12810535}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- SIMILARITY: Belongs to the neuropeptide B/W family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB084278; BAC07174.1; -; mRNA.
+DR   RefSeq; NP_695206.1; NM_153294.1.
+DR   AlphaFoldDB; Q8K1M5; -.
+DR   STRING; 10116.ENSRNOP00000016554; -.
+DR   PhosphoSitePlus; Q8K1M5; -.
+DR   PaxDb; 10116-ENSRNOP00000016554; -.
+DR   Ensembl; ENSRNOT00000016554.3; ENSRNOP00000016554.1; ENSRNOG00000012390.3.
+DR   GeneID; 259224; -.
+DR   KEGG; rno:259224; -.
+DR   UCSC; RGD:727858; rat.
+DR   AGR; RGD:727858; -.
+DR   CTD; 283869; -.
+DR   RGD; 727858; Npw.
+DR   eggNOG; ENOG502SW0V; Eukaryota.
+DR   GeneTree; ENSGT00940000158204; -.
+DR   HOGENOM; CLU_121719_0_0_1; -.
+DR   InParanoid; Q8K1M5; -.
+DR   OMA; SGAWYKH; -.
+DR   OrthoDB; 5324516at2759; -.
+DR   PhylomeDB; Q8K1M5; -.
+DR   TreeFam; TF333179; -.
+DR   Reactome; R-RNO-375276; Peptide ligand-binding receptors.
+DR   Reactome; R-RNO-418594; G alpha (i) signalling events.
+DR   PRO; PR:Q8K1M5; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000012390; Expressed in stomach and 12 other cell types or tissues.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0001664; F:G protein-coupled receptor binding; IMP:RGD.
+DR   GO; GO:0007631; P:feeding behavior; ISO:RGD.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; IMP:RGD.
+DR   GO; GO:0007218; P:neuropeptide signaling pathway; IEA:UniProtKB-KW.
+DR   InterPro; IPR013297; Neuropept_BW_pre.
+DR   InterPro; IPR013299; Neuropept_W_pre.
+DR   PANTHER; PTHR28553; NEUROPEPTIDE B; 1.
+DR   PANTHER; PTHR28553:SF2; NEUROPEPTIDE W; 1.
+DR   Pfam; PF15180; NPBW; 1.
+DR   PRINTS; PR01888; NROPEPTIDEBW.
+DR   PRINTS; PR01890; PPNRPEPTIDEW.
+PE   1: Evidence at protein level;
+KW   Cleavage on pair of basic residues; Neuropeptide; Reference proteome;
+KW   Secreted; Signal.
+FT   SIGNAL          1..41
+FT                   /evidence="ECO:0000255"
+FT   PEPTIDE         42..71
+FT                   /note="Neuropeptide W-30"
+FT                   /id="PRO_0000019849"
+FT   PEPTIDE         42..64
+FT                   /note="Neuropeptide W-23"
+FT                   /id="PRO_0000019850"
+FT   PROPEP          74..185
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000019851"
+SQ   SEQUENCE   185 AA;  20231 MW;  2A4C82DFE0A8F6B9 CRC64;
+     MDLSALASSR EVRGPGPGAP VNRPLLPLLL LLLLLPLPAS AWYKHVASPR YHTVGRASGL
+     LMGLRRSPYL WRRALGGAAG PLVGLPGQMA RSALLLPSPG QELWEVRSRS SPAGLPVHAT
+     RSLRDLEGAG QPEQSLSFQS WTSAEPAARA FGETLRAQPW FLQQIIFADP VRLDDRLKNR
+     WRPRA
+//

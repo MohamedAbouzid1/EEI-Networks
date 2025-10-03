@@ -1,0 +1,155 @@
+ID   EST5_RAT                Reviewed;         561 AA.
+AC   Q63010; Q6AYA3; Q9QUX6;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JUL-2024, entry version 127.
+DE   RecName: Full=Liver carboxylesterase B-1;
+DE            EC=3.1.1.1;
+DE   AltName: Full=Liver microsomal carboxylesterase;
+DE   Flags: Precursor;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=7961958; DOI=10.1016/s0021-9258(18)43935-x;
+RA   Yan B., Yang D., Brady M., Parkinson A.;
+RT   "Rat kidney carboxylesterase. Cloning, sequencing, cellular localization,
+RT   and relationship to rat liver hydrolase.";
+RL   J. Biol. Chem. 269:29688-29696(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Brown Norway; TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 19-40, NUCLEOTIDE SEQUENCE [MRNA] OF 113-121; 138-149;
+RP   216-224; 350-356 AND 464-469, AND SUBUNIT.
+RC   TISSUE=Liver;
+RX   PubMed=8597091; DOI=10.1016/0378-4274(95)03493-5;
+RA   Satoh T., Hosokawa M.;
+RT   "Molecular aspects of carboxylesterase isoforms in comparison with other
+RT   esterases.";
+RL   Toxicol. Lett. 82:439-445(1995).
+CC   -!- FUNCTION: Involved in the detoxification of xenobiotics and in the
+CC       activation of ester and amide prodrugs.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a carboxylic ester + H2O = a carboxylate + an alcohol + H(+);
+CC         Xref=Rhea:RHEA:21164, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29067, ChEBI:CHEBI:30879, ChEBI:CHEBI:33308; EC=3.1.1.1;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10039};
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:8597091}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen. Note=Microsomal
+CC       membrane, lumen of endoplasmic reticulum.
+CC   -!- SIMILARITY: Belongs to the type-B carboxylesterase/lipase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U10698; AAA64639.1; -; mRNA.
+DR   EMBL; BC079129; AAH79129.1; -; mRNA.
+DR   PIR; S71597; S71597.
+DR   RefSeq; NP_001019536.1; NM_001024365.1.
+DR   AlphaFoldDB; Q63010; -.
+DR   SMR; Q63010; -.
+DR   ELM; Q63010; -.
+DR   BindingDB; Q63010; -.
+DR   ChEMBL; CHEMBL2366498; -.
+DR   ESTHER; ratno-lmcxe; Carb_B_Chordata.
+DR   MEROPS; S09.969; -.
+DR   GlyGen; Q63010; 1 site.
+DR   PaxDb; 10116-ENSRNOP00000024187; -.
+DR   GeneID; 501232; -.
+DR   KEGG; rno:501232; -.
+DR   AGR; RGD:1565666; -.
+DR   CTD; 501232; -.
+DR   eggNOG; KOG1516; Eukaryota.
+DR   InParanoid; Q63010; -.
+DR   OrthoDB; 4386at2759; -.
+DR   PhylomeDB; Q63010; -.
+DR   PRO; PR:Q63010; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IBA:GO_Central.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005811; C:lipid droplet; IBA:GO_Central.
+DR   GO; GO:0106435; F:carboxylesterase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0052689; F:carboxylic ester hydrolase activity; IBA:GO_Central.
+DR   GO; GO:0016042; P:lipid catabolic process; IBA:GO_Central.
+DR   CDD; cd00312; Esterase_lipase; 1.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR002018; CarbesteraseB.
+DR   InterPro; IPR019826; Carboxylesterase_B_AS.
+DR   InterPro; IPR019819; Carboxylesterase_B_CS.
+DR   InterPro; IPR050309; Type-B_Carboxylest/Lipase.
+DR   PANTHER; PTHR11559; CARBOXYLESTERASE; 1.
+DR   PANTHER; PTHR11559:SF181; CARBOXYLESTERASE 1F; 1.
+DR   Pfam; PF00135; COesterase; 1.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+DR   PROSITE; PS00122; CARBOXYLESTERASE_B_1; 1.
+DR   PROSITE; PS00941; CARBOXYLESTERASE_B_2; 1.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Endoplasmic reticulum;
+KW   Glycoprotein; Hydrolase; Reference proteome; Serine esterase; Signal.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000269|PubMed:8597091"
+FT   CHAIN           19..561
+FT                   /note="Liver carboxylesterase B-1"
+FT                   /id="PRO_0000008582"
+FT   MOTIF           558..561
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10138"
+FT   ACT_SITE        221
+FT                   /note="Acyl-ester intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10039"
+FT   ACT_SITE        353
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        466
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        79
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        87..116
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        273..284
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        19
+FT                   /note="N -> D (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        29
+FT                   /note="M -> V (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        38
+FT                   /note="A -> V (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        422
+FT                   /note="V -> A (in Ref. 2; AAH79129)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        509
+FT                   /note="A -> G (in Ref. 2; AAH79129)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        536
+FT                   /note="R -> G (in Ref. 2; AAH79129)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   561 AA;  62495 MW;  013C1C13ACEBC6C9 CRC64;
+     MCLRSLFLVS LATCVVCGNP SSPPVVDTMK GKVLGKYASL EGVTQSVAVF LGVPFAKPPL
+     GSLRFAPPQP AEPWSFVKNT TTYPPMCSQD ATKGQRMNDL LTNRKEKVHL QFSEDCLYLN
+     IYTPADFTKD SRMPVMVWIH GGGLTQGGAS TYDGQVLSAY ENVVVVAIQY RLGIWGFFST
+     GDEHSRGNWG HLDQVAALHW VQDNIANFGG DPGSVTIFGE SAGGFSVSVL VLSPLSKNLY
+     HRAISESGVV LITELFTKDV RPAAKQIADM AGCKTTTSAI IVHCLRQKTE EELLEIMEKM
+     NLIKLSSQRD TKESYHFLST VIDDVVLPKD PKEILAEKNF NTVPYIVGIN KQECGWLLPT
+     MMRFVPPDVK LDKKMAIMLL EKFASIYGIP EDIIPVAIEK YRKGSDDPIK IRDGILAFIG
+     DVLFCIPSVM VSRDHRDAGA PTYVYEYQYY PSFSSPQRPK DVVGDHADDV YSVFGAPILR
+     DGASEEEIKL SKMVMKFWAN FARNGNPNAR GLPHWPQYDQ KEEYLQIGAT TQQSQRLKAE
+     EVAFWTQLLA KRQPQPHHNE L
+//

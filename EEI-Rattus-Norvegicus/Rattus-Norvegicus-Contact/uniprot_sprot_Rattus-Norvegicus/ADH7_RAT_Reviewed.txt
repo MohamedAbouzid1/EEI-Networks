@@ -1,0 +1,311 @@
+ID   ADH7_RAT                Reviewed;         374 AA.
+AC   P41682; O55146;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1999, sequence version 2.
+DT   24-JUL-2024, entry version 165.
+DE   RecName: Full=All-trans-retinol dehydrogenase [NAD(+)] ADH7 {ECO:0000305};
+DE            EC=1.1.1.105 {ECO:0000250|UniProtKB:P40394};
+DE   AltName: Full=Alcohol dehydrogenase class 4 mu/sigma chain;
+DE            EC=1.1.1.1 {ECO:0000250|UniProtKB:P40394};
+DE   AltName: Full=Alcohol dehydrogenase class IV mu/sigma chain;
+DE   AltName: Full=Omega-hydroxydecanoate dehydrogenase ADH7 {ECO:0000250|UniProtKB:P40394};
+DE            EC=1.1.1.66 {ECO:0000250|UniProtKB:P40394};
+GN   Name=Adh7;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   PROTEIN SEQUENCE, AND ACETYLATION AT MET-1.
+RC   STRAIN=Sprague-Dawley; TISSUE=Stomach;
+RX   PubMed=8127901; DOI=10.1073/pnas.91.5.1893;
+RA   Pares X., Cederlund E., Moreno A., Hjelmqvist L., Farres J., Joernvall H.;
+RT   "Mammalian class IV alcohol dehydrogenase (stomach alcohol dehydrogenase):
+RT   structure, origin, and correlation with enzymology.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 91:1893-1897(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Lung;
+RX   PubMed=10829036; DOI=10.1074/jbc.m910040199;
+RA   Crosas B., Allali-Hassani A., Martinez S.E., Martras S., Persson B.,
+RA   Jornvall H., Pares X., Farres J.;
+RT   "Molecular basis for differential substrate specificity in class IV alcohol
+RT   dehydrogenases: a conserved function in retinoid metabolism but not in
+RT   ethanol oxidation.";
+RL   J. Biol. Chem. 275:25180-25187(2000).
+RN   [3]
+RP   ACTIVITY REGULATION.
+RX   PubMed=9600267; DOI=10.1016/s0014-5793(98)00374-3;
+RA   Allali-Hassani A., Peralba J.M., Martras S., Farres J., Pares X.;
+RT   "Retinoids, omega-hydroxyfatty acids and cytotoxic aldehydes as
+RT   physiological substrates, and H2-receptor antagonists as pharmacological
+RT   inhibitors, of human class IV alcohol dehydrogenase.";
+RL   FEBS Lett. 426:362-366(1998).
+CC   -!- FUNCTION: Catalyzes the NAD-dependent oxidation of all-trans-retinol,
+CC       alcohol, aldehyde and omega-hydroxy fatty acids and their derivatives.
+CC       Oxidizes preferentially all trans-retinol, all-trans-4-hydroxyretinol,
+CC       9-cis-retinol, 2-hexenol, and long chain omega-hydroxy fatty acids such
+CC       as juniperic acid. In vitro can also catalyze the NADH-dependent
+CC       reduction of all-trans-retinal and aldehydes and their derivatives.
+CC       Reduces preferentially all trans-retinal, all-trans-4-oxoretinal and
+CC       hexanal. Catalyzes in the oxidative direction with higher efficiency.
+CC       Therefore may participate in retinoid metabolism, fatty acid omega-
+CC       oxidation, and elimination of cytotoxic aldehydes produced by lipid
+CC       peroxidation. {ECO:0000250|UniProtKB:P40394}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a primary alcohol + NAD(+) = an aldehyde + H(+) + NADH;
+CC         Xref=Rhea:RHEA:10736, ChEBI:CHEBI:15378, ChEBI:CHEBI:15734,
+CC         ChEBI:CHEBI:17478, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.1;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:10737;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:10738;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=10-hydroxydecanoate + NAD(+) = 10-oxodecanoate + H(+) + NADH;
+CC         Xref=Rhea:RHEA:20880, ChEBI:CHEBI:11305, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:58022; EC=1.1.1.66;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:20881;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinol + NAD(+) = all-trans-retinal + H(+) + NADH;
+CC         Xref=Rhea:RHEA:21284, ChEBI:CHEBI:15378, ChEBI:CHEBI:17336,
+CC         ChEBI:CHEBI:17898, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         EC=1.1.1.105; Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21285;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=9-cis-retinol + NAD(+) = 9-cis-retinal + H(+) + NADH;
+CC         Xref=Rhea:RHEA:42052, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:78272, ChEBI:CHEBI:78273;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:42053;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-3,4-didehydroretinol + NAD(+) = all-trans-3,4-
+CC         didehydroretinal + H(+) + NADH; Xref=Rhea:RHEA:55940,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:28537, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:132246;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55941;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-4-hydroxyretinol + NAD(+) = all-trans-4-
+CC         hydroxyretinal + H(+) + NADH; Xref=Rhea:RHEA:55936,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:132259, ChEBI:CHEBI:139346;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55937;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-4-oxoretinol + NAD(+) = all-trans-4-oxoretinal +
+CC         H(+) + NADH; Xref=Rhea:RHEA:60632, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:44597, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:139347; Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:60634;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=12-hydroxydodecanoate + NAD(+) = 12-oxododecanoate + H(+) +
+CC         NADH; Xref=Rhea:RHEA:60980, ChEBI:CHEBI:15378, ChEBI:CHEBI:36204,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:144067;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60981;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=16-hydroxyhexadecanoate + NAD(+) = 16-oxohexadecanoate + H(+)
+CC         + NADH; Xref=Rhea:RHEA:60984, ChEBI:CHEBI:15378, ChEBI:CHEBI:55329,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:144068;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60985;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hexan-1-ol + NAD(+) = H(+) + hexanal + NADH;
+CC         Xref=Rhea:RHEA:60972, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:87393, ChEBI:CHEBI:88528;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60973;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:60974;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(E)-hex-2-en-1-ol + NAD(+) = (E)-hex-2-enal + H(+) + NADH;
+CC         Xref=Rhea:RHEA:60988, ChEBI:CHEBI:15378, ChEBI:CHEBI:28913,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:141205;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60989;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:60990;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(E)-4-hydroxynon-2-en-1-ol + NAD(+) = (E)-4-hydroxynon-2-enal
+CC         + H(+) + NADH; Xref=Rhea:RHEA:60976, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:58968,
+CC         ChEBI:CHEBI:142617; Evidence={ECO:0000250|UniProtKB:P40394};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:60978;
+CC         Evidence={ECO:0000250|UniProtKB:P40394};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Retinol oxidation is inhibited by the detergent
+CC       Tween 80. Ethanol inhibits both all-trans-retinol and 9-cis-retinol
+CC       oxidation. 13-cis-retinol is an effective competitive inhibitor of the
+CC       9-cis-retinol oxidation. All-trans-retinoic acid is a powerful
+CC       inhibitor of all-trans-retinol oxidation. 13-cis-retinoic acid is a
+CC       powerful inhibitor of all-trans-retinol oxidation (By similarity).
+CC       Cimetidine and ranitidine inhibited ethanol oxidation (PubMed:9600267).
+CC       {ECO:0000250|UniProtKB:P40394, ECO:0000269|PubMed:9600267}.
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- TISSUE SPECIFICITY: Preferentially expressed in stomach.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. Class-IV subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X98746; CAA67297.1; -; mRNA.
+DR   PIR; A53142; A53142.
+DR   RefSeq; NP_599156.1; NM_134329.1.
+DR   AlphaFoldDB; P41682; -.
+DR   SMR; P41682; -.
+DR   STRING; 10116.ENSRNOP00000015870; -.
+DR   iPTMnet; P41682; -.
+DR   PhosphoSitePlus; P41682; -.
+DR   jPOST; P41682; -.
+DR   PaxDb; 10116-ENSRNOP00000015870; -.
+DR   GeneID; 171178; -.
+DR   KEGG; rno:171178; -.
+DR   AGR; RGD:621638; -.
+DR   CTD; 131; -.
+DR   RGD; 621638; Adh7.
+DR   eggNOG; KOG0022; Eukaryota.
+DR   InParanoid; P41682; -.
+DR   OrthoDB; 1077476at2759; -.
+DR   PhylomeDB; P41682; -.
+DR   Reactome; R-RNO-71384; Ethanol oxidation.
+DR   PRO; PR:P41682; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0004022; F:alcohol dehydrogenase (NAD+) activity; IDA:RGD.
+DR   GO; GO:0004024; F:alcohol dehydrogenase (NAD+) activity, zinc-dependent; ISO:RGD.
+DR   GO; GO:0004031; F:aldehyde oxidase activity; ISO:RGD.
+DR   GO; GO:0004745; F:all-trans-retinol dehydrogenase (NAD+) activity; ISS:UniProtKB.
+DR   GO; GO:0035276; F:ethanol binding; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0051287; F:NAD binding; IDA:RGD.
+DR   GO; GO:0050153; F:omega-hydroxydecanoate dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0048019; F:receptor antagonist activity; ISO:RGD.
+DR   GO; GO:0019841; F:retinol binding; IDA:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:RGD.
+DR   GO; GO:0006068; P:ethanol catabolic process; ISO:RGD.
+DR   GO; GO:0006067; P:ethanol metabolic process; IDA:RGD.
+DR   GO; GO:0010430; P:fatty acid omega-oxidation; ISO:RGD.
+DR   GO; GO:0009617; P:response to bacterium; ISO:RGD.
+DR   GO; GO:0045471; P:response to ethanol; ISO:RGD.
+DR   GO; GO:0042573; P:retinoic acid metabolic process; ISO:RGD.
+DR   GO; GO:0001523; P:retinoid metabolic process; ISO:RGD.
+DR   GO; GO:0042572; P:retinol metabolic process; IDA:RGD.
+DR   CDD; cd08299; alcohol_DH_class_I_II_IV; 1.
+DR   Gene3D; 3.90.180.10; Medium-chain alcohol dehydrogenases, catalytic domain; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR013149; ADH-like_C.
+DR   InterPro; IPR013154; ADH-like_N.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR020843; PKS_ER.
+DR   PANTHER; PTHR43880; ALCOHOL DEHYDROGENASE; 1.
+DR   PANTHER; PTHR43880:SF2; ALL-TRANS-RETINOL DEHYDROGENASE [NAD(+)] ADH7; 1.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SMART; SM00829; PKS_ER; 1.
+DR   SUPFAM; SSF50129; GroES-like; 2.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Direct protein sequencing; Lipid metabolism;
+KW   Metal-binding; NAD; Oxidoreductase; Reference proteome; Zinc.
+FT   CHAIN           1..374
+FT                   /note="All-trans-retinol dehydrogenase [NAD(+)] ADH7"
+FT                   /id="PRO_0000160696"
+FT   BINDING         47
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         68
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         98
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         101
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         104
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         112
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         174
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         199..204
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         223
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         228
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         292..294
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         369
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000305|PubMed:8127901"
+FT   CONFLICT        1..4
+FT                   /note="MDTA -> SNRV (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        109
+FT                   /note="G -> E (in Ref. 2; CAA67297)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        208
+FT                   /note="V -> I (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   374 AA;  40105 MW;  DD745E7FCB01E452 CRC64;
+     MDTAGKVIKC KAAVLWGTNQ PFSIEDIEVA PPKAKEVRVK ILATGICGTD DHVIKGTMVS
+     KFPVIVGHEA VGIVESVGEE VTTVRPGDKV IPLFLPQCRE CNPCRNPEGN LCIRSDLTGR
+     GVLADGTTRF TCKGKPVQHF MNTSTFTEYT VLDESSVAKI DAEAPPEKAC LIGCGFSTGY
+     GAAVKTAKVS PGSTCAVFGL GGVGLSVVMG CKAAGASRII GIDINKDKFQ KALDVGATEC
+     INPRDFTKPI SEVLSDMTGN TVQYTFEVIG RLETMVDALS SCHMNYGTSV VVGAPPSAKM
+     LSYDPMLLFT GRTWKGCVFG GWKSRDDVPK LVTEFLEKKF DLGQLITHTL PFHNISEGFE
+     LLYSGQSIRT VLTF
+//

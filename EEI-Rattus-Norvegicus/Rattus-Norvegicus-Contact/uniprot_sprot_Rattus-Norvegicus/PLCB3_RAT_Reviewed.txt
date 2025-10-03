@@ -1,0 +1,278 @@
+ID   PLCB3_RAT               Reviewed;        1234 AA.
+AC   Q99JE6; Q62887; Q9QW29;
+DT   11-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 2.
+DT   02-OCT-2024, entry version 158.
+DE   RecName: Full=1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-3 {ECO:0000305};
+DE            EC=3.1.4.11 {ECO:0000269|PubMed:8454637};
+DE   AltName: Full=Phosphoinositide phospholipase C-beta-3;
+DE   AltName: Full=Phospholipase C-beta-3;
+DE            Short=PLC-beta-3;
+GN   Name=Plcb3 {ECO:0000312|RGD:61993};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116 {ECO:0000312|EMBL:AAK14906.1};
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-33.
+RX   PubMed=9332346; DOI=10.1016/s0378-1119(97)00213-8;
+RA   Kang J.S., Lee H.B., Rhee S.G., Park K., Yoo O.J.;
+RT   "The 5'-upstream region of the rat phospholipase C-beta 3 gene contains two
+RT   critical Sp1 sites and an HIV Inr-like element.";
+RL   Gene 197:19-28(1997).
+RN   [2] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 17-1234, FUNCTION, TISSUE SPECIFICITY,
+RP   SUBCELLULAR LOCATION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=Fischer; TISSUE=Thyroid;
+RX   PubMed=8454637; DOI=10.1016/s0021-9258(18)53300-7;
+RA   Jhon D.-Y., Lee H.-H., Park D., Lee C.-W., Lee K.-H., Yoo O.J., Rhee S.G.;
+RT   "Cloning, sequencing, purification, and Gq-dependent activation of
+RT   phospholipase C-beta 3.";
+RL   J. Biol. Chem. 268:6654-6661(1993).
+RN   [3]
+RP   INTERACTION WITH SHANK2.
+RX   PubMed=15632121; DOI=10.1074/jbc.m410740200;
+RA   Hwang J.-I., Kim H.S., Lee J.R., Kim E., Ryu S.H., Suh P.-G.;
+RT   "The interaction of phospholipase C-beta3 with Shank2 regulates mGluR-
+RT   mediated calcium signal.";
+RL   J. Biol. Chem. 280:12467-12473(2005).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-535 AND SER-1105, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the production of the second messenger molecules
+CC       diacylglycerol (DAG) and inositol 1,4,5-trisphosphate (IP3)
+CC       (PubMed:8454637). Key transducer of G protein-coupled receptor
+CC       signaling: activated by G(q)/G(11) G alpha proteins downstream of G
+CC       protein-coupled receptors activation (By similarity). In neutrophils,
+CC       participates in a phospholipase C-activating N-formyl peptide-activated
+CC       GPCR (G protein-coupled receptor) signaling pathway by promoting
+CC       RASGRP4 activation by DAG, to promote neutrophil functional responses
+CC       (By similarity). {ECO:0000250|UniProtKB:P51432,
+CC       ECO:0000250|UniProtKB:Q01970, ECO:0000269|PubMed:8454637}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol-4,5-
+CC         bisphosphate) + H2O = 1D-myo-inositol 1,4,5-trisphosphate + a 1,2-
+CC         diacyl-sn-glycerol + H(+); Xref=Rhea:RHEA:33179, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17815, ChEBI:CHEBI:58456,
+CC         ChEBI:CHEBI:203600; EC=3.1.4.11;
+CC         Evidence={ECO:0000269|PubMed:8454637};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:33180;
+CC         Evidence={ECO:0000305|PubMed:8454637};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol) + H2O =
+CC         1D-myo-inositol 1-phosphate + a 1,2-diacyl-sn-glycerol + H(+);
+CC         Xref=Rhea:RHEA:43484, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17815, ChEBI:CHEBI:57880, ChEBI:CHEBI:58433;
+CC         Evidence={ECO:0000269|PubMed:8454637};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:43485;
+CC         Evidence={ECO:0000305|PubMed:8454637};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:8454637};
+CC   -!- ACTIVITY REGULATION: Activated by G(q)/G(11) G alpha proteins in
+CC       response to ligand-binding to G protein-coupled receptors.
+CC       {ECO:0000250|UniProtKB:Q01970}.
+CC   -!- SUBUNIT: Interacts with LPAR2 (By similarity). Interacts with SHANK2
+CC       (PubMed:15632121). {ECO:0000250|UniProtKB:Q01970,
+CC       ECO:0000269|PubMed:15632121}.
+CC   -!- INTERACTION:
+CC       Q99JE6; Q9QX74: Shank2; NbExp=4; IntAct=EBI-36481538, EBI-397902;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:8454637}. Membrane
+CC       {ECO:0000269|PubMed:8454637}. Nucleus {ECO:0000250|UniProtKB:P51432}.
+CC       Note=And particulate fractions.
+CC   -!- TISSUE SPECIFICITY: Expressed in parotid gland, brain, liver, uterus,
+CC       lung, heart, adrenal gland, and ovary. Not detected in spleen,
+CC       pancreas, intestine, thymus or kidney. {ECO:0000269|PubMed:8454637}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U41411; AAC53366.1; -; Genomic_DNA.
+DR   EMBL; M99567; AAK14906.1; -; mRNA.
+DR   PIR; A45493; A45493.
+DR   AlphaFoldDB; Q99JE6; -.
+DR   SMR; Q99JE6; -.
+DR   IntAct; Q99JE6; 1.
+DR   MINT; Q99JE6; -.
+DR   STRING; 10116.ENSRNOP00000028720; -.
+DR   SwissLipids; SLP:000000945; -.
+DR   iPTMnet; Q99JE6; -.
+DR   PhosphoSitePlus; Q99JE6; -.
+DR   jPOST; Q99JE6; -.
+DR   PaxDb; 10116-ENSRNOP00000028720; -.
+DR   PeptideAtlas; Q99JE6; -.
+DR   UCSC; RGD:61993; rat.
+DR   AGR; RGD:61993; -.
+DR   RGD; 61993; Plcb3.
+DR   eggNOG; KOG1265; Eukaryota.
+DR   InParanoid; Q99JE6; -.
+DR   BRENDA; 3.1.4.11; 5301.
+DR   Reactome; R-RNO-112043; PLC beta mediated events.
+DR   Reactome; R-RNO-1855204; Synthesis of IP3 and IP4 in the cytosol.
+DR   Reactome; R-RNO-399997; Acetylcholine regulates insulin secretion.
+DR   Reactome; R-RNO-416476; G alpha (q) signalling events.
+DR   Reactome; R-RNO-434316; Fatty Acids bound to GPR40 (FFAR1) regulate insulin secretion.
+DR   PRO; PR:Q99JE6; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; IDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0099524; C:postsynaptic cytosol; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0042383; C:sarcolemma; IDA:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0005516; F:calmodulin binding; ISO:RGD.
+DR   GO; GO:0060090; F:molecular adaptor activity; ISO:RGD.
+DR   GO; GO:0140677; F:molecular function activator activity; ISO:RGD.
+DR   GO; GO:0004435; F:phosphatidylinositol phospholipase C activity; IDA:UniProtKB.
+DR   GO; GO:0004629; F:phospholipase C activity; TAS:RGD.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; IMP:RGD.
+DR   GO; GO:0032957; P:inositol trisphosphate metabolic process; IDA:RGD.
+DR   GO; GO:0031161; P:phosphatidylinositol catabolic process; IDA:RGD.
+DR   GO; GO:0046488; P:phosphatidylinositol metabolic process; ISO:RGD.
+DR   GO; GO:0048015; P:phosphatidylinositol-mediated signaling; IBA:GO_Central.
+DR   GO; GO:0007200; P:phospholipase C-activating G protein-coupled receptor signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0006892; P:post-Golgi vesicle-mediated transport; IDA:RGD.
+DR   GO; GO:0003073; P:regulation of systemic arterial blood pressure; ISO:RGD.
+DR   GO; GO:0051209; P:release of sequestered calcium ion into cytosol; IBA:GO_Central.
+DR   CDD; cd00275; C2_PLC_like; 1.
+DR   CDD; cd16210; EFh_PI-PLCbeta3; 1.
+DR   CDD; cd13361; PH_PLC_beta; 1.
+DR   CDD; cd08591; PI-PLCc_beta; 1.
+DR   Gene3D; 2.30.29.240; -; 1.
+DR   Gene3D; 2.60.40.150; C2 domain; 1.
+DR   Gene3D; 1.10.238.10; EF-hand; 1.
+DR   Gene3D; 3.20.20.190; Phosphatidylinositol (PI) phosphodiesterase; 1.
+DR   Gene3D; 1.20.1230.10; Phospholipase C beta, distal C-terminal domain; 1.
+DR   InterPro; IPR000008; C2_dom.
+DR   InterPro; IPR035892; C2_domain_sf.
+DR   InterPro; IPR011992; EF-hand-dom_pair.
+DR   InterPro; IPR001192; PI-PLC_fam.
+DR   InterPro; IPR016280; PLC-beta.
+DR   InterPro; IPR014815; PLC-beta_C.
+DR   InterPro; IPR042531; PLC-beta_C_sf.
+DR   InterPro; IPR037862; PLC-beta_PH.
+DR   InterPro; IPR017946; PLC-like_Pdiesterase_TIM-brl.
+DR   InterPro; IPR053945; PLCB1-4-like_EFh.
+DR   InterPro; IPR000909; PLipase_C_PInositol-sp_X_dom.
+DR   InterPro; IPR001711; PLipase_C_Pinositol-sp_Y.
+DR   PANTHER; PTHR10336:SF11; 1-PHOSPHATIDYLINOSITOL 4,5-BISPHOSPHATE PHOSPHODIESTERASE BETA-3; 1.
+DR   PANTHER; PTHR10336; PHOSPHOINOSITIDE-SPECIFIC PHOSPHOLIPASE C FAMILY PROTEIN; 1.
+DR   Pfam; PF00168; C2; 1.
+DR   Pfam; PF17787; PH_14; 1.
+DR   Pfam; PF00388; PI-PLC-X; 1.
+DR   Pfam; PF00387; PI-PLC-Y; 1.
+DR   Pfam; PF08703; PLC-beta_C; 1.
+DR   Pfam; PF22631; PLCB1-4-like_EFh; 1.
+DR   PIRSF; PIRSF000956; PLC-beta; 1.
+DR   PRINTS; PR00390; PHPHLIPASEC.
+DR   SMART; SM00239; C2; 1.
+DR   SMART; SM00148; PLCXc; 1.
+DR   SMART; SM00149; PLCYc; 1.
+DR   SUPFAM; SSF69989; C-terminal domain of PLC-beta; 1.
+DR   SUPFAM; SSF49562; C2 domain (Calcium/lipid-binding domain, CaLB); 1.
+DR   SUPFAM; SSF47473; EF-hand; 1.
+DR   SUPFAM; SSF50729; PH domain-like; 1.
+DR   SUPFAM; SSF51695; PLC-like phosphodiesterases; 1.
+DR   PROSITE; PS50004; C2; 1.
+DR   PROSITE; PS50007; PIPLC_X_DOMAIN; 1.
+DR   PROSITE; PS50008; PIPLC_Y_DOMAIN; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Calcium; Cytoplasm; Hydrolase; Lipid degradation;
+KW   Lipid metabolism; Membrane; Nucleus; Phosphoprotein; Reference proteome;
+KW   Transducer.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q01970"
+FT   CHAIN           2..1234
+FT                   /note="1-phosphatidylinositol 4,5-bisphosphate
+FT                   phosphodiesterase beta-3"
+FT                   /id="PRO_0000088493"
+FT   DOMAIN          315..466
+FT                   /note="PI-PLC X-box"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00270"
+FT   DOMAIN          589..705
+FT                   /note="PI-PLC Y-box"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00271"
+FT   DOMAIN          706..834
+FT                   /note="C2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   REGION          465..586
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          886..936
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1196..1234
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1231..1234
+FT                   /note="Interaction with SHANK2"
+FT                   /evidence="ECO:0000269|PubMed:15632121"
+FT   COMPBIAS        482..517
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        886..911
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1214..1234
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        330
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00270"
+FT   ACT_SITE        377
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00270"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q01970"
+FT   MOD_RES         472
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q01970"
+FT   MOD_RES         488
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q01970"
+FT   MOD_RES         493
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q01970"
+FT   MOD_RES         535
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         925
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q01970"
+FT   MOD_RES         1105
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CONFLICT        17
+FT                   /note="T -> A (in Ref. 2; AAK14906)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1234 AA;  139450 MW;  2EBD7282F052CA6A CRC64;
+     MAGARPGVHA LQLEPPTVVE TLRRGSKFIK WDEEASSRNL VTLRLDPNGF FLYWTGPNME
+     VDTLDISSIR DTRTGRYARL PKDPKIREVL GFGGPDTRLE EKLMTVVAGP DPVNTTFLNF
+     MAVQDDTVKV WSEELFKLAM NILAQNAPEH VLRKAYTKLK LQVNQDGRIP VKNILKMFSA
+     DKKRVETALI CGLNFNRSES IRPDEFSLEI FERFLNKLLL RPDIDKILLE IGAKGKPYLT
+     LEQLMDFINQ KQRDPRLNEV LYPPLRSSQA RLLIEKYEPN KQFLERDQMS MEGFSRYLGG
+     EENGILPLEA LDLSMDMTQP LSAYFINSSH NTYLTAGQLA GTSSVEMYRQ ALLWGCRCVE
+     LDVWKGRPPE EEPFITHGFT MTTEVPLRDV LEAIAETAFK TSPYPVILSF ENHVDSAKQQ
+     AKMAEYCRSI FGEALLIDPL DKYPLSAGTP LPSPQDLMGR ILVKNKKRHR PSTGVPDSSV
+     AKRPLEQSNS ALSESSAATE PSSPQLGSPS SDSCPGLSNG EEVGLEKTSL EPQKSLGEEG
+     LNRGPNVLMP DRDREDEEED EEEEETTDPK KPTTDEGTAS SEVNATEEMS TLVNYVEPVK
+     FKSFEASRKR NKCFEMSSFV ETKAMEQLTK SPMEFVEYNK QQLSRIYPKG TRVDSSNYMP
+     QLFWNVGCQL VALNFQTLDL PMQLNAGVFE YNGRSGYLLK PEFMRRPDKS FDPFTEVIVD
+     GIVANALRVK VISGQFLSDR KVGIYVEVDM FGLPVDTRRK YRTRTSQGNS FNPVWDEEPF
+     DFPKVVLPTL ASLRIAAFEE GGRFVGHRIL PVSAIRSGYH YVCLRNEANQ PLCLPALLIY
+     TEASDYIPDD HQDYAEALIN PIKHVSLMDQ RAKQLAALIG ESEAQASTEM CQETPSQQQG
+     SQLSSNPVPN PLDDSPRWPP GPTTSPTSTS LSSPGQRDDL IASILSEVTP TPLEELRSHK
+     AMVKLRSRQD RDLRELHKKH QRKAVALTRR LLDGLAQARA EGKCRPSSSA LSRATNVEDV
+     KEEEKEAARQ YREFQNRQVQ SLLELREAQA DAETERRLEH LKQAQQRLRE VVLDAHTTQF
+     KRLKELNERE KKELQKILDR KRNNSISEAK TREKHKKEVE LTEINRRHIT ESVNSIRRLE
+     EAQKQRHERL LAGQQQVLQQ LVEEEPKLVA QLTQECQEQR ERLPQEIRRC LLGETSEGLG
+     DGPLVACASN GHAAGSGGHQ SGADSESQEE NTQL
+//

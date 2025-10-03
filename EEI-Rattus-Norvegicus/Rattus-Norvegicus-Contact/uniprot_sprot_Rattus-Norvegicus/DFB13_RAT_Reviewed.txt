@@ -1,0 +1,79 @@
+ID   DFB13_RAT               Reviewed;          66 AA.
+AC   Q32ZH8;
+DT   14-OCT-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   02-OCT-2024, entry version 91.
+DE   RecName: Full=Beta-defensin 13;
+DE            Short=BD-13;
+DE   AltName: Full=Defensin, beta 13;
+DE   Flags: Precursor;
+GN   Name=Defb13;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=16033865; DOI=10.1152/physiolgenomics.00104.2005;
+RA   Patil A.A., Cai Y., Sang Y., Blecha F., Zhang G.;
+RT   "Cross-species analysis of the mammalian beta-defensin gene family:
+RT   presence of syntenic gene clusters and preferential expression in the male
+RT   reproductive tract.";
+RL   Physiol. Genomics 23:5-17(2005).
+CC   -!- FUNCTION: Has antibacterial activity. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the beta-defensin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY621345; AAT51884.1; -; mRNA.
+DR   RefSeq; NP_001032592.1; NM_001037503.1.
+DR   AlphaFoldDB; Q32ZH8; -.
+DR   STRING; 10116.ENSRNOP00000054879; -.
+DR   PaxDb; 10116-ENSRNOP00000054879; -.
+DR   Ensembl; ENSRNOT00000058071.2; ENSRNOP00000054879.1; ENSRNOG00000038157.2.
+DR   Ensembl; ENSRNOT00055013699; ENSRNOP00055011001; ENSRNOG00055008099.
+DR   Ensembl; ENSRNOT00060041025; ENSRNOP00060033953; ENSRNOG00060023706.
+DR   Ensembl; ENSRNOT00065013230; ENSRNOP00065009797; ENSRNOG00065008339.
+DR   GeneID; 641626; -.
+DR   KEGG; rno:641626; -.
+DR   UCSC; RGD:1559883; rat.
+DR   AGR; RGD:1559883; -.
+DR   CTD; 246083; -.
+DR   RGD; 1559883; Defb13.
+DR   eggNOG; ENOG502TF47; Eukaryota.
+DR   GeneTree; ENSGT00390000013953; -.
+DR   HOGENOM; CLU_2757177_0_0_1; -.
+DR   InParanoid; Q32ZH8; -.
+DR   OMA; LYRRFLC; -.
+DR   OrthoDB; 5137351at2759; -.
+DR   PhylomeDB; Q32ZH8; -.
+DR   PRO; PR:Q32ZH8; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000038157; Expressed in kidney and 3 other cell types or tissues.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008289; F:lipid binding; ISO:RGD.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:InterPro.
+DR   InterPro; IPR025933; Beta_defensin_dom.
+DR   Pfam; PF13841; Defensin_beta_2; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic; Antimicrobial; Defensin; Disulfide bond; Reference proteome;
+KW   Secreted; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..66
+FT                   /note="Beta-defensin 13"
+FT                   /id="PRO_0000352698"
+FT   DISULFID        30..59
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        37..51
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        41..60
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   66 AA;  7539 MW;  A77FFE7E0A712D95 CRC64;
+     MRIFSLIVAG LVLLIQLHPA KGTLYRRFLC KKMKGRCETA CLSFEKKIGT CRADLTPLCC
+     KEKKKH
+//

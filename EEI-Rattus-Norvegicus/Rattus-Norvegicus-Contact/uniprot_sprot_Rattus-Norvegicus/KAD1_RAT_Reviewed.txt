@@ -1,0 +1,313 @@
+ID   KAD1_RAT                Reviewed;         194 AA.
+AC   P39069; Q5EBC5; Q9JJN3;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 3.
+DT   02-OCT-2024, entry version 146.
+DE   RecName: Full=Adenylate kinase isoenzyme 1 {ECO:0000255|HAMAP-Rule:MF_03171};
+DE            Short=AK 1 {ECO:0000255|HAMAP-Rule:MF_03171};
+DE            EC=2.7.4.3 {ECO:0000250|UniProtKB:P00568, ECO:0000255|HAMAP-Rule:MF_03171};
+DE            EC=2.7.4.4 {ECO:0000250|UniProtKB:P00568};
+DE            EC=2.7.4.6 {ECO:0000250|UniProtKB:P00568, ECO:0000255|HAMAP-Rule:MF_03171};
+DE   AltName: Full=ATP-AMP transphosphorylase 1 {ECO:0000255|HAMAP-Rule:MF_03171};
+DE   AltName: Full=ATP:AMP phosphotransferase {ECO:0000255|HAMAP-Rule:MF_03171};
+DE   AltName: Full=Adenylate monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_03171};
+DE   AltName: Full=Myokinase {ECO:0000255|HAMAP-Rule:MF_03171};
+GN   Name=Ak1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RA   Noma T.;
+RT   "Rat adenylate kinase isozyme 1.";
+RL   Submitted (JAN-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 10-21; 32-44; 64-77; 84-97; 101-128; 156-167 AND
+RP   172-194, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, Hippocampus, and Spinal cord;
+RA   Lubec G., Afjehi-Sadat L., Diao W., Kang S.U.;
+RL   Submitted (JUL-2007) to UniProtKB.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 72-194.
+RX   PubMed=8468325; DOI=10.1093/oxfordjournals.jbchem.a124026;
+RA   Tanabe T., Yamada M., Noma T., Kajii T., Nakazawa A.;
+RT   "Tissue-specific and developmentally regulated expression of the genes
+RT   encoding adenylate kinase isozymes.";
+RL   J. Biochem. 113:200-207(1993).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the reversible transfer of the terminal phosphate
+CC       group between ATP and AMP. Also displays broad nucleoside diphosphate
+CC       kinase activity. Plays an important role in cellular energy homeostasis
+CC       and in adenine nucleotide metabolism (By similarity). Also catalyzes at
+CC       a very low rate the synthesis of thiamine triphosphate (ThTP) from
+CC       thiamine diphosphate (ThDP) and ADP (By similarity).
+CC       {ECO:0000250|UniProtKB:P00568, ECO:0000250|UniProtKB:P05081,
+CC       ECO:0000255|HAMAP-Rule:MF_03171}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-phosphate + ATP = a ribonucleoside 5'-
+CC         diphosphate + ADP; Xref=Rhea:RHEA:24036, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:58043, ChEBI:CHEBI:456216; EC=2.7.4.4;
+CC         Evidence={ECO:0000250|UniProtKB:P00568};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AMP + ATP = 2 ADP; Xref=Rhea:RHEA:12973, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:456215, ChEBI:CHEBI:456216; EC=2.7.4.3;
+CC         Evidence={ECO:0000250|UniProtKB:P00568, ECO:0000255|HAMAP-
+CC         Rule:MF_03171};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + dAMP = ADP + dADP; Xref=Rhea:RHEA:23100,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57667, ChEBI:CHEBI:58245,
+CC         ChEBI:CHEBI:456216; Evidence={ECO:0000250|UniProtKB:P00568};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AMP + dATP = ADP + dADP; Xref=Rhea:RHEA:79899,
+CC         ChEBI:CHEBI:57667, ChEBI:CHEBI:61404, ChEBI:CHEBI:456215,
+CC         ChEBI:CHEBI:456216; Evidence={ECO:0000250|UniProtKB:P05081};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dAMP + dATP = 2 dADP; Xref=Rhea:RHEA:78311, ChEBI:CHEBI:57667,
+CC         ChEBI:CHEBI:58245, ChEBI:CHEBI:61404;
+CC         Evidence={ECO:0000250|UniProtKB:P05081};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-diphosphate + ATP = a 2'-
+CC         deoxyribonucleoside 5'-triphosphate + ADP; Xref=Rhea:RHEA:44640,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61560, ChEBI:CHEBI:73316,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.6;
+CC         Evidence={ECO:0000250|UniProtKB:P00568, ECO:0000255|HAMAP-
+CC         Rule:MF_03171};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-diphosphate + ATP = a ribonucleoside 5'-
+CC         triphosphate + ADP; Xref=Rhea:RHEA:18113, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:61557, ChEBI:CHEBI:456216; EC=2.7.4.6;
+CC         Evidence={ECO:0000250|UniProtKB:P00568};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CDP + GTP = CTP + GDP; Xref=Rhea:RHEA:79859,
+CC         ChEBI:CHEBI:37563, ChEBI:CHEBI:37565, ChEBI:CHEBI:58069,
+CC         ChEBI:CHEBI:58189; Evidence={ECO:0000250|UniProtKB:P00568};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + GDP = ADP + GTP; Xref=Rhea:RHEA:27686,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:37565, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.6;
+CC         Evidence={ECO:0000250|UniProtKB:P00568};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + UDP = ADP + UTP; Xref=Rhea:RHEA:25098,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:46398, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.6;
+CC         Evidence={ECO:0000250|UniProtKB:P00568};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + UDP = GDP + UTP; Xref=Rhea:RHEA:79863,
+CC         ChEBI:CHEBI:37565, ChEBI:CHEBI:46398, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:58223; Evidence={ECO:0000250|UniProtKB:P00568};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + TDP = GDP + TTP; Xref=Rhea:RHEA:79867,
+CC         ChEBI:CHEBI:37565, ChEBI:CHEBI:58189, ChEBI:CHEBI:61417,
+CC         ChEBI:CHEBI:63527; Evidence={ECO:0000250|UniProtKB:P00568};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dCDP + GTP = dCTP + GDP; Xref=Rhea:RHEA:79875,
+CC         ChEBI:CHEBI:37565, ChEBI:CHEBI:58189, ChEBI:CHEBI:58593,
+CC         ChEBI:CHEBI:61481; Evidence={ECO:0000250|UniProtKB:P00568};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + dGDP = ADP + dGTP; Xref=Rhea:RHEA:27690,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58595, ChEBI:CHEBI:61429,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.6;
+CC         Evidence={ECO:0000250|UniProtKB:P00568};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dADP + GTP = dATP + GDP; Xref=Rhea:RHEA:79871,
+CC         ChEBI:CHEBI:37565, ChEBI:CHEBI:57667, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:61404; Evidence={ECO:0000250|UniProtKB:P00568};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ADP + thiamine diphosphate = AMP + thiamine triphosphate;
+CC         Xref=Rhea:RHEA:69180, ChEBI:CHEBI:58937, ChEBI:CHEBI:58938,
+CC         ChEBI:CHEBI:456215, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000250|UniProtKB:P05081};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P05081};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:P00568, ECO:0000255|HAMAP-
+CC       Rule:MF_03171}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P00568,
+CC       ECO:0000255|HAMAP-Rule:MF_03171}.
+CC   -!- DOMAIN: Consists of three domains, a large central CORE domain and two
+CC       small peripheral domains, NMPbind and LID, which undergo movements
+CC       during catalysis. The LID domain closes over the site of phosphoryl
+CC       transfer upon ATP binding. Assembling and dissambling the active center
+CC       during each catalytic cycle provides an effective means to prevent ATP
+CC       hydrolysis. {ECO:0000250|UniProtKB:P00568, ECO:0000255|HAMAP-
+CC       Rule:MF_03171}.
+CC   -!- SIMILARITY: Belongs to the adenylate kinase family. AK1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_03171}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB022701; BAA97655.1; -; mRNA.
+DR   EMBL; BC089797; AAH89797.1; -; mRNA.
+DR   EMBL; D13376; BAA02643.1; -; mRNA.
+DR   PIR; PQ0534; PQ0534.
+DR   RefSeq; NP_077325.2; NM_024349.3.
+DR   AlphaFoldDB; P39069; -.
+DR   SMR; P39069; -.
+DR   BioGRID; 246373; 2.
+DR   IntAct; P39069; 5.
+DR   MINT; P39069; -.
+DR   STRING; 10116.ENSRNOP00000074303; -.
+DR   BindingDB; P39069; -.
+DR   ChEMBL; CHEMBL3773; -.
+DR   iPTMnet; P39069; -.
+DR   PhosphoSitePlus; P39069; -.
+DR   SwissPalm; P39069; -.
+DR   jPOST; P39069; -.
+DR   Ensembl; ENSRNOT00000091048.2; ENSRNOP00000074303.2; ENSRNOG00000049056.3.
+DR   Ensembl; ENSRNOT00055009948; ENSRNOP00055007695; ENSRNOG00055006133.
+DR   Ensembl; ENSRNOT00060057095; ENSRNOP00060047175; ENSRNOG00060032927.
+DR   Ensembl; ENSRNOT00065042076; ENSRNOP00065034398; ENSRNOG00065024512.
+DR   GeneID; 24183; -.
+DR   KEGG; rno:24183; -.
+DR   AGR; RGD:2076; -.
+DR   CTD; 203; -.
+DR   RGD; 2076; Ak1.
+DR   GeneTree; ENSGT00940000158325; -.
+DR   InParanoid; P39069; -.
+DR   OrthoDB; 1330004at2759; -.
+DR   PhylomeDB; P39069; -.
+DR   Reactome; R-RNO-499943; Interconversion of nucleotide di- and triphosphates.
+DR   PRO; PR:P39069; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0001520; C:outer dense fiber; ISO:RGD.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:RGD.
+DR   GO; GO:0030017; C:sarcomere; IDA:RGD.
+DR   GO; GO:0036126; C:sperm flagellum; ISO:RGD.
+DR   GO; GO:0004017; F:adenylate kinase activity; IDA:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004550; F:nucleoside diphosphate kinase activity; ISS:UniProtKB.
+DR   GO; GO:0046899; F:nucleoside triphosphate adenylate kinase activity; IEA:RHEA.
+DR   GO; GO:0046083; P:adenine metabolic process; NAS:RGD.
+DR   GO; GO:0006172; P:ADP biosynthetic process; IDA:RGD.
+DR   GO; GO:0046033; P:AMP metabolic process; IDA:RGD.
+DR   GO; GO:0046034; P:ATP metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0021549; P:cerebellum development; IEP:RGD.
+DR   GO; GO:0046103; P:inosine biosynthetic process; IDA:RGD.
+DR   GO; GO:0007517; P:muscle organ development; IEP:RGD.
+DR   GO; GO:0030182; P:neuron differentiation; IEP:RGD.
+DR   GO; GO:0046940; P:nucleoside monophosphate phosphorylation; ISO:RGD.
+DR   GO; GO:0009142; P:nucleoside triphosphate biosynthetic process; IEA:InterPro.
+DR   GO; GO:0021772; P:olfactory bulb development; IEP:RGD.
+DR   GO; GO:0010828; P:positive regulation of glucose transmembrane transport; IMP:RGD.
+DR   GO; GO:0014042; P:positive regulation of neuron maturation; IEP:RGD.
+DR   GO; GO:0014823; P:response to activity; IEP:RGD.
+DR   GO; GO:0032355; P:response to estradiol; IEP:RGD.
+DR   GO; GO:0033574; P:response to testosterone; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   CDD; cd01428; ADK; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00235; Adenylate_kinase_Adk; 1.
+DR   HAMAP; MF_03171; Adenylate_kinase_AK1; 1.
+DR   InterPro; IPR000850; Adenylat/UMP-CMP_kin.
+DR   InterPro; IPR033690; Adenylat_kinase_CS.
+DR   InterPro; IPR028582; AK1.
+DR   InterPro; IPR006267; AK1/5.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR01360; aden_kin_iso1; 1.
+DR   PANTHER; PTHR23359:SF59; ADENYLATE KINASE ISOENZYME 1; 1.
+DR   PANTHER; PTHR23359; NUCLEOTIDE KINASE; 1.
+DR   Pfam; PF00406; ADK; 1.
+DR   PRINTS; PR00094; ADENYLTKNASE.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00113; ADENYLATE_KINASE; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Cytoplasm; Direct protein sequencing; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Reference proteome; Transferase.
+FT   CHAIN           1..194
+FT                   /note="Adenylate kinase isoenzyme 1"
+FT                   /id="PRO_0000158914"
+FT   REGION          38..67
+FT                   /note="NMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   REGION          131..141
+FT                   /note="LID"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   BINDING         18..23
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   BINDING         39
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   BINDING         44
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   BINDING         65..67
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   BINDING         94..97
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   BINDING         101
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   BINDING         132
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   BINDING         138
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   BINDING         149
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   BINDING         177
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03171"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00568, ECO:0000255|HAMAP-
+FT                   Rule:MF_03171"
+FT   MOD_RES         38
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00568"
+FT   CONFLICT        81
+FT                   /note="L -> F (in Ref. 1; BAA97655)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        104
+FT                   /note="E -> S (in Ref. 4; BAA02643)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        175
+FT                   /note="A -> L (in Ref. 4; BAA02643)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        179
+FT                   /note="V -> W (in Ref. 4; BAA02643)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        187
+FT                   /note="C -> S (in Ref. 1; BAA97655 and 4; BAA02643)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   194 AA;  21584 MW;  4D53BCB3EF8B7629 CRC64;
+     MEDKLKKAKI IFVVGGPGSG KGTQCEKIVQ KYGYTHLSTG DLLRAEVSSG SSRGKMLSSI
+     MEKGELVPLE TVLDMLRDAM LAKVDSSNGF LIDGYPREVK QGEEFERKIA QPTLLLYVDA
+     GPETMTQRLL KRGETSGRVD DNEETIKKRL ETYYKATEPV ISFYDKRGIV RKVNAEGSVD
+     TVFSQVCTYL DSLK
+//

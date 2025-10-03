@@ -1,0 +1,83 @@
+ID   HPIP_RAT                Reviewed;         116 AA.
+AC   Q80V38;
+DT   10-JUN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 2.
+DT   24-JAN-2024, entry version 74.
+DE   RecName: Full=Host cell factor C1 regulator 1;
+DE   AltName: Full=HCF-1 beta-propeller-interacting protein;
+DE   AltName: Full=Inhibitor of four 2;
+GN   Name=Hcfc1r1; Synonyms=Hpip;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 6-116.
+RC   STRAIN=Sprague-Dawley; TISSUE=Sensory ganglion;
+RA   Ellison A.R., Yang L., Bodeker M., Matthews P., Pakpour N., Margolis T.P.;
+RT   "Functional cloning of neuronal genes that inhibit herpes simplex virus
+RT   type 1 IE3 promoter activity.";
+RL   Submitted (FEB-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Regulates HCFC1 activity by modulating its subcellular
+CC       localization. Overexpression of HCFC1R1 leads to accumulation of HCFC1
+CC       in the cytoplasm. HCFC1R1-mediated export may provide the pool of
+CC       cytoplasmic HCFC1 required for import of virion-derived VP16 into the
+CC       nucleus (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with HCFC1. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Nucleus {ECO:0000250}.
+CC       Note=Shuttles between the nucleus and cytoplasm in a CRM1-dependent
+CC       manner. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH473948; EDM03759.1; -; Genomic_DNA.
+DR   EMBL; AY245001; AAO92641.1; -; mRNA.
+DR   RefSeq; NP_001093962.1; NM_001100492.1.
+DR   RefSeq; NP_001171976.1; NM_001185047.1.
+DR   AlphaFoldDB; Q80V38; -.
+DR   STRING; 10116.ENSRNOP00000004702; -.
+DR   PhosphoSitePlus; Q80V38; -.
+DR   PaxDb; 10116-ENSRNOP00000004702; -.
+DR   GeneID; 287097; -.
+DR   KEGG; rno:287097; -.
+DR   UCSC; RGD:727975; rat.
+DR   AGR; RGD:727975; -.
+DR   CTD; 54985; -.
+DR   RGD; 727975; Hcfc1r1.
+DR   eggNOG; ENOG502SWHU; Eukaryota.
+DR   InParanoid; Q80V38; -.
+DR   OrthoDB; 5362880at2759; -.
+DR   PRO; PR:Q80V38; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   Proteomes; UP000234681; Chromosome 10.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR029195; HCFC1R1.
+DR   PANTHER; PTHR16246; HOST CELL FACTOR C1 REGULATOR 1; 1.
+DR   PANTHER; PTHR16246:SF2; HOST CELL FACTOR C1 REGULATOR 1; 1.
+DR   Pfam; PF15226; HPIP; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Nucleus; Reference proteome.
+FT   CHAIN           1..116
+FT                   /note="Host cell factor C1 regulator 1"
+FT                   /id="PRO_0000338980"
+FT   REGION          1..22
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          54..57
+FT                   /note="Interaction with HCFC1"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           88..97
+FT                   /note="Nuclear export signal"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   116 AA;  12991 MW;  D296B40E29C64692 CRC64;
+     MILQQPLERG PPGRDPRATT GVTLGLDTRE PLHKHFLSEE NMATHFSRLS LHNDHPYCSP
+     PVTFPEALPP LRSPCPELLL WRYPGSLIPE ALRLLRLGDN PSPYYSASPA GEIMEL
+//

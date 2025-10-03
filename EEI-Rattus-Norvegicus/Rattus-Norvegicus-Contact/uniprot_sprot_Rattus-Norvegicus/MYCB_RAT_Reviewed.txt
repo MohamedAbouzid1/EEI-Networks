@@ -1,0 +1,106 @@
+ID   MYCB_RAT                Reviewed;         168 AA.
+AC   P15063; Q3HVJ5;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 3.
+DT   24-JUL-2024, entry version 153.
+DE   RecName: Full=Protein B-Myc;
+GN   Name=Mycb; Synonyms=Bmyc;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, and Liver;
+RX   PubMed=2687773;
+RA   Asker C., Steinitz M., Andersson K., Suemegi J., Klein G., Ingvarsson S.;
+RT   "Nucleotide sequence of the rat Bmyc gene.";
+RL   Oncogene 4:1523-1527(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=ACI/SegHsd, Brown Norway/SsNHsd, COP/CrCrl, DA, and Fischer 344;
+RC   TISSUE=Spleen;
+RA   Hansen K.K., McIvor K.J., Streblow R.C., Shull J.D.;
+RT   "Evaluation of B-myc as a candidate for Ept6.";
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-120.
+RX   PubMed=2850482; DOI=10.1128/mcb.8.8.3168-3174.1988;
+RA   Ingvarsson S., Asker C., Axelson H., Klein G., Suemegi J.;
+RT   "Structure and expression of B-myc, a new member of the myc gene family.";
+RL   Mol. Cell. Biol. 8:3168-3174(1988).
+CC   -!- FUNCTION: Seems to act as an inhibitor of cellular proliferation.
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA35499.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X17455; CAA35499.1; ALT_FRAME; Genomic_DNA.
+DR   EMBL; DQ191783; ABA40415.1; -; mRNA.
+DR   EMBL; DQ191784; ABA40416.1; -; mRNA.
+DR   EMBL; DQ191785; ABA40417.1; -; mRNA.
+DR   EMBL; DQ191786; ABA40418.1; -; mRNA.
+DR   EMBL; DQ191782; ABA40414.1; -; mRNA.
+DR   EMBL; M21133; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   PIR; A45502; TVRTBM.
+DR   RefSeq; NP_001013181.2; NM_001013163.2.
+DR   AlphaFoldDB; P15063; -.
+DR   STRING; 10116.ENSRNOP00000059721; -.
+DR   PhosphoSitePlus; P15063; -.
+DR   PaxDb; 10116-ENSRNOP00000059721; -.
+DR   Ensembl; ENSRNOT00000064358.2; ENSRNOP00000059721.1; ENSRNOG00000042556.2.
+DR   Ensembl; ENSRNOT00055000950; ENSRNOP00055000763; ENSRNOG00055000549.
+DR   Ensembl; ENSRNOT00060057443; ENSRNOP00060047459; ENSRNOG00060033122.
+DR   Ensembl; ENSRNOT00065049026; ENSRNOP00065040210; ENSRNOG00065028460.
+DR   GeneID; 311807; -.
+DR   KEGG; rno:311807; -.
+DR   UCSC; RGD:1584970; rat.
+DR   AGR; RGD:1584970; -.
+DR   CTD; 107771; -.
+DR   RGD; 1584970; Bmyc.
+DR   eggNOG; KOG2483; Eukaryota.
+DR   GeneTree; ENSGT00940000155285; -.
+DR   HOGENOM; CLU_135109_0_0_1; -.
+DR   InParanoid; P15063; -.
+DR   OMA; PDCTCNT; -.
+DR   OrthoDB; 3039999at2759; -.
+DR   PhylomeDB; P15063; -.
+DR   PRO; PR:P15063; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000042556; Expressed in cerebellum and 20 other cell types or tissues.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005819; C:spindle; IEA:Ensembl.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; IEA:InterPro.
+DR   InterPro; IPR050433; Myc_transcription_factors.
+DR   InterPro; IPR002418; Tscrpt_reg_Myc.
+DR   InterPro; IPR012682; Tscrpt_reg_Myc_N.
+DR   PANTHER; PTHR45851; MYC PROTO-ONCOGENE; 1.
+DR   PANTHER; PTHR45851:SF1; MYC PROTO-ONCOGENE PROTEIN; 1.
+DR   Pfam; PF01056; Myc_N; 1.
+DR   PRINTS; PR00044; LEUZIPPRMYC.
+PE   2: Evidence at transcript level;
+KW   Nucleus; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..168
+FT                   /note="Protein B-Myc"
+FT                   /id="PRO_0000127340"
+FT   REGION          26..94
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          146..168
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         59
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6P8Z1"
+FT   MOD_RES         67
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6P8Z1"
+SQ   SEQUENCE   168 AA;  18317 MW;  B7BD2FA88D0D052C CRC64;
+     MPLHVSLANG NRDLDYDSVQ PYFMCDDEEE DVHQQPPQPP APSEDIWKKF ELLPTPRPSP
+     GHPGLYSPPC EAVAASFSPR DHDGDSFSTA DLPELPGDAV KQSFVCDPDD ETFVKNIILQ
+     DCMWNGFSAS AKLVSKLDPY QAVRKEGASV SPAADVEPAT PPDCTCNT
+//

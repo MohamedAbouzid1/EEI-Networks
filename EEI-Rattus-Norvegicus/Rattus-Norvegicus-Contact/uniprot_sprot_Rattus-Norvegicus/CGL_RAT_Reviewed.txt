@@ -1,0 +1,255 @@
+ID   CGL_RAT                 Reviewed;         398 AA.
+AC   P18757;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 2.
+DT   02-OCT-2024, entry version 162.
+DE   RecName: Full=Cystathionine gamma-lyase;
+DE            Short=CGL;
+DE            Short=CSE;
+DE            EC=4.4.1.1 {ECO:0000305|PubMed:13525371, ECO:0000305|PubMed:6456763};
+DE   AltName: Full=Cysteine desulfhydrase;
+DE   AltName: Full=Cysteine-protein sulfhydrase;
+DE   AltName: Full=Gamma-cystathionase;
+DE   AltName: Full=Homocysteine desulfhydrase;
+DE            EC=4.4.1.2 {ECO:0000250|UniProtKB:P32929};
+DE   AltName: Full=Probasin-related antigen;
+DE            Short=PRB-RA;
+GN   Name=Cth;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=8288556; DOI=10.1016/s0021-9258(17)42213-7;
+RA   Nishi N., Tanabe H., Oya H., Urushihara M., Miyanaka H., Wada F.;
+RT   "Identification of probasin-related antigen as cystathionine gamma-lyase by
+RT   molecular cloning.";
+RL   J. Biol. Chem. 269:1015-1019(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 35-398, AND PARTIAL PROTEIN SEQUENCE.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=2201285; DOI=10.1042/bj2690335;
+RA   Erickson P.F., Maxwell I.H., Su L.J., Baumann M., Glode L.M.;
+RT   "Sequence of cDNA for rat cystathionine gamma-lyase and comparison of
+RT   deduced amino acid sequence with related Escherichia coli enzymes.";
+RL   Biochem. J. 269:335-340(1990).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=13525371; DOI=10.1016/s0021-9258(18)70476-6;
+RA   Matsuo Y., Greenberg D.M.;
+RT   "A crystalline enzyme that cleaves homoserine and cystathionine. I.
+RT   Isolation procedure and some physicochemical properties.";
+RL   J. Biol. Chem. 230:545-560(1958).
+RN   [4]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=6456763; DOI=10.1021/bi00518a039;
+RA   Esaki N., Nakamura T., Tanaka H., Suzuki T., Morino Y., Soda K.;
+RT   "Enzymatic synthesis of selenocysteine in rat liver.";
+RL   Biochemistry 20:4492-4496(1981).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-50, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the last step in the trans-sulfuration pathway from
+CC       L-methionine to L-cysteine in a pyridoxal-5'-phosphate (PLP)-dependent
+CC       manner, which consists on cleaving the L,L-cystathionine molecule into
+CC       L-cysteine, ammonia and 2-oxobutanoate (Probable) (PubMed:13525371).
+CC       Part of the L-cysteine derived from the trans-sulfuration pathway is
+CC       utilized for biosynthesis of the ubiquitous antioxidant glutathione.
+CC       Besides its role in the conversion of L-cystathionine into L-cysteine,
+CC       it utilizes L-cysteine and L-homocysteine as substrates (at much lower
+CC       rates than L,L-cystathionine) to produce hydrogen sulfide (H2S). In
+CC       vitro, it converts two L-cysteine molecules into lanthionine and H2S,
+CC       and two L-homocysteine molecules to homolanthionine and H2S, which can
+CC       be particularly relevant under conditions of severe
+CC       hyperhomocysteinemia. Lanthionine and homolanthionine are structural
+CC       homologs of L,L-cystathionine that differ by the absence or presence of
+CC       an extra methylene group, respectively. Acts as a cysteine-protein
+CC       sulfhydrase by mediating sulfhydration of target proteins:
+CC       sulfhydration consists of converting -SH groups into -SSH on specific
+CC       cysteine residues of target proteins such as GAPDH, PTPN1 and NF-kappa-
+CC       B subunit RELA, thereby regulating their function. By generating the
+CC       gasotransmitter H2S, it participates in a number of physiological
+CC       processes such as vasodilation, bone protection, and inflammation (By
+CC       similarity). Plays an essential role in myogenesis by contributing to
+CC       the biogenesis of H2S in skeletal muscle tissue (By similarity). Can
+CC       also accept homoserine as substrate (PubMed:13525371). Catalyzes the
+CC       elimination of selenocystathionine (which can be derived from the diet)
+CC       to yield selenocysteine, ammonia and 2-oxobutanoate (Probable).
+CC       {ECO:0000250|UniProtKB:P32929, ECO:0000250|UniProtKB:Q8VCN5,
+CC       ECO:0000269|PubMed:13525371, ECO:0000305|PubMed:6456763}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L,L-cystathionine = 2-oxobutanoate + L-cysteine +
+CC         NH4(+); Xref=Rhea:RHEA:14005, ChEBI:CHEBI:15377, ChEBI:CHEBI:16763,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:35235, ChEBI:CHEBI:58161; EC=4.4.1.1;
+CC         Evidence={ECO:0000269|PubMed:13525371, ECO:0000305|PubMed:6456763};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:14006;
+CC         Evidence={ECO:0000269|PubMed:13525371, ECO:0000305|PubMed:6456763};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-homoserine = 2-oxobutanoate + NH4(+); Xref=Rhea:RHEA:24923,
+CC         ChEBI:CHEBI:16763, ChEBI:CHEBI:28938, ChEBI:CHEBI:57476; EC=4.4.1.1;
+CC         Evidence={ECO:0000269|PubMed:13525371};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:24924;
+CC         Evidence={ECO:0000269|PubMed:13525371};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-selenocystathionine = 2-oxobutanoate + L-
+CC         selenocysteine + NH4(+); Xref=Rhea:RHEA:31151, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:16763, ChEBI:CHEBI:28938, ChEBI:CHEBI:57843,
+CC         ChEBI:CHEBI:62226; Evidence={ECO:0000305|PubMed:6456763};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:31152;
+CC         Evidence={ECO:0000305|PubMed:6456763};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-cysteine = H(+) + hydrogen sulfide + NH4(+) +
+CC         pyruvate; Xref=Rhea:RHEA:24931, ChEBI:CHEBI:15361, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:28938, ChEBI:CHEBI:29919,
+CC         ChEBI:CHEBI:35235; EC=4.4.1.1;
+CC         Evidence={ECO:0000250|UniProtKB:P32929};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:24932;
+CC         Evidence={ECO:0000250|UniProtKB:P32929};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-homocysteine = 2-oxobutanoate + H(+) + hydrogen
+CC         sulfide + NH4(+); Xref=Rhea:RHEA:14501, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16763, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:29919, ChEBI:CHEBI:58199; EC=4.4.1.2;
+CC         Evidence={ECO:0000250|UniProtKB:P32929};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:14502;
+CC         Evidence={ECO:0000250|UniProtKB:P32929};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250|UniProtKB:P32929};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 8.0 with L-cystathionine.
+CC         {ECO:0000305|PubMed:13525371};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-cysteine biosynthesis; L-cysteine
+CC       from L-homocysteine and L-serine: step 2/2.
+CC       {ECO:0000305|PubMed:13525371}.
+CC   -!- SUBUNIT: Homotetramer (By similarity). Interacts with CALM in a
+CC       calcium-dependent manner (By similarity).
+CC       {ECO:0000250|UniProtKB:P32929, ECO:0000250|UniProtKB:Q8VCN5}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Belongs to the trans-sulfuration enzymes family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D17370; BAA04189.1; -; mRNA.
+DR   EMBL; X53460; CAA37547.1; -; mRNA.
+DR   PIR; A49864; A49864.
+DR   RefSeq; NP_058770.1; NM_017074.1.
+DR   AlphaFoldDB; P18757; -.
+DR   SMR; P18757; -.
+DR   STRING; 10116.ENSRNOP00000058914; -.
+DR   iPTMnet; P18757; -.
+DR   PhosphoSitePlus; P18757; -.
+DR   PaxDb; 10116-ENSRNOP00000058914; -.
+DR   GeneID; 24962; -.
+DR   KEGG; rno:24962; -.
+DR   AGR; RGD:2443; -.
+DR   CTD; 1491; -.
+DR   RGD; 2443; Cth.
+DR   eggNOG; KOG0053; Eukaryota.
+DR   InParanoid; P18757; -.
+DR   OrthoDB; 6018at2759; -.
+DR   PhylomeDB; P18757; -.
+DR   BioCyc; MetaCyc:MONOMER-8584; -.
+DR   Reactome; R-RNO-1614558; Degradation of cysteine and homocysteine.
+DR   Reactome; R-RNO-1614603; Cysteine formation from homocysteine.
+DR   UniPathway; UPA00136; UER00202.
+DR   PRO; PR:P18757; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0005516; F:calmodulin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004123; F:cystathionine gamma-lyase activity; ISS:UniProtKB.
+DR   GO; GO:0047982; F:homocysteine desulfhydrase activity; IEA:RHEA.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0080146; F:L-cysteine desulfhydrase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0044540; F:L-cystine L-cysteine-lyase (deaminating); ISS:UniProtKB.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; ISS:UniProtKB.
+DR   GO; GO:0098606; F:selenocystathionine gamma-lyase activity; IEA:RHEA.
+DR   GO; GO:1990830; P:cellular response to leukemia inhibitory factor; ISO:RGD.
+DR   GO; GO:0019344; P:cysteine biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0019343; P:cysteine biosynthetic process via cystathionine; ISO:RGD.
+DR   GO; GO:0006749; P:glutathione metabolic process; IMP:RGD.
+DR   GO; GO:0070814; P:hydrogen sulfide biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0006629; P:lipid metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISS:UniProtKB.
+DR   GO; GO:2001234; P:negative regulation of apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:0030308; P:negative regulation of cell growth; IMP:RGD.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; IMP:RGD.
+DR   GO; GO:1904831; P:positive regulation of aortic smooth muscle cell differentiation; ISO:RGD.
+DR   GO; GO:0043123; P:positive regulation of canonical NF-kappaB signal transduction; ISS:UniProtKB.
+DR   GO; GO:0051092; P:positive regulation of NF-kappaB transcription factor activity; ISS:UniProtKB.
+DR   GO; GO:0051289; P:protein homotetramerization; ISO:RGD.
+DR   GO; GO:0044524; P:protein sulfhydration; ISS:UniProtKB.
+DR   GO; GO:0018272; P:protein-pyridoxal-5-phosphate linkage via peptidyl-N6-pyridoxal phosphate-L-lysine; ISS:UniProtKB.
+DR   GO; GO:0019346; P:transsulfuration; ISO:RGD.
+DR   CDD; cd00614; CGS_like; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR000277; Cys/Met-Metab_PyrdxlP-dep_enz.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   PANTHER; PTHR11808:SF15; CYSTATHIONINE GAMMA-LYASE; 1.
+DR   PANTHER; PTHR11808; TRANS-SULFURATION ENZYME FAMILY MEMBER; 1.
+DR   Pfam; PF01053; Cys_Met_Meta_PP; 1.
+DR   PIRSF; PIRSF001434; CGS; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00868; CYS_MET_METAB_PP; 1.
+PE   1: Evidence at protein level;
+KW   Amino-acid biosynthesis; Calmodulin-binding; Cysteine biosynthesis;
+KW   Cytoplasm; Direct protein sequencing; Lipid metabolism; Lyase;
+KW   Phosphoprotein; Pyridoxal phosphate; Reference proteome.
+FT   CHAIN           1..398
+FT                   /note="Cystathionine gamma-lyase"
+FT                   /id="PRO_0000114752"
+FT   BINDING         61
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         113
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         118
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         338
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         50
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         211
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P32929"
+FT   CONFLICT        35..41
+FT                   /note="AVVLPIS -> CCGAAH (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        227
+FT                   /note="T -> N (in Ref. 2; CAA37547)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        260..271
+FT                   /note="TLQIRMEKHFRN -> HCRSGWRNTFQD (in Ref. 2; CAA37547)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        305..308
+FT                   /note="QCTG -> SARA (in Ref. 2; CAA37547)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   398 AA;  43605 MW;  C6043988B03D725F CRC64;
+     MQKDASSSGF LPSFQHFATQ AIHVGPEPEQ WSSRAVVLPI SLATTFKQDS PGQSSGFVYS
+     RSGNPTRNCL EKAVAALDGA KHCLTFARGL AATTTITHLL KAGDEVICMD EVYGGTNRYF
+     RRVASEFGLK ISFVDCSKTK LLEAAITPQT KLVWIETPTN PTLKLADIKA CAQIVHKHKD
+     IILVVDNTFM SAYFQRPLAL GADICMCSAT KYMNGHSDVV MGLVSVTSDD LNERLRFLQN
+     SLGAVPSPFD CYLCCRGLKT LQIRMEKHFR NGMAVARFLE SNPRVEKVIY PGLPSHPQHE
+     LAKRQCTGCP GMVSFYIKGT LQHAQVFLKN IKLFALAESL GGYESLAELP AIMTHASVPE
+     KDRATLGISD TLIRLSVGLE DEKDLLEDLG QALKAAHP
+//

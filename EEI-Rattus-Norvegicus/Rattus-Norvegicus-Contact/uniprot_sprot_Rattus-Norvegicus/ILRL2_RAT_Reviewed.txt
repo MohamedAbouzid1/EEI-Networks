@@ -1,0 +1,195 @@
+ID   ILRL2_RAT               Reviewed;         561 AA.
+AC   Q62929;
+DT   06-DEC-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   29-MAY-2024, entry version 141.
+DE   RecName: Full=Interleukin-1 receptor-like 2;
+DE            EC=3.2.2.6 {ECO:0000255|PROSITE-ProRule:PRU00204};
+DE   AltName: Full=IL-36 receptor;
+DE   AltName: Full=Interleukin-1 receptor-related protein 2;
+DE            Short=IL-1Rrp2;
+DE            Short=IL1R-rp2;
+DE   Flags: Precursor;
+GN   Name=Il1rl2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=8898719; DOI=10.1016/s0165-5728(96)00047-1;
+RA   Lovenberg T.W., Crowe P.D., Liu C., Chalmers D.T., Liu X.-J., Liaw C.,
+RA   Clevenger W., Oltersdorf T., De Souza E.B., Maki R.A.;
+RT   "Cloning of a cDNA encoding a novel interleukin-1 receptor related protein
+RT   (IL1R-rp2).";
+RL   J. Neuroimmunol. 70:113-122(1996).
+CC   -!- FUNCTION: Receptor for interleukin-36 (IL36A, IL36B and IL36G). After
+CC       binding to interleukin-36 associates with the coreceptor IL1RAP to form
+CC       the interleukin-36 receptor complex which mediates interleukin-36-
+CC       dependent activation of NF-kappa-B, MAPK and other pathways. The IL-36
+CC       signaling system is thought to be present in epithelial barriers and to
+CC       take part in local inflammatory response; it is similar to the IL-1
+CC       system. Seems to be involved in skin inflammatory response by induction
+CC       of the IL-23/IL-17/IL-22 pathway. Receptor for the interleukin IL36G.
+CC       Binding to the agonist leads to the activation of NF-kappa-B (By
+CC       similarity). {ECO:0000250|UniProtKB:Q9ERS7}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + NAD(+) = ADP-D-ribose + H(+) + nicotinamide;
+CC         Xref=Rhea:RHEA:16301, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17154, ChEBI:CHEBI:57540, ChEBI:CHEBI:57967; EC=3.2.2.6;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00204};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16302;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00204};
+CC   -!- SUBUNIT: Interacts with IL1RAP; the association is enhanced by IL36B
+CC       indicative for an functional signaling complex and inhibited by IL36RN
+CC       (By similarity). {ECO:0000250|UniProtKB:Q9ERS7}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   -!- TISSUE SPECIFICITY: Predominant expression in the lung and epididymis,
+CC       with lower expression in cerebral cortex and testis. Expression in the
+CC       brain is non-neuronal and associated with the cerebral vasculature. Not
+CC       detected in any cell line tested.
+CC   -!- DOMAIN: The TIR domain mediates NAD(+) hydrolase (NADase) activity.
+CC       Self-association of TIR domains is required for NADase activity.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00204}.
+CC   -!- SIMILARITY: Belongs to the interleukin-1 receptor family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U49066; AAB53238.1; -; mRNA.
+DR   RefSeq; NP_598259.1; NM_133575.1.
+DR   AlphaFoldDB; Q62929; -.
+DR   SMR; Q62929; -.
+DR   STRING; 10116.ENSRNOP00000019880; -.
+DR   GlyCosmos; Q62929; 11 sites, No reported glycans.
+DR   GlyGen; Q62929; 11 sites.
+DR   PhosphoSitePlus; Q62929; -.
+DR   PaxDb; 10116-ENSRNOP00000019880; -.
+DR   GeneID; 171106; -.
+DR   KEGG; rno:171106; -.
+DR   UCSC; RGD:621782; rat.
+DR   AGR; RGD:621782; -.
+DR   CTD; 8808; -.
+DR   RGD; 621782; Il1rl2.
+DR   eggNOG; ENOG502QWEU; Eukaryota.
+DR   InParanoid; Q62929; -.
+DR   OrthoDB; 4322253at2759; -.
+DR   PhylomeDB; Q62929; -.
+DR   Reactome; R-RNO-9007892; Interleukin-38 signaling.
+DR   Reactome; R-RNO-9014826; Interleukin-36 pathway.
+DR   PRO; PR:Q62929; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004908; F:interleukin-1 receptor activity; IEA:InterPro.
+DR   GO; GO:0003953; F:NAD+ nucleosidase activity; IEA:RHEA.
+DR   GO; GO:0061809; F:NAD+ nucleotidase, cyclic ADP-ribose generating; IEA:UniProtKB-EC.
+DR   GO; GO:0032755; P:positive regulation of interleukin-6 production; ISO:RGD.
+DR   GO; GO:0045582; P:positive regulation of T cell differentiation; ISO:RGD.
+DR   GO; GO:0050727; P:regulation of inflammatory response; ISO:RGD.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 3.
+DR   Gene3D; 3.40.50.10140; Toll/interleukin-1 receptor homology (TIR) domain; 1.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR015621; IL-1_rcpt_fam.
+DR   InterPro; IPR004074; IL-1_rcpt_I/II-typ.
+DR   InterPro; IPR000157; TIR_dom.
+DR   InterPro; IPR035897; Toll_tir_struct_dom_sf.
+DR   PANTHER; PTHR11890; INTERLEUKIN-1 RECEPTOR FAMILY MEMBER; 1.
+DR   PANTHER; PTHR11890:SF9; INTERLEUKIN-1 RECEPTOR-LIKE 2; 1.
+DR   Pfam; PF13895; Ig_2; 1.
+DR   Pfam; PF01582; TIR; 1.
+DR   PRINTS; PR01536; INTRLKN1R12F.
+DR   PRINTS; PR01537; INTRLKN1R1F.
+DR   SMART; SM00409; IG; 3.
+DR   SMART; SM00408; IGc2; 2.
+DR   SMART; SM00255; TIR; 1.
+DR   SUPFAM; SSF48726; Immunoglobulin; 3.
+DR   SUPFAM; SSF52200; Toll/Interleukin receptor TIR domain; 1.
+DR   PROSITE; PS50835; IG_LIKE; 2.
+DR   PROSITE; PS50104; TIR; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Hydrolase; Immunoglobulin domain; Membrane;
+KW   NAD; Receptor; Reference proteome; Repeat; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..561
+FT                   /note="Interleukin-1 receptor-like 2"
+FT                   /id="PRO_0000015447"
+FT   TOPO_DOM        22..338
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        339..358
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        359..561
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          22..113
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          128..215
+FT                   /note="Ig-like C2-type 2"
+FT   DOMAIN          225..321
+FT                   /note="Ig-like C2-type 3"
+FT   DOMAIN          384..539
+FT                   /note="TIR"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00204"
+FT   ACT_SITE        470
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00204"
+FT   CARBOHYD        23
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        43
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        55
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        111
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        130
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        231
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        237
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        253
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        269
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        290
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        302
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        44..97
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        149..199
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        252..319
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+SQ   SEQUENCE   561 AA;  64142 MW;  4021C297917F0199 CRC64;
+     MGMPPLLFCW VSFVLPLFVA AGNCTDVYMH HEMISEGQPF PFNCTYPPVT NGAVNLTWHR
+     TPSKSPISIN RHVRIHQDQS WILFLPLALE DSGIYQCVIK DAHSCYRIAI NLTVFRKHWC
+     DSSNEESSIN SSDEYQQWLP IGKSGSLTCH LYFPESCVLD SIKWYKGCEE IKVSKKFCPT
+     GTKLLVNNID VEDSGSYACS ARLTHLGRIF TVRNYIAVNT KEVGSGGRIP NITYPKNNSI
+     EVQLGSTLIV DCNITDTKEN TNLRCWRVNN TLVDDYYNDF KRIQEGIETN LSLRNHILYT
+     VNITFLEVKM EDYGHPFTCH AAVSAAYIIL KRPAPDFRAY LIGGLMAFLL LAVSILYIYN
+     TFKVDIVLWY RSTFHTAQAP DDEKLYDAYV LYPKYPRESQ GHDVDTLVLK ILPEVLEKQC
+     GYKLFIFGRD EFPGQAVASV IDENIKLCRR LMVLVAPETS SFSFLKNLTE EQIAVYNALV
+     QDGMKVILIE LERVKDYSTM PESIQYIRQK HGAIQWDGDF TEQAQCAKTK FWKKVRYHMP
+     PRRYPASPPV QLLGHTPRIP G
+//

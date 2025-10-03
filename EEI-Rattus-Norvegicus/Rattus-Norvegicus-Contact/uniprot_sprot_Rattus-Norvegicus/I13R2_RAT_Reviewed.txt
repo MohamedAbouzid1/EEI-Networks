@@ -1,0 +1,145 @@
+ID   I13R2_RAT               Reviewed;         385 AA.
+AC   Q8VHK6;
+DT   07-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   02-OCT-2024, entry version 118.
+DE   RecName: Full=Interleukin-13 receptor subunit alpha-2;
+DE            Short=IL-13 receptor subunit alpha-2;
+DE            Short=IL-13R subunit alpha-2;
+DE            Short=IL-13R-alpha-2;
+DE            Short=IL-13RA2;
+DE   AltName: CD_antigen=CD213a2;
+DE   Flags: Precursor;
+GN   Name=Il13ra2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=12241113; DOI=10.1023/a:1019690120307;
+RA   Wu A.H., Low W.C.;
+RT   "Molecular cloning of the rat IL-13 alpha 2 receptor cDNA and its
+RT   expression in rat tissues.";
+RL   J. Neurooncol. 59:99-105(2002).
+CC   -!- FUNCTION: Cell surface receptor that plays a role in the regulation of
+CC       IL-13-mediated responses. Functions as a decoy receptor that inhibits
+CC       IL-13- and IL-4-mediated signal transduction via the JAK-STAT pathway
+CC       and thereby modulates immune responses and inflammation. Serves as a
+CC       functional signaling receptor for IL-13 in an alternative pathway
+CC       involving AP-1 ultimately leading to the production of TGFB1.
+CC       {ECO:0000250|UniProtKB:Q14627}.
+CC   -!- SUBUNIT: Interacts with IL4RA. Interacts with high affinity to
+CC       interleukin-13 (IL13), but not to interleukin-4 (IL4).
+CC       {ECO:0000250|UniProtKB:Q14627}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q14627};
+CC       Single-pass type I membrane protein {ECO:0000250|UniProtKB:Q14627}.
+CC   -!- DOMAIN: The WSXWS motif appears to be necessary for proper protein
+CC       folding and thereby efficient intracellular transport and cell-surface
+CC       receptor binding. The cytoplasmic domain functions as an inhibitor of
+CC       IL-4 or IL-13-dependent activation of the Jak-Stat pathway.
+CC       {ECO:0000250|UniProtKB:Q14627}.
+CC   -!- PTM: Cleaved by MMP8 leading to a soluble form that is also able to
+CC       interact with IL13. {ECO:0000250|UniProtKB:Q14627}.
+CC   -!- SIMILARITY: Belongs to the type I cytokine receptor family. Type 5
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF448818; AAL57513.1; -; mRNA.
+DR   AlphaFoldDB; Q8VHK6; -.
+DR   SMR; Q8VHK6; -.
+DR   STRING; 10116.ENSRNOP00000069280; -.
+DR   GlyCosmos; Q8VHK6; 4 sites, No reported glycans.
+DR   GlyGen; Q8VHK6; 4 sites.
+DR   PaxDb; 10116-ENSRNOP00000041564; -.
+DR   Ensembl; ENSRNOT00065015767; ENSRNOP00065011932; ENSRNOG00065009803.
+DR   AGR; RGD:620838; -.
+DR   RGD; 620838; Il13ra2.
+DR   eggNOG; ENOG502RV4W; Eukaryota.
+DR   InParanoid; Q8VHK6; -.
+DR   PhylomeDB; Q8VHK6; -.
+DR   Reactome; R-RNO-6785807; Interleukin-4 and Interleukin-13 signaling.
+DR   PRO; PR:Q8VHK6; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0043235; C:receptor complex; IBA:GO_Central.
+DR   GO; GO:0019955; F:cytokine binding; IBA:GO_Central.
+DR   GO; GO:0004896; F:cytokine receptor activity; IBA:GO_Central.
+DR   GO; GO:0071260; P:cellular response to mechanical stimulus; IEP:RGD.
+DR   GO; GO:0019221; P:cytokine-mediated signaling pathway; IBA:GO_Central.
+DR   GO; GO:0016064; P:immunoglobulin mediated immune response; ISO:RGD.
+DR   GO; GO:0002638; P:negative regulation of immunoglobulin production; ISO:RGD.
+DR   GO; GO:0043305; P:negative regulation of mast cell degranulation; ISO:RGD.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 3.
+DR   InterPro; IPR003961; FN3_dom.
+DR   InterPro; IPR036116; FN3_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003532; Short_hematopoietin_rcpt_2_CS.
+DR   InterPro; IPR015321; TypeI_recpt_CBD.
+DR   PANTHER; PTHR23037; CYTOKINE RECEPTOR; 1.
+DR   PANTHER; PTHR23037:SF28; ERYTHROPOIETIN RECEPTOR; 1.
+DR   Pfam; PF09240; IL6Ra-bind; 1.
+DR   SUPFAM; SSF49265; Fibronectin type III; 3.
+DR   PROSITE; PS50853; FN3; 2.
+DR   PROSITE; PS01356; HEMATOPO_REC_S_F2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Disulfide bond; Glycoprotein; Membrane; Receptor;
+KW   Reference proteome; Repeat; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..385
+FT                   /note="Interleukin-13 receptor subunit alpha-2"
+FT                   /id="PRO_0000378453"
+FT   TOPO_DOM        24..336
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        337..357
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        358..385
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          30..130
+FT                   /note="Fibronectin type-III 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          133..221
+FT                   /note="Fibronectin type-III 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          236..334
+FT                   /note="Fibronectin type-III 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   MOTIF           318..322
+FT                   /note="WSXWS motif"
+FT   CARBOHYD        111
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        164
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        211
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        295
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        61..109
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        141..151
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        180..193
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        265..312
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   385 AA;  44622 MW;  EE06FF0E434737E2 CRC64;
+     MALMAVNTRC LCLFLLCTIT GHSLEIKVNP PQDFEILDPG LLGYLYLQWK PPVVMDNFKE
+     CKLEYELKYR NVDSDSWKTI ITRNLIYKDG FDLNKGIEGK IRTHLSEHCT NGSEVQSPWT
+     EASYGIADEG SLGTKIQDMK CIYYNWQYLV CSWKPGKTVH SDTNYTMFFW YEGLDHALQC
+     ADYLQDNEKN VGCKLSNLDS SDYKDFFIRV NGSSKLEPIR SSYMVFQLQN IVKPLPPEFL
+     HISVENSIDI RMKWSTPGGP IPPSCYTYEI VVREDDISWE SATDKNDMKL KRRANESEDL
+     CFFVRCKINI YCADDGIWSE WSEEECWEGY TGPDSKIVFI VPVCLFFIFL LLLLCLIVEK
+     EDPEPTLSLH VDLNKEMYAY EETLC
+//

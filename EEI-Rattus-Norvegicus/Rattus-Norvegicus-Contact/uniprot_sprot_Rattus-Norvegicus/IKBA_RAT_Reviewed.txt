@@ -1,0 +1,283 @@
+ID   IKBA_RAT                Reviewed;         314 AA.
+AC   Q63746; B2RYS5;
+DT   20-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JUL-2024, entry version 180.
+DE   RecName: Full=NF-kappa-B inhibitor alpha;
+DE   AltName: Full=I-kappa-B-alpha;
+DE            Short=IkB-alpha;
+DE            Short=IkappaBalpha;
+DE   AltName: Full=RL/IF-1;
+GN   Name=Nfkbia; Synonyms=Ikba;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=1741294; DOI=10.1093/nar/20.3.607;
+RA   Tewari M., Mohn K.L., Yue F.E., Taub R.A.;
+RT   "Sequence of rat RL/IF-1 encoding an IkappaB, and comparison with related
+RT   proteins containing Notch-like repeats.";
+RL   Nucleic Acids Res. 20:607-607(1992).
+RN   [2]
+RP   ERRATUM OF PUBMED:1741294.
+RA   Tewari M., Mohn K.L., Yue F.E., Taub R.A.;
+RL   Nucleic Acids Res. 20:2624-2624(1992).
+RN   [3]
+RP   ERRATUM OF PUBMED:1741294.
+RA   Tewari M., Mohn K.L., Yue F.E., Taub R.A.;
+RL   Nucleic Acids Res. 20:2931-2931(1992).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   INDUCTION.
+RX   PubMed=1588976; DOI=10.1128/mcb.12.6.2898-2908.1992;
+RA   Tewari M., Dobrzanski P., Mohn K.L., Cressman D.E., Hsu J.C., Bravo R.,
+RA   Taub R.;
+RT   "Rapid induction in regenerating liver of RL/IF-1 (an I kappa B that
+RT   inhibits NF-kappa B, RelB-p50, and c-Rel-p50) and PHF, a novel kappa B
+RT   site-binding complex.";
+RL   Mol. Cell. Biol. 12:2898-2908(1992).
+CC   -!- FUNCTION: Inhibits the activity of dimeric NF-kappa-B/REL complexes by
+CC       trapping REL (RELA/p65 and NFKB1/p50) dimers in the cytoplasm by
+CC       masking their nuclear localization signals. On cellular stimulation by
+CC       immune and pro-inflammatory responses, becomes phosphorylated promoting
+CC       ubiquitination and degradation, enabling the dimeric RELA to
+CC       translocate to the nucleus and activate transcription.
+CC       {ECO:0000250|UniProtKB:P25963}.
+CC   -!- SUBUNIT: Interacts with RELA; the interaction requires the nuclear
+CC       import signal. Part of a 70-90 kDa complex at least consisting of CHUK,
+CC       IKBKB, NFKBIA, RELA, ELP1 and MAP3K14. Interacts with NKIRAS1 and
+CC       NKIRAS2. Interacts with RWDD3; the interaction enhances sumoylation.
+CC       Interacts with PRMT2. Interacts with PRKACA in platelets; this
+CC       interaction is disrupted by thrombin and collagen. Interacts with MEFV.
+CC       Interacts with DDRGK1; positively regulates NFKBIA phosphorylation and
+CC       degradation. {ECO:0000250|UniProtKB:P25963}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P25963}. Nucleus
+CC       {ECO:0000250|UniProtKB:P25963}. Note=Shuttles between the nucleus and
+CC       the cytoplasm by a nuclear localization signal (NLS) and a CRM1-
+CC       dependent nuclear export. {ECO:0000250|UniProtKB:P25963}.
+CC   -!- INDUCTION: During liver regeneration. {ECO:0000269|PubMed:1588976}.
+CC   -!- PTM: Phosphorylated at Ser-32 and Ser-36 by IKKA/CHUK and IKKB/IKBKB;
+CC       disables inhibition of NF-kappa-B DNA-binding activity. Phosphorylation
+CC       at positions 32 and 36 is prerequisite to recognition by the
+CC       SCF(FBXW11) and SCF(BTRC) complexes, leading to polyubiquitination and
+CC       subsequent degradation. {ECO:0000250|UniProtKB:P25963}.
+CC   -!- PTM: Polyubiquitinated at Lys-21 and/or Lys-22 following
+CC       phosphorylation at Ser-32 and Ser-36. Monoubiquitinated at Lys-21
+CC       and/or Lys-22 by UBE2D3. Ubiquitin chain elongation is then performed
+CC       by CDC34 in cooperation with the SCF(FBXW11) E3 ligase complex,
+CC       building ubiquitin chains from the UBE2D3-primed NFKBIA-linked
+CC       ubiquitin. The resulting polyubiquitination leads to protein
+CC       degradation. Also ubiquitinated by the SCF(BTRC) complex following
+CC       stimulus-dependent phosphorylation at Ser-32 and Ser-36.
+CC       Deubiquitinated by USP38, leading to NF-kappa-B inhibition (By
+CC       similarity). {ECO:0000250|UniProtKB:P25963}.
+CC   -!- PTM: Sumoylated; sumoylation requires the presence of the nuclear
+CC       import signal. Sumoylation blocks ubiquitination and proteasome-
+CC       mediated degradation of the protein thereby increasing the protein
+CC       stability. {ECO:0000250|UniProtKB:P25963}.
+CC   -!- PTM: Hydroxylated by HIF1AN. {ECO:0000250|UniProtKB:P25963}.
+CC   -!- SIMILARITY: Belongs to the NF-kappa-B inhibitor family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X63594; CAA45138.1; -; mRNA.
+DR   EMBL; CH473947; EDM03428.1; -; Genomic_DNA.
+DR   EMBL; BC166886; AAI66886.1; -; mRNA.
+DR   PIR; A44437; A44437.
+DR   RefSeq; NP_001099190.2; NM_001105720.2.
+DR   AlphaFoldDB; Q63746; -.
+DR   SMR; Q63746; -.
+DR   BioGRID; 247526; 3.
+DR   DIP; DIP-59941N; -.
+DR   IntAct; Q63746; 1.
+DR   STRING; 10116.ENSRNOP00000009894; -.
+DR   GlyGen; Q63746; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; Q63746; -.
+DR   PhosphoSitePlus; Q63746; -.
+DR   PaxDb; 10116-ENSRNOP00000009894; -.
+DR   Ensembl; ENSRNOT00000009894.7; ENSRNOP00000009894.5; ENSRNOG00000007390.7.
+DR   Ensembl; ENSRNOT00055023251; ENSRNOP00055018878; ENSRNOG00055013559.
+DR   Ensembl; ENSRNOT00060032368; ENSRNOP00060026378; ENSRNOG00060018781.
+DR   Ensembl; ENSRNOT00065007544; ENSRNOP00065005221; ENSRNOG00065005143.
+DR   GeneID; 25493; -.
+DR   KEGG; rno:25493; -.
+DR   UCSC; RGD:3171; rat.
+DR   AGR; RGD:3171; -.
+DR   CTD; 4792; -.
+DR   RGD; 3171; Nfkbia.
+DR   eggNOG; KOG0504; Eukaryota.
+DR   GeneTree; ENSGT00940000163080; -.
+DR   HOGENOM; CLU_000134_6_3_1; -.
+DR   InParanoid; Q63746; -.
+DR   OrthoDB; 621606at2759; -.
+DR   PhylomeDB; Q63746; -.
+DR   TreeFam; TF320166; -.
+DR   Reactome; R-RNO-1169091; Activation of NF-kappaB in B cells.
+DR   Reactome; R-RNO-1810476; RIP-mediated NFkB activation via ZBP1.
+DR   Reactome; R-RNO-209560; NF-kB is activated and signals survival.
+DR   Reactome; R-RNO-445989; TAK1-dependent IKK and NF-kappa-B activation.
+DR   Reactome; R-RNO-4755510; SUMOylation of immune response proteins.
+DR   Reactome; R-RNO-5689880; Ub-specific processing proteases.
+DR   Reactome; R-RNO-9020702; Interleukin-1 signaling.
+DR   Reactome; R-RNO-933542; TRAF6 mediated NF-kB activation.
+DR   PRO; PR:Q63746; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Proteomes; UP000234681; Chromosome 6.
+DR   Bgee; ENSRNOG00000007390; Expressed in lung and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; IDA:MGI.
+DR   GO; GO:0033256; C:I-kappaB/NF-kappaB complex; IC:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0019899; F:enzyme binding; ISO:RGD.
+DR   GO; GO:0031072; F:heat shock protein binding; IPI:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0140313; F:molecular sequestering activity; ISO:RGD.
+DR   GO; GO:0051059; F:NF-kappaB binding; IPI:RGD.
+DR   GO; GO:0008139; F:nuclear localization sequence binding; ISO:RGD.
+DR   GO; GO:0140311; F:protein sequestering activity; ISS:UniProtKB.
+DR   GO; GO:0044877; F:protein-containing complex binding; IPI:RGD.
+DR   GO; GO:0140416; F:transcription regulator inhibitor activity; ISO:RGD.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0050853; P:B cell receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0007249; P:canonical NF-kappaB signal transduction; ISO:RGD.
+DR   GO; GO:0071345; P:cellular response to cytokine stimulus; IDA:MGI.
+DR   GO; GO:0071407; P:cellular response to organic cyclic compound; IDA:MGI.
+DR   GO; GO:0071356; P:cellular response to tumor necrosis factor; ISO:RGD.
+DR   GO; GO:0070498; P:interleukin-1-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0002523; P:leukocyte migration involved in inflammatory response; IEP:RGD.
+DR   GO; GO:0031663; P:lipopolysaccharide-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0097421; P:liver regeneration; IEP:RGD.
+DR   GO; GO:0043124; P:negative regulation of canonical NF-kappaB signal transduction; ISO:RGD.
+DR   GO; GO:0010888; P:negative regulation of lipid storage; ISO:RGD.
+DR   GO; GO:0010745; P:negative regulation of macrophage derived foam cell differentiation; ISO:RGD.
+DR   GO; GO:0045638; P:negative regulation of myeloid cell differentiation; ISO:RGD.
+DR   GO; GO:0045746; P:negative regulation of Notch signaling pathway; ISO:RGD.
+DR   GO; GO:0038061; P:non-canonical NF-kappaB signal transduction; ISO:RGD.
+DR   GO; GO:0007219; P:Notch signaling pathway; ISO:RGD.
+DR   GO; GO:0070427; P:nucleotide-binding oligomerization domain containing 1 signaling pathway; ISO:RGD.
+DR   GO; GO:0070431; P:nucleotide-binding oligomerization domain containing 2 signaling pathway; ISO:RGD.
+DR   GO; GO:0010875; P:positive regulation of cholesterol efflux; ISO:RGD.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0050729; P:positive regulation of inflammatory response; ISO:RGD.
+DR   GO; GO:0051247; P:positive regulation of protein metabolic process; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0060261; P:positive regulation of transcription initiation by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0006606; P:protein import into nucleus; ISO:RGD.
+DR   GO; GO:0042127; P:regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0010468; P:regulation of gene expression; ISO:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IEP:RGD.
+DR   GO; GO:0043330; P:response to exogenous dsRNA; ISO:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; ISO:RGD.
+DR   GO; GO:0032495; P:response to muramyl dipeptide; ISO:RGD.
+DR   GO; GO:0035994; P:response to muscle stretch; ISO:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:0034142; P:toll-like receptor 4 signaling pathway; ISO:RGD.
+DR   GO; GO:0033209; P:tumor necrosis factor-mediated signaling pathway; ISO:RGD.
+DR   Gene3D; 1.25.40.20; Ankyrin repeat-containing domain; 1.
+DR   InterPro; IPR002110; Ankyrin_rpt.
+DR   InterPro; IPR036770; Ankyrin_rpt-contain_sf.
+DR   InterPro; IPR051070; NF-kappa-B_inhibitor.
+DR   PANTHER; PTHR46680; NF-KAPPA-B INHIBITOR ALPHA; 1.
+DR   PANTHER; PTHR46680:SF1; NF-KAPPA-B INHIBITOR ALPHA; 1.
+DR   Pfam; PF12796; Ank_2; 1.
+DR   Pfam; PF13857; Ank_5; 1.
+DR   PRINTS; PR01415; ANKYRIN.
+DR   SMART; SM00248; ANK; 5.
+DR   SUPFAM; SSF48403; Ankyrin repeat; 1.
+DR   PROSITE; PS50297; ANK_REP_REGION; 1.
+DR   PROSITE; PS50088; ANK_REPEAT; 3.
+PE   2: Evidence at transcript level;
+KW   ANK repeat; Cytoplasm; Hydroxylation; Isopeptide bond; Nucleus;
+KW   Phosphoprotein; Reference proteome; Repeat; Ubl conjugation.
+FT   CHAIN           1..314
+FT                   /note="NF-kappa-B inhibitor alpha"
+FT                   /id="PRO_0000067002"
+FT   REPEAT          110..139
+FT                   /note="ANK 1"
+FT   REPEAT          143..172
+FT                   /note="ANK 2"
+FT   REPEAT          182..211
+FT                   /note="ANK 3"
+FT   REPEAT          216..245
+FT                   /note="ANK 4"
+FT   REGION          1..39
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           30..36
+FT                   /note="Destruction motif"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   MOTIF           45..54
+FT                   /note="Nuclear export signal"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   MOTIF           110..120
+FT                   /note="Nuclear import signal"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   COMPBIAS        14..39
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         32
+FT                   /note="Phosphoserine; by IKKA and IKKB"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   MOD_RES         36
+FT                   /note="Phosphoserine; by IKKA, IKKB, IKKE and TBK1"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   MOD_RES         42
+FT                   /note="Phosphotyrosine; by Tyr-kinases"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   MOD_RES         210
+FT                   /note="(3S)-3-hydroxyasparagine; by HIF1AN"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   MOD_RES         244
+FT                   /note="(3S)-3-hydroxyasparagine; by HIF1AN"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   MOD_RES         283
+FT                   /note="Phosphoserine; by CK2"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   MOD_RES         288
+FT                   /note="Phosphoserine; by CK2"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   MOD_RES         291
+FT                   /note="Phosphothreonine; by CK2"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   MOD_RES         293
+FT                   /note="Phosphoserine; by CK2"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   MOD_RES         296
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963"
+FT   CROSSLNK        21
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1E3"
+FT   CROSSLNK        21
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1E3"
+FT   CROSSLNK        22
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:P25963, ECO:0000255"
+SQ   SEQUENCE   314 AA;  35017 MW;  CC4C9D0F6CDDA950 CRC64;
+     MFQPAGHGQD WAMEGPRDGL KKERLVDDRH DSGLDSMKDE DYEQMVKELR EIRLQPQEAP
+     LAAEPWKQQL TEDGDSFLHL AIIHEEKTLT MEVIGQVKGD LAFLNFQNNL QQTPLHLAVI
+     TNQPGIAEAL LKAGCDPELR DFRGNTPLHL ACEQGCLASV AVLTQTCTPQ HLHSVLQATN
+     YNGHTCLHLA SIHGYLGIVE HLVTLGADVN AQEPCNGRTA LHLAVDLQNP DLVSLLLKCG
+     ADVNRVTYQG YSPYQLTWGR PSTRIQQQLG QLTLENLQTL PESEDEESYD TESEFTEDEL
+     PYDDCVFGGQ RLTL
+//

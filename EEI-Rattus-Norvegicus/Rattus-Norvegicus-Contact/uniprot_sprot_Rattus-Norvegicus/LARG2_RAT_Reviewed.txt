@@ -1,0 +1,214 @@
+ID   LARG2_RAT               Reviewed;         690 AA.
+AC   Q6P7A1;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   24-JUL-2024, entry version 109.
+DE   RecName: Full=Xylosyl- and glucuronyltransferase LARGE2 {ECO:0000305};
+DE            EC=2.4.-.- {ECO:0000250|UniProtKB:Q5XPT3};
+DE   AltName: Full=Glycosyltransferase-like 1B;
+DE   AltName: Full=LARGE xylosyl- and glucuronyltransferase 2 {ECO:0000312|RGD:735214};
+DE   Includes:
+DE     RecName: Full=Alpha-1,3-xylosyltransferase LARGE2 {ECO:0000305};
+DE              EC=2.4.2.- {ECO:0000250|UniProtKB:Q5XPT3};
+DE   Includes:
+DE     RecName: Full=Beta-1,3-glucuronyltransferase LARGE2 {ECO:0000305};
+DE              EC=2.4.1.- {ECO:0000250|UniProtKB:Q5XPT3};
+GN   Name=Large2 {ECO:0000312|RGD:735214}; Synonyms=Gyltl1b;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Bifunctional glycosyltransferase with both alpha-1,3-
+CC       xylosyltransferase and beta-1,3-glucuronyltransferase activities
+CC       involved in the maturation of alpha-dystroglycan (DAG1) by
+CC       glycosylation leading to DAG1 binding to laminin G-like domain-
+CC       containing extracellular proteins with high affinity and in a
+CC       phosphorylated-O-mannosyl trisaccharide dependent manner. Elongates the
+CC       glucuronyl-beta-1,4-xylose-beta disaccharide primer structure by adding
+CC       repeating units [-3-Xylose-alpha-1,3-GlcA-beta-1-] to produce a
+CC       heteropolysaccharide (By similarity). Supports the maturation of DAG1
+CC       more effectively than LARGE1 (By similarity). In addition, can modify
+CC       both heparan sulfate (HS)- and chondroitin/dermatan sulfate (CS/DS)-
+CC       proteoglycans (PGs), namely GPC4, with a glycosaminoglycan (GAG)-like
+CC       polysaccharide composed of xylose and glucuronic acid to confer laminin
+CC       binding (By similarity). {ECO:0000250|UniProtKB:Q5XPT3,
+CC       ECO:0000250|UniProtKB:Q8N3Y3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-O-[beta-D-GlcA-(1->3)-beta-D-Xyl-(1->4)-Rib-ol-P-Rib-ol-P-3-
+CC         beta-D-GalNAc-(1->3)-beta-D-GlcNAc-(1->4)-(O-6-P-alpha-D-Man)]-Thr-
+CC         [protein] + UDP-alpha-D-xylose = 3-O-[alpha-D-Xyl-(1->3)-beta-D-GlcA-
+CC         (1->4)-beta-D-Xyl-(1->4)-Rib-ol-P-Rib-ol-P-3-beta-D-GalNAc-(1->3)-
+CC         beta-D-GlcNAc-(1->4)-(O-6-P-alpha-D-Man)]-Thr-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:57336, Rhea:RHEA-COMP:17482, Rhea:RHEA-COMP:17483,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57632, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:177336, ChEBI:CHEBI:177352;
+CC         Evidence={ECO:0000250|UniProtKB:Q5XPT3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:57337;
+CC         Evidence={ECO:0000250|UniProtKB:Q5XPT3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-O-{(1->[3)-alpha-D-Xyl-(1->3)-beta-D-GlcA-(1->](n)-4)-beta-
+CC         D-Xyl-(1->4)-Rib-ol-P-Rib-ol-P-3-beta-D-GalNAc-(1->3)-beta-D-GlcNAc-
+CC         (1->4)-O-6-P-alpha-D-Man}-L-Thr-[protein] + UDP-alpha-D-glucuronate =
+CC         3-O-{beta-D-GlcA-(1->[3)-alpha-D-Xyl-(1->3)-beta-D-GlcA-(1->](n)-4)-
+CC         beta-D-Xyl-(1->4)-Rib-ol-P-Rib-ol-P-3-beta-D-GalNAc-(1->3)-beta-D-
+CC         GlcNAc-(1->4)-O-6-P-alpha-D-Man}-L-Thr-[protein] + H(+) + UDP;
+CC         Xref=Rhea:RHEA:67924, Rhea:RHEA-COMP:17484, Rhea:RHEA-COMP:17486,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58052, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:177354, ChEBI:CHEBI:177355;
+CC         Evidence={ECO:0000250|UniProtKB:Q5XPT3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67925;
+CC         Evidence={ECO:0000250|UniProtKB:Q5XPT3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-O-{beta-D-GlcA-(1->[3)-alpha-D-Xyl-(1->3)-beta-D-GlcA-
+CC         (1->](n)-4)-beta-D-Xyl-(1->4)-Rib-ol-P-Rib-ol-P-3-beta-D-GalNAc-
+CC         (1->3)-beta-D-GlcNAc-(1->4)-O-6-P-alpha-D-Man}-L-Thr-[protein] + UDP-
+CC         alpha-D-xylose = 3-O-{(1->[3)-alpha-D-Xyl-(1->3)-beta-D-GlcA-
+CC         (1->](n+1)-4)-beta-D-Xyl-(1->4)-Rib-ol-P-Rib-ol-P-3-beta-D-GalNAc-
+CC         (1->3)-beta-D-GlcNAc-(1->4)-O-6-P-alpha-D-Man}-L-Thr-[protein] + H(+)
+CC         + UDP; Xref=Rhea:RHEA:68368, Rhea:RHEA-COMP:17485, Rhea:RHEA-
+CC         COMP:17486, ChEBI:CHEBI:15378, ChEBI:CHEBI:57632, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:177354, ChEBI:CHEBI:177355;
+CC         Evidence={ECO:0000250|UniProtKB:Q5XPT3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68369;
+CC         Evidence={ECO:0000250|UniProtKB:Q5XPT3};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q5XPT3};
+CC       Note=Binds 2 Mn(2+) ions per subunit. The xylosyltransferase part binds
+CC       one Mn(2+) and the beta-1,3-glucuronyltransferase part binds one
+CC       Mn(2+). {ECO:0000250|UniProtKB:Q5XPT3};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000250|UniProtKB:Q5XPT3}.
+CC   -!- SUBUNIT: Interacts with B4GAT1. {ECO:0000250|UniProtKB:Q8N3Y3}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:Q5XPT3}; Single-pass type II membrane protein
+CC       {ECO:0000250|UniProtKB:Q5XPT3}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the
+CC       glycosyltransferase 49 family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the
+CC       glycosyltransferase 8 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC061762; AAH61762.1; -; mRNA.
+DR   RefSeq; NP_954538.1; NM_199107.1.
+DR   AlphaFoldDB; Q6P7A1; -.
+DR   SMR; Q6P7A1; -.
+DR   STRING; 10116.ENSRNOP00000041797; -.
+DR   CAZy; GT49; Glycosyltransferase Family 49.
+DR   CAZy; GT8; Glycosyltransferase Family 8.
+DR   GlyCosmos; Q6P7A1; 3 sites, No reported glycans.
+DR   GlyGen; Q6P7A1; 3 sites.
+DR   PhosphoSitePlus; Q6P7A1; -.
+DR   PaxDb; 10116-ENSRNOP00000041797; -.
+DR   GeneID; 311202; -.
+DR   KEGG; rno:311202; -.
+DR   UCSC; RGD:735214; rat.
+DR   AGR; RGD:735214; -.
+DR   CTD; 120071; -.
+DR   RGD; 735214; Large2.
+DR   VEuPathDB; HostDB:ENSRNOG00000006353; -.
+DR   eggNOG; KOG3765; Eukaryota.
+DR   HOGENOM; CLU_019238_3_2_1; -.
+DR   InParanoid; Q6P7A1; -.
+DR   OrthoDB; 1363389at2759; -.
+DR   PhylomeDB; Q6P7A1; -.
+DR   TreeFam; TF319168; -.
+DR   Reactome; R-RNO-5173105; O-linked glycosylation.
+DR   UniPathway; UPA00378; -.
+DR   PRO; PR:Q6P7A1; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000006353; Expressed in pancreas and 15 other cell types or tissues.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; ISO:RGD.
+DR   GO; GO:0002162; F:dystroglycan binding; ISO:RGD.
+DR   GO; GO:0015020; F:glucuronosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0016757; F:glycosyltransferase activity; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042285; F:xylosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0035269; P:protein O-linked mannosylation; ISS:UniProtKB.
+DR   CDD; cd06431; GT8_LARGE_C; 1.
+DR   InterPro; IPR002495; Glyco_trans_8.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR051292; Xyl/GlcA_transferase.
+DR   PANTHER; PTHR12270; GLYCOSYLTRANSFERASE-RELATED; 1.
+DR   PANTHER; PTHR12270:SF23; XYLOSYL- AND GLUCURONYLTRANSFERASE LARGE2; 1.
+DR   Pfam; PF13896; Glyco_transf_49; 2.
+DR   Pfam; PF01501; Glyco_transf_8; 1.
+DR   SUPFAM; SSF53448; Nucleotide-diphospho-sugar transferases; 1.
+PE   2: Evidence at transcript level;
+KW   Glycoprotein; Glycosyltransferase; Golgi apparatus; Manganese; Membrane;
+KW   Metal-binding; Multifunctional enzyme; Reference proteome; Signal-anchor;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..690
+FT                   /note="Xylosyl- and glucuronyltransferase LARGE2"
+FT                   /id="PRO_0000226813"
+FT   TOPO_DOM        1..7
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        8..28
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        29..690
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   REGION          67..342
+FT                   /note="Xylosyltransferase activity"
+FT                   /evidence="ECO:0000250|UniProtKB:O95461"
+FT   REGION          343..686
+FT                   /note="Glucuronyltransferase activity"
+FT                   /evidence="ECO:0000250|UniProtKB:O95461"
+FT   BINDING         171
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N3Y3"
+FT   BINDING         173
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N3Y3"
+FT   BINDING         491
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N3Y3"
+FT   BINDING         493
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N3Y3"
+FT   CARBOHYD        50
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        77
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        201
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   690 AA;  79309 MW;  79C609E33EDD33E3 CRC64;
+     MLPRGRPRAL GAALLLLLLL VVGFFLFGRD PEYGLGTTAT LDGDPYGSRN RSTSSLQLLL
+     PPKCEMLHVA IVCAGYNSSR EIITLMKSVL FYRKNPLHLH LITDAVARNI LETLFRTWMV
+     PAVVVSFYDA EELKPLVSWI PNKHYSGLYG LMKLVLPSVL PLSLARVIVL DTDVTFSSDI
+     MELWALFGHF SDKQVVGLVE NQSDWYLGNL WKNHRPWPAL GRGFNTGVIL LWLDRLQQIG
+     WEQMWKLTAK RELLTLTATS LADQDIFNAV IKEHPELVHP LPCVWNVQLS DHTLAERCYL
+     EAADLKVIHW NSPKKLRVKN KHAEFFRDLH LTFLGFDGKL LCRELFGCPN QFPPGVEQLQ
+     QALAQLDEEE PCFEFRQQQL TVHRVHITFL SHQPPPPRPH DVTLVAQLSM DRLQMLEALC
+     RHWRGPMSLA LYLTDAEAQQ FLRFVETSPV LSARKDVAYH VVYRDGPLYP VNQLRNVALA
+     QALTPYVFLS DIDFLPAYSL YDYLRASIEQ LALGRRQRKA ALVVPAFETL HYRFSFPNSK
+     AELLTLLDAG SLHTFRYHEW PQGHASTDYT RWREAQAPYR VQWSADYEPY VVVPRDCPRY
+     DPRFVGFGWN KVAHIIELDA QEYEFLVLPE AFSIHLPHAP SLDISRFRSS PTYRDCLQAL
+     KEEFHQDLSR RYGSAALKYL TALQQSRSRA
+//

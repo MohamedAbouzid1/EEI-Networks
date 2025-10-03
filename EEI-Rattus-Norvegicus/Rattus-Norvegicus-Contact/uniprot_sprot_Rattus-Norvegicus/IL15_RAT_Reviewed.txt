@@ -1,0 +1,167 @@
+ID   IL15_RAT                Reviewed;         162 AA.
+AC   P97604; O54847;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   29-MAY-2024, entry version 147.
+DE   RecName: Full=Interleukin-15;
+DE            Short=IL-15;
+DE   Flags: Precursor;
+GN   Name=Il15;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM LONG).
+RC   STRAIN=Sprague-Dawley; TISSUE=Jejunum;
+RX   PubMed=8942753; DOI=10.1016/s0016-5085(96)70036-7;
+RA   Reinecker H.C., Macdermott R.P., Mirau S., Dignass A., Podolsky D.K.;
+RT   "Intestinal epithelial cells both express and respond to interleukin 15.";
+RL   Gastroenterology 111:1706-1713(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS LONG AND SHORT).
+RC   STRAIN=Wistar; TISSUE=Spleen;
+RA   Park J.-H.;
+RL   Submitted (JAN-1998) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Cytokine that stimulates the proliferation of T-lymphocytes.
+CC       Stimulation by IL15 requires interaction of IL15 with components of the
+CC       IL2 receptor, including IL2RB and probably IL2RG but not IL2RA (By
+CC       similarity). In neutrophils, stimulates phagocytosis probably by
+CC       signaling through the IL15 receptor, composed of the subunits IL15RA,
+CC       IL2RB and IL2RG, which results in kinase SYK activation (By
+CC       similarity). {ECO:0000250|UniProtKB:P40933}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=Long;
+CC         IsoId=P97604-1; Sequence=Displayed;
+CC       Name=Short;
+CC         IsoId=P97604-2; Sequence=VSP_002662;
+CC   -!- SIMILARITY: Belongs to the IL-15/IL-21 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U69272; AAB41697.1; -; mRNA.
+DR   EMBL; AF015719; AAB94536.1; -; mRNA.
+DR   EMBL; AF015718; AAB94535.1; -; mRNA.
+DR   RefSeq; NP_037261.1; NM_013129.2. [P97604-1]
+DR   RefSeq; XP_008770585.1; XM_008772363.2.
+DR   RefSeq; XP_017456674.1; XM_017601185.1.
+DR   RefSeq; XP_017456675.1; XM_017601186.1. [P97604-1]
+DR   RefSeq; XP_017456676.1; XM_017601187.1.
+DR   RefSeq; XP_017456677.1; XM_017601188.1.
+DR   RefSeq; XP_017456678.1; XM_017601189.1.
+DR   AlphaFoldDB; P97604; -.
+DR   SMR; P97604; -.
+DR   STRING; 10116.ENSRNOP00000004590; -.
+DR   GlyCosmos; P97604; 5 sites, No reported glycans.
+DR   GlyGen; P97604; 5 sites.
+DR   PhosphoSitePlus; P97604; -.
+DR   PaxDb; 10116-ENSRNOP00000004590; -.
+DR   Ensembl; ENSRNOT00000109879.1; ENSRNOP00000077234.1; ENSRNOG00000003439.7. [P97604-1]
+DR   Ensembl; ENSRNOT00055013056; ENSRNOP00055010436; ENSRNOG00055007787. [P97604-1]
+DR   Ensembl; ENSRNOT00060020256; ENSRNOP00060015923; ENSRNOG00060011950. [P97604-1]
+DR   Ensembl; ENSRNOT00065015649; ENSRNOP00065011818; ENSRNOG00065009734. [P97604-1]
+DR   GeneID; 25670; -.
+DR   KEGG; rno:25670; -.
+DR   AGR; RGD:2887; -.
+DR   CTD; 3600; -.
+DR   RGD; 2887; Il15.
+DR   eggNOG; ENOG502SCMF; Eukaryota.
+DR   GeneTree; ENSGT00390000016264; -.
+DR   HOGENOM; CLU_135111_0_0_1; -.
+DR   InParanoid; P97604; -.
+DR   OrthoDB; 5571531at2759; -.
+DR   PhylomeDB; P97604; -.
+DR   TreeFam; TF336199; -.
+DR   Reactome; R-RNO-8983432; Interleukin-15 signaling.
+DR   PRO; PR:P97604; -.
+DR   Proteomes; UP000002494; Chromosome 19.
+DR   Bgee; ENSRNOG00000003439; Expressed in quadriceps femoris and 20 other cell types or tissues.
+DR   GO; GO:0009986; C:cell surface; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005125; F:cytokine activity; ISO:RGD.
+DR   GO; GO:0005126; F:cytokine receptor binding; IEA:InterPro.
+DR   GO; GO:0001525; P:angiogenesis; TAS:RGD.
+DR   GO; GO:0048469; P:cell maturation; ISO:RGD.
+DR   GO; GO:0071305; P:cellular response to vitamin D; IEP:RGD.
+DR   GO; GO:0045062; P:extrathymic T cell selection; ISO:RGD.
+DR   GO; GO:0030212; P:hyaluronan metabolic process; IDA:RGD.
+DR   GO; GO:0006955; P:immune response; IEA:InterPro.
+DR   GO; GO:0035723; P:interleukin-15-mediated signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0048535; P:lymph node development; ISO:RGD.
+DR   GO; GO:0030225; P:macrophage differentiation; ISO:RGD.
+DR   GO; GO:0001779; P:natural killer cell differentiation; ISO:RGD.
+DR   GO; GO:0001787; P:natural killer cell proliferation; ISO:RGD.
+DR   GO; GO:0120163; P:negative regulation of cold-induced thermogenesis; ISS:YuBioLab.
+DR   GO; GO:0048662; P:negative regulation of smooth muscle cell proliferation; IMP:RGD.
+DR   GO; GO:0042119; P:neutrophil activation; ISS:UniProtKB.
+DR   GO; GO:0001866; P:NK T cell proliferation; ISO:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IMP:RGD.
+DR   GO; GO:0001819; P:positive regulation of cytokine production; IBA:GO_Central.
+DR   GO; GO:0050778; P:positive regulation of immune response; ISO:RGD.
+DR   GO; GO:0032740; P:positive regulation of interleukin-17 production; ISO:RGD.
+DR   GO; GO:0032825; P:positive regulation of natural killer cell differentiation; ISO:RGD.
+DR   GO; GO:0032819; P:positive regulation of natural killer cell proliferation; ISO:RGD.
+DR   GO; GO:0050731; P:positive regulation of peptidyl-tyrosine phosphorylation; ISO:RGD.
+DR   GO; GO:0050766; P:positive regulation of phagocytosis; ISS:UniProtKB.
+DR   GO; GO:1904100; P:positive regulation of protein O-linked glycosylation; ISO:RGD.
+DR   GO; GO:0042102; P:positive regulation of T cell proliferation; ISO:RGD.
+DR   GO; GO:0042531; P:positive regulation of tyrosine phosphorylation of STAT protein; IDA:RGD.
+DR   GO; GO:0050691; P:regulation of defense response to virus by host; ISO:RGD.
+DR   GO; GO:0045580; P:regulation of T cell differentiation; ISO:RGD.
+DR   GO; GO:0031667; P:response to nutrient levels; IEP:RGD.
+DR   GO; GO:0014732; P:skeletal muscle atrophy; IEP:RGD.
+DR   Gene3D; 1.20.1250.70; Interleukin-15/Interleukin-21; 1.
+DR   InterPro; IPR009079; 4_helix_cytokine-like_core.
+DR   InterPro; IPR020439; IL-15.
+DR   InterPro; IPR003443; IL-15/IL-21_fam.
+DR   InterPro; IPR020466; IL-15_mml.
+DR   PANTHER; PTHR14356:SF3; INTERLEUKIN-15; 1.
+DR   PANTHER; PTHR14356; INTERLEUKIN-15-RELATED; 1.
+DR   Pfam; PF02372; IL15; 1.
+DR   PRINTS; PR01947; INTLKN15MAML.
+DR   PRINTS; PR01930; INTRLEUKIN15.
+DR   SUPFAM; SSF47266; 4-helical cytokines; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Cytokine; Disulfide bond; Glycoprotein;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..29
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          30..48
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000015403"
+FT   CHAIN           49..162
+FT                   /note="Interleukin-15"
+FT                   /id="PRO_0000015404"
+FT   CARBOHYD        10
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        104
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        108
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        119
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        143
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        83..133
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        90..136
+FT                   /evidence="ECO:0000250"
+FT   VAR_SEQ         81..96
+FT                   /note="Missing (in isoform Short)"
+FT                   /evidence="ECO:0000303|Ref.2"
+FT                   /id="VSP_002662"
+SQ   SEQUENCE   162 AA;  18804 MW;  DA68097A83065AEA CRC64;
+     MKILKPYMRN TSILYYLCFL LNSHFLTEAG IHVFILGCVS VGLPKTEANW IDVRYDLEKI
+     ESLIQFIHID TTLYTDSDFH PSCKVTAMNC FLLELQVILH EYSNMTLNET VRNVLYLANS
+     TLSSNKNVIE SGCKECEELE ERNFTEFLQS FIHIVQMFIN TS
+//

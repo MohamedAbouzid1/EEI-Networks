@@ -1,0 +1,197 @@
+ID   MARHB_RAT               Reviewed;         398 AA.
+AC   A6P320;
+DT   10-JUN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   24-JUL-2024, entry version 94.
+DE   RecName: Full=E3 ubiquitin-protein ligase MARCHF11;
+DE            EC=2.3.2.27;
+DE   AltName: Full=Membrane-associated RING finger protein 11;
+DE   AltName: Full=Membrane-associated RING-CH protein XI;
+DE            Short=MARCH-XI;
+DE   AltName: Full=RING-type E3 ubiquitin transferase MARCHF11 {ECO:0000305};
+GN   Name=Marchf11; Synonyms=March11;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, SUBCELLULAR LOCATION, TISSUE
+RP   SPECIFICITY, INTERACTION WITH AP1M1 AND LIN7A, AND MUTAGENESIS OF CYS-169;
+RP   CYS-182; CYS-184; TYR-367 AND VAL-398.
+RC   TISSUE=Testis;
+RX   PubMed=17604280; DOI=10.1074/jbc.m700414200;
+RA   Morokuma Y., Nakamura N., Kato A., Notoya M., Yamamoto Y., Sakai Y.,
+RA   Fukuda H., Yamashina S., Hirata Y., Hirose S.;
+RT   "MARCH-XI, a novel transmembrane ubiquitin ligase implicated in ubiquitin-
+RT   dependent protein sorting in developing spermatids.";
+RL   J. Biol. Chem. 282:24806-24815(2007).
+CC   -!- FUNCTION: E3 ubiquitin-protein ligase that mediates polyubiquitination
+CC       of CD4. E3 ubiquitin ligases accept ubiquitin from an E2 ubiquitin-
+CC       conjugating enzyme in the form of a thioester and then directly
+CC       transfer the ubiquitin to targeted substrates. May play a role in
+CC       ubuquitin-dependent protein sorting in developmenting spermatids.
+CC       {ECO:0000269|PubMed:17604280}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-ubiquitinyl-[E2 ubiquitin-conjugating enzyme]-L-cysteine +
+CC         [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-
+CC         cysteine + N(6)-ubiquitinyl-[acceptor protein]-L-lysine.;
+CC         EC=2.3.2.27;
+CC   -!- PATHWAY: Protein modification; protein ubiquitination.
+CC   -!- SUBUNIT: Interacts (YXXL motif) with AP1M1. Interacts (via PDZ-binding
+CC       motif) with LIN7A. Interacts with unidentified fucose glycoproteins.
+CC       {ECO:0000269|PubMed:17604280}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasmic vesicle membrane
+CC       {ECO:0000269|PubMed:17604280}; Multi-pass membrane protein
+CC       {ECO:0000269|PubMed:17604280}.
+CC   -!- TISSUE SPECIFICITY: Predominantly expressed in testis. Present in early
+CC       developing spermatids. Not present in spermatogonia, spermatocytes or
+CC       somatic cells (i.e. peritubular, Leydig, and Sertoli cells). Present in
+CC       early round spermatids at step 4, remains until step 11, then it
+CC       decreases at steps 12-15, and diminishes after step 16 (at protein
+CC       level). Also expressed at lower level in brain.
+CC       {ECO:0000269|PubMed:17604280}.
+CC   -!- DOMAIN: The RING-CH-type zinc finger domain is required for E3 ligase
+CC       activity.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB048841; BAF68985.1; -; mRNA.
+DR   RefSeq; NP_001095298.1; NM_001101828.1.
+DR   AlphaFoldDB; A6P320; -.
+DR   SMR; A6P320; -.
+DR   BioGRID; 270867; 3.
+DR   STRING; 10116.ENSRNOP00000035881; -.
+DR   iPTMnet; A6P320; -.
+DR   PhosphoSitePlus; A6P320; -.
+DR   PaxDb; 10116-ENSRNOP00000035881; -.
+DR   GeneID; 499558; -.
+DR   KEGG; rno:499558; -.
+DR   UCSC; RGD:1559945; rat.
+DR   AGR; RGD:1559945; -.
+DR   CTD; 441061; -.
+DR   RGD; 1559945; Marchf11.
+DR   eggNOG; KOG1609; Eukaryota.
+DR   InParanoid; A6P320; -.
+DR   OrthoDB; 1342875at2759; -.
+DR   PhylomeDB; A6P320; -.
+DR   UniPathway; UPA00143; -.
+DR   PRO; PR:A6P320; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030659; C:cytoplasmic vesicle membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004842; F:ubiquitin-protein transferase activity; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0016567; P:protein ubiquitination; IEA:UniProtKB-UniPathway.
+DR   CDD; cd16810; RING_CH-C4HC3_MARCH11; 1.
+DR   Gene3D; 3.30.40.10; Zinc/RING finger domain, C3HC4 (zinc finger); 1.
+DR   InterPro; IPR047906; MARCHF11_RING_CH-C4HC3.
+DR   InterPro; IPR046356; MARCHF4/9/11.
+DR   InterPro; IPR011016; Znf_RING-CH.
+DR   InterPro; IPR013083; Znf_RING/FYVE/PHD.
+DR   PANTHER; PTHR46053; E3 UBIQUITIN-PROTEIN LIGASE MARCH4-LIKE; 1.
+DR   PANTHER; PTHR46053:SF1; E3 UBIQUITIN-PROTEIN LIGASE MARCHF11; 1.
+DR   Pfam; PF12906; RINGv; 1.
+DR   SMART; SM00744; RINGv; 1.
+DR   SUPFAM; SSF101447; Formin homology 2 domain (FH2 domain); 1.
+DR   SUPFAM; SSF57850; RING/U-box; 1.
+DR   PROSITE; PS51292; ZF_RING_CH; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasmic vesicle; Membrane; Metal-binding; Reference proteome;
+KW   Transferase; Transmembrane; Transmembrane helix; Ubl conjugation pathway;
+KW   Zinc; Zinc-finger.
+FT   CHAIN           1..398
+FT                   /note="E3 ubiquitin-protein ligase MARCHF11"
+FT                   /id="PRO_0000339346"
+FT   TRANSMEM        241..261
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        274..294
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   ZN_FING         158..218
+FT                   /note="RING-CH-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00623"
+FT   REGION          1..158
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           367..370
+FT                   /note="YXXL motif"
+FT   MOTIF           395..398
+FT                   /note="PDZ-binding"
+FT   COMPBIAS        17..47
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        66..80
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        134..154
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         166
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00623"
+FT   BINDING         169
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00623"
+FT   BINDING         182
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00623"
+FT   BINDING         184
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00623"
+FT   BINDING         192
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00623"
+FT   BINDING         195
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00623"
+FT   BINDING         208
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00623"
+FT   BINDING         211
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00623"
+FT   MUTAGEN         169
+FT                   /note="C->S: Abolishes ubiquitin ligase activity; when
+FT                   associated with S-182 and S-184."
+FT                   /evidence="ECO:0000269|PubMed:17604280"
+FT   MUTAGEN         182
+FT                   /note="C->S: Abolishes ubiquitin ligase activity; when
+FT                   associated with S-169 and C-184."
+FT                   /evidence="ECO:0000269|PubMed:17604280"
+FT   MUTAGEN         184
+FT                   /note="C->S: Abolishes ubiquitin ligase activity; when
+FT                   associated with S-169 and C-182."
+FT                   /evidence="ECO:0000269|PubMed:17604280"
+FT   MUTAGEN         367
+FT                   /note="Y->A: Abolishes interaction with AP1M1."
+FT                   /evidence="ECO:0000269|PubMed:17604280"
+FT   MUTAGEN         398
+FT                   /note="Missing: LIN7A."
+FT                   /evidence="ECO:0000269|PubMed:17604280"
+SQ   SEQUENCE   398 AA;  44085 MW;  EB3CC606A44DE800 CRC64;
+     MSDEGSKRGS RADSLEAEPP LPPPPPPPPP GESSLVPTSP RYRPPLPAPL ERIVGSGEPP
+     VELAPRRKGE PLPPLPPSRL PGDQEVSAAG DSCEGPRRLP EVKLPEAAAG KGSPAEPEAG
+     ACREGERRGT GDQPETRSVY SSRSSSSGGS GDQRSGHQHQ HHQPICKICF QGAEQGELLN
+     PCRCDGSVRY THQLCLLKWI SERGSWTCEL CCYRYHVTAI KMKQPCQWQS ISITLVEKVQ
+     MIAVILGSLF LIASVTWLLW SAFSPYAVWQ RKDILFQICY GMYGFMDLVC IGLIVHEGAA
+     VYRVFKRWRA VNLHWDVLNY DKATDIEESS RGESSTSRTL WLPLSALRNR NLVHPTQLTS
+     PRFQCGYVLL HLFNRMRAHE DVSEDNGSGE VVMRVTSV
+//

@@ -1,0 +1,1248 @@
+/bin/sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/sh)
+/bin/sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/sh)
+/bin/sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/sh)
+/bin/sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+Starting runpisa.r with arguments: 301 330 ../PISA_data/PISA_results_Rattus-Norvegicus 
+Processing PDBs from index 301 to 330
+Creating environment wrapper script...
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+Processing PDB 301: 8AY1
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8AY1 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8AY1
+Interface 1/50
+Interface 2/50
+Interface 3/50
+Traceback (most recent call last):
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 239, in <module>
+    download_xmls(launch_pdb_id(start(), PDB_ID), PDB_ID, STR_DIR)
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 222, in download_xmls
+    driver.back()
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 682, in back
+    self.execute(Command.GO_BACK)
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=notCached&u=https%3A//www.ebi.ac.uk/msd-srv/prot_int/cgi-bin/piserver&c=UTF-8&d=This%20document%20is%20no%20longer%20available.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+Error processing PDB: 8AY1 
+Processing PDB 302: 8AYN
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8AYN ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8AYN
+Interface 1/92
+Interface 2/92
+Interface 3/92
+Interface 4/92
+Interface 5/92
+Interface 6/92
+Interface 7/92
+Interface 8/92
+Interface 9/92
+Interface 10/92
+Interface 11/92
+Interface 12/92
+Interface 13/92
+Interface 14/92
+Interface 15/92
+Interface 16/92
+Interface 17/92
+Interface 18/92
+Interface 19/92
+Interface 20/92
+Interface 21/92
+Interface 22/92
+Interface 23/92
+Interface 24/92
+Interface 25/92
+Interface 26/92
+Interface 27/92
+Interface 28/92
+Interface 29/92
+Interface 30/92
+Interface 31/92
+Interface 32/92
+Interface 33/92
+Interface 34/92
+Interface 35/92
+Interface 36/92
+Interface 37/92
+Interface 38/92
+Interface 39/92
+Interface 40/92
+Interface 41/92
+Interface 42/92
+Interface 43/92
+Interface 44/92
+Interface 45/92
+Interface 46/92
+Interface 47/92
+Interface 48/92
+Interface 49/92
+Interface 50/92
+Interface 51/92
+Interface 52/92
+Interface 53/92
+Interface 54/92
+Interface 55/92
+Interface 56/92
+Interface 57/92
+Interface 58/92
+Interface 59/92
+Interface 60/92
+Interface 61/92
+Interface 62/92
+Interface 63/92
+Interface 64/92
+Interface 65/92
+Interface 66/92
+Interface 67/92
+Interface 68/92
+Interface 69/92
+Interface 70/92
+Interface 71/92
+Interface 72/92
+Interface 73/92
+Interface 74/92
+Interface 75/92
+Interface 76/92
+Interface 77/92
+Interface 78/92
+Interface 79/92
+Interface 80/92
+Interface 81/92
+Interface 82/92
+Interface 83/92
+Interface 84/92
+Interface 85/92
+Interface 86/92
+Interface 87/92
+Interface 88/92
+Interface 89/92
+Interface 90/92
+Interface 91/92
+Interface 92/92
+Processing PDB 303: 8C2H
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8C2H ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8C2H
+Interface 1/48
+Interface 2/48
+Interface 3/48
+Interface 4/48
+Interface 5/48
+Interface 6/48
+Interface 7/48
+Interface 8/48
+Interface 9/48
+Interface 10/48
+Interface 11/48
+Interface 12/48
+Interface 13/48
+Interface 14/48
+Interface 15/48
+Interface 16/48
+Interface 17/48
+Interface 18/48
+Interface 19/48
+Interface 20/48
+Interface 21/48
+Interface 22/48
+Interface 23/48
+Interface 24/48
+Interface 25/48
+Interface 26/48
+Interface 27/48
+Interface 28/48
+Interface 29/48
+Interface 30/48
+Interface 31/48
+Interface 32/48
+Interface 33/48
+Interface 34/48
+Interface 35/48
+Interface 36/48
+Interface 37/48
+Interface 38/48
+Interface 39/48
+Interface 40/48
+Interface 41/48
+Interface 42/48
+Interface 43/48
+Interface 44/48
+Interface 45/48
+Interface 46/48
+Interface 47/48
+Interface 48/48
+Processing PDB 304: 8CZ9
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8CZ9 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8CZ9
+Interface 1/6
+Interface 2/6
+Interface 3/6
+Interface 4/6
+Interface 5/6
+Interface 6/6
+Processing PDB 305: 8DC0
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8DC0 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8DC0
+Interface 1/9
+Interface 2/9
+Interface 3/9
+Interface 4/9
+Interface 5/9
+Interface 6/9
+Interface 7/9
+Interface 8/9
+Interface 9/9
+Processing PDB 306: 8EFO
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8EFO ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8EFO
+Interface 1/31
+Interface 2/31
+Interface 3/31
+Interface 4/31
+Interface 5/31
+Interface 6/31
+Interface 7/31
+Interface 8/31
+Interface 9/31
+Interface 10/31
+Interface 11/31
+Interface 12/31
+Interface 13/31
+Interface 14/31
+Interface 15/31
+Interface 16/31
+Interface 17/31
+Interface 18/31
+Interface 19/31
+Interface 20/31
+Interface 21/31
+Interface 22/31
+Interface 23/31
+Interface 24/31
+Interface 25/31
+Interface 26/31
+Interface 27/31
+Interface 28/31
+Interface 29/31
+Interface 30/31
+Interface 31/31
+Processing PDB 307: 8F7S
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8F7S ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8F7S
+Interface 1/40
+Interface 2/40
+Interface 3/40
+Interface 4/40
+Interface 5/40
+Interface 6/40
+Interface 7/40
+Interface 8/40
+Interface 9/40
+Interface 10/40
+Interface 11/40
+Interface 12/40
+Interface 13/40
+Interface 14/40
+Interface 15/40
+Interface 16/40
+Interface 17/40
+Interface 18/40
+Interface 19/40
+Interface 20/40
+Interface 21/40
+Interface 22/40
+Interface 23/40
+Interface 24/40
+Interface 25/40
+Interface 26/40
+Interface 27/40
+Interface 28/40
+Interface 29/40
+Interface 30/40
+Interface 31/40
+Interface 32/40
+Interface 33/40
+Interface 34/40
+Interface 35/40
+Interface 36/40
+Interface 37/40
+Interface 38/40
+Interface 39/40
+Interface 40/40
+Processing PDB 308: 8FMZ
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8FMZ ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8FMZ
+Interface 1/6
+Interface 2/6
+Interface 3/6
+Interface 4/6
+Interface 5/6
+Interface 6/6
+Processing PDB 309: 8FN1
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8FN1 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8FN1
+Interface 1/6
+Interface 2/6
+Interface 3/6
+Interface 4/6
+Interface 5/6
+Interface 6/6
+Processing PDB 310: 8FQF
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8FQF ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8FQF
+Interface 1/14
+Interface 2/14
+Interface 3/14
+Interface 4/14
+Interface 5/14
+Interface 6/14
+Interface 7/14
+Interface 8/14
+Interface 9/14
+Interface 10/14
+Interface 11/14
+Interface 12/14
+Interface 13/14
+Interface 14/14
+Processing PDB 311: 8HA0
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8HA0 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8HA0
+Interface 1/17
+Interface 2/17
+Interface 3/17
+Interface 4/17
+Interface 5/17
+Interface 6/17
+Interface 7/17
+Interface 8/17
+Interface 9/17
+Interface 10/17
+Interface 11/17
+Interface 12/17
+Interface 13/17
+Interface 14/17
+Interface 15/17
+Interface 16/17
+Interface 17/17
+Processing PDB 312: 8HK2
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8HK2 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8HK2
+Interface 1/17
+Interface 2/17
+Interface 3/17
+Interface 4/17
+Interface 5/17
+Interface 6/17
+Interface 7/17
+Interface 8/17
+Interface 9/17
+Interface 10/17
+Interface 11/17
+Interface 12/17
+Interface 13/17
+Interface 14/17
+Interface 15/17
+Interface 16/17
+Interface 17/17
+Processing PDB 313: 8HK5
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8HK5 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8HK5
+Interface 1/7
+Interface 2/7
+Interface 3/7
+Interface 4/7
+Interface 5/7
+Interface 6/7
+Interface 7/7
+Processing PDB 314: 8IJ9
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8IJ9 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8IJ9
+Interface 1/29
+Interface 2/29
+Interface 3/29
+Interface 4/29
+Interface 5/29
+Interface 6/29
+Interface 7/29
+Interface 8/29
+Interface 9/29
+Interface 10/29
+Interface 11/29
+Interface 12/29
+Interface 13/29
+Interface 14/29
+Interface 15/29
+Interface 16/29
+Interface 17/29
+Interface 18/29
+Interface 19/29
+Interface 20/29
+Interface 21/29
+Interface 22/29
+Interface 23/29
+Interface 24/29
+Interface 25/29
+Interface 26/29
+Interface 27/29
+Interface 28/29
+Interface 29/29
+Processing PDB 315: 8IJL
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8IJL ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8IJL
+Interface 1/38
+Interface 2/38
+Interface 3/38
+Interface 4/38
+Interface 5/38
+Interface 6/38
+Interface 7/38
+Interface 8/38
+Interface 9/38
+Interface 10/38
+Interface 11/38
+Interface 12/38
+Interface 13/38
+Interface 14/38
+Interface 15/38
+Interface 16/38
+Interface 17/38
+Interface 18/38
+Interface 19/38
+Interface 20/38
+Interface 21/38
+Interface 22/38
+Interface 23/38
+Interface 24/38
+Interface 25/38
+Interface 26/38
+Interface 27/38
+Interface 28/38
+Interface 29/38
+Interface 30/38
+Interface 31/38
+Interface 32/38
+Interface 33/38
+Interface 34/38
+Interface 35/38
+Interface 36/38
+Interface 37/38
+Interface 38/38
+Processing PDB 316: 8IY5
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8IY5 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8IY5
+Interface 1/7
+Interface 2/7
+Traceback (most recent call last):
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 239, in <module>
+    download_xmls(launch_pdb_id(start(), PDB_ID), PDB_ID, STR_DIR)
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 222, in download_xmls
+    driver.back()
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 682, in back
+    self.execute(Command.GO_BACK)
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=notCached&u=https%3A//www.ebi.ac.uk/msd-srv/prot_int/cgi-bin/piserver&c=UTF-8&d=This%20document%20is%20no%20longer%20available.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+Error processing PDB: 8IY5 
+Processing PDB 317: 8JBF
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8JBF ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8JBF
+Interface 1/7
+Interface 2/7
+Interface 3/7
+Interface 4/7
+Interface 5/7
+Interface 6/7
+Interface 7/7
+Processing PDB 318: 8JBG
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8JBG ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8JBG
+Traceback (most recent call last):
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 239, in <module>
+    download_xmls(launch_pdb_id(start(), PDB_ID), PDB_ID, STR_DIR)
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 128, in launch_pdb_id
+    interface = driver.find_element("name", "btn_submit_interfaces")
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="btn_submit_interfaces"]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+Error processing PDB: 8JBG 
+Processing PDB 319: 8JBH
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8JBH ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8JBH
+Traceback (most recent call last):
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 239, in <module>
+    download_xmls(launch_pdb_id(start(), PDB_ID), PDB_ID, STR_DIR)
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 128, in launch_pdb_id
+    interface = driver.find_element("name", "btn_submit_interfaces")
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="btn_submit_interfaces"]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+Error processing PDB: 8JBH 
+Processing PDB 320: 8P3Q
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8P3Q ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8P3Q
+Interface 1/66
+Interface 2/66
+Interface 3/66
+Interface 4/66
+Interface 5/66
+Interface 6/66
+Interface 7/66
+Interface 8/66
+Interface 9/66
+Interface 10/66
+Interface 11/66
+Interface 12/66
+Interface 13/66
+Interface 14/66
+Interface 15/66
+Interface 16/66
+Interface 17/66
+Interface 18/66
+Interface 19/66
+Interface 20/66
+Interface 21/66
+Interface 22/66
+Interface 23/66
+Interface 24/66
+Interface 25/66
+Interface 26/66
+Interface 27/66
+Interface 28/66
+Interface 29/66
+Interface 30/66
+Interface 31/66
+Interface 32/66
+Interface 33/66
+Interface 34/66
+Interface 35/66
+Interface 36/66
+Interface 37/66
+Interface 38/66
+Interface 39/66
+Interface 40/66
+Interface 41/66
+Interface 42/66
+Interface 43/66
+Interface 44/66
+Interface 45/66
+Interface 46/66
+Interface 47/66
+Interface 48/66
+Interface 49/66
+Interface 50/66
+Interface 51/66
+Interface 52/66
+Interface 53/66
+Interface 54/66
+Interface 55/66
+Interface 56/66
+Traceback (most recent call last):
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 239, in <module>
+    download_xmls(launch_pdb_id(start(), PDB_ID), PDB_ID, STR_DIR)
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 222, in download_xmls
+    driver.back()
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 682, in back
+    self.execute(Command.GO_BACK)
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=notCached&u=https%3A//www.ebi.ac.uk/msd-srv/prot_int/cgi-bin/piserver&c=UTF-8&d=This%20document%20is%20no%20longer%20available.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+Error processing PDB: 8P3Q 
+Processing PDB 321: 8SIY
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8SIY ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8SIY
+Interface 1/41
+Interface 2/41
+Interface 3/41
+Interface 4/41
+Interface 5/41
+Interface 6/41
+Interface 7/41
+Interface 8/41
+Interface 9/41
+Interface 10/41
+Interface 11/41
+Interface 12/41
+Interface 13/41
+Interface 14/41
+Interface 15/41
+Interface 16/41
+Interface 17/41
+Interface 18/41
+Interface 19/41
+Interface 20/41
+Interface 21/41
+Interface 22/41
+Interface 23/41
+Interface 24/41
+Interface 25/41
+Interface 26/41
+Interface 27/41
+Interface 28/41
+Interface 29/41
+Interface 30/41
+Interface 31/41
+Interface 32/41
+Interface 33/41
+Interface 34/41
+Interface 35/41
+Interface 36/41
+Interface 37/41
+Interface 38/41
+Interface 39/41
+Interface 40/41
+Interface 41/41
+Processing PDB 322: 8SS7
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8SS7 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8SS7
+Interface 1/164
+Interface 2/164
+Interface 3/164
+Interface 4/164
+Interface 5/164
+Interface 6/164
+Interface 7/164
+Interface 8/164
+Interface 9/164
+Interface 10/164
+Interface 11/164
+Interface 12/164
+Interface 13/164
+Interface 14/164
+Interface 15/164
+Interface 16/164
+Interface 17/164
+Interface 18/164
+Interface 19/164
+Interface 20/164
+Interface 21/164
+Interface 22/164
+Interface 23/164
+Interface 24/164
+Interface 25/164
+Interface 26/164
+Interface 27/164
+Interface 28/164
+Interface 29/164
+Interface 30/164
+Interface 31/164
+Interface 32/164
+Interface 33/164
+Interface 34/164
+Interface 35/164
+Interface 36/164
+Interface 37/164
+Interface 38/164
+Interface 39/164
+Interface 40/164
+Interface 41/164
+Interface 42/164
+Interface 43/164
+Interface 44/164
+Interface 45/164
+Interface 46/164
+Interface 47/164
+Interface 48/164
+Interface 49/164
+Interface 50/164
+Interface 51/164
+Interface 52/164
+Interface 53/164
+Interface 54/164
+Interface 55/164
+Interface 56/164
+Interface 57/164
+Interface 58/164
+Interface 59/164
+Interface 60/164
+Interface 61/164
+Interface 62/164
+Interface 63/164
+Interface 64/164
+Interface 65/164
+Interface 66/164
+Interface 67/164
+Interface 68/164
+Interface 69/164
+Interface 70/164
+Interface 71/164
+Interface 72/164
+Interface 73/164
+Interface 74/164
+Interface 75/164
+Interface 76/164
+Interface 77/164
+Interface 78/164
+Interface 79/164
+Interface 80/164
+Interface 81/164
+Interface 82/164
+Interface 83/164
+Interface 84/164
+Interface 85/164
+Interface 86/164
+Interface 87/164
+Interface 88/164
+Interface 89/164
+Interface 90/164
+Interface 91/164
+Interface 92/164
+Interface 93/164
+Interface 94/164
+Interface 95/164
+Interface 96/164
+Interface 97/164
+Interface 98/164
+Interface 99/164
+Interface 100/164
+Interface 101/164
+Interface 102/164
+Interface 103/164
+Interface 104/164
+Interface 105/164
+Interface 106/164
+Interface 107/164
+Interface 108/164
+Interface 109/164
+Interface 110/164
+Interface 111/164
+Interface 112/164
+Interface 113/164
+Interface 114/164
+Interface 115/164
+Interface 116/164
+Interface 117/164
+Interface 118/164
+Interface 119/164
+Interface 120/164
+Interface 121/164
+Interface 122/164
+Interface 123/164
+Interface 124/164
+Interface 125/164
+Interface 126/164
+Interface 127/164
+Interface 128/164
+Interface 129/164
+Interface 130/164
+Interface 131/164
+Interface 132/164
+Interface 133/164
+Interface 134/164
+Interface 135/164
+Interface 136/164
+Interface 137/164
+Interface 138/164
+Interface 139/164
+Interface 140/164
+Interface 141/164
+Interface 142/164
+Interface 143/164
+Interface 144/164
+Interface 145/164
+Interface 146/164
+Interface 147/164
+Interface 148/164
+Interface 149/164
+Interface 150/164
+Interface 151/164
+Interface 152/164
+Interface 153/164
+Interface 154/164
+Interface 155/164
+Interface 156/164
+Interface 157/164
+Interface 158/164
+Interface 159/164
+Interface 160/164
+Interface 161/164
+Interface 162/164
+Interface 163/164
+Interface 164/164
+Processing PDB 323: 8SS9
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8SS9 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8SS9
+Interface 1/72
+Interface 2/72
+Interface 3/72
+Interface 4/72
+Interface 5/72
+Interface 6/72
+Interface 7/72
+Interface 8/72
+Interface 9/72
+Interface 10/72
+Interface 11/72
+Interface 12/72
+Interface 13/72
+Interface 14/72
+Interface 15/72
+Interface 16/72
+Interface 17/72
+Interface 18/72
+Interface 19/72
+Interface 20/72
+Interface 21/72
+Interface 22/72
+Interface 23/72
+Interface 24/72
+Interface 25/72
+Interface 26/72
+Interface 27/72
+Interface 28/72
+Interface 29/72
+Interface 30/72
+Interface 31/72
+Interface 32/72
+Interface 33/72
+Interface 34/72
+Interface 35/72
+Interface 36/72
+Interface 37/72
+Interface 38/72
+Interface 39/72
+Interface 40/72
+Interface 41/72
+Interface 42/72
+Interface 43/72
+Interface 44/72
+Interface 45/72
+Interface 46/72
+Interface 47/72
+Interface 48/72
+Interface 49/72
+Interface 50/72
+Interface 51/72
+Interface 52/72
+Interface 53/72
+Interface 54/72
+Interface 55/72
+Interface 56/72
+Interface 57/72
+Interface 58/72
+Interface 59/72
+Interface 60/72
+Interface 61/72
+Interface 62/72
+Interface 63/72
+Interface 64/72
+Interface 65/72
+Interface 66/72
+Interface 67/72
+Interface 68/72
+Interface 69/72
+Interface 70/72
+Interface 71/72
+Interface 72/72
+Processing PDB 324: 8T6K
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8T6K ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8T6K
+Interface 1/35
+Interface 2/35
+Interface 3/35
+Interface 4/35
+Interface 5/35
+Interface 6/35
+Interface 7/35
+Interface 8/35
+Interface 9/35
+Interface 10/35
+Interface 11/35
+Interface 12/35
+Interface 13/35
+Interface 14/35
+Interface 15/35
+Interface 16/35
+Interface 17/35
+Interface 18/35
+Interface 19/35
+Interface 20/35
+Interface 21/35
+Interface 22/35
+Interface 23/35
+Interface 24/35
+Interface 25/35
+Interface 26/35
+Interface 27/35
+Interface 28/35
+Interface 29/35
+Interface 30/35
+Interface 31/35
+Interface 32/35
+Interface 33/35
+Interface 34/35
+Interface 35/35
+Processing PDB 325: 8WA3
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8WA3 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8WA3
+Interface 1/6
+Interface 2/6
+Interface 3/6
+Interface 4/6
+Interface 5/6
+Interface 6/6
+Processing PDB 326: 8WG7
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8WG7 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8WG7
+Interface 1/6
+Interface 2/6
+Interface 3/6
+Interface 4/6
+Interface 5/6
+Interface 6/6
+Processing PDB 327: 8WG8
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8WG8 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8WG8
+Interface 1/7
+Interface 2/7
+Interface 3/7
+Interface 4/7
+Interface 5/7
+Interface 6/7
+Interface 7/7
+Processing PDB 328: 8WZ2
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8WZ2 ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8WZ2
+Interface 1/7
+Interface 2/7
+Interface 3/7
+Interface 4/7
+Interface 5/7
+Interface 6/7
+Interface 7/7
+Processing PDB 329: 8XBH
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8XBH ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8XBH
+Interface 1/6
+Interface 2/6
+Interface 3/6
+Interface 4/6
+Interface 5/6
+Interface 6/6
+Processing PDB 330: 8YKV
+Running command: ./run_with_env.sh PisaAuto_id_marina.py 8YKV ../PISA_data/PISA_results_Rattus-Norvegicus 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+/bin/bash: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by /bin/bash)
+Processing 8YKV
+Traceback (most recent call last):
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 239, in <module>
+    download_xmls(launch_pdb_id(start(), PDB_ID), PDB_ID, STR_DIR)
+  File "/cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Rattus-Norvegicus/2-PISA-based/PisaAuto_id_marina.py", line 128, in launch_pdb_id
+    interface = driver.find_element("name", "btn_submit_interfaces")
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/home/bbf3630/miniconda3/envs/selenium_env/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="btn_submit_interfaces"]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+Error processing PDB: 8YKV 
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)
+sh: /home/bbf3630/miniconda3/envs/selenium_env/lib/libreadline.so.8: no version information available (required by sh)

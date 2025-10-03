@@ -1,0 +1,112 @@
+ID   RASF9_RAT               Reviewed;         435 AA.
+AC   O88869;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   24-JAN-2024, entry version 109.
+DE   RecName: Full=Ras association domain-containing protein 9;
+DE   AltName: Full=PAM COOH-terminal interactor protein 1;
+DE            Short=P-CIP1;
+DE   AltName: Full=Peptidylglycine alpha-amidating monooxygenase COOH-terminal interactor;
+GN   Name=Rassf9; Synonyms=Pamci, Pcip1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, INTERACTION WITH PAM, SUBCELLULAR
+RP   LOCATION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=9837933; DOI=10.1074/jbc.273.50.33524;
+RA   Chen L., Johnson R.C., Milgram S.L.;
+RT   "P-CIP1, a novel protein that interacts with the cytosolic domain of
+RT   peptidylglycine alpha-amidating monooxygenase, is associated with
+RT   endosomes.";
+RL   J. Biol. Chem. 273:33524-33532(1998).
+CC   -!- FUNCTION: May play a role in regulating vesicuar trafficking in cells.
+CC       {ECO:0000269|PubMed:9837933}.
+CC   -!- SUBUNIT: Interacts with PAM. {ECO:0000269|PubMed:9837933}.
+CC   -!- INTERACTION:
+CC       O88869; P14925: Pam; NbExp=3; IntAct=EBI-1395057, EBI-1395008;
+CC   -!- SUBCELLULAR LOCATION: Endosome {ECO:0000269|PubMed:9837933}.
+CC       Note=Accumulates on perinuclear endosomes.
+CC   -!- TISSUE SPECIFICITY: Testis, kidney, skeletal muscle, liver, lung,
+CC       brain, heart, pituitary gland, adrenal gland and ovary.
+CC       {ECO:0000269|PubMed:9837933}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF056208; AAD03249.1; -; mRNA.
+DR   RefSeq; NP_075248.1; NM_022959.2.
+DR   AlphaFoldDB; O88869; -.
+DR   SMR; O88869; -.
+DR   IntAct; O88869; 1.
+DR   STRING; 10116.ENSRNOP00000055632; -.
+DR   iPTMnet; O88869; -.
+DR   PhosphoSitePlus; O88869; -.
+DR   PaxDb; 10116-ENSRNOP00000055632; -.
+DR   Ensembl; ENSRNOT00055027840; ENSRNOP00055022365; ENSRNOG00055016430.
+DR   Ensembl; ENSRNOT00060007925; ENSRNOP00060005955; ENSRNOG00060004739.
+DR   Ensembl; ENSRNOT00065004453; ENSRNOP00065003179; ENSRNOG00065003162.
+DR   GeneID; 65053; -.
+DR   KEGG; rno:65053; -.
+DR   UCSC; RGD:621329; rat.
+DR   AGR; RGD:621329; -.
+DR   CTD; 9182; -.
+DR   RGD; 621329; Rassf9.
+DR   eggNOG; KOG1574; Eukaryota.
+DR   InParanoid; O88869; -.
+DR   OrthoDB; 3600095at2759; -.
+DR   PhylomeDB; O88869; -.
+DR   PRO; PR:O88869; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; IDA:UniProtKB.
+DR   GO; GO:0005768; C:endosome; IDA:UniProtKB.
+DR   GO; GO:0055037; C:recycling endosome; IDA:RGD.
+DR   GO; GO:0012510; C:trans-Golgi network transport vesicle membrane; IDA:UniProtKB.
+DR   GO; GO:0019899; F:enzyme binding; IPI:RGD.
+DR   GO; GO:0019904; F:protein domain specific binding; IPI:RGD.
+DR   GO; GO:0016197; P:endosomal transport; NAS:UniProtKB.
+DR   GO; GO:0046907; P:intracellular transport; IDA:RGD.
+DR   GO; GO:0006605; P:protein targeting; NAS:UniProtKB.
+DR   GO; GO:0007165; P:signal transduction; IEA:InterPro.
+DR   CDD; cd16133; RA_RASSF9; 1.
+DR   InterPro; IPR033593; N-RASSF.
+DR   InterPro; IPR000159; RA_dom.
+DR   InterPro; IPR033633; RASSF9_RA.
+DR   InterPro; IPR029071; Ubiquitin-like_domsf.
+DR   PANTHER; PTHR15286:SF10; RAS ASSOCIATION DOMAIN-CONTAINING PROTEIN 9; 1.
+DR   PANTHER; PTHR15286; RAS-ASSOCIATING DOMAIN CONTAINING PROTEIN; 1.
+DR   SMART; SM00314; RA; 1.
+DR   SUPFAM; SSF54236; Ubiquitin-like; 1.
+DR   PROSITE; PS50200; RA; 1.
+PE   1: Evidence at protein level;
+KW   Coiled coil; Endosome; Reference proteome.
+FT   CHAIN           1..435
+FT                   /note="Ras association domain-containing protein 9"
+FT                   /id="PRO_0000299454"
+FT   DOMAIN          25..119
+FT                   /note="Ras-associating"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00166"
+FT   REGION          1..22
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          371..423
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          195..291
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        391..423
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   435 AA;  49545 MW;  582AF0C52176E9B1 CRC64;
+     MAPFGRNLLK TRHKNRSPTK DMDPEEKEIV VWVCQEEKIV CGLTKRTTSI DVIQALLEEH
+     EATFGEKRFL LGKASDYCIV EKWRGSERAL PPLTRILKLW KAWGDEQPNM QFVLVKTDAF
+     LPVPLWRTAE TKLVQNNEKP WELSPANYMK TLPPDKQKRI VRKTFRKLAK IRQDTGSHDR
+     DNMECLVHLI ISQDHTIHQQ VQRMKELDME IEKCEAKIHL DRIGNDGADY VQEAYLMPRS
+     SEEEQKLDFQ SEDNQTLEDL NDGEGVSQLE EQLQYYRALI DKLSAEIERE VKGAGTDGSE
+     DMEGAAACEL ENSDLESVKC DLEKSMKAGL KIHSHLSGIQ REIKYSDSLL QMKAREYELL
+     AKEFSSLHIS SKDGCQGKEN RGKEAEASSS NGEIPPLTQR VFNTYTNDTD SDTGISSNHS
+     QDSETTLGDV LLLAT
+//

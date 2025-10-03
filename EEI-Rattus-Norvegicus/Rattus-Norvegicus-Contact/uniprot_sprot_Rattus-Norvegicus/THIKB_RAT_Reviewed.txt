@@ -1,0 +1,271 @@
+ID   THIKB_RAT               Reviewed;         424 AA.
+AC   P07871; Q4G049;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1991, sequence version 2.
+DT   24-JUL-2024, entry version 164.
+DE   RecName: Full=3-ketoacyl-CoA thiolase B, peroxisomal {ECO:0000305};
+DE            EC=2.3.1.155 {ECO:0000269|PubMed:10064897, ECO:0000269|PubMed:2882519};
+DE            EC=2.3.1.16 {ECO:0000269|PubMed:10064897, ECO:0000269|PubMed:2882519};
+DE            EC=2.3.1.9 {ECO:0000269|PubMed:10064897};
+DE   AltName: Full=Acetyl-CoA acyltransferase B;
+DE   AltName: Full=Beta-ketothiolase B;
+DE   AltName: Full=Peroxisomal 3-oxoacyl-CoA thiolase B;
+DE   Flags: Precursor;
+GN   Name=Acaa1b {ECO:0000312|RGD:1562373}; Synonyms=Acaa1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3036803; DOI=10.1016/s0021-9258(18)47542-4;
+RA   Hijikata M., Ishii N., Kagamiyama H., Osumi T., Hashimoto T.;
+RT   "Structural analysis of cDNA for rat peroxisomal 3-ketoacyl-CoA thiolase.";
+RL   J. Biol. Chem. 262:8151-8158(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=2307679; DOI=10.1016/s0021-9258(19)39605-x;
+RA   Hijikata M., Wen J.K., Osumi T., Hashimoto T.;
+RT   "Rat peroxisomal 3-ketoacyl-CoA thiolase gene. Occurrence of two closely
+RT   related but differentially regulated genes.";
+RL   J. Biol. Chem. 265:4600-4606(1990).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=2882519; DOI=10.1073/pnas.84.8.2494;
+RA   Schram A.W., Goldfischer S., van Roermund C.W., Brouwer-Kelder E.M.,
+RA   Collins J., Hashimoto T., Heymans H.S., van den Bosch H., Schutgens R.B.,
+RA   Tager J.M.;
+RT   "Human peroxisomal 3-oxoacyl-coenzyme A thiolase deficiency.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 84:2494-2496(1987).
+RN   [5]
+RP   TRANSIT PEPTIDE CLEAVAGE SITE, AND DOMAIN.
+RX   PubMed=1680677; DOI=10.1002/j.1460-2075.1991.tb04889.x;
+RA   Swinkels B.W., Gould S.J., Bodnar A.G., Rachubinski R.A., Subramani S.;
+RT   "A novel, cleavable peroxisomal targeting signal at the amino-terminus of
+RT   the rat 3-ketoacyl-CoA thiolase.";
+RL   EMBO J. 10:3255-3262(1991).
+RN   [6]
+RP   CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, PATHWAY, SUBCELLULAR
+RP   LOCATION, AND FUNCTION.
+RX   PubMed=10064897; DOI=10.1016/s1388-1981(99)00003-7;
+RA   Antonenkov V.D., Van Veldhoven P.P., Waelkens E., Mannaerts G.P.;
+RT   "Comparison of the stability and substrate specificity of purified
+RT   peroxisomal 3-oxoacyl-CoA thiolases A and B from rat liver.";
+RL   Biochim. Biophys. Acta 1437:136-141(1999).
+CC   -!- FUNCTION: Responsible for the thiolytic cleavage of straight chain 3-
+CC       keto fatty acyl-CoAs (3-oxoacyl-CoAs) (PubMed:10064897,
+CC       PubMed:2882519). Plays an important role in fatty acid peroxisomal
+CC       beta-oxidation (PubMed:10064897, PubMed:2882519). Catalyzes the
+CC       cleavage of short, medium, long, and very long straight chain 3-
+CC       oxoacyl-CoAs (PubMed:10064897, PubMed:2882519). Medium chain straight
+CC       3-oxoacyl-CoAs are preferred substrates (PubMed:10064897).
+CC       {ECO:0000269|PubMed:10064897, ECO:0000269|PubMed:2882519}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + an acyl-CoA = a 3-oxoacyl-CoA + CoA;
+CC         Xref=Rhea:RHEA:21564, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:58342, ChEBI:CHEBI:90726; EC=2.3.1.16;
+CC         Evidence={ECO:0000269|PubMed:10064897, ECO:0000269|PubMed:2882519};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:21566;
+CC         Evidence={ECO:0000269|PubMed:2882519, ECO:0000305|PubMed:10064897};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 acetyl-CoA = acetoacetyl-CoA + CoA; Xref=Rhea:RHEA:21036,
+CC         ChEBI:CHEBI:57286, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288; EC=2.3.1.9;
+CC         Evidence={ECO:0000269|PubMed:10064897};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:21038;
+CC         Evidence={ECO:0000305|PubMed:10064897};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + hexanoyl-CoA = 3-oxooctanoyl-CoA + CoA;
+CC         Xref=Rhea:RHEA:31203, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:62619, ChEBI:CHEBI:62620;
+CC         Evidence={ECO:0000269|PubMed:10064897};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:31205;
+CC         Evidence={ECO:0000305|PubMed:10064897};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + tetradecanoyl-CoA = 3-oxohexadecanoyl-CoA + CoA;
+CC         Xref=Rhea:RHEA:18161, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:57349, ChEBI:CHEBI:57385; EC=2.3.1.155;
+CC         Evidence={ECO:0000269|PubMed:10064897, ECO:0000269|PubMed:2882519};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:18163;
+CC         Evidence={ECO:0000269|PubMed:2882519, ECO:0000305|PubMed:10064897};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-oxohexadecanedioyl-CoA + CoA = acetyl-CoA +
+CC         tetradecanedioyl-CoA; Xref=Rhea:RHEA:40343, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57288, ChEBI:CHEBI:77081, ChEBI:CHEBI:77084;
+CC         Evidence={ECO:0000269|PubMed:10064897};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40344;
+CC         Evidence={ECO:0000305|PubMed:10064897};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-oxo-(6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoyl-CoA + CoA =
+CC         (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA + acetyl-CoA;
+CC         Xref=Rhea:RHEA:39131, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:74298, ChEBI:CHEBI:74304;
+CC         Evidence={ECO:0000250|UniProtKB:P09110};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:39132;
+CC         Evidence={ECO:0000250|UniProtKB:P09110};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=7.0 uM for acetoacetyl-CoA {ECO:0000269|PubMed:10064897};
+CC         KM=8.2 uM for 3-oxooctanoyl-CoA {ECO:0000269|PubMed:10064897};
+CC         KM=6.7 uM for 3-oxohexadecanoyl-CoA {ECO:0000269|PubMed:10064897};
+CC         KM=3.2 uM for 3-oxohexadecanedioyl-CoA {ECO:0000269|PubMed:10064897};
+CC         Vmax=24.4 umol/min/mg enzyme for the degradation of acetoacetyl-CoA
+CC         {ECO:0000269|PubMed:10064897};
+CC         Vmax=141.8 umol/min/mg enzyme for the degradation of 3-oxooctanoyl-
+CC         CoA {ECO:0000269|PubMed:10064897};
+CC         Vmax=15.6 umol/min/mg enzyme for the degradation of 3-
+CC         oxohexadecanoyl-CoA {ECO:0000269|PubMed:10064897};
+CC         Vmax=120.3 umol/min/mg enzyme for the degradation of 3-
+CC         oxohexadecanedioyl-CoA {ECO:0000269|PubMed:10064897};
+CC   -!- PATHWAY: Lipid metabolism; peroxisomal fatty acid beta-oxidation.
+CC       {ECO:0000269|PubMed:10064897, ECO:0000269|PubMed:2882519}.
+CC   -!- SUBUNIT: Homodimer (By similarity). Interacts (via PTS2-type
+CC       peroxisomal targeting signal region) with PEX7; leading to its
+CC       translocation into peroxisomes (By similarity).
+CC       {ECO:0000250|UniProtKB:P09110}.
+CC   -!- SUBCELLULAR LOCATION: Peroxisome {ECO:0000269|PubMed:10064897}.
+CC       Note=Transported into peroxisomes following association with PEX7.
+CC       {ECO:0000250|UniProtKB:P09110}.
+CC   -!- INDUCTION: Peroxisomal thiolase is markedly induced (at the level of
+CC       transcription) by various hypolipidemic compounds in parallel with the
+CC       other two enzymes of the peroxisomal beta-oxidation system.
+CC   -!- DOMAIN: The PTS2-type peroxisomal targeting signal, which mediates
+CC       interaction with PEX7 and localization to peroxisomes, is cleaved
+CC       following import into peroxisomes. {ECO:0000269|PubMed:1680677}.
+CC   -!- MISCELLANEOUS: There exist at least 2 rat liver peroxisomal 3-ketoacyl-
+CC       CoA thiolases.
+CC   -!- SIMILARITY: Belongs to the thiolase-like superfamily. Thiolase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J02749; AAA41497.1; -; mRNA.
+DR   EMBL; D90063; BAA14107.1; -; Genomic_DNA.
+DR   EMBL; BC098757; AAH98757.1; -; mRNA.
+DR   PIR; B35725; XURTAB.
+DR   RefSeq; NP_001035108.1; NM_001040019.1.
+DR   AlphaFoldDB; P07871; -.
+DR   SMR; P07871; -.
+DR   IntAct; P07871; 1.
+DR   SwissLipids; SLP:000001213; -.
+DR   iPTMnet; P07871; -.
+DR   PhosphoSitePlus; P07871; -.
+DR   jPOST; P07871; -.
+DR   Ensembl; ENSRNOT00000106186.1; ENSRNOP00000086036.1; ENSRNOG00000067803.1.
+DR   Ensembl; ENSRNOT00055011064; ENSRNOP00055008648; ENSRNOG00055006757.
+DR   Ensembl; ENSRNOT00060031504; ENSRNOP00060025573; ENSRNOG00060018265.
+DR   Ensembl; ENSRNOT00065006691; ENSRNOP00065004619; ENSRNOG00065004545.
+DR   GeneID; 501072; -.
+DR   KEGG; rno:501072; -.
+DR   UCSC; RGD:1562373; rat.
+DR   AGR; RGD:1562373; -.
+DR   CTD; 235674; -.
+DR   RGD; 1562373; Acaa1b.
+DR   GeneTree; ENSGT01030000234626; -.
+DR   InParanoid; P07871; -.
+DR   OMA; MDHLPGC; -.
+DR   OrthoDB; 5481312at2759; -.
+DR   PhylomeDB; P07871; -.
+DR   Reactome; R-RNO-2046106; alpha-linolenic acid (ALA) metabolism.
+DR   Reactome; R-RNO-390247; Beta-oxidation of very long chain fatty acids.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   Reactome; R-RNO-9033241; Peroxisomal protein import.
+DR   SABIO-RK; P07871; -.
+DR   UniPathway; UPA00661; -.
+DR   PRO; PR:P07871; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   GO; GO:0005777; C:peroxisome; IDA:UniProtKB.
+DR   GO; GO:0003985; F:acetyl-CoA C-acetyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003988; F:acetyl-CoA C-acyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0050633; F:acetyl-CoA C-myristoyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006635; P:fatty acid beta-oxidation; IBA:GO_Central.
+DR   GO; GO:0033540; P:fatty acid beta-oxidation using acyl-CoA oxidase; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0010124; P:phenylacetate catabolic process; IBA:GO_Central.
+DR   CDD; cd00751; thiolase; 1.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   InterPro; IPR002155; Thiolase.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   InterPro; IPR050215; Thiolase-like_sf_Thiolase.
+DR   InterPro; IPR020615; Thiolase_acyl_enz_int_AS.
+DR   InterPro; IPR020610; Thiolase_AS.
+DR   InterPro; IPR020617; Thiolase_C.
+DR   InterPro; IPR020613; Thiolase_CS.
+DR   InterPro; IPR020616; Thiolase_N.
+DR   NCBIfam; TIGR01930; AcCoA-C-Actrans; 1.
+DR   PANTHER; PTHR43853:SF17; 3-KETOACYL-COA THIOLASE B, PEROXISOMAL; 1.
+DR   PANTHER; PTHR43853; 3-KETOACYL-COA THIOLASE, PEROXISOMAL; 1.
+DR   Pfam; PF02803; Thiolase_C; 1.
+DR   Pfam; PF00108; Thiolase_N; 1.
+DR   PIRSF; PIRSF000429; Ac-CoA_Ac_transf; 1.
+DR   SUPFAM; SSF53901; Thiolase-like; 2.
+DR   PROSITE; PS00098; THIOLASE_1; 1.
+DR   PROSITE; PS00737; THIOLASE_2; 1.
+DR   PROSITE; PS00099; THIOLASE_3; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Acyltransferase; Fatty acid metabolism; Lipid metabolism;
+KW   Peroxisome; Reference proteome; Transferase; Transit peptide.
+FT   TRANSIT         1..26
+FT                   /note="Peroxisome"
+FT                   /evidence="ECO:0000269|PubMed:1680677"
+FT   CHAIN           27..424
+FT                   /note="3-ketoacyl-CoA thiolase B, peroxisomal"
+FT                   /id="PRO_0000034071"
+FT   REGION          1..26
+FT                   /note="PTS2-type peroxisomal targeting signal"
+FT                   /evidence="ECO:0000269|PubMed:1680677"
+FT   ACT_SITE        123
+FT                   /note="Acyl-thioester intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42765"
+FT   ACT_SITE        408
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P42765"
+FT   BINDING         249
+FT                   /ligand="CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57287"
+FT                   /evidence="ECO:0000250|UniProtKB:P42765"
+FT   BINDING         252
+FT                   /ligand="CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57287"
+FT                   /evidence="ECO:0000250|UniProtKB:P42765"
+FT   BINDING         276
+FT                   /ligand="CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57287"
+FT                   /evidence="ECO:0000250|UniProtKB:P42765"
+FT   SITE            377
+FT                   /note="Increases nucleophilicity of active site Cys"
+FT                   /evidence="ECO:0000250|UniProtKB:P42765"
+FT   MOD_RES         173
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VCH0"
+FT   MOD_RES         234
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q921H8"
+FT   CONFLICT        44
+FT                   /note="R -> Q (in Ref. 1; AAA41497)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        78
+FT                   /note="L -> P (in Ref. 1; AAA41497)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        359
+FT                   /note="L -> V (in Ref. 2; BAA14107)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   424 AA;  43820 MW;  E1D41A3C65477D77 CRC64;
+     MHRLQVVLGH LAGRSESSSA LQAAPCSAGF PQASASDVVV VHGRRTPIGR AGRGGFKDTT
+     PDELLSAVLT AVLQDVKLKP ECLGDISVGN VLQPGAGAAM ARIAQFLSGI PETVPLSAVN
+     RQCSSGLQAV ANIAGGIRNG SYDIGMACGV ESMTLSERGN PGNISSRLLE NEKARDCLIP
+     MGITSENVAE RFGISRQKQD AFALASQQKA ASAQSKGCFR AEIVPVTTTV LDDKGDRKTI
+     TVSQDEGVRP STTMEGLAKL KPAFKDGGST TAGNSSQVSD GAAAVLLARR SKAEELGLPI
+     LGVLRSYAVV GVPPDIMGIG PAYAIPAALQ KAGLTVNDID IFEINEAFAS QALYCVEKLG
+     IPAEKVNPLG GAIALGHPLG CTGARQVVTL LNELKRRGRR AYGVVSMCIG TGMGAAAVFE
+     YPGN
+//

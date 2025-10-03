@@ -1,0 +1,453 @@
+ID   SCNBA_RAT               Reviewed;        1765 AA.
+AC   O88457;
+DT   21-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   24-JAN-2024, entry version 141.
+DE   RecName: Full=Sodium channel protein type 11 subunit alpha {ECO:0000305};
+DE   AltName: Full=NaN {ECO:0000303|PubMed:9671787};
+DE   AltName: Full=Sensory neuron sodium channel 2 {ECO:0000303|PubMed:10196578};
+DE   AltName: Full=Sodium channel protein type XI subunit alpha;
+DE   AltName: Full=Voltage-gated sodium channel subunit alpha Nav1.9 {ECO:0000303|PubMed:11487631};
+GN   Name=Scn11a {ECO:0000312|RGD:3630};
+GN   Synonyms=Nan {ECO:0000303|PubMed:9671787},
+GN   Sns2 {ECO:0000303|PubMed:10196578};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND INDUCTION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal ganglion;
+RX   PubMed=9671787; DOI=10.1073/pnas.95.15.8963;
+RA   Dib-Hajj S.D., Tyrrell L., Black J.A., Waxman S.G.;
+RT   "NaN, a novel voltage-gated Na channel, is expressed preferentially in
+RT   peripheral sensory neurons and down-regulated after axotomy.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 95:8963-8968(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION IN VOLTAGE-EVOKED DEPOLARIZATION,
+RP   TRANSPORTER ACTIVITY, ACTIVITY REGULATION, SUBCELLULAR LOCATION, TISSUE
+RP   SPECIFICITY, AND INDUCTION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal ganglion;
+RX   PubMed=10196578; DOI=10.1038/3652;
+RA   Tate S.N., Benn S.C., Hick C.A., Trezise D., John V.H., Mannion R.J.,
+RA   Costigan M., Plumpton C., Grose D., Gladwell Z., Kendall G., Dale K.,
+RA   Bountra C., Woolf C.J.;
+RT   "Two sodium channels contribute to the TTX-R sodium current in primary
+RT   sensory neurons.";
+RL   Nat. Neurosci. 1:653-655(1998).
+RN   [3]
+RP   TISSUE SPECIFICITY, AND DEVELOPMENTAL STAGE.
+RX   PubMed=11487631; DOI=10.1523/jneurosci.21-16-06077.2001;
+RA   Benn S.C., Costigan M., Tate S., Fitzgerald M., Woolf C.J.;
+RT   "Developmental expression of the TTX-resistant voltage-gated sodium
+RT   channels Nav1.8 (SNS) and Nav1.9 (SNS2) in primary sensory neurons.";
+RL   J. Neurosci. 21:6077-6085(2001).
+RN   [4]
+RP   REVIEW.
+RX   PubMed=12536125; DOI=10.1016/s0166-2236(02)00030-9;
+RA   Delmas P., Coste B.;
+RT   "Na+ channel Nav1.9: in search of a gating mechanism.";
+RL   Trends Neurosci. 26:55-57(2003).
+CC   -!- FUNCTION: Sodium channel mediating the voltage-dependent sodium ion
+CC       permeability of excitable membranes. Assuming opened or closed
+CC       conformations in response to the voltage difference across the
+CC       membrane, the protein forms a sodium-selective channel through which
+CC       sodium ions may pass in accordance with their electrochemical gradient
+CC       (PubMed:10196578). Involved in membrane depolarization during action
+CC       potential in nociceptors which function as key relay stations for the
+CC       electrical transmission of pain signals from the periphery to the
+CC       central nervous system. Also involved in rapid BDNF-evoked neuronal
+CC       depolarization (By similarity). {ECO:0000250|UniProtKB:Q9UI33,
+CC       ECO:0000269|PubMed:10196578}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Na(+)(in) = Na(+)(out); Xref=Rhea:RHEA:34963,
+CC         ChEBI:CHEBI:29101; Evidence={ECO:0000269|PubMed:10196578};
+CC   -!- ACTIVITY REGULATION: Activity is not sensitive to inhibition by
+CC       tetrodotoxin. {ECO:0000269|PubMed:10196578}.
+CC   -!- SUBUNIT: The voltage-resistant sodium channel consists of an ion
+CC       conducting pore forming alpha-subunit regulated by one or more
+CC       auxiliary subunits SCN1B, SCN2B and SCN3B.
+CC       {ECO:0000250|UniProtKB:Q62968}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:10196578};
+CC       Multi-pass membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed (at protein level) in myenteric sensory
+CC       neurons. Expressed in small sensory neurons of the dorsal root ganglia
+CC       (C-fiber neurons) and trigeminal ganglia. {ECO:0000269|PubMed:10196578,
+CC       ECO:0000269|PubMed:11487631, ECO:0000269|PubMed:9671787}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed in dorsal root ganglia at 17 dpc
+CC       onwards. {ECO:0000269|PubMed:11487631}.
+CC   -!- INDUCTION: Down-regulated after axotomy and up-regulated following hind
+CC       paw inflammation. Down-regulated in vitro by electrical stimulation and
+CC       by deprivation of NGF. {ECO:0000269|PubMed:10196578,
+CC       ECO:0000269|PubMed:9671787}.
+CC   -!- DOMAIN: The sequence contains 4 internal repeats, each with 5
+CC       hydrophobic segments (S1, S2, S3, S5, S6) and one positively charged
+CC       segment (S4). Segments S4 are probably the voltage-sensors and are
+CC       characterized by a series of positively charged amino acids at every
+CC       third position. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the sodium channel (TC 1.A.1.10) family.
+CC       Nav1.9/SCN11A subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF059030; AAC40199.1; -; mRNA.
+DR   EMBL; AJ237852; CAB41850.1; -; mRNA.
+DR   PIR; T42388; T42388.
+DR   RefSeq; NP_062138.1; NM_019265.2.
+DR   AlphaFoldDB; O88457; -.
+DR   SMR; O88457; -.
+DR   CORUM; O88457; -.
+DR   STRING; 10116.ENSRNOP00000033224; -.
+DR   BindingDB; O88457; -.
+DR   ChEMBL; CHEMBL2629; -.
+DR   GuidetoPHARMACOLOGY; 586; -.
+DR   GlyCosmos; O88457; 10 sites, No reported glycans.
+DR   GlyGen; O88457; 10 sites.
+DR   iPTMnet; O88457; -.
+DR   PhosphoSitePlus; O88457; -.
+DR   PaxDb; 10116-ENSRNOP00000033224; -.
+DR   GeneID; 29701; -.
+DR   KEGG; rno:29701; -.
+DR   UCSC; RGD:3630; rat.
+DR   AGR; RGD:3630; -.
+DR   CTD; 11280; -.
+DR   RGD; 3630; Scn11a.
+DR   eggNOG; KOG2301; Eukaryota.
+DR   InParanoid; O88457; -.
+DR   OrthoDB; 1110761at2759; -.
+DR   PhylomeDB; O88457; -.
+DR   PRO; PR:O88457; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030424; C:axon; IDA:ARUK-UCL.
+DR   GO; GO:0044295; C:axonal growth cone; ISO:RGD.
+DR   GO; GO:0044299; C:C-fiber; ISO:RGD.
+DR   GO; GO:0044297; C:cell body; ISO:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0043025; C:neuronal cell body; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0042734; C:presynaptic membrane; IDA:SynGO.
+DR   GO; GO:0001518; C:voltage-gated sodium channel complex; IBA:GO_Central.
+DR   GO; GO:0005248; F:voltage-gated sodium channel activity; IDA:UniProtKB.
+DR   GO; GO:0001508; P:action potential; ISO:RGD.
+DR   GO; GO:0099610; P:action potential initiation; ISO:RGD.
+DR   GO; GO:0002526; P:acute inflammatory response; ISO:RGD.
+DR   GO; GO:0060840; P:artery development; ISO:RGD.
+DR   GO; GO:0007409; P:axonogenesis; ISO:RGD.
+DR   GO; GO:0061367; P:behavioral response to acetic acid induced pain; ISO:RGD.
+DR   GO; GO:0061368; P:behavioral response to formalin induced pain; ISO:RGD.
+DR   GO; GO:0048266; P:behavioral response to pain; ISO:RGD.
+DR   GO; GO:1990408; P:calcitonin gene-related peptide receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0070588; P:calcium ion transmembrane transport; ISO:RGD.
+DR   GO; GO:0048870; P:cell motility; ISO:RGD.
+DR   GO; GO:0070417; P:cellular response to cold; ISO:RGD.
+DR   GO; GO:0007635; P:chemosensory behavior; ISO:RGD.
+DR   GO; GO:0002544; P:chronic inflammatory response; ISO:RGD.
+DR   GO; GO:0007623; P:circadian rhythm; ISO:RGD.
+DR   GO; GO:0050974; P:detection of mechanical stimulus involved in sensory perception; ISO:RGD.
+DR   GO; GO:0050966; P:detection of mechanical stimulus involved in sensory perception of pain; ISO:RGD.
+DR   GO; GO:0050965; P:detection of temperature stimulus involved in sensory perception of pain; ISO:RGD.
+DR   GO; GO:0051649; P:establishment of localization in cell; ISO:RGD.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0006954; P:inflammatory response; ISO:RGD.
+DR   GO; GO:0043303; P:mast cell degranulation; ISO:RGD.
+DR   GO; GO:0086010; P:membrane depolarization during action potential; IDA:UniProtKB.
+DR   GO; GO:0060073; P:micturition; ISO:RGD.
+DR   GO; GO:0019228; P:neuronal action potential; ISO:RGD.
+DR   GO; GO:0021554; P:optic nerve development; IEP:RGD.
+DR   GO; GO:0010737; P:protein kinase A signaling; ISO:RGD.
+DR   GO; GO:0060004; P:reflex; ISO:RGD.
+DR   GO; GO:0042391; P:regulation of membrane potential; ISO:RGD.
+DR   GO; GO:0010996; P:response to auditory stimulus; ISO:RGD.
+DR   GO; GO:0009409; P:response to cold; ISO:RGD.
+DR   GO; GO:0009408; P:response to heat; ISO:RGD.
+DR   GO; GO:0009644; P:response to high light intensity; ISO:RGD.
+DR   GO; GO:0071731; P:response to nitric oxide; ISO:RGD.
+DR   GO; GO:0048265; P:response to pain; ISO:RGD.
+DR   GO; GO:0034695; P:response to prostaglandin E; ISO:RGD.
+DR   GO; GO:0009636; P:response to toxic substance; ISO:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; ISO:RGD.
+DR   GO; GO:0160025; P:sensory perception of itch; ISO:RGD.
+DR   GO; GO:0019233; P:sensory perception of pain; ISS:UniProtKB.
+DR   GO; GO:0060538; P:skeletal muscle organ development; ISO:RGD.
+DR   GO; GO:1990770; P:small intestine smooth muscle contraction; ISO:RGD.
+DR   GO; GO:0035725; P:sodium ion transmembrane transport; ISO:RGD.
+DR   GO; GO:0006814; P:sodium ion transport; ISO:RGD.
+DR   GO; GO:0040040; P:thermosensory behavior; ISO:RGD.
+DR   GO; GO:0001966; P:thigmotaxis; ISO:RGD.
+DR   GO; GO:0019226; P:transmission of nerve impulse; ISO:RGD.
+DR   CDD; cd13433; Na_channel_gate; 1.
+DR   Gene3D; 1.10.287.70; -; 4.
+DR   Gene3D; 1.10.238.10; EF-hand; 1.
+DR   Gene3D; 1.20.5.1190; iswi atpase; 1.
+DR   Gene3D; 1.20.120.350; Voltage-gated potassium channels. Chain C; 4.
+DR   InterPro; IPR005821; Ion_trans_dom.
+DR   InterPro; IPR001696; Na_channel_asu.
+DR   InterPro; IPR044564; Na_chnl_inactivation_gate.
+DR   InterPro; IPR010526; Na_trans_assoc_dom.
+DR   InterPro; IPR043203; VGCC_Ca_Na.
+DR   InterPro; IPR027359; Volt_channel_dom_sf.
+DR   PANTHER; PTHR10037:SF210; SODIUM CHANNEL PROTEIN TYPE 11 SUBUNIT ALPHA; 1.
+DR   PANTHER; PTHR10037; VOLTAGE-GATED CATION CHANNEL CALCIUM AND SODIUM; 1.
+DR   Pfam; PF00520; Ion_trans; 4.
+DR   Pfam; PF06512; Na_trans_assoc; 1.
+DR   PRINTS; PR00170; NACHANNEL.
+DR   SUPFAM; SSF81324; Voltage-gated potassium channels; 4.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Disulfide bond; Glycoprotein; Ion channel; Ion transport;
+KW   Membrane; Reference proteome; Repeat; Sodium; Sodium channel;
+KW   Sodium transport; Transmembrane; Transmembrane helix; Transport;
+KW   Voltage-gated channel.
+FT   CHAIN           1..1765
+FT                   /note="Sodium channel protein type 11 subunit alpha"
+FT                   /id="PRO_0000048512"
+FT   TOPO_DOM        1..126
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        127..148
+FT                   /note="Helical; Name=S1 of repeat I"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        149..157
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        158..177
+FT                   /note="Helical; Name=S2 of repeat I"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        178..189
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        190..209
+FT                   /note="Helical; Name=S3 of repeat I"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        210..216
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        217..236
+FT                   /note="Helical; Voltage-sensor; Name=S4 of repeat I"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        237..252
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        253..266
+FT                   /note="Helical; Name=S5 of repeat I"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        267..339
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   INTRAMEM        340..364
+FT                   /note="Pore-forming"
+FT                   /evidence="ECO:0000250|UniProtKB:D0E0C2"
+FT   TOPO_DOM        365..371
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        372..397
+FT                   /note="Helical; Name=S6 of repeat I"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        398..567
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        568..591
+FT                   /note="Helical; Name=S1 of repeat II"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        592..602
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        603..626
+FT                   /note="Helical; Name=S2 of repeat II"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        627..634
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        635..656
+FT                   /note="Helical; Name=S3 of repeat II"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        657..662
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        663..682
+FT                   /note="Helical; Voltage-sensor; Name=S4 of repeat II"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        683..697
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        698..720
+FT                   /note="Helical; Name=S5 of repeat II"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        721..741
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   INTRAMEM        742..762
+FT                   /note="Pore-forming"
+FT                   /evidence="ECO:0000250|UniProtKB:D0E0C2"
+FT   TOPO_DOM        763..772
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        773..798
+FT                   /note="Helical; Name=S6 of repeat II"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        799..1029
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1030..1052
+FT                   /note="Helical; Name=S1 of repeat III"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1053..1066
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1067..1092
+FT                   /note="Helical; Name=S2 of repeat III"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1093..1098
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1099..1116
+FT                   /note="Helical; Name=S3 of repeat III"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1117
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1118..1139
+FT                   /note="Helical; Voltage-sensor; Name=S4 of repeat III"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1140..1158
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1159..1180
+FT                   /note="Helical; Name=S5 of repeat III"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1181..1223
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   INTRAMEM        1224..1245
+FT                   /note="Pore-forming"
+FT                   /evidence="ECO:0000250|UniProtKB:D0E0C2"
+FT   TOPO_DOM        1246..1261
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1262..1288
+FT                   /note="Helical; Name=S6 of repeat III"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1289..1341
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1342..1365
+FT                   /note="Helical; Name=S1 of repeat IV"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1366..1376
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1377..1400
+FT                   /note="Helical; Name=S2 of repeat IV"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1401..1406
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1407..1430
+FT                   /note="Helical; Name=S3 of repeat IV"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1431..1440
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1441..1463
+FT                   /note="Helical; Voltage-sensor; Name=S4 of repeat IV"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1464..1478
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1479..1501
+FT                   /note="Helical; Name=S5 of repeat IV"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1502..1515
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   INTRAMEM        1516..1538
+FT                   /note="Pore-forming"
+FT                   /evidence="ECO:0000250|UniProtKB:D0E0C2"
+FT   TOPO_DOM        1539..1559
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        1560..1584
+FT                   /note="Helical; Name=S6 of repeat IV"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        1585..1765
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          115..403
+FT                   /note="I"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          554..820
+FT                   /note="II"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          1022..1319
+FT                   /note="III"
+FT                   /evidence="ECO:0000305"
+FT   REPEAT          1328..1619
+FT                   /note="IV"
+FT                   /evidence="ECO:0000305"
+FT   CARBOHYD        214
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        319
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        333
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        660
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        723
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1187
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1202
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1207
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1210
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1547
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        280..317
+FT                   /evidence="ECO:0000250|UniProtKB:D0E0C2"
+FT   DISULFID        764..774
+FT                   /evidence="ECO:0000250|UniProtKB:D0E0C2"
+SQ   SEQUENCE   1765 AA;  201845 MW;  AE8C67397CC60BD9 CRC64;
+     MEERYYPVIF PDERNFRPFT SDSLAAIEKR IAIQKERKKS KDKAAAEPQP RPQLDLKASR
+     KLPKLYGDIP PELVAKPLED LDPFYKDHKT FMVLNKKRTI YRFSAKRALF ILGPFNPLRS
+     LMIRISVHSV FSMFIICTVI INCMFMANSM ERSFDNDIPE YVFIGIYILE AVIKILARGF
+     IVDEFSFLRD PWNWLDFIVI GTAIATCFPG SQVNLSALRT FRVFRALKAI SVISGLKVIV
+     GALLRSVKKL VDVMVLTLFC LSIFALVGQQ LFMGILNQKC IKHNCGPNPA SNKDCFEKEK
+     DSEDFIMCGT WLGSRPCPNG STCDKTTLNP DNNYTKFDNF GWSFLAMFRV MTQDSWERLY
+     RQILRTSGIY FVFFFVVVIF LGSFYLLNLT LAVVTMAYEE QNRNVAAETE AKEKMFQEAQ
+     QLLREEKEAL VAMGIDRSSL NSLQASSFSP KKRKFFGSKT RKSFFMRGSK TAQASASDSE
+     DDASKNPQLL EQTKRLSQNL PVDLFDEHVD PLHRQRALSA VSILTITMQE QEKFQEPCFP
+     CGKNLASKYL VWDCSPQWLC IKKVLRTIMT DPFTELAITI CIIINTVFLA VEHHNMDDNL
+     KTILKIGNWV FTGIFIAEMC LKIIALDPYH YFRHGWNVFD SIVALLSLAD VLYNTLSDNN
+     RSFLASLRVL RVFKLAKSWP TLNTLIKIIG HSVGALGNLT VVLTIVVFIF SVVGMRLFGT
+     KFNKTAYATQ ERPRRRWHMD NFYHSFLVVF RILCGEWIEN MWGCMQDMDG SPLCIIVFVL
+     IMVIGKLVVL NLFIALLLNS FSNEEKDGSL EGETRKTKVQ LALDRFRRAF SFMLHALQSF
+     CCKKCRRKNS PKPKETTESF AGENKDSILP DARPWKEYDT DMALYTGQAG APLAPLAEVE
+     DDVEYCGEGG ALPTSQHSAG VQAGDLPPET KQLTSPDDQG VEMEVFSEED LHLSIQSPRK
+     KSDAVSMLSE CSTIDLNDIF RNLQKTVSPK KQPDRCFPKG LSCHFLCHKT DKRKSPWVLW
+     WNIRKTCYQI VKHSWFESFI IFVILLSSGA LIFEDVNLPS RPQVEKLLRC TDNIFTFIFL
+     LEMILKWVAF GFRRYFTSAW CWLDFLIVVV SVLSLMNLPS LKSFRTLRAL RPLRALSQFE
+     GMKVVVYALI SAIPAILNVL LVCLIFWLVF CILGVNLFSG KFGRCINGTD INMYLDFTEV
+     PNRSQCNISN YSWKVPQVNF DNVGNAYLAL LQVATYKGWL EIMNAAVDSR EKDEQPDFEA
+     NLYAYLYFVV FIIFGSFFTL NLFIGVIIDN FNQQQKKLGG QDIFMTEEQK KYYNAMKKLG
+     TKKPQKPIPR PLNKCQAFVF DLVTSQVFDV IILGLIVLNM IIMMAESADQ PKDVKKTFDI
+     LNIAFVVIFT IECLIKVFAL RQHYFTNGWN LFDCVVVVLS IISTLVSRLE DSDISFPPTL
+     FRVVRLARIG RILRLVRAAR GIRTLLFALM MSLPSLFNIG LLLFLVMFIY AIFGMSWFSK
+     VKKGSGIDDI FNFETFTGSM LCLFQITTSA GWDTLLNPML EAKEHCNSSS QDSCQQPQIA
+     VVYFVSYIII SFLIVVNMYI AVILENFNTA TEESEDPLGE DDFEIFYEVW EKFDPEASQF
+     IQYSALSDFA DALPEPLRVA KPNKFQFLVM DLPMVMGDRL HCMDVLFAFT TRVLGDSSGL
+     DTMKTMMEEK FMEANPFKKL YEPIVTTTKR KEEEQGAAVI QRAYRKHMEK MVKLRLKDRS
+     SSSHQVFCNG DLSSLDVAKV KVHND
+//

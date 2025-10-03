@@ -1,0 +1,102 @@
+ID   TI17A_RAT               Reviewed;         171 AA.
+AC   O35092;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   29-MAY-2024, entry version 143.
+DE   RecName: Full=Mitochondrial import inner membrane translocase subunit Tim17-A;
+DE   AltName: Full=Inner membrane preprotein translocase Tim17a;
+GN   Name=Timm17a; Synonyms=Mimt17, Tim17, Tim17a, Timm17;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=9538267; DOI=10.1093/oxfordjournals.jbchem.a021997;
+RA   Ishihara N., Mihara K.;
+RT   "Identification of the protein import components of the rat mitochondrial
+RT   inner membrane, rTIM17, rTIM23, and rTIM44.";
+RL   J. Biochem. 123:722-732(1998).
+CC   -!- FUNCTION: Essential component of the TIM23 complex, a complex that
+CC       mediates the translocation of transit peptide-containing proteins
+CC       across the mitochondrial inner membrane.
+CC       {ECO:0000250|UniProtKB:Q99595}.
+CC   -!- SUBUNIT: Component of the TIM23 complex at least composed of TIMM23,
+CC       TIMM17 (TIMM17A or TIMM17B) and TIMM50. The complex interacts with the
+CC       TIMM44 component of the PAM complex and with DNAJC15.
+CC       {ECO:0000250|UniProtKB:Q99595}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000250|UniProtKB:Q99595}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- PTM: Degraded by YMEL1 downstream of the integrated stress response
+CC       (ISR). {ECO:0000250|UniProtKB:Q99595}.
+CC   -!- SIMILARITY: Belongs to the Tim17/Tim22/Tim23 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB006450; BAA21818.1; -; mRNA.
+DR   PIR; JE0153; JE0153.
+DR   RefSeq; NP_062224.1; NM_019351.1.
+DR   AlphaFoldDB; O35092; -.
+DR   SMR; O35092; -.
+DR   CORUM; O35092; -.
+DR   STRING; 10116.ENSRNOP00000009398; -.
+DR   PhosphoSitePlus; O35092; -.
+DR   jPOST; O35092; -.
+DR   PaxDb; 10116-ENSRNOP00000009398; -.
+DR   GeneID; 54311; -.
+DR   KEGG; rno:54311; -.
+DR   UCSC; RGD:3862; rat.
+DR   AGR; RGD:3862; -.
+DR   CTD; 10440; -.
+DR   RGD; 3862; Timm17a.
+DR   VEuPathDB; HostDB:ENSRNOG00000007040; -.
+DR   eggNOG; KOG1652; Eukaryota.
+DR   HOGENOM; CLU_087811_1_1_1; -.
+DR   InParanoid; O35092; -.
+DR   OrthoDB; 179242at2759; -.
+DR   PhylomeDB; O35092; -.
+DR   TreeFam; TF106195; -.
+DR   PRO; PR:O35092; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000007040; Expressed in heart and 20 other cell types or tissues.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IDA:RGD.
+DR   GO; GO:0005744; C:TIM23 mitochondrial import inner membrane translocase complex; ISO:RGD.
+DR   GO; GO:0008320; F:protein transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0010954; P:positive regulation of protein processing; IMP:RGD.
+DR   GO; GO:0030150; P:protein import into mitochondrial matrix; IBA:GO_Central.
+DR   InterPro; IPR005678; Tim17.
+DR   NCBIfam; TIGR00980; 3a0801so1tim17; 1.
+DR   PANTHER; PTHR10485; MITOCHONDRIAL IMPORT INNER MEMBRANE TRANSLOCASE SUBUNIT TIM-17; 1.
+DR   PANTHER; PTHR10485:SF1; MITOCHONDRIAL IMPORT INNER MEMBRANE TRANSLOCASE SUBUNIT TIM17-A; 1.
+DR   Pfam; PF02466; Tim17; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Membrane; Mitochondrion; Mitochondrion inner membrane;
+KW   Protein transport; Reference proteome; Translocation; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..171
+FT                   /note="Mitochondrial import inner membrane translocase
+FT                   subunit Tim17-A"
+FT                   /id="PRO_0000210286"
+FT   TRANSMEM        17..37
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        63..77
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        113..133
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   REGION          147..171
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   DISULFID        9..78
+FT                   /evidence="ECO:0000250|UniProtKB:P39515"
+SQ   SEQUENCE   171 AA;  18038 MW;  4873D1282A2469CC CRC64;
+     MEEYAREPCP WRIVDDCGGA FTMGTIGGGI FQAFKGFRNS PVGVNHRLRG SLTAIKTRAP
+     QLGGSFAVWG GLFSTIDCGM VQIRGKEDPW NSITSGALTG AILAARNGPV AMVGSAAMGG
+     ILLALIEGAG ILLTRFASAQ FPNGPQFAED HSQLPSSQLP SSPFGDYRQY Q
+//

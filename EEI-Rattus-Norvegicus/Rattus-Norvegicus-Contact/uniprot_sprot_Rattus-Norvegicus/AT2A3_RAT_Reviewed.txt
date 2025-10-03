@@ -1,0 +1,399 @@
+ID   AT2A3_RAT               Reviewed;         999 AA.
+AC   P18596; Q8R5I9;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   02-DEC-2020, sequence version 3.
+DT   02-OCT-2024, entry version 189.
+DE   RecName: Full=Sarcoplasmic/endoplasmic reticulum calcium ATPase 3;
+DE            Short=SERCA3;
+DE            Short=SR Ca(2+)-ATPase 3;
+DE            EC=7.2.2.10;
+DE   AltName: Full=Calcium pump 3;
+GN   Name=Atp2a3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM SERCA3A), CHARACTERIZATION, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Kidney;
+RX   PubMed=2553713; DOI=10.1016/s0021-9258(18)51504-0;
+RA   Burk S.E., Lytton J., McLennan D.H., Shull G.E.;
+RT   "cDNA cloning, functional expression, and mRNA tissue distribution of a
+RT   third organellar Ca2+ pump.";
+RL   J. Biol. Chem. 264:18561-18568(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 869-999 (ISOFORM SERCA3BC), FUNCTION, TISSUE
+RP   SPECIFICITY, AND INDUCTION.
+RC   STRAIN=Wistar Kyoto;
+RX   PubMed=10642281; DOI=10.1161/01.hyp.35.1.91;
+RA   Martin V., Bredoux R., Corvazier E., Papp B., Enouf J.;
+RT   "Platelet Ca(2+)ATPases: a plural, species-specific, and multiple
+RT   hypertension-regulated expression system.";
+RL   Hypertension 35:91-102(2000).
+CC   -!- FUNCTION: This magnesium-dependent enzyme catalyzes the hydrolysis of
+CC       ATP coupled with the transport of the calcium. Transports calcium ions
+CC       from the cytosol into the sarcoplasmic/endoplasmic reticulum lumen.
+CC       Contributes to calcium sequestration involved in muscular
+CC       excitation/contraction. {ECO:0000269|PubMed:10642281}.
+CC   -!- FUNCTION: This magnesium-dependent enzyme catalyzes the hydrolysis of
+CC       ATP coupled with the transport of calcium. Transports calcium ions from
+CC       the cytosol into the sarcoplasmic/endoplasmic reticulum lumen.
+CC       Contributes to calcium sequestration involved in muscular
+CC       excitation/contraction. {ECO:0000250|UniProtKB:Q93084}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + Ca(2+)(in) + H2O = ADP + Ca(2+)(out) + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:18105, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29108, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:456216; EC=7.2.2.10;
+CC         Evidence={ECO:0000250|UniProtKB:Q93084};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:18106;
+CC         Evidence={ECO:0000250|UniProtKB:Q93084};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P04191};
+CC   -!- ACTIVITY REGULATION: Inhibited by sarcolipin (SLN), phospholamban (PLN)
+CC       and myoregulin (MRLN) (By similarity). Enhanced by DWORF; DWORF
+CC       increases activity by displacing sarcolipin (SLN), phospholamban (PLN)
+CC       and myoregulin (MRLN) (By similarity). {ECO:0000250|UniProtKB:P04191,
+CC       ECO:0000250|UniProtKB:Q8R429}.
+CC   -!- SUBUNIT: Interacts with sarcolipin (SLN) (By similarity). Interacts
+CC       with phospholamban (PLN) (By similarity). Interacts with myoregulin
+CC       (MRLN). Interacts with DWORF (By similarity). Interacts with VMP1 (By
+CC       similarity). Interacts with TUNAR; the interaction occurs at low levels
+CC       in low glucose conditions and is increased by high glucose levels (By
+CC       similarity). {ECO:0000250|UniProtKB:P04191,
+CC       ECO:0000250|UniProtKB:Q8R429, ECO:0000250|UniProtKB:Q93084}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q93084}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:Q93084}. Sarcoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q93084}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:Q93084}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=SERCA3A;
+CC         IsoId=P18596-2; Sequence=Displayed;
+CC       Name=SERCA3BC;
+CC         IsoId=P18596-1; Sequence=VSP_060852;
+CC   -!- TISSUE SPECIFICITY: Found in most tissues. Most abundant in large and
+CC       small intestine, spleen and lung. Also detected in PC12 cells.
+CC       {ECO:0000269|PubMed:10642281, ECO:0000269|PubMed:2553713}.
+CC   -!- INDUCTION: [Isoform SERCA3BC]: Down-regulated in all tissues except
+CC       pancreas in a rat hypertension model. {ECO:0000269|PubMed:10642281}.
+CC   -!- SIMILARITY: Belongs to the cation transport ATPase (P-type) (TC 3.A.3)
+CC       family. Type IIA subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M30581; AAA42131.1; -; mRNA.
+DR   EMBL; AF458230; AAL78969.1; -; mRNA.
+DR   PIR; A34307; A34307.
+DR   RefSeq; NP_037046.1; NM_012914.1. [P18596-2]
+DR   AlphaFoldDB; P18596; -.
+DR   SMR; P18596; -.
+DR   BioGRID; 247429; 3.
+DR   IntAct; P18596; 1.
+DR   STRING; 10116.ENSRNOP00000060212; -.
+DR   iPTMnet; P18596; -.
+DR   PhosphoSitePlus; P18596; -.
+DR   jPOST; P18596; -.
+DR   PaxDb; 10116-ENSRNOP00000060212; -.
+DR   GeneID; 25391; -.
+DR   KEGG; rno:25391; -.
+DR   AGR; RGD:2175; -.
+DR   CTD; 489; -.
+DR   RGD; 2175; Atp2a3.
+DR   eggNOG; KOG0202; Eukaryota.
+DR   InParanoid; P18596; -.
+DR   OrthoDB; 203629at2759; -.
+DR   Reactome; R-RNO-418359; Reduction of cytosolic Ca++ levels.
+DR   Reactome; R-RNO-5578775; Ion homeostasis.
+DR   Reactome; R-RNO-936837; Ion transport by P-type ATPases.
+DR   PRO; PR:P18596; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0031090; C:organelle membrane; ISO:RGD.
+DR   GO; GO:0016529; C:sarcoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0033017; C:sarcoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0015085; F:calcium ion transmembrane transporter activity; IDA:ARUK-UCL.
+DR   GO; GO:0030899; F:calcium-dependent ATPase activity; IDA:ARUK-UCL.
+DR   GO; GO:0008656; F:cysteine-type endopeptidase activator activity involved in apoptotic process; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005388; F:P-type calcium transporter activity; IDA:ARUK-UCL.
+DR   GO; GO:0044325; F:transmembrane transporter binding; ISO:RGD.
+DR   GO; GO:0070588; P:calcium ion transmembrane transport; IDA:ARUK-UCL.
+DR   GO; GO:1903515; P:calcium ion transport from cytosol to endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0032469; P:endoplasmic reticulum calcium ion homeostasis; IDA:RGD.
+DR   GO; GO:0006874; P:intracellular calcium ion homeostasis; ISO:RGD.
+DR   GO; GO:0070059; P:intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress; ISO:RGD.
+DR   GO; GO:0097421; P:liver regeneration; IEP:RGD.
+DR   CDD; cd02083; P-type_ATPase_SERCA; 1.
+DR   Gene3D; 3.40.1110.10; Calcium-transporting ATPase, cytoplasmic domain N; 1.
+DR   Gene3D; 2.70.150.10; Calcium-transporting ATPase, cytoplasmic transduction domain A; 1.
+DR   Gene3D; 1.20.1110.10; Calcium-transporting ATPase, transmembrane domain; 1.
+DR   Gene3D; 3.40.50.1000; HAD superfamily/HAD-like; 1.
+DR   InterPro; IPR006068; ATPase_P-typ_cation-transptr_C.
+DR   InterPro; IPR004014; ATPase_P-typ_cation-transptr_N.
+DR   InterPro; IPR023299; ATPase_P-typ_cyto_dom_N.
+DR   InterPro; IPR018303; ATPase_P-typ_P_site.
+DR   InterPro; IPR023298; ATPase_P-typ_TM_dom_sf.
+DR   InterPro; IPR008250; ATPase_P-typ_transduc_dom_A_sf.
+DR   InterPro; IPR036412; HAD-like_sf.
+DR   InterPro; IPR023214; HAD_sf.
+DR   InterPro; IPR005782; P-type_ATPase_IIA.
+DR   InterPro; IPR001757; P_typ_ATPase.
+DR   InterPro; IPR044492; P_typ_ATPase_HD_dom.
+DR   NCBIfam; TIGR01116; ATPase-IIA1_Ca; 1.
+DR   NCBIfam; TIGR01494; ATPase_P-type; 2.
+DR   PANTHER; PTHR42861; CALCIUM-TRANSPORTING ATPASE; 1.
+DR   PANTHER; PTHR42861:SF6; SARCOPLASMIC_ENDOPLASMIC RETICULUM CALCIUM ATPASE 3; 1.
+DR   Pfam; PF13246; Cation_ATPase; 1.
+DR   Pfam; PF00689; Cation_ATPase_C; 1.
+DR   Pfam; PF00690; Cation_ATPase_N; 1.
+DR   Pfam; PF00122; E1-E2_ATPase; 1.
+DR   Pfam; PF00702; Hydrolase; 1.
+DR   PRINTS; PR00119; CATATPASE.
+DR   SFLD; SFLDG00002; C1.7:_P-type_atpase_like; 1.
+DR   SFLD; SFLDF00027; p-type_atpase; 1.
+DR   SMART; SM00831; Cation_ATPase_N; 1.
+DR   SUPFAM; SSF81653; Calcium ATPase, transduction domain A; 1.
+DR   SUPFAM; SSF81665; Calcium ATPase, transmembrane domain M; 1.
+DR   SUPFAM; SSF56784; HAD-like; 1.
+DR   SUPFAM; SSF81660; Metal cation-transporting ATPase, ATP-binding domain N; 1.
+DR   PROSITE; PS00154; ATPASE_E1_E2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Alternative splicing; ATP-binding; Calcium; Calcium transport;
+KW   Endoplasmic reticulum; Ion transport; Magnesium; Membrane; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Reference proteome;
+KW   Sarcoplasmic reticulum; Translocase; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..999
+FT                   /note="Sarcoplasmic/endoplasmic reticulum calcium ATPase 3"
+FT                   /id="PRO_0000046205"
+FT   TOPO_DOM        1..48
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TRANSMEM        49..69
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TOPO_DOM        70..89
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TRANSMEM        90..110
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TOPO_DOM        111..253
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TRANSMEM        254..273
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TOPO_DOM        274..295
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TRANSMEM        296..313
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TOPO_DOM        314..757
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TRANSMEM        758..777
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TOPO_DOM        778..787
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TRANSMEM        788..808
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TOPO_DOM        809..828
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TRANSMEM        829..851
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TOPO_DOM        852..897
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TRANSMEM        898..917
+FT                   /note="Helical; Name=8"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TOPO_DOM        918..930
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TRANSMEM        931..949
+FT                   /note="Helical; Name=9"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TOPO_DOM        950..964
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TRANSMEM        965..985
+FT                   /note="Helical; Name=10"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   TOPO_DOM        986..999
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   REGION          370..400
+FT                   /note="Interaction with phospholamban 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   REGION          788..808
+FT                   /note="Interaction with phospholamban 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   ACT_SITE        351
+FT                   /note="4-aspartylphosphate intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         304
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         305
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         307
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         309
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         351
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         353
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         353
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         442
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         489
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         515
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         560
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         625
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         626
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         627
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         678
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         684
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         703
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         706
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         768
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         771
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         796
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         799
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         800
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         800
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   BINDING         908
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P04191"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q93084"
+FT   MOD_RES         17
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q64518"
+FT   MOD_RES         19
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q64518"
+FT   MOD_RES         415
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q64518"
+FT   MOD_RES         662
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q93084"
+FT   VAR_SEQ         994..999
+FT                   /note="EKKDLK -> GVLETFMQAWCKQPLPGPHTTRGWLPGCHFNGWEQTEEFVFI
+FT                   QERWTVSGLGPEKKARERLGLVSAAS (in isoform SERCA3BC)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_060852"
+SQ   SEQUENCE   999 AA;  109359 MW;  8A6AEE29021AA379 CRC64;
+     MEEAHLLSAA DVLRRFSVTA EGGLTLEQVT DARERYGPNE LPTEEGKSLW ELVVEQFEDL
+     LVRILLLAAL VSFVLAWFEE GEETTTAFVE PLVIMLILVA NAIVGVWQER NAESAIEALK
+     EYEPEMGKVI RSDRKGVQRI RARDIVPGDI VEVAVGDKVP ADLRLIEIKS TTLRVDQSIL
+     TGESVSVTKH TDAIPDPRAV NQDKKNMLFS GTNIASGKAL GVAVATGLHT ELGKIRSQMA
+     AVEPERTPLQ RKLDEFGRQL SHAISVICVA VWVINIGHFA DPAHGGSWLR GAVYYFKIAV
+     ALAVAAIPEG LPAVITTCLA LGTRRMARKN AIVRSLPSVE TLGCTSVICS DKTGTLTTNQ
+     MSVCRMFVVA EAEAGACRLH EFTISGTTYT PEGEVRQGEQ LVRCGQFDGL VELATICALC
+     NDSALDYNEA KGVYEKVGEA TETALTCLVE KMNVFDTDLK GLSRVERAGA CNSVIKQLMQ
+     KEFTLEFSRD RKSMSVYCTP TRADPKAQGS KMFVKGAPES VIERCSSVRV GSRTVPLSAT
+     SREHILAKIR DWGSGSHTLR CLALATRDTP PRKEDMQLDD CSQFVQYETG LTFVGCVGML
+     DPPRPEVAAC ITRCSRAGIR VVMITGDNKG TAVAICRRLG IFGDTEDVLG KAYTGREFDD
+     LSPEQQRQAC RTARCFARVE PAHKSRIVEN LQSFNEITAM TGDGVNDAPA LKKAEIGIAM
+     GSGTAVAKSA AEMVLSDDNF ASIVAAVEEG RAIYNNMKQF IRYLISSNVG EVVCIFLTAI
+     LGLPEALIPV QLLWVNLVTD GLPATALGFN PPDLDIMEKL PRNPREALIS GWLFFRYLAI
+     GVYVGLATVA AATWWFLYDA EGPQVTFHQL RNFLKCSEDN PLFAGIDCEV FESRFPTTMA
+     LSVLVTIEMC NALNSVSENQ SLLRMPPWLN PWLLGAVVMS MALHFLILLV PPLPLIFQVT
+     PLSGRQWGVV LQMSLPVILL DEALKYLSRH HVDEKKDLK
+//

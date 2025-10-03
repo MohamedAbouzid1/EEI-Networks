@@ -1,0 +1,225 @@
+ID   SCLY_RAT                Reviewed;         432 AA.
+AC   Q68FT9;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   29-MAY-2024, entry version 127.
+DE   RecName: Full=Selenocysteine lyase {ECO:0000305};
+DE            EC=4.4.1.16 {ECO:0000269|PubMed:20164179};
+GN   Name=Scly;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.55 ANGSTROMS) IN COMPLEX WITH PYRIDOXAL-PHOSPHATE,
+RP   COFACTOR, SUBUNIT, ACTIVE SITE, BIOPHYSICOCHEMICAL PROPERTIES, FUNCTION,
+RP   CATALYTIC ACTIVITY, AND MUTAGENESIS OF CYS-375.
+RX   PubMed=20164179; DOI=10.1074/jbc.m109.084475;
+RA   Omi R., Kurokawa S., Mihara H., Hayashi H., Goto M., Miyahara I.,
+RA   Kurihara T., Hirotsu K., Esaki N.;
+RT   "Reaction mechanism and molecular basis for selenium/sulfur discrimination
+RT   of selenocysteine lyase.";
+RL   J. Biol. Chem. 285:12133-12139(2010).
+CC   -!- FUNCTION: Catalyzes the decomposition of L-selenocysteine to L-alanine
+CC       and elemental selenium. {ECO:0000269|PubMed:20164179}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AH2 + L-selenocysteine = A + H(+) + hydrogenselenide + L-
+CC         alanine; Xref=Rhea:RHEA:11632, ChEBI:CHEBI:13193, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17499, ChEBI:CHEBI:29317, ChEBI:CHEBI:57843,
+CC         ChEBI:CHEBI:57972; EC=4.4.1.16;
+CC         Evidence={ECO:0000269|PubMed:20164179};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:11633;
+CC         Evidence={ECO:0000305|PubMed:20164179};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000269|PubMed:20164179};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=5.5 mM for L-selenocysteine {ECO:0000269|PubMed:20164179};
+CC         Vmax=26 umol/min/mg enzyme {ECO:0000269|PubMed:20164179};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:20164179}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:Q9JLI6}.
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079358; AAH79358.1; -; mRNA.
+DR   RefSeq; NP_001007756.1; NM_001007755.1.
+DR   PDB; 3A9X; X-ray; 2.00 A; A/B=1-432.
+DR   PDB; 3A9Y; X-ray; 1.85 A; A/B=1-432.
+DR   PDB; 3A9Z; X-ray; 1.55 A; A/B=1-432.
+DR   PDBsum; 3A9X; -.
+DR   PDBsum; 3A9Y; -.
+DR   PDBsum; 3A9Z; -.
+DR   AlphaFoldDB; Q68FT9; -.
+DR   SMR; Q68FT9; -.
+DR   STRING; 10116.ENSRNOP00000027220; -.
+DR   PhosphoSitePlus; Q68FT9; -.
+DR   PaxDb; 10116-ENSRNOP00000027220; -.
+DR   Ensembl; ENSRNOT00000027220.6; ENSRNOP00000027220.4; ENSRNOG00000020083.6.
+DR   Ensembl; ENSRNOT00055017975; ENSRNOP00055014469; ENSRNOG00055010604.
+DR   Ensembl; ENSRNOT00060018204; ENSRNOP00060014170; ENSRNOG00060010732.
+DR   Ensembl; ENSRNOT00065035352; ENSRNOP00065028462; ENSRNOG00065020820.
+DR   GeneID; 363285; -.
+DR   KEGG; rno:363285; -.
+DR   UCSC; RGD:1359514; rat.
+DR   AGR; RGD:1359514; -.
+DR   CTD; 51540; -.
+DR   RGD; 1359514; Scly.
+DR   eggNOG; KOG1549; Eukaryota.
+DR   GeneTree; ENSGT00940000157773; -.
+DR   HOGENOM; CLU_003433_0_0_1; -.
+DR   InParanoid; Q68FT9; -.
+DR   OMA; IIYGQSE; -.
+DR   OrthoDB; 212394at2759; -.
+DR   PhylomeDB; Q68FT9; -.
+DR   TreeFam; TF313550; -.
+DR   BRENDA; 4.4.1.16; 5301.
+DR   Reactome; R-RNO-2408508; Metabolism of ingested SeMet, Sec, MeSec into H2Se.
+DR   EvolutionaryTrace; Q68FT9; -.
+DR   PRO; PR:Q68FT9; -.
+DR   Proteomes; UP000002494; Chromosome 9.
+DR   Bgee; ENSRNOG00000020083; Expressed in adult mammalian kidney and 18 other cell types or tissues.
+DR   GO; GO:1902494; C:catalytic complex; IDA:CAFA.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:Ensembl.
+DR   GO; GO:0016597; F:amino acid binding; IDA:CAFA.
+DR   GO; GO:0042803; F:protein homodimerization activity; IDA:CAFA.
+DR   GO; GO:0009000; F:selenocysteine lyase activity; IMP:CAFA.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0070279; F:vitamin B6 binding; IDA:CAFA.
+DR   GO; GO:0006629; P:lipid metabolic process; ISO:RGD.
+DR   GO; GO:1900408; P:negative regulation of cellular response to oxidative stress; ISO:RGD.
+DR   GO; GO:0032868; P:response to insulin; ISO:RGD.
+DR   GO; GO:0001887; P:selenium compound metabolic process; ISO:RGD.
+DR   GO; GO:0016261; P:selenocysteine catabolic process; IMP:CAFA.
+DR   DisProt; DP00620; -.
+DR   Gene3D; 1.10.260.50; -; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR016454; Cysteine_dSase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   PANTHER; PTHR11601; CYSTEINE DESULFURYLASE FAMILY MEMBER; 1.
+DR   PANTHER; PTHR11601:SF62; SELENOCYSTEINE LYASE; 1.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   PIRSF; PIRSF005572; NifS; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Cytoplasm; Lyase; Phosphoprotein;
+KW   Pyridoxal phosphate; Reference proteome; Transferase.
+FT   CHAIN           1..432
+FT                   /note="Selenocysteine lyase"
+FT                   /id="PRO_0000317014"
+FT   REGION          1..20
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        375
+FT                   /note="S-selanylcysteine intermediate"
+FT                   /evidence="ECO:0000269|PubMed:20164179"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96I15"
+FT   MOD_RES         117
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96I15"
+FT   MOD_RES         247
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000269|PubMed:20164179,
+FT                   ECO:0007744|PDB:3A9X, ECO:0007744|PDB:3A9Y,
+FT                   ECO:0007744|PDB:3A9Z"
+FT   MUTAGEN         375
+FT                   /note="C->A: Loss of selenocysteine lyase activity."
+FT                   /evidence="ECO:0000269|PubMed:20164179"
+FT   TURN            24..26
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           32..44
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           54..74
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           78..80
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          81..85
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           87..108
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          125..129
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           134..145
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          150..154
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   TURN            158..160
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           165..170
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          176..180
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   TURN            186..188
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           194..211
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          217..221
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   TURN            223..228
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           233..236
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          239..244
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           245..247
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          254..258
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   TURN            259..263
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           276..279
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           287..326
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           327..329
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          330..334
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          345..350
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           357..363
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          365..368
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          370..372
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           374..379
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           385..389
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           394..397
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   STRAND          400..404
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+FT   HELIX           411..429
+FT                   /evidence="ECO:0007829|PDB:3A9Z"
+SQ   SEQUENCE   432 AA;  47256 MW;  FA5BB9DD941516A0 CRC64;
+     MDVARNGARG SVESPPNRKV YMDYNATTPL EPEVIQAVTE AMKEAWGNPS SSYVAGRKAK
+     DIINTARASL AKMIGGKPQD IIFTSGGTES NNLVIHSTVR CFHEQQTLQG RTVDQISPEE
+     GTRPHFITCT VEHDSIRLPL EHLVEDQVAE VTFVPVSKVN GQVEVEDILA AVRPTTCLVT
+     IMLANNETGV IMPISEISRR IKALNQIRAA SGLPRVLVHT DAAQALGKRR VDVEDLGVDF
+     LTIVGHKFYG PRIGALYVRG VGKLTPLYPM LFGGGQERNF RPGTENTPMI AGLGKAADLV
+     SENCETYEAH MRDIRDYLEE RLEAEFGKRI HLNSRFPGVE RLPNTCNFSI QGSQLRGYMV
+     LAQCQTLLAS VGASCHSDHE DRPSPVLLSC GIPVDVARNA VRLSVGRSTT RAEVDLIVQD
+     LKQAVNQLEG PV
+//

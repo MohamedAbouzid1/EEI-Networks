@@ -1,0 +1,256 @@
+ID   DPEP1_RAT               Reviewed;         410 AA.
+AC   P31430; Q6IN35;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2007, sequence version 2.
+DT   29-MAY-2024, entry version 181.
+DE   RecName: Full=Dipeptidase 1;
+DE            EC=3.4.13.19 {ECO:0000250|UniProtKB:P31428};
+DE   AltName: Full=Beta-lactamase {ECO:0000305};
+DE            EC=3.5.2.6 {ECO:0000250|UniProtKB:P31428};
+DE   AltName: Full=Microsomal dipeptidase;
+DE   AltName: Full=Renal dipeptidase {ECO:0000303|PubMed:1420313};
+DE   Flags: Precursor;
+GN   Name=Dpep1; Synonyms=Rdp;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Kidney;
+RX   PubMed=1420313; DOI=10.1016/0167-4781(92)90167-x;
+RA   Adachi H., Ishida N., Tsujimoto M.;
+RT   "Primary structure of rat renal dipeptidase and expression of its mRNA in
+RT   rat tissues and COS-1 cells.";
+RL   Biochim. Biophys. Acta 1132:311-314(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Hydrolyzes a wide range of dipeptides including the
+CC       conversion of leukotriene D4 to leukotriene E4. Hydrolyzes cystinyl-
+CC       bis-glycine (cys-bis-gly) formed during glutathione degradation.
+CC       Possesses also beta lactamase activity and hydrolytically inactivates
+CC       beta-lactam antibiotics. {ECO:0000250|UniProtKB:P31428}.
+CC   -!- FUNCTION: Independently of its dipeptidase activity, acts as an
+CC       adhesion receptor for neutrophil recruitment from bloodstream into
+CC       inflamed lungs and liver. {ECO:0000250|UniProtKB:P31428}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an L-aminoacyl-L-amino acid + H2O = 2 an L-alpha-amino acid;
+CC         Xref=Rhea:RHEA:48940, ChEBI:CHEBI:15377, ChEBI:CHEBI:59869,
+CC         ChEBI:CHEBI:77460; EC=3.4.13.19;
+CC         Evidence={ECO:0000250|UniProtKB:P31428, ECO:0000255|PROSITE-
+CC         ProRule:PRU10073};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + leukotriene D4 = glycine + leukotriene E4;
+CC         Xref=Rhea:RHEA:48616, ChEBI:CHEBI:15377, ChEBI:CHEBI:57305,
+CC         ChEBI:CHEBI:57462, ChEBI:CHEBI:63166;
+CC         Evidence={ECO:0000250|UniProtKB:P31428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H2O + L-cystine-bis-glycine = 2 glycine + L-cystine;
+CC         Xref=Rhea:RHEA:60520, ChEBI:CHEBI:15377, ChEBI:CHEBI:35491,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:143812;
+CC         Evidence={ECO:0000250|UniProtKB:P31428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-lactam + H2O = a substituted beta-amino acid;
+CC         Xref=Rhea:RHEA:20401, ChEBI:CHEBI:15377, ChEBI:CHEBI:35627,
+CC         ChEBI:CHEBI:140347; EC=3.5.2.6;
+CC         Evidence={ECO:0000250|UniProtKB:P31428};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyldehydrophenylalanine + H2O = 2,3-didehydrophenylalanine
+CC         + glycine; Xref=Rhea:RHEA:62704, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:145925, ChEBI:CHEBI:145926;
+CC         Evidence={ECO:0000250|UniProtKB:P31428};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P16444,
+CC         ECO:0000255|PROSITE-ProRule:PRU10073};
+CC   -!- ACTIVITY REGULATION: Inhibited by L-penicillamine. Beta-lactamase
+CC       activity is inhibited by cilastatin. {ECO:0000250|UniProtKB:P16444}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. {ECO:0000250|UniProtKB:P16444}.
+CC   -!- SUBCELLULAR LOCATION: Apical cell membrane
+CC       {ECO:0000250|UniProtKB:P16444}; Lipid-anchor, GPI-anchor
+CC       {ECO:0000250|UniProtKB:P16444}. Cell projection, microvillus membrane
+CC       {ECO:0000250|UniProtKB:P16444}; Lipid-anchor, GPI-anchor
+CC       {ECO:0000250|UniProtKB:P16444}. Note=Brush border membrane.
+CC       {ECO:0000250|UniProtKB:P31429}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       Peptidase M19 family. {ECO:0000255|PROSITE-ProRule:PRU10073}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M94056; AAA41093.1; -; mRNA.
+DR   EMBL; L07315; AAA41094.1; -; mRNA.
+DR   EMBL; L07316; AAA41095.1; -; mRNA.
+DR   EMBL; BC072476; AAH72476.1; -; mRNA.
+DR   PIR; S27204; S27204.
+DR   RefSeq; NP_446043.1; NM_053591.2.
+DR   RefSeq; XP_006255845.1; XM_006255783.3.
+DR   AlphaFoldDB; P31430; -.
+DR   SMR; P31430; -.
+DR   STRING; 10116.ENSRNOP00000021397; -.
+DR   MEROPS; M19.001; -.
+DR   GlyCosmos; P31430; 3 sites, No reported glycans.
+DR   GlyGen; P31430; 3 sites.
+DR   iPTMnet; P31430; -.
+DR   PhosphoSitePlus; P31430; -.
+DR   PaxDb; 10116-ENSRNOP00000021397; -.
+DR   Ensembl; ENSRNOT00000021397.4; ENSRNOP00000021397.1; ENSRNOG00000015880.4.
+DR   Ensembl; ENSRNOT00055035385; ENSRNOP00055028685; ENSRNOG00055020725.
+DR   Ensembl; ENSRNOT00060032173; ENSRNOP00060026185; ENSRNOG00060018678.
+DR   Ensembl; ENSRNOT00065032005; ENSRNOP00065025541; ENSRNOG00065019033.
+DR   GeneID; 94199; -.
+DR   KEGG; rno:94199; -.
+DR   UCSC; RGD:620324; rat.
+DR   AGR; RGD:620324; -.
+DR   CTD; 1800; -.
+DR   RGD; 620324; Dpep1.
+DR   eggNOG; KOG4127; Eukaryota.
+DR   GeneTree; ENSGT00940000159615; -.
+DR   HOGENOM; CLU_031404_4_2_1; -.
+DR   InParanoid; P31430; -.
+DR   OMA; QQPRACF; -.
+DR   OrthoDB; 5476406at2759; -.
+DR   PhylomeDB; P31430; -.
+DR   TreeFam; TF324523; -.
+DR   Reactome; R-RNO-2142691; Synthesis of Leukotrienes (LT) and Eoxins (EX).
+DR   Reactome; R-RNO-5423646; Aflatoxin activation and detoxification.
+DR   SABIO-RK; P31430; -.
+DR   PRO; PR:P31430; -.
+DR   Proteomes; UP000002494; Chromosome 19.
+DR   Bgee; ENSRNOG00000015880; Expressed in pancreas and 16 other cell types or tissues.
+DR   GO; GO:0045177; C:apical part of cell; ISS:UniProtKB.
+DR   GO; GO:0016324; C:apical plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030054; C:cell junction; IEA:Ensembl.
+DR   GO; GO:0005615; C:extracellular space; ISS:UniProtKB.
+DR   GO; GO:0031528; C:microvillus membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0098552; C:side of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0008800; F:beta-lactamase activity; ISS:UniProtKB.
+DR   GO; GO:0043027; F:cysteine-type endopeptidase inhibitor activity involved in apoptotic process; ISS:UniProtKB.
+DR   GO; GO:0016805; F:dipeptidase activity; ISS:UniProtKB.
+DR   GO; GO:0034235; F:GPI anchor binding; ISS:UniProtKB.
+DR   GO; GO:0070573; F:metallodipeptidase activity; ISS:UniProtKB.
+DR   GO; GO:0072341; F:modified amino acid binding; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0016999; P:antibiotic metabolic process; ISS:UniProtKB.
+DR   GO; GO:0071277; P:cellular response to calcium ion; ISS:UniProtKB.
+DR   GO; GO:0071732; P:cellular response to nitric oxide; ISS:UniProtKB.
+DR   GO; GO:0071466; P:cellular response to xenobiotic stimulus; ISS:UniProtKB.
+DR   GO; GO:0006751; P:glutathione catabolic process; ISS:UniProtKB.
+DR   GO; GO:0050667; P:homocysteine metabolic process; ISS:UniProtKB.
+DR   GO; GO:0006954; P:inflammatory response; ISO:RGD.
+DR   GO; GO:1901749; P:leukotriene D4 catabolic process; ISS:UniProtKB.
+DR   GO; GO:0006691; P:leukotriene metabolic process; ISS:UniProtKB.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISS:UniProtKB.
+DR   GO; GO:0030336; P:negative regulation of cell migration; ISS:UniProtKB.
+DR   GO; GO:0043154; P:negative regulation of cysteine-type endopeptidase activity involved in apoptotic process; ISS:UniProtKB.
+DR   GO; GO:0030593; P:neutrophil chemotaxis; ISO:RGD.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd01301; rDP_like; 1.
+DR   Gene3D; 3.20.20.140; Metal-dependent hydrolases; 1.
+DR   InterPro; IPR000180; Dipep_AS.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   InterPro; IPR008257; Pept_M19.
+DR   PANTHER; PTHR10443:SF38; DIPEPTIDASE 1; 1.
+DR   PANTHER; PTHR10443; MICROSOMAL DIPEPTIDASE; 1.
+DR   Pfam; PF01244; Peptidase_M19; 1.
+DR   SUPFAM; SSF51556; Metallo-dependent hydrolases; 1.
+DR   PROSITE; PS00869; RENAL_DIPEPTIDASE_1; 1.
+DR   PROSITE; PS51365; RENAL_DIPEPTIDASE_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Cell projection; Dipeptidase; Disulfide bond; Glycoprotein;
+KW   GPI-anchor; Hydrolase; Lipid metabolism; Lipoprotein; Membrane;
+KW   Metal-binding; Metalloprotease; Protease; Reference proteome; Signal; Zinc.
+FT   SIGNAL          1..16
+FT                   /evidence="ECO:0000250|UniProtKB:P16444"
+FT   CHAIN           17..384
+FT                   /note="Dipeptidase 1"
+FT                   /id="PRO_0000018660"
+FT   PROPEP          385..410
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000250|UniProtKB:P16444"
+FT                   /id="PRO_0000018661"
+FT   BINDING         36
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   BINDING         38
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   BINDING         141
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   BINDING         141
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   BINDING         168
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   BINDING         214
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   BINDING         235
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   BINDING         246
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   BINDING         304
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   LIPID           384
+FT                   /note="GPI-anchor amidated serine"
+FT                   /evidence="ECO:0000250|UniProtKB:P22412"
+FT   CARBOHYD        57
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        121
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        332
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        87..170
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   DISULFID        242..274
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   DISULFID        377
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10073"
+FT   CONFLICT        409
+FT                   /note="L -> P (in Ref. 1; AAA41093)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   410 AA;  45522 MW;  6DD618B44523862C CRC64;
+     MLIIWWFWSL LAICASDSFR NQAENIMRTT PVIDGHNDLP WQMLTLFNNQ LRKSEANLSA
+     LAETHTNIPK LRAGFVGGQF WSAYMPCDTQ NKDAVKRILE QIDVIHRMCQ LYPETFECVT
+     NSSDILQAFR RGKVASLIGV EGGHLIDSSL GVLRTLYHLG MRYLTLTHNC NTPWADNWLV
+     DKGDDEAESQ GLSPFGKLVL NEMNRLGVMI DLSHVSVATM KDALQLSKAP VIFSHSSAYS
+     VCPHRRNVPD DVLQLVKSTN SLVMVNFYNQ FVSCSDSATL SQVADHLDHI KKVAGAGAVG
+     LGGDYDGVTN LPVGLEDVSK YPDLIAELLR RNWTETEVRG LLAENLLRVF SAVELVSNIM
+     QVPEEETIPV EKLDGSCRTF YGHSRAPSIH LQIGALLASL ASLVFSLHLL
+//

@@ -1,0 +1,169 @@
+ID   S10AA_RAT               Reviewed;          95 AA.
+AC   P05943; Q5BJ98;
+DT   01-NOV-1988, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   02-OCT-2024, entry version 176.
+DE   RecName: Full=Protein S100-A10;
+DE   AltName: Full=Calpactin I light chain;
+DE   AltName: Full=Calpactin-1 light chain;
+DE   AltName: Full=Cellular ligand of annexin II;
+DE   AltName: Full=Nerve growth factor-induced protein 42C;
+DE   AltName: Full=S100 calcium-binding protein A10;
+DE   AltName: Full=p10 protein;
+DE   AltName: Full=p11;
+GN   Name=S100a10;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3422491; DOI=10.1073/pnas.85.4.1277;
+RA   Masiakowski P., Shooter E.M.;
+RT   "Nerve growth factor induces the genes for two proteins related to a family
+RT   of calcium-binding proteins in PC12 cells.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 85:1277-1281(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Park J.-Y., Kim W.-J., Chun S.-Y.;
+RL   Submitted (JAN-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 38-54, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal cord;
+RA   Lubec G., Afjehi-Sadat L.;
+RL   Submitted (NOV-2006) to UniProtKB.
+RN   [5]
+RP   INTERACTION WITH SCN10A.
+RX   PubMed=12050667; DOI=10.1038/nature00781;
+RA   Okuse K., Malik-Hall M., Baker M.D., Poon W.-Y.L., Kong H., Chao M.V.,
+RA   Wood J.N.;
+RT   "Annexin II light chain regulates sensory neuron-specific sodium channel
+RT   expression.";
+RL   Nature 417:653-656(2002).
+CC   -!- FUNCTION: Because S100A10 induces the dimerization of ANXA2/p36, it may
+CC       function as a regulator of protein phosphorylation in that the ANXA2
+CC       monomer is the preferred target (in vitro) of tyrosine-specific kinase.
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Heterotetramer containing 2 light chains of S100A10/p11 and 2
+CC       heavy chains of ANXA2/p36 (By similarity). Interacts with SCN10A
+CC       (PubMed:12050667). Interacts with TASOR (By similarity).
+CC       {ECO:0000250|UniProtKB:P08207, ECO:0000250|UniProtKB:P60903,
+CC       ECO:0000269|PubMed:12050667}.
+CC   -!- INTERACTION:
+CC       P05943; Q62968: Scn10a; NbExp=4; IntAct=EBI-1800351, EBI-1800320;
+CC   -!- INDUCTION: By nerve growth factor.
+CC   -!- MISCELLANEOUS: Does not appear to bind calcium. Contains 2 ancestral
+CC       calcium site related to EF-hand domains that have lost their ability to
+CC       bind calcium.
+CC   -!- SIMILARITY: Belongs to the S-100 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J03627; AAA42097.1; -; mRNA.
+DR   EMBL; AF465254; AAO33353.1; -; Genomic_DNA.
+DR   EMBL; BC091565; AAH91565.1; -; mRNA.
+DR   PIR; A31373; A31373.
+DR   RefSeq; NP_112376.1; NM_031114.1.
+DR   AlphaFoldDB; P05943; -.
+DR   SMR; P05943; -.
+DR   IntAct; P05943; 6.
+DR   STRING; 10116.ENSRNOP00000037097; -.
+DR   iPTMnet; P05943; -.
+DR   PhosphoSitePlus; P05943; -.
+DR   jPOST; P05943; -.
+DR   PaxDb; 10116-ENSRNOP00000037097; -.
+DR   Ensembl; ENSRNOT00000120014.1; ENSRNOP00000096575.1; ENSRNOG00000023226.5.
+DR   Ensembl; ENSRNOT00055054630; ENSRNOP00055045162; ENSRNOG00055031532.
+DR   Ensembl; ENSRNOT00060021752; ENSRNOP00060017217; ENSRNOG00060012779.
+DR   Ensembl; ENSRNOT00065040334; ENSRNOP00065032833; ENSRNOG00065023548.
+DR   GeneID; 81778; -.
+DR   KEGG; rno:81778; -.
+DR   UCSC; RGD:628655; rat.
+DR   AGR; RGD:628655; -.
+DR   CTD; 6281; -.
+DR   RGD; 628655; S100a10.
+DR   eggNOG; ENOG502S6TB; Eukaryota.
+DR   GeneTree; ENSGT00940000154197; -.
+DR   HOGENOM; CLU_138624_2_1_1; -.
+DR   InParanoid; P05943; -.
+DR   OrthoDB; 619060at2759; -.
+DR   PhylomeDB; P05943; -.
+DR   TreeFam; TF332727; -.
+DR   Reactome; R-RNO-75205; Dissolution of Fibrin Clot.
+DR   PRO; PR:P05943; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000023226; Expressed in duodenum and 20 other cell types or tissues.
+DR   ExpressionAtlas; P05943; baseline and differential.
+DR   GO; GO:1990665; C:AnxA2-p11 complex; ISO:RGD.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0045121; C:membrane raft; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0098797; C:plasma membrane protein complex; ISO:RGD.
+DR   GO; GO:0090575; C:RNA polymerase II transcription regulator complex; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; IBA:GO_Central.
+DR   GO; GO:0048306; F:calcium-dependent protein binding; IBA:GO_Central.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0044325; F:transmembrane transporter binding; ISO:RGD.
+DR   GO; GO:0001765; P:membrane raft assembly; ISO:RGD.
+DR   GO; GO:0042789; P:mRNA transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0051894; P:positive regulation of focal adhesion assembly; ISO:RGD.
+DR   GO; GO:0010756; P:positive regulation of plasminogen activation; ISO:RGD.
+DR   GO; GO:0051496; P:positive regulation of stress fiber assembly; ISO:RGD.
+DR   GO; GO:1900026; P:positive regulation of substrate adhesion-dependent cell spreading; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0072659; P:protein localization to plasma membrane; ISO:RGD.
+DR   GO; GO:0045595; P:regulation of cell differentiation; NAS:RGD.
+DR   GO; GO:0001558; P:regulation of cell growth; NAS:RGD.
+DR   GO; GO:0050767; P:regulation of neurogenesis; ISO:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0006900; P:vesicle budding from membrane; ISO:RGD.
+DR   Gene3D; 1.10.238.10; EF-hand; 1.
+DR   InterPro; IPR011992; EF-hand-dom_pair.
+DR   InterPro; IPR002048; EF_hand_dom.
+DR   InterPro; IPR001751; S100/CaBP7/8-like_CS.
+DR   InterPro; IPR013787; S100_Ca-bd_sub.
+DR   PANTHER; PTHR11639:SF74; PROTEIN S100-A10; 1.
+DR   PANTHER; PTHR11639; S100 CALCIUM-BINDING PROTEIN; 1.
+DR   Pfam; PF01023; S_100; 1.
+DR   SMART; SM01394; S_100; 1.
+DR   SUPFAM; SSF47473; EF-hand; 1.
+DR   PROSITE; PS50222; EF_HAND_2; 1.
+DR   PROSITE; PS00303; S100_CABP; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; Reference proteome.
+FT   CHAIN           1..95
+FT                   /note="Protein S100-A10"
+FT                   /id="PRO_0000144006"
+FT   DOMAIN          47..82
+FT                   /note="EF-hand"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   REGION          60..71
+FT                   /note="Ancestral calcium site"
+FT   MOD_RES         23
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P60903"
+FT   MOD_RES         28
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P60903"
+FT   MOD_RES         54
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P60903"
+FT   MOD_RES         57
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P60903"
+SQ   SEQUENCE   95 AA;  11075 MW;  EC12960C177F1BBC CRC64;
+     MPSQMEHAME TMMLTFHRFA GEKNYLTKED LRVLMEREFP GFLENQKDPL AVDKIMKDLD
+     QCRDGKVGFQ SFLSLVAGLI IACNDYFVVH MKQKK
+//

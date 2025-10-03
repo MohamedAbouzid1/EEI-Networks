@@ -1,0 +1,286 @@
+ID   GLDN_RAT                Reviewed;         549 AA.
+AC   Q80WL1;
+DT   25-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   02-OCT-2024, entry version 110.
+DE   RecName: Full=Gliomedin {ECO:0000303|PubMed:16039564};
+DE   Contains:
+DE     RecName: Full=Gliomedin shedded ectodomain {ECO:0000250|UniProtKB:Q8BMF8};
+DE   Flags: Precursor;
+GN   Name=Gldn;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, INTERACTION WITH NFASC AND NRCAM,
+RP   DEVELOPMENTAL STAGE, AND SUBCELLULAR LOCATION.
+RC   STRAIN=Wistar; TISSUE=Schwann cell;
+RX   PubMed=16039564; DOI=10.1016/j.neuron.2005.06.026;
+RA   Eshed Y., Feinberg K., Poliak S., Sabanay H., Sarig-Nadir O., Spiegel I.,
+RA   Bermingham J.R. Jr., Peles E.;
+RT   "Gliomedin mediates Schwann cell-axon interaction and the molecular
+RT   assembly of the nodes of Ranvier.";
+RL   Neuron 47:215-229(2005).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 278-281, SUBCELLULAR LOCATION, GLYCOSYLATION, TISSUE
+RP   SPECIFICITY, SUBUNIT, INTERACTION WITH NFASC, AND MUTAGENESIS OF ARG-91 AND
+RP   ARG-94.
+RX   PubMed=17485493; DOI=10.1083/jcb.200612139;
+RA   Eshed Y., Feinberg K., Carey D.J., Peles E.;
+RT   "Secreted gliomedin is a perinodal matrix component of peripheral nerves.";
+RL   J. Cell Biol. 177:551-562(2007).
+RN   [3]
+RP   INTERACTION WITH NFASC AND NRCAM, AND SUBCELLULAR LOCATION.
+RX   PubMed=22009740; DOI=10.1074/jbc.m111.266353;
+RA   Labasque M., Devaux J.J., Leveque C., Faivre-Sarrailh C.;
+RT   "Fibronectin type III-like domains of neurofascin-186 protein mediate
+RT   gliomedin binding and its clustering at the developing nodes of Ranvier.";
+RL   J. Biol. Chem. 286:42426-42434(2011).
+RN   [4] {ECO:0007744|PDB:4D77, ECO:0007744|PDB:4D7C}
+RP   X-RAY CRYSTALLOGRAPHY (1.45 ANGSTROMS) OF 260-543.
+RX   PubMed=25525261; DOI=10.1074/jbc.m114.627547;
+RA   Han H., Kursula P.;
+RT   "The olfactomedin domain from gliomedin is a beta-propeller with unique
+RT   structural properties.";
+RL   J. Biol. Chem. 290:3612-3621(2015).
+CC   -!- FUNCTION: Ligand for NRCAM and NFASC/neurofascin that plays a role in
+CC       the formation and maintenance of the nodes of Ranvier on myelinated
+CC       axons. Mediates interaction between Schwann cell microvilli and axons
+CC       via its interactions with NRCAM and NFASC (PubMed:16039564). Nodes of
+CC       Ranvier contain clustered sodium channels that are crucial for the
+CC       saltatory propagation of action potentials along myelinated axons.
+CC       During development, nodes of Ranvier are formed by the fusion of two
+CC       heminodes. Required for normal clustering of sodium channels at
+CC       heminodes; not required for the formation of mature nodes with normal
+CC       sodium channel clusters. Required, together with NRCAM, for maintaining
+CC       NFASC and sodium channel clusters at mature nodes of Ranvier (By
+CC       similarity). {ECO:0000250|UniProtKB:Q8BMF8,
+CC       ECO:0000269|PubMed:16039564}.
+CC   -!- SUBUNIT: Homotrimer (via collagen-like domains) (Probable)
+CC       (PubMed:17485493). Interacts with NRCAM (PubMed:16039564,
+CC       PubMed:22009740). Interacts with NFASC/neurofascin (PubMed:16039564,
+CC       PubMed:17485493, PubMed:22009740). Interaction with glial NRCAM
+CC       enhances interaction with axonal NFASC. Interacts with MYOC (By
+CC       similarity). {ECO:0000250|UniProtKB:Q8BMF8,
+CC       ECO:0000269|PubMed:16039564, ECO:0000269|PubMed:17485493,
+CC       ECO:0000269|PubMed:22009740}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:16039564};
+CC       Single-pass type II membrane protein {ECO:0000269|PubMed:16039564}.
+CC       Cell projection, axon {ECO:0000269|PubMed:16039564,
+CC       ECO:0000269|PubMed:22009740}. Note=Detected at the nodes of Ranvier
+CC       (PubMed:16039564, PubMed:22009740). Detected at immature heminodes
+CC       (PubMed:22009740). {ECO:0000269|PubMed:16039564,
+CC       ECO:0000269|PubMed:22009740}.
+CC   -!- SUBCELLULAR LOCATION: [Gliomedin shedded ectodomain]: Secreted
+CC       {ECO:0000269|PubMed:17485493}. Secreted, extracellular space,
+CC       extracellular matrix {ECO:0000269|PubMed:17485493}. Note=Proteolytic
+CC       processing gives rise to a soluble extracellular domain that is
+CC       secreted. The gliomedin shedded ectodomain localizes to the nodes of
+CC       Ranvier. {ECO:0000269|PubMed:17485493}.
+CC   -!- TISSUE SPECIFICITY: Detected in Schwann cells (at protein level).
+CC       {ECO:0000269|PubMed:17485493}.
+CC   -!- DEVELOPMENTAL STAGE: Expression increases in myelinating Schwann cells
+CC       during the initial period of active myelination.
+CC       {ECO:0000269|PubMed:16039564}.
+CC   -!- DOMAIN: The olfactomedin-like domain mediates NFASC/neurofascin and
+CC       NRCAM binding. {ECO:0000250|UniProtKB:Q8BMF8}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:17485493}.
+CC   -!- PTM: Proteolytic proccessing by a furin-like protease causes shedding
+CC       of the ectodomain (PubMed:17485493). Further cleavage by BMP1 releases
+CC       the olfactomedin-like domain. {ECO:0000250|UniProtKB:Q8BMF8,
+CC       ECO:0000269|PubMed:17485493}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY266116; AAP22419.1; -; mRNA.
+DR   RefSeq; NP_852047.1; NM_181382.2.
+DR   PDB; 4D77; X-ray; 1.48 A; A=260-543.
+DR   PDB; 4D7C; X-ray; 1.45 A; A/B=260-543.
+DR   PDBsum; 4D77; -.
+DR   PDBsum; 4D7C; -.
+DR   AlphaFoldDB; Q80WL1; -.
+DR   SMR; Q80WL1; -.
+DR   STRING; 10116.ENSRNOP00000029833; -.
+DR   GlyCosmos; Q80WL1; 6 sites, No reported glycans.
+DR   GlyGen; Q80WL1; 6 sites.
+DR   PhosphoSitePlus; Q80WL1; -.
+DR   PaxDb; 10116-ENSRNOP00000029833; -.
+DR   Ensembl; ENSRNOT00055052997; ENSRNOP00055043797; ENSRNOG00055030546.
+DR   Ensembl; ENSRNOT00060030101; ENSRNOP00060024297; ENSRNOG00060017611.
+DR   Ensembl; ENSRNOT00065028213; ENSRNOP00065022306; ENSRNOG00065016907.
+DR   GeneID; 315675; -.
+DR   KEGG; rno:315675; -.
+DR   UCSC; RGD:727879; rat.
+DR   AGR; RGD:727879; -.
+DR   CTD; 342035; -.
+DR   RGD; 727879; Gldn.
+DR   eggNOG; KOG3545; Eukaryota.
+DR   InParanoid; Q80WL1; -.
+DR   OrthoDB; 2876896at2759; -.
+DR   PhylomeDB; Q80WL1; -.
+DR   EvolutionaryTrace; Q80WL1; -.
+DR   PRO; PR:Q80WL1; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030424; C:axon; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0005581; C:collagen trimer; IEA:UniProtKB-KW.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0086080; F:protein binding involved in heterotypic cell-cell adhesion; ISO:RGD.
+DR   GO; GO:0045162; P:clustering of voltage-gated sodium channels; ISO:RGD.
+DR   GO; GO:0034113; P:heterotypic cell-cell adhesion; ISO:RGD.
+DR   GO; GO:0032528; P:microvillus organization; ISO:RGD.
+DR   GO; GO:0007165; P:signal transduction; IBA:GO_Central.
+DR   Gene3D; 1.20.5.320; 6-Phosphogluconate Dehydrogenase, domain 3; 1.
+DR   InterPro; IPR008160; Collagen.
+DR   InterPro; IPR003112; Olfac-like_dom.
+DR   InterPro; IPR050605; Olfactomedin-like_domain.
+DR   PANTHER; PTHR23192:SF5; GLIOMEDIN; 1.
+DR   PANTHER; PTHR23192; OLFACTOMEDIN-RELATED; 1.
+DR   Pfam; PF01391; Collagen; 1.
+DR   Pfam; PF02191; OLF; 1.
+DR   SMART; SM00284; OLF; 1.
+DR   SUPFAM; SSF101898; NHL repeat; 1.
+DR   PROSITE; PS51132; OLF; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Cell projection; Collagen;
+KW   Developmental protein; Differentiation; Direct protein sequencing;
+KW   Extracellular matrix; Glycoprotein; Membrane; Neurogenesis;
+KW   Reference proteome; Repeat; Secreted; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..549
+FT                   /note="Gliomedin"
+FT                   /id="PRO_0000246323"
+FT   CHAIN           95..451
+FT                   /note="Gliomedin shedded ectodomain"
+FT                   /evidence="ECO:0000305|PubMed:17485493"
+FT                   /id="PRO_0000434267"
+FT   TOPO_DOM        1..17
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        18..38
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        39..549
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          137..195
+FT                   /note="Collagen-like 1"
+FT   DOMAIN          196..222
+FT                   /note="Collagen-like 2"
+FT   DOMAIN          296..543
+FT                   /note="Olfactomedin-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00446"
+FT   REGION          74..107
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          137..276
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        236..254
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        258..273
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   SITE            94..95
+FT                   /note="Cleavage; by furin-like protease"
+FT                   /evidence="ECO:0000269|PubMed:17485493"
+FT   SITE            277..278
+FT                   /note="Cleavage; by BMP1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BMF8"
+FT   CARBOHYD        130
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        156
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        326
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        354
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        375
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        461
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   MUTAGEN         91
+FT                   /note="R->G: Abolishes cleavage and shedding of ectodomain;
+FT                   when associated with A-94."
+FT                   /evidence="ECO:0000269|PubMed:17485493"
+FT   MUTAGEN         94
+FT                   /note="R->A: Abolishes cleavage and shedding of ectodomain;
+FT                   when associated with G-91."
+FT                   /evidence="ECO:0000269|PubMed:17485493"
+FT   STRAND          301..304
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          308..312
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          316..322
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          332..348
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   HELIX           349..353
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          358..369
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          375..382
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          385..392
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   TURN            393..395
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          399..402
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   HELIX           416..418
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          423..427
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          430..437
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   TURN            438..440
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          443..450
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   TURN            451..454
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          455..465
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   HELIX           466..468
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          472..475
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          478..482
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          486..494
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   TURN            495..498
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          499..501
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          514..520
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   TURN            521..524
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          525..530
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+FT   STRAND          533..541
+FT                   /evidence="ECO:0007829|PDB:4D7C"
+SQ   SEQUENCE   549 AA;  59330 MW;  B772F28EEC85FA21 CRC64;
+     MTRAAERGQG ATGWGLRGAL MAVALLSVLN AVGTVFVLYQ WRELSAALRA LEAQHGQEQR
+     EDSALRAFLA ELSRAPARVP EPPQDPMSAA RNKRSHGGEP ASHIRAESQD MMMMMTYSMV
+     PIRVMIDLCN STQGICLTGP PGPPGPPGAG GLPGHNGSDG QPGLQGPKGE KGAVGKRGKM
+     GLPGATGNPG EKGEKGDAGE LGLPGNEGPP GQKGDKGDKG DVSNDVLLTG AKGDQGPPGP
+     PGPPGPPGPP GSRRAKGPRQ PNSFTNQCPG ETCVIPNDDT LVGRADEKVN ERHSPQTEPM
+     ITSIGNPAQV LKVKETFGTW LRESANRSDD RIWVTEHFSG IMVKEFEDLP ALLNSSFTLL
+     HLPHYFHGCG HAVYNNSLYY HKGGSNTIVR FEFGKETPQT LKLEDALYFD RKYLFANSKT
+     YFNIAVDEKG LWIIYASSVD GSSILVAQLD ERTFSVLRHI NTTYPKSKAG NAFIAQGILY
+     VTDTKDTRVT FAFDLLRGKQ INANFGLRMS QSVLAMLSYN MRDQHLYSWE DGHLMLYPVH
+     FSSTAPSQR
+//

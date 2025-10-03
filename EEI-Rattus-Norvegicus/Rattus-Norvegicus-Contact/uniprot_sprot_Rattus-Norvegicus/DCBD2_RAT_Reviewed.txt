@@ -1,0 +1,159 @@
+ID   DCBD2_RAT               Reviewed;         769 AA.
+AC   Q91ZV2;
+DT   05-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   24-JUL-2024, entry version 114.
+DE   RecName: Full=Discoidin, CUB and LCCL domain-containing protein 2;
+DE   AltName: Full=Endothelial and smooth muscle cell-derived neuropilin-like protein;
+DE   Flags: Precursor;
+GN   Name=Dcbld2; Synonyms=Esdn;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=11447234; DOI=10.1074/jbc.m105293200;
+RA   Kobuke K., Furukawa Y., Sugai M., Tanigaki K., Ohashi N., Matsumori A.,
+RA   Sasayama S., Honjo T., Tashiro K.;
+RT   "ESDN, a novel neuropilin-like membrane protein cloned from vascular cells
+RT   with the longest secretory signal sequence among eukaryotes, is up-
+RT   regulated after vascular injury.";
+RL   J. Biol. Chem. 276:34105-34114(2001).
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250}; Single-pass type I
+CC       membrane protein {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF387549; AAL30180.1; -; mRNA.
+DR   RefSeq; NP_569103.1; NM_130419.1.
+DR   AlphaFoldDB; Q91ZV2; -.
+DR   SMR; Q91ZV2; -.
+DR   STRING; 10116.ENSRNOP00000069998; -.
+DR   GlyCosmos; Q91ZV2; 5 sites, No reported glycans.
+DR   GlyGen; Q91ZV2; 5 sites.
+DR   PhosphoSitePlus; Q91ZV2; -.
+DR   PaxDb; 10116-ENSRNOP00000002251; -.
+DR   GeneID; 155696; -.
+DR   KEGG; rno:155696; -.
+DR   UCSC; RGD:620543; rat.
+DR   AGR; RGD:620543; -.
+DR   CTD; 131566; -.
+DR   RGD; 620543; Dcbld2.
+DR   eggNOG; ENOG502QRMB; Eukaryota.
+DR   InParanoid; Q91ZV2; -.
+DR   OrthoDB; 5347766at2759; -.
+DR   PhylomeDB; Q91ZV2; -.
+DR   PRO; PR:Q91ZV2; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0009986; C:cell surface; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0038023; F:signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0030308; P:negative regulation of cell growth; ISS:UniProtKB.
+DR   GO; GO:0042060; P:wound healing; ISS:UniProtKB.
+DR   CDD; cd00041; CUB; 1.
+DR   CDD; cd00057; FA58C; 1.
+DR   Gene3D; 2.60.120.260; Galactose-binding domain-like; 1.
+DR   Gene3D; 2.170.130.20; LCCL-like domain; 1.
+DR   Gene3D; 2.60.120.290; Spermadhesin, CUB domain; 1.
+DR   InterPro; IPR000859; CUB_dom.
+DR   InterPro; IPR000421; FA58C.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR004043; LCCL.
+DR   InterPro; IPR036609; LCCL_sf.
+DR   InterPro; IPR050633; Neuropilin_MCO_CoagFactor.
+DR   InterPro; IPR035914; Sperma_CUB_dom_sf.
+DR   PANTHER; PTHR46806:SF3; DISCOIDIN, CUB AND LCCL DOMAIN-CONTAINING PROTEIN 2; 1.
+DR   PANTHER; PTHR46806; F5/8 TYPE C DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF00431; CUB; 1.
+DR   Pfam; PF00754; F5_F8_type_C; 1.
+DR   Pfam; PF03815; LCCL; 1.
+DR   SMART; SM00042; CUB; 1.
+DR   SMART; SM00231; FA58C; 1.
+DR   SMART; SM00603; LCCL; 1.
+DR   SUPFAM; SSF49785; Galactose-binding domain-like; 1.
+DR   SUPFAM; SSF69848; LCCL domain; 1.
+DR   SUPFAM; SSF49854; Spermadhesin, CUB domain; 1.
+DR   PROSITE; PS01180; CUB; 1.
+DR   PROSITE; PS01285; FA58C_1; 1.
+DR   PROSITE; PS50022; FA58C_3; 1.
+DR   PROSITE; PS50820; LCCL; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Membrane; Phosphoprotein; Reference proteome;
+KW   Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..63
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           64..769
+FT                   /note="Discoidin, CUB and LCCL domain-containing protein 2"
+FT                   /id="PRO_0000021080"
+FT   TOPO_DOM        64..523
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        524..544
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        545..769
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          69..184
+FT                   /note="CUB"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00059"
+FT   DOMAIN          184..282
+FT                   /note="LCCL"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00123"
+FT   DOMAIN          289..446
+FT                   /note="F5/8 type C"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00081"
+FT   REGION          1..39
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          455..476
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          719..769
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         601
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96PD2"
+FT   CARBOHYD        92
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        152
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        269
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        471
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        511
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        69..96
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        123..145
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        212..234
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        289..446
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   769 AA;  83915 MW;  5B7936C8FA063A93 CRC64;
+     MASRAPLRAA RSPQDPGGRA APAATGRAPL PSAGWCPLPP GRNSSSRPRL LLLLLLLLPD
+     AGAQKGDGCG HTVLGPESGT LTSINYPHTY PNSTVCKWEI RVKTGERIRI KFGDFDIEDS
+     DYCHLNYLKI FNGIGVSRTE IGKYCGLGLQ MNQSIESKGS EITVLFMSGI HASGRGFLAS
+     YSVIDKQDLI TCLDTVSNFL EPEFSKYCPA GCLLPFAEIS GTIPHGYRDS SPLCMAGIHA
+     GVVSDVLGGQ ISVVISKGTP YYESSLANNV TSMVGYLSTS LFTFKTSGCY GTLGMESGVI
+     ADPQITASSV LEWTDHMGQE NSWKPEKARL RKPGPPWAAF ATDEHQWLQI DLNKEKKITG
+     IVTTGSTLIE HNYYVSAYRV LYSDDGQKWT VYREPGAAQD KIFQGNKDYH KDVRNNFLPP
+     IIARFIRVNP VQWQQKIAMK VELLGCQFTL KGRLPKLTQP PPPRNSNNLK NTTVHPKLGR
+     APKFTQALQP RSRNDLPLLP AQTTATPDVK NTTVTPSVTK DVALAAVLVP VLVMALTTLI
+     LILVCAWHWR NRKKKAEGTY DLPHWDRAGW WKGVKQLLPA KSVEHEETPV RYSNSEVSHL
+     SPREVTTVLQ ADSAEYAQPL VGGIVGTLHQ RSTFKPEEGK EASYADLDPY NAPVQEVYHA
+     YAEPLPVTGP EYATPIVMDM SGHSTASVGL PSTSTFRTAG NQPPALVGTY NTLLSRTDSC
+     SSGQAQYDTP KGGKPAAAPE ELVYQVPQST QEASGAGRDE KFDAFKETL
+//

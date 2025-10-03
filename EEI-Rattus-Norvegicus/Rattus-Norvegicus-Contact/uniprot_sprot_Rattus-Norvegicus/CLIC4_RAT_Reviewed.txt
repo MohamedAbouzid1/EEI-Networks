@@ -1,0 +1,259 @@
+ID   CLIC4_RAT               Reviewed;         253 AA.
+AC   Q9Z0W7;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   02-OCT-2024, entry version 163.
+DE   RecName: Full=Chloride intracellular channel protein 4;
+DE   AltName: Full=Glutaredoxin-like oxidoreductase CLIC4 {ECO:0000250|UniProtKB:Q9Y696};
+DE            EC=1.8.-.- {ECO:0000250|UniProtKB:Q9Y696};
+DE   AltName: Full=Intracellular chloride ion channel protein p64H1;
+GN   Name=Clic4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY, SUBCELLULAR
+RP   LOCATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Brain;
+RX   PubMed=9295337; DOI=10.1074/jbc.272.38.23880;
+RA   Duncan R.R., Westwood P.K., Boyd A., Ashley R.H.;
+RT   "Rat brain p64H1, expression of a new member of the p64 chloride channel
+RT   protein family in endoplasmic reticulum.";
+RL   J. Biol. Chem. 272:23880-23886(1997).
+RN   [2]
+RP   FUNCTION, TRANSPORTER ACTIVITY, ACTIVITY REGULATION, SUBCELLULAR LOCATION,
+RP   AND DOMAIN.
+RX   PubMed=17453412; DOI=10.1080/09687860600927907;
+RA   Singh H., Ashley R.H.;
+RT   "CLIC4 (p64H1) and its putative transmembrane domain form poorly selective,
+RT   redox-regulated ion channels.";
+RL   Mol. Membr. Biol. 24:41-52(2007).
+RN   [3]
+RP   FUNCTION, INTERACTION WITH HRH3, SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RX   PubMed=18302930; DOI=10.1016/j.bbrc.2008.02.071;
+RA   Maeda K., Haraguchi M., Kuramasu A., Sato T., Ariake K., Sakagami H.,
+RA   Kondo H., Yanai K., Fukunaga K., Yanagisawa T., Sukegawa J.;
+RT   "CLIC4 interacts with histamine H3 receptor and enhances the receptor cell
+RT   surface expression.";
+RL   Biochem. Biophys. Res. Commun. 369:603-608(2008).
+RN   [4] {ECO:0000305}
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=26777142; DOI=10.1016/j.mito.2016.01.001;
+RA   Ponnalagu D., Gururaja Rao S., Farber J., Xin W., Hussain A.T., Shah K.,
+RA   Tanda S., Berryman M., Edwards J.C., Singh H.;
+RT   "Molecular identity of cardiac mitochondrial chloride intracellular channel
+RT   proteins.";
+RL   Mitochondrion 27:6-14(2016).
+CC   -!- FUNCTION: In the soluble state, catalyzes glutaredoxin-like thiol
+CC       disulfide exchange reactions with reduced glutathione as electron donor
+CC       (By similarity). Can insert into membranes and form voltage-dependent
+CC       multi-ion conductive channels. Membrane insertion seems to be redox-
+CC       regulated and may occur only under oxidizing conditions
+CC       (PubMed:17453412, PubMed:9295337). Has alternate cellular functions
+CC       like a potential role in angiogenesis or in maintaining apical-
+CC       basolateral membrane polarity during mitosis and cytokinesis. Could
+CC       also promote endothelial cell proliferation and regulate endothelial
+CC       morphogenesis (tubulogenesis). Promotes cell-surface expression of
+CC       HRH3. {ECO:0000250|UniProtKB:Q9Y696, ECO:0000269|PubMed:17453412,
+CC       ECO:0000269|PubMed:18302930, ECO:0000269|PubMed:9295337}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(in) = chloride(out); Xref=Rhea:RHEA:29823,
+CC         ChEBI:CHEBI:17996; Evidence={ECO:0000269|PubMed:17453412,
+CC         ECO:0000269|PubMed:9295337};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=thiocyanate(in) = thiocyanate(out); Xref=Rhea:RHEA:75347,
+CC         ChEBI:CHEBI:18022; Evidence={ECO:0000269|PubMed:17453412};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=nitrate(in) = nitrate(out); Xref=Rhea:RHEA:34923,
+CC         ChEBI:CHEBI:17632; Evidence={ECO:0000269|PubMed:17453412};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=iodide(out) = iodide(in); Xref=Rhea:RHEA:66324,
+CC         ChEBI:CHEBI:16382; Evidence={ECO:0000269|PubMed:17453412};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=bromide(in) = bromide(out); Xref=Rhea:RHEA:75383,
+CC         ChEBI:CHEBI:15858; Evidence={ECO:0000269|PubMed:17453412};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=fluoride(in) = fluoride(out); Xref=Rhea:RHEA:76159,
+CC         ChEBI:CHEBI:17051; Evidence={ECO:0000269|PubMed:17453412};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=choline(out) = choline(in); Xref=Rhea:RHEA:32751,
+CC         ChEBI:CHEBI:15354; Evidence={ECO:0000269|PubMed:9295337};
+CC   -!- ACTIVITY REGULATION: Channel activity is redox- and pH-regulated. Anion
+CC       vs cation selectivity is enhanced when fully oxidized.
+CC       {ECO:0000269|PubMed:17453412}.
+CC   -!- SUBUNIT: Monomer (By similarity). Interacts with HRH3. {ECO:0000250,
+CC       ECO:0000269|PubMed:18302930}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton, microtubule organizing
+CC       center, centrosome {ECO:0000250|UniProtKB:Q9Y696}. Cytoplasmic vesicle
+CC       membrane {ECO:0000250|UniProtKB:Q9Y696}; Single-pass membrane protein
+CC       {ECO:0000250|UniProtKB:Q9Y696}. Nucleus {ECO:0000250|UniProtKB:Q9Y696}.
+CC       Cell membrane {ECO:0000250|UniProtKB:Q9Y696}; Single-pass membrane
+CC       protein {ECO:0000250|UniProtKB:Q9Y696}. Mitochondrion
+CC       {ECO:0000269|PubMed:26777142}. Cell junction
+CC       {ECO:0000250|UniProtKB:Q9Y696}. Endoplasmic reticulum membrane
+CC       {ECO:0000269|PubMed:9295337}; Single-pass membrane protein
+CC       {ECO:0000305|PubMed:17453412}. Note=Colocalized with AKAP9 at the
+CC       centrosome and midbody. Exists both as soluble cytoplasmic protein and
+CC       as membrane protein with probably a single transmembrane domain.
+CC       Present in an intracellular vesicular compartment that likely represent
+CC       trans-Golgi network vesicles. Might not be present in the nucleus of
+CC       cardiac cells. {ECO:0000250|UniProtKB:Q9Y696,
+CC       ECO:0000269|PubMed:26777142}.
+CC   -!- TISSUE SPECIFICITY: Detected in brain, in cell bodies and dendrites of
+CC       Purkinje cells in cerebellar neurons (at protein level)
+CC       (PubMed:18302930). Expressed neonatal and adult cardiomyocytes (at
+CC       protein level) (PubMed:26777142). Marked expression was found in
+CC       hippocampus and cerebellum, and in many other tissues (PubMed:9295337,
+CC       PubMed:18302930). {ECO:0000269|PubMed:18302930,
+CC       ECO:0000269|PubMed:26777142, ECO:0000269|PubMed:9295337}.
+CC   -!- DOMAIN: The active G-site contains a monothiol Cys-X-X-Ser motif which
+CC       mediates glutathione-dependent redox catalysis.
+CC       {ECO:0000250|UniProtKB:Q9Y696}.
+CC   -!- DOMAIN: Members of this family may change from a globular, soluble
+CC       state to a state where the N-terminal domain is inserted into the
+CC       membrane and functions as a chloride channel. The redox status of the
+CC       active cysteine in Cys-X-X-Cys/Ser motif likely determines the capacity
+CC       to adopt a soluble or membrane-inserted state. A conformation change of
+CC       the N-terminal domain is thought to expose hydrophobic surfaces that
+CC       trigger membrane insertion. {ECO:0000250|UniProtKB:Q9Y696}.
+CC   -!- SIMILARITY: Belongs to the chloride channel CLIC family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF104119; AAD16875.1; -; mRNA.
+DR   PIR; S70484; S70484.
+DR   RefSeq; NP_114006.1; NM_031818.1.
+DR   AlphaFoldDB; Q9Z0W7; -.
+DR   SMR; Q9Z0W7; -.
+DR   BioGRID; 249813; 6.
+DR   CORUM; Q9Z0W7; -.
+DR   STRING; 10116.ENSRNOP00000024464; -.
+DR   iPTMnet; Q9Z0W7; -.
+DR   PhosphoSitePlus; Q9Z0W7; -.
+DR   SwissPalm; Q9Z0W7; -.
+DR   jPOST; Q9Z0W7; -.
+DR   PaxDb; 10116-ENSRNOP00000024464; -.
+DR   GeneID; 83718; -.
+DR   KEGG; rno:83718; -.
+DR   AGR; RGD:61857; -.
+DR   CTD; 25932; -.
+DR   RGD; 61857; Clic4.
+DR   eggNOG; KOG1422; Eukaryota.
+DR   InParanoid; Q9Z0W7; -.
+DR   OrthoDB; 103277at2759; -.
+DR   PhylomeDB; Q9Z0W7; -.
+DR   PRO; PR:Q9Z0W7; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0045177; C:apical part of cell; ISO:RGD.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0005911; C:cell-cell junction; ISO:RGD.
+DR   GO; GO:0005813; C:centrosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0034707; C:chloride channel complex; IEA:UniProtKB-KW.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0030659; C:cytoplasmic vesicle membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005783; C:endoplasmic reticulum; TAS:UniProtKB.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0015630; C:microtubule cytoskeleton; ISO:RGD.
+DR   GO; GO:0005902; C:microvillus; ISO:RGD.
+DR   GO; GO:0030496; C:midbody; ISO:RGD.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; IDA:FlyBase.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0016363; C:nuclear matrix; ISO:RGD.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031982; C:vesicle; TAS:UniProtKB.
+DR   GO; GO:0005254; F:chloride channel activity; IDA:RGD.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0044877; F:protein-containing complex binding; IPI:RGD.
+DR   GO; GO:0001525; P:angiogenesis; ISO:RGD.
+DR   GO; GO:0048754; P:branching morphogenesis of an epithelial tube; ISO:RGD.
+DR   GO; GO:0071277; P:cellular response to calcium ion; ISO:RGD.
+DR   GO; GO:0006821; P:chloride transport; IBA:GO_Central.
+DR   GO; GO:0001886; P:endothelial cell morphogenesis; ISO:RGD.
+DR   GO; GO:0009566; P:fertilization; ISO:RGD.
+DR   GO; GO:0030216; P:keratinocyte differentiation; ISO:RGD.
+DR   GO; GO:0035264; P:multicellular organism growth; ISO:RGD.
+DR   GO; GO:0030336; P:negative regulation of cell migration; ISS:UniProtKB.
+DR   GO; GO:0061299; P:retina vasculature morphogenesis in camera-type eye; ISO:RGD.
+DR   GO; GO:0007035; P:vacuolar acidification; ISO:RGD.
+DR   CDD; cd03061; GST_N_CLIC; 1.
+DR   Gene3D; 1.20.1050.10; -; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   InterPro; IPR002946; CLIC.
+DR   InterPro; IPR053823; CLIC_N.
+DR   InterPro; IPR010987; Glutathione-S-Trfase_C-like.
+DR   InterPro; IPR036282; Glutathione-S-Trfase_C_sf.
+DR   InterPro; IPR040079; Glutathione_S-Trfase.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   NCBIfam; TIGR00862; O-ClC; 1.
+DR   PANTHER; PTHR45476:SF5; CHLORIDE INTRACELLULAR CHANNEL PROTEIN; 1.
+DR   PANTHER; PTHR45476; CHLORIDE INTRACELLULAR CHANNEL PROTEIN 6-RELATED; 1.
+DR   Pfam; PF22441; CLIC-like_N; 1.
+DR   Pfam; PF13410; GST_C_2; 1.
+DR   PRINTS; PR01263; INTCLCHANNEL.
+DR   SFLD; SFLDS00019; Glutathione_Transferase_(cytos; 1.
+DR   SFLD; SFLDG00358; Main_(cytGST); 1.
+DR   SUPFAM; SSF47616; GST C-terminal domain-like; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS50405; GST_CTER; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cell junction; Cell membrane; Chloride; Chloride channel;
+KW   Cytoplasm; Cytoplasmic vesicle; Cytoskeleton; Endoplasmic reticulum;
+KW   Ion channel; Ion transport; Membrane; Mitochondrion; Nucleus;
+KW   Oxidoreductase; Phosphoprotein; Reference proteome; Transmembrane;
+KW   Transmembrane helix; Transport; Voltage-gated channel.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y696"
+FT   CHAIN           2..253
+FT                   /note="Chloride intracellular channel protein 4"
+FT                   /id="PRO_0000144212"
+FT   TRANSMEM        37..57
+FT                   /note="Helical; Note=After insertion into the membrane"
+FT                   /evidence="ECO:0000305|PubMed:17453412"
+FT   DOMAIN          81..244
+FT                   /note="GST C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00685"
+FT   REGION          2..101
+FT                   /note="Required for insertion into the membrane"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           35..38
+FT                   /note="G-site"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y696"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y696"
+FT   MOD_RES         4
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y696"
+FT   MOD_RES         24
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:O00299"
+FT   MOD_RES         130
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y696"
+FT   MOD_RES         132
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O00299"
+FT   MOD_RES         167
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O00299"
+FT   MOD_RES         236
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QYB1"
+FT   MOD_RES         244
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1Q5"
+SQ   SEQUENCE   253 AA;  28633 MW;  DC2A66C3258AAFCF CRC64;
+     MALSMPLNGL KEEDKEPLIE LFVKAGSDGE SIGNCPFSQR LFMILWLKGV VFSVTTVDLK
+     RKPAHLQNLA PGTHPPFITF NSEVKTDVNK IEEFLEEVLC PPKYLKLSPK HPESNTAGMD
+     IFAKFSAYIK NSRPEANEAL ERGLLKTLQK LDEYLNSPLP GEIDENSMED IKSSTRRFLD
+     GDEMTLADCN LLPKLHIVKV VAKKYRNFDI PKGMTGIWRY LTNAYSRDEF TNTCPSDKEV
+     EIAYSDVAKR LTK
+//

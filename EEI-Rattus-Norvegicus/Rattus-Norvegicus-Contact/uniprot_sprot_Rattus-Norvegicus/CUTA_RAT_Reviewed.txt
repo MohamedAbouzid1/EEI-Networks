@@ -1,0 +1,118 @@
+ID   CUTA_RAT                Reviewed;         177 AA.
+AC   Q6MGD0;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAR-2005, sequence version 2.
+DT   08-NOV-2023, entry version 117.
+DE   RecName: Full=Protein CutA;
+DE   AltName: Full=Brain acetylcholinesterase putative membrane anchor;
+DE   Flags: Precursor;
+GN   Name=Cuta;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=10954708; DOI=10.1074/jbc.m004289200;
+RA   Perrier A.L., Cousin X., Boschetti N., Haas R., Chatel J.-M., Bon S.,
+RA   Roberts W.L., Pickett S.R., Massoulie J., Rosenberry T.L., Krejci E.;
+RT   "Two distinct proteins are associated with tetrameric acetylcholinesterase
+RT   on the cell surface.";
+RL   J. Biol. Chem. 275:34260-34265(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RX   PubMed=15060004; DOI=10.1101/gr.1987704;
+RA   Hurt P., Walter L., Sudbrak R., Klages S., Mueller I., Shiina T., Inoko H.,
+RA   Lehrach H., Guenther E., Reinhardt R., Himmelbauer H.;
+RT   "The genomic sequence and comparative analysis of the rat major
+RT   histocompatibility complex.";
+RL   Genome Res. 14:631-639(2004).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.15 ANGSTROMS) OF 44-169.
+RC   STRAIN=LE392;
+RX   PubMed=12949080; DOI=10.1074/jbc.m304398200;
+RA   Arnesano F., Banci L., Benvenuti M., Bertini I., Calderone V., Mangani S.,
+RA   Viezzoli M.S.;
+RT   "The evolutionarily conserved trimeric structure of CutA1 proteins suggests
+RT   a role in signal transduction.";
+RL   J. Biol. Chem. 278:45999-46006(2003).
+CC   -!- FUNCTION: May form part of a complex of membrane proteins attached to
+CC       acetylcholinesterase (AChE).
+CC   -!- SUBUNIT: Homotrimer.
+CC   -!- SIMILARITY: Belongs to the CutA family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAE83916.1; Type=Erroneous gene model prediction; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX883042; CAE83916.1; ALT_SEQ; Genomic_DNA.
+DR   RefSeq; NP_001158178.1; NM_001164706.1.
+DR   RefSeq; NP_001158179.1; NM_001164707.1.
+DR   PDB; 1OSC; X-ray; 2.15 A; A/B/C/D/E/F=44-169.
+DR   PDBsum; 1OSC; -.
+DR   AlphaFoldDB; Q6MGD0; -.
+DR   SMR; Q6MGD0; -.
+DR   STRING; 10116.ENSRNOP00000000568; -.
+DR   iPTMnet; Q6MGD0; -.
+DR   PhosphoSitePlus; Q6MGD0; -.
+DR   jPOST; Q6MGD0; -.
+DR   PaxDb; 10116-ENSRNOP00000000568; -.
+DR   GeneID; 294288; -.
+DR   KEGG; rno:294288; -.
+DR   UCSC; RGD:1303306; rat.
+DR   AGR; RGD:1303306; -.
+DR   CTD; 51596; -.
+DR   RGD; 1303306; Cuta.
+DR   eggNOG; KOG3338; Eukaryota.
+DR   InParanoid; Q6MGD0; -.
+DR   OrthoDB; 4009021at2759; -.
+DR   PhylomeDB; Q6MGD0; -.
+DR   EvolutionaryTrace; Q6MGD0; -.
+DR   PRO; PR:Q6MGD0; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0005507; F:copper ion binding; IBA:GO_Central.
+DR   GO; GO:0019899; F:enzyme binding; ISS:UniProtKB.
+DR   GO; GO:0008104; P:protein localization; IMP:UniProtKB.
+DR   GO; GO:0010038; P:response to metal ion; IEA:InterPro.
+DR   Gene3D; 3.30.70.120; -; 1.
+DR   InterPro; IPR004323; Ion_tolerance_CutA.
+DR   InterPro; IPR011322; N-reg_PII-like_a/b.
+DR   InterPro; IPR015867; N-reg_PII/ATP_PRibTrfase_C.
+DR   PANTHER; PTHR23419; DIVALENT CATION TOLERANCE CUTA-RELATED; 1.
+DR   PANTHER; PTHR23419:SF1; PROTEIN CUTA; 1.
+DR   Pfam; PF03091; CutA1; 1.
+DR   SUPFAM; SSF54913; GlnB-like; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Reference proteome; Signal.
+FT   SIGNAL          1..32
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           33..177
+FT                   /note="Protein CutA"
+FT                   /id="PRO_0000006381"
+FT   STRAND          65..75
+FT                   /evidence="ECO:0007829|PDB:1OSC"
+FT   HELIX           76..88
+FT                   /evidence="ECO:0007829|PDB:1OSC"
+FT   STRAND          93..107
+FT                   /evidence="ECO:0007829|PDB:1OSC"
+FT   STRAND          110..124
+FT                   /evidence="ECO:0007829|PDB:1OSC"
+FT   HELIX           125..127
+FT                   /evidence="ECO:0007829|PDB:1OSC"
+FT   HELIX           128..136
+FT                   /evidence="ECO:0007829|PDB:1OSC"
+FT   STRAND          140..143
+FT                   /evidence="ECO:0007829|PDB:1OSC"
+FT   STRAND          146..151
+FT                   /evidence="ECO:0007829|PDB:1OSC"
+FT   HELIX           156..166
+FT                   /evidence="ECO:0007829|PDB:1OSC"
+SQ   SEQUENCE   177 AA;  18659 MW;  208BF71CB48B945E CRC64;
+     MNWGGALGVL LGGGATLLLS FLCMPALLPV ASRLLLLPRA LLSMASGSPP SQPSPASGSG
+     YVPGSVSAAF VTCPNEKVAK EIARAVVEKR LAACVNLIPQ ITSIYEWKGK IEEDSEVLMM
+     IKTQSSLVPA LTEFVRSVHP YEVAEVIALP VEQGNPPYLH WVHQVTESVS GSGKALP
+//

@@ -1,0 +1,256 @@
+ID   MOT4_RAT                Reviewed;         471 AA.
+AC   O35910;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   02-OCT-2024, entry version 157.
+DE   RecName: Full=Monocarboxylate transporter 4;
+DE            Short=MCT 4;
+DE   AltName: Full=Monocarboxylate transporter 3 {ECO:0000303|PubMed:9632638};
+DE            Short=MCT 3;
+DE   AltName: Full=Solute carrier family 16 member 3;
+GN   Name=Slc16a3; Synonyms=Mct3 {ECO:0000303|PubMed:9632638}, Mct4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, TISSUE SPECIFICITY, AND SUBCELLULAR
+RP   LOCATION.
+RC   STRAIN=Wistar; TISSUE=Skeletal muscle;
+RX   PubMed=9632638; DOI=10.1074/jbc.273.26.15920;
+RA   Wilson M.C., Jackson V.N., Heddle C., Price N.T., Pilegaard H., Juel C.,
+RA   Bonen A., Montgomery I., Hutter O.F., Halestrap A.P.;
+RT   "Lactic acid efflux from white skeletal muscle is catalyzed by the
+RT   monocarboxylate transporter isoform MCT3.";
+RL   J. Biol. Chem. 273:15920-15926(1998).
+RN   [2]
+RP   FUNCTION, TRANSPORTER ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND TISSUE
+RP   SPECIFICITY.
+RX   PubMed=10926847; DOI=10.1042/bj3500219;
+RA   Dimmer K.S., Friedrich B., Lang F., Deitmer J.W., Broeer S.;
+RT   "The low-affinity monocarboxylate transporter MCT4 is adapted to the export
+RT   of lactate in highly glycolytic cells.";
+RL   Biochem. J. 350:219-227(2000).
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Proton-dependent transporter of monocarboxylates such as L-
+CC       lactate and pyruvate (By similarity) (PubMed:10926847, PubMed:9632638).
+CC       Plays a predominant role in the L-lactate efflux from highly glycolytic
+CC       cells (PubMed:10926847, PubMed:9632638). {ECO:0000250|UniProtKB:O15427,
+CC       ECO:0000269|PubMed:10926847, ECO:0000269|PubMed:9632638}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-lactate(in) + H(+)(in) = (S)-lactate(out) + H(+)(out);
+CC         Xref=Rhea:RHEA:29415, ChEBI:CHEBI:15378, ChEBI:CHEBI:16651;
+CC         Evidence={ECO:0000269|PubMed:10926847, ECO:0000269|PubMed:9632638};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:29416;
+CC         Evidence={ECO:0000305|PubMed:10926847};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + pyruvate(out) = H(+)(in) + pyruvate(in);
+CC         Xref=Rhea:RHEA:64720, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378;
+CC         Evidence={ECO:0000250|UniProtKB:O15427};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=10.1 mM for (S)-lactate {ECO:0000269|PubMed:9632638};
+CC         KM=33.7 mM for (S)-lactate {ECO:0000269|PubMed:10926847};
+CC   -!- SUBUNIT: Interacts with BSG; interaction mediates SLC16A3 targeting to
+CC       the plasma membrane. {ECO:0000250|UniProtKB:O15427}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:O15427};
+CC       Multi-pass membrane protein {ECO:0000250|UniProtKB:O15427}. Basolateral
+CC       cell membrane {ECO:0000250|UniProtKB:O15427}; Multi-pass membrane
+CC       protein {ECO:0000255}. Note=Plasma membrane localization is dependent
+CC       upon the BSG/MCT4 interaction. Basolateral sorting signals (BLSS) in C-
+CC       terminal cytoplasmic tail ensure its basolateral expression in
+CC       polarised epithelial cells. {ECO:0000250|UniProtKB:O15427}.
+CC   -!- TISSUE SPECIFICITY: Detected in testis, small intestine, parotid gland,
+CC       lung and brain. Small amounts are detected in heart, kidney and spleen
+CC       (PubMed:10926847). Expressed in skeletal muscle (PubMed:9632638).
+CC       {ECO:0000269|PubMed:10926847, ECO:0000269|PubMed:9632638}.
+CC   -!- DOMAIN: Two basolateral sorting signals (BSS) in its C-terminal
+CC       cytoplasmic tail are required to direct SLC16A3 to the basolateral
+CC       membrane. {ECO:0000250|UniProtKB:O15427}.
+CC   -!- SIMILARITY: Belongs to the major facilitator superfamily.
+CC       Monocarboxylate porter (TC 2.A.1.13) family. {ECO:0000305}.
+CC   -!- CAUTION: Was initially thought to be considered to be a low affinity
+CC       lactate transporter with negligible affinity for pyruvate (By
+CC       similarity). However, it was later shown that SLC16A3 is a high
+CC       affinity lactate transporter with physiologically relevant affinity for
+CC       pyruvate (By similarity). {ECO:0000250|UniProtKB:O15427}.
+CC   -!- CAUTION: Was initially assigned as monocarboxylate transporter 3 (MCT3)
+CC       (PubMed:9632638). However, it was later shown that it corresponds to
+CC       monocarboxylate transporter 4 (MCT4).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U87627; AAC53591.1; -; mRNA.
+DR   RefSeq; NP_110461.1; NM_030834.1.
+DR   RefSeq; XP_006247993.1; XM_006247931.3.
+DR   RefSeq; XP_006247994.1; XM_006247932.2.
+DR   RefSeq; XP_006247995.1; XM_006247933.3.
+DR   RefSeq; XP_006247996.1; XM_006247934.3.
+DR   RefSeq; XP_008766735.1; XM_008768513.2.
+DR   AlphaFoldDB; O35910; -.
+DR   SMR; O35910; -.
+DR   STRING; 10116.ENSRNOP00000051822; -.
+DR   ChEMBL; CHEMBL5291501; -.
+DR   PhosphoSitePlus; O35910; -.
+DR   PaxDb; 10116-ENSRNOP00000051822; -.
+DR   Ensembl; ENSRNOT00000054939.4; ENSRNOP00000051822.3; ENSRNOG00000036677.5.
+DR   Ensembl; ENSRNOT00055056579; ENSRNOP00055046685; ENSRNOG00055032728.
+DR   Ensembl; ENSRNOT00060015664; ENSRNOP00060012207; ENSRNOG00060009296.
+DR   Ensembl; ENSRNOT00065007044; ENSRNOP00065004857; ENSRNOG00065004848.
+DR   GeneID; 80878; -.
+DR   KEGG; rno:80878; -.
+DR   AGR; RGD:620603; -.
+DR   CTD; 9123; -.
+DR   RGD; 620603; Slc16a3.
+DR   eggNOG; KOG2504; Eukaryota.
+DR   GeneTree; ENSGT00940000158181; -.
+DR   InParanoid; O35910; -.
+DR   OrthoDB; 2917104at2759; -.
+DR   PhylomeDB; O35910; -.
+DR   Reactome; R-RNO-210991; Basigin interactions.
+DR   Reactome; R-RNO-433692; Proton-coupled monocarboxylate transport.
+DR   PRO; PR:O35910; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000036677; Expressed in skeletal muscle tissue and 20 other cell types or tissues.
+DR   ExpressionAtlas; O35910; baseline and differential.
+DR   GO; GO:0016324; C:apical plasma membrane; ISO:RGD.
+DR   GO; GO:0016323; C:basolateral plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0016328; C:lateral plasma membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0015129; F:lactate transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015650; F:lactate:proton symporter activity; IDA:UniProtKB.
+DR   GO; GO:0050833; F:pyruvate transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0035873; P:lactate transmembrane transport; ISO:RGD.
+DR   GO; GO:0015718; P:monocarboxylic acid transport; IBA:GO_Central.
+DR   GO; GO:0035879; P:plasma membrane lactate transport; IDA:UniProtKB.
+DR   GO; GO:0042867; P:pyruvate catabolic process; ISO:RGD.
+DR   GO; GO:1901475; P:pyruvate transmembrane transport; ISS:UniProtKB.
+DR   CDD; cd17430; MFS_MCT3_4; 1.
+DR   Gene3D; 1.20.1250.20; MFS general substrate transporter like domains; 1.
+DR   InterPro; IPR004743; MCT.
+DR   InterPro; IPR011701; MFS.
+DR   InterPro; IPR020846; MFS_dom.
+DR   InterPro; IPR036259; MFS_trans_sf.
+DR   InterPro; IPR050327; Proton-linked_MCT.
+DR   NCBIfam; TIGR00892; 2A0113; 1.
+DR   PANTHER; PTHR11360; MONOCARBOXYLATE TRANSPORTER; 1.
+DR   PANTHER; PTHR11360:SF27; MONOCARBOXYLATE TRANSPORTER 4; 1.
+DR   Pfam; PF07690; MFS_1; 1.
+DR   SUPFAM; SSF103473; MFS general substrate transporter; 1.
+DR   PROSITE; PS50850; MFS; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Membrane; Phosphoprotein; Reference proteome; Symport;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..471
+FT                   /note="Monocarboxylate transporter 4"
+FT                   /id="PRO_0000211396"
+FT   TOPO_DOM        1..17
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        18..38
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        39..61
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        62..82
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        83..84
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        85..105
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        106..109
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        110..130
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        131..149
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        150..170
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        171..179
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        180..200
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        201..231
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        232..252
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        253..267
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        268..288
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        289..298
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        299..319
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        320..321
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        322..342
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        343..355
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        356..376
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        377..391
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        392..412
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        413..471
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          429..447
+FT                   /note="Basolateral sorting signal"
+FT                   /evidence="ECO:0000250|UniProtKB:O15427"
+FT   REGION          447..471
+FT                   /note="Basolateral sorting signal"
+FT                   /evidence="ECO:0000250|UniProtKB:O15427"
+FT   MOD_RES         430
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P57787"
+FT   MOD_RES         466
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:O15427"
+FT   MOD_RES         470
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O15427"
+SQ   SEQUENCE   471 AA;  50549 MW;  7EED86F82777527A CRC64;
+     MGGAVVDEGP TGIKAPDGGW GWAVLFGCFI ITGFSYAFPK AVSVFFKELM HEFGIGYSDT
+     AWISSILLAM LYGTGPLCSM CVNRFGCRPV MLVGGLFASL GMVAASFCRS IIQIYLTTGV
+     ITGLGLALNF QPSLIMLNRY FNKRRPMANG LAAAGSPVFL CALSPLGQLL QDHYGWRGGF
+     LILGGLLLNC CVCAALMRPL VAPQASGGAE PHGPQRPSPR LLDLSVFRDR GFLIYAVAAS
+     IMVLGLFVPP VFVVSYAKDM GVPDTKAAFL LTILGFIDIF ARPTAGFITG LKKVRPYSVY
+     LFSFAMFFNG FTDLTGSTAS DYGGLVVFCI FFGISYGMVG ALQFEVLMAI VGTQKFSSAI
+     GLVLLLEAVA VLIGPPSGGK LLDATKVYKY VFILAGAEVL TSSLVLLLGN FFCIGKRKRP
+     EVTKPEEVAS EEEKLHKPPV DVRVDSREVE HFLKAEPEKN GEVVHTPETS V
+//

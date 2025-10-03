@@ -1,0 +1,372 @@
+ID   DYN3_RAT                Reviewed;         869 AA.
+AC   Q08877; Q9QXL9;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 2.
+DT   29-MAY-2024, entry version 185.
+DE   RecName: Full=Dynamin-3;
+DE            EC=3.6.5.5;
+DE   AltName: Full=Dynamin, testicular;
+DE   AltName: Full=T-dynamin;
+GN   Name=Dnm3; Synonyms=Dyn3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 8), AND TISSUE SPECIFICITY.
+RC   TISSUE=Testis;
+RX   PubMed=8360266; DOI=10.1242/jcs.105.1.1;
+RA   Nakata T., Takamura R., Hirokawa N.;
+RT   "A novel member of the dynamin family of GTP-binding proteins is expressed
+RT   specifically in the testis.";
+RL   J. Cell Sci. 105:1-5(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND DEVELOPMENTAL STAGE.
+RC   TISSUE=Brain;
+RX   PubMed=8752097; DOI=10.1046/j.1471-4159.1996.67030927.x;
+RA   Cook T., Mesa K., Urrutia R.;
+RT   "Three dynamin-encoding genes are differentially expressed in developing
+RT   rat brain.";
+RL   J. Neurochem. 67:927-931(1996).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 839-859 (ISOFORM 1/3/5/7/9/11), PHOSPHORYLATION AT
+RP   SER-769; SER-773 AND SER-853, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=17376771; DOI=10.1074/jbc.m609713200;
+RA   Graham M.E., Anggono V., Bache N., Larsen M.R., Craft G.E., Robinson P.J.;
+RT   "The in vivo phosphorylation sites of rat brain dynamin I.";
+RL   J. Biol. Chem. 282:14695-14707(2007).
+RN   [4]
+RP   ALTERNATIVE SPLICING, SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=9725914; DOI=10.1091/mbc.9.9.2595;
+RA   Cao H., Garcia F., McNiven M.A.;
+RT   "Differential distribution of dynamin isoforms in mammalian cells.";
+RL   Mol. Biol. Cell 9:2595-2609(1998).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-769 AND SER-773, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Microtubule-associated force-producing protein involved in
+CC       producing microtubule bundles and able to bind and hydrolyze GTP. Most
+CC       probably involved in vesicular trafficking processes, in particular
+CC       endocytosis.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = GDP + H(+) + phosphate; Xref=Rhea:RHEA:19669,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58189; EC=3.6.5.5;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:9725914}.
+CC       Cytoplasm, cytoskeleton {ECO:0000269|PubMed:9725914}. Note=Microtubule-
+CC       associated. Isoform-specific localization.
+CC       {ECO:0000269|PubMed:9725914}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform 2]: Cytoplasmic vesicle
+CC       {ECO:0000269|PubMed:9725914}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform 8]: Cytoplasm. Golgi apparatus
+CC       {ECO:0000269|PubMed:9725914}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=13;
+CC       Name=1; Synonyms=bab, DynIIIbb;
+CC         IsoId=Q08877-1; Sequence=Displayed;
+CC       Name=2; Synonyms=baa, DynIIIba;
+CC         IsoId=Q08877-2; Sequence=VSP_034043;
+CC       Name=3; Synonyms=bbb;
+CC         IsoId=Q08877-3; Sequence=VSP_034041;
+CC       Name=4; Synonyms=bba;
+CC         IsoId=Q08877-4; Sequence=VSP_034041, VSP_034043;
+CC       Name=5; Synonyms=bcb;
+CC         IsoId=Q08877-5; Sequence=VSP_034042;
+CC       Name=6; Synonyms=bca;
+CC         IsoId=Q08877-6; Sequence=VSP_034042, VSP_034043;
+CC       Name=7; Synonyms=aab, DynIIIab;
+CC         IsoId=Q08877-7; Sequence=VSP_034038;
+CC       Name=8; Synonyms=aaa, DynIIIaa;
+CC         IsoId=Q08877-9; Sequence=VSP_034038, VSP_034043;
+CC       Name=9; Synonyms=abb;
+CC         IsoId=Q08877-10; Sequence=VSP_034038, VSP_034041;
+CC       Name=10; Synonyms=aba;
+CC         IsoId=Q08877-11; Sequence=VSP_034038, VSP_034041, VSP_034043;
+CC       Name=11; Synonyms=acb;
+CC         IsoId=Q08877-12; Sequence=VSP_034038, VSP_034042;
+CC       Name=12; Synonyms=aca;
+CC         IsoId=Q08877-13; Sequence=VSP_034038, VSP_034042, VSP_034043;
+CC       Name=13; Synonyms=c;
+CC         IsoId=Q08877-8; Sequence=VSP_034039, VSP_034040;
+CC   -!- TISSUE SPECIFICITY: Isoform-specific expression in germ-cell-depleted
+CC       testis (Sertoli cells), brain (peripheral sensory neurons), lung and
+CC       heart. {ECO:0000269|PubMed:8360266, ECO:0000269|PubMed:9725914}.
+CC   -!- DEVELOPMENTAL STAGE: Up-regulated expression throughout development.
+CC       {ECO:0000269|PubMed:8752097}.
+CC   -!- MISCELLANEOUS: [Isoform 1]: Expressed in lung, brain, heart.
+CC   -!- MISCELLANEOUS: [Isoform 2]: Expressed in lung, brain, heart, testis.
+CC       Localized to vesicular-like punctate spots, neither at the plasma
+CC       membrane nor the Golgi area. {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 3]: Expressed in lung, brain, heart, testis.
+CC       {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 4]: Expressed in lung, brain, heart.
+CC       {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 5]: Expressed in lung. {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 6]: Expressed in lung. {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 7]: Expressed in lung, brain, heart, testis.
+CC       {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 8]: Expressed in lung, brain, heart, testis.
+CC       Diffuse cytoplasmic distribution and some modest association with the
+CC       Golgi apparatus. {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 9]: Expressed in lung, brain, heart.
+CC       {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 10]: Expressed in lung, brain, heart.
+CC       {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 11]: Expressed in lung. {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 12]: Expressed in lung. {ECO:0000305}.
+CC   -!- MISCELLANEOUS: [Isoform 13]: Expressed in lung, brain, heart, testis.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class dynamin-like GTPase
+CC       superfamily. Dynamin/Fzo/YdjA family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01055}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D14076; BAA03161.1; -; mRNA.
+DR   EMBL; AF201839; AAF07848.1; -; mRNA.
+DR   PIR; I55498; I55498.
+DR   RefSeq; NP_612547.1; NM_138538.1. [Q08877-1]
+DR   RefSeq; XP_006250203.1; XM_006250141.3. [Q08877-7]
+DR   RefSeq; XP_006250204.1; XM_006250142.3. [Q08877-9]
+DR   AlphaFoldDB; Q08877; -.
+DR   SMR; Q08877; -.
+DR   BioGRID; 251309; 4.
+DR   ELM; Q08877; -.
+DR   IntAct; Q08877; 3.
+DR   MINT; Q08877; -.
+DR   STRING; 10116.ENSRNOP00000063767; -.
+DR   iPTMnet; Q08877; -.
+DR   PhosphoSitePlus; Q08877; -.
+DR   jPOST; Q08877; -.
+DR   PaxDb; 10116-ENSRNOP00000063767; -.
+DR   Ensembl; ENSRNOT00000067653.4; ENSRNOP00000063767.1; ENSRNOG00000026490.7. [Q08877-1]
+DR   Ensembl; ENSRNOT00000075938.2; ENSRNOP00000068044.2; ENSRNOG00000026490.7. [Q08877-2]
+DR   Ensembl; ENSRNOT00055030146; ENSRNOP00055024221; ENSRNOG00055017816. [Q08877-1]
+DR   Ensembl; ENSRNOT00060014690; ENSRNOP00060011343; ENSRNOG00060008697. [Q08877-1]
+DR   Ensembl; ENSRNOT00065033930; ENSRNOP00065027150; ENSRNOG00065020069. [Q08877-1]
+DR   GeneID; 171574; -.
+DR   KEGG; rno:171574; -.
+DR   UCSC; RGD:727949; rat. [Q08877-1]
+DR   AGR; RGD:727949; -.
+DR   CTD; 26052; -.
+DR   RGD; 727949; Dnm3.
+DR   eggNOG; KOG0446; Eukaryota.
+DR   GeneTree; ENSGT00940000158056; -.
+DR   HOGENOM; CLU_008964_1_1_1; -.
+DR   InParanoid; Q08877; -.
+DR   OMA; EINRIFH; -.
+DR   OrthoDB; 1052588at2759; -.
+DR   PhylomeDB; Q08877; -.
+DR   BRENDA; 3.6.5.5; 5301.
+DR   Reactome; R-RNO-166016; Toll Like Receptor 4 (TLR4) Cascade.
+DR   Reactome; R-RNO-2132295; MHC class II antigen presentation.
+DR   Reactome; R-RNO-437239; Recycling pathway of L1.
+DR   Reactome; R-RNO-8856828; Clathrin-mediated endocytosis.
+DR   PRO; PR:Q08877; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000026490; Expressed in cerebellum and 16 other cell types or tissues.
+DR   GO; GO:0061828; C:apical tubulobulbar complex; IDA:RGD.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0061829; C:basal tubulobulbar complex; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; IEA:UniProtKB-KW.
+DR   GO; GO:0005829; C:cytosol; NAS:UniProtKB.
+DR   GO; GO:0043197; C:dendritic spine; IDA:UniProtKB.
+DR   GO; GO:0044327; C:dendritic spine head; IDA:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005874; C:microtubule; IBA:GO_Central.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0001917; C:photoreceptor inner segment; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0014069; C:postsynaptic density; IDA:UniProtKB.
+DR   GO; GO:0098844; C:postsynaptic endocytic zone membrane; IDA:SynGO.
+DR   GO; GO:0098793; C:presynapse; ISO:RGD.
+DR   GO; GO:0045202; C:synapse; ISO:RGD.
+DR   GO; GO:0043083; C:synaptic cleft; IDA:RGD.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003924; F:GTPase activity; IMP:UniProtKB.
+DR   GO; GO:0008017; F:microtubule binding; IBA:GO_Central.
+DR   GO; GO:0050998; F:nitric-oxide synthase binding; IDA:RGD.
+DR   GO; GO:0120283; F:protein serine/threonine kinase binding; IPI:RGD.
+DR   GO; GO:0099186; F:structural constituent of postsynapse; IDA:SynGO.
+DR   GO; GO:0031798; F:type 1 metabotropic glutamate receptor binding; IPI:RGD.
+DR   GO; GO:0031802; F:type 5 metabotropic glutamate receptor binding; IPI:RGD.
+DR   GO; GO:0006897; P:endocytosis; IMP:UniProtKB.
+DR   GO; GO:0046847; P:filopodium assembly; IDA:UniProtKB.
+DR   GO; GO:0061002; P:negative regulation of dendritic spine morphogenesis; IDA:RGD.
+DR   GO; GO:0051491; P:positive regulation of filopodium assembly; IDA:RGD.
+DR   GO; GO:1903423; P:positive regulation of synaptic vesicle recycling; IMP:RGD.
+DR   GO; GO:0098884; P:postsynaptic neurotransmitter receptor internalization; IMP:SynGO.
+DR   GO; GO:0031623; P:receptor internalization; IBA:GO_Central.
+DR   GO; GO:0061001; P:regulation of dendritic spine morphogenesis; IMP:RGD.
+DR   GO; GO:0042713; P:sperm ejaculation; NAS:UniProtKB.
+DR   GO; GO:0007416; P:synapse assembly; IDA:UniProtKB.
+DR   GO; GO:0016185; P:synaptic vesicle budding from presynaptic endocytic zone membrane; ISO:RGD.
+DR   GO; GO:0048488; P:synaptic vesicle endocytosis; ISO:RGD.
+DR   CDD; cd08771; DLP_1; 1.
+DR   CDD; cd01256; PH_dynamin; 1.
+DR   Gene3D; 1.20.120.1240; Dynamin, middle domain; 2.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 2.30.29.30; Pleckstrin-homology domain (PH domain)/Phosphotyrosine-binding domain (PTB); 1.
+DR   InterPro; IPR022812; Dynamin.
+DR   InterPro; IPR001401; Dynamin_GTPase.
+DR   InterPro; IPR019762; Dynamin_GTPase_CS.
+DR   InterPro; IPR045063; Dynamin_N.
+DR   InterPro; IPR000375; Dynamin_stalk.
+DR   InterPro; IPR030381; G_DYNAMIN_dom.
+DR   InterPro; IPR003130; GED.
+DR   InterPro; IPR020850; GED_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR011993; PH-like_dom_sf.
+DR   InterPro; IPR001849; PH_domain.
+DR   PANTHER; PTHR11566; DYNAMIN; 1.
+DR   PANTHER; PTHR11566:SF54; DYNAMIN-3; 1.
+DR   Pfam; PF01031; Dynamin_M; 1.
+DR   Pfam; PF00350; Dynamin_N; 1.
+DR   Pfam; PF02212; GED; 1.
+DR   Pfam; PF00169; PH; 1.
+DR   PRINTS; PR00195; DYNAMIN.
+DR   SMART; SM00053; DYNc; 1.
+DR   SMART; SM00302; GED; 1.
+DR   SMART; SM00233; PH; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF50729; PH domain-like; 1.
+DR   PROSITE; PS00410; G_DYNAMIN_1; 1.
+DR   PROSITE; PS51718; G_DYNAMIN_2; 1.
+DR   PROSITE; PS51388; GED; 1.
+DR   PROSITE; PS50003; PH_DOMAIN; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Alternative splicing; Cytoplasm; Cytoplasmic vesicle;
+KW   Cytoskeleton; Direct protein sequencing; Endocytosis; Golgi apparatus;
+KW   GTP-binding; Hydrolase; Microtubule; Motor protein; Nucleotide-binding;
+KW   Phosphoprotein; Reference proteome.
+FT   CHAIN           1..869
+FT                   /note="Dynamin-3"
+FT                   /id="PRO_0000206574"
+FT   DOMAIN          28..294
+FT                   /note="Dynamin-type G"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01055"
+FT   DOMAIN          525..631
+FT                   /note="PH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00145"
+FT   DOMAIN          659..750
+FT                   /note="GED"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00720"
+FT   REGION          38..45
+FT                   /note="G1 motif"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01055"
+FT   REGION          64..66
+FT                   /note="G2 motif"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01055"
+FT   REGION          136..139
+FT                   /note="G3 motif"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01055"
+FT   REGION          205..208
+FT                   /note="G4 motif"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01055"
+FT   REGION          235..238
+FT                   /note="G5 motif"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01055"
+FT   REGION          752..869
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        766..782
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        790..826
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        835..858
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         38..46
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQ16"
+FT   BINDING         205..211
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQ16"
+FT   BINDING         236..239
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UQ16"
+FT   MOD_RES         231
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P39052"
+FT   MOD_RES         299
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P39054"
+FT   MOD_RES         603
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P39052"
+FT   MOD_RES         604
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50570"
+FT   MOD_RES         769
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:17376771,
+FT                   ECO:0007744|PubMed:22673903"
+FT   MOD_RES         773
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:17376771,
+FT                   ECO:0007744|PubMed:22673903"
+FT   MOD_RES         853
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000269|PubMed:17376771"
+FT   VAR_SEQ         516..525
+FT                   /note="Missing (in isoform 7, isoform 8, isoform 9, isoform
+FT                   10, isoform 11 and isoform 12)"
+FT                   /evidence="ECO:0000303|PubMed:8360266"
+FT                   /id="VSP_034038"
+FT   VAR_SEQ         526..564
+FT                   /note="VIRKGWLTVSNIGIMKGGSKGYWFVLTAESLSWYKDDEE -> VRAKFCDSE
+FT                   GLADRQQHWHHERRLEGLLVCPHGRKLVLV (in isoform 13)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_034039"
+FT   VAR_SEQ         565..869
+FT                   /note="Missing (in isoform 13)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_034040"
+FT   VAR_SEQ         636..640
+FT                   /note="SFTEN -> SFGSNKTEM (in isoform 3, isoform 4, isoform
+FT                   9 and isoform 10)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_034041"
+FT   VAR_SEQ         636..640
+FT                   /note="SFTEN -> DQAENEDGAQENTF (in isoform 5, isoform 6,
+FT                   isoform 11 and isoform 12)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_034042"
+FT   VAR_SEQ         847..869
+FT                   /note="SRRPPPSPTRPTIIRPLESSLLD -> RFGAVKEEAVEP (in isoform
+FT                   2, isoform 4, isoform 6, isoform 8, isoform 10 and isoform
+FT                   12)"
+FT                   /evidence="ECO:0000303|PubMed:8360266"
+FT                   /id="VSP_034043"
+SQ   SEQUENCE   869 AA;  97914 MW;  00B41E41E5425BAD CRC64;
+     MGNREMEELI PLVNRLQDAF SALGQSCLLE LPQIAVVGGQ SAGKSSVLEN FVGRDFLPRG
+     SGIVTRRPLV LQLVTSKAEY AEFLHCKGKK FTDFDEVRHE IEAETDRVTG MNKGISSVPI
+     NLRVYSPHVL NLTLIDLPGI TKVPVGDQPP DIEYQIRDMI MQFITRENCL ILAVTPANTD
+     LANSDALKLA KEVDPQGLRT IGVITKLDLM DEGTDARDVL ENKLLPLRRG YVGVVNRSQK
+     DIDGKKDIKA AMLAERKFFL SHPAYRHIAD RMGTPHLQKV LNQQLTNHIR DTLPNFRNKL
+     QGQLLSIEHE VEAFKNFKPE DPTRKTKALL QMVQQFAVDF EKRIEGSGDQ VDTLELSGGA
+     KINRIFHERF PFEIVKMEFN EKELRREISY AIKNIHGIRT GLFTPDMAFE AIVKKQIVKL
+     KGPSLKSVDL VMQELINTVK KCTKRLANFP RLCEETERIV ANHIREREGK TKDQVLLLID
+     IQVSYINTNH EDFIGFANAQ QRSSQVHKKS TIGNQGTNLP PSRQIVIRKG WLTVSNIGIM
+     KGGSKGYWFV LTAESLSWYK DDEEKEKKYM LPLDNLKVRD VEKGFMSSKH VFALFNTEQR
+     NVYKDYRSLE LACDSQEDVD SWKASLLRAG VYPDKSFTEN DENGQAENFS MDPQLERQVE
+     TIRNLVDSYM SIINKCIRDL IPKTIMHLMI NNVKDFINSE LLAQLYSSED QNTLMEESVE
+     QAQRRDEMLR MYQALKEALA IIGDINTVTV STPAPPPVDD SWLQHSRRSP PPSPTTQRRL
+     TLSAPLPRPA SSRGPAPAIP SPGPHSGAPP VPFRPGPLPP FPNSSDSYGA PPQVPSRPTR
+     APPSVPSRRP PPSPTRPTII RPLESSLLD
+//

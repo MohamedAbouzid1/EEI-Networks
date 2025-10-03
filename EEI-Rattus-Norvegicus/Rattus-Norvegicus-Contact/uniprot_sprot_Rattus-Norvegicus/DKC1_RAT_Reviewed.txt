@@ -1,0 +1,287 @@
+ID   DKC1_RAT                Reviewed;         509 AA.
+AC   P40615; Q499M9;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 4.
+DT   24-JUL-2024, entry version 163.
+DE   RecName: Full=H/ACA ribonucleoprotein complex subunit DKC1;
+DE            EC=5.4.99.- {ECO:0000250|UniProtKB:O60832};
+DE   AltName: Full=Dyskerin;
+DE   AltName: Full=Nopp140-associated protein of 57 kDa {ECO:0000303|PubMed:7798307};
+DE   AltName: Full=Nucleolar protein NAP57 {ECO:0000303|PubMed:7798307};
+DE   AltName: Full=Nucleolar protein family A member 4;
+DE   AltName: Full=snoRNP protein DKC1;
+GN   Name=Dkc1; Synonyms=Nap57 {ECO:0000303|PubMed:7798307};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 21-43; 83-96 AND 98-119,
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH NOLC1.
+RC   TISSUE=Liver;
+RX   PubMed=7798307; DOI=10.1083/jcb.127.6.1505;
+RA   Meier U., Blobel G.;
+RT   "NAP57, a mammalian nucleolar protein with a putative homolog in yeast and
+RT   bacteria.";
+RL   J. Cell Biol. 127:1505-1514(1994).
+RN   [2]
+RP   SEQUENCE REVISION TO C-TERMINUS.
+RA   Meier U.;
+RL   Submitted (DEC-1997) to UniProtKB.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   FUNCTION, INTERACTION WITH GAR1; NHP2; NOP10 AND NOLC1, AND SUBCELLULAR
+RP   LOCATION.
+RX   PubMed=12446766; DOI=10.1128/mcb.22.24.8457-8466.2002;
+RA   Wang C., Query C.C., Meier U.T.;
+RT   "Immunopurified small nucleolar ribonucleoprotein particles pseudouridylate
+RT   rRNA independently of their association with phosphorylated Nopp140.";
+RL   Mol. Cell. Biol. 22:8457-8466(2002).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-452 AND SER-454, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalytic subunit of H/ACA small nucleolar ribonucleoprotein
+CC       (H/ACA snoRNP) complex, which catalyzes pseudouridylation of rRNA
+CC       (PubMed:12446766). This involves the isomerization of uridine such that
+CC       the ribose is subsequently attached to C5, instead of the normal N1 (By
+CC       similarity). Each rRNA can contain up to 100 pseudouridine ('psi')
+CC       residues, which may serve to stabilize the conformation of rRNAs (By
+CC       similarity). Required for ribosome biogenesis and telomere maintenance
+CC       (By similarity). Also required for correct processing or intranuclear
+CC       trafficking of TERC, the RNA component of the telomerase reverse
+CC       transcriptase (TERT) holoenzyme (By similarity).
+CC       {ECO:0000250|UniProtKB:O60832, ECO:0000269|PubMed:12446766}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uridine in 5S rRNA = pseudouridine in 5S rRNA;
+CC         Xref=Rhea:RHEA:47036, Rhea:RHEA-COMP:11730, Rhea:RHEA-COMP:11731,
+CC         ChEBI:CHEBI:65314, ChEBI:CHEBI:65315;
+CC         Evidence={ECO:0000250|UniProtKB:O60832};
+CC   -!- SUBUNIT: Part of the H/ACA small nucleolar ribonucleoprotein (H/ACA
+CC       snoRNP) complex, which contains NHP2/NOLA2, GAR1/NOLA1, NOP10/NOLA3,
+CC       and DKC1/NOLA4, which is presumed to be the catalytic subunit
+CC       (PubMed:12446766). The complex contains a stable core formed by binding
+CC       of one or two NOP10-DKC1 heterodimers to NHP2; GAR1 subsequently binds
+CC       to this core via DKC1 (By similarity). The complex binds a box H/ACA
+CC       small nucleolar RNA (snoRNA), which may target the specific site of
+CC       modification within the RNA substrate (By similarity). During assembly,
+CC       the complex contains NAF1 instead of GAR1/NOLA1 (By similarity). The
+CC       complex also interacts with TERC, which contains a 3'-terminal domain
+CC       related to the box H/ACA snoRNAs (By similarity). Specific interactions
+CC       with snoRNAs or TERC are mediated by GAR1 and NHP2 (By similarity).
+CC       Associates with NOLC1/NOPP140 (By similarity). H/ACA snoRNPs interact
+CC       with the SMN complex, consisting of SMN1 or SMN2, GEMIN2/SIP1,
+CC       DDX20/GEMIN3, and GEMIN4 (By similarity). This is mediated by
+CC       interaction between GAR1 and SMN1 or SMN2 (By similarity). The SMN
+CC       complex may be required for correct assembly of the H/ACA snoRNP
+CC       complex (By similarity). Component of the telomerase holoenzyme complex
+CC       composed of one molecule of TERT, one molecule of WRAP53/TCAB1, two
+CC       molecules of H/ACA ribonucleoprotein complex subunits DKC1, NOP10, NHP2
+CC       and GAR1, and a telomerase RNA template component (TERC) (By
+CC       similarity). The telomerase holoenzyme complex is associated with TEP1,
+CC       SMG6/EST1A and POT1 (By similarity). Interacts with SHQ1; this
+CC       interaction may lead to the stabilization of DKC1, from the time of its
+CC       synthesis until its association with NOP10, NHP2, and NAF1 at the
+CC       nascent H/ACA RNA (By similarity). Interacts with HMBOX1 (By
+CC       similarity). Interacts with DHX36 (By similarity).
+CC       {ECO:0000250|UniProtKB:O60832, ECO:0000269|PubMed:12446766}.
+CC   -!- INTERACTION:
+CC       P40615; D3ZMP6: Nop10; NbExp=4; IntAct=EBI-5746997, EBI-8792072;
+CC       P40615; Q96HR8: NAF1; Xeno; NbExp=3; IntAct=EBI-5746997, EBI-2515597;
+CC   -!- SUBCELLULAR LOCATION: Nucleus, nucleolus {ECO:0000269|PubMed:7798307}.
+CC       Nucleus, Cajal body {ECO:0000269|PubMed:7798307}.
+CC   -!- SIMILARITY: Belongs to the pseudouridine synthase TruB family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z34922; CAA84402.1; -; mRNA.
+DR   EMBL; BC099832; AAH99832.1; -; mRNA.
+DR   PIR; A55163; A55163.
+DR   RefSeq; NP_596910.1; NM_133419.1.
+DR   AlphaFoldDB; P40615; -.
+DR   SMR; P40615; -.
+DR   BioGRID; 251042; 1.
+DR   CORUM; P40615; -.
+DR   IntAct; P40615; 5.
+DR   STRING; 10116.ENSRNOP00000074005; -.
+DR   GlyGen; P40615; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; P40615; -.
+DR   PhosphoSitePlus; P40615; -.
+DR   jPOST; P40615; -.
+DR   PaxDb; 10116-ENSRNOP00000064024; -.
+DR   Ensembl; ENSRNOT00055001251; ENSRNOP00055001004; ENSRNOG00055000727.
+DR   Ensembl; ENSRNOT00055041561; ENSRNOP00055033814; ENSRNOG00055024200.
+DR   Ensembl; ENSRNOT00060014638; ENSRNOP00060011292; ENSRNOG00060008746.
+DR   Ensembl; ENSRNOT00060014691; ENSRNOP00060011347; ENSRNOG00060008779.
+DR   Ensembl; ENSRNOT00065000312; ENSRNOP00065000307; ENSRNOG00065000181.
+DR   Ensembl; ENSRNOT00065023745; ENSRNOP00065018484; ENSRNOG00065014381.
+DR   GeneID; 170944; -.
+DR   KEGG; rno:170944; -.
+DR   AGR; RGD:621780; -.
+DR   CTD; 1736; -.
+DR   RGD; 621780; Dkc1.
+DR   eggNOG; KOG2529; Eukaryota.
+DR   InParanoid; P40615; -.
+DR   OrthoDB; 5472308at2759; -.
+DR   PhylomeDB; P40615; -.
+DR   Reactome; R-RNO-171319; Telomere Extension By Telomerase.
+DR   PRO; PR:P40615; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0031429; C:box H/ACA snoRNP complex; IDA:RGD.
+DR   GO; GO:0090661; C:box H/ACA telomerase RNP complex; ISO:RGD.
+DR   GO; GO:0015030; C:Cajal body; IDA:RGD.
+DR   GO; GO:0005730; C:nucleolus; ISO:RGD.
+DR   GO; GO:0005654; C:nucleoplasm; IDA:RGD.
+DR   GO; GO:0005697; C:telomerase holoenzyme complex; ISS:UniProtKB.
+DR   GO; GO:0034513; F:box H/ACA snoRNA binding; ISO:RGD.
+DR   GO; GO:0009982; F:pseudouridine synthase activity; ISS:UniProtKB.
+DR   GO; GO:0003723; F:RNA binding; ISO:RGD.
+DR   GO; GO:0003720; F:telomerase activity; ISO:RGD.
+DR   GO; GO:0070034; F:telomerase RNA binding; ISO:RGD.
+DR   GO; GO:0000495; P:box H/ACA sno(s)RNA 3'-end processing; IBA:GO_Central.
+DR   GO; GO:0033979; P:box H/ACA sno(s)RNA metabolic process; ISO:RGD.
+DR   GO; GO:0000455; P:enzyme-directed rRNA pseudouridine synthesis; ISS:UniProtKB.
+DR   GO; GO:1990481; P:mRNA pseudouridine synthesis; IBA:GO_Central.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IDA:RGD.
+DR   GO; GO:1904851; P:positive regulation of establishment of protein localization to telomere; ISO:RGD.
+DR   GO; GO:1904874; P:positive regulation of telomerase RNA localization to Cajal body; ISO:RGD.
+DR   GO; GO:0032212; P:positive regulation of telomere maintenance via telomerase; ISO:RGD.
+DR   GO; GO:1904872; P:regulation of telomerase RNA localization to Cajal body; ISO:RGD.
+DR   GO; GO:0031118; P:rRNA pseudouridine synthesis; ISO:RGD.
+DR   GO; GO:0090666; P:scaRNA localization to Cajal body; ISO:RGD.
+DR   GO; GO:0000454; P:snoRNA guided rRNA pseudouridine synthesis; IDA:RGD.
+DR   GO; GO:0031120; P:snRNA pseudouridine synthesis; IBA:GO_Central.
+DR   GO; GO:0090669; P:telomerase RNA stabilization; ISO:RGD.
+DR   GO; GO:0007004; P:telomere maintenance via telomerase; ISS:UniProtKB.
+DR   CDD; cd02572; PseudoU_synth_hDyskerin; 1.
+DR   CDD; cd21148; PUA_Cbf5; 1.
+DR   Gene3D; 3.30.2350.10; Pseudouridine synthase; 1.
+DR   Gene3D; 2.30.130.10; PUA domain; 1.
+DR   InterPro; IPR012960; Dyskerin-like.
+DR   InterPro; IPR020103; PsdUridine_synth_cat_dom_sf.
+DR   InterPro; IPR002501; PsdUridine_synth_N.
+DR   InterPro; IPR002478; PUA.
+DR   InterPro; IPR015947; PUA-like_sf.
+DR   InterPro; IPR036974; PUA_sf.
+DR   InterPro; IPR004802; tRNA_PsdUridine_synth_B_fam.
+DR   InterPro; IPR032819; TruB_C.
+DR   InterPro; IPR004521; Uncharacterised_CHP00451.
+DR   NCBIfam; TIGR00425; CBF5; 1.
+DR   NCBIfam; TIGR00451; unchar_dom_2; 1.
+DR   PANTHER; PTHR23127; CENTROMERE/MICROTUBULE BINDING PROTEIN CBF5; 1.
+DR   PANTHER; PTHR23127:SF0; H_ACA RIBONUCLEOPROTEIN COMPLEX SUBUNIT DKC1; 1.
+DR   Pfam; PF08068; DKCLD; 1.
+DR   Pfam; PF01472; PUA; 1.
+DR   Pfam; PF16198; TruB_C_2; 1.
+DR   Pfam; PF01509; TruB_N; 1.
+DR   SMART; SM01136; DKCLD; 1.
+DR   SMART; SM00359; PUA; 1.
+DR   SUPFAM; SSF55120; Pseudouridine synthase; 1.
+DR   SUPFAM; SSF88697; PUA domain-like; 1.
+DR   PROSITE; PS50890; PUA; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; Isomerase; Isopeptide bond;
+KW   Nucleus; Phosphoprotein; Reference proteome; Ribonucleoprotein;
+KW   Ribosome biogenesis; RNA-binding; rRNA processing; Ubl conjugation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:O60832"
+FT   CHAIN           2..509
+FT                   /note="H/ACA ribonucleoprotein complex subunit DKC1"
+FT                   /id="PRO_0000121985"
+FT   DOMAIN          297..372
+FT                   /note="PUA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00161"
+FT   REGION          1..25
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          2..22
+FT                   /note="Nucleolar localization"
+FT                   /evidence="ECO:0000250"
+FT   REGION          381..509
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          447..509
+FT                   /note="Nuclear and nucleolar localization"
+FT                   /evidence="ECO:0000250"
+FT   COMPBIAS        444..466
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        474..494
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        126
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:P60340"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60832"
+FT   MOD_RES         388
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60832"
+FT   MOD_RES         452
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         454
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         460
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9ESX5"
+FT   MOD_RES         508
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60832"
+FT   CROSSLNK        21
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:O60832"
+FT   CROSSLNK        40
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:O60832"
+FT   CROSSLNK        44
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:O60832"
+FT   CROSSLNK        192
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:O60832"
+FT   CROSSLNK        395
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:O60832"
+FT   CROSSLNK        425
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:O60832"
+FT   CONFLICT        459..508
+FT                   /note="ATPTTTPRVKKEKKKKKEKADGGEEAAEDGDGDATRKKKKKKARAAEELS
+FT                   -> RRPLPRP (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   509 AA;  56615 MW;  038862EBBF2A1E2F CRC64;
+     MADAEAAMTF PKKHKKKKER KPLPEADVAE IQHAEDFLIK PESKAAQLDT SQWPLLLKNF
+     DRLNVRTTHY TPIPCGSNPL KREIGEYVRT GFINLDKPSN PSSHEVVAWI RRILRVEKTG
+     HSGTLDPKVT GCLIVCIERA TRLVKSQQSA GKEYVGVVRL HNAIEGTAQL SRALETLTGA
+     LFQRPPLIAA VKRQLRVRTI YESRVVEYDP ERRLGVFWVS CEAGTYIRTL CVHLGLLLGV
+     GGQMQELRRV RSGVVGERDH MVTMHDVLDA QYLYDHHRDE SYLRRVVFPL EKLLTSHKRL
+     VMKDSAVNAI CYGAKIMLPG LLRYEDGIEV NQEVVVITTK GEAVCVAIAL MTTAVISTCD
+     HGVVAKIKRV IMERDTYPRK WGLGPKASQK KQLIKQGLLD KHGRPTDGTP ASWTRDYVDY
+     SDSSKKATAA EATPGPGVTA DAASIVKRKR DSDSDADEAT PTTTPRVKKE KKKKKEKADG
+     GEEAAEDGDG DATRKKKKKK ARAAEELSG
+//

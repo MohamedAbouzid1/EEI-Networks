@@ -1,0 +1,274 @@
+ID   NOX1_RAT                Reviewed;         563 AA.
+AC   Q9WV87;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   02-OCT-2024, entry version 133.
+DE   RecName: Full=NADPH oxidase 1;
+DE            Short=NOX-1;
+DE            EC=1.6.3.- {ECO:0000269|PubMed:10485709, ECO:0000269|PubMed:25228390};
+DE   AltName: Full=Mitogenic oxidase 1;
+DE            Short=MOX-1;
+DE   AltName: Full=NADH/NADPH mitogenic oxidase subunit P65-MOX;
+DE   AltName: Full=NOH-1;
+GN   Name=Nox1; Synonyms=Mox1, Noh1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Colon epithelium;
+RX   PubMed=10485709; DOI=10.1038/43459;
+RA   Suh Y.-A., Arnold R.S., Lassegue B., Shi J., Xu X., Sorescu D., Chung A.B.,
+RA   Griendling K.K., Lambeth J.D.;
+RT   "Cell transformation by the superoxide-generating oxidase Mox1.";
+RL   Nature 401:79-82(1999).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, INTERACTION WITH NOXA1, PHOSPHORYLATION AT
+RP   THR-429, AND MUTAGENESIS OF THR-89 AND THR-429.
+RX   PubMed=25228390; DOI=10.1161/circresaha.115.304267;
+RA   Streeter J., Schickling B.M., Jiang S., Stanic B., Thiel W.H., Gakhar L.,
+RA   Houtman J.C., Miller F.J. Jr.;
+RT   "Phosphorylation of Nox1 regulates association with NoxA1 activation
+RT   domain.";
+RL   Circ. Res. 115:911-918(2014).
+CC   -!- FUNCTION: NADPH oxidase that catalyzes the generation of superoxide
+CC       from molecular oxygen utilizing NADPH as an electron donor.
+CC       {ECO:0000269|PubMed:10485709, ECO:0000269|PubMed:25228390}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADPH + 2 O2 = H(+) + NADP(+) + 2 superoxide;
+CC         Xref=Rhea:RHEA:63180, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:18421, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         Evidence={ECO:0000269|PubMed:10485709, ECO:0000269|PubMed:25228390};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000305};
+CC   -!- ACTIVITY REGULATION: The oxidase activity is potentiated by NOXA1 and
+CC       NOXO1. {ECO:0000250|UniProtKB:Q9Y5S8}.
+CC   -!- SUBUNIT: NOX1, NOXA1, NOXO1, RAC1 and CYBA forms a functional
+CC       multimeric complex supporting ROS production. Interacts with NOXO1.
+CC       Interacts (via FAD-binding FR-type domain) with ARHGEF7 (via PH domain)
+CC       (By similarity). The phosphorylated form at Thr-429 interacts with
+CC       NOXA1 with greater affinity (PubMed:25228390).
+CC       {ECO:0000250|UniProtKB:Q9Y5S8, ECO:0000269|PubMed:25228390}.
+CC   -!- SUBCELLULAR LOCATION: Cell projection, invadopodium membrane
+CC       {ECO:0000250|UniProtKB:Q9Y5S8}; Multi-pass membrane protein
+CC       {ECO:0000255}. Cell membrane {ECO:0000250|UniProtKB:Q9Y5S8}; Multi-pass
+CC       membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in vascular smooth muscle cells.
+CC       {ECO:0000269|PubMed:10485709}.
+CC   -!- PTM: Phosphorylation at Thr-429 mediated by PKC/PRKBC positively
+CC       regulates its interaction with NOXA1 and enzyme activity.
+CC       {ECO:0000269|PubMed:25228390}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF152963; AAD39542.1; -; mRNA.
+DR   RefSeq; NP_446135.1; NM_053683.1.
+DR   AlphaFoldDB; Q9WV87; -.
+DR   SMR; Q9WV87; -.
+DR   STRING; 10116.ENSRNOP00000065995; -.
+DR   ChEMBL; CHEMBL1075231; -.
+DR   PeroxiBase; 5408; RnoNOx01.
+DR   GlyCosmos; Q9WV87; 2 sites, No reported glycans.
+DR   GlyGen; Q9WV87; 2 sites.
+DR   iPTMnet; Q9WV87; -.
+DR   PhosphoSitePlus; Q9WV87; -.
+DR   PaxDb; 10116-ENSRNOP00000065995; -.
+DR   GeneID; 114243; -.
+DR   KEGG; rno:114243; -.
+DR   AGR; RGD:620598; -.
+DR   CTD; 27035; -.
+DR   RGD; 620598; Nox1.
+DR   eggNOG; KOG0039; Eukaryota.
+DR   InParanoid; Q9WV87; -.
+DR   OrthoDB; 367877at2759; -.
+DR   PhylomeDB; Q9WV87; -.
+DR   Reactome; R-RNO-5668599; RHO GTPases Activate NADPH Oxidases.
+DR   Reactome; R-RNO-9013149; RAC1 GTPase cycle.
+DR   PRO; PR:Q9WV87; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0070161; C:anchoring junction; IEA:UniProtKB-KW.
+DR   GO; GO:0042995; C:cell projection; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005769; C:early endosome; ISO:RGD.
+DR   GO; GO:0005768; C:endosome; ISO:RGD.
+DR   GO; GO:0043020; C:NADPH oxidase complex; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016174; F:NAD(P)H oxidase H2O2-forming activity; IMP:CACAO.
+DR   GO; GO:0031267; F:small GTPase binding; ISO:RGD.
+DR   GO; GO:0016175; F:superoxide-generating NAD(P)H oxidase activity; IDA:UniProtKB.
+DR   GO; GO:0106292; F:superoxide-generating NADPH oxidase activity; IEA:RHEA.
+DR   GO; GO:0001525; P:angiogenesis; ISO:RGD.
+DR   GO; GO:0060326; P:cell chemotaxis; IMP:RGD.
+DR   GO; GO:0016477; P:cell migration; ISO:RGD.
+DR   GO; GO:1904385; P:cellular response to angiotensin; IEP:RGD.
+DR   GO; GO:0071455; P:cellular response to hyperoxia; ISO:RGD.
+DR   GO; GO:0071347; P:cellular response to interleukin-1; IEP:RGD.
+DR   GO; GO:0071288; P:cellular response to mercury ion; IEP:RGD.
+DR   GO; GO:0036120; P:cellular response to platelet-derived growth factor stimulus; IEP:RGD.
+DR   GO; GO:0006952; P:defense response; IBA:GO_Central.
+DR   GO; GO:0030198; P:extracellular matrix organization; ISO:RGD.
+DR   GO; GO:0006749; P:glutathione metabolic process; IMP:RGD.
+DR   GO; GO:0042743; P:hydrogen peroxide metabolic process; ISO:RGD.
+DR   GO; GO:0008631; P:intrinsic apoptotic signaling pathway in response to oxidative stress; ISO:RGD.
+DR   GO; GO:0007254; P:JNK cascade; ISO:RGD.
+DR   GO; GO:0000165; P:MAPK cascade; ISO:RGD.
+DR   GO; GO:0014043; P:negative regulation of neuron maturation; IMP:RGD.
+DR   GO; GO:0072592; P:oxygen metabolic process; ISO:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0090261; P:positive regulation of inclusion body assembly; IMP:RGD.
+DR   GO; GO:0045726; P:positive regulation of integrin biosynthetic process; ISO:RGD.
+DR   GO; GO:0046330; P:positive regulation of JNK cascade; ISO:RGD.
+DR   GO; GO:0043410; P:positive regulation of MAPK cascade; ISO:RGD.
+DR   GO; GO:0043525; P:positive regulation of neuron apoptotic process; IMP:RGD.
+DR   GO; GO:0010976; P:positive regulation of neuron projection development; IMP:RGD.
+DR   GO; GO:1902177; P:positive regulation of oxidative stress-induced intrinsic apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:2000379; P:positive regulation of reactive oxygen species metabolic process; IMP:RGD.
+DR   GO; GO:0048661; P:positive regulation of smooth muscle cell proliferation; IMP:BHF-UCL.
+DR   GO; GO:0032930; P:positive regulation of superoxide anion generation; IMP:RGD.
+DR   GO; GO:1904754; P:positive regulation of vascular associated smooth muscle cell migration; IMP:RGD.
+DR   GO; GO:1904707; P:positive regulation of vascular associated smooth muscle cell proliferation; IMP:RGD.
+DR   GO; GO:0010575; P:positive regulation of vascular endothelial growth factor production; ISO:RGD.
+DR   GO; GO:0003081; P:regulation of systemic arterial blood pressure by renin-angiotensin; ISO:RGD.
+DR   GO; GO:0000302; P:response to reactive oxygen species; IDA:RGD.
+DR   GO; GO:0042554; P:superoxide anion generation; IMP:BHF-UCL.
+DR   CDD; cd06186; NOX_Duox_like_FAD_NADP; 1.
+DR   Gene3D; 3.40.50.80; Nucleotide-binding domain of ferredoxin-NADP reductase (FNR) module; 1.
+DR   Gene3D; 2.40.30.10; Translation factors; 1.
+DR   InterPro; IPR000778; Cyt_b245_heavy_chain.
+DR   InterPro; IPR013112; FAD-bd_8.
+DR   InterPro; IPR017927; FAD-bd_FR_type.
+DR   InterPro; IPR013130; Fe3_Rdtase_TM_dom.
+DR   InterPro; IPR013121; Fe_red_NAD-bd_6.
+DR   InterPro; IPR039261; FNR_nucleotide-bd.
+DR   InterPro; IPR050369; RBOH/FRE.
+DR   InterPro; IPR017938; Riboflavin_synthase-like_b-brl.
+DR   PANTHER; PTHR11972; NADPH OXIDASE; 1.
+DR   PANTHER; PTHR11972:SF71; NADPH OXIDASE 1; 1.
+DR   Pfam; PF08022; FAD_binding_8; 1.
+DR   Pfam; PF01794; Ferric_reduct; 1.
+DR   Pfam; PF08030; NAD_binding_6; 1.
+DR   PRINTS; PR00466; GP91PHOX.
+DR   SFLD; SFLDS00052; Ferric_Reductase_Domain; 1.
+DR   SFLD; SFLDG01168; Ferric_reductase_subgroup_(FRE; 1.
+DR   SUPFAM; SSF52343; Ferredoxin reductase-like, C-terminal NADP-linked domain; 1.
+DR   SUPFAM; SSF63380; Riboflavin synthase domain-like; 1.
+DR   PROSITE; PS51384; FAD_FR; 1.
+PE   1: Evidence at protein level;
+KW   Cell junction; Cell membrane; Cell projection; Electron transport; FAD;
+KW   Flavoprotein; Glycoprotein; Heme; Iron; Membrane; Metal-binding; NADP;
+KW   Oxidoreductase; Phosphoprotein; Reference proteome; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..563
+FT                   /note="NADPH oxidase 1"
+FT                   /id="PRO_0000210149"
+FT   TOPO_DOM        1..8
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        9..31
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        32..44
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        45..69
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        70..102
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        103..123
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        124..167
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        168..188
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        189..206
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        207..227
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        228..395
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        396..416
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        417..563
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          54..282
+FT                   /note="Ferric oxidoreductase"
+FT   DOMAIN          283..390
+FT                   /note="FAD-binding FR-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00716"
+FT   REGION          396..535
+FT                   /note="Interaction with NOXO1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y5S8"
+FT   BINDING         101
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         115
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         208
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         220
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         337..343
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         429
+FT                   /note="Phosphothreonine; by PKC/PRKCB"
+FT                   /evidence="ECO:0000269|PubMed:25228390"
+FT   CARBOHYD        161
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        241
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   MUTAGEN         89
+FT                   /note="T->A: No effect on catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:25228390"
+FT   MUTAGEN         429
+FT                   /note="T->A: Loss of catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:25228390"
+SQ   SEQUENCE   563 AA;  65177 MW;  2B74BCA021CC3335 CRC64;
+     MGNWLVNHWL SVLFLVSWLG LNIFLFVYVF LNYEKSDKYY YTREILGTAL ALARASALCL
+     NFNSMVILIP VCRNLLSFLR GTCSFCNHTL RKPLDHNLTF HKLVAYMICI FTAIHIIAHL
+     FNFERYSRSQ QAMDGSLASV LSSLFHPEKE DSWLNPIQSP NVTVMYAAFT SIAGLTGVVA
+     TVALVLMVTS AMEFIRRNYF ELFWYTHHLF IIYIICLGIH GLGGIVRGQT EESMSESHPR
+     NCSYSFHEWD KYERSCRSPH FVGQPPESWK WILAPIAFYI FERILRFYRS RQKVVITKVV
+     MHPCKVLELQ MRKRGFTMGI GQYIFVNCPS ISFLEWHPFT LTSAPEEEFF SIHIRAAGDW
+     TENLIRTFEQ QHSPMPRIEV DGPFGTVSED VFQYEVAVLV GAGIGVTPFA SFLKSIWYKF
+     QRAHNKLKTQ KIYFYWICRE TGAFAWFNNL LNSLEQEMDE LGKPDFLNYR LFLTGWDSNI
+     AGHAALNFDR ATDVLTGLKQ KTSFGRPMWD NEFSRIATAH PKSVVGVFLC GPPTLAKSLR
+     KCCRRYSSLD PRKVQFYFNK ETF
+//

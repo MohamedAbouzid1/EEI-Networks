@@ -1,0 +1,220 @@
+ID   SYSC_RAT                Reviewed;         512 AA.
+AC   Q6P799; Q8CIQ8;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   24-JUL-2024, entry version 150.
+DE   RecName: Full=Serine--tRNA ligase, cytoplasmic;
+DE            EC=6.1.1.11 {ECO:0000250|UniProtKB:P49591};
+DE   AltName: Full=Seryl-tRNA synthetase;
+DE            Short=SerRS;
+DE   AltName: Full=Seryl-tRNA(Ser/Sec) synthetase;
+GN   Name=Sars1; Synonyms=Sars;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 134-157, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal cord;
+RA   Lubec G., Afjehi-Sadat L.;
+RL   Submitted (NOV-2006) to UniProtKB.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 173-349.
+RC   STRAIN=Wistar;
+RA   Heneberg P., Draber P.;
+RL   Submitted (AUG-2002) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the attachment of serine to tRNA(Ser) in a two-step
+CC       reaction: serine is first activated by ATP to form Ser-AMP and then
+CC       transferred to the acceptor end of tRNA(Ser). Is probably also able to
+CC       aminoacylate tRNA(Sec) with serine, to form the misacylated tRNA L-
+CC       seryl-tRNA(Sec), which will be further converted into selenocysteinyl-
+CC       tRNA(Sec). In the nucleus, binds to the VEGFA core promoter and
+CC       prevents MYC binding and transcriptional activation by MYC. Recruits
+CC       SIRT2 to the VEGFA promoter, promoting deacetylation of histone H4 at
+CC       'Lys-16' (H4K16). Thereby, inhibits the production of VEGFA and
+CC       sprouting angiogenesis mediated by VEGFA.
+CC       {ECO:0000250|UniProtKB:P49591}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-serine + tRNA(Ser) = AMP + diphosphate + H(+) + L-
+CC         seryl-tRNA(Ser); Xref=Rhea:RHEA:12292, Rhea:RHEA-COMP:9669,
+CC         Rhea:RHEA-COMP:9703, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:33384, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78533, ChEBI:CHEBI:456215; EC=6.1.1.11;
+CC         Evidence={ECO:0000250|UniProtKB:P49591};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-serine + tRNA(Sec) = AMP + diphosphate + H(+) + L-
+CC         seryl-tRNA(Sec); Xref=Rhea:RHEA:42580, Rhea:RHEA-COMP:9742,
+CC         Rhea:RHEA-COMP:10128, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:33384, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78533, ChEBI:CHEBI:456215; EC=6.1.1.11;
+CC         Evidence={ECO:0000250|UniProtKB:P49591};
+CC   -!- PATHWAY: Aminoacyl-tRNA biosynthesis; selenocysteinyl-tRNA(Sec)
+CC       biosynthesis; L-seryl-tRNA(Sec) from L-serine and tRNA(Sec): step 1/1.
+CC   -!- SUBUNIT: Homodimer. The tRNA molecule may bind across the dimer.
+CC       Interacts with SIRT2. Interacts with METTL6; interaction is required
+CC       for the tRNA N(3)-methylcytidine methyltransferase activity of METTL6.
+CC       {ECO:0000250|UniProtKB:P49591}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P49591}. Nucleus
+CC       {ECO:0000250|UniProtKB:P49591}. Note=Predominantly cytoplasmic, but a
+CC       minor proportion is also found in the nucleus.
+CC       {ECO:0000250|UniProtKB:P49591}.
+CC   -!- DOMAIN: Consists of two distinct domains, a catalytic core and a N-
+CC       terminal extension that is involved in tRNA binding.
+CC       {ECO:0000250|UniProtKB:P49591}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       Type-1 seryl-tRNA synthetase subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC061765; AAH61765.1; -; mRNA.
+DR   EMBL; AY145052; AAN52758.1; -; mRNA.
+DR   RefSeq; NP_001007607.1; NM_001007606.1.
+DR   AlphaFoldDB; Q6P799; -.
+DR   SMR; Q6P799; -.
+DR   BioGRID; 251834; 1.
+DR   IntAct; Q6P799; 3.
+DR   MINT; Q6P799; -.
+DR   STRING; 10116.ENSRNOP00000071040; -.
+DR   iPTMnet; Q6P799; -.
+DR   PhosphoSitePlus; Q6P799; -.
+DR   jPOST; Q6P799; -.
+DR   PaxDb; 10116-ENSRNOP00000038448; -.
+DR   Ensembl; ENSRNOT00000033015.5; ENSRNOP00000038448.3; ENSRNOG00000020255.7.
+DR   Ensembl; ENSRNOT00055035877; ENSRNOP00055029134; ENSRNOG00055020996.
+DR   Ensembl; ENSRNOT00060048010; ENSRNOP00060039954; ENSRNOG00060027643.
+DR   Ensembl; ENSRNOT00065037178; ENSRNOP00065029986; ENSRNOG00065021844.
+DR   GeneID; 266975; -.
+DR   KEGG; rno:266975; -.
+DR   UCSC; RGD:628813; rat.
+DR   AGR; RGD:628813; -.
+DR   CTD; 6301; -.
+DR   RGD; 628813; Sars1.
+DR   eggNOG; KOG2509; Eukaryota.
+DR   GeneTree; ENSGT00940000153792; -.
+DR   HOGENOM; CLU_023797_0_0_1; -.
+DR   InParanoid; Q6P799; -.
+DR   OrthoDB; 239638at2759; -.
+DR   PhylomeDB; Q6P799; -.
+DR   UniPathway; UPA00906; UER00895.
+DR   PRO; PR:Q6P799; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000020255; Expressed in pancreas and 20 other cell types or tissues.
+DR   ExpressionAtlas; Q6P799; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019899; F:enzyme binding; ISO:RGD.
+DR   GO; GO:0060090; F:molecular adaptor activity; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0000978; F:RNA polymerase II cis-regulatory region sequence-specific DNA binding; ISS:UniProtKB.
+DR   GO; GO:0098619; F:selenocysteine-tRNA ligase activity; ISS:UniProtKB.
+DR   GO; GO:0004828; F:serine-tRNA ligase activity; ISS:UniProtKB.
+DR   GO; GO:0000049; F:tRNA binding; IBA:GO_Central.
+DR   GO; GO:0002181; P:cytoplasmic translation; ISS:UniProtKB.
+DR   GO; GO:0016525; P:negative regulation of angiogenesis; ISS:UniProtKB.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISS:UniProtKB.
+DR   GO; GO:1904046; P:negative regulation of vascular endothelial growth factor production; ISS:UniProtKB.
+DR   GO; GO:0001514; P:selenocysteine incorporation; ISS:UniProtKB.
+DR   GO; GO:0006434; P:seryl-tRNA aminoacylation; ISS:UniProtKB.
+DR   GO; GO:0006400; P:tRNA modification; ISO:RGD.
+DR   CDD; cd00770; SerRS_core; 1.
+DR   Gene3D; 1.10.287.40; Serine-tRNA synthetase, tRNA binding domain; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR002317; Ser-tRNA-ligase_type_1.
+DR   InterPro; IPR015866; Ser-tRNA-synth_1_N.
+DR   InterPro; IPR042103; SerRS_1_N_sf.
+DR   InterPro; IPR033729; SerRS_core.
+DR   InterPro; IPR010978; tRNA-bd_arm.
+DR   NCBIfam; TIGR00414; serS; 1.
+DR   PANTHER; PTHR11778:SF7; SERINE--TRNA LIGASE, CYTOPLASMIC-RELATED; 1.
+DR   PANTHER; PTHR11778; SERYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF02403; Seryl_tRNA_N; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   PIRSF; PIRSF001529; Ser-tRNA-synth_IIa; 1.
+DR   PRINTS; PR00981; TRNASYNTHSER.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF46589; tRNA-binding arm; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm;
+KW   Direct protein sequencing; DNA-binding; Ligase; Nucleotide-binding;
+KW   Nucleus; Phosphoprotein; Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..512
+FT                   /note="Serine--tRNA ligase, cytoplasmic"
+FT                   /id="PRO_0000270765"
+FT   REGION          9..61
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   REGION          472..512
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           482..494
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   COMPBIAS        478..499
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         271
+FT                   /ligand="L-serine"
+FT                   /ligand_id="ChEBI:CHEBI:33384"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   BINDING         302..304
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   BINDING         302
+FT                   /ligand="L-serine"
+FT                   /ligand_id="ChEBI:CHEBI:33384"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   BINDING         318..321
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   BINDING         325
+FT                   /ligand="L-serine"
+FT                   /ligand_id="ChEBI:CHEBI:33384"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   BINDING         391..394
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   BINDING         427
+FT                   /ligand="L-serine"
+FT                   /ligand_id="ChEBI:CHEBI:33384"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   SITE            429
+FT                   /note="Important for serine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   MOD_RES         241
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+FT   MOD_RES         323
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49591"
+SQ   SEQUENCE   512 AA;  58588 MW;  960A30015F1F4A37 CRC64;
+     MVLDLDLFRV DKGGDPALIR ETQEKRFKDP GLVDQLVKAD SEWRRCRFRA DNLNKLKNLC
+     SKTIGEKMKK KEPVGEDESI PEDVLNFDDL TADTLAALKV SQIKKVRLLV DEAIQKCDGE
+     RVKLEAERFE NLREIGNLLH PSVPISNDED ADNKVERIWG DCTVRKKYSH VDLVVMVDGF
+     EGEKGAVVAG SRGYFLKGVL VFLEQALIQY ALRTLGSRGY TPIYTPFFMR KEVMQEVAQL
+     SQFDEELYKV IGKGSEKSDD SSYDEKYLIA TSEQPIAALH RDEWLRPEDL PIKYAGFSTC
+     FRQEVGSHGR DTRGIFRVHQ FEKIEQFVYS SPHDNKSWEM FDEMITTAEE FYQSLGIPYH
+     IVNIVSGSLN HAASKKLDLE AWFPGSGAFR ELVSCSNCTD YQARRLRIRY GQTKKMMDKV
+     EFVHMLNATM CATTRTICAI LENYQTEKGI VVPEKLREFM PPGLQELIPF VKPAPIDQEP
+     SKKQKKQHEG SKKKAKEVTL ENQLQNMEVT EA
+//

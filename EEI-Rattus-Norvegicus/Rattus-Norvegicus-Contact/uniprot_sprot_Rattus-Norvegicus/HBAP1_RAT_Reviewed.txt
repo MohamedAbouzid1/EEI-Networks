@@ -1,0 +1,116 @@
+ID   HBAP1_RAT               Reviewed;         479 AA.
+AC   Q5BKC6; Q9R153;
+DT   17-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   12-APR-2005, sequence version 1.
+DT   29-MAY-2024, entry version 92.
+DE   RecName: Full=HSPB1-associated protein 1;
+DE   AltName: Full=27 kDa heat shock protein-associated protein 1;
+DE   AltName: Full=Protein associated with small stress protein 1;
+GN   Name=Hspbap1; Synonyms=Pass1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, INTERACTION WITH CRYAB AND HSPB1,
+RP   TISSUE SPECIFICITY, AND SUBCELLULAR LOCATION.
+RC   STRAIN=Fischer; TISSUE=Sertoli cell;
+RX   PubMed=10751411; DOI=10.1074/jbc.m001981200;
+RA   Liu C., Gilmont R.R., Benndorf R., Welsh M.J.;
+RT   "Identification and characterization of a novel protein from Sertoli cells,
+RT   PASS1, that associates with mammalian small stress protein hsp27.";
+RL   J. Biol. Chem. 275:18724-18731(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Spleen;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: May play a role in cellular stress response.
+CC       {ECO:0000269|PubMed:10751411}.
+CC   -!- SUBUNIT: Interacts with CRYAB and HSPB1. {ECO:0000269|PubMed:10751411}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:10751411}.
+CC   -!- TISSUE SPECIFICITY: Widely expressed. Highly expressed by Sertoli cells
+CC       in testis (at protein level). {ECO:0000269|PubMed:10751411}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAD48846.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF168362; AAD48846.1; ALT_FRAME; mRNA.
+DR   EMBL; BC091125; AAH91125.1; -; mRNA.
+DR   RefSeq; NP_599246.2; NM_134419.2.
+DR   AlphaFoldDB; Q5BKC6; -.
+DR   SMR; Q5BKC6; -.
+DR   BioGRID; 251267; 1.
+DR   STRING; 10116.ENSRNOP00000073471; -.
+DR   iPTMnet; Q5BKC6; -.
+DR   PhosphoSitePlus; Q5BKC6; -.
+DR   jPOST; Q5BKC6; -.
+DR   PaxDb; 10116-ENSRNOP00000003060; -.
+DR   Ensembl; ENSRNOT00000003060.7; ENSRNOP00000003060.6; ENSRNOG00000002241.8.
+DR   GeneID; 171460; -.
+DR   KEGG; rno:171460; -.
+DR   UCSC; RGD:620870; rat.
+DR   AGR; RGD:620870; -.
+DR   CTD; 79663; -.
+DR   RGD; 620870; Hspbap1.
+DR   eggNOG; KOG2132; Eukaryota.
+DR   GeneTree; ENSGT00940000159893; -.
+DR   HOGENOM; CLU_016785_5_2_1; -.
+DR   InParanoid; Q5BKC6; -.
+DR   OMA; QRMMSKS; -.
+DR   OrthoDB; 5401772at2759; -.
+DR   PhylomeDB; Q5BKC6; -.
+DR   TreeFam; TF315056; -.
+DR   PRO; PR:Q5BKC6; -.
+DR   Proteomes; UP000002494; Chromosome 11.
+DR   Bgee; ENSRNOG00000002241; Expressed in adult mammalian kidney and 18 other cell types or tissues.
+DR   ExpressionAtlas; Q5BKC6; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016706; F:2-oxoglutarate-dependent dioxygenase activity; IBA:GO_Central.
+DR   Gene3D; 2.60.120.650; Cupin; 1.
+DR   InterPro; IPR041667; Cupin_8.
+DR   InterPro; IPR013296; HSPB1-associated_protein_1.
+DR   InterPro; IPR003347; JmjC_dom.
+DR   PANTHER; PTHR12461:SF43; HSPB1-ASSOCIATED PROTEIN 1; 1.
+DR   PANTHER; PTHR12461; HYPOXIA-INDUCIBLE FACTOR 1 ALPHA INHIBITOR-RELATED; 1.
+DR   Pfam; PF13621; Cupin_8; 1.
+DR   PRINTS; PR01886; PASS1.
+DR   SMART; SM00558; JmjC; 1.
+DR   SUPFAM; SSF51197; Clavaminate synthase-like; 1.
+DR   PROSITE; PS51184; JMJC; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Reference proteome.
+FT   CHAIN           1..479
+FT                   /note="HSPB1-associated protein 1"
+FT                   /id="PRO_0000284115"
+FT   DOMAIN          124..288
+FT                   /note="JmjC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   REGION          1..25
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          88..208
+FT                   /note="Interaction with HSPB1"
+FT                   /evidence="ECO:0000269|PubMed:10751411"
+FT   REGION          347..412
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CONFLICT        371
+FT                   /note="D -> E (in Ref. 1; AAD48846)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   479 AA;  54209 MW;  09144F7779CD6527 CRC64;
+     MEAGCEGSSP QTLGERTMGE EGERVKPFTP EKAKEVIMSL QQPAIFCNMV FDWPSRHWTA
+     KHLSKVLEGK QIRFRMGLRS TGTVPQFETE CSYVDATLEE FLAWNCDQSR ISGPFKKYDH
+     SKFWAYADYK YFVTLFEDKT DVFQEVMWSD FGFPGRNGQE STLWIGSLGA HTPCHLDSYG
+     CNLVFQVQGR KRWHLFPPED TPFLYPTRIP YEESSVFSKI NVVNPDLKRF PQFQKARRHM
+     VTLSPGQVLF VPRHWWHYVE SLDPVTVSIN SWIELEEDHL ARVEEAVTRM LVCTLKTAED
+     PHHPRTWLNP TEVEETSHEV NSCYLNSAVC AFFDHCERAK EVEMQAPRAN GEEPGVQEHM
+     EVEQARDPSS DVGAGKQEAA SPFGPDLVPV TPASEERGGA LEGDSQECTS RNGEHCAELP
+     CARRQQASKG ARAEAGQSAP RYPVAPSRVF VSTDDLLDCL VNPQVTRMVA QLLIQGKSL
+//

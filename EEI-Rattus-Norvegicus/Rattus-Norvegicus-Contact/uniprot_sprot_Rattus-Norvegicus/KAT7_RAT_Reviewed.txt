@@ -1,0 +1,409 @@
+ID   KAT7_RAT                Reviewed;         612 AA.
+AC   Q810T5; Q80YN5;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   24-JUL-2024, entry version 154.
+DE   RecName: Full=Histone acetyltransferase KAT7 {ECO:0000305};
+DE            EC=2.3.1.48 {ECO:0000250|UniProtKB:O95251};
+DE   AltName: Full=Histone acetyltransferase binding to ORC1 {ECO:0000303|Ref.1};
+DE   AltName: Full=Lysine acetyltransferase 7;
+DE   AltName: Full=MOZ, YBF2/SAS3, SAS2 and TIP60 protein 2;
+DE            Short=MYST-2;
+GN   Name=Kat7 {ECO:0000312|RGD:727966};
+GN   Synonyms=Hbo1 {ECO:0000303|Ref.1}, Myst2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2).
+RC   STRAIN=Fischer 344; TISSUE=Testis;
+RA   Inaguma S., Ogawa K., Cho Y.-M., Ohnishi H., Asamoto M., Shirai T.;
+RT   "Identification of cDNA and expression of the gene encoding rat homolog of
+RT   HBO1.";
+RL   Submitted (FEB-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-58 AND SER-103, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalytic subunit of histone acetyltransferase HBO1
+CC       complexes, which specifically mediate acetylation of histone H3 at
+CC       'Lys-14' (H3K14ac), thereby regulating various processes, such as gene
+CC       transcription, protein ubiquitination, immune regulation, stem cell
+CC       pluripotent and self-renewal maintenance and embryonic development.
+CC       Some complexes also catalyze acetylation of histone H4 at 'Lys-5',
+CC       'Lys-8' and 'Lys-12' (H4K5ac, H4K8ac and H4K12ac, respectively),
+CC       regulating DNA replication initiation, regulating DNA replication
+CC       initiation. Specificity of the HBO1 complexes is determined by the
+CC       scaffold subunit: complexes containing BRPF scaffold (BRPF1, BRD1/BRPF2
+CC       or BRPF3) direct KAT7/HBO1 specificity towards H3K14ac, while complexes
+CC       containing JADE (JADE1, JADE2 and JADE3) scaffold direct KAT7/HBO1
+CC       specificity towards histone H4. H3K14ac promotes transcriptional
+CC       elongation by facilitating the processivity of RNA polymerase II. Acts
+CC       as a key regulator of hematopoiesis by forming a complex with
+CC       BRD1/BRPF2, directing KAT7/HBO1 specificity towards H3K14ac and
+CC       promoting erythroid differentiation (By similarity). H3K14ac is also
+CC       required for T-cell development (By similarity). KAT7/HBO1-mediated
+CC       acetylation facilitates two consecutive steps, licensing and
+CC       activation, in DNA replication initiation: H3K14ac facilitates the
+CC       activation of replication origins, and histone H4 acetylation (H4K5ac,
+CC       H4K8ac and H4K12ac) facilitates chromatin loading of MCM complexes,
+CC       promoting DNA replication licensing. Acts as a positive regulator of
+CC       centromeric CENPA assembly: recruited to centromeres and mediates
+CC       histone acetylation, thereby preventing centromere inactivation
+CC       mediated by SUV39H1, possibly by increasing histone turnover/exchange.
+CC       Involved in nucleotide excision repair: phosphorylation by ATR in
+CC       response to ultraviolet irradiation promotes its localization to DNA
+CC       damage sites, where it mediates histone acetylation to facilitate
+CC       recruitment of XPC at the damaged DNA sites. Acts as an inhibitor of
+CC       NF-kappa-B independently of its histone acetyltransferase activity (By
+CC       similarity). {ECO:0000250|UniProtKB:O95251,
+CC       ECO:0000250|UniProtKB:Q5SVQ0}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + L-lysyl-[histone] = CoA + H(+) + N(6)-acetyl-L-
+CC         lysyl-[histone]; Xref=Rhea:RHEA:21992, Rhea:RHEA-COMP:9845,
+CC         Rhea:RHEA-COMP:11338, ChEBI:CHEBI:15378, ChEBI:CHEBI:29969,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288, ChEBI:CHEBI:61930; EC=2.3.1.48;
+CC         Evidence={ECO:0000250|UniProtKB:O95251};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21993;
+CC         Evidence={ECO:0000250|UniProtKB:O95251};
+CC   -!- ACTIVITY REGULATION: Histone acetyltransferase activity is inhibited by
+CC       GMNN in the context of a complex with CDT1, inhibiting histone H4
+CC       acetylation and DNA replication licensing.
+CC       {ECO:0000250|UniProtKB:O95251}.
+CC   -!- PATHWAY: Protein degradation; proteasomal ubiquitin-dependent pathway.
+CC       {ECO:0000250|UniProtKB:Q5SVQ0}.
+CC   -!- SUBUNIT: Component of the HBO1 complex composed of KAT7/HBO1, MEAF6,
+CC       ING4 or ING5, and one scaffold subunit: complexes containing BRPF
+CC       scaffold (BRPF1, BRD1/BRPF2 or BRPF3) direct KAT7/HBO1 specificity
+CC       towards H3K14ac, while complexes containing JADE scaffold (JADE1, JADE2
+CC       and JADE3) mediate acetylation of histone H4. Interacts with MCM2 and
+CC       ORC1. Interacts with the androgen receptor (AR); in the presence of
+CC       dihydrotestosterone. Interacts with CDT1 (By similarity). Interacts
+CC       with MAP2K1 and CUL1 (By similarity). Interacts with p53/TP53; leading
+CC       to inhibit histone acetyltransferase activity. Interacts with MIS18BP1
+CC       (By similarity). {ECO:0000250|UniProtKB:O95251,
+CC       ECO:0000250|UniProtKB:Q5SVQ0}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:O95251}.
+CC       Chromosome {ECO:0000250|UniProtKB:O95251}. Chromosome, centromere
+CC       {ECO:0000250|UniProtKB:O95251}. Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:Q5SVQ0}. Note=Associates with replication
+CC       origins specifically during the G1 phase of the cell cycle. Localizes
+CC       to transcription start sites. Localizes to ultraviolet-induced DNA
+CC       damage sites following phosphorylation by ATR. Localizes to centromeres
+CC       in G1 phase. {ECO:0000250|UniProtKB:O95251}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q810T5-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q810T5-2; Sequence=VSP_014585;
+CC   -!- DOMAIN: The C2HC MYST-type zinc finger is required for interaction with
+CC       MCM2 and ORC1. {ECO:0000250|UniProtKB:O95251}.
+CC   -!- DOMAIN: The N-terminus is involved in transcriptional repression, while
+CC       the C-terminus mediates AR-interaction. {ECO:0000250|UniProtKB:O95251}.
+CC   -!- PTM: Phosphorylated at Ser-51 and Ser-54 by ATR in response to DNA
+CC       damage, promoting its ubiquitination by the CRL4(DDB2) complex and
+CC       subsequent degradation. Phosphorylation at Ser-51 and Ser-54 by ATR in
+CC       response to ultraviolet-induced DNA, promotes localization to DNA
+CC       damage sites. Phosphorylation at Ser-58 by PLK1 during mitosis seems
+CC       important for prereplicative complex formation and DNA replication
+CC       licensing, and requires prior phosphorylation at Thr-86 and Thr-89 by
+CC       CDK1 (By similarity). Phosphorylated by MAP2K1, which accelerates its
+CC       degradation (By similarity). {ECO:0000250|UniProtKB:O95251,
+CC       ECO:0000250|UniProtKB:Q5SVQ0}.
+CC   -!- PTM: Ubiquitinated at Lys-339, leading to proteasomal degradation.
+CC       Ubiquitinated by the CRL4(DDB2) complex following phosphorylation by
+CC       ATR, leading to its subsequent degradation.
+CC       {ECO:0000250|UniProtKB:O95251}.
+CC   -!- PTM: Autoacetylation at Lys-433 is required for proper function.
+CC       {ECO:0000250|UniProtKB:Q9H7Z6}.
+CC   -!- SIMILARITY: Belongs to the MYST (SAS/MOZ) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY236854; AAO84914.1; -; mRNA.
+DR   EMBL; AY241457; AAO86770.1; -; mRNA.
+DR   RefSeq; NP_851595.1; NM_181081.2. [Q810T5-1]
+DR   AlphaFoldDB; Q810T5; -.
+DR   SMR; Q810T5; -.
+DR   STRING; 10116.ENSRNOP00000074972; -.
+DR   iPTMnet; Q810T5; -.
+DR   PhosphoSitePlus; Q810T5; -.
+DR   jPOST; Q810T5; -.
+DR   Ensembl; ENSRNOT00000109616.1; ENSRNOP00000090504.1; ENSRNOG00000022664.7. [Q810T5-1]
+DR   Ensembl; ENSRNOT00055055402; ENSRNOP00055045732; ENSRNOG00055031901. [Q810T5-1]
+DR   Ensembl; ENSRNOT00060043648; ENSRNOP00060036195; ENSRNOG00060024753. [Q810T5-1]
+DR   Ensembl; ENSRNOT00065030599; ENSRNOP00065024338; ENSRNOG00065018143. [Q810T5-1]
+DR   GeneID; 303470; -.
+DR   KEGG; rno:303470; -.
+DR   UCSC; RGD:727966; rat. [Q810T5-1]
+DR   AGR; RGD:727966; -.
+DR   CTD; 11143; -.
+DR   RGD; 727966; Kat7.
+DR   GeneTree; ENSGT00940000157744; -.
+DR   InParanoid; Q810T5; -.
+DR   OMA; NSLXVRA; -.
+DR   OrthoDB; 118560at2759; -.
+DR   PhylomeDB; Q810T5; -.
+DR   Reactome; R-RNO-3214847; HATs acetylate histones.
+DR   UniPathway; UPA00144; -.
+DR   PRO; PR:Q810T5; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   GO; GO:0000785; C:chromatin; IBA:GO_Central.
+DR   GO; GO:0005694; C:chromosome; ISO:RGD.
+DR   GO; GO:0000775; C:chromosome, centromeric region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000123; C:histone acetyltransferase complex; ISS:UniProtKB.
+DR   GO; GO:0036409; C:histone H3-K14 acetyltransferase complex; ISS:UniProtKB.
+DR   GO; GO:0005654; C:nucleoplasm; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0090734; C:site of DNA damage; ISS:UniProtKB.
+DR   GO; GO:0003682; F:chromatin binding; IBA:GO_Central.
+DR   GO; GO:0003688; F:DNA replication origin binding; ISO:RGD.
+DR   GO; GO:0004402; F:histone acetyltransferase activity; ISO:RGD.
+DR   GO; GO:0010484; F:histone H3 acetyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0036408; F:histone H3K14 acetyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0043994; F:histone H3K23 acetyltransferase activity; ISO:RGD.
+DR   GO; GO:0044016; F:histone H3K4 acetyltransferase activity; ISO:RGD.
+DR   GO; GO:0010485; F:histone H4 acetyltransferase activity; ISO:RGD.
+DR   GO; GO:0043997; F:histone H4K12 acetyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0043995; F:histone H4K5 acetyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0043996; F:histone H4K8 acetyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0003712; F:transcription coregulator activity; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   GO; GO:0140889; P:DNA replication-dependent chromatin disassembly; ISS:UniProtKB.
+DR   GO; GO:0018393; P:internal peptidyl-lysine acetylation; ISS:UniProtKB.
+DR   GO; GO:0001779; P:natural killer cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0045740; P:positive regulation of DNA replication; ISS:UniProtKB.
+DR   GO; GO:0032786; P:positive regulation of DNA-templated transcription, elongation; ISS:UniProtKB.
+DR   GO; GO:0045648; P:positive regulation of erythrocyte differentiation; ISS:UniProtKB.
+DR   GO; GO:1902035; P:positive regulation of hematopoietic stem cell proliferation; ISS:UniProtKB.
+DR   GO; GO:1900182; P:positive regulation of protein localization to nucleus; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISS:UniProtKB.
+DR   GO; GO:0043161; P:proteasome-mediated ubiquitin-dependent protein catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0051726; P:regulation of cell cycle; ISO:RGD.
+DR   GO; GO:0001558; P:regulation of cell growth; ISO:RGD.
+DR   GO; GO:2000278; P:regulation of DNA biosynthetic process; ISO:RGD.
+DR   GO; GO:0006275; P:regulation of DNA replication; ISO:RGD.
+DR   GO; GO:0030174; P:regulation of DNA-templated DNA replication initiation; ISS:UniProtKB.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:2000819; P:regulation of nucleotide-excision repair; ISS:UniProtKB.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; IBA:GO_Central.
+DR   GO; GO:0072716; P:response to actinomycin D; ISO:RGD.
+DR   GO; GO:0072739; P:response to anisomycin; ISO:RGD.
+DR   GO; GO:0072720; P:response to dithiothreitol; ISO:RGD.
+DR   GO; GO:0072710; P:response to hydroxyurea; ISO:RGD.
+DR   GO; GO:0072708; P:response to sorbitol; ISO:RGD.
+DR   GO; GO:0031098; P:stress-activated protein kinase signaling cascade; ISO:RGD.
+DR   GO; GO:0030217; P:T cell differentiation; ISO:RGD.
+DR   GO; GO:0045815; P:transcription initiation-coupled chromatin remodeling; ISO:RGD.
+DR   Gene3D; 3.40.630.30; -; 1.
+DR   Gene3D; 4.10.320.30; -; 1.
+DR   Gene3D; 3.30.60.60; N-acetyl transferase-like; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR002717; HAT_MYST-type.
+DR   InterPro; IPR050603; MYST_HAT.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR040706; Zf-MYST.
+DR   InterPro; IPR002515; Znf_C2H2C.
+DR   InterPro; IPR036060; Znf_C2H2C_sf.
+DR   PANTHER; PTHR10615; HISTONE ACETYLTRANSFERASE; 1.
+DR   PANTHER; PTHR10615:SF210; HISTONE ACETYLTRANSFERASE KAT7; 1.
+DR   Pfam; PF01853; MOZ_SAS; 1.
+DR   Pfam; PF01530; zf-C2HC; 1.
+DR   Pfam; PF17772; zf-MYST; 1.
+DR   SUPFAM; SSF55729; Acyl-CoA N-acyltransferases (Nat); 1.
+DR   SUPFAM; SSF103637; CCHHC domain; 1.
+DR   PROSITE; PS51726; MYST_HAT; 1.
+DR   PROSITE; PS51802; ZF_CCHHC; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Acyltransferase; Alternative splicing; Centromere;
+KW   Chromatin regulator; Chromosome; Cytoplasm; DNA damage; DNA repair;
+KW   DNA replication; Isopeptide bond; Metal-binding; Nucleus; Phosphoprotein;
+KW   Reference proteome; Transcription; Transcription regulation; Transferase;
+KW   Ubl conjugation; Zinc; Zinc-finger.
+FT   CHAIN           1..612
+FT                   /note="Histone acetyltransferase KAT7"
+FT                   /id="PRO_0000051571"
+FT   DOMAIN          333..608
+FT                   /note="MYST-type HAT"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01063"
+FT   ZN_FING         177..220
+FT                   /note="CCHHC-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01143"
+FT   ZN_FING         366..391
+FT                   /note="C2HC MYST-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01063"
+FT   REGION          1..174
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        20..39
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        40..107
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        108..124
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        125..152
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        154..174
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        509
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H7Z6"
+FT   BINDING         186
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01143"
+FT   BINDING         191
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01143"
+FT   BINDING         204
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01143"
+FT   BINDING         210
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01143"
+FT   BINDING         369
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   BINDING         372
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   BINDING         385
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   BINDING         389
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   BINDING         476..478
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   BINDING         484..489
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   BINDING         513
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   BINDING         522
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         11
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         51
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         54
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         58
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         65
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         86
+FT                   /note="Phosphothreonine; by CDK1"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         89
+FT                   /note="Phosphothreonine; by CDK1"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         103
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         105
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5SVQ0"
+FT   MOD_RES         112
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         125
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         129
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5SVQ0"
+FT   MOD_RES         159
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         163
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         165
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         179
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         200
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   MOD_RES         278
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5SVQ0"
+FT   MOD_RES         433
+FT                   /note="N6-acetyllysine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H7Z6"
+FT   MOD_RES         507
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   CROSSLNK        324
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   CROSSLNK        339
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:O95251"
+FT   VAR_SEQ         223..252
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|Ref.1"
+FT                   /id="VSP_014585"
+SQ   SEQUENCE   612 AA;  70514 MW;  A73190BCEBD975CD CRC64;
+     MAIGVKRNAG SSSDGTEDSD FSTDLEHTDS SESDGTSRRS ARVTRSSARL SQSSQDSSPV
+     RNLPSFGTEE PAYSTRRVTR SQQQPTPVTP KKYPLRQTRS SGSETEQAVD FSDRETKNTA
+     DHDESPPRTP TGNAPSSESD IDISSPNVSH DESIAKDMSL KDSGSDLSHR PKRRRFHESY
+     NFNMKCPTPG CNSLGHLTGK HERHFSISGC PLYHNLSADE CKVRAQSRDK QIEERMLSHR
+     QDDNNRHATR HQAPTERQLR YKEKVAELRK KRNSGLSKEQ KEKYMEHRQT YGNTREPLLE
+     NLTSEYDLDL FRRAQARASE DLEKLRLQGQ ITEGSNMIKT IAFGRYELDT WYHSPYPEEY
+     ARLGRLYMCE FCLKYMKSQT ILRRHMAKCV WKHPPGDEIY RKGSISVFEV DGKKNKIYCQ
+     NLCLLAKLFL DHKTLYYDVE PFLFYVMTEA DNTGCHLIGY FSKEKNSFLN YNVSCILTMP
+     QYMRQGYGKM LIDFSYLLSK VEEKVGSPER PLSDLGLISY RSYWKEVLLR YLHNFQGKEI
+     SIKEISQETA VNPVDIVSTL QALQMLKYWK GKHLVLKRQD LIDEWIAKEA KRSNSNKTMD
+     PSCLKWTPPK GT
+//

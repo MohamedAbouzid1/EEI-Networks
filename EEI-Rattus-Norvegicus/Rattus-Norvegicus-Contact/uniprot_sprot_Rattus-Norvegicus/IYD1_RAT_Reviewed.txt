@@ -1,0 +1,190 @@
+ID   IYD1_RAT                Reviewed;         285 AA.
+AC   Q5BK17;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   12-APR-2005, sequence version 1.
+DT   24-JUL-2024, entry version 111.
+DE   RecName: Full=Iodotyrosine deiodinase 1 {ECO:0000250|UniProtKB:Q6PHW0};
+DE            Short=IYD-1 {ECO:0000250|UniProtKB:Q6PHW0};
+DE            EC=1.21.1.1 {ECO:0000250|UniProtKB:Q6PHW0};
+DE   AltName: Full=Iodotyrosine dehalogenase 1 {ECO:0000250|UniProtKB:Q6PHW0};
+GN   Name=Iyd; Synonyms=Dehal1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Catalyzes the dehalogenation of halotyrosines such as 3-
+CC       bromo-L-tyrosine, 3-chloro-L-tyrosine, 3-iodo-L-tyrosine and 3,5-
+CC       diiodo-L-tyrosine. During thyroid hormone biosynthesis, facilitates
+CC       iodide salvage by catalysing the oxidative NADPH-dependent deiodination
+CC       of the halogenated by-products of thyroid hormone production,
+CC       monoiodotyrosine (L-MIT) and diiodotyrosine (L-DIT). The scavanged
+CC       iodide can then reenter the hormone-producing pathways. Acts more
+CC       efficiently on 3-iodo-L-tyrosine than 3,5-diiodo-L-tyrosine.
+CC       {ECO:0000250|UniProtKB:Q6PHW0}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 iodide + L-tyrosine + 2 NADP(+) = 3,5-diiodo-L-tyrosine +
+CC         H(+) + 2 NADPH; Xref=Rhea:RHEA:32479, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16382, ChEBI:CHEBI:57506, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58315, ChEBI:CHEBI:58349; EC=1.21.1.1;
+CC         Evidence={ECO:0000250|UniProtKB:Q6PHW0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=iodide + L-tyrosine + NADP(+) = 3-iodo-L-tyrosine + NADPH;
+CC         Xref=Rhea:RHEA:27453, ChEBI:CHEBI:16382, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58315, ChEBI:CHEBI:58349, ChEBI:CHEBI:59898;
+CC         Evidence={ECO:0000250|UniProtKB:Q6PHW0};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:27455;
+CC         Evidence={ECO:0000250|UniProtKB:Q6PHW0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-iodo-L-tyrosine + iodide + NADP(+) = 3,5-diiodo-L-tyrosine +
+CC         H(+) + NADPH; Xref=Rhea:RHEA:27457, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16382, ChEBI:CHEBI:57506, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:59898;
+CC         Evidence={ECO:0000250|UniProtKB:Q6PHW0};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:27459;
+CC         Evidence={ECO:0000250|UniProtKB:Q6PHW0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride + L-tyrosine + NADP(+) = 3-chloro-L-tyrosine + NADPH;
+CC         Xref=Rhea:RHEA:70343, ChEBI:CHEBI:17996, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58315, ChEBI:CHEBI:58349, ChEBI:CHEBI:189422;
+CC         Evidence={ECO:0000250|UniProtKB:Q6PHW0};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:70345;
+CC         Evidence={ECO:0000250|UniProtKB:Q6PHW0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=bromide + L-tyrosine + NADP(+) = 3-bromo-L-tyrosine + NADPH;
+CC         Xref=Rhea:RHEA:70347, ChEBI:CHEBI:15858, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58315, ChEBI:CHEBI:58349, ChEBI:CHEBI:189423;
+CC         Evidence={ECO:0000250|UniProtKB:Q6PHW0};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:70349;
+CC         Evidence={ECO:0000250|UniProtKB:Q6PHW0};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000250|UniProtKB:Q6PHW0};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q6PHW0}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q6PHW0};
+CC       Single-pass membrane protein {ECO:0000250|UniProtKB:Q6PHW0}.
+CC       Cytoplasmic vesicle membrane {ECO:0000250|UniProtKB:Q6PHW0}.
+CC   -!- SIMILARITY: Belongs to the nitroreductase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC091241; AAH91241.1; -; mRNA.
+DR   RefSeq; NP_001020171.1; NM_001025000.1.
+DR   AlphaFoldDB; Q5BK17; -.
+DR   SMR; Q5BK17; -.
+DR   STRING; 10116.ENSRNOP00000021893; -.
+DR   iPTMnet; Q5BK17; -.
+DR   PhosphoSitePlus; Q5BK17; -.
+DR   PaxDb; 10116-ENSRNOP00000021893; -.
+DR   Ensembl; ENSRNOT00000021895.8; ENSRNOP00000021893.4; ENSRNOG00000016286.8.
+DR   Ensembl; ENSRNOT00055036634; ENSRNOP00055029761; ENSRNOG00055021444.
+DR   Ensembl; ENSRNOT00060000795; ENSRNOP00060000183; ENSRNOG00060000700.
+DR   Ensembl; ENSRNOT00065003469; ENSRNOP00065002401; ENSRNOG00065002607.
+DR   GeneID; 308129; -.
+DR   KEGG; rno:308129; -.
+DR   UCSC; RGD:1309288; rat.
+DR   AGR; RGD:1309288; -.
+DR   CTD; 389434; -.
+DR   RGD; 1309288; Iyd.
+DR   eggNOG; KOG3936; Eukaryota.
+DR   GeneTree; ENSGT00390000004348; -.
+DR   HOGENOM; CLU_070764_1_0_1; -.
+DR   InParanoid; Q5BK17; -.
+DR   OMA; GANHQPW; -.
+DR   OrthoDB; 5390904at2759; -.
+DR   PhylomeDB; Q5BK17; -.
+DR   TreeFam; TF313415; -.
+DR   Reactome; R-RNO-209968; Thyroxine biosynthesis.
+DR   PRO; PR:Q5BK17; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000016286; Expressed in liver and 6 other cell types or tissues.
+DR   GO; GO:0030659; C:cytoplasmic vesicle membrane; ISS:UniProtKB.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0010181; F:FMN binding; ISS:UniProtKB.
+DR   GO; GO:0140616; F:iodotyrosine deiodinase activity; ISS:UniProtKB.
+DR   GO; GO:0016491; F:oxidoreductase activity; IBA:GO_Central.
+DR   GO; GO:0042403; P:thyroid hormone metabolic process; ISS:UniProtKB.
+DR   GO; GO:0006570; P:tyrosine metabolic process; ISS:UniProtKB.
+DR   CDD; cd02144; iodotyrosine_dehalogenase; 1.
+DR   Gene3D; 3.40.109.10; NADH Oxidase; 1.
+DR   InterPro; IPR029479; Nitroreductase.
+DR   InterPro; IPR000415; Nitroreductase-like.
+DR   InterPro; IPR050627; Nitroreductase/BluB.
+DR   PANTHER; PTHR23026:SF90; IODOTYROSINE DEIODINASE 1; 1.
+DR   PANTHER; PTHR23026; NADPH NITROREDUCTASE; 1.
+DR   Pfam; PF00881; Nitroreductase; 1.
+DR   SUPFAM; SSF55469; FMN-dependent nitroreductase-like; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Cytoplasmic vesicle; Flavoprotein; FMN; Membrane; NADP;
+KW   Oxidoreductase; Reference proteome; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..285
+FT                   /note="Iodotyrosine deiodinase 1"
+FT                   /id="PRO_0000230282"
+FT   TRANSMEM        1..21
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         96..100
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+FT   BINDING         124..125
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+FT   BINDING         126
+FT                   /ligand="3,5-diiodo-L-tyrosine"
+FT                   /ligand_id="ChEBI:CHEBI:57506"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+FT   BINDING         126
+FT                   /ligand="3-iodo-L-tyrosine"
+FT                   /ligand_id="ChEBI:CHEBI:59898"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+FT   BINDING         153
+FT                   /ligand="3,5-diiodo-L-tyrosine"
+FT                   /ligand_id="ChEBI:CHEBI:57506"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+FT   BINDING         153
+FT                   /ligand="3-iodo-L-tyrosine"
+FT                   /ligand_id="ChEBI:CHEBI:59898"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+FT   BINDING         157
+FT                   /ligand="3,5-diiodo-L-tyrosine"
+FT                   /ligand_id="ChEBI:CHEBI:57506"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+FT   BINDING         157
+FT                   /ligand="3-iodo-L-tyrosine"
+FT                   /ligand_id="ChEBI:CHEBI:59898"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+FT   BINDING         178
+FT                   /ligand="3,5-diiodo-L-tyrosine"
+FT                   /ligand_id="ChEBI:CHEBI:57506"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+FT   BINDING         178
+FT                   /ligand="3-iodo-L-tyrosine"
+FT                   /ligand_id="ChEBI:CHEBI:59898"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+FT   BINDING         233..235
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+FT   BINDING         275
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9DCX8"
+SQ   SEQUENCE   285 AA;  32846 MW;  E89714F0630E5E4D CRC64;
+     MFLLTPVLVA VVCILVIWVF KNADRSLEEK KEEARAQPWV DEDLKDNTEH LQVEEDTEEW
+     QESEESVEHI LFSHTRYPEQ EMRMRSQEFY ELLSKRRSIR FISSEPVPME VIDNVIKAAG
+     TAPSGAHTEP WTFVVVKDPD MKHKIREIIE EEEEINYMKR MGKRWVTDLK KLRTNWIKEY
+     LDTAPVLILI FKQVHGFAVN GKKKVHYYNE ISVSIACGIL LAALQNAGLV TVTTTPLNCG
+     PRLRVLLGRP SHEKLLVLLP VGYPSRGATV PDLKRKTLDQ IMVTV
+//

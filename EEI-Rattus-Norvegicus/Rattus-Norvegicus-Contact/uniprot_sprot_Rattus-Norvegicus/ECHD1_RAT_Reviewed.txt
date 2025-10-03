@@ -1,0 +1,134 @@
+ID   ECHD1_RAT               Reviewed;         299 AA.
+AC   Q6AYG5;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   02-OCT-2024, entry version 118.
+DE   RecName: Full=Ethylmalonyl-CoA decarboxylase;
+DE            EC=4.1.1.94 {ECO:0000250|UniProtKB:Q9D9V3};
+DE   AltName: Full=Enoyl-CoA hydratase domain-containing protein 1;
+DE   AltName: Full=Methylmalonyl-CoA decarboxylase;
+DE            Short=MMCD;
+GN   Name=Echdc1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 38-51, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal cord;
+RA   Lubec G., Afjehi-Sadat L.;
+RL   Submitted (DEC-2006) to UniProtKB.
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=22016388; DOI=10.1074/jbc.m111.281527;
+RA   Linster C.L., Noel G., Stroobant V., Vertommen D., Vincent M.F.,
+RA   Bommer G.T., Veiga-da-Cunha M., Van Schaftingen E.;
+RT   "Ethylmalonyl-CoA decarboxylase, a new enzyme involved in metabolite
+RT   proofreading.";
+RL   J. Biol. Chem. 286:42992-43003(2011).
+CC   -!- FUNCTION: Decarboxylates ethylmalonyl-CoA, a potentially toxic
+CC       metabolite, to form butyryl-CoA, suggesting it might be involved in
+CC       metabolite proofreading. Acts preferentially on (S)-ethylmalonyl-CoA
+CC       but has also some activity on the (R)-isomer. Also has methylmalonyl-
+CC       CoA decarboxylase activity at lower level.
+CC       {ECO:0000250|UniProtKB:Q9D9V3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S)-ethylmalonyl-CoA + H(+) = butanoyl-CoA + CO2;
+CC         Xref=Rhea:RHEA:32131, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57371, ChEBI:CHEBI:60909; EC=4.1.1.94;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D9V3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:32132;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D9V3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-methylmalonyl-CoA + H(+) = CO2 + propanoyl-CoA;
+CC         Xref=Rhea:RHEA:61340, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57327, ChEBI:CHEBI:57392; EC=4.1.1.94;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D9V3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:61341;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D9V3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-ethylmalonyl-CoA + H(+) = butanoyl-CoA + CO2;
+CC         Xref=Rhea:RHEA:59540, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57371, ChEBI:CHEBI:85316; EC=4.1.1.94;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D9V3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:59541;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D9V3};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:Q9D9V3}.
+CC   -!- SIMILARITY: Belongs to the enoyl-CoA hydratase/isomerase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079052; AAH79052.1; -; mRNA.
+DR   RefSeq; NP_001007735.1; NM_001007734.1.
+DR   RefSeq; XP_006227809.1; XM_006227747.3.
+DR   RefSeq; XP_017444821.1; XM_017589332.1.
+DR   AlphaFoldDB; Q6AYG5; -.
+DR   SMR; Q6AYG5; -.
+DR   STRING; 10116.ENSRNOP00000015440; -.
+DR   iPTMnet; Q6AYG5; -.
+DR   PhosphoSitePlus; Q6AYG5; -.
+DR   jPOST; Q6AYG5; -.
+DR   PaxDb; 10116-ENSRNOP00000015440; -.
+DR   GeneID; 361465; -.
+DR   KEGG; rno:361465; -.
+DR   UCSC; RGD:1359654; rat.
+DR   AGR; RGD:1359654; -.
+DR   CTD; 55862; -.
+DR   RGD; 1359654; Echdc1.
+DR   VEuPathDB; HostDB:ENSRNOG00000011622; -.
+DR   eggNOG; KOG1680; Eukaryota.
+DR   HOGENOM; CLU_009834_7_6_1; -.
+DR   InParanoid; Q6AYG5; -.
+DR   OrthoDB; 50856at2759; -.
+DR   PhylomeDB; Q6AYG5; -.
+DR   TreeFam; TF315986; -.
+DR   PRO; PR:Q6AYG5; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000011622; Expressed in pancreas and 20 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; ISS:UniProtKB.
+DR   GO; GO:0016831; F:carboxy-lyase activity; ISS:UniProtKB.
+DR   GO; GO:0004492; F:methyl/ethyl malonyl-CoA decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006635; P:fatty acid beta-oxidation; IBA:GO_Central.
+DR   CDD; cd06558; crotonase-like; 1.
+DR   InterPro; IPR029045; ClpP/crotonase-like_dom_sf.
+DR   InterPro; IPR018376; Enoyl-CoA_hyd/isom_CS.
+DR   InterPro; IPR001753; Enoyl-CoA_hydra/iso.
+DR   PANTHER; PTHR11941; ENOYL-COA HYDRATASE-RELATED; 1.
+DR   PANTHER; PTHR11941:SF27; ETHYLMALONYL-COA DECARBOXYLASE; 1.
+DR   Pfam; PF00378; ECH_1; 1.
+DR   SUPFAM; SSF52096; ClpP/crotonase; 1.
+DR   PROSITE; PS00166; ENOYL_COA_HYDRATASE; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Direct protein sequencing; Lyase;
+KW   Reference proteome.
+FT   CHAIN           1..299
+FT                   /note="Ethylmalonyl-CoA decarboxylase"
+FT                   /id="PRO_0000273249"
+FT   MOD_RES         209
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9D9V3"
+FT   MOD_RES         209
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9D9V3"
+FT   MOD_RES         293
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9D9V3"
+SQ   SEQUENCE   299 AA;  32631 MW;  B74CCD89B663C42E CRC64;
+     MAKSLLASSL SVRTKILQTG VSLYNTTHGF HEEEVKKILE QFPGGSIDLQ KKQNGIGILT
+     LNNSNKMNAF SGAMMLQLLE RVIELENWTE GKGLIVHGAK NTFCSGSDLN AVKALSTPEN
+     GVALSMFMQN TLTRFMRLPL ISVALVQGWA MGGGAELTTA CDFRLMTEES VIRFVHKEMG
+     IVPSWGGASR LVEIIGSRQA LKVLSGTFKL DSKEALRIGL ADEVLQPSDE ATALEQAQEW
+     LEQFVSGPAQ VIRGLKKSVC SGRELYLEEA LQNERDVLET LWGGPANLEA IAKKGKHTK
+//

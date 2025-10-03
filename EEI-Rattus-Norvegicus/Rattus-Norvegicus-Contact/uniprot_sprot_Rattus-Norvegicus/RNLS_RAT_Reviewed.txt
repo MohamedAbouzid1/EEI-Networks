@@ -1,0 +1,165 @@
+ID   RNLS_RAT                Reviewed;         315 AA.
+AC   Q5U2W9;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   07-DEC-2004, sequence version 1.
+DT   29-MAY-2024, entry version 112.
+DE   RecName: Full=Renalase;
+DE            EC=1.6.3.5 {ECO:0000250|UniProtKB:Q5VYX0};
+DE   AltName: Full=Monoamine oxidase-C;
+DE            Short=MAO-C;
+DE   AltName: Full=alpha-NAD(P)H oxidase/anomerase;
+DE   Flags: Precursor;
+GN   Name=Rnls;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=15841207; DOI=10.1172/jci24066;
+RA   Xu J., Li G., Wang P., Velazquez H., Yao X., Li Y., Wu Y., Peixoto A.,
+RA   Crowley S., Desir G.V.;
+RT   "Renalase is a novel, soluble monoamine oxidase that regulates cardiac
+RT   function and blood pressure.";
+RL   J. Clin. Invest. 115:1275-1280(2005).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=18299506; DOI=10.1161/circulationaha.107.732032;
+RA   Li G., Xu J., Wang P., Velazquez H., Li Y., Wu Y., Desir G.V.;
+RT   "Catecholamines regulate the activity, secretion, and synthesis of
+RT   renalase.";
+RL   Circulation 117:1277-1282(2008).
+CC   -!- FUNCTION: Catalyzes the oxidation of the less abundant 1,2-dihydro-
+CC       beta-NAD(P) and 1,6-dihydro-beta-NAD(P) to form beta-NAD(P)(+) (By
+CC       similarity). The enzyme hormone is secreted by the kidney, and
+CC       circulates in blood and modulates cardiac function and systemic blood
+CC       pressure. Lowers blood pressure in vivo by decreasing cardiac
+CC       contractility and heart rate and preventing a compensatory increase in
+CC       peripheral vascular tone, suggesting a causal link to the increased
+CC       plasma catecholamine and heightened cardiovascular risk. High
+CC       concentrations of catecholamines activate plasma renalase and promotes
+CC       its secretion and synthesis. {ECO:0000250|UniProtKB:Q5VYX0,
+CC       ECO:0000269|PubMed:15841207, ECO:0000269|PubMed:18299506}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihydro-beta-NAD + H(+) + O2 = H2O2 + NAD(+);
+CC         Xref=Rhea:RHEA:40395, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:57540, ChEBI:CHEBI:88138; EC=1.6.3.5;
+CC         Evidence={ECO:0000250|UniProtKB:Q5VYX0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihydro-beta-NADP + H(+) + O2 = H2O2 + NADP(+);
+CC         Xref=Rhea:RHEA:40399, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:58349, ChEBI:CHEBI:88137; EC=1.6.3.5;
+CC         Evidence={ECO:0000250|UniProtKB:Q5VYX0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,6-dihydro-beta-NADP + H(+) + O2 = H2O2 + NADP(+);
+CC         Xref=Rhea:RHEA:48000, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:58349, ChEBI:CHEBI:88139; EC=1.6.3.5;
+CC         Evidence={ECO:0000250|UniProtKB:Q5VYX0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,6-dihydro-beta-NAD + H(+) + O2 = H2O2 + NAD(+);
+CC         Xref=Rhea:RHEA:47996, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:57540, ChEBI:CHEBI:88140; EC=1.6.3.5;
+CC         Evidence={ECO:0000250|UniProtKB:Q5VYX0};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the renalase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC085833; AAH85833.1; -; mRNA.
+DR   RefSeq; NP_001014189.1; NM_001014167.1.
+DR   AlphaFoldDB; Q5U2W9; -.
+DR   SMR; Q5U2W9; -.
+DR   STRING; 10116.ENSRNOP00000028098; -.
+DR   PhosphoSitePlus; Q5U2W9; -.
+DR   PaxDb; 10116-ENSRNOP00000028098; -.
+DR   Ensembl; ENSRNOT00000028098.6; ENSRNOP00000028098.5; ENSRNOG00000020705.6.
+DR   GeneID; 361751; -.
+DR   KEGG; rno:361751; -.
+DR   UCSC; RGD:1309804; rat.
+DR   AGR; RGD:1309804; -.
+DR   CTD; 55328; -.
+DR   RGD; 1309804; Rnls.
+DR   eggNOG; ENOG502QUZR; Eukaryota.
+DR   GeneTree; ENSGT00390000016052; -.
+DR   HOGENOM; CLU_036034_1_0_1; -.
+DR   InParanoid; Q5U2W9; -.
+DR   OMA; ICGGDAF; -.
+DR   OrthoDB; 5394503at2759; -.
+DR   PhylomeDB; Q5U2W9; -.
+DR   TreeFam; TF332799; -.
+DR   BRENDA; 1.6.3.5; 5301.
+DR   Reactome; R-RNO-197264; Nicotinamide salvaging.
+DR   PRO; PR:Q5U2W9; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000020705; Expressed in liver and 19 other cell types or tissues.
+DR   GO; GO:0005576; C:extracellular region; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0051379; F:epinephrine binding; ISO:RGD.
+DR   GO; GO:0097621; F:monoamine oxidase activity; ISO:RGD.
+DR   GO; GO:0070404; F:NADH binding; ISO:RGD.
+DR   GO; GO:0016491; F:oxidoreductase activity; ISO:RGD.
+DR   GO; GO:0016651; F:oxidoreductase activity, acting on NAD(P)H; ISO:RGD.
+DR   GO; GO:0003214; P:cardiac left ventricle morphogenesis; ISO:RGD.
+DR   GO; GO:0042417; P:dopamine metabolic process; ISO:RGD.
+DR   GO; GO:0042414; P:epinephrine metabolic process; ISO:RGD.
+DR   GO; GO:0060047; P:heart contraction; ISO:RGD.
+DR   GO; GO:0045776; P:negative regulation of blood pressure; ISO:RGD.
+DR   GO; GO:0010459; P:negative regulation of heart rate; ISO:RGD.
+DR   GO; GO:0042415; P:norepinephrine metabolic process; ISO:RGD.
+DR   GO; GO:0055062; P:phosphate ion homeostasis; ISO:RGD.
+DR   GO; GO:0003073; P:regulation of systemic arterial blood pressure; ISO:RGD.
+DR   GO; GO:0071869; P:response to catecholamine; IEP:RGD.
+DR   GO; GO:0071871; P:response to epinephrine; IEP:RGD.
+DR   GO; GO:0002931; P:response to ischemia; IEP:RGD.
+DR   GO; GO:0071873; P:response to norepinephrine; ISO:RGD.
+DR   GO; GO:1902074; P:response to salt; IDA:RGD.
+DR   Gene3D; 3.90.660.10; -; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 1.
+DR   InterPro; IPR002937; Amino_oxidase.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR040174; RNLS.
+DR   PANTHER; PTHR23357:SF1; RENALASE; 1.
+DR   PANTHER; PTHR23357; UNCHARACTERIZED; 1.
+DR   Pfam; PF01593; Amino_oxidase; 1.
+DR   Pfam; PF13450; NAD_binding_8; 1.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+PE   2: Evidence at transcript level;
+KW   FAD; Flavoprotein; NAD; NADP; Oxidoreductase; Reference proteome; Secreted;
+KW   Signal.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           18..315
+FT                   /note="Renalase"
+FT                   /id="PRO_0000019589"
+FT   BINDING         12
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         42
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         61..62
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   315 AA;  34951 MW;  C4B606AC2F421698 CRC64;
+     MFRVLVVGAG LTGSLCAALL RKEITAPLYL ALWDKAGDIG GRMTTANSPH NPRCTADLGA
+     QYITCTPHYA KKHQNFYEEL LAHGILEPLT SPIKGMEVKE GESNFVAPHG VSSIIKYYLK
+     ESGAEVFLRQ CVTQINLRDN KWEVSEDTGS TQQFDLVILT MPAPQILGLQ GDIVNLISER
+     QRQQLASVSY SSRYALGLFY EAGMKIDVPW AGQYITSNPC IRFISIDSKK RNTESSECGP
+     LLVVHTTVPF GVTHLEHSEE DVQELITQQL ETILPGLPPP VATKCWKWRY SQVTNSAANS
+     PGQMTLHLNP FLIYI
+//

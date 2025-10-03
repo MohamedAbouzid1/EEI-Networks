@@ -1,0 +1,180 @@
+ID   BUP1_RAT                Reviewed;         393 AA.
+AC   Q03248;
+DT   01-OCT-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1993, sequence version 1.
+DT   24-JUL-2024, entry version 140.
+DE   RecName: Full=Beta-ureidopropionase;
+DE            EC=3.5.1.6 {ECO:0000269|PubMed:1536562, ECO:0000269|PubMed:8449931};
+DE   AltName: Full=Beta-alanine synthase {ECO:0000303|PubMed:8449931};
+DE   AltName: Full=N-carbamoyl-beta-alanine amidohydrolase;
+GN   Name=Upb1; Synonyms=Bup1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 202-212, FUNCTION,
+RP   CATALYTIC ACTIVITY, PATHWAY, PREDICTED ZINC-BINDING SITES, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Liver;
+RX   PubMed=8449931; DOI=10.1016/s0021-9258(18)53373-1;
+RA   Kvalnes-Krick K.L., Traut T.W.;
+RT   "Cloning, sequencing, and expression of a cDNA encoding beta-alanine
+RT   synthase from rat liver.";
+RL   J. Biol. Chem. 268:5686-5693(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   CATALYTIC ACTIVITY, FUNCTION, SUBUNIT, PATHWAY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, AND ACTIVITY REGULATION.
+RX   PubMed=1536562; DOI=10.1016/0003-9861(92)90393-b;
+RA   Matthews M.M., Liao W., Kvalnes-Krick K.L., Traut T.W.;
+RT   "beta-Alanine synthase: purification and allosteric properties.";
+RL   Arch. Biochem. Biophys. 293:254-263(1992).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-378, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes a late step in pyrimidine degradation. Converts N-
+CC       carbamoyl-beta-alanine (3-ureidopropanoate) into beta-alanine, ammonia
+CC       and carbon dioxide. Likewise, converts N-carbamoyl-beta-
+CC       aminoisobutyrate (3-ureidoisobutyrate) into beta-aminoisobutyrate,
+CC       ammonia and carbon dioxide. {ECO:0000250|UniProtKB:Q9UBR1}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-(carbamoylamino)propanoate + 2 H(+) + H2O = beta-alanine +
+CC         CO2 + NH4(+); Xref=Rhea:RHEA:11184, ChEBI:CHEBI:11892,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:57966; EC=3.5.1.6;
+CC         Evidence={ECO:0000269|PubMed:1536562, ECO:0000269|PubMed:8449931};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-(carbamoylamino)-2-methylpropanoate + 2 H(+) + H2O = (R)-3-
+CC         amino-2-methylpropanoate + CO2 + NH4(+); Xref=Rhea:RHEA:37339,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:57731, ChEBI:CHEBI:74414; EC=3.5.1.6;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UBR1};
+CC   -!- ACTIVITY REGULATION: Allosteric enzyme with positive cooperativity
+CC       toward the substrate N-carbamoyl-beta-alanine at low substrate
+CC       concentrations (below 12 nM). Displays no cooperativity at substrate
+CC       levels above 12 nM. {ECO:0000269|PubMed:1536562}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=6.5 uM for N-carbamoyl-beta-alanine {ECO:0000269|PubMed:1536562};
+CC   -!- PATHWAY: Amino-acid biosynthesis; beta-alanine biosynthesis.
+CC       {ECO:0000269|PubMed:1536562, ECO:0000269|PubMed:8449931}.
+CC   -!- SUBUNIT: Homodimer, homotetramer, homooctamer; can also form higher
+CC       homooligomers. {ECO:0000269|PubMed:1536562}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- TISSUE SPECIFICITY: Detected in liver (at protein level).
+CC       {ECO:0000269|PubMed:8449931}.
+CC   -!- PTM: The N-terminus is blocked. {ECO:0000305|PubMed:8449931}.
+CC   -!- SIMILARITY: Belongs to the carbon-nitrogen hydrolase superfamily. BUP
+CC       family. {ECO:0000305}.
+CC   -!- CAUTION: The purified enzyme was shown to contain 1.8 zinc atoms per
+CC       subunit, and sequence analysis was used to predict the zinc binding
+CC       site (PubMed:8449931). The crystal structure of the human ortholog
+CC       indicates a lack of bound zinc ions, and shows that the residues that
+CC       were predicted to bind zinc are too far apart in space to form a zinc
+CC       binding site (By similarity). {ECO:0000250|UniProtKB:Q9UBR1,
+CC       ECO:0000269|PubMed:8449931}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M97662; AAA40804.1; -; mRNA.
+DR   EMBL; BC078767; AAH78767.1; -; mRNA.
+DR   PIR; A46624; S27881.
+DR   RefSeq; NP_446297.1; NM_053845.1.
+DR   AlphaFoldDB; Q03248; -.
+DR   SMR; Q03248; -.
+DR   BioGRID; 250508; 1.
+DR   STRING; 10116.ENSRNOP00000055035; -.
+DR   iPTMnet; Q03248; -.
+DR   PhosphoSitePlus; Q03248; -.
+DR   Ensembl; ENSRNOT00000115726.1; ENSRNOP00000092718.1; ENSRNOG00000038258.5.
+DR   Ensembl; ENSRNOT00055037482; ENSRNOP00055030566; ENSRNOG00055021850.
+DR   Ensembl; ENSRNOT00060045225; ENSRNOP00060037532; ENSRNOG00060026107.
+DR   Ensembl; ENSRNOT00065046992; ENSRNOP00065038565; ENSRNOG00065027229.
+DR   GeneID; 116593; -.
+DR   KEGG; rno:116593; -.
+DR   AGR; RGD:620091; -.
+DR   CTD; 51733; -.
+DR   RGD; 620091; Upb1.
+DR   GeneTree; ENSGT00390000004906; -.
+DR   InParanoid; Q03248; -.
+DR   OMA; HWPFLRD; -.
+DR   OrthoDB; 177430at2759; -.
+DR   PhylomeDB; Q03248; -.
+DR   BioCyc; MetaCyc:MONOMER-15401; -.
+DR   Reactome; R-RNO-73621; Pyrimidine catabolism.
+DR   SABIO-RK; Q03248; -.
+DR   UniPathway; UPA00131; -.
+DR   PRO; PR:Q03248; -.
+DR   Proteomes; UP000002494; Chromosome 20.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0003837; F:beta-ureidopropionase activity; IDA:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:RGD.
+DR   GO; GO:0019483; P:beta-alanine biosynthetic process; TAS:RGD.
+DR   GO; GO:0033396; P:beta-alanine biosynthetic process via 3-ureidopropionate; ISS:UniProtKB.
+DR   GO; GO:0019482; P:beta-alanine metabolic process; IDA:RGD.
+DR   GO; GO:0006248; P:CMP catabolic process; ISO:RGD.
+DR   GO; GO:0006249; P:dCMP catabolic process; ISO:RGD.
+DR   GO; GO:0046079; P:dUMP catabolic process; ISO:RGD.
+DR   GO; GO:0001701; P:in utero embryonic development; IEP:RGD.
+DR   GO; GO:0001889; P:liver development; IDA:RGD.
+DR   GO; GO:0051260; P:protein homooligomerization; ISS:UniProtKB.
+DR   GO; GO:0051289; P:protein homotetramerization; ISO:RGD.
+DR   GO; GO:0046135; P:pyrimidine nucleoside catabolic process; ISS:UniProtKB.
+DR   GO; GO:0046050; P:UMP catabolic process; ISO:RGD.
+DR   CDD; cd07587; ML_beta-AS; 1.
+DR   Gene3D; 3.60.110.10; Carbon-nitrogen hydrolase; 1.
+DR   InterPro; IPR050345; Aliph_Amidase/BUP.
+DR   InterPro; IPR003010; C-N_Hydrolase.
+DR   InterPro; IPR036526; C-N_Hydrolase_sf.
+DR   PANTHER; PTHR43674:SF2; BETA-UREIDOPROPIONASE; 1.
+DR   PANTHER; PTHR43674; NITRILASE C965.09-RELATED; 1.
+DR   Pfam; PF00795; CN_hydrolase; 1.
+DR   SUPFAM; SSF56317; Carbon-nitrogen hydrolase; 1.
+DR   PROSITE; PS50263; CN_HYDROLASE; 1.
+PE   1: Evidence at protein level;
+KW   Allosteric enzyme; Cytoplasm; Direct protein sequencing; Hydrolase;
+KW   Metal-binding; Phosphoprotein; Reference proteome; Zinc.
+FT   CHAIN           1..393
+FT                   /note="Beta-ureidopropionase"
+FT                   /id="PRO_0000204054"
+FT   DOMAIN          72..344
+FT                   /note="CN hydrolase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00054"
+FT   ACT_SITE        119
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00054"
+FT   ACT_SITE        196
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00054"
+FT   ACT_SITE        233
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00054"
+FT   MOD_RES         378
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   393 AA;  44042 MW;  723E5AF5B01E3AAD CRC64;
+     MAGPEWQSLE QCLEKHLPPD DLSQVKRILY GKQTRNLDLP RKALEAASER NFELKGYAFG
+     AAKEQQRCPQ IVRVGLVQNR IPLPTSAPVA EQVSALHKRI EEIAEVAAMC GVNIICFQEA
+     WNMPFAFCTR EKLPWTEFAE SAEDGLTTRF CQKLAKKHNM VVISPILERD RDHGGVLWNT
+     AVVISNSGLV MGKTRKNHIP RVGDFNESTY YMEGNLGHPV FQTQFGRIAV NICYGRHHPL
+     NWLMYSVNGA EIIFNPSATI GELSESMWPI EARNAAIANH CFTCALNRVG QEHYPNEFTS
+     GDGKKAHHDL GYFYGSSYVA APDGSRTPGL SRNQDGLLVT ELNLNLCQQI NDFWTFKMTG
+     RLEMYARELA EAVKPNYSPN IVKEDLVLAP SSG
+//

@@ -1,0 +1,415 @@
+ID   TRXR1_RAT               Reviewed;         499 AA.
+AC   O89049; Q5U344; Q9JKZ3; Q9JKZ4; Q9R1I3;
+DT   19-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   16-NOV-2011, sequence version 5.
+DT   02-OCT-2024, entry version 181.
+DE   RecName: Full=Thioredoxin reductase 1, cytoplasmic {ECO:0000305};
+DE            Short=TR;
+DE            EC=1.8.1.9 {ECO:0000269|PubMed:10849437};
+DE   AltName: Full=NADPH-dependent thioredoxin reductase;
+DE   AltName: Full=Peroxidase TXNRD1 {ECO:0000305|PubMed:10849437};
+DE            EC=1.11.1.2 {ECO:0000269|PubMed:10849437};
+DE   AltName: Full=Thioredoxin reductase TR1;
+GN   Name=Txnrd1 {ECO:0000312|RGD:61959}; Synonyms=Trxr1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Neuroblastoma;
+RX   PubMed=9535831; DOI=10.1074/jbc.273.15.8581;
+RA   Zhong L., Arner E.S.J., Ljung J., Aaslund F., Holmgren A.;
+RT   "Rat and calf thioredoxin reductase are homologous to glutathione reductase
+RT   with a carboxyl-terminal elongation containing a conserved catalytically
+RT   active penultimate selenocysteine residue.";
+RL   J. Biol. Chem. 273:8581-8591(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND SELENOCYSTEINE AT SEC-498.
+RC   TISSUE=Kidney, and Liver;
+RX   PubMed=10333487; DOI=10.1042/bj3400439;
+RA   Fujiwara N., Fujii T., Fujii J., Taniguchi N.;
+RT   "Functional expression of rat thioredoxin reductase: selenocysteine
+RT   insertion sequence element is essential for the active enzyme.";
+RL   Biochem. J. 340:439-444(1999).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RA   Rundlof A., Arner E.S.J.;
+RT   "Molecular cloning of thioredoxin reductase 1 from rat liver.";
+RL   Submitted (JAN-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 1-20; 56-67; 101-116; 316-335; 365-384; 425-430;
+RP   435-459 AND 488-499, FUNCTION, MUTAGENESIS OF SEC-498, CHARACTERIZATION,
+RP   CATALYTIC ACTIVITY, COFACTOR, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=10849437; DOI=10.1074/jbc.m000690200;
+RA   Zhong L., Holmgren A.;
+RT   "Essential role of selenium in the catalytic activities of mammalian
+RT   thioredoxin reductase revealed by characterization of recombinant enzymes
+RT   with selenocysteine mutations.";
+RL   J. Biol. Chem. 275:18121-18128(2000).
+RN   [6] {ECO:0007744|PDB:1H6V}
+RP   X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS) OF MUTANT CYS-498 IN COMPLEX WITH FAD
+RP   AND NADP, DISULFIDE BOND, HOMODIMERIZATION, AND COFACTOR.
+RX   PubMed=11481439; DOI=10.1073/pnas.171178698;
+RA   Sandalova T., Zhong L., Lindqvist Y., Holmgren A., Schneider G.;
+RT   "Three-dimensional structure of a mammalian thioredoxin reductase:
+RT   implications for mechanism and evolution of a selenocysteine-dependent
+RT   enzyme.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:9533-9538(2001).
+CC   -!- FUNCTION: Reduces disulfideprotein thioredoxin (Trx) to its dithiol-
+CC       containing form. Homodimeric flavoprotein involved in the regulation of
+CC       cellular redox reactions, growth and differentiation. Contains a
+CC       selenocysteine residue at the C-terminal active site that is essential
+CC       for catalysis (PubMed:10849437). Also has reductase activity on
+CC       hydrogen peroxide (H2O2) (PubMed:10849437).
+CC       {ECO:0000269|PubMed:10849437}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-dithiol + NADP(+) = [thioredoxin]-disulfide +
+CC         H(+) + NADPH; Xref=Rhea:RHEA:20345, Rhea:RHEA-COMP:10698, Rhea:RHEA-
+CC         COMP:10700, ChEBI:CHEBI:15378, ChEBI:CHEBI:29950, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.8.1.9;
+CC         Evidence={ECO:0000269|PubMed:10849437};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:20347;
+CC         Evidence={ECO:0000269|PubMed:10849437};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + H2O2 + NADPH = 2 H2O + NADP(+); Xref=Rhea:RHEA:15173,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.11.1.2;
+CC         Evidence={ECO:0000269|PubMed:10849437};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15174;
+CC         Evidence={ECO:0000305|PubMed:10849437};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000269|PubMed:10849437, ECO:0000269|PubMed:11481439};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000269|PubMed:11481439};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=3.3 uM for thioredoxin {ECO:0000269|PubMed:10849437};
+CC         Note=kcat is 2500 min(-1) with thioredoxin as substrate.
+CC         {ECO:0000269|PubMed:10849437};
+CC       pH dependence:
+CC         Optimum pH is 7.5. {ECO:0000269|PubMed:10849437};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:11481439}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q16881}.
+CC   -!- PTM: ISGylated. {ECO:0000250|UniProtKB:Q16881}.
+CC   -!- MISCELLANEOUS: The active site is a redox-active disulfide bond. The
+CC       selenocysteine residue is also essential for catalytic activity.
+CC       {ECO:0000269|PubMed:10849437, ECO:0000269|PubMed:11481439}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAD43039.1; Type=Erroneous termination; Note=Truncated C-terminus.; Evidence={ECO:0000305};
+CC       Sequence=AAH85726.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U63923; AAC35244.2; -; mRNA.
+DR   EMBL; AF108213; AAD43039.1; ALT_SEQ; mRNA.
+DR   EMBL; AF220760; AAF32362.1; -; mRNA.
+DR   EMBL; AF220761; AAF32363.1; -; mRNA.
+DR   EMBL; BC085726; AAH85726.1; ALT_INIT; mRNA.
+DR   PDB; 1H6V; X-ray; 3.00 A; A/B/C/D/E/F=1-499.
+DR   PDB; 3EAN; X-ray; 2.75 A; A/B/C/D/E/F=1-499.
+DR   PDB; 3EAO; X-ray; 3.10 A; A/B/C/D/E/F=1-499.
+DR   PDB; 4KPR; X-ray; 2.40 A; A/B/E/F=1-499.
+DR   PDBsum; 1H6V; -.
+DR   PDBsum; 3EAN; -.
+DR   PDBsum; 3EAO; -.
+DR   PDBsum; 4KPR; -.
+DR   SMR; O89049; -.
+DR   BioGRID; 248626; 1.
+DR   STRING; 10116.ENSRNOP00000013612; -.
+DR   BindingDB; O89049; -.
+DR   ChEMBL; CHEMBL6035; -.
+DR   iPTMnet; O89049; -.
+DR   PhosphoSitePlus; O89049; -.
+DR   jPOST; O89049; -.
+DR   PaxDb; 10116-ENSRNOP00000013612; -.
+DR   PeptideAtlas; O89049; -.
+DR   UCSC; RGD:61959; rat.
+DR   AGR; RGD:61959; -.
+DR   RGD; 61959; Txnrd1.
+DR   eggNOG; KOG4716; Eukaryota.
+DR   InParanoid; O89049; -.
+DR   BioCyc; MetaCyc:MONOMER-15194; -.
+DR   BRENDA; 1.8.1.9; 5301.
+DR   Reactome; R-RNO-3299685; Detoxification of Reactive Oxygen Species.
+DR   Reactome; R-RNO-499943; Interconversion of nucleotide di- and triphosphates.
+DR   Reactome; R-RNO-5263617; Metabolism of ingested MeSeO2H into MeSeH.
+DR   Reactome; R-RNO-5628897; TP53 Regulates Metabolic Genes.
+DR   SABIO-RK; O89049; -.
+DR   EvolutionaryTrace; O89049; -.
+DR   PRO; PR:O89049; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0071949; F:FAD binding; ISS:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0045340; F:mercury ion binding; IDA:RGD.
+DR   GO; GO:0016174; F:NAD(P)H oxidase H2O2-forming activity; IDA:RGD.
+DR   GO; GO:0050137; F:NADPH peroxidase activity; IDA:UniProtKB.
+DR   GO; GO:0033797; F:selenate reductase activity; IDA:RGD.
+DR   GO; GO:0004791; F:thioredoxin-disulfide reductase (NADPH) activity; IDA:UniProtKB.
+DR   GO; GO:0042537; P:benzene-containing compound metabolic process; IDA:RGD.
+DR   GO; GO:0008283; P:cell population proliferation; ISO:RGD.
+DR   GO; GO:0045454; P:cell redox homeostasis; IBA:GO_Central.
+DR   GO; GO:0098869; P:cellular oxidant detoxification; ISO:RGD.
+DR   GO; GO:0071280; P:cellular response to copper ion; IEP:RGD.
+DR   GO; GO:0071455; P:cellular response to hyperoxia; IEP:RGD.
+DR   GO; GO:0007369; P:gastrulation; ISO:RGD.
+DR   GO; GO:0070276; P:halogen metabolic process; IEP:RGD.
+DR   GO; GO:0042744; P:hydrogen peroxide catabolic process; IMP:RGD.
+DR   GO; GO:0001707; P:mesoderm formation; ISO:RGD.
+DR   GO; GO:0070995; P:NADPH oxidation; IDA:RGD.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:0048678; P:response to axon injury; IEP:RGD.
+DR   GO; GO:0055093; P:response to hyperoxia; IEP:RGD.
+DR   GO; GO:0006979; P:response to oxidative stress; IDA:RGD.
+DR   GO; GO:0010269; P:response to selenium ion; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0016259; P:selenocysteine metabolic process; IMP:RGD.
+DR   Gene3D; 3.30.390.30; -; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR016156; FAD/NAD-linked_Rdtase_dimer_sf.
+DR   InterPro; IPR046952; GSHR/TRXR-like.
+DR   InterPro; IPR001100; Pyr_nuc-diS_OxRdtase.
+DR   InterPro; IPR004099; Pyr_nucl-diS_OxRdtase_dimer.
+DR   InterPro; IPR012999; Pyr_OxRdtase_I_AS.
+DR   InterPro; IPR006338; Thioredoxin/glutathione_Rdtase.
+DR   NCBIfam; TIGR01438; TGR; 1.
+DR   PANTHER; PTHR42737; GLUTATHIONE REDUCTASE; 1.
+DR   PANTHER; PTHR42737:SF8; THIOREDOXIN REDUCTASE 1; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   Pfam; PF02852; Pyr_redox_dim; 1.
+DR   PIRSF; PIRSF000350; Mercury_reductase_MerA; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   PRINTS; PR00411; PNDRDTASEI.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   SUPFAM; SSF55424; FAD/NAD-linked reductases, dimerisation (C-terminal) domain; 1.
+DR   PROSITE; PS00076; PYRIDINE_REDOX_1; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytoplasm; Direct protein sequencing; Disulfide bond; FAD;
+KW   Flavoprotein; NADP; Oxidoreductase; Phosphoprotein; Redox-active center;
+KW   Reference proteome; Selenocysteine; Ubl conjugation.
+FT   CHAIN           1..499
+FT                   /note="Thioredoxin reductase 1, cytoplasmic"
+FT                   /id="PRO_0000067985"
+FT   ACT_SITE        472
+FT                   /note="Proton acceptor"
+FT   BINDING         18..23
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         42..43
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         58..59
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16881"
+FT   BINDING         63..67
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         131..132
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         161
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         166
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         198..204
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         200
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16881"
+FT   BINDING         221..222
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         226..228
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16881"
+FT   BINDING         226
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         291..293
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         315
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16881"
+FT   BINDING         334
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         341..343
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         341
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   BINDING         472
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007744|PDB:1H6V"
+FT   NON_STD         498
+FT                   /note="Selenocysteine"
+FT                   /evidence="ECO:0000305|PubMed:10849437,
+FT                   ECO:0000305|PubMed:11481439"
+FT   MOD_RES         68
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JMH6"
+FT   MOD_RES         131
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16881"
+FT   DISULFID        59..64
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000269|PubMed:11481439"
+FT   CROSSLNK        497..498
+FT                   /note="Cysteinyl-selenocysteine (Cys-Sec)"
+FT   MUTAGEN         498
+FT                   /note="U->S: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:10849437"
+FT   MUTAGEN         498
+FT                   /note="Missing: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:10849437"
+FT   CONFLICT        52..53
+FT                   /note="RW -> NG (in Ref. 1; AAC35244, 2; AAD43039 and 3;
+FT                   AAF32362)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        426
+FT                   /note="I -> V (in Ref. 4; AAH85726)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        451..455
+FT                   /note="GFAAA -> ALQP (in Ref. 2; AAD43039 and 3; AAF32362)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          12..18
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           22..33
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          38..41
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           57..62
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           64..83
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   TURN            84..87
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           98..122
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          126..128
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          130..136
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          139..143
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          149..159
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          163..165
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          169..172
+FT                   /evidence="ECO:0007829|PDB:3EAO"
+FT   HELIX           173..176
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           180..183
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          192..196
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           200..211
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          216..222
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           230..242
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          246..260
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          266..277
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          279..289
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          293..296
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          298..300
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           302..304
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   TURN            311..313
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          329..331
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           333..335
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           343..358
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          372..374
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          376..378
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          380..384
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           387..394
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           396..398
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          399..406
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           409..411
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   TURN            412..415
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          421..428
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           429..431
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   STRAND          434..442
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           445..457
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           462..467
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   HELIX           475..480
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+FT   TURN            486..489
+FT                   /evidence="ECO:0007829|PDB:4KPR"
+SQ   SEQUENCE   499 AA;  54670 MW;  B23E5B5E661B174E CRC64;
+     MNDSKDAPKS YDFDLIIIGG GSGGLAAAKE AAKFDKKVMV LDFVTPTPLG TRWGLGGTCV
+     NVGCIPKKLM HQAALLGQAL KDSRNYGWKL EDTVKHDWEK MTESVQNHIG SLNWGYRVAL
+     REKKVVYENA YGKFIGPHKI MATNNKGKEK VYSAERFLIA TGERPRYLGI PGDKEYCISS
+     DDLFSLPYCP GKTLVVGASY VALECAGFLA GIGLDVTVMV RSILLRGFDQ DMANKIGEHM
+     EEHGIKFIRQ FVPTKIEQIE AGTPGRLKVT AKSTNSEETI EDEFNTVLLA VGRDSCTRTI
+     GLETVGVKIN EKTGKIPVTD EEQTNVPYIY AIGDILEGKL ELTPVAIQAG RLLAQRLYGG
+     STVKCDYDNV PTTVFTPLEY GCCGLSEEKA VEKFGEENIE VYHSFFWPLE WTVPSRDNNK
+     CYAKVICNLK DNERVVGFHV LGPNAGEVTQ GFAAALKCGL TKQQLDSTIG IHPVCAEIFT
+     TLSVTKRSGG DILQSGCUG
+//

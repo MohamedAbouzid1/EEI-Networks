@@ -1,0 +1,132 @@
+ID   TRDMT_RAT               Reviewed;         391 AA.
+AC   Q4G073;
+DT   19-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   30-AUG-2005, sequence version 1.
+DT   02-OCT-2024, entry version 115.
+DE   RecName: Full=tRNA (cytosine(38)-C(5))-methyltransferase;
+DE            EC=2.1.1.204 {ECO:0000250|UniProtKB:O14717};
+DE   AltName: Full=DNA (cytosine-5)-methyltransferase-like protein 2;
+DE            Short=Dnmt2;
+GN   Name=Trdmt1; Synonyms=Dnmt2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Thymus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Specifically methylates cytosine 38 in the anticodon loop of
+CC       tRNA(Asp). Has higher activity on tRNA(Asp) modified with queuosine at
+CC       position 34. {ECO:0000250|UniProtKB:O14717}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(38) in tRNA + S-adenosyl-L-methionine = 5-
+CC         methylcytidine(38) in tRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42956, Rhea:RHEA-COMP:10299, Rhea:RHEA-COMP:10300,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74483, ChEBI:CHEBI:82748; EC=2.1.1.204;
+CC         Evidence={ECO:0000250|UniProtKB:O14717};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:42957;
+CC         Evidence={ECO:0000250|UniProtKB:O14717};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:O14717}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. C5-methyltransferase family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01016}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC098700; AAH98700.1; -; mRNA.
+DR   RefSeq; NP_001026813.1; NM_001031643.1.
+DR   AlphaFoldDB; Q4G073; -.
+DR   SMR; Q4G073; -.
+DR   STRING; 10116.ENSRNOP00000038279; -.
+DR   PhosphoSitePlus; Q4G073; -.
+DR   PaxDb; 10116-ENSRNOP00000038279; -.
+DR   Ensembl; ENSRNOT00000038651.6; ENSRNOP00000038279.4; ENSRNOG00000026132.6.
+DR   GeneID; 291324; -.
+DR   KEGG; rno:291324; -.
+DR   UCSC; RGD:1306292; rat.
+DR   AGR; RGD:1306292; -.
+DR   CTD; 1787; -.
+DR   RGD; 1306292; Trdmt1.
+DR   eggNOG; KOG0919; Eukaryota.
+DR   GeneTree; ENSGT00390000016416; -.
+DR   HOGENOM; CLU_049101_0_0_1; -.
+DR   InParanoid; Q4G073; -.
+DR   OMA; HYAFKYA; -.
+DR   OrthoDB; 197881at2759; -.
+DR   PhylomeDB; Q4G073; -.
+DR   TreeFam; TF300024; -.
+DR   PRO; PR:Q4G073; -.
+DR   Proteomes; UP000002494; Chromosome 17.
+DR   Bgee; ENSRNOG00000026132; Expressed in thymus and 19 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016428; F:tRNA (cytidine-5-)-methyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0008175; F:tRNA methyltransferase activity; ISO:RGD.
+DR   GO; GO:0001975; P:response to amphetamine; IEP:RGD.
+DR   GO; GO:0030488; P:tRNA methylation; ISS:UniProtKB.
+DR   GO; GO:0006400; P:tRNA modification; ISO:RGD.
+DR   GO; GO:0036416; P:tRNA stabilization; ISS:UniProtKB.
+DR   CDD; cd00315; Cyt_C5_DNA_methylase; 1.
+DR   Gene3D; 3.90.120.10; DNA Methylase, subunit A, domain 2; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR050750; C5-MTase.
+DR   InterPro; IPR001525; C5_MeTfrase.
+DR   InterPro; IPR031303; C5_meth_CS.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; TIGR00675; dcm; 1.
+DR   PANTHER; PTHR46098; TRNA (CYTOSINE(38)-C(5))-METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR46098:SF1; TRNA (CYTOSINE(38)-C(5))-METHYLTRANSFERASE; 1.
+DR   Pfam; PF00145; DNA_methylase; 1.
+DR   PRINTS; PR00105; C5METTRFRASE.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS00095; C5_MTASE_2; 1.
+DR   PROSITE; PS51679; SAM_MT_C5; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Methyltransferase; Reference proteome; RNA-binding;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN           1..391
+FT                   /note="tRNA (cytosine(38)-C(5))-methyltransferase"
+FT                   /id="PRO_0000249870"
+FT   DOMAIN          4..391
+FT                   /note="SAM-dependent MTase C5-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01016"
+FT   ACT_SITE        79
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01016"
+FT   BINDING         13..15
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:O14717"
+FT   BINDING         34
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:O14717"
+FT   BINDING         57..58
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:O14717"
+FT   BINDING         76
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:O14717"
+FT   BINDING         376
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:O14717"
+SQ   SEQUENCE   391 AA;  44070 MW;  58768BA5BBD4E37C CRC64;
+     MEPLRVLELY SGIGGMHHAL RESRVPAHVV AAIDVSTVAN EVYKHNFPHT HLLAKTIEGI
+     SLEEFDKLSF NMILMSPPCQ PFTRIGLQGD MSDRRTNSFL YILDILPRLQ KLPKYILLEN
+     VKGFEVSSTR GLLIQTMEAC GFQYQEFLLS PSSLGIPNSR LRYFLIAKLQ SEPLCFQAPG
+     QILMEFPNSG TVQPQEYAVV EEGKLRVRTR EPDVCLDSSS TQCSGQDSIL FKHETAADID
+     RKRQQDSDLS VQMLKGFLED GDTAQYLLPA KSLLRYALLL DIVKPTSRRS MCFTKGYGSY
+     IEGTGSVLQT AEDVQIENIY KSLPDLPPEE KIAKLSMLKL RYFTPKEIAN LLGFPPEFGF
+     PEKTTVKQRY RLLGNSLNVH VVSKLLTVLC E
+//

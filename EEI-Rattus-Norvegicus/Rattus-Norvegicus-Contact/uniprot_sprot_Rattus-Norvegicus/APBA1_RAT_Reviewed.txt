@@ -1,0 +1,337 @@
+ID   APBA1_RAT               Reviewed;         839 AA.
+AC   O35430;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   24-JUL-2024, entry version 154.
+DE   RecName: Full=Amyloid-beta A4 precursor protein-binding family A member 1;
+DE   AltName: Full=Adapter protein X11alpha;
+DE   AltName: Full=Neuron-specific X11 protein;
+DE   AltName: Full=Neuronal Munc18-1-interacting protein 1;
+DE            Short=Mint-1;
+GN   Name=Apba1; Synonyms=Mint1, X11;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Brain;
+RX   PubMed=9395480; DOI=10.1074/jbc.272.50.31459;
+RA   Okamoto M., Suedhof T.C.;
+RT   "Mints, Munc18-interacting proteins in synaptic vesicle exocytosis.";
+RL   J. Biol. Chem. 272:31459-31464(1997).
+RN   [2]
+RP   INTERACTION WITH CASK AND LIN7.
+RC   TISSUE=Testis;
+RX   PubMed=9753324; DOI=10.1016/s0092-8674(00)81736-5;
+RA   Butz S., Okamoto M., Suedhof T.C.;
+RT   "A tripartite protein complex with the potential to couple synaptic vesicle
+RT   exocytosis to cell adhesion in brain.";
+RL   Cell 94:773-782(1998).
+RN   [3]
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH FSBP.
+RX   PubMed=20531236; DOI=10.1097/wnr.0b013e32833bfca0;
+RA   Lau K.F., Perkinton M.S., Rodriguez L., McLoughlin D.M., Miller C.C.;
+RT   "An X11alpha/FSBP complex represses transcription of the GSK3beta gene
+RT   promoter.";
+RL   NeuroReport 21:761-766(2010).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-243; SER-247; SER-249;
+RP   SER-264; SER-286; SER-314 AND SER-570, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 453-643, AUTOINHIBITORY DOMAIN,
+RP   MUTAGENESIS OF TYR-633, AND INTERACTION WITH APP.
+RX   PubMed=22355143; DOI=10.1073/pnas.1119075109;
+RA   Matos M.F., Xu Y., Dulubova I., Otwinowski Z., Richardson J.M.,
+RA   Tomchick D.R., Rizo J., Ho A.;
+RT   "Autoinhibition of Mint1 adaptor protein regulates amyloid precursor
+RT   protein binding and processing.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 109:3802-3807(2012).
+CC   -!- FUNCTION: Putative function in synaptic vesicle exocytosis by binding
+CC       to Munc18-1, an essential component of the synaptic vesicle exocytotic
+CC       machinery. May modulate processing of the amyloid-beta precursor
+CC       protein (APP) and hence formation of APP-beta.
+CC   -!- SUBUNIT: Part of a multimeric complex containing STXBP1 and STX1A.
+CC       Interacts with STXBP1 (By similarity). Component of the brain-specific
+CC       heterotrimeric complex (LIN-10-LIN-2-LIN-7 complex) composed of at
+CC       least APBA1, CASK, and LIN7, which associates with the motor protein
+CC       KIF17 to transport vesicles along microtubules (By similarity). Within
+CC       the complex, interacts (via PDZ domain) with the motor protein KIF17;
+CC       the interaction is direct and is required for association of KIF17 with
+CC       the cargo that is to be transported (By similarity). Binds to the
+CC       cytoplasmic domain of amyloid protein (APP) (By similarity). Interacts
+CC       (via PDZ 1 and 2 domains) with FSPB (By similarity). Isoform 2
+CC       interacts (via its truncated PID domain) with active, GTP-bound RAB6A
+CC       and RAB6B (By similarity). {ECO:0000250, ECO:0000250|UniProtKB:B2RUJ5}.
+CC   -!- INTERACTION:
+CC       O35430; P32851: Stx1a; NbExp=3; IntAct=EBI-704760, EBI-539720;
+CC       O35430; P61765: Stxbp1; NbExp=5; IntAct=EBI-704760, EBI-1029097;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Cytoplasm, perinuclear
+CC       region {ECO:0000250}. Nucleus {ECO:0000269|PubMed:20531236}. Note=Only
+CC       a small proportion of the protein is nuclear.
+CC   -!- SUBCELLULAR LOCATION: [Isoform 2]: Golgi apparatus {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=O35430-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Mint1_826;
+CC         IsoId=O35430-2; Sequence=VSP_053520;
+CC   -!- TISSUE SPECIFICITY: Brain. Detected in the cerebellum, hippocampus,
+CC       olfactory system, piriform and entorhinal cortex, supraoptic nucleus of
+CC       the hypothalamus, substantia nigra, and other mesencephalic areas.
+CC   -!- DOMAIN: Composed of an N-terminal domain that binds Munc18-1 and LIN-
+CC       2/CASK, a middle phosphotyrosine-binding domain (PID/PTB) that mediates
+CC       binding with the cytoplasmic domain of the amyloid-beta precursor
+CC       protein, and two C-terminal PDZ domains thought to attach proteins to
+CC       the plasma membrane. {ECO:0000250}.
+CC   -!- DOMAIN: The autoinhibitory helix linker occludes the APP binding site.
+CC   -!- DOMAIN: The PID domain, truncated by 11 amino acids, as observed in
+CC       isoform 2, but not full-length, mediates the interaction with RAB6A.
+CC       {ECO:0000250}.
+CC   -!- MISCELLANEOUS: [Isoform 2]: This isoform interacts with RAB6 GTPases.
+CC       {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF029105; AAC05303.1; -; mRNA.
+DR   RefSeq; NP_113967.1; NM_031779.2.
+DR   PDB; 4DBB; X-ray; 1.90 A; A=453-643.
+DR   PDB; 6KMH; X-ray; 2.40 A; C/D=338-397.
+DR   PDB; 7XSJ; X-ray; 3.20 A; C=227-303.
+DR   PDBsum; 4DBB; -.
+DR   PDBsum; 6KMH; -.
+DR   PDBsum; 7XSJ; -.
+DR   AlphaFoldDB; O35430; -.
+DR   BMRB; O35430; -.
+DR   SMR; O35430; -.
+DR   BioGRID; 249774; 7.
+DR   CORUM; O35430; -.
+DR   ELM; O35430; -.
+DR   IntAct; O35430; 3.
+DR   MINT; O35430; -.
+DR   STRING; 10116.ENSRNOP00000020123; -.
+DR   BindingDB; O35430; -.
+DR   CarbonylDB; O35430; -.
+DR   iPTMnet; O35430; -.
+DR   PhosphoSitePlus; O35430; -.
+DR   PaxDb; 10116-ENSRNOP00000020123; -.
+DR   PeptideAtlas; O35430; -.
+DR   Ensembl; ENSRNOT00055054130; ENSRNOP00055044768; ENSRNOG00055031190. [O35430-1]
+DR   Ensembl; ENSRNOT00060036812; ENSRNOP00060030323; ENSRNOG00060021137. [O35430-1]
+DR   Ensembl; ENSRNOT00065042702; ENSRNOP00065034956; ENSRNOG00065024825. [O35430-1]
+DR   GeneID; 83589; -.
+DR   KEGG; rno:83589; -.
+DR   UCSC; RGD:620844; rat. [O35430-1]
+DR   AGR; RGD:620844; -.
+DR   CTD; 320; -.
+DR   RGD; 620844; Apba1.
+DR   eggNOG; KOG3605; Eukaryota.
+DR   InParanoid; O35430; -.
+DR   OrthoDB; 2881953at2759; -.
+DR   PhylomeDB; O35430; -.
+DR   Reactome; R-RNO-212676; Dopamine Neurotransmitter Release Cycle.
+DR   EvolutionaryTrace; O35430; -.
+DR   PRO; PR:O35430; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0043197; C:dendritic spine; IDA:CACAO.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0048787; C:presynaptic active zone membrane; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0098685; C:Schaffer collateral - CA1 synapse; ISO:RGD.
+DR   GO; GO:0001540; F:amyloid-beta binding; IPI:RGD.
+DR   GO; GO:0030165; F:PDZ domain binding; IPI:RGD.
+DR   GO; GO:0005546; F:phosphatidylinositol-4,5-bisphosphate binding; IDA:RGD.
+DR   GO; GO:0019901; F:protein kinase binding; IPI:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0007268; P:chemical synaptic transmission; ISO:RGD.
+DR   GO; GO:0051649; P:establishment of localization in cell; ISO:RGD.
+DR   GO; GO:0014051; P:gamma-aminobutyric acid secretion; ISO:RGD.
+DR   GO; GO:0014047; P:glutamate secretion; ISO:RGD.
+DR   GO; GO:0001701; P:in utero embryonic development; ISO:RGD.
+DR   GO; GO:0006886; P:intracellular protein transport; ISO:RGD.
+DR   GO; GO:0007626; P:locomotory behavior; ISO:RGD.
+DR   GO; GO:0035264; P:multicellular organism growth; ISO:RGD.
+DR   GO; GO:0099171; P:presynaptic modulation of chemical synaptic transmission; ISO:RGD.
+DR   GO; GO:0010468; P:regulation of gene expression; ISO:RGD.
+DR   GO; GO:0016079; P:synaptic vesicle exocytosis; TAS:RGD.
+DR   CDD; cd22578; Mint1_CID; 1.
+DR   CDD; cd00992; PDZ_signaling; 2.
+DR   CDD; cd01208; PTB_X11; 1.
+DR   Gene3D; 2.30.42.10; -; 2.
+DR   Gene3D; 2.30.29.30; Pleckstrin-homology domain (PH domain)/Phosphotyrosine-binding domain (PTB); 1.
+DR   InterPro; IPR051230; APP-Binding.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   InterPro; IPR011993; PH-like_dom_sf.
+DR   InterPro; IPR006020; PTB/PI_dom.
+DR   PANTHER; PTHR12345:SF14; AMYLOID-BETA A4 PRECURSOR PROTEIN-BINDING FAMILY A MEMBER 1; 1.
+DR   PANTHER; PTHR12345; SYNTENIN RELATED; 1.
+DR   Pfam; PF00595; PDZ; 2.
+DR   Pfam; PF00640; PID; 1.
+DR   SMART; SM00228; PDZ; 2.
+DR   SMART; SM00462; PTB; 1.
+DR   SUPFAM; SSF50156; PDZ domain-like; 2.
+DR   SUPFAM; SSF50729; PH domain-like; 1.
+DR   PROSITE; PS50106; PDZ; 2.
+DR   PROSITE; PS01179; PID; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Cytoplasm; Golgi apparatus; Nucleus;
+KW   Phosphoprotein; Protein transport; Reference proteome; Repeat; Transport.
+FT   CHAIN           1..839
+FT                   /note="Amyloid-beta A4 precursor protein-binding family A
+FT                   member 1"
+FT                   /id="PRO_0000064615"
+FT   DOMAIN          459..645
+FT                   /note="PID"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00148"
+FT   DOMAIN          658..744
+FT                   /note="PDZ 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00143"
+FT   DOMAIN          749..824
+FT                   /note="PDZ 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00143"
+FT   REGION          1..118
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          227..315
+FT                   /note="Munc-18-1 binding"
+FT   REGION          235..346
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          362..437
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          375..438
+FT                   /note="LIN-2/CASK binding"
+FT   REGION          628..643
+FT                   /note="Autoinhibitory helix linker"
+FT   COMPBIAS        101..118
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        235..275
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        402..416
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        423..437
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         79
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:B2RUJ5"
+FT   MOD_RES         243
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         247
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         249
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         264
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         281
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:B2RUJ5"
+FT   MOD_RES         286
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         306
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q02410"
+FT   MOD_RES         314
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         369
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:B2RUJ5"
+FT   MOD_RES         372
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q02410"
+FT   MOD_RES         403
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:B2RUJ5"
+FT   MOD_RES         405
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:B2RUJ5"
+FT   MOD_RES         410
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:B2RUJ5"
+FT   MOD_RES         570
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   VAR_SEQ         497..507
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_053520"
+FT   MUTAGEN         633
+FT                   /note="Y->E: Enhanced APP binding and amyloid-beta
+FT                   production."
+FT                   /evidence="ECO:0000269|PubMed:22355143"
+FT   MUTAGEN         633
+FT                   /note="Y->F: No change in APP binding."
+FT                   /evidence="ECO:0000269|PubMed:22355143"
+FT   HELIX           271..282
+FT                   /evidence="ECO:0007829|PDB:7XSJ"
+FT   HELIX           342..364
+FT                   /evidence="ECO:0007829|PDB:6KMH"
+FT   STRAND          460..477
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   HELIX           481..493
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   STRAND          517..532
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   TURN            533..535
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   STRAND          538..543
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   HELIX           544..546
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   STRAND          547..553
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   STRAND          556..563
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   STRAND          587..595
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   HELIX           599..614
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   HELIX           615..617
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   HELIX           625..627
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+FT   HELIX           630..639
+FT                   /evidence="ECO:0007829|PDB:4DBB"
+SQ   SEQUENCE   839 AA;  92654 MW;  57F6EEA458376CAD CRC64;
+     MNHLEGSAEV EVADEAPGGE VNESVEADLE HPEVEEEQQP SPPPPAGHAP EDHRAHPAPP
+     PPPPPQEEEE ERGECLARSA STESGFHNHT DTAEGDVLAA ARDGYEAERA QDADDESAYA
+     VQYRPEAEEY TEQAEAEHAE AAQRRALPNH LHFHSLEHEE AMNAAYSGYV YTHRLFHRAE
+     DEPYAEPYAD YGGLQEHVYE EIGDAPELEA RDGLRLYERE RDEAAAYRQE ALGARLHHYD
+     ERSDGESDSP EKEAEFAPYP RMDSYEQEED IDQIVAEVKQ SMSSQSLDKA AEDMPEAEQD
+     LERAPTPGGG HPDSPGLPAP AGQQQRVVGT PGGSEVGQRY SKEKRDAISL AIKDIKEAIE
+     EVKTRTIRSP YTPDEPKEPI WVMRQDISPT RDCDDQRPVD GDSPSPGSSS PLGAESSITP
+     LHPGDPTEAS TNKESRKSLA SFPTYVEVPG PCDPEDLIDG IIFAANYLGS TQLLSDKTPS
+     KNVRMMQAQE AVSRIKTAQK LAKSRKKAPE GESQPMTEVD LFISTQRIKV LNADTQEPMM
+     DHPLRTISYI ADIGNIVVLM ARRRMPRSNS QENVEASHPS QDAKRQYKMI CHVFESEDAQ
+     LIAQSIGQAF SVAYQEFLRA NGINPEDLSQ KEYSDLLNTQ DMYNDDLIHF SKSENCKDVF
+     IEKQKGEILG VVIVESGWGS ILPTVIIANM MHGGPAEKSG KLNIGDQIMS INGTSLVGLP
+     LSTCQSIIKG LKNQSRVKLN IVRCPPVTTV LIRRPDLRYQ LGFSVQNGII CSLMRGGIAE
+     RGGVRVGHRI IEINGQSVVA TPHEKIVHIL SNAVGEIHMK TMPAAMYRLL TAQEQPVYI
+//

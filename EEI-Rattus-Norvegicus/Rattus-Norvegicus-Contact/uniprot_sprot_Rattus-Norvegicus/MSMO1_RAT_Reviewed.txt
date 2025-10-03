@@ -1,0 +1,205 @@
+ID   MSMO1_RAT               Reviewed;         293 AA.
+AC   O35532;
+DT   22-FEB-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   24-JUL-2024, entry version 146.
+DE   RecName: Full=Methylsterol monooxygenase 1;
+DE            EC=1.14.18.9 {ECO:0000305|PubMed:7228857};
+DE   AltName: Full=C-4 methylsterol oxidase;
+DE   AltName: Full=Neuropep 1;
+DE   AltName: Full=RANP-1;
+DE   AltName: Full=Sterol-C4-methyl oxidase;
+GN   Name=Msmo1; Synonyms=Sc4mol;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=9284352; DOI=10.1016/s0306-4522(97)00112-7;
+RA   Uwabe K., Gahara Y., Yamada H., Miyake T., Kitamura T.;
+RT   "Identification and characterization of a novel gene (neurorep 1) expressed
+RT   in nerve cells and up-regulated after axotomy.";
+RL   Neuroscience 80:501-509(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=4394229; DOI=10.1016/s0021-9258(18)62765-6;
+RA   Miller W.L., Gaylor J.L.;
+RT   "Investigation of the component reactions of oxidative sterol
+RT   demethylation. Oxidation of a 4,4-dimethyl sterol to a 4 beta-methyl-4
+RT   alpha-carboxylic acid during cholesterol biosynthesis.";
+RL   J. Biol. Chem. 245:5375-5381(1970).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=7228857; DOI=10.1016/s0021-9258(19)69327-0;
+RA   Fukushima H., Grinstead G.F., Gaylor J.L.;
+RT   "Total enzymic synthesis of cholesterol from lanosterol. Cytochrome b5-
+RT   dependence of 4-methyl sterol oxidase.";
+RL   J. Biol. Chem. 256:4822-4826(1981).
+CC   -!- FUNCTION: Catalyzes the three-step monooxygenation required for the
+CC       demethylation of 4,4-dimethyl and 4alpha-methylsterols, which can be
+CC       subsequently metabolized to cholesterol. {ECO:0000305|PubMed:4394229,
+CC       ECO:0000305|PubMed:7228857}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4,4-dimethyl-5alpha-cholest-7-en-3beta-ol + 6 Fe(II)-
+CC         [cytochrome b5] + 5 H(+) + 3 O2 = 4alpha-carboxy-4beta-methyl-5alpha-
+CC         cholest-7-ene-3beta-ol + 6 Fe(III)-[cytochrome b5] + 4 H2O;
+CC         Xref=Rhea:RHEA:55220, Rhea:RHEA-COMP:10438, Rhea:RHEA-COMP:10439,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16455, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:58387; EC=1.14.18.9;
+CC         Evidence={ECO:0000305|PubMed:7228857};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55221;
+CC         Evidence={ECO:0000305|PubMed:7228857};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4,4-dimethyl-5alpha-cholesta-8,24-dien-3beta-ol + 6 Fe(II)-
+CC         [cytochrome b5] + 5 H(+) + 3 O2 = 4beta-methylzymosterol-4alpha-
+CC         carboxylate + 6 Fe(III)-[cytochrome b5] + 4 H2O;
+CC         Xref=Rhea:RHEA:55244, Rhea:RHEA-COMP:10438, Rhea:RHEA-COMP:10439,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:18364, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:64925; Evidence={ECO:0000250|UniProtKB:Q15800};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55245;
+CC         Evidence={ECO:0000250|UniProtKB:Q15800};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4alpha-methylzymosterol + 6 Fe(II)-[cytochrome b5] + 5 H(+) +
+CC         3 O2 = 4alpha-carboxyzymosterol + 6 Fe(III)-[cytochrome b5] + 4 H2O;
+CC         Xref=Rhea:RHEA:47056, Rhea:RHEA-COMP:10438, Rhea:RHEA-COMP:10439,
+CC         ChEBI:CHEBI:1949, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:143575; Evidence={ECO:0000250|UniProtKB:Q15800};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47057;
+CC         Evidence={ECO:0000250|UniProtKB:Q15800};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4alpha-methyl-5alpha-cholest-7-en-3beta-ol + 6 Fe(II)-
+CC         [cytochrome b5] + 5 H(+) + 3 O2 = 4alpha-carboxy-5alpha-cholest-7-en-
+CC         3beta-ol + 6 Fe(III)-[cytochrome b5] + 4 H2O; Xref=Rhea:RHEA:62768,
+CC         Rhea:RHEA-COMP:10438, Rhea:RHEA-COMP:10439, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15379, ChEBI:CHEBI:18378,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034, ChEBI:CHEBI:145943;
+CC         Evidence={ECO:0000305|PubMed:7228857};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62769;
+CC         Evidence={ECO:0000305|PubMed:7228857};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4,4-dimethyl-5alpha-cholest-8-en-3beta-ol + 6 Fe(II)-
+CC         [cytochrome b5] + 5 H(+) + 3 O2 = 4alpha-carboxy-4beta-methyl-5alpha-
+CC         cholest-8-en-3beta-ol + 6 Fe(III)-[cytochrome b5] + 4 H2O;
+CC         Xref=Rhea:RHEA:62776, Rhea:RHEA-COMP:10438, Rhea:RHEA-COMP:10439,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034, ChEBI:CHEBI:87044,
+CC         ChEBI:CHEBI:87047; Evidence={ECO:0000250|UniProtKB:Q15800};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62777;
+CC         Evidence={ECO:0000250|UniProtKB:Q15800};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4alpha-methyl-5alpha-cholest-8-en-3beta-ol + 6 Fe(II)-
+CC         [cytochrome b5] + 5 H(+) + 3 O2 = 4alpha-carboxy-5alpha-cholest-8-
+CC         ene-3beta-ol + 6 Fe(III)-[cytochrome b5] + 4 H2O;
+CC         Xref=Rhea:RHEA:62780, Rhea:RHEA-COMP:10438, Rhea:RHEA-COMP:10439,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034, ChEBI:CHEBI:87051,
+CC         ChEBI:CHEBI:87055; Evidence={ECO:0000250|UniProtKB:Q15800};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62781;
+CC         Evidence={ECO:0000250|UniProtKB:Q15800};
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000250|UniProtKB:Q15800};
+CC   -!- PATHWAY: Steroid biosynthesis; zymosterol biosynthesis; zymosterol from
+CC       lanosterol: step 3/6. {ECO:0000305}.
+CC   -!- PATHWAY: Steroid biosynthesis; cholesterol biosynthesis.
+CC       {ECO:0000305|PubMed:4394229, ECO:0000305|PubMed:7228857}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000305};
+CC       Multi-pass membrane protein {ECO:0000305}.
+CC   -!- DOMAIN: The histidine box domains may contain the active site and/or be
+CC       involved in metal ion binding.
+CC   -!- SIMILARITY: Belongs to the sterol desaturase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D50559; BAA23329.1; -; mRNA.
+DR   EMBL; BC063155; AAH63155.1; -; mRNA.
+DR   RefSeq; NP_543162.1; NM_080886.1.
+DR   AlphaFoldDB; O35532; -.
+DR   IntAct; O35532; 4.
+DR   STRING; 10116.ENSRNOP00000043782; -.
+DR   PhosphoSitePlus; O35532; -.
+DR   jPOST; O35532; -.
+DR   PaxDb; 10116-ENSRNOP00000043782; -.
+DR   Ensembl; ENSRNOT00000044171.3; ENSRNOP00000043782.1; ENSRNOG00000032297.3.
+DR   Ensembl; ENSRNOT00055022720; ENSRNOP00055018452; ENSRNOG00055013247.
+DR   Ensembl; ENSRNOT00060025310; ENSRNOP00060020169; ENSRNOG00060014808.
+DR   Ensembl; ENSRNOT00065007378; ENSRNOP00065005129; ENSRNOG00065005037.
+DR   GeneID; 140910; -.
+DR   KEGG; rno:140910; -.
+DR   UCSC; RGD:620281; rat.
+DR   AGR; RGD:620281; -.
+DR   CTD; 6307; -.
+DR   RGD; 620281; Msmo1.
+DR   eggNOG; KOG0873; Eukaryota.
+DR   GeneTree; ENSGT00940000158012; -.
+DR   HOGENOM; CLU_047036_5_2_1; -.
+DR   InParanoid; O35532; -.
+DR   OMA; IHHEFQA; -.
+DR   OrthoDB; 179215at2759; -.
+DR   PhylomeDB; O35532; -.
+DR   TreeFam; TF354294; -.
+DR   Reactome; R-RNO-191273; Cholesterol biosynthesis.
+DR   SABIO-RK; O35532; -.
+DR   UniPathway; UPA00063; -.
+DR   UniPathway; UPA00770; UER00756.
+DR   PRO; PR:O35532; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000032297; Expressed in ovary and 20 other cell types or tissues.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IBA:GO_Central.
+DR   GO; GO:0000254; F:C-4 methylsterol oxidase activity; IBA:GO_Central.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0006695; P:cholesterol biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0016126; P:sterol biosynthetic process; IBA:GO_Central.
+DR   InterPro; IPR006694; Fatty_acid_hydroxylase.
+DR   InterPro; IPR050307; Sterol_Desaturase_Related.
+DR   PANTHER; PTHR11863:SF226; LATHOSTEROL OXIDASE-RELATED; 1.
+DR   PANTHER; PTHR11863; STEROL DESATURASE; 1.
+DR   Pfam; PF04116; FA_hydroxylase; 1.
+PE   1: Evidence at protein level;
+KW   Cholesterol biosynthesis; Cholesterol metabolism; Endoplasmic reticulum;
+KW   Iron; Lipid biosynthesis; Lipid metabolism; Membrane; NAD; Oxidoreductase;
+KW   Reference proteome; Steroid biosynthesis; Steroid metabolism;
+KW   Sterol biosynthesis; Sterol metabolism; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..293
+FT                   /note="Methylsterol monooxygenase 1"
+FT                   /id="PRO_0000117036"
+FT   TRANSMEM        55..75
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        100..120
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        199..219
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          144..274
+FT                   /note="Fatty acid hydroxylase"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           157..161
+FT                   /note="Histidine box-1"
+FT   MOTIF           170..174
+FT                   /note="Histidine box-2"
+FT   MOTIF           249..255
+FT                   /note="Histidine box-3"
+SQ   SEQUENCE   293 AA;  34964 MW;  FEE8C22FDC5F38D7 CRC64;
+     MAMNKSVGLF SSASLAVDYV DSLLPENPLQ EPFKNAWVYM LDNYTKFQIA TWGSLIVHET
+     IYFLFSLPGF LFQFIPFMRK YKIQKDKPET FEGQWKCLKG ILFNHFFIQL PLICGTYYFT
+     EFFNIPYDWE RMPRWYFTLA RCLGCAVIED TWHYFLHRLL HHKRIYKYIH KVHHEFQAPF
+     GIEAEYAHPL ETLILGTGFF IGIVLLCDHV ILLWAWVTMR LLETIDVHSG YDIPLNPLNY
+     IPFYTGARHH DFHHMNFIGN YASTFTWWDR IFGTDVQYHA YTEKMKKLGK KSE
+//

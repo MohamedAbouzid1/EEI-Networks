@@ -1,0 +1,592 @@
+ID   CAN2_RAT                Reviewed;         700 AA.
+AC   Q07009;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   02-OCT-2024, entry version 209.
+DE   RecName: Full=Calpain-2 catalytic subunit;
+DE            EC=3.4.22.53;
+DE   AltName: Full=Calcium-activated neutral proteinase 2;
+DE            Short=CANP 2;
+DE   AltName: Full=Calpain M-type;
+DE   AltName: Full=Calpain-2 large subunit;
+DE   AltName: Full=Millimolar-calpain;
+DE            Short=M-calpain;
+DE   Flags: Precursor;
+GN   Name=Capn2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=8218419; DOI=10.1016/0167-4781(93)90040-k;
+RA   Deluca C.I., Davies P.L., Samis J.A., Elce J.S.;
+RT   "Molecular cloning and bacterial expression of cDNA for rat calpain II 80
+RT   kDa subunit.";
+RL   Biochim. Biophys. Acta 1216:81-93(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=11342050; DOI=10.1016/s0167-4838(00)00286-7;
+RA   Moldoveanu T., Hosfield C.M., Jia Z., Elce J.S., Davies P.L.;
+RT   "Ca(2+)-induced structural changes in rat m-calpain revealed by partial
+RT   proteolysis.";
+RL   Biochim. Biophys. Acta 1545:245-254(2001).
+RN   [4]
+RP   MUTAGENESIS OF LYS-230; LYS-234 AND GLU-504.
+RX   PubMed=11102442; DOI=10.1074/jbc.m007352200;
+RA   Hosfield C.M., Moldoveanu T., Davies P.L., Elce J.S., Jia Z.;
+RT   "Calpain mutants with increased Ca2+ sensitivity and implications for the
+RT   role of the C(2)-like domain.";
+RL   J. Biol. Chem. 276:7404-7407(2001).
+RN   [5]
+RP   ACTIVE SITE, AND MUTAGENESIS OF CYS-105; HIS-262; ASN-286 AND TRP-288.
+RX   PubMed=7635186; DOI=10.1016/0014-5793(95)00691-2;
+RA   Arthur J.S., Gauthier S., Elce J.S.;
+RT   "Active site residues in m-calpain: identification by site-directed
+RT   mutagenesis.";
+RL   FEBS Lett. 368:397-400(1995).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS).
+RX   PubMed=10601010; DOI=10.1093/emboj/18.24.6880;
+RA   Hosfield C.M., Elce J.S., Davies P.L., Jia Z.;
+RT   "Crystal structure of calpain reveals the structural basis for Ca(2+)-
+RT   dependent protease activity and a novel mode of enzyme activation.";
+RL   EMBO J. 18:6880-6889(1999).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (2.95 ANGSTROMS) IN COMPLEX WITH CAPNS1 AND
+RP   CALPASTATIN, CALCIUM-BINDING SITES, SUBUNIT, AND MUTAGENESIS OF ARG-417;
+RP   ARG-420 AND ARG-469.
+RX   PubMed=19020622; DOI=10.1038/nature07353;
+RA   Moldoveanu T., Gehring K., Green D.R.;
+RT   "Concerted multi-pronged attack by calpastatin to occlude the catalytic
+RT   cleft of heterodimeric calpains.";
+RL   Nature 456:404-408(2008).
+RN   [8]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF MUTANT SER-105 IN COMPLEX WITH
+RP   CAPNS1 AND CALPASTATIN, CALCIUM-BINDING SITES, AND SUBUNIT.
+RX   PubMed=19020623; DOI=10.1038/nature07451;
+RA   Hanna R.A., Campbell R.L., Davies P.L.;
+RT   "Calcium-bound structure of calpain and its mechanism of inhibition by
+RT   calpastatin.";
+RL   Nature 456:409-412(2008).
+CC   -!- FUNCTION: Calcium-regulated non-lysosomal thiol-protease which catalyze
+CC       limited proteolysis of substrates involved in cytoskeletal remodeling
+CC       and signal transduction. Proteolytically cleaves MYOC at 'Arg-226'.
+CC       Proteolytically cleaves CPEB3 following neuronal stimulation which
+CC       abolishes CPEB3 translational repressor activity, leading to
+CC       translation of CPEB3 target mRNAs. {ECO:0000250|UniProtKB:O08529,
+CC       ECO:0000250|UniProtKB:P17655}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Broad endopeptidase specificity.; EC=3.4.22.53;
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC       Note=Binds 7 Ca(2+) ions.;
+CC   -!- ACTIVITY REGULATION: Activated by 200-1000 micromolar concentrations of
+CC       calcium and inhibited by calpastatin.
+CC   -!- SUBUNIT: Forms a heterodimer with a small (regulatory) subunit (CAPNS1)
+CC       (PubMed:19020622, PubMed:19020623). Interacts with CPEB3; this leads to
+CC       cleavage of CPEB3 (By similarity). {ECO:0000250|UniProtKB:O08529,
+CC       ECO:0000269|PubMed:19020622, ECO:0000269|PubMed:19020623}.
+CC   -!- INTERACTION:
+CC       Q07009; Q64537: Capns1; NbExp=8; IntAct=EBI-1040438, EBI-918712;
+CC       Q07009; P27321: Cast; NbExp=10; IntAct=EBI-1040438, EBI-7441624;
+CC       Q07009; G5EFH4: srp-6; Xeno; NbExp=2; IntAct=EBI-1040438, EBI-1549936;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Cell membrane
+CC       {ECO:0000250}. Note=Translocates to the plasma membrane upon Ca(2+)
+CC       binding. {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Ubiquitous.
+CC   -!- SIMILARITY: Belongs to the peptidase C2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L09120; AAA16327.1; -; mRNA.
+DR   EMBL; BC065306; AAH65306.1; -; mRNA.
+DR   PIR; S38361; S38361.
+DR   RefSeq; NP_058812.1; NM_017116.2.
+DR   PDB; 1DF0; X-ray; 2.60 A; A=1-700.
+DR   PDB; 1MDW; X-ray; 1.95 A; A/B=19-346.
+DR   PDB; 1QXP; X-ray; 2.80 A; A/B=1-49, A/B=639-700.
+DR   PDB; 1U5I; X-ray; 2.86 A; A=1-700.
+DR   PDB; 3BOW; X-ray; 2.40 A; A=1-700.
+DR   PDB; 3DF0; X-ray; 2.95 A; A=1-700.
+DR   PDBsum; 1DF0; -.
+DR   PDBsum; 1MDW; -.
+DR   PDBsum; 1QXP; -.
+DR   PDBsum; 1U5I; -.
+DR   PDBsum; 3BOW; -.
+DR   PDBsum; 3DF0; -.
+DR   AlphaFoldDB; Q07009; -.
+DR   SMR; Q07009; -.
+DR   BioGRID; 247837; 3.
+DR   DIP; DIP-6139N; -.
+DR   IntAct; Q07009; 5.
+DR   MINT; Q07009; -.
+DR   STRING; 10116.ENSRNOP00000046509; -.
+DR   MEROPS; C02.002; -.
+DR   iPTMnet; Q07009; -.
+DR   PhosphoSitePlus; Q07009; -.
+DR   jPOST; Q07009; -.
+DR   PaxDb; 10116-ENSRNOP00000046509; -.
+DR   Ensembl; ENSRNOT00000045326.4; ENSRNOP00000046509.3; ENSRNOG00000034015.4.
+DR   Ensembl; ENSRNOT00055021594; ENSRNOP00055017508; ENSRNOG00055012648.
+DR   Ensembl; ENSRNOT00060012759; ENSRNOP00060009674; ENSRNOG00060007713.
+DR   Ensembl; ENSRNOT00065029816; ENSRNOP00065023675; ENSRNOG00065017813.
+DR   GeneID; 29154; -.
+DR   KEGG; rno:29154; -.
+DR   UCSC; RGD:2268; rat.
+DR   AGR; RGD:2268; -.
+DR   CTD; 824; -.
+DR   RGD; 2268; Capn2.
+DR   eggNOG; KOG0045; Eukaryota.
+DR   GeneTree; ENSGT00940000154784; -.
+DR   HOGENOM; CLU_010982_0_1_1; -.
+DR   InParanoid; Q07009; -.
+DR   OMA; XVESSGS; -.
+DR   OrthoDB; 142935at2759; -.
+DR   PhylomeDB; Q07009; -.
+DR   TreeFam; TF314748; -.
+DR   BRENDA; 3.4.22.53; 5301.
+DR   Reactome; R-RNO-1474228; Degradation of the extracellular matrix.
+DR   EvolutionaryTrace; Q07009; -.
+DR   PRO; PR:Q07009; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000034015; Expressed in lung and 20 other cell types or tissues.
+DR   GO; GO:0110158; C:calpain complex; ISO:RGD.
+DR   GO; GO:0042995; C:cell projection; IDA:RGD.
+DR   GO; GO:0000785; C:chromatin; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; ISS:BHF-UCL.
+DR   GO; GO:0030425; C:dendrite; IDA:UniProtKB.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; IDA:RGD.
+DR   GO; GO:0005925; C:focal adhesion; IDA:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0005764; C:lysosome; ISO:RGD.
+DR   GO; GO:0045121; C:membrane raft; ISO:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0097038; C:perinuclear endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:BHF-UCL.
+DR   GO; GO:0098794; C:postsynapse; ISO:RGD.
+DR   GO; GO:0098793; C:presynapse; IEA:GOC.
+DR   GO; GO:0031143; C:pseudopodium; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:RGD.
+DR   GO; GO:0004198; F:calcium-dependent cysteine-type endopeptidase activity; IDA:UniProtKB.
+DR   GO; GO:0008092; F:cytoskeletal protein binding; IDA:RGD.
+DR   GO; GO:0019899; F:enzyme binding; IPI:RGD.
+DR   GO; GO:0008233; F:peptidase activity; ISO:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IPI:RGD.
+DR   GO; GO:0048266; P:behavioral response to pain; IDA:RGD.
+DR   GO; GO:0001824; P:blastocyst development; ISO:RGD.
+DR   GO; GO:0071230; P:cellular response to amino acid stimulus; IDA:UniProtKB.
+DR   GO; GO:0035458; P:cellular response to interferon-beta; IEP:RGD.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0007565; P:female pregnancy; IEP:RGD.
+DR   GO; GO:0007520; P:myoblast fusion; ISO:RGD.
+DR   GO; GO:0010666; P:positive regulation of cardiac muscle cell apoptotic process; IMP:RGD.
+DR   GO; GO:1901741; P:positive regulation of myoblast fusion; IMP:RGD.
+DR   GO; GO:2001247; P:positive regulation of phosphatidylcholine biosynthetic process; IMP:RGD.
+DR   GO; GO:0016540; P:protein autoprocessing; IDA:RGD.
+DR   GO; GO:0030163; P:protein catabolic process; IDA:RGD.
+DR   GO; GO:0140249; P:protein catabolic process at postsynapse; ISO:RGD.
+DR   GO; GO:0006508; P:proteolysis; IDA:UniProtKB.
+DR   GO; GO:0051603; P:proteolysis involved in protein catabolic process; ISO:RGD.
+DR   GO; GO:0032675; P:regulation of interleukin-6 production; IMP:RGD.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; IEP:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0009612; P:response to mechanical stimulus; IEP:RGD.
+DR   GO; GO:0048488; P:synaptic vesicle endocytosis; ISO:RGD.
+DR   CDD; cd00214; Calpain_III; 1.
+DR   CDD; cd00044; CysPc; 1.
+DR   CDD; cd16199; EFh_PEF_CAPN2; 1.
+DR   DisProt; DP01996; -.
+DR   Gene3D; 2.60.120.380; -; 1.
+DR   Gene3D; 3.90.70.10; Cysteine proteinases; 1.
+DR   Gene3D; 1.10.238.10; EF-hand; 1.
+DR   InterPro; IPR033883; C2_III.
+DR   InterPro; IPR050420; Calpain.
+DR   InterPro; IPR022684; Calpain_cysteine_protease.
+DR   InterPro; IPR022682; Calpain_domain_III.
+DR   InterPro; IPR022683; Calpain_III.
+DR   InterPro; IPR036213; Calpain_III_sf.
+DR   InterPro; IPR011992; EF-hand-dom_pair.
+DR   InterPro; IPR018247; EF_Hand_1_Ca_BS.
+DR   InterPro; IPR002048; EF_hand_dom.
+DR   InterPro; IPR042736; EFh_PEF_CAPN2.
+DR   InterPro; IPR038765; Papain-like_cys_pep_sf.
+DR   InterPro; IPR000169; Pept_cys_AS.
+DR   InterPro; IPR001300; Peptidase_C2_calpain_cat.
+DR   PANTHER; PTHR10183; CALPAIN; 1.
+DR   PANTHER; PTHR10183:SF268; CALPAIN-2 CATALYTIC SUBUNIT; 1.
+DR   Pfam; PF01067; Calpain_III; 1.
+DR   Pfam; PF13833; EF-hand_8; 1.
+DR   Pfam; PF00648; Peptidase_C2; 1.
+DR   PRINTS; PR00704; CALPAIN.
+DR   SMART; SM00720; calpain_III; 1.
+DR   SMART; SM00230; CysPc; 1.
+DR   SUPFAM; SSF49758; Calpain large subunit, middle domain (domain III); 1.
+DR   SUPFAM; SSF54001; Cysteine proteinases; 1.
+DR   SUPFAM; SSF47473; EF-hand; 1.
+DR   PROSITE; PS50203; CALPAIN_CAT; 1.
+DR   PROSITE; PS00018; EF_HAND_1; 2.
+DR   PROSITE; PS50222; EF_HAND_2; 3.
+DR   PROSITE; PS00139; THIOL_PROTEASE_CYS; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Calcium; Cell membrane; Cytoplasm;
+KW   Direct protein sequencing; Hydrolase; Membrane; Metal-binding; Protease;
+KW   Reference proteome; Repeat; Thiol protease.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P17655"
+FT   PROPEP          2..19
+FT                   /note="Anchors to the small subunit"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000026493"
+FT   CHAIN           20..700
+FT                   /note="Calpain-2 catalytic subunit"
+FT                   /id="PRO_0000026494"
+FT   DOMAIN          45..344
+FT                   /note="Calpain catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00239"
+FT   DOMAIN          572..605
+FT                   /note="EF-hand 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          602..637
+FT                   /note="EF-hand 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          667..700
+FT                   /note="EF-hand 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   REGION          345..514
+FT                   /note="Domain III"
+FT   REGION          515..529
+FT                   /note="Linker"
+FT   REGION          530..700
+FT                   /note="Domain IV"
+FT   ACT_SITE        105
+FT                   /evidence="ECO:0000269|PubMed:7635186"
+FT   ACT_SITE        262
+FT                   /evidence="ECO:0000269|PubMed:7635186"
+FT   ACT_SITE        286
+FT                   /evidence="ECO:0000269|PubMed:7635186"
+FT   BINDING         89
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT   BINDING         91
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT   BINDING         96
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT   BINDING         175
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT   BINDING         229
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT   BINDING         230
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT   BINDING         292
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT   BINDING         299
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT   BINDING         319
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT   BINDING         323
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT   BINDING         542
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT   BINDING         545
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT   BINDING         547
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT   BINDING         552
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT   BINDING         585
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         587
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         589
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         591
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         596
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         615
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         617
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         619
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         621
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         626
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         658
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT   BINDING         661
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17655"
+FT   MUTAGEN         105
+FT                   /note="C->S: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:7635186"
+FT   MUTAGEN         226
+FT                   /note="K->S: 12% decrease in activity."
+FT   MUTAGEN         230
+FT                   /note="K->E: 84% decrease in activity."
+FT                   /evidence="ECO:0000269|PubMed:11102442"
+FT   MUTAGEN         230
+FT                   /note="K->S: No effect."
+FT                   /evidence="ECO:0000269|PubMed:11102442"
+FT   MUTAGEN         234
+FT                   /note="K->E: 85% decrease in activity."
+FT                   /evidence="ECO:0000269|PubMed:11102442"
+FT   MUTAGEN         234
+FT                   /note="K->S: 20% decrease in activity."
+FT                   /evidence="ECO:0000269|PubMed:11102442"
+FT   MUTAGEN         262
+FT                   /note="H->A: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:7635186"
+FT   MUTAGEN         286
+FT                   /note="N->A: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:7635186"
+FT   MUTAGEN         288
+FT                   /note="W->Y: 95% decrease in activity."
+FT                   /evidence="ECO:0000269|PubMed:7635186"
+FT   MUTAGEN         417
+FT                   /note="R->A: Decreases catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:19020622"
+FT   MUTAGEN         420
+FT                   /note="R->A: Decreases catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:19020622"
+FT   MUTAGEN         469
+FT                   /note="R->A: Decreases catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:19020622"
+FT   MUTAGEN         504
+FT                   /note="E->S: 10% decrease in activity."
+FT                   /evidence="ECO:0000269|PubMed:11102442"
+FT   HELIX           4..14
+FT                   /evidence="ECO:0007829|PDB:1DF0"
+FT   TURN            15..19
+FT                   /evidence="ECO:0007829|PDB:1DF0"
+FT   HELIX           21..23
+FT                   /evidence="ECO:0007829|PDB:1DF0"
+FT   HELIX           27..29
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   HELIX           32..42
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          49..51
+FT                   /evidence="ECO:0007829|PDB:1DF0"
+FT   HELIX           55..58
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   HELIX           68..70
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          74..76
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   HELIX           78..81
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          82..84
+FT                   /evidence="ECO:0007829|PDB:1DF0"
+FT   HELIX           94..96
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          101..103
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           105..114
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   HELIX           118..124
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          131..134
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          136..145
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          148..156
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          158..161
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          164..167
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          171..175
+FT                   /evidence="ECO:0007829|PDB:3DF0"
+FT   HELIX           177..188
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   HELIX           192..195
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          196..198
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           205..207
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          210..216
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   HELIX           224..233
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          237..241
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   HELIX           247..249
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   TURN            255..257
+FT                   /evidence="ECO:0007829|PDB:3DF0"
+FT   STRAND          264..274
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          277..285
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          295..300
+FT                   /evidence="ECO:0007829|PDB:3DF0"
+FT   HELIX           302..306
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   HELIX           309..315
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          321..327
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   HELIX           328..334
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          337..342
+FT                   /evidence="ECO:0007829|PDB:1MDW"
+FT   STRAND          348..350
+FT                   /evidence="ECO:0007829|PDB:3DF0"
+FT   STRAND          355..365
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   TURN            367..370
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           378..381
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          387..391
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           393..395
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           399..401
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          404..415
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           417..422
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          429..435
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           438..440
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           450..455
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          459..461
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          465..477
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          479..490
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          495..507
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          508..511
+FT                   /evidence="ECO:0007829|PDB:1U5I"
+FT   HELIX           527..529
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           532..542
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           543..545
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          546..549
+FT                   /evidence="ECO:0007829|PDB:1U5I"
+FT   HELIX           550..561
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           574..584
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          590..592
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           594..614
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          620..623
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           624..633
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           640..650
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          653..656
+FT                   /evidence="ECO:0007829|PDB:1QXP"
+FT   HELIX           659..676
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          677..679
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   STRAND          685..690
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+FT   HELIX           691..700
+FT                   /evidence="ECO:0007829|PDB:3BOW"
+SQ   SEQUENCE   700 AA;  79919 MW;  296B0DC3BEEF5B90 CRC64;
+     MAGIAMKLAK DREAAEGLGS HERAIKYLNQ DYETLRNECL EAGALFQDPS FPALPSSLGF
+     KELGPYSSKT RGIEWKRPTE ICADPQFIIG GATRTDICQG ALGDCWLLAA IASLTLNEEI
+     LARVVPLDQS FQENYAGIFH FQFWQYGEWV EVVVDDRLPT KDGELLFVHS AEGSEFWSAL
+     LEKAYAKING CYEALSGGAT TEGFEDFTGG IAEWYELRKP PPNLFKIIQK ALEKGSLLGC
+     SIDITSAADS EAVTYQKLVK GHAYSVTGAE EVESSGSLQK LIRIRNPWGQ VEWTGKWNDN
+     CPSWNTVDPE VRANLTERQE DGEFWMSFSD FLRHYSRLEI CNLTPDTLTC DSYKKWKLTK
+     MDGNWRRGST AGGCRNYPNT FWMNPQYLIK LEEEDEDDED GERGCTFLVG LIQKHRRRQR
+     KMGEDMHTIG FGIYEVPEEL TGQTNIHLSK NFFLTTRARE RSDTFINLRE VLNRFKLPPG
+     EYVLVPSTFE PHKNGDFCIR VFSEKKADYQ TVDDEIEANI EEIEANEEDI GDGFRRLFAQ
+     LAGEDAEISA FELQTILRRV LAKREDIKSD GFSIETCKIM VDMLDEDGSG KLGLKEFYIL
+     WTKIQKYQKI YREIDVDRSG TMNSYEMRKA LEEAGFKLPC QLHQVIVARF ADDELIIDFD
+     NFVRCLVRLE ILFKIFKQLD PENTGTIQLD LISWLSFSVL
+//

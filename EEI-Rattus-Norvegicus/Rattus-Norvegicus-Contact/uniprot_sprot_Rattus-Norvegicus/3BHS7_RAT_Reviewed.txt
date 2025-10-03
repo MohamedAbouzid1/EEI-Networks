@@ -1,0 +1,148 @@
+ID   3BHS7_RAT               Reviewed;         338 AA.
+AC   O35048;
+DT   05-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   02-OCT-2024, entry version 119.
+DE   RecName: Full=3 beta-hydroxysteroid dehydrogenase type 7 {ECO:0000305};
+DE   AltName: Full=3 beta-hydroxysteroid dehydrogenase type VII;
+DE            Short=3-beta-HSD VII;
+DE   AltName: Full=3-beta-hydroxy-Delta(5)-C27 steroid oxidoreductase;
+DE            Short=C(27) 3-beta-HSD;
+DE            EC=1.1.1.-;
+DE   AltName: Full=Cholest-5-ene-3-beta,7-alpha-diol 3-beta-dehydrogenase;
+DE            EC=1.1.1.181 {ECO:0000250|UniProtKB:Q9H2F3};
+DE   AltName: Full=Confluent 3Y1 cell-associated 2;
+GN   Name=Hsd3b7 {ECO:0000312|RGD:628727};
+GN   Synonyms=Cca2 {ECO:0000312|EMBL:BAA22931.1};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:BAA22931.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RX   PubMed=9199244; DOI=10.1016/s0167-4781(97)00051-1;
+RA   Hayashi Y., Kiyono T., Fujita M., Ishibashi M.;
+RT   "Isolation of a novel cDNA whose corresponding mRNA is accumulated in
+RT   growth-arrested confluent but not in growing sub-confluent rat 3Y1 cells.";
+RL   Biochim. Biophys. Acta 1352:145-150(1997).
+CC   -!- FUNCTION: The 3-beta-HSD enzymatic system plays a crucial role in the
+CC       biosynthesis of all classes of hormonal steroids. HSD VII is active
+CC       against four 7-alpha-hydroxylated sterols. Does not metabolize several
+CC       different C(19/21) steroids as substrates. Involved in bile acid
+CC       synthesis. Plays a key role in cell positioning and movement in
+CC       lymphoid tissues by mediating degradation of 7-alpha,25-
+CC       dihydroxycholesterol (7-alpha,25-OHC): 7-alpha,25-OHC acts as a ligand
+CC       for the G protein-coupled receptor GPR183/EBI2, a chemotactic receptor
+CC       for a number of lymphoid cells. {ECO:0000250|UniProtKB:Q9EQC1}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7alpha-hydroxycholesterol + NAD(+) = 7alpha-hydroxycholest-4-
+CC         en-3-one + H(+) + NADH; Xref=Rhea:RHEA:11896, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17500, ChEBI:CHEBI:17899, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.1.1.181;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H2F3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:11897;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H2F3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7alpha,25-dihydroxycholesterol + NAD(+) = 7alpha,25-dihydroxy-
+CC         4-cholesten-3-one + H(+) + NADH; Xref=Rhea:RHEA:47156,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:37623, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:81013;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H2F3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47157;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H2F3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(25R)-cholest-5-en-3beta,7alpha,26-triol + NAD(+) = (25R)-
+CC         7alpha,26-dihydroxycholest-4-en-3-one + H(+) + NADH;
+CC         Xref=Rhea:RHEA:47180, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:76592, ChEBI:CHEBI:87476;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H2F3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47181;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H2F3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(24S)-7alpha-dihydroxycholesterol + NAD(+) = (24S)-7alpha,24-
+CC         dihydroxycholest-4-en-3-one + H(+) + NADH; Xref=Rhea:RHEA:47200,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:37640, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:63838;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H2F3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47201;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H2F3};
+CC   -!- PATHWAY: Lipid metabolism; steroid biosynthesis.
+CC       {ECO:0000250|UniProtKB:Q9H2F3}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000250};
+CC       Multi-pass membrane protein {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: High levels in liver and lung, moderate levels in
+CC       spleen, brain, heart, kidney, jejunum and testis. Up-regulated in 3Y1
+CC       cells upon growth arrest. {ECO:0000269|PubMed:9199244}.
+CC   -!- SIMILARITY: Belongs to the 3-beta-HSD family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB000199; BAA22931.1; -; mRNA.
+DR   RefSeq; NP_647545.1; NM_139329.1.
+DR   AlphaFoldDB; O35048; -.
+DR   SMR; O35048; -.
+DR   STRING; 10116.ENSRNOP00000025933; -.
+DR   iPTMnet; O35048; -.
+DR   PhosphoSitePlus; O35048; -.
+DR   PaxDb; 10116-ENSRNOP00000025933; -.
+DR   GeneID; 246211; -.
+DR   KEGG; rno:246211; -.
+DR   UCSC; RGD:628727; rat.
+DR   AGR; RGD:628727; -.
+DR   CTD; 80270; -.
+DR   RGD; 628727; Hsd3b7.
+DR   eggNOG; KOG1430; Eukaryota.
+DR   InParanoid; O35048; -.
+DR   OrthoDB; 3675908at2759; -.
+DR   Reactome; R-RNO-193368; Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol.
+DR   Reactome; R-RNO-193775; Synthesis of bile acids and bile salts via 24-hydroxycholesterol.
+DR   Reactome; R-RNO-193807; Synthesis of bile acids and bile salts via 27-hydroxycholesterol.
+DR   UniPathway; UPA00062; -.
+DR   PRO; PR:O35048; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0047016; F:cholest-5-ene-3-beta,7-alpha-diol 3-beta-dehydrogenase activity; IDA:RGD.
+DR   GO; GO:0016616; F:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor; IBA:GO_Central.
+DR   GO; GO:0035754; P:B cell chemotaxis; ISS:UniProtKB.
+DR   GO; GO:0008206; P:bile acid metabolic process; TAS:RGD.
+DR   GO; GO:0006707; P:cholesterol catabolic process; IDA:RGD.
+DR   GO; GO:0097421; P:liver regeneration; IEP:RGD.
+DR   GO; GO:0001558; P:regulation of cell growth; IDA:RGD.
+DR   GO; GO:0006694; P:steroid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR002225; 3Beta_OHSteriod_DH/Estase.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR050425; NAD(P)_epim/dehydrat-rel.
+DR   PANTHER; PTHR10366:SF835; 3 BETA-HYDROXYSTEROID DEHYDROGENASE TYPE 7; 1.
+DR   PANTHER; PTHR10366; NAD DEPENDENT EPIMERASE/DEHYDRATASE; 1.
+DR   Pfam; PF01073; 3Beta_HSD; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   2: Evidence at transcript level;
+KW   Endoplasmic reticulum; Lipid metabolism; Membrane; NAD; Oxidoreductase;
+KW   Reference proteome; Steroidogenesis; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..338
+FT                   /note="3 beta-hydroxysteroid dehydrogenase type 7"
+FT                   /id="PRO_0000248461"
+FT   TRANSMEM        258..278
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        280..300
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        159
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         163
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   338 AA;  37781 MW;  72FC828235D0BFD5 CRC64;
+     MADSAQVPAL VYLVTGGCGF LGEHIVRMLL EWEPRLRELR VFDLHLSSWL EELKTGPVQV
+     TAIQGDVTQA HEVAAAMAGS HVVIHTAGLV DVFGKASPET IHKVNVQGTQ NVIDACVQTG
+     TRLLVYTSSM EVVGPNVKGH PFYRGNEDTP YEAIHRHPYP CSKALAEQLV LEANGRKGLR
+     FGGRLFRAIP ASVEHGRVYV GNVAWMHILV ARELEQRAAL MGGQVYFCYD KSPYKSYEDF
+     NMEFLSPCGL RLIGTHPLLP YWLLVLLTAL NALLQWLLRP LVLYTPLLNP YTLAVANTTF
+     TVSTNKAQRH FGYKPLFSWE ESRARTIHWV QAMEGSAW
+//

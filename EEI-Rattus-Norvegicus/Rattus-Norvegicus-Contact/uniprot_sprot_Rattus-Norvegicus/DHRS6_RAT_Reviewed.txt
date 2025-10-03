@@ -1,0 +1,185 @@
+ID   DHRS6_RAT               Reviewed;         245 AA.
+AC   D4A1J4;
+DT   05-OCT-2010, integrated into UniProtKB/Swiss-Prot.
+DT   05-OCT-2010, sequence version 2.
+DT   24-JUL-2024, entry version 78.
+DE   RecName: Full=Dehydrogenase/reductase SDR family member 6;
+DE            EC=1.1.1.- {ECO:0000305};
+DE   AltName: Full=(R)-beta-hydroxybutyrate dehydrogenase;
+DE   AltName: Full=3-hydroxybutyrate dehydrogenase type 2;
+DE            EC=1.1.1.30 {ECO:0000250|UniProtKB:Q9BUT1};
+DE   AltName: Full=4-oxo-L-proline reductase;
+DE            EC=1.1.1.104 {ECO:0000269|PubMed:35150746};
+DE   AltName: Full=Oxidoreductase UCPA;
+DE   AltName: Full=Short chain dehydrogenase/reductase family 15C member 1;
+GN   Name=Bdh2 {ECO:0000312|RGD:1309898}; Synonyms=Dhrs6;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, PATHWAY,
+RP   IDENTIFICATION BY MASS SPECTROMETRY, AND MUTAGENESIS OF TYR-147.
+RX   PubMed=35150746; DOI=10.1016/j.jbc.2022.101708;
+RA   Kwiatkowski S., Bozko M., Zarod M., Witecka A., Kocdemir K.,
+RA   Jagielski A.K., Drozak J.;
+RT   "Recharacterization of the Mammalian Cytosolic Type 2 (R)-beta-
+RT   Hydroxybutyrate Dehydrogenase (BDH2) as 4-Oxo-L-Proline Reductase (EC
+RT   1.1.1.104).";
+RL   J. Biol. Chem. 298:101708-101708(2022).
+CC   -!- FUNCTION: NAD(H)-dependent dehydrogenase/reductase with a preference
+CC       for cyclic substrates (By similarity). Catalyzes stereoselective
+CC       conversion of 4-oxo-L-proline to cis-4-hydroxy-L-proline, likely a
+CC       detoxification mechanism for ketoprolines (PubMed:35150746). Mediates
+CC       the formation of 2,5-dihydroxybenzoate (2,5-DHBA), a siderophore that
+CC       chelates free cytoplasmic iron and associates with LCN2, thereby
+CC       regulating iron transport and homeostasis while protecting cells
+CC       against free radical-induced oxidative stress. The iron-siderophore
+CC       complex is imported into mitochondria, providing an iron source for
+CC       mitochondrial metabolic processes in particular heme synthesis (By
+CC       similarity). May act as a 3-hydroxybutyrate dehydrogenase (By
+CC       similarity). {ECO:0000250|UniProtKB:Q8JZV9,
+CC       ECO:0000250|UniProtKB:Q9BUT1, ECO:0000269|PubMed:35150746}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cis-4-hydroxy-L-proline + NAD(+) = 4-oxo-L-proline + H(+) +
+CC         NADH; Xref=Rhea:RHEA:13601, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:63727, ChEBI:CHEBI:84813;
+CC         EC=1.1.1.104; Evidence={ECO:0000269|PubMed:35150746};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:13603;
+CC         Evidence={ECO:0000269|PubMed:35150746};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-3-hydroxybutanoate + NAD(+) = acetoacetate + H(+) + NADH;
+CC         Xref=Rhea:RHEA:20521, ChEBI:CHEBI:10983, ChEBI:CHEBI:13705,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.30;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BUT1};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=387 uM for 4-oxo-L-proline {ECO:0000269|PubMed:35150746};
+CC         KM=10232 uM for (R)-3-hydroxybutanoate {ECO:0000269|PubMed:35150746};
+CC         Vmax=28 umol/min/mg enzyme toward 4-oxo-L-proline
+CC         {ECO:0000269|PubMed:35150746};
+CC         Vmax=0.04 umol/min/mg enzyme toward (R)-3-hydroxybutanoate
+CC         {ECO:0000269|PubMed:35150746};
+CC         Note=kcat is 14 sec(-1) for the NADH-dependent reduction of 4-oxo-L-
+CC         proline. kcat is 0.02 sec(-1) for the NAD(+)-dependent oxidation of
+CC         (R)-3-hydroxybutanoate.;
+CC       pH dependence:
+CC         Optimum pH is 6.5. Active from 5.5 to 9.0 with 4-oxo-L-proline.
+CC         {ECO:0000269|PubMed:35150746};
+CC   -!- PATHWAY: Amino-acid metabolism. {ECO:0000305|PubMed:35150746}.
+CC   -!- PATHWAY: Siderophore biosynthesis. {ECO:0000250|UniProtKB:Q8JZV9}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:Q9BUT1}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q9BUT1}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   -!- CAUTION: Postulated to act as a 3-hydroxybutyrate dehydrogenase,
+CC       however its contribution to ketone body formation appears to be
+CC       physiologically irrelevant since it has very low affinity for the
+CC       substrate. {ECO:0000250|UniProtKB:Q8JZV9,
+CC       ECO:0000250|UniProtKB:Q9BUT1}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=EDL82248.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH473952; EDL82248.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_001099943.1; NM_001106473.1.
+DR   RefSeq; XP_006233384.1; XM_006233322.3.
+DR   AlphaFoldDB; D4A1J4; -.
+DR   SMR; D4A1J4; -.
+DR   STRING; 10116.ENSRNOP00000019507; -.
+DR   iPTMnet; D4A1J4; -.
+DR   PhosphoSitePlus; D4A1J4; -.
+DR   PaxDb; 10116-ENSRNOP00000019507; -.
+DR   PeptideAtlas; D4A1J4; -.
+DR   GeneID; 295458; -.
+DR   KEGG; rno:295458; -.
+DR   AGR; RGD:1309898; -.
+DR   CTD; 56898; -.
+DR   RGD; 1309898; Bdh2.
+DR   eggNOG; KOG0725; Eukaryota.
+DR   InParanoid; D4A1J4; -.
+DR   OrthoDB; 102925at2759; -.
+DR   PhylomeDB; D4A1J4; -.
+DR   TreeFam; TF328795; -.
+DR   Reactome; R-RNO-77111; Synthesis of Ketone Bodies.
+DR   PRO; PR:D4A1J4; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   Proteomes; UP000234681; Chromosome 2.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0003858; F:3-hydroxybutyrate dehydrogenase activity; ISO:RGD.
+DR   GO; GO:0016617; F:4-oxoproline reductase activity; IEA:RHEA.
+DR   GO; GO:0051287; F:NAD binding; ISO:RGD.
+DR   GO; GO:0016628; F:oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor; ISS:UniProtKB.
+DR   GO; GO:0030855; P:epithelial cell differentiation; ISO:RGD.
+DR   GO; GO:0006635; P:fatty acid beta-oxidation; ISO:RGD.
+DR   GO; GO:0042168; P:heme metabolic process; ISS:UniProtKB.
+DR   GO; GO:0006880; P:intracellular sequestering of iron ion; ISS:UniProtKB.
+DR   GO; GO:0019290; P:siderophore biosynthetic process; ISS:UniProtKB.
+DR   CDD; cd05368; DHRS6_like_SDR_c; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR020904; Sc_DH/Rdtase_CS.
+DR   InterPro; IPR002347; SDR_fam.
+DR   InterPro; IPR051122; SDR_superfamily_enzyme.
+DR   PANTHER; PTHR43477:SF4; 3-HYDROXYBUTYRATE DEHYDROGENASE TYPE 2; 1.
+DR   PANTHER; PTHR43477; DIHYDROANTICAPSIN 7-DEHYDROGENASE; 1.
+DR   Pfam; PF13561; adh_short_C2; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00061; ADH_SHORT; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Lipid metabolism; NAD; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..245
+FT                   /note="Dehydrogenase/reductase SDR family member 6"
+FT                   /id="PRO_0000398628"
+FT   ACT_SITE        147
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10001"
+FT   BINDING         16..18
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BUT1"
+FT   BINDING         37
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BUT1"
+FT   BINDING         58
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BUT1"
+FT   BINDING         144
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         151
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BUT1"
+FT   BINDING         180..184
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BUT1"
+FT   BINDING         188
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         205
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   MUTAGEN         147
+FT                   /note="Y->F: Loss of function."
+FT                   /evidence="ECO:0000269|PubMed:35150746"
+SQ   SEQUENCE   245 AA;  26651 MW;  46E513E8F8CF1169 CRC64;
+     MGRLEGKVIV LTAAAQGIGR ASALAFAREG AKVIATDINE AKLQELENYP GIQTRVLDVT
+     KKRQIDQFAS EIEKIDVLFN VAGFVHHGTI LDCEEKDWDF SMNLNVRSMY LMIKAFLPKM
+     LAQKSGNIIN MSSVASSIKG VENRCVYSAT KAAVIGLTKS VAADFIQQGI RCNCVCPGTV
+     DTPSLQERIQ ARDDPKEALK AFLNRQKTGR FASAEEVALL CVYLASDESA YVTGTPVVID
+     GGWSL
+//

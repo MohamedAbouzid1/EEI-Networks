@@ -1,0 +1,227 @@
+ID   LIPG_RAT                Reviewed;         493 AA.
+AC   Q8VBX1; Q5D216;
+DT   26-JUL-2002, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 2.
+DT   29-MAY-2024, entry version 140.
+DE   RecName: Full=Endothelial lipase;
+DE            EC=3.1.1.3 {ECO:0000250|UniProtKB:Q9Y5X9};
+DE   AltName: Full=Endothelial-derived lipase;
+DE            Short=EDL;
+DE   AltName: Full=Phospholipase A1;
+DE            EC=3.1.1.32 {ECO:0000250|UniProtKB:Q9Y5X9};
+DE   Flags: Precursor;
+GN   Name=Lipg;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Aortic smooth muscle;
+RX   PubMed=15914124; DOI=10.1016/j.cardiores.2005.01.013;
+RA   Shimokawa Y., Hirata K., Ishida T., Kojima Y., Inoue N., Quertermous T.,
+RA   Yokoyama M.;
+RT   "Increased expression of endothelial lipase in rat models of
+RT   hypertension.";
+RL   Cardiovasc. Res. 66:594-600(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 214-293.
+RC   STRAIN=BN-Lx/Cub, and SHR/OlaIpcv;
+RX   PubMed=11924532; DOI=10.3109/10425170109025004;
+RA   Bonne A.C.M., den Bieman M.G., van Lith H., van Zutphen B.F.M.;
+RT   "Sequencing and chromosomal assignment of the rat endothelial-derived
+RT   lipase gene (Lipg).";
+RL   DNA Seq. 12:285-287(2001).
+CC   -!- FUNCTION: Exerts both phospholipase and triglyceride lipase activities
+CC       (By similarity). More active as a phospholipase than a triglyceride
+CC       lipase (By similarity). Hydrolyzes triglycerides, both with short-chain
+CC       fatty acyl groups (tributyrin) and long-chain fatty acyl groups
+CC       (triolein) with similar levels of activity toward both types of
+CC       substrates (By similarity). Hydrolyzes high density lipoproteins (HDL)
+CC       more efficiently than other lipoproteins (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9Y5X9}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a triacylglycerol + H2O = a diacylglycerol + a fatty acid +
+CC         H(+); Xref=Rhea:RHEA:12044, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17855, ChEBI:CHEBI:18035, ChEBI:CHEBI:28868; EC=3.1.1.3;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5X9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + H2O = a 2-acyl-sn-
+CC         glycero-3-phosphocholine + a fatty acid + H(+); Xref=Rhea:RHEA:18689,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28868,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:57875; EC=3.1.1.32;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5X9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2,3-tri-(9Z-octadecenoyl)-glycerol + H2O = (9Z)-
+CC         octadecenoate + di-(9Z)-octadecenoylglycerol + H(+);
+CC         Xref=Rhea:RHEA:38575, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30823, ChEBI:CHEBI:53753, ChEBI:CHEBI:75945;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5X9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38576;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5X9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2,3-tributanoylglycerol + H2O = butanoate +
+CC         dibutanoylglycerol + H(+); Xref=Rhea:RHEA:40475, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17968, ChEBI:CHEBI:35020,
+CC         ChEBI:CHEBI:76478; Evidence={ECO:0000250|UniProtKB:Q9Y5X9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40476;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5X9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihexadecanoyl-sn-glycero-3-phosphocholine + H2O = H(+) +
+CC         hexadecanoate + hexadecanoyl-sn-glycero-3-phosphocholine;
+CC         Xref=Rhea:RHEA:41384, ChEBI:CHEBI:7896, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:64563, ChEBI:CHEBI:72999;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5X9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41385;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5X9};
+CC   -!- SUBUNIT: Head to tail Homodimer. Interacts with apolipoprotein C-2 (By
+CC       similarity). {ECO:0000250|UniProtKB:Q9Y5X9}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:Q9Y5X9}.
+CC   -!- MISCELLANEOUS: It is termed endothelial lipase due to the fact that it
+CC       is synthesized in endothelial cells, a characteristic that
+CC       distinguishes it from other members of the family. However, this
+CC       protein is also expressed in other cell types.
+CC   -!- SIMILARITY: Belongs to the AB hydrolase superfamily. Lipase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY916123; AAX11354.1; -; mRNA.
+DR   EMBL; AY027561; AAK14774.1; -; Genomic_DNA.
+DR   EMBL; AY027562; AAK14775.1; -; Genomic_DNA.
+DR   RefSeq; NP_001012759.1; NM_001012741.1.
+DR   AlphaFoldDB; Q8VBX1; -.
+DR   SMR; Q8VBX1; -.
+DR   STRING; 10116.ENSRNOP00000025257; -.
+DR   BindingDB; Q8VBX1; -.
+DR   ChEMBL; CHEMBL3638354; -.
+DR   ESTHER; ratno-q5d216; Lipoprotein_Lipase.
+DR   GlyCosmos; Q8VBX1; 3 sites, No reported glycans.
+DR   GlyGen; Q8VBX1; 3 sites.
+DR   PhosphoSitePlus; Q8VBX1; -.
+DR   PaxDb; 10116-ENSRNOP00000025257; -.
+DR   Ensembl; ENSRNOT00000025257.7; ENSRNOP00000025257.5; ENSRNOG00000018694.7.
+DR   Ensembl; ENSRNOT00055017907; ENSRNOP00055014420; ENSRNOG00055010572.
+DR   Ensembl; ENSRNOT00060015138; ENSRNOP00060011763; ENSRNOG00060009029.
+DR   Ensembl; ENSRNOT00065038840; ENSRNOP00065031500; ENSRNOG00065022748.
+DR   GeneID; 291437; -.
+DR   KEGG; rno:291437; -.
+DR   AGR; RGD:1310740; -.
+DR   CTD; 9388; -.
+DR   RGD; 1310740; Lipg.
+DR   eggNOG; ENOG502QU8P; Eukaryota.
+DR   GeneTree; ENSGT00940000159394; -.
+DR   HOGENOM; CLU_027171_1_2_1; -.
+DR   InParanoid; Q8VBX1; -.
+DR   OMA; QMPVGHV; -.
+DR   OrthoDB; 3428256at2759; -.
+DR   PhylomeDB; Q8VBX1; -.
+DR   TreeFam; TF324997; -.
+DR   Reactome; R-RNO-8964058; HDL remodeling.
+DR   PRO; PR:Q8VBX1; -.
+DR   Proteomes; UP000002494; Chromosome 18.
+DR   Bgee; ENSRNOG00000018694; Expressed in ovary and 14 other cell types or tissues.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0005769; C:early endosome; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0052740; F:1-acyl-2-lysophosphatidylserine acylhydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008201; F:heparin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004465; F:lipoprotein lipase activity; IBA:GO_Central.
+DR   GO; GO:0052739; F:phosphatidylserine 1-acylhydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008970; F:phospholipase A1 activity; ISS:UniProtKB.
+DR   GO; GO:0004620; F:phospholipase activity; ISO:RGD.
+DR   GO; GO:0004806; F:triglyceride lipase activity; ISS:UniProtKB.
+DR   GO; GO:0042632; P:cholesterol homeostasis; ISO:RGD.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0034375; P:high-density lipoprotein particle remodeling; ISO:RGD.
+DR   GO; GO:0055091; P:phospholipid homeostasis; ISO:RGD.
+DR   GO; GO:0032376; P:positive regulation of cholesterol transport; ISO:RGD.
+DR   GO; GO:0010983; P:positive regulation of high-density lipoprotein particle clearance; ISO:RGD.
+DR   GO; GO:0050746; P:regulation of lipoprotein metabolic process; ISO:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0043691; P:reverse cholesterol transport; ISO:RGD.
+DR   GO; GO:0019433; P:triglyceride catabolic process; IBA:GO_Central.
+DR   CDD; cd00707; Pancreat_lipase_like; 1.
+DR   CDD; cd01758; PLAT_LPL; 1.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   Gene3D; 2.60.60.20; PLAT/LH2 domain; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR013818; Lipase.
+DR   InterPro; IPR016272; Lipase_LIPH.
+DR   InterPro; IPR033906; Lipase_N.
+DR   InterPro; IPR002330; Lipo_Lipase.
+DR   InterPro; IPR001024; PLAT/LH2_dom.
+DR   InterPro; IPR036392; PLAT/LH2_dom_sf.
+DR   InterPro; IPR000734; TAG_lipase.
+DR   PANTHER; PTHR11610:SF13; ENDOTHELIAL LIPASE; 1.
+DR   PANTHER; PTHR11610; LIPASE; 1.
+DR   Pfam; PF00151; Lipase; 1.
+DR   Pfam; PF01477; PLAT; 1.
+DR   PIRSF; PIRSF000865; Lipoprotein_lipase_LIPH; 1.
+DR   PRINTS; PR00822; LIPOLIPASE.
+DR   PRINTS; PR00821; TAGLIPASE.
+DR   SMART; SM00308; LH2; 1.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+DR   SUPFAM; SSF49723; Lipase/lipooxygenase domain (PLAT/LH2 domain); 1.
+DR   PROSITE; PS00120; LIPASE_SER; 1.
+DR   PROSITE; PS50095; PLAT; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Heparin-binding; Hydrolase;
+KW   Lipid degradation; Lipid metabolism; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..493
+FT                   /note="Endothelial lipase"
+FT                   /id="PRO_0000043409"
+FT   DOMAIN          349..484
+FT                   /note="PLAT"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00152"
+FT   ACT_SITE        171
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        195
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10037"
+FT   ACT_SITE        276
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10037"
+FT   BINDING         327..339
+FT                   /ligand="heparin"
+FT                   /ligand_id="ChEBI:CHEBI:28304"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        67
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        82
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        395
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        66..79
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00152"
+FT   DISULFID        254..274
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00152"
+FT   DISULFID        299..318
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00152"
+FT   DISULFID        310..313
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00152"
+FT   DISULFID        465..485
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00152"
+FT   CONFLICT        275..277
+FT                   /note="EHE -> KHK (in Ref. 2; AAK14774/AAK14775)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   493 AA;  55924 MW;  11F8E39B2E2FCBC5 CRC64;
+     MRDPVFLLGF WSLYCCFPAG SLTTLRPQGS LRDEHHKPTG VPVTITTKPS VTFNIRTSKD
+     PEHEGCNLSL GDSKLLENCG FNMTAKTFFI IHGWTMSGMF ESWLHKLVSA LQTREKEANV
+     VVVDWLPLAH QLYIDAVSNT RVVGRRVAGM LNWLQEKGEF SLGDVHLIGY SLGAHVAGYA
+     GNFVKGTVGR ITGLDPAGPM FEGVDINRRL SPDDADFVDV LHTYTLSFGL SIGIRMPVGH
+     IDIYPNGGDF QPGCGFNDVM GSFAYGTISE MVKCEHERAV HLFVDSLVNQ DKPSFAFQCT
+     DPNRFKRGIC LSCRKNRCNN IGYNAKKMRK KRNSKMYLKT RAGMPFRVYH YQLKVHMFSY
+     KNSGDIQPDL YITLYGSNAD SQNLPLEIVE KIELNATNTF LVYTEEYLGD LFKIRLTWEG
+     VSSSWYNLWN EFRSYLSQPS SPSRELHIRR IRVKSGETQR KVAFCVQDPM KNSISPGQEL
+     WFYKCQNDCR VKN
+//

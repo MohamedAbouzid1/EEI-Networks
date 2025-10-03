@@ -1,0 +1,91 @@
+ID   SMPX_RAT                Reviewed;          85 AA.
+AC   Q925F0;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   24-JUL-2024, entry version 99.
+DE   RecName: Full=Small muscular protein;
+DE   AltName: Full=Stretch-responsive skeletal muscle protein;
+GN   Name=Smpx; Synonyms=Srmx;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=10598820; DOI=10.1007/s004390051138;
+RA   Patzak D., Zhuchenko O., Lee C.-C., Wehnert M.;
+RT   "Identification, mapping, and genomic structure of a novel X-chromosomal
+RT   human gene (SMPX) encoding a small muscular protein.";
+RL   Hum. Genet. 105:506-512(1999).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-36 AND THR-47, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Plays a role in the regulatory network through which muscle
+CC       cells coordinate their structural and functional states during growth,
+CC       adaptation, and repair. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the SMPX family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF364071; AAK50399.1; -; mRNA.
+DR   RefSeq; NP_445847.1; NM_053395.1.
+DR   RefSeq; XP_006257007.1; XM_006256945.3.
+DR   AlphaFoldDB; Q925F0; -.
+DR   STRING; 10116.ENSRNOP00000010027; -.
+DR   iPTMnet; Q925F0; -.
+DR   PhosphoSitePlus; Q925F0; -.
+DR   PaxDb; 10116-ENSRNOP00000010027; -.
+DR   Ensembl; ENSRNOT00055025223; ENSRNOP00055020623; ENSRNOG00055014714.
+DR   Ensembl; ENSRNOT00060033442; ENSRNOP00060027365; ENSRNOG00060019324.
+DR   Ensembl; ENSRNOT00065021454; ENSRNOP00065016608; ENSRNOG00065013085.
+DR   GeneID; 84416; -.
+DR   KEGG; rno:84416; -.
+DR   AGR; RGD:69233; -.
+DR   CTD; 23676; -.
+DR   RGD; 69233; Smpx.
+DR   VEuPathDB; HostDB:ENSRNOG00000007495; -.
+DR   eggNOG; ENOG502S62J; Eukaryota.
+DR   HOGENOM; CLU_2512070_0_0_1; -.
+DR   InParanoid; Q925F0; -.
+DR   OrthoDB; 5351767at2759; -.
+DR   PhylomeDB; Q925F0; -.
+DR   TreeFam; TF338181; -.
+DR   PRO; PR:Q925F0; -.
+DR   Proteomes; UP000002494; Chromosome X.
+DR   Bgee; ENSRNOG00000007495; Expressed in heart and 17 other cell types or tissues.
+DR   GO; GO:0043292; C:contractile muscle fiber; ISO:RGD.
+DR   GO; GO:0043034; C:costamere; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0031430; C:M band; ISO:RGD.
+DR   GO; GO:0005927; C:muscle tendon junction; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   InterPro; IPR029268; Chisel.
+DR   PANTHER; PTHR17416; SMALL MUSCULAR PROTEIN; 1.
+DR   PANTHER; PTHR17416:SF0; SMALL MUSCULAR PROTEIN; 1.
+DR   Pfam; PF15355; Chisel; 1.
+PE   1: Evidence at protein level;
+KW   Phosphoprotein; Reference proteome.
+FT   CHAIN           1..85
+FT                   /note="Small muscular protein"
+FT                   /id="PRO_0000071981"
+FT   REGION          19..63
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         36
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         47
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   85 AA;  9121 MW;  52654F8C790C932C CRC64;
+     MSKQPISNVR SIQANINIPM GAFRPGAGQP PRRKESTPGT AEGAPATPEE KKPVPGMKKF
+     PGPVVNLSEI QNVKSELKYV PKGEQ
+//

@@ -1,0 +1,655 @@
+ID   SIR1_RAT                Reviewed;         555 AA.
+AC   A0A0G2JZ79;
+DT   08-JUN-2016, integrated into UniProtKB/Swiss-Prot.
+DT   08-JUN-2016, sequence version 2.
+DT   02-OCT-2024, entry version 62.
+DE   RecName: Full=NAD-dependent protein deacetylase sirtuin-1 {ECO:0000250|UniProtKB:Q923E4};
+DE            EC=2.3.1.286 {ECO:0000250|UniProtKB:Q96EB6, ECO:0000255|PROSITE-ProRule:PRU00236};
+DE   AltName: Full=NAD-dependent protein deacylase sirtuin-1;
+DE            EC=2.3.1.- {ECO:0000250|UniProtKB:Q923E4};
+GN   Name=Sirt1 {ECO:0000312|RGD:1308542};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RX   PubMed=15057822; DOI=10.1038/nature02426;
+RA   Gibbs R.A., Weinstock G.M., Metzker M.L., Muzny D.M., Sodergren E.J.,
+RA   Scherer S., Scott G., Steffen D., Worley K.C., Burch P.E., Okwuonu G.,
+RA   Hines S., Lewis L., Deramo C., Delgado O., Dugan-Rocha S., Miner G.,
+RA   Morgan M., Hawes A., Gill R., Holt R.A., Adams M.D., Amanatides P.G.,
+RA   Baden-Tillson H., Barnstead M., Chin S., Evans C.A., Ferriera S.,
+RA   Fosler C., Glodek A., Gu Z., Jennings D., Kraft C.L., Nguyen T.,
+RA   Pfannkoch C.M., Sitter C., Sutton G.G., Venter J.C., Woodage T., Smith D.,
+RA   Lee H.-M., Gustafson E., Cahill P., Kana A., Doucette-Stamm L.,
+RA   Weinstock K., Fechtel K., Weiss R.B., Dunn D.M., Green E.D.,
+RA   Blakesley R.W., Bouffard G.G., De Jong P.J., Osoegawa K., Zhu B., Marra M.,
+RA   Schein J., Bosdet I., Fjell C., Jones S., Krzywinski M., Mathewson C.,
+RA   Siddiqui A., Wye N., McPherson J., Zhao S., Fraser C.M., Shetty J.,
+RA   Shatsman S., Geer K., Chen Y., Abramzon S., Nierman W.C., Havlak P.H.,
+RA   Chen R., Durbin K.J., Egan A., Ren Y., Song X.-Z., Li B., Liu Y., Qin X.,
+RA   Cawley S., Cooney A.J., D'Souza L.M., Martin K., Wu J.Q.,
+RA   Gonzalez-Garay M.L., Jackson A.R., Kalafus K.J., McLeod M.P.,
+RA   Milosavljevic A., Virk D., Volkov A., Wheeler D.A., Zhang Z., Bailey J.A.,
+RA   Eichler E.E., Tuzun E., Birney E., Mongin E., Ureta-Vidal A., Woodwark C.,
+RA   Zdobnov E., Bork P., Suyama M., Torrents D., Alexandersson M., Trask B.J.,
+RA   Young J.M., Huang H., Wang H., Xing H., Daniels S., Gietzen D., Schmidt J.,
+RA   Stevens K., Vitt U., Wingrove J., Camara F., Mar Alba M., Abril J.F.,
+RA   Guigo R., Smit A., Dubchak I., Rubin E.M., Couronne O., Poliakov A.,
+RA   Huebner N., Ganten D., Goesele C., Hummel O., Kreitler T., Lee Y.-A.,
+RA   Monti J., Schulz H., Zimdahl H., Himmelbauer H., Lehrach H., Jacob H.J.,
+RA   Bromberg S., Gullings-Handley J., Jensen-Seaman M.I., Kwitek A.E.,
+RA   Lazar J., Pasko D., Tonellato P.J., Twigger S., Ponting C.P., Duarte J.M.,
+RA   Rice S., Goodstadt L., Beatson S.A., Emes R.D., Winter E.E., Webber C.,
+RA   Brandt P., Nyakatura G., Adetobi M., Chiaromonte F., Elnitski L.,
+RA   Eswara P., Hardison R.C., Hou M., Kolbe D., Makova K., Miller W.,
+RA   Nekrutenko A., Riemer C., Schwartz S., Taylor J., Yang S., Zhang Y.,
+RA   Lindpaintner K., Andrews T.D., Caccamo M., Clamp M., Clarke L., Curwen V.,
+RA   Durbin R.M., Eyras E., Searle S.M., Cooper G.M., Batzoglou S., Brudno M.,
+RA   Sidow A., Stone E.A., Payseur B.A., Bourque G., Lopez-Otin C., Puente X.S.,
+RA   Chakrabarti K., Chatterji S., Dewey C., Pachter L., Bray N., Yap V.B.,
+RA   Caspi A., Tesler G., Pevzner P.A., Haussler D., Roskin K.M., Baertsch R.,
+RA   Clawson H., Furey T.S., Hinrichs A.S., Karolchik D., Kent W.J.,
+RA   Rosenbloom K.R., Trumbower H., Weirauch M., Cooper D.N., Stenson P.D.,
+RA   Ma B., Brent M., Arumugam M., Shteynberg D., Copley R.R., Taylor M.S.,
+RA   Riethman H., Mudunuri U., Peterson J., Guyer M., Felsenfeld A., Old S.,
+RA   Mockrin S., Collins F.S.;
+RT   "Genome sequence of the Brown Norway rat yields insights into mammalian
+RT   evolution.";
+RL   Nature 428:493-521(2004).
+CC   -!- FUNCTION: NAD-dependent protein deacetylase that links transcriptional
+CC       regulation directly to intracellular energetics and participates in the
+CC       coordination of several separated cellular functions such as cell
+CC       cycle, response to DNA damage, metabolism, apoptosis and autophagy. Can
+CC       modulate chromatin function through deacetylation of histones and can
+CC       promote alterations in the methylation of histones and DNA, leading to
+CC       transcriptional repression. Deacetylates a broad range of transcription
+CC       factors and coregulators, thereby regulating target gene expression
+CC       positively and negatively. Serves as a sensor of the cytosolic ratio of
+CC       NAD(+)/NADH which is altered by glucose deprivation and metabolic
+CC       changes associated with caloric restriction. Is essential in skeletal
+CC       muscle cell differentiation and in response to low nutrients mediates
+CC       the inhibitory effect on skeletal myoblast differentiation which also
+CC       involves 5'-AMP-activated protein kinase (AMPK) and nicotinamide
+CC       phosphoribosyltransferase (NAMPT). Component of the eNoSC (energy-
+CC       dependent nucleolar silencing) complex, a complex that mediates
+CC       silencing of rDNA in response to intracellular energy status and acts
+CC       by recruiting histone-modifying enzymes. The eNoSC complex is able to
+CC       sense the energy status of cell: upon glucose starvation, elevation of
+CC       NAD(+)/NADP(+) ratio activates SIRT1, leading to histone H3
+CC       deacetylation followed by dimethylation of H3 at 'Lys-9' (H3K9me2) by
+CC       SUV39H1 and the formation of silent chromatin in the rDNA locus.
+CC       Deacetylates 'Lys-266' of SUV39H1, leading to its activation. Inhibits
+CC       skeletal muscle differentiation by deacetylating PCAF and MYOD1.
+CC       Deacetylates H2A and 'Lys-26' of H1-4. Deacetylates 'Lys-16' of histone
+CC       H4 (in vitro). Involved in NR0B2/SHP corepression function through
+CC       chromatin remodeling: Recruited to LRH1 target gene promoters by
+CC       NR0B2/SHP thereby stimulating histone H3 and H4 deacetylation leading
+CC       to transcriptional repression. Proposed to contribute to genomic
+CC       integrity via positive regulation of telomere length; however, reports
+CC       on localization to pericentromeric heterochromatin are conflicting.
+CC       Proposed to play a role in constitutive heterochromatin (CH) formation
+CC       and/or maintenance through regulation of the available pool of nuclear
+CC       SUV39H1. Upon oxidative/metabolic stress decreases SUV39H1 degradation
+CC       by inhibiting SUV39H1 polyubiquitination by MDM2. This increase in
+CC       SUV39H1 levels enhances SUV39H1 turnover in CH, which in turn seems to
+CC       accelerate renewal of the heterochromatin which correlates with greater
+CC       genomic integrity during stress response. Deacetylates 'Lys-382' of
+CC       p53/TP53 and impairs its ability to induce transcription-dependent
+CC       proapoptotic program and modulate cell senescence. Deacetylates TAF1B
+CC       and thereby represses rDNA transcription by the RNA polymerase I.
+CC       Deacetylates MYC, promotes the association of MYC with MAX and
+CC       decreases MYC stability leading to compromised transformational
+CC       capability. Deacetylates FOXO3 in response to oxidative stress thereby
+CC       increasing its ability to induce cell cycle arrest and resistance to
+CC       oxidative stress but inhibiting FOXO3-mediated induction of apoptosis
+CC       transcriptional activity; also leading to FOXO3 ubiquitination and
+CC       protesomal degradation. Appears to have a similar effect on MLLT7/FOXO4
+CC       in regulation of transcriptional activity and apoptosis. Deacetylates
+CC       DNMT1; thereby impairs DNMT1 methyltransferase-independent
+CC       transcription repressor activity, modulates DNMT1 cell cycle regulatory
+CC       function and DNMT1-mediated gene silencing. Deacetylates RELA/NF-kappa-
+CC       B p65 thereby inhibiting its transactivating potential and augments
+CC       apoptosis in response to TNF-alpha. Deacetylates HIF1A, KAT5/TIP60, RB1
+CC       and HIC1. Deacetylates FOXO1 resulting in its nuclear retention and
+CC       enhancement of its transcriptional activity leading to increased
+CC       gluconeogenesis in liver. Inhibits E2F1 transcriptional activity and
+CC       apoptotic function, possibly by deacetylation. Involved in HES1- and
+CC       HEY2-mediated transcriptional repression. In cooperation with MYCN
+CC       seems to be involved in transcriptional repression of DUSP6/MAPK3
+CC       leading to MYCN stabilization by phosphorylation at 'Ser-62'.
+CC       Deacetylates MEF2D. Required for antagonist-mediated transcription
+CC       suppression of AR-dependent genes which may be linked to local
+CC       deacetylation of histone H3. Represses HNF1A-mediated transcription.
+CC       Required for the repression of ESRRG by CREBZF. Deacetylates NR1H3 AND
+CC       NR1H2 and deacetylation of NR1H3 at 'Lys-434' positively regulates
+CC       transcription of NR1H3:RXR target genes, promotes NR1H3 proteasomal
+CC       degradation and results in cholesterol efflux; a promoter clearing
+CC       mechanism after reach round of transcription is proposed. Involved in
+CC       lipid metabolism: deacetylates LPIN1, thereby inhibiting diacylglycerol
+CC       synthesis. Implicated in regulation of adipogenesis and fat
+CC       mobilization in white adipocytes by repression of PPARG which probably
+CC       involves association with NCOR1 and SMRT/NCOR2. Deacetylates p300/EP300
+CC       and PRMT1. Deacetylates ACSS2 leading to its activation, and HMGCS1
+CC       deacetylation. Involved in liver and muscle metabolism. Through
+CC       deacetylation and activation of PPARGC1A is required to activate fatty
+CC       acid oxidation in skeletal muscle under low-glucose conditions and is
+CC       involved in glucose homeostasis. Involved in regulation of PPARA and
+CC       fatty acid beta-oxidation in liver. Involved in positive regulation of
+CC       insulin secretion in pancreatic beta cells in response to glucose; the
+CC       function seems to imply transcriptional repression of UCP2. Proposed to
+CC       deacetylate IRS2 thereby facilitating its insulin-induced tyrosine
+CC       phosphorylation. Deacetylates SREBF1 isoform SREBP-1C thereby
+CC       decreasing its stability and transactivation in lipogenic gene
+CC       expression. Involved in DNA damage response by repressing genes which
+CC       are involved in DNA repair, such as XPC and TP73, deacetylating
+CC       XRCC6/Ku70, and facilitating recruitment of additional factors to sites
+CC       of damaged DNA, such as SIRT1-deacetylated NBN can recruit ATM to
+CC       initiate DNA repair and SIRT1-deacetylated XPA interacts with RPA2.
+CC       Also involved in DNA repair of DNA double-strand breaks by homologous
+CC       recombination and specifically single-strand annealing independently of
+CC       XRCC6/Ku70 and NBN. Promotes DNA double-strand breaks by mediating
+CC       deacetylation of SIRT6. Transcriptional suppression of XPC probably
+CC       involves an E2F4:RBL2 suppressor complex and protein kinase B (AKT)
+CC       signaling. Transcriptional suppression of TP73 probably involves E2F4
+CC       and PCAF. Deacetylates WRN thereby regulating its helicase and
+CC       exonuclease activities and regulates WRN nuclear translocation in
+CC       response to DNA damage. Deacetylates APEX1 at 'Lys-6' and 'Lys-7' and
+CC       stimulates cellular AP endonuclease activity by promoting the
+CC       association of APEX1 to XRCC1. Catalyzes deacetylation of ERCC4/XPF,
+CC       thereby impairing interaction with ERCC1 and nucleotide excision repair
+CC       (NER). Increases p53/TP53-mediated transcription-independent apoptosis
+CC       by blocking nuclear translocation of cytoplasmic p53/TP53 and probably
+CC       redirecting it to mitochondria. Deacetylates XRCC6/Ku70 at 'Lys-539'
+CC       and 'Lys-542' causing it to sequester BAX away from mitochondria
+CC       thereby inhibiting stress-induced apoptosis. Is involved in autophagy,
+CC       presumably by deacetylating ATG5, ATG7 and MAP1LC3B/ATG8. Deacetylates
+CC       AKT1 which leads to enhanced binding of AKT1 and PDK1 to PIP3 and
+CC       promotes their activation. Proposed to play role in regulation of
+CC       STK11/LBK1-dependent AMPK signaling pathways implicated in cellular
+CC       senescence which seems to involve the regulation of the acetylation
+CC       status of STK11/LBK1. Can deacetylate STK11/LBK1 and thereby increase
+CC       its activity, cytoplasmic localization and association with STRAD;
+CC       however, the relevance of such activity in normal cells is unclear. In
+CC       endothelial cells is shown to inhibit STK11/LBK1 activity and to
+CC       promote its degradation. Deacetylates SMAD7 at 'Lys-64' and 'Lys-70'
+CC       thereby promoting its degradation. Deacetylates CIITA and augments its
+CC       MHC class II transactivation and contributes to its stability.
+CC       Deacetylates MECOM/EVI1. Deacetylates PML at 'Lys-487' and this
+CC       deacetylation promotes PML control of PER2 nuclear localization. During
+CC       the neurogenic transition, represses selective NOTCH1-target genes
+CC       through histone deacetylation in a BCL6-dependent manner and leading to
+CC       neuronal differentiation. Regulates the circadian expression of several
+CC       core clock genes, including BMAL1, RORC, PER2 and CRY1 and plays a
+CC       critical role in maintaining a controlled rhythmicity in histone
+CC       acetylation, thereby contributing to circadian chromatin remodeling.
+CC       Deacetylates BMAL1 and histones at the circadian gene promoters in
+CC       order to facilitate repression by inhibitory components of the
+CC       circadian oscillator. Deacetylates PER2, facilitating its
+CC       ubiquitination and degradation by the proteasome. Protects
+CC       cardiomyocytes against palmitate-induced apoptosis. Deacetylates XBP1
+CC       isoform 2; deacetylation decreases protein stability of XBP1 isoform 2
+CC       and inhibits its transcriptional activity. Deacetylates PCK1 and
+CC       directs its activity toward phosphoenolpyruvate production promoting
+CC       gluconeogenesis. Involved in the CCAR2-mediated regulation of PCK1 and
+CC       NR1D1. Deacetylates CTNB1 at 'Lys-49'. In POMC (pro-opiomelanocortin)
+CC       neurons, required for leptin-induced activation of PI3K signaling. In
+CC       addition to protein deacetylase activity, also acts as a protein-lysine
+CC       deacylase by mediating protein depropionylation and decrotonylation.
+CC       Mediates depropionylation of Osterix (SP7). Catalyzes decrotonylation
+CC       of histones; it however does not represent a major histone
+CC       decrotonylase. Deacetylates SOX9; promoting SOX9 nuclear localization
+CC       and transactivation activity. Involved in the regulation of centrosome
+CC       duplication. Deacetylates CENATAC in G1 phase, allowing for SASS6
+CC       accumulation on the centrosome and subsequent procentriole assembly (By
+CC       similarity). Deacetylates NDC80/HEC1 (By similarity).
+CC       {ECO:0000250|UniProtKB:Q923E4, ECO:0000250|UniProtKB:Q96EB6}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(6)-acetyl-L-lysyl-[protein] + NAD(+) = 2''-O-acetyl-
+CC         ADP-D-ribose + L-lysyl-[protein] + nicotinamide;
+CC         Xref=Rhea:RHEA:43636, Rhea:RHEA-COMP:9752, Rhea:RHEA-COMP:10731,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:17154, ChEBI:CHEBI:29969,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:61930, ChEBI:CHEBI:83767;
+CC         EC=2.3.1.286; Evidence={ECO:0000250|UniProtKB:Q96EB6,
+CC         ECO:0000255|PROSITE-ProRule:PRU00236};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(6)-propanoyl-L-lysyl-[protein] + NAD(+) = 3''-O-
+CC         propanoyl-ADP-D-ribose + L-lysyl-[protein] + nicotinamide;
+CC         Xref=Rhea:RHEA:23500, Rhea:RHEA-COMP:9752, Rhea:RHEA-COMP:13758,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:17154, ChEBI:CHEBI:29969,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:138019, ChEBI:CHEBI:145015;
+CC         Evidence={ECO:0000250|UniProtKB:Q923E4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:23501;
+CC         Evidence={ECO:0000250|UniProtKB:Q923E4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(6)-(2E)-butenoyl-L-lysyl-[protein] + NAD(+) = 2''-O-
+CC         (2E)-but-2-enoyl-ADP-D-ribose + L-lysyl-[protein] + nicotinamide;
+CC         Xref=Rhea:RHEA:69332, Rhea:RHEA-COMP:9752, Rhea:RHEA-COMP:13707,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:17154, ChEBI:CHEBI:29969,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:137954, ChEBI:CHEBI:183235;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EB6};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:69333;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EB6};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IXJ6};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:Q8IXJ6};
+CC   -!- ACTIVITY REGULATION: Inhibited by nicotinamide. Activated by
+CC       resveratrol (3,5,4'-trihydroxy-trans-stilbene), butein (3,4,2',4'-
+CC       tetrahydroxychalcone), piceatannol (3,5,3',4'-tetrahydroxy-trans-
+CC       stilbene), Isoliquiritigenin (4,2',4'-trihydroxychalcone), fisetin
+CC       (3,7,3',4'-tetrahydroxyflavone) and quercetin (3,5,7,3',4'-
+CC       pentahydroxyflavone). MAPK8/JNK1 and RPS19BP1/AROS act as positive
+CC       regulators of deacetylation activity. Negatively regulated by CCAR2.
+CC       {ECO:0000250|UniProtKB:Q96EB6}.
+CC   -!- SUBUNIT: Interacts with XBP1 isoform 2 (By similarity). Found in a
+CC       complex with PCAF and MYOD1. Interacts with FOXO1; the interaction
+CC       deacetylates FOXO1, resulting in its nuclear retention and promotion of
+CC       its transcriptional activity Component of the eNoSC complex, composed
+CC       of SIRT1, SUV39H1 and RRP8. Interacts with HES1, HEY2 and PML.
+CC       Interacts with RPS19BP1/AROS. Interacts with CCAR2 (via N-terminus);
+CC       the interaction disrupts the interaction between SIRT1 and p53/TP53.
+CC       Interacts with SETD7; the interaction induces the dissociation of SIRT1
+CC       from p53/TP53 and increases p53/TP53 activity. Interacts with MYCN,
+CC       NR1I2, CREBZF, TSC2, TLE1, FOS, JUN, NR0B2, PPARG, NCOR, IRS1, IRS2 and
+CC       NMNAT1. Interacts with HNF1A; the interaction occurs under nutrient
+CC       restriction. Interacts with SUZ12; the interaction mediates the
+CC       association with the PRC4 histone methylation complex which is specific
+CC       as an association with PCR2 and PCR3 complex variants is not found.
+CC       Interacts with HIV-1 tat. Interacts with BCL6; leads to a epigenetic
+CC       repression of specific target genes. Interacts with CLOCK, BMAL1 and
+CC       PER2 (By similarity). Interacts with PPARA; the interaction seems to be
+CC       modulated by NAD(+) levels. Interacts with NR1H3 and this interaction
+CC       is inhibited in the presence of CCAR2. Interacts with CHEK2. Interacts
+CC       with p53/TP53. Exhibits a preferential interaction with sumoylated
+CC       CCAR2 over its unmodified form (By similarity). Interacts with PACS2
+CC       (By similarity). Interacts with SIRT7 (By similarity). Interacts with
+CC       PUS7 (By similarity). Interacts with TULP3 (By similarity). Interacts
+CC       with MORN3; the interaction enhances the ubiquitination of p53/TP53 (By
+CC       similarity). {ECO:0000250|UniProtKB:Q923E4,
+CC       ECO:0000250|UniProtKB:Q96EB6}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus, PML body {ECO:0000250|UniProtKB:Q96EB6}.
+CC       Cytoplasm {ECO:0000250|UniProtKB:Q96EB6}. Nucleus
+CC       {ECO:0000250|UniProtKB:Q96EB6}. Note=Recruited to the nuclear bodies
+CC       via its interaction with PML. Colocalized with APEX1 in the nucleus.
+CC       May be found in nucleolus, nuclear euchromatin, heterochromatin and
+CC       inner membrane (By similarity). Shuttles between nucleus and cytoplasm
+CC       (By similarity). Colocalizes in the nucleus with XBP1 isoform 2 (By
+CC       similarity). {ECO:0000250|UniProtKB:Q923E4,
+CC       ECO:0000250|UniProtKB:Q96EB6}.
+CC   -!- PTM: Methylated on multiple lysine residues; methylation is enhanced
+CC       after DNA damage and is dispensable for deacetylase activity toward
+CC       p53/TP53. {ECO:0000250|UniProtKB:Q96EB6}.
+CC   -!- PTM: Phosphorylated. Phosphorylated by STK4/MST1, resulting in
+CC       inhibition of SIRT1-mediated p53/TP53 deacetylation. Phosphorylation by
+CC       MAPK8/JNK1 at Thr-338 leads to increased nuclear localization and
+CC       enzymatic activity. Phosphorylation at Thr-338 by DYRK1A and DYRK3
+CC       activates deacetylase activity and promotes cell survival.
+CC       Phosphorylated by CaMK2, leading to increased p53/TP53 and NF-kappa-B
+CC       p65/RELA deacetylation activity (By similarity).
+CC       {ECO:0000250|UniProtKB:Q923E4, ECO:0000250|UniProtKB:Q96EB6}.
+CC   -!- PTM: S-nitrosylated by GAPDH, leading to inhibit the NAD-dependent
+CC       protein deacetylase activity. {ECO:0000250|UniProtKB:Q923E4}.
+CC   -!- PTM: Acetylated at various Lys residues. Deacetylated via an
+CC       autocatalytic mechanism. Autodeacetylation at Lys-46 promotes its
+CC       protein deacetylase activity. {ECO:0000250|UniProtKB:Q923E4}.
+CC   -!- PTM: Ubiquitinated; leading to degradation. Deubiquitinated by USP22;
+CC       leading to stabilization. {ECO:0000250|UniProtKB:Q96EB6}.
+CC   -!- MISCELLANEOUS: Red wine, which contains resveratrol, may participate in
+CC       activation of sirtuin proteins, and may therefore contribute to an
+CC       extended lifespan as has been observed in yeast.
+CC       {ECO:0000250|UniProtKB:Q96EB6}.
+CC   -!- MISCELLANEOUS: Calf histone H1 is used as substrate in the in vitro
+CC       deacetylation assay. As, in vivo, interaction occurs between SIRT1 with
+CC       H1-4, deacetylation has been validated only for H1-4.
+CC       {ECO:0000250|UniProtKB:Q96EB6}.
+CC   -!- MISCELLANEOUS: The reported ADP-ribosyltransferase activity of sirtuins
+CC       is likely to be an inefficient side reaction of the deacetylase
+CC       activity and may not be physiologically relevant.
+CC       {ECO:0000250|UniProtKB:Q96EB6}.
+CC   -!- SIMILARITY: Belongs to the sirtuin family. Class I subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AABR07044925; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   AlphaFoldDB; A0A0G2JZ79; -.
+DR   SMR; A0A0G2JZ79; -.
+DR   IntAct; A0A0G2JZ79; 1.
+DR   MINT; A0A0G2JZ79; -.
+DR   STRING; 10116.ENSRNOP00000070943; -.
+DR   PaxDb; 10116-ENSRNOP00000000427; -.
+DR   AGR; RGD:1308542; -.
+DR   RGD; 1308542; Sirt1.
+DR   eggNOG; KOG2684; Eukaryota.
+DR   InParanoid; A0A0G2JZ79; -.
+DR   Reactome; R-RNO-3371453; Regulation of HSF1-mediated heat shock response.
+DR   Reactome; R-RNO-427359; SIRT1 negatively regulates rRNA expression.
+DR   Reactome; R-RNO-9617629; Regulation of FOXO transcriptional activity by acetylation.
+DR   Reactome; R-RNO-9856649; Transcriptional and post-translational regulation of MITF-M expression and activity.
+DR   PRO; PR:A0A0G2JZ79; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0000785; C:chromatin; ISO:RGD.
+DR   GO; GO:0005677; C:chromatin silencing complex; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0061773; C:eNoSc complex; ISO:RGD.
+DR   GO; GO:0035098; C:ESC/E(Z) complex; ISO:RGD.
+DR   GO; GO:0000791; C:euchromatin; ISO:RGD.
+DR   GO; GO:0030426; C:growth cone; IDA:RGD.
+DR   GO; GO:0000792; C:heterochromatin; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0005635; C:nuclear envelope; ISO:RGD.
+DR   GO; GO:0005637; C:nuclear inner membrane; ISO:RGD.
+DR   GO; GO:0005730; C:nucleolus; ISO:RGD.
+DR   GO; GO:0005654; C:nucleoplasm; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; IDA:RGD.
+DR   GO; GO:0016605; C:PML body; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0033553; C:rDNA heterochromatin; ISO:RGD.
+DR   GO; GO:0043425; F:bHLH transcription factor binding; ISO:RGD.
+DR   GO; GO:0019213; F:deacetylase activity; ISO:RGD.
+DR   GO; GO:0140297; F:DNA-binding transcription factor binding; ISO:RGD.
+DR   GO; GO:0019899; F:enzyme binding; IPI:BHF-UCL.
+DR   GO; GO:0042393; F:histone binding; ISO:RGD.
+DR   GO; GO:0004407; F:histone deacetylase activity; ISO:RGD.
+DR   GO; GO:0141050; F:histone H3K deacetylase activity; ISO:RGD.
+DR   GO; GO:0140937; F:histone H4K12 deacetylase activity; ISO:RGD.
+DR   GO; GO:0043398; F:HLH domain binding; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:1990254; F:keratin filament binding; ISO:RGD.
+DR   GO; GO:0070577; F:lysine-acetylated histone binding; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051019; F:mitogen-activated protein kinase binding; ISO:RGD.
+DR   GO; GO:0070403; F:NAD+ binding; IBA:GO_Central.
+DR   GO; GO:0017136; F:NAD-dependent histone deacetylase activity; IDA:RGD.
+DR   GO; GO:0160012; F:NAD-dependent histone decrotonylase activity; ISS:UniProtKB.
+DR   GO; GO:0032041; F:NAD-dependent histone H3K14 deacetylase activity; ISO:RGD.
+DR   GO; GO:0046969; F:NAD-dependent histone H3K9 deacetylase activity; ISO:RGD.
+DR   GO; GO:0046970; F:NAD-dependent histone H4K16 deacetylase activity; ISO:RGD.
+DR   GO; GO:0034979; F:NAD-dependent protein lysine deacetylase activity; ISO:RGD.
+DR   GO; GO:0016922; F:nuclear receptor binding; ISO:RGD.
+DR   GO; GO:0002039; F:p53 binding; ISO:RGD.
+DR   GO; GO:1990841; F:promoter-specific chromatin binding; ISO:RGD.
+DR   GO; GO:0019904; F:protein domain specific binding; ISO:RGD.
+DR   GO; GO:0043422; F:protein kinase B binding; IDA:RGD.
+DR   GO; GO:0033558; F:protein lysine deacetylase activity; ISO:RGD.
+DR   GO; GO:0106231; F:protein-propionyllysine depropionylase activity; ISS:UniProtKB.
+DR   GO; GO:0000978; F:RNA polymerase II cis-regulatory region sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0003713; F:transcription coactivator activity; ISO:RGD.
+DR   GO; GO:0003714; F:transcription corepressor activity; ISO:RGD.
+DR   GO; GO:0001525; P:angiogenesis; ISO:RGD.
+DR   GO; GO:0042595; P:behavioral response to starvation; ISO:RGD.
+DR   GO; GO:0010659; P:cardiac muscle cell apoptotic process; IMP:RGD.
+DR   GO; GO:1904646; P:cellular response to amyloid-beta; IMP:ARUK-UCL.
+DR   GO; GO:0071236; P:cellular response to antibiotic; IEP:RGD.
+DR   GO; GO:1904644; P:cellular response to curcumin; IEP:RGD.
+DR   GO; GO:0042149; P:cellular response to glucose starvation; ISO:RGD.
+DR   GO; GO:0070301; P:cellular response to hydrogen peroxide; IEP:RGD.
+DR   GO; GO:0071456; P:cellular response to hypoxia; ISO:RGD.
+DR   GO; GO:0071479; P:cellular response to ionizing radiation; ISO:RGD.
+DR   GO; GO:1990830; P:cellular response to leukemia inhibitory factor; ISO:RGD.
+DR   GO; GO:0071407; P:cellular response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:1904639; P:cellular response to resveratrol; IMP:RGD.
+DR   GO; GO:1904648; P:cellular response to rotenone; IEP:RGD.
+DR   GO; GO:0009267; P:cellular response to starvation; ISO:RGD.
+DR   GO; GO:0071356; P:cellular response to tumor necrosis factor; ISO:RGD.
+DR   GO; GO:0071303; P:cellular response to vitamin B3; IEP:RGD.
+DR   GO; GO:0042632; P:cholesterol homeostasis; ISO:RGD.
+DR   GO; GO:0006325; P:chromatin organization; ISO:RGD.
+DR   GO; GO:0032922; P:circadian regulation of gene expression; ISO:RGD.
+DR   GO; GO:0007623; P:circadian rhythm; ISO:RGD.
+DR   GO; GO:0006974; P:DNA damage response; ISO:RGD.
+DR   GO; GO:0140861; P:DNA repair-dependent chromatin remodeling; ISO:RGD.
+DR   GO; GO:0000731; P:DNA synthesis involved in DNA repair; ISO:RGD.
+DR   GO; GO:0097009; P:energy homeostasis; ISO:RGD.
+DR   GO; GO:0055089; P:fatty acid homeostasis; ISO:RGD.
+DR   GO; GO:0031507; P:heterochromatin formation; ISO:RGD.
+DR   GO; GO:0001678; P:intracellular glucose homeostasis; ISO:RGD.
+DR   GO; GO:0035356; P:intracellular triglyceride homeostasis; ISO:RGD.
+DR   GO; GO:0008630; P:intrinsic apoptotic signaling pathway in response to DNA damage; ISO:RGD.
+DR   GO; GO:0042771; P:intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator; ISO:RGD.
+DR   GO; GO:0033210; P:leptin-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0030225; P:macrophage differentiation; ISO:RGD.
+DR   GO; GO:0051658; P:maintenance of nucleus location; ISO:RGD.
+DR   GO; GO:0007517; P:muscle organ development; IEA:UniProtKB-KW.
+DR   GO; GO:0060766; P:negative regulation of androgen receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:0043124; P:negative regulation of canonical NF-kappaB signal transduction; ISO:RGD.
+DR   GO; GO:0010667; P:negative regulation of cardiac muscle cell apoptotic process; IMP:RGD.
+DR   GO; GO:0045786; P:negative regulation of cell cycle; ISO:RGD.
+DR   GO; GO:2000655; P:negative regulation of cellular response to testosterone stimulus; ISO:RGD.
+DR   GO; GO:2000773; P:negative regulation of cellular senescence; ISO:RGD.
+DR   GO; GO:0043518; P:negative regulation of DNA damage response, signal transduction by p53 class mediator; ISO:RGD.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0045599; P:negative regulation of fat cell differentiation; ISO:RGD.
+DR   GO; GO:2000270; P:negative regulation of fibroblast apoptotic process; IMP:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:0060125; P:negative regulation of growth hormone secretion; IMP:RGD.
+DR   GO; GO:1902166; P:negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator; ISO:RGD.
+DR   GO; GO:0043524; P:negative regulation of neuron apoptotic process; IMP:ARUK-UCL.
+DR   GO; GO:1902176; P:negative regulation of oxidative stress-induced intrinsic apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:2000757; P:negative regulation of peptidyl-lysine acetylation; ISO:RGD.
+DR   GO; GO:0051898; P:negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISO:RGD.
+DR   GO; GO:0031393; P:negative regulation of prostaglandin biosynthetic process; ISO:RGD.
+DR   GO; GO:1901984; P:negative regulation of protein acetylation; IMP:RGD.
+DR   GO; GO:1900181; P:negative regulation of protein localization to nucleus; IMP:RGD.
+DR   GO; GO:1903427; P:negative regulation of reactive oxygen species biosynthetic process; IMP:RGD.
+DR   GO; GO:1901797; P:negative regulation of signal transduction by p53 class mediator; ISO:RGD.
+DR   GO; GO:0032007; P:negative regulation of TOR signaling; ISO:RGD.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0030512; P:negative regulation of transforming growth factor beta receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0010868; P:negative regulation of triglyceride biosynthetic process; ISO:RGD.
+DR   GO; GO:0032720; P:negative regulation of tumor necrosis factor production; IMP:RGD.
+DR   GO; GO:0051402; P:neuron apoptotic process; IMP:RGD.
+DR   GO; GO:0001542; P:ovulation from ovarian follicle; ISO:RGD.
+DR   GO; GO:0002821; P:positive regulation of adaptive immune response; ISO:RGD.
+DR   GO; GO:1904179; P:positive regulation of adipose tissue development; ISO:RGD.
+DR   GO; GO:0045766; P:positive regulation of angiogenesis; ISO:RGD.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:0043536; P:positive regulation of blood vessel endothelial cell migration; ISO:RGD.
+DR   GO; GO:0061051; P:positive regulation of cell growth involved in cardiac muscle cell development; IMP:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:2000774; P:positive regulation of cellular senescence; ISO:RGD.
+DR   GO; GO:0010875; P:positive regulation of cholesterol efflux; ISO:RGD.
+DR   GO; GO:0045739; P:positive regulation of DNA repair; ISO:RGD.
+DR   GO; GO:2000781; P:positive regulation of double-strand break repair; ISO:RGD.
+DR   GO; GO:1902237; P:positive regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:0001938; P:positive regulation of endothelial cell proliferation; ISO:RGD.
+DR   GO; GO:0045722; P:positive regulation of gluconeogenesis; IMP:RGD.
+DR   GO; GO:0010460; P:positive regulation of heart rate; IMP:RGD.
+DR   GO; GO:0046628; P:positive regulation of insulin receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0035774; P:positive regulation of insulin secretion involved in cellular response to glucose stimulus; IMP:RGD.
+DR   GO; GO:0016239; P:positive regulation of macroautophagy; ISO:RGD.
+DR   GO; GO:2000111; P:positive regulation of macrophage apoptotic process; ISO:RGD.
+DR   GO; GO:0060907; P:positive regulation of macrophage cytokine production; ISO:RGD.
+DR   GO; GO:0045348; P:positive regulation of MHC class II biosynthetic process; ISO:RGD.
+DR   GO; GO:0010976; P:positive regulation of neuron projection development; IMP:RGD.
+DR   GO; GO:0051897; P:positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISO:RGD.
+DR   GO; GO:0090312; P:positive regulation of protein deacetylation; IMP:RGD.
+DR   GO; GO:0001934; P:positive regulation of protein phosphorylation; ISO:RGD.
+DR   GO; GO:0014858; P:positive regulation of skeletal muscle cell proliferation; IMP:RGD.
+DR   GO; GO:0051152; P:positive regulation of smooth muscle cell differentiation; ISO:RGD.
+DR   GO; GO:2000614; P:positive regulation of thyroid-stimulating hormone secretion; IMP:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0043161; P:proteasome-mediated ubiquitin-dependent protein catabolic process; ISO:RGD.
+DR   GO; GO:0106230; P:protein depropionylation; ISS:UniProtKB.
+DR   GO; GO:0031648; P:protein destabilization; ISO:RGD.
+DR   GO; GO:0016567; P:protein ubiquitination; ISO:RGD.
+DR   GO; GO:0000720; P:pyrimidine dimer repair by nucleotide-excision repair; ISO:RGD.
+DR   GO; GO:0000183; P:rDNA heterochromatin formation; ISO:RGD.
+DR   GO; GO:0042981; P:regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:0070857; P:regulation of bile acid biosynthetic process; ISO:RGD.
+DR   GO; GO:0090335; P:regulation of brown fat cell differentiation; ISO:RGD.
+DR   GO; GO:0042127; P:regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0010824; P:regulation of centrosome duplication; ISS:UniProtKB.
+DR   GO; GO:0010906; P:regulation of glucose metabolic process; ISO:RGD.
+DR   GO; GO:0010883; P:regulation of lipid storage; ISO:RGD.
+DR   GO; GO:0007346; P:regulation of mitotic cell cycle; ISO:RGD.
+DR   GO; GO:0035358; P:regulation of peroxisome proliferator activated receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0034391; P:regulation of smooth muscle cell apoptotic process; ISO:RGD.
+DR   GO; GO:0046015; P:regulation of transcription by glucose; ISO:RGD.
+DR   GO; GO:0042220; P:response to cocaine; IEP:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IDA:RGD.
+DR   GO; GO:1902617; P:response to fluoride; IEP:RGD.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; ISO:RGD.
+DR   GO; GO:0032868; P:response to insulin; ISO:RGD.
+DR   GO; GO:1904373; P:response to kainic acid; IEP:RGD.
+DR   GO; GO:0044321; P:response to leptin; ISO:RGD.
+DR   GO; GO:0010046; P:response to mycotoxin; IEP:RGD.
+DR   GO; GO:0031667; P:response to nutrient levels; IEP:RGD.
+DR   GO; GO:0006979; P:response to oxidative stress; ISO:RGD.
+DR   GO; GO:1904638; P:response to resveratrol; IEP:RGD.
+DR   GO; GO:0000012; P:single strand break repair; ISO:RGD.
+DR   GO; GO:0007283; P:spermatogenesis; ISO:RGD.
+DR   GO; GO:0090400; P:stress-induced premature senescence; ISO:RGD.
+DR   GO; GO:0007179; P:transforming growth factor beta receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0006642; P:triglyceride mobilization; ISO:RGD.
+DR   GO; GO:0070914; P:UV-damage excision repair; ISO:RGD.
+DR   GO; GO:0042311; P:vasodilation; IMP:RGD.
+DR   GO; GO:0050872; P:white fat cell differentiation; ISO:RGD.
+DR   CDD; cd01408; SIRT1; 1.
+DR   Gene3D; 3.30.1600.10; SIR2/SIRT2 'Small Domain; 1.
+DR   Gene3D; 3.40.50.1220; TPP-binding domain; 1.
+DR   InterPro; IPR029035; DHS-like_NAD/FAD-binding_dom.
+DR   InterPro; IPR050134; NAD-dep_sirtuin_deacylases.
+DR   InterPro; IPR003000; Sirtuin.
+DR   InterPro; IPR026591; Sirtuin_cat_small_dom_sf.
+DR   InterPro; IPR026590; Ssirtuin_cat_dom.
+DR   PANTHER; PTHR11085:SF14; NAD-DEPENDENT PROTEIN DEACETYLASE SIRTUIN-1; 1.
+DR   PANTHER; PTHR11085; NAD-DEPENDENT PROTEIN DEACYLASE SIRTUIN-5, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF02146; SIR2; 1.
+DR   SUPFAM; SSF52467; DHS-like NAD/FAD-binding domain; 1.
+DR   PROSITE; PS50305; SIRTUIN; 1.
+PE   3: Inferred from homology;
+KW   Acetylation; Apoptosis; Biological rhythms; Cytoplasm;
+KW   Developmental protein; Differentiation; Metal-binding; Methylation;
+KW   Myogenesis; NAD; Nucleus; Phosphoprotein; Reference proteome;
+KW   S-nitrosylation; Transcription; Transcription regulation; Transferase;
+KW   Ubl conjugation; Zinc.
+FT   CHAIN           1..555
+FT                   /note="NAD-dependent protein deacetylase sirtuin-1"
+FT                   /id="PRO_0000436411"
+FT   DOMAIN          44..304
+FT                   /note="Deacetylase sirtuin-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00236"
+FT   REGION          64..67
+FT                   /note="Required for interaction with the sumoylated form of
+FT                   CCAR2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EB6"
+FT   REGION          335..354
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          469..529
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           39..46
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q923E4"
+FT   MOTIF           241..247
+FT                   /note="Nuclear export signal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q923E4"
+FT   COMPBIAS        340..354
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        469..493
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        494..508
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        171
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00236"
+FT   BINDING         69..88
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IXJ6"
+FT   BINDING         153..156
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IXJ6"
+FT   BINDING         179
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00236"
+FT   BINDING         182
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00236"
+FT   BINDING         203
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00236"
+FT   BINDING         206
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00236"
+FT   BINDING         248..250
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IXJ6"
+FT   BINDING         273..275
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IXJ6"
+FT   BINDING         290
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         46
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q923E4"
+FT   MOD_RES         185
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q923E4"
+FT   MOD_RES         203
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q923E4"
+FT   MOD_RES         206
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q923E4"
+FT   MOD_RES         238
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q923E4"
+FT   MOD_RES         321
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q923E4"
+FT   MOD_RES         338
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EB6"
+FT   MOD_RES         343
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EB6"
+FT   MOD_RES         352
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EB6"
+FT   MOD_RES         417
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q923E4"
+FT   MOD_RES         466
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q923E4"
+FT   MOD_RES         468
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EB6"
+FT   MOD_RES         552
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EB6"
+SQ   SEQUENCE   555 AA;  62059 MW;  A408C8A746AB812F CRC64;
+     MIGTDPRTIL KDLLPETIPP PELDDMTLWQ IVINILSEPP KRKKRKDINT IEDAVKLLQE
+     CKKIIVLTGA GVSVSCGIPD FRSRDGIYAR LAVDFPDLPD PQAMFDIEYF RKDPRPFFKF
+     AKEIYPGQFQ PSLCHKFIAL SDKEGKLLRN YTQNIDTLEQ VAGIQRIIQC HGSFATASCL
+     ICKYKVDCEA VRGDIFNQVV PRCPRCPADE PLAIMKPEIV FFGENLPEQF HRAMKYDKDE
+     VDLLIVIGSS LKVRPVALIP SSIPHEVPQI LINREPLPHL HFDVELLGDC DVIINELCHR
+     LGGEYAKLCC NPVKLSEITE KPPRTQKELV HLSELPPTPL HISEDSSSPE RTVPQDSSVI
+     ATLVDQTIKN KVDDLEVSEP KSCVEEKSQE VQTYRNVESI NVENPDFKAV GSSTGDKNER
+     TSVAETVRKC WPNRLAKEQI SKRLDGNQYL FVPPNRYIFH GAEVYSDSED DALSSSSCGS
+     NSDSGTCQSP SLEEPLEDES EIEEFYNGLE DDADRPECAG GSGADGGDQE AVNEAIAMKQ
+     ELTDVNCTPD KSEHY
+//

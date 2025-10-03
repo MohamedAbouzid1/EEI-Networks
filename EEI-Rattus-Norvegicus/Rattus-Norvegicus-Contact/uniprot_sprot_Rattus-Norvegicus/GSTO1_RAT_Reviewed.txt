@@ -1,0 +1,183 @@
+ID   GSTO1_RAT               Reviewed;         241 AA.
+AC   Q9Z339;
+DT   24-JAN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   24-JAN-2001, sequence version 2.
+DT   24-JUL-2024, entry version 147.
+DE   RecName: Full=Glutathione S-transferase omega-1;
+DE            Short=GSTO-1;
+DE            EC=2.5.1.18 {ECO:0000250|UniProtKB:P78417};
+DE   AltName: Full=Glutathione S-transferase omega 1-1;
+DE            Short=GSTO 1-1;
+DE   AltName: Full=Glutathione-dependent dehydroascorbate reductase;
+DE            EC=1.8.5.1 {ECO:0000250|UniProtKB:P78417};
+DE   AltName: Full=Monomethylarsonic acid reductase;
+DE            Short=MMA(V) reductase;
+DE            EC=1.20.4.2 {ECO:0000250|UniProtKB:P78417};
+DE   AltName: Full=S-(Phenacyl)glutathione reductase;
+DE            Short=SPG-R;
+GN   Name=Gsto1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=9786866; DOI=10.1074/jbc.273.44.28708;
+RA   Ishikawa T., Casini A.F., Nishikimi M.;
+RT   "Molecular cloning and functional expression of rat liver glutathione-
+RT   dependent dehydroascorbate reductase.";
+RL   J. Biol. Chem. 273:28708-28712(1998).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 38-43 AND 123-132, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, and Hippocampus;
+RA   Lubec G., Diao W., Kang S.U., Lubec S.;
+RL   Submitted (SEP-2007) to UniProtKB.
+CC   -!- FUNCTION: Exhibits glutathione-dependent thiol transferase and
+CC       dehydroascorbate reductase activities. Has S-(phenacyl)glutathione
+CC       reductase activity. Has also glutathione S-transferase activity.
+CC       Participates in the biotransformation of inorganic arsenic and reduces
+CC       monomethylarsonic acid (MMA) and dimethylarsonic acid.
+CC       {ECO:0000250|UniProtKB:P78417}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glutathione + RX = a halide anion + an S-substituted
+CC         glutathione + H(+); Xref=Rhea:RHEA:16437, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16042, ChEBI:CHEBI:17792, ChEBI:CHEBI:57925,
+CC         ChEBI:CHEBI:90779; EC=2.5.1.18;
+CC         Evidence={ECO:0000250|UniProtKB:P78417};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 glutathione + L-dehydroascorbate = glutathione disulfide +
+CC         L-ascorbate; Xref=Rhea:RHEA:24424, ChEBI:CHEBI:38290,
+CC         ChEBI:CHEBI:57925, ChEBI:CHEBI:58297, ChEBI:CHEBI:58539; EC=1.8.5.1;
+CC         Evidence={ECO:0000250|UniProtKB:P78417};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 glutathione + H(+) + methylarsonate = glutathione disulfide
+CC         + H2O + methylarsonous acid; Xref=Rhea:RHEA:15969, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17826, ChEBI:CHEBI:33409,
+CC         ChEBI:CHEBI:57925, ChEBI:CHEBI:58297; EC=1.20.4.2;
+CC         Evidence={ECO:0000250|UniProtKB:P78417};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:P78417}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol.
+CC   -!- SIMILARITY: Belongs to the GST superfamily. Omega family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA34217.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB008807; BAA34217.1; ALT_FRAME; mRNA.
+DR   AlphaFoldDB; Q9Z339; -.
+DR   SMR; Q9Z339; -.
+DR   IntAct; Q9Z339; 2.
+DR   STRING; 10116.ENSRNOP00000016851; -.
+DR   iPTMnet; Q9Z339; -.
+DR   PhosphoSitePlus; Q9Z339; -.
+DR   SwissPalm; Q9Z339; -.
+DR   jPOST; Q9Z339; -.
+DR   PaxDb; 10116-ENSRNOP00000016851; -.
+DR   UCSC; RGD:70952; rat.
+DR   AGR; RGD:70952; -.
+DR   RGD; 70952; Gsto1.
+DR   eggNOG; KOG0406; Eukaryota.
+DR   InParanoid; Q9Z339; -.
+DR   PhylomeDB; Q9Z339; -.
+DR   Reactome; R-RNO-156581; Methylation.
+DR   Reactome; R-RNO-156590; Glutathione conjugation.
+DR   Reactome; R-RNO-196836; Vitamin C (ascorbate) metabolism.
+DR   PRO; PR:Q9Z339; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0005604; C:basement membrane; IDA:RGD.
+DR   GO; GO:0044297; C:cell body; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031965; C:nuclear membrane; IDA:RGD.
+DR   GO; GO:0045174; F:glutathione dehydrogenase (ascorbate) activity; IDA:RGD.
+DR   GO; GO:0004364; F:glutathione transferase activity; ISS:UniProtKB.
+DR   GO; GO:0050610; F:methylarsonate reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016491; F:oxidoreductase activity; ISS:UniProtKB.
+DR   GO; GO:0071243; P:cellular response to arsenic-containing substance; ISS:UniProtKB.
+DR   GO; GO:0006749; P:glutathione metabolic process; IBA:GO_Central.
+DR   GO; GO:0019853; P:L-ascorbic acid biosynthetic process; IMP:RGD.
+DR   GO; GO:0019852; P:L-ascorbic acid metabolic process; ISS:UniProtKB.
+DR   GO; GO:0010880; P:regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0042178; P:xenobiotic catabolic process; ISS:UniProtKB.
+DR   CDD; cd03184; GST_C_Omega; 1.
+DR   CDD; cd03055; GST_N_Omega; 1.
+DR   Gene3D; 1.20.1050.10; -; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   InterPro; IPR010987; Glutathione-S-Trfase_C-like.
+DR   InterPro; IPR036282; Glutathione-S-Trfase_C_sf.
+DR   InterPro; IPR004045; Glutathione_S-Trfase_N.
+DR   InterPro; IPR004046; GST_C.
+DR   InterPro; IPR005442; GST_omega.
+DR   InterPro; IPR050983; GST_Omega/HSP26.
+DR   InterPro; IPR045073; Omega/Tau-like.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   PANTHER; PTHR43968; -; 1.
+DR   PANTHER; PTHR43968:SF5; GLUTATHIONE S-TRANSFERASE OMEGA-1; 1.
+DR   Pfam; PF00043; GST_C; 1.
+DR   Pfam; PF13409; GST_N_2; 1.
+DR   PRINTS; PR01625; GSTRNSFRASEO.
+DR   SFLD; SFLDG01152; Main.3:_Omega-_and_Tau-like; 1.
+DR   SFLD; SFLDG00358; Main_(cytGST); 1.
+DR   SUPFAM; SSF47616; GST C-terminal domain-like; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS50405; GST_CTER; 1.
+DR   PROSITE; PS50404; GST_NTER; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Direct protein sequencing; Oxidoreductase;
+KW   Phosphoprotein; Reference proteome; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P78417"
+FT   CHAIN           2..241
+FT                   /note="Glutathione S-transferase omega-1"
+FT                   /id="PRO_0000185887"
+FT   DOMAIN          22..101
+FT                   /note="GST N-terminal"
+FT   DOMAIN          106..228
+FT                   /note="GST C-terminal"
+FT   ACT_SITE        32
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:P78417"
+FT   BINDING         59
+FT                   /ligand="glutathione"
+FT                   /ligand_id="ChEBI:CHEBI:57925"
+FT                   /evidence="ECO:0000250|UniProtKB:P78417"
+FT   BINDING         72
+FT                   /ligand="glutathione"
+FT                   /ligand_id="ChEBI:CHEBI:57925"
+FT                   /evidence="ECO:0000250|UniProtKB:P78417"
+FT   BINDING         85..86
+FT                   /ligand="glutathione"
+FT                   /ligand_id="ChEBI:CHEBI:57925"
+FT                   /evidence="ECO:0000250|UniProtKB:P78417"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P78417"
+FT   MOD_RES         57
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P78417"
+FT   MOD_RES         129
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P78417"
+FT   MOD_RES         143
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P78417"
+FT   MOD_RES         148
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P78417"
+FT   MOD_RES         152
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P78417"
+SQ   SEQUENCE   241 AA;  27669 MW;  31EAC5A7CAF22BC6 CRC64;
+     MSGASARSLG KGSAPPGPVP EGQIRVYSMR FCPFAQRTLM VLKAKGIRHE IININLKNKP
+     EWFFEKNPFG LVPVLENTQG HLITESVITC EYLDEAYPEK KLFPDDPYEK ACQKMTFELF
+     SKVPSLVTSF IRAKRKEDHP GIKEELKKEF SKLEEAMANK RTAFFGGNSL SMIDYLIWPW
+     FQRLEALELN ECIDHTPKLK LWMATMQEDP VASSHFIDAK TYRDYLSLYL QDSPEACDYG
+     L
+//

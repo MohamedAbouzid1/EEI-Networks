@@ -1,0 +1,427 @@
+ID   CDK12_RAT               Reviewed;        1484 AA.
+AC   Q3MJK5; Q8R458;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2005, sequence version 1.
+DT   02-OCT-2024, entry version 143.
+DE   RecName: Full=Cyclin-dependent kinase 12;
+DE            EC=2.7.11.22;
+DE            EC=2.7.11.23;
+DE   AltName: Full=Cdc2-related kinase, arginine/serine-rich;
+DE            Short=CrkRS;
+DE   AltName: Full=Cell division cycle 2-related protein kinase 7;
+DE            Short=CDC2-related protein kinase 7;
+DE   AltName: Full=Cell division protein kinase 12;
+DE   AltName: Full=Protein kinase for splicing component;
+GN   Name=Cdk12; Synonyms=Crk7, Crkrs, Pksc;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), INTERACTION WITH CCNL1 AND
+RP   CCNL2, SUBCELLULAR LOCATION, FUNCTION, DEVELOPMENTAL STAGE, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=16537916; DOI=10.1128/mcb.26.7.2736-2745.2006;
+RA   Chen H.-H., Wang Y.-C., Fann M.-J.;
+RT   "Identification and characterization of the CDK12/cyclin L1 complex
+RT   involved in alternative splicing regulation.";
+RL   Mol. Cell. Biol. 26:2736-2745(2006).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-322; SER-324; SER-331;
+RP   SER-333; SER-382; SER-384; SER-422; SER-640; SER-677; SER-681 AND THR-889,
+RP   AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Cyclin-dependent kinase that phosphorylates the C-terminal
+CC       domain (CTD) of the large subunit of RNA polymerase II (POLR2A),
+CC       thereby acting as a key regulator of transcription elongation.
+CC       Regulates the expression of genes involved in DNA repair and is
+CC       required for the maintenance of genomic stability. Preferentially
+CC       phosphorylates 'Ser-5' in CTD repeats that are already phosphorylated
+CC       at 'Ser-7', but can also phosphorylate 'Ser-2'. Involved in regulation
+CC       of MAP kinase activity, possibly leading to affect the response to
+CC       estrogen inhibitors (By similarity). Required for RNA splicing,
+CC       possibly by phosphorylating SRSF1/SF2. {ECO:0000250,
+CC       ECO:0000269|PubMed:16537916}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[DNA-directed RNA polymerase] + ATP = ADP + H(+) + phospho-
+CC         [DNA-directed RNA polymerase]; Xref=Rhea:RHEA:10216, Rhea:RHEA-
+CC         COMP:11321, Rhea:RHEA-COMP:11322, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43176, ChEBI:CHEBI:68546,
+CC         ChEBI:CHEBI:456216; EC=2.7.11.23;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.22;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.22;
+CC   -!- SUBUNIT: Interacts with CCNL1 and CCNL2. {ECO:0000269|PubMed:16537916}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000269|PubMed:16537916}. Nucleus
+CC       speckle {ECO:0000269|PubMed:16537916}. Note=Colocalized with nuclear
+CC       speckles throughout interphase.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1; Synonyms=CDK12(L);
+CC         IsoId=Q3MJK5-1; Sequence=Displayed;
+CC       Name=2; Synonyms=CDK12(S);
+CC         IsoId=Q3MJK5-2; Sequence=VSP_030288, VSP_030289;
+CC   -!- TISSUE SPECIFICITY: Expressed in embryonic tissues such as brain,
+CC       spinal cord, heart, lung, liver, gut and limb. Levels are lower in
+CC       adult tissues. {ECO:0000269|PubMed:16537916}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed at 10.5 and 14.5 dpc.
+CC       {ECO:0000269|PubMed:16537916}.
+CC   -!- PTM: Phosphorylation at Thr-889 increases kinase activity.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC Ser/Thr
+CC       protein kinase family. CDC2/CDKX subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY072294; AAL69525.1; -; mRNA.
+DR   EMBL; AY962568; AAY41734.1; -; mRNA.
+DR   RefSeq; NP_001029039.1; NM_001033867.1. [Q3MJK5-1]
+DR   RefSeq; NP_620271.1; NM_138916.2. [Q3MJK5-2]
+DR   AlphaFoldDB; Q3MJK5; -.
+DR   SMR; Q3MJK5; -.
+DR   STRING; 10116.ENSRNOP00000008256; -.
+DR   iPTMnet; Q3MJK5; -.
+DR   PhosphoSitePlus; Q3MJK5; -.
+DR   jPOST; Q3MJK5; -.
+DR   PaxDb; 10116-ENSRNOP00000008256; -.
+DR   GeneID; 192350; -.
+DR   KEGG; rno:192350; -.
+DR   UCSC; RGD:621111; rat. [Q3MJK5-1]
+DR   AGR; RGD:621111; -.
+DR   CTD; 51755; -.
+DR   RGD; 621111; Cdk12.
+DR   VEuPathDB; HostDB:ENSRNOG00000006000; -.
+DR   eggNOG; KOG0600; Eukaryota.
+DR   InParanoid; Q3MJK5; -.
+DR   OrthoDB; 5402490at2759; -.
+DR   PhylomeDB; Q3MJK5; -.
+DR   TreeFam; TF101060; -.
+DR   Reactome; R-RNO-6796648; TP53 Regulates Transcription of DNA Repair Genes.
+DR   PRO; PR:Q3MJK5; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000006000; Expressed in spleen and 18 other cell types or tissues.
+DR   ExpressionAtlas; Q3MJK5; baseline and differential.
+DR   GO; GO:0002944; C:cyclin K-CDK12 complex; ISO:RGD.
+DR   GO; GO:0008024; C:cyclin/CDK positive transcription elongation factor complex; IBA:GO_Central.
+DR   GO; GO:0019908; C:nuclear cyclin-dependent protein kinase holoenzyme complex; IDA:UniProtKB.
+DR   GO; GO:0016607; C:nuclear speck; IDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030332; F:cyclin binding; IDA:RGD.
+DR   GO; GO:0004693; F:cyclin-dependent protein serine/threonine kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004672; F:protein kinase activity; ISO:RGD.
+DR   GO; GO:0019901; F:protein kinase binding; ISO:RGD.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0008353; F:RNA polymerase II CTD heptapeptide repeat kinase activity; ISS:UniProtKB.
+DR   GO; GO:0006397; P:mRNA processing; IEA:UniProtKB-KW.
+DR   GO; GO:2000737; P:negative regulation of stem cell differentiation; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISS:UniProtKB.
+DR   GO; GO:0032968; P:positive regulation of transcription elongation by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0043405; P:regulation of MAP kinase activity; ISS:UniProtKB.
+DR   GO; GO:0043484; P:regulation of RNA splicing; IDA:RGD.
+DR   GO; GO:0008380; P:RNA splicing; IMP:UniProtKB.
+DR   GO; GO:0006366; P:transcription by RNA polymerase II; ISO:RGD.
+DR   CDD; cd07864; STKc_CDK12; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR050108; CDK.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   PANTHER; PTHR24056; CELL DIVISION PROTEIN KINASE; 1.
+DR   PANTHER; PTHR24056:SF126; CYCLIN-DEPENDENT KINASE 12; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Isopeptide bond; Kinase;
+KW   mRNA processing; mRNA splicing; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Reference proteome; Serine/threonine-protein kinase;
+KW   Transferase; Ubl conjugation.
+FT   CHAIN           1..1484
+FT                   /note="Cyclin-dependent kinase 12"
+FT                   /id="PRO_0000314471"
+FT   DOMAIN          723..1016
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          1..462
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          485..603
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          616..699
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1046..1101
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1156..1199
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1218..1356
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1437..1484
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        15..33
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        36..50
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        85..105
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        106..121
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        122..139
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        172..193
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        232..363
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        364..378
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        397..411
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        422..453
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        526..571
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        572..603
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        636..661
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        669..691
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1062..1077
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1185..1199
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1218..1239
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1255..1280
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1324..1356
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1437..1458
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        855
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         729..737
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         752
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         810..815
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         1036
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         57
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         73
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         235
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         248
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         264
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         273
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         275
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         300
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         302
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         309
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         311
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         317
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         322
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         324
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         331
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         332
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         333
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         337
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         340
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         342
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         344
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         382
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         384
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         399
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         419
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         422
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         511
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         610
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         640
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         677
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         681
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         688
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         885
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         889
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1049
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         1079
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         1240
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   MOD_RES         1242
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14AX6"
+FT   CROSSLNK        262
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   CROSSLNK        506
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   CROSSLNK        651
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYV4"
+FT   VAR_SEQ         1250..1258
+FT                   /note="ACPPHILPP -> GKQTGHESQ (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:16537916"
+FT                   /id="VSP_030288"
+FT   VAR_SEQ         1259..1484
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:16537916"
+FT                   /id="VSP_030289"
+SQ   SEQUENCE   1484 AA;  163790 MW;  E3B346EA6A587D7B CRC64;
+     MPNSERHGGK KDGSGGASGT SQPSSGGGSS NSRERHRLVS KHKRHKSKHS KDMGLVTPEA
+     ASLGTIIKPL VEYDDISSDS DTFSDDMAFK SDRRENDERR GTDRSDRLHR HRHHQHRRSR
+     DLLKTKQTEK EKNQEVSKSG SMKDRLSGSS KRSVEGNDDY GKAQLSKSSS KESRSSKMHK
+     EKTRKERELK SGHKDRSKSH RKRETPKSYK TVDSPKRRSR SPHRKWSDSS KQDDSPSGAS
+     YGQDYDLSPP RSHTSSNYDS YKKSPGSTSR RQSISPPYKE PSAYQSSTRS PSPYSRRQRS
+     VSPYSRRRSS SYERSGSYSG RSPSPYGRRR SSSPFLSKRS LSRSPISSRK SMKSRSRSPA
+     YSRHSSSHSK KKRSGSRSRH SSISPVRLPL NSSLGAELSR KKKERAAAAA AAKLDGKESK
+     GSPIILPKKE KFEVKESGLE SKKLPRGIKS EKSTPDTELV NVAHSNTEVK NCLDTGKVKL
+     DENLQKHPVK DLKAQGTKDT KPVALKEVIV TSKETETSEK EALPPLPTIT SPPPLPSTTP
+     PPQTPPLPPL PPLPAVPLQP PLPPPQPPFS QVPVSNTSTL PSSPHPRTST LSSQTNSQPL
+     VQVSMKTQLS VTAAIPHLKT STLPPLPLPP LLPGDDDMDS PKEMLPSKPA KKEKEQRTRH
+     LLTDLPLPPE LPGGDPSPPD SPEPKAITPP QQPYKKRPKI CCPRYGERRQ TESDWGKRCV
+     DKFDIIGIIG EGTYGQVYKA KDKDTGELVA LKKVRLDNEK EGFPITAIRE IKILRQLVHQ
+     SVVNMKEIVT DKQDALDFKK DKGAFYLVFE YMDHDLMGLL ESGLVHFSED HIKSFMKQLM
+     EGLDYCHKKN FLHRDIKCSN ILLNNSGQIK LADFGLARLY NSEESRPYTN KVITLWYRPP
+     ELLLGEERYT PAIDVWSCGC ILGELFTKKP IFQANLELAQ LELISRLCGS PCPAVWPDVI
+     KLPYFNTMKP KKQYRRRLRE EFSFIPSAAL DLLDHMLTLD PSKRCTAEQT LQSDFLKDVE
+     LSKMAPPDLP HWQDCHELWS KKRRRQRQSG IVIEEQPPSK ASRKETTSGT AAEPVKNSSP
+     APPQPAPVKA EPGPGDAVGL GDITQQLNQS ELAVLLNLLQ SQTDLSIPQM AQLLNIHSNP
+     EMQQQLEALN QSISALTEAS SQQQDSESIA PEESLKEVPS VSVVLPPAEQ TTPEASNTPA
+     DMQNMLAVLL SQLMKTQEPA GNLEENTSDK NSGPQGPRRT PTMPQEEAAA CPPHILPPEK
+     RPPEPPGPPP PPPPPPLVEG DLSSAPQELN PAVTAALLQL LSQPEAEPPG HLPHEHQALR
+     PMEYSTRSHP NRTYGNTDGP ETGFSATDTD ERSSGPALTE SLVQTLVKNR TFSGSVSHLG
+     ESNSYQGTGS VQFPGDQDLR FTRVPLALHS VVGQPFLKSE GNSNSVVHAE TKLQNYGELG
+     PGTTGANSSG TTLQWGGPAQ SFGKPYRGAA RVPPRGGRGR GVPY
+//

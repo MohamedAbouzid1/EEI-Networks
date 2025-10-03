@@ -1,0 +1,504 @@
+ID   ITPR2_RAT               Reviewed;        2701 AA.
+AC   P29995; Q99P56;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 1.
+DT   02-OCT-2024, entry version 180.
+DE   RecName: Full=Inositol 1,4,5-trisphosphate-gated calcium channel ITPR2 {ECO:0000305};
+DE   AltName: Full=IP3 receptor isoform 2;
+DE            Short=IP3R 2;
+DE            Short=InsP3R2;
+DE   AltName: Full=Inositol 1,4,5-trisphosphate receptor type 2;
+DE   AltName: Full=Type 2 inositol 1,4,5-trisphosphate receptor;
+DE            Short=Type 2 InsP3 receptor;
+GN   Name=Itpr2 {ECO:0000312|RGD:69649};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND VARIANTS.
+RC   TISSUE=Brain;
+RX   PubMed=1655411; DOI=10.1002/j.1460-2075.1991.tb04882.x;
+RA   Suedhof T.C., Newton C.A., Archer B.T. III, Ushkaryov Y.A., Mignery G.A.;
+RT   "Structure of a novel InsP3 receptor.";
+RL   EMBO J. 10:3199-3206(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RA   Magnino F., Dufour J.-F.;
+RT   "New rat IP3R isoform 2 sequence.";
+RL   Submitted (APR-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   FUNCTION, TRANSPORTER ACTIVITY, AND ACTIVITY REGULATION.
+RX   PubMed=10620513; DOI=10.1042/bj3450357;
+RA   Adkins C.E., Morris S.A., De Smedt H., Sienaert I., Toeroek K.,
+RA   Taylor C.W.;
+RT   "Ca2+-calmodulin inhibits Ca2+ release mediated by type-1, -2 and -3
+RT   inositol trisphosphate receptors.";
+RL   Biochem. J. 345:357-363(2000).
+RN   [4]
+RP   INTERACTION WITH TRPC4.
+RX   PubMed=11163362; DOI=10.1016/s0014-5793(00)02362-0;
+RA   Mery L., Magnino F., Schmidt K., Krause K.-H., Dufour J.-F.;
+RT   "Alternative splice variants of hTrp4 differentially interact with the C-
+RT   terminal portion of the inositol 1,4,5-trisphosphate receptors.";
+RL   FEBS Lett. 487:377-383(2001).
+RN   [5]
+RP   SUBUNIT, AND INTERACTION WITH CABP1.
+RX   PubMed=12032348; DOI=10.1073/pnas.102006299;
+RA   Yang J., McBride S., Mak D.-O.D., Vardi N., Palczewski K., Haeseleer F.,
+RA   Foskett J.K.;
+RT   "Identification of a family of calcium sensors as protein ligands of
+RT   inositol trisphosphate receptor Ca(2+) release channels.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:7711-7716(2002).
+RN   [6]
+RP   PHOSPHORYLATION AT SER-150, FUNCTION, CATALYTIC ACTIVITY, AND MUTAGENESIS
+RP   OF SER-150.
+RX   PubMed=23019322; DOI=10.1074/jbc.m112.374058;
+RA   Maxwell J.T., Natesan S., Mignery G.A.;
+RT   "Modulation of inositol 1,4,5-trisphosphate receptor type 2 channel
+RT   activity by Ca2+/calmodulin-dependent protein kinase II (CaMKII)-mediated
+RT   phosphorylation.";
+RL   J. Biol. Chem. 287:39419-39428(2012).
+RN   [7]
+RP   INTERACTION WITH BOK.
+RX   PubMed=23884412; DOI=10.1074/jbc.m113.496570;
+RA   Schulman J.J., Wright F.A., Kaufmann T., Wojcikiewicz R.J.;
+RT   "The Bcl-2 protein family member Bok binds to the coupling domain of
+RT   inositol 1,4,5-trisphosphate receptors and protects them from proteolytic
+RT   cleavage.";
+RL   J. Biol. Chem. 288:25340-25349(2013).
+CC   -!- FUNCTION: Inositol 1,4,5-trisphosphate-gated calcium channel that upon
+CC       inositol 1,4,5-trisphosphate binding transports calcium from the
+CC       endoplasmic reticulum lumen to cytoplasm (PubMed:10620513,
+CC       PubMed:1655411, PubMed:23019322). Exists in two states; a long-lived
+CC       closed state where the channel is essentially 'parked' with only very
+CC       rare visits to an open state and that ligands facilitate the transition
+CC       from the 'parked' state into a 'drive' mode represented by periods of
+CC       bursting activity (By similarity). {ECO:0000250|UniProtKB:Q9Z329,
+CC       ECO:0000269|PubMed:10620513, ECO:0000269|PubMed:1655411,
+CC       ECO:0000269|PubMed:23019322}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Ca(2+)(in) = Ca(2+)(out); Xref=Rhea:RHEA:29671,
+CC         ChEBI:CHEBI:29108; Evidence={ECO:0000269|PubMed:10620513,
+CC         ECO:0000269|PubMed:23019322};
+CC   -!- ACTIVITY REGULATION: Inositol 1,4,5-trisphosphate-gated calcium channel
+CC       activity is inhibited by CALM1 in a calcium-dependent manner
+CC       (PubMed:10620513). Inositol 1,4,5-trisphosphate-gated calcium channel
+CC       activity is increased by cAMP that occurs independently of PKA
+CC       activation. ATP and cytosolic calcium modulate the open probability
+CC       (Po) predominantly by facilitating extended 'bursting' activity of the
+CC       channel (By similarity). {ECO:0000250|UniProtKB:Q9Z329,
+CC       ECO:0000269|PubMed:10620513}.
+CC   -!- SUBUNIT: Homotetramer (PubMed:12032348). Interacts with CABP1
+CC       (PubMed:12032348). Interacts with BOK; regulates ITPR2 expression
+CC       (PubMed:23884412). Interacts with BCL2L10 (By similarity). Interacts
+CC       with TRPC4 (PubMed:11163362). Interacts with CHGA and CHGB (By
+CC       similarity). {ECO:0000250|UniProtKB:Q14571,
+CC       ECO:0000250|UniProtKB:Q8WN96, ECO:0000269|PubMed:11163362,
+CC       ECO:0000269|PubMed:12032348, ECO:0000269|PubMed:23884412}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q9Z329}; Multi-pass membrane protein
+CC       {ECO:0000255}. Cytoplasmic vesicle, secretory vesicle membrane
+CC       {ECO:0000250|UniProtKB:Q8WN96}; Multi-pass membrane protein
+CC       {ECO:0000255}. Note=Forms clusters on endoplasmic reticulum membrane
+CC       upon inositol 1,4,5-trisphosphate binding.
+CC       {ECO:0000250|UniProtKB:Q9Z329}.
+CC   -!- PTM: Phosphorylation by CaMK2 on Ser-150 significantly decreases the
+CC       channel open probability. {ECO:0000269|PubMed:23019322}.
+CC   -!- PTM: Phosphorylation by cAMP-dependent PKA on Ser-937 increases calcium
+CC       release. {ECO:0000250|UniProtKB:Q9Z329}.
+CC   -!- SIMILARITY: Belongs to the InsP3 receptor family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X61677; CAA43852.1; -; mRNA.
+DR   EMBL; AF329470; AAK11622.1; -; mRNA.
+DR   PIR; S17796; S17796.
+DR   RefSeq; NP_112308.1; NM_031046.3.
+DR   SMR; P29995; -.
+DR   BioGRID; 249575; 2.
+DR   IntAct; P29995; 2.
+DR   STRING; 10116.ENSRNOP00000047905; -.
+DR   TCDB; 1.A.3.2.1; the ryanodine-inositol 1,4,5-triphosphate receptor ca(2+) channel (rir-cac) family.
+DR   iPTMnet; P29995; -.
+DR   PhosphoSitePlus; P29995; -.
+DR   jPOST; P29995; -.
+DR   PaxDb; 10116-ENSRNOP00000047905; -.
+DR   GeneID; 81678; -.
+DR   KEGG; rno:81678; -.
+DR   UCSC; RGD:69649; rat.
+DR   AGR; RGD:69649; -.
+DR   CTD; 3709; -.
+DR   RGD; 69649; Itpr2.
+DR   eggNOG; KOG3533; Eukaryota.
+DR   InParanoid; P29995; -.
+DR   OrthoDB; 5480299at2759; -.
+DR   PhylomeDB; P29995; -.
+DR   Reactome; R-RNO-114508; Effects of PIP2 hydrolysis.
+DR   Reactome; R-RNO-139853; Elevation of cytosolic Ca2+ levels.
+DR   Reactome; R-RNO-381676; Glucagon-like Peptide-1 (GLP1) regulates insulin secretion.
+DR   Reactome; R-RNO-5578775; Ion homeostasis.
+DR   Reactome; R-RNO-983695; Antigen activates B Cell Receptor (BCR) leading to generation of second messengers.
+DR   PRO; PR:P29995; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0005938; C:cell cortex; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0043235; C:receptor complex; ISO:RGD.
+DR   GO; GO:0016529; C:sarcoplasmic reticulum; IDA:RGD.
+DR   GO; GO:0033017; C:sarcoplasmic reticulum membrane; ISO:RGD.
+DR   GO; GO:0030667; C:secretory granule membrane; IBA:GO_Central.
+DR   GO; GO:0030658; C:transport vesicle membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:RGD.
+DR   GO; GO:0070679; F:inositol 1,4,5 trisphosphate binding; IDA:RGD.
+DR   GO; GO:0005220; F:inositol 1,4,5-trisphosphate-gated calcium channel activity; IDA:UniProtKB.
+DR   GO; GO:0015278; F:intracellularly gated calcium channel activity; ISO:RGD.
+DR   GO; GO:0035091; F:phosphatidylinositol binding; ISO:RGD.
+DR   GO; GO:0097110; F:scaffold protein binding; ISO:RGD.
+DR   GO; GO:0044325; F:transmembrane transporter binding; ISO:RGD.
+DR   GO; GO:0070588; P:calcium ion transmembrane transport; ISO:RGD.
+DR   GO; GO:0006816; P:calcium ion transport; ISO:RGD.
+DR   GO; GO:0019722; P:calcium-mediated signaling; ISO:RGD.
+DR   GO; GO:0071320; P:cellular response to cAMP; ISO:RGD.
+DR   GO; GO:0071361; P:cellular response to ethanol; ISO:RGD.
+DR   GO; GO:0071456; P:cellular response to hypoxia; IEP:RGD.
+DR   GO; GO:0051209; P:release of sequestered calcium ion into cytosol; IMP:BHF-UCL.
+DR   GO; GO:0001666; P:response to hypoxia; ISO:RGD.
+DR   Gene3D; 1.10.287.70; -; 1.
+DR   Gene3D; 2.80.10.50; -; 2.
+DR   Gene3D; 1.25.10.30; IP3 receptor type 1 binding core, RIH domain; 1.
+DR   InterPro; IPR016024; ARM-type_fold.
+DR   InterPro; IPR014821; Ins145_P3_rcpt.
+DR   InterPro; IPR000493; InsP3_rcpt.
+DR   InterPro; IPR005821; Ion_trans_dom.
+DR   InterPro; IPR036300; MIR_dom_sf.
+DR   InterPro; IPR016093; MIR_motif.
+DR   InterPro; IPR013662; RIH_assoc-dom.
+DR   InterPro; IPR000699; RIH_dom.
+DR   InterPro; IPR015925; Ryanodine_IP3_receptor.
+DR   InterPro; IPR035910; RyR/IP3R_RIH_dom_sf.
+DR   PANTHER; PTHR45816:SF3; INOSITOL 1,4,5-TRISPHOSPHATE RECEPTOR; 1.
+DR   PANTHER; PTHR45816; MIR DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF08709; Ins145_P3_rec; 1.
+DR   Pfam; PF00520; Ion_trans; 1.
+DR   Pfam; PF02815; MIR; 1.
+DR   Pfam; PF08454; RIH_assoc; 1.
+DR   Pfam; PF01365; RYDR_ITPR; 2.
+DR   PRINTS; PR00779; INSP3RECEPTR.
+DR   SMART; SM00472; MIR; 4.
+DR   SUPFAM; SSF48371; ARM repeat; 1.
+DR   SUPFAM; SSF100909; IP3 receptor type 1 binding core, domain 2; 2.
+DR   SUPFAM; SSF82109; MIR domain; 2.
+DR   PROSITE; PS50919; MIR; 5.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Calcium; Calcium channel; Calcium transport;
+KW   Cytoplasmic vesicle; Endoplasmic reticulum; Ion channel; Ion transport;
+KW   Ligand-gated ion channel; Membrane; Metal-binding; Nucleotide-binding;
+KW   Phosphoprotein; Receptor; Reference proteome; Repeat; Transmembrane;
+KW   Transmembrane helix; Transport; Zinc.
+FT   CHAIN           1..2701
+FT                   /note="Inositol 1,4,5-trisphosphate-gated calcium channel
+FT                   ITPR2"
+FT                   /id="PRO_0000153926"
+FT   TOPO_DOM        1..2227
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        2228..2248
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        2249..2260
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        2261..2281
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        2282..2284
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        2285..2305
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        2306..2307
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        2308..2328
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        2329..2351
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        2352..2372
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        2373..2394
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        2395..2415
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        2416..2521
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        2522..2542
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        2543..2701
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          112..166
+FT                   /note="MIR 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00131"
+FT   DOMAIN          173..223
+FT                   /note="MIR 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00131"
+FT   DOMAIN          231..287
+FT                   /note="MIR 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00131"
+FT   DOMAIN          294..357
+FT                   /note="MIR 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00131"
+FT   DOMAIN          378..434
+FT                   /note="MIR 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00131"
+FT   REGION          1134..1174
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          2676..2701
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1156..1174
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         265
+FT                   /ligand="1D-myo-inositol 1,4,5-trisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:203600"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         267
+FT                   /ligand="1D-myo-inositol 1,4,5-trisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:203600"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         268
+FT                   /ligand="1D-myo-inositol 1,4,5-trisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:203600"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         269
+FT                   /ligand="1D-myo-inositol 1,4,5-trisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:203600"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         503
+FT                   /ligand="1D-myo-inositol 1,4,5-trisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:203600"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         507
+FT                   /ligand="1D-myo-inositol 1,4,5-trisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:203600"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         510
+FT                   /ligand="1D-myo-inositol 1,4,5-trisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:203600"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         567
+FT                   /ligand="1D-myo-inositol 1,4,5-trisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:203600"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         568
+FT                   /ligand="1D-myo-inositol 1,4,5-trisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:203600"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         569
+FT                   /ligand="1D-myo-inositol 1,4,5-trisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:203600"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         744
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="low affinity"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         1124
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="low affinity"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         1127
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="low affinity"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         1930
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /ligand_note="high affinity"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         1994
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /ligand_note="high affinity"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2044
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2177
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2562
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2562
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2563
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2565
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2582
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2584
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2587
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2587
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2588
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2589
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   BINDING         2605
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /ligand_note="high affinity"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14573"
+FT   MOD_RES         150
+FT                   /note="Phosphoserine; by CaMK2"
+FT                   /evidence="ECO:0000269|PubMed:23019322"
+FT   MOD_RES         937
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z329"
+FT   MOD_RES         1160
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14571"
+FT   MOD_RES         1709
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z329"
+FT   MOD_RES         2607
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         2633
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z329"
+FT   MOD_RES         2636
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z329"
+FT   VARIANT         689
+FT                   /note="D -> H"
+FT   VARIANT         1013
+FT                   /note="G -> C"
+FT   VARIANT         1256
+FT                   /note="L -> P"
+FT   VARIANT         2384
+FT                   /note="V -> I"
+FT   VARIANT         2694
+FT                   /note="E -> V"
+FT   MUTAGEN         150
+FT                   /note="S->A: Loss of phosphorylation by CaMK2. Does not
+FT                   affect Inositol 1,4,5-trisphosphate-sensitive calcium-
+FT                   release channel activity."
+FT                   /evidence="ECO:0000269|PubMed:23019322"
+FT   MUTAGEN         150
+FT                   /note="S->E: Decreases Inositol 1,4,5-trisphosphate-
+FT                   sensitive calcium-release channel activity."
+FT                   /evidence="ECO:0000269|PubMed:23019322"
+FT   CONFLICT        119
+FT                   /note="K -> N (in Ref. 2; AAK11622)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        344
+FT                   /note="H -> R (in Ref. 2; AAK11622)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        943
+FT                   /note="W -> V (in Ref. 2; AAK11622)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1692
+FT                   /note="S -> G (in Ref. 2; AAK11622)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        2556
+FT                   /note="K -> E (in Ref. 2; AAK11622)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   2701 AA;  307058 MW;  42BF7F1024335984 CRC64;
+     MSDKMSSFLY IGDIVSLYAE GSVNGFISTL GLVDDRCVVH PEAGDLTNPP KKFRDCLFKV
+     CPMNRYSAQK QYWKAKQAKQ GNHTEAALLK KLQHAAELEQ KQNESENRKL LGEIVKYSKV
+     IQLLHIKSNK YLTVNKRLPA LLEKNAMRVS LDAAGNEGSW FYIHPFWKLR SEGDNIVVGD
+     KVVLMPVNAG QPLHASNVEL LDNPGCKEVN AVNCNTSWKI TLFMKFSSYR EDVLKGGDVV
+     RLFHAEQEKF LTCDDYEKKQ HIFLRTTLRQ SATSATSSKA LWEIEVVHHD PCRGGAGQWN
+     SLFRFKHLAT GNYLAAELNP DYRDAQNEGK TVRDGELPTS KKKHQAGEKI MYTLVSVPHG
+     NDIASLFELD ATTLQRADCL VPRNSYVRLR HLCTNTWVTS TSIPIDTEEE RPVMLKIGTC
+     QTKEDKEAFA IVCVPLSEVR DLDFANDANK VLATTVKKLE NGSITQNERR FVTKLLEDLI
+     FFVADVTNNG QDVLDVVITK PNRERQKLMR EQNILAQVFG ILKAPFKEKA GEGSMLRLED
+     LGDQRYAPYK YVLRLCYRVL RHSQQDYRKN QEYIAKNFCV MQSQIGYDIL AEDTITALLH
+     NNRKLLEKHI TAKEIETFVS LLRRNREPRF LDYLSDLCVS NSTAIPVTQE LICKFMLSPG
+     NADILIQTKL VSMQVENPME SSILPDDIDD EEVWLYWIDS NKEPHGKAIR HLAQEAREGT
+     KADLEVLTYY RYQLNLFARM CLDRQYLAIN QISTQLSVDL ILRCVSDESL PFDLRASFCR
+     LMLHMHVDRD PQESVVPVRY ARLWTEIPTK ITIHEYDSIT DSSRNDMKRK FALTMEFVEE
+     YLKEVVNQPF PFGDKEKNKL TFEVVHLARN LIYFGFYSFS ELLRLTRTLL AILDIVQAPM
+     SSYFERLSKF QDGSNNVMRT IHGVGEMMTQ MVLSRGSIFP VSWPDAQPSV HPSKQASPGE
+     QEDVTVMDTK LKVIEILQFI LSVRLDYRIS YMLSIYKKEF GENDGNGDPS ASGTPETLLP
+     SALVPDIDEI AAQAETMFAG RKEKTPVQLD DEGGRTFLRV LIHLIMHDYA PLLSGALQLL
+     FKHFSQRAEV LQAFKQVQLL VSNQDVDNYK QIKADLDQLR LTVEKSELWV EKSGSYENGD
+     MGEGQAKGGE EANEESNLLS PVQDGAKTPQ IDSNKGNNYR IVKEILIRLS KLCVQNKKCR
+     NQHQRLLKNM GAHSVVLDLL QIPYEKTDEK MNEVMDLAHT FLQNFCRGNP QNQVLLHKHL
+     NLFLTPGLLE AETMRHIFMN NYHLCNEISE RVVQHFVHCI ETHGRHVEYL RFLQTIVKAD
+     GKYVKKCQDM VMTELINGGE DVLIFYNDRA SFPILLNMMC SERARGDESG PLAYHITLVE
+     LLAACTEGKN VYTEIKCNSL LPLDDIVRVV THDDCIPEVK IAYVNFVNHC YVDTEVEMKE
+     IYTSNHIWKL FENFLVDMAR VCNTTTDRKH ADTFLERCVT ESVMNIVSGF FNSPFSDNST
+     SLQTHQPVFI QLLQSAFRIY NCTWPNPAQK ASVESCIRAL AEVAKNRGIA IPVDLDSQVN
+     TLFMKNHSST VQRAAMGWRL SARSGPRFKE ALGGPAWDYR NIIEKLQDVV ASLEQQFSPM
+     MQAEFSVLVD VLYSPELLFP EGSDARIRCG AFMSKLINHT KKLMEKEEKL CIKILQTLRE
+     MLEKKDSFME ESSTLRKILL NRYFKGDHSV GVNGPLSGAY AKTAQVGGGF TGQDADKTGI
+     SMSDIQCLLD KEGASELVID VIVNTKNDRI FSEGILLGIA LLEGGNTQTQ NSFYQQLHEQ
+     KKSEKFFKVL YDRMKAAQKE IRSTVTVNTI DLGSKKREED SDLMALGPRM RVRDSSLHLK
+     EGMKGQLTEA SSATSKAYCV YRREMDPDID TMCPGQEAGS AEEKSAEEVT MSPAITIMRP
+     ILRFLQLLCE NHNRELQNFL RNQNNKTNYN LVCETLQFLD CICGSTTGGL GLLGLYINEK
+     NVALVNQTLE SLTEYCQGPC HENQTCIATH ESNGIDIIIA LILSDINPLG KYRMDLVLQL
+     KNNASKLLLA IMESRHDSEN AERILFNMRP KELVDVMKNA YNQGLECNHG DEEGGDDGVS
+     PKDVGHNIYI LAHQLARHNK LLQQMLKPGS DPEEGDEALK YYANHTAQIE IVRHDRTMEQ
+     IVFPVPNICE FLTRESKYRV FNTTERDEQG SKVNDFFQQT EDLYNEMKWQ KKIRNNPALF
+     WFSRHISLWG SISFNLAVFI NLAVALFYPF GDDGDEGTLS PLFSALLWVA VAICTSMLFF
+     FSKPVGIRPF LVSIMLRSIY TIGLGPTLIL LGAANLCNKI VFLVSFVGNR GTFTRGYRAV
+     ILDMAFLYHV AYVLVCMLGL FVHEFFYSFL LFDLVYREET LLNVIKSVTR NGRSIILTAV
+     LALILVYLFS IIGFLFLKDD FTMEVDRLKN RTPVTGNDGV PTMTLTSMLG TCPKENCSPT
+     IPSSNAAGEG GEDGIERTCD TLLMCIVTVL NQGLRNGGGV GDVLRRPSKD EPLFAARVVY
+     DLLFFFIVII IVLNLIFGVI IDTFADLRSE KQKKEKILKT TCFICGLERD KFDNKTVSFE
+     EHIKSEHNMW HYLYFIVLVK VKDPTEYTGP ESYVAQMITE KNLDWFPRMR AMSLVSNEGD
+     SEQNEIRNLQ EKLESTMSLV KQLSGQLAEL KEQMTEQRKN KQRLGFLGSN TPHENHHMPP
+     H
+//

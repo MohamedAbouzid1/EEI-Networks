@@ -1,0 +1,318 @@
+ID   ADCYA_RAT               Reviewed;        1608 AA.
+AC   Q9Z286;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   02-OCT-2024, entry version 152.
+DE   RecName: Full=Adenylate cyclase type 10;
+DE            EC=4.6.1.1 {ECO:0000269|PubMed:12609998, ECO:0000269|PubMed:9874775};
+DE   AltName: Full=Germ cell soluble adenylyl cyclase {ECO:0000303|PubMed:11423534};
+DE            Short=sAC;
+DE   AltName: Full=Testicular soluble adenylyl cyclase;
+GN   Name=Adcy10; Synonyms=Sac;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 60-67; 254-262 AND 402-409,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, CATALYTIC ACTIVITY, TISSUE SPECIFICITY,
+RP   SUBCELLULAR LOCATION, DOMAIN, AND COFACTOR.
+RC   STRAIN=Sprague-Dawley; TISSUE=Testis;
+RX   PubMed=9874775; DOI=10.1073/pnas.96.1.79;
+RA   Buck J., Sinclair M.L., Schapal L., Cann M.J., Levin L.R.;
+RT   "Cytosolic adenylyl cyclase defines a unique signaling molecule in
+RT   mammals.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 96:79-84(1999).
+RN   [2]
+RP   ALTERNATIVE SPLICING.
+RX   PubMed=11423534; DOI=10.1074/jbc.m011698200;
+RA   Jaiswal B.S., Conti M.;
+RT   "Identification and functional analysis of splice variants of the germ cell
+RT   soluble adenylyl cyclase.";
+RL   J. Biol. Chem. 276:31698-31708(2001).
+RN   [3]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=12475901; DOI=10.1096/fj.02-0598fje;
+RA   Zippin J.H., Chen Y., Nahirney P., Kamenetsky M., Wuttke M.S.,
+RA   Fischman D.A., Levin L.R., Buck J.;
+RT   "Compartmentalization of bicarbonate-sensitive adenylyl cyclase in distinct
+RT   signaling microdomains.";
+RL   FASEB J. 17:82-84(2003).
+RN   [4]
+RP   CATALYTIC ACTIVITY, AND ACTIVITY REGULATION.
+RX   PubMed=12609998; DOI=10.1074/jbc.m212475200;
+RA   Litvin T.N., Kamenetsky M., Zarifyan A., Buck J., Levin L.R.;
+RT   "Kinetic properties of 'soluble' adenylyl cyclase. Synergism between
+RT   calcium and bicarbonate.";
+RL   J. Biol. Chem. 278:15922-15926(2003).
+CC   -!- FUNCTION: Catalyzes the formation of the signaling molecule cAMP
+CC       (PubMed:9874775). May function as sensor that mediates responses to
+CC       changes in cellular bicarbonate and CO(2) levels (By similarity). Has a
+CC       critical role in mammalian spermatogenesis by producing the cAMP which
+CC       regulates cAMP-responsive nuclear factors indispensable for sperm
+CC       maturation in the epididymis. Induces capacitation, the maturational
+CC       process that sperm undergo prior to fertilization (By similarity).
+CC       Involved in ciliary beat regulation (By similarity).
+CC       {ECO:0000250|UniProtKB:Q8C0T9, ECO:0000250|UniProtKB:Q96PN6,
+CC       ECO:0000269|PubMed:9874775}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP = 3',5'-cyclic AMP + diphosphate; Xref=Rhea:RHEA:15389,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:58165; EC=4.6.1.1;
+CC         Evidence={ECO:0000269|PubMed:12609998, ECO:0000269|PubMed:9874775};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000305|PubMed:9874775};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:9874775};
+CC       Note=Binds 2 magnesium ions per subunit (By similarity). Is also active
+CC       with manganese (in vitro) (PubMed:9874775).
+CC       {ECO:0000250|UniProtKB:Q96PN6, ECO:0000269|PubMed:9874775};
+CC   -!- ACTIVITY REGULATION: Activated by manganese or magnesium ions
+CC       (PubMed:9874775). In the presence of magnesium ions, the enzyme is
+CC       activated by bicarbonate (PubMed:12609998). Calcium mildly increases
+CC       the enzyme activity, also in the presence of magnesium ions.
+CC       {ECO:0000250|UniProtKB:Q96PN6, ECO:0000269|PubMed:12609998,
+CC       ECO:0000269|PubMed:9874775}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=1 mM for ATP-Mn(2+) {ECO:0000269|PubMed:9874775};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q96PN6};
+CC       Peripheral membrane protein {ECO:0000250|UniProtKB:Q96PN6}; Cytoplasmic
+CC       side {ECO:0000250|UniProtKB:Q96PN6}. Cytoplasm, cytoskeleton
+CC       {ECO:0000250|UniProtKB:Q96PN6}. Cytoplasm, perinuclear region
+CC       {ECO:0000250|UniProtKB:Q96PN6}. Nucleus {ECO:0000269|PubMed:12475901}.
+CC       Cell projection, cilium {ECO:0000250|UniProtKB:Q96PN6}. Cytoplasm
+CC       {ECO:0000269|PubMed:9874775}. Mitochondrion
+CC       {ECO:0000269|PubMed:12475901}. Note=Distributed to subcellular
+CC       compartments containing cAMP targets. Found as a plasma membrane-
+CC       associated protein, protein concentrated in the perinuclear region and
+CC       protein colocalized with actin or tubulin.
+CC       {ECO:0000250|UniProtKB:Q96PN6}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=1;
+CC         Comment=A number of isoforms are produced.;
+CC       Name=1;
+CC         IsoId=Q9Z286-1; Sequence=Displayed;
+CC   -!- TISSUE SPECIFICITY: Detected in testis (at protein level).
+CC       Preferentially expressed in testis. {ECO:0000269|PubMed:9874775}.
+CC   -!- DOMAIN: The N-terminal guanylate cyclase domains are required for
+CC       enzyme activity. Fragments containing the first 470 amino acid residues
+CC       are fully active. {ECO:0000269|PubMed:9874775}.
+CC   -!- PTM: Cleavage may occur to generate the active 48 kDa form.
+CC       {ECO:0000305|PubMed:9874775}.
+CC   -!- SIMILARITY: Belongs to the adenylyl cyclase class-4/guanylyl cyclase
+CC       family. {ECO:0000255|PROSITE-ProRule:PRU00099}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF081941; AAD04035.1; -; mRNA.
+DR   PIR; T17201; T17201.
+DR   RefSeq; NP_067716.1; NM_021684.1. [Q9Z286-1]
+DR   RefSeq; XP_008767899.1; XM_008769677.2. [Q9Z286-1]
+DR   RefSeq; XP_008767900.1; XM_008769678.2. [Q9Z286-1]
+DR   RefSeq; XP_008767901.1; XM_008769679.2.
+DR   AlphaFoldDB; Q9Z286; -.
+DR   SMR; Q9Z286; -.
+DR   STRING; 10116.ENSRNOP00000072356; -.
+DR   BindingDB; Q9Z286; -.
+DR   ChEMBL; CHEMBL5169208; -.
+DR   PhosphoSitePlus; Q9Z286; -.
+DR   PaxDb; 10116-ENSRNOP00000004326; -.
+DR   Ensembl; ENSRNOT00000082677.2; ENSRNOP00000072356.1; ENSRNOG00000053410.2. [Q9Z286-1]
+DR   Ensembl; ENSRNOT00055029771; ENSRNOP00055023907; ENSRNOG00055017594. [Q9Z286-1]
+DR   Ensembl; ENSRNOT00060016643; ENSRNOP00060013004; ENSRNOG00060009857. [Q9Z286-1]
+DR   Ensembl; ENSRNOT00065033166; ENSRNOP00065026531; ENSRNOG00065019680. [Q9Z286-1]
+DR   GeneID; 59320; -.
+DR   KEGG; rno:59320; -.
+DR   UCSC; RGD:708450; rat. [Q9Z286-1]
+DR   AGR; RGD:708450; -.
+DR   CTD; 55811; -.
+DR   RGD; 708450; Adcy10.
+DR   eggNOG; ENOG502QPPT; Eukaryota.
+DR   GeneTree; ENSGT00390000001322; -.
+DR   HOGENOM; CLU_004055_1_0_1; -.
+DR   InParanoid; Q9Z286; -.
+DR   OMA; HCRSGDF; -.
+DR   OrthoDB; 3076794at2759; -.
+DR   PhylomeDB; Q9Z286; -.
+DR   BRENDA; 4.6.1.1; 5301.
+DR   Reactome; R-RNO-5610787; Hedgehog 'off' state.
+DR   SABIO-RK; Q9Z286; -.
+DR   PRO; PR:Q9Z286; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000053410; Expressed in testis and 7 other cell types or tissues.
+DR   GO; GO:0045177; C:apical part of cell; IDA:RGD.
+DR   GO; GO:0016324; C:apical plasma membrane; ISO:RGD.
+DR   GO; GO:0097450; C:astrocyte end-foot; IDA:RGD.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0045178; C:basal part of cell; IDA:RGD.
+DR   GO; GO:0090724; C:central region of growth cone; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IDA:RGD.
+DR   GO; GO:0005829; C:cytosol; IDA:RGD.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0005576; C:extracellular region; IEA:GOC.
+DR   GO; GO:0030426; C:growth cone; IDA:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0015630; C:microtubule cytoskeleton; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IDA:RGD.
+DR   GO; GO:0031514; C:motile cilium; ISO:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; IDA:RGD.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0004016; F:adenylate cyclase activity; IDA:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051117; F:ATPase binding; IPI:RGD.
+DR   GO; GO:0071890; F:bicarbonate binding; ISS:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0030145; F:manganese ion binding; IDA:RGD.
+DR   GO; GO:0006171; P:cAMP biosynthetic process; IDA:RGD.
+DR   GO; GO:0003351; P:epithelial cilium movement involved in extracellular fluid movement; ISS:UniProtKB.
+DR   GO; GO:0006007; P:glucose catabolic process; IMP:RGD.
+DR   GO; GO:0035556; P:intracellular signal transduction; IEA:InterPro.
+DR   GO; GO:1990544; P:mitochondrial ATP transmembrane transport; IMP:RGD.
+DR   GO; GO:0106135; P:negative regulation of cardiac muscle cell contraction; IMP:RGD.
+DR   GO; GO:0010917; P:negative regulation of mitochondrial membrane potential; IMP:RGD.
+DR   GO; GO:1903427; P:negative regulation of reactive oxygen species biosynthetic process; IMP:RGD.
+DR   GO; GO:1990138; P:neuron projection extension; IMP:RGD.
+DR   GO; GO:1990535; P:neuron projection maintenance; IMP:RGD.
+DR   GO; GO:0106028; P:neuron projection retraction; IMP:RGD.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:2001171; P:positive regulation of ATP biosynthetic process; IMP:RGD.
+DR   GO; GO:0045773; P:positive regulation of axon extension; IMP:RGD.
+DR   GO; GO:0010666; P:positive regulation of cardiac muscle cell apoptotic process; IMP:RGD.
+DR   GO; GO:0010613; P:positive regulation of cardiac muscle hypertrophy; IMP:RGD.
+DR   GO; GO:0045819; P:positive regulation of glycogen catabolic process; IMP:RGD.
+DR   GO; GO:2001244; P:positive regulation of intrinsic apoptotic signaling pathway; IDA:RGD.
+DR   GO; GO:0051901; P:positive regulation of mitochondrial depolarization; IMP:RGD.
+DR   GO; GO:0045778; P:positive regulation of ossification; IMP:RGD.
+DR   GO; GO:1903378; P:positive regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway; IMP:RGD.
+DR   GO; GO:0010800; P:positive regulation of peptidyl-threonine phosphorylation; IMP:RGD.
+DR   GO; GO:1903955; P:positive regulation of protein targeting to mitochondrion; IMP:RGD.
+DR   GO; GO:1903428; P:positive regulation of reactive oxygen species biosynthetic process; IMP:RGD.
+DR   GO; GO:1905461; P:positive regulation of vascular associated smooth muscle cell apoptotic process; IDA:RGD.
+DR   GO; GO:0060306; P:regulation of membrane repolarization; IMP:RGD.
+DR   GO; GO:1901524; P:regulation of mitophagy; IMP:RGD.
+DR   GO; GO:0007286; P:spermatid development; IEP:RGD.
+DR   CDD; cd07302; CHD; 2.
+DR   Gene3D; 3.30.70.1230; Nucleotide cyclase; 2.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR001054; A/G_cyclase.
+DR   InterPro; IPR016577; Adenylate_cyclase_typ10.
+DR   InterPro; IPR029787; Nucleotide_cyclase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR011990; TPR-like_helical_dom_sf.
+DR   PANTHER; PTHR16305:SF32; ADENYLATE CYCLASE TYPE 10; 1.
+DR   PANTHER; PTHR16305; TESTICULAR SOLUBLE ADENYLYL CYCLASE; 1.
+DR   Pfam; PF00211; Guanylate_cyc; 2.
+DR   PIRSF; PIRSF011131; Soluble_adenylyl_cyclase; 1.
+DR   SMART; SM00044; CYCc; 1.
+DR   SUPFAM; SSF55073; Nucleotide cyclase; 2.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF48452; TPR-like; 1.
+DR   PROSITE; PS50125; GUANYLATE_CYCLASE_2; 2.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; cAMP biosynthesis; Cell membrane;
+KW   Cell projection; Cytoplasm; Cytoskeleton; Direct protein sequencing; Lyase;
+KW   Magnesium; Membrane; Metal-binding; Mitochondrion; Nucleotide-binding;
+KW   Nucleus; Reference proteome; Repeat.
+FT   CHAIN           1..1608
+FT                   /note="Adenylate cyclase type 10"
+FT                   /id="PRO_0000317104"
+FT   DOMAIN          42..179
+FT                   /note="Guanylate cyclase 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00099"
+FT   DOMAIN          293..418
+FT                   /note="Guanylate cyclase 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00099"
+FT   BINDING         47..52
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96PN6"
+FT   BINDING         47
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00099"
+FT   BINDING         47
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00099"
+FT   BINDING         48
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00099"
+FT   BINDING         95
+FT                   /ligand="hydrogencarbonate"
+FT                   /ligand_id="ChEBI:CHEBI:17544"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96PN6"
+FT   BINDING         99
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96PN6"
+FT   BINDING         99
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00099"
+FT   BINDING         99
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00099"
+FT   BINDING         144
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96PN6"
+FT   BINDING         167
+FT                   /ligand="hydrogencarbonate"
+FT                   /ligand_id="ChEBI:CHEBI:17544"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96PN6"
+FT   BINDING         176
+FT                   /ligand="hydrogencarbonate"
+FT                   /ligand_id="ChEBI:CHEBI:17544"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96PN6"
+FT   BINDING         337
+FT                   /ligand="hydrogencarbonate"
+FT                   /ligand_id="ChEBI:CHEBI:17544"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96PN6"
+FT   BINDING         406
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96PN6"
+FT   BINDING         412..416
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96PN6"
+SQ   SEQUENCE   1608 AA;  185854 MW;  BEF6D3F60A5D2556 CRC64;
+     MSARRQELQD RAIVKIAAHL PDLIVYGDFS PERPSVKCFD GVLMFVDISG FTAMTEKFST
+     AMYMDRGAEQ LVEILNYYIS AIVEKVLIFG GDILKFAGDA LLALWKVERK QLKNIITVVI
+     KCSLEIHGLF EAKEVEEGLD IRVKIGLAAG HITMLVFGDE TRNYFLVIGQ AVDDVRLAQN
+     MAQMNDVILS PNCWQLCDRS MIEIERIPDQ RAVKVSFLKP PPTFNFDEFF AKCMAFMDYY
+     PSGDHKNFLR LACMLESDPE LELSLQKYVM EIILKQIDDK QLRGYLSELR PVTIVFVNLM
+     FKEQDKAEVI GSAIQAACVH ITSVLKVFRG QINKVFMFDK GCSFLCVFGF PGEKAPDEIT
+     HALESAVDIF DFCSQVHKIR TVSIGVASGI VFCGIVGHTV RHEYTVIGQK VNIAARMMMY
+     YPGIVTCDSV TYDGSNLPAY FFKELPKKVM KGVADPGPVY QCLGLNEKVM FGMAYLICNR
+     YEGYPLLGRV REIDYFMSTM KDFLMTNCSR VLMYEGLPGY GKSQVLMEIE YLASQHENHR
+     AVAIALTKIS FHQNFYTIQI LMANVLGLDT CKHYKERQTN LQNRVKTLLD DKYHCLLNDI
+     FHVQFPVSRE MSRMSKIRKQ KQLEALFMKI LEQTVREERI IFIIDEAQFV DVASWAFIEK
+     LIRSMPIFIV MSLCPFPETP CAAANAIMKN RNTTYITLGT MQPQEIRDKV CVDLSVSSIP
+     RELDSYLVEG SCGIPYYCEE LLKNLDHHRI LIFQQAEAEE KTNVTWNNLF KYSVKPTEDM
+     YLYTSIAAGQ KEACYLTSGV RLKNLSPPAS LKEISLVQLD SMSLSHQMLV RCAAIIGLTF
+     TTELLFEILP CWNMKMMIKA LATLVESNVF DCFRSSKDLQ LALKQNVTTF EVHYRSLSLK
+     SKEGLAYSEE EQLREMEGEV IECRILRFCR PIMQKTAYEL WLKDQKKVLH LKCARFLEES
+     AHRCNHCRNR DFIPYHHFIA DIRLNTLDMD TVKKMVKSHG FKTEDEVIFS KSEIPRKFKF
+     PENISITETR EKILHFFDNV IIKMRTSQDD VIPLESCHCE ELLQIVILPL AQHFVALEEN
+     NKALYYFLEL ASAYLILGDN YNAYMYLGEG ERLLKSLTNE DSWSQTFEYA TFYSLKGEIC
+     FNMGQMVLAK KMLRKALKLL NRMFPCNLLS LTFQMHIEKN RLSHFMNQHT QEGSLPGKKL
+     AQLFLQSSCF SLLWKIYSLN FFFHYKYYGR LAAIMQMNTS LETQNNFQII KAFLDFSLYR
+     HLAGYEGVWF KYEILVMEQL LNLPLKGEAF EIMAYAADAL GHIKFLTGHL DLAIELGSRA
+     HKMWSLLRNP NKYHMVLCRL SKPLFLKSRY KHLVQVLGWL WDLSVTEEHI FSKAFFYFVC
+     LDIMLYSGFI YRTFEECLEF IHHNEDNRIL KFQSGLLLGL YSCIAVWYAR LQEWDNFYKF
+     SNRAKTLVTR RTPTVLYYEG ISRYMEGQVL HLQKQIEEQA ENAQDSGVEL LKALETLVAQ
+     NTTGPVFYPR LYHLMAYVCI LMGDGHSCDF FLNTALELSE TQGNLLEKCW LSMSKEWWYS
+     APELTGDQWL QTVLSLPSWD KIVSGNVTLQ DVQKNKFLMR VNILDNPF
+//

@@ -1,0 +1,223 @@
+ID   FICD_RAT                Reviewed;         458 AA.
+AC   Q6AY47;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   29-MAY-2024, entry version 121.
+DE   RecName: Full=Protein adenylyltransferase FICD {ECO:0000305};
+DE            EC=2.7.7.108 {ECO:0000250|UniProtKB:Q9BVA6};
+DE   AltName: Full=AMPylator FICD {ECO:0000250|UniProtKB:Q9BVA6};
+DE   AltName: Full=De-AMPylase FICD {ECO:0000250|UniProtKB:A0A061I403};
+DE            EC=3.1.4.- {ECO:0000250|UniProtKB:A0A061I403};
+DE   AltName: Full=FIC domain-containing protein {ECO:0000250|UniProtKB:Q9BVA6};
+GN   Name=Ficd {ECO:0000312|RGD:1359391};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Protein that can both mediate the addition of adenosine 5'-
+CC       monophosphate (AMP) to specific residues of target proteins
+CC       (AMPylation), and the removal of the same modification from target
+CC       proteins (de-AMPylation), depending on the context (By similarity). The
+CC       side chain of Glu-231 determines which of the two opposing activities
+CC       (AMPylase or de-AMPylase) will take place (By similarity). Acts as a
+CC       key regulator of the ERN1/IRE1-mediated unfolded protein response (UPR)
+CC       by mediating AMPylation or de-AMPylation of HSPA5/BiP (By similarity).
+CC       In unstressed cells, acts as an adenylyltransferase by mediating
+CC       AMPylation of HSPA5/BiP at 'Thr-518', thereby inactivating it (By
+CC       similarity). In response to endoplasmic reticulum stress, acts as a
+CC       phosphodiesterase by mediating removal of ATP (de-AMPylation) from
+CC       HSPA5/BiP at 'Thr-518', leading to restore HSPA5/BiP activity (By
+CC       similarity). Although it is able to AMPylate RhoA, Rac and Cdc42 Rho
+CC       GTPases in vitro, Rho GTPases do not constitute physiological
+CC       substrates (By similarity). {ECO:0000250|UniProtKB:A0A061I403,
+CC       ECO:0000250|UniProtKB:Q9BVA6}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tyrosyl-[protein] = diphosphate + O-(5'-adenylyl)-L-
+CC         tyrosyl-[protein]; Xref=Rhea:RHEA:54288, Rhea:RHEA-COMP:10136,
+CC         Rhea:RHEA-COMP:13846, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:46858, ChEBI:CHEBI:83624; EC=2.7.7.108;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BVA6};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-O-(5'-adenylyl)-L-threonyl-[protein] + H2O = AMP + H(+) + L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:55932, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:13847, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30013, ChEBI:CHEBI:138113, ChEBI:CHEBI:456215;
+CC         Evidence={ECO:0000250|UniProtKB:A0A061I403};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = 3-O-(5'-adenylyl)-L-threonyl-
+CC         [protein] + diphosphate; Xref=Rhea:RHEA:54292, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:13847, ChEBI:CHEBI:30013, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:138113; EC=2.7.7.108;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BVA6};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BVA6};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BVA6};
+CC       Note=Divalent metal cation. Prefers Mn(2+) over Mg(2+).
+CC       {ECO:0000250|UniProtKB:Q9BVA6};
+CC   -!- ACTIVITY REGULATION: The side chain of Glu-234 determines which of the
+CC       two opposing activities (AMPylase or de-AMPylase) will take place. In
+CC       response to endoplasmic reticulum stress, mediates de-AMPylase activity
+CC       (By similarity). Adenylyltransferase activity is inhibited by the
+CC       inhibitory helix present at the N-terminus: Glu-234 binds ATP and
+CC       competes with ATP-binding at Arg-374, thereby preventing
+CC       adenylyltransferase activity (By similarity). In unstressed cells,
+CC       disengagement of Glu-234 promotes adenylyltransferase activity (By
+CC       similarity). Activation dissociates ATP-binding from Glu-234, allowing
+CC       ordered binding of the entire ATP moiety with the alpha-phosphate in an
+CC       orientation that is productive for accepting an incoming target
+CC       hydroxyl side chain (By similarity). {ECO:0000250|UniProtKB:A0A061I403,
+CC       ECO:0000250|UniProtKB:Q9BVA6}.
+CC   -!- SUBUNIT: Homodimer. Interacts with HD. {ECO:0000250|UniProtKB:Q9BVA6}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q9BVA6}; Single-pass type II membrane protein
+CC       {ECO:0000250|UniProtKB:Q9BVA6}.
+CC   -!- DOMAIN: The fido domain mediates the adenylyltransferase activity.
+CC       {ECO:0000250|UniProtKB:Q9BVA6}.
+CC   -!- PTM: Auto-AMPylated in vitro. {ECO:0000250|UniProtKB:Q9BVA6}.
+CC   -!- SIMILARITY: Belongs to the fic family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079197; AAH79197.1; -; mRNA.
+DR   RefSeq; NP_001010946.1; NM_001010946.1.
+DR   RefSeq; XP_008767542.1; XM_008769320.2.
+DR   RefSeq; XP_008767543.1; XM_008769321.2.
+DR   AlphaFoldDB; Q6AY47; -.
+DR   SMR; Q6AY47; -.
+DR   STRING; 10116.ENSRNOP00000073778; -.
+DR   GlyCosmos; Q6AY47; 1 site, No reported glycans.
+DR   GlyGen; Q6AY47; 1 site.
+DR   PhosphoSitePlus; Q6AY47; -.
+DR   PaxDb; 10116-ENSRNOP00000000892; -.
+DR   Ensembl; ENSRNOT00055003510; ENSRNOP00055002616; ENSRNOG00055002212.
+DR   Ensembl; ENSRNOT00060011354; ENSRNOP00060008478; ENSRNOG00060006941.
+DR   Ensembl; ENSRNOT00065011001; ENSRNOP00065008080; ENSRNOG00065007053.
+DR   GeneID; 288741; -.
+DR   KEGG; rno:288741; -.
+DR   UCSC; RGD:1359391; rat.
+DR   AGR; RGD:1359391; -.
+DR   CTD; 11153; -.
+DR   RGD; 1359391; Ficd.
+DR   VEuPathDB; HostDB:ENSRNOG00000059799; -.
+DR   eggNOG; KOG3824; Eukaryota.
+DR   HOGENOM; CLU_040460_0_0_1; -.
+DR   InParanoid; Q6AY47; -.
+DR   OrthoDB; 5392486at2759; -.
+DR   PhylomeDB; Q6AY47; -.
+DR   TreeFam; TF314692; -.
+DR   PRO; PR:Q6AY47; -.
+DR   Proteomes; UP000002494; Chromosome 12.
+DR   Bgee; ENSRNOG00000059799; Expressed in pancreas and 19 other cell types or tissues.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0070733; F:AMPylase activity; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; ISS:UniProtKB.
+DR   GO; GO:0030544; F:Hsp70 protein binding; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0044603; F:protein adenylylhydrolase activity; ISS:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0051087; F:protein-folding chaperone binding; ISS:UniProtKB.
+DR   GO; GO:0018117; P:protein adenylylation; ISS:UniProtKB.
+DR   GO; GO:0044602; P:protein deadenylylation; ISS:UniProtKB.
+DR   GO; GO:1903894; P:regulation of IRE1-mediated unfolded protein response; ISS:UniProtKB.
+DR   GO; GO:0034976; P:response to endoplasmic reticulum stress; ISS:UniProtKB.
+DR   GO; GO:0006986; P:response to unfolded protein; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.3290.10; Fido-like domain; 1.
+DR   Gene3D; 1.25.40.10; Tetratricopeptide repeat domain; 1.
+DR   InterPro; IPR003812; Fido.
+DR   InterPro; IPR036597; Fido-like_dom_sf.
+DR   InterPro; IPR040198; Fido_containing.
+DR   InterPro; IPR011990; TPR-like_helical_dom_sf.
+DR   PANTHER; PTHR13504; FIDO DOMAIN-CONTAINING PROTEIN DDB_G0283145; 1.
+DR   PANTHER; PTHR13504:SF34; PROTEIN ADENYLYLTRANSFERASE FICD; 1.
+DR   Pfam; PF02661; Fic; 1.
+DR   SUPFAM; SSF140931; Fic-like; 1.
+DR   SUPFAM; SSF48452; TPR-like; 1.
+DR   PROSITE; PS51459; FIDO; 1.
+DR   PROSITE; PS50293; TPR_REGION; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Endoplasmic reticulum; Glycoprotein; Hydrolase; Magnesium;
+KW   Manganese; Membrane; Nucleotide-binding; Nucleotidyltransferase;
+KW   Phosphoprotein; Reference proteome; Repeat; Signal-anchor; TPR repeat;
+KW   Transferase; Transmembrane; Transmembrane helix; Unfolded protein response.
+FT   CHAIN           1..458
+FT                   /note="Protein adenylyltransferase FICD"
+FT                   /id="PRO_0000317303"
+FT   TOPO_DOM        1..23
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   TRANSMEM        24..44
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        45..458
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   REPEAT          106..139
+FT                   /note="TPR 1"
+FT   REPEAT          140..173
+FT                   /note="TPR 2"
+FT   DOMAIN          285..420
+FT                   /note="Fido"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00791"
+FT   MOTIF           230..235
+FT                   /note="Inhibitory (S/T)XXXE(G/N) motif"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   ACT_SITE        363
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   BINDING         234
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   BINDING         316..319
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   BINDING         367..374
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   BINDING         399..400
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   BINDING         407
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   SITE            234
+FT                   /note="Important for autoinhibition of adenylyltransferase
+FT                   activity"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   MOD_RES         79
+FT                   /note="O-AMP-serine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   MOD_RES         80
+FT                   /note="O-AMP-threonine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   MOD_RES         183
+FT                   /note="O-AMP-threonine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BVA6"
+FT   CARBOHYD        275
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   458 AA;  51754 MW;  CA59D9A4F7D559F9 CRC64;
+     MILMPMASVV AVAEPKWVSV WGRFLWMTLL SMALGSLLAL LLPLGAVEEQ CLAVLRGFHL
+     LRSKLDRAQH VVTKCTSPST ELSVTSRDAG LLTVKTKASP AGKLEAKAAL NQALEMKRQG
+     KRGKAHKLFL HALKMDPGFV DALNELGIFS EEDKDIIQAD YLYTRALTIS PFHEKALINR
+     DRTLPLVEEI DQRYFSVLDS KVRKVMSIPK GSSALRRVME ETYYHHIYHT VAIEGNTLTL
+     AEIRHILETR YAVPGKSLEE QNEVIGMHAA MKYINSTLVS RIGSVTIDHM LEIHRRVLGY
+     VDPVEAGRFR RTQVLVGHHI PPHPRDVEKQ MQEFTQWLNS EDAMNLHPVE FAALAHYKLV
+     YIHPFIDGNG RTSRLLMNLI LMQAGYPPIT IRKEQRSEYY HVLEVANEGD VRPFIRFIAK
+     CTEVTLDTLL LATTEYSAAL PEAQPNHSGF KETLPVRP
+//

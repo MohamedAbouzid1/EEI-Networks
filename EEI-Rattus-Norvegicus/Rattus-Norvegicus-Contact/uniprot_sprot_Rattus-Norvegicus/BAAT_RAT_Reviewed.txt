@@ -1,0 +1,368 @@
+ID   BAAT_RAT                Reviewed;         420 AA.
+AC   Q63276; Q5M8A2;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 2.
+DT   29-MAY-2024, entry version 139.
+DE   RecName: Full=Bile acid-CoA:amino acid N-acyltransferase;
+DE            Short=BACAT;
+DE            Short=BAT;
+DE            EC=2.3.1.65 {ECO:0000269|PubMed:12951368, ECO:0000269|PubMed:624713};
+DE   AltName: Full=Bile acid-CoA thioesterase {ECO:0000250|UniProtKB:Q14032};
+DE   AltName: Full=Choloyl-CoA hydrolase;
+DE            EC=3.1.2.27 {ECO:0000250|UniProtKB:Q14032};
+DE   AltName: Full=Glycine N-choloyltransferase;
+DE   AltName: Full=Kan-1;
+DE   AltName: Full=Long-chain fatty-acyl-CoA hydrolase;
+DE            EC=3.1.2.2 {ECO:0000250|UniProtKB:Q14032};
+GN   Name=Baat;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=7575455; DOI=10.1042/bj3110203;
+RA   Furutani M., Arii S., Higashitsuji H., Mise M., Fukumoto M., Takano S.,
+RA   Nakayama H., Imamura M., Fujita J.;
+RT   "Reduced expression of kan-1 (encoding putative bile acid-CoA-amino acid N-
+RT   acyltransferase) mRNA in livers of rats after partial hepatectomy and
+RT   during sepsis.";
+RL   Biochem. J. 311:203-208(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, SUBCELLULAR
+RP   LOCATION, TISSUE SPECIFICITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   TISSUE=Liver;
+RX   PubMed=12951368; DOI=10.1194/jlr.m300128-jlr200;
+RA   He D., Barnes S., Falany C.N.;
+RT   "Rat liver bile acid CoA:amino acid N-acyltransferase: expression,
+RT   characterization, and peroxisomal localization.";
+RL   J. Lipid Res. 44:2242-2249(2003).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   TISSUE=Liver;
+RX   PubMed=624713; DOI=10.1016/s0021-9258(17)38103-6;
+RA   Killenberg P.G., Jordan J.T.;
+RT   "Purification and characterization of bile acid-CoA:amino acid N-
+RT   acyltransferase from rat liver.";
+RL   J. Biol. Chem. 253:1005-1010(1978).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-125 AND SER-418, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the amidation of bile acids (BAs) with the amino
+CC       acids taurine and glycine (PubMed:12951368, PubMed:624713). More
+CC       efficient at taurine conjugation of cholyl CoA than glycine conjugation
+CC       (PubMed:12951368, PubMed:624713). Amidation of BAs in the liver with
+CC       glycine or taurine prior to their excretion into bile is an important
+CC       biochemical event in bile acid metabolism (By similarity). This
+CC       conjugation (or amidation) plays several important biological roles in
+CC       that it promotes the secretion of BAs and cholesterol into bile and
+CC       increases the detergent properties of BAs in the intestine, which
+CC       facilitates lipid and vitamin absorption (By similarity). May also act
+CC       as an acyl-CoA thioesterase that regulates intracellular levels of free
+CC       fatty acids (By similarity). In vitro, catalyzes the hydrolysis of
+CC       long- and very long-chain saturated acyl-CoAs to the free fatty acid
+CC       and coenzyme A (CoASH), and conjugates glycine to these acyl-CoAs (By
+CC       similarity). {ECO:0000250|UniProtKB:Q14032,
+CC       ECO:0000269|PubMed:12951368, ECO:0000269|PubMed:624713}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=choloyl-CoA + glycine = CoA + glycocholate + H(+);
+CC         Xref=Rhea:RHEA:14001, ChEBI:CHEBI:15378, ChEBI:CHEBI:29746,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57305, ChEBI:CHEBI:57373; EC=2.3.1.65;
+CC         Evidence={ECO:0000269|PubMed:12951368, ECO:0000269|PubMed:624713};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:14002;
+CC         Evidence={ECO:0000305|PubMed:12951368, ECO:0000305|PubMed:624713};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + hexadecanoyl-CoA = CoA + H(+) + hexadecanoate;
+CC         Xref=Rhea:RHEA:16645, ChEBI:CHEBI:7896, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57287, ChEBI:CHEBI:57379; EC=3.1.2.2;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16646;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=choloyl-CoA + H2O = cholate + CoA + H(+);
+CC         Xref=Rhea:RHEA:14541, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29747, ChEBI:CHEBI:57287, ChEBI:CHEBI:57373; EC=3.1.2.27;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:14542;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chenodeoxycholoyl-CoA + H2O = chenodeoxycholate + CoA + H(+);
+CC         Xref=Rhea:RHEA:31511, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:36234, ChEBI:CHEBI:57287, ChEBI:CHEBI:62989; EC=3.1.2.27;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:31512;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=eicosanoyl-CoA + H2O = CoA + eicosanoate + H(+);
+CC         Xref=Rhea:RHEA:40147, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:32360, ChEBI:CHEBI:57287, ChEBI:CHEBI:57380;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40148;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + octadecanoyl-CoA = CoA + H(+) + octadecanoate;
+CC         Xref=Rhea:RHEA:30139, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:25629, ChEBI:CHEBI:57287, ChEBI:CHEBI:57394;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:30140;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=docosanoyl-CoA + H2O = CoA + docosanoate + H(+);
+CC         Xref=Rhea:RHEA:40783, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:23858, ChEBI:CHEBI:57287, ChEBI:CHEBI:65059;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40784;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + tetracosanoyl-CoA = CoA + H(+) + tetracosanoate;
+CC         Xref=Rhea:RHEA:40787, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:31014, ChEBI:CHEBI:57287, ChEBI:CHEBI:65052;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40788;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + hexacosanoyl-CoA = CoA + H(+) + hexacosanoate;
+CC         Xref=Rhea:RHEA:40791, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:31013, ChEBI:CHEBI:57287, ChEBI:CHEBI:64868;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40792;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dodecanoyl-CoA + H2O = CoA + dodecanoate + H(+);
+CC         Xref=Rhea:RHEA:30135, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:18262, ChEBI:CHEBI:57287, ChEBI:CHEBI:57375;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:30136;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + tetradecanoyl-CoA = CoA + H(+) + tetradecanoate;
+CC         Xref=Rhea:RHEA:40119, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30807, ChEBI:CHEBI:57287, ChEBI:CHEBI:57385;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40120;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=choloyl-CoA + taurine = CoA + H(+) + taurocholate;
+CC         Xref=Rhea:RHEA:47100, ChEBI:CHEBI:15378, ChEBI:CHEBI:36257,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57373, ChEBI:CHEBI:507393;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47101;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chenodeoxycholoyl-CoA + glycine = CoA + glycochenodeoxycholate
+CC         + H(+); Xref=Rhea:RHEA:49788, ChEBI:CHEBI:15378, ChEBI:CHEBI:36252,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57305, ChEBI:CHEBI:62989;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:49789;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chenodeoxycholoyl-CoA + taurine = CoA + H(+) +
+CC         taurochenodeoxycholate; Xref=Rhea:RHEA:49784, ChEBI:CHEBI:9407,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57287, ChEBI:CHEBI:62989,
+CC         ChEBI:CHEBI:507393; Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:49785;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=eicosanoyl-CoA + glycine = CoA + H(+) + N-eicosanoylglycinate;
+CC         Xref=Rhea:RHEA:49792, ChEBI:CHEBI:15378, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:57380, ChEBI:CHEBI:87391;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:49793;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycine + hexacosanoyl-CoA = CoA + H(+) + N-
+CC         hexacosanoylglycine; Xref=Rhea:RHEA:49772, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57305, ChEBI:CHEBI:64868,
+CC         ChEBI:CHEBI:87414; Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:49773;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=docosanoyl-CoA + glycine = CoA + H(+) + N-docosanoylglycine;
+CC         Xref=Rhea:RHEA:49780, ChEBI:CHEBI:15378, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:65059, ChEBI:CHEBI:87410;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:49781;
+CC         Evidence={ECO:0000250|UniProtKB:Q14032};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=2.0 mM for taurine toward choloyl-CoA
+CC         {ECO:0000269|PubMed:7575455};
+CC         KM=4.4 mM for glycine toward choloyl-CoA
+CC         {ECO:0000269|PubMed:7575455};
+CC         KM=20 uM for glycine toward choloyl-CoA {ECO:0000269|PubMed:624713};
+CC         KM=10 uM for taurine toward choloyl-CoA {ECO:0000269|PubMed:624713};
+CC         KM=15 uM for glycine toward deoxycholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         KM=13 uM for taurine toward deoxycholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         KM=13 uM for glycine toward chenodeoxycholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         KM=16 uM for taurine toward chenodeoxycholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         KM=12 uM for glycine toward lithocholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         KM=11 uM for taurine toward lithocholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         Vmax=8.69 umol/min/mg enzyme for glycine toward choloyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         Vmax=4.09 umol/min/mg enzyme for taurine toward choloyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         Vmax=7.34 umol/min/mg enzyme for glycine toward deoxycholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         Vmax=3.10 umol/min/mg enzyme for taurine toward deoxycholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         Vmax=5.20 umol/min/mg enzyme for glycine toward chenodeoxycholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         Vmax=3.05 umol/min/mg enzyme for taurine toward chenodeoxycholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         Vmax=5.26 umol/min/mg enzyme for glycine toward lithocholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC         Vmax=3.42 umol/min/mg enzyme for taurine toward lithocholoyl-CoA
+CC         {ECO:0000269|PubMed:624713};
+CC       pH dependence:
+CC         Optimum pH is 7.8. {ECO:0000269|PubMed:624713};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:Q14032}.
+CC   -!- SUBCELLULAR LOCATION: Peroxisome {ECO:0000269|PubMed:12951368}.
+CC       Cytoplasm, cytosol {ECO:0000269|PubMed:12951368}.
+CC   -!- TISSUE SPECIFICITY: Expressed in liver (at protein level); found in
+CC       hepatocytes, sinusoidal endothelial cells and Kupffer cells.
+CC       {ECO:0000269|PubMed:12951368, ECO:0000269|PubMed:7575455}.
+CC   -!- SIMILARITY: Belongs to the C/M/P thioester hydrolase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D43964; BAA07901.1; -; mRNA.
+DR   EMBL; BC088153; AAH88153.1; -; mRNA.
+DR   PIR; S59131; S59131.
+DR   RefSeq; NP_058996.2; NM_017300.2.
+DR   AlphaFoldDB; Q63276; -.
+DR   SMR; Q63276; -.
+DR   STRING; 10116.ENSRNOP00000009777; -.
+DR   ESTHER; ratno-BAAT; Acyl-CoA_Thioesterase.
+DR   MEROPS; S09.A50; -.
+DR   CarbonylDB; Q63276; -.
+DR   iPTMnet; Q63276; -.
+DR   PhosphoSitePlus; Q63276; -.
+DR   PaxDb; 10116-ENSRNOP00000009777; -.
+DR   Ensembl; ENSRNOT00000009777.6; ENSRNOP00000009777.2; ENSRNOG00000007395.7.
+DR   Ensembl; ENSRNOT00055034796; ENSRNOP00055028214; ENSRNOG00055020369.
+DR   Ensembl; ENSRNOT00060009944; ENSRNOP00060007458; ENSRNOG00060006010.
+DR   Ensembl; ENSRNOT00065017431; ENSRNOP00065013366; ENSRNOG00065010767.
+DR   GeneID; 29725; -.
+DR   KEGG; rno:29725; -.
+DR   UCSC; RGD:2190; rat.
+DR   AGR; RGD:2190; -.
+DR   CTD; 570; -.
+DR   RGD; 2190; Baat.
+DR   eggNOG; ENOG502QQ8Z; Eukaryota.
+DR   GeneTree; ENSGT01010000222336; -.
+DR   HOGENOM; CLU_029849_4_0_1; -.
+DR   InParanoid; Q63276; -.
+DR   OMA; ISKPHAM; -.
+DR   OrthoDB; 5356064at2759; -.
+DR   PhylomeDB; Q63276; -.
+DR   TreeFam; TF314911; -.
+DR   BioCyc; MetaCyc:MONOMER-14337; -.
+DR   Reactome; R-RNO-159418; Recycling of bile acids and salts.
+DR   Reactome; R-RNO-193368; Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol.
+DR   Reactome; R-RNO-9033241; Peroxisomal protein import.
+DR   SABIO-RK; Q63276; -.
+DR   PRO; PR:Q63276; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   Bgee; ENSRNOG00000007395; Expressed in liver and 15 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; IDA:UniProtKB.
+DR   GO; GO:0005777; C:peroxisome; IDA:UniProtKB.
+DR   GO; GO:0052689; F:carboxylic ester hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0033882; F:choloyl-CoA hydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0047617; F:fatty acyl-CoA hydrolase activity; IBA:GO_Central.
+DR   GO; GO:0047963; F:glycine N-choloyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0052816; F:long-chain fatty acyl-CoA hydrolase activity; ISO:RGD.
+DR   GO; GO:0052815; F:medium-chain fatty acyl-CoA hydrolase activity; ISO:RGD.
+DR   GO; GO:0016410; F:N-acyltransferase activity; ISO:RGD.
+DR   GO; GO:0052817; F:very long-chain fatty acyl-CoA hydrolase activity; ISO:RGD.
+DR   GO; GO:0006637; P:acyl-CoA metabolic process; ISO:RGD.
+DR   GO; GO:0031100; P:animal organ regeneration; IEP:RGD.
+DR   GO; GO:0006699; P:bile acid biosynthetic process; ISO:RGD.
+DR   GO; GO:0002152; P:bile acid conjugation; IDA:UniProtKB.
+DR   GO; GO:0008206; P:bile acid metabolic process; ISO:RGD.
+DR   GO; GO:0006631; P:fatty acid metabolic process; IBA:GO_Central.
+DR   GO; GO:0006544; P:glycine metabolic process; ISO:RGD.
+DR   GO; GO:0001889; P:liver development; IEP:RGD.
+DR   GO; GO:0019530; P:taurine metabolic process; ISO:RGD.
+DR   Gene3D; 2.60.40.2240; Acyl-CoA thioester hydrolase/BAAT N-terminal domain; 1.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR016662; Acyl-CoA_thioEstase_long-chain.
+DR   InterPro; IPR014940; BAAT_C.
+DR   InterPro; IPR006862; Thio_Ohase/aa_AcTrfase.
+DR   InterPro; IPR042490; Thio_Ohase/BAAT_N.
+DR   PANTHER; PTHR10824; ACYL-COENZYME A THIOESTERASE-RELATED; 1.
+DR   PANTHER; PTHR10824:SF18; BILE ACID-COA:AMINO ACID N-ACYLTRANSFERASE; 1.
+DR   Pfam; PF08840; BAAT_C; 1.
+DR   Pfam; PF04775; Bile_Hydr_Trans; 1.
+DR   PIRSF; PIRSF016521; Acyl-CoA_hydro; 1.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+PE   1: Evidence at protein level;
+KW   Acyltransferase; Cytoplasm; Fatty acid metabolism; Hydrolase;
+KW   Lipid metabolism; Peroxisome; Phosphoprotein; Reference proteome;
+KW   Serine esterase; Transferase.
+FT   CHAIN           1..420
+FT                   /note="Bile acid-CoA:amino acid N-acyltransferase"
+FT                   /id="PRO_0000202161"
+FT   ACT_SITE        235
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        328
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        362
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         40
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91X34"
+FT   MOD_RES         125
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         346
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91X34"
+FT   MOD_RES         350
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91X34"
+FT   MOD_RES         409
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91X34"
+FT   MOD_RES         418
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CONFLICT        133
+FT                   /note="V -> M (in Ref. 1; BAA07901)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   420 AA;  46465 MW;  AACDB03726EB546F CRC64;
+     MAKLTAVPLS ALVDEPVHIR VTGLTPFQVV CLQASLKDDK GNLFNSQAFY RASEVGEVDL
+     ERDSSLGGDY MGVHPMGLFW SMKPEKLLTR LVKRDVMNRP HKVHIKLCHP YFPVEGKVIS
+     SSLDSLILER WYVAPGVTRI HVKEGRIRGA LFLPPGEGPF PGVIDLFGGA GGLFEFRASL
+     LASHGFATLA LAYWGYDDLP SRLEKVDLEY FEEGVEFLLR HPKVLGPGVG ILSVCIGAEI
+     GLSMAINLKQ ITATVLINGP NFVSSNPHVY RGKVFQPTPC SEEFVTTNAL GLVEFYRTFE
+     ETADKDSKYC FPIEKAHGHF LFVVGEDDKN LNSKVHAKQA IAQLMKSGKK NWTLLSYPGA
+     GHLIEPPYSP LCSASRMPFV IPSINWGGEV IPHAAAQEHS WKEIQKFLKQ HLNPGFNSQL
+//

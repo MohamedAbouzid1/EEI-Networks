@@ -1,0 +1,153 @@
+ID   IGHE_RAT                Reviewed;         429 AA.
+AC   P01855;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   02-OCT-2024, entry version 120.
+DE   RecName: Full=Immunoglobulin heavy constant epsilon;
+DE   AltName: Full=Ig epsilon chain C region;
+GN   Name=IGHE;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (IMMUNOCYTOMA IR2).
+RC   STRAIN=LOU/C/WSL;
+RX   PubMed=6292865; DOI=10.1093/nar/10.19.6041;
+RA   Hellman L., Pettersson U., Engstroem A., Karlsson T., Bennich H.;
+RT   "Structure and evolution of the heavy chain from rat immunoglobulin E.";
+RL   Nucleic Acids Res. 10:6041-6049(1982).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 168-342 (MYELOMA IR162).
+RX   PubMed=6820340; DOI=10.1089/dna.1982.1.335;
+RA   Kindsvogel W.R., Reddy E.P., Moore J.M., Faust C.H. Jr.;
+RT   "A cloned cDNA probe for rat immunoglobulin epsilon heavy chain:
+RT   construction, identification, and DNA sequence.";
+RL   DNA 1:335-343(1982).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 205-306.
+RX   PubMed=6803238; DOI=10.1073/pnas.79.4.1264;
+RA   Hellman L., Pettersson U., Bennich H.;
+RT   "Characterization and molecular cloning of the mRNA for the heavy (epsilon)
+RT   chain of rat immunoglobulin E.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 79:1264-1268(1982).
+CC   -!- FUNCTION: Constant region of immunoglobulin heavy chains.
+CC       Immunoglobulins, also known as antibodies, are membrane-bound or
+CC       secreted glycoproteins produced by B lymphocytes. In the recognition
+CC       phase of humoral immunity, the membrane-bound immunoglobulins serve as
+CC       receptors which, upon binding of a specific antigen, trigger the clonal
+CC       expansion and differentiation of B lymphocytes into immunoglobulins-
+CC       secreting plasma cells. Secreted immunoglobulins mediate the effector
+CC       phase of humoral immunity, which results in the elimination of bound
+CC       antigens. The antigen binding site is formed by the variable domain of
+CC       one heavy chain, together with that of its associated light chain.
+CC       Thus, each immunoglobulin has two antigen binding sites with remarkable
+CC       affinity for a particular antigen. The variable domains are assembled
+CC       by a process called V-(D)-J rearrangement and can then be subjected to
+CC       somatic hypermutations which, after exposure to antigen and selection,
+CC       allow affinity maturation for a particular antigen.
+CC       {ECO:0000250|UniProtKB:P01854}.
+CC   -!- SUBUNIT: The basic structural unit consists of two identical heavy
+CC       chains and two identical light chains; disulfide-linked. N-terminal
+CC       variable regions of the heavy and light chains form the antigen binding
+CC       sites, whereas the C-terminal constant regions of the heavy chains
+CC       interact with immune receptors to mediate effector functions.
+CC       {ECO:0000250|UniProtKB:P01854}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P01854}. Cell
+CC       membrane {ECO:0000250|UniProtKB:P01854}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA41379.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J00744; AAA41379.1; ALT_INIT; mRNA.
+DR   PIR; A93442; EHRT.
+DR   AlphaFoldDB; P01855; -.
+DR   SMR; P01855; -.
+DR   GlyGen; P01855; 1 site, 1 O-linked glycan (1 site).
+DR   PaxDb; 10116-ENSRNOP00000006912; -.
+DR   AGR; RGD:2880; -.
+DR   RGD; 2880; Ighe.
+DR   eggNOG; ENOG502R54U; Eukaryota.
+DR   InParanoid; P01855; -.
+DR   PhylomeDB; P01855; -.
+DR   TreeFam; TF334176; -.
+DR   PRO; PR:P01855; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071744; C:IgE B cell receptor complex; ISO:RGD.
+DR   GO; GO:0031902; C:late endosome membrane; IBA:GO_Central.
+DR   GO; GO:0005765; C:lysosomal membrane; IBA:GO_Central.
+DR   GO; GO:0042613; C:MHC class II protein complex; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0023026; F:MHC class II protein complex binding; IBA:GO_Central.
+DR   GO; GO:0042605; F:peptide antigen binding; IBA:GO_Central.
+DR   GO; GO:0019886; P:antigen processing and presentation of exogenous peptide antigen via MHC class II; IBA:GO_Central.
+DR   GO; GO:0030183; P:B cell differentiation; ISO:RGD.
+DR   GO; GO:0050853; P:B cell receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0002503; P:peptide antigen assembly with MHC class II protein complex; IBA:GO_Central.
+DR   GO; GO:0050778; P:positive regulation of immune response; IBA:GO_Central.
+DR   GO; GO:0050870; P:positive regulation of T cell activation; IBA:GO_Central.
+DR   CDD; cd05768; IgC1_CH3_IgAGD_CH4_IgAEM; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 4.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003006; Ig/MHC_CS.
+DR   InterPro; IPR003597; Ig_C1-set.
+DR   InterPro; IPR050380; Immune_Resp_Modulators.
+DR   InterPro; IPR013151; Immunoglobulin_dom.
+DR   PANTHER; PTHR23411:SF30; IMMUNOGLOBULIN HEAVY CONSTANT EPSILON; 1.
+DR   PANTHER; PTHR23411; TAPASIN; 1.
+DR   Pfam; PF07654; C1-set; 3.
+DR   Pfam; PF00047; ig; 1.
+DR   SMART; SM00407; IGc1; 4.
+DR   SUPFAM; SSF48726; Immunoglobulin; 4.
+DR   PROSITE; PS50835; IG_LIKE; 4.
+DR   PROSITE; PS00290; IG_MHC; 3.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Disulfide bond; Immunoglobulin domain; Membrane;
+KW   Reference proteome; Repeat; Secreted.
+FT   CHAIN           <1..429
+FT                   /note="Immunoglobulin heavy constant epsilon"
+FT                   /id="PRO_0000153576"
+FT   DOMAIN          6..89
+FT                   /note="Ig-like 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          103..201
+FT                   /note="Ig-like 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          205..305
+FT                   /note="Ig-like 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DOMAIN          314..414
+FT                   /note="Ig-like 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        26..78
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        125..184
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        230..289
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        334..396
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   CONFLICT        168
+FT                   /note="R -> N (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        308
+FT                   /note="P -> L (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   NON_TER         1
+SQ   SEQUENCE   429 AA;  48671 MW;  D2970B34EF8A72B0 CRC64;
+     VSVKAPSLYP LKPCSSENTA SVTLGCLVKD YFPDPVTVTW YSDSLNTSTM NFPSIGSDLK
+     TTTSQMTSWG KSAKNFTCHV THAPSTFVSD LTIRARPVNI TKPTVDLLHS SCDPNAFHST
+     IQLYCFVYGH IQNDVSIHWL MDDRKIYETH AQNVLIKEEG KLASTYSRLN ITQQQWMSES
+     TFTCKVTSQG ENYWAHTRRC SDDEPRGVIT YLIPPSPLDL YENGTPKLTC LVLDLESEEN
+     ITVTWVRERK KSIGSASQRS TKHHNATTSI TSILPVDAKD WIEGEGYQCR VDHPHFPKPI
+     VRSITKAPGK RSAPEVYVFL PPEEEEKDKR TLTCLIQNFF PEDISVQWLQ DSKLIPKSQH
+     STTTPLKYNG SNQRFFIFSR LEVTKALWTQ TKQFTCRVIH EALREPRKLE RTISKSLGNT
+     SLRPSQASM
+//

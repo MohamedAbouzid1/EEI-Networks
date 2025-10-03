@@ -1,0 +1,104 @@
+ID   IGG2C_RAT               Reviewed;         329 AA.
+AC   P20762;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1991, sequence version 1.
+DT   24-JUL-2024, entry version 119.
+DE   RecName: Full=Ig gamma-2C chain C region;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3127222; DOI=10.1002/eji.1830180222;
+RA   Brueggemann M., Delmastro-Galfre P., Waldmann H., Calabi F.;
+RT   "Sequence of a rat immunoglobulin gamma 2c heavy chain constant region
+RT   cDNA: extensive homology to mouse gamma 3.";
+RL   Eur. J. Immunol. 18:317-319(1988).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X07189; CAA30169.1; -; mRNA.
+DR   PIR; S00847; S00847.
+DR   AlphaFoldDB; P20762; -.
+DR   SMR; P20762; -.
+DR   GlyGen; P20762; 1 site, 2 N-linked glycans (1 site).
+DR   iPTMnet; P20762; -.
+DR   PaxDb; 10116-ENSRNOP00000060258; -.
+DR   Ensembl; ENSRNOT00000111892.1; ENSRNOP00000078974.1; ENSRNOG00000065917.1.
+DR   Ensembl; ENSRNOT00065050195; ENSRNOP00065041228; ENSRNOG00065029060.
+DR   AGR; RGD:150342189; -.
+DR   eggNOG; ENOG502R54U; Eukaryota.
+DR   GeneTree; ENSGT00940000163307; -.
+DR   InParanoid; P20762; -.
+DR   OMA; YENTEAH; -.
+DR   PhylomeDB; P20762; -.
+DR   TreeFam; TF334176; -.
+DR   Reactome; R-RNO-166663; Initial triggering of complement.
+DR   Reactome; R-RNO-173623; Classical antibody-mediated complement activation.
+DR   Reactome; R-RNO-2029481; FCGR activation.
+DR   Reactome; R-RNO-2029482; Regulation of actin dynamics for phagocytic cup formation.
+DR   Reactome; R-RNO-2029485; Role of phospholipids in phagocytosis.
+DR   Reactome; R-RNO-977606; Regulation of Complement cascade.
+DR   PRO; PR:P20762; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   GO; GO:0042571; C:immunoglobulin complex, circulating; IBA:GO_Central.
+DR   GO; GO:0003823; F:antigen binding; IBA:GO_Central.
+DR   GO; GO:0034987; F:immunoglobulin receptor binding; IBA:GO_Central.
+DR   GO; GO:0019731; P:antibacterial humoral response; IBA:GO_Central.
+DR   GO; GO:0006958; P:complement activation, classical pathway; IBA:GO_Central.
+DR   CDD; cd21817; IgC1_CH1_IgEG; 1.
+DR   CDD; cd05768; IgC1_CH3_IgAGD_CH4_IgAEM; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 3.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003006; Ig/MHC_CS.
+DR   InterPro; IPR003597; Ig_C1-set.
+DR   InterPro; IPR050380; Immune_Resp_Modulators.
+DR   PANTHER; PTHR23411:SF29; IG GAMMA-3 CHAIN C REGION; 1.
+DR   PANTHER; PTHR23411; TAPASIN; 1.
+DR   Pfam; PF07654; C1-set; 3.
+DR   SMART; SM00407; IGc1; 3.
+DR   SUPFAM; SSF48726; Immunoglobulin; 3.
+DR   PROSITE; PS50835; IG_LIKE; 3.
+DR   PROSITE; PS00290; IG_MHC; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Immunoglobulin domain; Reference proteome.
+FT   CHAIN           <1..329
+FT                   /note="Ig gamma-2C chain C region"
+FT                   /id="PRO_0000153594"
+FT   REGION          1..97
+FT                   /note="CH1"
+FT   REGION          98..113
+FT                   /note="Hinge"
+FT   REGION          114..222
+FT                   /note="CH2"
+FT   REGION          223..329
+FT                   /note="CH3"
+FT   DISULFID        15
+FT                   /note="Interchain (with a light chain)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        27..82
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        111
+FT                   /note="Interchain (with a heavy chain)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        113
+FT                   /note="Interchain (with a heavy chain)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        143..203
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        249..307
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   NON_TER         1
+SQ   SEQUENCE   329 AA;  36572 MW;  5FCD7B7933850773 CRC64;
+     ARTTAPSVYP LVPGCSGTSG SLVTLGCLVK GYFPEPVTVK WNSGALSSGV HTFPAVLQSG
+     LYTLSSSVTV PSSTWSSQTV TCSVAHPATK SNLIKRIEPR RPKPRPPTDI CSCDDNLGRP
+     SVFIFPPKPK DILMITLTPK VTCVVVDVSE EEPDVQFSWF VDNVRVFTAQ TQPHEEQLNG
+     TFRVVSTLHI QHQDWMSGKE FKCKVNNKDL PSPIEKTISK PRGKARTPQV YTIPPPREQM
+     SKNKVSLTCM VTSFYPASIS VEWERNGELE QDYKNTLPVL DSDESYFLYS KLSVDTDSWM
+     RGDIYTCSVV HEALHNHHTQ KNLSRSPGK
+//

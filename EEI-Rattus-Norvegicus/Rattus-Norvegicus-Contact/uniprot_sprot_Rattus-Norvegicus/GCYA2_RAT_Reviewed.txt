@@ -1,0 +1,146 @@
+ID   GCYA2_RAT               Reviewed;         730 AA.
+AC   Q9WVI4; Q54A43;
+DT   11-JUL-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 2.
+DT   29-MAY-2024, entry version 158.
+DE   RecName: Full=Guanylate cyclase soluble subunit alpha-2;
+DE            Short=GCS-alpha-2;
+DE            EC=4.6.1.2 {ECO:0000305|PubMed:11121588};
+GN   Name=Gucy1a2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], CATALYTIC ACTIVITY, ACTIVITY REGULATION, AND
+RP   FUNCTION.
+RC   STRAIN=Wistar Kyoto; TISSUE=Aorta;
+RX   PubMed=11121588; DOI=10.1016/s0167-4781(00)00211-6;
+RA   Koglin M., Behrends S.;
+RT   "Cloning and functional expression of the rat alpha(2) subunit of soluble
+RT   guanylyl cyclase.";
+RL   Biochim. Biophys. Acta 1494:286-289(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Yao Y., Yamamoto T., Suzuki N.;
+RT   "Rat soluble guanylate cyclase alpha 2 subunit.";
+RL   Submitted (NOV-2002) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Has guanylyl cyclase on binding to the beta-1 subunit.
+CC       {ECO:0000305|PubMed:11121588}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP = 3',5'-cyclic GMP + diphosphate; Xref=Rhea:RHEA:13665,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:37565, ChEBI:CHEBI:57746; EC=4.6.1.2;
+CC         Evidence={ECO:0000305|PubMed:11121588};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:13666;
+CC         Evidence={ECO:0000305|PubMed:11121588};
+CC   -!- ACTIVITY REGULATION: Activated by nitric oxide in the presence of
+CC       magnesium or manganese ions. {ECO:0000250,
+CC       ECO:0000269|PubMed:11121588}.
+CC   -!- SUBUNIT: Heterodimer of an alpha and a beta chain. {ECO:0000250}.
+CC   -!- INTERACTION:
+CC       Q9WVI4; P31016: Dlg4; NbExp=7; IntAct=EBI-7665590, EBI-375655;
+CC       Q9WVI4; Q62108: Dlg4; Xeno; NbExp=3; IntAct=EBI-7665590, EBI-300895;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- MISCELLANEOUS: There are two types of guanylate cyclases: soluble forms
+CC       and membrane-associated receptor forms.
+CC   -!- SIMILARITY: Belongs to the adenylyl cyclase class-4/guanylyl cyclase
+CC       family. {ECO:0000255|PROSITE-ProRule:PRU00099}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF109963; AAD42949.2; -; mRNA.
+DR   EMBL; AB096080; BAC24017.1; -; mRNA.
+DR   RefSeq; NP_076446.1; NM_023956.1.
+DR   AlphaFoldDB; Q9WVI4; -.
+DR   SMR; Q9WVI4; -.
+DR   IntAct; Q9WVI4; 5.
+DR   MINT; Q9WVI4; -.
+DR   STRING; 10116.ENSRNOP00000040361; -.
+DR   iPTMnet; Q9WVI4; -.
+DR   PhosphoSitePlus; Q9WVI4; -.
+DR   PaxDb; 10116-ENSRNOP00000040361; -.
+DR   DNASU; 66012; -.
+DR   Ensembl; ENSRNOT00055009757; ENSRNOP00055007523; ENSRNOG00055006026.
+DR   Ensembl; ENSRNOT00060027104; ENSRNOP00060021733; ENSRNOG00060015826.
+DR   Ensembl; ENSRNOT00065003767; ENSRNOP00065002645; ENSRNOG00065002755.
+DR   GeneID; 66012; -.
+DR   KEGG; rno:66012; -.
+DR   UCSC; RGD:621655; rat.
+DR   AGR; RGD:621655; -.
+DR   CTD; 2977; -.
+DR   RGD; 621655; Gucy1a2.
+DR   VEuPathDB; HostDB:ENSRNOG00000029876; -.
+DR   eggNOG; KOG4171; Eukaryota.
+DR   HOGENOM; CLU_011614_5_0_1; -.
+DR   InParanoid; Q9WVI4; -.
+DR   OrthoDB; 2898719at2759; -.
+DR   PhylomeDB; Q9WVI4; -.
+DR   Reactome; R-RNO-445355; Smooth Muscle Contraction.
+DR   PRO; PR:Q9WVI4; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000029876; Expressed in testis and 15 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0008074; C:guanylate cyclase complex, soluble; IBA:GO_Central.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004383; F:guanylate cyclase activity; IDA:RGD.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0044877; F:protein-containing complex binding; IPI:RGD.
+DR   GO; GO:0019934; P:cGMP-mediated signaling; IBA:GO_Central.
+DR   GO; GO:0007263; P:nitric oxide mediated signal transduction; ISO:RGD.
+DR   GO; GO:0010750; P:positive regulation of nitric oxide mediated signal transduction; ISO:RGD.
+DR   GO; GO:0070482; P:response to oxygen levels; IBA:GO_Central.
+DR   CDD; cd07302; CHD; 1.
+DR   Gene3D; 6.10.250.780; -; 1.
+DR   Gene3D; 3.90.1520.10; H-NOX domain; 1.
+DR   Gene3D; 3.30.450.260; Haem NO binding associated domain; 1.
+DR   Gene3D; 3.30.70.1230; Nucleotide cyclase; 1.
+DR   InterPro; IPR001054; A/G_cyclase.
+DR   InterPro; IPR018297; A/G_cyclase_CS.
+DR   InterPro; IPR038158; H-NOX_domain_sf.
+DR   InterPro; IPR011644; Heme_NO-bd.
+DR   InterPro; IPR011645; HNOB_dom_associated.
+DR   InterPro; IPR042463; HNOB_dom_associated_sf.
+DR   InterPro; IPR024096; NO_sig/Golgi_transp_ligand-bd.
+DR   InterPro; IPR029787; Nucleotide_cyclase.
+DR   PANTHER; PTHR45655:SF7; GUANYLATE CYCLASE SOLUBLE SUBUNIT ALPHA-2; 1.
+DR   PANTHER; PTHR45655; GUANYLATE CYCLASE SOLUBLE SUBUNIT BETA-2; 1.
+DR   Pfam; PF00211; Guanylate_cyc; 1.
+DR   Pfam; PF07700; HNOB; 1.
+DR   Pfam; PF07701; HNOBA; 1.
+DR   SMART; SM00044; CYCc; 1.
+DR   SUPFAM; SSF111126; Ligand-binding domain in the NO signalling and Golgi transport; 1.
+DR   SUPFAM; SSF55073; Nucleotide cyclase; 1.
+DR   PROSITE; PS00452; GUANYLATE_CYCLASE_1; 1.
+DR   PROSITE; PS50125; GUANYLATE_CYCLASE_2; 1.
+PE   1: Evidence at protein level;
+KW   cGMP biosynthesis; Cytoplasm; GTP-binding; Lyase; Nucleotide-binding;
+KW   Reference proteome.
+FT   CHAIN           1..730
+FT                   /note="Guanylate cyclase soluble subunit alpha-2"
+FT                   /id="PRO_0000074114"
+FT   DOMAIN          519..646
+FT                   /note="Guanylate cyclase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00099"
+FT   REGION          1..53
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..19
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   730 AA;  81787 MW;  B8D790BFF81FB8F9 CRC64;
+     MSRRKISSES FSSLGSDYLE TSPEEEGECP LSKLCWNGSR SPPGPPGSRA AAMAATPVPA
+     ASVAAAAAAV AAGSKRAQRR RRVNLDSLGE SISLLTAPSP QTIHMTLKRT LQYYEHQVIG
+     YRDAEKNFHN ISNRCSSADH SNKEEIEDVS GILRCTANVL GLKFQEIQER FGEEFFKICF
+     DENERVLRAV GSTLQDFFNG FDALLEHIRT SFGKQATLES PSFLCKELPE GTLKLHYFHP
+     HHTVGFAMLG MIKAAGKRIY HLNVEVEQIE NEKFCSDGST PSNYSCLTFL IKECETTQIT
+     KNIPQGTSQI PTDLRISINT FCRTFPFHLM FDPNMVVLQL GEGLRKQLRC DNHKVLKFED
+     CFEIVSPKVN ATFDRVLLRL STPFVIRTKP EASGTDNEDK VMEIKGQMIH VPESNAILFL
+     GSPCVDKLDE LIGRGLHLSD IPIHDATRDV ILVGEQAKAQ DGLKKRMDKL KATLEKTHQA
+     LEEEKKKTVD LLYSIFPGDV AQQLWQRQQV QARKFDDVTM LFSDIVGFTA ICAQCTPMQV
+     ISMLNELYTR FDHQCGFLDI YKVETIGDAY CVASGLHRKS LCHAKPIALM ALKMMELSEE
+     VLTPDGRPIQ MRIGIHSGSV LAGVVGVRMP RYCLFGNNVT LASKFESGSH PRRINISPTT
+     YQLLKREDSF TFIPRSREEL PDNFPKEIPG VCYFLELRTG PKPPKPSLSS SRIKKVSYNI
+     GTMFLRETSL
+//

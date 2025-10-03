@@ -1,0 +1,163 @@
+ID   RRF2M_RAT               Reviewed;         779 AA.
+AC   Q5BJP6;
+DT   13-OCT-2009, integrated into UniProtKB/Swiss-Prot.
+DT   13-OCT-2009, sequence version 2.
+DT   02-OCT-2024, entry version 121.
+DE   RecName: Full=Ribosome-releasing factor 2, mitochondrial {ECO:0000255|HAMAP-Rule:MF_03059};
+DE            Short=RRF2mt {ECO:0000255|HAMAP-Rule:MF_03059};
+DE            EC=3.6.5.- {ECO:0000255|HAMAP-Rule:MF_03059};
+DE   AltName: Full=Elongation factor G 2, mitochondrial {ECO:0000255|HAMAP-Rule:MF_03059};
+DE            Short=EF-G2mt {ECO:0000255|HAMAP-Rule:MF_03059};
+DE            Short=mEF-G 2 {ECO:0000255|HAMAP-Rule:MF_03059};
+GN   Name=Gfm2; Synonyms=Efg2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 38-779.
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Mitochondrial GTPase that mediates the disassembly of
+CC       ribosomes from messenger RNA at the termination of mitochondrial
+CC       protein biosynthesis. Acts in collaboration with MRRF. GTP hydrolysis
+CC       follows the ribosome disassembly and probably occurs on the ribosome
+CC       large subunit. Not involved in the GTP-dependent ribosomal
+CC       translocation step during translation elongation. {ECO:0000255|HAMAP-
+CC       Rule:MF_03059}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = GDP + H(+) + phosphate; Xref=Rhea:RHEA:19669,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58189; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_03059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19670;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03059};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000255|HAMAP-Rule:MF_03059}.
+CC   -!- MISCELLANEOUS: This protein may be expected to contain an N-terminal
+CC       transit peptide but none has been predicted. {ECO:0000255|HAMAP-
+CC       Rule:MF_03059}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. EF-G/EF-2
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_03059}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH473955; EDM10129.1; -; Genomic_DNA.
+DR   EMBL; BC091392; AAH91392.1; -; mRNA.
+DR   AlphaFoldDB; Q5BJP6; -.
+DR   SMR; Q5BJP6; -.
+DR   STRING; 10116.ENSRNOP00000071947; -.
+DR   PhosphoSitePlus; Q5BJP6; -.
+DR   PaxDb; 10116-ENSRNOP00000043087; -.
+DR   UCSC; RGD:1309854; rat.
+DR   AGR; RGD:1309854; -.
+DR   RGD; 1309854; Gfm2.
+DR   eggNOG; KOG0464; Eukaryota.
+DR   InParanoid; Q5BJP6; -.
+DR   PhylomeDB; Q5BJP6; -.
+DR   Reactome; R-RNO-5419276; Mitochondrial translation termination.
+DR   PRO; PR:Q5BJP6; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   Proteomes; UP000234681; Chromosome 2.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; ISS:UniProtKB.
+DR   GO; GO:0032543; P:mitochondrial translation; ISS:UniProtKB.
+DR   GO; GO:0032790; P:ribosome disassembly; ISS:UniProtKB.
+DR   CDD; cd01886; EF-G; 1.
+DR   CDD; cd16262; EFG_III; 1.
+DR   CDD; cd03713; EFG_mtEFG_C; 1.
+DR   CDD; cd04092; mtEFG2_II_like; 1.
+DR   CDD; cd01693; mtEFG2_like_IV; 1.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.30.70.240; -; 1.
+DR   Gene3D; 3.30.70.870; Elongation Factor G (Translational Gtpase), domain 3; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 2.40.30.10; Translation factors; 1.
+DR   HAMAP; MF_03059; mEF_G_2; 1.
+DR   InterPro; IPR053905; EF-G-like_DII.
+DR   InterPro; IPR030851; EFG2.
+DR   InterPro; IPR041095; EFG_II.
+DR   InterPro; IPR009022; EFG_III.
+DR   InterPro; IPR035647; EFG_III/V.
+DR   InterPro; IPR035649; EFG_V.
+DR   InterPro; IPR000640; EFG_V-like.
+DR   InterPro; IPR031157; G_TR_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR020568; Ribosomal_Su5_D2-typ_SF.
+DR   InterPro; IPR014721; Ribsml_uS5_D2-typ_fold_subgr.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR000795; T_Tr_GTP-bd_dom.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   InterPro; IPR005517; Transl_elong_EFG/EF2_IV.
+DR   NCBIfam; TIGR00231; small_GTP; 1.
+DR   PANTHER; PTHR43261:SF1; RIBOSOME-RELEASING FACTOR 2, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43261; TRANSLATION ELONGATION FACTOR G-RELATED; 1.
+DR   Pfam; PF22042; EF-G_D2; 1.
+DR   Pfam; PF00679; EFG_C; 1.
+DR   Pfam; PF14492; EFG_III; 1.
+DR   Pfam; PF03764; EFG_IV; 1.
+DR   Pfam; PF00009; GTP_EFTU; 1.
+DR   PRINTS; PR00315; ELONGATNFCT.
+DR   SMART; SM00838; EFG_C; 1.
+DR   SMART; SM00889; EFG_IV; 1.
+DR   SUPFAM; SSF54980; EF-G C-terminal domain-like; 2.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF54211; Ribosomal protein S5 domain 2-like; 1.
+DR   SUPFAM; SSF50447; Translation proteins; 1.
+DR   PROSITE; PS00301; G_TR_1; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+PE   2: Evidence at transcript level;
+KW   GTP-binding; Hydrolase; Mitochondrion; Nucleotide-binding;
+KW   Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..779
+FT                   /note="Ribosome-releasing factor 2, mitochondrial"
+FT                   /id="PRO_0000385594"
+FT   DOMAIN          68..353
+FT                   /note="tr-type G"
+FT   BINDING         77..84
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03059"
+FT   BINDING         141..145
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03059"
+FT   BINDING         195..198
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03059"
+FT   CONFLICT        616
+FT                   /note="M -> L (in Ref. 2; AAH91392)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        628
+FT                   /note="I -> V (in Ref. 2; AAH91392)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        778
+FT                   /note="V -> M (in Ref. 2; AAH91392)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   779 AA;  85914 MW;  D19A8B83F751F2B0 CRC64;
+     MFTNWRIFAV NRQKTFSVHI HTTCYCKIKA NLKRSKTQVP LTRSYSSPPG IVGNEVKSLH
+     SIINPPVAKI RNIGIMAHID AGKTTTTERI LYYSGYTRSL GDVDDGDTVT DFMAQERERG
+     ITIQSAAVTL DWKGYRVNLI DTPGHVDFTL EVERCLRVLD GAVAVFDASA GVEAQTLTVW
+     RQADKHKIPR ICFLNKMDKT GASFNYAVES IREKLKAKPL ILQLPIGEAR TFQGVVDVVN
+     REKLIWNSDS DDGKDFERKP LSEASDPTLL KETVEARNSL IEQVADLDDE FADLVLGEFS
+     EDFDLVPAEK LQAAIHRVTL AQAAVPVLCG SALKNKGVQP LLDAVTTYLP SPEEREHGFL
+     QWYKGDLCAL AFKVLHDKQR GPLVFLRIYS GTLTPQSAVH NVNRNCTERM SRLLLPFADQ
+     HVEIPSLTAG NIALTVGLKQ TATGDTIVSS KSSALAAARR AGKGERKPGR ISEAESVLLA
+     GVEIPEPVFF CTIEPPSAAK QPDLDHALEH LQREDPSLKV KLDPDSGQTV LCGMGELHIE
+     IIHDRIKREY GLETYLGPLQ VAYRETILNS VRATDTLDRV LGDKRHFARA ELEVRPAEEP
+     CGVATIEYAD SVGEDMLQAP REDIENAIHS ACLQGPLLGS PIQDVAVTLH SLMIHPGTST
+     TMVTACISRC VQKALKKADK QVLEPLMSLE VTVSREYLSP VLADLAQRRG NIQEIQTRQD
+     NKVVLGFVPL AEIMGYSTVL RTLTSGSATF ALELSTYQAM SPQDQRTLLS QRSGLARVL
+//

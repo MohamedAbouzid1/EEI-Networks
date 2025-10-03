@@ -1,0 +1,186 @@
+ID   KHK_RAT                 Reviewed;         298 AA.
+AC   Q02974; P97550; P97551;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   24-JUL-2024, entry version 158.
+DE   RecName: Full=Ketohexokinase {ECO:0000312|RGD:2966};
+DE            EC=2.7.1.3 {ECO:0000269|PubMed:8471037};
+DE   AltName: Full=Hepatic fructokinase;
+GN   Name=Khk {ECO:0000312|RGD:2966};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, FUNCTION, AND
+RP   CATALYTIC ACTIVITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=8471037; DOI=10.1042/bj2910179;
+RA   Donaldson I.A., Doyle T.C., Matas N.;
+RT   "Expression of rat liver ketohexokinase in yeast results in fructose
+RT   intolerance.";
+RL   Biochem. J. 291:179-186(1993).
+RN   [2]
+RP   PARTIAL NUCLEOTIDE SEQUENCE [GENOMIC DNA], ALTERNATIVE SPLICING, AND TISSUE
+RP   SPECIFICITY.
+RX   PubMed=9799106; DOI=10.1046/j.1432-1327.1998.2570085.x;
+RA   Hayward B.E., Bonthron D.T.;
+RT   "Structure and alternative splicing of the ketohexokinase gene.";
+RL   Eur. J. Biochem. 257:85-91(1998).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM C).
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of the ketose sugar fructose to
+CC       fructose-1-phosphate. {ECO:0000269|PubMed:8471037}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + beta-D-fructose = ADP + beta-D-fructose 1-phosphate +
+CC         H(+); Xref=Rhea:RHEA:18145, ChEBI:CHEBI:15378, ChEBI:CHEBI:28645,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:138881, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.3; Evidence={ECO:0000269|PubMed:8471037};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:18146;
+CC         Evidence={ECO:0000269|PubMed:8471037};
+CC   -!- ACTIVITY REGULATION: Requires potassium. Inhibition by ADP.
+CC   -!- PATHWAY: Carbohydrate metabolism; fructose metabolism.
+CC       {ECO:0000305|PubMed:8471037}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:P50053}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=C {ECO:0000269|PubMed:9799106}; Synonyms=Central,
+CC       hepatic/renal/intestinal {ECO:0000269|PubMed:9799106};
+CC         IsoId=Q02974-1; Sequence=Displayed;
+CC       Name=A {ECO:0000269|PubMed:9799106}; Synonyms=Peripheral
+CC       {ECO:0000269|PubMed:9799106};
+CC         IsoId=Q02974-2; Sequence=VSP_004670;
+CC   -!- TISSUE SPECIFICITY: Isoform C is most abundant in liver, kidney, gut,
+CC       spleen and pancreas. Low levels of isoform A found in adrenal, spleen
+CC       and brain. {ECO:0000269|PubMed:9799106}.
+CC   -!- PTM: The N-terminus is blocked.
+CC   -!- SIMILARITY: Belongs to the carbohydrate kinase PfkB family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X63658; CAA45198.1; -; mRNA.
+DR   EMBL; Y09337; CAA70517.1; -; Genomic_DNA.
+DR   EMBL; Y09338; CAA70518.1; -; Genomic_DNA.
+DR   EMBL; Y09338; CAA70519.1; -; Genomic_DNA.
+DR   EMBL; Y09339; CAA70520.1; -; Genomic_DNA.
+DR   EMBL; BC078752; AAH78752.1; -; mRNA.
+DR   PIR; S32426; S32426.
+DR   RefSeq; NP_114061.1; NM_031855.3. [Q02974-1]
+DR   AlphaFoldDB; Q02974; -.
+DR   SMR; Q02974; -.
+DR   IntAct; Q02974; 4.
+DR   STRING; 10116.ENSRNOP00000046296; -.
+DR   BindingDB; Q02974; -.
+DR   ChEMBL; CHEMBL4105923; -.
+DR   PhosphoSitePlus; Q02974; -.
+DR   PaxDb; 10116-ENSRNOP00000046296; -.
+DR   Ensembl; ENSRNOT00055032950; ENSRNOP00055026681; ENSRNOG00055019287. [Q02974-1]
+DR   Ensembl; ENSRNOT00060018836; ENSRNOP00060014678; ENSRNOG00060011092. [Q02974-1]
+DR   Ensembl; ENSRNOT00065039884; ENSRNOP00065032431; ENSRNOG00065023258. [Q02974-1]
+DR   GeneID; 25659; -.
+DR   KEGG; rno:25659; -.
+DR   AGR; RGD:2966; -.
+DR   CTD; 3795; -.
+DR   RGD; 2966; Khk.
+DR   VEuPathDB; HostDB:ENSRNOG00000008047; -.
+DR   eggNOG; KOG2947; Eukaryota.
+DR   HOGENOM; CLU_027634_3_0_1; -.
+DR   InParanoid; Q02974; -.
+DR   OrthoDB; 55217at2759; -.
+DR   PhylomeDB; Q02974; -.
+DR   TreeFam; TF323942; -.
+DR   BRENDA; 2.7.1.3; 5301.
+DR   Reactome; R-RNO-70350; Fructose catabolism.
+DR   SABIO-RK; Q02974; -.
+DR   UniPathway; UPA00202; -.
+DR   PRO; PR:Q02974; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000008047; Expressed in kidney and 19 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004454; F:ketohexokinase activity; IDA:RGD.
+DR   GO; GO:0016052; P:carbohydrate catabolic process; TAS:RGD.
+DR   GO; GO:0006001; P:fructose catabolic process; ISO:RGD.
+DR   GO; GO:0061624; P:fructose catabolic process to hydroxyacetone phosphate and glyceraldehyde-3-phosphate; ISO:RGD.
+DR   GO; GO:0006000; P:fructose metabolic process; IDA:RGD.
+DR   GO; GO:0070873; P:regulation of glycogen metabolic process; ISO:RGD.
+DR   GO; GO:0009750; P:response to fructose; IEP:RGD.
+DR   GO; GO:0009749; P:response to glucose; IDA:RGD.
+DR   GO; GO:0032868; P:response to insulin; IDA:RGD.
+DR   GO; GO:0009744; P:response to sucrose; IDA:RGD.
+DR   GO; GO:0010043; P:response to zinc ion; IDA:RGD.
+DR   CDD; cd01939; Ketohexokinase; 1.
+DR   Gene3D; 3.40.1190.20; -; 1.
+DR   InterPro; IPR052562; Ketohexokinase-related.
+DR   InterPro; IPR034093; KHK.
+DR   InterPro; IPR011611; PfkB_dom.
+DR   InterPro; IPR029056; Ribokinase-like.
+DR   PANTHER; PTHR42774:SF3; KETOHEXOKINASE ISOFORM X1; 1.
+DR   PANTHER; PTHR42774; PHOSPHOTRANSFERASE SYSTEM TRANSPORT PROTEIN; 1.
+DR   Pfam; PF00294; PfkB; 1.
+DR   SUPFAM; SSF53613; Ribokinase-like; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Carbohydrate metabolism;
+KW   Direct protein sequencing; Kinase; Nucleotide-binding; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..298
+FT                   /note="Ketohexokinase"
+FT                   /id="PRO_0000080091"
+FT   BINDING         15
+FT                   /ligand="beta-D-fructose"
+FT                   /ligand_id="ChEBI:CHEBI:28645"
+FT                   /evidence="ECO:0000250|UniProtKB:P50053"
+FT   BINDING         41
+FT                   /ligand="beta-D-fructose"
+FT                   /ligand_id="ChEBI:CHEBI:28645"
+FT                   /evidence="ECO:0000250|UniProtKB:P50053"
+FT   BINDING         42
+FT                   /ligand="beta-D-fructose"
+FT                   /ligand_id="ChEBI:CHEBI:28645"
+FT                   /evidence="ECO:0000250|UniProtKB:P50053"
+FT   BINDING         45
+FT                   /ligand="beta-D-fructose"
+FT                   /ligand_id="ChEBI:CHEBI:28645"
+FT                   /evidence="ECO:0000250|UniProtKB:P50053"
+FT   BINDING         108
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P50053"
+FT   BINDING         226..229
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P50053"
+FT   BINDING         255..258
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P50053"
+FT   BINDING         258
+FT                   /ligand="beta-D-fructose"
+FT                   /ligand_id="ChEBI:CHEBI:28645"
+FT                   /evidence="ECO:0000250|UniProtKB:P50053"
+FT   VAR_SEQ         72..114
+FT                   /note="LVADFRRRGVDVSQVAWQSQGDTPCSCCIVNNSNGSRTIILYD -> VLDDL
+FT                   RRHSVDLRYAVLQTEGSIPTSTVIVNEASGSRTILHAY (in isoform A)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_004670"
+FT   CONFLICT        232
+FT                   /note="A -> T (in Ref. 2; CAA70517)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   298 AA;  32749 MW;  F85C787FF047DF70 CRC64;
+     MEEKQILCVG LVVLDIINVV DKYPEEDTDR RCLSQRWQRG GNASNSCTVL SLLGARCAFM
+     GSLAHGHVAD FLVADFRRRG VDVSQVAWQS QGDTPCSCCI VNNSNGSRTI ILYDTNLPDV
+     SAKDFEKVDL TRFKWIHIEG RNASEQVKML QRIEQYNATQ PLQQKVRVSV EIEKPREELF
+     QLFGYGEVVF VSKDVAKHLG FRSAGEALKG LYSRVKKGAT LICAWAEEGA DALGPDGQLL
+     HSDAFPPPRV VDTLGAGDTF NASVIFSLSK GNSMQEALRF GCQVAGKKCG LQGFDGIV
+//

@@ -1,0 +1,130 @@
+ID   ZFY21_RAT               Reviewed;         234 AA.
+AC   D3ZVP7;
+DT   30-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   20-APR-2010, sequence version 1.
+DT   24-JUL-2024, entry version 60.
+DE   RecName: Full=Zinc finger FYVE domain-containing protein 21;
+GN   Name=Zfyve21;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Plays a role in cell adhesion, and thereby in cell motility
+CC       which requires repeated formation and disassembly of focal adhesions.
+CC       Regulates microtubule-induced PTK2/FAK1 dephosphorylation, an event
+CC       important for focal adhesion disassembly, as well as integrin beta-
+CC       1/ITGB1 cell surface expression (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with PTK2/FAK1. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell junction, focal adhesion. Cytoplasmic
+CC       vesicle {ECO:0000250}. Endosome {ECO:0000250}.
+CC   -!- DOMAIN: The FYVE-type zinc finger mediates interaction with PTK2/FAK1,
+CC       and also interaction with PI(3)P and association with endosomes.
+CC       {ECO:0000250}.
+CC   -!- DOMAIN: The C-terminal region exhibits a structure similar to canonical
+CC       PH domains, but lacks a positively charged interface to bind
+CC       phosphatidylinositol phosphate. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH474034; EDL97443.1; -; Genomic_DNA.
+DR   RefSeq; XP_006240704.3; XM_006240642.3.
+DR   AlphaFoldDB; D3ZVP7; -.
+DR   SMR; D3ZVP7; -.
+DR   STRING; 10116.ENSRNOP00000074963; -.
+DR   PhosphoSitePlus; D3ZVP7; -.
+DR   PaxDb; 10116-ENSRNOP00000059837; -.
+DR   UCSC; RGD:1311036; rat.
+DR   AGR; RGD:1311036; -.
+DR   RGD; 1311036; Zfyve21.
+DR   eggNOG; ENOG502QRR6; Eukaryota.
+DR   InParanoid; D3ZVP7; -.
+DR   OrthoDB; 38671at2759; -.
+DR   PhylomeDB; D3ZVP7; -.
+DR   TreeFam; TF329481; -.
+DR   PRO; PR:D3ZVP7; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   Proteomes; UP000234681; Chromosome 6.
+DR   GO; GO:0005768; C:endosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005925; C:focal adhesion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd15727; FYVE_ZF21; 1.
+DR   Gene3D; 2.30.29.160; Zinc finger FYVE domain-containing protein 21, C-terminal; 1.
+DR   Gene3D; 3.30.40.10; Zinc/RING finger domain, C3HC4 (zinc finger); 1.
+DR   InterPro; IPR052113; FYVE-type_Zinc_Finger.
+DR   InterPro; IPR032031; ZFYVE21_C.
+DR   InterPro; IPR038632; ZFYVE21_C_sf.
+DR   InterPro; IPR000306; Znf_FYVE.
+DR   InterPro; IPR017455; Znf_FYVE-rel.
+DR   InterPro; IPR011011; Znf_FYVE_PHD.
+DR   InterPro; IPR013083; Znf_RING/FYVE/PHD.
+DR   PANTHER; PTHR39490; ARRESTIN DOMAIN-CONTAINING PROTEIN D; 1.
+DR   PANTHER; PTHR39490:SF8; ZINC FINGER FYVE DOMAIN-CONTAINING PROTEIN 21; 1.
+DR   Pfam; PF01363; FYVE; 1.
+DR   Pfam; PF16696; ZFYVE21_C; 1.
+DR   SMART; SM00064; FYVE; 1.
+DR   SUPFAM; SSF57903; FYVE/PHD zinc finger; 1.
+DR   PROSITE; PS50178; ZF_FYVE; 1.
+PE   3: Inferred from homology;
+KW   Cell junction; Cytoplasmic vesicle; Endosome; Metal-binding;
+KW   Reference proteome; Zinc; Zinc-finger.
+FT   CHAIN           1..234
+FT                   /note="Zinc finger FYVE domain-containing protein 21"
+FT                   /id="PRO_0000401195"
+FT   ZN_FING         44..104
+FT                   /note="FYVE-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   REGION          107..234
+FT                   /note="PH-like"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         50
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         53
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         66
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         69
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         74
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         77
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         96
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+FT   BINDING         99
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00091"
+SQ   SEQUENCE   234 AA;  26009 MW;  1DDA0240BBAD464C CRC64;
+     MSSGVAARCD AKKLVRSPSG LRMVPEHRAF GSPFGLEEPQ WVPDKECPRC MQCDAKFDFI
+     TRKHHCRRCG KCFCDRCCSQ KVPLRRMCFV DPVRQCADCA LVSHREAEFY DKQLKVLVSG
+     ATFLVTFGDS EKPETMVCRL SNNQRCLILD GDSHHEIEIA HVCTVQILTE GFTPGAGSTR
+     ATGMFLQYTV PGAEAAAQLR LMAGEDASGS KRQAAAWLAA MHKATKLLYE SRDQ
+//

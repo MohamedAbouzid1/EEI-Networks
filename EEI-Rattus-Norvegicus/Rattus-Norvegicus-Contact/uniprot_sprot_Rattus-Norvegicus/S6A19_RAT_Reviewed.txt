@@ -1,0 +1,305 @@
+ID   S6A19_RAT               Reviewed;         634 AA.
+AC   Q2A865; A4ZVM8;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 2.
+DT   02-OCT-2024, entry version 112.
+DE   RecName: Full=Sodium-dependent neutral amino acid transporter B(0)AT1;
+DE   AltName: Full=Solute carrier family 6 member 19;
+DE   AltName: Full=System B(0) neutral amino acid transporter AT1;
+GN   Name=Slc6a19 {ECO:0000312|RGD:1594328};
+GN   Synonyms=B0at1 {ECO:0000312|EMBL:CAI64591.1};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000312|EMBL:CAI64591.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Kidney {ECO:0000312|EMBL:CAI64591.1};
+RA   Volk C., Koepsell H., Arndt P.;
+RT   "Cloning and characterization of the rat B0 amino acid transporter 1.";
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar Kyoto;
+RX   PubMed=17646927; DOI=10.1007/s11010-007-9548-9;
+RA   Pinho M.J., Serrao M.P., Jose P.A., Soares-da-Silva P.;
+RT   "Organ specific underexpression renal of Na+-dependent B0AT1 in the SHR
+RT   correlates positively with overexpression of NHE3 and salt intake.";
+RL   Mol. Cell. Biochem. 306:9-18(2007).
+RN   [3] {ECO:0000305}
+RP   INDUCTION BY HIGH SALT INTAKE.
+RX   PubMed=17264310; DOI=10.1152/ajprenal.00465.2006;
+RA   Pinho M.J., Serrao M.P., Soares-da-Silva P.;
+RT   "High-salt intake and the renal expression of amino acid transporters in
+RT   spontaneously hypertensive rats.";
+RL   Am. J. Physiol. 292:F1452-F1463(2007).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-17, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Transporter that mediates resorption of neutral amino acids
+CC       across the apical membrane of renal and intestinal epithelial cells.
+CC       This uptake is sodium-dependent and chloride-independent. Requires
+CC       CLTRN in kidney or ACE2 in intestine for cell surface expression and
+CC       amino acid transporter activity. {ECO:0000250|UniProtKB:Q9D687}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-alanine(in) + Na(+)(in) = L-alanine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:29283, ChEBI:CHEBI:29101, ChEBI:CHEBI:57972;
+CC         Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-cysteine(in) + Na(+)(in) = L-cysteine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:68232, ChEBI:CHEBI:29101, ChEBI:CHEBI:35235;
+CC         Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamine(in) + Na(+)(in) = L-glutamine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:68236, ChEBI:CHEBI:29101, ChEBI:CHEBI:58359;
+CC         Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycine(in) + Na(+)(in) = glycine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:68228, ChEBI:CHEBI:29101, ChEBI:CHEBI:57305;
+CC         Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-isoleucine(in) + Na(+)(in) = L-isoleucine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:29275, ChEBI:CHEBI:29101, ChEBI:CHEBI:58045;
+CC         Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-leucine(in) + Na(+)(in) = L-leucine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:29263, ChEBI:CHEBI:29101, ChEBI:CHEBI:57427;
+CC         Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-methionine(in) + Na(+)(in) = L-methionine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:68240, ChEBI:CHEBI:29101, ChEBI:CHEBI:57844;
+CC         Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-phenylalanine(in) + Na(+)(in) = L-phenylalanine(out) +
+CC         Na(+)(out); Xref=Rhea:RHEA:68244, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:58095; Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-serine(in) + Na(+)(in) = L-serine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:29575, ChEBI:CHEBI:29101, ChEBI:CHEBI:33384;
+CC         Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-tryptophan(in) + Na(+)(in) = L-tryptophan(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:68252, ChEBI:CHEBI:29101, ChEBI:CHEBI:57912;
+CC         Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-tyrosine(in) + Na(+)(in) = L-tyrosine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:68248, ChEBI:CHEBI:29101, ChEBI:CHEBI:58315;
+CC         Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-valine(in) + Na(+)(in) = L-valine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:29267, ChEBI:CHEBI:29101, ChEBI:CHEBI:57762;
+CC         Evidence={ECO:0000250|UniProtKB:Q695T7};
+CC   -!- SUBUNIT: Interacts in a tissue-specific manner with ACE2 in small
+CC       intestine and with CLTRN in the kidney. Interacts with CLTRN; this
+CC       interaction is required for trafficking of SLC6A19 to the plasma
+CC       membrane and for its catalytic activation in kidneys. Interacts with
+CC       ACE2; this interaction is required for trafficking of SLC6A19 to the
+CC       plasma membrane and for its catalytic activation in intestine.
+CC       Interacts with ANPEP; the interaction positively regulates its amino
+CC       acid transporter activity (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9D687}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250|UniProtKB:Q695T7}; Multi-
+CC       pass membrane protein {ECO:0000255}.
+CC   -!- INDUCTION: By high salt intake in SHR rats. Reduced level upon high
+CC       salt intake in Wistar Kyoto rats. {ECO:0000269|PubMed:17264310}.
+CC   -!- SIMILARITY: Belongs to the sodium:neurotransmitter symporter (SNF) (TC
+CC       2.A.22) family. SLC6A19 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ890206; CAI64591.1; -; mRNA.
+DR   EMBL; EF474455; ABP63542.1; -; mRNA.
+DR   RefSeq; NP_001034811.1; NM_001039722.2.
+DR   AlphaFoldDB; Q2A865; -.
+DR   SMR; Q2A865; -.
+DR   STRING; 10116.ENSRNOP00000028917; -.
+DR   DrugCentral; Q2A865; -.
+DR   GuidetoPHARMACOLOGY; 939; -.
+DR   GlyCosmos; Q2A865; 5 sites, No reported glycans.
+DR   GlyGen; Q2A865; 5 sites.
+DR   iPTMnet; Q2A865; -.
+DR   PhosphoSitePlus; Q2A865; -.
+DR   PaxDb; 10116-ENSRNOP00000028917; -.
+DR   Ensembl; ENSRNOT00000036714.4; ENSRNOP00000028917.2; ENSRNOG00000026501.6.
+DR   Ensembl; ENSRNOT00055004683; ENSRNOP00055003454; ENSRNOG00055003012.
+DR   Ensembl; ENSRNOT00060044233; ENSRNOP00060036678; ENSRNOG00060025538.
+DR   Ensembl; ENSRNOT00065031065; ENSRNOP00065024736; ENSRNOG00065018495.
+DR   GeneID; 664630; -.
+DR   KEGG; rno:664630; -.
+DR   UCSC; RGD:1594328; rat.
+DR   AGR; RGD:1594328; -.
+DR   CTD; 340024; -.
+DR   RGD; 1594328; Slc6a19.
+DR   eggNOG; KOG3659; Eukaryota.
+DR   GeneTree; ENSGT00940000154896; -.
+DR   HOGENOM; CLU_006855_7_2_1; -.
+DR   InParanoid; Q2A865; -.
+DR   OMA; WPKELIT; -.
+DR   OrthoDB; 3084493at2759; -.
+DR   PhylomeDB; Q2A865; -.
+DR   TreeFam; TF343812; -.
+DR   Reactome; R-RNO-352230; Amino acid transport across the plasma membrane.
+DR   Reactome; R-RNO-442660; Na+/Cl- dependent neurotransmitter transporters.
+DR   PRO; PR:Q2A865; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000026501; Expressed in jejunum and 8 other cell types or tissues.
+DR   GO; GO:0016324; C:apical plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0031526; C:brush border membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0015175; F:neutral L-amino acid transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015293; F:symporter activity; IEA:UniProtKB-KW.
+DR   GO; GO:0003333; P:amino acid transmembrane transport; ISO:RGD.
+DR   GO; GO:0015804; P:neutral amino acid transport; ISO:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0035725; P:sodium ion transmembrane transport; IBA:GO_Central.
+DR   InterPro; IPR000175; Na/ntran_symport.
+DR   InterPro; IPR002438; Neutral_aa_SLC6.
+DR   InterPro; IPR037272; SNS_sf.
+DR   NCBIfam; NF037979; Na_transp; 1.
+DR   PANTHER; PTHR11616:SF125; SODIUM-DEPENDENT NEUTRAL AMINO ACID TRANSPORTER B(0)AT1; 1.
+DR   PANTHER; PTHR11616; SODIUM/CHLORIDE DEPENDENT TRANSPORTER; 1.
+DR   Pfam; PF00209; SNF; 1.
+DR   PRINTS; PR00176; NANEUSMPORT.
+DR   PRINTS; PR01206; ORPHTRNSPORT.
+DR   SUPFAM; SSF161070; SNF-like; 1.
+DR   PROSITE; PS00610; NA_NEUROTRAN_SYMP_1; 1.
+DR   PROSITE; PS50267; NA_NEUROTRAN_SYMP_3; 1.
+PE   1: Evidence at protein level;
+KW   Amino-acid transport; Glycoprotein; Membrane; Phosphoprotein;
+KW   Reference proteome; Symport; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..634
+FT                   /note="Sodium-dependent neutral amino acid transporter
+FT                   B(0)AT1"
+FT                   /id="PRO_0000299498"
+FT   TOPO_DOM        1..41
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        42..62
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        63..65
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        66..86
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        87..119
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        120..140
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        141..192
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        193..213
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        214..221
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        222..242
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        243..268
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        269..289
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        290..304
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        305..325
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        326..413
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        414..434
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        435..456
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        457..477
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        478..490
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        491..511
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        512..531
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        532..552
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        553..581
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        582..602
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        603..634
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         17
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         627
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9D687"
+FT   CARBOHYD        158
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        182
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        258
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        354
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        368
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        32
+FT                   /note="R -> K (in Ref. 1; CAI64591)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        186
+FT                   /note="S -> P (in Ref. 1; CAI64591)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        276
+FT                   /note="F -> Y (in Ref. 1; CAI64591)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        433
+FT                   /note="F -> L (in Ref. 2; ABP63542)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        458
+FT                   /note="L -> F (in Ref. 2; ABP63542)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   634 AA;  71232 MW;  005015BEAF876CE4 CRC64;
+     MVRLVLPNPG LEDRIPSLDE LEVIEKEEAS SRPKWDNKAQ YMLTCVGFCV GLGNVWRFPY
+     LCQSHGGGAF MIPFLILLVL EGIPLLHLEF AIGQRLRKGS VGVWSSIHPA LKGVGIASMF
+     VSFMVGLYYN TIIAWVMWYF FNSFQEPLPW SECPLNQNQT GYVEECAKSS SVDYFWYRET
+     LNISTSISDS GSIQWWILLC LTCAWSVLYV CTIRGIETTG KAVYITSTLP YVVLTIFLIR
+     GLTLKGATNG IVFLFTPNIT ELSNPNTWLD AGAQVFYSFS LAFGGLISFS SYNSVHNNCE
+     MDSVIVSIIN GFTSVYAATV VYSIIGFRAT ERFDDCVNTN ILTLINGFDL PEGNVTAENF
+     EAYQHWCNAT NPEAYAQLTF QTCDINTFLS EGVEGTGLAF IVFTEAITKM PVSPLWSVLF
+     FIMLFCLGLS SMFGNMEGVV VPLQDLNITP KKWPKELLTG LICLGTYLIA FIFTLNSGQY
+     WLSLLDSYAG SIPLLIIAFC EMFAVVYVYG VDRFNKDIEF MIGHKPNIFW QVTWRVVSPL
+     IMLVIFLFFF VIEVNKQLMY SVWDPDYEEF PKSQKVPYPD WVYAVVVIVA GVPCLTIPCF
+     AIYKLIRNYC QKSGDQHGLV NALSTASVNG DLKN
+//

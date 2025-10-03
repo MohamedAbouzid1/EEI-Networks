@@ -1,0 +1,105 @@
+ID   SFT2B_RAT               Reviewed;         157 AA.
+AC   Q4FZV2;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   30-AUG-2005, sequence version 1.
+DT   27-MAR-2024, entry version 77.
+DE   RecName: Full=Vesicle transport protein SFT2B;
+DE   AltName: Full=SFT2 domain-containing protein 2;
+GN   Name=Sft2d2 {ECO:0000250|UniProtKB:O95562};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: May be involved in fusion of retrograde transport vesicles
+CC       derived from an endocytic compartment with the Golgi complex.
+CC       {ECO:0000250|UniProtKB:P38166}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000255}; Multi-pass membrane
+CC       protein {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the SFT2 family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC099092; AAH99092.1; -; mRNA.
+DR   RefSeq; NP_001029183.1; NM_001034011.1.
+DR   AlphaFoldDB; Q4FZV2; -.
+DR   STRING; 10116.ENSRNOP00000004065; -.
+DR   PhosphoSitePlus; Q4FZV2; -.
+DR   PaxDb; 10116-ENSRNOP00000068143; -.
+DR   GeneID; 360868; -.
+DR   KEGG; rno:360868; -.
+DR   UCSC; RGD:1310623; rat.
+DR   AGR; RGD:1310623; -.
+DR   CTD; 375035; -.
+DR   RGD; 1310623; Sft2d2.
+DR   eggNOG; KOG2887; Eukaryota.
+DR   InParanoid; Q4FZV2; -.
+DR   OrthoDB; 4985339at2759; -.
+DR   PhylomeDB; Q4FZV2; -.
+DR   TreeFam; TF315157; -.
+DR   PRO; PR:Q4FZV2; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProt.
+DR   GO; GO:0012505; C:endomembrane system; IEA:UniProt.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IEA:UniProt.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   GO; GO:0016192; P:vesicle-mediated transport; IEA:InterPro.
+DR   InterPro; IPR007305; Vesicle_transpt_Got1/SFT2.
+DR   InterPro; IPR011691; Vesicle_transpt_SFT2.
+DR   PANTHER; PTHR23137; UNCHARACTERIZED; 1.
+DR   PANTHER; PTHR23137:SF1; VESICLE TRANSPORT PROTEIN SFT2B; 1.
+DR   Pfam; PF04178; Got1; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Membrane; Phosphoprotein; Protein transport;
+KW   Reference proteome; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..157
+FT                   /note="Vesicle transport protein SFT2B"
+FT                   /id="PRO_0000238612"
+FT   TOPO_DOM        1..36
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        37..57
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        58..61
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        62..82
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        83..96
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        97..117
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        118..120
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        121..141
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        142..157
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95562"
+FT   MOD_RES         9
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95562"
+SQ   SEQUENCE   157 AA;  17511 MW;  F70694C7D3180C39 CRC64;
+     MDKLKKVLSG QDTEDRSGLS EVVESSSLSW STRIKGFIVC FALGILCSLL GTLLLWVSRK
+     GLFAVFYTLG NITSIGSTMF LMGPLKQLKR MFEPTRLIAT ILVLLFFVLT LCSAFLWNKG
+     LALIFCILQS LALTWYSLSY IPYARDAVKK CFAVCLT
+//

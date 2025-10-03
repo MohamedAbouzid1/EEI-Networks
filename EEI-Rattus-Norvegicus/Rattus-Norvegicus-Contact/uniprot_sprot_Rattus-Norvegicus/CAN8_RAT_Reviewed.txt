@@ -1,0 +1,248 @@
+ID   CAN8_RAT                Reviewed;         703 AA.
+AC   Q78EJ9; Q64698; Q78EJ8; Q8K407;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   24-JUL-2024, entry version 140.
+DE   RecName: Full=Calpain-8;
+DE            EC=3.4.22.53;
+DE   AltName: Full=Calpain large subunit 4;
+DE   AltName: Full=New calpain 2;
+DE            Short=nCL-2;
+DE   AltName: Full=Stomach-specific M-type calpain;
+GN   Name=Capn8; Synonyms=Cls4, Ncl2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), SUBCELLULAR LOCATION, AND
+RP   TISSUE SPECIFICITY.
+RC   TISSUE=Gastric mucosa;
+RX   PubMed=7690035; DOI=10.1016/s0021-9258(19)36540-8;
+RA   Sorimachi H., Ishiura S., Suzuki K.;
+RT   "A novel tissue-specific calpain species expressed predominantly in the
+RT   stomach comprises two alternative splicing products with and without
+RT   Ca(2+)-binding domain.";
+RL   J. Biol. Chem. 268:19476-19482(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-17, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=12150941; DOI=10.1016/s0006-291x(02)00655-1;
+RA   Duan W.R., Ito M., Lee E.J., Chien P.-Y., Jameson J.L.;
+RT   "Estrogen regulates a tissue-specific calpain in the anterior pituitary.";
+RL   Biochem. Biophys. Res. Commun. 295:261-266(2002).
+CC   -!- FUNCTION: Calcium-regulated non-lysosomal thiol-protease. Involved in
+CC       membrane trafficking in the gastric surface mucus cells (pit cells) and
+CC       may involve the membrane trafficking of mucus cells via interactions
+CC       with coat protein. Proteolytically cleaves the beta-subunit of coatomer
+CC       complex (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Broad endopeptidase specificity.; EC=3.4.22.53;
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000305};
+CC       Note=Binds 2 calcium ions. {ECO:0000305};
+CC   -!- SUBUNIT: Monomer and homooligomer. Interacts with COPS1/GPS1, COPB1,
+CC       EYA2, NME2, NME4 and TOMM70 (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:7690035}. Golgi
+CC       apparatus {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1; Synonyms=nCL-2;
+CC         IsoId=Q78EJ9-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Calpain 8b, nCL-2';
+CC         IsoId=Q78EJ9-2; Sequence=VSP_035308, VSP_035309;
+CC   -!- TISSUE SPECIFICITY: Predominantly expressed in the stomach. Localizes
+CC       strictly to the surface mucus cells in the gastric epithelium and the
+CC       mucus-secreting goblet cells in the duodenum. Detected in the pituitary
+CC       after estrogen stimulation. {ECO:0000269|PubMed:12150941,
+CC       ECO:0000269|PubMed:7690035}.
+CC   -!- DOMAIN: The domain III mediates oligomerization. {ECO:0000250}.
+CC   -!- PTM: Undergoes autolytic cleavage between Ala-5 and Ala-6 which gives
+CC       rise to fragments extending from Ala-6 to the C-terminus, Ala-6 to the
+CC       EF-hand 2 domain and from Ala-6 to the beginning of domain III.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase C2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D14478; BAA03369.1; -; Transcribed_RNA.
+DR   EMBL; D14479; BAA03370.1; -; mRNA.
+DR   EMBL; D14480; BAA03371.1; -; mRNA.
+DR   EMBL; AF514419; AAM94284.1; -; Genomic_DNA.
+DR   PIR; A48764; A48764.
+DR   RefSeq; NP_579843.2; NM_133309.2. [Q78EJ9-1]
+DR   AlphaFoldDB; Q78EJ9; -.
+DR   SMR; Q78EJ9; -.
+DR   STRING; 10116.ENSRNOP00000062898; -.
+DR   MEROPS; C02.007; -.
+DR   iPTMnet; Q78EJ9; -.
+DR   PhosphoSitePlus; Q78EJ9; -.
+DR   PaxDb; 10116-ENSRNOP00000062898; -.
+DR   Ensembl; ENSRNOT00000004649.7; ENSRNOP00000004649.6; ENSRNOG00000003468.9. [Q78EJ9-2]
+DR   Ensembl; ENSRNOT00000067005.5; ENSRNOP00000062898.3; ENSRNOG00000003468.9. [Q78EJ9-1]
+DR   Ensembl; ENSRNOT00055021606; ENSRNOP00055017520; ENSRNOG00055012655. [Q78EJ9-1]
+DR   Ensembl; ENSRNOT00060012817; ENSRNOP00060009702; ENSRNOG00060007746. [Q78EJ9-1]
+DR   Ensembl; ENSRNOT00065029852; ENSRNOP00065023699; ENSRNOG00065017838. [Q78EJ9-1]
+DR   GeneID; 170808; -.
+DR   KEGG; rno:170808; -.
+DR   UCSC; RGD:620085; rat. [Q78EJ9-1]
+DR   AGR; RGD:620085; -.
+DR   CTD; 388743; -.
+DR   RGD; 620085; Capn8.
+DR   eggNOG; KOG0045; Eukaryota.
+DR   GeneTree; ENSGT00940000160090; -.
+DR   HOGENOM; CLU_010982_0_1_1; -.
+DR   InParanoid; Q78EJ9; -.
+DR   OrthoDB; 142935at2759; -.
+DR   PhylomeDB; Q78EJ9; -.
+DR   TreeFam; TF314748; -.
+DR   Reactome; R-RNO-1474228; Degradation of the extracellular matrix.
+DR   PRO; PR:Q78EJ9; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000003468; Expressed in stomach and 8 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0004198; F:calcium-dependent cysteine-type endopeptidase activity; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:1990092; P:calcium-dependent self proteolysis; ISO:RGD.
+DR   GO; GO:0006508; P:proteolysis; IBA:GO_Central.
+DR   CDD; cd00214; Calpain_III; 1.
+DR   CDD; cd00044; CysPc; 1.
+DR   Gene3D; 2.60.120.380; -; 1.
+DR   Gene3D; 3.90.70.10; Cysteine proteinases; 1.
+DR   Gene3D; 1.10.238.10; EF-hand; 1.
+DR   InterPro; IPR033883; C2_III.
+DR   InterPro; IPR050420; Calpain.
+DR   InterPro; IPR022684; Calpain_cysteine_protease.
+DR   InterPro; IPR022682; Calpain_domain_III.
+DR   InterPro; IPR022683; Calpain_III.
+DR   InterPro; IPR036213; Calpain_III_sf.
+DR   InterPro; IPR011992; EF-hand-dom_pair.
+DR   InterPro; IPR002048; EF_hand_dom.
+DR   InterPro; IPR038765; Papain-like_cys_pep_sf.
+DR   InterPro; IPR000169; Pept_cys_AS.
+DR   InterPro; IPR001300; Peptidase_C2_calpain_cat.
+DR   PANTHER; PTHR10183; CALPAIN; 1.
+DR   PANTHER; PTHR10183:SF374; CALPAIN-8; 1.
+DR   Pfam; PF01067; Calpain_III; 1.
+DR   Pfam; PF00648; Peptidase_C2; 1.
+DR   PRINTS; PR00704; CALPAIN.
+DR   SMART; SM00720; calpain_III; 1.
+DR   SMART; SM00230; CysPc; 1.
+DR   SMART; SM00054; EFh; 2.
+DR   SUPFAM; SSF49758; Calpain large subunit, middle domain (domain III); 1.
+DR   SUPFAM; SSF54001; Cysteine proteinases; 1.
+DR   SUPFAM; SSF47473; EF-hand; 1.
+DR   PROSITE; PS50203; CALPAIN_CAT; 1.
+DR   PROSITE; PS00018; EF_HAND_1; 1.
+DR   PROSITE; PS50222; EF_HAND_2; 4.
+DR   PROSITE; PS00139; THIOL_PROTEASE_CYS; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Autocatalytic cleavage; Calcium; Cytoplasm;
+KW   Golgi apparatus; Hydrolase; Metal-binding; Protease; Reference proteome;
+KW   Repeat; Thiol protease.
+FT   CHAIN           1..703
+FT                   /note="Calpain-8"
+FT                   /id="PRO_0000349282"
+FT   DOMAIN          45..344
+FT                   /note="Calpain catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00239"
+FT   DOMAIN          532..566
+FT                   /note="EF-hand 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          575..608
+FT                   /note="EF-hand 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          605..640
+FT                   /note="EF-hand 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          670..703
+FT                   /note="EF-hand 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   REGION          355..512
+FT                   /note="Domain III"
+FT   REGION          513..531
+FT                   /note="Linker"
+FT                   /evidence="ECO:0000250"
+FT   REGION          532..703
+FT                   /note="Domain IV"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        105
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        262
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        286
+FT                   /evidence="ECO:0000250"
+FT   BINDING         588
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         590
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         592
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         594
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         599
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         618
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         620
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         624
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         629
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000305"
+FT   VAR_SEQ         380..381
+FT                   /note="TY -> SS (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:7690035"
+FT                   /id="VSP_035308"
+FT   VAR_SEQ         382..703
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:7690035"
+FT                   /id="VSP_035309"
+FT   CONFLICT        103
+FT                   /note="G -> V (in Ref. 1; BAA03369)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   703 AA;  79555 MW;  C0688B055FC0D6EC CRC64;
+     MAALAAGVSK QRAVAEGLGS NQNAVKYLGQ DFETLRKQCL NSGVLFKDPE FPACPSALGY
+     KDLGPGSPDT QGIVWKRPTE LCPNPQFIVG GATRTDIRQG GLGDCWLLAA IASLTLNEKL
+     LYRVLPRDQS FQKDYAGIFH FQFWQYGEWV EVVIDDRLPT KNGQLLFLHS EEGNEFWSAL
+     LEKAYAKLNG SYEALVGGST IEGFEDFTGG ISEFYDLKKP PENLYYIIQK ALRKGSLLGC
+     SIDVSTAAEA EATTRQKLVK GHAYSVTGVE EVNFHGRPEK LIRLRNPWGE VEWSGAWSDN
+     APEWNYIDPR RKEELDKKAE DGEFWMSFSD FLKQYSRLEI CNLSPDSLSS EEIHKWNLVL
+     FNGRWTRGST AGGCLNYPGT YWTNPQFKIH LDEVDEDQEE GTSEPCCTVL LGLMQKNRRR
+     QKRIGQGMLS IGYAVYQIPK ELESHTDAHL GRDFFLGRQP STCSSTYMNL REVSSRVRLP
+     PGQYLVVPST FEPFKDGDFC LRVFSEKKAK ALEIGDTVSG HPHEPHPRDM DEEDEHVRSL
+     FEEFVGKDSE ISANQLKRVL NEVLSKRTDM KFDGFNINTC REMISLLDSD GTGSLGPMEF
+     KTLWLKIRTY LEIFQEMDHN HVGTIEAHEM RTALKKAGFT LNNQVQQTIA MRYACSKLGV
+     DFNGFVACMI RLETLFKLFR LLDKDQNGIV QLSLAEWLCC VLV
+//

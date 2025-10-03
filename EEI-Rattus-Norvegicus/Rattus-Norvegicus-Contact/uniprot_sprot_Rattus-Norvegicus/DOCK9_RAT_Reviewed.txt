@@ -1,0 +1,98 @@
+ID   DOCK9_RAT               Reviewed;         720 AA.
+AC   Q63603;
+DT   03-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   03-JUL-2003, sequence version 2.
+DT   29-MAY-2024, entry version 111.
+DE   RecName: Full=Dedicator of cytokinesis protein 9;
+DE   AltName: Full=Cdc42 guanine nucleotide exchange factor zizimin-1;
+DE   AltName: Full=Protein TRG;
+DE   Flags: Fragment;
+GN   Name=Dock9; Synonyms=Trg;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Fischer;
+RA   Pianese L., Porcellini A., Avvedimento V.E., D'Esposti F., Feliciello A.,
+RA   Monticelli A., Musti A.M., Tortora G., Varrone S., Cocozza S.;
+RT   "A novel thyroid transcript negatively regulated by tsh.";
+RL   Life Sci. Adv. (Mol. Biol.) 13:75-83(1994).
+CC   -!- FUNCTION: Guanine nucleotide-exchange factor (GEF) that activates CDC42
+CC       by exchanging bound GDP for free GTP. Overexpression induces filopodia
+CC       formation (By similarity). {ECO:0000250|UniProtKB:Q8BIK4,
+CC       ECO:0000250|UniProtKB:Q9BZ29}.
+CC   -!- SUBUNIT: Homodimer. Interacts preferentially with nucleotide-depleted
+CC       CDC42 (By similarity). {ECO:0000250|UniProtKB:Q9BZ29}.
+CC   -!- SUBCELLULAR LOCATION: Endomembrane system {ECO:0000305}.
+CC       Note=Associated with membranes. {ECO:0000305}.
+CC   -!- DOMAIN: The DOCKER domain is necessary and sufficient for the GEF
+CC       activity. {ECO:0000250|UniProtKB:Q8BIK4}.
+CC   -!- MISCELLANEOUS: 'Zizim' means 'spike' in Hebrew.
+CC   -!- SIMILARITY: Belongs to the DOCK family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA48220.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X68101; CAA48220.1; ALT_FRAME; mRNA.
+DR   PIR; I60486; I60486.
+DR   AlphaFoldDB; Q63603; -.
+DR   SMR; Q63603; -.
+DR   IntAct; Q63603; 1.
+DR   STRING; 10116.ENSRNOP00000072256; -.
+DR   AGR; RGD:629617; -.
+DR   RGD; 629617; Dock9.
+DR   InParanoid; Q63603; -.
+DR   PhylomeDB; Q63603; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0012505; C:endomembrane system; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005085; F:guanyl-nucleotide exchange factor activity; ISS:UniProtKB.
+DR   GO; GO:0031267; F:small GTPase binding; ISO:RGD.
+DR   GO; GO:0043547; P:positive regulation of GTPase activity; ISS:UniProtKB.
+DR   GO; GO:0007264; P:small GTPase-mediated signal transduction; IEA:InterPro.
+DR   Gene3D; 1.20.58.740; -; 1.
+DR   Gene3D; 1.25.40.410; -; 1.
+DR   InterPro; IPR026791; DOCK.
+DR   InterPro; IPR043161; DOCK_C_lobe_A.
+DR   InterPro; IPR043162; DOCK_C_lobe_C.
+DR   InterPro; IPR027357; DOCKER_dom.
+DR   InterPro; IPR046769; DOCKER_Lobe_A.
+DR   InterPro; IPR046770; DOCKER_Lobe_B.
+DR   InterPro; IPR046773; DOCKER_Lobe_C.
+DR   PANTHER; PTHR23317; DEDICATOR OF CYTOKINESIS DOCK; 1.
+DR   PANTHER; PTHR23317:SF77; DEDICATOR OF CYTOKINESIS PROTEIN 9; 1.
+DR   Pfam; PF06920; DHR-2_Lobe_A; 1.
+DR   Pfam; PF20422; DHR-2_Lobe_B; 1.
+DR   Pfam; PF20421; DHR-2_Lobe_C; 1.
+DR   PROSITE; PS51651; DOCKER; 1.
+PE   2: Evidence at transcript level;
+KW   Guanine-nucleotide releasing factor; Membrane; Reference proteome.
+FT   CHAIN           <1..720
+FT                   /note="Dedicator of cytokinesis protein 9"
+FT                   /id="PRO_0000190001"
+FT   DOMAIN          186..638
+FT                   /note="DOCKER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00984"
+FT   REGION          277..638
+FT                   /note="Interaction with CDC42"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BZ29"
+FT   NON_TER         1
+SQ   SEQUENCE   720 AA;  82455 MW;  650A4F4BD3DF816C CRC64;
+     KLSRGHSPLM KKVFDVYLCF LQKHQSEMAL KNVFTALRSL IYKFPSTFYE GRADMCASLC
+     YEVLKCCNSK LSSIRTEASQ LLYFLMRNNF DYTGKKSFVR THLQVIISLS QLIADVVGIG
+     GTRFQQSLSI INNCANSDRL IKHTSFSSDV KDLTKRIRTV LMATAQMKEH ENDPEMLVDL
+     QYSLAKSYAS TPELRKTWLD SMARIHVKNG DLSEAAMCYV HVTALVAEYL TRKEADLALQ
+     REPPVFPYSH TSCQRKSRGG MFRQGCTAFR VITPNIDEEA SMMEDVGMQD VHFNEDVLME
+     LLEQCADGLW KAERLRAGLL TSINSSSPSM KSGGTLETTH LYDTLHRPYS KVTEVITRAA
+     GSWDLLPGGL FGQGFFEDED GKEYIYKEPK LTPLSEISQR LLKLYSDKFG SENVKMIQDS
+     GKVNPKDLDS KFAYIQVTHV TPFFDEKELQ ERKTEFERCH NIRRFMFEMP FTQTGKRQGG
+     VEEQCKRRTI LTAIHCFPYV KKRIPVMYQH HTDLNPIEVA IDEMSKKVAE LHQLCSSAEV
+     DMIKLQLKLQ GSVSVQVNAG PLAYARAFLD DTNTKRYPDN KVKLLKEVFR QFVEACGQAL
+     AVNERLIKED QLEYQEEMKA NYREIRKELS DIIVPRICPG EDKRATKFPA HLQRHQRDTN
+     KHSGSRVDQF ILSCVTLPHE PHVGTCFVMC KLRTTFRANH WFCQAQEEAM GNGREKEPGL
+//

@@ -1,0 +1,325 @@
+ID   SO2B1_RAT               Reviewed;         682 AA.
+AC   Q9JHI3;
+DT   10-JAN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   29-MAY-2024, entry version 153.
+DE   RecName: Full=Solute carrier organic anion transporter family member 2B1;
+DE   AltName: Full=Organic anion transporter moatp1 {ECO:0000303|PubMed:10973807};
+DE   AltName: Full=Organic anion transporting polypeptide 2B1 {ECO:0000303|PubMed:34628357};
+DE            Short=OATP2B1 {ECO:0000303|PubMed:34628357};
+DE   AltName: Full=Solute carrier family 21 member 9 {ECO:0000250|UniProtKB:O94956};
+GN   Name=Slco2b1 {ECO:0000312|RGD:621391};
+GN   Synonyms=Oatp2b1 {ECO:0000303|PubMed:34628357},
+GN   Slc21a9 {ECO:0000250|UniProtKB:O94956};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], CHARACTERIZATION, FUNCTION, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, AND TISSUE SPECIFICITY.
+RC   TISSUE=Brain;
+RX   PubMed=10973807; DOI=10.1006/bbrc.2000.3377;
+RA   Nishio T., Adachi H., Nakagomi R., Tokui T., Sato E., Tanemoto M.,
+RA   Fujiwara K., Okabe M., Onogawa T., Suzuki T., Nakai D., Shiiba K.,
+RA   Suzuki M., Ohtani H., Kondo Y., Unno M., Ito S., Iinuma K., Nunoki K.,
+RA   Matsuno S., Abe T.;
+RT   "Molecular identification of a rat novel organic anion transporter moat1,
+RT   which transports prostaglandin D(2), leukotriene C(4), and taurocholate.";
+RL   Biochem. Biophys. Res. Commun. 275:831-838(2000).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-311 AND SER-314, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+RN   [3]
+RP   CAUTION.
+RX   PubMed=34628357; DOI=10.1016/j.dmpk.2021.100418;
+RA   Hussner J., Foletti A., Seibert I., Fuchs A., Schuler E., Malagnino V.,
+RA   Grube M., Meyer Zu Schwabedissen H.E.;
+RT   "Differences in transport function of the human and rat orthologue of the
+RT   Organic Anion Transporting Polypeptide 2B1 (OATP2B1).";
+RL   Drug Metab. Pharmacokinet. 41:100418-100418(2021).
+CC   -!- FUNCTION: Mediates the Na(+)-independent transport of organic anions
+CC       such as taurocholate, the prostaglandins D2 (PGD2), E1 (PGE1) and E2
+CC       (PGE2), leukotriene C4, thromboxane B2 and L-thyroxine
+CC       (PubMed:10973807). Also plays a role in the reuptake of neuropeptides
+CC       such as substance P/TAC1 and vasoactive intestinal peptide/VIP released
+CC       from retinal neurons. May act as a heme transporter that promotes
+CC       cellular iron availability. Also transports heme by-product
+CC       coproporphyrin III (CPIII), and may be involved in their hepatic
+CC       disposition (By similarity). May contribute to regulate the transport
+CC       of organic compounds in testis across the blood-testis-barrier (By
+CC       similarity). Shows a pH-sensitive substrate specificity which may be
+CC       ascribed to the protonation state of the binding site and leads to a
+CC       stimulation of substrate transport in an acidic microenvironment. The
+CC       exact transport mechanism has not been yet deciphered but most likely
+CC       involves an anion exchange, coupling the cellular uptake of organic
+CC       substrate with the efflux of an anionic compound.
+CC       Hydrogencarbonate/HCO3(-) acts as a probable counteranion that
+CC       exchanges for organic anions. Cytoplasmic glutamate may also act as
+CC       counteranion in the placenta (By similarity).
+CC       {ECO:0000250|UniProtKB:O94956, ECO:0000269|PubMed:10973807}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=coproporphyrin III(out) = coproporphyrin III(in);
+CC         Xref=Rhea:RHEA:74363, ChEBI:CHEBI:131725;
+CC         Evidence={ECO:0000250|UniProtKB:O94956};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=substance P(out) = substance P(in); Xref=Rhea:RHEA:74367,
+CC         ChEBI:CHEBI:190692; Evidence={ECO:0000250|UniProtKB:O94956};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=taurocholate(out) = taurocholate(in); Xref=Rhea:RHEA:71703,
+CC         ChEBI:CHEBI:36257; Evidence={ECO:0000305|PubMed:10973807};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=prostaglandin E1(out) = prostaglandin E1(in);
+CC         Xref=Rhea:RHEA:50980, ChEBI:CHEBI:57397;
+CC         Evidence={ECO:0000305|PubMed:10973807};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=prostaglandin E2(out) = prostaglandin E2(in);
+CC         Xref=Rhea:RHEA:50984, ChEBI:CHEBI:606564;
+CC         Evidence={ECO:0000305|PubMed:10973807};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=prostaglandin D2(out) = prostaglandin D2(in);
+CC         Xref=Rhea:RHEA:50976, ChEBI:CHEBI:57406;
+CC         Evidence={ECO:0000305|PubMed:10973807};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=leukotriene C4(out) = leukotriene C4(in);
+CC         Xref=Rhea:RHEA:72743, ChEBI:CHEBI:57973;
+CC         Evidence={ECO:0000305|PubMed:10973807};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-thyroxine(out) = L-thyroxine(in); Xref=Rhea:RHEA:71819,
+CC         ChEBI:CHEBI:58448; Evidence={ECO:0000250|UniProtKB:O94956};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=35.5 uM for prostaglandin D2 (at pH 7.5)
+CC         {ECO:0000269|PubMed:10973807};
+CC         KM=3.2 uM for leukotriene C4 (at pH 7.5)
+CC         {ECO:0000269|PubMed:10973807};
+CC         KM=17.6 uM for taurocholate (at pH 7.5)
+CC         {ECO:0000269|PubMed:10973807};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:O94956};
+CC       Multi-pass membrane protein {ECO:0000305}. Basal cell membrane
+CC       {ECO:0000250|UniProtKB:O94956}; Multi-pass membrane protein
+CC       {ECO:0000305}. Apical cell membrane {ECO:0000250|UniProtKB:O94956};
+CC       Multi-pass membrane protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed in liver, kidney, heart, lung and retina.
+CC       Widely distributed in all brain regions. {ECO:0000269|PubMed:10973807}.
+CC   -!- DOMAIN: A conserved histidine residue in the third transmembrane domain
+CC       (His-128) might play an essential role in the pH sensitivity of
+CC       SLCO2B1/OATP2B1-mediated substrate transport. Transmembrane domain 1
+CC       (TM1) may be localized within the substrate binding pocket.
+CC       {ECO:0000250|UniProtKB:O94956}.
+CC   -!- MISCELLANEOUS: Most likely contributes to the absorption and the
+CC       disposition of a wide range of drugs in the intestine and the liver.
+CC       {ECO:0000269|PubMed:34628357}.
+CC   -!- SIMILARITY: Belongs to the organo anion transporter (TC 2.A.60) family.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: In contrast with human ortholog, not able to transport steroid
+CC       sulfate conjugates estrone 3-sulfate (E1S), dehydroepiandrosterone
+CC       sulfate (DHEA-S) and pregnenolone sulfate (PregS).
+CC       {ECO:0000269|PubMed:10973807, ECO:0000269|PubMed:34628357}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF169410; AAF89671.1; -; mRNA.
+DR   EMBL; AF169409; AAF89670.1; -; mRNA.
+DR   PIR; JC7385; JC7385.
+DR   RefSeq; NP_542964.1; NM_080786.1.
+DR   RefSeq; XP_006229789.1; XM_006229727.3.
+DR   RefSeq; XP_006229790.1; XM_006229728.3.
+DR   AlphaFoldDB; Q9JHI3; -.
+DR   SMR; Q9JHI3; -.
+DR   STRING; 10116.ENSRNOP00000024281; -.
+DR   BindingDB; Q9JHI3; -.
+DR   ChEMBL; CHEMBL2073698; -.
+DR   TCDB; 2.A.60.1.7; the organo anion transporter (oat) family.
+DR   GlyCosmos; Q9JHI3; 4 sites, No reported glycans.
+DR   GlyGen; Q9JHI3; 4 sites.
+DR   iPTMnet; Q9JHI3; -.
+DR   PhosphoSitePlus; Q9JHI3; -.
+DR   PaxDb; 10116-ENSRNOP00000024281; -.
+DR   GeneID; 140860; -.
+DR   KEGG; rno:140860; -.
+DR   UCSC; RGD:621391; rat.
+DR   AGR; RGD:621391; -.
+DR   CTD; 11309; -.
+DR   RGD; 621391; Slco2b1.
+DR   VEuPathDB; HostDB:ENSRNOG00000017976; -.
+DR   eggNOG; KOG3626; Eukaryota.
+DR   HOGENOM; CLU_008954_4_1_1; -.
+DR   InParanoid; Q9JHI3; -.
+DR   OrthoDB; 2874223at2759; -.
+DR   PhylomeDB; Q9JHI3; -.
+DR   Reactome; R-RNO-189483; Heme degradation.
+DR   Reactome; R-RNO-879518; Transport of organic anions.
+DR   Reactome; R-RNO-9749641; Aspirin ADME.
+DR   Reactome; R-RNO-9754706; Atorvastatin ADME.
+DR   PRO; PR:Q9JHI3; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000017976; Expressed in liver and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q9JHI3; baseline and differential.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:ARUK-UCL.
+DR   GO; GO:0009925; C:basal plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0016323; C:basolateral plasma membrane; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0015125; F:bile acid transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0008514; F:organic anion transmembrane transporter activity; IDA:UniProtKB.
+DR   GO; GO:0015132; F:prostaglandin transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015347; F:sodium-independent organic anion transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0022857; F:transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015721; P:bile acid and bile salt transport; IDA:RGD.
+DR   GO; GO:0001889; P:liver development; IEP:RGD.
+DR   GO; GO:0006811; P:monoatomic ion transport; IEA:UniProtKB-KW.
+DR   GO; GO:0015711; P:organic anion transport; ISO:RGD.
+DR   GO; GO:0071718; P:sodium-independent icosanoid transport; IDA:RGD.
+DR   GO; GO:0043252; P:sodium-independent organic anion transport; IBA:GO_Central.
+DR   GO; GO:0055085; P:transmembrane transport; ISO:RGD.
+DR   Gene3D; 1.20.1250.20; MFS general substrate transporter like domains; 1.
+DR   InterPro; IPR002350; Kazal_dom.
+DR   InterPro; IPR036259; MFS_trans_sf.
+DR   InterPro; IPR004156; OATP.
+DR   NCBIfam; TIGR00805; oat; 1.
+DR   PANTHER; PTHR11388; ORGANIC ANION TRANSPORTER; 1.
+DR   PANTHER; PTHR11388:SF87; SOLUTE CARRIER ORGANIC ANION TRANSPORTER FAMILY MEMBER 2B1; 1.
+DR   Pfam; PF03137; OATP; 1.
+DR   SUPFAM; SSF103473; MFS general substrate transporter; 1.
+DR   PROSITE; PS51465; KAZAL_2; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Disulfide bond; Glycoprotein; Ion transport; Membrane;
+KW   Phosphoprotein; Reference proteome; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..682
+FT                   /note="Solute carrier organic anion transporter family
+FT                   member 2B1"
+FT                   /id="PRO_0000191063"
+FT   TOPO_DOM        1..41
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        42..61
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        62..80
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        81..101
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        102..107
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        108..132
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        133..176
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        177..206
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        207..225
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        226..246
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        247..264
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        265..289
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        290..354
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        355..376
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        377..396
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        397..420
+FT                   /note="Helical; Name=8"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        421..424
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        425..448
+FT                   /note="Helical; Name=9"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        449..552
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        553..575
+FT                   /note="Helical; Name=10"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        576..584
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        585..610
+FT                   /note="Helical; Name=11"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        611..643
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        644..661
+FT                   /note="Helical; Name=12"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        662..682
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          471..531
+FT                   /note="Kazal-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   REGION          1..30
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        9..30
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         21
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BXB6"
+FT   MOD_RES         311
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         314
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CARBOHYD        165
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        255
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        526
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        533
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        477..508
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   DISULFID        483..504
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   DISULFID        492..529
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+SQ   SEQUENCE   682 AA;  74215 MW;  7CA4BBEAE21DE8C2 CRC64;
+     MPDRSTKATM GAEDIHERKV SMEPRDSHQD AQPRGMFQNI KFFVLCHSIL QLAQLMISGY
+     LKSSISTVEK RFGLSSQTSG LLAAFNEVGN ISLILFVSYF GSRVHRPRMI GCGAILVAVA
+     GLLMALPHFI SEPYRYDHSS PDRSQDFEAS LCLPTTMAPA SALSNDSCSS RTETKHLTMV
+     GIMFTAQTLL GIGGVPIQPF GISYIDDFAH HSNSPLYLGI LFAITMMGPG LAYGLGSLML
+     RLYVDIDRMP EGGINLTTKD PRWVGAWWLG FLISAGLVVL AASPYFFFPR EMPKEKYELH
+     FRQKVLAGGA SIGSKGEELS SQHEPLKKQA GLPQIAPDLT VVQFIKVFPR VLLRTLRHPI
+     FLLVVLSQVC TSSMVAGTAT FLPKFLERQF SITASFANLL LGCLTIPLAI VGIVVGGVLV
+     KRLHLSPMQC SALCLLGSLL CLLLSLPLFF IGCSTHHIAG ITQDLGAQPG PSLFPGCSEP
+     CSCQSDDFNP VCDTSAYVEY TTPCHAGCTG RVVQEALDKS QVFYTNCSCV AGNGTISAGS
+     CESACSRLVL PFILLISLGA AVASITHTPS FMLILRGVKK EDKTLAVGMQ FMLLRVLAWM
+     PSPVIHGSAI DTTCVHWALT CGRRAVCRYY DHDLLRNRFI GLQFFFKSGS LVCFALVLAI
+     LRQQSREAST KATVKSSDLQ EL
+//

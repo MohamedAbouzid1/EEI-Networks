@@ -1,0 +1,152 @@
+ID   ADA18_RAT               Reviewed;         445 AA.
+AC   P97776;
+DT   31-JAN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   24-JUL-2024, entry version 141.
+DE   RecName: Full=Disintegrin and metalloproteinase domain-containing protein 18;
+DE            Short=ADAM 18;
+DE   AltName: Full=Transmembrane metalloproteinase-like, disintegrin-like, and cysteine-rich protein III;
+DE            Short=tMDC III;
+DE   Flags: Fragment;
+GN   Name=Adam18; Synonyms=Tmdc3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Testis;
+RX   PubMed=9291465;
+RX   DOI=10.1002/(sici)1098-2795(199710)48:2<159::aid-mrd3>3.0.co;2-r;
+RA   Frayne J., Jury J.A., Barker H.L., Hall L.;
+RT   "Rat MDC family of proteins: sequence analysis, tissue distribution, and
+RT   expression in prepubertal and adult rat testis.";
+RL   Mol. Reprod. Dev. 48:159-167(1997).
+CC   -!- FUNCTION: Sperm surface membrane protein that may be involved in
+CC       spermatogenesis and fertilization. This is a non catalytic
+CC       metalloprotease-like protein (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   -!- TISSUE SPECIFICITY: Expressed specifically in testis.
+CC   -!- DEVELOPMENTAL STAGE: Adult levels are reached by day 28 after birth.
+CC   -!- DOMAIN: A tripeptide motif (ECD) within disintegrin-like domain could
+CC       be involved in the binding to egg integrin receptor and thus could
+CC       mediate sperm/egg binding. {ECO:0000250}.
+CC   -!- PTM: The prodomain and the metalloprotease-like domain are cleaved
+CC       during the epididymal maturation of the spermatozoa. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y11490; CAA72276.1; -; mRNA.
+DR   AlphaFoldDB; P97776; -.
+DR   SMR; P97776; -.
+DR   STRING; 10116.ENSRNOP00000023805; -.
+DR   MEROPS; M12.958; -.
+DR   GlyCosmos; P97776; 6 sites, No reported glycans.
+DR   GlyGen; P97776; 6 sites.
+DR   PhosphoSitePlus; P97776; -.
+DR   PaxDb; 10116-ENSRNOP00000023805; -.
+DR   UCSC; RGD:620405; rat.
+DR   AGR; RGD:620405; -.
+DR   RGD; 620405; Adam18.
+DR   eggNOG; KOG3607; Eukaryota.
+DR   InParanoid; P97776; -.
+DR   PhylomeDB; P97776; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0030154; P:cell differentiation; IEA:UniProtKB-KW.
+DR   GO; GO:0006508; P:proteolysis; IEA:InterPro.
+DR   GO; GO:0007283; P:spermatogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.390.10; Collagenase (Catalytic Domain); 1.
+DR   Gene3D; 4.10.70.10; Disintegrin domain; 1.
+DR   InterPro; IPR006586; ADAM_Cys-rich.
+DR   InterPro; IPR018358; Disintegrin_CS.
+DR   InterPro; IPR001762; Disintegrin_dom.
+DR   InterPro; IPR036436; Disintegrin_dom_sf.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR024079; MetalloPept_cat_dom_sf.
+DR   InterPro; IPR001590; Peptidase_M12B.
+DR   PANTHER; PTHR11905; ADAM A DISINTEGRIN AND METALLOPROTEASE DOMAIN; 1.
+DR   PANTHER; PTHR11905:SF158; DISINTEGRIN AND METALLOPROTEINASE DOMAIN-CONTAINING PROTEIN 18; 1.
+DR   Pfam; PF08516; ADAM_CR; 1.
+DR   Pfam; PF00200; Disintegrin; 1.
+DR   Pfam; PF01421; Reprolysin; 1.
+DR   SMART; SM00608; ACR; 1.
+DR   SMART; SM00050; DISIN; 1.
+DR   SUPFAM; SSF57552; Blood coagulation inhibitor (disintegrin); 1.
+DR   SUPFAM; SSF55486; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   PROSITE; PS50215; ADAM_MEPRO; 1.
+DR   PROSITE; PS00427; DISINTEGRIN_1; 1.
+DR   PROSITE; PS50214; DISINTEGRIN_2; 1.
+DR   PROSITE; PS50026; EGF_3; 1.
+PE   2: Evidence at transcript level;
+KW   Developmental protein; Differentiation; Disulfide bond; EGF-like domain;
+KW   Glycoprotein; Membrane; Reference proteome; Spermatogenesis; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           <1..445
+FT                   /note="Disintegrin and metalloproteinase domain-containing
+FT                   protein 18"
+FT                   /id="PRO_0000078208"
+FT   TOPO_DOM        <1..409
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        410..430
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        431..445
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          <1..106
+FT                   /note="Peptidase M12B"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00276"
+FT   DOMAIN          113..202
+FT                   /note="Disintegrin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00068"
+FT   DOMAIN          342..376
+FT                   /note="EGF-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   CARBOHYD        19
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        59
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        84
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        131
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        333
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        340
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        18..101
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        60..85
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        62..67
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        173..194
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        346..358
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        352..364
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        366..375
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         1
+SQ   SEQUENCE   445 AA;  48200 MW;  E6D4758377CDA84B CRC64;
+     IYRKHLKYIG ATSPGELCNE SYVAGVGTYP EDIGLEGLSM VITQLIGLHI GLTYDDVDNC
+     SCPRAPCIMQ PEALSSSGMK TFSNCSVHDY THYASKLDMQ CLGDLSNVLQ PKQSVCGNGI
+     VEGSEECDCG NETECQFKEC CNHETCKLKG SAQCGSGTCC TPKCELSAAG TPCRKAVDPE
+     CDFTEYCDGS SSHCVPDTFA LDGHLCRLGS AYCYNGRCQA LNDQCVSLFG KGSQGASYAC
+     FEKVNSQREN LANCDSKNSY SLPCGQKDVL CGKLACFRPN KNYKSSTQSV LYSYVHGSVC
+     LSIPPGLSMR SDGKDNAYVA DGTVCGPQMY CINGSCKEVN FTGNDCNAAK KCKGNGICNN
+     FGHCQCFPDY RPPDCNLQIG SPGGSIDDGN LLRTDSALAT KRLSQHADSW VILGFFIFLP
+     FIMTLFLGII KRNERKIVPQ KEQER
+//

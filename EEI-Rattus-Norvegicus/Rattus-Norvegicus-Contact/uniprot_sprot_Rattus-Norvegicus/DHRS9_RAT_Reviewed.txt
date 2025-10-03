@@ -1,0 +1,168 @@
+ID   DHRS9_RAT               Reviewed;         319 AA.
+AC   Q8VD48;
+DT   25-OCT-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   24-JUL-2024, entry version 147.
+DE   RecName: Full=Dehydrogenase/reductase SDR family member 9;
+DE            EC=1.1.1.209 {ECO:0000250|UniProtKB:Q9BPW9};
+DE            EC=1.1.1.53 {ECO:0000250|UniProtKB:Q9BPW9};
+DE   AltName: Full=3-alpha hydroxysteroid dehydrogenase;
+DE            Short=3-alpha-HSD;
+DE   AltName: Full=Retinol dehydrogenase;
+DE            EC=1.1.1.105 {ECO:0000269|PubMed:12390888};
+DE   AltName: Full=Short-chain dehydrogenase/reductase retSDR8;
+DE   Flags: Precursor;
+GN   Name=Dhrs9; Synonyms=eRolDH {ECO:0000303|PubMed:12390888};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TISSUE SPECIFICITY, AND CATALYTIC
+RP   ACTIVITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Uterus;
+RX   PubMed=12390888; DOI=10.1095/biolreprod.102.007021;
+RA   Rexer B.N., Ong D.E.;
+RT   "A novel short-chain alcohol dehydrogenase from rats with retinol
+RT   dehydrogenase activity, cyclically expressed in uterine epithelium.";
+RL   Biol. Reprod. 67:1555-1564(2002).
+CC   -!- FUNCTION: 3-alpha-hydroxysteroid dehydrogenase that converts 3-alpha-
+CC       tetrahydroprogesterone (allopregnanolone) to dihydroxyprogesterone and
+CC       3-alpha-androstanediol to dihydroxyprogesterone (By similarity). Plays
+CC       also role in the biosynthesis of retinoic acid from retinaldehyde
+CC       (PubMed:12390888). Can utilize both NADH and NADPH (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9BPW9, ECO:0000269|PubMed:12390888}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3beta-hydroxy-5alpha-pregnane-20-one + NAD(+) = 5alpha-
+CC         pregnane-3,20-dione + H(+) + NADH; Xref=Rhea:RHEA:41988,
+CC         ChEBI:CHEBI:11909, ChEBI:CHEBI:15378, ChEBI:CHEBI:28952,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BPW9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-hydroxy-5alpha-androstan-3-one + NAD(+) = 5alpha-
+CC         androstan-3,17-dione + H(+) + NADH; Xref=Rhea:RHEA:41992,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15994, ChEBI:CHEBI:16330,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BPW9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=androsterone + NAD(+) = 5alpha-androstan-3,17-dione + H(+) +
+CC         NADH; Xref=Rhea:RHEA:20381, ChEBI:CHEBI:15378, ChEBI:CHEBI:15994,
+CC         ChEBI:CHEBI:16032, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         EC=1.1.1.209; Evidence={ECO:0000250|UniProtKB:Q9BPW9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5alpha-androstane-3alpha,17beta-diol + NAD(+) = 17beta-
+CC         hydroxy-5alpha-androstan-3-one + H(+) + NADH; Xref=Rhea:RHEA:42004,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16330, ChEBI:CHEBI:36713,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.53;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BPW9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinol + NAD(+) = all-trans-retinal + H(+) + NADH;
+CC         Xref=Rhea:RHEA:21284, ChEBI:CHEBI:15378, ChEBI:CHEBI:17336,
+CC         ChEBI:CHEBI:17898, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         EC=1.1.1.105; Evidence={ECO:0000269|PubMed:12390888};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3alpha-hydroxy-5alpha-pregnan-20-one + NAD(+) = 5alpha-
+CC         pregnane-3,20-dione + H(+) + NADH; Xref=Rhea:RHEA:41980,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:28952, ChEBI:CHEBI:50169,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BPW9};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Microsome membrane
+CC       {ECO:0000250|UniProtKB:Q9BPW9}. Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q9BPW9}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in epithelium of estrus uterus.
+CC       {ECO:0000269|PubMed:12390888}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF337953; AAL73225.1; -; mRNA.
+DR   RefSeq; NP_570832.1; NM_130819.1.
+DR   AlphaFoldDB; Q8VD48; -.
+DR   SMR; Q8VD48; -.
+DR   STRING; 10116.ENSRNOP00000069708; -.
+DR   BindingDB; Q8VD48; -.
+DR   ChEMBL; CHEMBL1075220; -.
+DR   DrugCentral; Q8VD48; -.
+DR   iPTMnet; Q8VD48; -.
+DR   PhosphoSitePlus; Q8VD48; -.
+DR   PaxDb; 10116-ENSRNOP00000008921; -.
+DR   Ensembl; ENSRNOT00000106393.1; ENSRNOP00000091619.1; ENSRNOG00000065735.1.
+DR   GeneID; 170635; -.
+DR   KEGG; rno:170635; -.
+DR   UCSC; RGD:620655; rat.
+DR   AGR; RGD:620655; -.
+DR   CTD; 10170; -.
+DR   RGD; 620655; Dhrs9.
+DR   eggNOG; KOG1610; Eukaryota.
+DR   GeneTree; ENSGT00940000158665; -.
+DR   HOGENOM; CLU_010194_2_0_1; -.
+DR   InParanoid; Q8VD48; -.
+DR   OMA; ANPNIGW; -.
+DR   OrthoDB; 5403248at2759; -.
+DR   PhylomeDB; Q8VD48; -.
+DR   Reactome; R-RNO-5365859; RA biosynthesis pathway.
+DR   PRO; PR:Q8VD48; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000058568; Expressed in esophagus and 13 other cell types or tissues.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IBA:GO_Central.
+DR   GO; GO:0004022; F:alcohol dehydrogenase (NAD+) activity; ISS:UniProtKB.
+DR   GO; GO:0004745; F:all-trans-retinol dehydrogenase (NAD+) activity; IMP:RGD.
+DR   GO; GO:0047044; F:androstan-3-alpha,17-beta-diol dehydrogenase activity; ISS:UniProtKB.
+DR   GO; GO:0047023; F:androsterone dehydrogenase activity; ISS:UniProtKB.
+DR   GO; GO:0047035; F:testosterone dehydrogenase (NAD+) activity; ISS:UniProtKB.
+DR   GO; GO:0042904; P:9-cis-retinoic acid biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0008209; P:androgen metabolic process; ISO:RGD.
+DR   GO; GO:0042448; P:progesterone metabolic process; ISO:RGD.
+DR   GO; GO:0002138; P:retinoic acid biosynthetic process; IDA:RGD.
+DR   GO; GO:0042573; P:retinoic acid metabolic process; NAS:RGD.
+DR   GO; GO:0042572; P:retinol metabolic process; IBA:GO_Central.
+DR   GO; GO:0008202; P:steroid metabolic process; IBA:GO_Central.
+DR   CDD; cd09805; type2_17beta_HSD-like_SDR_c; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PANTHER; PTHR43313:SF15; DEHYDROGENASE_REDUCTASE SDR FAMILY MEMBER 9; 1.
+DR   PANTHER; PTHR43313; SHORT-CHAIN DEHYDROGENASE/REDUCTASE FAMILY 9C; 1.
+DR   Pfam; PF00106; adh_short; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Lipid metabolism; Membrane; Microsome; NAD; NADP;
+KW   Oxidoreductase; Reference proteome; Signal; Steroid metabolism.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..319
+FT                   /note="Dehydrogenase/reductase SDR family member 9"
+FT                   /id="PRO_0000042619"
+FT   ACT_SITE        176
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BPW9"
+FT   BINDING         34..58
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         83
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         164
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         180
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   319 AA;  35214 MW;  2EA1B82D3F170B9B CRC64;
+     MLLWVLALLF LCAFLWNYKG QLKIADIADK YIFITGCDSG FGNLAARTFD RKGFRVIAAC
+     LTESGSEALK AKTSERLHTV LLDVTNPENV KETAQWVKSH VGEKGLWGLI NNAGVLGVLA
+     PTDWLTVDDY REPIEVNLFG LINVTLNMLP LVKKARGRVI NVSSIGGRLA FGGGGYTPSK
+     YAVEGFNDSL RRDMKAFGVH VSCIEPGLFK TGLADPIKTT EKKLAIWKHL SPDIKQQYGE
+     GYIEKSLHRL KSSTSSVNLD LSLVVECMDH ALTSLFPKTR YTAGKDAKTF WIPLSHMPAA
+     LQDFLLLKEK VELANPQAV
+//

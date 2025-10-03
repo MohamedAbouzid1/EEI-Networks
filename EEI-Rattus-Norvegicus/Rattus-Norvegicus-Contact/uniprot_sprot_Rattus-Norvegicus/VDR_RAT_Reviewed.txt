@@ -1,0 +1,520 @@
+ID   VDR_RAT                 Reviewed;         423 AA.
+AC   P13053;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1990, sequence version 1.
+DT   02-OCT-2024, entry version 200.
+DE   RecName: Full=Vitamin D3 receptor;
+DE            Short=VDR;
+DE   AltName: Full=1,25-dihydroxyvitamin D3 receptor;
+DE   AltName: Full=Nuclear receptor subfamily 1 group I member 1;
+GN   Name=Vdr; Synonyms=Nr1i1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RX   PubMed=2849110; DOI=10.1073/pnas.85.24.9499;
+RA   Burmester J.K., Wiese R.J., Maeda N., Deluca H.;
+RT   "Structure and regulation of the rat 1,25-dihydroxyvitamin D3 receptor.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 85:9499-9502(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 58-423.
+RC   TISSUE=Kidney;
+RX   PubMed=2829212; DOI=10.1073/pnas.85.4.1005;
+RA   Burmester J.K., Maeda N., Deluca H.F.;
+RT   "Isolation and expression of rat 1,25-dihydroxyvitamin D3 receptor cDNA.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 85:1005-1009(1988).
+RN   [3]
+RP   INTERACTION WITH NCOA6.
+RX   PubMed=10866662; DOI=10.1128/mcb.20.14.5048-5063.2000;
+RA   Mahajan M.A., Samuels H.H.;
+RT   "A new family of nuclear receptor coregulators that integrates nuclear
+RT   receptor signaling through CBP.";
+RL   Mol. Cell. Biol. 20:5048-5063(2000).
+RN   [4] {ECO:0007744|PDB:1RJK, ECO:0007744|PDB:1RK3, ECO:0007744|PDB:1RKG, ECO:0007744|PDB:1RKH}
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 116-423 IN COMPLEXES WITH
+RP   CALCITRIOL AND VITAMIN D3 ANALOGS AND MED1.
+RX   PubMed=15065852; DOI=10.1021/bi036056y;
+RA   Vanhooke J.L., Benning M.M., Bauer C.B., Pike J.W., DeLuca H.F.;
+RT   "Molecular structure of the rat vitamin D receptor ligand binding domain
+RT   complexed with 2-carbon-substituted vitamin D3 hormone analogues and a
+RT   LXXLL-containing coactivator peptide.";
+RL   Biochemistry 43:4101-4110(2004).
+RN   [5] {ECO:0007744|PDB:2O4J, ECO:0007744|PDB:2O4R}
+RP   X-RAY CRYSTALLOGRAPHY (1.98 ANGSTROMS) OF 116-423 IN COMPLEXES WITH VITAMIN
+RP   D3 ANALOGS AND MED1, AND FUNCTION.
+RX   PubMed=17227670; DOI=10.1016/j.abb.2006.11.029;
+RA   Vanhooke J.L., Tadi B.P., Benning M.M., Plum L.A., DeLuca H.F.;
+RT   "New analogs of 2-methylene-19-nor-(20S)-1,25-dihydroxyvitamin D3 with
+RT   conformationally restricted side chains: evaluation of biological activity
+RT   and structural determination of VDR-bound conformations.";
+RL   Arch. Biochem. Biophys. 460:161-165(2007).
+CC   -!- FUNCTION: Nuclear receptor for calcitriol, the active form of vitamin
+CC       D3 which mediates the action of this vitamin on cells
+CC       (PubMed:17227670). Enters the nucleus upon vitamin D3 binding where it
+CC       forms heterodimers with the retinoid X receptor/RXR (By similarity).
+CC       The VDR-RXR heterodimers bind to specific response elements on DNA and
+CC       activate the transcription of vitamin D3-responsive target genes (By
+CC       similarity). Plays a central role in calcium homeostasis
+CC       (PubMed:17227670). Also functions as a receptor for the secondary bile
+CC       acid lithocholic acid (LCA) and its metabolites (By similarity).
+CC       {ECO:0000250|UniProtKB:P11473, ECO:0000269|PubMed:17227670}.
+CC   -!- SUBUNIT: Homodimer in the absence of bound vitamin D3 (By similarity).
+CC       Heterodimer with RXRA after vitamin D3 binding (By similarity).
+CC       Interacts with MED1 and NCOA6 (PubMed:10866662, PubMed:15065852,
+CC       PubMed:17227670). Interacts with MED1, NCOA1, NCOA2, NCOA3 and NCOA6
+CC       coactivators, leading to a strong increase of transcription of target
+CC       genes (By similarity). Interacts with the corepressor NCOR1 (By
+CC       similarity). Interacts with SNW1 (By similarity). Interacts with IRX4,
+CC       the interaction does not affect its transactivation activity (By
+CC       similarity). Interacts with CRY1 (By similarity). Interacts with CRY2
+CC       in a ligand-dependent manner (By similarity).
+CC       {ECO:0000250|UniProtKB:P11473, ECO:0000250|UniProtKB:P48281,
+CC       ECO:0000269|PubMed:10866662, ECO:0000269|PubMed:15065852,
+CC       ECO:0000269|PubMed:17227670}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:P11473,
+CC       ECO:0000255|PROSITE-ProRule:PRU00407}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:P11473}. Note=Localizes mainly to the nucleus.
+CC       Translocated into the nucleus via both ligand-dependent and ligand-
+CC       independent pathways; ligand-independent nuclear translocation is
+CC       mediated by IPO4. {ECO:0000250|UniProtKB:P11473}.
+CC   -!- TISSUE SPECIFICITY: Detected in intestine and kidney.
+CC       {ECO:0000269|PubMed:2849110}.
+CC   -!- DOMAIN: Composed of three domains: a modulating N-terminal domain, a
+CC       DNA-binding domain and a C-terminal ligand-binding domain.
+CC       {ECO:0000250|UniProtKB:P11473}.
+CC   -!- DOMAIN: The 9aaTAD motif is a transactivation domain present in a large
+CC       number of yeast and animal transcription factors.
+CC       {ECO:0000250|UniProtKB:P11473}.
+CC   -!- PTM: Ubiquitinated by UBR5, leading to its degradation: UBR5
+CC       specifically recognizes and binds ligand-bound VDR when it is not
+CC       associated with coactivators (NCOAs). In presence of NCOAs, the UBR5-
+CC       degron is not accessible, preventing its ubiquitination and
+CC       degradation. {ECO:0000250|UniProtKB:P11473}.
+CC   -!- SIMILARITY: Belongs to the nuclear hormone receptor family. NR1
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J04147; AAA41089.1; -; mRNA.
+DR   PIR; A31761; A31761.
+DR   RefSeq; NP_058754.1; NM_017058.1.
+DR   PDB; 1RJK; X-ray; 1.99 A; A=116-423.
+DR   PDB; 1RK3; X-ray; 2.20 A; A=116-423.
+DR   PDB; 1RKG; X-ray; 1.90 A; A=116-423.
+DR   PDB; 1RKH; X-ray; 2.28 A; A=116-423.
+DR   PDB; 2O4J; X-ray; 1.74 A; A=116-423.
+DR   PDB; 2O4R; X-ray; 1.98 A; A=116-423.
+DR   PDB; 2ZFX; X-ray; 1.99 A; A=116-423.
+DR   PDB; 2ZL9; X-ray; 1.90 A; A=116-423.
+DR   PDB; 2ZLA; X-ray; 2.00 A; A=116-423.
+DR   PDB; 2ZLC; X-ray; 2.00 A; A=116-423.
+DR   PDB; 2ZMH; X-ray; 2.10 A; A=116-423.
+DR   PDB; 2ZMI; X-ray; 1.70 A; A=116-423.
+DR   PDB; 2ZMJ; X-ray; 2.35 A; A=116-423.
+DR   PDB; 2ZXM; X-ray; 3.01 A; A=116-423.
+DR   PDB; 2ZXN; X-ray; 2.10 A; A=116-423.
+DR   PDB; 3A2H; X-ray; 2.50 A; A=116-423.
+DR   PDB; 3AFR; X-ray; 2.00 A; A=116-423.
+DR   PDB; 3AUN; X-ray; 1.81 A; A=116-423.
+DR   PDB; 3VJS; X-ray; 1.93 A; A=116-423.
+DR   PDB; 3VJT; X-ray; 2.00 A; A=116-423.
+DR   PDB; 3VRT; X-ray; 2.40 A; A=116-423.
+DR   PDB; 3VRU; X-ray; 2.00 A; A=116-423.
+DR   PDB; 3VRV; X-ray; 1.90 A; A=116-423.
+DR   PDB; 3VRW; X-ray; 2.40 A; A=116-423.
+DR   PDB; 3VT3; X-ray; 1.70 A; A=116-423.
+DR   PDB; 3VT4; X-ray; 1.90 A; A=116-423.
+DR   PDB; 3VT5; X-ray; 2.11 A; A=116-423.
+DR   PDB; 3VT6; X-ray; 2.30 A; A=116-423.
+DR   PDB; 3VT7; X-ray; 1.65 A; A=116-423.
+DR   PDB; 3VT8; X-ray; 2.10 A; A=116-423.
+DR   PDB; 3VT9; X-ray; 2.35 A; A=116-423.
+DR   PDB; 3VTB; X-ray; 2.00 A; A=116-423.
+DR   PDB; 3VTC; X-ray; 1.50 A; A=116-423.
+DR   PDB; 3VTD; X-ray; 2.70 A; A=116-423.
+DR   PDB; 3W0G; X-ray; 1.94 A; A=121-420.
+DR   PDB; 3W0H; X-ray; 1.80 A; A=118-420.
+DR   PDB; 3W0I; X-ray; 1.90 A; A=121-420.
+DR   PDB; 3W0J; X-ray; 1.84 A; A=121-420.
+DR   PDB; 3W5P; X-ray; 1.90 A; A=116-423.
+DR   PDB; 3W5Q; X-ray; 1.90 A; A=116-423.
+DR   PDB; 3W5R; X-ray; 2.20 A; A=116-423.
+DR   PDB; 3W5T; X-ray; 2.29 A; A=116-423.
+DR   PDB; 3WT5; X-ray; 1.90 A; A=116-423.
+DR   PDB; 3WT6; X-ray; 2.00 A; A=116-423.
+DR   PDB; 3WT7; X-ray; 2.40 A; A=116-423.
+DR   PDB; 3WTQ; X-ray; 2.10 A; A=116-423.
+DR   PDB; 4YNK; X-ray; 2.30 A; A=116-423.
+DR   PDB; 5AWJ; X-ray; 2.20 A; A=116-423.
+DR   PDB; 5AWK; X-ray; 2.90 A; A=116-423.
+DR   PDB; 5B41; X-ray; 1.89 A; A=116-423.
+DR   PDB; 5B5B; X-ray; 2.00 A; A/D=116-423.
+DR   PDB; 5GIC; X-ray; 2.35 A; A=124-420.
+DR   PDB; 5GID; X-ray; 2.15 A; A=124-419.
+DR   PDB; 5GIE; X-ray; 2.39 A; A/D=117-419.
+DR   PDB; 5H1E; X-ray; 2.60 A; A=116-423.
+DR   PDB; 5XPL; X-ray; 2.05 A; A=116-423.
+DR   PDB; 5XPM; X-ray; 2.20 A; A=116-423.
+DR   PDB; 5XPN; X-ray; 1.96 A; A=116-423.
+DR   PDB; 5XPO; X-ray; 2.28 A; A=116-423.
+DR   PDB; 5XPP; X-ray; 2.85 A; A=116-423.
+DR   PDB; 5XUQ; X-ray; 2.80 A; A=116-423.
+DR   PDB; 5XZF; X-ray; 2.10 A; A=116-423.
+DR   PDB; 5XZH; X-ray; 2.00 A; A=116-423.
+DR   PDB; 5ZWE; X-ray; 2.72 A; A=116-423.
+DR   PDB; 5ZWF; X-ray; 2.10 A; A=116-423.
+DR   PDB; 5ZWH; X-ray; 2.38 A; A=116-423.
+DR   PDB; 5ZWI; X-ray; 2.40 A; A=116-423.
+DR   PDB; 6JEZ; X-ray; 2.30 A; A=116-163, A=213-423.
+DR   PDB; 6K5O; X-ray; 1.80 A; A=116-419.
+DR   PDB; 7C7V; X-ray; 2.00 A; A=116-423.
+DR   PDB; 7C7W; X-ray; 1.90 A; A=116-423.
+DR   PDB; 7VQP; X-ray; 1.94 A; A=116-423.
+DR   PDBsum; 1RJK; -.
+DR   PDBsum; 1RK3; -.
+DR   PDBsum; 1RKG; -.
+DR   PDBsum; 1RKH; -.
+DR   PDBsum; 2O4J; -.
+DR   PDBsum; 2O4R; -.
+DR   PDBsum; 2ZFX; -.
+DR   PDBsum; 2ZL9; -.
+DR   PDBsum; 2ZLA; -.
+DR   PDBsum; 2ZLC; -.
+DR   PDBsum; 2ZMH; -.
+DR   PDBsum; 2ZMI; -.
+DR   PDBsum; 2ZMJ; -.
+DR   PDBsum; 2ZXM; -.
+DR   PDBsum; 2ZXN; -.
+DR   PDBsum; 3A2H; -.
+DR   PDBsum; 3AFR; -.
+DR   PDBsum; 3AUN; -.
+DR   PDBsum; 3VJS; -.
+DR   PDBsum; 3VJT; -.
+DR   PDBsum; 3VRT; -.
+DR   PDBsum; 3VRU; -.
+DR   PDBsum; 3VRV; -.
+DR   PDBsum; 3VRW; -.
+DR   PDBsum; 3VT3; -.
+DR   PDBsum; 3VT4; -.
+DR   PDBsum; 3VT5; -.
+DR   PDBsum; 3VT6; -.
+DR   PDBsum; 3VT7; -.
+DR   PDBsum; 3VT8; -.
+DR   PDBsum; 3VT9; -.
+DR   PDBsum; 3VTB; -.
+DR   PDBsum; 3VTC; -.
+DR   PDBsum; 3VTD; -.
+DR   PDBsum; 3W0G; -.
+DR   PDBsum; 3W0H; -.
+DR   PDBsum; 3W0I; -.
+DR   PDBsum; 3W0J; -.
+DR   PDBsum; 3W5P; -.
+DR   PDBsum; 3W5Q; -.
+DR   PDBsum; 3W5R; -.
+DR   PDBsum; 3W5T; -.
+DR   PDBsum; 3WT5; -.
+DR   PDBsum; 3WT6; -.
+DR   PDBsum; 3WT7; -.
+DR   PDBsum; 3WTQ; -.
+DR   PDBsum; 4YNK; -.
+DR   PDBsum; 5AWJ; -.
+DR   PDBsum; 5AWK; -.
+DR   PDBsum; 5B41; -.
+DR   PDBsum; 5B5B; -.
+DR   PDBsum; 5GIC; -.
+DR   PDBsum; 5GID; -.
+DR   PDBsum; 5GIE; -.
+DR   PDBsum; 5H1E; -.
+DR   PDBsum; 5XPL; -.
+DR   PDBsum; 5XPM; -.
+DR   PDBsum; 5XPN; -.
+DR   PDBsum; 5XPO; -.
+DR   PDBsum; 5XPP; -.
+DR   PDBsum; 5XUQ; -.
+DR   PDBsum; 5XZF; -.
+DR   PDBsum; 5XZH; -.
+DR   PDBsum; 5ZWE; -.
+DR   PDBsum; 5ZWF; -.
+DR   PDBsum; 5ZWH; -.
+DR   PDBsum; 5ZWI; -.
+DR   PDBsum; 6JEZ; -.
+DR   PDBsum; 6K5O; -.
+DR   PDBsum; 7C7V; -.
+DR   PDBsum; 7C7W; -.
+DR   PDBsum; 7VQP; -.
+DR   AlphaFoldDB; P13053; -.
+DR   SMR; P13053; -.
+DR   BioGRID; 246986; 6.
+DR   MINT; P13053; -.
+DR   STRING; 10116.ENSRNOP00000070446; -.
+DR   BindingDB; P13053; -.
+DR   ChEMBL; CHEMBL3150; -.
+DR   DrugCentral; P13053; -.
+DR   GuidetoPHARMACOLOGY; 605; -.
+DR   PhosphoSitePlus; P13053; -.
+DR   PaxDb; 10116-ENSRNOP00000011601; -.
+DR   GeneID; 24873; -.
+DR   KEGG; rno:24873; -.
+DR   UCSC; RGD:3959; rat.
+DR   AGR; RGD:3959; -.
+DR   CTD; 7421; -.
+DR   RGD; 3959; Vdr.
+DR   eggNOG; KOG3575; Eukaryota.
+DR   InParanoid; P13053; -.
+DR   OrthoDB; 5359733at2759; -.
+DR   PhylomeDB; P13053; -.
+DR   Reactome; R-RNO-196791; Vitamin D (calciferol) metabolism.
+DR   Reactome; R-RNO-383280; Nuclear Receptor transcription pathway.
+DR   Reactome; R-RNO-4090294; SUMOylation of intracellular receptors.
+DR   EvolutionaryTrace; P13053; -.
+DR   PRO; PR:P13053; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005901; C:caveola; IDA:RGD.
+DR   GO; GO:0001651; C:dense fibrillar component; IDA:RGD.
+DR   GO; GO:0000791; C:euchromatin; IDA:RGD.
+DR   GO; GO:0000792; C:heterochromatin; IDA:RGD.
+DR   GO; GO:0016363; C:nuclear matrix; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:RGD.
+DR   GO; GO:0043235; C:receptor complex; ISO:RGD.
+DR   GO; GO:0090575; C:RNA polymerase II transcription regulator complex; ISO:RGD.
+DR   GO; GO:0030315; C:T-tubule; IDA:RGD.
+DR   GO; GO:0038186; F:bile acid nuclear receptor activity; ISO:RGD.
+DR   GO; GO:1902098; F:calcitriol binding; IDA:RGD.
+DR   GO; GO:0003677; F:DNA binding; ISO:RGD.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; TAS:RGD.
+DR   GO; GO:1902121; F:lithocholic acid binding; ISO:RGD.
+DR   GO; GO:0004879; F:nuclear receptor activity; IDA:RGD.
+DR   GO; GO:0046965; F:nuclear retinoid X receptor binding; ISO:RGD.
+DR   GO; GO:0000978; F:RNA polymerase II cis-regulatory region sequence-specific DNA binding; IBA:GO_Central.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IDA:RGD.
+DR   GO; GO:0005499; F:vitamin D binding; IDA:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0009887; P:animal organ morphogenesis; ISO:RGD.
+DR   GO; GO:0060057; P:apoptotic process involved in mammary gland involution; ISO:RGD.
+DR   GO; GO:0097190; P:apoptotic signaling pathway; IDA:RGD.
+DR   GO; GO:0006816; P:calcium ion transport; ISO:RGD.
+DR   GO; GO:0030154; P:cell differentiation; IBA:GO_Central.
+DR   GO; GO:0000902; P:cell morphogenesis; ISO:RGD.
+DR   GO; GO:1904646; P:cellular response to amyloid-beta; IEP:RGD.
+DR   GO; GO:0071305; P:cellular response to vitamin D; IEP:RGD.
+DR   GO; GO:0046697; P:decidualization; ISO:RGD.
+DR   GO; GO:0007507; P:heart development; IEP:RGD.
+DR   GO; GO:0050892; P:intestinal absorption; ISO:RGD.
+DR   GO; GO:0006874; P:intracellular calcium ion homeostasis; ISO:RGD.
+DR   GO; GO:0007595; P:lactation; ISO:RGD.
+DR   GO; GO:0060745; P:mammary gland branching involved in pregnancy; ISO:RGD.
+DR   GO; GO:0042789; P:mRNA transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:1900155; P:negative regulation of bone trabecula formation; IMP:RGD.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0010839; P:negative regulation of keratinocyte proliferation; ISO:RGD.
+DR   GO; GO:0030279; P:negative regulation of ossification; IMP:RGD.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0035435; P:phosphate ion transmembrane transport; ISO:RGD.
+DR   GO; GO:0060058; P:positive regulation of apoptotic process involved in mammary gland involution; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:0045618; P:positive regulation of keratinocyte differentiation; ISO:RGD.
+DR   GO; GO:2000830; P:positive regulation of parathyroid hormone secretion; IMP:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0070564; P:positive regulation of vitamin D receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0051924; P:regulation of calcium ion transport; IDA:RGD.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; TAS:RGD.
+DR   GO; GO:1904044; P:response to aldosterone; IEP:RGD.
+DR   GO; GO:1903412; P:response to bile acid; ISO:RGD.
+DR   GO; GO:0051592; P:response to calcium ion; IEP:RGD.
+DR   GO; GO:0032355; P:response to estradiol; IEP:RGD.
+DR   GO; GO:0001501; P:skeletal system development; ISO:RGD.
+DR   GO; GO:0070561; P:vitamin D receptor signaling pathway; ISO:RGD.
+DR   CDD; cd06955; NR_DBD_VDR; 1.
+DR   CDD; cd06933; NR_LBD_VDR; 1.
+DR   Gene3D; 3.30.50.10; Erythroid Transcription Factor GATA-1, subunit A; 1.
+DR   Gene3D; 1.10.565.10; Retinoid X Receptor; 1.
+DR   IDEAL; IID50032; -.
+DR   InterPro; IPR042153; DBD_VDR.
+DR   InterPro; IPR035500; NHR-like_dom_sf.
+DR   InterPro; IPR000536; Nucl_hrmn_rcpt_lig-bd.
+DR   InterPro; IPR050234; Nuclear_hormone_rcpt_NR1.
+DR   InterPro; IPR001723; Nuclear_hrmn_rcpt.
+DR   InterPro; IPR000324; VitD_rcpt.
+DR   InterPro; IPR001628; Znf_hrmn_rcpt.
+DR   InterPro; IPR013088; Znf_NHR/GATA.
+DR   PANTHER; PTHR24082; NUCLEAR HORMONE RECEPTOR; 1.
+DR   PANTHER; PTHR24082:SF38; VITAMIN D3 RECEPTOR; 1.
+DR   Pfam; PF00104; Hormone_recep; 1.
+DR   Pfam; PF00105; zf-C4; 1.
+DR   PRINTS; PR00398; STRDHORMONER.
+DR   PRINTS; PR00047; STROIDFINGER.
+DR   PRINTS; PR00350; VITAMINDR.
+DR   SMART; SM00430; HOLI; 1.
+DR   SMART; SM00399; ZnF_C4; 1.
+DR   SUPFAM; SSF57716; Glucocorticoid receptor-like (DNA-binding domain); 1.
+DR   SUPFAM; SSF48508; Nuclear receptor ligand-binding domain; 1.
+DR   PROSITE; PS51843; NR_LBD; 1.
+DR   PROSITE; PS00031; NUCLEAR_REC_DBD_1; 1.
+DR   PROSITE; PS51030; NUCLEAR_REC_DBD_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytoplasm; DNA-binding; Metal-binding; Nucleus; Receptor;
+KW   Reference proteome; Transcription; Transcription regulation;
+KW   Ubl conjugation; Zinc; Zinc-finger.
+FT   CHAIN           1..423
+FT                   /note="Vitamin D3 receptor"
+FT                   /id="PRO_0000053544"
+FT   DOMAIN          127..419
+FT                   /note="NR LBD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01189"
+FT   DNA_BIND        24..89
+FT                   /note="Nuclear receptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00407"
+FT   ZN_FING         24..44
+FT                   /note="NR C4-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00407"
+FT   ZN_FING         60..84
+FT                   /note="NR C4-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00407"
+FT   REGION          97..126
+FT                   /note="Hinge"
+FT                   /evidence="ECO:0000250|UniProtKB:P11473"
+FT   REGION          159..180
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          242..260
+FT                   /note="Interaction with coactivator LXXLL motif"
+FT                   /evidence="ECO:0000269|PubMed:15065852"
+FT   MOTIF           412..420
+FT                   /note="9aaTAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P11473"
+FT   COMPBIAS        164..180
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         24
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P11473"
+FT   BINDING         27
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P11473"
+FT   BINDING         41
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P11473"
+FT   BINDING         44
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P11473"
+FT   BINDING         60
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P11473"
+FT   BINDING         66
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P11473"
+FT   BINDING         76
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P11473"
+FT   BINDING         79
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P11473"
+FT   BINDING         143
+FT                   /ligand="calcitriol"
+FT                   /ligand_id="ChEBI:CHEBI:17823"
+FT                   /evidence="ECO:0000269|PubMed:15065852,
+FT                   ECO:0007744|PDB:1RK3"
+FT   BINDING         233
+FT                   /ligand="calcitriol"
+FT                   /ligand_id="ChEBI:CHEBI:17823"
+FT                   /evidence="ECO:0000269|PubMed:15065852,
+FT                   ECO:0007744|PDB:1RK3"
+FT   BINDING         270
+FT                   /ligand="calcitriol"
+FT                   /ligand_id="ChEBI:CHEBI:17823"
+FT                   /evidence="ECO:0000269|PubMed:15065852,
+FT                   ECO:0007744|PDB:1RK3"
+FT   BINDING         274
+FT                   /ligand="calcitriol"
+FT                   /ligand_id="ChEBI:CHEBI:17823"
+FT                   /evidence="ECO:0000269|PubMed:15065852,
+FT                   ECO:0007744|PDB:1RK3"
+FT   BINDING         301
+FT                   /ligand="calcitriol"
+FT                   /ligand_id="ChEBI:CHEBI:17823"
+FT                   /evidence="ECO:0000269|PubMed:15065852,
+FT                   ECO:0007744|PDB:1RK3"
+FT   BINDING         393
+FT                   /ligand="calcitriol"
+FT                   /ligand_id="ChEBI:CHEBI:17823"
+FT                   /evidence="ECO:0000269|PubMed:15065852,
+FT                   ECO:0007744|PDB:1RK3"
+FT   HELIX           116..119
+FT                   /evidence="ECO:0007829|PDB:3VT3"
+FT   HELIX           126..142
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   HELIX           148..152
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   TURN            219..222
+FT                   /evidence="ECO:0007829|PDB:3VT3"
+FT   HELIX           223..241
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   HELIX           247..249
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   HELIX           252..270
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   HELIX           271..273
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   STRAND          274..276
+FT                   /evidence="ECO:0007829|PDB:3VTD"
+FT   TURN            277..280
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   STRAND          281..283
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   HELIX           287..289
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   STRAND          290..292
+FT                   /evidence="ECO:0007829|PDB:3VTD"
+FT   HELIX           293..297
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   TURN            298..300
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   HELIX           303..317
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   HELIX           323..334
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   STRAND          337..339
+FT                   /evidence="ECO:0007829|PDB:5H1E"
+FT   HELIX           345..366
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   TURN            369..374
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   HELIX           375..401
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   HELIX           404..407
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+FT   HELIX           412..418
+FT                   /evidence="ECO:0007829|PDB:3VTC"
+SQ   SEQUENCE   423 AA;  47814 MW;  1A0E519A9DCCE990 CRC64;
+     MEATAASTSL PDPGDFDRNV PRICGVCGDR ATGFHFNAMT CEGCKGFFRR SMKRKALFTC
+     PFNGDCRITK DNRRHCQACR LKRCVDIGMM KEFILTDEEV QRKREMIMKR KEEEALKDSL
+     RPKLSEEQQH IIAILLDAHH KTYDPTYADF RDFRPPVRMD GSTGSYSPRP TLSFSGNSSS
+     SSSDLYTTSL DMMEPSGFSN LDLNGEDSDD PSVTLDLSPL SMLPHLADLV SYSIQKVIGF
+     AKMIPGFRDL TSDDQIVLLK SSAIEVIMLR SNQSFTMDDM SWDCGSQDYK YDVTDVSKAG
+     HTLELIEPLI KFQVGLKKLN LHEEEHVLLM AICIVSPDRP GVQDAKLVEA IQDRLSNTLQ
+     TYIRCRHPPP GSHQLYAKMI QKLADLRSLN EEHSKQYRSL SFQPENSMKL TPLVLEVFGN
+     EIS
+//

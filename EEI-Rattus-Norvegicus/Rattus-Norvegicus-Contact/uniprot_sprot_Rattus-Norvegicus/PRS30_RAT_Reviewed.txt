@@ -1,0 +1,162 @@
+ID   PRS30_RAT               Reviewed;         304 AA.
+AC   P83748;
+DT   01-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   16-FEB-2004, sequence version 1.
+DT   27-MAR-2024, entry version 105.
+DE   RecName: Full=Serine protease 30;
+DE            EC=3.4.21.-;
+DE   AltName: Full=Distal intestinal serine protease;
+DE   AltName: Full=Transmembrane serine protease 1;
+DE            Short=TMSP-1;
+DE   AltName: Full=Transmembrane serine protease 8;
+DE   Flags: Precursor;
+GN   Name=Prss30;
+GN   Synonyms=Disp {ECO:0000250|UniProtKB:Q9QYZ9}, Tmprss8, Tmsp-1,
+GN   Tmsp1 {ECO:0000303|PubMed:14669991};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, GPI-ANCHOR AT
+RP   SER-275, FUNCTION, ACTIVITY REGULATION, TISSUE SPECIFICITY, AND INDUCTION.
+RC   STRAIN=Sprague-Dawley {ECO:0000312|EMBL:BAD01655.1};
+RC   TISSUE=Kidney {ECO:0000312|EMBL:BAD01655.1};
+RX   PubMed=14669991; DOI=10.1515/bc.2003.164;
+RA   Okumura Y., Nishikawa M., Cui P., Shiota M., Nakamura Y., Adachi M.,
+RA   Kitamura K., Tomita K., Kido H.;
+RT   "Cloning and characterization of a transmembrane-type serine protease from
+RT   rat kidney, a new sodium channel activator.";
+RL   Biol. Chem. 384:1483-1495(2003).
+CC   -!- FUNCTION: Selectively cleaves synthetic peptide substrates of trypsin.
+CC       Activates the epithelial sodium channel ENaC.
+CC       {ECO:0000269|PubMed:14669991}.
+CC   -!- ACTIVITY REGULATION: Inhibited by aprotinin, leupeptin, benzamidine and
+CC       soybean trypsin inhibitor. Partially inhibited by PMSF and DFP.
+CC       {ECO:0000269|PubMed:14669991}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 9.0.;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Lipid-anchor, GPI-
+CC       anchor {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed predominantly in kidney, small intestine
+CC       and stomach and moderately in thymus, lung, spleen, testis and skin. In
+CC       the kidney, expressed mainly in collecting duct of renal medulla and
+CC       cortex. {ECO:0000269|PubMed:14669991}.
+CC   -!- INDUCTION: By aldosterone. {ECO:0000269|PubMed:14669991}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1 family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00274}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB073023; BAD01655.1; -; mRNA.
+DR   RefSeq; NP_955403.1; NM_199371.1.
+DR   AlphaFoldDB; P83748; -.
+DR   SMR; P83748; -.
+DR   STRING; 10116.ENSRNOP00000037368; -.
+DR   MEROPS; S01.042; -.
+DR   TCDB; 8.A.131.1.14; the transmembrane protease serine 3 (tmprss3) family.
+DR   CarbonylDB; P83748; -.
+DR   GlyCosmos; P83748; 3 sites, No reported glycans.
+DR   GlyGen; P83748; 3 sites.
+DR   PaxDb; 10116-ENSRNOP00000037368; -.
+DR   GeneID; 287106; -.
+DR   KEGG; rno:287106; -.
+DR   UCSC; RGD:735142; rat.
+DR   AGR; RGD:735142; -.
+DR   CTD; 30943; -.
+DR   RGD; 735142; Prss30.
+DR   eggNOG; KOG3627; Eukaryota.
+DR   InParanoid; P83748; -.
+DR   OrthoDB; 4629979at2759; -.
+DR   PhylomeDB; P83748; -.
+DR   PRO; PR:P83748; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; NAS:UniProtKB.
+DR   GO; GO:0098552; C:side of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IDA:UniProtKB.
+DR   GO; GO:0017080; F:sodium channel regulator activity; IDA:UniProtKB.
+DR   GO; GO:0006508; P:proteolysis; IDA:UniProtKB.
+DR   GO; GO:0006814; P:sodium ion transport; IDA:UniProtKB.
+DR   CDD; cd00190; Tryp_SPc; 1.
+DR   Gene3D; 2.40.10.10; Trypsin-like serine proteases; 1.
+DR   InterPro; IPR009003; Peptidase_S1_PA.
+DR   InterPro; IPR043504; Peptidase_S1_PA_chymotrypsin.
+DR   InterPro; IPR001314; Peptidase_S1A.
+DR   InterPro; IPR001254; Trypsin_dom.
+DR   InterPro; IPR018114; TRYPSIN_HIS.
+DR   InterPro; IPR033116; TRYPSIN_SER.
+DR   PANTHER; PTHR24253; TRANSMEMBRANE PROTEASE SERINE; 1.
+DR   PANTHER; PTHR24253:SF32; TRYPTASE; 1.
+DR   Pfam; PF00089; Trypsin; 1.
+DR   PRINTS; PR00722; CHYMOTRYPSIN.
+DR   SMART; SM00020; Tryp_SPc; 1.
+DR   SUPFAM; SSF50494; Trypsin-like serine proteases; 1.
+DR   PROSITE; PS50240; TRYPSIN_DOM; 1.
+DR   PROSITE; PS00134; TRYPSIN_HIS; 1.
+DR   PROSITE; PS00135; TRYPSIN_SER; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   GPI-anchor; Hydrolase; Ion transport; Lipoprotein; Membrane; Protease;
+KW   Reference proteome; Serine protease; Signal; Sodium; Sodium transport;
+KW   Transport; Zymogen.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          22..30
+FT                   /note="Activation peptide"
+FT                   /evidence="ECO:0000255, ECO:0000269|PubMed:14669991"
+FT                   /id="PRO_0000027864"
+FT   CHAIN           31..275
+FT                   /note="Serine protease 30"
+FT                   /id="PRO_0000027865"
+FT   PROPEP          276..304
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000305"
+FT                   /id="PRO_0000027866"
+FT   DOMAIN          31..271
+FT                   /note="Peptidase S1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   ACT_SITE        72
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:P49863"
+FT   ACT_SITE        122
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:P49863"
+FT   ACT_SITE        223
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:P49863"
+FT   LIPID           275
+FT                   /note="GPI-anchor amidated serine"
+FT                   /evidence="ECO:0000305|PubMed:14669991"
+FT   CARBOHYD        79
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        232
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        273
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        57..73
+FT                   /evidence="ECO:0000250|UniProtKB:P49863,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        155..229
+FT                   /evidence="ECO:0000250|UniProtKB:P49863,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        185..208
+FT                   /evidence="ECO:0000250|UniProtKB:P49863,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        219..247
+FT                   /evidence="ECO:0000250|UniProtKB:P49863,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00274"
+SQ   SEQUENCE   304 AA;  33086 MW;  825187B7DD70D789 CRC64;
+     MESWARCIFL LLLQILTGGR GDILHSGAGK IVGGQDAPEG RWPWQVSLRT EKEGHICGGS
+     LIHEVWVLTA AHCFRRPLNS SFYHVKVGGL TLSLTEPHST LVAVRNIFVY PTYLWEDASS
+     GDIALLRLDT PLQPSQFSPV CLPQAQAPLT PGTVCWVTGW GATHERELAS VLQELAVPLL
+     DSEDCERMYH IGETSLSGKR VIQSDMLCAG FVEGQKDSCQ GDSGGPLVCA INSSWIQVGI
+     TSWGIGCARP NKPGVYTRVP DYVDWIQRTL AENHSDAYGC RSRASGAYPA LLLVLLAFAL
+     PESL
+//

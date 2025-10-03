@@ -1,0 +1,420 @@
+ID   HXK2_RAT                Reviewed;         917 AA.
+AC   P27881; Q9QWR1;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 1.
+DT   02-OCT-2024, entry version 174.
+DE   RecName: Full=Hexokinase-2 {ECO:0000305};
+DE            EC=2.7.1.1 {ECO:0000269|PubMed:5871820};
+DE   AltName: Full=Hexokinase type II {ECO:0000303|PubMed:1897984};
+DE            Short=HK II {ECO:0000303|PubMed:1897984};
+DE   AltName: Full=Hexokinase-B {ECO:0000303|PubMed:5871820};
+GN   Name=Hk2 {ECO:0000312|RGD:2797};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 11-18.
+RC   TISSUE=Skeletal muscle;
+RX   PubMed=1897984; DOI=10.1016/0003-9861(91)90094-y;
+RA   Thelen A.P., Wilson J.E.;
+RT   "Complete amino acid sequence of the type II isozyme of rat hexokinase,
+RT   deduced from the cloned cDNA: comparison with a hexokinase from novikoff
+RT   ascites tumor.";
+RL   Arch. Biochem. Biophys. 286:645-651(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-21.
+RC   STRAIN=Wistar;
+RX   PubMed=7873617; DOI=10.1016/0167-4781(94)00226-s;
+RA   Shinohara Y., Ichihara J., Kogure K., Terada H.;
+RT   "Nucleotide sequence of the 5'-flanking region of the rat type II
+RT   hexokinase gene.";
+RL   Biochim. Biophys. Acta 1260:365-368(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-21.
+RC   STRAIN=Sprague-Dawley; TISSUE=Hepatoma;
+RX   PubMed=7622509; DOI=10.1074/jbc.270.28.16918;
+RA   Mathupala S.P., Rempel A., Pedersen P.L.;
+RT   "Glucose catabolism in cancer cells. Isolation, sequence, and activity of
+RT   the promoter for type II hexokinase.";
+RL   J. Biol. Chem. 270:16918-16925(1995).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-21.
+RC   STRAIN=Sprague-Dawley;
+RA   Rempel A.;
+RT   "Normal type II hexokinase promoter, first exon, and first intron from
+RT   hepatocytes.";
+RL   Submitted (MAR-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=5871820; DOI=10.1016/0006-291x(64)90038-5;
+RA   Gonzalez C., Ureta T., Sanchez R., Niemeyer H.;
+RT   "Multiple molecular forms of ATP:hexose 6-phosphotransferase from rat
+RT   liver.";
+RL   Biochem. Biophys. Res. Commun. 16:347-352(1964).
+RN   [6]
+RP   REVIEW.
+RX   PubMed=7044667; DOI=10.1016/0305-0491(82)90461-8;
+RA   Ureta T.;
+RT   "The comparative isozymology of vertebrate hexokinases.";
+RL   Comp. Biochem. Physiol. 71:549-555(1982).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of hexose, such as D-glucose
+CC       and D-fructose, to hexose 6-phosphate (D-glucose 6-phosphate and D-
+CC       fructose 6-phosphate, respectively) (PubMed:5871820). Mediates the
+CC       initial step of glycolysis by catalyzing phosphorylation of D-glucose
+CC       to D-glucose 6-phosphate (PubMed:5871820). Plays a key role in
+CC       maintaining the integrity of the outer mitochondrial membrane by
+CC       preventing the release of apoptogenic molecules from the intermembrane
+CC       space and subsequent apoptosis (By similarity).
+CC       {ECO:0000250|UniProtKB:P52789, ECO:0000269|PubMed:5871820}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a D-hexose + ATP = a D-hexose 6-phosphate + ADP + H(+);
+CC         Xref=Rhea:RHEA:22740, ChEBI:CHEBI:4194, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:229467, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.1; Evidence={ECO:0000269|PubMed:5871820};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:22741;
+CC         Evidence={ECO:0000269|PubMed:5871820};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-fructose = ADP + D-fructose 6-phosphate + H(+);
+CC         Xref=Rhea:RHEA:16125, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:37721, ChEBI:CHEBI:61527, ChEBI:CHEBI:456216; EC=2.7.1.1;
+CC         Evidence={ECO:0000269|PubMed:5871820};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16126;
+CC         Evidence={ECO:0000269|PubMed:5871820};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-glucose = ADP + D-glucose 6-phosphate + H(+);
+CC         Xref=Rhea:RHEA:17825, ChEBI:CHEBI:4167, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61548, ChEBI:CHEBI:456216; EC=2.7.1.1;
+CC         Evidence={ECO:0000269|PubMed:5871820};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:17826;
+CC         Evidence={ECO:0000269|PubMed:5871820};
+CC   -!- ACTIVITY REGULATION: Hexokinase activity is specifically inhibited by
+CC       2,6-disubstituted glucosamines. {ECO:0000250|UniProtKB:P52789}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.13 mM for D-glucose {ECO:0000269|PubMed:5871820};
+CC         KM=3 mM for D-fructose {ECO:0000269|PubMed:5871820};
+CC         KM=0.7 mM for ATP {ECO:0000269|PubMed:5871820};
+CC   -!- PATHWAY: Carbohydrate metabolism; hexose metabolism.
+CC       {ECO:0000305|PubMed:5871820}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 1/4.
+CC       {ECO:0000305|PubMed:5871820}.
+CC   -!- SUBUNIT: Monomer (By similarity). Interacts with TIGAR; the interaction
+CC       increases hexokinase activity in a hypoxia- and HIF1A-dependent manner
+CC       (By similarity). {ECO:0000250|UniProtKB:P19367,
+CC       ECO:0000250|UniProtKB:P52789}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion outer membrane
+CC       {ECO:0000250|UniProtKB:P52789}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:P52789}. Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:P52789}. Note=The mitochondrial-binding peptide
+CC       (MBP) region promotes association with the mitochondrial outer
+CC       membrane. The interaction with the mitochondrial outer membrane via the
+CC       mitochondrial-binding peptide (MBP) region promotes higher stability of
+CC       the protein. Release from the mitochondrial outer membrane into the
+CC       cytosol induces permeability transition pore (PTP) opening and
+CC       apoptosis. {ECO:0000250|UniProtKB:P52789}.
+CC   -!- DOMAIN: The N- and C-terminal halves of the protein contain a
+CC       hexokinase domain. In contrast to hexokinase-1 and -3 (HK1 and HK3,
+CC       respectively), both hexokinase domains display catalytic activity. The
+CC       region connecting the two hexokinase domains is required for the
+CC       catalytic activity of the N-terminal hexokinase domain. The N-terminal
+CC       half regulates stability of the whole enzyme.
+CC       {ECO:0000250|UniProtKB:P52789}.
+CC   -!- SIMILARITY: Belongs to the hexokinase family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01084, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M68971; AAA41333.1; -; mRNA.
+DR   EMBL; M68972; AAA41334.1; -; mRNA.
+DR   EMBL; D26393; BAA05409.1; -; Genomic_DNA.
+DR   EMBL; U19605; AAB09025.1; -; Genomic_DNA.
+DR   EMBL; AY082375; AAL92551.1; -; Genomic_DNA.
+DR   PIR; S15885; S15885.
+DR   RefSeq; NP_036867.1; NM_012735.2.
+DR   AlphaFoldDB; P27881; -.
+DR   SMR; P27881; -.
+DR   BioGRID; 247136; 4.
+DR   DIP; DIP-37314N; -.
+DR   IntAct; P27881; 3.
+DR   STRING; 10116.ENSRNOP00000008813; -.
+DR   BindingDB; P27881; -.
+DR   ChEMBL; CHEMBL5063; -.
+DR   iPTMnet; P27881; -.
+DR   PhosphoSitePlus; P27881; -.
+DR   jPOST; P27881; -.
+DR   PaxDb; 10116-ENSRNOP00000008813; -.
+DR   Ensembl; ENSRNOT00000008813.4; ENSRNOP00000008813.1; ENSRNOG00000006116.4.
+DR   Ensembl; ENSRNOT00055020846; ENSRNOP00055016824; ENSRNOG00055012250.
+DR   Ensembl; ENSRNOT00060003434; ENSRNOP00060002347; ENSRNOG00060002196.
+DR   Ensembl; ENSRNOT00065027778; ENSRNOP00065021899; ENSRNOG00065016667.
+DR   GeneID; 25059; -.
+DR   KEGG; rno:25059; -.
+DR   UCSC; RGD:2797; rat.
+DR   AGR; RGD:2797; -.
+DR   CTD; 3099; -.
+DR   RGD; 2797; Hk2.
+DR   eggNOG; KOG1369; Eukaryota.
+DR   GeneTree; ENSGT00950000182787; -.
+DR   HOGENOM; CLU_014393_1_0_1; -.
+DR   InParanoid; P27881; -.
+DR   OMA; SYLVSWT; -.
+DR   OrthoDB; 5481886at2759; -.
+DR   PhylomeDB; P27881; -.
+DR   TreeFam; TF314238; -.
+DR   BRENDA; 2.7.1.1; 5301.
+DR   Reactome; R-RNO-70171; Glycolysis.
+DR   SABIO-RK; P27881; -.
+DR   UniPathway; UPA00109; UER00180.
+DR   UniPathway; UPA00242; -.
+DR   PRO; PR:P27881; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000006116; Expressed in skeletal muscle tissue and 19 other cell types or tissues.
+DR   GO; GO:0005813; C:centrosome; IEA:Ensembl.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0016529; C:sarcoplasmic reticulum; IDA:RGD.
+DR   GO; GO:0005524; F:ATP binding; IDA:RGD.
+DR   GO; GO:0005536; F:D-glucose binding; IDA:RGD.
+DR   GO; GO:0008865; F:fructokinase activity; IDA:UniProtKB.
+DR   GO; GO:0004340; F:glucokinase activity; IDA:UniProtKB.
+DR   GO; GO:0004396; F:hexokinase activity; IDA:RGD.
+DR   GO; GO:0008637; P:apoptotic mitochondrial changes; ISO:RGD.
+DR   GO; GO:0046835; P:carbohydrate phosphorylation; IDA:RGD.
+DR   GO; GO:1990830; P:cellular response to leukemia inhibitory factor; ISO:RGD.
+DR   GO; GO:0072655; P:establishment of protein localization to mitochondrion; ISO:RGD.
+DR   GO; GO:0006002; P:fructose 6-phosphate metabolic process; IDA:UniProtKB.
+DR   GO; GO:0051156; P:glucose 6-phosphate metabolic process; IDA:UniProtKB.
+DR   GO; GO:0006007; P:glucose catabolic process; TAS:RGD.
+DR   GO; GO:0006006; P:glucose metabolic process; ISO:RGD.
+DR   GO; GO:0006096; P:glycolytic process; IBA:GO_Central.
+DR   GO; GO:0001678; P:intracellular glucose homeostasis; IBA:GO_Central.
+DR   GO; GO:0007595; P:lactation; IEP:RGD.
+DR   GO; GO:0072656; P:maintenance of protein location in mitochondrion; ISO:RGD.
+DR   GO; GO:0035795; P:negative regulation of mitochondrial membrane permeability; ISO:RGD.
+DR   GO; GO:2000378; P:negative regulation of reactive oxygen species metabolic process; ISO:RGD.
+DR   GO; GO:0045766; P:positive regulation of angiogenesis; ISO:RGD.
+DR   GO; GO:1904925; P:positive regulation of autophagy of mitochondrion in response to mitochondrial depolarization; ISO:RGD.
+DR   GO; GO:0046324; P:regulation of glucose import; ISO:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0002931; P:response to ischemia; IDA:RGD.
+DR   CDD; cd00012; NBD_sugar-kinase_HSP70_actin; 2.
+DR   Gene3D; 3.30.420.40; -; 2.
+DR   Gene3D; 3.40.367.20; -; 2.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR001312; Hexokinase.
+DR   InterPro; IPR019807; Hexokinase_BS.
+DR   InterPro; IPR022673; Hexokinase_C.
+DR   InterPro; IPR022672; Hexokinase_N.
+DR   PANTHER; PTHR19443; HEXOKINASE; 1.
+DR   PANTHER; PTHR19443:SF4; HEXOKINASE-2; 1.
+DR   Pfam; PF00349; Hexokinase_1; 2.
+DR   Pfam; PF03727; Hexokinase_2; 2.
+DR   PRINTS; PR00475; HEXOKINASE.
+DR   SUPFAM; SSF53067; Actin-like ATPase domain; 4.
+DR   PROSITE; PS00378; HEXOKINASE_1; 2.
+DR   PROSITE; PS51748; HEXOKINASE_2; 2.
+PE   1: Evidence at protein level;
+KW   Acetylation; Allosteric enzyme; ATP-binding; Cytoplasm;
+KW   Direct protein sequencing; Glycolysis; Kinase; Membrane; Mitochondrion;
+KW   Mitochondrion outer membrane; Nucleotide-binding; Reference proteome;
+KW   Repeat; Transferase.
+FT   CHAIN           1..917
+FT                   /note="Hexokinase-2"
+FT                   /id="PRO_0000197589"
+FT   DOMAIN          16..458
+FT                   /note="Hexokinase 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01084"
+FT   DOMAIN          464..906
+FT                   /note="Hexokinase 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01084"
+FT   REGION          1..16
+FT                   /note="Mitochondrial-binding peptide (MBP)"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   REGION          73..207
+FT                   /note="Hexokinase small subdomain 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01084"
+FT   REGION          208..447
+FT                   /note="Hexokinase large subdomain 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01084"
+FT   REGION          521..655
+FT                   /note="Hexokinase small subdomain 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01084"
+FT   REGION          656..895
+FT                   /note="Hexokinase large subdomain 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01084"
+FT   BINDING         30
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P19367"
+FT   BINDING         84..89
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P19367"
+FT   BINDING         84..88
+FT                   /ligand="D-glucose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:61548"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         155..156
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         172..173
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         208..209
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         209
+FT                   /ligand="D-glucose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:61548"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         232
+FT                   /ligand="D-glucose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:61548"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         235
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         260
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         291..294
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         413..415
+FT                   /ligand="D-glucose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:61548"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         425..426
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P19367"
+FT   BINDING         449
+FT                   /ligand="D-glucose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:61548"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         532..537
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P19367"
+FT   BINDING         532..536
+FT                   /ligand="D-glucose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:61548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         603..604
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         620..621
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         656..657
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         657
+FT                   /ligand="D-glucose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:61548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         680
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P19367"
+FT   BINDING         680
+FT                   /ligand="D-glucose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:61548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         682..683
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         708
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         739..742
+FT                   /ligand="D-glucose"
+FT                   /ligand_id="ChEBI:CHEBI:4167"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         747..748
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P19367"
+FT   BINDING         784..788
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P19367"
+FT   BINDING         861..863
+FT                   /ligand="D-glucose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:61548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   BINDING         863..867
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P19367"
+FT   BINDING         897
+FT                   /ligand="D-glucose 6-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:61548"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P52789"
+SQ   SEQUENCE   917 AA;  102544 MW;  764EC189C0F90987 CRC64;
+     MIASHMIACL FTELNQNQVQ KVDQFLYHMR LSDETLLEIS RRFRKEMEKG LGATTHPTAA
+     VKMLPTFVRS TPDGTEHGEF LALDLGGTNF RVLRVRVTDN GLQRVEMENQ IYAIPEDIMR
+     GSGTQLFDHI AECLANFMDK LQIKEKKLPL GFTFSFPCHQ TKLDESFLVS WTKGFKSSGV
+     EGRDVVDLIR KAIQRRGDFD IDIVAVVNDT VGTMMTCGYD DQNCEIGLIV GTGSNACYME
+     EMRHIDMVEG DEGRMCINME WGAFGDDGTL NDIRTEFDRE IDMGSLNPGK QLFEKMISGM
+     YMGELVRLIL VKMAKAELLF QGKLSPELLT TGSFETKDVS DIEEDKDGIE KAYQILMRLG
+     LNPLQEDCVA THRICQIVST RSASLCAATL AAVLWRIKEN KGEERLRSTI GVDGSVYKKH
+     PHFAKRLHKA VRRLVPDCDV RFLRSEDGSG KGAAMVTAVA YRLADQHRAR QKTLESLKLS
+     HEQLLEVKRR MKVEMEQGLS KETHAVAPVK MLPTYVCATP DGTEKGDFLA LDLGGTNFRV
+     LLVRVRNGKR RGVEMHNKIY SIPQEVMHGT GEELFDHIVQ CIADFLEYMG MKGVSLPLGF
+     TFSFPCQQNS LDQSILLKWT KGFKASGCEG EDVVTLLKEA IHRREEFDLD VVAVVNDTVG
+     TMMTCGYEDP HCEVGLIVGT GSNACYMEEM RNVELVDGEE GRMCVNMEWG AFGDNGCLDD
+     LRTVFDVAVD ELSLNPGKQR FEKMISGMYL GEIVRNILID FTKRGLLFRG RISERLKTRG
+     IFETKFLSQI ESDCLALLQV RAILRHLGLE STCDDSIIVK EVCTVVARRA AQLCGAGMAA
+     VVDKIRENRG LDNLKVTVGV DGTLYKLHPH FAKVMHETVR DLAPKCDVSF LESEDGSGKG
+     AALITAVACR IREAGQR
+//

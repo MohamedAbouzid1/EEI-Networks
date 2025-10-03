@@ -1,0 +1,250 @@
+ID   EGLN2_RAT               Reviewed;         415 AA.
+AC   Q6AYU4;
+DT   25-JAN-2012, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   24-JUL-2024, entry version 135.
+DE   RecName: Full=Prolyl hydroxylase EGLN2 {ECO:0000305};
+DE            EC=1.14.11.- {ECO:0000269|PubMed:15925519};
+DE   AltName: Full=Egl nine homolog 2 {ECO:0000305};
+DE            EC=1.14.11.29 {ECO:0000255|PROSITE-ProRule:PRU00805, ECO:0000269|PubMed:15925519};
+DE   AltName: Full=HPH-3;
+DE   AltName: Full=Hypoxia-inducible factor prolyl hydroxylase 1;
+DE            Short=HIF-PH1;
+DE            Short=HIF-prolyl hydroxylase 1;
+DE            Short=HPH-1;
+DE   AltName: Full=Prolyl hydroxylase domain-containing protein 1;
+DE            Short=PHD1;
+GN   Name=Egln2 {ECO:0000312|RGD:631376};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, COFACTOR,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND TISSUE SPECIFICITY.
+RC   TISSUE=Liver;
+RX   PubMed=15925519; DOI=10.1016/j.pep.2005.03.036;
+RA   Cobb R.R., McClary J., Manzana W., Finster S., Larsen B., Blasko E.,
+RA   Pearson J., Biancalana S., Kauser K., Bringmann P., Light D.R., Schirm S.;
+RT   "Cloning and characterization of the rat HIF-1 alpha prolyl-4-hydroxylase-1
+RT   gene.";
+RL   Protein Expr. Purif. 42:295-304(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney, and Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   TISSUE SPECIFICITY, SUBCELLULAR LOCATION, AND INDUCTION.
+RX   PubMed=16765982; DOI=10.1016/j.yjmcc.2006.04.009;
+RA   Willam C., Maxwell P.H., Nichols L., Lygate C., Tian Y.M., Bernhardt W.,
+RA   Wiesener M., Ratcliffe P.J., Eckardt K.U., Pugh C.W.;
+RT   "HIF prolyl hydroxylases in the rat; organ distribution and changes in
+RT   expression following hypoxia and coronary artery ligation.";
+RL   J. Mol. Cell. Cardiol. 41:68-77(2006).
+CC   -!- FUNCTION: Prolyl hydroxylase that mediates hydroxylation of proline
+CC       residues in target proteins, such as ATF4, IKBKB, CEP192 and HIF1A
+CC       (PubMed:15925519). Target proteins are preferentially recognized via a
+CC       LXXLAP motif (By similarity). Cellular oxygen sensor that catalyzes,
+CC       under normoxic conditions, the post-translational formation of 4-
+CC       hydroxyproline in hypoxia-inducible factor (HIF) alpha proteins
+CC       (PubMed:15925519). Hydroxylates a specific proline found in each of the
+CC       oxygen-dependent degradation (ODD) domains (N-terminal, NODD, and C-
+CC       terminal, CODD) of HIF1A (By similarity). Also hydroxylates HIF2A (By
+CC       similarity). Has a preference for the CODD site for both HIF1A and
+CC       HIF2A (By similarity). Hydroxylated HIFs are then targeted for
+CC       proteasomal degradation via the von Hippel-Lindau ubiquitination
+CC       complex (By similarity). Under hypoxic conditions, the hydroxylation
+CC       reaction is attenuated allowing HIFs to escape degradation resulting in
+CC       their translocation to the nucleus, heterodimerization with HIF1B, and
+CC       increased expression of hypoxy-inducible genes (By similarity). EGLN2
+CC       is involved in regulating hypoxia tolerance and apoptosis in cardiac
+CC       and skeletal muscle (By similarity). Also regulates susceptibility to
+CC       normoxic oxidative neuronal death (By similarity). Links oxygen sensing
+CC       to cell cycle and primary cilia formation by hydroxylating the critical
+CC       centrosome component CEP192 which promotes its ubiquitination and
+CC       subsequent proteasomal degradation (By similarity). Hydroxylates IKBKB,
+CC       mediating NF-kappa-B activation in hypoxic conditions (By similarity).
+CC       Also mediates hydroxylation of ATF4, leading to decreased protein
+CC       stability of ATF4 (By similarity). {ECO:0000250|UniProtKB:Q91YE2,
+CC       ECO:0000250|UniProtKB:Q96KS0, ECO:0000269|PubMed:15925519}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + L-prolyl-[protein] + O2 = CO2 + succinate +
+CC         trans-4-hydroxy-L-prolyl-[protein]; Xref=Rhea:RHEA:63484, Rhea:RHEA-
+CC         COMP:12408, Rhea:RHEA-COMP:16354, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:50342, ChEBI:CHEBI:61965;
+CC         Evidence={ECO:0000269|PubMed:15925519};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63485;
+CC         Evidence={ECO:0000269|PubMed:15925519};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + L-prolyl-[hypoxia-inducible factor alpha
+CC         subunit] + O2 = CO2 + succinate + trans-4-hydroxy-L-prolyl-[hypoxia-
+CC         inducible factor alpha subunit]; Xref=Rhea:RHEA:48400, Rhea:RHEA-
+CC         COMP:12093, Rhea:RHEA-COMP:12094, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:50342, ChEBI:CHEBI:61965; EC=1.14.11.29;
+CC         Evidence={ECO:0000269|PubMed:15925519};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00805,
+CC         ECO:0000269|PubMed:15925519};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00805, ECO:0000269|PubMed:15925519};
+CC   -!- COFACTOR:
+CC       Name=L-ascorbate; Xref=ChEBI:CHEBI:38290;
+CC         Evidence={ECO:0000269|PubMed:15925519};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=30 uM for HIF1A DLDLEMLAPYIPMDDDFQL peptide (at pH 7.5 and 37
+CC         degrees Celsius) {ECO:0000269|PubMed:15925519};
+CC         KM=25 uM for 2-oxoglutarate {ECO:0000269|PubMed:15925519};
+CC         KM=55 uM for L-ascorbate (at pH 7.5 and 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:15925519};
+CC         KM=1.5 uM for Fe(2+) (at pH 7.5 and 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:15925519};
+CC   -!- SUBUNIT: Interacts with E3 ligase SIAH2. Interacts with LIMD1, WTIP and
+CC       AJUBA. {ECO:0000250|UniProtKB:Q96KS0}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000269|PubMed:16765982}.
+CC   -!- TISSUE SPECIFICITY: Expressed in heart, kidney, brain, liver, skeletal
+CC       muscle, lung and spleen. Highest level in testis.
+CC       {ECO:0000269|PubMed:15925519, ECO:0000269|PubMed:16765982}.
+CC   -!- DOMAIN: The beta(2)beta(3) 'finger-like' loop domain is important for
+CC       substrate (HIFs' CODD/NODD) selectivity.
+CC       {ECO:0000250|UniProtKB:Q9GZT9}.
+CC   -!- PTM: Ubiquitinated by SIAH1 and/or SIAH2 in response to the unfolded
+CC       protein response (UPR), leading to its degradation.
+CC       {ECO:0000250|UniProtKB:Q91YE2}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY952204; AAX51892.1; -; mRNA.
+DR   EMBL; CH473979; EDM07971.1; -; Genomic_DNA.
+DR   EMBL; BC078907; AAH78907.1; -; mRNA.
+DR   EMBL; BC081858; AAH81858.1; -; mRNA.
+DR   RefSeq; NP_001004083.1; NM_001004083.1.
+DR   RefSeq; XP_006228637.1; XM_006228575.3.
+DR   AlphaFoldDB; Q6AYU4; -.
+DR   SMR; Q6AYU4; -.
+DR   STRING; 10116.ENSRNOP00000028434; -.
+DR   iPTMnet; Q6AYU4; -.
+DR   PhosphoSitePlus; Q6AYU4; -.
+DR   PaxDb; 10116-ENSRNOP00000028434; -.
+DR   Ensembl; ENSRNOT00000028434.7; ENSRNOP00000028434.4; ENSRNOG00000020947.7.
+DR   Ensembl; ENSRNOT00055058015; ENSRNOP00055047855; ENSRNOG00055033561.
+DR   Ensembl; ENSRNOT00060055844; ENSRNOP00060046194; ENSRNOG00060032226.
+DR   Ensembl; ENSRNOT00065057458; ENSRNOP00065047299; ENSRNOG00065033418.
+DR   GeneID; 308457; -.
+DR   KEGG; rno:308457; -.
+DR   UCSC; RGD:631376; rat.
+DR   AGR; RGD:631376; -.
+DR   CTD; 112398; -.
+DR   RGD; 631376; Egln2.
+DR   eggNOG; KOG3710; Eukaryota.
+DR   GeneTree; ENSGT00940000160655; -.
+DR   HOGENOM; CLU_063064_0_0_1; -.
+DR   InParanoid; Q6AYU4; -.
+DR   OrthoDB; 5358684at2759; -.
+DR   TreeFam; TF314595; -.
+DR   Reactome; R-RNO-1234176; Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha.
+DR   PRO; PR:Q6AYU4; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Proteomes; UP000234681; Chromosome 1.
+DR   Bgee; ENSRNOG00000020947; Expressed in testis and 19 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0016706; F:2-oxoglutarate-dependent dioxygenase activity; ISO:RGD.
+DR   GO; GO:0008198; F:ferrous iron binding; ISS:UniProtKB.
+DR   GO; GO:0160082; F:hypoxia-inducible factor-proline dioxygenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0031418; F:L-ascorbic acid binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019826; F:oxygen sensor activity; ISO:RGD.
+DR   GO; GO:0031545; F:peptidyl-proline 4-dioxygenase activity; IDA:UniProtKB.
+DR   GO; GO:0045454; P:cell redox homeostasis; ISO:RGD.
+DR   GO; GO:0071456; P:cellular response to hypoxia; IBA:GO_Central.
+DR   GO; GO:0018401; P:peptidyl-proline hydroxylation to 4-hydroxy-L-proline; IDA:UniProtKB.
+DR   GO; GO:0045732; P:positive regulation of protein catabolic process; ISO:RGD.
+DR   GO; GO:0043523; P:regulation of neuron apoptotic process; ISS:UniProtKB.
+DR   GO; GO:0001666; P:response to hypoxia; ISO:RGD.
+DR   Gene3D; 2.60.120.620; q2cbj1_9rhob like domain; 1.
+DR   InterPro; IPR051559; HIF_prolyl_hydroxylases.
+DR   InterPro; IPR005123; Oxoglu/Fe-dep_dioxygenase.
+DR   InterPro; IPR006620; Pro_4_hyd_alph.
+DR   InterPro; IPR044862; Pro_4_hyd_alph_FE2OG_OXY.
+DR   PANTHER; PTHR12907; EGL NINE HOMOLOG-RELATED; 1.
+DR   PANTHER; PTHR12907:SF6; PROLYL HYDROXYLASE EGLN2; 1.
+DR   Pfam; PF13640; 2OG-FeII_Oxy_3; 1.
+DR   SMART; SM00702; P4Hc; 1.
+DR   PROSITE; PS51471; FE2OG_OXY; 1.
+PE   1: Evidence at protein level;
+KW   Dioxygenase; Iron; Metal-binding; Nucleus; Oxidoreductase; Phosphoprotein;
+KW   Reference proteome; Ubl conjugation; Vitamin C.
+FT   CHAIN           1..415
+FT                   /note="Prolyl hydroxylase EGLN2"
+FT                   /id="PRO_0000415323"
+FT   DOMAIN          286..384
+FT                   /note="Fe2OG dioxygenase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   REGION          1..31
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          43..89
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          108..179
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          233..243
+FT                   /note="Beta(2)beta(3) 'finger-like' loop"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9GZT9"
+FT   MOTIF           89..134
+FT                   /note="Bipartite nuclear localization signal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KS0"
+FT   COMPBIAS        1..23
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        52..77
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        153..168
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         305
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KS0,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   BINDING         307
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KS0,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   BINDING         366
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KS0,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   BINDING         375
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   MOD_RES         130
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KS0"
+SQ   SEQUENCE   415 AA;  44681 MW;  2A6FE8E43254C28A CRC64;
+     MDSPCQPQAL NQALPQLPGS VSESLEPSRA RMGVESYLPC PLLPSYHRSG ASGEASAGNG
+     TPRTTATATT TTASPLREGF GGQDGGELWP LQSEGAAALV TKECQRLAAQ GARPEAPKRK
+     WAKDGGDAPS PSKRPWARQE NQEAKGESGV GCDSGGGSSN STTHSSGEAS SRLREEAQPS
+     APERLALDYI VPCMRYYGIC VKDNFLGAVL GGRVLAEVEA LKWGGRLRDG QLVSQRAIPP
+     RSIRGDQIAW VEGHEPGCRS IGALMAHVDA VIRHCAGRLG NYVINGRTKA MVACYPGNGL
+     GYVRHVDNPH GDGRCITCIY YLNQNWDVKV HGGLLQIFPE GRPVVANIEP LFDRLLIFWS
+     DRRNPHEVKP AYATRYAITV WYFDAKERAA ARDKYQLASG QKGVQVPVSQ PATPT
+//

@@ -1,0 +1,125 @@
+ID   PRS27_RAT               Reviewed;         328 AA.
+AC   Q6BEA2;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   29-MAY-2024, entry version 118.
+DE   RecName: Full=Serine protease 27;
+DE            EC=3.4.21.-;
+DE   AltName: Full=Marapsin;
+DE   AltName: Full=Pancreasin;
+DE   Flags: Precursor;
+GN   Name=Prss27; Synonyms=Mpn;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar; TISSUE=Limbal epithelium;
+RA   Adachi W., Norman B., Davis J., Piatigorsky J.;
+RT   "Comprehensive analysis of gene expression of rat corneal epithelium and
+RT   limbal epithelium.";
+RL   Submitted (FEB-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1 family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00274}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB101677; BAC81507.1; -; mRNA.
+DR   RefSeq; NP_891994.3; NM_182949.3.
+DR   AlphaFoldDB; Q6BEA2; -.
+DR   SMR; Q6BEA2; -.
+DR   STRING; 10116.ENSRNOP00000007392; -.
+DR   MEROPS; S01.074; -.
+DR   GlyCosmos; Q6BEA2; 1 site, No reported glycans.
+DR   GlyGen; Q6BEA2; 1 site.
+DR   PhosphoSitePlus; Q6BEA2; -.
+DR   PaxDb; 10116-ENSRNOP00000007392; -.
+DR   Ensembl; ENSRNOT00000007392.6; ENSRNOP00000007392.3; ENSRNOG00000005336.8.
+DR   Ensembl; ENSRNOT00055044954; ENSRNOP00055036853; ENSRNOG00055026037.
+DR   Ensembl; ENSRNOT00060015714; ENSRNOP00060012248; ENSRNOG00060009318.
+DR   Ensembl; ENSRNOT00065016434; ENSRNOP00065012481; ENSRNOG00065010192.
+DR   GeneID; 287108; -.
+DR   KEGG; rno:287108; -.
+DR   UCSC; RGD:1303256; rat.
+DR   AGR; RGD:1303256; -.
+DR   CTD; 83886; -.
+DR   RGD; 1303256; Prss27.
+DR   eggNOG; KOG3627; Eukaryota.
+DR   GeneTree; ENSGT00940000162015; -.
+DR   InParanoid; Q6BEA2; -.
+DR   OMA; WIHQIIP; -.
+DR   OrthoDB; 4629979at2759; -.
+DR   PhylomeDB; Q6BEA2; -.
+DR   TreeFam; TF351676; -.
+DR   PRO; PR:Q6BEA2; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000005336; Expressed in esophagus and 3 other cell types or tissues.
+DR   ExpressionAtlas; Q6BEA2; baseline and differential.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd00190; Tryp_SPc; 1.
+DR   Gene3D; 2.40.10.10; Trypsin-like serine proteases; 2.
+DR   InterPro; IPR009003; Peptidase_S1_PA.
+DR   InterPro; IPR043504; Peptidase_S1_PA_chymotrypsin.
+DR   InterPro; IPR001314; Peptidase_S1A.
+DR   InterPro; IPR001254; Trypsin_dom.
+DR   InterPro; IPR018114; TRYPSIN_HIS.
+DR   InterPro; IPR033116; TRYPSIN_SER.
+DR   PANTHER; PTHR24253:SF119; SERINE PROTEASE 27; 1.
+DR   PANTHER; PTHR24253; TRANSMEMBRANE PROTEASE SERINE; 1.
+DR   Pfam; PF00089; Trypsin; 1.
+DR   PRINTS; PR00722; CHYMOTRYPSIN.
+DR   SMART; SM00020; Tryp_SPc; 1.
+DR   SUPFAM; SSF50494; Trypsin-like serine proteases; 1.
+DR   PROSITE; PS50240; TRYPSIN_DOM; 1.
+DR   PROSITE; PS00134; TRYPSIN_HIS; 1.
+DR   PROSITE; PS00135; TRYPSIN_SER; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Hydrolase; Protease; Reference proteome;
+KW   Secreted; Serine protease; Signal; Zymogen.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          23..37
+FT                   /note="Activation peptide"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000027510"
+FT   CHAIN           38..328
+FT                   /note="Serine protease 27"
+FT                   /id="PRO_0000027511"
+FT   DOMAIN          38..280
+FT                   /note="Peptidase S1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   ACT_SITE        78
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        127
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        232
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        82
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        63..79
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        161..238
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        194..217
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        228..256
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+SQ   SEQUENCE   328 AA;  35803 MW;  9235EECAF62C1358 CRC64;
+     MRQPHITALL LLPLLLRSGT EGAEAMRACG HPRMFNRMVG GEDALEGEWP WQVSIQRNGA
+     HFCGGSLIAP TWVLTAAHCF SNTSDISIYQ VLLGALKLQQ PGPHALYVPV KRVKSHPEYQ
+     GMASSADVAL VELQVPVTFT KYILPVCLPD PSVVFKSGMN CWVTGWGSPS EQDRLPNPRI
+     LQKLAVPLID TPKCNLLYSK DAEADIQLKT IKDDMLCAGF AEGKKDACKG DSGGPLVCLV
+     DQSWVQAGVI SWGEGCARRN RPGVYIRVAS HYQWIHQIIP ELQFQGRAGS QQQQRDPRGW
+     QPLAENSAPC LAAHAVLLAL GALMLGIL
+//

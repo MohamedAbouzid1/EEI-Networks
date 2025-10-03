@@ -1,0 +1,285 @@
+ID   ENOB_RAT                Reviewed;         434 AA.
+AC   P15429; Q5XIV3;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   29-MAY-2024, entry version 187.
+DE   RecName: Full=Beta-enolase;
+DE            EC=4.2.1.11 {ECO:0000269|PubMed:8594891};
+DE   AltName: Full=2-phospho-D-glycerate hydro-lyase;
+DE   AltName: Full=Enolase 3;
+DE   AltName: Full=Muscle-specific enolase;
+DE            Short=MSE;
+DE   AltName: Full=Skeletal muscle enolase;
+GN   Name=Eno3; Synonyms=Eno-3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar; TISSUE=Skeletal muscle;
+RX   PubMed=2914621; DOI=10.1016/0014-5793(89)80515-0;
+RA   Ohshima Y., Mitsui H., Takayama Y., Kushiya E., Sakimura K., Takahashi Y.;
+RT   "cDNA cloning and nucleotide sequence of rat muscle-specific enolase (beta
+RT   beta enolase).";
+RL   FEBS Lett. 242:425-430(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-28.
+RX   PubMed=2269373; DOI=10.1016/0014-5793(90)80813-x;
+RA   Sakimura K., Kushiya E., Ohshima-Ichimura Y., Mitsui H., Takahashi Y.;
+RT   "Structure and expression of rat muscle-specific enolase gene.";
+RL   FEBS Lett. 277:78-82(1990).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 10-28; 33-50; 106-120; 240-253; 257-262; 336-394 AND
+RP   407-412, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, and Spinal cord;
+RA   Lubec G., Afjehi-Sadat L., Kang S.U.;
+RL   Submitted (JUL-2007) to UniProtKB.
+RN   [5]
+RP   DEVELOPMENTAL STAGE, CATALYTIC ACTIVITY, AND FUNCTION.
+RX   PubMed=8594891; DOI=10.1152/ajpheart.1995.269.6.h1843;
+RA   Keller A., Rouzeau J.-D., Farhadian F., Wisnewsky C., Marotte F.,
+RA   Lamande N., Samuel J.L., Schwartz K., Lazar M., Lucas M.;
+RT   "Differential expression of alpha- and beta-enolase genes during rat heart
+RT   development and hypertrophy.";
+RL   Am. J. Physiol. 269:H1843-H1851(1995).
+RN   [6]
+RP   EFFECT OF THYROID HORMONES ON EXPRESSION.
+RX   PubMed=10662718; DOI=10.1152/ajpendo.2000.278.2.e330;
+RA   Merkulova T., Keller A., Oliviero P., Marotte F., Samuel J.L.,
+RA   Rappaport L., Lamande N., Lucas M.;
+RT   "Thyroid hormones differentially modulate enolase isozymes during rat
+RT   skeletal and cardiac muscle development.";
+RL   Am. J. Physiol. 278:E330-E339(2000).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-72; SER-83; SER-157; THR-205;
+RP   THR-229; TYR-236 AND SER-263, AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Glycolytic enzyme that catalyzes the conversion of 2-
+CC       phosphoglycerate to phosphoenolpyruvate. Appears to have a function in
+CC       striated muscle development and regeneration.
+CC       {ECO:0000269|PubMed:8594891}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-2-phosphoglycerate = H2O + phosphoenolpyruvate;
+CC         Xref=Rhea:RHEA:10164, ChEBI:CHEBI:15377, ChEBI:CHEBI:58289,
+CC         ChEBI:CHEBI:58702; EC=4.2.1.11;
+CC         Evidence={ECO:0000269|PubMed:8594891};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:10165;
+CC         Evidence={ECO:0000305|PubMed:8594891};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC       Note=Mg(2+) is required for catalysis and for stabilizing the dimer.;
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 4/5. {ECO:0000305|PubMed:8594891}.
+CC   -!- SUBUNIT: Mammalian enolase is composed of 3 isozyme subunits, alpha,
+CC       beta and gamma, which can form homodimers or heterodimers which are
+CC       cell-type and development-specific. Interacts with PNKD (By
+CC       similarity). {ECO:0000250}.
+CC   -!- INTERACTION:
+CC       P15429; Q5VU43-11: PDE4DIP; Xeno; NbExp=2; IntAct=EBI-10817548, EBI-10769071;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Note=Localized to the Z line. Some
+CC       colocalization with CKM at M-band (By similarity). {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: The alpha/alpha homodimer is expressed in embryo
+CC       and in most adult tissues. The alpha/beta heterodimer and the beta/beta
+CC       homodimer are found in striated muscle, and the alpha/gamma heterodimer
+CC       and the gamma/gamma homodimer in neurons.
+CC   -!- DEVELOPMENTAL STAGE: During ontogenesis, there is a transition from the
+CC       alpha/alpha homodimer to the alpha/beta heterodimer in striated muscle
+CC       cells. {ECO:0000269|PubMed:8594891}.
+CC   -!- INDUCTION: Thyroid hormones up-regulate expression during hindleg
+CC       muscle development and down-regulate during cardiac muscle development.
+CC       Decrease in ENO3 levels with aortic stenosis.
+CC   -!- SIMILARITY: Belongs to the enolase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y00979; CAA68788.1; -; mRNA.
+DR   EMBL; BC083566; AAH83566.1; -; mRNA.
+DR   EMBL; X57774; CAA40920.1; -; Genomic_DNA.
+DR   PIR; S02072; S02072.
+DR   RefSeq; NP_037081.2; NM_012949.2.
+DR   RefSeq; XP_006246661.1; XM_006246599.3.
+DR   RefSeq; XP_006246662.1; XM_006246600.3.
+DR   AlphaFoldDB; P15429; -.
+DR   SMR; P15429; -.
+DR   BioGRID; 247473; 2.
+DR   IntAct; P15429; 1.
+DR   STRING; 10116.ENSRNOP00000005612; -.
+DR   GlyGen; P15429; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; P15429; -.
+DR   PhosphoSitePlus; P15429; -.
+DR   SwissPalm; P15429; -.
+DR   jPOST; P15429; -.
+DR   PaxDb; 10116-ENSRNOP00000005612; -.
+DR   Ensembl; ENSRNOT00000005612.7; ENSRNOP00000005612.4; ENSRNOG00000004078.8.
+DR   Ensembl; ENSRNOT00055052032; ENSRNOP00055042968; ENSRNOG00055030014.
+DR   Ensembl; ENSRNOT00060042934; ENSRNOP00060035551; ENSRNOG00060024787.
+DR   Ensembl; ENSRNOT00065050442; ENSRNOP00065041457; ENSRNOG00065029192.
+DR   GeneID; 25438; -.
+DR   KEGG; rno:25438; -.
+DR   UCSC; RGD:2555; rat.
+DR   AGR; RGD:2555; -.
+DR   CTD; 2027; -.
+DR   RGD; 2555; Eno3.
+DR   eggNOG; KOG2670; Eukaryota.
+DR   GeneTree; ENSGT00950000182805; -.
+DR   HOGENOM; CLU_031223_0_0_1; -.
+DR   InParanoid; P15429; -.
+DR   OMA; RHIADIS; -.
+DR   OrthoDB; 1093250at2759; -.
+DR   PhylomeDB; P15429; -.
+DR   TreeFam; TF300391; -.
+DR   Reactome; R-RNO-70171; Glycolysis.
+DR   Reactome; R-RNO-70263; Gluconeogenesis.
+DR   UniPathway; UPA00109; UER00187.
+DR   PRO; PR:P15429; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000004078; Expressed in skeletal muscle tissue and 19 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0000015; C:phosphopyruvate hydratase complex; IBA:GO_Central.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0004634; F:phosphopyruvate hydratase activity; IDA:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0061621; P:canonical glycolysis; ISO:RGD.
+DR   GO; GO:0006096; P:glycolytic process; IBA:GO_Central.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0043403; P:skeletal muscle tissue regeneration; IEP:RGD.
+DR   CDD; cd03313; enolase; 1.
+DR   Gene3D; 3.20.20.120; Enolase-like C-terminal domain; 1.
+DR   Gene3D; 3.30.390.10; Enolase-like, N-terminal domain; 1.
+DR   HAMAP; MF_00318; Enolase; 1.
+DR   InterPro; IPR000941; Enolase.
+DR   InterPro; IPR036849; Enolase-like_C_sf.
+DR   InterPro; IPR029017; Enolase-like_N.
+DR   InterPro; IPR020810; Enolase_C.
+DR   InterPro; IPR020809; Enolase_CS.
+DR   InterPro; IPR020811; Enolase_N.
+DR   NCBIfam; TIGR01060; eno; 1.
+DR   PANTHER; PTHR11902:SF5; BETA-ENOLASE; 1.
+DR   PANTHER; PTHR11902; ENOLASE; 1.
+DR   Pfam; PF00113; Enolase_C; 1.
+DR   Pfam; PF03952; Enolase_N; 1.
+DR   PIRSF; PIRSF001400; Enolase; 1.
+DR   PRINTS; PR00148; ENOLASE.
+DR   SFLD; SFLDS00001; Enolase; 1.
+DR   SFLD; SFLDF00002; enolase; 1.
+DR   SMART; SM01192; Enolase_C; 1.
+DR   SMART; SM01193; Enolase_N; 1.
+DR   SUPFAM; SSF51604; Enolase C-terminal domain-like; 1.
+DR   SUPFAM; SSF54826; Enolase N-terminal domain-like; 1.
+DR   PROSITE; PS00164; ENOLASE; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Direct protein sequencing; Glycolysis; Lyase;
+KW   Magnesium; Metal-binding; Phosphoprotein; Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P13929"
+FT   CHAIN           2..434
+FT                   /note="Beta-enolase"
+FT                   /id="PRO_0000134110"
+FT   ACT_SITE        210
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        343
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         158
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         167
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         245
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         293
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         293
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         318
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         318
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         370..373
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         394
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P13929"
+FT   MOD_RES         72
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         83
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         157
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         176
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P13929"
+FT   MOD_RES         205
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         229
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         236
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         263
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CONFLICT        63
+FT                   /note="L -> P (in Ref. 1; CAA68788)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        176..182
+FT                   /note="SSFKEAM -> KLFQGSQ (in Ref. 1; CAA68788)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        279
+FT                   /note="L -> P (in Ref. 1; CAA68788)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        355
+FT                   /note="Q -> L (in Ref. 1; CAA68788)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        381
+FT                   /note="I -> V (in Ref. 1; CAA68788)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   434 AA;  47014 MW;  136A5300E052D5A7 CRC64;
+     MAMQKIFARE ILDSRGNPTV EVDLHTAKGR FRAAVPSGAS TGIYEALELR DGDKSRYLGK
+     GVLKAVEHIN KTLGPALLEK KLSVVDQEKV DKFMIELDGT ENKSKFGANA ILGVSLAVCK
+     AGAAEKGVPL YRHIADLAGN PDLVLPVPAF NVINGGSHAG NKLAMQEFMI LPVGASSFKE
+     AMRIGAEVYH HLKGVIKAKY GKDATNVGDE GGFAPNILEN NEALELLKTA IQAAGYPDKV
+     VIGMDVAASE FYRNGKYDLD FKSPDDPARH ISGEKLGELY KSFIKNYPVV SIEDPFDQDD
+     WATWTSFLSG VDIQIVGDDL TVTNPKRIAQ AVEKKACNCL LLKVNQIGSV TESIQACKLA
+     QSNGWGVMVS HRSGETEDTF IADLVVGLCT GQIKTGAPCR SERLAKYNQL MRIEEALGDK
+     AVFAGRKFRN PKAK
+//

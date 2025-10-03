@@ -1,0 +1,132 @@
+ID   SVS2_RAT                Reviewed;         414 AA.
+AC   P22006;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 1.
+DT   24-JUL-2024, entry version 115.
+DE   RecName: Full=Seminal vesicle secretory protein 2;
+DE   AltName: Full=Seminal vesicle secretory protein II;
+DE            Short=SVS II;
+DE   Flags: Precursor;
+GN   Name=Svs2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PARTIAL PROTEIN SEQUENCE, AND
+RP   PYROGLUTAMATE FORMATION AT GLN-23.
+RX   PubMed=2351680; DOI=10.1016/s0021-9258(19)38756-3;
+RA   Harris S.E., Harris M.A., Johnson C.M., Bean M.F., Dodd J.G., Matusik R.J.,
+RA   Carr S.A., Crabb J.W.;
+RT   "Structural characterization of the rat seminal vesicle secretion II
+RT   protein and gene.";
+RL   J. Biol. Chem. 265:9896-9903(1990).
+CC   -!- FUNCTION: The rat seminal vesicle contains six major androgen-dependent
+CC       secretory proteins referred to as SVS I-VI. The SVS I-III proteins
+CC       appear to be components of the rat copulatory plug, with the SVS II
+CC       protein being the major component.
+CC   -!- PTM: The repeating unit appears to be involved in the formation of the
+CC       copulatory plug via a transglutaminase reaction cross-linking glutamine
+CC       and lysine residues.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J05443; AAA42192.1; -; Genomic_DNA.
+DR   PIR; A36443; A36443.
+DR   AlphaFoldDB; P22006; -.
+DR   STRING; 10116.ENSRNOP00000018420; -.
+DR   PhosphoSitePlus; P22006; -.
+DR   PaxDb; 10116-ENSRNOP00000018420; -.
+DR   Ensembl; ENSRNOT00065000599; ENSRNOP00065000523; ENSRNOG00065000402.
+DR   Ensembl; ENSRNOT00065044585; ENSRNOP00065036527; ENSRNOG00065025858.
+DR   AGR; RGD:3790; -.
+DR   RGD; 3790; Svs2.
+DR   eggNOG; ENOG502T6BW; Eukaryota.
+DR   InParanoid; P22006; -.
+DR   PhylomeDB; P22006; -.
+DR   PRO; PR:P22006; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0001669; C:acrosomal vesicle; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; ISO:RGD.
+DR   GO; GO:0019731; P:antibacterial humoral response; ISO:RGD.
+DR   GO; GO:0050817; P:coagulation; ISO:RGD.
+DR   GO; GO:0009566; P:fertilization; ISO:RGD.
+DR   GO; GO:0042628; P:mating plug formation; IEA:UniProtKB-KW.
+DR   GO; GO:0090281; P:negative regulation of calcium ion import; ISO:RGD.
+DR   GO; GO:1901318; P:negative regulation of flagellated sperm motility; ISO:RGD.
+DR   GO; GO:0048240; P:sperm capacitation; ISO:RGD.
+DR   InterPro; IPR018942; Seminal_vesicle_protein_repeat.
+DR   InterPro; IPR002080; SVP_II_CS.
+DR   PANTHER; PTHR10547:SF2; SEMENOGELIN 1; 1.
+DR   PANTHER; PTHR10547; SEMENOGELIN/SEMINAL VESICLE SECRETORY PROTEIN; 1.
+DR   Pfam; PF10578; SVS_QK; 17.
+DR   PROSITE; PS00515; SVP_II; 12.
+PE   1: Evidence at protein level;
+KW   Copulatory plug; Direct protein sequencing; Pyrrolidone carboxylic acid;
+KW   Reference proteome; Repeat; Signal.
+FT   SIGNAL          1..22
+FT   CHAIN           23..414
+FT                   /note="Seminal vesicle secretory protein 2"
+FT                   /id="PRO_0000022451"
+FT   REPEAT          108..120
+FT                   /note="1"
+FT   REPEAT          127..139
+FT                   /note="2"
+FT   REPEAT          140..152
+FT                   /note="3"
+FT   REPEAT          153..165
+FT                   /note="4"
+FT   REPEAT          166..178
+FT                   /note="5"
+FT   REPEAT          179..191
+FT                   /note="6"
+FT   REPEAT          192..204
+FT                   /note="7"
+FT   REPEAT          205..217
+FT                   /note="8"
+FT   REPEAT          224..236
+FT                   /note="9"
+FT   REPEAT          237..249
+FT                   /note="10"
+FT   REPEAT          257..269
+FT                   /note="11"
+FT   REPEAT          275..287
+FT                   /note="12"
+FT   REPEAT          299..311
+FT                   /note="13"
+FT   REGION          108..311
+FT                   /note="13 X 13 AA tandem repeats"
+FT   REGION          170..228
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          240..294
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          306..369
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        306..325
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        327..341
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        342..369
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         23
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|PubMed:2351680"
+SQ   SEQUENCE   414 AA;  45539 MW;  C89E3FCE0C0EE92E CRC64;
+     MKSSVFILSL FLLLERQAAV VGQYGGTKGH FQSSSSGFML GQKGHLNFGL KGGSEEAAEE
+     SIFMQSQHQM FGQDGGDMAQ TSVSQEHTGV KGAAICRKGQ VSQLKSQESQ IKSFRQVKSS
+     GQLKSGGSQL KSFGQVKSSE SQLKSFGQVK ASGSQLKSFG QVKASGSQLK SYGQMKSSGS
+     QVKSFGQMKS SGSQVKSFGQ MKASESQIKS FGQRKSQGGQ LQSYGQMKSY GQTKSLESQA
+     KSFGQVKSQS GQMKSSYGQR KSYGEETQLK SFDQDAQLKS YGQQKSQKQS SFSQVKSQSA
+     QLKSFGQQKS LKGFSQQTQQ KGFAMDEDLS QVRKQFDDDD LSVQQKSTQQ MKTEEDLSQF
+     GQQRQFGQER SQSYKGYLAQ YRKKLQEQQQ QKNFNQDNFF TKGGAGLYQA QLKG
+//

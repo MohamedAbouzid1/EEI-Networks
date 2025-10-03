@@ -1,0 +1,169 @@
+ID   PCYOX_RAT               Reviewed;         504 AA.
+AC   Q99ML5;
+DT   29-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   02-OCT-2024, entry version 129.
+DE   RecName: Full=Prenylcysteine oxidase 1 {ECO:0000305};
+DE            EC=1.8.3.5 {ECO:0000250|UniProtKB:Q9UHG3};
+DE   AltName: Full=Chloride ion pump-associated 55 kDa protein {ECO:0000303|PubMed:11716481};
+DE   Flags: Precursor;
+GN   Name=Pcyox1 {ECO:0000312|RGD:628652};
+GN   Synonyms=Clp55 {ECO:0000303|PubMed:11716481};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Brain;
+RX   PubMed=11716481; DOI=10.1006/bbrc.2001.5997;
+RA   Kitagawa K., Yagyu K., Yamamoto A., Hattori N., Omori K., Zeng X.-T.,
+RA   Inagaki C.;
+RT   "Molecular cloning and characterization of the Cl(-) pump-associated 55-kDa
+RT   protein in rat brain.";
+RL   Biochem. Biophys. Res. Commun. 289:363-371(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 291-318 AND 420-429, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RA   Lubec G., Kang S.U., Lubec S.;
+RL   Submitted (SEP-2007) to UniProtKB.
+RN   [4]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-196 AND ASN-352, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain;
+RX   PubMed=24090084; DOI=10.1021/pr400783j;
+RA   Parker B.L., Thaysen-Andersen M., Solis N., Scott N.E., Larsen M.R.,
+RA   Graham M.E., Packer N.H., Cordwell S.J.;
+RT   "Site-specific glycan-peptide analysis for determination of N-glycoproteome
+RT   heterogeneity.";
+RL   J. Proteome Res. 12:5791-5800(2013).
+CC   -!- FUNCTION: Prenylcysteine oxidase that cleaves the thioether bond of
+CC       prenyl-L-cysteines, such as farnesylcysteine and geranylgeranylcysteine
+CC       (By similarity). Only active against free prenylcysteines and not
+CC       prenylcysteine residues within prenylated proteins or peptides (By
+CC       similarity). Involved in the final step in the degradation of
+CC       prenylated proteins, by degrading prenylcysteines after the protein has
+CC       been degraded (By similarity). {ECO:0000250|UniProtKB:F1N2K1,
+CC       ECO:0000250|UniProtKB:Q9UHG3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an S-polyprenyl-L-cysteine + H2O + O2 = a polyprenal + H2O2 +
+CC         L-cysteine; Xref=Rhea:RHEA:53892, Rhea:RHEA-COMP:13675, Rhea:RHEA-
+CC         COMP:13676, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:35235, ChEBI:CHEBI:137934, ChEBI:CHEBI:137935;
+CC         EC=1.8.3.5; Evidence={ECO:0000250|UniProtKB:Q9UHG3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53893;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UHG3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O2 + S-(2E,6E)-farnesyl-L-cysteine = (2E,6E)-farnesal +
+CC         H2O2 + L-cysteine; Xref=Rhea:RHEA:30231, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:15894, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:35235, ChEBI:CHEBI:62141; EC=1.8.3.5;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UHG3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:30232;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UHG3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[(2E,6E,10E)-geranylgeranyl]-L-cysteine + H2O + O2 =
+CC         (2E,6E,10E)-geranylgeranial + H2O2 + L-cysteine;
+CC         Xref=Rhea:RHEA:70407, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:35235, ChEBI:CHEBI:189549,
+CC         ChEBI:CHEBI:189554; EC=1.8.3.5;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UHG3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70408;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UHG3};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UHG3};
+CC   -!- SUBCELLULAR LOCATION: Lysosome {ECO:0000250|UniProtKB:Q9UHG3}.
+CC   -!- TISSUE SPECIFICITY: Expressed mainly in cerebrum.
+CC       {ECO:0000269|PubMed:11716481}.
+CC   -!- SIMILARITY: Belongs to the prenylcysteine oxidase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF332142; AAK16548.1; -; mRNA.
+DR   EMBL; BC078719; AAH78719.1; -; mRNA.
+DR   PIR; JC7782; JC7782.
+DR   RefSeq; NP_659553.1; NM_145085.2.
+DR   AlphaFoldDB; Q99ML5; -.
+DR   STRING; 10116.ENSRNOP00000022532; -.
+DR   GlyCosmos; Q99ML5; 3 sites, 9 glycans.
+DR   GlyGen; Q99ML5; 3 sites, 9 N-linked glycans (2 sites).
+DR   iPTMnet; Q99ML5; -.
+DR   PhosphoSitePlus; Q99ML5; -.
+DR   SwissPalm; Q99ML5; -.
+DR   jPOST; Q99ML5; -.
+DR   PaxDb; 10116-ENSRNOP00000022532; -.
+DR   GeneID; 246302; -.
+DR   KEGG; rno:246302; -.
+DR   UCSC; RGD:628652; rat.
+DR   AGR; RGD:628652; -.
+DR   CTD; 51449; -.
+DR   RGD; 628652; Pcyox1.
+DR   VEuPathDB; HostDB:ENSRNOG00000016704; -.
+DR   eggNOG; ENOG502QSHJ; Eukaryota.
+DR   HOGENOM; CLU_021176_1_0_1; -.
+DR   InParanoid; Q99ML5; -.
+DR   OrthoDB; 551774at2759; -.
+DR   PhylomeDB; Q99ML5; -.
+DR   TreeFam; TF329001; -.
+DR   PRO; PR:Q99ML5; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000016704; Expressed in skeletal muscle tissue and 18 other cell types or tissues.
+DR   GO; GO:0005764; C:lysosome; ISO:RGD.
+DR   GO; GO:0034361; C:very-low-density lipoprotein particle; ISO:RGD.
+DR   GO; GO:0071949; F:FAD binding; ISO:RGD.
+DR   GO; GO:0102149; F:farnesylcysteine lyase activity; IEA:RHEA.
+DR   GO; GO:0001735; F:prenylcysteine oxidase activity; ISO:RGD.
+DR   GO; GO:1902476; P:chloride transmembrane transport; IMP:RGD.
+DR   GO; GO:0030327; P:prenylated protein catabolic process; ISO:RGD.
+DR   GO; GO:0030328; P:prenylcysteine catabolic process; ISO:RGD.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR010795; Prenylcys_lyase.
+DR   InterPro; IPR017046; Prenylcysteine_Oxase.
+DR   PANTHER; PTHR15944; FARNESYLCYSTEINE LYASE; 1.
+DR   PANTHER; PTHR15944:SF3; PRENYLCYSTEINE OXIDASE 1; 1.
+DR   Pfam; PF13450; NAD_binding_8; 1.
+DR   Pfam; PF07156; Prenylcys_lyase; 1.
+DR   PIRSF; PIRSF036292; Prenylcysteine_oxidase; 1.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; FAD; Flavoprotein; Glycoprotein; Lysosome;
+KW   Oxidoreductase; Reference proteome; Signal.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           29..504
+FT                   /note="Prenylcysteine oxidase 1"
+FT                   /id="PRO_0000023302"
+FT   CARBOHYD        196
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007744|PubMed:24090084"
+FT   CARBOHYD        322
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        352
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007744|PubMed:24090084"
+SQ   SEQUENCE   504 AA;  56288 MW;  D2778026128FE9D4 CRC64;
+     MGRFAATLVG SLFGLGLLLC GLGRLASAEP RAPPEKIAIV GAGIGGTSSA YYLRKKFGKD
+     VKIDVFEREE IGGRLATLKV QGHDYEAGGS VIHPLNLHMK RFVKELGLSS VPASGGLVGV
+     YNGKSLVFEE SSWFIINVIK LVWRYGFQSL RMHMWVEDLL DKFMRIYRYQ SHDYAFSSVE
+     KLMYAIGGDD YVRLLNQTLR ENLKKAGFSE TFLNEMIAPV MKVNFGQSTD LNAFVGAVSM
+     TAADSNLWAV EGGNKVVCSG LLQASNSNLI SGSVMSIEKT RTKQTGTPPK MYEVVYKTGS
+     EIHSDFYDIV LVAAPLNRKM SNITFRNFDP PIEEFNDPYQ QLVTTLIKGE LNSTLFSSRH
+     KDQFGLSAIL VTDDSDMFIN SLSIVASVSH KEGPPPAVDG MHVWKTFSKD ILTKEQISKL
+     FLSYDYAVRK PWLSYPYYNP PQKCPSIILH DRLYYLNGIE FAASCMEMSA IAGYNAALLA
+     YHRWNGNEDM IDQDDLYEKL KTEL
+//

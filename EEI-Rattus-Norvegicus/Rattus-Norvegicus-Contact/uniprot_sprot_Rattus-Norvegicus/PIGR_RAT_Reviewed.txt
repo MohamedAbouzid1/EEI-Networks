@@ -1,0 +1,220 @@
+ID   PIGR_RAT                Reviewed;         769 AA.
+AC   P15083;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1990, sequence version 1.
+DT   24-JUL-2024, entry version 161.
+DE   RecName: Full=Polymeric immunoglobulin receptor;
+DE            Short=PIgR;
+DE            Short=Poly-Ig receptor;
+DE   Contains:
+DE     RecName: Full=Secretory component;
+DE   Flags: Precursor;
+GN   Name=Pigr;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=2776882; DOI=10.1016/0014-5793(89)81034-8;
+RA   Banting G., Brake B., Braghetta P., Luzio J.P., Stanley K.K.;
+RT   "Intracellular targeting signals of polymeric immunoglobulin receptors are
+RT   highly conserved between species.";
+RL   FEBS Lett. 254:177-183(1989).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-678; SER-687 AND SER-694, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: [Polymeric immunoglobulin receptor]: Mediates selective
+CC       transcytosis of polymeric IgA and IgM across mucosal epithelial cells.
+CC       Binds polymeric IgA and IgM at the basolateral surface of epithelial
+CC       cells. The complex is then transported across the cell to be secreted
+CC       at the apical surface. During this process, a cleavage occurs that
+CC       separates the extracellular (known as the secretory component) from the
+CC       transmembrane segment. {ECO:0000250|UniProtKB:P01833}.
+CC   -!- FUNCTION: [Secretory component]: Through its N-linked glycans ensures
+CC       anchoring of secretory IgA (sIgA) molecules to mucus lining the
+CC       epithelial surface to neutralize extracellular pathogens. On its own
+CC       (free form) may act as a non-specific microbial scavenger to prevent
+CC       pathogen interaction with epithelial cells.
+CC       {ECO:0000250|UniProtKB:P01833}.
+CC   -!- SUBUNIT: Interacts (mainly via CDR1-like domain) with dimeric IgA.
+CC       Interacts (mainly via CDR2-like domain) with pentameric IgM.
+CC       {ECO:0000250|UniProtKB:P01833}.
+CC   -!- SUBUNIT: [Secretory component]: Either free or part of the secretory
+CC       IgA (sIgA) complex that consists of two, four or five IgA monomers, and
+CC       two additional non-Ig polypeptides, namely the JCHAIN and the secretory
+CC       component (the proteolytic product of PIGR). Free secretory component
+CC       interacts with bacterial antigens toxA of C. difficile and eae of E.
+CC       coli. {ECO:0000250|UniProtKB:P01833}.
+CC   -!- SUBCELLULAR LOCATION: [Polymeric immunoglobulin receptor]: Cell
+CC       membrane {ECO:0000250|UniProtKB:P01833}; Single-pass type I membrane
+CC       protein {ECO:0000255}.
+CC   -!- SUBCELLULAR LOCATION: [Secretory component]: Secreted
+CC       {ECO:0000250|UniProtKB:P01833}.
+CC   -!- DOMAIN: The Ig-like V-type 1/D1 domain contains three complementarity
+CC       determining region-like loops CDR1-3, which mediate interaction with
+CC       IgA and IgM. {ECO:0000250|UniProtKB:P01833}.
+CC   -!- PTM: N-glycosylated. N-glycosylation is required for anchoring IgA
+CC       molecules to mucus, but is not necessary for Ig binding.
+CC       {ECO:0000250|UniProtKB:P01833}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X15741; CAA33758.1; -; mRNA.
+DR   PIR; S05407; QRRTGS.
+DR   RefSeq; NP_036855.3; NM_012723.4.
+DR   AlphaFoldDB; P15083; -.
+DR   SMR; P15083; -.
+DR   CORUM; P15083; -.
+DR   STRING; 10116.ENSRNOP00000073662; -.
+DR   GlyCosmos; P15083; 4 sites, No reported glycans.
+DR   GlyGen; P15083; 4 sites.
+DR   iPTMnet; P15083; -.
+DR   PhosphoSitePlus; P15083; -.
+DR   PaxDb; 10116-ENSRNOP00000005853; -.
+DR   GeneID; 25046; -.
+DR   KEGG; rno:25046; -.
+DR   UCSC; RGD:3328; rat.
+DR   AGR; RGD:3328; -.
+DR   CTD; 5284; -.
+DR   RGD; 3328; Pigr.
+DR   eggNOG; ENOG502QPKT; Eukaryota.
+DR   InParanoid; P15083; -.
+DR   OrthoDB; 5303080at2759; -.
+DR   PhylomeDB; P15083; -.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   PRO; PR:P15083; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0043235; C:receptor complex; ISO:RGD.
+DR   GO; GO:0055038; C:recycling endosome membrane; IDA:RGD.
+DR   GO; GO:0071751; C:secretory IgA immunoglobulin complex; ISS:UniProtKB.
+DR   GO; GO:0005154; F:epidermal growth factor receptor binding; IPI:RGD.
+DR   GO; GO:0001790; F:polymeric immunoglobulin binding; ISO:RGD.
+DR   GO; GO:0001792; F:polymeric immunoglobulin receptor activity; ISO:RGD.
+DR   GO; GO:0001580; P:detection of chemical stimulus involved in sensory perception of bitter taste; ISO:RGD.
+DR   GO; GO:0007173; P:epidermal growth factor receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0038093; P:Fc receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0002415; P:immunoglobulin transcytosis in epithelial cells mediated by polymeric immunoglobulin receptor; ISS:UniProtKB.
+DR   GO; GO:0043113; P:receptor clustering; ISO:RGD.
+DR   CDD; cd05716; IgV_pIgR_like; 4.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 5.
+DR   InterPro; IPR050671; CD300_family_receptors.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR013106; Ig_V-set.
+DR   PANTHER; PTHR11860; POLYMERIC-IMMUNOGLOBULIN RECEPTOR; 1.
+DR   PANTHER; PTHR11860:SF87; PROTEIN CD300H; 1.
+DR   Pfam; PF07686; V-set; 5.
+DR   SMART; SM00409; IG; 5.
+DR   SMART; SM00406; IGv; 5.
+DR   SUPFAM; SSF48726; Immunoglobulin; 5.
+DR   PROSITE; PS50835; IG_LIKE; 2.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Disulfide bond; Glycoprotein; Immunoglobulin domain;
+KW   Membrane; Phosphoprotein; Reference proteome; Repeat; Secreted; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..18
+FT   CHAIN           19..769
+FT                   /note="Polymeric immunoglobulin receptor"
+FT                   /id="PRO_0000014906"
+FT   CHAIN           19..611
+FT                   /note="Secretory component"
+FT                   /id="PRO_0000014907"
+FT   TOPO_DOM        19..643
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        644..666
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        667..769
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          21..126
+FT                   /note="Ig-like V-type 1; required for binding to polymeric
+FT                   IgA and IgM"
+FT                   /evidence="ECO:0000250|UniProtKB:P01833"
+FT   DOMAIN          135..237
+FT                   /note="Ig-like V-type 2"
+FT   DOMAIN          240..341
+FT                   /note="Ig-like V-type 3"
+FT   DOMAIN          353..457
+FT                   /note="Ig-like V-type 4"
+FT   DOMAIN          463..563
+FT                   /note="Ig-like V-type 5"
+FT   REGION          569..604
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          619..640
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          719..741
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        582..604
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        621..640
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         678
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         687
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         694
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         740
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O70570"
+FT   CARBOHYD        90
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        135
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        206
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        471
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        40..110
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        152..220
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        257..324
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        370..440
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        484..546
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+SQ   SEQUENCE   769 AA;  84798 MW;  5F849303400255A7 CRC64;
+     MRLSLFALLV TVFSGVSTQS PIFGPQDVSS IEGNSVSITC YYPDTSVNRH TRKYWCRQGA
+     NGYCATLISS NGYLSKEYSG RASLINFPEN STFVINIAHL TQEDTGSYKC GLGTTNRGLF
+     FDVSLEVSQV PEFPNDTHVY TKDIGRTVTI ECRFKEGNAH SKKSLCKKRG EACEVVIDST
+     EYVDPSYKDR AILFMKGTSR DIFYVNISHL IPSDAGLYVC QAGEGPSADK NNADLQVLEP
+     EPELLYKDLR SSVTFECDLG REVANDAKYL CRKNKETCDV IINTLGKRDP AFEGRILLTP
+     RDDNGRFSVL ITGLRKEDAG HYQCGAHSSG LPQEGWPVQA WQLFVNEEST IPNSRSVVKG
+     VTGGSVAIVC PYNPKESSSL KYWCHWEADE NGRCPVLVGT QALVQEGYEG RLALFDQPGS
+     GAYTVILNQL TTQDSGFYWC LTDGDSRWRT TIELQVAEAT KKPDLEVTPQ NATAVIGETF
+     TISCHYPCKF YSQEKYWCKW SNDGCHILPS HDEGARQSSV SCDQSSQIVS MTLNPVKKED
+     EGWYWCGVKE GQVYGETTAI YVAVEERTRG SPHINPTDAN ARAKDAPEEE AMESSVREDE
+     NKANLDPRLF ADEREIQNAG DQAQENRASG NAGSAGGQSG SSKVLFSTLV PLGLVLAVGA
+     VAVWVARVRH RKNVDRMSIS SYRTDISMGD FRNSRDLGGN DNMGATPDTQ ETVLEGKDEI
+     ETTTECTTEP EESKKAKRSS KEEADMAYSA FLFQSSTIAA QVHDGPQEA
+//

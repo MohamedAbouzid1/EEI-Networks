@@ -1,0 +1,142 @@
+ID   MYPC1_RAT               Reviewed;         621 AA.
+AC   Q63518;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JUL-2024, entry version 136.
+DE   RecName: Full=Myosin-binding protein C, slow-type;
+DE            Short=Slow MyBP-C;
+DE   AltName: Full=C-protein, skeletal muscle slow isoform;
+DE   Flags: Fragment;
+GN   Name=Mybpc1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal ganglion;
+RX   PubMed=7673161; DOI=10.1074/jbc.270.36.21264;
+RA   Akopian A.N., Wood N.;
+RT   "Peripheral nervous system-specific genes identified by subtractive cDNA
+RT   cloning.";
+RL   J. Biol. Chem. 270:21264-21270(1995).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-28; SER-233; THR-420 AND
+RP   TYR-445, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Thick filament-associated protein located in the crossbridge
+CC       region of vertebrate striated muscle a bands. Slow skeletal protein
+CC       that binds to both myosin and actin. In vitro, binds to native thin
+CC       filaments and modifies the activity of actin-activated myosin ATPase.
+CC       May modulate muscle contraction or may play a more structural role.
+CC       {ECO:0000250|UniProtKB:Q00872}.
+CC   -!- SUBUNIT: Interacts with USP25 (isoform USP25m only); the interaction
+CC       prevents proteasomal degradation of MYBPC1. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the immunoglobulin superfamily. MyBP family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X90475; CAA62085.1; -; mRNA.
+DR   PIR; B57431; B57431.
+DR   RefSeq; NP_001094228.2; NM_001100758.2.
+DR   AlphaFoldDB; Q63518; -.
+DR   SMR; Q63518; -.
+DR   IntAct; Q63518; 1.
+DR   STRING; 10116.ENSRNOP00000074295; -.
+DR   iPTMnet; Q63518; -.
+DR   PhosphoSitePlus; Q63518; -.
+DR   PaxDb; 10116-ENSRNOP00000035289; -.
+DR   GeneID; 362867; -.
+DR   KEGG; rno:362867; -.
+DR   UCSC; RGD:735102; rat.
+DR   AGR; RGD:735102; -.
+DR   CTD; 4604; -.
+DR   RGD; 735102; Mybpc1.
+DR   eggNOG; ENOG502QPYI; Eukaryota.
+DR   InParanoid; Q63518; -.
+DR   OrthoDB; 4232090at2759; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0032982; C:myosin filament; IEA:UniProtKB-KW.
+DR   GO; GO:0003779; F:actin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017022; F:myosin binding; ISS:UniProtKB.
+DR   GO; GO:0007155; P:cell adhesion; IEA:UniProtKB-KW.
+DR   GO; GO:0006936; P:muscle contraction; TAS:RGD.
+DR   CDD; cd00063; FN3; 3.
+DR   CDD; cd05894; Ig_C5_MyBP-C; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 7.
+DR   InterPro; IPR003961; FN3_dom.
+DR   InterPro; IPR036116; FN3_sf.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR013098; Ig_I-set.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR050964; Striated_Muscle_Regulatory.
+DR   PANTHER; PTHR13817:SF27; MYOSIN-BINDING PROTEIN C, SLOW-TYPE; 1.
+DR   PANTHER; PTHR13817; TITIN; 1.
+DR   Pfam; PF00041; fn3; 3.
+DR   Pfam; PF07679; I-set; 3.
+DR   SMART; SM00060; FN3; 3.
+DR   SMART; SM00409; IG; 3.
+DR   SUPFAM; SSF49265; Fibronectin type III; 2.
+DR   SUPFAM; SSF48726; Immunoglobulin; 4.
+DR   PROSITE; PS50853; FN3; 3.
+DR   PROSITE; PS50835; IG_LIKE; 2.
+PE   1: Evidence at protein level;
+KW   Actin-binding; Cell adhesion; Immunoglobulin domain; Muscle protein;
+KW   Phosphoprotein; Reference proteome; Repeat; Thick filament.
+FT   CHAIN           <1..>621
+FT                   /note="Myosin-binding protein C, slow-type"
+FT                   /id="PRO_0000072690"
+FT   DOMAIN          <1..53
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          54..142
+FT                   /note="Ig-like C2-type 2"
+FT   DOMAIN          144..241
+FT                   /note="Ig-like C2-type 3"
+FT   DOMAIN          244..343
+FT                   /note="Fibronectin type-III 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          344..459
+FT                   /note="Fibronectin type-III 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          459..553
+FT                   /note="Ig-like C2-type 4"
+FT   DOMAIN          556..621
+FT                   /note="Fibronectin type-III 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   MOD_RES         28
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         233
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         420
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         445
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   NON_TER         1
+FT   NON_TER         621
+SQ   SEQUENCE   621 AA;  68737 MW;  07B68B1FB8793FEA CRC64;
+     EEIVPGPKSR YRIKVEGKKH TLIIEGATKA DSAEYSVMTT GGQSSAKLSV DLRPLKITTP
+     LTDQTVKLGK EVCLKCEISE NVPGKWTKNG LPVQEGERLK VVHKGRIHKL VIANALIEDE
+     GEYVFTPDAI TVPLVCQIHV IDPPKIILDG LEADNTVTVI AGSKLRLEIP VTGEPPPKAI
+     WSRADKAIME GSGRIRAESY PDSSTLVIDV AERDDSGVYN INLKNEAGEA HASIKLRLWI
+     SLILRLAPNV TEVGDDWCIM NWEPPVYDGG SPILGYFIER KKKQSSRWMR LNFDLCKETT
+     FEPKKMIEGV AYEVRIFAVN AIGISKPSMP SKPFVPLAVT SPPTLLAVDS VTDSSVTMKW
+     RPPDQIGAAG LSGYVLEYCF EGSTSAKQSN ENGEAANDLP AEDWSLQTQT GSTRPKFTIT
+     GLPTDAKIFV RVKAINAAGA SETKYYSQPI LVKEIIEPPK IRIPRHLKQT YIRRVGEAVN
+     LVIPFQGKPR PELTWKKDGA EIDKNQINIR NSETDTIIFI RKAERSHSGK YDLEVKVDKY
+     VENASIDIQI VDRPGPPQAV TIEDVWGENV ALTWTPPKDD GNAAITGYTI QKADKKSMEW
+     FAVIEHYHRT NATITELVIG N
+//

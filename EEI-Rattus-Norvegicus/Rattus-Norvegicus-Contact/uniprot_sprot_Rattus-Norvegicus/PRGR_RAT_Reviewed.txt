@@ -1,0 +1,370 @@
+ID   PRGR_RAT                Reviewed;         923 AA.
+AC   Q63449;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-OCT-2024, entry version 179.
+DE   RecName: Full=Progesterone receptor;
+DE            Short=PR;
+DE   AltName: Full=Nuclear receptor subfamily 3 group C member 3;
+GN   Name=Pgr; Synonyms=Nr3c3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Placenta;
+RX   PubMed=8299566; DOI=10.1210/endo.134.2.8299566;
+RA   Park-Sarge O.K., Mayo K.E.;
+RT   "Regulation of the progesterone receptor gene by gonadotropins and cyclic
+RT   adenosine 3',5'-monophosphate in rat granulosa cells.";
+RL   Endocrinology 134:709-718(1994).
+RN   [2]
+RP   INDUCTION.
+RX   PubMed=1840636; DOI=10.1210/mend-5-7-967;
+RA   Park-Sarge O.K., Mayo K.E.;
+RT   "Transient expression of progesterone receptor messenger RNA in ovarian
+RT   granulosa cells after the preovulatory luteinizing hormone surge.";
+RL   Mol. Endocrinol. 5:967-978(1991).
+RN   [3]
+RP   ALTERNATIVE PROMOTER USAGE.
+RX   PubMed=8145766; DOI=10.1210/mend.7.12.8145766;
+RA   Kraus W.L., Montano M.M., Katzenellenbogen B.S.;
+RT   "Cloning of the rat progesterone receptor gene 5'-region and identification
+RT   of two functionally distinct promoters.";
+RL   Mol. Endocrinol. 7:1603-1616(1993).
+RN   [4]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=17003284; DOI=10.1677/joe.1.06923;
+RA   Turgeon J.L., Waring D.W.;
+RT   "Differential expression and regulation of progesterone receptor isoforms
+RT   in rat and mouse pituitary cells and LbetaT2 gonadotropes.";
+RL   J. Endocrinol. 190:837-846(2006).
+CC   -!- FUNCTION: The steroid hormones and their receptors are involved in the
+CC       regulation of eukaryotic gene expression and affect cellular
+CC       proliferation and differentiation in target tissues. Depending on the
+CC       isoform, progesterone receptor functions as a transcriptional activator
+CC       or repressor (By similarity). {ECO:0000250|UniProtKB:P06401}.
+CC   -!- FUNCTION: [Isoform A]: Ligand-dependent transdominant repressor of
+CC       steroid hormone receptor transcriptional activity including repression
+CC       of its isoform B, MR and ER. Transrepressional activity may involve
+CC       recruitment of corepressor NCOR2. {ECO:0000250|UniProtKB:P06401}.
+CC   -!- FUNCTION: [Isoform B]: Transcriptional activator of several
+CC       progesteron-dependent promoters in a variety of cell types. Involved in
+CC       activation of SRC-dependent MAPK signaling on hormone stimulation.
+CC       {ECO:0000250|UniProtKB:P06401}.
+CC   -!- SUBUNIT: Interacts with SMARD1 and UNC45A. Interacts with CUEDC2; the
+CC       interaction promotes ubiquitination, decreases sumoylation, and
+CC       represses transcriptional activity. Interacts with PIAS3; the
+CC       interaction promotes sumoylation of PR in a hormone-dependent manner,
+CC       inhibits DNA-binding, and alters nuclear export. Interacts with SP1;
+CC       the interaction requires ligand-induced phosphorylation on Ser-344.
+CC       Interacts with PRMT2 (By similarity). Isoform A interacts with NCOR2.
+CC       Isoform B (but not isoform A) interacts with NCOA2 and NCOA1 (By
+CC       similarity). Isoform B (but not isoform A) interacts with KLF9.
+CC       Interacts with GTF2B (By similarity). {ECO:0000250|UniProtKB:P06401,
+CC       ECO:0000250|UniProtKB:Q00175}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus. Cytoplasm. Note=Nucleoplasmic shuttling
+CC       is both hormone- and cell cycle-dependent. On hormone stimulation,
+CC       retained in the cytoplasm in the G(1) and G(2)/M phases (By
+CC       similarity). {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative promoter usage; Named isoforms=2;
+CC       Name=B; Synonyms=PRB, PR-B;
+CC         IsoId=Q63449-1; Sequence=Displayed;
+CC       Name=A; Synonyms=PRA, PR-A;
+CC         IsoId=Q63449-2; Sequence=VSP_058744;
+CC   -!- TISSUE SPECIFICITY: Isoform A and isoform B are expressed in the
+CC       pituitary. {ECO:0000269|PubMed:17003284}.
+CC   -!- DOMAIN: Composed of three domains: a modulating N-terminal domain, a
+CC       DNA-binding domain and a C-terminal ligand-binding domain.
+CC   -!- PTM: Phosphorylated on multiple serine sites. Several of these sites
+CC       are hormone-dependent. Phosphorylation on Ser-293 is highly hormone-
+CC       dependent and modulates ubiquitination and sumoylation on Lys-387.
+CC       Phosphorylation on Ser-344 also requires induction by hormone. Basal
+CC       phosphorylation on Ser-82, Ser-190 and Ser-399 is increased in response
+CC       to progesterone and can be phosphorylated in vitro by the CDK2-A1
+CC       complex. Increased levels of phosphorylation on Ser-399 also in the
+CC       presence of EGF, heregulin, IGF, PMA and FBS. Phosphorylation at this
+CC       site by CDK2 is ligand-independent, and increases nuclear translocation
+CC       and transcriptional activity. Phosphorylation at Ser-293, but not at
+CC       Ser-190, is impaired during the G(2)/M phase of the cell cycle.
+CC       Phosphorylation on Ser-344 by ERK1/2 MAPK is required for interaction
+CC       with SP1 (By similarity). {ECO:0000250}.
+CC   -!- PTM: Sumoylation is hormone-dependent and represses transcriptional
+CC       activity. Sumoylation on all three sites is enhanced by PIAS3.
+CC       Desumoylated by SENP1. Sumoylation on Lys-387, the main site of
+CC       sumoylation, is repressed by ubiquitination on the same site, and
+CC       modulated by phosphorylation at Ser-293 (By similarity). {ECO:0000250}.
+CC   -!- PTM: Ubiquitination is hormone-dependent and represses sumoylation on
+CC       the same site (By similarity). Promoted by MAPK-mediated
+CC       phosphorylation on Ser-293 (By similarity). Ubiquitinated by UBR5,
+CC       leading to its degradation: UBR5 specifically recognizes and binds
+CC       ligand-bound PGR when it is not associated with coactivators (NCOAs)
+CC       (By similarity). In presence of NCOAs, the UBR5-degron is not
+CC       accessible, preventing its ubiquitination and degradation (By
+CC       similarity). {ECO:0000250|UniProtKB:P06401}.
+CC   -!- PTM: Palmitoylated by ZDHHC7 and ZDHHC21. Palmitoylation is required
+CC       for plasma membrane targeting and for rapid intracellular signaling via
+CC       ERK and AKT kinases and cAMP generation (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the nuclear hormone receptor family. NR3
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L16922; AAA19916.1; -; mRNA.
+DR   PIR; I53280; I53280.
+DR   RefSeq; NP_074038.1; NM_022847.1.
+DR   AlphaFoldDB; Q63449; -.
+DR   SMR; Q63449; -.
+DR   STRING; 10116.ENSRNOP00000032053; -.
+DR   BindingDB; Q63449; -.
+DR   ChEMBL; CHEMBL2596; -.
+DR   DrugCentral; Q63449; -.
+DR   iPTMnet; Q63449; -.
+DR   PhosphoSitePlus; Q63449; -.
+DR   PaxDb; 10116-ENSRNOP00000032053; -.
+DR   GeneID; 25154; -.
+DR   KEGG; rno:25154; -.
+DR   UCSC; RGD:3317; rat. [Q63449-1]
+DR   AGR; RGD:3317; -.
+DR   CTD; 5241; -.
+DR   RGD; 3317; Pgr.
+DR   eggNOG; KOG3575; Eukaryota.
+DR   InParanoid; Q63449; -.
+DR   OrthoDB; 5347911at2759; -.
+DR   PhylomeDB; Q63449; -.
+DR   Reactome; R-RNO-3371497; HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand.
+DR   Reactome; R-RNO-383280; Nuclear Receptor transcription pathway.
+DR   Reactome; R-RNO-4090294; SUMOylation of intracellular receptors.
+DR   Reactome; R-RNO-9018519; Estrogen-dependent gene expression.
+DR   PRO; PR:Q63449; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0043679; C:axon terminus; IDA:RGD.
+DR   GO; GO:0000785; C:chromatin; IBA:GO_Central.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0043197; C:dendritic spine; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043204; C:perikaryon; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0051117; F:ATPase binding; ISO:RGD.
+DR   GO; GO:0001228; F:DNA-binding transcription activator activity, RNA polymerase II-specific; ISO:RGD.
+DR   GO; GO:0019899; F:enzyme binding; ISO:RGD.
+DR   GO; GO:0034056; F:estrogen response element binding; IBA:GO_Central.
+DR   GO; GO:0042562; F:hormone binding; IMP:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0004879; F:nuclear receptor activity; ISO:RGD.
+DR   GO; GO:0003707; F:nuclear steroid receptor activity; IMP:RGD.
+DR   GO; GO:0000978; F:RNA polymerase II cis-regulatory region sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IDA:RGD.
+DR   GO; GO:0005496; F:steroid binding; IMP:RGD.
+DR   GO; GO:0001223; F:transcription coactivator binding; ISO:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0071391; P:cellular response to estrogen stimulus; IEP:RGD.
+DR   GO; GO:0071372; P:cellular response to follicle-stimulating hormone stimulus; IEP:RGD.
+DR   GO; GO:0071371; P:cellular response to gonadotropin stimulus; IEP:RGD.
+DR   GO; GO:0071373; P:cellular response to luteinizing hormone stimulus; IEP:RGD.
+DR   GO; GO:1904568; P:cellular response to wortmannin; IEP:RGD.
+DR   GO; GO:0016101; P:diterpenoid metabolic process; IEP:RGD.
+DR   GO; GO:0002070; P:epithelial cell maturation; ISO:RGD.
+DR   GO; GO:0044849; P:estrous cycle; IEP:RGD.
+DR   GO; GO:0060180; P:female mating behavior; IMP:RGD.
+DR   GO; GO:0002071; P:glandular epithelial cell maturation; ISO:RGD.
+DR   GO; GO:0048286; P:lung alveolus development; ISO:RGD.
+DR   GO; GO:0001553; P:luteinization; IEP:RGD.
+DR   GO; GO:0051457; P:maintenance of protein location in nucleus; ISO:RGD.
+DR   GO; GO:0030879; P:mammary gland development; ISO:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IEP:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:1904709; P:negative regulation of granulosa cell apoptotic process; IMP:RGD.
+DR   GO; GO:0030518; P:nuclear receptor-mediated steroid hormone signaling pathway; IBA:GO_Central.
+DR   GO; GO:0001542; P:ovulation from ovarian follicle; ISO:RGD.
+DR   GO; GO:0038001; P:paracrine signaling; ISO:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IDA:RGD.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; IDA:RGD.
+DR   GO; GO:0014911; P:positive regulation of smooth muscle cell migration; IMP:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0050847; P:progesterone receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0050678; P:regulation of epithelial cell proliferation; ISO:RGD.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; IBA:GO_Central.
+DR   GO; GO:0042220; P:response to cocaine; IDA:RGD.
+DR   GO; GO:0043627; P:response to estrogen; IEP:RGD.
+DR   GO; GO:0032570; P:response to progesterone; IEP:RGD.
+DR   GO; GO:0060748; P:tertiary branching involved in mammary gland duct morphogenesis; ISO:RGD.
+DR   CDD; cd07172; NR_DBD_GR_PR; 1.
+DR   CDD; cd07074; NR_LBD_PR; 1.
+DR   Gene3D; 3.30.50.10; Erythroid Transcription Factor GATA-1, subunit A; 1.
+DR   Gene3D; 1.10.565.10; Retinoid X Receptor; 1.
+DR   InterPro; IPR035500; NHR-like_dom_sf.
+DR   InterPro; IPR000536; Nucl_hrmn_rcpt_lig-bd.
+DR   InterPro; IPR050200; Nuclear_hormone_rcpt_NR3.
+DR   InterPro; IPR001723; Nuclear_hrmn_rcpt.
+DR   InterPro; IPR000128; Progest_rcpt.
+DR   InterPro; IPR001628; Znf_hrmn_rcpt.
+DR   InterPro; IPR013088; Znf_NHR/GATA.
+DR   PANTHER; PTHR48092; KNIRPS-RELATED PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR48092:SF6; PROGESTERONE RECEPTOR; 1.
+DR   Pfam; PF00104; Hormone_recep; 1.
+DR   Pfam; PF02161; Prog_receptor; 1.
+DR   Pfam; PF00105; zf-C4; 1.
+DR   PRINTS; PR00544; PROGESTRONER.
+DR   PRINTS; PR00398; STRDHORMONER.
+DR   PRINTS; PR00047; STROIDFINGER.
+DR   SMART; SM00430; HOLI; 1.
+DR   SMART; SM00399; ZnF_C4; 1.
+DR   SUPFAM; SSF57716; Glucocorticoid receptor-like (DNA-binding domain); 1.
+DR   SUPFAM; SSF48508; Nuclear receptor ligand-binding domain; 1.
+DR   PROSITE; PS51843; NR_LBD; 1.
+DR   PROSITE; PS00031; NUCLEAR_REC_DBD_1; 1.
+DR   PROSITE; PS51030; NUCLEAR_REC_DBD_2; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative promoter usage; Cytoplasm; DNA-binding; Isopeptide bond;
+KW   Lipid-binding; Lipoprotein; Metal-binding; Nucleus; Palmitate;
+KW   Phosphoprotein; Receptor; Reference proteome; Steroid-binding;
+KW   Transcription; Transcription regulation; Ubl conjugation; Zinc;
+KW   Zinc-finger.
+FT   CHAIN           1..923
+FT                   /note="Progesterone receptor"
+FT                   /id="PRO_0000053697"
+FT   DOMAIN          669..903
+FT                   /note="NR LBD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01189"
+FT   DNA_BIND        557..629
+FT                   /note="Nuclear receptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00407"
+FT   ZN_FING         557..577
+FT                   /note="NR C4-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00407"
+FT   ZN_FING         593..617
+FT                   /note="NR C4-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00407"
+FT   REGION          1..556
+FT                   /note="Modulating, Pro-Rich"
+FT   REGION          1..164
+FT                   /note="AF3; mediates transcriptional activation (in isoform
+FT                   B)"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   REGION          1..49
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          67..111
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          152..239
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          165..304
+FT                   /note="Mediates transcriptional transrepression (in isoform
+FT                   A)"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   REGION          333..371
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          412..435
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          450..536
+FT                   /note="AF1; mediates transcriptional activation"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   REGION          677..923
+FT                   /note="AF2; mediates transcriptional activation"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOTIF           56..60
+FT                   /note="LXXL motif 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOTIF           115..119
+FT                   /note="LXXL motif 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOTIF           184..188
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        68..85
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        90..111
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        341..358
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        415..429
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         756
+FT                   /ligand="progesterone"
+FT                   /ligand_id="ChEBI:CHEBI:17026"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOD_RES         20
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOD_RES         82
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOD_RES         130
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOD_RES         162
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOD_RES         190
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOD_RES         213
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOD_RES         293
+FT                   /note="Phosphoserine; by MAPK1"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOD_RES         344
+FT                   /note="Phosphoserine; by MAPK"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOD_RES         399
+FT                   /note="Phosphoserine; by CDK2"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   MOD_RES         666
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   CROSSLNK        7
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO)"
+FT                   /evidence="ECO:0000250"
+FT   CROSSLNK        387
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO); alternate"
+FT                   /evidence="ECO:0000250"
+FT   CROSSLNK        387
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P06401"
+FT   CROSSLNK        521
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO)"
+FT                   /evidence="ECO:0000250"
+FT   VAR_SEQ         1..164
+FT                   /note="Missing (in isoform A)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_058744"
+SQ   SEQUENCE   923 AA;  99408 MW;  05384B9656BF22DC CRC64;
+     MTELQAKDPR TLHTSGAAPS PTHVGSPLLA RLDPDPFQGS QHSDASSVVS PIPISLDRLL
+     FSRSCQAQEL PDEKTQNQQS LSDVEGAFSG VEASRRRSRN PRAPEKDSRL LDSVLDTLLA
+     PSGPEQSQTS PPACEAITSW CLFGPELPED PRSVPATKGL LSPLMSRPES KAGDSSGTGA
+     GQKVLPKAVS PPRQLLLPTS GSAHWPGAGV KPSQQPATVE VEEDGGLETE GSAGPLLKSK
+     PRALEGMCSG GGVTANAPGA APGGVTLVPK EDSRFSAPRV SLEQDAPVAP GRSPLATTVV
+     DFIHVPILPL NHALLAARTR QLLEGDSYDG GAAAQVPFAP PRGSPSAPSP PVPCGDFPDC
+     TYPPEGDPKE DGFPVYGEFQ PPGLKIKEEE EGTEAASRSP RPYLLAGASA ATFPDFPLPP
+     RPPRAPPSRP GEAAVAAPSA AVSPVSSSGS ALECILYKAE GAPPTQGSFA PLPCKPPAAS
+     SCLLPRDSLP AAPTSSAAPA IYPPLGLNGL PQLGYQAAVL KDSLPQVYPP YLNYLRPDSE
+     ASQSPQYGFD SLPQKICLIC GDEASGCHYG VLTCGSCKVF FKRAMEGQHN YLCAGRNDCI
+     VDKIRRKNCP ACRLRKCCQA GMVLGGRKFK KFNKVRVMRA LDGVALPQSV AFPNESQTLG
+     QRITFSPNQE IQLVPPLINL LMSIEPDVVY AGHDNTKPDT SSSLLTSLNQ LGERQLLSVV
+     KWSKSLPGFR NLHIDDQITL IQYSWMSLMV FGLGWRSYKH VSGQMLYFAP DLILNEQRMK
+     ELSFYSLCLT MWQIPQEFVK LQVTHEEFLC MKVLLLLNTI PLEGLRSQSQ FEEMRSSYIR
+     ELIKAIGLRQ KGVVPSSQRF YQLTKLLDSL HDLVKQLHLY CLNTFIQSRA LAVEFPEMMS
+     EVIAAQLPKI LAGMVKPLLF HKK
+//

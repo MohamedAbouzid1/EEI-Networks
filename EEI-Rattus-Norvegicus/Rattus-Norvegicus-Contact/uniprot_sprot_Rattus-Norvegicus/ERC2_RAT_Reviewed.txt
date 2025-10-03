@@ -1,0 +1,207 @@
+ID   ERC2_RAT                Reviewed;         957 AA.
+AC   Q8K3M6; Q8CIZ0;
+DT   31-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   08-NOV-2023, entry version 122.
+DE   RecName: Full=ERC protein 2;
+DE   AltName: Full=CAZ-associated structural protein 1;
+DE            Short=CAST1;
+DE            Short=Cast;
+DE   AltName: Full=Cytomatrix protein p110;
+GN   Name=Erc2; Synonyms=Cast1, Cmbp;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), SUBCELLULAR LOCATION, TISSUE
+RP   SPECIFICITY, DEVELOPMENTAL STAGE, INTERACTION WITH RIMS1 AND BSN, AND
+RP   IDENTIFICATION IN A COMPLEX WITH RIMS1 AND UNC13A.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=12163476; DOI=10.1083/jcb.200202083;
+RA   Ohtsuka T., Takao-Rikitsu E., Inoue E., Inoue M., Takeuchi M.,
+RA   Matsubara K., Deguchi-Tawarada M., Satoh K., Morimoto K., Nakanishi H.,
+RA   Takai Y.;
+RT   "Cast: a novel protein of the cytomatrix at the active zone of synapses
+RT   that forms a ternary complex with RIM1 and Munc13-1.";
+RL   J. Cell Biol. 158:577-590(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RX   PubMed=12391317; DOI=10.1073/pnas.182532999;
+RA   Wang Y., Liu X., Biederer T., Suedhof T.C.;
+RT   "A family of RIM-binding proteins regulated by alternative splicing:
+RT   Implications for the genesis of synaptic active zones.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:14464-14469(2002).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 1-17; 276-281; 332-349; 373-383; 406-420; 447-456;
+RP   485-496; 521-528; 547-556; 629-659; 666-674; 729-734; 779-787 AND 856-879,
+RP   AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, and Hippocampus;
+RA   Lubec G., Chen W.-Q., Kang S.U., Lubec S.;
+RL   Submitted (SEP-2007) to UniProtKB.
+RN   [4]
+RP   INTERACTION WITH ERC1.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=14723704; DOI=10.1111/j.1356-9597.2004.00697.x;
+RA   Deguchi-Tawarada M., Inoue E., Takao-Rikitsu E., Inoue M., Ohtsuka T.,
+RA   Takai Y.;
+RT   "CAST2: identification and characterization of a protein structurally
+RT   related to the presynaptic cytomatrix protein CAST.";
+RL   Genes Cells 9:15-23(2004).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Thought to be involved in the organization of the cytomatrix
+CC       at the nerve terminals active zone (CAZ) which regulates
+CC       neurotransmitter release. Seems to act together with BSN. May recruit
+CC       liprin-alpha proteins to the CAZ.
+CC   -!- SUBUNIT: Interacts with BSN, ERC1, PPFIA1, PPFIA2, PPFIA3 and PPFIA4.
+CC       Interacts through its C-terminus with the PDZ domain of RIMS1. Part of
+CC       a complex consisting of ERC2, RIMS1 and UNC13A.
+CC       {ECO:0000269|PubMed:12163476, ECO:0000269|PubMed:14723704}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Synapse. Presynaptic active zone
+CC       {ECO:0000305|PubMed:12163476}. Cytoplasm, cytoskeleton. Note=Localized
+CC       to the active zone of presynaptic density. Colocalizes with RIMS1 and
+CC       BSN in early stages of synapse formation.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q8K3M6-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q8K3M6-2; Sequence=VSP_011472, VSP_011473, VSP_011474;
+CC   -!- TISSUE SPECIFICITY: Predominantly expressed in brain, including
+CC       hippocampus, cortex, cerebellum, amygdala and olfactory bulb.
+CC       {ECO:0000269|PubMed:12163476, ECO:0000269|PubMed:12391317}.
+CC   -!- DEVELOPMENTAL STAGE: Detected at embryonic day 18 dpc and at later
+CC       stages. The expression does not significantly change during the
+CC       developmental stages tested. {ECO:0000269|PubMed:12163476}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY049038; AAL07517.1; -; mRNA.
+DR   EMBL; AF541925; AAN39292.1; -; mRNA.
+DR   RefSeq; NP_740768.1; NM_170787.2.
+DR   AlphaFoldDB; Q8K3M6; -.
+DR   SMR; Q8K3M6; -.
+DR   BioGRID; 251731; 1.
+DR   CORUM; Q8K3M6; -.
+DR   STRING; 10116.ENSRNOP00000041403; -.
+DR   iPTMnet; Q8K3M6; -.
+DR   PhosphoSitePlus; Q8K3M6; -.
+DR   PaxDb; 10116-ENSRNOP00000041403; -.
+DR   GeneID; 259269; -.
+DR   KEGG; rno:259269; -.
+DR   UCSC; RGD:708372; rat. [Q8K3M6-1]
+DR   AGR; RGD:708372; -.
+DR   CTD; 26059; -.
+DR   RGD; 708372; Erc2.
+DR   eggNOG; KOG4809; Eukaryota.
+DR   InParanoid; Q8K3M6; -.
+DR   OrthoDB; 2880381at2759; -.
+DR   PhylomeDB; Q8K3M6; -.
+DR   TreeFam; TF324969; -.
+DR   PRO; PR:Q8K3M6; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0048788; C:cytoskeleton of presynaptic active zone; IBA:GO_Central.
+DR   GO; GO:0005783; C:endoplasmic reticulum; NAS:UniProtKB.
+DR   GO; GO:0098982; C:GABA-ergic synapse; ISO:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0005798; C:Golgi-associated vesicle; IDA:UniProtKB.
+DR   GO; GO:0030426; C:growth cone; IDA:UniProtKB.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0048786; C:presynaptic active zone; IDA:UniProtKB.
+DR   GO; GO:0098831; C:presynaptic active zone cytoplasmic component; IDA:SynGO.
+DR   GO; GO:0042734; C:presynaptic membrane; IDA:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0045202; C:synapse; ISO:RGD.
+DR   GO; GO:0043195; C:terminal bouton; IDA:RGD.
+DR   GO; GO:0030165; F:PDZ domain binding; IPI:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0098882; F:structural constituent of presynaptic active zone; ISO:RGD.
+DR   GO; GO:0048790; P:maintenance of presynaptic active zone structure; ISO:RGD.
+DR   GO; GO:0007274; P:neuromuscular synaptic transmission; IBA:GO_Central.
+DR   GO; GO:0150037; P:regulation of calcium-dependent activation of synaptic vesicle fusion; ISO:RGD.
+DR   GO; GO:0099509; P:regulation of presynaptic cytosolic calcium ion concentration; ISO:RGD.
+DR   GO; GO:0048167; P:regulation of synaptic plasticity; IBA:GO_Central.
+DR   GO; GO:0007416; P:synapse assembly; NAS:UniProtKB.
+DR   GO; GO:0050808; P:synapse organization; IEP:RGD.
+DR   GO; GO:0016082; P:synaptic vesicle priming; ISO:RGD.
+DR   Gene3D; 1.10.287.1490; -; 1.
+DR   InterPro; IPR019323; ELKS/CAST.
+DR   PANTHER; PTHR18861; ELKS/RAB6-INTERACTING/CAST PROTEIN; 1.
+DR   PANTHER; PTHR18861:SF3; ERC PROTEIN 2; 1.
+DR   Pfam; PF10174; Cast; 1.
+DR   SUPFAM; SSF57997; Tropomyosin; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell projection; Coiled coil; Cytoplasm;
+KW   Cytoskeleton; Direct protein sequencing; Phosphoprotein;
+KW   Reference proteome; Synapse.
+FT   CHAIN           1..957
+FT                   /note="ERC protein 2"
+FT                   /id="PRO_0000087004"
+FT   REGION          1..44
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          760..957
+FT                   /note="Involved in binding to RIMS1"
+FT   REGION          918..957
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          140..917
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        1..17
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        922..939
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         65
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6PH08"
+FT   MOD_RES         666
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6PH08"
+FT   VAR_SEQ         219
+FT                   /note="Q -> QLLDARRTK (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:12391317"
+FT                   /id="VSP_011472"
+FT   VAR_SEQ         492..547
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:12391317"
+FT                   /id="VSP_011473"
+FT   VAR_SEQ         687
+FT                   /note="K -> KQAEQLFNQMYNP (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:12391317"
+FT                   /id="VSP_011474"
+FT   CONFLICT        436
+FT                   /note="N -> I (in Ref. 2; AAN39292)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        791
+FT                   /note="F -> D (in Ref. 2; AAN39292)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   957 AA;  110618 MW;  E2757D5A53B8D1CE CRC64;
+     MYGSARTISN PEGSPSRSPR LPRSPRLGHR RTSSGGGGGT GKTLSMENIQ SLNAAYATSG
+     PMYLSDHEGV ASTTYPKGTM TLGRATNRAV YGGRVTAMGS SPNIASAGLS HTDVLSYTDQ
+     HGGLGGSSHH HHHQVPSMLR QVRDSTMLDL QAQLKELQRE NDLLRKELDI KDSKLGSSMN
+     SIKTFWSPEL KKERVLRKEE AARMSVLKEQ MRVSHEENQH LQLTIQALQD ELRTQRDLNH
+     LLQQESGNRG AEHFTIELTE ENFRRLQAEH DRQAKELFLL RKTLEEMELR IETQKQTLNA
+     RDESIKKLLE MLQSKGLPSK SLEDDNERTR RMAEAESQVS HLEVILDQKE KENIHLREEL
+     HRRSQLQPEP AKTKALQTVI EMKDTKIASL ERNIRDLEDE IQMLKANGVL NTEDREEEIK
+     QIEVYKSHSK FMKTKNDQLK QELSKKESEL LALQTKLETL SNQNSDCKQH IEVLKESLTA
+     KEQRAAILQT EVDALRLRLE EKESFLNKKT KQLQDLTEEK GTLAGEIRDM KDMLEVKERK
+     INVLQKKIEN LQEQLRDKDK QLTNLKDRVK SLQTDSSNTD TALATLEEAL SEKERIIERL
+     KEQRERDDRE RLEEIESFRK ENKDLKEKVN ALQAELTEKE SSLIDLKEHA SSLASAGLKR
+     DSKLKSLEIA IEQKKEECNK LEAQLKKAHN IEDDSRMNPE FADRLKQLDK EASYYRDECG
+     KAQAEVDRLL EILKEVENEK NDKDKKIAEL ESLTLRHMKD QNKKVANLKH NQQLEKKKNA
+     QLLEEVRRRE FSMVDNSQHL QIEELMNALE KTRQELDATK ARLASTQQSL AEKEAHLANL
+     RMERRKQLEE ILEMKQEALL AAISEKDANI ALLELSASKK KKTQEEVMAL KREKDRLVHQ
+     LKQQTQNRMK LMADNYDDDH HHYHHHHHHH HHRSPGRSQH SNHRPSPDQD DEEGIWA
+//

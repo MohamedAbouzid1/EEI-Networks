@@ -1,0 +1,254 @@
+ID   MGT5A_RAT               Reviewed;         740 AA.
+AC   Q08834;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 1.
+DT   24-JUL-2024, entry version 146.
+DE   RecName: Full=Alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase A;
+DE            EC=2.4.1.155 {ECO:0000269|PubMed:7615638, ECO:0000269|PubMed:8340368};
+DE   AltName: Full=Alpha-mannoside beta-1,6-N-acetylglucosaminyltransferase;
+DE   AltName: Full=GlcNAc-T V {ECO:0000303|PubMed:7615638, ECO:0000303|PubMed:8340368};
+DE            Short=GNT-V;
+DE   AltName: Full=Mannoside acetylglucosaminyltransferase 5;
+DE   AltName: Full=N-acetylglucosaminyl-transferase V {ECO:0000303|PubMed:8340368};
+DE   Contains:
+DE     RecName: Full=Secreted alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase A {ECO:0000305};
+DE     AltName: Full=Secreted beta-1,6-N-acetylglucosaminyltransferase V {ECO:0000305};
+DE              Short=Secreted GNT-V {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=Mgat5;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 375-386; 546-557 AND
+RP   592-607, FUNCTION, CATALYTIC ACTIVITY, PATHWAY, AND TISSUE SPECIFICITY.
+RC   TISSUE=Kidney;
+RX   PubMed=8340368; DOI=10.1016/s0021-9258(18)82268-2;
+RA   Shoreibah M., Perng G.-S., Adler B., Weinstein J., Basu R., Cupples R.,
+RA   Wen D., Browne J.K., Buckhaults P., Fregien N., Pierce M.;
+RT   "Isolation, characterization, and expression of a cDNA encoding N-
+RT   acetylglucosaminyltransferase V.";
+RL   J. Biol. Chem. 268:15381-15385(1993).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=7615638; DOI=10.1083/jcb.130.2.383;
+RA   Demetriou M., Nabi I.R., Coppolino M., Dedhar S., Dennis J.W.;
+RT   "Reduced contact-inhibition and substratum adhesion in epithelial cells
+RT   expressing GlcNAc-transferase V.";
+RL   J. Cell Biol. 130:383-392(1995).
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=16641100; DOI=10.1073/pnas.0600895103;
+RA   Hoffert J.D., Pisitkun T., Wang G., Shen R.-F., Knepper M.A.;
+RT   "Quantitative phosphoproteomics of vasopressin-sensitive renal cells:
+RT   regulation of aquaporin-2 phosphorylation at two sites.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:7159-7164(2006).
+CC   -!- FUNCTION: Catalyzes the addition of N-acetylglucosamine (GlcNAc) in
+CC       beta 1-6 linkage to the alpha-linked mannose of biantennary N-linked
+CC       oligosaccharides (PubMed:7615638, PubMed:8340368). Catalyzes an
+CC       important step in the biosynthesis of branched, complex-type N-glycans,
+CC       such as those found on EGFR, TGFR (TGF-beta receptor) and CDH2 (By
+CC       similarity). Via its role in the biosynthesis of complex N-glycans,
+CC       plays an important role in the activation of cellular signaling
+CC       pathways, reorganization of the actin cytoskeleton, cell-cell adhesion
+CC       and cell migration (PubMed:7615638). MGAT5-dependent EGFR N-
+CC       glycosylation enhances the interaction between EGFR and LGALS3 and
+CC       thereby prevents rapid EGFR endocytosis and prolongs EGFR signaling.
+CC       Required for efficient interaction between TGFB1 and its receptor.
+CC       Enhances activation of intracellular signaling pathways by several
+CC       types of growth factors, including FGF2, PDGF, IGF, TGFB1 and EGF.
+CC       MGAT5-dependent CDH2 N-glycosylation inhibits CDH2-mediated homotypic
+CC       cell-cell adhesion and contributes to the regulation of downstream
+CC       signaling pathways. Promotes cell migration. Contributes to the
+CC       regulation of the inflammatory response. MGAT5-dependent TCR N-
+CC       glycosylation enhances the interaction between TCR and LGALS3, limits
+CC       agonist-induced TCR clustering, and thereby dampens TCR-mediated
+CC       responses to antigens. Required for normal leukocyte evasation and
+CC       accumulation at sites of inflammation (By similarity). Inhibits
+CC       attachment of monocytes to the vascular endothelium and subsequent
+CC       monocyte diapedesis (By similarity). {ECO:0000250|UniProtKB:Q09328,
+CC       ECO:0000250|UniProtKB:Q8R4G6, ECO:0000269|PubMed:7615638,
+CC       ECO:0000269|PubMed:8340368}.
+CC   -!- FUNCTION: [Secreted alpha-1,6-mannosylglycoprotein 6-beta-N-
+CC       acetylglucosaminyltransferase A]: Promotes proliferation of umbilical
+CC       vein endothelial cells and angiogenesis, at least in part by promoting
+CC       the release of the growth factor FGF2 from the extracellular matrix.
+CC       {ECO:0000250|UniProtKB:Q09328}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(4)-{beta-D-GlcNAc-(1->2)-[beta-D-GlcNAc-(1->4)]-alpha-D-Man-
+CC         (1->3)-[beta-D-GlcNAc-(1->2)-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-
+CC         beta-D-GlcNAc-(1->4)-beta-D-GlcNAc}-L-asparaginyl-[protein] + UDP-N-
+CC         acetyl-alpha-D-glucosamine = H(+) + N(4)-{beta-D-GlcNAc-(1->2)-[beta-
+CC         D-GlcNAc-(1->4)]-alpha-D-Man-(1->3)-[beta-D-GlcNAc-(1->2)-[beta-D-
+CC         GlcNAc-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-
+CC         (1->4)-beta-D-GlcNAc}-L-asparaginyl-[protein] + UDP;
+CC         Xref=Rhea:RHEA:16921, Rhea:RHEA-COMP:14374, Rhea:RHEA-COMP:14377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57705, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:139507, ChEBI:CHEBI:139510; EC=2.4.1.155;
+CC         Evidence={ECO:0000269|PubMed:7615638, ECO:0000269|PubMed:8340368};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000269|PubMed:7615638, ECO:0000269|PubMed:8340368}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:P97259}; Single-pass type II membrane protein
+CC       {ECO:0000250|UniProtKB:Q09328}.
+CC   -!- SUBCELLULAR LOCATION: [Secreted alpha-1,6-mannosylglycoprotein 6-beta-
+CC       N-acetylglucosaminyltransferase A]: Secreted
+CC       {ECO:0000250|UniProtKB:Q09328}.
+CC   -!- TISSUE SPECIFICITY: Detected in kidney (at protein level). Detected in
+CC       kidney. {ECO:0000269|PubMed:8340368}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250|UniProtKB:Q09328}.
+CC   -!- PTM: A secreted form is released from the membrane after cleavage by
+CC       gamma-secretase. {ECO:0000250|UniProtKB:Q09328}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 18 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L14284; AAA41665.1; -; mRNA.
+DR   PIR; A47134; A47134.
+DR   RefSeq; NP_075583.1; NM_023095.1.
+DR   RefSeq; XP_008767721.2; XM_008769499.2.
+DR   RefSeq; XP_017454423.1; XM_017598934.1.
+DR   AlphaFoldDB; Q08834; -.
+DR   SMR; Q08834; -.
+DR   STRING; 10116.ENSRNOP00000004995; -.
+DR   ChEMBL; CHEMBL1795132; -.
+DR   CAZy; GT18; Glycosyltransferase Family 18.
+DR   GlyCosmos; Q08834; 6 sites, No reported glycans.
+DR   GlyGen; Q08834; 6 sites.
+DR   iPTMnet; Q08834; -.
+DR   PhosphoSitePlus; Q08834; -.
+DR   PaxDb; 10116-ENSRNOP00000004995; -.
+DR   Ensembl; ENSRNOT00000004995.5; ENSRNOP00000004995.2; ENSRNOG00000003614.6.
+DR   Ensembl; ENSRNOT00055021897; ENSRNOP00055017740; ENSRNOG00055012803.
+DR   Ensembl; ENSRNOT00060010266; ENSRNOP00060007652; ENSRNOG00060006233.
+DR   Ensembl; ENSRNOT00065015519; ENSRNOP00065011694; ENSRNOG00065009668.
+DR   GeneID; 65271; -.
+DR   KEGG; rno:65271; -.
+DR   UCSC; RGD:620100; rat.
+DR   AGR; RGD:620100; -.
+DR   CTD; 4249; -.
+DR   RGD; 620100; Mgat5.
+DR   eggNOG; ENOG502QTNG; Eukaryota.
+DR   GeneTree; ENSGT00940000153470; -.
+DR   HOGENOM; CLU_016749_1_0_1; -.
+DR   InParanoid; Q08834; -.
+DR   OrthoDB; 5470928at2759; -.
+DR   PhylomeDB; Q08834; -.
+DR   TreeFam; TF313714; -.
+DR   BRENDA; 2.4.1.155; 5301.
+DR   Reactome; R-RNO-975577; N-Glycan antennae elongation.
+DR   UniPathway; UPA00378; -.
+DR   PRO; PR:Q08834; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000003614; Expressed in frontal cortex and 18 other cell types or tissues.
+DR   ExpressionAtlas; Q08834; baseline and differential.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0000139; C:Golgi membrane; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0008375; F:acetylglucosaminyltransferase activity; ISO:RGD.
+DR   GO; GO:0030144; F:alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0016757; F:glycosyltransferase activity; ISO:RGD.
+DR   GO; GO:0030145; F:manganese ion binding; ISS:UniProtKB.
+DR   GO; GO:0004864; F:protein phosphatase inhibitor activity; ISO:RGD.
+DR   GO; GO:0030335; P:positive regulation of cell migration; ISO:RGD.
+DR   GO; GO:1904894; P:positive regulation of receptor signaling pathway via STAT; ISO:RGD.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; ISO:RGD.
+DR   GO; GO:0018279; P:protein N-linked glycosylation via asparagine; ISS:UniProtKB.
+DR   InterPro; IPR027833; DUF4525.
+DR   InterPro; IPR026116; GlyclTrfase_18.
+DR   InterPro; IPR052105; MGAT5_Glycosyltransferase.
+DR   PANTHER; PTHR15075:SF5; ALPHA-1,6-MANNOSYLGLYCOPROTEIN 6-BETA-N-ACETYLGLUCOSAMINYLTRANSFERASE A; 1.
+DR   PANTHER; PTHR15075; ALPHA-MANNOSIDE BETA-1,6-N-ACETYLGLUCOSAMINYLTRANSFERASE; 1.
+DR   Pfam; PF15027; DUF4525; 1.
+DR   Pfam; PF15024; Glyco_transf_18; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Glycosyltransferase; Golgi apparatus; Membrane; Reference proteome;
+KW   Secreted; Signal-anchor; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..740
+FT                   /note="Alpha-1,6-mannosylglycoprotein 6-beta-N-
+FT                   acetylglucosaminyltransferase A"
+FT                   /id="PRO_0000080524"
+FT   CHAIN           31..740
+FT                   /note="Secreted alpha-1,6-mannosylglycoprotein 6-beta-N-
+FT                   acetylglucosaminyltransferase A"
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT                   /id="PRO_0000445694"
+FT   TOPO_DOM        1..13
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        14..30
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        31..740
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   REGION          212..740
+FT                   /note="Sufficient for catalytic activity"
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   BINDING         377..378
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   BINDING         525
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   BINDING         553
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   CARBOHYD        109
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        114
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        117
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        333
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        432
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        446
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        144..182
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   DISULFID        155..195
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   DISULFID        171..337
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   DISULFID        371..625
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   DISULFID        648..723
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   DISULFID        652..725
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   DISULFID        659..712
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   DISULFID        680..701
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+FT   DISULFID        736..739
+FT                   /evidence="ECO:0000250|UniProtKB:Q09328"
+SQ   SEQUENCE   740 AA;  84562 MW;  C0BD7F820FEA959C CRC64;
+     MAFFSPWKLS SQKLGFFLVT FGFIWGMMLL HFTIQQRTQP ESSSMLREQI LDLSKRYIKA
+     LAEENRNVVD GPYAGVMTAY DLKKTLAVLL DNILQRIGKL ESKVDNLVNG TGANSTNSTT
+     AVPSLVSLEK INVADIINGV QEKCVLPPMD GYPHCEGKIK WMKDMWRSDP CYADYGVDGT
+     SCSFFIYLSE VENWCPRLPW RAKNPYEEAD HNSLAEIRTD FNILYGMMKK HEEFRWMRLR
+     IRRMADAWIQ AIKSLAEKQN LEKRKRKKIL VHLGLLTKES GFKIAETAFS GGPLGELVQW
+     SDLITSLYLL GHDIRISASL AELKEIMKKV VGNRSGCPTV GDRIVELIYI DIVGLAQFKK
+     TLGPSWVHYQ CMLRVLDSFG TEPEFNHASY AQSKGHKTPW GKWNLNPQQF YTMFPHTPDN
+     SFLGFVVEQH LNSSDIHHIN EIKRQNQSLV YGKVDSFWKN KKIYLDIIHT YMEVHATVYG
+     SSTKNIPSYV KNHGILSGRD LQFLLRETKL FVGLGFPYEG PAPLEAIANG CAFLNPKFNP
+     PKSSKNTDFF IGKPTLRELT SQHPYAEVFI GRPHVWTVDL NNREEVEDAV KAILNQKIEP
+     YMPYEFTCEG MLQRINAFIE KQDFCHGQVM WPPLSALQVK LAEPGQSCKQ VCQESQLICE
+     PSFFQHLNKE KDLLKYKVIC QSSELYKDIL VPSFYPKSKH CVFQGDLLLF SCAGAHPTHQ
+     RICPCRDFIK GQVALCKDCL
+//

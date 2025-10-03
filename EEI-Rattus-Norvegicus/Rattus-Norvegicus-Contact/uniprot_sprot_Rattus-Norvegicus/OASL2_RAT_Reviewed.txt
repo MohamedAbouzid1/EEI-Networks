@@ -1,0 +1,159 @@
+ID   OASL2_RAT               Reviewed;         511 AA.
+AC   Q5MYT9;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   24-JAN-2024, entry version 99.
+DE   RecName: Full=2'-5'-oligoadenylate synthase-like protein 2;
+DE            EC=2.7.7.84;
+GN   Name=Oasl2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Ovary;
+RX   PubMed=12080145; DOI=10.1073/pnas.142287799;
+RA   Perelygin A.A., Scherbik S.V., Zhulin I.B., Stockman B.M., Li Y.,
+RA   Brinton M.A.;
+RT   "Positional cloning of the murine flavivirus resistance gene.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:9322-9327(2002).
+RN   [2]
+RP   REVIEW.
+RX   PubMed=17024523; DOI=10.1007/s00239-006-0073-3;
+RA   Perelygin A.A., Zharkikh A.A., Scherbik S.V., Brinton M.A.;
+RT   "The mammalian 2'-5' oligoadenylate synthetase gene family: evidence for
+RT   concerted evolution of paralogous Oas1 genes in Rodentia and
+RT   Artiodactyla.";
+RL   J. Mol. Evol. 63:562-576(2006).
+CC   -!- FUNCTION: Interferon-induced, dsRNA-activated antiviral enzyme which
+CC       plays a critical role in cellular innate antiviral response.
+CC       Synthesizes oligomers of 2'-5'-oligoadenylates (2-5A) from ATP which
+CC       then bind to the inactive monomeric form of ribonuclease L (RNase L)
+CC       leading to its dimerization and subsequent activation. Activation of
+CC       RNase L leads to degradation of cellular as well as viral RNA,
+CC       resulting in the inhibition of protein synthesis, thus terminating
+CC       viral replication. Can mediate the antiviral effect via the classical
+CC       RNase L-dependent pathway or an alternative antiviral pathway
+CC       independent of RNase L (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3 ATP = 5'-triphosphoadenylyl-(2'->5')-adenylyl-(2'->5')-
+CC         adenosine + 2 diphosphate; Xref=Rhea:RHEA:34407, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:67143; EC=2.7.7.84;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305};
+CC   -!- ACTIVITY REGULATION: Produced as a latent enzyme which is activated by
+CC       dsRNA generated during the course of viral infection. The dsRNA
+CC       activator must be at least 15 nucleotides long, and no modification of
+CC       the 2'-hydroxyl group is tolerated. ssRNA or dsDNA do not act as
+CC       activators (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the 2-5A synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY237116; AAP70315.1; -; mRNA.
+DR   RefSeq; NP_001009682.1; NM_001009682.1.
+DR   AlphaFoldDB; Q5MYT9; -.
+DR   SMR; Q5MYT9; -.
+DR   STRING; 10116.ENSRNOP00000001600; -.
+DR   PhosphoSitePlus; Q5MYT9; -.
+DR   PaxDb; 10116-ENSRNOP00000001600; -.
+DR   GeneID; 304549; -.
+DR   KEGG; rno:304549; -.
+DR   UCSC; RGD:1307351; rat.
+DR   AGR; RGD:1307351; -.
+DR   CTD; 23962; -.
+DR   RGD; 1307351; Oasl2.
+DR   eggNOG; KOG0001; Eukaryota.
+DR   HOGENOM; CLU_040930_1_0_1; -.
+DR   InParanoid; Q5MYT9; -.
+DR   OrthoDB; 4638494at2759; -.
+DR   PhylomeDB; Q5MYT9; -.
+DR   TreeFam; TF329749; -.
+DR   PRO; PR:Q5MYT9; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0005654; C:nucleoplasm; IBA:GO_Central.
+DR   GO; GO:0001730; F:2'-5'-oligoadenylate synthetase activity; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003725; F:double-stranded RNA binding; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051607; P:defense response to virus; IBA:GO_Central.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0045071; P:negative regulation of viral genome replication; IBA:GO_Central.
+DR   GO; GO:0009615; P:response to virus; TAS:UniProtKB.
+DR   CDD; cd05400; NT_2-5OAS_ClassI-CCAase; 1.
+DR   CDD; cd01811; Ubl1_OASL; 1.
+DR   CDD; cd16103; Ubl2_OASL; 1.
+DR   Gene3D; 1.10.1410.20; 2'-5'-oligoadenylate synthetase 1, domain 2; 1.
+DR   Gene3D; 3.30.460.10; Beta Polymerase, domain 2; 1.
+DR   InterPro; IPR018952; 2-5-oligoAdlate_synth_1_dom2/C.
+DR   InterPro; IPR006117; 2-5OAS_C_CS.
+DR   InterPro; IPR043518; 2-5OAS_N_CS.
+DR   InterPro; IPR006116; NT_2-5OAS_ClassI-CCAase.
+DR   InterPro; IPR043519; NT_sf.
+DR   InterPro; IPR000626; Ubiquitin-like_dom.
+DR   InterPro; IPR029071; Ubiquitin-like_domsf.
+DR   PANTHER; PTHR11258:SF7; 2'-5'-OLIGOADENYLATE SYNTHASE-LIKE PROTEIN 2; 1.
+DR   PANTHER; PTHR11258; 2-5 OLIGOADENYLATE SYNTHETASE; 1.
+DR   Pfam; PF10421; OAS1_C; 1.
+DR   Pfam; PF00240; ubiquitin; 1.
+DR   SMART; SM00213; UBQ; 2.
+DR   SUPFAM; SSF81301; Nucleotidyltransferase; 1.
+DR   SUPFAM; SSF81631; PAP/OAS1 substrate-binding domain; 1.
+DR   SUPFAM; SSF54236; Ubiquitin-like; 2.
+DR   PROSITE; PS00832; 25A_SYNTH_1; 1.
+DR   PROSITE; PS00833; 25A_SYNTH_2; 1.
+DR   PROSITE; PS50152; 25A_SYNTH_3; 1.
+DR   PROSITE; PS50053; UBIQUITIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Antiviral defense; ATP-binding; Immunity; Innate immunity; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Nucleotidyltransferase;
+KW   Reference proteome; RNA-binding; Transferase.
+FT   CHAIN           1..511
+FT                   /note="2'-5'-oligoadenylate synthase-like protein 2"
+FT                   /id="PRO_0000418634"
+FT   DOMAIN          439..477
+FT                   /note="Ubiquitin-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00214"
+FT   BINDING         69
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P00973"
+FT   BINDING         81
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         83
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         154
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         213
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P29728"
+FT   BINDING         216
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P00973"
+SQ   SEQUENCE   511 AA;  59406 MW;  F209B2D883AC7476 CRC64;
+     MDTLPDLYGT VGDSLDYFLE HSLQPQRDWK EEGKDAWERI ERFFREKCFC DELLLDQEVR
+     VLKVVKGGSS GKGTALNHRS DQDMILFLSC FSSFKQQARD RKAVIDFIKS KLIHCRKSLA
+     YNITVRQHKE GKRTPRSLTL EIQSRKSNDI ICMDILPAYN ALGSFSRDCK PEPEIYENLI
+     RCKGYPGDFS PSFAELQRHF VKSRPVKLKN LLRLVKFWHL KYLRHKYRRA VLPSKYALEL
+     LTIYAWEMGT DSSDNFNLDE GFVAVMELLR DYQDICIYWT KYYDFQNEVV RNFLKEQLKG
+     DRPIILDPAD PTNNLGRRGK WELVAKEATY CLLQLCCVTA DRWNVQVSIA HYLRGARDVQ
+     VTVKQTGREE WILLTNPHSP IRKLKAKIKK RMNLCGELRI SFQEPGGERQ PLSGRKTLSD
+     YGIFSKVNIR VMETFPPEIQ VFVRYPGGQN KPFAIDPDAT ILSLWEKIEE DGGPCTEDWV
+     LLFEGEELDD DDNLAELQIK DCDTIQLSRV S
+//

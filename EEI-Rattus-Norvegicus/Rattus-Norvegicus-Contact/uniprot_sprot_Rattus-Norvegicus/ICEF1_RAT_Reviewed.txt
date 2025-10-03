@@ -1,0 +1,113 @@
+ID   ICEF1_RAT               Reviewed;         406 AA.
+AC   Q80VL0;
+DT   08-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   24-JUL-2024, entry version 111.
+DE   RecName: Full=Interactor protein for cytohesin exchange factors 1;
+GN   Name=Ipcef1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], INTERACTION WITH PSCD1; PSCD2; PSCD3 AND PSCD4,
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=12920129; DOI=10.1074/jbc.m304078200;
+RA   Venkateswarlu K.;
+RT   "Interaction protein for cytohesin exchange factors 1 (IPCEF1) binds
+RT   cytohesin 2 and modifies its activity.";
+RL   J. Biol. Chem. 278:43460-43469(2003).
+RN   [2]
+RP   INTERACTION WITH PSCD2.
+RX   PubMed=16413275; DOI=10.1016/s0076-6879(05)04024-3;
+RA   Venkateswarlu K.;
+RT   "Analysis of the interaction between cytohesin 2 and IPCEF1.";
+RL   Methods Enzymol. 404:252-266(2005).
+CC   -!- FUNCTION: Enhances the promotion of guanine-nucleotide exchange by
+CC       PSCD2 on ARF6 in a concentration-dependent manner.
+CC   -!- SUBUNIT: Interacts with guanine-nucleotide exchange factors PSCD1,
+CC       PSCD2, PSCD3 and PSCD4. {ECO:0000269|PubMed:12920129,
+CC       ECO:0000269|PubMed:16413275}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:12920129}. Cell
+CC       membrane {ECO:0000269|PubMed:12920129}. Note=Translocated with PSCD2 to
+CC       the plasma membrane upon epidermal growth factor (EGF) stimulation.
+CC   -!- TISSUE SPECIFICITY: Expressed in brain, spleen, lung, testis and
+CC       kidney. {ECO:0000269|PubMed:12920129}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ536192; CAD60208.1; -; mRNA.
+DR   RefSeq; NP_001164270.1; NM_001170799.1.
+DR   AlphaFoldDB; Q80VL0; -.
+DR   SMR; Q80VL0; -.
+DR   BioGRID; 262707; 1.
+DR   STRING; 10116.ENSRNOP00000024461; -.
+DR   PhosphoSitePlus; Q80VL0; -.
+DR   PaxDb; 10116-ENSRNOP00000024461; -.
+DR   UCSC; RGD:735159; rat.
+DR   AGR; RGD:735159; -.
+DR   RGD; 735159; Ipcef1.
+DR   VEuPathDB; HostDB:ENSRNOG00000018163; -.
+DR   eggNOG; KOG1738; Eukaryota.
+DR   HOGENOM; CLU_051850_0_0_1; -.
+DR   InParanoid; Q80VL0; -.
+DR   OrthoDB; 5406576at2759; -.
+DR   PhylomeDB; Q80VL0; -.
+DR   PRO; PR:Q80VL0; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000018163; Expressed in frontal cortex and 12 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019904; F:protein domain specific binding; IPI:RGD.
+DR   CDD; cd01260; PH_CNK_mammalian-like; 1.
+DR   Gene3D; 2.30.29.30; Pleckstrin-homology domain (PH domain)/Phosphotyrosine-binding domain (PTB); 1.
+DR   InterPro; IPR051566; CNKSR.
+DR   InterPro; IPR011993; PH-like_dom_sf.
+DR   InterPro; IPR001849; PH_domain.
+DR   PANTHER; PTHR12844:SF45; CNK3_IPCEF1 FUSION PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR12844; CONNECTOR ENCHANCER OF KINASE SUPPRESSOR OF RAS; 1.
+DR   Pfam; PF00169; PH; 1.
+DR   SMART; SM00233; PH; 1.
+DR   SUPFAM; SSF50729; PH domain-like; 1.
+DR   PROSITE; PS50003; PH_DOMAIN; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Cytoplasm; Membrane; Reference proteome.
+FT   CHAIN           1..406
+FT                   /note="Interactor protein for cytohesin exchange factors 1"
+FT                   /id="PRO_0000326632"
+FT   DOMAIN          13..112
+FT                   /note="PH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00145"
+FT   REGION          118..173
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          228..285
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          285..406
+FT                   /note="Necessary for interaction with PSCD2 and to
+FT                   translocate to the plasma membrane"
+FT   REGION          383..406
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        147..173
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        228..264
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        269..285
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   406 AA;  45686 MW;  78F84BEC1A36BDB4 CRC64;
+     MSRRRISCKD LGHADCQGWL YKKKEKGTFL SNKWKKFWVV LKGSSLYWYG NQLAEKADGF
+     VNLPDFTVER ASECKKKNAF KINHPQIKTF YFAAENLQEM NMWLNKLGFA VTHKESTTKD
+     EECYSESEQE DPETAVEAPP PPSASATSSP VAARRASSSS PKRRETSCSF SSLENTVKAP
+     SRFSSSGSKE RQSWLDIVNS SPATEDVGHP LSFAVQVHTL ASSEASSCRV SENSSTTPES
+     GCLNSLSSDD TSSLNNSQDH LTVPDRASGS RMTDRDEIKS SEDDEMEKLY KSLEQASLSP
+     LGDRRPSTKK ELRKSFVKRC KNPSINEKLH KIRTLNSTLK CKEHDLAMIN QLLDDPKLTA
+     RKYREWKVMN TLLIQDIYQQ QVPQDPEVTP QEIMNPTSSD CVENSL
+//

@@ -1,0 +1,174 @@
+ID   TOP1M_RAT               Reviewed;         593 AA.
+AC   Q6IM78;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   24-JUL-2024, entry version 131.
+DE   RecName: Full=DNA topoisomerase I, mitochondrial;
+DE            Short=TOP1mt;
+DE            EC=5.6.2.1;
+DE   Flags: Precursor;
+GN   Name=Top1mt;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=15096574; DOI=10.1093/nar/gkh525;
+RA   Zhang H., Meng L.-H., Zimonjic D.B., Popescu N.C., Pommier Y.;
+RT   "Thirteen-exon-motif signature for vertebrate nuclear and mitochondrial
+RT   type IB topoisomerases.";
+RL   Nucleic Acids Res. 32:2087-2092(2004).
+CC   -!- FUNCTION: Releases the supercoiling and torsional tension of DNA
+CC       introduced during duplication of mitochondrial DNA by transiently
+CC       cleaving and rejoining one strand of the DNA duplex. Introduces a
+CC       single-strand break via transesterification at a target site in duplex
+CC       DNA. The scissile phosphodiester is attacked by the catalytic tyrosine
+CC       of the enzyme, resulting in the formation of a DNA-(3'-phosphotyrosyl)-
+CC       enzyme intermediate and the expulsion of a 5'-OH DNA strand. The free
+CC       DNA strand then rotates around the intact phosphodiester bond on the
+CC       opposing strand, thus removing DNA supercoils. Finally, in the
+CC       religation step, the DNA 5'-OH attacks the covalent intermediate to
+CC       expel the active-site tyrosine and restore the DNA phosphodiester
+CC       backbone (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP-independent breakage of single-stranded DNA, followed by
+CC         passage and rejoining.; EC=5.6.2.1;
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Divalent metal ions (calcium or magnesium). {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the type IB topoisomerase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BK001786; DAA02296.1; -; mRNA.
+DR   RefSeq; NP_001002798.1; NM_001002798.1.
+DR   AlphaFoldDB; Q6IM78; -.
+DR   SMR; Q6IM78; -.
+DR   STRING; 10116.ENSRNOP00000009965; -.
+DR   PhosphoSitePlus; Q6IM78; -.
+DR   PaxDb; 10116-ENSRNOP00000009965; -.
+DR   Ensembl; ENSRNOT00000009965.5; ENSRNOP00000009965.3; ENSRNOG00000007500.6.
+DR   Ensembl; ENSRNOT00055043898; ENSRNOP00055035882; ENSRNOG00055025377.
+DR   Ensembl; ENSRNOT00060033739; ENSRNOP00060027630; ENSRNOG00060019253.
+DR   Ensembl; ENSRNOT00065015636; ENSRNOP00065011805; ENSRNOG00065009714.
+DR   GeneID; 300029; -.
+DR   KEGG; rno:300029; -.
+DR   UCSC; RGD:1303177; rat.
+DR   AGR; RGD:1303177; -.
+DR   CTD; 116447; -.
+DR   RGD; 1303177; Top1mt.
+DR   eggNOG; KOG0981; Eukaryota.
+DR   GeneTree; ENSGT00940000162943; -.
+DR   InParanoid; Q6IM78; -.
+DR   OMA; RNYIDPR; -.
+DR   OrthoDB; 10940at2759; -.
+DR   PhylomeDB; Q6IM78; -.
+DR   TreeFam; TF105281; -.
+DR   PRO; PR:Q6IM78; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000007500; Expressed in testis and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q6IM78; baseline and differential.
+DR   GO; GO:0005694; C:chromosome; IEA:InterPro.
+DR   GO; GO:0042645; C:mitochondrial nucleoid; ISO:RGD.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003917; F:DNA topoisomerase type I (single strand cut, ATP-independent) activity; IBA:GO_Central.
+DR   GO; GO:0006260; P:DNA replication; IBA:GO_Central.
+DR   GO; GO:0006265; P:DNA topological change; IBA:GO_Central.
+DR   CDD; cd00659; Topo_IB_C; 1.
+DR   CDD; cd03488; Topoisomer_IB_N_htopoI_like; 1.
+DR   Gene3D; 1.10.132.10; -; 1.
+DR   Gene3D; 2.170.11.10; DNA Topoisomerase I, domain 2; 1.
+DR   Gene3D; 1.10.10.41; Yeast DNA topoisomerase - domain 1; 1.
+DR   InterPro; IPR011010; DNA_brk_join_enz.
+DR   InterPro; IPR013034; DNA_topo_DNA_db_N_dom1.
+DR   InterPro; IPR013030; DNA_topo_DNA_db_N_dom2.
+DR   InterPro; IPR001631; TopoI.
+DR   InterPro; IPR025834; TopoI_C_dom.
+DR   InterPro; IPR014711; TopoI_cat_a-hlx-sub_euk.
+DR   InterPro; IPR014727; TopoI_cat_a/b-sub_euk.
+DR   InterPro; IPR013500; TopoI_cat_euk.
+DR   InterPro; IPR008336; TopoI_DNA-bd_euk.
+DR   InterPro; IPR036202; TopoI_DNA-bd_euk_N_sf.
+DR   InterPro; IPR013499; TopoI_euk.
+DR   InterPro; IPR048045; Topoisomer_I_DNA-bd.
+DR   InterPro; IPR051062; Topoisomerase_IB.
+DR   PANTHER; PTHR10290; DNA TOPOISOMERASE I; 1.
+DR   PANTHER; PTHR10290:SF1; DNA TOPOISOMERASE I, MITOCHONDRIAL; 1.
+DR   Pfam; PF14370; Topo_C_assoc; 1.
+DR   Pfam; PF01028; Topoisom_I; 1.
+DR   Pfam; PF02919; Topoisom_I_N; 1.
+DR   PRINTS; PR00416; EUTPISMRASEI.
+DR   SMART; SM00435; TOPEUc; 1.
+DR   SUPFAM; SSF56349; DNA breaking-rejoining enzymes; 1.
+DR   SUPFAM; SSF46596; Eukaryotic DNA topoisomerase I, dispensable insert domain; 1.
+DR   SUPFAM; SSF56741; Eukaryotic DNA topoisomerase I, N-terminal DNA-binding fragment; 1.
+DR   PROSITE; PS52038; TOPO_IB_2; 1.
+PE   2: Evidence at transcript level;
+KW   DNA-binding; Isomerase; Mitochondrion; Reference proteome; Topoisomerase;
+KW   Transit peptide.
+FT   TRANSIT         1..43
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           44..593
+FT                   /note="DNA topoisomerase I, mitochondrial"
+FT                   /id="PRO_0000384395"
+FT   DOMAIN          261..593
+FT                   /note="Topo IB-type catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01382"
+FT   REGION          254..255
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          317..322
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          414..416
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        551
+FT                   /note="O-(3'-phospho-DNA)-tyrosine intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01382"
+FT   SITE            145
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            193
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            241
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            272
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            330
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            361
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            403
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            461
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            479
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   593 AA;  69011 MW;  6B691D668970BD9E CRC64;
+     MLLLWLRALC RRFQHVPRRV PSRQVSRGSK ASRAGWGETS KSSVKWKQLE HKGPCFAPAY
+     EPLPDGVRFF YDGKPVRLSL AAEEVATFYG KMLHLECTTK EVFRRNFFSD WQKEMTAEER
+     KLITHLDKCD FSEIHRHFME RAEARRTLPR EQKQKLKEEA EKLQQEFGYC ILDGHREKIG
+     NFKTEPPGLF RGRGDHPKMG MLKRRVMPED VVINCSRDSK IPEPPAGHQW KEVRSDNTVM
+     WLAAWVENIQ NSFKYIILNP SSKPKGEMDW QKYEVARRLK GVVDKIRAQY QADWKSPEMK
+     KRQLAVALYF IDKLALRTGN EKEEGETADT VGCCSLRVEH VRLHTPADGQ EHVVELDFLG
+     KDSIRYKNHV TVEKLVFQNL QHFMEDKDPR DDLFDALTTS SLNKHLQDLM EGLTAKVFRT
+     YNASITLQEQ LRVLTRAEDS LTCKVLAYNR ANRAVAVLCN HQRAIPKTFE ESMQTLQKKI
+     ETKKAQVAEA QVELQKAETD LRMRGDSKSK SFLQKQQRLL KLEEQLARLC TKATDKEENK
+     QVALGTAKLN YLDPRISIAW CKRFGVPVEK IYNKTQRERF AWAFNQAGED FEF
+//

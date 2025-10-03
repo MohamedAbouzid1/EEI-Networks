@@ -1,0 +1,245 @@
+ID   DHB7_RAT                Reviewed;         334 AA.
+AC   Q62904;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-OCT-2024, entry version 167.
+DE   RecName: Full=3-keto-steroid reductase/17-beta-hydroxysteroid dehydrogenase 7 {ECO:0000305};
+DE   AltName: Full=17-beta-hydroxysteroid dehydrogenase 7;
+DE            Short=17-beta-HSD 7;
+DE   AltName: Full=3-keto-steroid reductase;
+DE            EC=1.1.1.270 {ECO:0000305|PubMed:6946726};
+DE   AltName: Full=Dihydrotestosterone oxidoreductase;
+DE            EC=1.1.1.210 {ECO:0000250|UniProtKB:P56937};
+DE   AltName: Full=Estradiol 17-beta-dehydrogenase 7;
+DE            EC=1.1.1.62 {ECO:0000269|PubMed:9658408};
+DE   AltName: Full=PRL receptor-associated protein {ECO:0000303|PubMed:8663045};
+DE            Short=PRAP {ECO:0000303|PubMed:8663045};
+GN   Name=Hsd17b7;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 1-18, TISSUE SPECIFICITY,
+RP   SUBUNIT, AND PHOSPHORYLATION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Corpus luteum;
+RX   PubMed=8663045; DOI=10.1074/jbc.271.26.15602;
+RA   Duan W.R., Linzer D.I.H., Gibori G.;
+RT   "Cloning and characterization of an ovarian-specific protein that
+RT   associates with the short form of the prolactin receptor.";
+RL   J. Biol. Chem. 271:15602-15607(1996).
+RN   [2]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=6946726; DOI=10.1016/0003-9861(81)90474-4;
+RA   Billheimer J.T., Alcorn M., Gaylor J.L.;
+RT   "Solubilization and partial purification of a microsomal 3-ketosteroid
+RT   reductase of cholesterol biosynthesis.";
+RL   Arch. Biochem. Biophys. 211:430-438(1981).
+RN   [3]
+RP   CATALYTIC ACTIVITY, AND FUNCTION.
+RX   PubMed=9658408; DOI=10.1210/mend.12.7.0134;
+RA   Nokelainen P., Peltoketo H., Vihko R., Vihko P.;
+RT   "Expression cloning of a novel estrogenic mouse 17 beta-hydroxysteroid
+RT   dehydrogenase/17-ketosteroid reductase (m17HSD7), previously described as a
+RT   prolactin receptor-associated protein (PRAP) in rat.";
+RL   Mol. Endocrinol. 12:1048-1059(1998).
+CC   -!- FUNCTION: Bifunctional enzyme involved in steroid-hormone metabolism
+CC       and cholesterol biosynthesis (PubMed:6946726, PubMed:9658408).
+CC       Catalyzes the NADP(H)-dependent reduction of estrogens and androgens
+CC       and regulates the biological potency of these steroids (By similarity)
+CC       (PubMed:9658408). Converts estrone (E1) to a more potent estrogen,
+CC       17beta-estradiol (E2) (PubMed:9658408). Converts dihydrotestosterone
+CC       (DHT) to an inactive form. Participates also in the post-squalene
+CC       cholesterol biosynthesis, as a 3-ketosteroid reductase (By similarity).
+CC       {ECO:0000250|UniProtKB:P56937, ECO:0000269|PubMed:6946726,
+CC       ECO:0000269|PubMed:9658408}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol + NADP(+) = estrone + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:24616, ChEBI:CHEBI:15378, ChEBI:CHEBI:16469,
+CC         ChEBI:CHEBI:17263, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.1.1.62;
+CC         Evidence={ECO:0000269|PubMed:9658408};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:24618;
+CC         Evidence={ECO:0000305|PubMed:9658408};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 3beta-hydroxysteroid + NADP(+) = a 3-oxosteroid + H(+) +
+CC         NADPH; Xref=Rhea:RHEA:34787, ChEBI:CHEBI:15378, ChEBI:CHEBI:36836,
+CC         ChEBI:CHEBI:47788, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.270; Evidence={ECO:0000305|PubMed:6946726};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:34789;
+CC         Evidence={ECO:0000305|PubMed:6946726};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4alpha-methyl-5alpha-cholest-7-en-3beta-ol + NADP(+) = 4alpha-
+CC         methyl-5alpha-cholest-7-en-3-one + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:18409, ChEBI:CHEBI:15378, ChEBI:CHEBI:16495,
+CC         ChEBI:CHEBI:18378, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.270; Evidence={ECO:0000305|PubMed:6946726};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:18411;
+CC         Evidence={ECO:0000305|PubMed:6946726};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4alpha-methyl-5alpha-cholest-8-en-3-one + H(+) + NADPH =
+CC         4alpha-methyl-5alpha-cholest-8-en-3beta-ol + NADP(+);
+CC         Xref=Rhea:RHEA:46832, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:87050, ChEBI:CHEBI:87051;
+CC         Evidence={ECO:0000250|UniProtKB:P56937};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46833;
+CC         Evidence={ECO:0000250|UniProtKB:P56937};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-dehydro-4alpha-methylzymosterol + H(+) + NADPH = 4alpha-
+CC         methylzymosterol + NADP(+); Xref=Rhea:RHEA:36379, ChEBI:CHEBI:1949,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:136486; EC=1.1.1.270;
+CC         Evidence={ECO:0000250|UniProtKB:P56937};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36380;
+CC         Evidence={ECO:0000250|UniProtKB:P56937};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + NADPH + zymosterone = NADP(+) + zymosterol;
+CC         Xref=Rhea:RHEA:33459, ChEBI:CHEBI:15378, ChEBI:CHEBI:18252,
+CC         ChEBI:CHEBI:52386, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         Evidence={ECO:0000250|UniProtKB:P56937};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:33460;
+CC         Evidence={ECO:0000250|UniProtKB:P56937};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5alpha-cholest-8-en-3-one + H(+) + NADPH = 5alpha-cholest-8-
+CC         en-3beta-ol + NADP(+); Xref=Rhea:RHEA:46852, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16608, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:87056; Evidence={ECO:0000250|UniProtKB:P56937};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46853;
+CC         Evidence={ECO:0000250|UniProtKB:P56937};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5alpha-androstane-3beta,17beta-diol + NADP(+) = 17beta-
+CC         hydroxy-5alpha-androstan-3-one + H(+) + NADPH; Xref=Rhea:RHEA:16297,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16330, ChEBI:CHEBI:18329,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.1.1.210;
+CC         Evidence={ECO:0000250|UniProtKB:P56937};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:16299;
+CC         Evidence={ECO:0000250|UniProtKB:P56937};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5alpha-androstane-3alpha,17beta-diol + NADP(+) = 17beta-
+CC         hydroxy-5alpha-androstan-3-one + H(+) + NADPH; Xref=Rhea:RHEA:42116,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16330, ChEBI:CHEBI:36713,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         Evidence={ECO:0000250|UniProtKB:O88736};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:42118;
+CC         Evidence={ECO:0000250|UniProtKB:O88736};
+CC   -!- PATHWAY: Steroid biosynthesis; estrogen biosynthesis.
+CC       {ECO:0000269|PubMed:9658408}.
+CC   -!- PATHWAY: Steroid biosynthesis; zymosterol biosynthesis; zymosterol from
+CC       lanosterol: step 5/6. {ECO:0000250|UniProtKB:P56937}.
+CC   -!- SUBUNIT: Binds to the short form of prolactin receptor.
+CC       {ECO:0000269|PubMed:8663045}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:P56937}; Single-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Most abundant in ovaries of pregnant animals.
+CC       {ECO:0000269|PubMed:8663045}.
+CC   -!- PTM: Phosphorylated. {ECO:0000269|PubMed:8663045}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. ERG27 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U44803; AAC52623.1; -; mRNA.
+DR   RefSeq; NP_058931.1; NM_017235.3.
+DR   AlphaFoldDB; Q62904; -.
+DR   SMR; Q62904; -.
+DR   STRING; 10116.ENSRNOP00000003812; -.
+DR   SwissLipids; SLP:000001306; -.
+DR   GlyCosmos; Q62904; 3 sites, No reported glycans.
+DR   GlyGen; Q62904; 3 sites.
+DR   iPTMnet; Q62904; -.
+DR   PhosphoSitePlus; Q62904; -.
+DR   PaxDb; 10116-ENSRNOP00000003812; -.
+DR   GeneID; 29540; -.
+DR   KEGG; rno:29540; -.
+DR   UCSC; RGD:2837; rat.
+DR   AGR; RGD:2837; -.
+DR   CTD; 51478; -.
+DR   RGD; 2837; Hsd17b7.
+DR   eggNOG; KOG1478; Eukaryota.
+DR   HOGENOM; CLU_029944_2_0_1; -.
+DR   InParanoid; Q62904; -.
+DR   PhylomeDB; Q62904; -.
+DR   TreeFam; TF105433; -.
+DR   Reactome; R-RNO-191273; Cholesterol biosynthesis.
+DR   UniPathway; UPA00769; -.
+DR   UniPathway; UPA00770; UER00758.
+DR   PRO; PR:Q62904; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0000253; F:3-keto sterol reductase activity; ISS:UniProtKB.
+DR   GO; GO:0047024; F:5alpha-androstane-3beta,17beta-diol dehydrogenase activity; ISS:UniProtKB.
+DR   GO; GO:0004303; F:estradiol 17-beta-dehydrogenase [NAD(P)+] activity; IDA:UniProtKB.
+DR   GO; GO:0005148; F:prolactin receptor binding; IPI:RGD.
+DR   GO; GO:0008209; P:androgen metabolic process; ISS:UniProtKB.
+DR   GO; GO:0007420; P:brain development; ISO:RGD.
+DR   GO; GO:0030154; P:cell differentiation; ISO:RGD.
+DR   GO; GO:0006695; P:cholesterol biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0048568; P:embryonic organ development; ISO:RGD.
+DR   GO; GO:0048706; P:embryonic skeletal system development; ISO:RGD.
+DR   GO; GO:0006703; P:estrogen biosynthetic process; IDA:UniProtKB.
+DR   GO; GO:0021766; P:hippocampus development; IEP:RGD.
+DR   GO; GO:0060135; P:maternal process involved in female pregnancy; IEP:RGD.
+DR   GO; GO:0007399; P:nervous system development; ISO:RGD.
+DR   GO; GO:0032355; P:response to estradiol; IEP:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:1990637; P:response to prolactin; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   CDD; cd08941; 3KS_SDR_c; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR052834; 3KSR/17beta-HSD.
+DR   InterPro; IPR042829; HSD17B7/Erg27.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PANTHER; PTHR44442; 3-KETO-STEROID REDUCTASE; 1.
+DR   PANTHER; PTHR44442:SF1; 3-KETO-STEROID REDUCTASE_17-BETA-HYDROXYSTEROID DEHYDROGENASE 7; 1.
+DR   Pfam; PF00106; adh_short; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Endoplasmic reticulum; Glycoprotein;
+KW   Lipid biosynthesis; Lipid metabolism; Membrane; NAD; NADP; Oxidoreductase;
+KW   Reference proteome; Steroid biosynthesis; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..334
+FT                   /note="3-keto-steroid reductase/17-beta-hydroxysteroid
+FT                   dehydrogenase 7"
+FT                   /id="PRO_0000054588"
+FT   TOPO_DOM        1..229
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        230..250
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        251..334
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        193
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         8..15
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         171
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        37
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        178
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        229
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   334 AA;  37372 MW;  448B546CE8FCBFAC CRC64;
+     MRKVVLITGA SSGIGLALCG RLLAEDDDLH LCLACRNLSK AGAVRDALLA SHPSAEVSIV
+     QMDVSNLQSV VRGAEEVKRR FQRLDYLYLN AGIMPNPQLN LKAFFCGIFS RNVIHMFSTA
+     EGLLTQNDKI TADGFQEVFE TNLFGHFILI RELEPLLCHS DNPSQLIWTS SRNAKKSNFS
+     LEDIQHAKGQ EPYSSSKYAT DLLNVALNRN FNQKGLYSSV TCPGVVMTNL TYGILPPFVW
+     TLLLPVIWLL RFFAHAFTVT PYNGAEALVW LFHQKPESLN PLTKYLSGTT GLGTNYVKGQ
+     KMDVDEDTAE KFYKTLLELE KQVRITIQKS DHHS
+//

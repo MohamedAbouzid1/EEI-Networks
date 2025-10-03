@@ -1,0 +1,153 @@
+ID   DHB13_RAT               Reviewed;         300 AA.
+AC   Q5M875;
+DT   11-OCT-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   02-OCT-2024, entry version 128.
+DE   RecName: Full=17-beta-hydroxysteroid dehydrogenase 13 {ECO:0000250|UniProtKB:Q7Z5P4};
+DE            Short=17-beta-HSD 13;
+DE            EC=1.1.1.- {ECO:0000250|UniProtKB:Q7Z5P4};
+DE            EC=1.1.1.62 {ECO:0000250|UniProtKB:Q7Z5P4};
+DE   AltName: Full=Hepatic retinol/retinal dehydrogenase {ECO:0000250|UniProtKB:Q7Z5P4};
+DE            EC=1.1.1.105 {ECO:0000250|UniProtKB:Q7Z5P4};
+DE   AltName: Full=Short-chain dehydrogenase/reductase 9 {ECO:0000250|UniProtKB:Q7Z5P4};
+DE   Flags: Precursor;
+GN   Name=Hsd17b13; Synonyms=Scdr9;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-33 AND SER-69, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Plays a pivotal role in hepatic lipid metabolism. In vitro,
+CC       it catalyzes the oxidation of a variety of lipid substrates, including
+CC       17beta-estradiol, retinol, retinal, and leukotriene B4.
+CC       {ECO:0000250|UniProtKB:Q7Z5P4}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol + NAD(+) = estrone + H(+) + NADH;
+CC         Xref=Rhea:RHEA:24612, ChEBI:CHEBI:15378, ChEBI:CHEBI:16469,
+CC         ChEBI:CHEBI:17263, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.62;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z5P4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinol + NAD(+) = all-trans-retinal + H(+) + NADH;
+CC         Xref=Rhea:RHEA:21284, ChEBI:CHEBI:15378, ChEBI:CHEBI:17336,
+CC         ChEBI:CHEBI:17898, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         EC=1.1.1.105; Evidence={ECO:0000250|UniProtKB:Q7Z5P4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinal + H2O + NAD(+) = all-trans-retinoate + 2
+CC         H(+) + NADH; Xref=Rhea:RHEA:42080, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17898, ChEBI:CHEBI:35291,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z5P4};
+CC   -!- SUBCELLULAR LOCATION: Lipid droplet {ECO:0000250|UniProtKB:Q7Z5P4}.
+CC       Endoplasmic reticulum {ECO:0000250|UniProtKB:Q8VCR2}.
+CC       Note=Redistributed from the endoplasmic reticulum to lipids droplets in
+CC       the cell upon induction of lipids droplet formation.
+CC       {ECO:0000250|UniProtKB:Q8VCR2}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC088191; AAH88191.1; -; mRNA.
+DR   RefSeq; NP_001009684.1; NM_001009684.1.
+DR   AlphaFoldDB; Q5M875; -.
+DR   SMR; Q5M875; -.
+DR   IntAct; Q5M875; 1.
+DR   STRING; 10116.ENSRNOP00000029333; -.
+DR   iPTMnet; Q5M875; -.
+DR   PhosphoSitePlus; Q5M875; -.
+DR   jPOST; Q5M875; -.
+DR   PaxDb; 10116-ENSRNOP00000029333; -.
+DR   Ensembl; ENSRNOT00000038188.3; ENSRNOP00000029333.2; ENSRNOG00000002212.7.
+DR   Ensembl; ENSRNOT00055045252; ENSRNOP00055037103; ENSRNOG00055026205.
+DR   Ensembl; ENSRNOT00060018257; ENSRNOP00060014217; ENSRNOG00060010776.
+DR   GeneID; 305150; -.
+DR   KEGG; rno:305150; -.
+DR   AGR; RGD:1359553; -.
+DR   CTD; 345275; -.
+DR   RGD; 1359553; Hsd17b13.
+DR   eggNOG; KOG1201; Eukaryota.
+DR   GeneTree; ENSGT00940000161743; -.
+DR   HOGENOM; CLU_010194_2_5_1; -.
+DR   InParanoid; Q5M875; -.
+DR   OMA; RTPMIKM; -.
+DR   OrthoDB; 6845at2759; -.
+DR   PhylomeDB; Q5M875; -.
+DR   TreeFam; TF312837; -.
+DR   Reactome; R-RNO-8964572; Lipid particle organization.
+DR   PRO; PR:Q5M875; -.
+DR   Proteomes; UP000002494; Chromosome 14.
+DR   Bgee; ENSRNOG00000002212; Expressed in pancreas and 17 other cell types or tissues.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005811; C:lipid droplet; ISS:UniProtKB.
+DR   GO; GO:0004745; F:all-trans-retinol dehydrogenase (NAD+) activity; IEA:RHEA.
+DR   GO; GO:0004303; F:estradiol 17-beta-dehydrogenase [NAD(P)+] activity; IEA:RHEA.
+DR   GO; GO:0016616; F:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor; IBA:GO_Central.
+DR   GO; GO:0016229; F:steroid dehydrogenase activity; IBA:GO_Central.
+DR   GO; GO:0006629; P:lipid metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0046889; P:positive regulation of lipid biosynthetic process; ISO:RGD.
+DR   CDD; cd05339; 17beta-HSDXI-like_SDR_c; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PANTHER; PTHR24322:SF499; 17-BETA-HYDROXYSTEROID DEHYDROGENASE 13; 1.
+DR   PANTHER; PTHR24322; PKSB; 1.
+DR   Pfam; PF00106; adh_short; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Endoplasmic reticulum; Lipid droplet; Lipid metabolism; NADP;
+KW   Oxidoreductase; Phosphoprotein; Reference proteome; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..300
+FT                   /note="17-beta-hydroxysteroid dehydrogenase 13"
+FT                   /id="PRO_0000042585"
+FT   ACT_SITE        185
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         40..67
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         172
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         189
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         33
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         69
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         79
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VCR2"
+SQ   SEQUENCE   300 AA;  33494 MW;  2BE40FE0A053F1F7 CRC64;
+     MNLILELLLL VGIIIYSYLE SLVKFFIPQR RKSVAGQTVL ITGAGHGIGR LTAYEFAKQK
+     SRLVLWDISK HGVEETAAKC RKLGAVVHVF VVDCSNRAEI YKSVDQVKKE VGDIEIVVNN
+     AGAIYPADLL STKDEEITKT FEVNILGHFW IIKALLPSML RRNSGHIVTV ASVCGHRVIP
+     YLIPYCSSKF AAVGFHRALT AELDTLGKTG IKTSCLCPVF VNTGFTKNPS TRLWPVLEPD
+     EVARSLIDGI LTNKKMIFVP SYINISLIVE MFFPERVLKA INRIQNIQFE AIVGHRTKRK
+//

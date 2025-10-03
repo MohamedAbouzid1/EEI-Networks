@@ -1,0 +1,100 @@
+ID   KXDL1_RAT               Reviewed;         177 AA.
+AC   Q5M853;
+DT   24-JUL-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   29-MAY-2024, entry version 95.
+DE   RecName: Full=KxDL motif-containing protein 1;
+GN   Name=Kxd1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Thymus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: As part of the BORC complex may play a role in lysosomes
+CC       movement and localization at the cell periphery. Associated with the
+CC       cytosolic face of lysosomes, the BORC complex may recruit ARL8B and
+CC       couple lysosomes to microtubule plus-end-directed kinesin motor. May
+CC       also be involved in the biogenesis of lysosome-related organelles such
+CC       as melanosomes. {ECO:0000250|UniProtKB:Q80XH1,
+CC       ECO:0000250|UniProtKB:Q9BQD3}.
+CC   -!- SUBUNIT: Component of the BLOC-one-related complex (BORC) which is
+CC       composed of BLOC1S1, BLOC1S2, BORCS5, BORCS6, BORCS7, BORCS8, KXD1 and
+CC       SNAPIN. Associates with the BLOC-1 complex. Interacts with BLOC1S1.
+CC       Interacts with DTNBP1/BLOC1S7 (via coiled-coil domain).
+CC       {ECO:0000250|UniProtKB:Q80XH1, ECO:0000250|UniProtKB:Q9BQD3}.
+CC   -!- SUBCELLULAR LOCATION: Lysosome membrane {ECO:0000250|UniProtKB:Q9BQD3}.
+CC   -!- SIMILARITY: Belongs to the KXD1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC088216; AAH88216.1; -; mRNA.
+DR   RefSeq; NP_001020314.1; NM_001025143.1.
+DR   RefSeq; XP_006252985.1; XM_006252923.3.
+DR   RefSeq; XP_006252986.1; XM_006252924.1.
+DR   AlphaFoldDB; Q5M853; -.
+DR   SMR; Q5M853; -.
+DR   STRING; 10116.ENSRNOP00000027053; -.
+DR   iPTMnet; Q5M853; -.
+DR   PhosphoSitePlus; Q5M853; -.
+DR   PaxDb; 10116-ENSRNOP00000027053; -.
+DR   GeneID; 498606; -.
+DR   KEGG; rno:498606; -.
+DR   UCSC; RGD:1562866; rat.
+DR   AGR; RGD:1562866; -.
+DR   CTD; 79036; -.
+DR   RGD; 1562866; Kxd1.
+DR   VEuPathDB; HostDB:ENSRNOG00000019971; -.
+DR   eggNOG; KOG3443; Eukaryota.
+DR   HOGENOM; CLU_094353_3_0_1; -.
+DR   InParanoid; Q5M853; -.
+DR   PhylomeDB; Q5M853; -.
+DR   TreeFam; TF319035; -.
+DR   PRO; PR:Q5M853; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000019971; Expressed in ovary and 20 other cell types or tissues.
+DR   GO; GO:0031083; C:BLOC-1 complex; ISO:RGD.
+DR   GO; GO:0099078; C:BORC complex; ISS:UniProtKB.
+DR   GO; GO:0005765; C:lysosomal membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0032418; P:lysosome localization; ISS:UniProtKB.
+DR   GO; GO:0016192; P:vesicle-mediated transport; ISS:UniProtKB.
+DR   InterPro; IPR039843; KXD1-like.
+DR   InterPro; IPR019371; KxDL_dom.
+DR   PANTHER; PTHR13511:SF0; KXDL MOTIF-CONTAINING PROTEIN 1; 1.
+DR   PANTHER; PTHR13511; UNCHARACTERIZED; 1.
+DR   Pfam; PF10241; KxDL; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Lysosome; Membrane; Reference proteome.
+FT   CHAIN           1..177
+FT                   /note="KxDL motif-containing protein 1"
+FT                   /id="PRO_0000295261"
+FT   REGION          92..177
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        119..147
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BQD3"
+SQ   SEQUENCE   177 AA;  19913 MW;  9F3DEABC772FEE76 CRC64;
+     MDTPDSASRV FCGRFLSMVN TDDVNAIILA QKNMLDRFEK TNEMLLNFNN LSSVRLQQMS
+     ERFMHHTRTL VDMKRDLDSI FRRIRTLKGK LARQHPEAFS HIPEGSLLED EDEDPVPPSI
+     TTTIATSEQS TGSCDTSPDT ASPSFSPGFE DLSHIRPGSP AINGHSQTDD EEETREE
+//

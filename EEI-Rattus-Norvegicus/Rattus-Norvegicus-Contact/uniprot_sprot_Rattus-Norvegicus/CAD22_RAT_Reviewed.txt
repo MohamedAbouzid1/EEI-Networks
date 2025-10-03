@@ -1,0 +1,181 @@
+ID   CAD22_RAT               Reviewed;         813 AA.
+AC   Q63315; Q63561;
+DT   19-OCT-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JUL-2024, entry version 147.
+DE   RecName: Full=Cadherin-22;
+DE   AltName: Full=Pituitary and brain cadherin;
+DE            Short=PB-cadherin;
+DE   Flags: Precursor;
+GN   Name=Cdh22;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), AND CHARACTERIZATION.
+RC   STRAIN=Wistar; TISSUE=Brain, and Pituitary;
+RX   PubMed=8626716; DOI=10.1074/jbc.271.19.11548;
+RA   Sugimoto K., Honda S., Yamamoto T., Ueki T., Monden M., Kaji A.,
+RA   Matsumoto K., Nakamura T.;
+RT   "Molecular cloning and characterization of a newly identified member of the
+RT   cadherin family, PB-cadherin.";
+RL   J. Biol. Chem. 271:11548-11556(1996).
+CC   -!- FUNCTION: Cadherins are calcium-dependent cell adhesion proteins. They
+CC       preferentially interact with themselves in a homophilic manner in
+CC       connecting cells; cadherins may thus contribute to the sorting of
+CC       heterogeneous cell types. PB-cadherins may have a role in the
+CC       morphological organization of pituitary gland and brain tissues.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q63315-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q63315-2; Sequence=VSP_000643, VSP_000644;
+CC   -!- TISSUE SPECIFICITY: Strongly expressed in the pituitary gland and the
+CC       brain (in the inner granular and glomerular layers of the olfactory
+CC       bulb, anterior olfactory nucleus, primary olfactory cortex, Purkinje
+CC       cell layer of cerebellum, and pineal gland). Low expression in lung and
+CC       heart. No expression in submandibular gland, thymus, liver, spleen,
+CC       adrenal, and kidney.
+CC   -!- DEVELOPMENTAL STAGE: Expressed strongly in fetal brain.
+CC   -!- DOMAIN: Three calcium ions are usually bound at the interface of each
+CC       cadherin domain and rigidify the connections, imparting a strong
+CC       curvature to the full-length ectodomain. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D83348; BAA11894.1; -; mRNA.
+DR   EMBL; D83349; BAA11895.1; -; mRNA.
+DR   RefSeq; NP_062034.2; NM_019161.2. [Q63315-1]
+DR   AlphaFoldDB; Q63315; -.
+DR   SMR; Q63315; -.
+DR   STRING; 10116.ENSRNOP00000025150; -.
+DR   GlyCosmos; Q63315; 3 sites, No reported glycans.
+DR   GlyGen; Q63315; 3 sites.
+DR   PhosphoSitePlus; Q63315; -.
+DR   PaxDb; 10116-ENSRNOP00000025150; -.
+DR   Ensembl; ENSRNOT00000025150.7; ENSRNOP00000025150.5; ENSRNOG00000018557.7. [Q63315-1]
+DR   Ensembl; ENSRNOT00055005511; ENSRNOP00055004113; ENSRNOG00055003538. [Q63315-1]
+DR   Ensembl; ENSRNOT00060001977; ENSRNOP00060001178; ENSRNOG00060001356. [Q63315-1]
+DR   Ensembl; ENSRNOT00065022407; ENSRNOP00065017368; ENSRNOG00065013623. [Q63315-1]
+DR   GeneID; 29182; -.
+DR   KEGG; rno:29182; -.
+DR   UCSC; RGD:2321; rat. [Q63315-1]
+DR   AGR; RGD:2321; -.
+DR   CTD; 64405; -.
+DR   RGD; 2321; Cdh22.
+DR   eggNOG; KOG3594; Eukaryota.
+DR   GeneTree; ENSGT00940000159376; -.
+DR   HOGENOM; CLU_005284_3_1_1; -.
+DR   InParanoid; Q63315; -.
+DR   OMA; GAWAMHT; -.
+DR   OrthoDB; 3667774at2759; -.
+DR   PhylomeDB; Q63315; -.
+DR   PRO; PR:Q63315; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000018557; Expressed in frontal cortex and 7 other cell types or tissues.
+DR   GO; GO:0005912; C:adherens junction; IBA:GO_Central.
+DR   GO; GO:0016342; C:catenin complex; IBA:GO_Central.
+DR   GO; GO:0008013; F:beta-catenin binding; IBA:GO_Central.
+DR   GO; GO:0045296; F:cadherin binding; IBA:GO_Central.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0034332; P:adherens junction organization; IBA:GO_Central.
+DR   GO; GO:0016339; P:calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules; IDA:RGD.
+DR   GO; GO:0016477; P:cell migration; IBA:GO_Central.
+DR   GO; GO:0000902; P:cell morphogenesis; IBA:GO_Central.
+DR   GO; GO:0044331; P:cell-cell adhesion mediated by cadherin; IBA:GO_Central.
+DR   GO; GO:0007043; P:cell-cell junction assembly; IBA:GO_Central.
+DR   GO; GO:0007156; P:homophilic cell adhesion via plasma membrane adhesion molecules; IEA:InterPro.
+DR   CDD; cd11304; Cadherin_repeat; 5.
+DR   Gene3D; 2.60.40.60; Cadherins; 5.
+DR   Gene3D; 4.10.900.10; TCF3-CBD (Catenin binding domain); 1.
+DR   InterPro; IPR039808; Cadherin.
+DR   InterPro; IPR002126; Cadherin-like_dom.
+DR   InterPro; IPR015919; Cadherin-like_sf.
+DR   InterPro; IPR020894; Cadherin_CS.
+DR   InterPro; IPR000233; Cadherin_Y-type_LIR.
+DR   InterPro; IPR027397; Catenin-bd_sf.
+DR   PANTHER; PTHR24027:SF311; CADHERIN-22; 1.
+DR   PANTHER; PTHR24027; CADHERIN-23; 1.
+DR   Pfam; PF01049; CADH_Y-type_LIR; 1.
+DR   Pfam; PF00028; Cadherin; 5.
+DR   PRINTS; PR00205; CADHERIN.
+DR   SMART; SM00112; CA; 5.
+DR   SUPFAM; SSF49313; Cadherin-like; 5.
+DR   PROSITE; PS00232; CADHERIN_1; 2.
+DR   PROSITE; PS50268; CADHERIN_2; 5.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Calcium; Cell adhesion; Cell membrane; Glycoprotein;
+KW   Membrane; Metal-binding; Reference proteome; Repeat; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           34..813
+FT                   /note="Cadherin-22"
+FT                   /id="PRO_0000003823"
+FT   TOPO_DOM        34..621
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        622..642
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        643..813
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          61..165
+FT                   /note="Cadherin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00043"
+FT   DOMAIN          166..274
+FT                   /note="Cadherin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00043"
+FT   DOMAIN          275..391
+FT                   /note="Cadherin 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00043"
+FT   DOMAIN          392..495
+FT                   /note="Cadherin 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00043"
+FT   DOMAIN          496..613
+FT                   /note="Cadherin 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00043"
+FT   REGION          696..726
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        159
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        463
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        609
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         668..694
+FT                   /note="NDEGGGEQDTEAYDMSALRSLYDFGEL -> TLGSGHRGTSNKEDHQCPASL
+FT                   SLGFKP (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:8626716"
+FT                   /id="VSP_000643"
+FT   VAR_SEQ         695..813
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:8626716"
+FT                   /id="VSP_000644"
+SQ   SEQUENCE   813 AA;  87979 MW;  30BEA60B5D2D467B CRC64;
+     MRPRPAGALR AGAALSPVLL LLLLLQLLGH LWAASTPAPS SLSPGTQQDN QLGAGRVKRG
+     WVWNQFFVVE EYTGTEPLYV GKIHSDSDEG DGTIKYTISG EGAGTIFLID ELTGDIHATE
+     RLDREQKTFY TLRAQARDRA TNRLLEPESE FIIKVQDIND SEPRFLHGPY IGSVAELSPT
+     GTSVMQVMAS DADDPTYGSS ARLVYSVLDG EHHFTVDPKT GVIRTAVPDL DRESQERYEV
+     VIQATDMAGQ LGGLSGSTTV TIVVTDVNDN PPRFPQKMYQ FSIQESAPIG TAVGRVKAED
+     SDVGENTDMT YHLREESGSG GDAFKVTTDS DTQEAIIVVQ KHLDFESQQV HTVVLEALNK
+     FVDPRFADLG TFRDQAIVRV AVTDVDEPPE FRPPSGLLEV QEDAQVGSLV GVVTARDPDA
+     ANRPVRYAID RDSDLEQIFD IDADTGAIVT GKGLDRETAG WHNITVLAME ADNHAQLSRA
+     SLRIRILDVN DNPPELATPY EAAVCEDAKP GQLIQTISVV DRDEPQGGHR FYFRLVPEEP
+     SNPHFSLLDI EDNTAAVHTQ HVGFNRQEQD VFLLPILVVD SGPPTLSSTG TLTIRICGCD
+     SSGTIQSCNT TAFVMAASLS PGALIALLVC VLILVVLALL ILTLRRHHKS HLSSDVDEDM
+     RDNVIKYNDE GGGEQDTEAY DMSALRSLYD FGELKGGDPG GGAASPPQAA SSSERHSLPR
+     GPSSPEPDFS VFRDFISRKV ALADADLSVP PYDAFQTYAF EGAGSPAASL SSLHSGSTGS
+     EQDFAFLRAW GPRFRPLAAL YAGHRGDDEA PAS
+//

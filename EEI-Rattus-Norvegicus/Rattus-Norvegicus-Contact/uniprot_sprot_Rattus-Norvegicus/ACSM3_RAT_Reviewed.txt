@@ -1,0 +1,215 @@
+ID   ACSM3_RAT               Reviewed;         580 AA.
+AC   Q6SKG1; Q62742;
+DT   02-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   02-OCT-2024, entry version 122.
+DE   RecName: Full=Acyl-coenzyme A synthetase ACSM3, mitochondrial;
+DE            EC=6.2.1.2 {ECO:0000250|UniProtKB:Q3UNX5};
+DE   AltName: Full=Acyl-CoA synthetase medium-chain family member 3;
+DE   AltName: Full=Butyrate--CoA ligase 3;
+DE   AltName: Full=Butyryl-coenzyme A synthetase 3;
+DE   AltName: Full=Middle-chain acyl-CoA synthetase 3;
+DE   AltName: Full=Propionate--CoA ligase;
+DE            EC=6.2.1.17 {ECO:0000250|UniProtKB:Q3UNX5};
+DE   AltName: Full=SA rat hypertension-associated protein;
+DE            Short=Protein SA;
+DE   Flags: Precursor;
+GN   Name=Acsm3; Synonyms=Sah;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=SHR, and Wistar Kyoto;
+RX   PubMed=14739236; DOI=10.1093/nar/gkh197;
+RA   Rigatti R., Jia J.-H., Samani N.J., Eperon I.C.;
+RT   "Exon repetition: a major pathway for processing mRNA of some genes is
+RT   allele-specific.";
+RL   Nucleic Acids Res. 32:441-446(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 374-479.
+RX   PubMed=8535086; DOI=10.1007/bf00352385;
+RA   Gu L., Dene H., Rapp J.P.;
+RT   "Possible alternative splicing of the rat SA gene.";
+RL   Mamm. Genome 6:683-684(1995).
+CC   -!- FUNCTION: Catalyzes the activation of fatty acids by CoA to produce an
+CC       acyl-CoA, the first step in fatty acid metabolism (By similarity).
+CC       Capable of activating medium-chain fatty acids with a preference for
+CC       isobutyrate among fatty acids with 2-6 carbon atoms (By similarity).
+CC       {ECO:0000250|UniProtKB:Q3UNX5}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a medium chain fatty acid + ATP + CoA = a medium-chain fatty
+CC         acyl-CoA + AMP + diphosphate; Xref=Rhea:RHEA:48340,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:59558, ChEBI:CHEBI:90546, ChEBI:CHEBI:456215; EC=6.2.1.2;
+CC         Evidence={ECO:0000250|UniProtKB:Q3UNX5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48341;
+CC         Evidence={ECO:0000250|UniProtKB:Q3UNX5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + CoA + propanoate = AMP + diphosphate + propanoyl-CoA;
+CC         Xref=Rhea:RHEA:20373, ChEBI:CHEBI:17272, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57287, ChEBI:CHEBI:57392,
+CC         ChEBI:CHEBI:456215; EC=6.2.1.17;
+CC         Evidence={ECO:0000250|UniProtKB:Q3UNX5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:20374;
+CC         Evidence={ECO:0000250|UniProtKB:Q3UNX5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + butanoate + CoA = AMP + butanoyl-CoA + diphosphate;
+CC         Xref=Rhea:RHEA:46172, ChEBI:CHEBI:17968, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57287, ChEBI:CHEBI:57371,
+CC         ChEBI:CHEBI:456215; Evidence={ECO:0000250|UniProtKB:Q3UNX5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46173;
+CC         Evidence={ECO:0000250|UniProtKB:Q3UNX5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-methylpropanoate + ATP + CoA = 2-methylpropanoyl-CoA + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:46176, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:48944, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57338, ChEBI:CHEBI:456215;
+CC         Evidence={ECO:0000250|UniProtKB:Q3UNX5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46177;
+CC         Evidence={ECO:0000250|UniProtKB:Q3UNX5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-methylbutanoate + ATP + CoA = 2-methylbutanoyl-CoA + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:46180, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:48946, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57336, ChEBI:CHEBI:456215;
+CC         Evidence={ECO:0000250|UniProtKB:Q3UNX5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46181;
+CC         Evidence={ECO:0000250|UniProtKB:Q3UNX5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + CoA + octanoate = AMP + diphosphate + octanoyl-CoA;
+CC         Xref=Rhea:RHEA:33631, ChEBI:CHEBI:25646, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57287, ChEBI:CHEBI:57386,
+CC         ChEBI:CHEBI:456215; Evidence={ECO:0000250|UniProtKB:Q53FZ2};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:33632;
+CC         Evidence={ECO:0000250|UniProtKB:Q53FZ2};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q08AH1};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q08AH1};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250|UniProtKB:Q53FZ2}.
+CC       Mitochondrion matrix {ECO:0000250|UniProtKB:Q3UNX5}.
+CC   -!- SIMILARITY: Belongs to the ATP-dependent AMP-binding enzyme family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY455861; AAR20710.1; -; Genomic_DNA.
+DR   EMBL; AY456695; AAR21570.1; -; Genomic_DNA.
+DR   EMBL; BC090325; AAH90325.1; -; mRNA.
+DR   EMBL; U19832; AAA95995.1; -; Genomic_DNA.
+DR   RefSeq; NP_150234.1; NM_033231.1.
+DR   AlphaFoldDB; Q6SKG1; -.
+DR   SMR; Q6SKG1; -.
+DR   STRING; 10116.ENSRNOP00000020039; -.
+DR   iPTMnet; Q6SKG1; -.
+DR   PhosphoSitePlus; Q6SKG1; -.
+DR   PaxDb; 10116-ENSRNOP00000020039; -.
+DR   Ensembl; ENSRNOT00000020039.7; ENSRNOP00000020039.6; ENSRNOG00000032246.5.
+DR   Ensembl; ENSRNOT00055011711; ENSRNOP00055009240; ENSRNOG00055007079.
+DR   Ensembl; ENSRNOT00060034418; ENSRNOP00060028248; ENSRNOG00060019899.
+DR   Ensembl; ENSRNOT00065052927; ENSRNOP00065043463; ENSRNOG00065030719.
+DR   GeneID; 24763; -.
+DR   KEGG; rno:24763; -.
+DR   UCSC; RGD:62086; rat.
+DR   AGR; RGD:62086; -.
+DR   CTD; 6296; -.
+DR   RGD; 62086; Acsm3.
+DR   eggNOG; KOG1175; Eukaryota.
+DR   GeneTree; ENSGT00940000157930; -.
+DR   HOGENOM; CLU_000022_59_10_1; -.
+DR   InParanoid; Q6SKG1; -.
+DR   OrthoDB; 5474118at2759; -.
+DR   PRO; PR:Q6SKG1; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000032246; Expressed in kidney and 18 other cell types or tissues.
+DR   GO; GO:0005759; C:mitochondrial matrix; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0043759; F:2-methylbutanoate-CoA ligase activity; IEA:RHEA.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015645; F:fatty acid ligase activity; ISO:RGD.
+DR   GO; GO:0004321; F:fatty-acyl-CoA synthase activity; IBA:GO_Central.
+DR   GO; GO:0031956; F:medium-chain fatty acid-CoA ligase activity; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0018729; F:propionate CoA-transferase activity; ISO:RGD.
+DR   GO; GO:0050218; F:propionate-CoA ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006637; P:acyl-CoA metabolic process; IBA:GO_Central.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; ISO:RGD.
+DR   CDD; cd05928; MACS_euk; 1.
+DR   Gene3D; 3.30.300.30; -; 1.
+DR   Gene3D; 3.40.50.12780; N-terminal domain of ligase-like; 1.
+DR   InterPro; IPR025110; AMP-bd_C.
+DR   InterPro; IPR045851; AMP-bd_C_sf.
+DR   InterPro; IPR020845; AMP-binding_CS.
+DR   InterPro; IPR000873; AMP-dep_Synth/Lig_com.
+DR   InterPro; IPR042099; ANL_N_sf.
+DR   InterPro; IPR051087; Mitochondrial_ACSM.
+DR   PANTHER; PTHR43605; ACYL-COENZYME A SYNTHETASE; 1.
+DR   PANTHER; PTHR43605:SF7; ACYL-COENZYME A SYNTHETASE ACSM3, MITOCHONDRIAL; 1.
+DR   Pfam; PF00501; AMP-binding; 1.
+DR   Pfam; PF13193; AMP-binding_C; 1.
+DR   SUPFAM; SSF56801; Acetyl-CoA synthetase-like; 1.
+DR   PROSITE; PS00455; AMP_BINDING; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; ATP-binding; Fatty acid metabolism; Ligase; Lipid metabolism;
+KW   Magnesium; Metal-binding; Mitochondrion; Nucleotide-binding;
+KW   Reference proteome; Transit peptide.
+FT   TRANSIT         1..21
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..580
+FT                   /note="Acyl-coenzyme A synthetase ACSM3, mitochondrial"
+FT                   /id="PRO_0000306100"
+FT   BINDING         229..237
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         368..373
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         455
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         470
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         566
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         67
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q3UNX5"
+FT   MOD_RES         100
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q3UNX5"
+FT   MOD_RES         151
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q3UNX5"
+SQ   SEQUENCE   580 AA;  65713 MW;  E2F46C5C530D6278 CRC64;
+     MAMLLRARCF HRLAIPDPRR ILYKDYRTAI PQNFSNYESM KHDFKIEIPE YFNFAKDVLD
+     QWTNTEKTGK RLSNPAFWWV DGNGKEVRWS FEELGSLSRK FANILTEACS LQRGDRVMVI
+     LPKIPEWWLA NVACLRTGTV LIPGTTQLTQ KDILYRLQSS KSKCIITDDT LAPAVDIVAA
+     KCENLHSKLI VSQHSREGWG NLKEMMKYAS DSHTCVDTKH NELMAIYFTS GTTGPPKMIG
+     HTHSSFGLGL SVNGRFWLDL IASDVMWNTS DTGWAKSAWS SVFSPWTQGA CVFAHYLPRF
+     DSTSILQTLS KFPITVFCSA PTAYRMLIQN DITSYKFNSL KHCVSAGEPI NPEVMEQWKK
+     KTGLDIYEGY GQTETVLICG NFKGMKIKPG SMGKPSPAFN VEILDENGTI LPPGQEGDIA
+     VQVLPDRPFG LFTHYVDNPS KTASTLRGNF YITGDRGYMD EDGYFWFVAR SDDVILSSGY
+     RIGPFEVESA LIEHPSIAES AVVSSPDPIR GEVVKAFIVL NPDYKLHDQE QLKKEIQEHV
+     KKTTAPYKYP RKIEFIEELP KTVSGKVKRN ELRRKEWTTT
+//

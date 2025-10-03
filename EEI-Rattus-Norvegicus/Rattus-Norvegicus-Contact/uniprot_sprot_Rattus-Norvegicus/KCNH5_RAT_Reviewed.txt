@@ -1,0 +1,293 @@
+ID   KCNH5_RAT               Reviewed;         988 AA.
+AC   Q9EPI9; O88893; Q9QXT2;
+DT   28-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   02-OCT-2024, entry version 174.
+DE   RecName: Full=Voltage-gated delayed rectifier potassium channel KCNH5 {ECO:0000305};
+DE   AltName: Full=Ether-a-go-go potassium channel 2;
+DE            Short=rEAG2 {ECO:0000303|PubMed:10882483};
+DE   AltName: Full=Potassium voltage-gated channel subfamily H member 5;
+DE   AltName: Full=Voltage-gated potassium channel subunit Kv10.2;
+GN   Name=Kcnh5 {ECO:0000312|RGD:621417};
+GN   Synonyms=Eag2 {ECO:0000303|PubMed:10882483};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Thalamus;
+RX   PubMed=10594062; DOI=10.1523/jneurosci.19-24-10789.1999;
+RA   Saganich M.J., Vega-Saenz de Miera E., Nadal M.S., Baker H., Coetzee W.A.,
+RA   Rudy B.;
+RT   "Cloning of components of a novel subthreshold-activating K+ channel with a
+RT   unique pattern of expression in the cerebral cortex.";
+RL   J. Neurosci. 19:10789-10802(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY, ACTIVITY
+RP   REGULATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Cerebellum;
+RX   PubMed=10882483; DOI=10.1006/mcne.2000.0851;
+RA   Ludwig J., Weseloh R., Karschin C., Liu Q., Netzer R., Engeland B.,
+RA   Stansfeld C., Pongs O.;
+RT   "Cloning and functional expression of rat eag2, a new member of the ether-
+RT   a-go-go family of potassium channels and comparison of its distribution
+RT   with that of eag1.";
+RL   Mol. Cell. Neurosci. 16:59-70(2000).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 220-360.
+RC   TISSUE=Brain;
+RX   PubMed=9714851; DOI=10.1111/j.1469-7793.1998.675bg.x;
+RA   Shi W., Wang H.-S., Pan Z., Wymore R.S., Cohen I.S., McKinnon D.,
+RA   Dixon J.E.;
+RT   "Cloning of a mammalian elk potassium channel gene and EAG mRNA
+RT   distribution in rat sympathetic ganglia.";
+RL   J. Physiol. (Lond.) 511:675-682(1998).
+CC   -!- FUNCTION: Pore-forming (alpha) subunit of a voltage-gated delayed
+CC       rectifier potassium channel that mediates outward-rectifying potassium
+CC       currents which, on depolarization, reaches a steady-state level and do
+CC       not inactivate (PubMed:10594062, PubMed:10882483). The kinetic is
+CC       characterized by a slow activation time course and a small voltage
+CC       dependence of the activation time constants, therefore, starts to open
+CC       at more negative voltages (PubMed:10594062, PubMed:10882483). The
+CC       activation kinetics depend on the prepulse potential and external
+CC       divalent cation concentration (PubMed:10594062, PubMed:10882483). The
+CC       time course of activation is biphasic with a fast and a slowly
+CC       activating current component (PubMed:10594062, PubMed:10882483). With
+CC       negative prepulses, the current activation is delayed and slowed down
+CC       several fold, whereas more positive prepulses speed up activation,
+CC       therefore the activation rate depends on holding potential
+CC       (PubMed:10594062, PubMed:10882483). {ECO:0000269|PubMed:10594062,
+CC       ECO:0000269|PubMed:10882483}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=K(+)(in) = K(+)(out); Xref=Rhea:RHEA:29463, ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000269|PubMed:10594062, ECO:0000269|PubMed:10882483};
+CC   -!- ACTIVITY REGULATION: Inhibited by low nanomolar concentrations of
+CC       cytosolic calcium. {ECO:0000269|PubMed:10882483}.
+CC   -!- SUBUNIT: Homotetramer. The potassium channel is probably composed of a
+CC       homo- or heterotetrameric complex of pore-forming alpha subunits that
+CC       can associate with modulating beta subunits. Heteromultimer with
+CC       KCNH1/EAG. {ECO:0000250|UniProtKB:Q8NCM2}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Multi-pass membrane protein.
+CC   -!- TISSUE SPECIFICITY: Detected in adult testis and in embryonic and adult
+CC       brain, but not in other tissues (PubMed:10594062). Highly expressed in
+CC       specific brain areas, such as neocortex, olfactory bulb, primary
+CC       olfactory cortex and brain stem (PubMed:10594062, PubMed:10882483). In
+CC       cortex, expression is concentrated in a narrow band toward the middle
+CC       lamella (layer IV) (PubMed:10594062, PubMed:10882483). Moderately
+CC       expressed in spinal cord, dorsal thalamic nuclei, medial hypothalamus,
+CC       colliculus, lateral lemniscus, pontine nuclei and Islands of Calleja
+CC       (PubMed:10594062, PubMed:10882483). {ECO:0000269|PubMed:10594062,
+CC       ECO:0000269|PubMed:10882483}.
+CC   -!- DOMAIN: Contains a voltage sensor domain (VSD) formed from the S1-S4
+CC       transmembrane helices, a pore domain formed from the S5-pore loop-S6
+CC       domain and the C-terminal cyclic nucleotide binding homology domain
+CC       (CNBHD). {ECO:0000250|UniProtKB:Q8NCM2}.
+CC   -!- DOMAIN: The segment S4 is probably the voltage-sensor and is
+CC       characterized by a series of positively charged amino acids at every
+CC       third position. {ECO:0000250|UniProtKB:Q8NCM2}.
+CC   -!- SIMILARITY: Belongs to the potassium channel family. H (Eag) (TC
+CC       1.A.1.20) subfamily. Kv10.2/KCNH5 sub-subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF185637; AAF19354.1; -; mRNA.
+DR   EMBL; AJ250280; CAC20863.1; -; mRNA.
+DR   EMBL; AF073891; AAC61521.1; -; mRNA.
+DR   RefSeq; NP_598294.1; NM_133610.2.
+DR   AlphaFoldDB; Q9EPI9; -.
+DR   SMR; Q9EPI9; -.
+DR   STRING; 10116.ENSRNOP00000013275; -.
+DR   GlyCosmos; Q9EPI9; 1 site, No reported glycans.
+DR   GlyGen; Q9EPI9; 1 site.
+DR   iPTMnet; Q9EPI9; -.
+DR   PhosphoSitePlus; Q9EPI9; -.
+DR   SwissPalm; Q9EPI9; -.
+DR   PaxDb; 10116-ENSRNOP00000013275; -.
+DR   Ensembl; ENSRNOT00000013275.5; ENSRNOP00000013275.2; ENSRNOG00000009542.6.
+DR   Ensembl; ENSRNOT00055034161; ENSRNOP00055027711; ENSRNOG00055020005.
+DR   Ensembl; ENSRNOT00060048912; ENSRNOP00060040815; ENSRNOG00060028143.
+DR   Ensembl; ENSRNOT00065031354; ENSRNOP00065024983; ENSRNOG00065018672.
+DR   GeneID; 171146; -.
+DR   KEGG; rno:171146; -.
+DR   UCSC; RGD:621417; rat.
+DR   AGR; RGD:621417; -.
+DR   CTD; 27133; -.
+DR   RGD; 621417; Kcnh5.
+DR   eggNOG; KOG0501; Eukaryota.
+DR   GeneTree; ENSGT00940000156540; -.
+DR   HOGENOM; CLU_005746_3_1_1; -.
+DR   InParanoid; Q9EPI9; -.
+DR   OMA; PMNKTET; -.
+DR   OrthoDB; 66005at2759; -.
+DR   PhylomeDB; Q9EPI9; -.
+DR   TreeFam; TF313130; -.
+DR   Reactome; R-RNO-1296072; Voltage gated Potassium channels.
+DR   PRO; PR:Q9EPI9; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000009542; Expressed in frontal cortex and 1 other cell type or tissue.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0008076; C:voltage-gated potassium channel complex; ISS:UniProtKB.
+DR   GO; GO:0005516; F:calmodulin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005251; F:delayed rectifier potassium channel activity; IDA:UniProtKB.
+DR   GO; GO:0044877; F:protein-containing complex binding; IPI:RGD.
+DR   GO; GO:0044325; F:transmembrane transporter binding; IPI:RGD.
+DR   GO; GO:0005249; F:voltage-gated potassium channel activity; ISS:UniProtKB.
+DR   GO; GO:0071805; P:potassium ion transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0006813; P:potassium ion transport; IDA:UniProtKB.
+DR   GO; GO:0010389; P:regulation of G2/M transition of mitotic cell cycle; ISO:RGD.
+DR   GO; GO:0042391; P:regulation of membrane potential; IBA:GO_Central.
+DR   CDD; cd00038; CAP_ED; 1.
+DR   CDD; cd00130; PAS; 1.
+DR   Gene3D; 1.10.1200.260; -; 1.
+DR   Gene3D; 1.10.287.70; -; 1.
+DR   Gene3D; 2.60.120.10; Jelly Rolls; 1.
+DR   Gene3D; 3.30.450.20; PAS domain; 1.
+DR   InterPro; IPR000595; cNMP-bd_dom.
+DR   InterPro; IPR018490; cNMP-bd_dom_sf.
+DR   InterPro; IPR005821; Ion_trans_dom.
+DR   InterPro; IPR003949; K_chnl_volt-dep_EAG.
+DR   InterPro; IPR003938; K_chnl_volt-dep_EAG/ELK/ERG.
+DR   InterPro; IPR050818; KCNH_channel.
+DR   InterPro; IPR001610; PAC.
+DR   InterPro; IPR000014; PAS.
+DR   InterPro; IPR000700; PAS-assoc_C.
+DR   InterPro; IPR035965; PAS-like_dom_sf.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   NCBIfam; TIGR00229; sensory_box; 1.
+DR   PANTHER; PTHR10217:SF533; POTASSIUM VOLTAGE-GATED CHANNEL SUBFAMILY H MEMBER 5; 1.
+DR   PANTHER; PTHR10217; VOLTAGE AND LIGAND GATED POTASSIUM CHANNEL; 1.
+DR   Pfam; PF00027; cNMP_binding; 1.
+DR   Pfam; PF00520; Ion_trans; 1.
+DR   Pfam; PF13426; PAS_9; 1.
+DR   PRINTS; PR01463; EAGCHANLFMLY.
+DR   PRINTS; PR01464; EAGCHANNEL.
+DR   SMART; SM00100; cNMP; 1.
+DR   SMART; SM00086; PAC; 1.
+DR   SUPFAM; SSF51206; cAMP-binding domain-like; 1.
+DR   SUPFAM; SSF55785; PYP-like sensor domain (PAS domain); 1.
+DR   SUPFAM; SSF81324; Voltage-gated potassium channels; 1.
+DR   PROSITE; PS50042; CNMP_BINDING_3; 1.
+DR   PROSITE; PS50113; PAC; 1.
+PE   2: Evidence at transcript level;
+KW   Calmodulin-binding; Glycoprotein; Ion channel; Ion transport;
+KW   Isopeptide bond; Membrane; Phosphoprotein; Potassium; Potassium channel;
+KW   Potassium transport; Reference proteome; Transmembrane;
+KW   Transmembrane helix; Transport; Ubl conjugation; Voltage-gated channel.
+FT   CHAIN           1..988
+FT                   /note="Voltage-gated delayed rectifier potassium channel
+FT                   KCNH5"
+FT                   /id="PRO_0000054012"
+FT   TOPO_DOM        1..217
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        218..238
+FT                   /note="Helical; Name=Segment S1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        239..243
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        244..264
+FT                   /note="Helical; Name=Segment S2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        265..291
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        292..312
+FT                   /note="Helical; Name=Segment S3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        313..319
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        320..340
+FT                   /note="Helical; Voltage-sensor; Name=Segment S4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        341..346
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        347..367
+FT                   /note="Helical; Name=Segment S5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        368..419
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   INTRAMEM        420..440
+FT                   /note="Pore-forming; Name=Segment H5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        441..446
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        447..467
+FT                   /note="Helical; Name=Segment S6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        468..988
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          14..86
+FT                   /note="PAS"
+FT   DOMAIN          91..143
+FT                   /note="PAC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00141"
+FT   REGION          704..715
+FT                   /note="Calmodulin-binding"
+FT                   /evidence="ECO:0000255"
+FT   REGION          718..742
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          839..897
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          909..948
+FT                   /note="CAD (involved in subunit assembly)"
+FT                   /evidence="ECO:0000250"
+FT   REGION          946..965
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           432..437
+FT                   /note="Selectivity filter"
+FT                   /evidence="ECO:0000250"
+FT   COMPBIAS        845..864
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        865..883
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         550..667
+FT                   /ligand="a nucleoside 3',5'-cyclic phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58464"
+FT   MOD_RES         883
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q920E3"
+FT   CARBOHYD        403
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CROSSLNK        785
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NCM2"
+FT   CONFLICT        397
+FT                   /note="G -> R (in Ref. 1; AAF19354)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   988 AA;  111830 MW;  888AE96759F64C4A CRC64;
+     MPGGKRGLVA PQNTFLENIV RRSSESSFLL GNAQIVDWPV VYSNDGFCKL SGYHRADVMQ
+     KSSTCSFMYG ELTDKKTIEK VRQTFDNYES NCFEVLLYKK NRTPVWFYMQ IAPIRNEHEK
+     VVLFLCTFKD ITLFKQPIED DSTKGWTKFA RLTRALTNSR SVLQQLTPMN KTETVHKHSR
+     LAEVLQLGSD ILPQYKQEAP KTPPHIILHY CAFKTTWDWV ILILTFYTAI MVPYNVSFKT
+     KQNNIAWLVL DSVVDVIFLV DIVLNFHTTF VGPGGEVISD PKLIRMNYLK TWFVIDLLSC
+     LPYDIINAFE NVDEGISSLF SSLKVVRLLR LGRVARKLDH YLEYGAAVLV LLVCVFGLVA
+     HWLACIWYSI GDYEVIDEVT NTIQIDSWLY QLALSIGTPY RYNTSAGIWE GGPSKDSLYV
+     SSLYFTMTSL TTIGFGNIAP TTDVEKMFSV AMMMVGSLLY ATIFGNVTTI FQQMYANTNR
+     YHEMLNNVRD FLKLYQVPKG LSERVMDYIV STWSMSKGID TEKVLSICPK DMRADICVHL
+     NRKVFNEHPA FRLASDGCLR ALAVEFQTIH CAPGDLIYHA GESVDALCFV VSGSLEVIQD
+     EEVVAILGKG DVFGDIFWKE TTLAHACANV RALTYCDLHI IKREALLKVL DFYTAFANSF
+     SRNLTLTCNL RKRIIFRKIS DVKKEEEERL RQKNEVTLSI PVDHPVRKLF QKFKQQKELR
+     NQGSAQSDPE RSQLQVESRP LQNGASITGT SVVTVSQITP IQTSLAYVKT SETLKQNNRD
+     AMELKPNGGA EPKCLKVNSP IRMKNGNGKG WLRLKNNMGA HEEKKEEWNN VTKAESMGLL
+     SEDPKGSDSE NSVTKNPLRK TDSCDSGITK SDLRLDKAGE ARSPLEHSPS QADAKHPFYP
+     IPEQALQTTL QEVKHELKED IQLLSCRMTA LEKQVAEILK LLSEKSVPQT SSPKPQIPLQ
+     VPPQIPCQDI FSVSRPESPE SDKDEINF
+//

@@ -1,0 +1,240 @@
+ID   DGAT2_RAT               Reviewed;         388 AA.
+AC   Q5FVP8; Q8K4Y4;
+DT   05-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   02-OCT-2024, entry version 121.
+DE   RecName: Full=Diacylglycerol O-acyltransferase 2 {ECO:0000305};
+DE            EC=2.3.1.20 {ECO:0000250|UniProtKB:Q96PD7};
+DE   AltName: Full=Acyl-CoA retinol O-fatty-acyltransferase;
+DE            Short=ARAT;
+DE            Short=Retinol O-fatty-acyltransferase;
+DE            EC=2.3.1.76 {ECO:0000250|UniProtKB:Q96PD7};
+DE   AltName: Full=Diglyceride acyltransferase 2;
+GN   Name=Dgat2 {ECO:0000312|RGD:620329};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 177-327.
+RC   STRAIN=Wistar; TISSUE=Liver;
+RA   Waterman I.J., Zammit V.A., Price N.T.;
+RT   "Sequencing of a partial rat DGAT2 cDNA.";
+RL   Submitted (MAY-2002) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Essential acyltransferase that catalyzes the terminal and
+CC       only committed step in triacylglycerol synthesis by using
+CC       diacylglycerol and fatty acyl CoA as substrates. Required for synthesis
+CC       and storage of intracellular triglycerides (By similarity). Probably
+CC       plays a central role in cytosolic lipid accumulation. In liver, is
+CC       primarily responsible for incorporating endogenously synthesized fatty
+CC       acids into triglycerides (By similarity). Functions also as an acyl-CoA
+CC       retinol acyltransferase (ARAT) (By similarity). Also able to use 1-
+CC       monoalkylglycerol (1-MAkG) as an acyl acceptor for the synthesis of
+CC       monoalkyl-monoacylglycerol (MAMAG) (By similarity).
+CC       {ECO:0000250|UniProtKB:Q96PD7, ECO:0000250|UniProtKB:Q9DCV3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycerol + an acyl-CoA = a triacyl-sn-glycerol
+CC         + CoA; Xref=Rhea:RHEA:10868, ChEBI:CHEBI:17815, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:58342, ChEBI:CHEBI:64615; EC=2.3.1.20;
+CC         Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:10869;
+CC         Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinol + an acyl-CoA = an all-trans-retinyl ester +
+CC         CoA; Xref=Rhea:RHEA:11488, ChEBI:CHEBI:17336, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:58342, ChEBI:CHEBI:63410; EC=2.3.1.76;
+CC         Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:11489;
+CC         Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-octadecenoyl-CoA + 2-(9Z-octadecenoyl)-glycerol = 1,2-di-
+CC         (9Z-octadecenoyl)-sn-glycerol + CoA; Xref=Rhea:RHEA:37911,
+CC         ChEBI:CHEBI:52333, ChEBI:CHEBI:57287, ChEBI:CHEBI:57387,
+CC         ChEBI:CHEBI:73990; Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:37912;
+CC         Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-octadecenoyl-CoA + 1,2-di-(9Z-octadecenoyl)-sn-glycerol =
+CC         1,2,3-tri-(9Z-octadecenoyl)-glycerol + CoA; Xref=Rhea:RHEA:38219,
+CC         ChEBI:CHEBI:52333, ChEBI:CHEBI:53753, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57387; Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38220;
+CC         Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinol + hexadecanoyl-CoA = all-trans-retinyl
+CC         hexadecanoate + CoA; Xref=Rhea:RHEA:38175, ChEBI:CHEBI:17336,
+CC         ChEBI:CHEBI:17616, ChEBI:CHEBI:57287, ChEBI:CHEBI:57379;
+CC         Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38176;
+CC         Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-octadecenoyl-CoA + 1-O-(9Z-octadecenyl)-glycerol = 1-O-
+CC         (9Z-octadecyl)-3-(9Z-octadecenoyl)-glycerol + CoA;
+CC         Xref=Rhea:RHEA:55340, ChEBI:CHEBI:34116, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57387, ChEBI:CHEBI:197429;
+CC         Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55341;
+CC         Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-octadecenoyl-CoA + 1-(9Z-octadecenoyl)-glycerol = 1,2-di-
+CC         (9Z-octadecenoyl)-glycerol + CoA; Xref=Rhea:RHEA:37915,
+CC         ChEBI:CHEBI:52323, ChEBI:CHEBI:57287, ChEBI:CHEBI:57387,
+CC         ChEBI:CHEBI:75342; Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:37916;
+CC         Evidence={ECO:0000250|UniProtKB:Q96PD7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycerol + hexadecanoyl-CoA = 1,2-
+CC         di-(9Z)-octadecenoyl-3-hexadecanoyl-sn-glycerol + CoA;
+CC         Xref=Rhea:RHEA:38163, ChEBI:CHEBI:52333, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57379, ChEBI:CHEBI:75583;
+CC         Evidence={ECO:0000250|UniProtKB:Q9DCV3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38164;
+CC         Evidence={ECO:0000250|UniProtKB:Q9DCV3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-octadecenoyl-CoA + 1,3-di-(9Z-octadecenoyl)-glycerol =
+CC         1,2,3-tri-(9Z-octadecenoyl)-glycerol + CoA; Xref=Rhea:RHEA:38435,
+CC         ChEBI:CHEBI:53753, ChEBI:CHEBI:57287, ChEBI:CHEBI:57387,
+CC         ChEBI:CHEBI:75735; Evidence={ECO:0000250|UniProtKB:Q9DCV3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38436;
+CC         Evidence={ECO:0000250|UniProtKB:Q9DCV3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-octadecenoyl-CoA + 2,3-di-(9Z)-octadecenoyl-sn-glycerol =
+CC         1,2,3-tri-(9Z-octadecenoyl)-glycerol + CoA; Xref=Rhea:RHEA:38439,
+CC         ChEBI:CHEBI:53753, ChEBI:CHEBI:57287, ChEBI:CHEBI:57387,
+CC         ChEBI:CHEBI:75824; Evidence={ECO:0000250|UniProtKB:Q9DCV3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38440;
+CC         Evidence={ECO:0000250|UniProtKB:Q9DCV3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(9Z-octadecenoyl)-glycerol + hexadecanoyl-CoA = 1-
+CC         hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + CoA;
+CC         Xref=Rhea:RHEA:38071, ChEBI:CHEBI:57287, ChEBI:CHEBI:57379,
+CC         ChEBI:CHEBI:73990, ChEBI:CHEBI:75466;
+CC         Evidence={ECO:0000250|UniProtKB:Q9DCV3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38072;
+CC         Evidence={ECO:0000250|UniProtKB:Q9DCV3};
+CC   -!- ACTIVITY REGULATION: Inhibited by niacin. {ECO:0000250}.
+CC   -!- PATHWAY: Glycerolipid metabolism; triacylglycerol biosynthesis.
+CC   -!- SUBUNIT: Forms multimeric complexes consisting of several DGAT2
+CC       subunits (By similarity). Interacts with SLC27A1 and this interaction
+CC       is enhanced in the presence of ZFYVE1 (By similarity).
+CC       {ECO:0000250|UniProtKB:Q96PD7, ECO:0000250|UniProtKB:Q9DCV3}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q96PD7}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:Q96PD7}. Lipid droplet
+CC       {ECO:0000250|UniProtKB:Q96PD7}. Cytoplasm, perinuclear region
+CC       {ECO:0000250|UniProtKB:Q96PD7}.
+CC   -!- SIMILARITY: Belongs to the diacylglycerol acyltransferase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC089846; AAH89846.1; -; mRNA.
+DR   EMBL; AJ487787; CAD32178.1; -; mRNA.
+DR   RefSeq; NP_001012345.1; NM_001012345.1.
+DR   AlphaFoldDB; Q5FVP8; -.
+DR   STRING; 10116.ENSRNOP00000022557; -.
+DR   BindingDB; Q5FVP8; -.
+DR   ChEMBL; CHEMBL4295847; -.
+DR   GuidetoPHARMACOLOGY; 3211; -.
+DR   PhosphoSitePlus; Q5FVP8; -.
+DR   PaxDb; 10116-ENSRNOP00000022557; -.
+DR   Ensembl; ENSRNOT00055053101; ENSRNOP00055043893; ENSRNOG00055030578.
+DR   Ensembl; ENSRNOT00060004308; ENSRNOP00060003018; ENSRNOG00060002691.
+DR   Ensembl; ENSRNOT00065040075; ENSRNOP00065032579; ENSRNOG00065023408.
+DR   GeneID; 252900; -.
+DR   KEGG; rno:252900; -.
+DR   UCSC; RGD:620329; rat.
+DR   AGR; RGD:620329; -.
+DR   CTD; 84649; -.
+DR   RGD; 620329; Dgat2.
+DR   VEuPathDB; HostDB:ENSRNOG00000016573; -.
+DR   eggNOG; KOG0831; Eukaryota.
+DR   HOGENOM; CLU_023995_0_1_1; -.
+DR   InParanoid; Q5FVP8; -.
+DR   OrthoDB; 601258at2759; -.
+DR   PhylomeDB; Q5FVP8; -.
+DR   TreeFam; TF314707; -.
+DR   Reactome; R-RNO-1482883; Acyl chain remodeling of DAG and TAG.
+DR   Reactome; R-RNO-75109; Triglyceride biosynthesis.
+DR   UniPathway; UPA00282; -.
+DR   PRO; PR:Q5FVP8; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000016573; Expressed in liver and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q5FVP8; baseline and differential.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0005811; C:lipid droplet; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:1990578; C:perinuclear endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISO:RGD.
+DR   GO; GO:0003846; F:2-acylglycerol O-acyltransferase activity; ISO:RGD.
+DR   GO; GO:0004144; F:diacylglycerol O-acyltransferase activity; IDA:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0050252; F:retinol O-fatty-acyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0071400; P:cellular response to oleic acid; ISO:RGD.
+DR   GO; GO:0042632; P:cholesterol homeostasis; ISO:RGD.
+DR   GO; GO:0006651; P:diacylglycerol biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0046339; P:diacylglycerol metabolic process; IMP:RGD.
+DR   GO; GO:0060613; P:fat pad development; ISO:RGD.
+DR   GO; GO:0055089; P:fatty acid homeostasis; ISO:RGD.
+DR   GO; GO:0006071; P:glycerol metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0035356; P:intracellular triglyceride homeostasis; ISO:RGD.
+DR   GO; GO:0019915; P:lipid storage; ISO:RGD.
+DR   GO; GO:0035336; P:long-chain fatty-acyl-CoA metabolic process; ISO:RGD.
+DR   GO; GO:0034383; P:low-density lipoprotein particle clearance; ISO:RGD.
+DR   GO; GO:0006640; P:monoacylglycerol biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0046322; P:negative regulation of fatty acid oxidation; IMP:RGD.
+DR   GO; GO:0045722; P:positive regulation of gluconeogenesis; IMP:RGD.
+DR   GO; GO:0010867; P:positive regulation of triglyceride biosynthetic process; IMP:RGD.
+DR   GO; GO:0090181; P:regulation of cholesterol metabolic process; IMP:RGD.
+DR   GO; GO:0050746; P:regulation of lipoprotein metabolic process; IMP:RGD.
+DR   GO; GO:0097006; P:regulation of plasma lipoprotein particle levels; ISO:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0019432; P:triglyceride biosynthetic process; ISS:UniProtKB.
+DR   CDD; cd07987; LPLAT_MGAT-like; 1.
+DR   InterPro; IPR007130; DAGAT.
+DR   PANTHER; PTHR12317; DIACYLGLYCEROL O-ACYLTRANSFERASE; 1.
+DR   PANTHER; PTHR12317:SF14; DIACYLGLYCEROL O-ACYLTRANSFERASE 2; 1.
+DR   Pfam; PF03982; DAGAT; 1.
+PE   2: Evidence at transcript level;
+KW   Acyltransferase; Cytoplasm; Endoplasmic reticulum; Glycerol metabolism;
+KW   Lipid biosynthesis; Lipid droplet; Lipid metabolism; Membrane;
+KW   Reference proteome; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..388
+FT                   /note="Diacylglycerol O-acyltransferase 2"
+FT                   /id="PRO_0000249047"
+FT   TOPO_DOM        1..69
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        70..88
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        89..92
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        93..112
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        113..388
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   388 AA;  43795 MW;  04DCBB134206F78D CRC64;
+     MKTLIAAYSG VLRGERRAEA ARSENKNKGS ALSREGSGRW GTGSSILSAL QDIFSVTWLN
+     RSKVEKHLQV ISVLQWVLSF LVLGVACSVI LMYTFCTDCW LIAALYFTWL AFDWNTPKKG
+     GRRSQWVRNW AVWRYFRDYF PIQLVKTHNL LTTRNYIFGY HPHGIMGLGA FCNFSTEATE
+     VSKKFPGIRP YLATLAGNFR MPVLREYLMS GGICPVNRDT IDYLLSKNGS GNAIVIVVGG
+     AAESLSSMPG KNAVTLRNRK GFVKLALRHG ADLVPTYSFG ENEVYKQVIF EEGSWGRWVQ
+     KKFQKYIGFA PCIFHGRGLF SSDTWGLVPY SKPITTVVGE PITVPKLEHP TQKDIDLYHT
+     MYMEALVKLF DNHKTKFGLP ETEVLEVN
+//

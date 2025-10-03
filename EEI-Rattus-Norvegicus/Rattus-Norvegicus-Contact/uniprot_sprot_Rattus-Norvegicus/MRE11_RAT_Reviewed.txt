@@ -1,0 +1,394 @@
+ID   MRE11_RAT               Reviewed;         706 AA.
+AC   Q9JIM0;
+DT   26-SEP-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   02-OCT-2024, entry version 155.
+DE   RecName: Full=Double-strand break repair protein MRE11;
+DE            EC=3.1.-.- {ECO:0000250|UniProtKB:P49959};
+DE   AltName: Full=Double-strand break repair protein MRE11A;
+DE   AltName: Full=Meiotic recombination 11 homolog 1;
+DE            Short=MRE11 homolog 1;
+DE   AltName: Full=Meiotic recombination 11 homolog A;
+DE            Short=MRE11 homolog A;
+GN   Name=Mre11; Synonyms=Mre11a;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=10908350; DOI=10.1093/nar/28.15.2882;
+RA   Lanson N.A. Jr., Egeland D.B., Royals B.A., Claycomb W.C.;
+RT   "The MRE11-NBS1-RAD50 pathway is perturbed in SV40 large T antigen-
+RT   immortalized AT-1, AT-2 and HL-1 cardiomyocytes.";
+RL   Nucleic Acids Res. 28:2882-2892(2000).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-686, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Core component of the MRN complex, which plays a central role
+CC       in double-strand break (DSB) repair, DNA recombination, maintenance of
+CC       telomere integrity and meiosis. The MRN complex is involved in the
+CC       repair of DNA double-strand breaks (DSBs) via homologous recombination
+CC       (HR), an error-free mechanism which primarily occurs during S and G2
+CC       phases. The complex (1) mediates the end resection of damaged DNA,
+CC       which generates proper single-stranded DNA, a key initial steps in HR,
+CC       and is (2) required for the recruitment of other repair factors and
+CC       efficient activation of ATM and ATR upon DNA damage. Within the MRN
+CC       complex, MRE11 possesses both single-strand endonuclease activity and
+CC       double-strand-specific 3'-5' exonuclease activity. After DSBs, MRE11 is
+CC       loaded onto DSBs sites and cleaves DNA by cooperating with RBBP8/CtIP
+CC       to initiate end resection. MRE11 first endonucleolytically cleaves the
+CC       5' strand at DNA DSB ends to prevent non-homologous end joining (NHEJ)
+CC       and licence HR. It then generates a single-stranded DNA gap via 3' to
+CC       5' exonucleolytic degradation to create entry sites for EXO1- and DNA2-
+CC       mediated 5' to 3' long-range resection, which is required for single-
+CC       strand invasion and recombination. RBBP8/CtIP specifically promotes the
+CC       endonuclease activity of MRE11 to clear protein-DNA adducts and
+CC       generate clean double-strand break ends. The MRN complex is also
+CC       required for DNA damage signaling via activation of the ATM and ATR
+CC       kinases: the nuclease activity of MRE11 is not required to activate ATM
+CC       and ATR. The MRN complex is also required for the processing of R-loops
+CC       (By similarity). The MRN complex is involved in the activation of the
+CC       cGAS-STING pathway induced by DNA damage during tumorigenesis: the MRN
+CC       complex acts by displacing CGAS from nucleosome sequestration, thereby
+CC       activating it (By similarity). In telomeres the MRN complex may
+CC       modulate t-loop formation (By similarity).
+CC       {ECO:0000250|UniProtKB:P49959, ECO:0000250|UniProtKB:Q61216}.
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:P49959};
+CC   -!- ACTIVITY REGULATION: Interaction with SAMHD1 stimulates the double-
+CC       strand-specific 3'-5' exonuclease activity. RBBP8/CtIP specifically
+CC       promotes the endonuclease activity to clear protein-DNA adducts and
+CC       generate clean double-strand break ends. DYNLL1-binding inhibits the
+CC       activity of MRE11. MRE11 activity is inhibited by C1QBP: in absence of
+CC       DNA damage, C1QBP interacts with unphosphorylated MRE11, preventing
+CC       formation and activity of the MRN complex.
+CC       {ECO:0000250|UniProtKB:P49959}.
+CC   -!- SUBUNIT: Component of the MRN complex composed of two heterodimers
+CC       RAD50 and MRE11 associated with a single NBN. The MRN complexes
+CC       dimerize on DNA to form joined MRN-MRN oligomers required for DNA
+CC       double-strand break repair. As part of the MRN complex, interacts with
+CC       MCM9; the interaction recruits the complex to DNA repair sites.
+CC       Component of the BASC complex, at least composed of BRCA1, MSH2, MSH6,
+CC       MLH1, ATM, BLM, RAD50, MRE11 and NBN. Found in a complex with TERF2.
+CC       Interacts with DCLRE1C/Artemis and DCLRE1B/Apollo. Interacts with ATF2.
+CC       Interacts with EXD2. Interacts with MRNIP. Interacts with SAMHD1;
+CC       leading to stimulate 3'-5' exonuclease activity. Interacts (when
+CC       ubiquitinated) with UBQLN4 (via its UBA domain) (By similarity).
+CC       Interacts with CYREN (via XLF motif) (By similarity). Interacts with
+CC       GFI1; promoting methylation by PRMT1. Interacts with DYNLL1; inhibiting
+CC       the activity of MRE11. Interacts with C1QBP and RAD50; interaction
+CC       takes place in absence of DNA damage to form the MRC (MRE11-RAD50-
+CC       C1QBP) complex that inhibits the activity of MRE11 (By similarity).
+CC       {ECO:0000250|UniProtKB:P49959, ECO:0000250|UniProtKB:Q61216}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:P49959}.
+CC       Chromosome {ECO:0000250|UniProtKB:P49959}. Chromosome, telomere
+CC       {ECO:0000250|UniProtKB:P49959}. Note=Localizes to DNA double-strand
+CC       breaks (DSBs). {ECO:0000250|UniProtKB:P49959}.
+CC   -!- PTM: Phosphorylated by ATM at Ser-674 and Ser-676 in response to DNA
+CC       damage, promoting MRE11 activity: phosphorylation activates MRE11 by
+CC       preventing the interaction between MRE11 and the C1QBP inhibitor (By
+CC       similarity). Phosphorylation at Ser-648 by PLK1 primes for
+CC       phosphorylation at Ser-686 by CK2, inhibiting recruitment of the MRN
+CC       complex to DNA damage sites (By similarity).
+CC       {ECO:0000250|UniProtKB:P49959}.
+CC   -!- PTM: Asymmetric dimethylation by PRMT1 promotes MRE11 exonuclease
+CC       activity. {ECO:0000250|UniProtKB:P49959}.
+CC   -!- PTM: Lactylation at Lys-671 by CREBBP/CBP in response to DNA damage
+CC       promotes DNA binding and MRE11 activity.
+CC       {ECO:0000250|UniProtKB:P49959}.
+CC   -!- PTM: Acetylated on lysine residues by KAT2A /GCN5.
+CC       {ECO:0000250|UniProtKB:P49959}.
+CC   -!- PTM: Ubiquitinated following DNA damage. Ubiquitination triggers
+CC       interaction with UBQLN4, leading to MRE11 removal from chromatin and
+CC       degradation by the proteasome. Ubiquitinated at Lys-339 and Lys-481 by
+CC       RNF126 via 'Lys-27'- and 'Lys-29'-linked polyubiquitin chains,
+CC       promoting the exonuclease activity of MRE11.
+CC       {ECO:0000250|UniProtKB:P49959}.
+CC   -!- PTM: SUMOylated by PIAS1, stabilizing MRE11 on chromatin during end
+CC       resection. DeSUMOylated by SENP3 following removal from DNA double-
+CC       strand breaks (DSBs). {ECO:0000250|UniProtKB:P49959}.
+CC   -!- PTM: Ufmylation at Lys-282 promotes MRE11 activity and is required for
+CC       activation of the ATM and ATR kinases by the MRN complex.
+CC       {ECO:0000250|UniProtKB:P49959}.
+CC   -!- SIMILARITY: Belongs to the MRE11/RAD32 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF218574; AAF91227.1; -; mRNA.
+DR   RefSeq; NP_071615.1; NM_022279.1.
+DR   AlphaFoldDB; Q9JIM0; -.
+DR   SMR; Q9JIM0; -.
+DR   STRING; 10116.ENSRNOP00000012940; -.
+DR   iPTMnet; Q9JIM0; -.
+DR   PhosphoSitePlus; Q9JIM0; -.
+DR   jPOST; Q9JIM0; -.
+DR   PaxDb; 10116-ENSRNOP00000012940; -.
+DR   GeneID; 64046; -.
+DR   KEGG; rno:64046; -.
+DR   UCSC; RGD:69263; rat.
+DR   AGR; RGD:69263; -.
+DR   CTD; 4361; -.
+DR   RGD; 69263; Mre11.
+DR   eggNOG; KOG2310; Eukaryota.
+DR   InParanoid; Q9JIM0; -.
+DR   OrthoDB; 169704at2759; -.
+DR   PhylomeDB; Q9JIM0; -.
+DR   Reactome; R-RNO-1834949; Cytosolic sensors of pathogen-associated DNA.
+DR   Reactome; R-RNO-2559586; DNA Damage/Telomere Stress Induced Senescence.
+DR   Reactome; R-RNO-5685938; HDR through Single Strand Annealing (SSA).
+DR   Reactome; R-RNO-5685939; HDR through MMEJ (alt-NHEJ).
+DR   Reactome; R-RNO-5685942; HDR through Homologous Recombination (HRR).
+DR   Reactome; R-RNO-5693548; Sensing of DNA Double Strand Breaks.
+DR   Reactome; R-RNO-5693565; Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks.
+DR   Reactome; R-RNO-5693568; Resolution of D-loop Structures through Holliday Junction Intermediates.
+DR   Reactome; R-RNO-5693571; Nonhomologous End-Joining (NHEJ).
+DR   Reactome; R-RNO-5693579; Homologous DNA Pairing and Strand Exchange.
+DR   Reactome; R-RNO-5693607; Processing of DNA double-strand break ends.
+DR   Reactome; R-RNO-5693616; Presynaptic phase of homologous DNA pairing and strand exchange.
+DR   Reactome; R-RNO-6804756; Regulation of TP53 Activity through Phosphorylation.
+DR   Reactome; R-RNO-69473; G2/M DNA damage checkpoint.
+DR   PRO; PR:Q9JIM0; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0070533; C:BRCA1-C complex; ISO:RGD.
+DR   GO; GO:0000785; C:chromatin; IDA:RGD.
+DR   GO; GO:0000781; C:chromosome, telomeric region; ISO:RGD.
+DR   GO; GO:0000794; C:condensed nuclear chromosome; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0030870; C:Mre11 complex; ISS:UniProtKB.
+DR   GO; GO:0005654; C:nucleoplasm; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:RGD.
+DR   GO; GO:0016605; C:PML body; ISO:RGD.
+DR   GO; GO:0005657; C:replication fork; ISS:UniProtKB.
+DR   GO; GO:0035861; C:site of double-strand break; ISS:UniProtKB.
+DR   GO; GO:0008408; F:3'-5' exonuclease activity; ISS:UniProtKB.
+DR   GO; GO:0008296; F:3'-5'-DNA exonuclease activity; ISO:RGD.
+DR   GO; GO:0004520; F:DNA endonuclease activity; ISS:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:InterPro.
+DR   GO; GO:0004518; F:nuclease activity; ISO:RGD.
+DR   GO; GO:0000014; F:single-stranded DNA endodeoxyribonuclease activity; ISO:RGD.
+DR   GO; GO:0008283; P:cell population proliferation; ISO:RGD.
+DR   GO; GO:0051276; P:chromosome organization; ISO:RGD.
+DR   GO; GO:0006974; P:DNA damage response; ISS:UniProtKB.
+DR   GO; GO:0000729; P:DNA double-strand break processing; ISO:RGD.
+DR   GO; GO:0032508; P:DNA duplex unwinding; ISO:RGD.
+DR   GO; GO:0110025; P:DNA strand resection involved in replication fork processing; ISS:UniProtKB.
+DR   GO; GO:0006302; P:double-strand break repair; ISO:RGD.
+DR   GO; GO:0000724; P:double-strand break repair via homologous recombination; ISS:UniProtKB.
+DR   GO; GO:0006303; P:double-strand break repair via nonhomologous end joining; ISS:UniProtKB.
+DR   GO; GO:0007507; P:heart development; IEP:RGD.
+DR   GO; GO:0007129; P:homologous chromosome pairing at meiosis; ISO:RGD.
+DR   GO; GO:0042138; P:meiotic DNA double-strand break formation; IBA:GO_Central.
+DR   GO; GO:0097552; P:mitochondrial double-strand break repair via homologous recombination; IBA:GO_Central.
+DR   GO; GO:0007095; P:mitotic G2 DNA damage checkpoint signaling; ISO:RGD.
+DR   GO; GO:0031573; P:mitotic intra-S DNA damage checkpoint signaling; ISO:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:2001033; P:negative regulation of double-strand break repair via nonhomologous end joining; ISS:UniProtKB.
+DR   GO; GO:0046597; P:negative regulation of viral entry into host cell; IMP:RGD.
+DR   GO; GO:0031954; P:positive regulation of protein autophosphorylation; ISO:RGD.
+DR   GO; GO:0032206; P:positive regulation of telomere maintenance; ISO:RGD.
+DR   GO; GO:0062176; P:R-loop processing; ISS:UniProtKB.
+DR   GO; GO:0007062; P:sister chromatid cohesion; ISO:RGD.
+DR   GO; GO:0000723; P:telomere maintenance; IBA:GO_Central.
+DR   GO; GO:0031860; P:telomeric 3' overhang formation; ISO:RGD.
+DR   CDD; cd00840; MPP_Mre11_N; 1.
+DR   Gene3D; 3.60.21.10; -; 1.
+DR   Gene3D; 3.30.110.110; Mre11, capping domain; 1.
+DR   InterPro; IPR004843; Calcineurin-like_PHP_ApaH.
+DR   InterPro; IPR029052; Metallo-depent_PP-like.
+DR   InterPro; IPR003701; Mre11.
+DR   InterPro; IPR038487; Mre11_capping_dom.
+DR   InterPro; IPR007281; Mre11_DNA-bd.
+DR   InterPro; IPR041796; Mre11_N.
+DR   NCBIfam; TIGR00583; mre11; 1.
+DR   PANTHER; PTHR10139; DOUBLE-STRAND BREAK REPAIR PROTEIN MRE11; 1.
+DR   PANTHER; PTHR10139:SF1; DOUBLE-STRAND BREAK REPAIR PROTEIN MRE11; 1.
+DR   Pfam; PF00149; Metallophos; 1.
+DR   Pfam; PF04152; Mre11_DNA_bind; 1.
+DR   PIRSF; PIRSF000882; DSB_repair_MRE11; 1.
+DR   SMART; SM01347; Mre11_DNA_bind; 1.
+DR   SUPFAM; SSF56300; Metallo-dependent phosphatases; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Chromosome; DNA damage; DNA repair; Endonuclease; Exonuclease;
+KW   Hydrolase; Isopeptide bond; Manganese; Meiosis; Metal-binding; Methylation;
+KW   Nuclease; Nucleus; Phosphoprotein; Reference proteome; Telomere;
+KW   Ubl conjugation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   CHAIN           2..706
+FT                   /note="Double-strand break repair protein MRE11"
+FT                   /id="PRO_0000138675"
+FT   REGION          87..117
+FT                   /note="Interaction with NBN"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   REGION          505..706
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           570..594
+FT                   /note="GAR"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   COMPBIAS        505..528
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        529..549
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        584..641
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        658..681
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        129
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q61216"
+FT   BINDING         20
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   BINDING         22
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   BINDING         60
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   BINDING         60
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   BINDING         128
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   BINDING         217
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   BINDING         245
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   BINDING         247
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         2
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q61216"
+FT   MOD_RES         275
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         570
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         572
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         574
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         576
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         577
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         580
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         587
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         592
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         594
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         618
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         640
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q61216"
+FT   MOD_RES         648
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         671
+FT                   /note="N6-lactoyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         674
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         676
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   MOD_RES         686
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         699
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   CROSSLNK        282
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in UFM1)"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   CROSSLNK        339
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   CROSSLNK        384
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO)"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   CROSSLNK        416
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   CROSSLNK        468
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO)"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+FT   CROSSLNK        481
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:P49959"
+SQ   SEQUENCE   706 AA;  80122 MW;  0183A41BC015FDA0 CRC64;
+     MSPTDPLDDE DTFKILVATD IHLGFMEKDA VRGNDTFVTF DEILRLALEN EVDFILLGGD
+     LFHENKPSRK TLHSCLELLR KYCMGDRPVQ FEIISDQSVN FGFSKFPWVN YRDGNLNISI
+     PVFSIHGNHD DPTGADALCA LDVLSCAGFV NHFGRSMSVE KVDISPVLLQ KGSTKLALYG
+     LGSIPDERLY RMFVNKKVTM LRPKEDENSW FNLFVIHQNR SKHGSTNFIP EQFLDDFIDL
+     VIWGHEHECK IGPTRNEQQL FYVSQPGSSV VTALSPGETV KKHVGLLRVK GRKMNMQKLP
+     LRTVRQFFME DVVLANHPSL FNPDNPKVTQ AIQSFCLEKI EEMLDSAERE RLGNPQQPEK
+     PLIRLRVDYS GGFEPFNVLR FSQKFVDRVA NPKDVIHFFR HREQKGKTGE EINFGKLIIK
+     PASEGTTLRV EDLVKQYFQT AEKNVQLSLL TERGMGEAVQ EFVDKEEKDA IEELVKYQLE
+     KTQRFLKERH IDALEDKIDE EVRRFRESRQ RNTNEEDDEV REAMSRARAL RSQSENAASA
+     FSADDLSFDI TEQTADDSDD SQSAVPSRGR GRGRGRRGGR GQSTAPRGGS QRGRDTGLGI
+     STRGRSSKAT ASTSRNMSII DAFRSTRQQP SRNVATKNYS ETIEVDESDD DDSFPTSSRA
+     DQRWSGTAPS KRMSQSQTAK GVDFESDEDD DDDPFMSGSC PRRNRR
+//

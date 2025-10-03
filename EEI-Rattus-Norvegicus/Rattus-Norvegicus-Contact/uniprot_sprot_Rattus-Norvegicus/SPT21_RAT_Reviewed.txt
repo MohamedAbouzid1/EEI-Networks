@@ -1,0 +1,153 @@
+ID   SPT21_RAT               Reviewed;         685 AA.
+AC   Q68A65;
+DT   29-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   29-MAY-2024, entry version 112.
+DE   RecName: Full=Spermatogenesis-associated protein 21;
+DE   AltName: Full=Spermatogenic cell-specific gene 3 protein;
+DE            Short=Spergen-3;
+GN   Name=Spata21; Synonyms=Spergen3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND FUNCTION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Testis;
+RX   PubMed=15477360; DOI=10.1002/j.1939-4640.2004.tb03158.x;
+RA   Iida H., Yamashita H., Doiguchi M., Kaneko T.;
+RT   "Molecular cloning of rat Spergen-3, a spermatogenic cell-specific gene-3,
+RT   encoding a novel 75-kDa protein bearing EF-hand motifs.";
+RL   J. Androl. 25:885-892(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Involved in the differentiation of haploid spermatids.
+CC       {ECO:0000269|PubMed:15477360}.
+CC   -!- TISSUE SPECIFICITY: Expressed in testis. Exclusively expressed in
+CC       haploid spermatids and very weakly in spermatogonia, spermatocytes, and
+CC       Sertoli cells as well as in interstitial cell.
+CC       {ECO:0000269|PubMed:15477360}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB168097; BAD42380.1; -; mRNA.
+DR   EMBL; BC089089; AAH89089.1; -; mRNA.
+DR   RefSeq; NP_001004447.1; NM_001004447.1.
+DR   RefSeq; XP_008762499.1; XM_008764277.2.
+DR   RefSeq; XP_017449036.1; XM_017593547.1.
+DR   AlphaFoldDB; Q68A65; -.
+DR   STRING; 10116.ENSRNOP00000012147; -.
+DR   iPTMnet; Q68A65; -.
+DR   PhosphoSitePlus; Q68A65; -.
+DR   PaxDb; 10116-ENSRNOP00000012147; -.
+DR   Ensembl; ENSRNOT00000012147.5; ENSRNOP00000012147.3; ENSRNOG00000009058.7.
+DR   Ensembl; ENSRNOT00055038893; ENSRNOP00055031568; ENSRNOG00055022678.
+DR   Ensembl; ENSRNOT00060032641; ENSRNOP00060026643; ENSRNOG00060018900.
+DR   Ensembl; ENSRNOT00065043691; ENSRNOP00065035860; ENSRNOG00065025355.
+DR   GeneID; 366491; -.
+DR   KEGG; rno:366491; -.
+DR   AGR; RGD:1302954; -.
+DR   CTD; 374955; -.
+DR   RGD; 1302954; Spata21.
+DR   eggNOG; KOG0027; Eukaryota.
+DR   GeneTree; ENSGT00940000162494; -.
+DR   HOGENOM; CLU_028005_0_0_1; -.
+DR   InParanoid; Q68A65; -.
+DR   OMA; PCIPLYP; -.
+DR   OrthoDB; 5262563at2759; -.
+DR   PhylomeDB; Q68A65; -.
+DR   TreeFam; TF328393; -.
+DR   PRO; PR:Q68A65; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   Bgee; ENSRNOG00000009058; Expressed in testis and 2 other cell types or tissues.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   CDD; cd00051; EFh; 1.
+DR   Gene3D; 1.10.238.10; EF-hand; 1.
+DR   InterPro; IPR011992; EF-hand-dom_pair.
+DR   InterPro; IPR018247; EF_Hand_1_Ca_BS.
+DR   InterPro; IPR002048; EF_hand_dom.
+DR   InterPro; IPR043520; SPT21.
+DR   PANTHER; PTHR47500; EF-HAND CALCIUM-BINDING DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR47500:SF1; SPERMATOGENESIS-ASSOCIATED PROTEIN 21; 1.
+DR   SMART; SM00054; EFh; 1.
+DR   SUPFAM; SSF47473; EF-hand; 1.
+DR   SUPFAM; SSF101447; Formin homology 2 domain (FH2 domain); 1.
+DR   PROSITE; PS00018; EF_HAND_1; 1.
+DR   PROSITE; PS50222; EF_HAND_2; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Metal-binding; Reference proteome.
+FT   CHAIN           1..685
+FT                   /note="Spermatogenesis-associated protein 21"
+FT                   /id="PRO_0000330689"
+FT   DOMAIN          468..503
+FT                   /note="EF-hand"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   REGION          1..289
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          302..385
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          656..685
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        12..30
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        47..73
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        74..110
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        123..179
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        239..255
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        317..334
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         481
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         483
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         485
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         487
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         492
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+SQ   SEQUENCE   685 AA;  75826 MW;  6406A77B30605668 CRC64;
+     MENRNTHTHP ENKAEAPTVQ SSSGLSSTKK KTDLEAAVAA GQNGRADATE RDSRKKPAAP
+     RGPEKEPRHT ASSQERSGEP QTQEQRPSAR SKTTQDGPRE LQTGQEQARP SGDFVASEGR
+     PQPAMQTKDQ QKRWQSAEAK DVQSTESCQG NTDHDLGKPC TSDSRSHPQK TNSLSEGGRP
+     QARLQEPMPA PSSGTHKDNP QEAVPPKPKV TAEEKKAPPV LPTVPRTHKD RGEAVESKAS
+     PRPPPPPPSP PPPPPPEERD VEKKELGQGQ KQRQPALAAA GTQGPGNFRR GFMKCLLEVE
+     EQEEATHRRT LKSRALTARR SPKTVTSVPT SGPVNSSVPP LPPTLHEPST SAPATVPSWV
+     KPPAPGQAPI PMGTPSSVLP TPAQDQSWRW PELLPQGNER NLNYAKTRQE SEEHGLFKLY
+     QNWEERTEEH LTLKQEEAFR SYFDIFNGPG EVDARSLKNI LLLIGFTFTP AQVEEALMSA
+     DVNGDGHVDF KDFLAVMTDT KRFFCSVEQN VLMDMSPPNP YTLFFEILSL LVEMLALPEV
+     ALEEITNYYQ KKLKEGSSKA REMETAMGGI RQRKKIPYSS QQVENLEVPE RRVLRILSRL
+     KQQNYAANLQ SPYAQVPCIP LCPRLDKKAV RRKQASHNHS VLDQCVPTSL GPDLHGFFLQ
+     PGQQGSREHS SDSRKWLSSV PARTH
+//

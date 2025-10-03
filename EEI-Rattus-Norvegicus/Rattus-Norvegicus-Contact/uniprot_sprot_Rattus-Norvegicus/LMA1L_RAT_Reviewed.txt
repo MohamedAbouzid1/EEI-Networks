@@ -1,0 +1,111 @@
+ID   LMA1L_RAT               Reviewed;         503 AA.
+AC   Q5FB95;
+DT   05-OCT-2010, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   02-OCT-2024, entry version 93.
+DE   RecName: Full=Protein ERGIC-53-like;
+DE   AltName: Full=ERGIC53-like protein;
+DE   AltName: Full=Lectin mannose-binding 1-like;
+DE            Short=LMAN1-like protein;
+DE   AltName: Full=Sublingual acinar membrane protein;
+DE            Short=Slamp;
+DE   Flags: Precursor;
+GN   Name=Lman1l; Synonyms=Ergl;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=15923361; DOI=10.1369/jhc.5a6618.2005;
+RA   Sakulsak N., Wakayama T., Hipkaeo W., Yamamoto M., Iseki S.;
+RT   "Cloning and characterization of a novel animal lectin expressed in the rat
+RT   sublingual gland.";
+RL   J. Histochem. Cytochem. 53:1335-1343(2005).
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum-Golgi intermediate
+CC       compartment membrane {ECO:0000269|PubMed:15923361}; Single-pass type I
+CC       membrane protein {ECO:0000269|PubMed:15923361}.
+CC   -!- TISSUE SPECIFICITY: Predominantly expressed in the sublingual salivary
+CC       gland, in the mucous cells of the acini, but not in the serous cells,
+CC       nor in the duct system (at protein level). Not detected in the
+CC       submandilar, nor the parotid glands. Expressed in the mucous glands,
+CC       but not detected in the serous glands (at protein level). Besides the
+CC       salivary glands, expressed in the Brunner's glands in the duodenum, but
+CC       no other mucous or serous glands (at protein level).
+CC       {ECO:0000269|PubMed:15923361}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB188302; BAD89864.1; -; mRNA.
+DR   RefSeq; NP_001012483.1; NM_001012465.1.
+DR   AlphaFoldDB; Q5FB95; -.
+DR   SMR; Q5FB95; -.
+DR   STRING; 10116.ENSRNOP00000026192; -.
+DR   PhosphoSitePlus; Q5FB95; -.
+DR   PaxDb; 10116-ENSRNOP00000026192; -.
+DR   GeneID; 300743; -.
+DR   KEGG; rno:300743; -.
+DR   UCSC; RGD:1310538; rat.
+DR   AGR; RGD:1310538; -.
+DR   CTD; 79748; -.
+DR   RGD; 1310538; Lman1l.
+DR   eggNOG; KOG3838; Eukaryota.
+DR   InParanoid; Q5FB95; -.
+DR   OrthoDB; 5264242at2759; -.
+DR   PhylomeDB; Q5FB95; -.
+DR   Reactome; R-RNO-204005; COPII-mediated vesicle transport.
+DR   Reactome; R-RNO-5694530; Cargo concentration in the ER.
+DR   PRO; PR:Q5FB95; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030134; C:COPII-coated ER to Golgi transport vesicle; IBA:GO_Central.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IBA:GO_Central.
+DR   GO; GO:0005793; C:endoplasmic reticulum-Golgi intermediate compartment; IBA:GO_Central.
+DR   GO; GO:0033116; C:endoplasmic reticulum-Golgi intermediate compartment membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000139; C:Golgi membrane; IBA:GO_Central.
+DR   GO; GO:0005537; F:D-mannose binding; IBA:GO_Central.
+DR   GO; GO:0006888; P:endoplasmic reticulum to Golgi vesicle-mediated transport; IBA:GO_Central.
+DR   CDD; cd06902; lectin_ERGIC-53_ERGL; 1.
+DR   Gene3D; 2.60.120.200; -; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR051136; Intracellular_Lectin-GPT.
+DR   InterPro; IPR005052; Lectin_leg.
+DR   PANTHER; PTHR12223:SF31; PROTEIN ERGIC-53-LIKE; 1.
+DR   PANTHER; PTHR12223; VESICULAR MANNOSE-BINDING LECTIN; 1.
+DR   Pfam; PF03388; Lectin_leg-like; 1.
+DR   SUPFAM; SSF49899; Concanavalin A-like lectins/glucanases; 1.
+DR   PROSITE; PS51328; L_LECTIN_LIKE; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Lectin; Membrane; Reference proteome; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..503
+FT                   /note="Protein ERGIC-53-like"
+FT                   /id="PRO_0000398824"
+FT   TOPO_DOM        26..439
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        440..460
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        461..503
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          32..253
+FT                   /note="L-type lectin-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658"
+FT   DISULFID        177..216
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00658"
+SQ   SEQUENCE   503 AA;  56321 MW;  28DB6642FF052DD1 CRC64;
+     MLKTGGLSPS LCLLSLLLAL HSAERSYPPP QRRFEYKLSF KGPRLAVPGA GIPFWSHHGD
+     AIPGLEEVRL VPSMKNRSGA VWSEISVSFP SWEVEMQMRV TGPGRRGALG VAMWYTKDRD
+     QVGSVVEGLA SWDGIGIYFD SSSNDVQNGP AIRVLASDGH DLQEQFGDGT VRELGSCLRD
+     FRNRPHPFRA RITYWRQRLR VSLSGGLTPN DPEEVCVDVE PLLLAPGGFF GVSAATSTLA
+     DDHDVLSFLT FSLRDPGSEE ALQPFTEKEQ FHLARKLEEL KARLALGTRE DTILPLNSKA
+     QEEGERFFNL EDTLSRQSQI LQALQALSRQ MDQAEKQWKQ QLGSVVQIRP EGGWNTAKVS
+     TLLYGQRTLI QALQEMREAA AQMASGAQVF YLPVGTKHHF FELDQTLGLL QKDLRDLVKM
+     TAKPPRPSGW LPGFSTCLRT SIFLFFLLIQ TVGFFCYMNF RQELDKRLQE YLFTESISLQ
+     PALPIPRTIG VLRRQPVSPS MQA
+//

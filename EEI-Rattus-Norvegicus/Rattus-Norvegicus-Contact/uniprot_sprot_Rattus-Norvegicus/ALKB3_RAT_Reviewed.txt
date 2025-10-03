@@ -1,0 +1,227 @@
+ID   ALKB3_RAT               Reviewed;         295 AA.
+AC   Q5XIC8;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   02-OCT-2024, entry version 129.
+DE   RecName: Full=Alpha-ketoglutarate-dependent dioxygenase alkB homolog 3 {ECO:0000250|UniProtKB:Q96Q83};
+DE            EC=1.14.11.33 {ECO:0000250|UniProtKB:Q96Q83};
+DE            EC=1.14.11.54 {ECO:0000250|UniProtKB:Q96Q83};
+DE   AltName: Full=Alkylated DNA repair protein alkB homolog 3 {ECO:0000250|UniProtKB:Q96Q83};
+GN   Name=Alkbh3 {ECO:0000250|UniProtKB:Q96Q83};
+GN   Synonyms=Abh3 {ECO:0000250|UniProtKB:Q96Q83};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Dioxygenase that mediates demethylation of DNA and RNA
+CC       containing 1-methyladenosine (m1A). Repairs alkylated DNA containing 1-
+CC       methyladenosine (m1A) and 3-methylcytosine (m3C) by oxidative
+CC       demethylation. Has a strong preference for single-stranded DNA. Able to
+CC       process alkylated m3C within double-stranded regions via its
+CC       interaction with ASCC3, which promotes DNA unwinding to generate
+CC       single-stranded substrate needed for ALKBH3. Can repair exocyclic 3,N4-
+CC       ethenocytosine adducs in single-stranded DNA. Also acts on RNA.
+CC       Demethylates N(1)-methyladenosine (m1A) RNA, an epigenetic internal
+CC       modification of messenger RNAs (mRNAs) highly enriched within 5'-
+CC       untranslated regions (UTRs) and in the vicinity of start codons.
+CC       Requires molecular oxygen, alpha-ketoglutarate and iron.
+CC       {ECO:0000250|UniProtKB:Q96Q83}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + an N(1)-methyladenosine in mRNA + O2 = an
+CC         adenosine in mRNA + CO2 + formaldehyde + succinate;
+CC         Xref=Rhea:RHEA:49516, Rhea:RHEA-COMP:12414, Rhea:RHEA-COMP:12415,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:16842, ChEBI:CHEBI:30031, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74491; EC=1.14.11.54;
+CC         Evidence={ECO:0000250|UniProtKB:Q96Q83};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + a methylated nucleobase within DNA + O2 = a
+CC         nucleobase within DNA + CO2 + formaldehyde + succinate;
+CC         Xref=Rhea:RHEA:30299, Rhea:RHEA-COMP:12192, Rhea:RHEA-COMP:12193,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:16842, ChEBI:CHEBI:30031, ChEBI:CHEBI:32875,
+CC         ChEBI:CHEBI:64428; EC=1.14.11.33;
+CC         Evidence={ECO:0000250|UniProtKB:Q96Q83};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:30300;
+CC         Evidence={ECO:0000250|UniProtKB:Q96Q83};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + an N(1)-methyl-2'-deoxyadenosine in single-
+CC         stranded DNA + O2 = a 2'-deoxyadenosine in single-stranded DNA + CO2
+CC         + formaldehyde + H(+) + succinate; Xref=Rhea:RHEA:70447, Rhea:RHEA-
+CC         COMP:17895, Rhea:RHEA-COMP:17896, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:16842, ChEBI:CHEBI:30031, ChEBI:CHEBI:90615,
+CC         ChEBI:CHEBI:139096; Evidence={ECO:0000250|UniProtKB:Q96Q83};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70448;
+CC         Evidence={ECO:0000250|UniProtKB:Q96Q83};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + an N(3)-methyl-2'-deoxycytidine in single-
+CC         stranded DNA + O2 = a 2'-deoxycytidine in single-stranded DNA + CO2 +
+CC         formaldehyde + H(+) + succinate; Xref=Rhea:RHEA:70435, Rhea:RHEA-
+CC         COMP:12846, Rhea:RHEA-COMP:17894, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:16842, ChEBI:CHEBI:30031, ChEBI:CHEBI:85452,
+CC         ChEBI:CHEBI:139075; Evidence={ECO:0000250|UniProtKB:Q96Q83};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70436;
+CC         Evidence={ECO:0000250|UniProtKB:Q96Q83};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + a 3,N(4)-etheno-2'-deoxycytidine in single-
+CC         stranded DNA + H2O + O2 = a 2'-deoxycytidine in single-stranded DNA +
+CC         CO2 + glyoxal + succinate; Xref=Rhea:RHEA:70471, Rhea:RHEA-
+CC         COMP:12846, Rhea:RHEA-COMP:17906, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:34779, ChEBI:CHEBI:85452,
+CC         ChEBI:CHEBI:189585; Evidence={ECO:0000250|UniProtKB:Q96Q83};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70472;
+CC         Evidence={ECO:0000250|UniProtKB:Q96Q83};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000250|UniProtKB:Q96Q83};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250|UniProtKB:Q96Q83};
+CC   -!- ACTIVITY REGULATION: Activated by ascorbate.
+CC       {ECO:0000250|UniProtKB:Q96Q83}.
+CC   -!- SUBUNIT: Interacts with the ASCC complex composed of ASCC1, ASCC2 and
+CC       ASCC3. Interacts directly with ASCC3, and is thereby recruited to the
+CC       ASCC complex. Interacts with OTUD4; the interaction is direct.
+CC       Interacts with USP7 and USP9X. {ECO:0000250|UniProtKB:Q96Q83}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q96Q83}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:Q96Q83}. Note=Colocalizes with ASCC2 and ASCC3
+CC       in nuclear foci when cells have been exposed to alkylating agents that
+CC       cause DNA damage. Predominantly localizes to the nucleus.
+CC       {ECO:0000250|UniProtKB:Q96Q83}.
+CC   -!- PTM: Ubiquitinated; undergoes 'Lys-48'-linked polyubiquitination. OTUD4
+CC       promotes USP7 and USP9X-dependent deubiquitination of 'Lys-48'-
+CC       polyubiquitinated ALKBH3 promoting the repair of alkylated DNA lesions.
+CC       {ECO:0000250|UniProtKB:Q96Q83}.
+CC   -!- SIMILARITY: Belongs to the alkB family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC083756; AAH83756.1; -; mRNA.
+DR   RefSeq; NP_001014202.1; NM_001014180.1.
+DR   RefSeq; XP_006234647.1; XM_006234585.3.
+DR   AlphaFoldDB; Q5XIC8; -.
+DR   SMR; Q5XIC8; -.
+DR   STRING; 10116.ENSRNOP00000030278; -.
+DR   PhosphoSitePlus; Q5XIC8; -.
+DR   PaxDb; 10116-ENSRNOP00000030278; -.
+DR   Ensembl; ENSRNOT00000030784.6; ENSRNOP00000030278.4; ENSRNOG00000021678.6.
+DR   Ensembl; ENSRNOT00055028781; ENSRNOP00055023179; ENSRNOG00055016937.
+DR   Ensembl; ENSRNOT00060004884; ENSRNOP00060003545; ENSRNOG00060002989.
+DR   Ensembl; ENSRNOT00065043381; ENSRNOP00065035576; ENSRNOG00065025185.
+DR   GeneID; 362169; -.
+DR   KEGG; rno:362169; -.
+DR   UCSC; RGD:1359731; rat.
+DR   AGR; RGD:1359731; -.
+DR   CTD; 221120; -.
+DR   RGD; 1359731; Alkbh3.
+DR   eggNOG; ENOG502QW9E; Eukaryota.
+DR   GeneTree; ENSGT00940000157226; -.
+DR   HOGENOM; CLU_048788_2_1_1; -.
+DR   InParanoid; Q5XIC8; -.
+DR   OMA; FEFHQPT; -.
+DR   OrthoDB; 36492at2759; -.
+DR   PhylomeDB; Q5XIC8; -.
+DR   TreeFam; TF331732; -.
+DR   PRO; PR:Q5XIC8; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000021678; Expressed in skeletal muscle tissue and 20 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; IEA:Ensembl.
+DR   GO; GO:0005739; C:mitochondrion; IEA:Ensembl.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0016706; F:2-oxoglutarate-dependent dioxygenase activity; ISO:RGD.
+DR   GO; GO:0035516; F:broad specificity oxidative DNA demethylase activity; ISS:UniProtKB.
+DR   GO; GO:0051747; F:cytosine C-5 DNA demethylase activity; ISO:RGD.
+DR   GO; GO:0008198; F:ferrous iron binding; ISS:UniProtKB.
+DR   GO; GO:1990930; F:mRNA N1-methyladenosine dioxygenase activity; ISS:UniProtKB.
+DR   GO; GO:0035515; F:oxidative RNA demethylase activity; ISO:RGD.
+DR   GO; GO:0008283; P:cell population proliferation; ISS:UniProtKB.
+DR   GO; GO:0006307; P:DNA alkylation repair; ISO:RGD.
+DR   GO; GO:2000766; P:negative regulation of cytoplasmic translation; ISO:RGD.
+DR   Gene3D; 2.60.120.590; Alpha-ketoglutarate-dependent dioxygenase AlkB-like; 1.
+DR   InterPro; IPR027450; AlkB-like.
+DR   InterPro; IPR037151; AlkB-like_sf.
+DR   InterPro; IPR032854; ALKBH3.
+DR   InterPro; IPR005123; Oxoglu/Fe-dep_dioxygenase.
+DR   PANTHER; PTHR31212; ALPHA-KETOGLUTARATE-DEPENDENT DIOXYGENASE ALKB HOMOLOG 3; 1.
+DR   PANTHER; PTHR31212:SF4; ALPHA-KETOGLUTARATE-DEPENDENT DIOXYGENASE ALKB HOMOLOG 3; 1.
+DR   Pfam; PF13532; 2OG-FeII_Oxy_2; 1.
+DR   SUPFAM; SSF51197; Clavaminate synthase-like; 1.
+DR   PROSITE; PS51471; FE2OG_OXY; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Dioxygenase; DNA damage; DNA repair; Hydroxylation; Iron;
+KW   Metal-binding; Nucleus; Oxidation; Oxidoreductase; Reference proteome;
+KW   Ubl conjugation.
+FT   CHAIN           1..295
+FT                   /note="Alpha-ketoglutarate-dependent dioxygenase alkB
+FT                   homolog 3"
+FT                   /id="PRO_0000239280"
+FT   DOMAIN          172..278
+FT                   /note="Fe2OG dioxygenase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   REGION          1..48
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        13..45
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         115
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6NS38"
+FT   BINDING         141..143
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6NS38"
+FT   BINDING         179..181
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96Q83"
+FT   BINDING         191
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   BINDING         193
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   BINDING         194
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6NS38"
+FT   BINDING         257
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   BINDING         269..275
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96Q83"
+FT   BINDING         275
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96Q83"
+FT   MOD_RES         177
+FT                   /note="(4R)-5-hydroxyleucine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96Q83"
+FT   MOD_RES         177
+FT                   /note="(4R)-5-oxoleucine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96Q83"
+SQ   SEQUENCE   295 AA;  34011 MW;  C4D1A094CF9A3293 CRC64;
+     MGDKRQRARV QGAWATPTKS QSAARPATPA RSRPSQTPGP SWRSKEQQQC DRRFVFKEPQ
+     LVVRAAPEPR VIDREGVYEI SLSPTGVSRV CLYPGFVDLK EADWILERLC QDVPWKQRMG
+     IREDITYPQP RLTAWYGELP YTYSRVTMEP NPHWLPVLWT LKSRIEENTG HTFNSLLCNF
+     YRDEKDSVDW HSDDEPSLGS CPVIASLSFG ATRTFEMRKK PPPEENGDYT YVERVKIPLD
+     HGTLLIMEGA TQADWQHRVP KEYHSRERRV NLTFRTVYPD PRGAPGDTSA ELPLR
+//

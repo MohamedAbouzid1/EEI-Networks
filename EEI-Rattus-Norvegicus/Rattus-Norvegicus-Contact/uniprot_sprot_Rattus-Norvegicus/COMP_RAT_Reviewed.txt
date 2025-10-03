@@ -1,0 +1,340 @@
+ID   COMP_RAT                Reviewed;         755 AA.
+AC   P35444;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   29-MAY-2024, entry version 163.
+DE   RecName: Full=Cartilage oligomeric matrix protein {ECO:0000305};
+DE            Short=COMP;
+DE   Flags: Precursor;
+GN   Name=Comp {ECO:0000312|RGD:2378};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Cartilage;
+RX   PubMed=1429587; DOI=10.1016/s0021-9258(18)41677-8;
+RA   Oldberg A., Antonsson P., Lindblom K., Heinegaard D.;
+RT   "COMP (cartilage oligomeric matrix protein) is structurally related to the
+RT   thrombospondins.";
+RL   J. Biol. Chem. 267:22346-22350(1992).
+RN   [2]
+RP   FUNCTION, TISSUE SPECIFICITY, AND INTERACTION WITH ITGA7.
+RX   PubMed=20019333; DOI=10.1161/circresaha.109.202762;
+RA   Wang L., Zheng J., Du Y., Huang Y., Li J., Liu B., Liu C.J., Zhu Y.,
+RA   Gao Y., Xu Q., Kong W., Wang X.;
+RT   "Cartilage oligomeric matrix protein maintains the contractile phenotype of
+RT   vascular smooth muscle cells by interacting with alpha(7)beta(1)
+RT   integrin.";
+RL   Circ. Res. 106:514-525(2010).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.05 ANGSTROMS) OF 27-72, AND DISULFIDE BONDS.
+RX   PubMed=8864111; DOI=10.1126/science.274.5288.761;
+RA   Malashkevich V.N., Kammerer R.A., Efimov V.P., Schulthess T., Engel J.;
+RT   "The crystal structure of a five-stranded coiled coil in COMP: a prototype
+RT   ion channel?";
+RL   Science 274:761-765(1996).
+CC   -!- FUNCTION: Plays a role in the structural integrity of cartilage via its
+CC       interaction with other extracellular matrix proteins such as the
+CC       collagens and fibronectin. Can mediate the interaction of chondrocytes
+CC       with the cartilage extracellular matrix through interaction with cell
+CC       surface integrin receptors. Could play a role in the pathogenesis of
+CC       osteoarthritis. Potent suppressor of apoptosis in both primary
+CC       chondrocytes and transformed cells. Suppresses apoptosis by blocking
+CC       the activation of caspase-3 and by inducing the IAP family of survival
+CC       proteins (BIRC3, BIRC2, BIRC5 and XIAP) (By similarity). Essential for
+CC       maintaining a vascular smooth muscle cells (VSMCs)
+CC       contractile/differentiated phenotype under physiological and
+CC       pathological stimuli. Maintains this phenotype of VSMCs by interacting
+CC       with ITGA7 (PubMed:20019333). {ECO:0000250|UniProtKB:P49747,
+CC       ECO:0000269|PubMed:20019333}.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:P49747};
+CC       Note=Binds 11-14 calcium ions per subunit.
+CC       {ECO:0000250|UniProtKB:P49747};
+CC   -!- SUBUNIT: Pentamer; disulfide-linked. Exists in a more compact
+CC       conformation in the presence of calcium and shows a more extended
+CC       conformation in the absence of calcium. Interacts with ITGB3, ITGA5 and
+CC       FN1. Binding to FN1 requires the presence of divalent cations (Ca(2+),
+CC       Mg(2+) or Mn(2+)). The greatest amount of binding is seen in the
+CC       presence of Mn(2+). Interacts with MATN1, MATN3, MATN4 and ACAN. Binds
+CC       heparin, heparan sulfate and chondroitin sulfate. EDTA dimishes
+CC       significantly its binding to ACAN and abolishes its binding to MATN3,
+CC       MATN4 and chondroitin sulfate. Interacts with collagen I, II and IX,
+CC       and interaction with these collagens is dependent on the presence of
+CC       zinc ions. Interacts with ADAMTS12 (By similarity). Interacts with
+CC       ITGA7 (PubMed:20019333). {ECO:0000250|UniProtKB:P49747,
+CC       ECO:0000269|PubMed:20019333}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250|UniProtKB:P49747}.
+CC   -!- DOMAIN: The cell attachment motif mediates the attachment to
+CC       chondrocytes. It mediates the induction of both the IAP family of
+CC       survival proteins and the antiapoptotic response.
+CC       {ECO:0000250|UniProtKB:P49747}.
+CC   -!- DOMAIN: The TSP C-terminal domain mediates interaction with FN1 and
+CC       ACAN. {ECO:0000250|UniProtKB:P49747}.
+CC   -!- DOMAIN: Each of the eight TSP type-3 repeats binds two calcium ions.
+CC       The TSP C-terminal domain binds three calcium ions.
+CC       {ECO:0000250|UniProtKB:P49747}.
+CC   -!- SIMILARITY: Belongs to the thrombospondin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X72914; CAA51419.1; -; mRNA.
+DR   PIR; A44315; A44315.
+DR   RefSeq; NP_036966.1; NM_012834.1.
+DR   PDB; 1FBM; X-ray; 2.70 A; A/B/C/D/E=28-72.
+DR   PDB; 1VDF; X-ray; 2.05 A; A/B/C/D/E=28-72.
+DR   PDB; 6SF6; X-ray; 1.90 A; C/D=232-250.
+DR   PDBsum; 1FBM; -.
+DR   PDBsum; 1VDF; -.
+DR   PDBsum; 6SF6; -.
+DR   AlphaFoldDB; P35444; -.
+DR   SMR; P35444; -.
+DR   BioGRID; 247343; 2.
+DR   STRING; 10116.ENSRNOP00000067037; -.
+DR   GlyCosmos; P35444; 2 sites, No reported glycans.
+DR   GlyGen; P35444; 2 sites.
+DR   PhosphoSitePlus; P35444; -.
+DR   PaxDb; 10116-ENSRNOP00000067037; -.
+DR   ABCD; P35444; 1 sequenced antibody.
+DR   GeneID; 25304; -.
+DR   KEGG; rno:25304; -.
+DR   AGR; RGD:2378; -.
+DR   CTD; 1311; -.
+DR   RGD; 2378; Comp.
+DR   eggNOG; ENOG502QRK8; Eukaryota.
+DR   InParanoid; P35444; -.
+DR   OrthoDB; 5345349at2759; -.
+DR   PhylomeDB; P35444; -.
+DR   Reactome; R-RNO-216083; Integrin cell surface interactions.
+DR   Reactome; R-RNO-3000178; ECM proteoglycans.
+DR   EvolutionaryTrace; P35444; -.
+DR   PRO; PR:P35444; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0062023; C:collagen-containing extracellular matrix; IDA:RGD.
+DR   GO; GO:0005576; C:extracellular region; ISS:UniProtKB.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0036122; F:BMP binding; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; ISO:RGD.
+DR   GO; GO:0005518; F:collagen binding; ISO:RGD.
+DR   GO; GO:0005201; F:extracellular matrix structural constituent; IDA:RGD.
+DR   GO; GO:0001968; F:fibronectin binding; IDA:RGD.
+DR   GO; GO:0043395; F:heparan sulfate proteoglycan binding; ISO:RGD.
+DR   GO; GO:0008201; F:heparin binding; ISO:RGD.
+DR   GO; GO:0005178; F:integrin binding; ISO:RGD.
+DR   GO; GO:0002020; F:protease binding; ISO:RGD.
+DR   GO; GO:0043394; F:proteoglycan binding; ISO:RGD.
+DR   GO; GO:0005499; F:vitamin D binding; IMP:RGD.
+DR   GO; GO:0006915; P:apoptotic process; ISO:RGD.
+DR   GO; GO:0048844; P:artery morphogenesis; ISO:RGD.
+DR   GO; GO:0007596; P:blood coagulation; ISO:RGD.
+DR   GO; GO:0030509; P:BMP signaling pathway; ISO:RGD.
+DR   GO; GO:0098868; P:bone growth; ISO:RGD.
+DR   GO; GO:0030282; P:bone mineralization; ISO:RGD.
+DR   GO; GO:0060349; P:bone morphogenesis; ISO:RGD.
+DR   GO; GO:0051216; P:cartilage development; ISO:RGD.
+DR   GO; GO:1990079; P:cartilage homeostasis; ISS:UniProtKB.
+DR   GO; GO:0090398; P:cellular senescence; ISO:RGD.
+DR   GO; GO:0002063; P:chondrocyte development; ISO:RGD.
+DR   GO; GO:0035988; P:chondrocyte proliferation; ISO:RGD.
+DR   GO; GO:0030199; P:collagen fibril organization; ISO:RGD.
+DR   GO; GO:0003416; P:endochondral bone growth; ISO:RGD.
+DR   GO; GO:0003417; P:growth plate cartilage development; ISO:RGD.
+DR   GO; GO:0060173; P:limb development; ISO:RGD.
+DR   GO; GO:0035264; P:multicellular organism growth; ISO:RGD.
+DR   GO; GO:0055001; P:muscle cell development; ISO:RGD.
+DR   GO; GO:0050881; P:musculoskeletal movement; ISO:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:1900047; P:negative regulation of hemostasis; ISO:RGD.
+DR   GO; GO:0050905; P:neuromuscular process; ISO:RGD.
+DR   GO; GO:0001503; P:ossification; ISO:RGD.
+DR   GO; GO:0070527; P:platelet aggregation; ISO:RGD.
+DR   GO; GO:1902732; P:positive regulation of chondrocyte proliferation; ISO:RGD.
+DR   GO; GO:0051260; P:protein homooligomerization; ISS:UniProtKB.
+DR   GO; GO:0016485; P:protein processing; ISO:RGD.
+DR   GO; GO:0009306; P:protein secretion; ISO:RGD.
+DR   GO; GO:0030500; P:regulation of bone mineralization; ISO:RGD.
+DR   GO; GO:0010468; P:regulation of gene expression; ISO:RGD.
+DR   GO; GO:0006986; P:response to unfolded protein; ISO:RGD.
+DR   GO; GO:0001501; P:skeletal system development; ISO:RGD.
+DR   GO; GO:0043588; P:skin development; ISO:RGD.
+DR   GO; GO:0035989; P:tendon development; ISO:RGD.
+DR   GO; GO:0097084; P:vascular associated smooth muscle cell development; ISO:RGD.
+DR   GO; GO:0014829; P:vascular associated smooth muscle contraction; ISO:RGD.
+DR   CDD; cd00054; EGF_CA; 2.
+DR   CDD; cd16077; TSP-5cc; 1.
+DR   Gene3D; 1.20.5.10; -; 1.
+DR   Gene3D; 2.60.120.200; -; 1.
+DR   Gene3D; 2.10.25.10; Laminin; 4.
+DR   Gene3D; 4.10.1080.10; TSP type-3 repeat; 2.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR001881; EGF-like_Ca-bd_dom.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR018097; EGF_Ca-bd_CS.
+DR   InterPro; IPR009030; Growth_fac_rcpt_cys_sf.
+DR   InterPro; IPR049883; NOTCH1_EGF-like.
+DR   InterPro; IPR003367; Thrombospondin_3-like_rpt.
+DR   InterPro; IPR017897; Thrombospondin_3_rpt.
+DR   InterPro; IPR008859; Thrombospondin_C.
+DR   InterPro; IPR039081; TSP-5_cc.
+DR   InterPro; IPR024665; TSP/COMP_coiled-coil.
+DR   InterPro; IPR046970; TSP/COMP_coiled-coil_sf.
+DR   InterPro; IPR028974; TSP_type-3_rpt.
+DR   PANTHER; PTHR10199:SF88; CARTILAGE OLIGOMERIC MATRIX PROTEIN; 1.
+DR   PANTHER; PTHR10199; THROMBOSPONDIN; 1.
+DR   Pfam; PF11598; COMP; 1.
+DR   Pfam; PF07645; EGF_CA; 2.
+DR   Pfam; PF02412; TSP_3; 6.
+DR   Pfam; PF05735; TSP_C; 1.
+DR   SMART; SM00181; EGF; 4.
+DR   SMART; SM00179; EGF_CA; 2.
+DR   SUPFAM; SSF58006; Assembly domain of cartilage oligomeric matrix protein; 1.
+DR   SUPFAM; SSF49899; Concanavalin A-like lectins/glucanases; 1.
+DR   SUPFAM; SSF57196; EGF/Laminin; 1.
+DR   SUPFAM; SSF57184; Growth factor receptor domain; 1.
+DR   SUPFAM; SSF103647; TSP type-3 repeat; 3.
+DR   PROSITE; PS01186; EGF_2; 1.
+DR   PROSITE; PS50026; EGF_3; 3.
+DR   PROSITE; PS01187; EGF_CA; 2.
+DR   PROSITE; PS51234; TSP3; 8.
+DR   PROSITE; PS51236; TSP_CTER; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Apoptosis; Calcium; Cell adhesion; Disulfide bond;
+KW   EGF-like domain; Extracellular matrix; Glycoprotein; Heparin-binding;
+KW   Phosphoprotein; Reference proteome; Repeat; Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..755
+FT                   /note="Cartilage oligomeric matrix protein"
+FT                   /id="PRO_0000035859"
+FT   DOMAIN          85..124
+FT                   /note="EGF-like 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          125..177
+FT                   /note="EGF-like 2; calcium-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          178..220
+FT                   /note="EGF-like 3; calcium-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          223..265
+FT                   /note="EGF-like 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   REPEAT          266..298
+FT                   /note="TSP type-3 1"
+FT   REPEAT          299..334
+FT                   /note="TSP type-3 2"
+FT   REPEAT          335..357
+FT                   /note="TSP type-3 3"
+FT   REPEAT          358..393
+FT                   /note="TSP type-3 4"
+FT   REPEAT          394..416
+FT                   /note="TSP type-3 5"
+FT   REPEAT          417..454
+FT                   /note="TSP type-3 6"
+FT   REPEAT          455..490
+FT                   /note="TSP type-3 7"
+FT   REPEAT          491..526
+FT                   /note="TSP type-3 8"
+FT   DOMAIN          530..744
+FT                   /note="TSP C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00635"
+FT   REGION          21..84
+FT                   /note="COMP N-terminal"
+FT   REGION          295..501
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          525..755
+FT                   /note="Mediates cell survival and induction of the IAP
+FT                   family of survival proteins"
+FT                   /evidence="ECO:0000250"
+FT   COMPBIAS        298..312
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        333..381
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        410..442
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         394
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9R0G6"
+FT   CARBOHYD        119
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        740
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        68
+FT                   /note="Interchain (with C-71)"
+FT                   /evidence="ECO:0000269|PubMed:8864111,
+FT                   ECO:0007744|PDB:1FBM, ECO:0007744|PDB:1VDF"
+FT   DISULFID        71
+FT                   /note="Interchain (with C-68)"
+FT                   /evidence="ECO:0000269|PubMed:8864111,
+FT                   ECO:0007744|PDB:1FBM, ECO:0007744|PDB:1VDF"
+FT   DISULFID        89..100
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        94..109
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        112..123
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        129..140
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        134..149
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        152..176
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        182..195
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        189..204
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        207..219
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        227..241
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        235..251
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        253..264
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        280..285
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        290..310
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        326..346
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        349..369
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        385..405
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        408..428
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        446..466
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        482..502
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        518..739
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   HELIX           30..66
+FT                   /evidence="ECO:0007829|PDB:1VDF"
+SQ   SEQUENCE   755 AA;  82664 MW;  AB48888FE093C598 CRC64;
+     MSPTACVLVL ALAALRATGQ GQIPLGGDLA PQMLRELQET NAALQDVREL LRHRVKEITF
+     LKNTVMECDA CGMQPARTPG LSVRPVALCA PGSCFPGVVC TETATGARCG PCPPGYTGNG
+     SHCTDVNECN AHPCFPRVRC INTSPGFHCE ACPPGFSGPT HEGVGLTFAK TNKQVCTDIN
+     ECETGQHNCV PNSVCVNTRG SFQCGPCQPG FVGDQRSGCQ RRGQHFCPDG SPSPCHEKAD
+     CILERDGSRS CVCAVGWAGN GLLCGRDTDL DGFPDEKLRC SERQCRKDNC VTVPNSGQED
+     VDRDRIGDAC DPDADGDGVP NEQDNCPLVR NPDQRNSDKD KWGDACDNCR SQKNDDQKDT
+     DRDGQGDACD DDIDGDRIRN VADNCPRVPN FDQSDSDGDG VGDACDNCPQ KDNPDQRDVD
+     HDFVGDACDS DQDQDGDGHQ DSRDNCPTVP NSAQQDSDHD GKGDACDDDD DNDGVPDSRD
+     NCRLVPNPGQ EDNDRDGVGD ACQGDFDADK VIDKIDVCPE NAEVTLTDFR AFQTVVLDPE
+     GDAQIDPNWV VLNQGMEIVQ TMNSDPGLAV GYTAFNGVDF EGTFHVNTAT DDDYAGFIFG
+     YQDSSSFYVV MWKQMEQTYW QANPFRAVAE PGIQLKAVKS STGPGEQLRN ALWHTGDTAS
+     QVRLLWKDPR NVGWKDKTSY RWFLQHRPQV GYIRVRFYEG PELVADSNVV LDTAMRGGRL
+     GVFCFSQENI IWANLRYRCN DTIPEDYERH RLRRA
+//

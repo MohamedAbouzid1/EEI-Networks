@@ -1,0 +1,181 @@
+ID   NPTXR_RAT               Reviewed;         494 AA.
+AC   O35764;
+DT   29-AUG-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   24-JUL-2024, entry version 153.
+DE   RecName: Full=Neuronal pentraxin receptor;
+GN   Name=Nptxr; Synonyms=Npr;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, AND SUBUNIT.
+RC   TISSUE=Brain;
+RX   PubMed=9261167; DOI=10.1074/jbc.272.34.21488;
+RA   Dodds D.C., Omeis I.A., Cushman S.J., Helms J.A., Perin M.S.;
+RT   "Neuronal pentraxin receptor, a novel putative integral membrane pentraxin
+RT   that interacts with neuronal pentraxin 1 and 2 and taipoxin-associated
+RT   calcium-binding protein 49.";
+RL   J. Biol. Chem. 272:21488-21494(1997).
+RN   [2]
+RP   FUNCTION, AND SUBUNIT.
+RX   PubMed=10748068; DOI=10.1074/jbc.m002254200;
+RA   Kirkpatrick L.L., Matzuk M.M., Dodds D.C., Perin M.S.;
+RT   "Biochemical interactions of the neuronal pentraxins. Neuronal pentraxin
+RT   (NP) receptor binds to taipoxin and taipoxin-associated calcium-binding
+RT   protein 49 via NP1 and NP2.";
+RL   J. Biol. Chem. 275:17786-17792(2000).
+RN   [3]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-211, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain;
+RX   PubMed=24090084; DOI=10.1021/pr400783j;
+RA   Parker B.L., Thaysen-Andersen M., Solis N., Scott N.E., Larsen M.R.,
+RA   Graham M.E., Packer N.H., Cordwell S.J.;
+RT   "Site-specific glycan-peptide analysis for determination of N-glycoproteome
+RT   heterogeneity.";
+RL   J. Proteome Res. 12:5791-5800(2013).
+CC   -!- FUNCTION: May be involved in mediating uptake of synaptic material
+CC       during synapse remodeling or in mediating the synaptic clustering of
+CC       AMPA glutamate receptors at a subset of excitatory synapses.
+CC       {ECO:0000269|PubMed:10748068}.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Interacts with KLHL2 (By similarity). Heteropentamer with
+CC       NPTX1 and/or NPTX2. Also binds taipoxin-associated calcium-binding
+CC       protein 49 (TCBP49/RCN2). {ECO:0000250, ECO:0000269|PubMed:10748068,
+CC       ECO:0000269|PubMed:9261167}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass type II
+CC       membrane protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Brain specific.
+CC   -!- PTM: N-glycosylated.
+CC   -!- PTM: Ubiquitinated by a cullin-RING-based BCR (BTB-CUL3-RBX1) E3
+CC       ubiquitin-protein ligase complex containing KLHL2. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF005099; AAB62885.1; -; mRNA.
+DR   AlphaFoldDB; O35764; -.
+DR   SMR; O35764; -.
+DR   CORUM; O35764; -.
+DR   STRING; 10116.ENSRNOP00000004703; -.
+DR   GlyCosmos; O35764; 3 sites, 15 glycans.
+DR   GlyGen; O35764; 3 sites, 15 N-linked glycans (1 site).
+DR   iPTMnet; O35764; -.
+DR   PhosphoSitePlus; O35764; -.
+DR   jPOST; O35764; -.
+DR   PaxDb; 10116-ENSRNOP00000004703; -.
+DR   UCSC; RGD:628898; rat.
+DR   AGR; RGD:628898; -.
+DR   RGD; 628898; Nptxr.
+DR   eggNOG; ENOG502RCVB; Eukaryota.
+DR   InParanoid; O35764; -.
+DR   PhylomeDB; O35764; -.
+DR   PRO; PR:O35764; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008029; F:pentraxin receptor activity; IDA:RGD.
+DR   GO; GO:0019903; F:protein phosphatase binding; ISO:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0031175; P:neuron projection development; ISO:RGD.
+DR   GO; GO:0099645; P:neurotransmitter receptor localization to postsynaptic specialization membrane; ISO:RGD.
+DR   GO; GO:0099150; P:regulation of postsynaptic specialization assembly; ISO:RGD.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; IEP:RGD.
+DR   CDD; cd00152; PTX; 1.
+DR   Gene3D; 2.60.120.200; -; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR051360; Neuronal_Pentraxin_Related.
+DR   InterPro; IPR001759; Pentraxin-related.
+DR   PANTHER; PTHR19277:SF94; NEURONAL PENTRAXIN RECEPTOR; 1.
+DR   PANTHER; PTHR19277; PENTRAXIN; 1.
+DR   Pfam; PF00354; Pentaxin; 1.
+DR   PRINTS; PR00895; PENTAXIN.
+DR   SMART; SM00159; PTX; 1.
+DR   SUPFAM; SSF49899; Concanavalin A-like lectins/glucanases; 1.
+DR   PROSITE; PS51828; PTX_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Disulfide bond; Glycoprotein; Membrane;
+KW   Metal-binding; Receptor; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix; Ubl conjugation.
+FT   CHAIN           1..494
+FT                   /note="Neuronal pentraxin receptor"
+FT                   /id="PRO_0000162508"
+FT   TOPO_DOM        1..2
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        3..23
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        24..494
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          286..488
+FT                   /note="Pentraxin (PTX)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   REGION          37..80
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         341
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         419
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         419
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         420
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         421
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         421
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         431
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   CARBOHYD        42
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        211
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007744|PubMed:24090084"
+FT   CARBOHYD        457
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        316..377
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+SQ   SEQUENCE   494 AA;  52371 MW;  FEC996CA311E40E2 CRC64;
+     MKFLAVLLAA GMLAFLGAVI CIIASVPLAA SPARALPGGT DNASAASAAG APGPQRSLSA
+     LQGAGGSAGP SVLPGEPAAS VFPPPPGPLL SRFLCTPLAA ACPSGAEQGD AAGERAELLL
+     LQSTAEQLRQ TALQQEARIR ADRDTIRELT GKLGRCESGL PRGLQDAGPR RDTMADGAWD
+     SPALLVELEN AVRALRDRIE RIEQELPARG NLSSSAPAPA VPTALHSKMD ELEGQLLAKV
+     LALEKERAAL SHGSHQQRQE VEKELDALQG RVAELEHGSS AYSPPDAFKV SIPIRNNYMY
+     ARVRKAVPEL YAFTACMWLR SRSGGSGQGT PFSYSVPGQA NEIVLLEAGL EPMELLINDK
+     VAQLPLSLKD SNWHHICIAW TTRDGLWSAY QDGELRGSGE NLAAWHPIKP HGILILGQEQ
+     DTLGGRFDAT QAFVGDIAQF NLWDHALTPA QVLGIANCTG PLMGNVLPWE DKLVEAFGGA
+     KKAAFDVCKR RAKA
+//

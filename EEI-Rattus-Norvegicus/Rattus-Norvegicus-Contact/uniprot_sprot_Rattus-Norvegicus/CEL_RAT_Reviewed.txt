@@ -1,0 +1,378 @@
+ID   CEL_RAT                 Reviewed;         612 AA.
+AC   P07882; P14722;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 2.
+DT   24-JUL-2024, entry version 155.
+DE   RecName: Full=Bile salt-activated lipase;
+DE            Short=BAL;
+DE            EC=3.1.1.13 {ECO:0000250|UniProtKB:P19835};
+DE            EC=3.1.1.3 {ECO:0000250|UniProtKB:P19835};
+DE            EC=3.1.1.6 {ECO:0000250|UniProtKB:P19835};
+DE   AltName: Full=Bile salt-stimulated lipase;
+DE            Short=BSSL;
+DE   AltName: Full=Carboxyl ester lipase;
+DE   AltName: Full=Cholesterol esterase;
+DE   AltName: Full=Pancreatic lysophospholipase;
+DE   AltName: Full=Sterol esterase;
+DE   Flags: Precursor;
+GN   Name=Cel;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Pancreas;
+RX   PubMed=2688744; DOI=10.1016/0005-2760(89)90201-4;
+RA   Kissel J.A., Fontaine R.N., Turck C.W., Brockman H.L., Hui D.Y.;
+RT   "Molecular cloning and expression of cDNA for rat pancreatic cholesterol
+RT   esterase.";
+RL   Biochim. Biophys. Acta 1006:227-237(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3593682; DOI=10.1021/bi00380a020;
+RA   Han J.H., Stratowa C., Rutter W.J.;
+RT   "Isolation of full-length putative rat lysophospholipase cDNA using
+RT   improved methods for mRNA isolation and cDNA cloning.";
+RL   Biochemistry 26:1617-1625(1987).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2069957; DOI=10.1021/bi00242a028;
+RA   Fontaine R.N., Carter C.P., Hui D.Y.;
+RT   "Structure of the rat pancreatic cholesterol esterase gene.";
+RL   Biochemistry 30:7008-7014(1991).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, ACTIVE SITE SER-214, AND MUTAGENESIS OF
+RP   SER-214.
+RX   PubMed=2211595; DOI=10.1016/s0021-9258(17)44832-0;
+RA   Dipersio L.P., Fontaine R.N., Hui D.Y.;
+RT   "Identification of the active site serine in pancreatic cholesterol
+RT   esterase by chemical modification and site-specific mutagenesis.";
+RL   J. Biol. Chem. 265:16801-16806(1990).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, ACTIVE SITE HIS-455, AND MUTAGENESIS OF
+RP   HIS-440 AND HIS-455.
+RX   PubMed=1999399; DOI=10.1016/s0021-9258(20)64279-x;
+RA   Dipersio L.P., Fontaine R.N., Hui D.Y.;
+RT   "Site-specific mutagenesis of an essential histidine residue in pancreatic
+RT   cholesterol esterase.";
+RL   J. Biol. Chem. 266:4033-4036(1991).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of a wide range of substrates
+CC       including cholesteryl esters, phospholipids, lysophospholipids, di- and
+CC       tri-acylglycerols, and fatty acid esters of hydroxy fatty acids (FAHFA)
+CC       (PubMed:1999399, PubMed:2211595). Preferentially hydrolyzes FAHFAs with
+CC       the ester bond further away from the carboxylate. Unsaturated FAHFAs
+CC       are hydrolyzed more quickly than saturated FAHFAs (By similarity). Has
+CC       an essential role in the complete digestion of dietary lipids and their
+CC       intestinal absorption, along with the absorption of fat-soluble
+CC       vitamins (By similarity). {ECO:0000250|UniProtKB:P19835,
+CC       ECO:0000250|UniProtKB:Q64285, ECO:0000269|PubMed:1999399,
+CC       ECO:0000269|PubMed:2211595}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a triacylglycerol + H2O = a diacylglycerol + a fatty acid +
+CC         H(+); Xref=Rhea:RHEA:12044, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17855, ChEBI:CHEBI:18035, ChEBI:CHEBI:28868; EC=3.1.1.3;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:12045;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2,3-tri-(9Z-octadecenoyl)-glycerol + H2O = (9Z)-
+CC         octadecenoate + di-(9Z)-octadecenoylglycerol + H(+);
+CC         Xref=Rhea:RHEA:38575, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30823, ChEBI:CHEBI:53753, ChEBI:CHEBI:75945;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38576;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2,3-trioctanoylglycerol + H2O = dioctanoylglycerol + H(+) +
+CC         octanoate; Xref=Rhea:RHEA:47864, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:25646, ChEBI:CHEBI:76978,
+CC         ChEBI:CHEBI:88066; Evidence={ECO:0000250|UniProtKB:P19835};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47865;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a sterol ester + H2O = a fatty acid + a sterol + H(+);
+CC         Xref=Rhea:RHEA:10100, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15889, ChEBI:CHEBI:28868, ChEBI:CHEBI:35915; EC=3.1.1.13;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:10101;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cholesteryl (9Z-octadecenoate) + H2O = (9Z)-octadecenoate +
+CC         cholesterol + H(+); Xref=Rhea:RHEA:33875, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16113, ChEBI:CHEBI:30823,
+CC         ChEBI:CHEBI:46898; Evidence={ECO:0000269|PubMed:1999399,
+CC         ECO:0000269|PubMed:2211595};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:33876;
+CC         Evidence={ECO:0000305|PubMed:1999399};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an acetyl ester + H2O = acetate + an aliphatic alcohol + H(+);
+CC         Xref=Rhea:RHEA:12957, ChEBI:CHEBI:2571, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30089, ChEBI:CHEBI:47622; EC=3.1.1.6;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:12958;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a butanoate ester + H2O = an aliphatic alcohol + butanoate +
+CC         H(+); Xref=Rhea:RHEA:47348, ChEBI:CHEBI:2571, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17968, ChEBI:CHEBI:50477;
+CC         Evidence={ECO:0000269|PubMed:1999399, ECO:0000269|PubMed:2211595};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47349;
+CC         Evidence={ECO:0000305|PubMed:1999399};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=9-hexadecanoyloxy-octadecanoate + H2O = 9-hydroxy-
+CC         octadecanoate + H(+) + hexadecanoate; Xref=Rhea:RHEA:52052,
+CC         ChEBI:CHEBI:7896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:83670, ChEBI:CHEBI:136286;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52053;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=9-(9Z-octadecenoyloxy)-octadecanoate + H2O = (9Z)-
+CC         octadecenoate + 9-hydroxy-octadecanoate + H(+); Xref=Rhea:RHEA:52048,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30823,
+CC         ChEBI:CHEBI:136282, ChEBI:CHEBI:136286;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52049;
+CC         Evidence={ECO:0000250|UniProtKB:P19835};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-sn-glycero-3-phosphocholine + H2O = H(+) +
+CC         hexadecanoate + sn-glycerol 3-phosphocholine; Xref=Rhea:RHEA:40435,
+CC         ChEBI:CHEBI:7896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16870, ChEBI:CHEBI:72998;
+CC         Evidence={ECO:0000269|PubMed:2211595};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40436;
+CC         Evidence={ECO:0000305|PubMed:2211595};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=12-hexadecanoyloxy-octadecanoate + H2O = 12-
+CC         hydroxyoctadecanoate + H(+) + hexadecanoate; Xref=Rhea:RHEA:52056,
+CC         ChEBI:CHEBI:7896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:83677, ChEBI:CHEBI:84201;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52057;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=12-(9Z-octadecenoyloxy)-octadecanoate + H2O = (9Z)-
+CC         octadecenoate + 12-hydroxyoctadecanoate + H(+); Xref=Rhea:RHEA:52060,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30823,
+CC         ChEBI:CHEBI:84201, ChEBI:CHEBI:136302;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52061;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=13-(9Z-octadecenoyloxy)-octadecanoate + H2O = (9Z)-
+CC         octadecenoate + 13-hydroxy-octadecanoate + H(+);
+CC         Xref=Rhea:RHEA:52064, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30823, ChEBI:CHEBI:136303, ChEBI:CHEBI:136304;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52065;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=9-(9Z-hexadecenoyloxy)-octadecanoate + H2O = (9Z)-
+CC         hexadecenoate + 9-hydroxy-octadecanoate + H(+); Xref=Rhea:RHEA:52068,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:32372,
+CC         ChEBI:CHEBI:136286, ChEBI:CHEBI:136309;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52069;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=12-(9Z-hexadecenoyloxy)-octadecanoate + H2O = (9Z)-
+CC         hexadecenoate + 12-hydroxyoctadecanoate + H(+); Xref=Rhea:RHEA:52072,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:32372,
+CC         ChEBI:CHEBI:84201, ChEBI:CHEBI:136312;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52073;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=13-(9Z-hexadecenoyloxy)-octadecanoate + H2O = (9Z)-
+CC         hexadecenoate + 13-hydroxy-octadecanoate + H(+);
+CC         Xref=Rhea:RHEA:52076, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:32372, ChEBI:CHEBI:136304, ChEBI:CHEBI:136315;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52077;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=12-octadecanoyloxy-octadecanoate + H2O = 12-
+CC         hydroxyoctadecanoate + H(+) + octadecanoate; Xref=Rhea:RHEA:52080,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:25629,
+CC         ChEBI:CHEBI:84201, ChEBI:CHEBI:136330;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52081;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=13-octadecanoyloxy-octadecanoate + H2O = 13-hydroxy-
+CC         octadecanoate + H(+) + octadecanoate; Xref=Rhea:RHEA:52084,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:25629,
+CC         ChEBI:CHEBI:136304, ChEBI:CHEBI:136335;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52085;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-(9Z-hexadecenoyloxy)-octadecanoate + H2O = (9Z)-
+CC         hexadecenoate + 5-hydroxy-octadecanoate + H(+); Xref=Rhea:RHEA:52092,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:32372,
+CC         ChEBI:CHEBI:136369, ChEBI:CHEBI:136370;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52093;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=9-octadecanoyloxy-octadecanoate + H2O = 9-hydroxy-
+CC         octadecanoate + H(+) + octadecanoate; Xref=Rhea:RHEA:52096,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:25629,
+CC         ChEBI:CHEBI:136286, ChEBI:CHEBI:136373;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52097;
+CC         Evidence={ECO:0000250|UniProtKB:Q64285};
+CC   -!- ACTIVITY REGULATION: Activated by bile salts such as sodium
+CC       taurocholate. {ECO:0000250|UniProtKB:P19835}.
+CC   -!- SUBUNIT: Interacts with CLC. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P19835}.
+CC   -!- TISSUE SPECIFICITY: Synthesized primarily in the pancreas and then
+CC       transported to the intestine.
+CC   -!- SIMILARITY: Belongs to the type-B carboxylesterase/lipase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X16054; CAA34189.1; -; mRNA.
+DR   EMBL; M15893; AAA41540.1; -; mRNA.
+DR   EMBL; M69157; AAB46376.1; -; Genomic_DNA.
+DR   PIR; A34967; A34967.
+DR   AlphaFoldDB; P07882; -.
+DR   SMR; P07882; -.
+DR   STRING; 10116.ENSRNOP00000014572; -.
+DR   ESTHER; ratno-balip; Cholesterol_esterase.
+DR   MEROPS; S09.985; -.
+DR   GlyCosmos; P07882; 1 site, No reported glycans.
+DR   GlyGen; P07882; 1 site.
+DR   PhosphoSitePlus; P07882; -.
+DR   PaxDb; 10116-ENSRNOP00000014572; -.
+DR   UCSC; RGD:2331; rat.
+DR   AGR; RGD:2331; -.
+DR   RGD; 2331; Cel.
+DR   eggNOG; KOG1516; Eukaryota.
+DR   InParanoid; P07882; -.
+DR   PhylomeDB; P07882; -.
+DR   Reactome; R-RNO-192456; Digestion of dietary lipid.
+DR   PRO; PR:P07882; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0042588; C:zymogen granule; IDA:RGD.
+DR   GO; GO:0008126; F:acetylesterase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0043208; F:glycosphingolipid binding; IDA:RGD.
+DR   GO; GO:0004622; F:lysophospholipase activity; IDA:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0050253; F:retinyl-palmitate esterase activity; IDA:RGD.
+DR   GO; GO:0004771; F:sterol esterase activity; IDA:RGD.
+DR   GO; GO:0004806; F:triglyceride lipase activity; IDA:RGD.
+DR   GO; GO:0046514; P:ceramide catabolic process; ISO:RGD.
+DR   GO; GO:0030299; P:intestinal cholesterol absorption; ISO:RGD.
+DR   GO; GO:0030157; P:pancreatic juice secretion; ISO:RGD.
+DR   CDD; cd00312; Esterase_lipase; 1.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR002018; CarbesteraseB.
+DR   InterPro; IPR019826; Carboxylesterase_B_AS.
+DR   InterPro; IPR019819; Carboxylesterase_B_CS.
+DR   InterPro; IPR051093; Neuroligin/BSAL.
+DR   PANTHER; PTHR43903:SF9; BILE SALT-ACTIVATED LIPASE; 1.
+DR   PANTHER; PTHR43903; NEUROLIGIN; 1.
+DR   Pfam; PF00135; COesterase; 1.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+DR   PROSITE; PS00122; CARBOXYLESTERASE_B_1; 1.
+DR   PROSITE; PS00941; CARBOXYLESTERASE_B_2; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Glycoprotein; Hydrolase; Lipid degradation;
+KW   Lipid metabolism; Reference proteome; Repeat; Secreted; Serine esterase;
+KW   Signal.
+FT   SIGNAL          1..20
+FT   CHAIN           21..612
+FT                   /note="Bile salt-activated lipase"
+FT                   /id="PRO_0000008633"
+FT   REPEAT          556..566
+FT                   /note="1"
+FT   REPEAT          567..577
+FT                   /note="2"
+FT   REPEAT          578..588
+FT                   /note="3"
+FT   REPEAT          589..599
+FT                   /note="4"
+FT   REGION          553..612
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          556..599
+FT                   /note="4 X 11 AA tandem repeats, O-glycosylated region"
+FT   COMPBIAS        578..602
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        214
+FT                   /note="Acyl-ester intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10039"
+FT   ACT_SITE        340
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        455
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        207
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        84..100
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        266..277
+FT                   /evidence="ECO:0000250"
+FT   MUTAGEN         214
+FT                   /note="S->T,A: Abolishes activity."
+FT                   /evidence="ECO:0000269|PubMed:2211595"
+FT   MUTAGEN         440
+FT                   /note="H->Q: No effect on activity."
+FT                   /evidence="ECO:0000269|PubMed:1999399"
+FT   MUTAGEN         455
+FT                   /note="H->Q,R,A,S,D: Abolishes activity."
+FT                   /evidence="ECO:0000269|PubMed:1999399"
+FT   CONFLICT        26
+FT                   /note="V -> L (in Ref. 2; AAA41540)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        154
+FT                   /note="G -> A (in Ref. 2; AAA41540)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        217
+FT                   /note="A -> G (in Ref. 2; AAA41540)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        219
+FT                   /note="S -> I (in Ref. 2; AAA41540)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        419
+FT                   /note="M -> T (in Ref. 3; AAB46376)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        513
+FT                   /note="T -> M (in Ref. 2; AAA41540 and 3; AAB46376)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        576..577
+FT                   /note="GG -> VV (in Ref. 3; AAB46376)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        608..609
+FT                   /note="GP -> VA (in Ref. 3; AAB46376)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        611
+FT                   /note="G -> A (in Ref. 3; AAB46376)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   612 AA;  67040 MW;  1569CE4EA71ED02A CRC64;
+     MGRLEVLFLG LTCCLAAACA AKLGAVYTEG GFVEGVNKKL SLLGGDSVDI FKGIPFATAK
+     TLENPQRHPG WQGTLKATDF KKRCLQATIT QDDTYGQEDC LYLNIWVPQG RKQVSHDLPV
+     MVWIYGGAFL MGSGQGANFL KNYLYDGEEI ATRGNVIVVT FNYRVGPLGF LSTGDANLPG
+     NFGLRDQHMA IAWVKRNIAA FGGDPDNITI FGESAGAASV SLQTLSPYNK GLIRRAISQS
+     GVALSPWAIQ ENPLFWAKTI AKKVGCPTED TAKMAGCLKI TDPRALTLAY RLPLKSQEYP
+     IVHYLAFIPV VDGDFIPDDP INLYDNAADI DYLAGINDMD GHLFATVDVP AIDKAKQDVT
+     EEDFYRLVSG HTVAKGLKGT QATFDIYTES WAQDPSQENM KKTVVAFETD ILFLIPTEMA
+     LAQHRAHAKS AKTYSYLFSH PSRMPIYPKW MGADHADDLQ YVFGKPFATP LGYRAQDRTV
+     SKAMIAYWTN FAKSGDPNMG NSPVPTHWYP YTTENGNYLD INKKITSTSM KEHLREKFLK
+     FWAVTFEMLP TVVGDHTPPE DDSEAAPVPP TDDSQGGPVP PTDDSQTTPV PPTDNSQAGD
+     SVEAQMPGPI GF
+//

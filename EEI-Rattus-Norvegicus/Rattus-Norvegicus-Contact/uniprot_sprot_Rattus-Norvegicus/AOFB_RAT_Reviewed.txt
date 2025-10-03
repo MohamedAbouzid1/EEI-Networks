@@ -1,0 +1,288 @@
+ID   AOFB_RAT                Reviewed;         520 AA.
+AC   P19643; Q5EBB5;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   24-JUL-2024, entry version 169.
+DE   RecName: Full=Amine oxidase [flavin-containing] B {ECO:0000305};
+DE            EC=1.4.3.21 {ECO:0000269|PubMed:20493079, ECO:0000269|PubMed:4156831};
+DE            EC=1.4.3.4 {ECO:0000269|PubMed:20493079};
+DE   AltName: Full=Monoamine oxidase type B;
+DE            Short=MAO-B;
+GN   Name=Maob {ECO:0000312|RGD:3041};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=2974701; DOI=10.1016/s0006-291x(88)80969-0;
+RA   Ito A., Kuwahara T., Inadome S., Sagara Y.;
+RT   "Molecular cloning of a cDNA for rat liver monoamine oxidase B.";
+RL   Biochem. Biophys. Res. Commun. 157:970-976(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=4156831; DOI=10.1042/bj1440029;
+RA   Seiler N., Al-Therib M.J.;
+RT   "Putrescine catabolism in mammalian brain.";
+RL   Biochem. J. 144:29-35(1974).
+RN   [4]
+RP   FUNCTION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=6428396; DOI=10.1016/0006-291x(84)91293-2;
+RA   Chiba K., Trevor A., Castagnoli N. Jr.;
+RT   "Metabolism of the neurotoxic tertiary amine, MPTP, by brain monoamine
+RT   oxidase.";
+RL   Biochem. Biophys. Res. Commun. 120:574-578(1984).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=20493079; DOI=10.1016/0197-0186(86)90182-8;
+RA   O'Carroll A.M., Bardsley M.E., Tipton K.F.;
+RT   "The oxidation of adrenaline and noradrenaline by the two forms of
+RT   monoamine oxidase from human and rat brain.";
+RL   Neurochem. Int. 8:493-500(1986).
+RN   [6]
+RP   MUTAGENESIS OF ILE-199.
+RX   PubMed=9162023; DOI=10.1074/jbc.272.22.14033;
+RA   Tsugeno Y., Ito A.;
+RT   "A key amino acid responsible for substrate selectivity of monoamine
+RT   oxidase A and B.";
+RL   J. Biol. Chem. 272:14033-14036(1997).
+CC   -!- FUNCTION: Catalyzes the oxidative deamination of primary and some
+CC       secondary amines such as neurotransmitters, and exogenous amines
+CC       including the tertiary amine, neurotoxin 1-methyl-4-phenyl-1,2,3,6-
+CC       tetrahydropyridine (MPTP), with concomitant reduction of oxygen to
+CC       hydrogen peroxide and participates in the metabolism of neuroactive and
+CC       vasoactive amines in the central nervous system and peripheral tissues
+CC       (PubMed:20493079). Preferentially degrades benzylamine and
+CC       phenylethylamine (PubMed:20493079). {ECO:0000269|PubMed:20493079}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a secondary aliphatic amine + H2O + O2 = a primary amine + an
+CC         aldehyde + H2O2; Xref=Rhea:RHEA:26414, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16240, ChEBI:CHEBI:17478,
+CC         ChEBI:CHEBI:58855, ChEBI:CHEBI:65296; EC=1.4.3.4;
+CC         Evidence={ECO:0000269|PubMed:20493079};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-adrenaline + H2O + O2 = (R)-3,4-dihydroxymandelaldehyde +
+CC         H2O2 + methylamine; Xref=Rhea:RHEA:51168, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16240, ChEBI:CHEBI:59338,
+CC         ChEBI:CHEBI:71406, ChEBI:CHEBI:180943;
+CC         Evidence={ECO:0000269|PubMed:20493079};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a primary methyl amine + H2O + O2 = an aldehyde + H2O2 +
+CC         NH4(+); Xref=Rhea:RHEA:16153, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:17478, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:228804; EC=1.4.3.21;
+CC         Evidence={ECO:0000269|PubMed:20493079, ECO:0000269|PubMed:4156831};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16154;
+CC         Evidence={ECO:0000305|PubMed:4156831};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dopamine + H2O + O2 = 3,4-dihydroxyphenylacetaldehyde + H2O2 +
+CC         NH4(+); Xref=Rhea:RHEA:27946, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:27978, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:59905; Evidence={ECO:0000269|PubMed:20493079};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O2 + tyramine = (4-hydroxyphenyl)acetaldehyde + H2O2 +
+CC         NH4(+); Xref=Rhea:RHEA:30591, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:15621, ChEBI:CHEBI:16240, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:327995; Evidence={ECO:0000269|PubMed:20493079};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-noradrenaline + H2O + O2 = (R)-3,4-dihydroxymandelaldehyde
+CC         + H2O2 + NH4(+); Xref=Rhea:RHEA:69076, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16240, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:72587, ChEBI:CHEBI:180943;
+CC         Evidence={ECO:0000269|PubMed:20493079};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=benzylamine + H2O + O2 = benzaldehyde + H2O2 + NH4(+);
+CC         Xref=Rhea:RHEA:59424, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:17169, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:225238; Evidence={ECO:0000250|UniProtKB:P27338};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:59425;
+CC         Evidence={ECO:0000250|UniProtKB:P27338};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-phenylethylamine + H2O + O2 = 2-phenylacetaldehyde + H2O2 +
+CC         NH4(+); Xref=Rhea:RHEA:25265, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:16424, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:225237; Evidence={ECO:0000269|PubMed:20493079};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-acetylputrescine + O2 = 4-acetamidobutanal + H2O2 +
+CC         NH4(+); Xref=Rhea:RHEA:70283, ChEBI:CHEBI:7386, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16240, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:58263; Evidence={ECO:0000269|PubMed:4156831};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70284;
+CC         Evidence={ECO:0000269|PubMed:4156831};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000250|UniProtKB:P27338};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=840 uM for (R)-adrenaline {ECO:0000269|PubMed:20493079};
+CC         KM=290 uM for dopamine {ECO:0000269|PubMed:20493079};
+CC         KM=533 uM for serotonin {ECO:0000269|PubMed:20493079};
+CC         KM=1954 uM for (R)-noradrenaline {ECO:0000269|PubMed:20493079};
+CC         KM=5 uM for 2-phenylethylamine {ECO:0000269|PubMed:20493079};
+CC         KM=328 uM for tyramine {ECO:0000269|PubMed:20493079};
+CC         Vmax=531 pmol/min/mg enzyme toward (R)-adrenaline
+CC         {ECO:0000269|PubMed:20493079};
+CC         Vmax=396 pmol/min/mg enzyme toward dopamine
+CC         {ECO:0000269|PubMed:20493079};
+CC         Vmax=125 pmol/min/mg enzyme toward serotonin
+CC         {ECO:0000269|PubMed:20493079};
+CC         Vmax=383 pmol/min/mg enzyme toward (R)-noradrenaline
+CC         {ECO:0000269|PubMed:20493079};
+CC         Vmax=489 pmol/min/mg enzyme toward 2-phenylethylamine
+CC         {ECO:0000269|PubMed:20493079};
+CC         Vmax=687 pmol/min/mg enzyme toward tyramine
+CC         {ECO:0000269|PubMed:20493079};
+CC   -!- SUBUNIT: Monomer, homo- or heterodimer (containing two subunits of
+CC       similar size). Each subunit contains a covalently bound flavin.
+CC       Enzymatically active as monomer (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion outer membrane; Single-pass type IV
+CC       membrane protein; Cytoplasmic side.
+CC   -!- SIMILARITY: Belongs to the flavin monoamine oxidase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M23601; AAA41566.1; -; mRNA.
+DR   EMBL; BC089814; AAH89814.1; -; mRNA.
+DR   PIR; A31870; A31870.
+DR   RefSeq; NP_037330.1; NM_013198.1.
+DR   AlphaFoldDB; P19643; -.
+DR   SMR; P19643; -.
+DR   BioGRID; 247778; 1.
+DR   STRING; 10116.ENSRNOP00000043466; -.
+DR   BindingDB; P19643; -.
+DR   ChEMBL; CHEMBL2993; -.
+DR   DrugCentral; P19643; -.
+DR   GuidetoPHARMACOLOGY; 2490; -.
+DR   iPTMnet; P19643; -.
+DR   PhosphoSitePlus; P19643; -.
+DR   PaxDb; 10116-ENSRNOP00000043466; -.
+DR   DNASU; 25750; -.
+DR   Ensembl; ENSRNOT00000044009.6; ENSRNOP00000043466.4; ENSRNOG00000029778.6.
+DR   Ensembl; ENSRNOT00055027658; ENSRNOP00055022193; ENSRNOG00055016304.
+DR   Ensembl; ENSRNOT00060032306; ENSRNOP00060026318; ENSRNOG00060018700.
+DR   Ensembl; ENSRNOT00065035977; ENSRNOP00065029013; ENSRNOG00065021133.
+DR   GeneID; 25750; -.
+DR   KEGG; rno:25750; -.
+DR   UCSC; RGD:3041; rat.
+DR   AGR; RGD:3041; -.
+DR   CTD; 4129; -.
+DR   RGD; 3041; Maob.
+DR   eggNOG; KOG0029; Eukaryota.
+DR   GeneTree; ENSGT00940000161545; -.
+DR   HOGENOM; CLU_004498_0_1_1; -.
+DR   InParanoid; P19643; -.
+DR   OMA; PIHWAGT; -.
+DR   OrthoDB; 5471885at2759; -.
+DR   PhylomeDB; P19643; -.
+DR   BRENDA; 1.4.3.4; 5301.
+DR   Reactome; R-RNO-141333; Biogenic amines are oxidatively deaminated to aldehydes by MAOA and MAOB.
+DR   SABIO-RK; P19643; -.
+DR   PRO; PR:P19643; -.
+DR   Proteomes; UP000002494; Chromosome X.
+DR   Bgee; ENSRNOG00000029778; Expressed in liver and 19 other cell types or tissues.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; IDA:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0052595; F:aliphatic amine oxidase activity; IEA:RHEA.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0097621; F:monoamine oxidase activity; IDA:UniProtKB.
+DR   GO; GO:0008131; F:primary amine oxidase activity; IDA:UniProtKB.
+DR   GO; GO:0014063; P:negative regulation of serotonin secretion; IMP:RGD.
+DR   GO; GO:0019607; P:phenylethylamine catabolic process; IDA:RGD.
+DR   GO; GO:0045964; P:positive regulation of dopamine metabolic process; IMP:RGD.
+DR   GO; GO:0010044; P:response to aluminum ion; IEP:RGD.
+DR   GO; GO:0051412; P:response to corticosterone; IEP:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IEP:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0010269; P:response to selenium ion; IEP:RGD.
+DR   GO; GO:0048545; P:response to steroid hormone; IDA:RGD.
+DR   GO; GO:0009636; P:response to toxic substance; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   Gene3D; 3.90.660.10; -; 1.
+DR   Gene3D; 6.10.250.130; -; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 1.
+DR   Gene3D; 1.10.405.10; Guanine Nucleotide Dissociation Inhibitor, domain 1; 1.
+DR   InterPro; IPR002937; Amino_oxidase.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR001613; Flavin_amine_oxidase.
+DR   InterPro; IPR050703; Flavin_MAO.
+DR   PANTHER; PTHR43563; AMINE OXIDASE; 1.
+DR   PANTHER; PTHR43563:SF21; AMINE OXIDASE [FLAVIN-CONTAINING] B; 1.
+DR   Pfam; PF01593; Amino_oxidase; 1.
+DR   PRINTS; PR00757; AMINEOXDASEF.
+DR   SUPFAM; SSF54373; FAD-linked reductases, C-terminal domain; 1.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; FAD; Flavoprotein; Membrane; Mitochondrion;
+KW   Mitochondrion outer membrane; Oxidoreductase; Reference proteome;
+KW   Transmembrane; Transmembrane helix.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P56560"
+FT   CHAIN           2..520
+FT                   /note="Amine oxidase [flavin-containing] B"
+FT                   /id="PRO_0000099863"
+FT   TOPO_DOM        2..489
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        490..516
+FT                   /note="Helical; Anchor for type IV membrane protein"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        517..520
+FT                   /note="Mitochondrial intermembrane"
+FT                   /evidence="ECO:0000250"
+FT   SITE            156
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000250"
+FT   SITE            365
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000250"
+FT   SITE            382
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P56560"
+FT   MOD_RES         52
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BW75"
+FT   MOD_RES         397
+FT                   /note="S-8alpha-FAD cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P27338"
+FT   MUTAGEN         139
+FT                   /note="L->H: No change in substrate affinity."
+FT   MUTAGEN         199
+FT                   /note="I->F: Increased affinity for serotonin and
+FT                   tyramine."
+FT                   /evidence="ECO:0000269|PubMed:9162023"
+FT   CONFLICT        38
+FT                   /note="R -> C (in Ref. 1; AAA41566)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        335..336
+FT                   /note="GS -> AG (in Ref. 1; AAA41566)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   520 AA;  58459 MW;  F2C230BC6CDE5840 CRC64;
+     MSNKCDVIVV GGGISGMAAA KLLHDCGLSV VVLEARDRVG GRTYTIRNKN VKYVDLGGSY
+     VGPTQNRILR LAKELGLETY KVNEVERLIH FVKGKSYAFR GPFPPVWNPI TYLDYNNLWR
+     TMDEMGQEIP SDAPWKAPLA EEWDYMTMKE LLDKICWTNS TKQIATLFVN LCVTAETHEV
+     SALWFLWYVK QCGGTTRIIS TTNGGQERKF IGGSGQVSER IKDILGDRVK LERPVIHIDQ
+     TGENVVVKTL NHEIYEAKYV ISAIPPVLGM KIHHSPPLPI LRNQLITRVP LGSVIKCMVY
+     YKEPFWRKKD FCGTMVIEGE EAPIAYTLDD TKPDGSCAAI MGFILAHKAR KLVRLTKEER
+     LRKLCELYAK VLNSQEALQP VHYEEKNWCE EQYSGGCYTA YFPPGILTQY GRVLRQPVGK
+     IFFAGTETAS HWSGYMEGAV EAGERAAREI LHAIGKIPED EIWQPEPESV DVPARPITNT
+     FLERHLPSVP GLLKLLGLTT ILSATALGFL AHKKGLFVRF
+//

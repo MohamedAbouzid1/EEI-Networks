@@ -1,0 +1,141 @@
+ID   ZDH18_RAT               Reviewed;         386 AA.
+AC   Q2TGJ1;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   24-JAN-2006, sequence version 1.
+DT   27-MAR-2024, entry version 92.
+DE   RecName: Full=Palmitoyltransferase ZDHHC18 {ECO:0000305};
+DE            EC=2.3.1.225 {ECO:0000250|UniProtKB:Q9NUE0};
+DE   AltName: Full=Zinc finger DHHC domain-containing protein 18 {ECO:0000312|RGD:1309334};
+GN   Name=Zdhhc18 {ECO:0000312|RGD:1309334};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Huang C.-H., Chen Y., Ye T.;
+RT   "A superfamily of membrane-associated DHHC type zinc finger proteins.";
+RL   Submitted (JAN-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Palmitoyltransferase that catalyzes the addition of palmitate
+CC       onto various protein substrates, such as CGAS, HRAS and LCK. Acts as a
+CC       negative regulator of the cGAS-STING pathway be mediating
+CC       palmitoylation and inactivation of CGAS. May also have a
+CC       palmitoyltransferase activity toward the beta-2 adrenergic
+CC       receptor/ADRB2 and therefore regulate G protein-coupled receptor
+CC       signaling. {ECO:0000250|UniProtKB:Q9NUE0}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hexadecanoyl-CoA + L-cysteinyl-[protein] = CoA + S-
+CC         hexadecanoyl-L-cysteinyl-[protein]; Xref=Rhea:RHEA:36683, Rhea:RHEA-
+CC         COMP:10131, Rhea:RHEA-COMP:11032, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57379, ChEBI:CHEBI:74151;
+CC         EC=2.3.1.225; Evidence={ECO:0000250|UniProtKB:Q9NUE0};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36684;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NUE0};
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:Q9NUE0}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- DOMAIN: The DHHC domain is required for palmitoyltransferase activity.
+CC       {ECO:0000250|UniProtKB:Q8IUH5}.
+CC   -!- SIMILARITY: Belongs to the DHHC palmitoyltransferase family.
+CC       ERF2/ZDHHC9 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY886534; AAX73396.1; -; mRNA.
+DR   RefSeq; NP_001034428.1; NM_001039339.1.
+DR   AlphaFoldDB; Q2TGJ1; -.
+DR   SMR; Q2TGJ1; -.
+DR   STRING; 10116.ENSRNOP00000073628; -.
+DR   PhosphoSitePlus; Q2TGJ1; -.
+DR   PaxDb; 10116-ENSRNOP00000009235; -.
+DR   GeneID; 362613; -.
+DR   KEGG; rno:362613; -.
+DR   UCSC; RGD:1309334; rat.
+DR   AGR; RGD:1309334; -.
+DR   CTD; 84243; -.
+DR   RGD; 1309334; Zdhhc18.
+DR   eggNOG; KOG1311; Eukaryota.
+DR   InParanoid; Q2TGJ1; -.
+DR   OrthoDB; 5480099at2759; -.
+DR   PhylomeDB; Q2TGJ1; -.
+DR   PRO; PR:Q2TGJ1; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IBA:GO_Central.
+DR   GO; GO:0005794; C:Golgi apparatus; ISS:UniProtKB.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016409; F:palmitoyltransferase activity; ISO:RGD.
+DR   GO; GO:0019706; F:protein-cysteine S-palmitoyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0160049; P:negative regulation of cGAS/STING signaling pathway; ISO:RGD.
+DR   GO; GO:0045824; P:negative regulation of innate immune response; ISS:UniProtKB.
+DR   GO; GO:0018230; P:peptidyl-L-cysteine S-palmitoylation; ISS:UniProtKB.
+DR   GO; GO:0008104; P:protein localization; ISO:RGD.
+DR   GO; GO:0006612; P:protein targeting to membrane; IBA:GO_Central.
+DR   InterPro; IPR001594; Palmitoyltrfase_DHHC.
+DR   PANTHER; PTHR22883:SF257; PALMITOYLTRANSFERASE ZDHHC18; 1.
+DR   PANTHER; PTHR22883; ZINC FINGER DHHC DOMAIN CONTAINING PROTEIN; 1.
+DR   Pfam; PF01529; DHHC; 1.
+DR   PROSITE; PS50216; DHHC; 1.
+PE   2: Evidence at transcript level;
+KW   Acyltransferase; Golgi apparatus; Immunity; Innate immunity; Lipoprotein;
+KW   Membrane; Palmitate; Phosphoprotein; Reference proteome; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..386
+FT                   /note="Palmitoyltransferase ZDHHC18"
+FT                   /id="PRO_0000269198"
+FT   TOPO_DOM        1..88
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        89..109
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        110..117
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        118..138
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        139..233
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        234..254
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        255..275
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        276..296
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        297..386
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          190..240
+FT                   /note="DHHC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00067"
+FT   REGION          1..65
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          362..386
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        13..40
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        220
+FT                   /note="S-palmitoyl cysteine intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00067"
+FT   MOD_RES         19
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NUE0"
+SQ   SEQUENCE   386 AA;  41659 MW;  21ED70C27ADD1E1C CRC64;
+     MKDCEYQQIS PGAAPPPASP GVHRPGPAAP PGPSPGPAPG APRWSVSGSG SGSGSGSGSL
+     GRRPRRKWEV FPGRNRFYCG GRLMLAGHGG VFALTLLLIL STTILFFIFD CPYLARTLTL
+     AIPIIAAILF FFVMSCLLQT SFTDPGILPR ATICEAAALE KQIDNTGSST YRPPPRTREV
+     MINGQMVKLK YCFTCKMFRP PRTSHCSVCD NCVERFDHHC PWVGNCVGRR NYRFFYAFIL
+     SLSFLTAFIF ACVVTHLTLL SQGSNFLSAL NKTPAGVLEL VICFFSIWSI LGLSGFHTYL
+     VASNLTTNED IKGSWSSKRG GEASVNPYSH KSIITNCCAV LCGPLPPSLI DRRGFVQSDT
+     VLPSPIRSDE PACGAKPDAS MVGGHP
+//

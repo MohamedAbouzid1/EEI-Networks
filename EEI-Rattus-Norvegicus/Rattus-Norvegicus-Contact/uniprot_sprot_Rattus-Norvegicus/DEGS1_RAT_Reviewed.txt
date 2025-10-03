@@ -1,0 +1,232 @@
+ID   DEGS1_RAT               Reviewed;         323 AA.
+AC   Q5XIF5; Q564G4; Q91XI6;
+DT   04-DEC-2007, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   02-OCT-2024, entry version 128.
+DE   RecName: Full=Sphingolipid delta(4)-desaturase DES1 {ECO:0000305};
+DE            EC=1.14.19.17 {ECO:0000250|UniProtKB:O15121};
+DE   AltName: Full=Degenerative spermatocyte homolog 1;
+DE   AltName: Full=Degenerative spermatocyte-like protein RDES;
+DE   AltName: Full=Dihydroceramide desaturase-1;
+DE   AltName: Full=Retinol isomerase;
+DE            EC=5.2.1.- {ECO:0000250|UniProtKB:Q5F3C1};
+GN   Name=Degs1 {ECO:0000312|RGD:70917}; Synonyms=Degs, Des1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Testis;
+RA   Tirado O.M., Selva D.M., Munell F., Reventos J.;
+RT   "A rat homolog of DEGS.";
+RL   Submitted (MAY-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RA   Goenaga D., Catheline D., Legrand P., Rioux V.;
+RT   "Cloning and characterization of the rat sphingolipid delta 4 desaturases
+RT   DES1 and DES2.";
+RL   Submitted (APR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Has sphingolipid-delta-4-desaturase activity. Converts D-
+CC       erythro-sphinganine to D-erythro-sphingosine (E-sphing-4-enine) (By
+CC       similarity). Catalyzes the equilibrium isomerization of retinols (By
+CC       similarity). {ECO:0000250|UniProtKB:O09005,
+CC       ECO:0000250|UniProtKB:Q5F3C1}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acylsphinganine + 2 Fe(II)-[cytochrome b5] + 2 H(+) + O2
+CC         = an N-acylsphing-4-enine + 2 Fe(III)-[cytochrome b5] + 2 H2O;
+CC         Xref=Rhea:RHEA:46544, Rhea:RHEA-COMP:10438, Rhea:RHEA-COMP:10439,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034, ChEBI:CHEBI:31488,
+CC         ChEBI:CHEBI:52639; EC=1.14.19.17;
+CC         Evidence={ECO:0000250|UniProtKB:O15121};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46545;
+CC         Evidence={ECO:0000250|UniProtKB:O15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinol = 11-cis-retinol; Xref=Rhea:RHEA:19141,
+CC         ChEBI:CHEBI:16302, ChEBI:CHEBI:17336;
+CC         Evidence={ECO:0000250|UniProtKB:O09005};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19142;
+CC         Evidence={ECO:0000250|UniProtKB:O09005};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:19143;
+CC         Evidence={ECO:0000250|UniProtKB:O09005};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinol = 9-cis-retinol; Xref=Rhea:RHEA:55348,
+CC         ChEBI:CHEBI:17336, ChEBI:CHEBI:78272;
+CC         Evidence={ECO:0000250|UniProtKB:Q5F3C1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55349;
+CC         Evidence={ECO:0000250|UniProtKB:Q5F3C1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinol = 13-cis-retinol; Xref=Rhea:RHEA:55352,
+CC         ChEBI:CHEBI:17336, ChEBI:CHEBI:45479;
+CC         Evidence={ECO:0000250|UniProtKB:Q5F3C1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55353;
+CC         Evidence={ECO:0000250|UniProtKB:Q5F3C1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=11-cis-retinol = 13-cis-retinol; Xref=Rhea:RHEA:55356,
+CC         ChEBI:CHEBI:16302, ChEBI:CHEBI:45479;
+CC         Evidence={ECO:0000250|UniProtKB:Q5F3C1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55357;
+CC         Evidence={ECO:0000250|UniProtKB:Q5F3C1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=11-cis-retinol = 9-cis-retinol; Xref=Rhea:RHEA:55360,
+CC         ChEBI:CHEBI:16302, ChEBI:CHEBI:78272;
+CC         Evidence={ECO:0000250|UniProtKB:Q5F3C1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55361;
+CC         Evidence={ECO:0000250|UniProtKB:Q5F3C1};
+CC   -!- SUBUNIT: Interacts with RLBP1; the interaction increases synthesis of
+CC       chromophore-precursors by DEGS1. {ECO:0000250|UniProtKB:Q5F3C1}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion membrane
+CC       {ECO:0000250|UniProtKB:O15121}. Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:O15121}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:O15121}.
+CC   -!- PTM: Myristoylation can target the enzyme to the mitochondria leading
+CC       to an increase in ceramide levels. {ECO:0000250|UniProtKB:O15121}.
+CC   -!- SIMILARITY: Belongs to the fatty acid desaturase type 1 family. DEGS
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY036902; AAK64511.1; -; mRNA.
+DR   EMBL; AJ938081; CAI79416.1; -; mRNA.
+DR   EMBL; BC083727; AAH83727.1; -; mRNA.
+DR   RefSeq; NP_445775.2; NM_053323.2.
+DR   AlphaFoldDB; Q5XIF5; -.
+DR   ELM; Q5XIF5; -.
+DR   STRING; 10116.ENSRNOP00000004319; -.
+DR   ChEMBL; CHEMBL5291552; -.
+DR   PhosphoSitePlus; Q5XIF5; -.
+DR   PaxDb; 10116-ENSRNOP00000004319; -.
+DR   Ensembl; ENSRNOT00000004319.4; ENSRNOP00000004319.2; ENSRNOG00000003223.4.
+DR   Ensembl; ENSRNOT00055021560; ENSRNOP00055017474; ENSRNOG00055012633.
+DR   Ensembl; ENSRNOT00060012533; ENSRNOP00060009497; ENSRNOG00060007594.
+DR   Ensembl; ENSRNOT00065029722; ENSRNOP00065023608; ENSRNOG00065017756.
+DR   GeneID; 58970; -.
+DR   KEGG; rno:58970; -.
+DR   UCSC; RGD:70917; rat.
+DR   AGR; RGD:70917; -.
+DR   CTD; 8560; -.
+DR   RGD; 70917; Degs1.
+DR   eggNOG; KOG2987; Eukaryota.
+DR   GeneTree; ENSGT00390000013448; -.
+DR   HOGENOM; CLU_032156_0_0_1; -.
+DR   InParanoid; Q5XIF5; -.
+DR   OMA; IWIITMM; -.
+DR   OrthoDB; 5485164at2759; -.
+DR   PhylomeDB; Q5XIF5; -.
+DR   TreeFam; TF313582; -.
+DR   BRENDA; 1.14.19.17; 5301.
+DR   Reactome; R-RNO-1660661; Sphingolipid de novo biosynthesis.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   PRO; PR:Q5XIF5; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000003223; Expressed in esophagus and 20 other cell types or tissues.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031966; C:mitochondrial membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016859; F:cis-trans isomerase activity; ISS:UniProtKB.
+DR   GO; GO:0050251; F:retinol isomerase activity; ISS:UniProtKB.
+DR   GO; GO:0042284; F:sphingolipid delta-4 desaturase activity; ISO:RGD.
+DR   GO; GO:0046513; P:ceramide biosynthetic process; ISO:RGD.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0043217; P:myelin maintenance; ISS:UniProtKB.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; ISO:RGD.
+DR   CDD; cd03508; Delta4-sphingolipid-FADS-like; 1.
+DR   InterPro; IPR011388; DES1/DES2.
+DR   InterPro; IPR005804; FA_desaturase_dom.
+DR   InterPro; IPR013866; Sphingolipid_d4-desaturase_N.
+DR   PANTHER; PTHR12879; SPHINGOLIPID DELTA 4 DESATURASE/C-4 HYDROXYLASE PROTEIN DES2; 1.
+DR   PANTHER; PTHR12879:SF2; SPHINGOLIPID DELTA(4)-DESATURASE DES1; 1.
+DR   Pfam; PF00487; FA_desaturase; 1.
+DR   Pfam; PF08557; Lipid_DES; 1.
+DR   PIRSF; PIRSF017228; Sphnglp_dlt4_des; 1.
+DR   SMART; SM01269; Lipid_DES; 1.
+PE   2: Evidence at transcript level;
+KW   Endoplasmic reticulum; Fatty acid biosynthesis; Fatty acid metabolism;
+KW   Isomerase; Lipid biosynthesis; Lipid metabolism; Lipoprotein; Membrane;
+KW   Mitochondrion; Myristate; Oxidoreductase; Phosphoprotein;
+KW   Reference proteome; Transmembrane; Transmembrane helix.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:O15121"
+FT   CHAIN           2..323
+FT                   /note="Sphingolipid delta(4)-desaturase DES1"
+FT                   /id="PRO_0000312731"
+FT   TRANSMEM        41..61
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        68..88
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        104..124
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        152..172
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        184..204
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        210..230
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           89..93
+FT                   /note="Histidine box-1"
+FT                   /evidence="ECO:0000305"
+FT   MOTIF           128..132
+FT                   /note="Histidine box-2"
+FT                   /evidence="ECO:0000305"
+FT   MOTIF           259..263
+FT                   /note="Histidine box-3"
+FT                   /evidence="ECO:0000305"
+FT   MOD_RES         307
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O15121"
+FT   LIPID           2
+FT                   /note="N-myristoyl glycine"
+FT                   /evidence="ECO:0000250|UniProtKB:O15121"
+FT   CONFLICT        3
+FT                   /note="N -> S (in Ref. 1; AAK64511)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        24
+FT                   /note="Q -> K (in Ref. 1; AAK64511)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        41
+FT                   /note="P -> H (in Ref. 1; AAK64511)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        48..49
+FT                   /note="TS -> AM (in Ref. 1; AAK64511)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        69..70
+FT                   /note="LM -> VI (in Ref. 1; AAK64511)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        75
+FT                   /note="A -> V (in Ref. 1; AAK64511)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        103
+FT                   /note="M -> L (in Ref. 1; AAK64511)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        190
+FT                   /note="T -> A (in Ref. 1; AAK64511)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        322
+FT                   /note="Q -> H (in Ref. 2; CAI79416)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   323 AA;  38055 MW;  7DAB9C8CF9091108 CRC64;
+     MGNRVSREEF EWVYTDQPHA ARRQEILAKY PEIKSLMKPD PNLIWIVTSM LLVQLASFYL
+     VKDLDWKWLM FWSYAFGSCL NHSMTLAIHE ISHNFPFGHH KAMWNRWFGM FANLSLGVPY
+     SISFKRYHMD HHRYLGADGI DVDIPTDFEG WFFCTTLRKL VWVILQPLFY AFRPLFINPK
+     PITHLEVINT VIQVTFDVLV YYVFGVKSLV YMLAASLLGL GLHPISGHFI AEHYMFLKGH
+     ETYSYYGPLN LLTFNVGYHN EHHDFPNVPG KNLPLVRKIA SEYYDNLPHY NSWIRVLYDF
+     VMDDTISPYS RMKRPPKGNE IQE
+//

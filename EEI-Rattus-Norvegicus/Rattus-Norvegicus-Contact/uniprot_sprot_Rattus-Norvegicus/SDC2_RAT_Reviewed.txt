@@ -1,0 +1,159 @@
+ID   SDC2_RAT                Reviewed;         201 AA.
+AC   P34900;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 2.
+DT   24-JUL-2024, entry version 152.
+DE   RecName: Full=Syndecan-2;
+DE            Short=SYND2;
+DE   AltName: Full=Fibroglycan;
+DE   AltName: Full=Heparan sulfate proteoglycan core protein;
+DE            Short=HSPG;
+DE   AltName: CD_antigen=CD362;
+DE   Flags: Precursor;
+GN   Name=Sdc2; Synonyms=Hspg1, Synd2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=1740437; DOI=10.1016/s0021-9258(19)50610-x;
+RA   Pierce A., Lyon M., Hampson I., Cowling G.J., Gallagher J.;
+RT   "Molecular cloning of the major cell surface heparan sulfate proteoglycan
+RT   from rat liver.";
+RL   J. Biol. Chem. 267:3894-3900(1992).
+CC   -!- FUNCTION: Cell surface proteoglycan which regulates dendritic arbor
+CC       morphogenesis. {ECO:0000250|UniProtKB:P43407}.
+CC   -!- SUBUNIT: Interacts (via cytoplasmic domain) with SARM1. Forms a complex
+CC       with SDCBP and PDCD6IP. {ECO:0000250|UniProtKB:P34741,
+CC       ECO:0000250|UniProtKB:P43407}.
+CC   -!- INTERACTION:
+CC       P34900; P26260: Sdc1; NbExp=2; IntAct=EBI-1173032, EBI-1173127;
+CC       P34900; P34900: Sdc2; NbExp=2; IntAct=EBI-1173032, EBI-1173032;
+CC       P34900; P33671: Sdc3; NbExp=2; IntAct=EBI-1173032, EBI-1173159;
+CC       P34900; P34901: Sdc4; NbExp=4; IntAct=EBI-1173032, EBI-1173182;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   -!- PTM: O-glycosylated; contains both heparan sulfate and chondroitin
+CC       sulfate. {ECO:0000250|UniProtKB:P43407}.
+CC   -!- SIMILARITY: Belongs to the syndecan proteoglycan family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M81687; AAA41355.1; -; mRNA.
+DR   PIR; A42261; A42261.
+DR   RefSeq; NP_037214.1; NM_013082.3.
+DR   AlphaFoldDB; P34900; -.
+DR   SMR; P34900; -.
+DR   BioGRID; 247644; 5.
+DR   CORUM; P34900; -.
+DR   IntAct; P34900; 5.
+DR   STRING; 10116.ENSRNOP00000007255; -.
+DR   GlyCosmos; P34900; 3 sites, No reported glycans.
+DR   GlyGen; P34900; 3 sites.
+DR   iPTMnet; P34900; -.
+DR   PhosphoSitePlus; P34900; -.
+DR   PaxDb; 10116-ENSRNOP00000007255; -.
+DR   GeneID; 25615; -.
+DR   KEGG; rno:25615; -.
+DR   UCSC; RGD:3649; rat.
+DR   AGR; RGD:3649; -.
+DR   CTD; 6383; -.
+DR   RGD; 3649; Sdc2.
+DR   eggNOG; ENOG502S3JC; Eukaryota.
+DR   InParanoid; P34900; -.
+DR   OrthoDB; 4258425at2759; -.
+DR   Reactome; R-RNO-1971475; A tetrasaccharide linker sequence is required for GAG synthesis.
+DR   Reactome; R-RNO-2022928; HS-GAG biosynthesis.
+DR   Reactome; R-RNO-2024096; HS-GAG degradation.
+DR   Reactome; R-RNO-202733; Cell surface interactions at the vascular wall.
+DR   Reactome; R-RNO-3000170; Syndecan interactions.
+DR   Reactome; R-RNO-381426; Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).
+DR   Reactome; R-RNO-3928662; EPHB-mediated forward signaling.
+DR   Reactome; R-RNO-8957275; Post-translational protein phosphorylation.
+DR   Reactome; R-RNO-975634; Retinoid metabolism and transport.
+DR   PRO; PR:P34900; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0009986; C:cell surface; IBA:GO_Central.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; TAS:Reactome.
+DR   GO; GO:0045211; C:postsynaptic membrane; IDA:SynGO.
+DR   GO; GO:0042734; C:presynaptic membrane; IDA:SynGO.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0030165; F:PDZ domain binding; IPI:RGD.
+DR   GO; GO:0016477; P:cell migration; IBA:GO_Central.
+DR   GO; GO:0048813; P:dendrite morphogenesis; IEP:RGD.
+DR   GO; GO:0048814; P:regulation of dendrite morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0051963; P:regulation of synapse assembly; IDA:SynGO.
+DR   GO; GO:0090128; P:regulation of synapse maturation; IDA:SynGO.
+DR   GO; GO:0031000; P:response to caffeine; IEP:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   InterPro; IPR003585; Neurexin-like.
+DR   InterPro; IPR001050; Syndecan.
+DR   InterPro; IPR027789; Syndecan/Neurexin_dom.
+DR   InterPro; IPR030479; Syndecan_CS.
+DR   PANTHER; PTHR10915; SYNDECAN; 1.
+DR   PANTHER; PTHR10915:SF6; SYNDECAN-2; 1.
+DR   Pfam; PF01034; Syndecan; 1.
+DR   SMART; SM00294; 4.1m; 1.
+DR   PROSITE; PS00964; SYNDECAN; 1.
+PE   1: Evidence at protein level;
+KW   Differentiation; Glycoprotein; Heparan sulfate; Membrane; Neurogenesis;
+KW   Phosphoprotein; Proteoglycan; Reference proteome; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           19..201
+FT                   /note="Syndecan-2"
+FT                   /id="PRO_0000033505"
+FT   TOPO_DOM        19..144
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        145..169
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        170..201
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          42..69
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          88..129
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          178..201
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        88..102
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        103..129
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   SITE            142..143
+FT                   /note="Cleavage of ectodomain"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         115
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P34741"
+FT   MOD_RES         187
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P34741"
+FT   CARBOHYD        41
+FT                   /note="O-linked (Xyl...) (glycosaminoglycan) serine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        55
+FT                   /note="O-linked (Xyl...) (glycosaminoglycan) serine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        57
+FT                   /note="O-linked (Xyl...) (glycosaminoglycan) serine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   201 AA;  22149 MW;  02E08455754C5E5A CRC64;
+     MQRAWILLTL GLMACVSAET RAELTSDKDM YLDSSSIEEA SGLYPIDDDD YSSASGSGAY
+     EDKGSPDLTT SQLIPRISLT SAAPEVETMT LKTQSITPTQ TESPEETDKK EFEISEAEEK
+     QDPAVKSTDV YTEKHSDNLF KRTEVLAAVI AGGVIGFLFA IFLILLLVYR MRKKDEGSYD
+     LGERKPSSAA YQKAPTKEFY A
+//

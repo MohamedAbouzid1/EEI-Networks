@@ -1,0 +1,338 @@
+ID   PAHX_RAT                Reviewed;         338 AA.
+AC   P57093; Q9QY64;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   11-JAN-2001, sequence version 2.
+DT   29-MAY-2024, entry version 137.
+DE   RecName: Full=Phytanoyl-CoA dioxygenase, peroxisomal;
+DE            EC=1.14.11.18 {ECO:0000269|PubMed:10588950};
+DE   AltName: Full=Phytanic acid oxidase;
+DE   AltName: Full=Phytanoyl-CoA alpha-hydroxylase;
+DE            Short=PhyH;
+DE   Flags: Precursor;
+GN   Name=Phyh;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 31-50, FUNCTION, CATALYTIC
+RP   ACTIVITY, COFACTOR, SUBCELLULAR LOCATION, AND BIOPHYSICOCHEMICAL
+RP   PROPERTIES.
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=10588950;
+RA   Jansen G.A., Ofman R., Denis S., Ferdinandusse S., Hogenhout E.M.,
+RA   Jakobs C., Wanders R.J.A.;
+RT   "Phytanoyl-CoA hydroxylase from rat liver: protein purification and cDNA
+RT   cloning with implications for the subcellular localization of phytanic acid
+RT   alpha-oxidation.";
+RL   J. Lipid Res. 40:2244-2254(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Ovary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 31-50 AND 232-241.
+RX   PubMed=9326940; DOI=10.1038/ng1097-190;
+RA   Jansen G.A., Ofman R., Ferdinandusse S., Ijlst L., Muijsers A.O.,
+RA   Skjeldal O.H., Stokke O., Jakobs C., Besley G.T.N., Wraith J.E.,
+RA   Wanders R.J.A.;
+RT   "Refsum disease is caused by mutations in the phytanoyl-CoA hydroxylase
+RT   gene.";
+RL   Nat. Genet. 17:190-193(1997).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND COFACTOR.
+RX   PubMed=10744784;
+RA   Croes K., Foulon V., Casteels M., Van Veldhoven P.P., Mannaerts G.P.;
+RT   "Phytanoyl-CoA hydroxylase: recognition of 3-methyl-branched acyl-coAs and
+RT   requirement for GTP or ATP and Mg(2+) in addition to its known
+RT   hydroxylation cofactors.";
+RL   J. Lipid Res. 41:629-636(2000).
+CC   -!- FUNCTION: Catalyzes the 2-hydroxylation of racemic phytanoyl-CoA and
+CC       the isomers of 3-methylhexadecanoyl-CoA (PubMed:10588950,
+CC       PubMed:10744784). Shows activity also towards a variety of other mono-
+CC       branched 3-methylacyl-CoA esters (with a chain length of at least seven
+CC       carbon atoms) and straight-chain acyl-CoA esters (with a chain length
+CC       longer than four carbon atoms) (By similarity). Does not hydroxylate
+CC       long and very long straight chain acyl-CoAs or 2-methyl-and 4-methyl-
+CC       branched acyl-CoAs (By similarity). {ECO:0000250|UniProtKB:O14832,
+CC       ECO:0000269|PubMed:10588950, ECO:0000269|PubMed:10744784}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + O2 + phytanoyl-CoA = 2-hydroxyphytanoyl-CoA +
+CC         CO2 + succinate; Xref=Rhea:RHEA:16065, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:57334, ChEBI:CHEBI:57391; EC=1.14.11.18;
+CC         Evidence={ECO:0000269|PubMed:10588950};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16066;
+CC         Evidence={ECO:0000305|PubMed:10588950};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + 3-methylhexadecanoyl-CoA + O2 = 2-hydroxy-3-
+CC         methylhexadecanoyl-CoA + CO2 + succinate; Xref=Rhea:RHEA:44000,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:58784, ChEBI:CHEBI:83969;
+CC         Evidence={ECO:0000269|PubMed:10744784};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:44001;
+CC         Evidence={ECO:0000305|PubMed:10744784};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + hexadecanoyl-CoA + O2 = 2-
+CC         hydroxyhexadecanoyl-CoA + CO2 + succinate; Xref=Rhea:RHEA:54596,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:57379, ChEBI:CHEBI:74115;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54597;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + O2 + octanoyl-CoA = 2-hydroxyoctanoyl-CoA +
+CC         CO2 + succinate; Xref=Rhea:RHEA:54600, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:57386, ChEBI:CHEBI:138290;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54601;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + decanoyl-CoA + O2 = 2-hydroxydecanoyl-CoA +
+CC         CO2 + succinate; Xref=Rhea:RHEA:54604, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:61430, ChEBI:CHEBI:138292;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54605;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + 3-methylbutanoyl-CoA + O2 = 2-hydroxy-3-
+CC         methylbutanoyl-CoA + CO2 + succinate; Xref=Rhea:RHEA:54612,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:57345, ChEBI:CHEBI:138296;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54613;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + heptadecanoyl-CoA + O2 = 2-
+CC         hydroxyheptadecanoyl-CoA + CO2 + succinate; Xref=Rhea:RHEA:54616,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:74307, ChEBI:CHEBI:138297;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54617;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + eicosanoyl-CoA + O2 = 2-hydroxyeicosanoyl-CoA
+CC         + CO2 + succinate; Xref=Rhea:RHEA:54620, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:57380, ChEBI:CHEBI:138298;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54621;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + O2 + octadecanoyl-CoA = 2-
+CC         hydroxyoctadecanoyl-CoA + CO2 + succinate; Xref=Rhea:RHEA:54624,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:57394, ChEBI:CHEBI:74116;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54625;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + dodecanoyl-CoA + O2 = 2-hydroxydodecanoyl-CoA
+CC         + CO2 + succinate; Xref=Rhea:RHEA:54628, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:57375, ChEBI:CHEBI:138299;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54629;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + O2 + tetradecanoyl-CoA = 2-
+CC         hydroxytetradecanoyl-CoA + CO2 + succinate; Xref=Rhea:RHEA:54632,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:57385, ChEBI:CHEBI:138300;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54633;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + hexanoyl-CoA + O2 = 2-hydroxyhexanoyl-CoA +
+CC         CO2 + succinate; Xref=Rhea:RHEA:55172, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:62620, ChEBI:CHEBI:138630;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55173;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + butanoyl-CoA + O2 = 2-hydroxybutanoyl-CoA +
+CC         CO2 + succinate; Xref=Rhea:RHEA:55176, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:57371, ChEBI:CHEBI:138628;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55177;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + 3-methylnonanoyl-CoA + O2 = 2-hydroxy-3-
+CC         methylnonanoyl-CoA + CO2 + succinate; Xref=Rhea:RHEA:55180,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:138633, ChEBI:CHEBI:138634;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55181;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + 3-methylundecanoyl-CoA + O2 = 2-hydroxy-3-
+CC         methylundecanoyl-CoA + CO2 + succinate; Xref=Rhea:RHEA:55184,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:84183, ChEBI:CHEBI:138632;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55185;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + 3-methyldodecanoyl-CoA + O2 = 2-hydroxy-3-
+CC         methyldodecanoyl-CoA + CO2 + succinate; Xref=Rhea:RHEA:55192,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16526, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:138636, ChEBI:CHEBI:138637;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55193;
+CC         Evidence={ECO:0000250|UniProtKB:O14832};
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000269|PubMed:10588950, ECO:0000269|PubMed:10744784};
+CC   -!- COFACTOR:
+CC       Name=L-ascorbate; Xref=ChEBI:CHEBI:38290;
+CC         Evidence={ECO:0000269|PubMed:10588950, ECO:0000269|PubMed:10744784};
+CC   -!- COFACTOR:
+CC       Name=ATP; Xref=ChEBI:CHEBI:30616;
+CC         Evidence={ECO:0000269|PubMed:10744784};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:10744784};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 7.5. {ECO:0000269|PubMed:10588950};
+CC   -!- PATHWAY: Lipid metabolism; fatty acid metabolism.
+CC   -!- SUBUNIT: Interacts specifically with FKBP52 and PHYHIP.
+CC       {ECO:0000250|UniProtKB:O14832}.
+CC   -!- SUBCELLULAR LOCATION: Peroxisome {ECO:0000269|PubMed:10588950}.
+CC   -!- SIMILARITY: Belongs to the PhyH family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF121345; AAF15971.1; -; mRNA.
+DR   EMBL; BC086573; AAH86573.1; -; mRNA.
+DR   RefSeq; NP_446126.1; NM_053674.1.
+DR   AlphaFoldDB; P57093; -.
+DR   SMR; P57093; -.
+DR   IntAct; P57093; 5.
+DR   STRING; 10116.ENSRNOP00000024362; -.
+DR   iPTMnet; P57093; -.
+DR   PhosphoSitePlus; P57093; -.
+DR   PaxDb; 10116-ENSRNOP00000024362; -.
+DR   ABCD; P57093; 1 sequenced antibody.
+DR   Ensembl; ENSRNOT00000024362.7; ENSRNOP00000024362.3; ENSRNOG00000018044.7.
+DR   Ensembl; ENSRNOT00055030387; ENSRNOP00055024442; ENSRNOG00055017941.
+DR   Ensembl; ENSRNOT00060016033; ENSRNOP00060012548; ENSRNOG00060009493.
+DR   Ensembl; ENSRNOT00065012182; ENSRNOP00065008911; ENSRNOG00065007769.
+DR   GeneID; 114209; -.
+DR   KEGG; rno:114209; -.
+DR   AGR; RGD:620317; -.
+DR   CTD; 5264; -.
+DR   RGD; 620317; Phyh.
+DR   eggNOG; KOG3290; Eukaryota.
+DR   GeneTree; ENSGT00390000001775; -.
+DR   HOGENOM; CLU_060877_0_0_1; -.
+DR   InParanoid; P57093; -.
+DR   OMA; CCAWTAM; -.
+DR   OrthoDB; 346508at2759; -.
+DR   PhylomeDB; P57093; -.
+DR   TreeFam; TF313667; -.
+DR   BioCyc; MetaCyc:MONOMER-17703; -.
+DR   Reactome; R-RNO-389599; Alpha-oxidation of phytanate.
+DR   Reactome; R-RNO-9033241; Peroxisomal protein import.
+DR   UniPathway; UPA00199; -.
+DR   PRO; PR:P57093; -.
+DR   Proteomes; UP000002494; Chromosome 17.
+DR   Bgee; ENSRNOG00000018044; Expressed in heart and 19 other cell types or tissues.
+DR   GO; GO:0097731; C:9+0 non-motile cilium; ISO:RGD.
+DR   GO; GO:0005777; C:peroxisome; IDA:HGNC-UCL.
+DR   GO; GO:0031406; F:carboxylic acid binding; ISO:RGD.
+DR   GO; GO:0003824; F:catalytic activity; ISO:RGD.
+DR   GO; GO:0008198; F:ferrous iron binding; ISO:RGD.
+DR   GO; GO:0031418; F:L-ascorbic acid binding; ISO:RGD.
+DR   GO; GO:0048244; F:phytanoyl-CoA dioxygenase activity; IDA:RGD.
+DR   GO; GO:0019606; P:2-oxobutyrate catabolic process; IDA:RGD.
+DR   GO; GO:0006103; P:2-oxoglutarate metabolic process; ISO:RGD.
+DR   GO; GO:0001561; P:fatty acid alpha-oxidation; IDA:RGD.
+DR   GO; GO:0006720; P:isoprenoid metabolic process; ISO:RGD.
+DR   GO; GO:0097089; P:methyl-branched fatty acid metabolic process; ISO:RGD.
+DR   Gene3D; 2.60.120.620; q2cbj1_9rhob like domain; 1.
+DR   InterPro; IPR047128; PhyH.
+DR   InterPro; IPR008775; Phytyl_CoA_dOase-like.
+DR   PANTHER; PTHR21308; PHYTANOYL-COA ALPHA-HYDROXYLASE; 1.
+DR   PANTHER; PTHR21308:SF1; PHYTANOYL-COA DIOXYGENASE, PEROXISOMAL; 1.
+DR   Pfam; PF05721; PhyH; 1.
+DR   SUPFAM; SSF51197; Clavaminate synthase-like; 1.
+PE   1: Evidence at protein level;
+KW   Dioxygenase; Direct protein sequencing; Iron; Metal-binding;
+KW   Oxidoreductase; Peroxisome; Reference proteome; Transit peptide; Vitamin C.
+FT   TRANSIT         1..30
+FT                   /note="Peroxisome"
+FT                   /evidence="ECO:0000269|PubMed:10588950,
+FT                   ECO:0000269|PubMed:9326940"
+FT   CHAIN           31..338
+FT                   /note="Phytanoyl-CoA dioxygenase, peroxisomal"
+FT                   /id="PRO_0000024055"
+FT   BINDING         120
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:O14832"
+FT   BINDING         157
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:O14832"
+FT   BINDING         175..177
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:O14832"
+FT   BINDING         175
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000250|UniProtKB:O14832"
+FT   BINDING         177
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000250|UniProtKB:O14832"
+FT   BINDING         193
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:O14832"
+FT   BINDING         264
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000250|UniProtKB:O14832"
+FT   BINDING         266
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:O14832"
+FT   BINDING         275
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:O14832"
+FT   MOD_RES         59
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:O35386"
+FT   MOD_RES         108
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:O35386"
+FT   MOD_RES         231
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:O35386"
+FT   MOD_RES         252
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:O35386"
+FT   CONFLICT        241
+FT                   /note="P -> Q (in Ref. 3; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   338 AA;  38588 MW;  EA0E93AF7D47880E CRC64;
+     MDYTRAGARL QVLLGHLGRP SALQIVAHPV SGPASPANFC PEQFQYTLDN NVLSLEQRKF
+     YEENGFLVIK NLVSDDDIQR FRAEFERICR KEVKPPGMTV MKDVAIAKQG YAPSERVVTK
+     IQDFQQNEEL FRYCALPQIV KYVECFTGPN IMAMHTMLIN KPPDSGKKTS RHPLHQDLHF
+     FPFRPSNLIV CAWTAMEHID RNNGCLVVLP GTHKGPLKPH DYPKWEGGVN KMYHGIQDYD
+     PDSPRVHLVM EKGDTVFFHP LLIHGSGRNR TQGFRKAISC HYGSSDCKYI SVKGTSQENI
+     AREVIEIAEK RYGVQGALDF EDTWKFRCRL VKGERINL
+//

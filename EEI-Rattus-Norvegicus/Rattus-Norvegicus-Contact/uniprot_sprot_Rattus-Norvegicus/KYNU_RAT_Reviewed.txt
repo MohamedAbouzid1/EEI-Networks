@@ -1,0 +1,240 @@
+ID   KYNU_RAT                Reviewed;         464 AA.
+AC   P70712; Q68G25; Q7M0D0; Q9QW90;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   09-NOV-2004, sequence version 2.
+DT   02-OCT-2024, entry version 165.
+DE   RecName: Full=Kynureninase {ECO:0000255|HAMAP-Rule:MF_03017};
+DE            EC=3.7.1.3 {ECO:0000255|HAMAP-Rule:MF_03017};
+DE   AltName: Full=L-kynurenine hydrolase {ECO:0000255|HAMAP-Rule:MF_03017};
+GN   Name=Kynu;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   PROTEIN SEQUENCE, IDENTIFICATION BY MASS SPECTROMETRY, AND ACETYLATION AT
+RP   MET-1.
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=7578221; DOI=10.1016/0167-4838(95)00166-r;
+RA   Takeuchi F., Tsubouchi R., Yoshino M., Shibata Y.;
+RT   "Amino-acid sequence of rat liver kynureninase.";
+RL   Biochim. Biophys. Acta 1252:185-188(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, FUNCTION, CATALYTIC
+RP   ACTIVITY, ACTIVITY REGULATION, BIOPHYSICOCHEMICAL PROPERTIES, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Liver;
+RX   PubMed=9180257; DOI=10.1016/s0014-5793(97)00374-8;
+RA   Toma S., Nakamura M., Tone S., Okuno E., Kido R., Breton J., Avanzi N.,
+RA   Cozzi L., Speciale C., Mostardini M., Gatti S., Benatti L.;
+RT   "Cloning and recombinant expression of rat and human kynureninase.";
+RL   FEBS Lett. 408:5-10(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 19-117, AND PARTIAL PROTEIN SEQUENCE.
+RC   TISSUE=Kidney, and Liver;
+RX   PubMed=8706755; DOI=10.1111/j.1432-1033.1996.0460u.x;
+RA   Alberati-Giani D., Buchli R., Malherbe P., Broger C., Lang G., Koehler C.,
+RA   Lahm H.-W., Cesura A.M.;
+RT   "Isolation and expression of a cDNA clone encoding human kynureninase.";
+RL   Eur. J. Biochem. 239:460-468(1996).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 83-116 AND 273-319.
+RC   TISSUE=Liver;
+RA   Matsui Lee I.S., Okuno E., Kido R.;
+RL   Submitted (JUN-1992) to the PIR data bank.
+RN   [6]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the cleavage of L-kynurenine (L-Kyn) and L-3-
+CC       hydroxykynurenine (L-3OHKyn) into anthranilic acid (AA) and 3-
+CC       hydroxyanthranilic acid (3-OHAA), respectively. Has a preference for
+CC       the L-3-hydroxy form. Also has cysteine-conjugate-beta-lyase activity.
+CC       {ECO:0000255|HAMAP-Rule:MF_03017, ECO:0000269|PubMed:9180257}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-kynurenine = anthranilate + H(+) + L-alanine;
+CC         Xref=Rhea:RHEA:16813, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16567, ChEBI:CHEBI:57959, ChEBI:CHEBI:57972; EC=3.7.1.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03017,
+CC         ECO:0000269|PubMed:9180257};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-hydroxy-L-kynurenine + H2O = 3-hydroxyanthranilate + H(+) +
+CC         L-alanine; Xref=Rhea:RHEA:25143, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:36559, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:58125; EC=3.7.1.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_03017, ECO:0000269|PubMed:9180257};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC   -!- ACTIVITY REGULATION: Inhibited by o-methylbenzoylalanine (OMBA).
+CC       {ECO:0000269|PubMed:9180257}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=440 uM for L-kynurenine {ECO:0000269|PubMed:9180257};
+CC         KM=32 uM for DL-3-hydroxykynurenine {ECO:0000269|PubMed:9180257};
+CC       pH dependence:
+CC         Optimum pH is about 9.0 with L-kynurenine as substrate, and about 8.5
+CC         with DL-3-hydroxykynurenine as substrate.
+CC         {ECO:0000269|PubMed:9180257};
+CC   -!- PATHWAY: Amino-acid degradation; L-kynurenine degradation; L-alanine
+CC       and anthranilate from L-kynurenine: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_03017}.
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; quinolinate from
+CC       L-kynurenine: step 2/3. {ECO:0000255|HAMAP-Rule:MF_03017}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_03017}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol {ECO:0000255|HAMAP-
+CC       Rule:MF_03017}.
+CC   -!- TISSUE SPECIFICITY: High levels in liver and kidney. Also detected in
+CC       heart, retina, ovary. Lung, testis and brain.
+CC       {ECO:0000269|PubMed:9180257}.
+CC   -!- INDUCTION: Inhibited by thiol reagents and heavy metal ions.
+CC   -!- SIMILARITY: Belongs to the kynureninase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_03017}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U68168; AAC53206.1; -; mRNA.
+DR   EMBL; BC078762; AAH78762.1; -; mRNA.
+DR   PIR; PS0370; PS0370.
+DR   PIR; S59898; S59898.
+DR   PIR; T48675; T48675.
+DR   RefSeq; NP_446354.1; NM_053902.2.
+DR   AlphaFoldDB; P70712; -.
+DR   SMR; P70712; -.
+DR   STRING; 10116.ENSRNOP00000050947; -.
+DR   BindingDB; P70712; -.
+DR   ChEMBL; CHEMBL2969; -.
+DR   iPTMnet; P70712; -.
+DR   PhosphoSitePlus; P70712; -.
+DR   PaxDb; 10116-ENSRNOP00000050947; -.
+DR   GeneID; 116682; -.
+DR   KEGG; rno:116682; -.
+DR   UCSC; RGD:71061; rat.
+DR   AGR; RGD:71061; -.
+DR   CTD; 8942; -.
+DR   RGD; 71061; Kynu.
+DR   VEuPathDB; HostDB:ENSRNOG00000029993; -.
+DR   eggNOG; KOG3846; Eukaryota.
+DR   HOGENOM; CLU_003433_4_0_1; -.
+DR   InParanoid; P70712; -.
+DR   OrthoDB; 5471916at2759; -.
+DR   PhylomeDB; P70712; -.
+DR   BioCyc; MetaCyc:MONOMER-15007; -.
+DR   Reactome; R-RNO-71240; Tryptophan catabolism.
+DR   SABIO-RK; P70712; -.
+DR   UniPathway; UPA00253; UER00329.
+DR   UniPathway; UPA00334; UER00455.
+DR   PRO; PR:P70712; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000029993; Expressed in liver and 12 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0061981; F:3-hydroxykynureninase activity; ISS:UniProtKB.
+DR   GO; GO:0030429; F:kynureninase activity; IDA:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IDA:RGD.
+DR   GO; GO:0034354; P:'de novo' NAD biosynthetic process from tryptophan; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043420; P:anthranilate metabolic process; ISO:RGD.
+DR   GO; GO:0097053; P:L-kynurenine catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009435; P:NAD biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0019805; P:quinolinate biosynthetic process; ISO:RGD.
+DR   GO; GO:0034341; P:response to type II interferon; ISO:RGD.
+DR   GO; GO:0034516; P:response to vitamin B6; ISO:RGD.
+DR   GO; GO:0006569; P:tryptophan catabolic process; ISO:RGD.
+DR   GO; GO:0019442; P:tryptophan catabolic process to acetyl-CoA; IDA:RGD.
+DR   GO; GO:0019441; P:tryptophan catabolic process to kynurenine; IBA:GO_Central.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   HAMAP; MF_01970; Kynureninase; 1.
+DR   InterPro; IPR010111; Kynureninase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR01814; kynureninase; 1.
+DR   PANTHER; PTHR14084; KYNURENINASE; 1.
+DR   PANTHER; PTHR14084:SF0; KYNURENINASE; 1.
+DR   Pfam; PF22580; KYNU_C; 1.
+DR   PIRSF; PIRSF038800; KYNU; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Direct protein sequencing; Hydrolase;
+KW   Pyridine nucleotide biosynthesis; Pyridoxal phosphate; Reference proteome.
+FT   CHAIN           1..464
+FT                   /note="Kynureninase"
+FT                   /id="PRO_0000218659"
+FT   BINDING         137
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03017"
+FT   BINDING         138
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03017"
+FT   BINDING         165..168
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03017"
+FT   BINDING         221
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03017"
+FT   BINDING         250
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03017"
+FT   BINDING         253
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03017"
+FT   BINDING         275
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03017"
+FT   BINDING         305
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03017"
+FT   BINDING         333
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03017"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03017,
+FT                   ECO:0000269|PubMed:7578221"
+FT   MOD_RES         276
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03017"
+FT   CONFLICT        18
+FT                   /note="T -> A (in Ref. 2; AAC53206)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        26
+FT                   /note="D -> N (in Ref. 1; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        118
+FT                   /note="S -> T (in Ref. 2; AAC53206)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   464 AA;  52470 MW;  1490A74EFF7287AC CRC64;
+     MEPSPLELPV DAVRRIATEL NCDPTDERVA LRLDEEDKLK RFKDCFYIPK MRDLPSIDLS
+     LVNEDDNAIY FLGNSLGLQP KMVKTYLEEE LDKWAKIGAY GHEVGKRPWI IGDESIVSLM
+     KDIVGAHEKE IALMNALTVN LHLLLLSFFK PTPKRHKILL EAKAFPSDHY AIESQIQLHG
+     LDVEKSMRMI KPREGEETLR MEDILEVIEK EGDSIAVVLF SGLHFYTGQL FNIPAITQAG
+     HAKGCFVGFD LAHAVGNVEL HLHDWDVDFA CWCSYKYLNS GAGGLAGAFI HEKHAHTIKP
+     ALVGWFGHEL STRFNMDNKL QLIPGVNGFR ISNPPILLVC SLHASLEIFQ QATMTALRRK
+     SILLTGYLEY LLKHYHGGND TENKRPVVNI ITPSRAEERG CQLTLTFSIS KKGVFKELEK
+     RGVVCDKREP EGIRVAPVPL YNSFHDVYKF IRLLTAILDS TERN
+//

@@ -1,0 +1,210 @@
+ID   SMS1_RAT                Reviewed;         419 AA.
+AC   Q7TSX5;
+DT   01-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   16-FEB-2004, sequence version 2.
+DT   24-JUL-2024, entry version 144.
+DE   RecName: Full=Phosphatidylcholine:ceramide cholinephosphotransferase 1;
+DE            EC=2.7.8.27 {ECO:0000250|UniProtKB:Q86VZ5};
+DE   AltName: Full=Protein Mob;
+DE   AltName: Full=Sphingomyelin synthase 1;
+DE   AltName: Full=Transmembrane protein 23;
+GN   Name=Sgms1; Synonyms=Mob, Tmem23;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116 {ECO:0000312|EMBL:AAP37281.1};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar; TISSUE=Heart;
+RA   Yuan H.F., Wang X., Wang D.M., Li H.M., Feng K., Bai C.X., Zhang R.,
+RA   Chen L., Li Y.H., Gao Y.H., Zhen M., Yue W., Xie C., Xie X.Y., Niu L.L.,
+RA   Yue W., Zhang J., Cao H., Pei X.T.;
+RT   "Complete cDNA sequence of a novel gene, rat mob.";
+RL   Submitted (APR-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=21980337; DOI=10.1371/journal.pone.0023644;
+RA   Subathra M., Qureshi A., Luberto C.;
+RT   "Sphingomyelin synthases regulate protein trafficking and secretion.";
+RL   PLoS ONE 6:e23644-e23644(2011).
+CC   -!- FUNCTION: Major sphingomyelin synthase at the Golgi apparatus.
+CC       Catalyzes the reversible transfer of phosphocholine moiety in
+CC       sphingomyelin biosynthesis: in the forward reaction transfers
+CC       phosphocholine head group of phosphatidylcholine (PC) on to ceramide
+CC       (CER) to form ceramide phosphocholine (sphingomyelin, SM) and
+CC       diacylglycerol (DAG) as by-product, and in the reverse reaction
+CC       transfers phosphocholine from SM to DAG to form PC and CER. The
+CC       direction of the reaction depends on the levels of CER and DAG in Golgi
+CC       membranes. Does not use free phosphorylcholine or CDP-choline as donor.
+CC       Regulates receptor-mediated signal transduction via mitogenic DAG and
+CC       proapoptotic CER, as well as via SM, a structural component of membrane
+CC       rafts that serve as platforms for signal transduction and protein
+CC       sorting (By similarity). Plays a role in secretory transport via
+CC       regulation of DAG pool at the Golgi apparatus and its downstream
+CC       effects on PRKD1 (PubMed:21980337). {ECO:0000250|UniProtKB:Q86VZ5,
+CC       ECO:0000269|PubMed:21980337}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + an N-acylsphing-4-
+CC         enine = a 1,2-diacyl-sn-glycerol + a sphingomyelin;
+CC         Xref=Rhea:RHEA:18765, ChEBI:CHEBI:17636, ChEBI:CHEBI:17815,
+CC         ChEBI:CHEBI:52639, ChEBI:CHEBI:57643; EC=2.7.8.27;
+CC         Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:18766;
+CC         Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:18767;
+CC         Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z-octadecenoyl)-2-acyl-sn-3-glycerol + a sphingomyelin = a
+CC         1-(9Z-octadecenoyl)-2-acyl-sn-glycero-3-phosphocholine + an N-
+CC         acylsphing-4-enine; Xref=Rhea:RHEA:43320, ChEBI:CHEBI:17636,
+CC         ChEBI:CHEBI:52639, ChEBI:CHEBI:78421, ChEBI:CHEBI:82983;
+CC         Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:43321;
+CC         Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:43322;
+CC         Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + N-
+CC         hexadecanoylsphinganine = a 1,2-diacyl-sn-glycerol + N-hexadecanoyl-
+CC         sphinganine-1-phosphocholine; Xref=Rhea:RHEA:41796,
+CC         ChEBI:CHEBI:17815, ChEBI:CHEBI:57643, ChEBI:CHEBI:67042,
+CC         ChEBI:CHEBI:78647; Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41797;
+CC         Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:41798;
+CC         Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + N-hexadecanoyl-
+CC         (4R)-hydroxysphinganine = a 1,2-diacyl-sn-glycerol + N-hexadecanoyl-
+CC         (4R)-hydroxysphinganine-phosphocholine; Xref=Rhea:RHEA:42140,
+CC         ChEBI:CHEBI:17815, ChEBI:CHEBI:57643, ChEBI:CHEBI:65107,
+CC         ChEBI:CHEBI:78650; Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:42141;
+CC         Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:42142;
+CC         Evidence={ECO:0000250|UniProtKB:Q86VZ5};
+CC   -!- PATHWAY: Sphingolipid metabolism. {ECO:0000250|UniProtKB:Q86VZ5}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:Q86VZ5}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the sphingomyelin synthase family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAP37281.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY280961; AAP37281.1; ALT_INIT; mRNA.
+DR   EMBL; BC081693; AAH81693.1; -; mRNA.
+DR   RefSeq; NP_852051.2; NM_181386.2.
+DR   AlphaFoldDB; Q7TSX5; -.
+DR   SMR; Q7TSX5; -.
+DR   STRING; 10116.ENSRNOP00000075286; -.
+DR   PhosphoSitePlus; Q7TSX5; -.
+DR   PaxDb; 10116-ENSRNOP00000051643; -.
+DR   Ensembl; ENSRNOT00000054761.2; ENSRNOP00000051643.1; ENSRNOG00000012536.7.
+DR   Ensembl; ENSRNOT00055051208; ENSRNOP00055042182; ENSRNOG00055029549.
+DR   Ensembl; ENSRNOT00060050912; ENSRNOP00060042352; ENSRNOG00060029314.
+DR   Ensembl; ENSRNOT00065050729; ENSRNOP00065041696; ENSRNOG00065029362.
+DR   GeneID; 353229; -.
+DR   KEGG; rno:353229; -.
+DR   UCSC; RGD:727912; rat.
+DR   AGR; RGD:727912; -.
+DR   CTD; 259230; -.
+DR   RGD; 727912; Sgms1.
+DR   eggNOG; KOG3058; Eukaryota.
+DR   GeneTree; ENSGT00940000158306; -.
+DR   InParanoid; Q7TSX5; -.
+DR   OMA; WICWTLS; -.
+DR   OrthoDB; 1343173at2759; -.
+DR   PhylomeDB; Q7TSX5; -.
+DR   TreeFam; TF314547; -.
+DR   Reactome; R-RNO-1660661; Sphingolipid de novo biosynthesis.
+DR   PRO; PR:Q7TSX5; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000012536; Expressed in testis and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q7TSX5; baseline and differential.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; ISS:UniProtKB.
+DR   GO; GO:0000138; C:Golgi trans cisterna; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0047493; F:ceramide cholinephosphotransferase activity; ISS:UniProtKB.
+DR   GO; GO:0002950; F:ceramide phosphoethanolamine synthase activity; ISO:RGD.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0033188; F:sphingomyelin synthase activity; ISS:HGNC-UCL.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0071356; P:cellular response to tumor necrosis factor; IEP:RGD.
+DR   GO; GO:0046513; P:ceramide biosynthetic process; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; IDA:RGD.
+DR   GO; GO:0006686; P:sphingomyelin biosynthetic process; ISS:HGNC-UCL.
+DR   CDD; cd01610; PAP2_like; 1.
+DR   CDD; cd09514; SAM_SGMS1; 1.
+DR   Gene3D; 1.10.150.50; Transcription Factor, Ets-1; 1.
+DR   InterPro; IPR001660; SAM.
+DR   InterPro; IPR013761; SAM/pointed_sf.
+DR   InterPro; IPR045221; Sphingomyelin_synth-like.
+DR   InterPro; IPR025749; Sphingomyelin_synth-like_dom.
+DR   PANTHER; PTHR21290:SF28; PHOSPHATIDYLCHOLINE:CERAMIDE CHOLINEPHOSPHOTRANSFERASE 1; 1.
+DR   PANTHER; PTHR21290; SPHINGOMYELIN SYNTHETASE; 1.
+DR   Pfam; PF14360; PAP2_C; 1.
+DR   SUPFAM; SSF47769; SAM/Pointed domain; 1.
+DR   PROSITE; PS50105; SAM_DOMAIN; 1.
+PE   2: Evidence at transcript level;
+KW   Apoptosis; Golgi apparatus; Kinase; Lipid metabolism; Membrane;
+KW   Phosphoprotein; Reference proteome; Sphingolipid metabolism; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..419
+FT                   /note="Phosphatidylcholine:ceramide
+FT                   cholinephosphotransferase 1"
+FT                   /id="PRO_0000221070"
+FT   TRANSMEM        142..162
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        190..210
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        221..241
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        282..302
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        310..330
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        331..419
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          13..76
+FT                   /note="SAM"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00184,
+FT                   ECO:0000305"
+FT   ACT_SITE        291
+FT                   /evidence="ECO:0000250|UniProtKB:Q86VZ5"
+FT   ACT_SITE        334
+FT                   /evidence="ECO:0000250|UniProtKB:Q86VZ5"
+FT   ACT_SITE        338
+FT                   /evidence="ECO:0000250|UniProtKB:Q86VZ5"
+FT   MOD_RES         14
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86VZ5"
+SQ   SEQUENCE   419 AA;  49014 MW;  CD1E73E61BA6F141 CRC64;
+     MLSASTMKEV VYWSPKKVAD WLLENAMPEY CEPLGHFTGQ DLINLTQEDF TKPPLCRVSS
+     DNGQRLLDMI ETLKMEHHIE AHKNGHANGH LSIGVDIPNP DGSFSIKIKP NGMPNGFRKE
+     MIKIPMPEPE RSQYPMEWGK TLLAFLYALS CFVLTTVMIS VVHERVPPKE VQPPLPDTFF
+     DHFNRVQWAF SICEINGMIL VGLWLFQWLL LKYKSIISRR FFCIVGTLYL YRCITMYVTT
+     LPVPGMHFNC SPKLFGDWEA QVRRIMKLIA GGGLSITGSH NMCGDYLYSG HTVMLTLTYL
+     FIKEYSPRRL WWYHWICWLL SVVGIFCILL AHDHYTVDVV VAYYITTRLF WWYHTMANQQ
+     VLKEASQMNL LARVWWYRPF QYFEKNVQGI VPRSYHWPLP WPVVHLSRQV KYSRLVNDT
+//

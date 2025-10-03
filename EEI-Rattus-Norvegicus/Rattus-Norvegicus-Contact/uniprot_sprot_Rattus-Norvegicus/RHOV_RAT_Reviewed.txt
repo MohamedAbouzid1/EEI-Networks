@@ -1,0 +1,205 @@
+ID   RHOV_RAT                Reviewed;         236 AA.
+AC   Q9Z1Y0;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   29-MAY-2024, entry version 147.
+DE   RecName: Full=Rho-related GTP-binding protein RhoV;
+DE   AltName: Full=Rho family GTPase Chp;
+GN   Name=Rhov {ECO:0000312|RGD:628824};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAC69198.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, GTP-BINDING, TISSUE SPECIFICITY, AND
+RP   INTERACTION WITH PAK2.
+RC   TISSUE=Pituitary {ECO:0000312|EMBL:AAC69198.1};
+RX   PubMed=9778532; DOI=10.1016/s0960-9822(98)70468-3;
+RA   Aronheim A., Broder Y.C., Cohen A., Fritsch A., Belisle B., Abo A.;
+RT   "Chp, a homologue of the GTPase Cdc42Hs, activates the JNK pathway and is
+RT   implicated in reorganizing the actin cytoskeleton.";
+RL   Curr. Biol. 8:1125-1128(1998).
+RN   [2] {ECO:0000312|EMBL:AAH86990.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Brown Norway {ECO:0000312|EMBL:AAH86990.1};
+RC   TISSUE=Testis {ECO:0000312|EMBL:AAH86990.1};
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3] {ECO:0000305}
+RP   SUBCELLULAR LOCATION, MUTAGENESIS OF GLY-40; CYS-227 AND CYS-234, AND
+RP   PALMITOYLATION AT CYS-234.
+RX   PubMed=15664990; DOI=10.1074/jbc.m411300200;
+RA   Chenette E.J., Abo A., Der C.J.;
+RT   "Critical and distinct roles of amino- and carboxyl-terminal sequences in
+RT   regulation of the biological activity of the Chp atypical Rho GTPase.";
+RL   J. Biol. Chem. 280:13784-13792(2005).
+RN   [4] {ECO:0000305}
+RP   SUBCELLULAR LOCATION, AND MUTAGENESIS OF ARG-226; ARG-228; TRP-229; LYS-230
+RP   AND LYS-231.
+RX   PubMed=16641371; DOI=10.1091/mbc.e05-09-0896;
+RA   Chenette E.J., Mitin N.Y., Der C.J.;
+RT   "Multiple sequence elements facilitate Chp Rho GTPase subcellular location,
+RT   membrane association, and transforming activity.";
+RL   Mol. Biol. Cell 17:3108-3121(2006).
+CC   -!- FUNCTION: Plays a role in the control of the actin cytoskeleton via
+CC       activation of the JNK pathway. {ECO:0000269|PubMed:9778532}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q7L0Q8};
+CC   -!- SUBUNIT: Interacts with PAK2. {ECO:0000269|PubMed:9778532}.
+CC   -!- INTERACTION:
+CC       Q9Z1Y0; Q91XS8: Stk17b; NbExp=2; IntAct=EBI-77480, EBI-77460;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:15664990,
+CC       ECO:0000269|PubMed:16641371}; Lipid-anchor
+CC       {ECO:0000269|PubMed:15664990, ECO:0000269|PubMed:16641371}; Cytoplasmic
+CC       side {ECO:0000269|PubMed:15664990, ECO:0000269|PubMed:16641371}.
+CC       Endosome membrane {ECO:0000269|PubMed:15664990,
+CC       ECO:0000269|PubMed:16641371}; Lipid-anchor
+CC       {ECO:0000269|PubMed:15664990, ECO:0000269|PubMed:16641371}; Cytoplasmic
+CC       side {ECO:0000269|PubMed:15664990, ECO:0000269|PubMed:16641371}.
+CC       Note=Treatment with TNF activates endosomal but not plasma membrane
+CC       RHOV. {ECO:0000269|PubMed:15664990, ECO:0000269|PubMed:16641371}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in brain and testis and at lower
+CC       levels in spleen and lung. {ECO:0000269|PubMed:9778532}.
+CC   -!- SIMILARITY: Belongs to the small GTPase superfamily. Rho family.
+CC       {ECO:0000269|PubMed:9778532}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF097887; AAC69198.1; -; mRNA.
+DR   EMBL; BC086990; AAH86990.1; -; mRNA.
+DR   RefSeq; NP_612551.2; NM_138542.2.
+DR   AlphaFoldDB; Q9Z1Y0; -.
+DR   SMR; Q9Z1Y0; -.
+DR   IntAct; Q9Z1Y0; 2.
+DR   STRING; 10116.ENSRNOP00000018277; -.
+DR   PhosphoSitePlus; Q9Z1Y0; -.
+DR   SwissPalm; Q9Z1Y0; -.
+DR   PaxDb; 10116-ENSRNOP00000018277; -.
+DR   Ensembl; ENSRNOT00055004505; ENSRNOP00055003339; ENSRNOG00055002882.
+DR   Ensembl; ENSRNOT00060045464; ENSRNOP00060037747; ENSRNOG00060026256.
+DR   Ensembl; ENSRNOT00065040805; ENSRNOP00065033291; ENSRNOG00065023810.
+DR   GeneID; 171581; -.
+DR   KEGG; rno:171581; -.
+DR   UCSC; RGD:628824; rat.
+DR   AGR; RGD:628824; -.
+DR   CTD; 171177; -.
+DR   RGD; 628824; Rhov.
+DR   eggNOG; KOG0393; Eukaryota.
+DR   InParanoid; Q9Z1Y0; -.
+DR   OrthoDB; 20499at2759; -.
+DR   PhylomeDB; Q9Z1Y0; -.
+DR   TreeFam; TF321839; -.
+DR   Reactome; R-RNO-9013424; RHOV GTPase cycle.
+DR   PRO; PR:Q9Z1Y0; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0010008; C:endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0005525; F:GTP binding; IBA:GO_Central.
+DR   GO; GO:0003924; F:GTPase activity; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019901; F:protein kinase binding; IBA:GO_Central.
+DR   GO; GO:0007015; P:actin filament organization; IBA:GO_Central.
+DR   GO; GO:0032488; P:Cdc42 protein signal transduction; IBA:GO_Central.
+DR   GO; GO:0006897; P:endocytosis; IBA:GO_Central.
+DR   GO; GO:0007163; P:establishment or maintenance of cell polarity; IBA:GO_Central.
+DR   CDD; cd04130; Wrch_1; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR001806; Small_GTPase.
+DR   InterPro; IPR003578; Small_GTPase_Rho.
+DR   NCBIfam; TIGR00231; small_GTP; 1.
+DR   PANTHER; PTHR24072; RHO FAMILY GTPASE; 1.
+DR   PANTHER; PTHR24072:SF144; RHO-RELATED GTP-BINDING PROTEIN RHOV; 1.
+DR   Pfam; PF00071; Ras; 1.
+DR   PRINTS; PR00449; RASTRNSFRMNG.
+DR   SMART; SM00175; RAB; 1.
+DR   SMART; SM00173; RAS; 1.
+DR   SMART; SM00174; RHO; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51420; RHO; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Endosome; GTP-binding; Lipoprotein; Magnesium; Membrane;
+KW   Metal-binding; Nucleotide-binding; Palmitate; Phosphoprotein;
+KW   Reference proteome.
+FT   CHAIN           1..236
+FT                   /note="Rho-related GTP-binding protein RhoV"
+FT                   /id="PRO_0000326440"
+FT   REGION          1..28
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..26
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         38..45
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000269|PubMed:15664990"
+FT   BINDING         85..89
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7L0Q8"
+FT   BINDING         143..146
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:P61586"
+FT   MOD_RES         25
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96L33"
+FT   LIPID           234
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000269|PubMed:15664990"
+FT   MUTAGEN         40
+FT                   /note="G->V: Constitutively GTP-bound and constitutively
+FT                   active."
+FT                   /evidence="ECO:0000269|PubMed:15664990"
+FT   MUTAGEN         56
+FT                   /note="Y->L: Increase in GDP/GTP cycling."
+FT                   /evidence="ECO:0000269|PubMed:15664990"
+FT   MUTAGEN         226..228
+FT                   /note="RCR->QCQ: Loss of subcellular location to plasma
+FT                   membrane, decreased association with endomembranes."
+FT                   /evidence="ECO:0000269|PubMed:16641371"
+FT   MUTAGEN         226
+FT                   /note="R->Q: Loss of subcellular location to plasma
+FT                   membrane."
+FT                   /evidence="ECO:0000269|PubMed:16641371"
+FT   MUTAGEN         227
+FT                   /note="C->S: No effect on subcellular location."
+FT                   /evidence="ECO:0000269|PubMed:15664990"
+FT   MUTAGEN         228
+FT                   /note="R->Q: Loss of subcellular location to plasma
+FT                   membrane."
+FT                   /evidence="ECO:0000269|PubMed:16641371"
+FT   MUTAGEN         229
+FT                   /note="W->Y: Loss of subcellular location to plasma and
+FT                   endosomal membrane."
+FT                   /evidence="ECO:0000269|PubMed:16641371"
+FT   MUTAGEN         230..231
+FT                   /note="KK->QQ: Loss of subcellular location to plasma
+FT                   membrane, decreased association with endomembranes."
+FT                   /evidence="ECO:0000269|PubMed:16641371"
+FT   MUTAGEN         230
+FT                   /note="K->Q: Loss of subcellular location to plasma
+FT                   membrane, decreased association with endomembranes."
+FT                   /evidence="ECO:0000269|PubMed:16641371"
+FT   MUTAGEN         231
+FT                   /note="K->Q: Loss of subcellular location to plasma
+FT                   membrane, decreased association with endomembranes."
+FT                   /evidence="ECO:0000269|PubMed:16641371"
+FT   MUTAGEN         234
+FT                   /note="C->S: Loss of subcellular location to plasma and
+FT                   endosomal membranes."
+FT                   /evidence="ECO:0000269|PubMed:15664990"
+SQ   SEQUENCE   236 AA;  26165 MW;  034416FA8CEA2425 CRC64;
+     MPPRELSEAE PPPLPASTPP PRRRSAPPEL GIKCVLVGDG AVGKSSLIVS YTCNGYPSRY
+     RPTALDTFSV QVLVDGAPVR IELWDTAGQE DFDRLRSLCY PDTDVFLACF SVVQPSSFQN
+     ITEKWLPEIR THNPQAPVLL VGTQADLRDD VNVLIQLDQG GREGPVPEPQ AQGLAEKIRA
+     CCYLECSALT QKNLKEVFDS AILSAIEHKA RLEKKLNAKG VRTLSRCRWK KFFCFV
+//

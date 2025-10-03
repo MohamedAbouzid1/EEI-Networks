@@ -1,0 +1,287 @@
+ID   AASS_RAT                Reviewed;         926 AA.
+AC   A2VCW9;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAR-2007, sequence version 1.
+DT   24-JUL-2024, entry version 97.
+DE   RecName: Full=Alpha-aminoadipic semialdehyde synthase, mitochondrial {ECO:0000250|UniProtKB:Q9UDR5};
+DE   AltName: Full=LKR/SDH {ECO:0000250|UniProtKB:Q9UDR5};
+DE   Includes:
+DE     RecName: Full=Lysine ketoglutarate reductase {ECO:0000250|UniProtKB:Q9UDR5};
+DE              Short=LKR {ECO:0000250|UniProtKB:Q9UDR5};
+DE              Short=LOR;
+DE              EC=1.5.1.8 {ECO:0000250|UniProtKB:Q9UDR5};
+DE   Includes:
+DE     RecName: Full=Saccharopine dehydrogenase {ECO:0000250|UniProtKB:Q9UDR5};
+DE              Short=SDH {ECO:0000250|UniProtKB:Q9UDR5};
+DE              EC=1.5.1.9 {ECO:0000250|UniProtKB:Q9UDR5};
+DE   Flags: Precursor;
+GN   Name=Aass {ECO:0000312|RGD:1310811};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000312|EMBL:AAI28772.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney {ECO:0000312|EMBL:AAI28772.1};
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Bifunctional enzyme that catalyzes the first two steps in
+CC       lysine degradation. {ECO:0000250|UniProtKB:Q9UDR5}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-saccharopine + NADP(+) = 2-oxoglutarate + H(+) + L-
+CC         lysine + NADPH; Xref=Rhea:RHEA:19373, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16810, ChEBI:CHEBI:32551,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:57951, ChEBI:CHEBI:58349; EC=1.5.1.8;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UDR5};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:19375;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UDR5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-saccharopine + NAD(+) = (S)-2-amino-6-oxohexanoate +
+CC         H(+) + L-glutamate + NADH; Xref=Rhea:RHEA:24520, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:57951, ChEBI:CHEBI:58321; EC=1.5.1.9;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UDR5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:24521;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UDR5};
+CC   -!- PATHWAY: Amino-acid degradation; L-lysine degradation via saccharopine
+CC       pathway; glutaryl-CoA from L-lysine: step 1/6.
+CC       {ECO:0000250|UniProtKB:Q9UDR5}.
+CC   -!- PATHWAY: Amino-acid degradation; L-lysine degradation via saccharopine
+CC       pathway; glutaryl-CoA from L-lysine: step 2/6.
+CC       {ECO:0000250|UniProtKB:Q9UDR5}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:Q99K67}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250|UniProtKB:Q9UDR5}.
+CC   -!- DOMAIN: The N-terminal and the C-terminal domains contain respectively
+CC       the lysine ketoglutarate reductase and saccharopine dehydrogenase
+CC       activity. {ECO:0000250|UniProtKB:Q9UDR5}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the AlaDH/PNT family.
+CC       {ECO:0000255}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the saccharopine
+CC       dehydrogenase family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC128771; AAI28772.1; -; mRNA.
+DR   RefSeq; NP_001094433.1; NM_001100963.1.
+DR   AlphaFoldDB; A2VCW9; -.
+DR   SMR; A2VCW9; -.
+DR   STRING; 10116.ENSRNOP00000057271; -.
+DR   iPTMnet; A2VCW9; -.
+DR   PhosphoSitePlus; A2VCW9; -.
+DR   PaxDb; 10116-ENSRNOP00000057271; -.
+DR   PeptideAtlas; A2VCW9; -.
+DR   GeneID; 296925; -.
+DR   KEGG; rno:296925; -.
+DR   UCSC; RGD:1310811; rat.
+DR   AGR; RGD:1310811; -.
+DR   CTD; 10157; -.
+DR   RGD; 1310811; Aass.
+DR   eggNOG; KOG0172; Eukaryota.
+DR   InParanoid; A2VCW9; -.
+DR   OrthoDB; 2184985at2759; -.
+DR   PhylomeDB; A2VCW9; -.
+DR   Reactome; R-RNO-71064; Lysine catabolism.
+DR   UniPathway; UPA00868; UER00835.
+DR   UniPathway; UPA00868; UER00836.
+DR   PRO; PR:A2VCW9; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0047131; F:saccharopine dehydrogenase (NAD+, L-glutamate-forming) activity; ISS:UniProtKB.
+DR   GO; GO:0047130; F:saccharopine dehydrogenase (NADP+, L-lysine-forming) activity; ISS:UniProtKB.
+DR   GO; GO:0004753; F:saccharopine dehydrogenase activity; IBA:GO_Central.
+DR   GO; GO:0019477; P:L-lysine catabolic process; ISO:RGD.
+DR   GO; GO:0033512; P:L-lysine catabolic process to acetyl-CoA via saccharopine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019878; P:lysine biosynthetic process via aminoadipic acid; IBA:GO_Central.
+DR   GO; GO:0006554; P:lysine catabolic process; ISS:UniProtKB.
+DR   CDD; cd12189; LKR_SDH_like; 1.
+DR   Gene3D; 1.10.1870.10; Domain 3, Saccharopine reductase; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 3.
+DR   InterPro; IPR051168; AASS.
+DR   InterPro; IPR007886; AlaDH/PNT_N.
+DR   InterPro; IPR007698; AlaDH/PNT_NAD(H)-bd.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR032095; Sacchrp_dh-like_C.
+DR   InterPro; IPR005097; Sacchrp_dh_NADP.
+DR   PANTHER; PTHR11133:SF25; ALPHA-AMINOADIPIC SEMIALDEHYDE SYNTHASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11133; SACCHAROPINE DEHYDROGENASE; 1.
+DR   Pfam; PF05222; AlaDh_PNT_N; 1.
+DR   Pfam; PF16653; Sacchrp_dh_C; 1.
+DR   Pfam; PF03435; Sacchrp_dh_NADP; 1.
+DR   SMART; SM01002; AlaDh_PNT_C; 1.
+DR   SMART; SM01003; AlaDh_PNT_N; 1.
+DR   SUPFAM; SSF52283; Formate/glycerate dehydrogenase catalytic domain-like; 1.
+DR   SUPFAM; SSF55347; Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Mitochondrion; Multifunctional enzyme; NAD; NADP;
+KW   Oxidoreductase; Reference proteome; Transit peptide.
+FT   TRANSIT         1..27
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..926
+FT                   /note="Alpha-aminoadipic semialdehyde synthase,
+FT                   mitochondrial"
+FT                   /id="PRO_0000315868"
+FT   REGION          28..455
+FT                   /note="Lysine-ketoglutarate reductase"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   REGION          477..926
+FT                   /note="Saccharopine dehydrogenase"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   BINDING         488
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UDR5"
+FT   BINDING         512
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UDR5"
+FT   BINDING         516
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UDR5"
+FT   BINDING         554
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UDR5"
+FT   BINDING         576
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UDR5"
+FT   BINDING         577..578
+FT                   /ligand="L-saccharopine"
+FT                   /ligand_id="ChEBI:CHEBI:57951"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9P4R4"
+FT   BINDING         577
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UDR5"
+FT   BINDING         603
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UDR5"
+FT   BINDING         604
+FT                   /ligand="L-saccharopine"
+FT                   /ligand_id="ChEBI:CHEBI:57951"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9P4R4"
+FT   BINDING         604
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UDR5"
+FT   BINDING         605
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UDR5"
+FT   BINDING         703
+FT                   /ligand="L-saccharopine"
+FT                   /ligand_id="ChEBI:CHEBI:57951"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9P4R4"
+FT   BINDING         724..726
+FT                   /ligand="L-saccharopine"
+FT                   /ligand_id="ChEBI:CHEBI:57951"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9P4R4"
+FT   MOD_RES         48
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         52
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         56
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         93
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         93
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         128
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         138
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         138
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         274
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         286
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         286
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         333
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         458
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         458
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         523
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         523
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         535
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         535
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         584
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         584
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         707
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         732
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         739
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         761
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         761
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         778
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+FT   MOD_RES         780
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99K67"
+SQ   SEQUENCE   926 AA;  102908 MW;  4350DDB240B4075F CRC64;
+     MLRAQRLRLA RLRACVSRGL HHKPVMALRR EDVNAWERRA PLAPKHIKGI TKLGYKVLIQ
+     PSNRRAIHDK EYVRAGGILQ EDITEACLIL GVKRPPEEKL MSKKTYAFFS HTIKAQEANM
+     SLLDEVLKQE IRLIDYEKMV DHRGSRIVAF GHWAGVAGMI NILHGMGLRL LALGHHTPFM
+     HLGMAHNYRN SSQAVQAVRD AGYEISLGLM PKSIGPLTFV FTGTGNVSKG AQEVFNELPC
+     EYVEPHELKE VSKTGDLRKV YGTVLSRHHH LVRKTDGVYD PVEYEKYPER YISRFNADIA
+     PYTTCLINGI YWEQNTPRLL TRQDAQSLLV PVKSSVVPVE GCPELPHKLV AICDISADTG
+     GSIDFMTECT TIERPFCMYD ADQHIIHDSV EGSGILMCSI DNLPAQLPIE ATEYFGDMLY
+     PYVEEMLLSD ASQPLESQNF SPVVRDAVIT SNGLLTDKYK YIQKLRESRE RIQFLSMSTK
+     KKVLVLGSGY VSGPVLEYLS RGNNIEITLG SDMTNQMQQL SKKYDINTVN VTVGKQEDKL
+     QSLVESQDLV ISLLPYVLHP VVAKACIDSK VNMVTASYIT PAMKELEKSV DDAGITVIGE
+     LGLDPGLDHM LAMETIDKAK DLGATIESYV SYCGGLPAPE HSDNPLRYKF SWSPVGVLMN
+     IMQPASYLLN GKVVNVTGGV SFLNSVTPMD YFPGLNLEGY PNRDSTKYAE IYGISSAHTL
+     LRGTLRYKGY SKALNGFVKL GLINRETYPA LRPEANPLTW KQLLCDLVGI SRSSSCEKLK
+     EVVFTKLGGD STQLEAAEWL GLLGDEQVPQ AESIVDAFSK HLVSKLSYGP EEKDMIVMRD
+     SFGIRHPSGH LENKTIDLVV YGDFNGFSAM AKTVGLPTAM AAKMLLDGEI ETKGLMGPFS
+     KEIYGPILER IKAEGIVFNT QSTIKL
+//

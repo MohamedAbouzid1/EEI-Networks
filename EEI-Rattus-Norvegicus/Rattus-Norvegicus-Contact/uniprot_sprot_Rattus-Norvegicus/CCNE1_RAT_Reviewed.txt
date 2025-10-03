@@ -1,0 +1,175 @@
+ID   CCNE1_RAT               Reviewed;         411 AA.
+AC   P39949; O09138;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   13-NOV-2007, sequence version 2.
+DT   02-OCT-2024, entry version 155.
+DE   RecName: Full=G1/S-specific cyclin-E1;
+GN   Name=Ccne1; Synonyms=Ccne;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=8336937;
+RA   Tamura K., Kanaoka Y., Jinno S., Nagata A., Ogiso Y., Shimizu K.,
+RA   Hayakawa T., Nojima H., Okayama H.;
+RT   "Cyclin G: a new mammalian cyclin with homology to fission yeast Cig1.";
+RL   Oncogene 8:2113-2118(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 152-222.
+RX   PubMed=8673024;
+RA   Hosokawa Y., Yang M., Kaneko S., Tanaka M., Nakashima K.;
+RT   "Synergistic gene expressions of cyclin E, cdk2, cdk5 and E2F-1 during the
+RT   prolactin-induced G1/S transition in rat Nb2 pre-T lymphoma cells.";
+RL   Biochem. Mol. Biol. Int. 37:393-399(1995).
+CC   -!- FUNCTION: Essential for the control of the cell cycle at the G1/S
+CC       (start) transition.
+CC   -!- SUBUNIT: Interacts with CDK2 protein kinase to form a serine/threonine
+CC       kinase holoenzyme complex. The cyclin subunit imparts substrate
+CC       specificity to the complex. Found in a complex with CDK2, CABLES1 and
+CC       CCNA1. Part of a complex consisting of UHRF2, CDK2 and CCNE1. Interacts
+CC       directly with UHRF2; the interaction ubiquitinates CCNE1 and appears to
+CC       occur independently of CCNE1 phosphorylation. Interacts with INCA1 (By
+CC       similarity). {ECO:0000250|UniProtKB:P24864,
+CC       ECO:0000250|UniProtKB:Q61457}.
+CC   -!- INTERACTION:
+CC       P39949; Q6PEC4: Skp1; NbExp=2; IntAct=EBI-847441, EBI-919194;
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:P24864}.
+CC   -!- PTM: Phosphorylation of both Thr-396 by GSK3 and Ser-400 by CDK2
+CC       creates a high affinity degron recognized by FBXW7, and accelerates
+CC       degradation via the ubiquitin proteasome pathway. Phosphorylation at
+CC       Thr-77 creates a low affinity degron also recognized by FBXW7 (By
+CC       similarity). {ECO:0000250|UniProtKB:P24864}.
+CC   -!- PTM: Ubiquitinated by UHRF2; appears to occur independently of
+CC       phosphorylation. {ECO:0000250|UniProtKB:P24864}.
+CC   -!- SIMILARITY: Belongs to the cyclin family. Cyclin E subfamily.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA03116.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D14015; BAA03116.1; ALT_FRAME; mRNA.
+DR   EMBL; D63164; BAA09640.1; -; mRNA.
+DR   AlphaFoldDB; P39949; -.
+DR   SMR; P39949; -.
+DR   ComplexPortal; CPX-2083; Cyclin E1-CDK2 complex.
+DR   DIP; DIP-29865N; -.
+DR   IntAct; P39949; 1.
+DR   STRING; 10116.ENSRNOP00000020014; -.
+DR   PhosphoSitePlus; P39949; -.
+DR   PaxDb; 10116-ENSRNOP00000020014; -.
+DR   AGR; RGD:2294; -.
+DR   RGD; 2294; Ccne1.
+DR   eggNOG; KOG0655; Eukaryota.
+DR   InParanoid; P39949; -.
+DR   PhylomeDB; P39949; -.
+DR   Reactome; R-RNO-1538133; G0 and Early G1.
+DR   Reactome; R-RNO-187577; SCF(Skp2)-mediated degradation of p27/p21.
+DR   Reactome; R-RNO-2559586; DNA Damage/Telomere Stress Induced Senescence.
+DR   Reactome; R-RNO-6804116; TP53 Regulates Transcription of Genes Involved in G1 Cell Cycle Arrest.
+DR   Reactome; R-RNO-69017; CDK-mediated phosphorylation and removal of Cdc6.
+DR   Reactome; R-RNO-69200; Phosphorylation of proteins involved in G1/S transition by active Cyclin E:Cdk2 complexes.
+DR   Reactome; R-RNO-69202; Cyclin E associated events during G1/S transition.
+DR   Reactome; R-RNO-69231; Cyclin D associated events in G1.
+DR   Reactome; R-RNO-69563; p53-Dependent G1 DNA Damage Response.
+DR   Reactome; R-RNO-8849470; PTK6 Regulates Cell Cycle.
+DR   Reactome; R-RNO-9706019; RHOBTB3 ATPase cycle.
+DR   PRO; PR:P39949; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005813; C:centrosome; IDA:RGD.
+DR   GO; GO:0097134; C:cyclin E1-CDK2 complex; ISO:RGD.
+DR   GO; GO:0000307; C:cyclin-dependent protein kinase holoenzyme complex; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0016538; F:cyclin-dependent protein serine/threonine kinase regulator activity; ISO:RGD.
+DR   GO; GO:0016301; F:kinase activity; ISO:RGD.
+DR   GO; GO:0019901; F:protein kinase binding; IPI:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IPI:RGD.
+DR   GO; GO:0031100; P:animal organ regeneration; IEP:RGD.
+DR   GO; GO:0001547; P:antral ovarian follicle growth; IEP:RGD.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0031670; P:cellular response to nutrient; IEP:RGD.
+DR   GO; GO:0070192; P:chromosome organization involved in meiotic cell cycle; ISO:RGD.
+DR   GO; GO:0006270; P:DNA replication initiation; ISO:RGD.
+DR   GO; GO:0000082; P:G1/S transition of mitotic cell cycle; ISO:RGD.
+DR   GO; GO:0007129; P:homologous chromosome pairing at meiosis; ISO:RGD.
+DR   GO; GO:0001889; P:liver development; IEP:RGD.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0045597; P:positive regulation of cell differentiation; IDA:RGD.
+DR   GO; GO:1900087; P:positive regulation of G1/S transition of mitotic cell cycle; IBA:GO_Central.
+DR   GO; GO:1902462; P:positive regulation of mesenchymal stem cell proliferation; ISO:RGD.
+DR   GO; GO:0051726; P:regulation of cell cycle; ISO:RGD.
+DR   GO; GO:0032880; P:regulation of protein localization; ISO:RGD.
+DR   GO; GO:0051412; P:response to corticosterone; IEP:RGD.
+DR   GO; GO:0034097; P:response to cytokine; IEP:RGD.
+DR   GO; GO:0032355; P:response to estradiol; IEP:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IEP:RGD.
+DR   GO; GO:0051597; P:response to methylmercury; IEP:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:0032570; P:response to progesterone; IEP:RGD.
+DR   GO; GO:0014074; P:response to purine-containing compound; IEP:RGD.
+DR   GO; GO:0048545; P:response to steroid hormone; IEP:RGD.
+DR   GO; GO:0033197; P:response to vitamin E; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0000723; P:telomere maintenance; ISO:RGD.
+DR   GO; GO:0016055; P:Wnt signaling pathway; ISO:RGD.
+DR   CDD; cd20581; CYCLIN_CCNE1_rpt2; 1.
+DR   Gene3D; 1.10.472.10; Cyclin-like; 2.
+DR   InterPro; IPR039361; Cyclin.
+DR   InterPro; IPR013763; Cyclin-like_dom.
+DR   InterPro; IPR036915; Cyclin-like_sf.
+DR   InterPro; IPR004367; Cyclin_C-dom.
+DR   InterPro; IPR006671; Cyclin_N.
+DR   InterPro; IPR048258; Cyclins_cyclin-box.
+DR   PANTHER; PTHR10177; CYCLINS; 1.
+DR   PANTHER; PTHR10177:SF71; G1_S-SPECIFIC CYCLIN-E1; 1.
+DR   Pfam; PF02984; Cyclin_C; 1.
+DR   Pfam; PF00134; Cyclin_N; 1.
+DR   SMART; SM00385; CYCLIN; 1.
+DR   SMART; SM01332; Cyclin_C; 1.
+DR   SUPFAM; SSF47954; Cyclin-like; 2.
+DR   PROSITE; PS00292; CYCLINS; 1.
+PE   1: Evidence at protein level;
+KW   Cell cycle; Cell division; Cyclin; Nucleus; Phosphoprotein;
+KW   Reference proteome; Ubl conjugation.
+FT   CHAIN           1..411
+FT                   /note="G1/S-specific cyclin-E1"
+FT                   /id="PRO_0000080451"
+FT   REGION          1..44
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          381..411
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         77
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P24864"
+FT   MOD_RES         104
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P24864"
+FT   MOD_RES         388
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P24864"
+FT   MOD_RES         396
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P24864"
+FT   MOD_RES         400
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P24864"
+FT   CONFLICT        221
+FT                   /note="A -> T (in Ref. 2; BAA09640)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   411 AA;  47482 MW;  24CA81652056C036 CRC64;
+     MPRERKERDS KDHTKMKEEG GSDLSVRSRK RKPNVPVFLQ DPDEEIAKID KTVKSQDSSQ
+     PWDDDSACVD PCSFIPTPNK EEDNELEYPK TAFQPRKIRP PRASPLPVLN WANREEVWRI
+     MLNKEKTYLR DEHFLQRHPL LQARMRAVLL DWLMEVCEVY KLHRETFYLA QDFFDRYMAS
+     QQNIIKTLLQ LIGISALFIA SKLEEIYPPK LHQFAYVTDG ACSGDEILTM ELMMMKALKW
+     RLSPLTIVSW LNVYVQVAYV NDTGEVLMPQ YPQQVFVQIA ELLDLCVLDV GCLEFPYGVL
+     AASALYHFSS LELMQKVSGY QWCDIEKCVK WMVPFAMVIR EMGSSKLKHF RGVPMEDSHN
+     IQTHTNSLDL LDKAQAKKAI LSEQNRISPP PSGVLTPPHS SKKQSSEQET E
+//

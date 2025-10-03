@@ -1,0 +1,113 @@
+ID   RADX_RAT                Reviewed;         844 AA.
+AC   B2GV47;
+DT   05-MAY-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   27-MAR-2024, entry version 78.
+DE   RecName: Full=RPA-related protein RADX {ECO:0000250|UniProtKB:Q6NSI4};
+GN   Name=Radx {ECO:0000250|UniProtKB:Q6NSI4};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Single-stranded DNA-binding protein recruited to replication
+CC       forks to maintain genome stability. Prevents fork collapse by
+CC       antagonizing the accumulation of RAD51 at forks to ensure the proper
+CC       balance of fork remodeling and protection without interfering with the
+CC       capacity of cells to complete homologous recombination of double-strand
+CC       breaks. {ECO:0000250|UniProtKB:Q6NSI4}.
+CC   -!- SUBCELLULAR LOCATION: Chromosome {ECO:0000250|UniProtKB:Q6NSI4}.
+CC       Note=Recruited to replication forks. {ECO:0000250|UniProtKB:Q6NSI4}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH474076; EDL88019.1; -; Genomic_DNA.
+DR   EMBL; BC166523; AAI66523.1; -; mRNA.
+DR   RefSeq; NP_001120849.1; NM_001127377.1.
+DR   AlphaFoldDB; B2GV47; -.
+DR   SMR; B2GV47; -.
+DR   STRING; 10116.ENSRNOP00000014811; -.
+DR   iPTMnet; B2GV47; -.
+DR   PhosphoSitePlus; B2GV47; -.
+DR   PaxDb; 10116-ENSRNOP00000014811; -.
+DR   GeneID; 680663; -.
+DR   KEGG; rno:680663; -.
+DR   UCSC; RGD:1589413; rat.
+DR   AGR; RGD:1589413; -.
+DR   CTD; 55086; -.
+DR   RGD; 1589413; Radx.
+DR   VEuPathDB; HostDB:ENSRNOG00000011120; -.
+DR   eggNOG; ENOG502QSE7; Eukaryota.
+DR   HOGENOM; CLU_016770_0_0_1; -.
+DR   InParanoid; B2GV47; -.
+DR   OrthoDB; 5346238at2759; -.
+DR   PhylomeDB; B2GV47; -.
+DR   PRO; PR:B2GV47; -.
+DR   Proteomes; UP000002494; Chromosome X.
+DR   Proteomes; UP000234681; Chromosome x.
+DR   Bgee; ENSRNOG00000011120; Expressed in duodenum and 4 other cell types or tissues.
+DR   GO; GO:0005657; C:replication fork; ISS:UniProtKB.
+DR   GO; GO:0003697; F:single-stranded DNA binding; ISS:UniProtKB.
+DR   GO; GO:2000042; P:negative regulation of double-strand break repair via homologous recombination; ISS:UniProtKB.
+DR   GO; GO:0006282; P:regulation of DNA repair; IBA:GO_Central.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR040893; RADX.
+DR   PANTHER; PTHR14944; RPA-RELATED PROTEIN RADX; 1.
+DR   PANTHER; PTHR14944:SF2; RPA-RELATED PROTEIN RADX; 1.
+DR   Pfam; PF17659; DUF5521; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 2.
+PE   2: Evidence at transcript level;
+KW   Chromosome; DNA-binding; Reference proteome.
+FT   CHAIN           1..844
+FT                   /note="RPA-related protein RADX"
+FT                   /id="PRO_0000373802"
+FT   DNA_BIND        228..331
+FT                   /note="OB"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6NSI4"
+FT   REGION          571..609
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          626..664
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        571..587
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        590..607
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        635..664
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   844 AA;  96287 MW;  78F3AC219687581B CRC64;
+     MSGESDQPQP GPSHAGLYLE HRERDQAGVP GGVIRRAGSQ RHRSWIQTVI EQITGSPRQC
+     VTLSEVVPVS VLAVQRYLLE DEPRDTVPKP PLYCYDVTIS DGVYQEKCYL DPSLNFLVYQ
+     NILKVGIEMR ISRVSCLYNE KRLGQGILCI DKVHCGEPLD VISVETPFRN RAHEEKPERP
+     LRGSKSHYLA LWNNEDPYGD IWKTNKQPEE FNFNNTKIIS LSHLEMTWHN RKNFPALLVR
+     ILHKSKLRYY GKPNKKMIEP YQTYLEVADS SGMVSVIMWN ALCPEWYKSL RVGLILLLQD
+     YSVKKSYPLR IQPDPVDPQM KLISTMEICL NLRDPPTNIV IIPEKQLKSE WKLPKLINRF
+     ITRSELDDMP ENSICDVIGM LSFVGRVQRS KKKENSEDFW SYRWIHITDG TSEQPFIVQL
+     FSTSQPEVFE NIYPMTYFVC TQLKVVRNNS QVPKLLYLTT TNESRVLITG HRGQPYTYDT
+     KAKKIIQWIK TKTNLEAKNT VIGGYYPYPP VPETFSKYSR FIKAESLLTT ISEVRKVIED
+     LQYREQKRIA IQGIITAIKY IPYNHSAKSA PASETLQNAS PPSTSQAAAK EGHYHERGSK
+     RSQDDRPMDS LPMVLSLCAK RKILQGPTAN PVPVPQPHSS AQMKGNKPNI PSRENSTANA
+     TGKSKRIIND RWESQLWRDK KFSLRDHLHY GHVDPESIPR KFILGHEKFL TQQFNSQPAK
+     YVPPEGKPPK LDEFQSARSL GHFEVTILGL NHEIAIDVAF LPMYSPEDVE TSQIDTFLTC
+     MNYSCVYPPA APVSGRVPDP KAVAGDIVKA AADLDRVHII GILDICNLGN NKVEVCLQKI
+     YTPE
+//

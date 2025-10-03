@@ -1,0 +1,228 @@
+ID   S46A3_RAT               Reviewed;         461 AA.
+AC   Q5BK75;
+DT   23-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   12-APR-2005, sequence version 1.
+DT   24-JUL-2024, entry version 101.
+DE   RecName: Full=Lysosomal proton-coupled steroid conjugate and bile acid symporter SLC46A3;
+DE   AltName: Full=Solute carrier family 46 member 3;
+DE   Flags: Precursor;
+GN   Name=Slc46a3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Lysosomal proton-coupled steroid conjugate and bile acid
+CC       transporter. Preferentially recognizes lipophilic steroid conjugates or
+CC       bile acis as endogenous substrates and seems to mediate escape from
+CC       lysosomes to the cytoplasm (By similarity). Modulates hepatic cytosolic
+CC       copper homeostasis, maybe acting as a lysosomal copper transporter and
+CC       sequestering copper ions in the lysosome (By similarity). Delivers
+CC       pathogen-associated molecular patterns to cytosolic pattern recognition
+CC       receptors as part of the innate immune response to microbes.
+CC       Selectively transports bacterial muramyl dipeptide (MDP) into the
+CC       cytosol for recognition by NOD2, triggering inflammatory responses (By
+CC       similarity). Likely acts as a redundant importer of cyclic GMP-AMP
+CC       dinucleotides (cGAMPs) in monocyte and macrophage cell lineages. The
+CC       transport mechanism, its electrogenicity and stoichiometry remain to be
+CC       elucidated (By similarity). {ECO:0000250|UniProtKB:Q7Z3Q1,
+CC       ECO:0000250|UniProtKB:Q9DC26}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=estrone 3-sulfate(out) + n H(+)(out) = estrone 3-sulfate(in) +
+CC         n H(+)(in); Xref=Rhea:RHEA:75483, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:60050; Evidence={ECO:0000250|UniProtKB:Q7Z3Q1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=25-hydroxyvitamin D3 sulfate(out) + n H(+)(out) = 25-
+CC         hydroxyvitamin D3 sulfate(in) + n H(+)(in); Xref=Rhea:RHEA:75491,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:194336;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z3Q1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cholate(out) + n H(+)(out) = cholate(in) + n H(+)(in);
+CC         Xref=Rhea:RHEA:75499, ChEBI:CHEBI:15378, ChEBI:CHEBI:29747;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z3Q1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycocholate(out) + n H(+)(out) = glycocholate(in) + n
+CC         H(+)(in); Xref=Rhea:RHEA:75503, ChEBI:CHEBI:15378, ChEBI:CHEBI:29746;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z3Q1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=n H(+)(out) + taurocholate(out) = n H(+)(in) +
+CC         taurocholate(in); Xref=Rhea:RHEA:75507, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:36257; Evidence={ECO:0000250|UniProtKB:Q7Z3Q1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dehydroepiandrosterone 3-sulfate(out) + n H(+)(out) =
+CC         dehydroepiandrosterone 3-sulfate(in) + n H(+)(in);
+CC         Xref=Rhea:RHEA:75487, ChEBI:CHEBI:15378, ChEBI:CHEBI:57905;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z3Q1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=n H(+)(out) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(out)
+CC         = n H(+)(in) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(in);
+CC         Xref=Rhea:RHEA:76371, ChEBI:CHEBI:15378, ChEBI:CHEBI:155830;
+CC         Evidence={ECO:0000250|UniProtKB:Q9DC26};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76372;
+CC         Evidence={ECO:0000250|UniProtKB:Q9DC26};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2',3'-cGAMP(out) + n H(+)(out) = 2',3'-cGAMP(in) + n H(+)(in);
+CC         Xref=Rhea:RHEA:76411, ChEBI:CHEBI:15378, ChEBI:CHEBI:143093;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z3Q1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76412;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z3Q1};
+CC   -!- SUBCELLULAR LOCATION: Lysosome membrane {ECO:0000250|UniProtKB:Q7Z3Q1};
+CC       Multi-pass membrane protein {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the major facilitator superfamily. SLC46A
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC091179; AAH91179.1; -; mRNA.
+DR   RefSeq; NP_001020139.1; NM_001024968.1.
+DR   RefSeq; XP_006248895.1; XM_006248833.3.
+DR   AlphaFoldDB; Q5BK75; -.
+DR   SMR; Q5BK75; -.
+DR   GlyCosmos; Q5BK75; 3 sites, No reported glycans.
+DR   GlyGen; Q5BK75; 3 sites.
+DR   PhosphoSitePlus; Q5BK75; -.
+DR   PaxDb; 10116-ENSRNOP00000001243; -.
+DR   Ensembl; ENSRNOT00000001243.7; ENSRNOP00000001243.4; ENSRNOG00000000937.7.
+DR   Ensembl; ENSRNOT00055005869; ENSRNOP00055004417; ENSRNOG00055003731.
+DR   Ensembl; ENSRNOT00060003563; ENSRNOP00060002452; ENSRNOG00060002270.
+DR   Ensembl; ENSRNOT00065010392; ENSRNOP00065007618; ENSRNOG00065006708.
+DR   GeneID; 288454; -.
+DR   KEGG; rno:288454; -.
+DR   UCSC; RGD:1307594; rat.
+DR   AGR; RGD:1307594; -.
+DR   CTD; 283537; -.
+DR   RGD; 1307594; Slc46a3.
+DR   eggNOG; KOG2816; Eukaryota.
+DR   GeneTree; ENSGT00950000183096; -.
+DR   HOGENOM; CLU_028365_1_1_1; -.
+DR   InParanoid; Q5BK75; -.
+DR   OMA; FQRTYML; -.
+DR   OrthoDB; 2880402at2759; -.
+DR   PhylomeDB; Q5BK75; -.
+DR   TreeFam; TF315701; -.
+DR   PRO; PR:Q5BK75; -.
+DR   Proteomes; UP000002494; Chromosome 12.
+DR   Bgee; ENSRNOG00000000937; Expressed in liver and 19 other cell types or tissues.
+DR   GO; GO:0005765; C:lysosomal membrane; ISO:RGD.
+DR   GO; GO:0005375; F:copper ion transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015293; F:symporter activity; IEA:UniProtKB-KW.
+DR   GO; GO:0022857; F:transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:1904613; P:cellular response to 2,3,7,8-tetrachlorodibenzodioxine; ISO:RGD.
+DR   GO; GO:0035434; P:copper ion transmembrane transport; ISO:RGD.
+DR   GO; GO:0034486; P:vacuolar transmembrane transport; ISO:RGD.
+DR   Gene3D; 1.20.1250.20; MFS general substrate transporter like domains; 1.
+DR   InterPro; IPR011701; MFS.
+DR   InterPro; IPR036259; MFS_trans_sf.
+DR   PANTHER; PTHR23507:SF9; SOLUTE CARRIER FAMILY 46 MEMBER 3; 1.
+DR   PANTHER; PTHR23507; ZGC:174356; 1.
+DR   Pfam; PF07690; MFS_1; 1.
+DR   SUPFAM; SSF103473; MFS general substrate transporter; 1.
+PE   2: Evidence at transcript level;
+KW   Glycoprotein; Lysosome; Membrane; Reference proteome; Signal; Symport;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..461
+FT                   /note="Lysosomal proton-coupled steroid conjugate and bile
+FT                   acid symporter SLC46A3"
+FT                   /id="PRO_0000307256"
+FT   TOPO_DOM        26..70
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        71..91
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        92..103
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        104..124
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        125..135
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        136..156
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        157..170
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        171..191
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        192..197
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        198..218
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        219..260
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        261..281
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        282..301
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        302..322
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        323..324
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        325..345
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        346..347
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        348..368
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        369..381
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        382..402
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        403..415
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        416..436
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        437..461
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           446..449
+FT                   /note="Tyrosine-based lysosomal-sorting motif"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7Z3Q1"
+FT   CARBOHYD        38
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        46
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        53
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   461 AA;  51527 MW;  CB7DCE21883D0656 CRC64;
+     MKISFIEPAI LLYAFAMTLT IPLTAQYVYR RIWEETGNYT FTSSSNVSEC EQNKSSSTFA
+     FQEEVQKKAS LFSLQVEISG LIPGLVSTFM LLSSSDNHGR KLPMVLSSLG SLGTNLWLCA
+     MSYFDLPLQL LVASTFIGAL FGNYTTFWGA CFAYIVDQEK EYKHRIIRIA VLDFMLGVVT
+     GLTGLSSGYF IRELGFAWSY FIIAVVVLVN LAYILFFLSD PIKESSSQIV TMSCSESLKD
+     LFYRTYMLFK NGSCKRRSLL CLLIFTLVVY FFVVFGITPV FTLYELGPPL CWNEVYIGYG
+     SALGSLSFLS SFLGIWLFSY CLKDIHIAYV GIFTTMVGMM LTAFTRTTLM MFLVRISFFF
+     TIMPLSILRS MLSKVVHSTE QGVLFACIAF LETLGGVTST SAYNGIYSAT VAWYPGFVFL
+     LSAGLLVLPA VSLCMVKCIG WEEGSYTLLI HDEPSEHTSD S
+//

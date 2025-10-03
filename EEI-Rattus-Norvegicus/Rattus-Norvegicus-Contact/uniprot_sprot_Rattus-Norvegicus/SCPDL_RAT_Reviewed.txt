@@ -1,0 +1,112 @@
+ID   SCPDL_RAT               Reviewed;         429 AA.
+AC   Q6AY30;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   24-JUL-2024, entry version 125.
+DE   RecName: Full=Saccharopine dehydrogenase-like oxidoreductase;
+DE            EC=1.-.-.-;
+GN   Name=Sccpdh;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-209; SER-215 AND SER-217, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- SIMILARITY: Belongs to the saccharopine dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079215; AAH79215.1; -; mRNA.
+DR   RefSeq; NP_001014007.1; NM_001013985.1.
+DR   RefSeq; XP_008768101.2; XM_008769879.2.
+DR   RefSeq; XP_017460149.1; XM_017604660.1.
+DR   AlphaFoldDB; Q6AY30; -.
+DR   SMR; Q6AY30; -.
+DR   BioGRID; 258053; 2.
+DR   STRING; 10116.ENSRNOP00000003791; -.
+DR   iPTMnet; Q6AY30; -.
+DR   PhosphoSitePlus; Q6AY30; -.
+DR   jPOST; Q6AY30; -.
+DR   PaxDb; 10116-ENSRNOP00000003791; -.
+DR   Ensembl; ENSRNOT00000003791.7; ENSRNOP00000003791.4; ENSRNOG00000066712.1.
+DR   Ensembl; ENSRNOT00055020527; ENSRNOP00055016527; ENSRNOG00055012082.
+DR   Ensembl; ENSRNOT00060010934; ENSRNOP00060008140; ENSRNOG00060006677.
+DR   Ensembl; ENSRNOT00065038085; ENSRNOP00065030836; ENSRNOG00065022339.
+DR   GeneID; 305021; -.
+DR   KEGG; rno:305021; -.
+DR   UCSC; RGD:1311440; rat.
+DR   AGR; RGD:1311440; -.
+DR   CTD; 51097; -.
+DR   RGD; 1311440; Sccpdh.
+DR   eggNOG; KOG2733; Eukaryota.
+DR   GeneTree; ENSGT00390000004799; -.
+DR   HOGENOM; CLU_031002_1_0_1; -.
+DR   InParanoid; Q6AY30; -.
+DR   OMA; MQLRYHD; -.
+DR   OrthoDB; 5479972at2759; -.
+DR   PhylomeDB; Q6AY30; -.
+DR   TreeFam; TF314904; -.
+DR   Reactome; R-RNO-114608; Platelet degranulation.
+DR   PRO; PR:Q6AY30; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000037984; Expressed in cerebellum and 18 other cell types or tissues.
+DR   GO; GO:0005811; C:lipid droplet; ISO:RGD.
+DR   GO; GO:0030496; C:midbody; ISO:RGD.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009247; P:glycolipid biosynthetic process; IBA:GO_Central.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR051276; Saccharopine_DH-like_oxidrdct.
+DR   InterPro; IPR005097; Sacchrp_dh_NADP.
+DR   PANTHER; PTHR12286:SF5; SACCHAROPINE DEHYDROGENASE-LIKE OXIDOREDUCTASE; 1.
+DR   PANTHER; PTHR12286; UNCHARACTERIZED; 1.
+DR   Pfam; PF03435; Sacchrp_dh_NADP; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Oxidoreductase; Phosphoprotein; Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NBX0"
+FT   CHAIN           2..429
+FT                   /note="Saccharopine dehydrogenase-like oxidoreductase"
+FT                   /id="PRO_0000212843"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8NBX0"
+FT   MOD_RES         209
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         215
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         217
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   429 AA;  47088 MW;  D16F3BE0BBF8D300 CRC64;
+     MATEQRPFQL VVFGASGFTG QFVTEEVARE QMASEQSSRL PWAVAGRSKE KLQQVLEKAA
+     QKLGRATLSS EVGIIICDIS NPASLDEMAK KATLVLNCVG PYRFYGEPVV KACIENGTSC
+     IDICGEPQFL ELMHVKYHEK AAEKGVYIIG SSGFDSIPAD LGVLYTRNQM NGTLTAVESF
+     LTINSGPEGL CIHDGTWKSA IYGFGDKGSL RKLRSVSNLK PVPVIGSKLK RRWPVSYCRE
+     LNSYAIPFLG SDMSVVKRTQ RYLHENLEDS PVQYAAYITV GGITSVIKLM FAGLFFLFFV
+     KFSIGRQLLV KFPWLFSFGY FSKRGPTQKQ MDESSFTMTF FGQGYSHGVS AEKNKPNIRI
+     CTQVKGPEAG YVATPIAMVQ AAVTFLNDAS DLPKGGGVFT PGAAFSRTKL IDRLNQHGIQ
+     FSVISSSEV
+//

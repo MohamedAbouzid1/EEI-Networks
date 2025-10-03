@@ -1,0 +1,219 @@
+ID   DDX25_RAT               Reviewed;         483 AA.
+AC   Q9QY16;
+DT   12-FEB-2003, integrated into UniProtKB/Swiss-Prot.
+DT   10-OCT-2003, sequence version 2.
+DT   29-MAY-2024, entry version 144.
+DE   RecName: Full=ATP-dependent RNA helicase DDX25;
+DE            EC=3.6.4.13;
+DE   AltName: Full=DEAD box protein 25;
+DE   AltName: Full=Gonadotropin-regulated testicular RNA helicase;
+GN   Name=Ddx25; Synonyms=Grth;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Testis;
+RX   PubMed=10608860; DOI=10.1074/jbc.274.53.37932;
+RA   Tang P.-Z., Tsai-Morris C.-H., Dufau M.L.;
+RT   "A novel gonadotropin-regulated testicular RNA helicase: a new member of
+RT   the DEAD-box family.";
+RL   J. Biol. Chem. 274:37932-37940(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SEQUENCE REVISION TO N-TERMINUS, ALTERNATIVE
+RP   INITIATION, TISSUE SPECIFICITY, DEVELOPMENTAL STAGE, AND INDUCTION.
+RX   PubMed=12734186; DOI=10.1074/jbc.m302411200;
+RA   Sheng Y., Tsai-Morris C.-H., Dufau M.L.;
+RT   "Cell-specific and hormone-regulated expression of gonadotropin-regulated
+RT   testicular RNA helicase gene (GRTH/Ddx25) resulting from alternative
+RT   utilization of translation initiation codons in the rat testis.";
+RL   J. Biol. Chem. 278:27796-27803(2003).
+RN   [3]
+RP   SUBCELLULAR LOCATION, PHOSPHORYLATION, NUCLEAR EXPORT SIGNAL, NUCLEAR
+RP   LOCALIZATION SIGNAL, AND MUTAGENESIS OF LEU-66; LEU-67; LEU-70; ARG-103;
+RP   LEU-104; LYS-105; LEU-108 AND LEU-109.
+RX   PubMed=16968703; DOI=10.1074/jbc.m605086200;
+RA   Sheng Y., Tsai-Morris C.-H., Gutti R., Maeda Y., Dufau M.L.;
+RT   "Gonadotropin-regulated testicular RNA helicase (GRTH/Ddx25) is a transport
+RT   protein involved in gene-specific mRNA export and protein translation
+RT   during spermatogenesis.";
+RL   J. Biol. Chem. 281:35048-35056(2006).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: ATP-dependent RNA helicase. Required for mRNA export and
+CC       translation regulation during spermatid development (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:16968703}. Nucleus
+CC       {ECO:0000269|PubMed:16968703}. Note=Detected in both cytoplasm and
+CC       nucleus of testicular cells. Also detected in chromatoid bodies of
+CC       round spermatids (By similarity). {ECO:0000250|UniProtKB:Q9QY15}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative initiation; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=Q9QY16-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9QY16-2; Sequence=VSP_018877;
+CC       Name=3;
+CC         IsoId=Q9QY16-3; Sequence=VSP_018878;
+CC   -!- TISSUE SPECIFICITY: Isoform 1 is expressed in germ cells. Isoform 2 is
+CC       highly expressed in Leydig cells and weakly expressed in the pituitary
+CC       and hypothalamus. Isoform 3 is weakly expressed only in germ cells.
+CC       {ECO:0000269|PubMed:12734186}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed in pubertal and adult animals but not in
+CC       immature animals. {ECO:0000269|PubMed:12734186}.
+CC   -!- INDUCTION: By gonadotropin in Leydig cells. Inhibited by flutamine.
+CC       {ECO:0000269|PubMed:12734186}.
+CC   -!- PTM: Phosphorylated on threonine residues. The phosphorylated form is
+CC       found in the cytoplasm but not in the nucleus.
+CC       {ECO:0000269|PubMed:16968703}.
+CC   -!- MISCELLANEOUS: [Isoform 3]: May start at Met-200 rather than Met-190.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF142629; AAF21360.2; -; mRNA.
+DR   RefSeq; NP_113818.2; NM_031630.2. [Q9QY16-1]
+DR   AlphaFoldDB; Q9QY16; -.
+DR   SMR; Q9QY16; -.
+DR   STRING; 10116.ENSRNOP00000017307; -.
+DR   iPTMnet; Q9QY16; -.
+DR   PhosphoSitePlus; Q9QY16; -.
+DR   PaxDb; 10116-ENSRNOP00000017307; -.
+DR   GeneID; 58856; -.
+DR   KEGG; rno:58856; -.
+DR   UCSC; RGD:68381; rat. [Q9QY16-1]
+DR   AGR; RGD:68381; -.
+DR   CTD; 29118; -.
+DR   RGD; 68381; Ddx25.
+DR   eggNOG; KOG0332; Eukaryota.
+DR   InParanoid; Q9QY16; -.
+DR   OrthoDB; 1087080at2759; -.
+DR   PhylomeDB; Q9QY16; -.
+DR   BRENDA; 3.6.4.12; 5301.
+DR   BRENDA; 3.6.4.13; 5301.
+DR   PRO; PR:Q9QY16; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0033391; C:chromatoid body; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0010494; C:cytoplasmic stress granule; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; ISS:UniProtKB.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IDA:RGD.
+DR   GO; GO:0003729; F:mRNA binding; IBA:GO_Central.
+DR   GO; GO:0003723; F:RNA binding; IDA:RGD.
+DR   GO; GO:0003724; F:RNA helicase activity; IDA:RGD.
+DR   GO; GO:0006406; P:mRNA export from nucleus; ISS:UniProtKB.
+DR   GO; GO:0016973; P:poly(A)+ mRNA export from nucleus; IBA:GO_Central.
+DR   GO; GO:0006417; P:regulation of translation; ISS:UniProtKB.
+DR   GO; GO:0007286; P:spermatid development; ISS:UniProtKB.
+DR   CDD; cd18787; SF2_C_DEAD; 1.
+DR   Gene3D; 6.10.250.2170; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C-like.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   PANTHER; PTHR47958; ATP-DEPENDENT RNA HELICASE DBP3; 1.
+DR   PANTHER; PTHR47958:SF33; ATP-DEPENDENT RNA HELICASE DDX25; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   1: Evidence at protein level;
+KW   Alternative initiation; ATP-binding; Cytoplasm; Developmental protein;
+KW   Differentiation; Helicase; Hydrolase; mRNA transport; Nucleotide-binding;
+KW   Nucleus; Phosphoprotein; Reference proteome; RNA-binding; Spermatogenesis;
+KW   Translation regulation; Transport.
+FT   CHAIN           1..483
+FT                   /note="ATP-dependent RNA helicase DDX25"
+FT                   /id="PRO_0000030817"
+FT   DOMAIN          130..300
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   DOMAIN          311..478
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00542"
+FT   MOTIF           61..74
+FT                   /note="Nuclear export signal"
+FT   MOTIF           97..125
+FT                   /note="Q motif"
+FT   MOTIF           100..114
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000269|PubMed:16968703"
+FT   MOTIF           247..250
+FT                   /note="DEAD box"
+FT   BINDING         143..150
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   MOD_RES         49
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QY15"
+FT   VAR_SEQ         1..189
+FT                   /note="Missing (in isoform 3)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_018878"
+FT   VAR_SEQ         1..114
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_018877"
+FT   MUTAGEN         66
+FT                   /note="L->A: Enhances nuclear expression; when associated
+FT                   with A-67 and A-70."
+FT                   /evidence="ECO:0000269|PubMed:16968703"
+FT   MUTAGEN         67
+FT                   /note="L->A: Enhances nuclear expression; when associated
+FT                   with A-66 and A-70."
+FT                   /evidence="ECO:0000269|PubMed:16968703"
+FT   MUTAGEN         70
+FT                   /note="L->A: Enhances nuclear expression; when associated
+FT                   with A-66 and A-67."
+FT                   /evidence="ECO:0000269|PubMed:16968703"
+FT   MUTAGEN         103
+FT                   /note="R->A: Abolishes nuclear expression."
+FT                   /evidence="ECO:0000269|PubMed:16968703"
+FT   MUTAGEN         104
+FT                   /note="L->A: Decreases nuclear expression; when associated
+FT                   with A-108 and A-109."
+FT                   /evidence="ECO:0000269|PubMed:16968703"
+FT   MUTAGEN         105
+FT                   /note="K->A: Abolishes nuclear expression."
+FT                   /evidence="ECO:0000269|PubMed:16968703"
+FT   MUTAGEN         108
+FT                   /note="L->A: Decreases nuclear expression; when associated
+FT                   with A-104 and A-109."
+FT                   /evidence="ECO:0000269|PubMed:16968703"
+FT   MUTAGEN         109
+FT                   /note="L->A: Decreases nuclear expression; when associated
+FT                   with A-104 and A-108."
+FT                   /evidence="ECO:0000269|PubMed:16968703"
+SQ   SEQUENCE   483 AA;  54791 MW;  17F596DAD9E529FC CRC64;
+     MASLLWGGDA GAAESERLNS HFSNLVHPRK NLRGIRSTTV PNIDGSLNTE EDDDEDDVVD
+     LAANSLLNKL IRQSLVESSH RVEVLQKDPS SPLYSVKTFE ELRLKEELLK GIYAMGFNRP
+     SKIQEMALPM MLAHPPQNLI AQSQSGTGKT AAFVLAMLNR VNALELFPQC LCLAPTYELA
+     LQTGRVVERM GKFCVDVEVM YAIRGNRIPR GTDVTKQIVI GTPGTVLDWC FKRKLIDLTK
+     IRVFVLDEAD VMIDTQGFSD QSIRIQRALP SECQMLLFSA TFEDSVWQFA ERIIPDPNVI
+     KLRKEELTLN NIRQYYVLCE NRKDKYQALC NIYGGITIGQ AIIFCQTRRN AKWLTVEMMQ
+     DGHQVSLLSG ELTVEQRASI IQRFRDGKEK VLITTNVCAR GIDVKQVTIV VNFDLPVNQS
+     EEPDYETYLH RIGRTGRFGK KGLAFNMIEV DKLPLLMKIQ DHFNSSIKQL DPEDMDEIEK
+     IEY
+//

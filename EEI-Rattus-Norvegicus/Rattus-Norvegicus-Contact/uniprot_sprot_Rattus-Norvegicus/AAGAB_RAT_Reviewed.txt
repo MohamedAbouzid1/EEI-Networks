@@ -1,0 +1,103 @@
+ID   AAGAB_RAT               Reviewed;         315 AA.
+AC   Q9R0Z7;
+DT   29-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   29-MAY-2024, entry version 112.
+DE   RecName: Full=Alpha- and gamma-adaptin-binding protein p34;
+GN   Name=Aagab; Synonyms=P34;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, IDENTIFICATION IN AP-1 AND
+RP   AP-2 COMPLEXES, AND SUBUNIT.
+RC   TISSUE=Brain;
+RX   PubMed=10477754; DOI=10.1083/jcb.146.5.993;
+RA   Page L.J., Sowerby P.J., Lui W.W.Y., Robinson M.S.;
+RT   "Gamma-synergin: an EH domain-containing protein that interacts with gamma-
+RT   adaptin.";
+RL   J. Cell Biol. 146:993-1004(1999).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-310 AND SER-311, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: May be involved in endocytic recycling of growth factor
+CC       receptors such as EGFR. {ECO:0000250}.
+CC   -!- SUBUNIT: Associated with AP-1 and AP-2 complexes.
+CC       {ECO:0000269|PubMed:10477754}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Widely expressed. {ECO:0000269|PubMed:10477754}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF178669; AAD51852.1; -; mRNA.
+DR   RefSeq; NP_599225.1; NM_134398.2.
+DR   AlphaFoldDB; Q9R0Z7; -.
+DR   SMR; Q9R0Z7; -.
+DR   BioGRID; 251245; 2.
+DR   MINT; Q9R0Z7; -.
+DR   STRING; 10116.ENSRNOP00000011385; -.
+DR   iPTMnet; Q9R0Z7; -.
+DR   PhosphoSitePlus; Q9R0Z7; -.
+DR   jPOST; Q9R0Z7; -.
+DR   PaxDb; 10116-ENSRNOP00000011385; -.
+DR   PeptideAtlas; Q9R0Z7; -.
+DR   Ensembl; ENSRNOT00000011385.5; ENSRNOP00000011385.3; ENSRNOG00000008424.5.
+DR   Ensembl; ENSRNOT00055040401; ENSRNOP00055032822; ENSRNOG00055023508.
+DR   Ensembl; ENSRNOT00060031028; ENSRNOP00060025131; ENSRNOG00060018077.
+DR   Ensembl; ENSRNOT00065012501; ENSRNOP00065009199; ENSRNOG00065007933.
+DR   GeneID; 171435; -.
+DR   KEGG; rno:171435; -.
+DR   UCSC; RGD:621601; rat.
+DR   AGR; RGD:621601; -.
+DR   CTD; 79719; -.
+DR   RGD; 621601; Aagab.
+DR   eggNOG; KOG4273; Eukaryota.
+DR   GeneTree; ENSGT00390000007218; -.
+DR   HOGENOM; CLU_056826_0_0_1; -.
+DR   InParanoid; Q9R0Z7; -.
+DR   OMA; PNHTEST; -.
+DR   OrthoDB; 2917268at2759; -.
+DR   PhylomeDB; Q9R0Z7; -.
+DR   PRO; PR:Q9R0Z7; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000008424; Expressed in frontal cortex and 18 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016607; C:nuclear speck; IEA:Ensembl.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.11960; -; 1.
+DR   InterPro; IPR019341; Alpha/Gamma-adaptin-bd_p34.
+DR   PANTHER; PTHR14659; ALPHA- AND GAMMA-ADAPTIN-BINDING PROTEIN P34; 1.
+DR   PANTHER; PTHR14659:SF1; ALPHA- AND GAMMA-ADAPTIN-BINDING PROTEIN P34; 1.
+DR   Pfam; PF10199; Adaptin_binding; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Phosphoprotein; Protein transport; Reference proteome;
+KW   Transport.
+FT   CHAIN           1..315
+FT                   /note="Alpha- and gamma-adaptin-binding protein p34"
+FT                   /id="PRO_0000058137"
+FT   REGION          201..229
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         310
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         311
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   315 AA;  34363 MW;  7330E91679945A9D CRC64;
+     MAAGVPCALV TSCSATFTGD RLVQHILGTE DAVVEATSSD AVRFYPWTID NKYYSAEVNL
+     CVVPSKCRVT AEIAEAVQAF VVYFDSTQKS GLDSVSSWLP LAETWLPEVM ILVCDRVCED
+     GINRQQAQEW CIKHGFELVE LCPEELPEED DDFPESTGVK RIVQALNANV WSNVVMKNDR
+     SQGFSLLNSL AGASRSVGSA ESCQCEQEPS PTAERTESLP GHRSGACGPA GAQVDSIVDP
+     MLDLDIQELA SLTTGGGDLE NFERLFSKLK EMKDKAATLP HEQRKLHAEK VAKAFWMAIG
+     GDRDEIEGLS SDDEH
+//

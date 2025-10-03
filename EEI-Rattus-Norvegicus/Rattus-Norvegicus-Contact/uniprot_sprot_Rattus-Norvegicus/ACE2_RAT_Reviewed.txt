@@ -1,0 +1,532 @@
+ID   ACE2_RAT                Reviewed;         805 AA.
+AC   Q5EGZ1;
+DT   19-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   29-MAY-2024, entry version 125.
+DE   RecName: Full=Angiotensin-converting enzyme 2;
+DE            EC=3.4.17.23 {ECO:0000250|UniProtKB:Q9BYF1};
+DE   AltName: Full=ACE-related carboxypeptidase;
+DE            EC=3.4.17.- {ECO:0000250|UniProtKB:Q9BYF1};
+DE   Contains:
+DE     RecName: Full=Processed angiotensin-converting enzyme 2;
+DE   Flags: Precursor;
+GN   Name=Ace2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND LACK OF INTERACTION WITH SARS-COV SPIKE
+RP   GLYCOPROTEIN.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=15452268; DOI=10.1128/jvi.78.20.11429-11433.2004;
+RA   Li W., Greenough T.C., Moore M.J., Vasilieva N., Somasundaran M.,
+RA   Sullivan J.L., Farzan M., Choe H.;
+RT   "Efficient replication of severe acute respiratory syndrome coronavirus in
+RT   mouse cells is limited by murine angiotensin-converting enzyme 2.";
+RL   J. Virol. 78:11429-11433(2004).
+RN   [2]
+RP   FUNCTION, AND INDUCTION.
+RX   PubMed=12075344; DOI=10.1038/nature00786;
+RA   Crackower M.A., Sarao R., Oudit G.Y., Yagil C., Kozieradzki I.,
+RA   Scanga S.E., Oliveira-dos-Santos A.J., da Costa J., Zhang L., Pei Y.,
+RA   Scholey J., Ferrario C.M., Manoukian A.S., Chappell M.C., Backx P.H.,
+RA   Yagil Y., Penninger J.M.;
+RT   "Angiotensin-converting enzyme 2 is an essential regulator of heart
+RT   function.";
+RL   Nature 417:822-828(2002).
+RN   [3]
+RP   ACTIVITY REGULATION, GLYCOSYLATION, TISSUE SPECIFICITY, AND SUBCELLULAR
+RP   LOCATION.
+RX   PubMed=15231706; DOI=10.1210/en.2004-0443;
+RA   Douglas G.C., O'Bryan M.K., Hedger M.P., Lee D.K.L., Yarski M.A.,
+RA   Smith A.I., Lew R.A.;
+RT   "The novel angiotensin-converting enzyme (ACE) homolog, ACE2, is
+RT   selectively expressed by adult Leydig cells of the testis.";
+RL   Endocrinology 145:4703-4711(2004).
+RN   [4]
+RP   TISSUE SPECIFICITY, AND INDUCTION.
+RX   PubMed=15671045; DOI=10.1093/eurheartj/ehi114;
+RA   Burrell L.M., Risvanis J., Kubota E., Dean R.G., MacDonald P.S., Lu S.,
+RA   Tikellis C., Grant S.L., Lew R.A., Smith A.I., Cooper M.E., Johnston C.I.;
+RT   "Myocardial infarction increases ACE2 expression in rat and humans.";
+RL   Eur. Heart J. 26:369-375(2005).
+RN   [5]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=15949646; DOI=10.1016/j.peptides.2005.01.009;
+RA   Gembardt F., Sterner-Kock A., Imboden H., Spalteholz M., Reibitz F.,
+RA   Schultheiss H.-P., Siems W.-E., Walther T.;
+RT   "Organ-specific distribution of ACE2 mRNA and correlating peptidase
+RT   activity in rodents.";
+RL   Peptides 26:1270-1277(2005).
+CC   -!- FUNCTION: Essential counter-regulatory carboxypeptidase of the renin-
+CC       angiotensin hormone system that is a critical regulator of blood
+CC       volume, systemic vascular resistance, and thus cardiovascular
+CC       homeostasis. Converts angiotensin I to angiotensin 1-9, a nine-amino
+CC       acid peptide with anti-hypertrophic effects in cardiomyocytes, and
+CC       angiotensin II to angiotensin 1-7, which then acts as a beneficial
+CC       vasodilator and anti-proliferation agent, counterbalancing the actions
+CC       of the vasoconstrictor angiotensin II. Also removes the C-terminal
+CC       residue from three other vasoactive peptides, neurotensin, kinetensin,
+CC       and des-Arg bradykinin, but is not active on bradykinin. Also cleaves
+CC       other biological peptides, such as apelins, casomorphins and dynorphin
+CC       A. Plays an important role in amino acid transport by acting as binding
+CC       partner of amino acid transporter SLC6A19 in intestine, regulating
+CC       trafficking, expression on the cell surface, and its catalytic
+CC       activity. {ECO:0000250|UniProtKB:Q9BYF1}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine;
+CC         Xref=Rhea:RHEA:26554, ChEBI:CHEBI:15377, ChEBI:CHEBI:58095,
+CC         ChEBI:CHEBI:58506, ChEBI:CHEBI:58922; EC=3.4.17.23;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:26555;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=angiotensin I + H2O = angiotensin-(1-9) + L-leucine;
+CC         Xref=Rhea:RHEA:63532, ChEBI:CHEBI:15377, ChEBI:CHEBI:57427,
+CC         ChEBI:CHEBI:147350, ChEBI:CHEBI:147351;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63533;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=bradykinin(1-8) + H2O = bradykinin(1-7) + L-phenylalanine;
+CC         Xref=Rhea:RHEA:63536, ChEBI:CHEBI:15377, ChEBI:CHEBI:58095,
+CC         ChEBI:CHEBI:133069, ChEBI:CHEBI:147352;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63537;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + neurotensin = L-leucine + neurotensin-(1-12);
+CC         Xref=Rhea:RHEA:63540, ChEBI:CHEBI:15377, ChEBI:CHEBI:57427,
+CC         ChEBI:CHEBI:147362, ChEBI:CHEBI:147363;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63541;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + kinetensin = kinetensin-(1-8) + L-leucine;
+CC         Xref=Rhea:RHEA:63544, ChEBI:CHEBI:15377, ChEBI:CHEBI:57427,
+CC         ChEBI:CHEBI:147364, ChEBI:CHEBI:147365;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63545;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dynorphin A-(1-13) + H2O = dynorphin A-(1-12) + L-lysine;
+CC         Xref=Rhea:RHEA:63556, ChEBI:CHEBI:15377, ChEBI:CHEBI:32551,
+CC         ChEBI:CHEBI:147381, ChEBI:CHEBI:147383;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63557;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=apelin-13 + H2O = apelin-12 + L-phenylalanine;
+CC         Xref=Rhea:RHEA:63564, ChEBI:CHEBI:15377, ChEBI:CHEBI:58095,
+CC         ChEBI:CHEBI:147395, ChEBI:CHEBI:147396;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63565;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[Pyr1]apelin-13 + H2O = [Pyr1]apelin-12 + L-phenylalanine;
+CC         Xref=Rhea:RHEA:63604, ChEBI:CHEBI:15377, ChEBI:CHEBI:58095,
+CC         ChEBI:CHEBI:147415, ChEBI:CHEBI:147416;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63605;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=apelin-17 + H2O = apelin-16 + L-phenylalanine;
+CC         Xref=Rhea:RHEA:63608, ChEBI:CHEBI:15377, ChEBI:CHEBI:58095,
+CC         ChEBI:CHEBI:147421, ChEBI:CHEBI:147422;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63609;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BYF1};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=chloride; Xref=ChEBI:CHEBI:17996; Evidence={ECO:0000250};
+CC       Note=Binds 1 Cl(-) ion per subunit. {ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Activated by chloride and fluoride, but not
+CC       bromide. Inhibited by MLN-4760, cFP_Leu, and EDTA, but not by the ACE
+CC       inhibitors linosipril, captopril, enalaprilat.
+CC       {ECO:0000269|PubMed:15231706}.
+CC   -!- SUBUNIT: Homodimer. Interacts with the catalytically active form of
+CC       TMPRSS2 (By similarity). Interacts with SLC6A19; this interaction is
+CC       essential for expression and function of SLC6A19 in intestine (By
+CC       similarity). Interacts with ITGA5:ITGB1 (By similarity). Probably
+CC       interacts (via endocytic sorting signal motif) with AP2M1; the
+CC       interaction is inhibited by phosphorylation of Tyr-781 (By similarity).
+CC       Interacts (via PDZ-binding motif) with NHERF1 (via PDZ domains); the
+CC       interaction may enhance ACE2 membrane residence (By similarity).
+CC       {ECO:0000250|UniProtKB:Q8R0I0, ECO:0000250|UniProtKB:Q9BYF1}.
+CC   -!- INTERACTION:
+CC       Q5EGZ1; A0A6G6A1M4: S; Xeno; NbExp=2; IntAct=EBI-25503774, EBI-26997256;
+CC       Q5EGZ1; A0A6M3G9R1: S; Xeno; NbExp=2; IntAct=EBI-25503774, EBI-26997195;
+CC       Q5EGZ1; P0DTC2: S; Xeno; NbExp=2; IntAct=EBI-25503774, EBI-25474821;
+CC       Q5EGZ1; P59594: S; Xeno; NbExp=2; IntAct=EBI-25503774, EBI-15582614;
+CC   -!- SUBCELLULAR LOCATION: [Processed angiotensin-converting enzyme 2]:
+CC       Secreted {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q9BYF1};
+CC       Single-pass type I membrane protein {ECO:0000255}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:Q8R0I0}. Cell projection, cilium
+CC       {ECO:0000250|UniProtKB:Q9BYF1}. Apical cell membrane
+CC       {ECO:0000250|UniProtKB:Q9BYF1}. Note=Detected in both cell membrane and
+CC       cytoplasm in neurons. {ECO:0000250|UniProtKB:Q8R0I0}.
+CC   -!- TISSUE SPECIFICITY: Expressed in heart, kidney and forebrain. In
+CC       testis, expression is restricted to Leydig cells. In heart, expressed
+CC       in endothelial cells from small and large arteries, arterial smooth
+CC       muscle cells, and myocytes (at protein level). Ubiquitously expressed,
+CC       with highest levels in ileum, bladder and lung.
+CC       {ECO:0000269|PubMed:15231706, ECO:0000269|PubMed:15671045,
+CC       ECO:0000269|PubMed:15949646}.
+CC   -!- INDUCTION: Down-regulated in hypertensive animals. Up-regulated after
+CC       myocardial infarction. {ECO:0000269|PubMed:12075344,
+CC       ECO:0000269|PubMed:15671045}.
+CC   -!- DOMAIN: The cytoplasmic tail contains several linear motifs such as
+CC       LIR, PDZ-binding, PTB and endocytic sorting signal motifs that would
+CC       allow interaction with proteins that mediate endocytic trafficking and
+CC       autophagy. {ECO:0000250|UniProtKB:Q9BYF1}.
+CC   -!- PTM: Glycosylated. {ECO:0000269|PubMed:15231706}.
+CC   -!- PTM: Proteolytic cleavage by ADAM17 generates a secreted form. Also
+CC       cleaved by serine proteases: TMPRSS2, TMPRSS11D and HPN/TMPRSS1 (By
+CC       similarity). {ECO:0000250}.
+CC   -!- PTM: Phosphorylated. Phosphorylation at Tyr-781 probably inhibits
+CC       interaction with AP2M1 and enables interactions with proteins
+CC       containing SH2 domains. {ECO:0000250|UniProtKB:Q9BYF1}.
+CC   -!- PTM: Ubiquitinated. Ubiquitinated on Lys-788 via 'Lys-48'-linked
+CC       ubiquitin. 'Lys-48'-linked deubiquitinated by USP50 on the Lys-788;
+CC       leading to its stabilization. {ECO:0000250|UniProtKB:Q9BYF1}.
+CC   -!- MISCELLANEOUS: In contrast to its human and palm-civet orthologs, does
+CC       not interact with SARS-CoV spike glycoprotein.
+CC   -!- SIMILARITY: Belongs to the peptidase M2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY881244; AAW78017.1; -; mRNA.
+DR   RefSeq; NP_001012006.1; NM_001012006.1.
+DR   PDB; 8GRY; EM; 3.29 A; A=19-615.
+DR   PDBsum; 8GRY; -.
+DR   AlphaFoldDB; Q5EGZ1; -.
+DR   EMDB; EMD-34217; -.
+DR   SMR; Q5EGZ1; -.
+DR   BioGRID; 257260; 1.
+DR   IntAct; Q5EGZ1; 4.
+DR   STRING; 10116.ENSRNOP00000047913; -.
+DR   BindingDB; Q5EGZ1; -.
+DR   ChEMBL; CHEMBL2311; -.
+DR   DrugCentral; Q5EGZ1; -.
+DR   MEROPS; M02.006; -.
+DR   GlyCosmos; Q5EGZ1; 9 sites, No reported glycans.
+DR   GlyGen; Q5EGZ1; 9 sites.
+DR   PhosphoSitePlus; Q5EGZ1; -.
+DR   SwissPalm; Q5EGZ1; -.
+DR   PaxDb; 10116-ENSRNOP00000047913; -.
+DR   Ensembl; ENSRNOT00000080730.2; ENSRNOP00000070410.2; ENSRNOG00000031665.6.
+DR   Ensembl; ENSRNOT00055048829; ENSRNOP00055040140; ENSRNOG00055028217.
+DR   GeneID; 302668; -.
+DR   KEGG; rno:302668; -.
+DR   UCSC; RGD:728890; rat.
+DR   AGR; RGD:728890; -.
+DR   CTD; 59272; -.
+DR   RGD; 728890; Ace2.
+DR   eggNOG; KOG3690; Eukaryota.
+DR   GeneTree; ENSGT00940000158077; -.
+DR   InParanoid; Q5EGZ1; -.
+DR   OMA; FTVIHHE; -.
+DR   OrthoDB; 2898149at2759; -.
+DR   PhylomeDB; Q5EGZ1; -.
+DR   BRENDA; 3.4.17.23; 5301.
+DR   Reactome; R-RNO-2022377; Metabolism of Angiotensinogen to Angiotensins.
+DR   PRO; PR:Q5EGZ1; -.
+DR   Proteomes; UP000002494; Chromosome X.
+DR   GO; GO:0016324; C:apical plasma membrane; ISO:RGD.
+DR   GO; GO:0031526; C:brush border membrane; ISO:RGD.
+DR   GO; GO:0009986; C:cell surface; ISS:UniProtKB.
+DR   GO; GO:0005929; C:cilium; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005576; C:extracellular region; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0004180; F:carboxypeptidase activity; IDA:CACAO.
+DR   GO; GO:0004175; F:endopeptidase activity; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004181; F:metallocarboxypeptidase activity; ISO:RGD.
+DR   GO; GO:0008237; F:metallopeptidase activity; ISO:RGD.
+DR   GO; GO:0008241; F:peptidyl-dipeptidase activity; ISO:RGD.
+DR   GO; GO:0001618; F:virus receptor activity; ISS:UniProtKB.
+DR   GO; GO:0003051; P:angiotensin-mediated drinking behavior; ISO:RGD.
+DR   GO; GO:0098670; P:entry receptor-mediated virion attachment to host cell; ISO:RGD.
+DR   GO; GO:0060135; P:maternal process involved in female pregnancy; IEP:RGD.
+DR   GO; GO:0070373; P:negative regulation of ERK1 and ERK2 cascade; IMP:RGD.
+DR   GO; GO:0048662; P:negative regulation of smooth muscle cell proliferation; IMP:RGD.
+DR   GO; GO:0051957; P:positive regulation of amino acid transport; ISO:RGD.
+DR   GO; GO:0060452; P:positive regulation of cardiac muscle contraction; ISO:RGD.
+DR   GO; GO:1903598; P:positive regulation of gap junction assembly; ISO:RGD.
+DR   GO; GO:1905737; P:positive regulation of L-proline import across plasma membrane; ISO:RGD.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   GO; GO:0046813; P:receptor-mediated virion attachment to host cell; ISO:RGD.
+DR   GO; GO:1903779; P:regulation of cardiac conduction; ISO:RGD.
+DR   GO; GO:0003081; P:regulation of systemic arterial blood pressure by renin-angiotensin; ISO:RGD.
+DR   GO; GO:0046718; P:symbiont entry into host cell; ISO:RGD.
+DR   GO; GO:0015827; P:tryptophan transport; ISO:RGD.
+DR   CDD; cd06461; M2_ACE; 1.
+DR   Gene3D; 1.10.1370.30; -; 1.
+DR   InterPro; IPR031588; Collectrin_dom.
+DR   InterPro; IPR001548; Peptidase_M2.
+DR   PANTHER; PTHR10514; ANGIOTENSIN-CONVERTING ENZYME; 1.
+DR   PANTHER; PTHR10514:SF24; ANGIOTENSIN-CONVERTING ENZYME 2; 1.
+DR   Pfam; PF16959; Collectrin; 1.
+DR   Pfam; PF01401; Peptidase_M2; 1.
+DR   PRINTS; PR00791; PEPDIPTASEA.
+DR   SUPFAM; SSF55486; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   PROSITE; PS52010; COLLECTRIN_LIKE; 1.
+DR   PROSITE; PS52011; PEPTIDASE_M2; 1.
+DR   PROSITE; PS00678; WD_REPEATS_1; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carboxypeptidase; Cell membrane; Cell projection; Chloride;
+KW   Cytoplasm; Disulfide bond; Glycoprotein; Hydrolase; Isopeptide bond;
+KW   Membrane; Metal-binding; Metalloprotease; Phosphoprotein; Protease;
+KW   Reference proteome; Secreted; Signal; Transmembrane; Transmembrane helix;
+KW   Ubl conjugation; Zinc.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           18..805
+FT                   /note="Angiotensin-converting enzyme 2"
+FT                   /id="PRO_0000028574"
+FT   CHAIN           18..708
+FT                   /note="Processed angiotensin-converting enzyme 2"
+FT                   /id="PRO_0000292272"
+FT   TOPO_DOM        18..740
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        741..761
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01354"
+FT   TOPO_DOM        762..805
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          19..607
+FT                   /note="Peptidase M2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   DOMAIN          614..805
+FT                   /note="Collectrin-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01354"
+FT   REGION          652..659
+FT                   /note="Essential for cleavage by ADAM17"
+FT                   /evidence="ECO:0000250"
+FT   REGION          697..716
+FT                   /note="Essential for cleavage by TMPRSS11D and TMPRSS2"
+FT                   /evidence="ECO:0000250"
+FT   REGION          771..805
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           778..786
+FT                   /note="LIR"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYF1"
+FT   MOTIF           781..785
+FT                   /note="SH2-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYF1"
+FT   MOTIF           781..784
+FT                   /note="Endocytic sorting signal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYF1"
+FT   MOTIF           792..795
+FT                   /note="PTB"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYF1"
+FT   MOTIF           803..805
+FT                   /note="PDZ-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYF1"
+FT   COMPBIAS        790..805
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        375
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   ACT_SITE        505
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   BINDING         169
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   BINDING         273
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYF1"
+FT   BINDING         345..346
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYF1"
+FT   BINDING         374
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   BINDING         378
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   BINDING         402
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   BINDING         477
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   BINDING         481
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   BINDING         515
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYF1"
+FT   MOD_RES         781
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYF1"
+FT   MOD_RES         783
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYF1"
+FT   CARBOHYD        53
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        82
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        90
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        299
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        432
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        546
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        601
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        660
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        690
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        133..141
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   DISULFID        344..361
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   DISULFID        530..542
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01355"
+FT   CROSSLNK        788
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYF1"
+FT   HELIX           20..52
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           56..79
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           80..82
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   TURN            85..87
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           93..101
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           104..106
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           110..128
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   TURN            144..146
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           148..153
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           158..192
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   TURN            193..195
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           199..204
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           221..230
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   TURN            231..233
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           234..251
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   TURN            253..255
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           264..266
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   STRAND          267..272
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           276..278
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           279..282
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           294..300
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           304..317
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           327..330
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   STRAND          347..350
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   STRAND          352..354
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   STRAND          356..359
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           366..384
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           385..387
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           390..392
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           400..412
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           415..421
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   STRAND          422..424
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           432..446
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   TURN            447..449
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           450..464
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           473..483
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           500..502
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           504..508
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           514..531
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   TURN            532..534
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           539..541
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           548..558
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   TURN            559..562
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           566..573
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+FT   HELIX           582..598
+FT                   /evidence="ECO:0007829|PDB:8GRY"
+SQ   SEQUENCE   805 AA;  92491 MW;  A4079F2407960D28 CRC64;
+     MSSSCWLLLS LVAVATAQSL IEEKAESFLN KFNQEAEDLS YQSSLASWNY NTNITEENAQ
+     KMNEAAAKWS AFYEEQSKIA QNFSLQEIQN ATIKRQLKAL QQSGSSALSP DKNKQLNTIL
+     NTMSTIYSTG KVCNSMNPQE CFLLEPGLDE IMATSTDYNR RLWAWEGWRA EVGKQLRPLY
+     EEYVVLKNEM ARANNYEDYG DYWRGDYEAE GVEGYNYNRN QLIEDVENTF KEIKPLYEQL
+     HAYVRTKLME VYPSYISPTG CLPAHLLGDM WGRFWTNLYP LTTPFLQKPN IDVTDAMVNQ
+     SWDAERIFKE AEKFFVSVGL PQMTPGFWTN SMLTEPGDDR KVVCHPTAWD LGHGDFRIKM
+     CTKVTMDNFL TAHHEMGHIQ YDMAYAKQPF LLRNGANEGF HEAVGEIMSL SAATPKHLKS
+     IGLLPSNFQE DNETEINFLL KQALTIVGTL PFTYMLEKWR WMVFQDKIPR EQWTKKWWEM
+     KREIVGVVEP LPHDETYCDP ASLFHVSNDY SFIRYYTRTI YQFQFQEALC QAAKHDGPLH
+     KCDISNSTEA GQKLLNMLSL GNSGPWTLAL ENVVGSRNMD VKPLLNYFQP LFVWLKEQNR
+     NSTVGWSTDW SPYADQSIKV RISLKSALGK NAYEWTDNEM YLFRSSVAYA MREYFSREKN
+     QTVPFGEADV WVSDLKPRVS FNFFVTSPKN VSDIIPRSEV EEAIRMSRGR INDIFGLNDN
+     SLEFLGIYPT LKPPYEPPVT IWLIIFGVVM GTVVVGIVIL IVTGIKGRKK KNETKREENP
+     YDSMDIGKGE SNAGFQNSDD AQTSF
+//

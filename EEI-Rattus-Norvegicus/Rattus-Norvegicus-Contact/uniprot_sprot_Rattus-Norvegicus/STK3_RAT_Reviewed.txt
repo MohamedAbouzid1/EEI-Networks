@@ -1,0 +1,316 @@
+ID   STK3_RAT                Reviewed;         491 AA.
+AC   O54748;
+DT   25-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   24-JUL-2024, entry version 168.
+DE   RecName: Full=Serine/threonine-protein kinase 3;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Mammalian STE20-like protein kinase 2;
+DE            Short=MST-2;
+DE   AltName: Full=STE20-like kinase MST2;
+DE   Contains:
+DE     RecName: Full=Serine/threonine-protein kinase 3 36kDa subunit;
+DE              Short=MST2/N;
+DE   Contains:
+DE     RecName: Full=Serine/threonine-protein kinase 3 20kDa subunit;
+DE              Short=MST2/C;
+GN   Name=Stk3; Synonyms=Mst2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND FUNCTION.
+RC   TISSUE=Thyroid;
+RX   PubMed=9430685; DOI=10.1074/jbc.273.3.1477;
+RA   Aurisicchio L., Dilauro R., Zannini M.;
+RT   "Identification of the thyroid transcription factor 1 as a target for rat
+RT   MST2 kinase.";
+RL   J. Biol. Chem. 273:1477-1482(1998).
+RN   [2]
+RP   ACTIVITY REGULATION, AND PHOSPHORYLATION AT THR-180.
+RX   PubMed=12554736; DOI=10.1074/jbc.m211085200;
+RA   Deng Y., Pang A., Wang J.H.;
+RT   "Regulation of mammalian STE20-like kinase 2 (MST2) by protein
+RT   phosphorylation/dephosphorylation and proteolysis.";
+RL   J. Biol. Chem. 278:11760-11767(2003).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-316, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Stress-activated, pro-apoptotic kinase which, following
+CC       caspase-cleavage, enters the nucleus and induces chromatin condensation
+CC       followed by internucleosomal DNA fragmentation. Key component of the
+CC       Hippo signaling pathway which plays a pivotal role in organ size
+CC       control and tumor suppression by restricting proliferation and
+CC       promoting apoptosis. The core of this pathway is composed of a kinase
+CC       cascade wherein STK3/MST2 and STK4/MST1, in complex with its regulatory
+CC       protein SAV1, phosphorylates and activates LATS1/2 in complex with its
+CC       regulatory protein MOB1, which in turn phosphorylates and inactivates
+CC       YAP1 oncoprotein and WWTR1/TAZ. Phosphorylation of YAP1 by LATS2
+CC       inhibits its translocation into the nucleus to regulate cellular genes
+CC       important for cell proliferation, cell death, and cell migration.
+CC       STK3/MST2 and STK4/MST1 are required to repress proliferation of mature
+CC       hepatocytes, to prevent activation of facultative adult liver stem
+CC       cells (oval cells), and to inhibit tumor formation (By similarity).
+CC       Phosphorylates NKX2-1. Phosphorylates NEK2 and plays a role in
+CC       centrosome disjunction by regulating the localization of NEK2 to
+CC       centrosomes, and its ability to phosphorylate CROCC and CEP250. In
+CC       conjunction with SAV1, activates the transcriptional activity of ESR1
+CC       through the modulation of its phosphorylation. Positively regulates
+CC       RAF1 activation via suppression of the inhibitory phosphorylation of
+CC       RAF1 on 'Ser-259'. Phosphorylates MOBKL1A and RASSF2. Phosphorylates
+CC       MOBKL1B on 'Thr-74'. Acts cooperatively with MOBKL1B to activate STK38
+CC       (By similarity). {ECO:0000250|UniProtKB:Q13188,
+CC       ECO:0000250|UniProtKB:Q9JI10, ECO:0000269|PubMed:9430685}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000250|UniProtKB:Q13188};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:17990;
+CC         Evidence={ECO:0000250|UniProtKB:Q13188};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1; Evidence={ECO:0000250|UniProtKB:Q13188};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46609;
+CC         Evidence={ECO:0000250|UniProtKB:Q13188};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q13188};
+CC   -!- ACTIVITY REGULATION: Inhibited by the C-terminal non-catalytic region.
+CC       Activated by caspase-cleavage. Full activation also requires
+CC       homodimerization and autophosphorylation of Thr-180, which are
+CC       inhibited by the proto-oncogene product RAF1. Activated by RASSF1 which
+CC       acts by preventing its dephosphorylation. When autophosphorylated at
+CC       Thr-180, recruits STRIPAK complex and promotes PP2A-mediated
+CC       dephosphorylation and inactivation of STK3.
+CC       {ECO:0000250|UniProtKB:Q13188}.
+CC   -!- SUBUNIT: Homodimer; mediated via the coiled-coil region. Interacts with
+CC       NORE1, which inhibits autoactivation (By similarity). Interacts with
+CC       and stabilizes SAV1. Interacts with RAF1, which prevents dimerization
+CC       and phosphorylation. Interacts with RASSF1. Interacts (via SARAH
+CC       domain) with isoform 1 of NEK2. Interacts with ESR1 only in the
+CC       presence of SAV1. Interacts with PKB/AKT1. Forms a tripartite complex
+CC       with MOBKL1B and STK38. Interacts with RASSF2 (via SARAH domain).
+CC       Interacts with DLG5 (via PDZ domain 3). Interacts with LATS1; this
+CC       interaction is inhibited in the presence of DLG5. Interacts with MARK3
+CC       in the presence of DLG5. Interacts with RASSF5; this interaction
+CC       inhibits STK3 autoactivation through heterodimerization. Interacts
+CC       (when phosphorylated) with SLMAP (via FHA domain); the interaction
+CC       associates STK3 with the STRIPAK complex (By similarity).
+CC       {ECO:0000250|UniProtKB:Q13043, ECO:0000250|UniProtKB:Q13188}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q13188}. Nucleus
+CC       {ECO:0000250|UniProtKB:Q13188}. Note=The caspase-cleaved form cycles
+CC       between nucleus and cytoplasm (By similarity). Phosphorylation at Thr-
+CC       117 leads to inhibition of nuclear translocation (By similarity).
+CC       {ECO:0000250|UniProtKB:Q13188}.
+CC   -!- PTM: Autophosphorylated on two residues Thr-174 and Thr-180, leading to
+CC       activation. Phosphorylation at Thr-117 and Thr-384 by PKB/AKT1, leads
+CC       to inhibition of its: cleavage, kinase activity, autophosphorylation at
+CC       Thr-180, binding to RASSF1 and nuclear translocation, and increase in
+CC       its binding to RAF1. Phosphorylated at Ser-15 by PLK1, leading to
+CC       activation. {ECO:0000250|UniProtKB:Q13188}.
+CC   -!- PTM: Proteolytically cleaved by caspase-3 during apoptosis. Proteolytic
+CC       cleavage results in kinase activation and nuclear translocation of the
+CC       truncated form (MST1/N) (By similarity).
+CC       {ECO:0000250|UniProtKB:Q13188}.
+CC   -!- PTM: Ubiquitinated by TRIM69; leading to its redistribution to the
+CC       perinuclear cytoskeleton. {ECO:0000250|UniProtKB:Q13188}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. STE20 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ001529; CAA04814.1; -; mRNA.
+DR   RefSeq; NP_113923.1; NM_031735.1.
+DR   AlphaFoldDB; O54748; -.
+DR   SMR; O54748; -.
+DR   IntAct; O54748; 1.
+DR   MINT; O54748; -.
+DR   STRING; 10116.ENSRNOP00000062778; -.
+DR   ChEMBL; CHEMBL5169099; -.
+DR   iPTMnet; O54748; -.
+DR   PhosphoSitePlus; O54748; -.
+DR   PaxDb; 10116-ENSRNOP00000062778; -.
+DR   GeneID; 65189; -.
+DR   KEGG; rno:65189; -.
+DR   UCSC; RGD:68412; rat.
+DR   AGR; RGD:68412; -.
+DR   CTD; 6788; -.
+DR   RGD; 68412; Stk3.
+DR   eggNOG; KOG0574; Eukaryota.
+DR   InParanoid; O54748; -.
+DR   OrthoDB; 152877at2759; -.
+DR   PhylomeDB; O54748; -.
+DR   Reactome; R-RNO-2028269; Signaling by Hippo.
+DR   PRO; PR:O54748; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005813; C:centrosome; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0000287; F:magnesium ion binding; ISO:RGD.
+DR   GO; GO:0004672; F:protein kinase activity; ISS:UniProtKB.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; ISS:UniProtKB.
+DR   GO; GO:0006915; P:apoptotic process; ISO:RGD.
+DR   GO; GO:0060070; P:canonical Wnt signaling pathway; ISO:RGD.
+DR   GO; GO:0060706; P:cell differentiation involved in embryonic placenta development; ISO:RGD.
+DR   GO; GO:0008283; P:cell population proliferation; ISO:RGD.
+DR   GO; GO:0007417; P:central nervous system development; ISO:RGD.
+DR   GO; GO:0003157; P:endocardium development; ISO:RGD.
+DR   GO; GO:0050673; P:epithelial cell proliferation; ISO:RGD.
+DR   GO; GO:0008625; P:extrinsic apoptotic signaling pathway via death domain receptors; ISO:RGD.
+DR   GO; GO:0097284; P:hepatocyte apoptotic process; ISO:RGD.
+DR   GO; GO:0035329; P:hippo signaling; ISS:UniProtKB.
+DR   GO; GO:0035556; P:intracellular signal transduction; ISO:RGD.
+DR   GO; GO:0007254; P:JNK cascade; ISO:RGD.
+DR   GO; GO:0090090; P:negative regulation of canonical Wnt signaling pathway; ISO:RGD.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0050680; P:negative regulation of epithelial cell proliferation; ISO:RGD.
+DR   GO; GO:0046621; P:negative regulation of organ growth; ISO:RGD.
+DR   GO; GO:0001841; P:neural tube formation; ISO:RGD.
+DR   GO; GO:0035265; P:organ growth; ISO:RGD.
+DR   GO; GO:0043491; P:phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISO:RGD.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:1902043; P:positive regulation of extrinsic apoptotic signaling pathway via death domain receptors; ISO:RGD.
+DR   GO; GO:0045600; P:positive regulation of fat cell differentiation; ISO:RGD.
+DR   GO; GO:0046330; P:positive regulation of JNK cascade; ISO:RGD.
+DR   GO; GO:0051897; P:positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISO:RGD.
+DR   GO; GO:0060215; P:primitive hemopoiesis; ISO:RGD.
+DR   GO; GO:0006606; P:protein import into nucleus; ISO:RGD.
+DR   GO; GO:0071539; P:protein localization to centrosome; ISO:RGD.
+DR   GO; GO:0050821; P:protein stabilization; ISO:RGD.
+DR   GO; GO:0051262; P:protein tetramerization; IEA:InterPro.
+DR   GO; GO:0060800; P:regulation of cell differentiation involved in embryonic placenta development; ISO:RGD.
+DR   GO; GO:0043408; P:regulation of MAPK cascade; IBA:GO_Central.
+DR   CDD; cd21888; SARAH_MST2; 1.
+DR   CDD; cd06612; STKc_MST1_2; 1.
+DR   Gene3D; 1.10.287.4270; -; 1.
+DR   Gene3D; 4.10.170.10; p53-like tetramerisation domain; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR024205; Mst1_2_SARAH_domain.
+DR   InterPro; IPR049568; Mst2_SARAH.
+DR   InterPro; IPR036674; p53_tetramer_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR011524; SARAH_dom.
+DR   InterPro; IPR050285; STE20_Ser/Thr_kinase.
+DR   PANTHER; PTHR48015; SERINE/THREONINE-PROTEIN KINASE TAO; 1.
+DR   PANTHER; PTHR48015:SF23; SERINE_THREONINE-PROTEIN KINASE 3; 1.
+DR   Pfam; PF11629; Mst1_SARAH; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS50951; SARAH; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Apoptosis; ATP-binding; Coiled coil; Cytoplasm; Kinase;
+KW   Magnesium; Metal-binding; Nucleotide-binding; Nucleus; Phosphoprotein;
+KW   Reference proteome; Serine/threonine-protein kinase; Transferase;
+KW   Ubl conjugation.
+FT   CHAIN           1..491
+FT                   /note="Serine/threonine-protein kinase 3"
+FT                   /id="PRO_0000247764"
+FT   CHAIN           1..322
+FT                   /note="Serine/threonine-protein kinase 3 36kDa subunit"
+FT                   /id="PRO_0000413717"
+FT   CHAIN           323..491
+FT                   /note="Serine/threonine-protein kinase 3 20kDa subunit"
+FT                   /id="PRO_0000413718"
+FT   DOMAIN          27..278
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   DOMAIN          437..484
+FT                   /note="SARAH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00310"
+FT   REGION          301..343
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          370..392
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          291..324
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        327..343
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        146
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         33..41
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         56
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         151
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13188"
+FT   BINDING         164
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13188"
+FT   SITE            322..323
+FT                   /note="Cleavage; by caspase-3"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13188"
+FT   MOD_RES         15
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13188"
+FT   MOD_RES         117
+FT                   /note="Phosphothreonine; by PKB/AKT1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13188"
+FT   MOD_RES         180
+FT                   /note="Phosphothreonine; by autocatalysis"
+FT                   /evidence="ECO:0000269|PubMed:12554736"
+FT   MOD_RES         316
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         336
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13188"
+FT   MOD_RES         378
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13188"
+FT   MOD_RES         384
+FT                   /note="Phosphothreonine; by PKB/AKT1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13188"
+FT   MOD_RES         385
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13188"
+FT   MOD_RES         444
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13188"
+SQ   SEQUENCE   491 AA;  56122 MW;  90FA6B020E7FFD62 CRC64;
+     MEQPPAPKSK LKKLSEDSLT KQPEEVFDVL EKLGEGSYGS VFKAIHKESG QVVAIKQVPV
+     ESDVQEIIKE ISIMQQCDSP YVVKYYGSYF KNTDLWIVME YCGAGSVSDI IRLRNKTLTE
+     DEIATILKST LKGLEYLHFM RKIHRDIKAG NILLNTEGHA KLADFGVAGQ LTDTMAKRNT
+     VIGTPFWMAP EVIQEIGYNC VADIWSLGIT SIEMAEGKPP YADIHPMRAI FMIPTNPPPT
+     FRKPELWSDD FTDFVKKCLV KSPEQRATAT QLLQHPFIKN AKPVSILREL ITEGMEIKAK
+     RHEEQQRELE DEEENSDEDE LDSHTMVKTS SEGVGTMRAT STMSEGAQTM IEHNSTMLES
+     DLGTMVINSE DEEEEDGTMK RNATSPQVQR PSFMDYFDKQ DFKNKSHENC DQSMREPCPM
+     SNNVFPDNWR VPQDGDFDFL KNLSLEELQM RLKALDPMME REIEELHQRY SAKRQPILDA
+     MDAKKRRQQN F
+//

@@ -1,0 +1,305 @@
+ID   AMPN_RAT                Reviewed;         965 AA.
+AC   P15684; Q9JHP4;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   24-JUL-2024, entry version 183.
+DE   RecName: Full=Aminopeptidase N {ECO:0000305};
+DE            Short=AP-N;
+DE            Short=rAPN;
+DE            EC=3.4.11.2 {ECO:0000250|UniProtKB:P15144};
+DE   AltName: Full=Alanyl aminopeptidase;
+DE   AltName: Full=Aminopeptidase M;
+DE            Short=AP-M;
+DE   AltName: Full=Kidney Zn peptidase;
+DE            Short=KZP;
+DE   AltName: Full=Microsomal aminopeptidase;
+DE   AltName: CD_antigen=CD13;
+GN   Name=Anpep;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Kidney;
+RX   PubMed=2564389; DOI=10.1016/s0021-9258(18)83570-0;
+RA   Watt V.M., Yip C.C.;
+RT   "Amino acid sequence deduced from a rat kidney cDNA suggests it encodes the
+RT   Zn-peptidase aminopeptidase N.";
+RL   J. Biol. Chem. 264:5480-5487(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=2567164; DOI=10.1016/0006-291x(89)91586-6;
+RA   Malfroy B., Kado-Fong H., Gros C., Giros B., Schwartz J.C., Hellmiss R.;
+RT   "Molecular cloning and amino acid sequence of rat kidney aminopeptidase M:
+RT   a member of a super family of zinc-metallohydrolases.";
+RL   Biochem. Biophys. Res. Commun. 161:236-241(1989).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 198-754.
+RA   Gal-Gaber O.;
+RL   Submitted (JUN-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   PROTEIN SEQUENCE OF 2-19; 68-84; 206-215; 286-299 AND 364-371.
+RX   PubMed=1673322; DOI=10.1152/ajplung.1991.260.4.l274;
+RA   Funkhouser J.D., Tangada S.D., Jones M., O S.J., Peterson R.D.;
+RT   "p146 type II alveolar epithelial cell antigen is identical to
+RT   aminopeptidase N.";
+RL   Am. J. Physiol. 260:L274-L279(1991).
+RN   [5]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=11672613; DOI=10.1016/s0306-4522(01)00185-3;
+RA   Noble F., Banisadr G., Jardinaud F., Popovici T., Lai-Kuen R., Chen H.,
+RA   Bischoff L., Parsadaniantz S.M., Fournie-Zaluski M.-C., Roques B.P.;
+RT   "First discrete autoradiographic distribution of aminopeptidase N in
+RT   various structures of rat brain and spinal cord using the selective
+RT   iodinated inhibitor 125IRB 129.";
+RL   Neuroscience 105:479-488(2001).
+CC   -!- FUNCTION: Broad specificity aminopeptidase which plays a role in the
+CC       final digestion of peptides generated from hydrolysis of proteins by
+CC       gastric and pancreatic proteases. Also involved in the processing of
+CC       various peptides including peptide hormones, such as angiotensin III
+CC       and IV, neuropeptides, and chemokines. May also be involved the
+CC       cleavage of peptides bound to major histocompatibility complex class II
+CC       molecules of antigen presenting cells. May have a role in angiogenesis
+CC       and promote cholesterol crystallization. May have a role in amino acid
+CC       transport by acting as binding partner of amino acid transporter
+CC       SLC6A19 and regulating its activity (By similarity).
+CC       {ECO:0000250|UniProtKB:P15144, ECO:0000250|UniProtKB:P97449}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of an N-terminal amino acid, Xaa-|-Yaa- from a
+CC         peptide, amide or arylamide. Xaa is preferably Ala, but may be most
+CC         amino acids including Pro (slow action). When a terminal hydrophobic
+CC         residue is followed by a prolyl residue, the two may be released as
+CC         an intact Xaa-Pro dipeptide.; EC=3.4.11.2;
+CC         Evidence={ECO:0000250|UniProtKB:P15144};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P15144};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P15144};
+CC   -!- SUBUNIT: Homodimer. Interacts with SLC6A19 (By similarity).
+CC       {ECO:0000250|UniProtKB:P15144, ECO:0000250|UniProtKB:P97449}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:2564389};
+CC       Single-pass type II membrane protein {ECO:0000250|UniProtKB:P15144}.
+CC       Note=Also found as a soluble form. {ECO:0000250|UniProtKB:P15144}.
+CC   -!- TISSUE SPECIFICITY: Widely distributed throughout the CNS. Particularly
+CC       abundant in kidney and intestinal microvilli, also detected in lung and
+CC       liver. Weakly expressed in heart and aorta.
+CC       {ECO:0000269|PubMed:11672613, ECO:0000269|PubMed:2564389}.
+CC   -!- PTM: Sulfated. {ECO:0000250|UniProtKB:P15145}.
+CC   -!- PTM: N- and O-glycosylated. {ECO:0000250|UniProtKB:P15144}.
+CC   -!- PTM: May undergo proteolysis and give rise to a soluble form.
+CC       {ECO:0000250|UniProtKB:P15144}.
+CC   -!- SIMILARITY: Belongs to the peptidase M1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M25073; AAA41502.1; -; mRNA.
+DR   EMBL; M26710; AAA57129.1; -; mRNA.
+DR   EMBL; Y18765; CAB93958.1; -; mRNA.
+DR   PIR; A32852; A32852.
+DR   RefSeq; NP_112274.1; NM_031012.1.
+DR   AlphaFoldDB; P15684; -.
+DR   SMR; P15684; -.
+DR   BioGRID; 249541; 3.
+DR   IntAct; P15684; 1.
+DR   STRING; 10116.ENSRNOP00000069456; -.
+DR   BindingDB; P15684; -.
+DR   ChEMBL; CHEMBL3259; -.
+DR   DrugCentral; P15684; -.
+DR   MEROPS; M01.001; -.
+DR   GlyCosmos; P15684; 9 sites, No reported glycans.
+DR   GlyGen; P15684; 9 sites.
+DR   iPTMnet; P15684; -.
+DR   PhosphoSitePlus; P15684; -.
+DR   PaxDb; 10116-ENSRNOP00000020002; -.
+DR   Ensembl; ENSRNOT00055014005; ENSRNOP00055011228; ENSRNOG00055008286.
+DR   Ensembl; ENSRNOT00060006973; ENSRNOP00060005262; ENSRNOG00060004176.
+DR   Ensembl; ENSRNOT00065052113; ENSRNOP00065042891; ENSRNOG00065030192.
+DR   GeneID; 81641; -.
+DR   KEGG; rno:81641; -.
+DR   UCSC; RGD:2991; rat.
+DR   AGR; RGD:2991; -.
+DR   CTD; 290; -.
+DR   RGD; 2991; Anpep.
+DR   eggNOG; KOG1046; Eukaryota.
+DR   InParanoid; P15684; -.
+DR   OrthoDB; 3085317at2759; -.
+DR   PhylomeDB; P15684; -.
+DR   BioCyc; MetaCyc:MONOMER-9982; -.
+DR   BRENDA; 3.4.11.2; 5301.
+DR   BRENDA; 3.4.11.7; 5301.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   SABIO-RK; P15684; -.
+DR   PRO; PR:P15684; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0031526; C:brush border membrane; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005793; C:endoplasmic reticulum-Golgi intermediate compartment; ISO:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISO:RGD.
+DR   GO; GO:0070062; C:extracellular exosome; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0004177; F:aminopeptidase activity; IDA:RGD.
+DR   GO; GO:0070006; F:metalloaminopeptidase activity; IBA:GO_Central.
+DR   GO; GO:0042277; F:peptide binding; IDA:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; IBA:GO_Central.
+DR   GO; GO:0001525; P:angiogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0030154; P:cell differentiation; IEA:UniProtKB-KW.
+DR   GO; GO:0072237; P:metanephric proximal tubule development; IEP:RGD.
+DR   GO; GO:0043171; P:peptide catabolic process; IMP:RGD.
+DR   GO; GO:0016485; P:protein processing; IDA:RGD.
+DR   GO; GO:0006508; P:proteolysis; IBA:GO_Central.
+DR   CDD; cd09601; M1_APN-Q_like; 1.
+DR   Gene3D; 1.25.50.20; -; 1.
+DR   Gene3D; 2.60.40.1910; -; 1.
+DR   Gene3D; 1.10.390.10; Neutral Protease Domain 2; 1.
+DR   Gene3D; 2.60.40.1730; tricorn interacting facor f3 domain; 1.
+DR   InterPro; IPR045357; Aminopeptidase_N-like_N.
+DR   InterPro; IPR042097; Aminopeptidase_N-like_N_sf.
+DR   InterPro; IPR024571; ERAP1-like_C_dom.
+DR   InterPro; IPR034016; M1_APN-typ.
+DR   InterPro; IPR001930; Peptidase_M1.
+DR   InterPro; IPR050344; Peptidase_M1_aminopeptidases.
+DR   InterPro; IPR014782; Peptidase_M1_dom.
+DR   InterPro; IPR027268; Peptidase_M4/M1_CTD_sf.
+DR   PANTHER; PTHR11533:SF172; AMINOPEPTIDASE N; 1.
+DR   PANTHER; PTHR11533; PROTEASE M1 ZINC METALLOPROTEASE; 1.
+DR   Pfam; PF11838; ERAP1_C; 1.
+DR   Pfam; PF01433; Peptidase_M1; 1.
+DR   Pfam; PF17900; Peptidase_M1_N; 1.
+DR   PRINTS; PR00756; ALADIPTASE.
+DR   SUPFAM; SSF63737; Leukotriene A4 hydrolase N-terminal domain; 1.
+DR   SUPFAM; SSF55486; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   1: Evidence at protein level;
+KW   Aminopeptidase; Angiogenesis; Cell membrane; Developmental protein;
+KW   Differentiation; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Hydrolase; Membrane; Metal-binding; Metalloprotease; Phosphoprotein;
+KW   Protease; Reference proteome; Signal-anchor; Sulfation; Transmembrane;
+KW   Transmembrane helix; Zinc.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:1673322"
+FT   CHAIN           2..965
+FT                   /note="Aminopeptidase N"
+FT                   /id="PRO_0000095085"
+FT   TOPO_DOM        2..8
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P15144"
+FT   TRANSMEM        9..32
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        33..965
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:P15144"
+FT   REGION          33..68
+FT                   /note="Cytosolic Ser/Thr-rich junction"
+FT   REGION          44..68
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          69..965
+FT                   /note="Metalloprotease"
+FT   ACT_SITE        388
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         351..355
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P15144"
+FT   BINDING         387
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         391
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         410
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   SITE            476
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P15144"
+FT   MOD_RES         176
+FT                   /note="Sulfotyrosine"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         852
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P97449"
+FT   CARBOHYD        114
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        128
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        234
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        242
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        264
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        555
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        606
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        624
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        780
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        760..767
+FT                   /evidence="ECO:0000250|UniProtKB:P15144"
+FT   DISULFID        797..833
+FT                   /evidence="ECO:0000250|UniProtKB:P15144"
+FT   CONFLICT        558
+FT                   /note="T -> A (in Ref. 3; CAB93958)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        582
+FT                   /note="Y -> L (in Ref. 3; CAB93958)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        590..598
+FT                   /note="YLKNGKEDH -> VSQKWKGGS (in Ref. 3; CAB93958)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        802..804
+FT                   /note="FGG -> SC (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        807
+FT                   /note="E -> A (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        813..818
+FT                   /note="EQFRKA -> ATVPER (in Ref. 2; AAA57129)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        831..833
+FT                   /note="LAC -> VGR (in Ref. 2; AAA57129)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   965 AA;  109449 MW;  03A9A14AEFCCE31C CRC64;
+     MAKGFYISKT LGILGILLGV AAVCTIIALS VVYAQEKNRN AENSAIAPTL PGSTSATTST
+     TNPAIDESKP WNQYRLPKTL IPDSYQVTLR PYLTPNEQGL YIFKGSSTVR FTCNETTNVI
+     IIHSKKLNYT NKGNHRVALR ALGDTPAPNI DTTELVERTE YLVVHLQGSL VKGHQYEMDS
+     EFQGELADDL AGFYRSEYME GGNKKVVATT QMQAADARKS FPCFDEPAMK ASFNITLIHP
+     NNLTALSNML PKDSRTLQED PSWNVTEFHP TPKMSTYLLA YIVSEFKYVE AVSPNRVQIR
+     IWARPSAIDE GHGDYALQVT GPILNFFAQH YNTAYPLEKS DQIALPDFNA GAMENWGLVT
+     YRESALVFDP QSSSISNKER VVTVIAHELA HQWFGNLVTV DWWNDLWLNE GFASYVEFLG
+     ADYAEPTWNL KDLIVLNDVY RVMAVDALAS SHPLSSPANE VNTPAQISEL FDSITYSKGA
+     SVLRMLSSFL TEDLFKKGLS SYLHTFQYSN TIYLDLWEHL QQAVDSQTAI KLPASVSTIM
+     DRWILQMGFP VITVNTSTGE IYQEHFLLDP TSKPTRPSDF NYLWIVPIPY LKNGKEDHYW
+     LETEKNQSAE FQTSSNEWLL LNINVTGYYQ VNYDENNWRK IQNQLQTDLS VIPVINRAQI
+     IHDSFNLASA GKLSITLPLS NTLFLASETE YMPWEAALSS LNYFKLMFDR SEVYGPMKRY
+     LKKQVTPLFA YFKIKTNNWL DRPPTLMEQY NEINAISTAC SSGLEECRDL VVGLYSQWMN
+     NSDNNPIHPN LRSTVYCNAI AFGGEEEWNF AWEQFRKATL VNEADKLRSA LACSNEVWIL
+     NRYLSYTLNP DYIRKQDATS TIVSIANNVV GQTLVWDFVR SNWKKLFEDY GGGSFSFANL
+     IQGVTRRFSS EFELQQLEQF KEDNSATGFG SGTRALEQAL EKTKANIKWV KENKDVVLKW
+     FTENS
+//

@@ -1,0 +1,304 @@
+ID   UN13C_RAT               Reviewed;        2204 AA.
+AC   Q62770;
+DT   16-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   16-AUG-2004, sequence version 3.
+DT   24-JUL-2024, entry version 158.
+DE   RecName: Full=Protein unc-13 homolog C;
+DE   AltName: Full=Munc13-3;
+GN   Name=Unc13c; Synonyms=Unc13h3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RA   Telemenakis I., Brose N., Suedhof T.C.;
+RL   Submitted (OCT-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 942-1634, AND TISSUE SPECIFICITY.
+RC   TISSUE=Brain;
+RX   PubMed=7559667; DOI=10.1074/jbc.270.42.25273;
+RA   Brose N., Hofmann K., Hata Y., Suedhof T.C.;
+RT   "Mammalian homologues of Caenorhabditis elegans unc-13 gene define novel
+RT   family of C2-domain proteins.";
+RL   J. Biol. Chem. 270:25273-25280(1995).
+RN   [3]
+RP   SUBCELLULAR LOCATION, TISSUE SPECIFICITY, DEVELOPMENTAL STAGE, AND
+RP   INTERACTION WITH SYNTAXIN 1; VAMP2 AND SNAP25.
+RX   PubMed=9895278; DOI=10.1042/bj3370363;
+RA   Augustin I., Betz A., Herrmann C., Jo T., Brose N.;
+RT   "Differential expression of two novel Munc13 proteins in rat brain.";
+RL   Biochem. J. 337:363-371(1999).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-89; SER-446; SER-450 AND
+RP   SER-778, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: May play a role in vesicle maturation during exocytosis as a
+CC       target of the diacylglycerol second messenger pathway. May be involved
+CC       in the regulation of synaptic transmission at parallel fiber - Purkinje
+CC       cell synapses (By similarity). {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00041};
+CC   -!- SUBUNIT: Interacts with STX1A and/or STX1B1, VAMP2 and SNAP25.
+CC       {ECO:0000269|PubMed:9895278}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305|PubMed:9895278}. Membrane
+CC       {ECO:0000305|PubMed:9895278}; Peripheral membrane protein
+CC       {ECO:0000305|PubMed:9895278}. Presynaptic cell membrane
+CC       {ECO:0000305|PubMed:9895278}; Peripheral membrane protein
+CC       {ECO:0000305|PubMed:9895278}. Note=Localized to presynaptic structures.
+CC       {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Exclusively expressed in brain, predominantly in
+CC       the cerebellum. {ECO:0000269|PubMed:7559667,
+CC       ECO:0000269|PubMed:9895278}.
+CC   -!- DEVELOPMENTAL STAGE: First detected at birth, after which expression
+CC       level is steadily increasing until it reaches a plateau at P15.
+CC       {ECO:0000269|PubMed:9895278}.
+CC   -!- DOMAIN: The C2 domains are not involved in calcium-dependent
+CC       phospholipid binding.
+CC   -!- SIMILARITY: Belongs to the unc-13 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAB39720.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U75361; AAB39720.1; ALT_INIT; mRNA.
+DR   PIR; T42759; T42759.
+DR   RefSeq; NP_775169.4; NM_173146.2.
+DR   AlphaFoldDB; Q62770; -.
+DR   SMR; Q62770; -.
+DR   STRING; 10116.ENSRNOP00000075433; -.
+DR   iPTMnet; Q62770; -.
+DR   PhosphoSitePlus; Q62770; -.
+DR   PaxDb; 10116-ENSRNOP00000010330; -.
+DR   GeneID; 286931; -.
+DR   KEGG; rno:286931; -.
+DR   UCSC; RGD:628592; rat.
+DR   AGR; RGD:628592; -.
+DR   CTD; 440279; -.
+DR   RGD; 628592; Unc13c.
+DR   eggNOG; KOG1011; Eukaryota.
+DR   InParanoid; Q62770; -.
+DR   OrthoDB; 5395569at2759; -.
+DR   PhylomeDB; Q62770; -.
+DR   PRO; PR:Q62770; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0044305; C:calyx of Held; ISO:RGD.
+DR   GO; GO:0031594; C:neuromuscular junction; IBA:GO_Central.
+DR   GO; GO:0098688; C:parallel fiber to Purkinje cell synapse; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0098793; C:presynapse; ISO:RGD.
+DR   GO; GO:0098831; C:presynaptic active zone cytoplasmic component; IBA:GO_Central.
+DR   GO; GO:0042734; C:presynaptic membrane; IBA:GO_Central.
+DR   GO; GO:0030672; C:synaptic vesicle membrane; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0043195; C:terminal bouton; IBA:GO_Central.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0005516; F:calmodulin binding; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0019992; F:diacylglycerol binding; IEA:InterPro.
+DR   GO; GO:0005543; F:phospholipid binding; IEA:InterPro.
+DR   GO; GO:0019905; F:syntaxin binding; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0017075; F:syntaxin-1 binding; IDA:ParkinsonsUK-UCL.
+DR   GO; GO:0007268; P:chemical synaptic transmission; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:0061789; P:dense core granule priming; IBA:GO_Central.
+DR   GO; GO:0031914; P:negative regulation of synaptic plasticity; ISO:RGD.
+DR   GO; GO:0099525; P:presynaptic dense core vesicle exocytosis; IBA:GO_Central.
+DR   GO; GO:0046928; P:regulation of neurotransmitter secretion; TAS:RGD.
+DR   GO; GO:0035249; P:synaptic transmission, glutamatergic; IBA:GO_Central.
+DR   GO; GO:0016081; P:synaptic vesicle docking; IBA:GO_Central.
+DR   GO; GO:0016079; P:synaptic vesicle exocytosis; ISO:RGD.
+DR   GO; GO:0016082; P:synaptic vesicle priming; IMP:ParkinsonsUK-UCL.
+DR   CDD; cd20859; C1_Munc13-2-like; 1.
+DR   CDD; cd04027; C2B_Munc13; 1.
+DR   CDD; cd08395; C2C_Munc13; 1.
+DR   Gene3D; 1.10.357.50; -; 1.
+DR   Gene3D; 1.20.58.1100; -; 1.
+DR   Gene3D; 3.30.60.20; -; 1.
+DR   Gene3D; 2.60.40.150; C2 domain; 2.
+DR   Gene3D; 3.30.70.1820; L1 transposable element, RRM domain; 1.
+DR   InterPro; IPR046349; C1-like_sf.
+DR   InterPro; IPR000008; C2_dom.
+DR   InterPro; IPR035892; C2_domain_sf.
+DR   InterPro; IPR010439; MUN_dom.
+DR   InterPro; IPR014770; Munc13_1.
+DR   InterPro; IPR014772; Munc13_dom-2.
+DR   InterPro; IPR002219; PE/DAG-bd.
+DR   InterPro; IPR027080; Unc-13.
+DR   InterPro; IPR037302; Unc-13_C2B.
+DR   PANTHER; PTHR10480; PROTEIN UNC-13 HOMOLOG; 1.
+DR   PANTHER; PTHR10480:SF2; PROTEIN UNC-13 HOMOLOG C; 1.
+DR   Pfam; PF00130; C1_1; 1.
+DR   Pfam; PF00168; C2; 2.
+DR   Pfam; PF06292; MUN; 1.
+DR   PRINTS; PR00360; C2DOMAIN.
+DR   SMART; SM00109; C1; 1.
+DR   SMART; SM00239; C2; 2.
+DR   SMART; SM01145; DUF1041; 1.
+DR   SUPFAM; SSF49562; C2 domain (Calcium/lipid-binding domain, CaLB); 2.
+DR   SUPFAM; SSF57889; Cysteine-rich domain; 1.
+DR   PROSITE; PS50004; C2; 2.
+DR   PROSITE; PS51258; MHD1; 1.
+DR   PROSITE; PS51259; MHD2; 1.
+DR   PROSITE; PS00479; ZF_DAG_PE_1; 1.
+DR   PROSITE; PS50081; ZF_DAG_PE_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Cell membrane; Cell projection; Coiled coil; Cytoplasm;
+KW   Exocytosis; Membrane; Metal-binding; Methylation; Phosphoprotein;
+KW   Reference proteome; Repeat; Synapse; Zinc; Zinc-finger.
+FT   CHAIN           1..2204
+FT                   /note="Protein unc-13 homolog C"
+FT                   /id="PRO_0000188580"
+FT   DOMAIN          1193..1317
+FT                   /note="C2 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   DOMAIN          1627..1770
+FT                   /note="MHD1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00587"
+FT   DOMAIN          1876..2018
+FT                   /note="MHD2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00588"
+FT   DOMAIN          2032..2159
+FT                   /note="C2 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   ZN_FING         1087..1137
+FT                   /note="Phorbol-ester/DAG-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00226"
+FT   REGION          28..55
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          128..169
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          419..515
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          586..635
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          647..770
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          961..984
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        128..166
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        445..459
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        460..502
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        593..635
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        654..679
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        680..699
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        705..770
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         1226
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         1226
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         1232
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         1278
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         1278
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         1280
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         1280
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         1297
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   MOD_RES         89
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         446
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         450
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         778
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1017
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K0T7"
+SQ   SEQUENCE   2204 AA;  249136 MW;  13F1C251FA28E00E CRC64;
+     MVASLFKSLI LAYIHKLCKG MFTKKLGNTT KKKENRQQNK DQDFPTAGHT KPPKLSNALK
+     STVKKIAKCS STRNFSVEDE EGHKDFSLSP TFSYRVAIAN GLQTAVTNSD EDLLQELSSI
+     ESSYSESFNE LRSSTENQVQ STHTMPVRRN RKSSSSLAPS EGSSDGERTL HTLKLGALRK
+     LRKWKKSQEC VSSDSELSTV KKTWGIRSKS LDRTARNPKT NVLEPGFSSS GCISQTHDVM
+     EMIFKELQGI SQIETELSEL RGHVNALKYS IDEISSSVEV VQSEIEQLRT GFVQARRETR
+     DIHDYIKHLG HMGSKVSLRF LNVPEERHEY VESVVYQILV DKMGFSDVPN AIKIEFAQRI
+     GQQRDCPNAK PRPILVYFET PQQRDSVLKK SYKLKGTGIA ISTDILTYDI RERKEKGVLP
+     SSQTYESMDM KLSTPEPKAK KNAWLSPNDS DRELESDLSR SSYADSPAKG SSSKSSSKSH
+     SARSKNKAAN SRTSQKSDYN KRPSKPPASE KPTPHYVEAT PLWHSQSDFF TPKLSRSESD
+     FSKLCQSYSE DFSESQFFCR TNGSSLLSSS DRELWQRKQE GMTALYHSPQ DQGLDGNIPT
+     VPGQGEIENT ETVDSGMSNS VVCASGDRSN YSGSQLSLHE DLSPWKEWNQ AGHGTDGLDS
+     STQEPFDYDT NSLSDQQLDM SSKDLDDLGK CHSDLQDDSE SYDLTQDDNS SPCPGLDNEP
+     QGQWVGQYDS YQKTNSNDLY PNQSHPSMMY RSQSELQSDD SEAAQPKSWH SRLSIDLSDK
+     TFKFPKFGST LQRAKSALEV VWNKSTQSLS GCEDSGSSLM GRFRTLSQST ANESSTTLDS
+     DIYTEPYYYK AEEEEDYCEP VADSETDYVE VMEQVLAKLE NRTSVTEVDE HIKEYDHPSY
+     ETPYETPQDE GYDGQADDII SEGELETLNE PAVEMELVED ESQNLPVEPP EVMKPKRIRP
+     SFKEAALRAY KKQMAELEEK ILAGDSSSVD EKARIVSGND LDASKFSALQ VFGGAGRGLY
+     GIDSMPDLRR KKTLPIVRDV AMTLAARKSG LSLAMVIRTS LNNEELKMHV FRKTLQALIY
+     PISSTTPHNF EVWTATTPTY CYECEGLLWG IARQGMKCLE CGVKCHEKCQ DLLNADCLQR
+     AAEKSSKHGA EDKTQTIITA MKERMKIRER NRPEVFEVIQ EMFQISKEDF VQYTKAAKQS
+     VLDGTSKWSA KITITVVSAQ GLQAKDKTGS SDPYVTVQVG KNKRRTKTIF GNLNPVWDEK
+     FYFECHNSTD RIKVRVWDED DDIKSRVKQH FKKESDDFLG QTIVEVRTLS GEMDVWYNLE
+     KRTDKSAVSG AIRLKINVEI KGEEKVAPYH IQYTCLHENL FHYLTEVKSN GSVKIPEVKG
+     DEAWKVFFDD ASQEIVDEFA MRYGVESIYQ AMTHFSCLSS KYMCPGVPAV MSALLANINA
+     FYAHTTVSTN VQVSASDRFA ATNFGREKFI KLLDQLHNSL RIDLSKYREN FPASNSERLQ
+     DLKSTVDLLT SITFFRMKVL ELQSPPKASA VVKDCVRACL DSTYKYIFDN CHELYSQLID
+     PSKKQDVPRE EQGPTTKNLD FWPQLITLMV TIIDEDKTAY TPVLNQFPQE LNMGKISAEI
+     MWSLFALDMK YALEEHEKQR LCKSTDYMNL HFKVKWFYNE YVRELPAFKD AVPEYSLWFE
+     PFVMQWLDEN EDVSMEFLHG ALGRDKKDGF QQTSDHALFS CSVVDVFAQL NQSFEIIKKL
+     ECPNPEALSH LMRRFAKTIN KVLVQYAAIV SSDFSSYCDK ETVPCILMNN IQQLRVQLEK
+     MFESMGGKEL DPEASTILKE LQIKLNGVLD ALSVTYGESF QLVIEECIKQ MGAELNQMRA
+     NGNSAANKNN AAMDAEIVLR PLMDFLDKIL SLSAKICEKT VLKRVLKELW KLVLNKIEKQ
+     IVLPPLTDQT GPQMIFIAAK ELGQLSKLKE HMIRDDAKGL TPRQCAIMEV VLATIKQYFH
+     AGGNGLKKNF LEKSPDLHSL RYALSLYTQT TDALIKKFIE TQGSQSRSSK DAVGQISVHV
+     DVTTTPGTGE HKVTVKVIAI NDLNWQTTTM FRPFVEVCML GPSLGDKKRK QGTKTKSNTW
+     SPKYNETFQF ILGNENRPGA YELHLSVKDY CFAREDRIIG MTVIQLQNIA EKGSYGAWYP
+     LLKNLSMDET GLTILRILSQ RTSDDVAKEF VRLKSETRSI DESA
+//

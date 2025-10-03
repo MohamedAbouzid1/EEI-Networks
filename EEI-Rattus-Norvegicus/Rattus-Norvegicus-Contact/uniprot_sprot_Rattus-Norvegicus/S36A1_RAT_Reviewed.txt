@@ -1,0 +1,277 @@
+ID   S36A1_RAT               Reviewed;         475 AA.
+AC   Q924A5;
+DT   16-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   02-OCT-2024, entry version 129.
+DE   RecName: Full=Proton-coupled amino acid transporter 1 {ECO:0000305|PubMed:11390972};
+DE            Short=Proton/amino acid transporter 1 {ECO:0000305|PubMed:11390972};
+DE   AltName: Full=Lysosomal amino acid transporter 1 {ECO:0000303|PubMed:11390972};
+DE            Short=LYAAT-1 {ECO:0000303|PubMed:11390972};
+DE   AltName: Full=Neutral amino acid/proton symporter;
+DE   AltName: Full=Solute carrier family 36 member 1 {ECO:0000312|RGD:619801};
+GN   Name=Slc36a1 {ECO:0000312|RGD:619801};
+GN   Synonyms=Lyaat1 {ECO:0000303|PubMed:11390972};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAK67316.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Sprague-Dawley {ECO:0000312|EMBL:AAK67316.1};
+RC   TISSUE=Hippocampus {ECO:0000269|PubMed:11390972};
+RX   PubMed=11390972; DOI=10.1073/pnas.121183498;
+RA   Sagne C., Agulhon C., Ravassard P., Darmon M., Hamon M., El Mestikawy S.,
+RA   Gasnier B., Giros B.;
+RT   "Identification and characterization of a lysosomal transporter for small
+RT   neutral amino acids.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:7206-7211(2001).
+RN   [2] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY, SUBCELLULAR
+RP   LOCATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Brain {ECO:0000269|PubMed:12598615};
+RX   PubMed=12598615; DOI=10.1523/jneurosci.23-04-01265.2003;
+RA   Wreden C.C., Johnson J., Tran C., Seal R.P., Copenhagen D.R., Reimer R.J.,
+RA   Edwards R.H.;
+RT   "The H+-coupled electrogenic lysosomal amino acid transporter LYAAT1
+RT   localizes to the axon and plasma membrane of hippocampal neurons.";
+RL   J. Neurosci. 23:1265-1275(2003).
+CC   -!- FUNCTION: Electrogenic proton/amino acid symporter with selectivity for
+CC       small apolar L-amino acids, their D-enantiomers and selected amino acid
+CC       derivatives such as 4-aminobutanoate/GABA (PubMed:11390972,
+CC       PubMed:12598615). May be involved in the efflux from the lysosomal
+CC       compartment of neutral amino acids resulting from proteolysis
+CC       (PubMed:12598615). May play a role in specifying sites for exocytosis
+CC       in neurons (PubMed:12598615). {ECO:0000269|PubMed:11390972,
+CC       ECO:0000269|PubMed:12598615}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycine(in) + H(+)(in) = glycine(out) + H(+)(out);
+CC         Xref=Rhea:RHEA:28899, ChEBI:CHEBI:15378, ChEBI:CHEBI:57305;
+CC         Evidence={ECO:0000250|UniProtKB:Q8K4D3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-proline(out) = H(+)(in) + L-proline(in);
+CC         Xref=Rhea:RHEA:28963, ChEBI:CHEBI:15378, ChEBI:CHEBI:60039;
+CC         Evidence={ECO:0000269|PubMed:12598615};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-proline(out) + H(+)(out) = D-proline(in) + H(+)(in);
+CC         Xref=Rhea:RHEA:70643, ChEBI:CHEBI:15378, ChEBI:CHEBI:57726;
+CC         Evidence={ECO:0000269|PubMed:12598615};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(in) + L-alanine(in) = H(+)(out) + L-alanine(out);
+CC         Xref=Rhea:RHEA:29443, ChEBI:CHEBI:15378, ChEBI:CHEBI:57972;
+CC         Evidence={ECO:0000269|PubMed:12598615};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-alanine(in) + H(+)(in) = D-alanine(out) + H(+)(out);
+CC         Xref=Rhea:RHEA:28903, ChEBI:CHEBI:15378, ChEBI:CHEBI:57416;
+CC         Evidence={ECO:0000250|UniProtKB:Q8K4D3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(in) + L-serine(in) = H(+)(out) + L-serine(out);
+CC         Xref=Rhea:RHEA:28887, ChEBI:CHEBI:15378, ChEBI:CHEBI:33384;
+CC         Evidence={ECO:0000250|UniProtKB:Q8K4D3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-serine(out) + H(+)(out) = D-serine(in) + H(+)(in);
+CC         Xref=Rhea:RHEA:70647, ChEBI:CHEBI:15378, ChEBI:CHEBI:35247;
+CC         Evidence={ECO:0000250|UniProtKB:Q8K4D3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-aminobutanoate(in) + H(+)(in) = 4-aminobutanoate(out) +
+CC         H(+)(out); Xref=Rhea:RHEA:28915, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:59888; Evidence={ECO:0000269|PubMed:11390972,
+CC         ECO:0000269|PubMed:12598615};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=beta-alanine(in) + H(+)(in) = beta-alanine(out) + H(+)(out);
+CC         Xref=Rhea:RHEA:29459, ChEBI:CHEBI:15378, ChEBI:CHEBI:57966;
+CC         Evidence={ECO:0000250|UniProtKB:Q8K4D3};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=499 uM for 4-aminobutanoate {ECO:0000269|PubMed:11390972};
+CC         Vmax=2.5 pmol/min/ug enzyme with 4-aminobutanoate as substrate
+CC         {ECO:0000269|PubMed:11390972};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:12598615};
+CC       Multi-pass membrane protein {ECO:0000255}. Apical cell membrane
+CC       {ECO:0000250|UniProtKB:Q7Z2H8}; Multi-pass membrane protein
+CC       {ECO:0000255}. Lysosome membrane {ECO:0000269|PubMed:11390972,
+CC       ECO:0000269|PubMed:12598615}; Multi-pass membrane protein
+CC       {ECO:0000255}. Note=In neurons, colocalizes with the exocyst complex in
+CC       the axonal processes. {ECO:0000269|PubMed:12598615}.
+CC   -!- TISSUE SPECIFICITY: Widely expressed and predominantly expressed in
+CC       brain. Within the brain, expression restricted to neurons and not
+CC       detected in glial cells. Abundant in regions rich in neurons using
+CC       glutamate and GABA such as Purkinje cells in the cerebellum and
+CC       pyramidal cells in the hippocampus. {ECO:0000269|PubMed:11390972,
+CC       ECO:0000269|PubMed:12598615}.
+CC   -!- SIMILARITY: Belongs to the amino acid/polyamine transporter 2 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF361239; AAK67316.1; -; mRNA.
+DR   RefSeq; NP_569099.1; NM_130415.1.
+DR   RefSeq; XP_008765881.1; XM_008767659.1.
+DR   AlphaFoldDB; Q924A5; -.
+DR   SMR; Q924A5; -.
+DR   STRING; 10116.ENSRNOP00000074412; -.
+DR   GlyCosmos; Q924A5; 3 sites, No reported glycans.
+DR   GlyGen; Q924A5; 3 sites.
+DR   PhosphoSitePlus; Q924A5; -.
+DR   PaxDb; 10116-ENSRNOP00000016755; -.
+DR   Ensembl; ENSRNOT00000016755.6; ENSRNOP00000016755.3; ENSRNOG00000012356.6.
+DR   Ensembl; ENSRNOT00055047205; ENSRNOP00055038820; ENSRNOG00055027269.
+DR   Ensembl; ENSRNOT00060048515; ENSRNOP00060040430; ENSRNOG00060027930.
+DR   Ensembl; ENSRNOT00065009723; ENSRNOP00065007029; ENSRNOG00065006336.
+DR   GeneID; 155205; -.
+DR   KEGG; rno:155205; -.
+DR   UCSC; RGD:619801; rat.
+DR   AGR; RGD:619801; -.
+DR   CTD; 206358; -.
+DR   RGD; 619801; Slc36a1.
+DR   eggNOG; KOG1304; Eukaryota.
+DR   GeneTree; ENSGT00940000156583; -.
+DR   HOGENOM; CLU_009646_0_2_1; -.
+DR   InParanoid; Q924A5; -.
+DR   OrthoDB; 3601817at2759; -.
+DR   PhylomeDB; Q924A5; -.
+DR   TreeFam; TF314873; -.
+DR   Reactome; R-RNO-352230; Amino acid transport across the plasma membrane.
+DR   Reactome; R-RNO-428559; Proton-coupled neutral amino acid transporters.
+DR   PRO; PR:Q924A5; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000012356; Expressed in jejunum and 18 other cell types or tissues.
+DR   GO; GO:0016324; C:apical plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005765; C:lysosomal membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005764; C:lysosome; IDA:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0005774; C:vacuolar membrane; IBA:GO_Central.
+DR   GO; GO:0022858; F:alanine transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0005280; F:amino acid:proton symporter activity; IDA:UniProtKB.
+DR   GO; GO:0015187; F:glycine transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015180; F:L-alanine transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015193; F:L-proline transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015175; F:neutral L-amino acid transmembrane transporter activity; IDA:UniProtKB.
+DR   GO; GO:0005297; F:proline:proton symporter activity; IDA:UniProtKB.
+DR   GO; GO:0015078; F:proton transmembrane transporter activity; IDA:UniProtKB.
+DR   GO; GO:0032328; P:alanine transport; ISO:RGD.
+DR   GO; GO:0089718; P:amino acid import across plasma membrane; ISO:RGD.
+DR   GO; GO:0015816; P:glycine transport; ISO:RGD.
+DR   GO; GO:0015808; P:L-alanine transport; ISO:RGD.
+DR   GO; GO:1902475; P:L-alpha-amino acid transmembrane transport; ISO:RGD.
+DR   GO; GO:0015804; P:neutral amino acid transport; IDA:UniProtKB.
+DR   GO; GO:0035524; P:proline transmembrane transport; ISO:RGD.
+DR   GO; GO:0015824; P:proline transport; ISO:RGD.
+DR   GO; GO:1902600; P:proton transmembrane transport; IDA:UniProtKB.
+DR   GO; GO:0015734; P:taurine transmembrane transport; ISO:RGD.
+DR   InterPro; IPR013057; AA_transpt_TM.
+DR   PANTHER; PTHR22950; AMINO ACID TRANSPORTER; 1.
+DR   PANTHER; PTHR22950:SF188; PROTON-COUPLED AMINO ACID TRANSPORTER 1; 1.
+DR   Pfam; PF01490; Aa_trans; 1.
+PE   1: Evidence at protein level;
+KW   Amino-acid transport; Cell membrane; Disulfide bond; Glycoprotein;
+KW   Lysosome; Membrane; Reference proteome; Symport; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..475
+FT                   /note="Proton-coupled amino acid transporter 1"
+FT                   /id="PRO_0000093827"
+FT   TOPO_DOM        1..50
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        51..71
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        72..77
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        78..98
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        99..140
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        141..161
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        162..189
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        190..210
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        211..214
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        215..235
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        236..256
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        257..277
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        278..288
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        289..309
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        310..341
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        342..362
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        363..371
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        372..392
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        393..396
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        397..417
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        418..438
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        439..459
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        460..475
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   REGION          1..32
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..17
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        18..32
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        173
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        182
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        469
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        179..328
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        108
+FT                   /note="L -> M (in Ref. 2; no nucleotide entry)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   475 AA;  52569 MW;  D3D04A489AD1D23C CRC64;
+     MSTQRLRNED YHDYSSTDVS PEESPSEGLG SFSPGSYQRL GENSSMTWFQ TLIHLLKGNI
+     GTGLLGLPLA VKNAGLLLGP LSLLVIGIVA VHCMGILVKC AHHLCRRLNK PFLDYGDTVM
+     YGLECSPSTW IRNHSHWGRR IVDFFLVVTQ LGFCCVYFVF LADNFKQVIE AANGTTTNCN
+     NNETVILTPT MDSRLYMLTF LPFLVLLSFI RNLRILSIFS LLANISMFVS LIMIYQFIVQ
+     RIPDPSHLPL VAPWKTYPLF FGTAIFAFEG IGVVLPLENK MKDSQKFPLI LYLGMAIITV
+     LYISLGSLGY LQFGADIKGS ITLNLPNCWL YQSVKLLYSI GIFFTYALQF YVAAEIIIPA
+     IVSRVPERFE LVVDLSARTA MVCVTCVLAV LIPRLDLVIS LVGSVSSSAL ALIIPPLLEV
+     TTYYGEGISP LTITKDALIS ILGFVGFVVG TYESLWELIQ PSHSDSSTNS TSAFI
+//

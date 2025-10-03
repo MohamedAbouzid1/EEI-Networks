@@ -1,0 +1,174 @@
+ID   ENTP5_RAT               Reviewed;         427 AA.
+AC   Q6P6S9;
+DT   08-FEB-2011, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   29-MAY-2024, entry version 104.
+DE   RecName: Full=Ectonucleoside triphosphate diphosphohydrolase 5 {ECO:0000250|UniProtKB:Q9WUZ9};
+DE            Short=NTPDase 5;
+DE            EC=3.6.1.6 {ECO:0000250|UniProtKB:Q9WUZ9};
+DE   AltName: Full=Guanosine-diphosphatase ENTPD5;
+DE            Short=GDPase ENTPD5;
+DE   AltName: Full=Uridine-diphosphatase ENTPD5;
+DE            Short=UDPase ENTPD5;
+DE   Flags: Precursor;
+GN   Name=Entpd5;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Hydrolyzes nucleoside diphosphates with a preference for GDP,
+CC       IDP and UDP compared to ADP and CDP (By similarity). In the lumen of
+CC       the endoplasmic reticulum, hydrolyzes UDP that acts as an end-product
+CC       feedback inhibitor of the UDP-Glc:glycoprotein glucosyltransferases.
+CC       UMP can be transported back by an UDP-sugar antiporter to the cytosol
+CC       where it is consumed to regenerate UDP-glucose. Therefore, it
+CC       positively regulates protein reglucosylation by clearing UDP from the
+CC       ER lumen and by promoting the regeneration of UDP-glucose. Protein
+CC       reglucosylation is essential to proper glycoprotein folding and quality
+CC       control in the ER (By similarity). {ECO:0000250|UniProtKB:O75356,
+CC       ECO:0000250|UniProtKB:Q9WUZ9}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-diphosphate + H2O = a ribonucleoside 5'-
+CC         phosphate + H(+) + phosphate; Xref=Rhea:RHEA:36799,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:58043; EC=3.6.1.6;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36800;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GDP + H2O = GMP + H(+) + phosphate; Xref=Rhea:RHEA:22156,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58115, ChEBI:CHEBI:58189; EC=3.6.1.6;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:22157;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + UDP = H(+) + phosphate + UMP; Xref=Rhea:RHEA:64876,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57865, ChEBI:CHEBI:58223; EC=3.6.1.6;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64877;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + IDP = H(+) + IMP + phosphate; Xref=Rhea:RHEA:35207,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58053, ChEBI:CHEBI:58280; EC=3.6.1.6;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:35208;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CDP + H2O = CMP + H(+) + phosphate; Xref=Rhea:RHEA:64880,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58069, ChEBI:CHEBI:60377; EC=3.6.1.6;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64881;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ADP + H2O = AMP + H(+) + phosphate; Xref=Rhea:RHEA:61436,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:456215, ChEBI:CHEBI:456216; EC=3.6.1.6;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:61437;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:O75356};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000250|UniProtKB:Q9WUZ9}.
+CC   -!- SUBUNIT: Monomer; active form. Homodimer; disulfide-linked. Homodimers
+CC       are enzymatically inactive. {ECO:0000250|UniProtKB:O75356}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum
+CC       {ECO:0000250|UniProtKB:Q9WUZ9}. Secreted
+CC       {ECO:0000250|UniProtKB:O75356}.
+CC   -!- PTM: N-glycosylated; high-mannose type. {ECO:0000250|UniProtKB:Q9WUZ9}.
+CC   -!- SIMILARITY: Belongs to the GDA1/CD39 NTPase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC062044; AAH62044.1; -; mRNA.
+DR   RefSeq; NP_955426.1; NM_199394.1.
+DR   AlphaFoldDB; Q6P6S9; -.
+DR   SMR; Q6P6S9; -.
+DR   STRING; 10116.ENSRNOP00000041026; -.
+DR   GlyCosmos; Q6P6S9; 1 site, No reported glycans.
+DR   GlyGen; Q6P6S9; 1 site.
+DR   PhosphoSitePlus; Q6P6S9; -.
+DR   PaxDb; 10116-ENSRNOP00000041026; -.
+DR   GeneID; 314312; -.
+DR   KEGG; rno:314312; -.
+DR   UCSC; RGD:735219; rat.
+DR   AGR; RGD:735219; -.
+DR   CTD; 957; -.
+DR   RGD; 735219; Entpd5.
+DR   eggNOG; KOG1385; Eukaryota.
+DR   InParanoid; Q6P6S9; -.
+DR   OrthoDB; 180318at2759; -.
+DR   PhylomeDB; Q6P6S9; -.
+DR   Reactome; R-RNO-8850843; Phosphate bond hydrolysis by NTPDase proteins.
+DR   UniPathway; UPA00378; -.
+DR   PRO; PR:Q6P6S9; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IDA:UniProtKB.
+DR   GO; GO:0005576; C:extracellular region; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0043262; F:ADP phosphatase activity; ISO:RGD.
+DR   GO; GO:0036384; F:CDP phosphatase activity; ISO:RGD.
+DR   GO; GO:0004382; F:GDP phosphatase activity; ISS:UniProtKB.
+DR   GO; GO:1990003; F:IDP phosphatase activity; ISO:RGD.
+DR   GO; GO:0017111; F:ribonucleoside triphosphate phosphatase activity; IBA:GO_Central.
+DR   GO; GO:0045134; F:UDP phosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0051084; P:'de novo' post-translational protein folding; ISS:UniProtKB.
+DR   GO; GO:0009134; P:nucleoside diphosphate catabolic process; IBA:GO_Central.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; ISS:UniProtKB.
+DR   GO; GO:0006256; P:UDP catabolic process; ISS:UniProtKB.
+DR   GO; GO:0006011; P:UDP-glucose metabolic process; ISS:UniProtKB.
+DR   CDD; cd00012; NBD_sugar-kinase_HSP70_actin; 1.
+DR   Gene3D; 3.30.420.40; -; 1.
+DR   Gene3D; 3.30.420.150; Exopolyphosphatase. Domain 2; 1.
+DR   InterPro; IPR000407; GDA1_CD39_NTPase.
+DR   PANTHER; PTHR11782; ADENOSINE/GUANOSINE DIPHOSPHATASE; 1.
+DR   PANTHER; PTHR11782:SF35; NUCLEOSIDE DIPHOSPHATE PHOSPHATASE ENTPD5; 1.
+DR   Pfam; PF01150; GDA1_CD39; 1.
+DR   PROSITE; PS01238; GDA1_CD39_NTPASE; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Disulfide bond; Endoplasmic reticulum; Glycoprotein; Hydrolase;
+KW   Magnesium; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           25..427
+FT                   /note="Ectonucleoside triphosphate diphosphohydrolase 5"
+FT                   /id="PRO_0000404542"
+FT   ACT_SITE        171
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9WUZ9"
+FT   CARBOHYD        231
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        271..302
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        362..376
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   427 AA;  47373 MW;  6CBBC44D96A60211 CRC64;
+     MATSWASVFL LIIAYVGGTV FYREQQTWFE GVFLSSMCPV NVSAGTFYGI MFDAGSTGTR
+     IHVYTFVQRT SGQLPFLEGE IFDSVKPGLS AFVDQPKQGA ETVQELLEVA KDSIPRSHWK
+     RTPVVLKATA GLRLLPEQKA QTLLLEVEEI FKNSPFLVPD DSVSIMDGSY EGILAWVTVN
+     FLTGQLHGRG QETVGTLDLG GASTQITFLP QLEKTLEQTP KGYLASFEMF NSTFKLYTHS
+     YLGFGLKAAR LATLGALEAE GTDGHTFRSA CLPRWLEAEW IFGGVKYQYG GNQEGEMGFE
+     PCYAEVRRVV QGKLHQPEEI RGSSFYAFSY YYDRAAETHL IDYEKGGVLK VEDFERKARE
+     VCDNLESFSS GSPFLCMDLS YITALLKDGF GFEDGTLLQL TKKVNNIETG WALGATFHLL
+     QSLGITS
+//

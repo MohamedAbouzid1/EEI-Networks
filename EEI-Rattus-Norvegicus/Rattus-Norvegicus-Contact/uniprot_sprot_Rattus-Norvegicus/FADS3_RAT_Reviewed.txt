@@ -1,0 +1,271 @@
+ID   FADS3_RAT               Reviewed;         449 AA.
+AC   Q8K1P9;
+DT   02-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   27-MAR-2024, entry version 126.
+DE   RecName: Full=Fatty acid desaturase 3 {ECO:0000303|PubMed:19752397};
+DE            EC=1.14.19.- {ECO:0000269|PubMed:24070791};
+DE   AltName: Full=Delta(13) fatty acid desaturase {ECO:0000305|PubMed:24070791};
+DE            Short=Delta(13) desaturase {ECO:0000305|PubMed:24070791};
+DE   AltName: Full=trans-vaccenate Delta13-desaturase;
+GN   Name=Fads3 {ECO:0000303|PubMed:19752397, ECO:0000303|PubMed:24070791};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RA   D'Andrea S., Guillou H., Jan S., Daval S., Rioux V., Legrand P.;
+RT   "Characterization of a novel putative fatty acid desaturase from rat.";
+RL   Submitted (JUL-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=19752397; DOI=10.1194/jlr.m000588;
+RA   Pedrono F., Blanchard H., Kloareg M., D'andrea S., Daval S., Rioux V.,
+RA   Legrand P.;
+RT   "The fatty acid desaturase 3 gene encodes for different FADS3 protein
+RT   isoforms in mammalian tissues.";
+RL   J. Lipid Res. 51:472-479(2010).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=24070791; DOI=10.1194/jlr.m042572;
+RA   Rioux V., Pedrono F., Blanchard H., Duby C., Boulier-Monthean N.,
+RA   Bernard L., Beauchamp E., Catheline D., Legrand P.;
+RT   "Trans-vaccenate is Delta13-desaturated by FADS3 in rodents.";
+RL   J. Lipid Res. 54:3438-3452(2013).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND TISSUE SPECIFICITY.
+RX   PubMed=30262139; DOI=10.1016/j.bbrc.2018.09.132;
+RA   Garcia C., Guillocheau E., Richard L., Drouin G., Catheline D., Legrand P.,
+RA   Rioux V.;
+RT   "Conversion of dietary trans-vaccenic acid to trans11,cis13-conjugated
+RT   linoleic acid in the rat lactating mammary gland by Fatty Acid Desaturase
+RT   3-catalyzed methyl-end Delta13-desaturation.";
+RL   Biochem. Biophys. Res. Commun. 505:385-391(2018).
+CC   -!- FUNCTION: Mammals have different sphingoid bases that differ in their
+CC       length and/or pattern of desaturation and hydroxyl groups. The
+CC       predominant sphingoid base that comprises mammalian ceramides is
+CC       sphing-4-enine (sphingosine or SPH) which has a trans (E) desaturation
+CC       at carbon 4. FADS3 is a desaturase that introduces a cis (Z) double
+CC       bond between carbon 14 and carbon 15 of the sphingoid base (also known
+CC       as long chain base, LCB), producing LCBs such as sphinga-4,14-dienine
+CC       (SPD, d18:2(4E,14Z)) from SPH. Prefers SPH-containing ceramides (N-
+CC       acylsphing-4-enines) as substrates. Capable of metabolizing also the
+CC       SPH in its free form. SPD ceramides occur widely in mammalian tissues
+CC       and cells. Due to their unusual structure containing a cis double bond,
+CC       SPD ceramides may have an opposite, negative role in lipid microdomain
+CC       formation relative to conventional ceramides. Could be involved in the
+CC       detoxification of 1-deoxy sphingolipids, by desaturating the cytotoxic
+CC       1-deoxysphinganine (1-deoxySA, m18:0), produced under pathological
+CC       conditions, to 1-deoxysphingenine (1-deoxysphingosine, 1-deoxySO,
+CC       m18:1). Although prefers SPH-containing ceramides (N-acylsphing-4-
+CC       enines) as substrates, it also exhibits activity toward
+CC       dihydrosphingosine-containing CERs (N-acylsphinganines) and produces
+CC       14Z-SPH-containing sphingolipids. Its desaturase mechanism involves an
+CC       electron transfer facilitated by cytochrome b5 (By similarity). FADS3
+CC       also acts as a methyl-end fatty acyl coenzyme A (CoA) desaturase that
+CC       introduces a cis double bond between the preexisting double bond and
+CC       the terminal methyl group of the fatty acyl chain. Desaturates (11E)-
+CC       octadecenoate (trans-vaccenoate, the predominant trans fatty acid in
+CC       human milk) at carbon 13 to generate (11E,13Z)-octadecadienoate (also
+CC       known as conjugated linoleic acid 11E,13Z-CLA) (PubMed:24070791,
+CC       PubMed:30262139). {ECO:0000250|UniProtKB:Q9Y5Q0,
+CC       ECO:0000269|PubMed:24070791, ECO:0000269|PubMed:30262139}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acylsphing-4-enine + 2 Fe(II)-[cytochrome b5] + 2 H(+) +
+CC         O2 = an N-acyl-sphinga-4E,14Z-dienine + 2 Fe(III)-[cytochrome b5] + 2
+CC         H2O; Xref=Rhea:RHEA:63928, Rhea:RHEA-COMP:10438, Rhea:RHEA-
+CC         COMP:10439, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034, ChEBI:CHEBI:52639,
+CC         ChEBI:CHEBI:139573; Evidence={ECO:0000250|UniProtKB:Q9Y5Q0};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63929;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5Q0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Fe(II)-[cytochrome b5] + 2 H(+) + N-(hexanoyl)sphing-4-enine
+CC         + O2 = 2 Fe(III)-[cytochrome b5] + 2 H2O + N-hexanoyl-sphinga-4E,14Z-
+CC         dienine; Xref=Rhea:RHEA:63940, Rhea:RHEA-COMP:10438, Rhea:RHEA-
+CC         COMP:10439, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034, ChEBI:CHEBI:63867,
+CC         ChEBI:CHEBI:149631; Evidence={ECO:0000250|UniProtKB:Q9Y5Q0};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63941;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5Q0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Fe(II)-[cytochrome b5] + 2 H(+) + O2 + sphing-4-enine = 2
+CC         Fe(III)-[cytochrome b5] + 2 H2O + sphinga-4E,14Z-dienine;
+CC         Xref=Rhea:RHEA:76483, Rhea:RHEA-COMP:10438, Rhea:RHEA-COMP:10439,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034, ChEBI:CHEBI:57756,
+CC         ChEBI:CHEBI:83568; Evidence={ECO:0000250|UniProtKB:Q9Y5Q0};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76484;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5Q0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(11E)-octadecenoyl-CoA + 2 Fe(II)-[cytochrome b5] + 2 H(+) +
+CC         O2 = (11E,13Z)-octadecadienoyl-CoA + 2 Fe(III)-[cytochrome b5] + 2
+CC         H2O; Xref=Rhea:RHEA:46056, Rhea:RHEA-COMP:10438, Rhea:RHEA-
+CC         COMP:10439, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034, ChEBI:CHEBI:74296,
+CC         ChEBI:CHEBI:85650; Evidence={ECO:0000269|PubMed:24070791,
+CC         ECO:0000269|PubMed:30262139};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46057;
+CC         Evidence={ECO:0000269|PubMed:24070791, ECO:0000305|PubMed:30262139};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Fe(II)-[cytochrome b5] + 2 H(+) + N-acyl-1-deoxysphinganine
+CC         + O2 = 2 Fe(III)-[cytochrome b5] + 2 H2O + N-acyl-1-deoxysphing-14Z-
+CC         enine; Xref=Rhea:RHEA:76487, Rhea:RHEA-COMP:10438, Rhea:RHEA-
+CC         COMP:10439, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034, ChEBI:CHEBI:67111,
+CC         ChEBI:CHEBI:195246; Evidence={ECO:0000250|UniProtKB:Q9Y5Q0};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76488;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5Q0};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acylsphinganine + 2 Fe(II)-[cytochrome b5] + 2 H(+) + O2
+CC         = an N-acylsphing-14Z-enine + 2 Fe(III)-[cytochrome b5] + 2 H2O;
+CC         Xref=Rhea:RHEA:76563, Rhea:RHEA-COMP:10438, Rhea:RHEA-COMP:10439,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034, ChEBI:CHEBI:31488,
+CC         ChEBI:CHEBI:195278; Evidence={ECO:0000250|UniProtKB:Q9Y5Q0};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76564;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y5Q0};
+CC   -!- PATHWAY: Lipid metabolism; polyunsaturated fatty acid biosynthesis.
+CC       {ECO:0000305|PubMed:24070791}.
+CC   -!- PATHWAY: Lipid metabolism; sphingolipid metabolism.
+CC       {ECO:0000250|UniProtKB:Q9Y5Q0}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q9Y5Q0}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Essentially expressed in liver and kidney and to a
+CC       lesser extent in heart, adipose tissue, stomach and pancreas (at
+CC       protein level) (PubMed:19752397). Higher expression in lactating
+CC       mammary gland than in liver (PubMed:30262139).
+CC       {ECO:0000269|PubMed:19752397, ECO:0000269|PubMed:30262139}.
+CC   -!- DOMAIN: The protein sequence includes a number of characteristic
+CC       features of microsomal fatty acid desaturases including the three
+CC       histidine boxes (these domains may contain the active site and/or be
+CC       involved in metal ion binding), and the N-terminal cytochrome b5 domain
+CC       containing the heme-binding motif, HPGG, similar to that of other fatty
+CC       acid desaturases. {ECO:0000250|UniProtKB:Q9Y5Q0}.
+CC   -!- MISCELLANEOUS: Two potential isoforms are detected in various tissues.
+CC       A 75 kDa isoform is expressed in lung, spleen and thymus. A 37 kDa
+CC       isoform is highly expressed in skeletal and abdominal muscles, brain
+CC       and ovary and to a lesser extent in heart, lung, brown adipose tissue
+CC       and eye. {ECO:0000269|PubMed:19752397}.
+CC   -!- SIMILARITY: Belongs to the fatty acid desaturase type 1 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ494720; CAD38527.1; -; mRNA.
+DR   RefSeq; NP_775160.1; NM_173137.1.
+DR   AlphaFoldDB; Q8K1P9; -.
+DR   SMR; Q8K1P9; -.
+DR   STRING; 10116.ENSRNOP00000027693; -.
+DR   SwissLipids; SLP:000001192; -.
+DR   PhosphoSitePlus; Q8K1P9; -.
+DR   PaxDb; 10116-ENSRNOP00000027693; -.
+DR   Ensembl; ENSRNOT00000100217.1; ENSRNOP00000090422.1; ENSRNOG00000020385.4.
+DR   Ensembl; ENSRNOT00055030332; ENSRNOP00055024392; ENSRNOG00055017907.
+DR   Ensembl; ENSRNOT00060053120; ENSRNOP00060044169; ENSRNOG00060030542.
+DR   Ensembl; ENSRNOT00065058332; ENSRNOP00065048008; ENSRNOG00065033958.
+DR   GeneID; 286922; -.
+DR   KEGG; rno:286922; -.
+DR   UCSC; RGD:628876; rat.
+DR   AGR; RGD:628876; -.
+DR   CTD; 3995; -.
+DR   RGD; 628876; Fads3.
+DR   eggNOG; KOG4232; Eukaryota.
+DR   GeneTree; ENSGT00950000182990; -.
+DR   HOGENOM; CLU_016265_0_1_1; -.
+DR   InParanoid; Q8K1P9; -.
+DR   OMA; FGGMQYQ; -.
+DR   OrthoDB; 294339at2759; -.
+DR   PhylomeDB; Q8K1P9; -.
+DR   TreeFam; TF313604; -.
+DR   UniPathway; UPA00222; -.
+DR   UniPathway; UPA00658; -.
+DR   PRO; PR:Q8K1P9; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000020385; Expressed in lung and 18 other cell types or tissues.
+DR   ExpressionAtlas; Q8K1P9; baseline and differential.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016717; F:oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water; IBA:GO_Central.
+DR   GO; GO:0006629; P:lipid metabolic process; IBA:GO_Central.
+DR   GO; GO:0006665; P:sphingolipid metabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006636; P:unsaturated fatty acid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd03506; Delta6-FADS-like; 1.
+DR   Gene3D; 3.10.120.10; Cytochrome b5-like heme/steroid binding domain; 1.
+DR   InterPro; IPR001199; Cyt_B5-like_heme/steroid-bd.
+DR   InterPro; IPR036400; Cyt_B5-like_heme/steroid_sf.
+DR   InterPro; IPR005804; FA_desaturase_dom.
+DR   InterPro; IPR012171; Fatty_acid_desaturase.
+DR   PANTHER; PTHR19353; FATTY ACID DESATURASE 2; 1.
+DR   PANTHER; PTHR19353:SF11; FATTY ACID DESATURASE 3; 1.
+DR   Pfam; PF00173; Cyt-b5; 1.
+DR   Pfam; PF00487; FA_desaturase; 1.
+DR   PIRSF; PIRSF015921; FA_sphinglp_des; 1.
+DR   PRINTS; PR00363; CYTOCHROMEB5.
+DR   SMART; SM01117; Cyt-b5; 1.
+DR   SUPFAM; SSF55856; Cytochrome b5-like heme/steroid binding domain; 1.
+DR   PROSITE; PS50255; CYTOCHROME_B5_2; 1.
+PE   1: Evidence at protein level;
+KW   Electron transport; Endoplasmic reticulum; Fatty acid biosynthesis;
+KW   Fatty acid metabolism; Lipid biosynthesis; Lipid metabolism; Membrane;
+KW   Oxidoreductase; Reference proteome; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..449
+FT                   /note="Fatty acid desaturase 3"
+FT                   /id="PRO_0000307110"
+FT   TOPO_DOM        1..137
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        138..158
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        159..163
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        164..184
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        185..268
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        269..289
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        290..310
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        311..331
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        332..449
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          24..101
+FT                   /note="Cytochrome b5 heme-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00279"
+FT   REGION          1..21
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           186..190
+FT                   /note="Histidine box-1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y5Q0"
+FT   MOTIF           223..227
+FT                   /note="Histidine box-2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y5Q0"
+FT   MOTIF           387..391
+FT                   /note="Histidine box-3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y5Q0"
+SQ   SEQUENCE   449 AA;  51467 MW;  E2E33662095855AB CRC64;
+     MGGVGEPGGG PGPREGPAPL GAPLPIFRWE QIRQHDLPGD KWLVIERRVY DISRWAQRHP
+     GGSRLIGHHS AEDATDAFHA FHQDLHFVRK FLKPLLIGEL APEEPSQDGA QNAQLIEDFR
+     ALRQAAEDMK LFEADTTFFA LLLGHILAME LLAWLLVYLL GPGWVSSVLA ALILAISQAQ
+     CWCLQHDLGH ASIFPKSRWN HVAQQFVMGQ LKGFSAHWWN FRHFQHHAKP NIFHKDPDVT
+     VAPVFLLGES SVEYGKKKRR YLPYNHQHLY FFLIGPPLLT LVNFEVENLA YMLVCMQWTD
+     LLWAASFYSR FFLSYSPFYG ATGTLLLFVA VRVLESHWFV WITQMNHIPK EIGHEKHRDW
+     ASSQLAATCN VEPSLFIDWF SGHLNFQIEH HLFPTMPRHN YRRVAPLVKA FCAKHGLHYE
+     VKPFLTALVD IIGSLKKSGD IWLDAYLHQ
+//

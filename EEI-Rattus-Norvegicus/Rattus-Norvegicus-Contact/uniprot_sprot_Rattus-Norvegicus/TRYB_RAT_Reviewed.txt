@@ -1,0 +1,119 @@
+ID   TRYB_RAT                Reviewed;         246 AA.
+AC   P32822;
+DT   01-OCT-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1993, sequence version 1.
+DT   24-JUL-2024, entry version 128.
+DE   RecName: Full=Trypsin V-B;
+DE            EC=3.4.21.4;
+DE   Flags: Precursor;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Pancreas;
+RX   PubMed=1537555; DOI=10.1016/0378-1119(92)90646-7;
+RA   Kang J., Wiegand U., Mueller-Hill B.;
+RT   "Identification of cDNAs encoding two novel rat pancreatic serine
+RT   proteases.";
+RL   Gene 110:181-187(1992).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Preferential cleavage: Arg-|-Xaa, Lys-|-Xaa.; EC=3.4.21.4;
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space.
+CC   -!- SIMILARITY: Belongs to the peptidase S1 family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00274}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X59013; CAA41752.1; -; mRNA.
+DR   PIR; JQ1472; JQ1472.
+DR   AlphaFoldDB; P32822; -.
+DR   SMR; P32822; -.
+DR   MEROPS; S01.093; -.
+DR   AGR; RGD:1563848; -.
+DR   InParanoid; P32822; -.
+DR   PhylomeDB; P32822; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IBA:GO_Central.
+DR   GO; GO:0007586; P:digestion; IEA:UniProtKB-KW.
+DR   GO; GO:0006508; P:proteolysis; IBA:GO_Central.
+DR   CDD; cd00190; Tryp_SPc; 1.
+DR   Gene3D; 2.40.10.10; Trypsin-like serine proteases; 2.
+DR   InterPro; IPR009003; Peptidase_S1_PA.
+DR   InterPro; IPR043504; Peptidase_S1_PA_chymotrypsin.
+DR   InterPro; IPR001314; Peptidase_S1A.
+DR   InterPro; IPR050127; Serine_Proteases_S1.
+DR   InterPro; IPR001254; Trypsin_dom.
+DR   InterPro; IPR018114; TRYPSIN_HIS.
+DR   PANTHER; PTHR24264:SF15; RIKEN CDNA 2210010C04 GENE; 1.
+DR   PANTHER; PTHR24264; TRYPSIN-RELATED; 1.
+DR   Pfam; PF00089; Trypsin; 1.
+DR   PRINTS; PR00722; CHYMOTRYPSIN.
+DR   SMART; SM00020; Tryp_SPc; 1.
+DR   SUPFAM; SSF50494; Trypsin-like serine proteases; 1.
+DR   PROSITE; PS50240; TRYPSIN_DOM; 1.
+DR   PROSITE; PS00134; TRYPSIN_HIS; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Digestion; Disulfide bond; Hydrolase; Metal-binding; Protease;
+KW   Reference proteome; Secreted; Serine protease; Signal; Zymogen.
+FT   SIGNAL          1..15
+FT   PROPEP          16..24
+FT                   /note="Activation peptide"
+FT                   /id="PRO_0000028217"
+FT   CHAIN           25..246
+FT                   /note="Trypsin V-B"
+FT                   /id="PRO_0000028218"
+FT   DOMAIN          25..244
+FT                   /note="Peptidase S1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   ACT_SITE        64
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        108
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        200
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         76
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         78
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         86
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   SITE            194
+FT                   /note="Required for specificity"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        31..160
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        49..65
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        133..233
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        140..206
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        171..185
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        196..220
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+SQ   SEQUENCE   246 AA;  26820 MW;  1EB899CA1BAB0025 CRC64;
+     MKICIFFTLL GTVAAFPTED NDDRIVGGYT CQEHSVPYQV SLNAGSHICG GSLITDQWVL
+     SAAHCYHPQL QVRLGEHNIY EIEGAEQFID AAKMILHPDY DKWTVDNDIM LIKLKSPATL
+     NSKVSTIPLP QYCPTAGTEC LVSGWGVLKF GFESPSVLQC LDAPVLSDSV CHKAYPRQIT
+     NNMFCLGFLE GGKDSCQYDS GGPVVCNGEV QGIVSWGDGC ALEGKPGVYT KVCNYLNWIQ
+     QTVAAN
+//

@@ -1,0 +1,119 @@
+ID   CISH_RAT                Reviewed;         256 AA.
+AC   O70512; Q9ERQ1;
+DT   21-FEB-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   08-NOV-2023, entry version 119.
+DE   RecName: Full=Cytokine-inducible SH2-containing protein;
+DE            Short=CIS;
+DE   AltName: Full=CIS-1;
+DE   AltName: Full=Suppressor of cytokine signaling;
+DE            Short=SOCS;
+DE   Flags: Fragment;
+GN   Name=Cish;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=10579313; DOI=10.1210/endo.140.12.7212;
+RA   Mao Y., Ling P.R., Fitzgibbons T.P., McCowen K.C., Frick G.P.,
+RA   Bistrian B.R., Smith R.J.;
+RT   "Endotoxin-induced inhibition of growth hormone receptor signaling in rat
+RT   liver in vivo.";
+RL   Endocrinology 140:5505-5515(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE OF 51-163.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RA   Siebenson L.N., Berry S.A.;
+RT   "Cytokine inducible SH2-containing protein (CIS) from rat liver.";
+RL   Submitted (AUG-2000) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: SOCS family proteins form part of a classical negative
+CC       feedback system that regulates cytokine signal transduction. CIS is
+CC       involved in the negative regulation of cytokines that signal through
+CC       the JAK-STAT5 pathway such as erythropoietin, prolactin and interleukin
+CC       3 (IL3) receptor. Inhibits STAT5 trans-activation by suppressing its
+CC       tyrosine phosphorylation (By similarity). May be a substrate
+CC       recognition component of a SCF-like ECS (Elongin BC-CUL2/5-SOCS-box
+CC       protein) E3 ubiquitin-protein ligase complex which mediates the
+CC       ubiquitination and subsequent proteasomal degradation of target
+CC       proteins (By similarity). {ECO:0000250}.
+CC   -!- PATHWAY: Protein modification; protein ubiquitination.
+CC   -!- SUBUNIT: Stably associated with the tyrosine-phosphorylated IL3
+CC       receptor beta chain and tyrosine-phosphorylated EPO receptor (EPOR).
+CC       {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF065161; AAC17502.1; -; mRNA.
+DR   EMBL; AF294256; AAG29815.1; -; Genomic_DNA.
+DR   AlphaFoldDB; O70512; -.
+DR   SMR; O70512; -.
+DR   STRING; 10116.ENSRNOP00000041734; -.
+DR   iPTMnet; O70512; -.
+DR   PhosphoSitePlus; O70512; -.
+DR   PaxDb; 10116-ENSRNOP00000041734; -.
+DR   UCSC; RGD:69261; rat.
+DR   AGR; RGD:69261; -.
+DR   RGD; 69261; Cish.
+DR   eggNOG; KOG4566; Eukaryota.
+DR   InParanoid; O70512; -.
+DR   Reactome; R-RNO-8951664; Neddylation.
+DR   UniPathway; UPA00143; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005942; C:phosphatidylinositol 3-kinase complex; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0046935; F:1-phosphatidylinositol-3-kinase regulator activity; IBA:GO_Central.
+DR   GO; GO:0019221; P:cytokine-mediated signaling pathway; IEP:RGD.
+DR   GO; GO:0035556; P:intracellular signal transduction; IEA:InterPro.
+DR   GO; GO:0009968; P:negative regulation of signal transduction; IEA:UniProtKB-KW.
+DR   GO; GO:0046854; P:phosphatidylinositol phosphate biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0007205; P:protein kinase C-activating G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0016567; P:protein ubiquitination; IEA:UniProtKB-UniPathway.
+DR   CDD; cd10718; SH2_CIS; 1.
+DR   CDD; cd03734; SOCS_CIS1; 1.
+DR   Gene3D; 3.30.505.10; SH2 domain; 1.
+DR   Gene3D; 1.10.750.20; SOCS box; 1.
+DR   InterPro; IPR035887; CIS_SH2.
+DR   InterPro; IPR000980; SH2.
+DR   InterPro; IPR036860; SH2_dom_sf.
+DR   InterPro; IPR001496; SOCS_box.
+DR   InterPro; IPR036036; SOCS_box-like_dom_sf.
+DR   PANTHER; PTHR10155:SF9; CYTOKINE-INDUCIBLE SH2-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR10155; PHOSPHATIDYLINOSITOL 3-KINASE REGULATORY SUBUNIT; 1.
+DR   Pfam; PF00017; SH2; 1.
+DR   Pfam; PF07525; SOCS_box; 1.
+DR   PRINTS; PR00401; SH2DOMAIN.
+DR   SMART; SM00252; SH2; 1.
+DR   SMART; SM00253; SOCS; 1.
+DR   SMART; SM00969; SOCS_box; 1.
+DR   SUPFAM; SSF55550; SH2 domain; 1.
+DR   SUPFAM; SSF158235; SOCS box-like; 1.
+DR   PROSITE; PS50001; SH2; 1.
+DR   PROSITE; PS50225; SOCS; 1.
+PE   2: Evidence at transcript level;
+KW   Growth regulation; Reference proteome; SH2 domain;
+KW   Signal transduction inhibitor; Ubl conjugation pathway.
+FT   CHAIN           <1..256
+FT                   /note="Cytokine-inducible SH2-containing protein"
+FT                   /id="PRO_0000181233"
+FT   DOMAIN          81..162
+FT                   /note="SH2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00191"
+FT   DOMAIN          207..255
+FT                   /note="SOCS box"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00194"
+FT   REGION          168..190
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   NON_TER         1
+SQ   SEQUENCE   256 AA;  28399 MW;  1F6614A4EE9926B1 CRC64;
+     VLCVQGSCPL LVVEQIGQRP LWAQSLELPG PAMQPLPTGA FPEEVTEETP VQSENEPKVL
+     DPEGDLLCIA KTFSYLRESG WYWGSITASE ARQHLQKMPE GTFLVRDSTH PSYLFTLSVK
+     TTRGPTNVRI EYADSSFRLD SNCLSRPRIL AFPDVVSLVQ HYVASCTADT RSDSPDPAPT
+     PALPVSKPDA PGDPVLPIPV ATAVHLKLVQ PFVRRSSARS LQHLCRLVIN RLVTDVDCLP
+     LPRRMADYLR QYPFQL
+//

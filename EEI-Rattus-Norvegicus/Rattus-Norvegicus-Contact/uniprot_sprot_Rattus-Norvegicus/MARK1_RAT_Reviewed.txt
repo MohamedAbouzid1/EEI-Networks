@@ -1,0 +1,352 @@
+ID   MARK1_RAT               Reviewed;         793 AA.
+AC   O08678;
+DT   12-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1997, sequence version 1.
+DT   02-OCT-2024, entry version 169.
+DE   RecName: Full=Serine/threonine-protein kinase MARK1;
+DE            EC=2.7.11.1;
+DE            EC=2.7.11.26;
+DE   AltName: Full=MAP/microtubule affinity-regulating kinase 1;
+GN   Name=Mark1 {ECO:0000312|RGD:619882};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:CAB06294.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TISSUE SPECIFICITY, SUBCELLULAR
+RP   LOCATION, PHOSPHORYLATION AT THR-215 AND SER-219, AND MUTAGENESIS OF
+RP   LYS-89; THR-215 AND SER-219.
+RC   STRAIN=Sprague-Dawley {ECO:0000312|EMBL:CAB06294.1};
+RC   TISSUE=Brain {ECO:0000312|EMBL:CAB06294.1};
+RX   PubMed=9108484; DOI=10.1016/s0092-8674(00)80208-1;
+RA   Drewes G., Ebneth A., Preuss U., Mandelkow E.-M., Mandelkow E.;
+RT   "MARK - a novel family of protein kinases that phosphorylate microtubule-
+RT   associated proteins and trigger microtubule disruption.";
+RL   Cell 89:297-308(1997).
+RN   [2]
+RP   FUNCTION, ACTIVITY REGULATION, PHOSPHORYLATION AT THR-215 AND SER-219, AND
+RP   MUTAGENESIS OF THR-215 AND SER-219.
+RX   PubMed=14517247; DOI=10.1093/emboj/cdg447;
+RA   Timm T., Li X.Y., Biernat J., Jiao J., Mandelkow E., Vandekerckhove J.,
+RA   Mandelkow E.M.;
+RT   "MARKK, a Ste20-like kinase, activates the polarity-inducing kinase
+RT   MARK/PAR-1.";
+RL   EMBO J. 22:5090-5101(2003).
+RN   [3]
+RP   FUNCTION IN PHOSPHORYLATION OF DCX.
+RX   PubMed=14741102; DOI=10.1016/s0896-6273(03)00843-2;
+RA   Schaar B.T., Kinoshita K., McConnell S.K.;
+RT   "Doublecortin microtubule affinity is regulated by a balance of kinase and
+RT   phosphatase activity at the leading edge of migrating neurons.";
+RL   Neuron 41:203-213(2004).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-444, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Serine/threonine-protein kinase (By similarity). Involved in
+CC       cell polarity and microtubule dynamics regulation. Phosphorylates DCX,
+CC       MAP2 and MAP4. Phosphorylates the microtubule-associated protein
+CC       MAPT/TAU (By similarity). Involved in cell polarity by phosphorylating
+CC       the microtubule-associated proteins MAP2, MAP4 and MAPT/TAU at KXGS
+CC       motifs, causing detachment from microtubules, and their disassembly.
+CC       Involved in the regulation of neuronal migration through its dual
+CC       activities in regulating cellular polarity and microtubule dynamics,
+CC       possibly by phosphorylating and regulating DCX. Also acts as a positive
+CC       regulator of the Wnt signaling pathway, probably by mediating
+CC       phosphorylation of dishevelled proteins (DVL1, DVL2 and/or DVL3)
+CC       (PubMed:14517247, PubMed:14741102, PubMed:9108484).
+CC       {ECO:0000250|UniProtKB:Q9P0L2, ECO:0000269|PubMed:14517247,
+CC       ECO:0000269|PubMed:14741102, ECO:0000269|PubMed:9108484}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000269|PubMed:9108484};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1; Evidence={ECO:0000269|PubMed:9108484};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[tau protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [tau protein]; Xref=Rhea:RHEA:12801, Rhea:RHEA-COMP:13701, Rhea:RHEA-
+CC         COMP:13702, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.26;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[tau protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[tau protein]; Xref=Rhea:RHEA:53904, Rhea:RHEA-COMP:13703,
+CC         Rhea:RHEA-COMP:13704, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.26;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Activated by phosphorylation on Thr-215. Inhibited
+CC       by phosphorylation at Ser-219. {ECO:0000269|PubMed:14517247}.
+CC   -!- SUBUNIT: Interacts with MAPT/TAU. {ECO:0000250|UniProtKB:Q9P0L2}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Peripheral membrane
+CC       protein {ECO:0000250}. Cytoplasm, cytoskeleton
+CC       {ECO:0000269|PubMed:9108484}. Cytoplasm {ECO:0000250|UniProtKB:Q9P0L2}.
+CC       Cell projection, dendrite {ECO:0000250|UniProtKB:Q9P0L2}. Note=Appears
+CC       to localize to an intracellular network.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in brain and spleen and at lower
+CC       levels in kidney and skeletal muscle. {ECO:0000269|PubMed:9108484}.
+CC   -!- DOMAIN: The UBA domain does not seem to bind ubiquitin and ubiquitin-
+CC       like and might play a role in regulating the enzyme conformation and
+CC       localization. Activation of the kinase activity following
+CC       phosphorylation at Thr-208 is accompanied by a conformational change
+CC       that alters the orientation of the UBA domain with respect to the
+CC       catalytic domain (By similarity). {ECO:0000250}.
+CC   -!- DOMAIN: The KA1 domain mediates binding to phospholipids and targeting
+CC       to membranes. Binds phosphatidic acid (PA), phosphatidylserine (PtdSer)
+CC       and phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P2) (By
+CC       similarity). {ECO:0000250}.
+CC   -!- PTM: Phosphorylation at Thr-613 by PRKCZ/aPKC in polarized epithelial
+CC       cells inhibits the kinase activity (By similarity). Phosphorylated at
+CC       Thr-215 by STK11/LKB1 in complex with STE20-related adapter-alpha
+CC       (STRADA) pseudo kinase and CAB39. Phosphorylation at Thr-215 by TAOK1
+CC       activates the kinase activity, leading to phosphorylation and
+CC       detachment of MAPT/TAU from microtubules. Phosphorylation at Ser-219 by
+CC       GSK3-beta (GSK3B) inhibits the kinase activity. {ECO:0000250,
+CC       ECO:0000269|PubMed:14517247, ECO:0000269|PubMed:9108484}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK Ser/Thr
+CC       protein kinase family. SNF1 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z83868; CAB06294.1; -; mRNA.
+DR   RefSeq; NP_446399.1; NM_053947.1.
+DR   AlphaFoldDB; O08678; -.
+DR   SMR; O08678; -.
+DR   BioGRID; 250617; 1.
+DR   STRING; 10116.ENSRNOP00000003198; -.
+DR   iPTMnet; O08678; -.
+DR   PhosphoSitePlus; O08678; -.
+DR   PaxDb; 10116-ENSRNOP00000003198; -.
+DR   GeneID; 117016; -.
+DR   KEGG; rno:117016; -.
+DR   UCSC; RGD:619882; rat.
+DR   AGR; RGD:619882; -.
+DR   CTD; 4139; -.
+DR   RGD; 619882; Mark1.
+DR   VEuPathDB; HostDB:ENSRNOG00000002339; -.
+DR   eggNOG; KOG0586; Eukaryota.
+DR   HOGENOM; CLU_000288_157_5_1; -.
+DR   InParanoid; O08678; -.
+DR   OrthoDB; 5475340at2759; -.
+DR   PhylomeDB; O08678; -.
+DR   PRO; PR:O08678; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000002339; Expressed in frontal cortex and 20 other cell types or tissues.
+DR   ExpressionAtlas; O08678; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005856; C:cytoskeleton; IDA:UniProtKB.
+DR   GO; GO:0030425; C:dendrite; ISS:UniProtKB.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0098794; C:postsynapse; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0070300; F:phosphatidic acid binding; ISS:UniProtKB.
+DR   GO; GO:0005546; F:phosphatidylinositol-4,5-bisphosphate binding; ISS:UniProtKB.
+DR   GO; GO:0001786; F:phosphatidylserine binding; ISS:UniProtKB.
+DR   GO; GO:0004672; F:protein kinase activity; IDA:RGD.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0050321; F:tau-protein kinase activity; IDA:UniProtKB.
+DR   GO; GO:0007010; P:cytoskeleton organization; IDA:UniProtKB.
+DR   GO; GO:0051654; P:establishment of mitochondrion localization; ISO:RGD.
+DR   GO; GO:0035556; P:intracellular signal transduction; IDA:UniProtKB.
+DR   GO; GO:0000226; P:microtubule cytoskeleton organization; IBA:GO_Central.
+DR   GO; GO:0010719; P:negative regulation of epithelial to mesenchymal transition; ISO:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:0001764; P:neuron migration; IDA:UniProtKB.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:0006468; P:protein phosphorylation; IDA:UniProtKB.
+DR   GO; GO:0050773; P:regulation of dendrite development; ISO:RGD.
+DR   GO; GO:0010975; P:regulation of neuron projection development; ISO:RGD.
+DR   GO; GO:0150052; P:regulation of postsynapse assembly; ISO:RGD.
+DR   GO; GO:0016055; P:Wnt signaling pathway; IEA:UniProtKB-KW.
+DR   CDD; cd12196; MARK1-3_C; 1.
+DR   CDD; cd14072; STKc_MARK; 1.
+DR   CDD; cd14405; UBA_MARK1; 1.
+DR   Gene3D; 1.10.8.10; DNA helicase RuvA subunit, C-terminal domain; 1.
+DR   Gene3D; 3.30.310.80; Kinase associated domain 1, KA1; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR028375; KA1/Ssp2_C.
+DR   InterPro; IPR001772; KA1_dom.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR049508; MARK1-4_cat.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   InterPro; IPR015940; UBA.
+DR   PANTHER; PTHR24346; MAP/MICROTUBULE AFFINITY-REGULATING KINASE; 1.
+DR   PANTHER; PTHR24346:SF21; SERINE_THREONINE-PROTEIN KINASE MARK1; 1.
+DR   Pfam; PF02149; KA1; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00627; UBA; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SMART; SM00165; UBA; 1.
+DR   SUPFAM; SSF103243; KA1-like; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS50032; KA1; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS50030; UBA; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell membrane; Cell projection; Cytoplasm; Cytoskeleton;
+KW   Kinase; Lipid-binding; Magnesium; Membrane; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Reference proteome;
+KW   Serine/threonine-protein kinase; Transferase; Wnt signaling pathway.
+FT   CHAIN           1..793
+FT                   /note="Serine/threonine-protein kinase MARK1"
+FT                   /id="PRO_0000086300"
+FT   DOMAIN          60..311
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   DOMAIN          329..370
+FT                   /note="UBA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00212"
+FT   DOMAIN          744..793
+FT                   /note="KA1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00565"
+FT   REGION          1..40
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          377..499
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          517..697
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        22..40
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        381..423
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        444..459
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        485..499
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        517..563
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        586..614
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        679..697
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        182
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H0K1,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00159, ECO:0000255|PROSITE-
+FT                   ProRule:PRU10027"
+FT   BINDING         66..74
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H0K1,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         89
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000269|PubMed:9108484"
+FT   MOD_RES         5
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9P0L2"
+FT   MOD_RES         208
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9P0L2"
+FT   MOD_RES         215
+FT                   /note="Phosphothreonine; by LKB1 and TAOK1"
+FT                   /evidence="ECO:0000269|PubMed:14517247,
+FT                   ECO:0000269|PubMed:9108484"
+FT   MOD_RES         219
+FT                   /note="Phosphoserine; by GSK3-beta"
+FT                   /evidence="ECO:0000269|PubMed:14517247,
+FT                   ECO:0000269|PubMed:9108484"
+FT   MOD_RES         382
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VHJ5"
+FT   MOD_RES         390
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VHJ5"
+FT   MOD_RES         393
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VHJ5"
+FT   MOD_RES         403
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9P0L2"
+FT   MOD_RES         423
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VHJ5"
+FT   MOD_RES         444
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         475
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VHJ5"
+FT   MOD_RES         588
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9P0L2"
+FT   MOD_RES         613
+FT                   /note="Phosphothreonine; by PKC/PRKCZ"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         666
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VHJ5"
+FT   MUTAGEN         89
+FT                   /note="K->R: Loss of kinase activity."
+FT                   /evidence="ECO:0000269|PubMed:9108484"
+FT   MUTAGEN         215
+FT                   /note="T->A: Abolishes activation of serine/threonine-
+FT                   protein kinase activity and only basal activity remains."
+FT                   /evidence="ECO:0000269|PubMed:14517247,
+FT                   ECO:0000269|PubMed:9108484"
+FT   MUTAGEN         215
+FT                   /note="T->A: Loss of kinase activity."
+FT                   /evidence="ECO:0000269|PubMed:14517247,
+FT                   ECO:0000269|PubMed:9108484"
+FT   MUTAGEN         215
+FT                   /note="T->E: Induces an increase of the basal
+FT                   serine/threonine-protein kinase activity."
+FT                   /evidence="ECO:0000269|PubMed:14517247,
+FT                   ECO:0000269|PubMed:9108484"
+FT   MUTAGEN         219
+FT                   /note="S->A,E: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:14517247,
+FT                   ECO:0000269|PubMed:9108484"
+FT   MUTAGEN         219
+FT                   /note="S->A: Loss of kinase activity."
+FT                   /evidence="ECO:0000269|PubMed:14517247,
+FT                   ECO:0000269|PubMed:9108484"
+SQ   SEQUENCE   793 AA;  88235 MW;  C5BCCACE0BB9A0A3 CRC64;
+     MSARTPLPTV NERDTENHTS VDGYTETHIP PTKSSSRQNI PRCRNSITSA TDEQPHIGNY
+     RLQKTIGKGN FAKVKLARHV LTGREVAVKI IDKTQLNPTS LQKLFREVRI MKILNHPNIV
+     KLFEVIETEK TLYLVMEYAS GGEVFDYLVA HGRMKEKEAR AKFRQIVSAV QYCHQKCIVH
+     RDLKAENLLL DADMNIKIAD FGFSNEFTVG NKLDTFCGSP PYAAPELFQG KKYDGPEVDV
+     WSLGVILYTL VSGSLPFDGQ NLKELRERVL RGKYRVPFYM STDCENLLKK LLVLNPIKRG
+     SLEQIMKDRW MNVGHEEEEL KPYSEPELDL NDAKRIDIMV TMGFARDEIN DALVSQKYDE
+     VMATYILLGR KPPEFEGGES LSSGNLCQRS RPSSDLNNST LQSPAHLKVQ RSISANQKQR
+     RFSDHAGPSI PPAVSYTKRP QANSVESEQK EEWDKDTARR LGSTTVGSKS EVTASPLVGP
+     DRKKSSAGPS NNVYSGGSMT RRNTYVCERS TDRYAALQNG RDSSLTEMSA SSMSSTGSTV
+     ASAGPSARPR HQKSMSTSGH PIKVTLPTIK DGSEAYRPGT AQRVPAASPS AHSISASTPD
+     RTRFPRGSSS RSTFHGEQLR ERRSAAYSGP PASPSHDTAA LAHARRGTST GIISKITSKF
+     VRRDPSEGEA SGRTDTARGS SGEPKDKEEG KEAKPRSLRF TWSMKTTSSM DPNDMVREIR
+     KVLDANTCDY EQRERFLLFC VHGDARQDSL VQWEMEVCKL PRLSLNGVRF KRISGTSIAF
+     KNIASKIANE LKL
+//

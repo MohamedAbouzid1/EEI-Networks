@@ -1,0 +1,226 @@
+ID   S28A3_RAT               Reviewed;         705 AA.
+AC   Q8VIH3;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   02-OCT-2024, entry version 109.
+DE   RecName: Full=Solute carrier family 28 member 3;
+DE   AltName: Full=Concentrative Na(+)-nucleoside cotransporter 3 {ECO:0000303|Ref.1};
+DE            Short=CNT 3 {ECO:0000303|Ref.1};
+DE            Short=rCNT3 {ECO:0000303|Ref.1};
+GN   Name=Slc28a3; Synonyms=Cnt3 {ECO:0000303|Ref.1};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Pancreas;
+RA   Yao S.Y.M., Ng A.M.L., Loewen S.K., Cass C.E., Baldwin S.A., Young J.D.;
+RT   "A rat concentrative Na+-nucleoside cotransporter protein (Cnt3) broadly
+RT   selective for purine and pyrimidine nucleosides (system cib).";
+RL   Submitted (OCT-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=16014043; DOI=10.1111/j.1523-1755.2005.00444.x;
+RA   Rodriguez-Mulero S., Errasti-Murugarren E., Ballarin J., Felipe A.,
+RA   Doucet A., Casado F.J., Pastor-Anglada M.;
+RT   "Expression of concentrative nucleoside transporters SLC28 (CNT1, CNT2, and
+RT   CNT3) along the rat nephron: effect of diabetes.";
+RL   Kidney Int. 68:665-672(2005).
+CC   -!- FUNCTION: Sodium-dependent, pyrimidine- and purine-selective. Involved
+CC       in the homeostasis of endogenous nucleosides. Exhibits the transport
+CC       characteristics of the nucleoside transport system cib or N3 subtype
+CC       (N3/cib) (with marked transport of both thymidine and inosine). Employs
+CC       a 2:1 sodium/nucleoside ratio. Also able to transport gemcitabine, 3'-
+CC       azido-3'-deoxythymidine (AZT), ribavirin and 3-deazauridine.
+CC       {ECO:0000250|UniProtKB:Q9HAS3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + thymidine(out) = 2 Na(+)(in) + thymidine(in);
+CC         Xref=Rhea:RHEA:69899, ChEBI:CHEBI:17748, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAS3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(out) + 2 Na(+)(out) = cytidine(in) + 2 Na(+)(in);
+CC         Xref=Rhea:RHEA:69903, ChEBI:CHEBI:17562, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAS3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + uridine(out) = 2 Na(+)(in) + uridine(in);
+CC         Xref=Rhea:RHEA:69907, ChEBI:CHEBI:16704, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAS3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(out) + 2 Na(+)(out) = adenosine(in) + 2 Na(+)(in);
+CC         Xref=Rhea:RHEA:69911, ChEBI:CHEBI:16335, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAS3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(out) + 2 Na(+)(out) = guanosine(in) + 2 Na(+)(in);
+CC         Xref=Rhea:RHEA:69915, ChEBI:CHEBI:16750, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAS3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=inosine(out) + 2 Na(+)(out) = inosine(in) + 2 Na(+)(in);
+CC         Xref=Rhea:RHEA:69919, ChEBI:CHEBI:17596, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAS3};
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000250|UniProtKB:Q9HAS3}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q9HAS3};
+CC       Multi-pass membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in kidney; in the proximal tubule,
+CC       glomerulus and cortical collecting duct. {ECO:0000269|PubMed:16014043}.
+CC   -!- SIMILARITY: Belongs to the concentrative nucleoside transporter (CNT)
+CC       (TC 2.A.41) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY059414; AAL27091.1; -; mRNA.
+DR   RefSeq; NP_543184.1; NM_080908.1.
+DR   AlphaFoldDB; Q8VIH3; -.
+DR   SMR; Q8VIH3; -.
+DR   STRING; 10116.ENSRNOP00000025745; -.
+DR   PhosphoSitePlus; Q8VIH3; -.
+DR   PaxDb; 10116-ENSRNOP00000025745; -.
+DR   GeneID; 140944; -.
+DR   KEGG; rno:140944; -.
+DR   UCSC; RGD:621224; rat.
+DR   AGR; RGD:621224; -.
+DR   CTD; 64078; -.
+DR   RGD; 621224; Slc28a3.
+DR   eggNOG; KOG3747; Eukaryota.
+DR   InParanoid; Q8VIH3; -.
+DR   OrthoDB; 1333063at2759; -.
+DR   PhylomeDB; Q8VIH3; -.
+DR   Reactome; R-RNO-83936; Transport of nucleosides and free purine and pyrimidine bases across the plasma membrane.
+DR   Reactome; R-RNO-9748787; Azathioprine ADME.
+DR   Reactome; R-RNO-9755088; Ribavirin ADME.
+DR   PRO; PR:Q8VIH3; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0031526; C:brush border membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0015390; F:purine-specific nucleoside:sodium symporter activity; ISO:RGD.
+DR   GO; GO:0015389; F:pyrimidine- and adenosine-specific:sodium symporter activity; ISO:RGD.
+DR   GO; GO:0015213; F:uridine transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:1901642; P:nucleoside transmembrane transport; ISO:RGD.
+DR   GO; GO:0015860; P:purine nucleoside transmembrane transport; ISO:RGD.
+DR   GO; GO:0015864; P:pyrimidine nucleoside transport; ISO:RGD.
+DR   GO; GO:0072531; P:pyrimidine-containing compound transmembrane transport; ISO:RGD.
+DR   GO; GO:0001895; P:retina homeostasis; IDA:RGD.
+DR   GO; GO:0015862; P:uridine transmembrane transport; ISO:RGD.
+DR   InterPro; IPR008276; C_nuclsd_transpt.
+DR   InterPro; IPR018270; C_nuclsd_transpt_met_bac.
+DR   InterPro; IPR011657; CNT_C_dom.
+DR   InterPro; IPR002668; CNT_N_dom.
+DR   InterPro; IPR011642; Gate_dom.
+DR   NCBIfam; TIGR00804; nupC; 1.
+DR   PANTHER; PTHR10590; SODIUM/NUCLEOSIDE COTRANSPORTER; 1.
+DR   PANTHER; PTHR10590:SF4; SOLUTE CARRIER FAMILY 28 MEMBER 3; 1.
+DR   Pfam; PF07670; Gate; 1.
+DR   Pfam; PF07662; Nucleos_tra2_C; 1.
+DR   Pfam; PF01773; Nucleos_tra2_N; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Membrane; Reference proteome; Symport; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..705
+FT                   /note="Solute carrier family 28 member 3"
+FT                   /id="PRO_0000324148"
+FT   TOPO_DOM        1..119
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        120..140
+FT                   /note="Helical; Name=TM1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        141..145
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        146..166
+FT                   /note="Helical; Name=TM2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        167..190
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        191..211
+FT                   /note="Helical; Name=TM3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        212..214
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        215..236
+FT                   /note="Helical; Name=TM4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        237..244
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        245..264
+FT                   /note="Helical; Name=TM5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        265..301
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        302..322
+FT                   /note="Helical; Name=TM6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        323..346
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   INTRAMEM        347..365
+FT                   /note="Helical; Name=HP1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        366..378
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        379..401
+FT                   /note="Helical; Name=TM7"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        402..403
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        404..425
+FT                   /note="Helical; Name=TM8"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        426..460
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        461..486
+FT                   /note="Helical; Name=TM9"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        487..524
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   INTRAMEM        525..544
+FT                   /note="Helical; Name=HP2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        545..583
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        584..594
+FT                   /note="Helical; Name=TM10"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        595..607
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        608..630
+FT                   /note="Helical; Name=TM11"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HAS3"
+FT   TOPO_DOM        631..705
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   REGION          1..96
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        45..63
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        64..96
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   705 AA;  78374 MW;  5DF4B4AC3C416BE6 CRC64;
+     MSRSDPDPGK NSEPSKSKMS LELRPTAPSD QGRLNEAFQD EDLEEQNAPG NSTVRSRVVQ
+     SGEQGRAKQD DRQITIEQEP LGPKEGTEEE SEDERQKGFL ERKYDTVCEF CRKHRVILQH
+     TIWAVLLTGF LALVIAACAL NFHRALPLFV ITLVTIFFVV WDRLMAKYEQ RIDDVLSPGK
+     RLLERHWFWL KWVVWCSLIL AVILWLALDT ARLGQQQLIS FGGLVMYIVL LFLFSKHPTR
+     VYWRPVFWGI GLQFLLGLLI LRTRPGFVAF DWMGKQVQTF LGYTDAGAQF VFGEKYTDHF
+     FAFKILPIVV FFSTVMSMLY YLGLMQWIIR KVGWLMLVTM GSSPIESVVA AGNIFVGQTE
+     SPLLVQPYLP HVTKSELHTI MTAGFATIAG SVLGAYISFG VSSTHLLTAS VMSAPAALAV
+     AKLFWPETEK PKITLKNAMK MENGDSRNLL EAATQGASSS IPLVANIAAN LIAFLALLSF
+     VNSALSWFGS MFDYPQLSFE LICSYIFMPF SFMMGVDWQD RFMVAKLIGY KTFFNEFVAY
+     EHLSKFINLR KAAGPKFVNG VQQYMSIRSE TIATYALCGF ANFGSLGIVI GGLTSIAPSR
+     KRDIASGAMR ALIAGTIACF MTACIAGMLS DTPVAINCHH VLESSKVLSN TTEVASCCQG
+     LFNSTVARGP NDVLPGGNFS LYTLKSCCNL LKPPTLNCGW IPNIP
+//

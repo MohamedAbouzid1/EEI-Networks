@@ -1,0 +1,160 @@
+ID   ACPH_RAT                Reviewed;         732 AA.
+AC   P13676; P14320; P70479;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1990, sequence version 1.
+DT   08-NOV-2023, entry version 148.
+DE   RecName: Full=Acylamino-acid-releasing enzyme;
+DE            Short=AARE;
+DE            EC=3.4.19.1 {ECO:0000269|PubMed:3305492};
+DE   AltName: Full=Acyl-peptide hydrolase;
+DE            Short=APH;
+DE   AltName: Full=Acylaminoacyl-peptidase;
+GN   Name=Apeh;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=2722805; DOI=10.1016/s0021-9258(18)81877-4;
+RA   Kobayashi K., Lin L.-W., Yeadon J.E., Klickstein L.B., Smith J.A.;
+RT   "Cloning and sequence analysis of a rat liver cDNA encoding acyl-peptide
+RT   hydrolase.";
+RL   J. Biol. Chem. 264:8892-8899(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=2578023; DOI=10.1093/nar/17.11.4397;
+RA   Lin L.-W., Lee F.J.S., Smith J.A.;
+RT   "Structural organization of the rat acyl-peptide hydrolase gene.";
+RL   Nucleic Acids Res. 17:4397-4400(1989).
+RN   [3]
+RP   BLOCKAGE OF N-TERMINUS, FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=3305492; DOI=10.1016/s0021-9258(18)60825-7;
+RA   Kobayashi K., Smith J.A.;
+RT   "Acyl-peptide hydrolase from rat liver. Characterization of enzyme
+RT   reaction.";
+RL   J. Biol. Chem. 262:11435-11445(1987).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-187, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: This enzyme catalyzes the hydrolysis of the N-terminal
+CC       peptide bond of an N-acetylated peptide to generate an N-acetylated
+CC       amino acid and a peptide with a free N-terminus (PubMed:3305492). It
+CC       preferentially cleaves off Ac-Ala, Ac-Met and Ac-Ser (PubMed:3305492).
+CC       Also, involved in the degradation of oxidized and glycated proteins (By
+CC       similarity). {ECO:0000250|UniProtKB:P13798,
+CC       ECO:0000269|PubMed:3305492}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Cleavage of an N-acetyl or N-formyl amino acid from the N-
+CC         terminus of a polypeptide.; EC=3.4.19.1;
+CC         Evidence={ECO:0000269|PubMed:3305492};
+CC   -!- ACTIVITY REGULATION: Homotetramerization is required for activity.
+CC       Tetramerization results in the formation of a gated channel which is
+CC       involved in substrate selection and substrate access to the catalytic
+CC       sites. {ECO:0000250|UniProtKB:P19205}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:P80227}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P13798}.
+CC   -!- SIMILARITY: Belongs to the peptidase S9C family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J04733; AAA88506.1; -; mRNA.
+DR   EMBL; X14915; CAA33040.1; ALT_SEQ; Genomic_DNA.
+DR   PIR; A33706; S07624.
+DR   RefSeq; NP_036632.1; NM_012500.1.
+DR   AlphaFoldDB; P13676; -.
+DR   SMR; P13676; -.
+DR   STRING; 10116.ENSRNOP00000043843; -.
+DR   ESTHER; ratno-acph; ACPH_Peptidase_S9.
+DR   iPTMnet; P13676; -.
+DR   PhosphoSitePlus; P13676; -.
+DR   jPOST; P13676; -.
+DR   PaxDb; 10116-ENSRNOP00000043843; -.
+DR   GeneID; 24206; -.
+DR   KEGG; rno:24206; -.
+DR   UCSC; RGD:2125; rat.
+DR   AGR; RGD:2125; -.
+DR   CTD; 327; -.
+DR   RGD; 2125; Apeh.
+DR   eggNOG; KOG2100; Eukaryota.
+DR   InParanoid; P13676; -.
+DR   OrthoDB; 2877590at2759; -.
+DR   PhylomeDB; P13676; -.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   Reactome; R-RNO-72764; Eukaryotic Translation Termination.
+DR   PRO; PR:P13676; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0008242; F:omega peptidase activity; ISO:RGD.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; ISO:RGD.
+DR   GO; GO:0050435; P:amyloid-beta metabolic process; ISO:RGD.
+DR   GO; GO:0006508; P:proteolysis; ISO:RGD.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   Gene3D; 2.120.10.30; TolB, C-terminal domain; 1.
+DR   InterPro; IPR011042; 6-blade_b-propeller_TolB-like.
+DR   InterPro; IPR045550; AARE_N.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR002471; Pept_S9_AS.
+DR   InterPro; IPR001375; Peptidase_S9.
+DR   PANTHER; PTHR42776:SF4; ACYLAMINO-ACID-RELEASING ENZYME; 1.
+DR   PANTHER; PTHR42776; SERINE PEPTIDASE S9 FAMILY MEMBER; 1.
+DR   Pfam; PF19283; APEH_N; 1.
+DR   Pfam; PF00326; Peptidase_S9; 1.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+DR   SUPFAM; SSF50993; Peptidase/esterase 'gauge' domain; 1.
+DR   PROSITE; PS00708; PRO_ENDOPEP_SER; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Hydrolase; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..732
+FT                   /note="Acylamino-acid-releasing enzyme"
+FT                   /id="PRO_0000122434"
+FT   ACT_SITE        587
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10084"
+FT   ACT_SITE        675
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10084"
+FT   ACT_SITE        707
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10084"
+FT   MOD_RES         1
+FT                   /note="Blocked amino end (Met); alternate"
+FT                   /evidence="ECO:0000269|PubMed:2722805"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P13798"
+FT   MOD_RES         185
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P13798"
+FT   MOD_RES         187
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CONFLICT        625..628
+FT                   /note="IPDW -> M (in Ref. 2; CAA33040)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   732 AA;  81384 MW;  43F234879E10235B CRC64;
+     MERQVLLSEP QEAAALYRGL SRQPSLSAAC LGPEVTTQYG GLYRTVHTEW TQRDLERMEN
+     IRFCRQYLVF HDGDSVVFAG PAGNSVETRG ELLSRESPSG TMKAVLRKAG GTVSGEEKQF
+     LEVWEKNRKL KSFNLSALEK HGPVYEDDCF GCLSWSHSET HLLYVAEKKR PKAESFFQTK
+     ALDISASDDE MARPKKPDQA IKGDQFVFYE DWGETMVSKS IPVLCVLDID SGNISVLEGV
+     PENVSPGQAF WAPGDTGVVF VGWWHEPFRL GIRYCTNRRS ALYYVDLSGG KCELLSDGSL
+     AICSPRLSPD QCRIVYLQYP CLAPHHQCSQ LCLYDWYTKV TSVVVDIVPR QLGESFSGIY
+     CSLLPLGCWS ADSQRVVFDS AQRSRQDLFA VDTQTGSITS LTAAGSAGSW KLLTIDKDLM
+     VAQFSTPSLP PSLKVGFLPP PGKEQSVSWV SLEEAEPIPG IHWGVRVLHP PPDQENVQYA
+     DLDFEAILLQ PSNPPDKTQV PMVVMPHGGP HSSFVTAWML FPAMLCKMGF AVLLVNYRGS
+     TGFGQDSILS LPGNVGHQDV KDVQFAVEQV LQEEHFDARR VALMGGSHGG FLSCHLIGQY
+     PETYSACIAR NPVINIASMM GSTDIPDWCM VETGFPYSNS CLPDLNVWEE MLDKSPIKYI
+     PQVKTPVLLM LGQEDRRVPF KQGMEYYRAL KARNVPVRLL LYPKSNHALS EVEAESDSFM
+     NAVLWLHTHL GS
+//

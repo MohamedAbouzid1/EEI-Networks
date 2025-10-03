@@ -1,0 +1,288 @@
+ID   ACSL5_RAT               Reviewed;         683 AA.
+AC   O88813;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   24-JAN-2024, entry version 139.
+DE   RecName: Full=Long-chain-fatty-acid--CoA ligase 5 {ECO:0000305};
+DE            EC=6.2.1.3 {ECO:0000269|PubMed:28209804};
+DE   AltName: Full=Arachidonate--CoA ligase {ECO:0000305};
+DE            EC=6.2.1.15 {ECO:0000269|PubMed:28209804};
+DE   AltName: Full=Long-chain acyl-CoA synthetase 5;
+DE            Short=LACS 5;
+GN   Name=Acsl5 {ECO:0000312|RGD:69402}; Synonyms=Acs5, Facl5;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND TISSUE SPECIFICITY.
+RX   PubMed=9722683; DOI=10.1093/oxfordjournals.jbchem.a022165;
+RA   Oikawa E., Iijima H., Suzuki T., Sasano H., Sato H., Kamataki A.,
+RA   Nagura H., Kang M.-J., Fujino T., Suzuki H., Yamamoto T.T.;
+RT   "A novel acyl-CoA synthetase, ACS5, expressed in intestinal epithelial
+RT   cells and proliferating preadipocytes.";
+RL   J. Biochem. 124:679-685(1998).
+RN   [2]
+RP   BIOPHYSICOCHEMICAL PROPERTIES.
+RC   TISSUE=Brain;
+RX   PubMed=15683247; DOI=10.1021/bi047721l;
+RA   Van Horn C.G., Caviglia J.M., Li L.O., Wang S., Granger D.A., Coleman R.A.;
+RT   "Characterization of recombinant long-chain rat acyl-CoA synthetase
+RT   isoforms 3 and 6: identification of a novel variant of isoform 6.";
+RL   Biochemistry 44:1635-1642(2005).
+RN   [3]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND INDUCTION.
+RX   PubMed=16263710; DOI=10.1074/jbc.m507646200;
+RA   Mashek D.G., McKenzie M.A., Van Horn C.G., Coleman R.A.;
+RT   "Rat long chain acyl-CoA synthetase 5 increases fatty acid uptake and
+RT   partitioning to cellular triacylglycerol in McArdle-RH7777 cells.";
+RL   J. Biol. Chem. 281:945-950(2006).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=17761945; DOI=10.1161/atvbaha.107.148429;
+RA   Zhou Y., Abidi P., Kim A., Chen W., Huang T.-T., Kraemer F.B., Liu J.;
+RT   "Transcriptional activation of hepatic ACSL3 and ACSL5 by oncostatin m
+RT   reduces hypertriglyceridemia through enhanced beta-oxidation.";
+RL   Arterioscler. Thromb. Vasc. Biol. 27:2198-2205(2007).
+RN   [5]
+RP   CATALYTIC ACTIVITY, FUNCTION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=28209804; DOI=10.1194/jlr.m072512;
+RA   Klett E.L., Chen S., Yechoor A., Lih F.B., Coleman R.A.;
+RT   "Long-chain acyl-CoA synthetase isoforms differ in preferences for
+RT   eicosanoid species and long-chain fatty acids.";
+RL   J. Lipid Res. 58:884-894(2017).
+RN   [6]
+RP   ERRATUM OF PUBMED:28209804.
+RX   PubMed=29196521; DOI=10.1194/jlr.m072512err;
+RA   Klett E.L., Chen S., Yechoor A., Lih F.B., Coleman R.A.;
+RL   J. Lipid Res. 58:2365-2365(2017).
+CC   -!- FUNCTION: Catalyzes the conversion of long-chain fatty acids to their
+CC       active form acyl-CoAs for both synthesis of cellular lipids, and
+CC       degradation via beta-oxidation (PubMed:28209804). ACSL5 may sensitize
+CC       epithelial cells to apoptosis specifically triggered by the death
+CC       ligand TRAIL at the villus tip of the crypt-villus axis of the small
+CC       intestine (By similarity). May have a role in the survival of glioma
+CC       cells (By similarity). May activate fatty acids from exogenous sources
+CC       for the synthesis of triacylglycerol destined for intracellular
+CC       storage. It was suggested that it may also stimulate fatty acid
+CC       oxidation. Utilizes a wide range of saturated fatty acids with a
+CC       preference for C16-C18 unsaturated fatty acids. {ECO:0000250,
+CC       ECO:0000269|PubMed:16263710, ECO:0000269|PubMed:17761945,
+CC       ECO:0000269|PubMed:28209804, ECO:0000269|PubMed:9722683}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a long-chain fatty acid + ATP + CoA = a long-chain fatty acyl-
+CC         CoA + AMP + diphosphate; Xref=Rhea:RHEA:15421, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57287, ChEBI:CHEBI:57560,
+CC         ChEBI:CHEBI:83139, ChEBI:CHEBI:456215; EC=6.2.1.3;
+CC         Evidence={ECO:0000269|PubMed:28209804};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15422;
+CC         Evidence={ECO:0000305|PubMed:28209804};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5Z,8Z,11Z,14Z)-eicosatetraenoate + ATP + CoA =
+CC         (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA + AMP + diphosphate;
+CC         Xref=Rhea:RHEA:19713, ChEBI:CHEBI:30616, ChEBI:CHEBI:32395,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57287, ChEBI:CHEBI:57368,
+CC         ChEBI:CHEBI:456215; EC=6.2.1.15;
+CC         Evidence={ECO:0000269|PubMed:28209804};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19714;
+CC         Evidence={ECO:0000305|PubMed:28209804};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=15-hydroxy-(5Z,8Z,11Z,13E)-eicosatetraenoate + ATP + CoA = 15-
+CC         hydroxy-(5Z,8Z,11Z,13E)-eicosatetraenoyl-CoA + AMP + diphosphate;
+CC         Xref=Rhea:RHEA:52116, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:78832, ChEBI:CHEBI:136409,
+CC         ChEBI:CHEBI:456215; Evidence={ECO:0000269|PubMed:28209804};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52117;
+CC         Evidence={ECO:0000305|PubMed:28209804};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=12-hydroxy-(5Z,8Z,10E,14Z)-eicosatetraenoate + ATP + CoA = 12-
+CC         hydroxy-(5Z,8Z,10E,14Z)-eicosatetraenoyl-CoA + AMP + diphosphate;
+CC         Xref=Rhea:RHEA:52112, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:90718, ChEBI:CHEBI:136408,
+CC         ChEBI:CHEBI:456215; Evidence={ECO:0000269|PubMed:28209804};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52113;
+CC         Evidence={ECO:0000305|PubMed:28209804};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-hydroxy-(6E,8Z,11Z,14Z)-eicosatetraenoate + ATP + CoA = 5-
+CC         hydroxy-(6E,8Z,11Z,14Z)-eicosatetraenoyl-CoA + AMP + diphosphate;
+CC         Xref=Rhea:RHEA:52108, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:65341, ChEBI:CHEBI:136407,
+CC         ChEBI:CHEBI:456215; Evidence={ECO:0000269|PubMed:28209804};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52109;
+CC         Evidence={ECO:0000305|PubMed:28209804};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=14,15-epoxy-(5Z,8Z,11Z)-eicosatrienoate + ATP + CoA = 14,15-
+CC         epoxy-(5Z,8Z,11Z)-eicosatrienoyl-CoA + AMP + diphosphate;
+CC         Xref=Rhea:RHEA:52016, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:84024, ChEBI:CHEBI:136117,
+CC         ChEBI:CHEBI:456215; Evidence={ECO:0000269|PubMed:28209804};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52017;
+CC         Evidence={ECO:0000305|PubMed:28209804};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=11,12-epoxy-(5Z,8Z,14Z)-eicosatrienoate + ATP + CoA = 11,12-
+CC         epoxy-(5Z,8Z,14Z)-eicosatrienoyl-CoA + AMP + diphosphate;
+CC         Xref=Rhea:RHEA:52012, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:76625, ChEBI:CHEBI:136115,
+CC         ChEBI:CHEBI:456215; Evidence={ECO:0000269|PubMed:28209804};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52013;
+CC         Evidence={ECO:0000305|PubMed:28209804};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + CoA + hexadecanoate = AMP + diphosphate + hexadecanoyl-
+CC         CoA; Xref=Rhea:RHEA:30751, ChEBI:CHEBI:7896, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57287, ChEBI:CHEBI:57379,
+CC         ChEBI:CHEBI:456215; Evidence={ECO:0000250|UniProtKB:Q9ULC5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:30752;
+CC         Evidence={ECO:0000250|UniProtKB:Q9ULC5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(E)-hexadec-2-enoate + ATP + CoA = (2E)-hexadecenoyl-CoA + AMP
+CC         + diphosphate; Xref=Rhea:RHEA:36139, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57287, ChEBI:CHEBI:61526,
+CC         ChEBI:CHEBI:72745, ChEBI:CHEBI:456215;
+CC         Evidence={ECO:0000250|UniProtKB:Q9ULC5};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36140;
+CC         Evidence={ECO:0000250|UniProtKB:Q9ULC5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-octadecenoate + ATP + CoA = (9Z)-octadecenoyl-CoA + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:33607, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:30823, ChEBI:CHEBI:33019, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57387, ChEBI:CHEBI:456215;
+CC         Evidence={ECO:0000269|PubMed:28209804};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:33608;
+CC         Evidence={ECO:0000305|PubMed:28209804};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=666 uM for ATP {ECO:0000269|PubMed:15683247};
+CC         KM=2.4 uM for CoA {ECO:0000269|PubMed:15683247};
+CC         KM=8.6 uM for palmitate {ECO:0000269|PubMed:15683247};
+CC         KM=6.5 uM for palmitate (when expressed in bacteria)
+CC         {ECO:0000269|PubMed:28209804};
+CC         KM=4.4 uM for stearate (when expressed in bacteria)
+CC         {ECO:0000269|PubMed:28209804};
+CC         KM=6.3 uM for oleate (when expressed in bacteria)
+CC         {ECO:0000269|PubMed:28209804};
+CC         KM=5.8 uM for linoleate (when expressed in bacteria)
+CC         {ECO:0000269|PubMed:28209804};
+CC         KM=1.8 uM for arachidonate (when expressed in bacteria)
+CC         {ECO:0000269|PubMed:28209804};
+CC         Vmax=5053 nmol/min/mg enzyme with palmitate as substrate (when
+CC         expressed in bacteria) {ECO:0000269|PubMed:28209804};
+CC         Vmax=2164 nmol/min/mg enzyme with stearate as substrate (when
+CC         expressed in bacteria) {ECO:0000269|PubMed:28209804};
+CC         Vmax=3726 nmol/min/mg enzyme with oleate as substrate (when expressed
+CC         in bacteria) {ECO:0000269|PubMed:28209804};
+CC         Vmax=1351 nmol/min/mg enzyme with linoleate as substrate (when
+CC         expressed in bacteria) {ECO:0000269|PubMed:28209804};
+CC         Vmax=1880 nmol/min/mg enzyme with arachidonate as substrate (when
+CC         expressed in bacteria) {ECO:0000269|PubMed:28209804};
+CC         Vmax=130 nmol/min/mg enzyme with palmitate as substrate
+CC         {ECO:0000269|PubMed:15683247};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000269|PubMed:16263710}.
+CC       Endoplasmic reticulum {ECO:0000269|PubMed:16263710}. Mitochondrion
+CC       outer membrane {ECO:0000250}; Single-pass type III membrane protein
+CC       {ECO:0000250}. Endoplasmic reticulum membrane {ECO:0000250}; Single-
+CC       pass type III membrane protein {ECO:0000250}. Cell membrane
+CC       {ECO:0000250|UniProtKB:Q9ULC5}.
+CC   -!- TISSUE SPECIFICITY: Expressed most abundantly in the small intestine,
+CC       and to a much lesser extent in the lung, liver, adrenal gland, adipose
+CC       tissue and kidney. {ECO:0000269|PubMed:9722683}.
+CC   -!- INDUCTION: Expression decreases in response to fast and increases after
+CC       high sucrose diet. {ECO:0000269|PubMed:16263710}.
+CC   -!- MISCELLANEOUS: 5 rat isozymes encoded by different genes have been
+CC       described. ACSL6 corresponds to isozyme 2 (ACS2).
+CC       {ECO:0000303|PubMed:15683247}.
+CC   -!- SIMILARITY: Belongs to the ATP-dependent AMP-binding enzyme family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB012933; BAA33581.1; -; mRNA.
+DR   PIR; JE0262; JE0262.
+DR   RefSeq; NP_446059.1; NM_053607.1.
+DR   AlphaFoldDB; O88813; -.
+DR   SMR; O88813; -.
+DR   IntAct; O88813; 1.
+DR   STRING; 10116.ENSRNOP00000022126; -.
+DR   SwissLipids; SLP:000001685; -.
+DR   iPTMnet; O88813; -.
+DR   PhosphoSitePlus; O88813; -.
+DR   PaxDb; 10116-ENSRNOP00000022126; -.
+DR   GeneID; 94340; -.
+DR   KEGG; rno:94340; -.
+DR   UCSC; RGD:69402; rat.
+DR   AGR; RGD:69402; -.
+DR   CTD; 51703; -.
+DR   RGD; 69402; Acsl5.
+DR   eggNOG; KOG1256; Eukaryota.
+DR   InParanoid; O88813; -.
+DR   OrthoDB; 443463at2759; -.
+DR   PhylomeDB; O88813; -.
+DR   BRENDA; 6.2.1.3; 5301.
+DR   Reactome; R-RNO-75876; Synthesis of very long-chain fatty acyl-CoAs.
+DR   SABIO-RK; O88813; -.
+DR   PRO; PR:O88813; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0047676; F:arachidonate-CoA ligase activity; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004467; F:long-chain fatty acid-CoA ligase activity; IDA:UniProtKB.
+DR   GO; GO:0090434; F:oleoyl-CoA ligase activity; ISS:UniProtKB.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; IEP:RGD.
+DR   GO; GO:0006631; P:fatty acid metabolic process; TAS:RGD.
+DR   GO; GO:0001676; P:long-chain fatty acid metabolic process; IDA:UniProtKB.
+DR   GO; GO:0035338; P:long-chain fatty-acyl-CoA biosynthetic process; IGI:RGD.
+DR   GO; GO:0010747; P:positive regulation of long-chain fatty acid import across plasma membrane; IDA:RGD.
+DR   GO; GO:0010867; P:positive regulation of triglyceride biosynthetic process; IDA:RGD.
+DR   GO; GO:0070723; P:response to cholesterol; IEP:RGD.
+DR   GO; GO:0009749; P:response to glucose; IEP:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0009744; P:response to sucrose; IEP:RGD.
+DR   CDD; cd05927; LC-FACS_euk; 1.
+DR   Gene3D; 3.40.50.12780; N-terminal domain of ligase-like; 1.
+DR   InterPro; IPR020845; AMP-binding_CS.
+DR   InterPro; IPR000873; AMP-dep_Synth/Lig_com.
+DR   InterPro; IPR042099; ANL_N_sf.
+DR   InterPro; IPR045311; LC-FACS_euk.
+DR   PANTHER; PTHR43272; LONG-CHAIN-FATTY-ACID--COA LIGASE; 1.
+DR   PANTHER; PTHR43272:SF3; LONG-CHAIN-FATTY-ACID--COA LIGASE 5; 1.
+DR   Pfam; PF00501; AMP-binding; 1.
+DR   SUPFAM; SSF56801; Acetyl-CoA synthetase-like; 1.
+DR   PROSITE; PS00455; AMP_BINDING; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Cell membrane; Endoplasmic reticulum;
+KW   Fatty acid metabolism; Ligase; Lipid metabolism; Magnesium; Membrane;
+KW   Mitochondrion; Mitochondrion outer membrane; Nucleotide-binding;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..683
+FT                   /note="Long-chain-fatty-acid--CoA ligase 5"
+FT                   /id="PRO_0000193114"
+FT   TRANSMEM        12..32
+FT                   /note="Helical; Signal-anchor for type III membrane
+FT                   protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        33..683
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         361
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8JZR0"
+SQ   SEQUENCE   683 AA;  76405 MW;  D4EC2A58FD29040C CRC64;
+     MLFIFNFLFS PLPTPALICL LTFGTAIFLW LINRPQPVLP LIDLDNQSVG IEGGARRGAF
+     QKNNDLILYY FSDAKTLYEV FQRGLAVSDN GPCLGYRKPN QPYKWISYKQ VSDRAEYLGS
+     CLLHKGYKPS QDQFIGIFAQ NRPEWVISEL ACYTYSMVAV PLYDTLGAEA IIYVINRADI
+     SVVICDTPQK ATMLIENVEK DLTPGLKTVI LMDPFDDDLM KRGEKCGIEM LSLHDAENLG
+     KENFKKPMPP NPEDLSVICF TSGTTGDPKG AMLTHQNIVS NMAAFLKFLE PIFQPTPEDV
+     TISYLPLAHM FERLVQGVIF SCGGKIGFFQ GDIRLLPDDM KALKPTVFPT VPRLLNRVYD
+     KVQNEAKTPL KKFLLNLAII SKFNEVRNGI IRRNSLWDKL VFSKIQSSLG GKVRLMITGA
+     APISTPVLTF FRAAMGCWVF EAYGQTECTA GCSITSPGDW TAGHVGTPVS CNFVKLEDVA
+     DMNYFSVNNE GEICIKGNNV FKGYLKDPEK TQEVLDKDGW LHTGDIGRWL PNGTLKIIDR
+     KKNIFKLAQG EYIAPEKIEN VYSRSRPILQ VFVHGESLRS FLIGVVVPDP ESLPSFAAKI
+     GVKGSFEELC QNQCVKKAIL EDLQKVGKEG GLKSFEQVKS IFVHPEPFSI ENGLLTPTLK
+     AKRVELAKFF QTQIKSLYES IEE
+//

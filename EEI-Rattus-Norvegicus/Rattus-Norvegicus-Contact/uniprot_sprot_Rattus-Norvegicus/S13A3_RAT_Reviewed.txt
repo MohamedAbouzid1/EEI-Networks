@@ -1,0 +1,283 @@
+ID   S13A3_RAT               Reviewed;         600 AA.
+AC   Q9Z0Z5;
+DT   19-SEP-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   29-MAY-2024, entry version 122.
+DE   RecName: Full=Na(+)/dicarboxylate cotransporter 3;
+DE            Short=NaDC-3;
+DE            Short=rNaDC3;
+DE   AltName: Full=Na(+)-coupled carboxylate transporter 3;
+DE            Short=NaC3;
+DE   AltName: Full=Sodium-dependent high-affinity dicarboxylate transporter 2 {ECO:0000303|PubMed:10207168};
+DE            Short=SDCT2 {ECO:0000303|PubMed:10207168};
+DE   AltName: Full=Solute carrier family 13 member 3;
+GN   Name=Slc13a3; Synonyms=Nadc3, Sdct2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, FUNCTION, AND TRANSPORT
+RP   ACTIVITY.
+RC   TISSUE=Placenta;
+RX   PubMed=9920886; DOI=10.1074/jbc.274.6.3422;
+RA   Kekuda R., Wang H., Huang W., Pajor A.M., Leibach F.H., Devoe L.D.,
+RA   Prasad P.D., Ganapathy V.;
+RT   "Primary structure and functional characteristics of a mammalian sodium-
+RT   coupled high affinity dicarboxylate transporter.";
+RL   J. Biol. Chem. 274:3422-3429(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, ACTIVITY REGULATION,
+RP   FUNCTION, TRANSPORT ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   STRAIN=Sprague-Dawley; TISSUE=Kidney;
+RX   PubMed=10207168; DOI=10.1172/jci5392;
+RA   Chen X., Tsukaguchi H., Chen X.-Z., Berger U.V., Hediger M.A.;
+RT   "Molecular and functional analysis of SDCT2, a novel rat sodium-dependent
+RT   dicarboxylate transporter.";
+RL   J. Clin. Invest. 103:1159-1168(1999).
+RN   [3]
+RP   FUNCTION, AND TRANSPORT ACTIVITY.
+RC   TISSUE=Placenta;
+RX   PubMed=10794676; DOI=10.1152/ajpcell.2000.278.5.c1019;
+RA   Wang H., Fei Y.-J., Kekuda R., Yang-Feng T.L., Devoe L.D., Leibach F.H.,
+RA   Prasad P.D., Ganapathy V.;
+RT   "Structure, function, and genomic organization of human Na(+)-dependent
+RT   high-affinity dicarboxylate transporter.";
+RL   Am. J. Physiol. 278:C1019-C1030(2000).
+RN   [4]
+RP   FUNCTION, TRANSPORT ACTIVITY, AND TISSUE SPECIFICITY.
+RX   PubMed=10992006;
+RA   Huang W., Wang H., Kekuda R., Fei Y.J., Friedrich A., Wang J., Conway S.J.,
+RA   Cameron R.S., Leibach F.H., Ganapathy V.;
+RT   "Transport of N-acetylaspartate by the Na(+)-dependent high-affinity
+RT   dicarboxylate transporter NaDC3 and its relevance to the expression of the
+RT   transporter in the brain.";
+RL   J. Pharmacol. Exp. Ther. 295:392-403(2000).
+RN   [5]
+RP   FUNCTION, AND TRANSPORT ACTIVITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=12177002; DOI=10.1074/jbc.m207072200;
+RA   Inoue K., Zhuang L., Maddox D.M., Smith S.B., Ganapathy V.;
+RT   "Structure, function, and expression pattern of a novel sodium-coupled
+RT   citrate transporter (NaCT) cloned from mammalian brain.";
+RL   J. Biol. Chem. 277:39469-39476(2002).
+CC   -!- FUNCTION: High-affinity sodium-dicarboxylate cotransporter that accepts
+CC       a range of substrates with 4-6 carbon atoms, such as the citric acid
+CC       cycle intermediates succinate and alpha-ketoglutarate (2-oxoglutarate),
+CC       as well as other compounds including N-acetyl-L-aspartate
+CC       (PubMed:10207168, PubMed:10794676, PubMed:10992006, PubMed:12177002,
+CC       PubMed:9920886). Transports the dicarboxylate into the cell with a
+CC       probable stoichiometry of 3 Na(+) for 1 divalent dicarboxylate,
+CC       rendering the process electrogenic (PubMed:10207168, PubMed:10992006,
+CC       PubMed:9920886). Can transport citrate in a Na(+)-dependent manner,
+CC       recognizing the divalent form of citrate rather than the trivalent form
+CC       which is normally found in blood (PubMed:10207168).
+CC       {ECO:0000269|PubMed:10207168, ECO:0000269|PubMed:10794676,
+CC       ECO:0000269|PubMed:10992006, ECO:0000269|PubMed:12177002,
+CC       ECO:0000269|PubMed:9920886}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3 Na(+)(out) + succinate(out) = 3 Na(+)(in) + succinate(in);
+CC         Xref=Rhea:RHEA:71919, ChEBI:CHEBI:29101, ChEBI:CHEBI:30031;
+CC         Evidence={ECO:0000269|PubMed:10207168, ECO:0000269|PubMed:10794676,
+CC         ECO:0000269|PubMed:10992006, ECO:0000269|PubMed:12177002,
+CC         ECO:0000269|PubMed:9920886};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate(out) + 3 Na(+)(out) = 2-oxoglutarate(in) + 3
+CC         Na(+)(in); Xref=Rhea:RHEA:71939, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:29101; Evidence={ECO:0000305|PubMed:9920886};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-acetyl-L-aspartate(out) + 3 Na(+)(out) = N-acetyl-L-
+CC         aspartate(in) + 3 Na(+)(in); Xref=Rhea:RHEA:71947, ChEBI:CHEBI:16953,
+CC         ChEBI:CHEBI:29101; Evidence={ECO:0000305|PubMed:10992006};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glutarate(out) + 3 Na(+)(out) = glutarate(in) + 3 Na(+)(in);
+CC         Xref=Rhea:RHEA:71955, ChEBI:CHEBI:29101, ChEBI:CHEBI:30921;
+CC         Evidence={ECO:0000250|UniProtKB:Q8WWT9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=fumarate(out) + 3 Na(+)(out) = fumarate(in) + 3 Na(+)(in);
+CC         Xref=Rhea:RHEA:71931, ChEBI:CHEBI:29101, ChEBI:CHEBI:29806;
+CC         Evidence={ECO:0000250|UniProtKB:Q91Y63};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=malate(out) + 3 Na(+)(out) = malate(in) + 3 Na(+)(in);
+CC         Xref=Rhea:RHEA:72295, ChEBI:CHEBI:15595, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000250|UniProtKB:Q8WWT9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2,2-dimethylsuccinate(out) + 3 Na(+)(out) = 2,2-
+CC         dimethylsuccinate(in) + 3 Na(+)(in); Xref=Rhea:RHEA:72287,
+CC         ChEBI:CHEBI:29101, ChEBI:CHEBI:191383;
+CC         Evidence={ECO:0000250|UniProtKB:Q8WWT9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2,3-dimethylsuccinate(out) + 3 Na(+)(out) = 2,3-
+CC         dimethylsuccinate(in) + 3 Na(+)(in); Xref=Rhea:RHEA:72291,
+CC         ChEBI:CHEBI:29101, ChEBI:CHEBI:191384;
+CC         Evidence={ECO:0000250|UniProtKB:Q8WWT9};
+CC   -!- ACTIVITY REGULATION: Li(+) decreases succinate transport in the
+CC       presence of Na(+). {ECO:0000269|PubMed:10207168}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=15 uM for succinate {ECO:0000269|PubMed:10207168};
+CC       pH dependence:
+CC         Optimum pH is 7.5. {ECO:0000269|PubMed:10207168,
+CC         ECO:0000269|PubMed:9920886};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Multi-pass membrane protein.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in proximal parts of straight
+CC       tubules in the kidney (PubMed:10207168, PubMed:9920886). Detected in
+CC       placenta, in brain, and in liver (PubMed:9920886). Strongly expressed
+CC       within the meningeal layers of supporting tissue that surround the
+CC       brain and relatively weakly expressed throughout the cerebral cortex,
+CC       hippocampus, and cerebellum (PubMed:10992006).
+CC       {ECO:0000269|PubMed:10207168, ECO:0000269|PubMed:10992006,
+CC       ECO:0000269|PubMed:9920886}.
+CC   -!- SIMILARITY: Belongs to the SLC13A/DASS transporter (TC 2.A.47) family.
+CC       NADC subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF081825; AAD16019.1; -; mRNA.
+DR   EMBL; AF080451; AAD30657.1; -; mRNA.
+DR   AlphaFoldDB; Q9Z0Z5; -.
+DR   SMR; Q9Z0Z5; -.
+DR   STRING; 10116.ENSRNOP00000025843; -.
+DR   TCDB; 2.A.47.1.4; the divalent anion:na(+) symporter (dass) family.
+DR   GlyCosmos; Q9Z0Z5; 2 sites, No reported glycans.
+DR   GlyGen; Q9Z0Z5; 2 sites.
+DR   PhosphoSitePlus; Q9Z0Z5; -.
+DR   PaxDb; 10116-ENSRNOP00000025843; -.
+DR   Ensembl; ENSRNOT00055005849; ENSRNOP00055004398; ENSRNOG00055003665.
+DR   Ensembl; ENSRNOT00060002213; ENSRNOP00060001400; ENSRNOG00060001468.
+DR   Ensembl; ENSRNOT00065022520; ENSRNOP00065017473; ENSRNOG00065013665.
+DR   UCSC; RGD:628786; rat.
+DR   AGR; RGD:628786; -.
+DR   RGD; 628786; Slc13a3.
+DR   eggNOG; KOG1281; Eukaryota.
+DR   InParanoid; Q9Z0Z5; -.
+DR   PhylomeDB; Q9Z0Z5; -.
+DR   Reactome; R-RNO-433137; Sodium-coupled sulphate, di- and tri-carboxylate transporters.
+DR   SABIO-RK; Q9Z0Z5; -.
+DR   PRO; PR:Q9Z0Z5; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016323; C:basolateral plasma membrane; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0015139; F:alpha-ketoglutarate transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015137; F:citrate transmembrane transporter activity; IDA:ARUK-UCL.
+DR   GO; GO:0005310; F:dicarboxylic acid transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0034634; F:glutathione transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015362; F:high-affinity sodium:dicarboxylate symporter activity; ISO:RGD.
+DR   GO; GO:0015183; F:L-aspartate transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0005343; F:organic acid:sodium symporter activity; IDA:RGD.
+DR   GO; GO:0017153; F:sodium:dicarboxylate symporter activity; IDA:RGD.
+DR   GO; GO:0015141; F:succinate transmembrane transporter activity; IDA:ARUK-UCL.
+DR   GO; GO:0015810; P:aspartate transmembrane transport; IDA:RGD.
+DR   GO; GO:0015746; P:citrate transport; IDA:ARUK-UCL.
+DR   GO; GO:0006835; P:dicarboxylic acid transport; IDA:RGD.
+DR   GO; GO:0034775; P:glutathione transmembrane transport; ISO:RGD.
+DR   GO; GO:0071422; P:succinate transmembrane transport; IDA:ARUK-UCL.
+DR   GO; GO:0015744; P:succinate transport; IDA:RGD.
+DR   CDD; cd01115; SLC13_permease; 1.
+DR   InterPro; IPR001898; SLC13A/DASS.
+DR   PANTHER; PTHR10283; SOLUTE CARRIER FAMILY 13 MEMBER; 1.
+DR   PANTHER; PTHR10283:SF62; SOLUTE CARRIER FAMILY 13 MEMBER 3; 1.
+DR   Pfam; PF00939; Na_sulph_symp; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Glycoprotein; Ion transport; Membrane; Reference proteome;
+KW   Sodium; Sodium transport; Symport; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..600
+FT                   /note="Na(+)/dicarboxylate cotransporter 3"
+FT                   /id="PRO_0000172494"
+FT   TOPO_DOM        1..16
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        17..37
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        38..55
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        56..76
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        77..82
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        83..103
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        104..137
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        138..158
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        159..229
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        230..250
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        251..278
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        279..299
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        300..336
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        337..357
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        358..372
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        373..393
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        394..422
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   INTRAMEM        423..443
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        444..461
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        462..482
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        483..505
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        506..526
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        527..546
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        547..567
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        568..600
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        584
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        594
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   600 AA;  66099 MW;  35BC6E0885D7AB3B CRC64;
+     MAALAALAKK VWSARRLLVL LLVPLALLPI LFALPPKEGR CLYVILLMAV YWCTEALPLS
+     VTALLPIILF PFMGILPSSK VCPQYFLDTN FLFLSGLIMA SAIEERNLHR RIALKVLMLV
+     GVQPARLILG MMVTTSFLSM WLSNTASTAM MLPIASAILK SLFGQRDTRK DLPREGEDST
+     AAVRGNGLRT VPTEMQFLAS SEGGHAEDVE APLELPDDSK EEEHRRNIWK GFLISIPYSA
+     SIGGTATLTG TAPNLILLGQ LKSFFPQCDV VNFGSWFIFA FPLMLLFLLV GWLWISFLYG
+     GMSWRGWRKK NSKLQDVAED KAKAVIQEEF QNLGPIKFAE QAVFILFCLF AILLFSRDPK
+     FIPGWASLFA PGFVSDAVTG VAIVTILFFF PSQKPSLKWW FDFKAPNSET EPLLSWKKAQ
+     ETVPWNIILL LGGGFAMAKG CEESGLSAWI GGQLHPLEHV PPLLAVLLIT VVIAFFTEFA
+     SNTATIIIFL PVLAELAIRL HVHPLYLMIP GTVSCSYAFM LPVSTPPNSI AFSTGHLLVK
+     DMVRTGLLMN LMGVLLLSLA MNTWAQAIFQ LGTFPDWANT HAANVTALPP ALTNNTVQTL
+//

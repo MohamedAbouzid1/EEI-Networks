@@ -1,0 +1,107 @@
+ID   T11L2_RAT               Reviewed;         517 AA.
+AC   Q568Z0;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 1.
+DT   29-MAY-2024, entry version 83.
+DE   RecName: Full=T-complex protein 11-like protein 2 {ECO:0000305};
+GN   Name=Tcp11l2 {ECO:0000312|RGD:1307494};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-16, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Promotes the migration of muscle-derived satellite cells
+CC       (MDSCs) during differentiation throught interaction with FMNL2 and
+CC       therefore may participate in microfilament assembly.
+CC       {ECO:0000250|UniProtKB:A7Z033}.
+CC   -!- SUBUNIT: Interacts with FMNL2; this interaction promotes muscle-derived
+CC       satellite cell (MDSC) migration and differentiation.
+CC       {ECO:0000250|UniProtKB:A7Z033}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton
+CC       {ECO:0000250|UniProtKB:A7Z033}. Note=Accumulates around the actin
+CC       complex before the formation of microfilament bundles and microtubule
+CC       extension. {ECO:0000250|UniProtKB:A7Z033}.
+CC   -!- SIMILARITY: Belongs to the TCP11 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC092644; AAH92644.1; -; mRNA.
+DR   RefSeq; NP_001017458.1; NM_001017458.1.
+DR   RefSeq; XP_006241236.1; XM_006241174.3.
+DR   AlphaFoldDB; Q568Z0; -.
+DR   STRING; 10116.ENSRNOP00000010024; -.
+DR   iPTMnet; Q568Z0; -.
+DR   PhosphoSitePlus; Q568Z0; -.
+DR   PaxDb; 10116-ENSRNOP00000010024; -.
+DR   Ensembl; ENSRNOT00000010024.7; ENSRNOP00000010024.4; ENSRNOG00000007587.7.
+DR   Ensembl; ENSRNOT00055034949; ENSRNOP00055028359; ENSRNOG00055020478.
+DR   Ensembl; ENSRNOT00060050325; ENSRNOP00060041923; ENSRNOG00060028987.
+DR   Ensembl; ENSRNOT00065044113; ENSRNOP00065036195; ENSRNOG00065025609.
+DR   GeneID; 314683; -.
+DR   KEGG; rno:314683; -.
+DR   UCSC; RGD:1307494; rat.
+DR   AGR; RGD:1307494; -.
+DR   CTD; 255394; -.
+DR   RGD; 1307494; Tcp11l2.
+DR   eggNOG; KOG1981; Eukaryota.
+DR   GeneTree; ENSGT00940000157835; -.
+DR   HOGENOM; CLU_026469_0_0_1; -.
+DR   InParanoid; Q568Z0; -.
+DR   OMA; YVINTMG; -.
+DR   OrthoDB; 5353227at2759; -.
+DR   PhylomeDB; Q568Z0; -.
+DR   TreeFam; TF313385; -.
+DR   PRO; PR:Q568Z0; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000007587; Expressed in heart and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005856; C:cytoskeleton; IEA:UniProtKB-SubCell.
+DR   GO; GO:0014812; P:muscle cell migration; ISS:UniProtKB.
+DR   GO; GO:0007165; P:signal transduction; IBA:GO_Central.
+DR   InterPro; IPR008862; Tcp11.
+DR   PANTHER; PTHR12832:SF17; T-COMPLEX PROTEIN 11-LIKE PROTEIN 2; 1.
+DR   PANTHER; PTHR12832; TESTIS-SPECIFIC PROTEIN PBS13 T-COMPLEX 11; 1.
+DR   Pfam; PF05794; Tcp11; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Cytoskeleton; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..517
+FT                   /note="T-complex protein 11-like protein 2"
+FT                   /id="PRO_0000313752"
+FT   REGION          1..59
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        8..56
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         16
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   517 AA;  57980 MW;  DD7248CD036E7EA0 CRC64;
+     MPFNGEKQYV NEDQQSDSES SRFSESTASL SDYGCSRQSF TSDSSSKSSS PASTSPPRGI
+     MFDDVMAAAK NLSDMTLAHE IAVNENFQLR PNALPENSLA GQVKRVVHQA FWDVLEADLS
+     AEPPQYEYAI KLFEEIREIL LSFLTPGGNR LHSQICEVLD IDLIRQQAEH SAVDIQGLAN
+     YVISTMGKIC APVRDEDIRE LKATTNIVEM LRQIFRVLDL MRMDMTNFVI RNIRPHIQHH
+     LVEYERNKFQ EVLEETPNAL SQTTEWLKES IDKELFSETD VAPGAEHSST PSLSPLTVLN
+     NCYLKLLQWD YQKNVLPETL MTDGPRLQEL TEKLNQLKMI ACVSLITNNM VGAVTEGLPE
+     LANRLKRISA VLLEGMSKQT FNLKEALNSI GVQTCAEVNK ALKERGSPTL NAEVQANLVG
+     QFTSLEEKDN PVCALMDKRI QLYMKSLLCL PSTQKSRPPV PGGLDVIQQE LEVLGCQYAN
+     IVNLNKQVYG PFYANIFRKL LFRDEAMGKI DASLPTN
+//

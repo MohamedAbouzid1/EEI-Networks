@@ -1,0 +1,213 @@
+ID   NTCP2_RAT               Reviewed;         348 AA.
+AC   Q62633;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   27-MAR-2024, entry version 139.
+DE   RecName: Full=Ileal sodium/bile acid cotransporter;
+DE   AltName: Full=Apical sodium-dependent bile acid transporter;
+DE            Short=ASBT {ECO:0000303|PubMed:7860756};
+DE   AltName: Full=Ileal Na(+)/bile acid cotransporter;
+DE   AltName: Full=Ileal sodium-dependent bile acid transporter;
+DE            Short=IBAT;
+DE            Short=ISBT;
+DE   AltName: Full=Na(+)-dependent ileal bile acid transporter;
+DE   AltName: Full=Sodium/taurocholate-cotransporting polypeptide, ileal;
+DE   AltName: Full=Solute carrier family 10 member 2;
+GN   Name=Slc10a2; Synonyms=Ntcp2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TRANSPORT ACTIVITY, DEVELOPMENTAL STAGE, AND
+RP   TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Ileum;
+RX   PubMed=7860756; DOI=10.1172/jci117722;
+RA   Shneider B.L., Dawson P.A., Christie D.M., Hardikar W., Wong M.H.,
+RA   Suchy F.J.;
+RT   "Cloning and molecular characterization of the ontogeny of a rat ileal
+RT   sodium-dependent bile acid transporter.";
+RL   J. Clin. Invest. 95:745-754(1995).
+CC   -!- FUNCTION: Plays a critical role in the sodium-dependent reabsorption of
+CC       bile acids from the lumen of the small intestine (PubMed:7860756).
+CC       Transports various bile acids, unconjugated or conjugated, such as
+CC       cholate and taurocholate. Also responsible for bile acid transport in
+CC       the renal proximal tubules, a salvage mechanism that helps conserve
+CC       bile acids. Works collaboratively with the Na(+)-taurocholate
+CC       cotransporting polypeptide (NTCP), the organic solute transporter
+CC       (OST), and the bile salt export pump (BSEP), to ensure efficacious
+CC       biological recycling of bile acids during enterohepatic circulation (By
+CC       similarity). {ECO:0000250|UniProtKB:Q12908,
+CC       ECO:0000269|PubMed:7860756}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + taurocholate(out) = 2 Na(+)(in) +
+CC         taurocholate(in); Xref=Rhea:RHEA:71875, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:36257; Evidence={ECO:0000269|PubMed:7860756};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cholate(out) + 2 Na(+)(out) = cholate(in) + 2 Na(+)(in);
+CC         Xref=Rhea:RHEA:71911, ChEBI:CHEBI:29101, ChEBI:CHEBI:29747;
+CC         Evidence={ECO:0000250|UniProtKB:Q12908};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + taurochenodeoxycholate(out) = 2 Na(+)(in) +
+CC         taurochenodeoxycholate(in); Xref=Rhea:RHEA:71923, ChEBI:CHEBI:9407,
+CC         ChEBI:CHEBI:29101; Evidence={ECO:0000250|UniProtKB:Q28727};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + tauroursodeoxycholate(out) = 2 Na(+)(in) +
+CC         tauroursodeoxycholate(in); Xref=Rhea:RHEA:71927, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:132028; Evidence={ECO:0000250|UniProtKB:Q28727};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycocholate(out) + 2 Na(+)(out) = glycocholate(in) + 2
+CC         Na(+)(in); Xref=Rhea:RHEA:71935, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:29746; Evidence={ECO:0000250|UniProtKB:Q28727};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + tauronorcholate(out) = 2 Na(+)(in) +
+CC         tauronorcholate(in); Xref=Rhea:RHEA:71915, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:191405; Evidence={ECO:0000250|UniProtKB:Q28727};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + tauroallocholate(out) = 2 Na(+)(in) +
+CC         tauroallocholate(in); Xref=Rhea:RHEA:51840, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:191406; Evidence={ECO:0000250|UniProtKB:Q28727};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + taurodeoxycholate(out) = 2 Na(+)(in) +
+CC         taurodeoxycholate(in); Xref=Rhea:RHEA:72087, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:36261; Evidence={ECO:0000250|UniProtKB:Q28727};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + tauro-beta-muricholate(out) = 2 Na(+)(in) +
+CC         tauro-beta-muricholate(in); Xref=Rhea:RHEA:72179, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:133064; Evidence={ECO:0000250|UniProtKB:Q28727};
+CC   -!- SUBUNIT: Monomer and homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Multi-pass membrane protein.
+CC   -!- TISSUE SPECIFICITY: Expressed mainly in ileum and kidney, low levels in
+CC       cecum and proximal colon. {ECO:0000269|PubMed:7860756}.
+CC   -!- DEVELOPMENTAL STAGE: Transcriptionally regulated increases in mRNA and
+CC       protein levels at the time of weaning. {ECO:0000269|PubMed:7860756}.
+CC   -!- SIMILARITY: Belongs to the bile acid:sodium symporter (BASS) (TC
+CC       2.A.28) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U07183; AAC53101.1; -; mRNA.
+DR   RefSeq; NP_058918.1; NM_017222.2.
+DR   RefSeq; XP_017455542.1; XM_017600053.1.
+DR   AlphaFoldDB; Q62633; -.
+DR   SMR; Q62633; -.
+DR   STRING; 10116.ENSRNOP00000054127; -.
+DR   BindingDB; Q62633; -.
+DR   ChEMBL; CHEMBL2073686; -.
+DR   GlyCosmos; Q62633; 2 sites, No reported glycans.
+DR   GlyGen; Q62633; 2 sites.
+DR   iPTMnet; Q62633; -.
+DR   PhosphoSitePlus; Q62633; -.
+DR   PaxDb; 10116-ENSRNOP00000054127; -.
+DR   DNASU; 29500; -.
+DR   Ensembl; ENSRNOT00000100219.1; ENSRNOP00000095418.1; ENSRNOG00000037753.4.
+DR   Ensembl; ENSRNOT00000113335.1; ENSRNOP00000088268.1; ENSRNOG00000037753.4.
+DR   Ensembl; ENSRNOT00055023925; ENSRNOP00055019519; ENSRNOG00055013915.
+DR   Ensembl; ENSRNOT00060006994; ENSRNOP00060005281; ENSRNOG00060004193.
+DR   Ensembl; ENSRNOT00065003307; ENSRNOP00065002256; ENSRNOG00065002519.
+DR   GeneID; 29500; -.
+DR   KEGG; rno:29500; -.
+DR   UCSC; RGD:3682; rat.
+DR   AGR; RGD:3682; -.
+DR   CTD; 6555; -.
+DR   RGD; 3682; Slc10a2.
+DR   eggNOG; KOG2718; Eukaryota.
+DR   GeneTree; ENSGT00950000182808; -.
+DR   InParanoid; Q62633; -.
+DR   OMA; RITTYVS; -.
+DR   OrthoDB; 3035577at2759; -.
+DR   PhylomeDB; Q62633; -.
+DR   TreeFam; TF315811; -.
+DR   Reactome; R-RNO-159418; Recycling of bile acids and salts.
+DR   PRO; PR:Q62633; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:RGD.
+DR   GO; GO:0005902; C:microvillus; ISO:RGD.
+DR   GO; GO:0000502; C:proteasome complex; IDA:RGD.
+DR   GO; GO:0008508; F:bile acid:sodium symporter activity; IDA:RGD.
+DR   GO; GO:0015721; P:bile acid and bile salt transport; IDA:RGD.
+DR   GO; GO:0008206; P:bile acid metabolic process; TAS:RGD.
+DR   GO; GO:0009617; P:response to bacterium; ISO:RGD.
+DR   GO; GO:0006814; P:sodium ion transport; TAS:RGD.
+DR   Gene3D; 1.20.1530.20; -; 1.
+DR   InterPro; IPR002657; BilAc:Na_symport/Acr3.
+DR   InterPro; IPR004710; Bilac:Na_transpt.
+DR   InterPro; IPR038770; Na+/solute_symporter_sf.
+DR   NCBIfam; TIGR00841; bass; 1.
+DR   PANTHER; PTHR10361:SF19; ILEAL SODIUM_BILE ACID COTRANSPORTER; 1.
+DR   PANTHER; PTHR10361; SODIUM-BILE ACID COTRANSPORTER; 1.
+DR   Pfam; PF01758; SBF; 1.
+PE   2: Evidence at transcript level;
+KW   Glycoprotein; Ion transport; Lipid transport; Membrane; Phosphoprotein;
+KW   Reference proteome; Sodium; Sodium transport; Symport; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..348
+FT                   /note="Ileal sodium/bile acid cotransporter"
+FT                   /id="PRO_0000052342"
+FT   TOPO_DOM        1..28
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        29..49
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        50..87
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        88..108
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        109..126
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        127..147
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        148..157
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        158..178
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        179..195
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        196..216
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        217..224
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        225..245
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        246..284
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        285..305
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        306..348
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          327..348
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         335
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P70172"
+FT   CARBOHYD        3
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        10
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   348 AA;  38024 MW;  D4C38CF136D1143B CRC64;
+     MDNSSVCSPN ATFCEGDSCL VTESNFNAIL STVMSTVLTI LLAMVMFSMG CNVEINKFLG
+     HIKRPWGIFV GFLCQFGIMP LTGFILSVAS GILPVQAVVV LIMGCCPGGT GSNILAYWID
+     GDMDLSVSMT TCSTLLALGM MPLCLFIYTK MWVDSGTIVI PYDSIGISLV ALVIPVSIGM
+     FVNHKWPQKA KIILKIGSIA GAILIVLIAV VGGILYQSAW IIEPKLWIIG TIFPIAGYSL
+     GFFLARLAGQ PWYRCRTVAL ETGMQNTQLC STIVQLSFSP EDLNLVFTFP LIYTVFQLVF
+     AAIILGMYVT YKKCHGKNDA EFLEKTDNDM DPMPSFQETN KGFQPDEK
+//

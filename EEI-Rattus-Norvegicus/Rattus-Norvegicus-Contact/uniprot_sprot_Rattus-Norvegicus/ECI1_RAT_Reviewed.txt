@@ -1,0 +1,305 @@
+ID   ECI1_RAT                Reviewed;         289 AA.
+AC   P23965;
+DT   01-MAR-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-1992, sequence version 1.
+DT   29-MAY-2024, entry version 145.
+DE   RecName: Full=Enoyl-CoA delta isomerase 1, mitochondrial {ECO:0000305};
+DE            Short=MECI {ECO:0000303|PubMed:11781327};
+DE            EC=5.3.3.8 {ECO:0000269|PubMed:11781327, ECO:0000269|PubMed:8218206};
+DE   AltName: Full=3,2-trans-enoyl-CoA isomerase {ECO:0000303|PubMed:8218206};
+DE   AltName: Full=Delta(3),Delta(2)-enoyl-CoA isomerase {ECO:0000303|PubMed:11781327};
+DE            Short=D3,D2-enoyl-CoA isomerase {ECO:0000303|PubMed:11781327};
+DE   AltName: Full=Dodecenoyl-CoA isomerase;
+DE   Flags: Precursor;
+GN   Name=Eci1 {ECO:0000312|RGD:61892}; Synonyms=Dci;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   TISSUE=Liver;
+RX   PubMed=1958319; DOI=10.1515/bchm3.1991.372.2.613;
+RA   Mueller-Newen G., Stoffel W.;
+RT   "Mitochondrial 3-2trans-Enoyl-CoA isomerase. Purification, cloning,
+RT   expression, and mitochondrial import of the key enzyme of unsaturated fatty
+RT   acid beta-oxidation.";
+RL   Biol. Chem. Hoppe-Seyler 372:613-624(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   TISSUE=Liver;
+RX   PubMed=2040594; DOI=10.1016/s0021-9258(18)99081-2;
+RA   Palosaari P.M., Vihinen M., Maentsaelae P.I., Alexson S.E.,
+RA   Pihlajaniemi T., Hiltunen J.K.;
+RT   "Amino acid sequence similarities of the mitochondrial short chain delta 3,
+RT   delta 2-enoyl-CoA isomerase and peroxisomal multifunctional delta 3, delta
+RT   2-enoyl-CoA isomerase, 2-enoyl-CoA hydratase, 3-hydroxyacyl-CoA
+RT   dehydrogenase enzyme in rat liver. The proposed occurrence of isomerization
+RT   and hydration in the same catalytic domain of the multifunctional enzyme.";
+RL   J. Biol. Chem. 266:10750-10753(1991).
+RN   [3]
+RP   MUTAGENESIS OF GLU-165, FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=8218206; DOI=10.1021/bi00093a018;
+RA   Mueller-Newen G., Stoffel W.;
+RT   "Site-directed mutagenesis of putative active-site amino acid residues of
+RT   3,2-trans-enoyl-CoA isomerase, conserved within the low-homology
+RT   isomerase/hydratase enzyme family.";
+RL   Biochemistry 32:11405-11412(1993).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, TISSUE SPECIFICITY, SUBCELLULAR LOCATION, AND
+RP   BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=11781327; DOI=10.1074/jbc.m112228200;
+RA   Zhang D., Yu W., Geisbrecht B.V., Gould S.J., Sprecher H., Schulz H.;
+RT   "Functional characterization of delta3,delta2-enoyl-CoA isomerases from rat
+RT   liver.";
+RL   J. Biol. Chem. 277:9127-9132(2002).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) OF 29-289, AND SUBUNIT.
+RX   PubMed=15883186; DOI=10.1110/ps.041303705;
+RA   Hubbard P.A., Yu W., Schulz H., Kim J.-J.P.;
+RT   "Domain swapping in the low-similarity isomerase/hydratase superfamily: the
+RT   crystal structure of rat mitochondrial delta3, delta2-enoyl-CoA
+RT   isomerase.";
+RL   Protein Sci. 14:1545-1555(2005).
+CC   -!- FUNCTION: Key enzyme of fatty acid beta-oxidation (Probable). Able to
+CC       isomerize both 3-cis (3Z) and 3-trans (3E) double bonds into the 2-
+CC       trans (2E) form in a range of enoyl-CoA species, with a preference for
+CC       (3Z)-enoyl-CoAs over (3E)-enoyl-CoAs (PubMed:11781327, PubMed:8218206).
+CC       The catalytic efficiency of this enzyme is not affected by the fatty
+CC       acyl chain length (PubMed:11781327). {ECO:0000269|PubMed:11781327,
+CC       ECO:0000269|PubMed:8218206, ECO:0000305|PubMed:11781327,
+CC       ECO:0000305|PubMed:8218206}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a (3Z)-enoyl-CoA = a 4-saturated (2E)-enoyl-CoA;
+CC         Xref=Rhea:RHEA:45900, ChEBI:CHEBI:85097, ChEBI:CHEBI:85489;
+CC         EC=5.3.3.8; Evidence={ECO:0000269|PubMed:8218206};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:45901;
+CC         Evidence={ECO:0000305|PubMed:8218206};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a (3E)-enoyl-CoA = a 4-saturated (2E)-enoyl-CoA;
+CC         Xref=Rhea:RHEA:45228, ChEBI:CHEBI:58521, ChEBI:CHEBI:85097;
+CC         EC=5.3.3.8; Evidence={ECO:0000269|PubMed:8218206};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:45229;
+CC         Evidence={ECO:0000305|PubMed:8218206};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(3Z)-octenoyl-CoA = (2E)-octenoyl-CoA; Xref=Rhea:RHEA:46044,
+CC         ChEBI:CHEBI:62242, ChEBI:CHEBI:85640;
+CC         Evidence={ECO:0000269|PubMed:11781327};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46045;
+CC         Evidence={ECO:0000269|PubMed:11781327};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E)-tetradecenoyl-CoA = (3Z)-tetradecenoyl-CoA;
+CC         Xref=Rhea:RHEA:29847, ChEBI:CHEBI:61405, ChEBI:CHEBI:61968;
+CC         Evidence={ECO:0000269|PubMed:11781327};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:29849;
+CC         Evidence={ECO:0000269|PubMed:11781327};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(3Z)-dodecenoyl-CoA = (2E)-dodecenoyl-CoA;
+CC         Xref=Rhea:RHEA:23716, ChEBI:CHEBI:57330, ChEBI:CHEBI:58543;
+CC         EC=5.3.3.8; Evidence={ECO:0000305|PubMed:11781327};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:23717;
+CC         Evidence={ECO:0000305|PubMed:11781327};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(3Z)-hexenoyl-CoA = (2E)-hexenoyl-CoA; Xref=Rhea:RHEA:45748,
+CC         ChEBI:CHEBI:62077, ChEBI:CHEBI:85415;
+CC         Evidence={ECO:0000269|PubMed:11781327};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:45749;
+CC         Evidence={ECO:0000269|PubMed:11781327};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(3Z)-decenoyl-CoA = (2E)-decenoyl-CoA; Xref=Rhea:RHEA:77195,
+CC         ChEBI:CHEBI:61406, ChEBI:CHEBI:195601;
+CC         Evidence={ECO:0000305|PubMed:11781327};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:77196;
+CC         Evidence={ECO:0000305|PubMed:11781327};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=470 uM for (3Z)-hexenoyl-CoA {ECO:0000269|PubMed:11781327};
+CC         KM=190 uM for (3Z)-octenoyl-CoA {ECO:0000269|PubMed:11781327};
+CC         KM=48 uM for (3Z)-tetradecenoyl-CoA {ECO:0000269|PubMed:11781327};
+CC         KM=240 uM for (3E)-hexenoyl-CoA {ECO:0000269|PubMed:11781327};
+CC         KM=150 uM for (3E)-octenoyl-CoA {ECO:0000269|PubMed:11781327};
+CC         KM=57 uM for (3E)-tetradecenoyl-CoA {ECO:0000269|PubMed:11781327};
+CC         Note=kcat are 270 sec(-1), 25 sec(-1), 20 sec(-1), 200 sec(-1), 180
+CC         sec(-1) and 98 sec(-1) for (3Z)-hexenoyl-CoA, (3Z)-octenoyl-CoA,
+CC         (3Z)-tetradecenoyl-CoA, (3E)-hexenoyl-CoA, (3E)-octenoyl-CoA and
+CC         (3E)-tetradecenoyl-CoA, respectively. {ECO:0000269|PubMed:11781327};
+CC   -!- PATHWAY: Lipid metabolism; fatty acid beta-oxidation.
+CC       {ECO:0000269|PubMed:11781327, ECO:0000269|PubMed:8218206}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000269|PubMed:15883186}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix
+CC       {ECO:0000269|PubMed:11781327}.
+CC   -!- SIMILARITY: Belongs to the enoyl-CoA hydratase/isomerase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X61184; CAA43488.1; -; mRNA.
+DR   EMBL; M61112; AAA41073.1; -; mRNA.
+DR   PIR; S17161; S17161.
+DR   PDB; 1XX4; X-ray; 2.20 A; A=29-289.
+DR   PDBsum; 1XX4; -.
+DR   AlphaFoldDB; P23965; -.
+DR   SMR; P23965; -.
+DR   IntAct; P23965; 1.
+DR   STRING; 10116.ENSRNOP00000011784; -.
+DR   SwissLipids; SLP:000001593; -.
+DR   iPTMnet; P23965; -.
+DR   PhosphoSitePlus; P23965; -.
+DR   SwissPalm; P23965; -.
+DR   jPOST; P23965; -.
+DR   PaxDb; 10116-ENSRNOP00000011784; -.
+DR   Ensembl; ENSRNOT00055047054; ENSRNOP00055038672; ENSRNOG00055027196.
+DR   Ensembl; ENSRNOT00060017270; ENSRNOP00060013410; ENSRNOG00060010220.
+DR   Ensembl; ENSRNOT00065016911; ENSRNOP00065012950; ENSRNOG00065010437.
+DR   UCSC; RGD:61892; rat.
+DR   AGR; RGD:61892; -.
+DR   RGD; 61892; Eci1.
+DR   eggNOG; KOG1683; Eukaryota.
+DR   InParanoid; P23965; -.
+DR   PhylomeDB; P23965; -.
+DR   BRENDA; 5.3.3.8; 5301.
+DR   Reactome; R-RNO-77288; mitochondrial fatty acid beta-oxidation of unsaturated fatty acids.
+DR   Reactome; R-RNO-9837999; Mitochondrial protein degradation.
+DR   SABIO-RK; P23965; -.
+DR   UniPathway; UPA00659; -.
+DR   EvolutionaryTrace; P23965; -.
+DR   PRO; PR:P23965; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005759; C:mitochondrial matrix; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005739; C:mitochondrion; IDA:UniProtKB.
+DR   GO; GO:0004165; F:delta(3)-delta(2)-enoyl-CoA isomerase activity; IDA:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; IDA:RGD.
+DR   GO; GO:0016863; F:intramolecular oxidoreductase activity, transposing C=C bonds; IDA:UniProtKB.
+DR   GO; GO:0006635; P:fatty acid beta-oxidation; IDA:UniProtKB.
+DR   CDD; cd06558; crotonase-like; 1.
+DR   Gene3D; 6.10.250.170; -; 1.
+DR   InterPro; IPR029045; ClpP/crotonase-like_dom_sf.
+DR   InterPro; IPR018376; Enoyl-CoA_hyd/isom_CS.
+DR   InterPro; IPR001753; Enoyl-CoA_hydra/iso.
+DR   PANTHER; PTHR11941:SF45; ENOYL-COA DELTA ISOMERASE 1, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11941; ENOYL-COA HYDRATASE-RELATED; 1.
+DR   Pfam; PF00378; ECH_1; 1.
+DR   SUPFAM; SSF52096; ClpP/crotonase; 1.
+DR   PROSITE; PS00166; ENOYL_COA_HYDRATASE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing;
+KW   Fatty acid metabolism; Isomerase; Lipid metabolism; Mitochondrion;
+KW   Reference proteome; Transit peptide.
+FT   TRANSIT         1..28
+FT                   /note="Mitochondrion"
+FT   CHAIN           29..289
+FT                   /note="Enoyl-CoA delta isomerase 1, mitochondrial"
+FT                   /id="PRO_0000007422"
+FT   BINDING         93..97
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42126"
+FT   BINDING         140
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42126"
+FT   BINDING         164
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42126"
+FT   SITE            165
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P42126"
+FT   MOD_RES         48
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MOD_RES         48
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MOD_RES         71
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MOD_RES         76
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P42126"
+FT   MOD_RES         222
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MOD_RES         222
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MOD_RES         229
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MOD_RES         229
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MOD_RES         255
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MOD_RES         255
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MOD_RES         275
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MOD_RES         283
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MOD_RES         283
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P42125"
+FT   MUTAGEN         165
+FT                   /note="E->Q: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:8218206"
+FT   CONFLICT        1..8
+FT                   /note="MALAAARR -> AGCCAC (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        260
+FT                   /note="D -> N (in Ref. 2; AAA41073)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          32..37
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   STRAND          44..49
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   TURN            52..55
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           59..74
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   STRAND          80..87
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   STRAND          89..91
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           97..100
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           105..123
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   STRAND          126..133
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   STRAND          135..138
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           139..147
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   STRAND          148..154
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           165..168
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           174..184
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           186..195
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           201..206
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   STRAND          209..214
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           216..218
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           219..230
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           235..254
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           257..269
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+FT   HELIX           271..282
+FT                   /evidence="ECO:0007829|PDB:1XX4"
+SQ   SEQUENCE   289 AA;  32254 MW;  79D2CED09DD8FDC6 CRC64;
+     MALAAARRVL LQAGSRLGRR GAVDGARRFS NKRVLVEKEG EAGIAVMKFK NPPVNSLSLE
+     FLTEFVISLE KLENDKSIRG VILTSERPGI FSAGLDLMEM YGRNPAHYAE YWKAVQELWL
+     RLYLSNLTLI SAINGASPAG GCLMALTCDY RIMADNSKYT IGLNESLLGI VAPFWLKDNY
+     VNTIGHRAAE RALQLGTLFP PAEALKVGLV DEVVPEDQVH SKARSVMAKW FTIPDHSRQL
+     TKSMMRKATA DNLIKQREAD IQNFTSFISR DSIQKSLHVY LEKLKQKKG
+//

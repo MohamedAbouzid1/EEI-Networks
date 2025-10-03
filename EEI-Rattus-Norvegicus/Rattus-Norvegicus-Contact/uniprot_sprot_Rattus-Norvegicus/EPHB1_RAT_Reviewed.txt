@@ -1,0 +1,324 @@
+ID   EPHB1_RAT               Reviewed;         984 AA.
+AC   P09759;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 2.
+DT   24-JUL-2024, entry version 221.
+DE   RecName: Full=Ephrin type-B receptor 1;
+DE            EC=2.7.10.1;
+DE   AltName: Full=ELK;
+DE   AltName: Full=Tyrosine-protein kinase receptor EPH-2;
+DE   Flags: Precursor;
+GN   Name=Ephb1; Synonyms=Elk, Epth2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AUTOPHOSPHORYLATION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Brain;
+RX   PubMed=2017163; DOI=10.1128/mcb.11.5.2496-2502.1991;
+RA   Lhotak V., Greer P., Letwin K., Pawson T.;
+RT   "Characterization of elk, a brain-specific receptor tyrosine kinase.";
+RL   Mol. Cell. Biol. 11:2496-2502(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 605-984.
+RC   STRAIN=Wistar; TISSUE=Brain;
+RX   PubMed=2485255;
+RA   Letwin K., Yee S.P., Pawson T.;
+RT   "Novel protein-tyrosine kinase cDNAs related to fps/fes and eph cloned
+RT   using anti-phosphotyrosine antibody.";
+RL   Oncogene 3:621-627(1988).
+CC   -!- FUNCTION: Receptor tyrosine kinase which binds promiscuously
+CC       transmembrane ephrin-B family ligands residing on adjacent cells,
+CC       leading to contact-dependent bidirectional signaling into neighboring
+CC       cells. The signaling pathway downstream of the receptor is referred to
+CC       as forward signaling while the signaling pathway downstream of the
+CC       ephrin ligand is referred to as reverse signaling. Cognate/functional
+CC       ephrin ligands for this receptor include EFNB1, EFNB2 and EFNB3. During
+CC       nervous system development, regulates retinal axon guidance redirecting
+CC       ipsilaterally ventrotemporal retinal ganglion cells axons at the optic
+CC       chiasm midline. This probably requires repulsive interaction with
+CC       EFNB2. In the adult nervous system together with EFNB3, regulates
+CC       chemotaxis, proliferation and polarity of the hippocampus neural
+CC       progenitors. In addition to its role in axon guidance also plays an
+CC       important redundant role with other ephrin-B receptors in development
+CC       and maturation of dendritic spines and synapse formation. May also
+CC       regulate angiogenesis. More generally, may play a role in targeted cell
+CC       migration and adhesion. Upon activation by EFNB1 and probably other
+CC       ephrin-B ligands activates the MAPK/ERK and the JNK signaling cascades
+CC       to regulate cell migration and adhesion respectively (By similarity).
+CC       Involved in the maintenance of the pool of satellite cells (muscle stem
+CC       cells) by promoting their self-renewal and reducing their activation
+CC       and differentiation (By similarity). {ECO:0000250|UniProtKB:P54762,
+CC       ECO:0000250|UniProtKB:Q8CBF3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tyrosyl-[protein] = ADP + H(+) + O-phospho-L-tyrosyl-
+CC         [protein]; Xref=Rhea:RHEA:10596, Rhea:RHEA-COMP:10136, Rhea:RHEA-
+CC         COMP:10137, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:46858,
+CC         ChEBI:CHEBI:82620, ChEBI:CHEBI:456216; EC=2.7.10.1;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10028};
+CC   -!- SUBUNIT: Heterotetramer upon binding of the ligand. The heterotetramer
+CC       is composed of an ephrin dimer and a receptor dimer. Oligomerization is
+CC       probably required to induce biological responses. Interacts with EPHB6;
+CC       transphosphorylates EPHB6 to form an active signaling complex.
+CC       Interacts with PICK1. Interacts (through Tyr-594) with NCK1 (via SH2
+CC       domain); activates the JUN cascade to regulate cell adhesion. The
+CC       ligand-activated form interacts (through Tyr-928) with GRB7 and GRB10
+CC       (via SH2 domains). The ligand-activated form interacts (residues within
+CC       the catalytic domain) with GRB2 (via SH2 domain). Interacts with GRB2,
+CC       SHC1 and SRC; activates the MAPK/ERK cascade to regulate cell
+CC       migration. Interacts with CBL; regulates receptor degradation through
+CC       ubiquitination. Interacts with ACP1 (By similarity).
+CC       {ECO:0000250|UniProtKB:P54762, ECO:0000250|UniProtKB:Q8CBF3}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P54762};
+CC       Single-pass type I membrane protein {ECO:0000250|UniProtKB:P54762}.
+CC       Early endosome membrane {ECO:0000250|UniProtKB:P54762}. Cell
+CC       projection, dendrite {ECO:0000250|UniProtKB:Q8CBF3}.
+CC   -!- TISSUE SPECIFICITY: Restricted to brain and testes.
+CC       {ECO:0000269|PubMed:2017163}.
+CC   -!- PTM: Phosphorylated. Autophosphorylation is stimulated by the ligand
+CC       EFNB1. Required for interaction with SH2 domain-containing interactors,
+CC       for activation of the MAPK/ERK and JUN signaling cascades and for
+CC       ubiquitination by CBL (By similarity). {ECO:0000250|UniProtKB:P54762}.
+CC   -!- PTM: Ubiquitinated; (EFNB1)ligand-induced poly- and/or multi-
+CC       ubiquitination by CBL is regulated by SRC and leads to lysosomal
+CC       degradation. {ECO:0000250|UniProtKB:P54762,
+CC       ECO:0000250|UniProtKB:Q8CBF3}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. Ephrin receptor subfamily. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00159}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M59814; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; X13411; CAA31777.1; -; mRNA.
+DR   PIR; A39753; A39753.
+DR   RefSeq; NP_001097998.1; NM_001104528.1.
+DR   RefSeq; XP_017450939.1; XM_017595450.1.
+DR   AlphaFoldDB; P09759; -.
+DR   SMR; P09759; -.
+DR   BioGRID; 246515; 2.
+DR   CORUM; P09759; -.
+DR   DIP; DIP-138N; -.
+DR   STRING; 10116.ENSRNOP00000010634; -.
+DR   BindingDB; P09759; -.
+DR   ChEMBL; CHEMBL4739675; -.
+DR   GuidetoPHARMACOLOGY; 1830; -.
+DR   GlyCosmos; P09759; 3 sites, No reported glycans.
+DR   GlyGen; P09759; 3 sites.
+DR   iPTMnet; P09759; -.
+DR   PhosphoSitePlus; P09759; -.
+DR   SwissPalm; P09759; -.
+DR   PaxDb; 10116-ENSRNOP00000010634; -.
+DR   Ensembl; ENSRNOT00000010634.6; ENSRNOP00000010634.7; ENSRNOG00000007865.7.
+DR   Ensembl; ENSRNOT00055022822; ENSRNOP00055018506; ENSRNOG00055013309.
+DR   Ensembl; ENSRNOT00060016593; ENSRNOP00060012956; ENSRNOG00060009826.
+DR   Ensembl; ENSRNOT00065011708; ENSRNOP00065008554; ENSRNOG00065007485.
+DR   GeneID; 24338; -.
+DR   KEGG; rno:24338; -.
+DR   UCSC; RGD:2556; rat.
+DR   AGR; RGD:2556; -.
+DR   CTD; 2047; -.
+DR   RGD; 2556; Ephb1.
+DR   eggNOG; KOG0196; Eukaryota.
+DR   GeneTree; ENSGT00940000155297; -.
+DR   HOGENOM; CLU_000288_141_4_1; -.
+DR   InParanoid; P09759; -.
+DR   OMA; EEVIGAX; -.
+DR   OrthoDB; 1614410at2759; -.
+DR   PhylomeDB; P09759; -.
+DR   TreeFam; TF315608; -.
+DR   BRENDA; 2.7.10.1; 5301.
+DR   Reactome; R-RNO-2682334; EPH-Ephrin signaling.
+DR   Reactome; R-RNO-3928662; EPHB-mediated forward signaling.
+DR   Reactome; R-RNO-3928664; Ephrin signaling.
+DR   Reactome; R-RNO-3928665; EPH-ephrin mediated repulsion of cells.
+DR   PRO; PR:P09759; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000007865; Expressed in brain and 17 other cell types or tissues.
+DR   GO; GO:0030424; C:axon; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; IEA:Ensembl.
+DR   GO; GO:0030425; C:dendrite; IBA:GO_Central.
+DR   GO; GO:0031901; C:early endosome membrane; ISS:UniProtKB.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IEA:Ensembl.
+DR   GO; GO:0032433; C:filopodium tip; ISO:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0045121; C:membrane raft; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008046; F:axon guidance receptor activity; ISO:RGD.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0044877; F:protein-containing complex binding; ISO:RGD.
+DR   GO; GO:0005005; F:transmembrane-ephrin receptor activity; ISS:UniProtKB.
+DR   GO; GO:0001525; P:angiogenesis; ISS:UniProtKB.
+DR   GO; GO:0007411; P:axon guidance; ISS:UniProtKB.
+DR   GO; GO:0048593; P:camera-type eye morphogenesis; ISO:RGD.
+DR   GO; GO:0060326; P:cell chemotaxis; ISS:UniProtKB.
+DR   GO; GO:0031589; P:cell-substrate adhesion; ISS:UniProtKB.
+DR   GO; GO:0021952; P:central nervous system projection neuron axonogenesis; ISS:UniProtKB.
+DR   GO; GO:0021545; P:cranial nerve development; ISO:RGD.
+DR   GO; GO:0060996; P:dendritic spine development; IGI:MGI.
+DR   GO; GO:0060997; P:dendritic spine morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0050965; P:detection of temperature stimulus involved in sensory perception of pain; ISS:UniProtKB.
+DR   GO; GO:0048013; P:ephrin receptor signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0030010; P:establishment of cell polarity; ISS:UniProtKB.
+DR   GO; GO:0021934; P:hindbrain tangential cell migration; IMP:RGD.
+DR   GO; GO:0001771; P:immunological synapse formation; IGI:MGI.
+DR   GO; GO:0050804; P:modulation of chemical synaptic transmission; ISO:RGD.
+DR   GO; GO:1902725; P:negative regulation of satellite cell differentiation; ISS:UniProtKB.
+DR   GO; GO:1902723; P:negative regulation of skeletal muscle satellite cell proliferation; ISS:UniProtKB.
+DR   GO; GO:0061351; P:neural precursor cell proliferation; ISS:UniProtKB.
+DR   GO; GO:0022008; P:neurogenesis; ISS:UniProtKB.
+DR   GO; GO:0021631; P:optic nerve morphogenesis; ISO:RGD.
+DR   GO; GO:0051965; P:positive regulation of synapse assembly; ISS:UniProtKB.
+DR   GO; GO:0070372; P:regulation of ERK1 and ERK2 cascade; ISS:UniProtKB.
+DR   GO; GO:0046328; P:regulation of JNK cascade; ISS:UniProtKB.
+DR   GO; GO:0031290; P:retinal ganglion cell axon guidance; ISS:UniProtKB.
+DR   GO; GO:0014719; P:skeletal muscle satellite cell activation; ISS:UniProtKB.
+DR   CDD; cd10476; EphR_LBD_B1; 1.
+DR   CDD; cd00063; FN3; 2.
+DR   CDD; cd05065; PTKc_EphR_B; 1.
+DR   CDD; cd09551; SAM_EPH-B1; 1.
+DR   Gene3D; 2.60.40.1770; ephrin a2 ectodomain; 1.
+DR   Gene3D; 2.60.120.260; Galactose-binding domain-like; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 2.
+DR   Gene3D; 1.10.150.50; Transcription Factor, Ets-1; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   Gene3D; 2.10.50.10; Tumor Necrosis Factor Receptor, subunit A, domain 2; 1.
+DR   InterPro; IPR027936; Eph_TM.
+DR   InterPro; IPR034231; EphB1_rcpt_lig-bd.
+DR   InterPro; IPR042819; EphB1_SAM.
+DR   InterPro; IPR001090; Ephrin_rcpt_lig-bd_dom.
+DR   InterPro; IPR050449; Ephrin_rcpt_TKs.
+DR   InterPro; IPR003961; FN3_dom.
+DR   InterPro; IPR036116; FN3_sf.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR009030; Growth_fac_rcpt_cys_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001660; SAM.
+DR   InterPro; IPR013761; SAM/pointed_sf.
+DR   InterPro; IPR001245; Ser-Thr/Tyr_kinase_cat_dom.
+DR   InterPro; IPR008266; Tyr_kinase_AS.
+DR   InterPro; IPR020635; Tyr_kinase_cat_dom.
+DR   InterPro; IPR016257; Tyr_kinase_ephrin_rcpt.
+DR   InterPro; IPR001426; Tyr_kinase_rcpt_V_CS.
+DR   PANTHER; PTHR46877; EPH RECEPTOR A5; 1.
+DR   PANTHER; PTHR46877:SF17; EPHRIN TYPE-B RECEPTOR 1; 1.
+DR   Pfam; PF14575; EphA2_TM; 1.
+DR   Pfam; PF01404; Ephrin_lbd; 1.
+DR   Pfam; PF00041; fn3; 2.
+DR   Pfam; PF07714; PK_Tyr_Ser-Thr; 1.
+DR   Pfam; PF00536; SAM_1; 1.
+DR   PIRSF; PIRSF000666; TyrPK_ephrin_receptor; 1.
+DR   PRINTS; PR00014; FNTYPEIII.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00615; EPH_lbd; 1.
+DR   SMART; SM01411; Ephrin_rec_like; 1.
+DR   SMART; SM00060; FN3; 2.
+DR   SMART; SM00454; SAM; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF49265; Fibronectin type III; 1.
+DR   SUPFAM; SSF49785; Galactose-binding domain-like; 1.
+DR   SUPFAM; SSF57184; Growth factor receptor domain; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   SUPFAM; SSF47769; SAM/Pointed domain; 1.
+DR   PROSITE; PS01186; EGF_2; 1.
+DR   PROSITE; PS51550; EPH_LBD; 1.
+DR   PROSITE; PS50853; FN3; 2.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS00790; RECEPTOR_TYR_KIN_V_1; 1.
+DR   PROSITE; PS00791; RECEPTOR_TYR_KIN_V_2; 1.
+DR   PROSITE; PS50105; SAM_DOMAIN; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell adhesion; Cell membrane; Cell projection; Endosome;
+KW   Glycoprotein; Kinase; Membrane; Neurogenesis; Nucleotide-binding;
+KW   Phosphoprotein; Receptor; Reference proteome; Repeat; Signal; Transferase;
+KW   Transmembrane; Transmembrane helix; Tyrosine-protein kinase;
+KW   Ubl conjugation.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           18..984
+FT                   /note="Ephrin type-B receptor 1"
+FT                   /id="PRO_0000016825"
+FT   TOPO_DOM        18..540
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        541..563
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        564..984
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          19..201
+FT                   /note="Eph LBD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00883"
+FT   DOMAIN          322..432
+FT                   /note="Fibronectin type-III 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          433..528
+FT                   /note="Fibronectin type-III 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00316"
+FT   DOMAIN          619..882
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   DOMAIN          911..975
+FT                   /note="SAM"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00184"
+FT   MOTIF           982..984
+FT                   /note="PDZ-binding"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        744
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10028"
+FT   BINDING         625..633
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         651
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         600
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P54753"
+FT   MOD_RES         928
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        334
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        426
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        480
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   984 AA;  109883 MW;  521EAC240D8FB91A CRC64;
+     MALDCLLLFL LASAVAAMEE TLMDTRTATA ELGWTANPAS GWEEVSGYDE NLNTIRTYQV
+     CNVFEPNQNN WLLTTFINRR GAHRIYTEMR FTVRDCSSLP NVPGSCKETF NLYYYETDSV
+     IATKKSAFWS EAPYLKVDTI AADESFSQVD FGGRLMKVNT EVRSFGPLTR NGFYLAFQDY
+     GACMSLLSVR VFFKKCPSIV QNFAVFPETM TGAESTSLVI ARGTCIPNAE EVDVPIKLYC
+     NGDGEWMVPI GRCTCKAGYE PENSVACKAC PAGTFKASQE AEGCSHCPSN SRSPSEASPI
+     CTCRTGYYRA DFDPPEVACT SVPSGPRNVI SIVNETSIIL EWHPPRETGG RDDVTYNIIC
+     KKCRADRRSC SRCDDNVEFV PRQLGLTECR VSISSLWAHT PYTFDIQAIN GVSSKSPFPP
+     QHVSVNITTN QAAPSTVPIM HQVSATMRSI TLSWPQPEQP NGIILDYEIR YYEKEHNEFN
+     SSMARSQTNT ARIDGLRPGM VYVVQVRART VAGYGKFSGK MCFQTLTDDD YKSELREQLP
+     LIAGSAAAGV VFVVSLVAIS IVCSRKRAYS KEAVYSDKLQ HYSTGRGSPG MKIYIDPFTY
+     EDPNEAVREF AKEIDVSFVK IEEVIGAGEF GEVYKGRLKL PGKREIYVAI KTLKAGYSEK
+     QRRDFLSEAS IMGQFDHPNI IRLEGVVTKS RPVMIITEFM ENGALDSFLR QNDGQFTVIQ
+     LVGMLRGIAA GMKYLSEMNY VHRDLAARNI LVNSNLVCKV SDFGLSRYLQ DDTSDPTYTS
+     SLGGKIPVRW TAPEAIAYRK FTSASDVWSY GIVMWEVMSF GERPYWDMSN QDVINAIEQD
+     YRLPPPMDCP AALHQLMLDC WQKDRNSRPR FAEIVNTLDK MIRNPASLKT VATITAVPSQ
+     PLLDRSIPDF TAFTTVDDWL SAIKMVQYRD SFLTAGFTSL QLVTQMTSED LLRIGVTLAG
+     HQKKILSSIH SMRVQMNQSP SVMA
+//

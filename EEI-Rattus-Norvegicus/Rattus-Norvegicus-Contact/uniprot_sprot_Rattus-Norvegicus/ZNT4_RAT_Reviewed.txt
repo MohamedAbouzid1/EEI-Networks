@@ -1,0 +1,197 @@
+ID   ZNT4_RAT                Reviewed;         430 AA.
+AC   O55174;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   24-JUL-2024, entry version 145.
+DE   RecName: Full=Probable proton-coupled zinc antiporter SLC30A4 {ECO:0000305};
+DE   AltName: Full=Dri 27 protein {ECO:0000303|PubMed:10600821};
+DE   AltName: Full=Solute carrier family 30 member 4 {ECO:0000312|RGD:619750};
+DE   AltName: Full=Zinc transporter 4 {ECO:0000305|PubMed:10600821};
+DE            Short=ZnT-4;
+GN   Name=Slc30a4 {ECO:0000312|RGD:619750};
+GN   Synonyms=Znt4 {ECO:0000303|PubMed:10600821};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, TISSUE SPECIFICITY,
+RP   DEVELOPMENTAL STAGE, INDUCTION, AND REGION.
+RC   STRAIN=Wistar; TISSUE=Brain;
+RX   PubMed=10600821; DOI=10.1152/ajpgi.1999.277.6.g1231;
+RA   Murgia C., Vespignani I., Cerase J., Nobili F., Perozzi G.;
+RT   "Cloning, expression, and vesicular localization of zinc transporter Dri
+RT   27/ZnT4 in intestinal tissue and cells.";
+RL   Am. J. Physiol. 277:G1231-G1239(1999).
+RN   [2]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=12388418; DOI=10.1152/ajprenal.00094.2002;
+RA   Ranaldi G., Perozzi G., Truong-Tran A., Zalewski P., Murgia C.;
+RT   "Intracellular distribution of labile Zn(II) and zinc transporter
+RT   expression in kidney and MDCK cells.";
+RL   Am. J. Physiol. 283:F1365-F1375(2002).
+CC   -!- FUNCTION: Probable proton-coupled zinc ion antiporter mediating zinc
+CC       import from cytoplasm potentially into the endocytic compartment (By
+CC       similarity). Controls zinc deposition in milk (By similarity).
+CC       {ECO:0000250|UniProtKB:O14863, ECO:0000250|UniProtKB:O35149}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+)(out) + Zn(2+)(in) = 2 H(+)(in) + Zn(2+)(out);
+CC         Xref=Rhea:RHEA:72627, ChEBI:CHEBI:15378, ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:O14863};
+CC   -!- SUBUNIT: Homodimerization could regulate efficiency for zinc transport.
+CC       Interacts with TMEM163 (By similarity). {ECO:0000250|UniProtKB:O14863}.
+CC   -!- SUBCELLULAR LOCATION: Endosome membrane {ECO:0000269|PubMed:10600821};
+CC       Multi-pass membrane protein {ECO:0000255}. Late endosome membrane
+CC       {ECO:0000250|UniProtKB:O14863}; Multi-pass membrane protein
+CC       {ECO:0000255}. Lysosome membrane {ECO:0000250|UniProtKB:O14863}; Multi-
+CC       pass membrane protein {ECO:0000255}. Note=Enriched in vesicles within
+CC       the basal region of epithelial cells. {ECO:0000269|PubMed:10600821,
+CC       ECO:0000269|PubMed:12388418}.
+CC   -!- TISSUE SPECIFICITY: Widely expressed. Highly expressed in brain and
+CC       testis. Also expressed in small intestine, medulla, lung, kidney,
+CC       stomach and colon. Expressed at lower level in other tissues.
+CC       {ECO:0000269|PubMed:10600821}.
+CC   -!- DEVELOPMENTAL STAGE: Developmentally regulated in the intestine.
+CC       {ECO:0000269|PubMed:10600821}.
+CC   -!- INDUCTION: No change in response to zinc deprivation.
+CC       {ECO:0000269|PubMed:10600821}.
+CC   -!- SIMILARITY: Belongs to the cation diffusion facilitator (CDF)
+CC       transporter (TC 2.A.4) family. SLC30A subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y16774; CAA76372.1; -; mRNA.
+DR   RefSeq; NP_742063.1; NM_172066.1.
+DR   AlphaFoldDB; O55174; -.
+DR   SMR; O55174; -.
+DR   STRING; 10116.ENSRNOP00000000184; -.
+DR   PhosphoSitePlus; O55174; -.
+DR   PaxDb; 10116-ENSRNOP00000000184; -.
+DR   GeneID; 64469; -.
+DR   KEGG; rno:64469; -.
+DR   UCSC; RGD:619750; rat.
+DR   AGR; RGD:619750; -.
+DR   CTD; 7782; -.
+DR   RGD; 619750; Slc30a4.
+DR   eggNOG; KOG1482; Eukaryota.
+DR   InParanoid; O55174; -.
+DR   OrthoDB; 1331349at2759; -.
+DR   PhylomeDB; O55174; -.
+DR   PRO; PR:O55174; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0010008; C:endosome membrane; IDA:UniProtKB.
+DR   GO; GO:0005770; C:late endosome; ISS:UniProtKB.
+DR   GO; GO:0031902; C:late endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005765; C:lysosomal membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0015297; F:antiporter activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005385; F:zinc ion transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0007595; P:lactation; IEP:RGD.
+DR   GO; GO:0009636; P:response to toxic substance; ISO:RGD.
+DR   GO; GO:0033189; P:response to vitamin A; IEP:RGD.
+DR   GO; GO:0010043; P:response to zinc ion; IEP:RGD.
+DR   GO; GO:0140882; P:zinc export across plasma membrane; ISO:RGD.
+DR   GO; GO:0140916; P:zinc ion import into lysosome; ISO:RGD.
+DR   GO; GO:0071577; P:zinc ion transmembrane transport; ISO:RGD.
+DR   GO; GO:0006829; P:zinc ion transport; IEP:RGD.
+DR   Gene3D; 1.20.1510.10; Cation efflux protein transmembrane domain; 1.
+DR   InterPro; IPR002524; Cation_efflux.
+DR   InterPro; IPR027469; Cation_efflux_TMD_sf.
+DR   InterPro; IPR050681; CDF/SLC30A.
+DR   NCBIfam; TIGR01297; CDF; 1.
+DR   PANTHER; PTHR11562; CATION EFFLUX PROTEIN/ ZINC TRANSPORTER; 1.
+DR   PANTHER; PTHR11562:SF27; ZINC TRANSPORTER 4; 1.
+DR   Pfam; PF01545; Cation_efflux; 1.
+DR   SUPFAM; SSF161111; Cation efflux protein transmembrane domain-like; 1.
+PE   2: Evidence at transcript level;
+KW   Antiport; Endosome; Ion transport; Lysosome; Membrane; Metal-binding;
+KW   Phosphoprotein; Reference proteome; Transmembrane; Transmembrane helix;
+KW   Transport; Zinc; Zinc transport.
+FT   CHAIN           1..430
+FT                   /note="Probable proton-coupled zinc antiporter SLC30A4"
+FT                   /id="PRO_0000206101"
+FT   TOPO_DOM        1..113
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        114..134
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        135..143
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        144..164
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        165..178
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        179..199
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        200..216
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        217..237
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        238..275
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        276..296
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        297..311
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        312..332
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        333..430
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   REGION          240..265
+FT                   /note="Zinc binding"
+FT                   /evidence="ECO:0000269|PubMed:10600821"
+FT   REGION          245..265
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        249..265
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         146
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="transported zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IWU4"
+FT   BINDING         150
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="transported zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IWU4"
+FT   BINDING         278
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="transported zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IWU4"
+FT   BINDING         282
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="transported zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IWU4"
+FT   MOD_RES         36
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O35149"
+SQ   SEQUENCE   430 AA;  47702 MW;  F34CED3FA4FF05FB CRC64;
+     MAGPGAWKRL KSLLRKDDAP LFLNDTSAFD FLDEVSDEGL SRFNKLRVVV ADDDSEAPER
+     PVNGAHPALQ ADDDSLLDQE LPLTNSQLSL KMDPCDNCSK RRELLKQRKV KTRLTIAAVL
+     YLLFMIGELV GGYMANSLAI MTDALHMLTD LSAIILTLLA LWLSSKSPTR RFTFGFHRLE
+     VLSAMISVML VYVLMGFLLY EAMQRTIHMN YEINGDVMLI TAAVGVAVNV IMGFLLNQSG
+     HHHSHAHSHS LPSNSPSMVS SGHSHGQDSL AVRAAFVHAL GDLVQSVGVL IAAYIIRFKP
+     EYKIADPICT YIFSLLVAFT TLRIIWDTVV IILEGVPSHL NVDYIKESLM KIEDVYSVED
+     LNIWSLTSGK ATAIVHMQLI PGSSSKWEEV QSKAKHLLLN TFGMYKCTVQ LQSYRQEATR
+     TCANCQSSST
+//

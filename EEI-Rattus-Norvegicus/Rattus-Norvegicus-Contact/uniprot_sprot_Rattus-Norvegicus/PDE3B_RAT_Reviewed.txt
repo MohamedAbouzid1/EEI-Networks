@@ -1,0 +1,281 @@
+ID   PDE3B_RAT               Reviewed;        1108 AA.
+AC   Q63085;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JUL-2024, entry version 142.
+DE   RecName: Full=cGMP-inhibited 3',5'-cyclic phosphodiesterase 3B {ECO:0000305|PubMed:9631240};
+DE            EC=3.1.4.17 {ECO:0000269|PubMed:9631240};
+DE   AltName: Full=CGI PDE;
+DE   AltName: Full=Cyclic GMP-inhibited phosphodiesterase B;
+DE            Short=CGI-PDE B;
+DE   AltName: Full=RcGIPl {ECO:0000303|PubMed:8395509};
+GN   Name=Pde3b {ECO:0000312|RGD:61943};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Adipose tissue;
+RX   PubMed=8395509; DOI=10.1016/s0021-9258(17)46666-x;
+RA   Taira M., Hockman S.C., Calvo J.C., Taira M., Belfrage P.,
+RA   Manganiello V.C.;
+RT   "Molecular cloning of the rat adipocyte hormone-sensitive cyclic GMP-
+RT   inhibited cyclic nucleotide phosphodiesterase.";
+RL   J. Biol. Chem. 268:18573-18579(1993).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND ACTIVITY REGULATION.
+RC   TISSUE=Adipose tissue;
+RX   PubMed=9631240; DOI=10.1007/bf02737830;
+RA   He R., Komas N., Ekholm D., Murata T., Taira M., Hockman S.C., Degerman E.,
+RA   Manganiello V.C.;
+RT   "Expression and characterization of deletion recombinants of two cGMP-
+RT   inhibited cyclic nucleotide phosphodiesterases (PDE-3).";
+RL   Cell Biochem. Biophys. 29:89-111(1998).
+CC   -!- FUNCTION: Cyclic nucleotide phosphodiesterase with a dual-specificity
+CC       for the second messengers cAMP and cGMP, which are key regulators of
+CC       many important physiological processes (PubMed:9631240). Regulates
+CC       angiogenesis by inhibiting the cAMP-dependent guanine nucleotide
+CC       exchange factor RAPGEF3 and downstream phosphatidylinositol 3-kinase
+CC       gamma-mediated signaling (By similarity). Controls cardiac
+CC       contractility by reducing cAMP concentration in cardiocytes (By
+CC       similarity). {ECO:0000250|UniProtKB:Q13370,
+CC       ECO:0000250|UniProtKB:Q61409, ECO:0000269|PubMed:9631240}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a nucleoside 3',5'-cyclic phosphate + H2O = a nucleoside 5'-
+CC         phosphate + H(+); Xref=Rhea:RHEA:14653, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57867, ChEBI:CHEBI:58464; EC=3.1.4.17;
+CC         Evidence={ECO:0000269|PubMed:9631240};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:14654;
+CC         Evidence={ECO:0000305|PubMed:9631240};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3',5'-cyclic AMP + H2O = AMP + H(+); Xref=Rhea:RHEA:25277,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:58165,
+CC         ChEBI:CHEBI:456215; Evidence={ECO:0000269|PubMed:9631240};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:25278;
+CC         Evidence={ECO:0000305|PubMed:9631240};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3',5'-cyclic GMP + H2O = GMP + H(+); Xref=Rhea:RHEA:16957,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57746,
+CC         ChEBI:CHEBI:58115; Evidence={ECO:0000269|PubMed:9631240};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16958;
+CC         Evidence={ECO:0000305|PubMed:9631240};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q13370};
+CC       Note=Binds 2 divalent metal cations per subunit.
+CC       {ECO:0000250|UniProtKB:Q13370};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q14432};
+CC       Note=Binds 2 divalent metal cations per subunit.
+CC       {ECO:0000250|UniProtKB:Q14432};
+CC   -!- ACTIVITY REGULATION: Inhibited by cGMP. {ECO:0000269|PubMed:9631240}.
+CC   -!- SUBUNIT: Homodimer (By similarity). Interacts with PIK3CG; regulates
+CC       PDE3B activity and thereby cAMP levels in cells (By similarity).
+CC       Interacts with RAPGEF3 and PIK3R6; form a signaling complex that
+CC       regulates phosphatidylinositol 3-kinase gamma in angiogenesis (By
+CC       similarity). Interacts with ABHD15; this interaction regulates PDE3B's
+CC       stability and expression and, thereby, impacts the antilipolytic action
+CC       of insulin (By similarity). {ECO:0000250|UniProtKB:Q13370,
+CC       ECO:0000250|UniProtKB:Q61409}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250|UniProtKB:Q61409}; Multi-
+CC       pass membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Abundant in adipose tissues.
+CC       {ECO:0000269|PubMed:8395509}.
+CC   -!- PTM: Phosphorylation at Ser-279 mediates insulin-induced activation of
+CC       PDE3B. {ECO:0000250|UniProtKB:Q61409}.
+CC   -!- SIMILARITY: Belongs to the cyclic nucleotide phosphodiesterase family.
+CC       PDE3 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z22867; CAA80489.1; -; mRNA.
+DR   PIR; A48508; A48508.
+DR   RefSeq; NP_058925.1; NM_017229.1.
+DR   AlphaFoldDB; Q63085; -.
+DR   SMR; Q63085; -.
+DR   STRING; 10116.ENSRNOP00000015498; -.
+DR   iPTMnet; Q63085; -.
+DR   PhosphoSitePlus; Q63085; -.
+DR   PaxDb; 10116-ENSRNOP00000015498; -.
+DR   DNASU; 29516; -.
+DR   GeneID; 29516; -.
+DR   KEGG; rno:29516; -.
+DR   UCSC; RGD:61943; rat.
+DR   AGR; RGD:61943; -.
+DR   CTD; 5140; -.
+DR   RGD; 61943; Pde3b.
+DR   eggNOG; ENOG502QSV8; Eukaryota.
+DR   InParanoid; Q63085; -.
+DR   OrthoDB; 5479253at2759; -.
+DR   PhylomeDB; Q63085; -.
+DR   Reactome; R-RNO-165160; PDE3B signalling.
+DR   Reactome; R-RNO-418555; G alpha (s) signalling events.
+DR   SABIO-RK; Q63085; -.
+DR   PRO; PR:Q63085; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0032045; C:guanyl-nucleotide exchange factor complex; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0004115; F:3',5'-cyclic-AMP phosphodiesterase activity; IDA:UniProtKB.
+DR   GO; GO:0047555; F:3',5'-cyclic-GMP phosphodiesterase activity; IDA:UniProtKB.
+DR   GO; GO:0004114; F:3',5'-cyclic-nucleotide phosphodiesterase activity; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051219; F:phosphoprotein binding; IDA:RGD.
+DR   GO; GO:0043422; F:protein kinase B binding; ISS:BHF-UCL.
+DR   GO; GO:0001525; P:angiogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0019933; P:cAMP-mediated signaling; IBA:GO_Central.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; ISS:BHF-UCL.
+DR   GO; GO:0031018; P:endocrine pancreas development; ISO:RGD.
+DR   GO; GO:0042593; P:glucose homeostasis; ISO:RGD.
+DR   GO; GO:0016525; P:negative regulation of angiogenesis; ISS:UniProtKB.
+DR   GO; GO:0043951; P:negative regulation of cAMP-mediated signaling; IMP:RGD.
+DR   GO; GO:0007162; P:negative regulation of cell adhesion; ISO:RGD.
+DR   GO; GO:0061179; P:negative regulation of insulin secretion involved in cellular response to glucose stimulus; IMP:RGD.
+DR   GO; GO:0050995; P:negative regulation of lipid catabolic process; ISO:RGD.
+DR   GO; GO:0050796; P:regulation of insulin secretion; ISO:RGD.
+DR   CDD; cd00077; HDc; 1.
+DR   Gene3D; 1.10.1300.10; 3'5'-cyclic nucleotide phosphodiesterase, catalytic domain; 1.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR002073; PDEase_catalytic_dom.
+DR   InterPro; IPR036971; PDEase_catalytic_dom_sf.
+DR   InterPro; IPR023174; PDEase_CS.
+DR   PANTHER; PTHR11347; CYCLIC NUCLEOTIDE PHOSPHODIESTERASE; 1.
+DR   PANTHER; PTHR11347:SF29; PHOSPHODIESTERASE; 1.
+DR   Pfam; PF00233; PDEase_I; 1.
+DR   SMART; SM00471; HDc; 1.
+DR   SUPFAM; SSF109604; HD-domain/PDEase-like; 1.
+DR   PROSITE; PS00126; PDEASE_I_1; 1.
+DR   PROSITE; PS51845; PDEASE_I_2; 1.
+PE   1: Evidence at protein level;
+KW   Angiogenesis; cAMP; cGMP; Hydrolase; Magnesium; Membrane; Metal-binding;
+KW   Phosphoprotein; Reference proteome; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..1108
+FT                   /note="cGMP-inhibited 3',5'-cyclic phosphodiesterase 3B"
+FT                   /id="PRO_0000198804"
+FT   TRANSMEM        73..93
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        114..134
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        144..164
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        175..195
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        204..224
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        231..251
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          633..1070
+FT                   /note="PDEase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01192"
+FT   REGION          1..32
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1..32
+FT                   /note="Interaction with RAPGEF3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13370"
+FT   REGION          405..448
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          421..445
+FT                   /note="Interaction with PIK3R6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13370"
+FT   REGION          999..1042
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        13..27
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        415..434
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        999..1032
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        719
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:O76083"
+FT   BINDING         719
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14432"
+FT   BINDING         723
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13370"
+FT   BINDING         803
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13370"
+FT   BINDING         804
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14432"
+FT   BINDING         804
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13370"
+FT   BINDING         804
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13370"
+FT   BINDING         919
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14432"
+FT   BINDING         919
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13370"
+FT   BINDING         970
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14432"
+FT   MOD_RES         15
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q61409"
+FT   MOD_RES         279
+FT                   /note="Phosphoserine; by PKB/AKT1 or PKB/AKT2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q61409"
+FT   MOD_RES         280
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q61409"
+FT   MOD_RES         427
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13370"
+SQ   SEQUENCE   1108 AA;  123107 MW;  C9B5078C7D3ADD6D CRC64;
+     MRKDERERDT PAMRSPPPPP PPATATAASP PESLRNGYVK SCVSPLRQDP PRSFFFHLCR
+     FCNVEPPAAS LRAGARLSLA ALAAFVLAAL LGAGPERWAA AATGLRTLLS ACSLSLSPLF
+     SIACAFFFLT CFLTRAQRGP DRGAGSWWLL ALPACCYLGD FAAWQWWSWL RGEPAAAAAG
+     RLCLVLSCVG LLTLAPRVRL RHGVLVLLFA GLVWWVSFSG LGALPPALRP LLSCLVGGAG
+     CLLALGLDHF FHVRGASPPP RSASTADEKV PVIRPRRRSS CVSLGESAAG YYGSGKMFRR
+     PSLPCISREQ MILWDWDLKQ WCKPHYQNSG GGNGVDLSVL NEARNMVSDL LIDPSLPPQV
+     ISSLRSISSL MGAFSGSCRP KINSFTPFPG FYPCSEVEDP VEKGDRKLHK GLSSKPSFPT
+     AQLRRSSGAS GLLTSEHHSR WDRSGGKRPY QELSVSSHGC HLNGPFSSNL MTIPKQRSSS
+     VSLTHHAGLR RAGALPSPSL LNSSSHVPVS AGCLTNRSPV GFLDTSDFLT KPSVTLHRSL
+     GSVSSAADFH QYLRNSDSSL CSSCGHQILK YVSTCEPDGT DHHNEKSGEE DSTVFSKERL
+     NIVETQEEET VKEDCRELFL EGDDHLMEEA QQPNIDQEVL LDPMLVEDYD SLIEKMSNWN
+     FQIFELVEKM GEKSGRILSQ VMYTLFQDTG LLETFKIPTQ EFMNYFRALE NGYRDIPYHN
+     RVHATDVLHA VWYLTTRPIP GLQQLHNNHE TETKADSDAR LSSGQIAYLS SKSCCIPDKS
+     YGCLSSNIPA LELMALYVAA AMHDYDHPGR TNAFLVATNA PQAVLYNDRS VLENHHAASA
+     WNLYLSRPEY NFLLNLDHME FKRFRFLVIE AILATDLKKH FDFLAEFNAK ANDVNSNGIE
+     WSSENDRLLV CQVCIKLADI NGPAKDRDLH LRWTEGIVNE FYEQGDEEAT LGLPISPFMD
+     RSSPQLAKLQ ESFITHIVGP LCNSYDAAGL LPGQWIEAEE GDDTESDDDD DDDDDDDDDD
+     DEELDSDDEE TEDNLNPKPQ RRKGRRRIFC QLMHHLTENH KIWKEIIEEE EKCKAEGNKL
+     QVDNASLPQA DEIQVIEEAD EEEEQMFE
+//

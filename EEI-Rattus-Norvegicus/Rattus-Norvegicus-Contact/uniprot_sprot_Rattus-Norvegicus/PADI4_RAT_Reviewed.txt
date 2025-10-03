@@ -1,0 +1,276 @@
+ID   PADI4_RAT               Reviewed;         666 AA.
+AC   O88807; O35117;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   29-MAY-2024, entry version 148.
+DE   RecName: Full=Protein-arginine deiminase type-4;
+DE            EC=3.5.3.15 {ECO:0000250|UniProtKB:Q9UM07};
+DE   AltName: Full=PAD-R4;
+DE   AltName: Full=Peptidylarginine deiminase IV;
+DE   AltName: Full=Peptidylarginine deiminase type alpha;
+DE   AltName: Full=Protein-arginine deiminase type IV;
+GN   Name=Padi4; Synonyms=Pad4, Pdi4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=9738944; DOI=10.1016/s0014-5793(98)00893-x;
+RA   Ishigami A., Kuramoto M., Yamada M., Watanabe K., Senshu T.;
+RT   "Molecular cloning of two novel types of peptidylarginine deiminase cDNAs
+RT   from retinoic acid-treated culture of a newborn rat keratinocyte cell
+RT   line.";
+RL   FEBS Lett. 433:113-118(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   TISSUE=Epidermis;
+RX   PubMed=9675292; DOI=10.1016/s0167-4838(98)00084-3;
+RA   Yamakoshi A., Ono H., Nishijyo T., Shiraiwa M., Takahara H.;
+RT   "Cloning of cDNA encoding a novel isoform (type IV) of peptidylarginine
+RT   deiminase from rat epidermis.";
+RL   Biochim. Biophys. Acta 1386:227-232(1998).
+CC   -!- FUNCTION: Catalyzes the citrullination/deimination of arginine residues
+CC       of proteins such as histones, thereby playing a key role in histone
+CC       code and regulation of stem cell maintenance. Citrullinates histone H1
+CC       at 'Arg-54' (to form H1R54ci), histone H3 at 'Arg-2', 'Arg-8', 'Arg-17'
+CC       and/or 'Arg-26' (to form H3R2ci, H3R8ci, H3R17ci, H3R26ci,
+CC       respectively) and histone H4 at 'Arg-3' (to form H4R3ci). Acts as a key
+CC       regulator of stem cell maintenance by mediating citrullination of
+CC       histone H1: citrullination of 'Arg-54' of histone H1 (H1R54ci) results
+CC       in H1 displacement from chromatin and global chromatin decondensation,
+CC       thereby promoting pluripotency and stem cell maintenance. Promotes
+CC       profound chromatin decondensation during the innate immune response to
+CC       infection in neutrophils by mediating formation of H1R54ci (By
+CC       similarity). Required for the formation of neutrophil extracellular
+CC       traps (NETs); NETs are mainly composed of DNA fibers and are released
+CC       by neutrophils to bind pathogens during inflammation (By similarity).
+CC       Citrullination of histone H3 prevents their methylation by CARM1 and
+CC       HRMT1L2/PRMT1 and represses transcription. Citrullinates EP300/P300 at
+CC       'Arg-2142', which favors its interaction with NCOA2/GRIP1 (By
+CC       similarity). {ECO:0000250|UniProtKB:Q9UM07,
+CC       ECO:0000250|UniProtKB:Q9Z183}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-arginyl-[protein] = L-citrullyl-[protein] + NH4(+);
+CC         Xref=Rhea:RHEA:18089, Rhea:RHEA-COMP:10532, Rhea:RHEA-COMP:10588,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:28938, ChEBI:CHEBI:29965,
+CC         ChEBI:CHEBI:83397; EC=3.5.3.15;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UM07};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UM07};
+CC       Note=Binds 5 Ca(2+) ions per subunit. {ECO:0000250|UniProtKB:Q9UM07};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q9UM07}. Nucleus
+CC       {ECO:0000250|UniProtKB:Q9UM07}. Cytoplasmic granule
+CC       {ECO:0000250|UniProtKB:Q9UM07}. Note=Cytoplasmic granules of
+CC       eosinophils and neutrophils. {ECO:0000250|UniProtKB:Q9UM07}.
+CC   -!- TISSUE SPECIFICITY: Epidermis. {ECO:0000269|PubMed:9675292}.
+CC   -!- PTM: Autocitrullination at Arg-372 and Arg-374 inactivates the enzyme.
+CC       {ECO:0000250|UniProtKB:Q9UM07}.
+CC   -!- SIMILARITY: Belongs to the protein arginine deiminase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB010999; BAA32100.1; -; mRNA.
+DR   EMBL; AB008803; BAA23523.1; -; mRNA.
+DR   RefSeq; NP_058923.1; NM_017227.1.
+DR   AlphaFoldDB; O88807; -.
+DR   SMR; O88807; -.
+DR   STRING; 10116.ENSRNOP00000009081; -.
+DR   PhosphoSitePlus; O88807; -.
+DR   PaxDb; 10116-ENSRNOP00000009081; -.
+DR   Ensembl; ENSRNOT00000009081.3; ENSRNOP00000009081.1; ENSRNOG00000006855.3.
+DR   Ensembl; ENSRNOT00065040343; ENSRNOP00065032842; ENSRNOG00065023578.
+DR   GeneID; 29512; -.
+DR   KEGG; rno:29512; -.
+DR   UCSC; RGD:3290; rat.
+DR   AGR; RGD:3290; -.
+DR   CTD; 23569; -.
+DR   RGD; 3290; Padi4.
+DR   eggNOG; ENOG502QVJA; Eukaryota.
+DR   GeneTree; ENSGT00940000153217; -.
+DR   HOGENOM; CLU_021911_0_0_1; -.
+DR   InParanoid; O88807; -.
+DR   OMA; DQRTWTW; -.
+DR   OrthoDB; 3956477at2759; -.
+DR   PhylomeDB; O88807; -.
+DR   TreeFam; TF331952; -.
+DR   BRENDA; 3.5.3.15; 5301.
+DR   Reactome; R-RNO-3247509; Chromatin modifying enzymes.
+DR   PRO; PR:O88807; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   Bgee; ENSRNOG00000006855; Expressed in pancreas and 13 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0140794; F:histone arginine deiminase activity; ISO:RGD.
+DR   GO; GO:0140797; F:histone H3R17 arginine deiminase activity; ISO:RGD.
+DR   GO; GO:0140795; F:histone H3R2 arginine deiminase activity; ISO:RGD.
+DR   GO; GO:0140798; F:histone H3R26 arginine deiminase activity; ISO:RGD.
+DR   GO; GO:0140796; F:histone H3R8 arginine deiminase activity; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0004668; F:protein-arginine deiminase activity; IDA:UniProtKB.
+DR   GO; GO:0006325; P:chromatin organization; ISS:UniProtKB.
+DR   GO; GO:0006338; P:chromatin remodeling; ISS:UniProtKB.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0006334; P:nucleosome assembly; ISS:UniProtKB.
+DR   GO; GO:0043687; P:post-translational protein modification; ISO:RGD.
+DR   GO; GO:0019827; P:stem cell population maintenance; ISS:UniProtKB.
+DR   CDD; cd04214; PAD_N; 1.
+DR   Gene3D; 2.60.40.1700; Protein-arginine deiminase, central domain; 1.
+DR   Gene3D; 2.60.40.1860; Protein-arginine deiminase, N-terminal domain; 1.
+DR   InterPro; IPR008972; Cupredoxin.
+DR   InterPro; IPR004303; PAD.
+DR   InterPro; IPR013530; PAD_C.
+DR   InterPro; IPR036556; PAD_central_sf.
+DR   InterPro; IPR013732; PAD_N.
+DR   InterPro; IPR038685; PAD_N_sf.
+DR   InterPro; IPR013733; Prot_Arg_deaminase_cen_dom.
+DR   PANTHER; PTHR10837; PEPTIDYLARGININE DEIMINASE; 1.
+DR   PANTHER; PTHR10837:SF3; PROTEIN-ARGININE DEIMINASE TYPE-4; 1.
+DR   Pfam; PF03068; PAD; 1.
+DR   Pfam; PF08527; PAD_M; 1.
+DR   Pfam; PF08526; PAD_N; 1.
+DR   PIRSF; PIRSF001247; Protein-arginine_deiminase; 1.
+DR   SUPFAM; SSF49503; Cupredoxins; 1.
+DR   SUPFAM; SSF55909; Pentein; 1.
+DR   SUPFAM; SSF110083; Peptidylarginine deiminase Pad4, middle domain; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Chromatin regulator; Citrullination; Cytoplasm; Hydrolase;
+KW   Immunity; Innate immunity; Metal-binding; Nucleus; Reference proteome;
+KW   Transcription; Transcription regulation.
+FT   CHAIN           1..666
+FT                   /note="Protein-arginine deiminase type-4"
+FT                   /id="PRO_0000220035"
+FT   ACT_SITE        350
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   ACT_SITE        471
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   ACT_SITE        473
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   ACT_SITE        648
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         153
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         155
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         155
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         165
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         165
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         168
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         176
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         179
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         179
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         349
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         351
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         353
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         369
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         370
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         374
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         407
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         410
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   BINDING         411
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   MOD_RES         212
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   MOD_RES         218
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   MOD_RES         372
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   MOD_RES         374
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   MOD_RES         383
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UM07"
+FT   CONFLICT        655
+FT                   /note="K -> E (in Ref. 2; BAA23523)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   666 AA;  74467 MW;  70F23BB3B04C813B CRC64;
+     MAQGAVIHVA PEEPTHAVCV VGTATPLDIR GSAPRGSTSF SITASPEVVV DVIHGPPSKK
+     STTGASKWPL DPKLEVTLQM KAASSRIDDQ KVRISYYGPK TSSTQALLYL TGVELSLSAD
+     VTRTGKAKPA PAGKDQSTWT WGPDGHGAIL LVNCDKEDPK SSGMDFEDDK VLDNKDLQDM
+     SPMTLSTKTP KDFFDKYQLV LQVPKAKMNK VRVFRATRGK LPSRYKVVLG PQQFSHRLEL
+     LGGQHSTDFY VEGLAFPDAD FKGLIPLTIS LLDKSNPELP EALVFQDTVM FRVAPWIMTP
+     NTQPPQEVYV CRFSDNEDFL KSLATFTKKA KCKLTVCPEE ENQDDQWMQD EMEIGYIQAP
+     HKTLPVVFDS PRDRGLKDFP VKRVMGPNFG YVTRGLYRAE VTGLDAFGNL EVSPPVTVRG
+     KEYPLGRILI GSSGYSSSES RDMHQILQDF LGAQQVQAPV RLFSDWLFVG HVDEFLSFVP
+     ARGKQGFRLL LSSPRACYQM FQELQTEGHG EASLFEGLKR KRQTISDILS SQKLRDQNAY
+     VESCIDWNRE VLKRELGLTE GDIIDIPQLF RIVGNSRGNP KAEAFFPNMV NMLVLGKHLG
+     IPKPFGPIIN GRCCLEEKVC SLLEPLGLHC TFINDFYSYH MYHGEVHCGT NVRRKPFAFK
+     WWHMVP
+//

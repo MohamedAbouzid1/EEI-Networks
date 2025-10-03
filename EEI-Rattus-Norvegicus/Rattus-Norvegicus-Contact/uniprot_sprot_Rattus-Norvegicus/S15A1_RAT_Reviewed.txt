@@ -1,0 +1,455 @@
+ID   S15A1_RAT               Reviewed;         710 AA.
+AC   P51574; Q5EML1;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   02-OCT-2024, entry version 141.
+DE   RecName: Full=Solute carrier family 15 member 1;
+DE   AltName: Full=Intestinal H(+)/peptide cotransporter {ECO:0000303|PubMed:8605246};
+DE   AltName: Full=Oligopeptide transporter, small intestine isoform {ECO:0000303|PubMed:8605246};
+DE   AltName: Full=Peptide transporter 1 {ECO:0000303|PubMed:8605246};
+DE   AltName: Full=Proton-coupled dipeptide cotransporter;
+GN   Name=Slc15a1; Synonyms=Pept1 {ECO:0000303|PubMed:8605246};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Small intestine;
+RX   PubMed=8605246; DOI=10.1016/0167-4781(95)00208-1;
+RA   Miyamoto K., Shiraga T., Morita K., Yamamoto H., Haga H., Taketani Y.,
+RA   Tamai I., Sai Y., Tsuji A., Takeda E.;
+RT   "Sequence, tissue distribution and developmental changes in rat intestinal
+RT   oligopeptide transporter.";
+RL   Biochim. Biophys. Acta 1305:34-38(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Kidney;
+RX   PubMed=8531138;
+RA   Saito H., Okuda M., Terada T., Sasaki S., Inui K.;
+RT   "Cloning and characterization of a rat H+/peptide cotransporter mediating
+RT   absorption of beta-lactam antibiotics in the intestine and kidney.";
+RL   J. Pharmacol. Exp. Ther. 275:1631-1637(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), ALTERNATIVE PROMOTER USAGE, TISSUE
+RP   SPECIFICITY, AND INDUCTION.
+RX   PubMed=15684415; DOI=10.1074/jbc.m414587200;
+RA   Gaildrat P., Moller M., Mukda S., Humphries A., Carter D.A., Ganapathy V.,
+RA   Klein D.C.;
+RT   "A novel pineal-specific product of the oligopeptide transporter PepT1
+RT   gene: circadian expression mediated by cAMP activation of an intronic
+RT   promoter.";
+RL   J. Biol. Chem. 280:16851-16860(2005).
+RN   [4]
+RP   TISSUE SPECIFICITY, AND INDUCTION.
+RX   PubMed=19103603; DOI=10.1074/jbc.m808394200;
+RA   Bailey M.J., Coon S.L., Carter D.A., Humphries A., Kim J.S., Shi Q.,
+RA   Gaildrat P., Morin F., Ganguly S., Hogenesch J.B., Weller J.L., Rath M.F.,
+RA   Moller M., Baler R., Sugden D., Rangel Z.G., Munson P.J., Klein D.C.;
+RT   "Night/day changes in pineal expression of >600 genes: central role of
+RT   adrenergic/cAMP signaling.";
+RL   J. Biol. Chem. 284:7606-7622(2009).
+CC   -!- FUNCTION: Electrogenic proton-coupled amino-acid transporter that
+CC       transports oligopeptides of 2 to 4 amino acids with a preference for
+CC       dipeptides. Transports neutral and monovalently charged peptides with a
+CC       proton to peptide stoichiometry of 1:1 or 2:1 (By similarity).
+CC       Primarily responsible for the absorption of dietary di- and tripeptides
+CC       from the small intestinal lumen (By similarity). Mediates
+CC       transepithelial transport of muramyl and N-formylated bacterial
+CC       dipeptides contributing to recognition of pathogenic bacteria by the
+CC       mucosal immune system (By similarity). {ECO:0000250|UniProtKB:P36836,
+CC       ECO:0000250|UniProtKB:P46059}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a dipeptide(out) + H(+)(out) = a dipeptide(in) + H(+)(in);
+CC         Xref=Rhea:RHEA:64392, ChEBI:CHEBI:15378, ChEBI:CHEBI:90799;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64393;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an L-amino acid tripeptide(out) + H(+)(out) = an L-amino acid
+CC         tripeptide(in) + H(+)(in); Xref=Rhea:RHEA:64400, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:155837; Evidence={ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64401;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-alanyl-L-lysine(out) = H(+)(in) + L-alanyl-L-
+CC         lysine(in); Xref=Rhea:RHEA:72611, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:192470; Evidence={ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:72612;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-alanyl-L-proline(out) = H(+)(in) + L-alanyl-L-
+CC         proline(in); Xref=Rhea:RHEA:64420, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:155848; Evidence={ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64421;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-alanyl-L-valine(out) = H(+)(in) + L-alanyl-L-
+CC         valine(in); Xref=Rhea:RHEA:72615, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:192471; Evidence={ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:72616;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=carnosine(out) + H(+)(out) = carnosine(in) + H(+)(in);
+CC         Xref=Rhea:RHEA:64404, ChEBI:CHEBI:15378, ChEBI:CHEBI:57485;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64405;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyl-L-glutamine(out) + H(+)(out) = glycyl-L-glutamine(in) +
+CC         H(+)(in); Xref=Rhea:RHEA:71671, ChEBI:CHEBI:15378, ChEBI:CHEBI:74392;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71672;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:71673;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyl-L-leucine(out) + H(+)(out) = glycyl-L-leucine(in) +
+CC         H(+)(in); Xref=Rhea:RHEA:71675, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:143163; Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71676;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyl-L-proline(out) + H(+)(out) = glycyl-L-proline(in) +
+CC         H(+)(in); Xref=Rhea:RHEA:64428, ChEBI:CHEBI:15378, ChEBI:CHEBI:73779;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64429;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyl-sarcosine(out) + H(+)(out) = glycyl-sarcosine(in) +
+CC         H(+)(in); Xref=Rhea:RHEA:64396, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:155838; Evidence={ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64397;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-leucyl-L-leucine(out) = H(+)(in) + L-leucyl-L-
+CC         leucine(in); Xref=Rhea:RHEA:71715, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:191208; Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71716;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-leucyl-L-proline(out) = H(+)(in) + L-leucyl-L-
+CC         proline(in); Xref=Rhea:RHEA:64424, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:155847; Evidence={ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64425;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-phenylalanyl-L-leucine(out) = H(+)(in) + L-
+CC         phenylalanyl-L-leucine(in); Xref=Rhea:RHEA:71699, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:190710; Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71700;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-phenylalanyl-L-phenylalanine(out) = H(+)(in) +
+CC         L-phenylalanyl-L-phenylalanine(in); Xref=Rhea:RHEA:71707,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:191205;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71708;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-lysyl-glycine(out) = H(+)(in) + L-lysyl-
+CC         glycine(in); Xref=Rhea:RHEA:71679, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:191202; Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71680;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:71681;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-tyrosylglycine(out) = H(+)(in) + L-
+CC         tyrosylglycine(in); Xref=Rhea:RHEA:71711, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:191210; Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71712;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+)(out) + L-alanyl-L-aspartate(out) = 2 H(+)(in) + L-
+CC         alanyl-L-aspartate(in); Xref=Rhea:RHEA:71695, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:74363; Evidence={ECO:0000250|UniProtKB:P36836,
+CC         ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71696;
+CC         Evidence={ECO:0000250|UniProtKB:P36836,
+CC         ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+)(out) + L-aspartyl-glycine(out) = 2 H(+)(in) + L-
+CC         aspartyl-glycine(in); Xref=Rhea:RHEA:71683, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:191203; Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71684;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyl-L-aspartate(out) + 2 H(+)(out) = glycyl-L-aspartate(in)
+CC         + 2 H(+)(in); Xref=Rhea:RHEA:71687, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:191204; Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71688;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:71689;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyl-L-glutamate(out) + 2 H(+)(out) = glycyl-L-glutamate(in)
+CC         + 2 H(+)(in); Xref=Rhea:RHEA:71691, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:73784; Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71692;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-alanyl-L-leucyl-L-alanine(out) = H(+)(in) + L-
+CC         alanyl-L-leucyl-L-alanine(in); Xref=Rhea:RHEA:71723,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:191212;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71724;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-alanyl-L-prolylglycine(out) = H(+)(in) + L-
+CC         alanyl-L-prolylglycine(in); Xref=Rhea:RHEA:64432, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:155849; Evidence={ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64433;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycylglycyl-L-isoleucine(out) + H(+)(out) = glycylglycyl-L-
+CC         isoleucine(in) + H(+)(in); Xref=Rhea:RHEA:64436, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:155850; Evidence={ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64437;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycylglycyl-L-proline(out) + H(+)(out) = glycylglycyl-L-
+CC         proline(in) + H(+)(in); Xref=Rhea:RHEA:64440, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:155851; Evidence={ECO:0000250|UniProtKB:P46059};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64441;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + L-methionyl-L-phenylalanyl-L-methionine(out) =
+CC         H(+)(in) + L-methionyl-L-phenylalanyl-L-methionine(in);
+CC         Xref=Rhea:RHEA:71719, ChEBI:CHEBI:15378, ChEBI:CHEBI:191211;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:71720;
+CC         Evidence={ECO:0000250|UniProtKB:P36836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+)(out) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(out)
+CC         = 2 H(+)(in) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(in);
+CC         Xref=Rhea:RHEA:64408, ChEBI:CHEBI:15378, ChEBI:CHEBI:155830;
+CC         Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+)(out) + N-formyl-L-methionyl-L-leucyl-L-
+CC         phenylalanine(out) = 2 H(+)(in) + N-formyl-L-methionyl-L-leucyl-L-
+CC         phenylalanine(in); Xref=Rhea:RHEA:75399, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:194314; Evidence={ECO:0000250|UniProtKB:P46059};
+CC   -!- SUBUNIT: Interacts (via extracellular domain region) with trypsin.
+CC       {ECO:0000250|UniProtKB:Q9JIP7}.
+CC   -!- SUBCELLULAR LOCATION: Apical cell membrane
+CC       {ECO:0000250|UniProtKB:P46059}; Multi-pass membrane protein
+CC       {ECO:0000255}. Note=Localized to the apical membrane of enterocytes.
+CC       {ECO:0000250|UniProtKB:P46059}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative promoter usage; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P51574-1; Sequence=Displayed;
+CC       Name=2; Synonyms=pgPepT1;
+CC         IsoId=P51574-2; Sequence=VSP_042081, VSP_042082;
+CC   -!- TISSUE SPECIFICITY: [Isoform 1]: Highly expressed in small intestine.
+CC       {ECO:0000269|PubMed:8531138, ECO:0000269|PubMed:8605246}.
+CC   -!- TISSUE SPECIFICITY: [Isoform 2]: Expression is restricted to
+CC       pinealocytes. {ECO:0000269|PubMed:15684415,
+CC       ECO:0000269|PubMed:19103603}.
+CC   -!- INDUCTION: [Isoform 2]: Exhibits night/day variations with close to
+CC       100-fold increased expression at night (PubMed:15684415,
+CC       PubMed:19103603). Up-regulation is due to a large degree to the release
+CC       of norepinephrine from nerve terminals in the pineal gland and cAMP
+CC       signaling pathway, which activates an alternative promoter within
+CC       intron 20 resulting in isoform 2 production (PubMed:15684415,
+CC       PubMed:19103603). Levels rapidly decrease after exposure to daylight
+CC       and become undetectable at midday and late afternoon (PubMed:15684415,
+CC       PubMed:19103603). {ECO:0000269|PubMed:15684415,
+CC       ECO:0000269|PubMed:19103603}.
+CC   -!- DOMAIN: The extracellular domain (ECD) region specifically binds
+CC       trypsin. {ECO:0000250|UniProtKB:Q9JIP7}.
+CC   -!- SIMILARITY: Belongs to the major facilitator superfamily. Proton-
+CC       dependent oligopeptide transporter (POT/PTR) (TC 2.A.17) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D50664; BAA09318.1; -; mRNA.
+DR   EMBL; D50306; BAA08844.1; -; mRNA.
+DR   EMBL; AY860424; AAW80389.1; -; mRNA.
+DR   PIR; S72497; S72497.
+DR   RefSeq; NP_001073307.1; NM_001079838.1. [P51574-2]
+DR   RefSeq; NP_476462.1; NM_057121.1.
+DR   AlphaFoldDB; P51574; -.
+DR   SMR; P51574; -.
+DR   STRING; 10116.ENSRNOP00000015890; -.
+DR   BindingDB; P51574; -.
+DR   ChEMBL; CHEMBL2073691; -.
+DR   TCDB; 2.A.17.4.1; the proton-dependent oligopeptide transporter (pot/ptr) family.
+DR   GlyCosmos; P51574; 5 sites, No reported glycans.
+DR   GlyGen; P51574; 5 sites.
+DR   PhosphoSitePlus; P51574; -.
+DR   PaxDb; 10116-ENSRNOP00000015890; -.
+DR   GeneID; 117261; -.
+DR   KEGG; rno:117261; -.
+DR   AGR; RGD:621736; -.
+DR   CTD; 6564; -.
+DR   RGD; 621736; Slc15a1.
+DR   eggNOG; KOG1237; Eukaryota.
+DR   InParanoid; P51574; -.
+DR   OrthoDB; 930761at2759; -.
+DR   PhylomeDB; P51574; -.
+DR   Reactome; R-RNO-427975; Proton/oligopeptide cotransporters.
+DR   PRO; PR:P51574; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:ARUK-UCL.
+DR   GO; GO:0005903; C:brush border; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0016248; F:channel inhibitor activity; IDA:RGD.
+DR   GO; GO:0071916; F:dipeptide transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015333; F:peptide:proton symporter activity; ISS:UniProtKB.
+DR   GO; GO:0005427; F:proton-dependent oligopeptide secondary active transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0042937; F:tripeptide transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0140206; P:dipeptide import across plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0072237; P:metanephric proximal tubule development; IEP:RGD.
+DR   GO; GO:0051956; P:negative regulation of amino acid transport; IDA:RGD.
+DR   GO; GO:0006857; P:oligopeptide transport; ISO:RGD.
+DR   GO; GO:0015833; P:peptide transport; IEA:UniProtKB-KW.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   Gene3D; 1.20.1250.20; MFS general substrate transporter like domains; 2.
+DR   InterPro; IPR036259; MFS_trans_sf.
+DR   InterPro; IPR004768; Oligopep_transport.
+DR   InterPro; IPR000109; POT_fam.
+DR   InterPro; IPR018456; PTR2_symporter_CS.
+DR   NCBIfam; TIGR00926; 2A1704; 1.
+DR   PANTHER; PTHR11654; OLIGOPEPTIDE TRANSPORTER-RELATED; 1.
+DR   PANTHER; PTHR11654:SF89; SOLUTE CARRIER FAMILY 15 MEMBER 1; 1.
+DR   Pfam; PF00854; PTR2; 2.
+DR   SUPFAM; SSF103473; MFS general substrate transporter; 1.
+DR   PROSITE; PS01022; PTR2_1; 1.
+DR   PROSITE; PS01023; PTR2_2; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative promoter usage; Cell membrane; Glycoprotein; Membrane;
+KW   Peptide transport; Protein transport; Reference proteome; Symport;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..710
+FT                   /note="Solute carrier family 15 member 1"
+FT                   /id="PRO_0000064307"
+FT   TRANSMEM        1..21
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        22..53
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        54..74
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        75..82
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        83..103
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        104..118
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        119..139
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        140..161
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        162..182
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        183..198
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        199..219
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        220..276
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        277..297
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        298..327
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        328..348
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        349..361
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        362..382
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        383..586
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        587..607
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        608..621
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        622..642
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        643..647
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        648..668
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        669..710
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          383..586
+FT                   /note="Extracellular domain (ECD)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JIP7"
+FT   REGION          687..710
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        415
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        439
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        510
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        532
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        539
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         1..560
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15684415"
+FT                   /id="VSP_042081"
+FT   VAR_SEQ         561..563
+FT                   /note="SRA -> MVQ (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15684415"
+FT                   /id="VSP_042082"
+FT   CONFLICT        241
+FT                   /note="R -> G (in Ref. 2; BAA08844)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        259
+FT                   /note="N -> E (in Ref. 2; BAA08844)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        279..280
+FT                   /note="IM -> MV (in Ref. 2; BAA08844)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   710 AA;  78929 MW;  435727A6C76F2D7B CRC64;
+     MGMSKSRGCF GYPLSIFFIV VNEFCERFSY YGMRALLVLY FRNFLGWDDD LSTAIYHTFV
+     ALCYLTPILG ALIADSWLGK FKTIVSLSIV YTIGQAVISV SSINDLTDHD HDGSPNNLPL
+     HVALSMIGLA LIALGTGGIK PCVSAFGGDQ FEEGQEKQRN RFFSIFYLAI NAGSLLSTII
+     TPILRVQQCG IHSQQACYPL AFGVPAALMA VALIVFVLGS GMYKKFQPQG NIMGKVAKCI
+     RFAIKNRFRH RSKAFPKRNH WLDWAKEKYD ERLISQIKIM TKVMFLYIPL PMFWALFDQQ
+     GSRWTLQATT MTGKIGTIEI QPDQMQTVNA ILIVIMVPIV DAVVYPLIAK CGFNFTSLKK
+     MTVGMFLASM AFVVAAIVQV EIDKTLPVFP SGNQVQIKVL NIGNNDMAVY FPGKNVTVAQ
+     MSQTDTFMTF DVDQLTSINV SSPGSPGVTT VAHEFEPGHR HTLLVWGPNL YRVVKDGLNQ
+     KPEKGENGIR FVSTLNEMIT IKMSGKVYEN VTSHSASNYQ FFPSGQKDYT INTTEIAPNC
+     SSDFKSSNLD FGSAYTYVIR SRASDGCLEV KEFEDIPPNT VNMALQIPQY FLLTCGEVVF
+     SVTGLEFSYS QAPSNMKSVL QAGWLLTVAI GNIIVLIVAE AGHFDKQWAE YVLFASLLLV
+     VCIIFAIMAR FYTYINPAEI EAQFDEDEKK KGVGKENPYS SLEPVSQTNM
+//

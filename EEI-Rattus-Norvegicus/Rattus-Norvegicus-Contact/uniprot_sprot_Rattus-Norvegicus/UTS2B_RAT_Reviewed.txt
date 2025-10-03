@@ -1,0 +1,97 @@
+ID   UTS2B_RAT               Reviewed;         118 AA.
+AC   Q765I2;
+DT   23-NOV-2004, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   27-MAR-2024, entry version 92.
+DE   RecName: Full=Urotensin-2B;
+DE   AltName: Full=Urotensin II-related peptide;
+DE   AltName: Full=Urotensin IIB;
+DE            Short=U-IIB;
+DE            Short=UIIB;
+DE   AltName: Full=Urotensin-2 domain-containing protein;
+DE   Flags: Precursor;
+GN   Name=Uts2b; Synonyms=Urp, Uts2d;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 111-118, FUNCTION, AND
+RP   TISSUE SPECIFICITY.
+RC   TISSUE=Brain;
+RX   PubMed=14550283; DOI=10.1016/j.bbrc.2003.09.102;
+RA   Sugo T., Murakami Y., Shimomura Y., Harada M., Abe M., Ishibashi Y.,
+RA   Kitada C., Miyajima N., Suzuki N., Mori M., Fujino M.;
+RT   "Identification of urotensin II-related peptide as the urotensin II-
+RT   immunoreactive molecule in the rat brain.";
+RL   Biochem. Biophys. Res. Commun. 310:860-868(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Nothacker H.-P., Civelli O.;
+RT   "Characterization of a novel urotensin II precursor: urotensin II B
+RT   (U2B).";
+RL   Submitted (JUN-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Potent vasoconstrictor. {ECO:0000269|PubMed:14550283}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Expressed in a number of tissues includinf brain,
+CC       thymus, spleen, testis and spinal cord. {ECO:0000269|PubMed:14550283}.
+CC   -!- SIMILARITY: Belongs to the urotensin-2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB116019; BAC98927.1; -; mRNA.
+DR   EMBL; AY321314; AAQ83884.1; -; mRNA.
+DR   RefSeq; NP_937766.1; NM_198133.2.
+DR   AlphaFoldDB; Q765I2; -.
+DR   SMR; Q765I2; -.
+DR   STRING; 10116.ENSRNOP00000039320; -.
+DR   PhosphoSitePlus; Q765I2; -.
+DR   PaxDb; 10116-ENSRNOP00000039320; -.
+DR   Ensembl; ENSRNOT00000042650.5; ENSRNOP00000039320.4; ENSRNOG00000038512.4.
+DR   Ensembl; ENSRNOT00065005288; ENSRNOP00065003820; ENSRNOG00065003647.
+DR   GeneID; 378939; -.
+DR   KEGG; rno:378939; -.
+DR   UCSC; RGD:727977; rat.
+DR   AGR; RGD:727977; -.
+DR   CTD; 257313; -.
+DR   RGD; 727977; Uts2b.
+DR   eggNOG; ENOG502S3JR; Eukaryota.
+DR   GeneTree; ENSGT00390000003511; -.
+DR   HOGENOM; CLU_2060777_0_0_1; -.
+DR   InParanoid; Q765I2; -.
+DR   OMA; TMALCVP; -.
+DR   OrthoDB; 5318638at2759; -.
+DR   PhylomeDB; Q765I2; -.
+DR   Reactome; R-RNO-375276; Peptide ligand-binding receptors.
+DR   Reactome; R-RNO-416476; G alpha (q) signalling events.
+DR   PRO; PR:Q765I2; -.
+DR   Proteomes; UP000002494; Chromosome 11.
+DR   Bgee; ENSRNOG00000038512; Expressed in cerebellum and 2 other cell types or tissues.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0001664; F:G protein-coupled receptor binding; IDA:RGD.
+DR   GO; GO:0005179; F:hormone activity; IEA:UniProtKB-KW.
+DR   GO; GO:0097746; P:blood vessel diameter maintenance; IEA:InterPro.
+DR   GO; GO:0008217; P:regulation of blood pressure; IDA:RGD.
+DR   InterPro; IPR043255; U-IIB.
+DR   InterPro; IPR001483; Urotensin_II.
+DR   PANTHER; PTHR36876; UROTENSIN-2B; 1.
+DR   PANTHER; PTHR36876:SF1; UROTENSIN-2B; 1.
+DR   PROSITE; PS00984; UROTENSIN_II; 1.
+PE   1: Evidence at protein level;
+KW   Cleavage on pair of basic residues; Direct protein sequencing;
+KW   Disulfide bond; Hormone; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          28..108
+FT                   /id="PRO_0000036361"
+FT   PEPTIDE         111..118
+FT                   /note="Urotensin-2B"
+FT                   /id="PRO_0000036362"
+FT   DISULFID        112..117
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   118 AA;  13341 MW;  824DC58F9E9B3877 CRC64;
+     MKFFSTSLCF GLLALLSVTT LLHSVRGRPH LSSGHELFPA EEHTTQEKLP LGLLIRNPGF
+     QRPAHAGVDL PSKVEELRQL KKLREWFMEA KSAEPSNALD KLSSSHPIKR ACFWKYCV
+//

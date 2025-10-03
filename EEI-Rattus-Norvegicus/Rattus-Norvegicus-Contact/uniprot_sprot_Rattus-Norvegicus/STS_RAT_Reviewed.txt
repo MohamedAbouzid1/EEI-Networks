@@ -1,0 +1,206 @@
+ID   STS_RAT                 Reviewed;         577 AA.
+AC   P15589;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 2.
+DT   24-JUL-2024, entry version 152.
+DE   RecName: Full=Steryl-sulfatase;
+DE            EC=3.1.6.2 {ECO:0000250|UniProtKB:P08842};
+DE   AltName: Full=Arylsulfatase C;
+DE            Short=ASC;
+DE   AltName: Full=Steroid sulfatase;
+DE   AltName: Full=Steryl-sulfate sulfohydrolase;
+DE   Flags: Precursor;
+GN   Name=Sts;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RA   Li X.M., Salido E.C., Gong Y., Yen P.H., Kitada Y., Serikawa T.,
+RA   Shapiro L.J.;
+RL   Submitted (NOV-1995) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PROTEIN SEQUENCE OF 20-45.
+RC   TISSUE=Liver;
+RX   PubMed=2765556; DOI=10.1016/0167-4838(89)90187-8;
+RA   Kawano J., Kotani T., Ohtaki S., Minamino N., Matsuo H., Oinuma T.,
+RA   Aikawa E.;
+RT   "Characterization of rat and human steroid sulfatases.";
+RL   Biochim. Biophys. Acta 997:199-205(1989).
+CC   -!- FUNCTION: Catalyzes the conversion of sulfated steroid precursors, such
+CC       as dehydroepiandrosterone sulfate (DHEA-S) and estrone sulfate to the
+CC       free steroid. {ECO:0000250|UniProtKB:P08842}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dehydroepiandrosterone 3-sulfate + H2O = 3beta-hydroxyandrost-
+CC         5-en-17-one + H(+) + sulfate; Xref=Rhea:RHEA:19873,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16189,
+CC         ChEBI:CHEBI:28689, ChEBI:CHEBI:57905; EC=3.1.6.2;
+CC         Evidence={ECO:0000250|UniProtKB:P08842};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=estrone 3-sulfate + H2O = estrone + H(+) + sulfate;
+CC         Xref=Rhea:RHEA:31055, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16189, ChEBI:CHEBI:17263, ChEBI:CHEBI:60050;
+CC         Evidence={ECO:0000250|UniProtKB:P08842};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:P08842};
+CC       Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000250|UniProtKB:P08842};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:P08842}.
+CC   -!- SUBCELLULAR LOCATION: Microsome membrane
+CC       {ECO:0000250|UniProtKB:P08842}; Multi-pass membrane protein.
+CC       Endoplasmic reticulum membrane {ECO:0000250|UniProtKB:P08842}; Multi-
+CC       pass membrane protein {ECO:0000305}. Note=The sequence shows several
+CC       membrane-spanning domains that could serve to anchor the protein in the
+CC       microsomal membrane.
+CC   -!- PTM: The conversion to 3-oxoalanine (also known as C-formylglycine,
+CC       FGly), of a serine or cysteine residue in prokaryotes and of a cysteine
+CC       residue in eukaryotes, is critical for catalytic activity.
+CC       {ECO:0000250|UniProtKB:P08842}.
+CC   -!- SIMILARITY: Belongs to the sulfatase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U37138; AAC53097.1; -; mRNA.
+DR   PIR; S05414; S05414.
+DR   RefSeq; NP_036793.1; NM_012661.1.
+DR   AlphaFoldDB; P15589; -.
+DR   SMR; P15589; -.
+DR   STRING; 10116.ENSRNOP00000043915; -.
+DR   BindingDB; P15589; -.
+DR   ChEMBL; CHEMBL3531; -.
+DR   GlyCosmos; P15589; 3 sites, No reported glycans.
+DR   GlyGen; P15589; 3 sites.
+DR   PhosphoSitePlus; P15589; -.
+DR   PaxDb; 10116-ENSRNOP00000043915; -.
+DR   GeneID; 24800; -.
+DR   KEGG; rno:24800; -.
+DR   AGR; RGD:3783; -.
+DR   CTD; 412; -.
+DR   RGD; 3783; Sts.
+DR   eggNOG; KOG3867; Eukaryota.
+DR   InParanoid; P15589; -.
+DR   OrthoDB; 2913702at2759; -.
+DR   PhylomeDB; P15589; -.
+DR   Reactome; R-RNO-1663150; The activation of arylsulfatases.
+DR   Reactome; R-RNO-196071; Metabolism of steroid hormones.
+DR   Reactome; R-RNO-9840310; Glycosphingolipid catabolism.
+DR   PRO; PR:P15589; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IDA:RGD.
+DR   GO; GO:0005635; C:nuclear envelope; IDA:RGD.
+DR   GO; GO:0004065; F:arylsulfatase activity; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004773; F:steryl-sulfatase activity; IDA:RGD.
+DR   GO; GO:0008484; F:sulfuric ester hydrolase activity; ISO:RGD.
+DR   GO; GO:0007565; P:female pregnancy; IEA:UniProtKB-KW.
+DR   GO; GO:0007611; P:learning or memory; IMP:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IMP:RGD.
+DR   GO; GO:0043627; P:response to estrogen; IDA:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IDA:RGD.
+DR   GO; GO:0043434; P:response to peptide hormone; IDA:RGD.
+DR   GO; GO:0009268; P:response to pH; IDA:RGD.
+DR   GO; GO:0043588; P:skin development; IEP:RGD.
+DR   GO; GO:0008202; P:steroid metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.1120.10; -; 1.
+DR   Gene3D; 3.40.720.10; Alkaline Phosphatase, subunit A; 1.
+DR   Gene3D; 1.10.287.550; Helix hairpin bin; 1.
+DR   InterPro; IPR017850; Alkaline_phosphatase_core_sf.
+DR   InterPro; IPR050738; Sulfatase.
+DR   InterPro; IPR024607; Sulfatase_CS.
+DR   InterPro; IPR000917; Sulfatase_N.
+DR   PANTHER; PTHR42693; ARYLSULFATASE FAMILY MEMBER; 1.
+DR   PANTHER; PTHR42693:SF9; STERYL-SULFATASE; 1.
+DR   Pfam; PF00884; Sulfatase; 1.
+DR   Pfam; PF14707; Sulfatase_C; 1.
+DR   SUPFAM; SSF53649; Alkaline phosphatase-like; 1.
+DR   PROSITE; PS00523; SULFATASE_1; 1.
+DR   PROSITE; PS00149; SULFATASE_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Disulfide bond; Endoplasmic reticulum;
+KW   Glycoprotein; Hydrolase; Lipid metabolism; Membrane; Metal-binding;
+KW   Microsome; Pregnancy; Reference proteome; Signal; Steroid metabolism;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000269|PubMed:2765556"
+FT   CHAIN           20..577
+FT                   /note="Steryl-sulfatase"
+FT                   /id="PRO_0000033416"
+FT   TOPO_DOM        21..183
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   TRANSMEM        184..207
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   TOPO_DOM        208..211
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   TRANSMEM        212..233
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   TOPO_DOM        234..577
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   ACT_SITE        74
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   ACT_SITE        135
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   BINDING         34
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   BINDING         35
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   BINDING         74
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /note="via 3-oxoalanine"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         341
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   BINDING         342
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   MOD_RES         74
+FT                   /note="3-oxoalanine (Cys)"
+FT                   /evidence="ECO:0000250|UniProtKB:P08842"
+FT   CARBOHYD        46
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        332
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        458
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        140..147
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        169..241
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        445..488
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        480..486
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        561..571
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   577 AA;  62679 MW;  07562EADEDCDB716 CRC64;
+     MLWPCLLALL LSQLNFLCAA RPGPGPNFLL IMADDLGIGD LGCYGNRTLR TPHIDRLALE
+     GVKLTQHLAA APLCTPSRAA FLTGRYPVRS GMASHGRLGV FLFSASSGGL PPNEVTFAKL
+     LKGQGYTTGL VGKWHLGLSC QAASDFCHHP GRHGFDRFLG TPTTNLRDCK PGGGTVFGSA
+     QQVFVVLPMN ILGAVLLAMA LARWAGLARP PGWVFGVTVA AMAAVGGAYV AFLYHFRPAN
+     CFLMADFTIT QQPTDYKGLT QRLASEAGDF LRRNRDTPFL LFLSFMHVHT AHFANPEFAG
+     QSLHGAYGDA VEEMDWAVGQ VLATLDKLGL ANNTLVYLTS DHGAHVEELG PNGERHGGSN
+     GIYRGGKANT WEGGIRVPGL VRWPGVIVPG QEVEEPTSNM DVFPTVARLA GAELPTDRVI
+     DGRDLMPLLL GHVQHSEHEF LFHYCNAYLS AVAWRPHNSS SVWKAFYFTP NFDPPGSNGC
+     FSTHVCMCHG HHVTHHDPPL LFDIARDPRE RHPLTPETEP RHGEILRNMD AAARAHVATL
+     EEAPNQLSMS NVAWKPWLQL CLPSKPHPLA CRCAGDG
+//

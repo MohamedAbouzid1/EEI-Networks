@@ -1,0 +1,206 @@
+ID   MPPB_RAT                Reviewed;         489 AA.
+AC   Q03346; Q68G08;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 3.
+DT   24-JUL-2024, entry version 168.
+DE   RecName: Full=Mitochondrial-processing peptidase subunit beta;
+DE            EC=3.4.24.64 {ECO:0000269|PubMed:12433926, ECO:0000305|PubMed:22354088};
+DE   AltName: Full=Beta-MPP;
+DE   AltName: Full=P-52;
+DE   Flags: Precursor;
+GN   Name=Pmpcb; Synonyms=Mppb;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=8506385; DOI=10.1073/pnas.90.11.5355;
+RA   Paces V., Rosenberg L.E., Fenton W.A., Kalousek F.;
+RT   "The beta subunit of the mitochondrial processing peptidase from rat liver:
+RT   cloning and sequencing of a cDNA and comparison with a proposed family of
+RT   metallopeptidases.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 90:5355-5358(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 3-489.
+RC   TISSUE=Liver;
+RX   PubMed=8422255; DOI=10.1006/bbrc.1993.1044;
+RA   Kitada S., Niidome T., Nagano T., Ogishima T., Ito A.;
+RT   "Molecular cloning of the smaller subunit(P52) of rat liver mitochondrial
+RT   processing protease.";
+RL   Biochem. Biophys. Res. Commun. 190:289-293(1993).
+RN   [4]
+RP   SEQUENCE REVISION.
+RA   Kitada S.;
+RL   Submitted (SEP-1993) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   PROTEIN SEQUENCE OF 153-173, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal cord;
+RA   Lubec G., Afjehi-Sadat L.;
+RL   Submitted (NOV-2006) to UniProtKB.
+RN   [6]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND MUTAGENESIS OF GLU-191 AND ASP-195.
+RX   PubMed=12433926; DOI=10.1074/jbc.m209263200;
+RA   Kitada S., Yamasaki E., Kojima K., Ito A.;
+RT   "Determination of the cleavage site of the presequence by mitochondrial
+RT   processing peptidase on the substrate binding scaffold and the multiple
+RT   subsites inside a molecular cavity.";
+RL   J. Biol. Chem. 278:1879-1885(2003).
+RN   [7]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=22354088; DOI=10.1038/embor.2012.14;
+RA   Greene A.W., Grenier K., Aguileta M.A., Muise S., Farazifard R.,
+RA   Haque M.E., McBride H.M., Park D.S., Fon E.A.;
+RT   "Mitochondrial processing peptidase regulates PINK1 processing, import and
+RT   Parkin recruitment.";
+RL   EMBO Rep. 13:378-385(2012).
+CC   -!- FUNCTION: Catalytic subunit of the essential mitochondrial processing
+CC       protease (MPP), which cleaves the mitochondrial sequence off newly
+CC       imported precursors proteins (Probable) (PubMed:12433926).
+CC       Preferentially, cleaves after an arginine at position P2
+CC       (PubMed:12433926). Required for PINK1 turnover by coupling PINK1
+CC       mitochondrial import and cleavage, which results in subsequent PINK1
+CC       proteolysis (PubMed:22354088). {ECO:0000269|PubMed:12433926,
+CC       ECO:0000269|PubMed:22354088, ECO:0000305|PubMed:22354088}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of N-terminal transit peptides from precursor proteins
+CC         imported into the mitochondrion, typically with Arg in position P2.;
+CC         EC=3.4.24.64; Evidence={ECO:0000269|PubMed:12433926,
+CC         ECO:0000305|PubMed:22354088};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P10507};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P10507};
+CC   -!- ACTIVITY REGULATION: Binding to PMPCA is required for catalytic
+CC       activity. {ECO:0000250|UniProtKB:P10507}.
+CC   -!- SUBUNIT: Heterodimer of PMPCA (alpha) and PMPCB (beta) subunits,
+CC       forming the mitochondrial processing protease (MPP) in which PMPCA is
+CC       involved in substrate recognition and binding and PMPCB is the
+CC       catalytic subunit. {ECO:0000250|UniProtKB:P10507}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix
+CC       {ECO:0000250|UniProtKB:O75439}.
+CC   -!- SIMILARITY: Belongs to the peptidase M16 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L12965; AAA41633.1; -; mRNA.
+DR   EMBL; BC078826; AAH78826.1; -; mRNA.
+DR   EMBL; D13907; BAA03007.1; -; mRNA.
+DR   PIR; S36390; S36390.
+DR   RefSeq; NP_071790.1; NM_022395.2.
+DR   AlphaFoldDB; Q03346; -.
+DR   SMR; Q03346; -.
+DR   STRING; 10116.ENSRNOP00000017017; -.
+DR   MEROPS; M16.973; -.
+DR   MEROPS; M16.981; -.
+DR   iPTMnet; Q03346; -.
+DR   PhosphoSitePlus; Q03346; -.
+DR   jPOST; Q03346; -.
+DR   PaxDb; 10116-ENSRNOP00000017017; -.
+DR   Ensembl; ENSRNOT00055036872; ENSRNOP00055029960; ENSRNOG00055021562.
+DR   Ensembl; ENSRNOT00065029984; ENSRNOP00065023829; ENSRNOG00065017894.
+DR   GeneID; 64198; -.
+DR   KEGG; rno:64198; -.
+DR   AGR; RGD:621297; -.
+DR   CTD; 9512; -.
+DR   RGD; 621297; Pmpcb.
+DR   VEuPathDB; HostDB:ENSRNOG00000012693; -.
+DR   eggNOG; KOG0960; Eukaryota.
+DR   HOGENOM; CLU_009902_4_0_1; -.
+DR   InParanoid; Q03346; -.
+DR   OrthoDB; 167798at2759; -.
+DR   PhylomeDB; Q03346; -.
+DR   TreeFam; TF105032; -.
+DR   Reactome; R-RNO-8949664; Processing of SMDT1.
+DR   PRO; PR:Q03346; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000012693; Expressed in heart and 20 other cell types or tissues.
+DR   GO; GO:0017087; C:mitochondrial processing peptidase complex; IDA:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0004175; F:endopeptidase activity; IDA:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IDA:UniProtKB.
+DR   GO; GO:0016485; P:protein processing; IDA:UniProtKB.
+DR   GO; GO:0006627; P:protein processing involved in protein targeting to mitochondrion; IDA:UniProtKB.
+DR   Gene3D; 3.30.830.10; Metalloenzyme, LuxS/M16 peptidase-like; 2.
+DR   InterPro; IPR011249; Metalloenz_LuxS/M16.
+DR   InterPro; IPR050361; MPP/UQCRC_Complex.
+DR   InterPro; IPR011765; Pept_M16_N.
+DR   InterPro; IPR001431; Pept_M16_Zn_BS.
+DR   InterPro; IPR007863; Peptidase_M16_C.
+DR   PANTHER; PTHR11851; METALLOPROTEASE; 1.
+DR   PANTHER; PTHR11851:SF103; MITOCHONDRIAL-PROCESSING PEPTIDASE SUBUNIT BETA; 1.
+DR   Pfam; PF00675; Peptidase_M16; 1.
+DR   Pfam; PF05193; Peptidase_M16_C; 1.
+DR   SUPFAM; SSF63411; LuxS/MPP-like metallohydrolase; 2.
+DR   PROSITE; PS00143; INSULINASE; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Hydrolase; Metal-binding; Metalloprotease;
+KW   Mitochondrion; Protease; Reference proteome; Transit peptide; Zinc.
+FT   TRANSIT         1..45
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000250|UniProtKB:O75439"
+FT   CHAIN           46..489
+FT                   /note="Mitochondrial-processing peptidase subunit beta"
+FT                   /id="PRO_0000026779"
+FT   ACT_SITE        104
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10096"
+FT   BINDING         101
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10096"
+FT   BINDING         105
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10096"
+FT   BINDING         181
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10096"
+FT   SITE            191
+FT                   /note="Required for the specific determination of the
+FT                   substrate cleavage site"
+FT                   /evidence="ECO:0000269|PubMed:12433926"
+FT   SITE            195
+FT                   /note="Required for the specific determination of the
+FT                   substrate cleavage site"
+FT                   /evidence="ECO:0000269|PubMed:12433926"
+FT   MUTAGEN         191
+FT                   /note="E->A: Loss of substrate cleavage site specificity.
+FT                   Complete loss of cleavage site specificity following an
+FT                   arginine at position P2; when associated with A-195."
+FT                   /evidence="ECO:0000269|PubMed:12433926"
+FT   MUTAGEN         195
+FT                   /note="D->A: Severe loss of cleavage site specificity
+FT                   following an arginine at position P2. The loss is complete;
+FT                   when associated with A-191."
+FT                   /evidence="ECO:0000269|PubMed:12433926"
+FT   CONFLICT        167
+FT                   /note="G -> R (in Ref. 3; BAA03007)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        312
+FT                   /note="C -> R (in Ref. 1; AAA41633)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   489 AA;  54265 MW;  79B9C1ED7385533F CRC64;
+     MAAAAVSRTL LPVAGRRLWG FTRRLPLRAA AAQPLYFGGD RLRSTQAAPQ VVLNVPETQV
+     TCLENGLRVA SENSGISTCT VGLWIDAGSR YENEKNNGTA HFLEHMAFKG TKKRSQLDLE
+     LEIENMGAHL NAYTSREQTV YYAKAFSKDL PRAVEILADI IQNSTLGEAE IERERGVILR
+     EMQEVETNLQ EVVFDYLHAT AYQNTALGRT ILGPTENIKS ISRKDLVDYI TTHYKGPRIV
+     LAAAGGVCHN ELLELAKFHF GDSLCAHKGD VPALPPCKFT GSEIRVRDDK MPLAHLAVAI
+     EAVGWTHPDT ICLMVANTLI GNWDRSFGGG MNLSSKLAQL TCHGNLCHSF QSFNTSYTDT
+     GLWGLYMVCE QATVADMLHA VQKEWMRLCT AVSESEVARA KNLLKTNMLL QLDGSTPICE
+     DIGRQMLCYN RRIPIPELEA RIDAVDAEMV REVCTKYIYG KSPAIAALGP IERLPDFNQI
+     CSNMRWTRD
+//

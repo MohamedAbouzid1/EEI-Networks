@@ -1,0 +1,310 @@
+ID   PRDM2_RAT               Reviewed;        1706 AA.
+AC   Q63755;
+DT   21-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JUL-2024, entry version 151.
+DE   RecName: Full=PR domain zinc finger protein 2;
+DE            EC=2.1.1.355;
+DE   AltName: Full=PR domain-containing protein 2;
+DE   AltName: Full=Retinoblastoma protein-interacting zinc finger protein;
+DE   AltName: Full=Zinc finger protein RIZ;
+GN   Name=Prdm2; Synonyms=Riz;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=7538672; DOI=10.1073/pnas.92.10.4467;
+RA   Buyse I.M., Shao G., Huang S.;
+RT   "The retinoblastoma protein binds to RIZ, a zinc-finger protein that shares
+RT   an epitope with the adenovirus E1A protein.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 92:4467-4471(1995).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-637; SER-776 AND SER-780, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: S-adenosyl-L-methionine-dependent histone methyltransferase
+CC       that specifically methylates 'Lys-9' of histone H3. May function as a
+CC       DNA-binding transcription factor. Binds to the macrophage-specific TPA-
+CC       responsive element (MTE) of the HMOX1 (heme oxygenase 1) gene and may
+CC       act as a transcriptional activator of this gene (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-lysyl-[histone] + S-adenosyl-L-methionine = H(+) + N(6)-
+CC         methyl-L-lysyl-[histone] + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:10024, Rhea:RHEA-COMP:9845, Rhea:RHEA-COMP:9846,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29969, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:61929;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-lysyl(9)-[histone H3] + 3 S-adenosyl-L-methionine = 3 H(+) +
+CC         N(6),N(6),N(6)-trimethyl-L-lysyl(9)-[histone H3] + 3 S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:60276, Rhea:RHEA-COMP:15538, Rhea:RHEA-
+CC         COMP:15546, ChEBI:CHEBI:15378, ChEBI:CHEBI:29969, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:61961; EC=2.1.1.355;
+CC   -!- SUBUNIT: Binds to the retinoblastoma protein (RB). Interacts with GATA3
+CC       (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class V-like SAM-binding methyltransferase
+CC       superfamily. {ECO:0000255|PROSITE-ProRule:PRU00190}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U17837; AAA74468.1; -; mRNA.
+DR   RefSeq; NP_001071116.1; NM_001077648.1.
+DR   AlphaFoldDB; Q63755; -.
+DR   SMR; Q63755; -.
+DR   DIP; DIP-473N; -.
+DR   STRING; 10116.ENSRNOP00000046011; -.
+DR   iPTMnet; Q63755; -.
+DR   PhosphoSitePlus; Q63755; -.
+DR   PaxDb; 10116-ENSRNOP00000046011; -.
+DR   GeneID; 313678; -.
+DR   KEGG; rno:313678; -.
+DR   UCSC; RGD:1594531; rat.
+DR   AGR; RGD:1594531; -.
+DR   CTD; 7799; -.
+DR   RGD; 1594531; Prdm2.
+DR   eggNOG; KOG2461; Eukaryota.
+DR   InParanoid; Q63755; -.
+DR   OrthoDB; 5399106at2759; -.
+DR   PhylomeDB; Q63755; -.
+DR   PRO; PR:Q63755; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0001228; F:DNA-binding transcription activator activity, RNA polymerase II-specific; ISO:RGD.
+DR   GO; GO:0000981; F:DNA-binding transcription factor activity, RNA polymerase II-specific; IBA:GO_Central.
+DR   GO; GO:0001227; F:DNA-binding transcription repressor activity, RNA polymerase II-specific; ISO:RGD.
+DR   GO; GO:0140949; F:histone H3K9 trimethyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000977; F:RNA polymerase II transcription regulatory region sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0008340; P:determination of adult lifespan; ISO:RGD.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; IBA:GO_Central.
+DR   GO; GO:0032355; P:response to estradiol; IDA:RGD.
+DR   CDD; cd19188; PR-SET_PRDM2; 1.
+DR   Gene3D; 3.30.160.60; Classic Zinc Finger; 3.
+DR   Gene3D; 2.170.270.10; SET domain; 1.
+DR   InterPro; IPR009170; PRDM2.
+DR   InterPro; IPR044414; PRDM2_PR-SET.
+DR   InterPro; IPR001214; SET_dom.
+DR   InterPro; IPR046341; SET_dom_sf.
+DR   InterPro; IPR050331; Zinc_finger.
+DR   InterPro; IPR036236; Znf_C2H2_sf.
+DR   InterPro; IPR013087; Znf_C2H2_type.
+DR   PANTHER; PTHR16515; PR DOMAIN ZINC FINGER PROTEIN; 1.
+DR   PANTHER; PTHR16515:SF37; PR DOMAIN ZINC FINGER PROTEIN 2; 1.
+DR   Pfam; PF21549; PRDM2_PR; 1.
+DR   Pfam; PF00096; zf-C2H2; 2.
+DR   Pfam; PF13912; zf-C2H2_6; 2.
+DR   PIRSF; PIRSF002395; RIZ_SET; 1.
+DR   SMART; SM00317; SET; 1.
+DR   SMART; SM00355; ZnF_C2H2; 8.
+DR   SUPFAM; SSF57667; beta-beta-alpha zinc fingers; 3.
+DR   SUPFAM; SSF82199; SET domain; 1.
+DR   PROSITE; PS50280; SET; 1.
+DR   PROSITE; PS00028; ZINC_FINGER_C2H2_1; 6.
+DR   PROSITE; PS50157; ZINC_FINGER_C2H2_2; 7.
+PE   1: Evidence at protein level;
+KW   Activator; DNA-binding; Isopeptide bond; Metal-binding; Methyltransferase;
+KW   Nucleus; Phosphoprotein; Reference proteome; Repeat;
+KW   S-adenosyl-L-methionine; Transcription; Transcription regulation;
+KW   Transferase; Ubl conjugation; Zinc; Zinc-finger.
+FT   CHAIN           1..1706
+FT                   /note="PR domain zinc finger protein 2"
+FT                   /id="PRO_0000047759"
+FT   DOMAIN          27..140
+FT                   /note="SET"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00190"
+FT   ZN_FING         355..377
+FT                   /note="C2H2-type 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         385..407
+FT                   /note="C2H2-type 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         476..499
+FT                   /note="C2H2-type 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         1123..1145
+FT                   /note="C2H2-type 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         1151..1174
+FT                   /note="C2H2-type 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         1180..1203
+FT                   /note="C2H2-type 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         1321..1343
+FT                   /note="C2H2-type 7; atypical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         1443..1465
+FT                   /note="C2H2-type 8; atypical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   REGION          154..342
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          400..446
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          492..542
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          618..655
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          724..794
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          823..1075
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1088..1112
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1218..1251
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1466..1563
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        162..179
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        184..199
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        261..293
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        294..342
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        492..506
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        618..633
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        724..741
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        846..868
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        887..908
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        940..957
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        958..986
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        988..1015
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1016..1035
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1038..1075
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1510..1563
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         416
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+FT   MOD_RES         637
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         738
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+FT   MOD_RES         776
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         780
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         791
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+FT   CROSSLNK        645
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+FT   CROSSLNK        684
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+FT   CROSSLNK        686
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+FT   CROSSLNK        769
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+FT   CROSSLNK        860
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+FT   CROSSLNK        870
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+FT   CROSSLNK        1136
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+FT   CROSSLNK        1140
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+FT   CROSSLNK        1269
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13029"
+SQ   SEQUENCE   1706 AA;  187555 MW;  55EA419491D2D68C CRC64;
+     MHQNTESVAA TETLAEVPEH VLRGLPEEVR LFPSAVDKTR IGVWATKPIL KGKKFGPFVG
+     DKKKRSQVRN NVYMWEVYYP NLGWMCIDAT DPEKGNWLRY VNWACSGEEQ NLFPLEINRA
+     IYYKTLKPIA PGEELLVWYN GEDNPEIAAA IEEERASARS KRSSPKSRRG KKKSHENKNK
+     GIRTHPTQLK ASELDSTFAN MRGSAEGPKE EDERPLASAP EQPAPLPEVG NQDAVPQVAI
+     PLPACEPQPE VDGKQEVTDC EVNDVEEEEL EEEEELEEEE EEELGEDGVE EADMPNESSA
+     KEPEIRCEEK PEDLLEEPQS MSNEAREDSP DVTPPPHTPR AREEANGDVL ETFMFPCQHC
+     ERKFATKQGL ERHMHIHIST INHAFKCKYC GKRFGTQINR RRHERRHETG LKRRPSMTLQ
+     SSEDPDDGKG ENVTSKDESS PPQLGQDCLI LNSEKTSQEV LNSSFVEENG EVKELHPCKY
+     CKKVFGTHTN MRRHQRRVHE RHLIPKGVRR KGGLLEEPQP PAEQAPPSQN VYVPSTEPEE
+     EGETDDVYIM DISSNISENL NYYIDGKIQT NSSTSNCDVI EMESNSAHLY GIDCLLTPVT
+     VEITQNIKST QVSVTDDLLK DSPSSTNCES KKRRTASPPV LPKIKTETES DSTAPSCSLS
+     LPLSISTAEV VSFHKEKGVY LSSKLKQLLQ TQDKLTLPAG FSAAEIPKLG PVCASAPASM
+     LPVTSSRFKR RTSSPPSSPQ HSPALRDFGK PNDGKAAWTD TVLTSKKPKL ESRSDSPAWS
+     LSGRDERETG SPPCFDEYKI SKEWAASSTF SSVCNQQPLD LSSGVKQKSE GTGKTPVPWE
+     SVLDLSVHKK PCDSEGKEFK ENHLAQPAAK KKKPTTCMLQ KVLLNEYNGV SLPTETTPEV
+     TRSPSPCKSP DTQPDPELGP DSSCSVPTAE SPPEVVGPSS PPLQTASLSS GQLPPLLTPT
+     EPSSPPPCPP VLTVATPPPP LLPTVPLSHP SSDASPQQCP SPFSNTTAQS PLPILSPTVS
+     PSPSPIPPVE PLMSAASPGP PTLSSSSSSS SSFPSSSCSS TSPSPPPLSA VSSVVSSGDN
+     LEASLPAVTF KQEESESEGL KPKEEAPPAG GQSVVQETFS KNFICNVCES PFLSIKDLTK
+     HLSVHAEEWP FKCEFCVQLF KVKTDLSEHR FLLHGVGNIF VCSVCKKEFA FLCNLQQHQR
+     DLHPDEVCTH HEFESGTLRP QNFTDPSKAN VEHMPSLPEE PLETSREEEL NDSSEELYTT
+     IKIMASGIKT KDPDVRLGLN QHYPSFKPPP FQYHHRNPMG IGVTATNFTT HNIPQTFTTA
+     IRCTKCGKGV DNMPELHKHI LACASASDKK RYTPKKNPVP LKQTVQPKNG VVVLDNSGKN
+     AFRRMGQPKR LSFNVELGKM SPNKLKLSAL KKKNQLVQKA ILQKNRAAKQ KADLRDTSEA
+     SSHICPYCDR EFTYIGSLNK HAAFSCPKKP LSPSKRKVSH SSKKGGHASS SSSDRNSSCH
+     PRRRTADTEI KMQSTQAPLG KTRARSTGPA QASLPSSSFR SRQNVKFAAS VKSKKASSSS
+     LRNSSPIRMA KITHVEGKKP KAVAKSHSAQ LSSKSSRGLH VRVQKSKAVI QSKTALASKR
+     RTDRFIVKSR ERSGGPITRS LQLAAAADLS ESRREDSSAR HELKDFSYSL RLASRCGSST
+     ASYITRQCRK VKAAAATPFQ GPFLKE
+//

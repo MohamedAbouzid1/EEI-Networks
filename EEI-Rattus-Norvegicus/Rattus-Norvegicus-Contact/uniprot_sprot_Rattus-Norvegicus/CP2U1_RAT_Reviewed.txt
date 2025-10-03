@@ -1,0 +1,198 @@
+ID   CP2U1_RAT               Reviewed;         530 AA.
+AC   Q4V8D1;
+DT   26-JUN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 1.
+DT   24-JUL-2024, entry version 136.
+DE   RecName: Full=Cytochrome P450 2U1;
+DE   AltName: Full=Long-chain fatty acid omega-monooxygenase;
+DE            EC=1.14.14.80 {ECO:0000250|UniProtKB:Q7Z449};
+GN   Name=Cyp2u1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=14975754; DOI=10.1016/j.bbrc.2004.01.110;
+RA   Karlgren M., Backlund M., Johansson I., Oscarson M., Ingelman-Sundberg M.;
+RT   "Characterization and tissue distribution of a novel human cytochrome P450-
+RT   CYP2U1.";
+RL   Biochem. Biophys. Res. Commun. 315:679-685(2004).
+CC   -!- FUNCTION: A cytochrome P450 monooxygenase involved in the metabolism of
+CC       arachidonic acid and its conjugates. Mechanistically, uses molecular
+CC       oxygen inserting one oxygen atom into a substrate, and reducing the
+CC       second into a water molecule, with two electrons provided by NADPH via
+CC       cytochrome P450 reductase (CPR; NADPH-ferrihemoprotein reductase). Acts
+CC       as an omega and omega-1 hydroxylase for arachidonic acid and possibly
+CC       for other long chain fatty acids. May modulate the arachidonic acid
+CC       signaling pathway and play a role in other fatty acid signaling
+CC       processes. May down-regulate the biological activities of N-
+CC       arachidonoyl-serotonin, an endocannabinoid that has anti-nociceptive
+CC       effects through inhibition of fatty acid amide hydrolase FAAH, TRPV1
+CC       receptor and T-type calcium channels. Catalyzes C-2 oxidation of the
+CC       indole ring of N-arachidonoyl-serotonin forming a less active product
+CC       2-oxo-N-arachidonoyl-serotonin. {ECO:0000250|UniProtKB:Q7Z449}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an omega-methyl-long-chain fatty acid + O2 + reduced [NADPH--
+CC         hemoprotein reductase] = an omega-hydroxy-long-chain fatty acid +
+CC         H(+) + H2O + oxidized [NADPH--hemoprotein reductase];
+CC         Xref=Rhea:RHEA:56748, Rhea:RHEA-COMP:11964, Rhea:RHEA-COMP:11965,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:57618, ChEBI:CHEBI:58210, ChEBI:CHEBI:140991,
+CC         ChEBI:CHEBI:140992; EC=1.14.14.80;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z449};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:56749;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z449};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 + reduced [NADPH--
+CC         hemoprotein reductase] = 19-hydroxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate
+CC         + H(+) + H2O + oxidized [NADPH--hemoprotein reductase];
+CC         Xref=Rhea:RHEA:39759, Rhea:RHEA-COMP:11964, Rhea:RHEA-COMP:11965,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:32395, ChEBI:CHEBI:57618, ChEBI:CHEBI:58210,
+CC         ChEBI:CHEBI:76627; Evidence={ECO:0000250|UniProtKB:Q7Z449};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:39760;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z449};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 + reduced [NADPH--
+CC         hemoprotein reductase] = 20-hydroxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate
+CC         + H(+) + H2O + oxidized [NADPH--hemoprotein reductase];
+CC         Xref=Rhea:RHEA:39755, Rhea:RHEA-COMP:11964, Rhea:RHEA-COMP:11965,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:32395, ChEBI:CHEBI:57618, ChEBI:CHEBI:58210,
+CC         ChEBI:CHEBI:76624; Evidence={ECO:0000250|UniProtKB:Q7Z449};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:39756;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z449};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-[(5Z,8Z,11Z,14Z)-eicosatetraenoyl]-serotonin + O2 + reduced
+CC         [NADPH--hemoprotein reductase] = 2-oxo-N-[(5Z,8Z,11Z,14Z)-
+CC         eicosatetraenoyl]-serotonin + H(+) + H2O + oxidized [NADPH--
+CC         hemoprotein reductase]; Xref=Rhea:RHEA:50296, Rhea:RHEA-COMP:11964,
+CC         Rhea:RHEA-COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:57618, ChEBI:CHEBI:58210,
+CC         ChEBI:CHEBI:132255, ChEBI:CHEBI:132256;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z449};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:50297;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z449};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000250|UniProtKB:Q7Z449};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000269|PubMed:14975754}; Multi-pass membrane protein
+CC       {ECO:0000255}. Microsome membrane {ECO:0000269|PubMed:14975754}; Multi-
+CC       pass membrane protein {ECO:0000255}. Mitochondrion inner membrane
+CC       {ECO:0000250|UniProtKB:Q7Z449}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Specifically expressed in thymus and brain. In
+CC       brain, expressed in cortex, cerebellum, olfactory bulbs, pons and
+CC       medulla and the limbic structures (at protein level).
+CC       {ECO:0000269|PubMed:14975754}.
+CC   -!- SIMILARITY: Belongs to the cytochrome P450 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC097442; AAH97442.1; -; mRNA.
+DR   RefSeq; NP_001019950.1; NM_001024779.1.
+DR   RefSeq; XP_006233372.1; XM_006233310.3.
+DR   AlphaFoldDB; Q4V8D1; -.
+DR   SMR; Q4V8D1; -.
+DR   STRING; 10116.ENSRNOP00000069228; -.
+DR   PhosphoSitePlus; Q4V8D1; -.
+DR   PaxDb; 10116-ENSRNOP00000052433; -.
+DR   Ensembl; ENSRNOT00000055570.4; ENSRNOP00000052433.2; ENSRNOG00000011053.8.
+DR   Ensembl; ENSRNOT00055018264; ENSRNOP00055014673; ENSRNOG00055010802.
+DR   Ensembl; ENSRNOT00060039804; ENSRNOP00060032901; ENSRNOG00060022963.
+DR   Ensembl; ENSRNOT00065024060; ENSRNOP00065018762; ENSRNOG00065014561.
+DR   AGR; RGD:1309433; -.
+DR   RGD; 1309433; Cyp2u1.
+DR   eggNOG; KOG0156; Eukaryota.
+DR   GeneTree; ENSGT00940000157714; -.
+DR   HOGENOM; CLU_001570_22_0_1; -.
+DR   InParanoid; Q4V8D1; -.
+DR   OMA; EPCIQQG; -.
+DR   OrthoDB; 2900138at2759; -.
+DR   PhylomeDB; Q4V8D1; -.
+DR   TreeFam; TF352043; -.
+DR   Reactome; R-RNO-211958; Miscellaneous substrates.
+DR   Reactome; R-RNO-2142816; Synthesis of (16-20)-hydroxyeicosatetraenoic acids (HETE).
+DR   PRO; PR:Q4V8D1; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000011053; Expressed in thymus and 18 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IBA:GO_Central.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052869; F:arachidonic acid omega-hydroxylase activity; ISO:RGD.
+DR   GO; GO:0020037; F:heme binding; IBA:GO_Central.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0102033; F:long-chain fatty acid omega-hydroxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016712; F:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen; IBA:GO_Central.
+DR   GO; GO:0008395; F:steroid hydroxylase activity; IBA:GO_Central.
+DR   GO; GO:0097267; P:omega-hydroxylase P450 pathway; ISO:RGD.
+DR   GO; GO:0006082; P:organic acid metabolic process; IBA:GO_Central.
+DR   GO; GO:0006805; P:xenobiotic metabolic process; IBA:GO_Central.
+DR   CDD; cd20666; CYP2U1; 1.
+DR   Gene3D; 1.10.630.10; Cytochrome P450; 1.
+DR   InterPro; IPR001128; Cyt_P450.
+DR   InterPro; IPR017972; Cyt_P450_CS.
+DR   InterPro; IPR002401; Cyt_P450_E_grp-I.
+DR   InterPro; IPR036396; Cyt_P450_sf.
+DR   InterPro; IPR050182; Cytochrome_P450_fam2.
+DR   PANTHER; PTHR24300:SF281; CYTOCHROME P450 2U1; 1.
+DR   PANTHER; PTHR24300; CYTOCHROME P450 508A4-RELATED; 1.
+DR   Pfam; PF00067; p450; 1.
+DR   PRINTS; PR00463; EP450I.
+DR   PRINTS; PR00385; P450.
+DR   SUPFAM; SSF48264; Cytochrome P450; 1.
+DR   PROSITE; PS00086; CYTOCHROME_P450; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Heme; Iron; Lipid metabolism; Membrane;
+KW   Metal-binding; Microsome; Mitochondrion; Mitochondrion inner membrane;
+KW   Monooxygenase; Oxidoreductase; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..530
+FT                   /note="Cytochrome P450 2U1"
+FT                   /id="PRO_0000291758"
+FT   TRANSMEM        21..41
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        99..119
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        247..267
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        328..348
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        481..501
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         476
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   530 AA;  60399 MW;  7BDF8BD34265801A CRC64;
+     MSSIGGLRPA AGEQPGVGPH LQAVGGALLL CGLAVLLDWV WLQRQRAGGI PPGPKPRPLV
+     GNFGYLLLPR FLRLHFWLGS GSQTDTVGRH VYLARLARVY GNIFSFFIGH RLVVVLSDFQ
+     SVREALVQQA EVFSDRPRMP LISILTKEKG IVFAHYGPIW KQQRRFSHST LRHFGLGKLS
+     LEPRIIEEFA YVKAEMQKHG EAPFSPFPVI SNAVSNIICS LCFGQRFDYT NKEFKKVLDF
+     MSRGLEICLH SQLFLINLCP WFYYLPFGPF KELRQIERDI TCFLKNIIKE HQESLDANNP
+     QDFIDMYLLH TQEEKDKCKG TNFDEDYLFY IIGDLFIAGT DTTTNSLLWC LLYMSLNPGV
+     QKKVHEEIER VIGRDRAPSL TDKAQMPYTE ATIMEVQRLS MVVPLAIPHM TSEKTVLQGY
+     SIPKGTVVLP NLWSIHRDPV IWEKPDDFCP HRFLDDQGQL LKRETFIPFG IGKRVCMGEQ
+     LAKMELFLMF VSLMQSFTFA LPEGSEKPIM TGRFGLTLAP HPFNVTVSKR
+//

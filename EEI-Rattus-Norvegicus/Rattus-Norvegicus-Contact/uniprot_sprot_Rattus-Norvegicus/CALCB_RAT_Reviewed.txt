@@ -1,0 +1,104 @@
+ID   CALCB_RAT               Reviewed;         134 AA.
+AC   P10093;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1989, sequence version 1.
+DT   02-OCT-2024, entry version 127.
+DE   RecName: Full=Calcitonin gene-related peptide 2;
+DE   AltName: Full=Beta-type CGRP;
+DE   AltName: Full=Calcitonin gene-related peptide II;
+DE            Short=CGRP-II;
+DE   Flags: Precursor;
+GN   Name=Calcb;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2994212; DOI=10.1126/science.2994212;
+RA   Amara S.G., Arriza J.L., Leff S.E., Swanson L.W., Evans R.M.,
+RA   Rosenfeld M.G.;
+RT   "Expression in brain of a messenger RNA encoding a novel neuropeptide
+RT   homologous to calcitonin gene-related peptide.";
+RL   Science 229:1094-1097(1985).
+CC   -!- FUNCTION: CGRP induces vasodilation. It dilates a variety of vessels
+CC       including the coronary, cerebral and systemic vasculature. Its
+CC       abundance in the CNS also points toward a neurotransmitter or
+CC       neuromodulator role.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- SIMILARITY: Belongs to the calcitonin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M11596; AAA40850.1; -; mRNA.
+DR   PIR; A44173; A44173.
+DR   RefSeq; NP_612522.1; NM_138513.1.
+DR   AlphaFoldDB; P10093; -.
+DR   SMR; P10093; -.
+DR   STRING; 10116.ENSRNOP00000014764; -.
+DR   iPTMnet; P10093; -.
+DR   PhosphoSitePlus; P10093; -.
+DR   PaxDb; 10116-ENSRNOP00000014764; -.
+DR   ABCD; P10093; 1 sequenced antibody.
+DR   GeneID; 171519; -.
+DR   KEGG; rno:171519; -.
+DR   UCSC; RGD:620997; rat.
+DR   AGR; RGD:620997; -.
+DR   CTD; 797; -.
+DR   RGD; 620997; Calcb.
+DR   eggNOG; ENOG502SQMP; Eukaryota.
+DR   InParanoid; P10093; -.
+DR   OrthoDB; 3910643at2759; -.
+DR   PhylomeDB; P10093; -.
+DR   Reactome; R-RNO-419812; Calcitonin-like ligand receptors.
+DR   PRO; PR:P10093; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0031716; F:calcitonin receptor binding; IBA:GO_Central.
+DR   GO; GO:0005179; F:hormone activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007189; P:adenylate cyclase-activating G protein-coupled receptor signaling pathway; IBA:GO_Central.
+DR   GO; GO:0051480; P:regulation of cytosolic calcium ion concentration; IBA:GO_Central.
+DR   Gene3D; 6.10.250.2190; -; 1.
+DR   InterPro; IPR021117; Calcitonin-like.
+DR   InterPro; IPR021116; Calcitonin/adrenomedullin.
+DR   InterPro; IPR018360; Calcitonin_CS.
+DR   InterPro; IPR015476; Calcitonin_gene-rel_peptide.
+DR   InterPro; IPR001693; Calcitonin_peptide-like.
+DR   PANTHER; PTHR10505:SF3; CALCITONIN GENE-RELATED PEPTIDE 2; 1.
+DR   PANTHER; PTHR10505; CALCITONIN-RELATED; 1.
+DR   Pfam; PF00214; Calc_CGRP_IAPP; 1.
+DR   PRINTS; PR00817; CALCITONINB.
+DR   SMART; SM00113; CALCITONIN; 1.
+DR   PROSITE; PS00258; CALCITONIN; 1.
+PE   2: Evidence at transcript level;
+KW   Amidation; Cleavage on pair of basic residues; Disulfide bond; Hormone;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          27..86
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000004092"
+FT   PEPTIDE         89..125
+FT                   /note="Calcitonin gene-related peptide 2"
+FT                   /id="PRO_0000004093"
+FT   PROPEP          131..134
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000004094"
+FT   REGION          65..91
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        76..91
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         125
+FT                   /note="Phenylalanine amide"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        90..95
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   134 AA;  14965 MW;  BF6CAFB87A489B38 CRC64;
+     MDFWKFFPFL ALSSMWVLCL ASSLQAAPFR SALESSLDLG TLSDQEKHLL LAALIQDYEQ
+     KARKLEQEEQ ETEGSRKGSS SSVISQKRSC NTATCVTHRL AGLLRRSGGV VKDNFVPTNV
+     GSKAFGRRRR DLRV
+//

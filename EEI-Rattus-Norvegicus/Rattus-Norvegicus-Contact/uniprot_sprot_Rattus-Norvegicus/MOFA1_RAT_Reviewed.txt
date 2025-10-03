@@ -1,0 +1,99 @@
+ID   MOFA1_RAT               Reviewed;         125 AA.
+AC   Q5M820; Q8K3W6;
+DT   02-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   29-MAY-2024, entry version 90.
+DE   RecName: Full=MORF4 family-associated protein 1;
+DE   AltName: Full=T-cell activation protein-related protein;
+GN   Name=Mrfap1 {ECO:0000312|RGD:628631};
+GN   Synonyms=Pgr1 {ECO:0000312|RGD:628631};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAN03958.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), AND INTERACTION WITH CSTB.
+RC   STRAIN=Sprague-Dawley {ECO:0000312|EMBL:AAN03958.1};
+RC   TISSUE=Cerebellum {ECO:0000312|EMBL:AAN03958.1};
+RX   PubMed=12393805; DOI=10.1093/hmg/11.23.2941;
+RA   Di Giaimo R., Riccio M., Santi S., Galeotti C., Ambrosetti D.C., Melli M.;
+RT   "New insights into the molecular basis of progressive myoclonus epilepsy: a
+RT   multiprotein complex with cystatin B.";
+RL   Hum. Mol. Genet. 11:2941-2950(2002).
+RN   [2] {ECO:0000305, ECO:0000312|EMBL:AAH88308.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Liver {ECO:0000312|EMBL:AAH88308.1};
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- SUBUNIT: Found in a complex composed of MORF4L1, MRFAP1 and RB1.
+CC       Interacts via its N-terminus with MORF4L1. Interacts with CSTB and
+CC       MORF4L2. {ECO:0000250|UniProtKB:Q9Y605, ECO:0000269|PubMed:12393805}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q9Y605}.
+CC       Cytoplasm, perinuclear region {ECO:0000250|UniProtKB:Q9Y605}.
+CC       Note=Colocalizes with MORF4L1 to cell nuclei.
+CC       {ECO:0000250|UniProtKB:Q9Y605}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1 {ECO:0000269|PubMed:15489334};
+CC         IsoId=Q5M820-1; Sequence=Displayed;
+CC       Name=2 {ECO:0000269|PubMed:12393805};
+CC         IsoId=Q5M820-2; Sequence=VSP_052549;
+CC   -!- SIMILARITY: Belongs to the MORF4 family-associated protein family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAN03958.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF526268; AAN03958.1; ALT_INIT; mRNA.
+DR   EMBL; BC088308; AAH88308.1; -; mRNA.
+DR   RefSeq; NP_001009264.1; NM_001009264.1. [Q5M820-1]
+DR   AlphaFoldDB; Q5M820; -.
+DR   SMR; Q5M820; -.
+DR   STRING; 10116.ENSRNOP00000071505; -.
+DR   PhosphoSitePlus; Q5M820; -.
+DR   jPOST; Q5M820; -.
+DR   PaxDb; 10116-ENSRNOP00000008121; -.
+DR   GeneID; 282585; -.
+DR   KEGG; rno:282585; -.
+DR   AGR; RGD:628631; -.
+DR   CTD; 93621; -.
+DR   RGD; 628631; Mrfap1.
+DR   VEuPathDB; HostDB:ENSRNOG00000056162; -.
+DR   eggNOG; ENOG502RU25; Eukaryota.
+DR   HOGENOM; CLU_166966_1_0_1; -.
+DR   InParanoid; Q5M820; -.
+DR   OrthoDB; 5266373at2759; -.
+DR   PRO; PR:Q5M820; -.
+DR   Proteomes; UP000002494; Chromosome 14.
+DR   Bgee; ENSRNOG00000055319; Expressed in cerebellum and 19 other cell types or tissues.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR029254; MRFAP1.
+DR   PANTHER; PTHR31324:SF1; MORF4 FAMILY-ASSOCIATED PROTEIN 1; 1.
+DR   PANTHER; PTHR31324; MORF4 FAMILY-ASSOCIATED PROTEIN 1-RELATED; 1.
+DR   Pfam; PF15155; MRFAP1; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Coiled coil; Cytoplasm; Nucleus; Reference proteome.
+FT   CHAIN           1..125
+FT                   /note="MORF4 family-associated protein 1"
+FT                   /id="PRO_0000306179"
+FT   REGION          76..99
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          94..124
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         18..41
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:12393805"
+FT                   /id="VSP_052549"
+SQ   SEQUENCE   125 AA;  14222 MW;  7933F06246BD6085 CRC64;
+     MRPLDAVELA EPEEVEVLEP EEDFEQFLLP VIHEMREDIA SLTRERGRAP VRNRGKLWEM
+     DNMLIQIKTQ VEASEESALN HLQGAGGAEP RGPRAEKADE KAQEMAKMAE MLVQLVRRIE
+     KSESS
+//

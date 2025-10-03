@@ -1,0 +1,148 @@
+ID   DOPD_RAT                Reviewed;         118 AA.
+AC   P80254;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   29-MAY-2024, entry version 150.
+DE   RecName: Full=D-dopachrome decarboxylase;
+DE            EC=4.1.1.84 {ECO:0000269|PubMed:8267597};
+DE   AltName: Full=D-dopachrome tautomerase;
+GN   Name=Ddt;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=7589466; DOI=10.1016/0014-5793(95)01041-c;
+RA   Zhang M., Aman P., Grubb A., Panagopoulos I., Hindemith A., Rosengren E.,
+RA   Rorsman H.;
+RT   "Cloning and sequencing of a cDNA encoding rat D-dopachrome tautomerase.";
+RL   FEBS Lett. 373:203-206(1995).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-12, FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, SUBCELLULAR LOCATION, SUBUNIT, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=8267597; DOI=10.1006/bbrc.1993.2524;
+RA   Odh G., Hindemith A., Rosengren A.-M., Rosengren E., Rorsman H.;
+RT   "Isolation of a new tautomerase monitored by the conversion of D-dopachrome
+RT   to 5,6-dihydroxyindole.";
+RL   Biochem. Biophys. Res. Commun. 197:619-624(1993).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 53-75; 84-95 AND 100-110, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal cord;
+RA   Lubec G., Afjehi-Sadat L.;
+RL   Submitted (NOV-2006) to UniProtKB.
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-90, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Tautomerization of D-dopachrome with decarboxylation to give
+CC       5,6-dihydroxyindole (DHI). {ECO:0000269|PubMed:8267597}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-dopachrome + H(+) = 5,6-dihydroxyindole + CO2;
+CC         Xref=Rhea:RHEA:18441, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:27404, ChEBI:CHEBI:58782; EC=4.1.1.84;
+CC         Evidence={ECO:0000269|PubMed:8267597};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:18442;
+CC         Evidence={ECO:0000305|PubMed:8267597};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=1.5 mM for D-dopachrome {ECO:0000269|PubMed:8267597};
+CC         Vmax=0.5 mmol/min/mg enzyme for D-dopachrome
+CC         {ECO:0000269|PubMed:8267597};
+CC       pH dependence:
+CC         Optimum pH is 6-9. {ECO:0000269|PubMed:8267597};
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000269|PubMed:8267597}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305|PubMed:8267597}.
+CC   -!- TISSUE SPECIFICITY: In all organs tested, highest levels in liver.
+CC       {ECO:0000269|PubMed:8267597}.
+CC   -!- SIMILARITY: Belongs to the MIF family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z36980; CAA85429.1; -; mRNA.
+DR   PIR; S68237; S68237.
+DR   RefSeq; NP_077045.1; NM_024131.1.
+DR   AlphaFoldDB; P80254; -.
+DR   SMR; P80254; -.
+DR   STRING; 10116.ENSRNOP00000001664; -.
+DR   iPTMnet; P80254; -.
+DR   PhosphoSitePlus; P80254; -.
+DR   SwissPalm; P80254; -.
+DR   jPOST; P80254; -.
+DR   PaxDb; 10116-ENSRNOP00000001664; -.
+DR   Ensembl; ENSRNOT00000119257.1; ENSRNOP00000079844.1; ENSRNOG00000068887.1.
+DR   Ensembl; ENSRNOT00055036199; ENSRNOP00055029410; ENSRNOG00055021185.
+DR   Ensembl; ENSRNOT00060030184; ENSRNOP00060024364; ENSRNOG00060017650.
+DR   GeneID; 29318; -.
+DR   KEGG; rno:29318; -.
+DR   UCSC; RGD:61923; rat.
+DR   AGR; RGD:61923; -.
+DR   CTD; 1652; -.
+DR   RGD; 61923; Ddt.
+DR   eggNOG; KOG1759; Eukaryota.
+DR   GeneTree; ENSGT00940000156821; -.
+DR   HOGENOM; CLU_129906_2_0_1; -.
+DR   InParanoid; P80254; -.
+DR   OMA; PDRINIR; -.
+DR   OrthoDB; 5383722at2759; -.
+DR   PhylomeDB; P80254; -.
+DR   TreeFam; TF313853; -.
+DR   BRENDA; 4.1.1.84; 5301.
+DR   BRENDA; 5.3.3.12; 5301.
+DR   PRO; PR:P80254; -.
+DR   Proteomes; UP000002494; Chromosome 20.
+DR   Bgee; ENSRNOG00000001239; Expressed in liver and 20 other cell types or tissues.
+DR   ExpressionAtlas; P80254; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; TAS:UniProtKB.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0005126; F:cytokine receptor binding; ISO:RGD.
+DR   GO; GO:0033981; F:D-dopachrome decarboxylase activity; IDA:UniProtKB.
+DR   GO; GO:0004167; F:dopachrome isomerase activity; TAS:RGD.
+DR   GO; GO:0050178; F:phenylpyruvate tautomerase activity; ISO:RGD.
+DR   GO; GO:0002020; F:protease binding; ISO:RGD.
+DR   GO; GO:0042438; P:melanin biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0010760; P:negative regulation of macrophage chemotaxis; ISO:RGD.
+DR   GO; GO:0070374; P:positive regulation of ERK1 and ERK2 cascade; ISO:RGD.
+DR   GO; GO:0050729; P:positive regulation of inflammatory response; ISO:RGD.
+DR   GO; GO:0032760; P:positive regulation of tumor necrosis factor production; ISO:RGD.
+DR   Gene3D; 3.30.429.10; Macrophage Migration Inhibitory Factor; 1.
+DR   InterPro; IPR001398; Macrophage_inhib_fac.
+DR   InterPro; IPR019829; Macrophage_inhib_fac_CS.
+DR   InterPro; IPR014347; Tautomerase/MIF_sf.
+DR   PANTHER; PTHR11954; D-DOPACHROME DECARBOXYLASE; 1.
+DR   PANTHER; PTHR11954:SF22; D-DOPACHROME DECARBOXYLASE; 1.
+DR   Pfam; PF01187; MIF; 1.
+DR   SUPFAM; SSF55331; Tautomerase/MIF; 1.
+DR   PROSITE; PS01158; MIF; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Direct protein sequencing; Lyase;
+KW   Melanin biosynthesis; Phosphoprotein; Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:8267597"
+FT   CHAIN           2..118
+FT                   /note="D-dopachrome decarboxylase"
+FT                   /id="PRO_0000158072"
+FT   MOD_RES         2
+FT                   /note="N-acetylproline"
+FT                   /evidence="ECO:0000250|UniProtKB:O35215"
+FT   MOD_RES         33
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:O35215"
+FT   MOD_RES         90
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   118 AA;  13133 MW;  9D841584907B8548 CRC64;
+     MPFVELETNL PASRIPAGLE NRLCAATATI LDKPEDRVSV TIRPGMTLLM NKSTEPCAHL
+     LISSIGVVGT AEQNRSHSSS FFKFLTEELS LDQDRIIIRF FPLEPWQIGK KGTVMTFL
+//

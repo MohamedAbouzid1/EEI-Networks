@@ -1,0 +1,234 @@
+ID   CP4F4_RAT               Reviewed;         522 AA.
+AC   P51869;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   24-JUL-2024, entry version 151.
+DE   RecName: Full=Cytochrome P450 4F4;
+DE   AltName: Full=CYPIVF4;
+DE   AltName: Full=Leukotriene-B4 20-monooxygenase;
+DE            EC=1.14.14.94 {ECO:0000269|PubMed:14634044};
+GN   Name=Cyp4f4 {ECO:0000303|PubMed:11980497, ECO:0000312|RGD:708363};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=8554568; DOI=10.1006/bbrc.1995.2887;
+RA   Kawashima H., Strobel H.W.;
+RT   "cDNA cloning of three new forms of rat brain cytochrome P450 belonging to
+RT   the CYP4F subfamily.";
+RL   Biochem. Biophys. Res. Commun. 217:1137-1144(1995).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND TISSUE SPECIFICITY.
+RX   PubMed=9344476; DOI=10.1006/abbi.1997.0342;
+RA   Kawashima H., Kusunose E., Thompson C.M., Strobel H.W.;
+RT   "Protein expression, characterization, and regulation of CYP4F4 and CYP4F5
+RT   cloned from rat brain.";
+RL   Arch. Biochem. Biophys. 347:148-154(1997).
+RN   [3]
+RP   COVALENT HEME ATTACHMENT.
+RX   PubMed=11980497; DOI=10.1021/bi025527y;
+RA   LeBrun L.A., Xu F., Kroetz D.L., Ortiz de Montellano P.R.;
+RT   "Covalent attachment of the heme prosthetic group in the CYP4F cytochrome
+RT   P450 family.";
+RL   Biochemistry 41:5931-5937(2002).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=14634044; DOI=10.1124/jpet.103.059626;
+RA   Xu F., Falck J.R., Ortiz de Montellano P.R., Kroetz D.L.;
+RT   "Catalytic activity and isoform-specific inhibition of rat cytochrome p450
+RT   4F enzymes.";
+RL   J. Pharmacol. Exp. Ther. 308:887-895(2004).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, TISSUE
+RP   SPECIFICITY, AND INDUCTION BY CYTOKINES.
+RX   PubMed=17418803; DOI=10.1016/j.abb.2007.02.027;
+RA   Kalsotra A., Anakk S., Brommer C.L., Kikuta Y., Morgan E.T., Strobel H.W.;
+RT   "Catalytic characterization and cytokine mediated regulation of cytochrome
+RT   P450 4Fs in rat hepatocytes.";
+RL   Arch. Biochem. Biophys. 461:104-112(2007).
+CC   -!- FUNCTION: A cytochrome P450 monooxygenase involved in the metabolism of
+CC       arachidonic acid and its oxygenated derivatives (PubMed:14634044,
+CC       PubMed:17418803, PubMed:9344476). Mechanistically, uses molecular
+CC       oxygen inserting one oxygen atom into a substrate, and reducing the
+CC       second into a water molecule, with two electrons provided by NADPH via
+CC       cytochrome P450 reductase (CPR; NADPH-ferrihemoprotein reductase)
+CC       (PubMed:14634044, PubMed:17418803, PubMed:9344476). Participates in the
+CC       conversion of arachidonic acid to omega-hydroxyeicosatetraenoic acid
+CC       (20-HETE), a signaling molecule acting both as vasoconstrictive and
+CC       natriuretic with overall effect on arterial blood pressure
+CC       (PubMed:14634044). Hydroxylates the terminal carbon (omega-
+CC       hydroxylation) of inflammatory lipid mediators, including prostaglandin
+CC       (PG) A1, PGE1 and leukotriene B4 (LTB4), and may play a role in
+CC       inactivation of these oxylipins during the resolution of inflammation
+CC       (PubMed:14634044, PubMed:17418803, PubMed:9344476).
+CC       {ECO:0000269|PubMed:14634044, ECO:0000269|PubMed:17418803,
+CC       ECO:0000269|PubMed:9344476}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 + reduced [NADPH--
+CC         hemoprotein reductase] = 20-hydroxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate
+CC         + H(+) + H2O + oxidized [NADPH--hemoprotein reductase];
+CC         Xref=Rhea:RHEA:39755, Rhea:RHEA-COMP:11964, Rhea:RHEA-COMP:11965,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:32395, ChEBI:CHEBI:57618, ChEBI:CHEBI:58210,
+CC         ChEBI:CHEBI:76624; Evidence={ECO:0000269|PubMed:14634044};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:39756;
+CC         Evidence={ECO:0000305|PubMed:14634044};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=leukotriene B4 + O2 + reduced [NADPH--hemoprotein reductase] =
+CC         20-hydroxy-leukotriene B4 + H(+) + H2O + oxidized [NADPH--hemoprotein
+CC         reductase]; Xref=Rhea:RHEA:22176, Rhea:RHEA-COMP:11964, Rhea:RHEA-
+CC         COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:57460, ChEBI:CHEBI:57461, ChEBI:CHEBI:57618,
+CC         ChEBI:CHEBI:58210; EC=1.14.14.94;
+CC         Evidence={ECO:0000269|PubMed:14634044, ECO:0000269|PubMed:17418803,
+CC         ECO:0000269|PubMed:9344476};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:22177;
+CC         Evidence={ECO:0000305|PubMed:14634044};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=6-trans-leukotriene B4 + O2 + reduced [NADPH--hemoprotein
+CC         reductase] = 20-hydroxy-6-trans-leukotriene B4 + H(+) + H2O +
+CC         oxidized [NADPH--hemoprotein reductase]; Xref=Rhea:RHEA:48676,
+CC         Rhea:RHEA-COMP:11964, Rhea:RHEA-COMP:11965, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15379, ChEBI:CHEBI:57618,
+CC         ChEBI:CHEBI:58210, ChEBI:CHEBI:90723, ChEBI:CHEBI:90732;
+CC         Evidence={ECO:0000269|PubMed:17418803, ECO:0000269|PubMed:9344476};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48677;
+CC         Evidence={ECO:0000305|PubMed:9344476};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O2 + prostaglandin A1 + reduced [NADPH--hemoprotein reductase]
+CC         = 20-hydroxy prostaglandin A1 + H(+) + H2O + oxidized [NADPH--
+CC         hemoprotein reductase]; Xref=Rhea:RHEA:52524, Rhea:RHEA-COMP:11964,
+CC         Rhea:RHEA-COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:57398, ChEBI:CHEBI:57618,
+CC         ChEBI:CHEBI:58210, ChEBI:CHEBI:136663;
+CC         Evidence={ECO:0000269|PubMed:9344476};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52525;
+CC         Evidence={ECO:0000305|PubMed:9344476};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O2 + prostaglandin E1 + reduced [NADPH--hemoprotein reductase]
+CC         = 20-hydroxy prostaglandin E1 + H(+) + H2O + oxidized [NADPH--
+CC         hemoprotein reductase]; Xref=Rhea:RHEA:52520, Rhea:RHEA-COMP:11964,
+CC         Rhea:RHEA-COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:57397, ChEBI:CHEBI:57618,
+CC         ChEBI:CHEBI:58210, ChEBI:CHEBI:136661;
+CC         Evidence={ECO:0000269|PubMed:9344476};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52521;
+CC         Evidence={ECO:0000305|PubMed:9344476};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000269|PubMed:11980497};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=31 uM for leukotriene B4 {ECO:0000269|PubMed:14634044};
+CC         KM=45.5 uM for leukotriene B4 {ECO:0000269|PubMed:17418803};
+CC         Vmax=40 nmol/min/nmol enzyme toward leukotriene B4
+CC         {ECO:0000269|PubMed:14634044};
+CC         Vmax=4.02 nmol/min/nmol enzyme toward leukotriene B4
+CC         {ECO:0000269|PubMed:17418803};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane; Multi-pass
+CC       membrane protein {ECO:0000255}. Microsome membrane; Multi-pass membrane
+CC       protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in hepatocytes (PubMed:17418803). High
+CC       expression in liver and kidney. Lower expression in brain
+CC       (PubMed:9344476). {ECO:0000269|PubMed:17418803,
+CC       ECO:0000269|PubMed:9344476}.
+CC   -!- INDUCTION: Up-regulated in hepatocytes by pro-inflammatory cytokine IL6
+CC       and down-regulated by anti-inflammatory cytokine IL10.
+CC       {ECO:0000269|PubMed:17418803}.
+CC   -!- SIMILARITY: Belongs to the cytochrome P450 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U39206; AAC52358.1; -; mRNA.
+DR   PIR; JC4532; JC4532.
+DR   RefSeq; NP_775146.1; NM_173123.1.
+DR   AlphaFoldDB; P51869; -.
+DR   SMR; P51869; -.
+DR   STRING; 10116.ENSRNOP00000039545; -.
+DR   ChEMBL; CHEMBL3509597; -.
+DR   SwissLipids; SLP:000001704; -.
+DR   PaxDb; 10116-ENSRNOP00000039545; -.
+DR   GeneID; 286904; -.
+DR   KEGG; rno:286904; -.
+DR   UCSC; RGD:708363; rat.
+DR   AGR; RGD:708363; -.
+DR   CTD; 286904; -.
+DR   RGD; 708363; Cyp4f4.
+DR   VEuPathDB; HostDB:ENSRNOG00000032895; -.
+DR   eggNOG; KOG0157; Eukaryota.
+DR   HOGENOM; CLU_001570_5_1_1; -.
+DR   InParanoid; P51869; -.
+DR   OrthoDB; 1611592at2759; -.
+DR   Reactome; R-RNO-211935; Fatty acids.
+DR   Reactome; R-RNO-211958; Miscellaneous substrates.
+DR   Reactome; R-RNO-211979; Eicosanoids.
+DR   Reactome; R-RNO-2142691; Synthesis of Leukotrienes (LT) and Eoxins (EX).
+DR   Reactome; R-RNO-2142816; Synthesis of (16-20)-hydroxyeicosatetraenoic acids (HETE).
+DR   PRO; PR:P51869; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000032895; Expressed in liver and 11 other cell types or tissues.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008391; F:arachidonic acid monooxygenase activity; IDA:UniProtKB.
+DR   GO; GO:0020037; F:heme binding; IDA:RGD.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0050051; F:leukotriene-B4 20-monooxygenase activity; IDA:UniProtKB.
+DR   GO; GO:0019369; P:arachidonic acid metabolic process; IBA:GO_Central.
+DR   GO; GO:0036101; P:leukotriene B4 catabolic process; IDA:UniProtKB.
+DR   GO; GO:0097267; P:omega-hydroxylase P450 pathway; IDA:UniProtKB.
+DR   GO; GO:1905344; P:prostaglandin catabolic process; IDA:UniProtKB.
+DR   GO; GO:1904681; P:response to 3-methylcholanthrene; IEP:RGD.
+DR   CDD; cd20679; CYP4F; 1.
+DR   Gene3D; 1.10.630.10; Cytochrome P450; 1.
+DR   InterPro; IPR001128; Cyt_P450.
+DR   InterPro; IPR017972; Cyt_P450_CS.
+DR   InterPro; IPR002401; Cyt_P450_E_grp-I.
+DR   InterPro; IPR036396; Cyt_P450_sf.
+DR   InterPro; IPR050196; Cytochrome_P450_Monoox.
+DR   PANTHER; PTHR24291:SF112; CYTOCHROME P450 4F2; 1.
+DR   PANTHER; PTHR24291; CYTOCHROME P450 FAMILY 4; 1.
+DR   Pfam; PF00067; p450; 1.
+DR   PRINTS; PR00463; EP450I.
+DR   PRINTS; PR00385; P450.
+DR   SUPFAM; SSF48264; Cytochrome P450; 1.
+DR   PROSITE; PS00086; CYTOCHROME_P450; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Heme; Iron; Membrane; Metal-binding; Microsome;
+KW   Monooxygenase; Oxidoreductase; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..522
+FT                   /note="Cytochrome P450 4F4"
+FT                   /id="PRO_0000051852"
+FT   TRANSMEM        15..35
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        87..107
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         328
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /note="covalent"
+FT                   /evidence="ECO:0000269|PubMed:11980497"
+FT   BINDING         468
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000269|PubMed:11980497"
+SQ   SEQUENCE   522 AA;  60050 MW;  193EA8E7CE8864D6 CRC64;
+     MPQLDLSWLG LRLETSLPWL LLLLIGASWL LVRVLTQTYI FYRTYQHLCD FPQPPKWNWF
+     LGHLGMITPT EQGLKQVTKL VATYPQGFMT WLGPILPIIT LCHPDVIRSV LSASASVALK
+     EVIFYSFLKP WLGDGLLLSD GDKWSCHRRM LTPAFHFNIL KPYVKIFNDS TNIMHAKWQD
+     LASGGSARLD MFKNISLMTL DSLQKCVFSF DSNCQEKPSE YISAILELSA LVAKRYQQLL
+     LHTDSLYQLT HNGRRFHKAC KLVHNFTDAV IQGRRRALPS QHEDDILKAK ARSKTLDFID
+     VLLLTKDEDG KELSDEDIRA EADTFMFEGH DTTASGLSWI LYNLARHPEY QERCRQEVRE
+     LLRDRESTEI EWDDLAQLPF LTMCIKESLR LHPPVTVISR RCTQDIVLPD GRVIPKGVIC
+     IINIFATHHN PTVWPDPEVY DPFRFDPENI KDRSPLAFIP FSAGPRNCIG QTFAMNEMKV
+     ALALTLLRFR VLPDDKEPRR KPELILRAEG GLWLRVEPLS TQ
+//

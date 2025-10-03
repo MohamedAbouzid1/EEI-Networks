@@ -1,0 +1,108 @@
+ID   RF1ML_RAT               Reviewed;         373 AA.
+AC   Q4V7E5;
+DT   29-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 1.
+DT   24-JUL-2024, entry version 106.
+DE   RecName: Full=Peptide chain release factor 1-like, mitochondrial;
+DE   AltName: Full=Mitochondrial translational release factor 1-like;
+DE   Flags: Precursor;
+GN   Name=Mtrf1l;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Mitochondrial peptide chain release factor that directs the
+CC       termination of translation in response to the peptide chain termination
+CC       codons UAA and UAG. {ECO:0000250|UniProtKB:Q9UGC7}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250|UniProtKB:Q9UGC7}.
+CC   -!- DOMAIN: The GGQ domain interacts with the peptidyltransferase center
+CC       (PTC) of the large ribosomal subunit to trigger nascent chain
+CC       hydrolysis. {ECO:0000250|UniProtKB:Q9H3J6}.
+CC   -!- PTM: Methylation of glutamine in the GGQ triplet by HEMK1 is conserved
+CC       from bacteria to mammals. {ECO:0000250|UniProtKB:Q9UGC7}.
+CC   -!- SIMILARITY: Belongs to the prokaryotic/mitochondrial release factor
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC097970; AAH97970.1; -; mRNA.
+DR   RefSeq; NP_001020894.1; NM_001025723.1.
+DR   AlphaFoldDB; Q4V7E5; -.
+DR   SMR; Q4V7E5; -.
+DR   STRING; 10116.ENSRNOP00000025398; -.
+DR   PhosphoSitePlus; Q4V7E5; -.
+DR   PaxDb; 10116-ENSRNOP00000025398; -.
+DR   GeneID; 361473; -.
+DR   KEGG; rno:361473; -.
+DR   UCSC; RGD:1598312; rat.
+DR   AGR; RGD:1598312; -.
+DR   CTD; 54516; -.
+DR   RGD; 1598312; Mtrf1l.
+DR   VEuPathDB; HostDB:ENSRNOG00000018773; -.
+DR   eggNOG; KOG2726; Eukaryota.
+DR   HOGENOM; CLU_036856_0_3_1; -.
+DR   InParanoid; Q4V7E5; -.
+DR   OrthoDB; 131884at2759; -.
+DR   PhylomeDB; Q4V7E5; -.
+DR   TreeFam; TF313720; -.
+DR   Reactome; R-RNO-5419276; Mitochondrial translation termination.
+DR   PRO; PR:Q4V7E5; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000018773; Expressed in quadriceps femoris and 20 other cell types or tissues.
+DR   GO; GO:0005739; C:mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0003747; F:translation release factor activity; ISS:UniProtKB.
+DR   GO; GO:0016149; F:translation release factor activity, codon specific; ISO:RGD.
+DR   GO; GO:0070126; P:mitochondrial translational termination; ISS:UniProtKB.
+DR   Gene3D; 3.30.160.20; -; 1.
+DR   Gene3D; 3.30.70.1660; -; 2.
+DR   Gene3D; 6.10.140.1950; -; 1.
+DR   InterPro; IPR005139; PCRF.
+DR   InterPro; IPR000352; Pep_chain_release_fac_I.
+DR   InterPro; IPR045853; Pep_chain_release_fac_I_sf.
+DR   InterPro; IPR050057; Prokaryotic/Mito_RF.
+DR   PANTHER; PTHR43804; LD18447P; 1.
+DR   PANTHER; PTHR43804:SF3; PEPTIDE CHAIN RELEASE FACTOR 1-LIKE, MITOCHONDRIAL; 1.
+DR   Pfam; PF03462; PCRF; 1.
+DR   Pfam; PF00472; RF-1; 1.
+DR   SMART; SM00937; PCRF; 1.
+DR   SUPFAM; SSF75620; Release factor; 1.
+DR   PROSITE; PS00745; RF_PROK_I; 1.
+PE   2: Evidence at transcript level;
+KW   Coiled coil; Methylation; Mitochondrion; Protein biosynthesis;
+KW   Reference proteome; Transit peptide.
+FT   TRANSIT         1..13
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           14..373
+FT                   /note="Peptide chain release factor 1-like, mitochondrial"
+FT                   /id="PRO_0000330946"
+FT   REGION          229..293
+FT                   /note="GGQ domain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q80VP5"
+FT   COILED          56..111
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           243..245
+FT                   /note="GGQ"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGC7"
+FT   MOD_RES         245
+FT                   /note="N5-methylglutamine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGC7"
+SQ   SEQUENCE   373 AA;  42343 MW;  3399053A62C1B9C5 CRC64;
+     MRSGFLRSAR RLWARRAISR MPPPSEELLA RGGPLRAFLE RRVGSEAGGL DAGSPQLAAA
+     ARLLNEKERE LRDTESLLHD ENEDLKKLAE SEIALCQKEI AELKHRIISL LVPSEDMDGS
+     DLILEVTAGV GGQEAMLFTS EMFDMYQQYA AFKRWHFETL EYFPSELGGL RHASASIGGP
+     EAYRHMKFEG GVHRVQRVPK TERQGRIHTS TMTVAILPQP TEIKLVINPK DLRIDTKRAS
+     GAGGQHVNTT DSAVRIVHLP TGIISECQQE RSQLKNRELA MKKLRARLYS MRLEEETAKR
+     YSARKIQVGT KGRSEKIRTY NFPQNRVTDH RINKSLHDLE SFMQGDCLLD DLIQSLKDYS
+     DYESLVEMIS RKD
+//

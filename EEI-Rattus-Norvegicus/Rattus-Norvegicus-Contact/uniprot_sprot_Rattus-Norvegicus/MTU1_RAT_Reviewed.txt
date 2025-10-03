@@ -1,0 +1,159 @@
+ID   MTU1_RAT                Reviewed;         441 AA.
+AC   B1WC37;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAY-2008, sequence version 1.
+DT   29-MAY-2024, entry version 88.
+DE   RecName: Full=Mitochondrial tRNA-specific 2-thiouridylase 1;
+DE            EC=2.8.1.14 {ECO:0000250|UniProtKB:Q12093};
+GN   Name=Trmu; Synonyms=Mtu1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Catalyzes the 2-thiolation of uridine at the wobble position
+CC       (U34) of mitochondrial tRNA(Lys), tRNA(Glu) and tRNA(Gln). Required for
+CC       the formation of 5-taurinomethyl-2-thiouridine (tm5s2U) of
+CC       mitochondrial tRNA(Lys), tRNA(Glu), and tRNA(Gln) at the wobble
+CC       position. ATP is required to activate the C2 atom of the wobble base.
+CC       {ECO:0000250|UniProtKB:O75648}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-taurinomethyluridine(34) in tRNA + AH2 + ATP + S-sulfanyl-L-
+CC         cysteinyl-[protein] = 5-taurinomethyl-2-thiouridine(34) in tRNA + A +
+CC         AMP + diphosphate + H(+) + L-cysteinyl-[protein];
+CC         Xref=Rhea:RHEA:47040, Rhea:RHEA-COMP:10131, Rhea:RHEA-COMP:11726,
+CC         Rhea:RHEA-COMP:11732, Rhea:RHEA-COMP:11733, ChEBI:CHEBI:13193,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17499, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:61963,
+CC         ChEBI:CHEBI:87171, ChEBI:CHEBI:87172, ChEBI:CHEBI:456215;
+CC         EC=2.8.1.14; Evidence={ECO:0000250|UniProtKB:Q12093};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250}.
+CC   -!- MISCELLANEOUS: During the reaction, ATP is used to activate the C2 atom
+CC       of U34 by adenylation. After this, the persulfide sulfur on the
+CC       catalytic cysteine is transferred to the C2 atom of the wobble base
+CC       (U34) of mitochondrial tRNA(Lys), tRNA(Glu) and tRNA(Gln). The reaction
+CC       probably involves hydrogen sulfide that is generated from the
+CC       persulfide intermediate and that acts as a nucleophile towards the
+CC       activated C2 atom on U34. Subsequently, a transient disulfide bond is
+CC       formed between the two active site cysteine residues (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the MnmA/TRMU family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC161991; AAI61991.1; -; mRNA.
+DR   RefSeq; XP_006242226.1; XM_006242164.3.
+DR   AlphaFoldDB; B1WC37; -.
+DR   SMR; B1WC37; -.
+DR   STRING; 10116.ENSRNOP00000061254; -.
+DR   iPTMnet; B1WC37; -.
+DR   PhosphoSitePlus; B1WC37; -.
+DR   PaxDb; 10116-ENSRNOP00000061254; -.
+DR   PeptideAtlas; B1WC37; -.
+DR   Ensembl; ENSRNOT00000065283.4; ENSRNOP00000061254.1; ENSRNOG00000016465.8.
+DR   Ensembl; ENSRNOT00055055865; ENSRNOP00055046026; ENSRNOG00055032359.
+DR   Ensembl; ENSRNOT00060044838; ENSRNOP00060037188; ENSRNOG00060025893.
+DR   Ensembl; ENSRNOT00065057424; ENSRNOP00065047265; ENSRNOG00065033401.
+DR   AGR; RGD:1311229; -.
+DR   RGD; 1311229; Trmu.
+DR   eggNOG; KOG2805; Eukaryota.
+DR   GeneTree; ENSGT00390000014323; -.
+DR   HOGENOM; CLU_035188_1_1_1; -.
+DR   InParanoid; B1WC37; -.
+DR   OMA; GRHDGLM; -.
+DR   OrthoDB; 231303at2759; -.
+DR   PhylomeDB; B1WC37; -.
+DR   TreeFam; TF105611; -.
+DR   PRO; PR:B1WC37; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000016465; Expressed in pancreas and 20 other cell types or tissues.
+DR   ExpressionAtlas; B1WC37; baseline and differential.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0061708; F:tRNA-5-taurinomethyluridine 2-sulfurtransferase; IEA:UniProtKB-EC.
+DR   GO; GO:0002143; P:tRNA wobble position uridine thiolation; IBA:GO_Central.
+DR   CDD; cd01998; tRNA_Me_trans; 1.
+DR   Gene3D; 2.30.30.280; Adenine nucleotide alpha hydrolases-like domains; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 2.40.30.10; Translation factors; 1.
+DR   HAMAP; MF_00144; tRNA_thiouridyl_MnmA; 1.
+DR   InterPro; IPR046885; MnmA-like_C.
+DR   InterPro; IPR046884; MnmA-like_central.
+DR   InterPro; IPR023382; MnmA-like_central_sf.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR004506; tRNA-specific_2-thiouridylase.
+DR   PANTHER; PTHR11933:SF5; MITOCHONDRIAL TRNA-SPECIFIC 2-THIOURIDYLASE 1; 1.
+DR   PANTHER; PTHR11933; TRNA 5-METHYLAMINOMETHYL-2-THIOURIDYLATE -METHYLTRANSFERASE; 1.
+DR   Pfam; PF03054; tRNA_Me_trans; 1.
+DR   Pfam; PF20258; tRNA_Me_trans_C; 1.
+DR   Pfam; PF20259; tRNA_Me_trans_M; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Disulfide bond; Mitochondrion; Nucleotide-binding;
+KW   Reference proteome; RNA-binding; Transferase; tRNA processing;
+KW   tRNA-binding.
+FT   CHAIN           1..441
+FT                   /note="Mitochondrial tRNA-specific 2-thiouridylase 1"
+FT                   /id="PRO_0000349873"
+FT   REGION          96..98
+FT                   /note="Interaction with target base in tRNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          171..173
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          358..359
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          421..441
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        101
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        222
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         10..17
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         36
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         126
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   SITE            127
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            291
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            391
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        101..222
+FT                   /note="Alternate"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   441 AA;  49724 MW;  13B09AFB51A73942 CRC64;
+     MSALRHVVCA LSGGVDSAVA ALLLRRRGYQ VTGVFMKNWD SLDEQGICAA DKDCEDAYKV
+     CQILDIPFHQ VSYVKEYWND VFSDFLNEYE KGRTPNPDIS CNKHIKFSCF HHYAVDNLGA
+     DAVATGHYAR TSLEDEEVFE QKHTKRPDGL FRNRFEVRNP VKLLQAADSF KDQTFFLSQV
+     SQDALRRTIF PLGELTKDFV KKIAAENRLH HVLQKKESMG ICFIGKRNLE HFLLQVSVSD
+     VSGGLLWAGA PVVMKPVFQY LQPRPGKFIS IEDNRVLGTH KGWFLYTLGQ RAKISGLSEP
+     WYVVEKDGTK GDVLVAPRVD HPALYRDLLR TNRVHWIAEE PPAALVRDKM MECHFRFRHQ
+     MALVPCVLTL NQDGTVWVTA VKAVRGLALG QFAVFYKGEE CLGSGKILRL GPSAYTLQKG
+     KNRTRVAPEV SSDSPGLHPT S
+//

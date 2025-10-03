@@ -1,0 +1,204 @@
+ID   CLYBL_RAT               Reviewed;         338 AA.
+AC   Q5I0K3;
+DT   01-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2007, sequence version 2.
+DT   29-MAY-2024, entry version 113.
+DE   RecName: Full=Citramalyl-CoA lyase, mitochondrial {ECO:0000250|UniProtKB:Q8N0X4};
+DE            EC=4.1.3.25 {ECO:0000250|UniProtKB:Q8N0X4};
+DE   AltName: Full=(3S)-malyl-CoA thioesterase {ECO:0000250|UniProtKB:Q8N0X4};
+DE            EC=3.1.2.30 {ECO:0000250|UniProtKB:Q8N0X4};
+DE   AltName: Full=Beta-methylmalate synthase;
+DE            EC=2.3.3.- {ECO:0000250|UniProtKB:Q8N0X4};
+DE   AltName: Full=Citrate lyase subunit beta-like protein, mitochondrial;
+DE            Short=Citrate lyase beta-like;
+DE   AltName: Full=Malate synthase;
+DE            EC=2.3.3.9 {ECO:0000250|UniProtKB:Q8N0X4};
+DE   Flags: Precursor;
+GN   Name=Clybl;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 1-205 (ISOFORM 2).
+RA   Bonaldo M.F., Lennon G., Soares M.B.;
+RL   Submitted (JAN-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 2-338 (ISOFORM 1).
+RC   TISSUE=Spleen;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Mitochondrial citramalyl-CoA lyase indirectly involved in the
+CC       vitamin B12 metabolism. Converts citramalyl-CoA into acetyl-CoA and
+CC       pyruvate in the C5-dicarboxylate catabolism pathway. The C5-
+CC       dicarboxylate catabolism pathway is required to detoxify itaconate, a
+CC       vitamin B12-poisoning metabolite. Also acts as a malate synthase in
+CC       vitro, converting glyoxylate and acetyl-CoA to malate. Also displays
+CC       malyl-CoA thioesterase activity. Also acts as a beta-methylmalate
+CC       synthase in vitro, by mediating conversion of glyoxylate and propionyl-
+CC       CoA to beta-methylmalate. Also has very weak citramalate synthase
+CC       activity in vitro. {ECO:0000250|UniProtKB:Q8N0X4}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + glyoxylate + H2O = (S)-malate + CoA + H(+);
+CC         Xref=Rhea:RHEA:18181, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15589, ChEBI:CHEBI:36655, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57288; EC=2.3.3.9;
+CC         Evidence={ECO:0000250|UniProtKB:Q8N0X4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glyoxylate + H2O + propanoyl-CoA = 3-methylmalate + CoA +
+CC         H(+); Xref=Rhea:RHEA:47628, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:36655, ChEBI:CHEBI:57287, ChEBI:CHEBI:57392,
+CC         ChEBI:CHEBI:87810; Evidence={ECO:0000250|UniProtKB:Q8N0X4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(3S)-citramalyl-CoA = acetyl-CoA + pyruvate;
+CC         Xref=Rhea:RHEA:22612, ChEBI:CHEBI:15361, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:58668; EC=4.1.3.25;
+CC         Evidence={ECO:0000250|UniProtKB:Q8N0X4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-malyl-CoA + H2O = (S)-malate + CoA + H(+);
+CC         Xref=Rhea:RHEA:38291, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15589, ChEBI:CHEBI:57287, ChEBI:CHEBI:57317; EC=3.1.2.30;
+CC         Evidence={ECO:0000250|UniProtKB:Q8N0X4};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q8N0X4};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250|UniProtKB:Q9RUZ0};
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000250|UniProtKB:Q8N0X4}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250|UniProtKB:Q8R4N0}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q5I0K3-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q5I0K3-2; Sequence=VSP_025044;
+CC   -!- SIMILARITY: Belongs to the HpcH/HpaI aldolase family. Citrate lyase
+CC       beta subunit-like subfamily. {ECO:0000305}.
+CC   -!- CAUTION: This organism lacks the other subunits that are necessary for
+CC       ATP-independent citrate lyase activity. Even though this protein has
+CC       clear similarity to citrate lyase beta subunit, it is expected to have
+CC       a somewhat different enzyme activity. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BF567092; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; BC088243; AAH88243.1; -; mRNA.
+DR   RefSeq; NP_001094155.1; NM_001100685.1. [Q5I0K3-1]
+DR   AlphaFoldDB; Q5I0K3; -.
+DR   SMR; Q5I0K3; -.
+DR   STRING; 10116.ENSRNOP00000018918; -.
+DR   iPTMnet; Q5I0K3; -.
+DR   PhosphoSitePlus; Q5I0K3; -.
+DR   PaxDb; 10116-ENSRNOP00000018918; -.
+DR   Ensembl; ENSRNOT00000018918.8; ENSRNOP00000018918.5; ENSRNOG00000014075.9. [Q5I0K3-1]
+DR   Ensembl; ENSRNOT00060014742; ENSRNOP00060011394; ENSRNOG00060008800. [Q5I0K3-1]
+DR   GeneID; 306198; -.
+DR   KEGG; rno:306198; -.
+DR   AGR; RGD:1304615; -.
+DR   CTD; 171425; -.
+DR   RGD; 1304615; Clybl.
+DR   eggNOG; ENOG502QQPK; Eukaryota.
+DR   GeneTree; ENSGT00390000017163; -.
+DR   HOGENOM; CLU_044864_1_0_1; -.
+DR   InParanoid; Q5I0K3; -.
+DR   OrthoDB; 2874421at2759; -.
+DR   PhylomeDB; Q5I0K3; -.
+DR   TreeFam; TF313596; -.
+DR   ChiTaRS; Clybl; rat.
+DR   PRO; PR:Q5I0K3; -.
+DR   Proteomes; UP000002494; Chromosome 15.
+DR   Bgee; ENSRNOG00000014075; Expressed in heart and 20 other cell types or tissues.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0047777; F:(S)-citramalyl-CoA lyase activity; ISS:UniProtKB.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; ISS:UniProtKB.
+DR   GO; GO:0004474; F:malate synthase activity; ISS:UniProtKB.
+DR   GO; GO:0106121; P:positive regulation of cobalamin metabolic process; ISO:RGD.
+DR   GO; GO:0070207; P:protein homotrimerization; ISS:UniProtKB.
+DR   GO; GO:0106064; P:regulation of cobalamin metabolic process; ISS:UniProtKB.
+DR   Gene3D; 3.20.20.60; Phosphoenolpyruvate-binding domains; 1.
+DR   InterPro; IPR005000; Aldolase/citrate-lyase_domain.
+DR   InterPro; IPR040186; Citramalyl-CoA_lyase.
+DR   InterPro; IPR011206; Citrate_lyase_beta/mcl1/mcl2.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_Kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_Kinase-like_dom_sf.
+DR   PANTHER; PTHR11105:SF0; CITRAMALYL-COA LYASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11105; CITRATE LYASE SUBUNIT BETA-RELATED; 1.
+DR   Pfam; PF03328; HpcH_HpaI; 1.
+DR   PIRSF; PIRSF015582; Cit_lyase_B; 1.
+DR   SUPFAM; SSF51621; Phosphoenolpyruvate/pyruvate domain; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Alternative splicing; Hydrolase; Lyase; Magnesium;
+KW   Metal-binding; Mitochondrion; Reference proteome; Transferase;
+KW   Transit peptide.
+FT   TRANSIT         1..20
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..338
+FT                   /note="Citramalyl-CoA lyase, mitochondrial"
+FT                   /id="PRO_0000286391"
+FT   ACT_SITE        318
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N0X4"
+FT   BINDING         48
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N0X4"
+FT   BINDING         55
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N0X4"
+FT   BINDING         59
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N0X4"
+FT   BINDING         105
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N0X4"
+FT   BINDING         169
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N0X4"
+FT   BINDING         204
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N0X4"
+FT   BINDING         270..271
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N0X4"
+FT   MOD_RES         55
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8R4N0"
+FT   MOD_RES         59
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8R4N0"
+FT   MOD_RES         64
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8R4N0"
+FT   MOD_RES         80
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8R4N0"
+FT   MOD_RES         80
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8R4N0"
+FT   MOD_RES         90
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8R4N0"
+FT   MOD_RES         90
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8R4N0"
+FT   MOD_RES         307
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8R4N0"
+FT   VAR_SEQ         82..144
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|Ref.1"
+FT                   /id="VSP_025044"
+SQ   SEQUENCE   338 AA;  37321 MW;  09585D2C6CE1A3DE CRC64;
+     MALCVLQNAV RGAAALPRLK ASLVASVCRP GYSSLSNHKY VPRRAVLYVP GNDEKKIRKI
+     PSLKVDCAVL DCEDGVAENK KNEARLRIAK TLEDFDLGTT EKCVRINSVS SGLAEADLET
+     FLQARVLPSS LMLPKVEGPE EIQWFSDKFS LHLKGRKLEQ PMNLIPFVET AMGLLNFKAV
+     CEETLKIGPQ VGLFLDAVVF GGEDFRASIG ATSNKDTQDI LYARQKIVVT AKAFGLQAID
+     LVYIDFRDED GLLRQSREAA AMGFTGKQVI HPNQIAVVQE QFTPTPEKIR WAEELIAAFK
+     EHQQLGKGAF TFQGSMIDMP LLKQAQNIVT LATSIKEK
+//

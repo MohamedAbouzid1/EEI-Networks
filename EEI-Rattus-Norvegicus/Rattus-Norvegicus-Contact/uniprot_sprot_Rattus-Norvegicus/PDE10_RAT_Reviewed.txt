@@ -1,0 +1,398 @@
+ID   PDE10_RAT               Reviewed;         794 AA.
+AC   Q9QYJ6; Q6S9E6; Q6S9E7; Q6S9E8; Q6S9E9; Q9QYJ5;
+DT   16-DEC-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   02-OCT-2024, entry version 139.
+DE   RecName: Full=cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A;
+DE            EC=3.1.4.17 {ECO:0000269|PubMed:10583409, ECO:0000269|PubMed:14752115};
+GN   Name=Pde10a;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), ALTERNATIVE SPLICING,
+RP   FUNCTION, SUBCELLULAR LOCATION, BIOPHYSICOCHEMICAL PROPERTIES, ACTIVITY
+RP   REGULATION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=10583409; DOI=10.1046/j.1432-1327.1999.00963.x;
+RA   Fujishige K., Kotera J., Omori K.;
+RT   "Striatum- and testis-specific phosphodiesterase PDE10A isolation and
+RT   characterization of a rat PDE10A.";
+RL   Eur. J. Biochem. 266:1118-1127(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 2; 3; 4; 5 AND 6), TISSUE SPECIFICITY,
+RP   CATALYTIC ACTIVITY, AND INDUCTION.
+RC   STRAIN=Wistar;
+RX   PubMed=14752115; DOI=10.1074/jbc.m312500200;
+RA   O'Connor V., Genin A., Davis S., Karishma K.K., Doyere V., De Zeeuw C.I.,
+RA   Sanger G., Hunt S.P., Richter-Levin G., Mallet J., Laroche S.,
+RA   Bliss T.V.P., French P.J.;
+RT   "Differential amplification of intron-containing transcripts reveals long
+RT   term potentiation-associated up-regulation of specific Pde10A
+RT   phosphodiesterase splice variants.";
+RL   J. Biol. Chem. 279:15841-15849(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF 452-794 IN COMPLEXES WITH ZINC;
+RP   MAGNESIUM AND A SYNTHETIC INHIBITOR, AND COFACTOR.
+RX   PubMed=17228859; DOI=10.1021/jm060653b;
+RA   Chappie T.A., Humphrey J.M., Allen M.P., Estep K.G., Fox C.B., Lebel L.A.,
+RA   Liras S., Marr E.S., Menniti F.S., Pandit J., Schmidt C.J., Tu M.,
+RA   Williams R.D., Yang F.V.;
+RT   "Discovery of a series of 6,7-dimethoxy-4-pyrrolidylquinazoline PDE10A
+RT   inhibitors.";
+RL   J. Med. Chem. 50:182-185(2007).
+CC   -!- FUNCTION: Plays a role in signal transduction by regulating the
+CC       intracellular concentration of cyclic nucleotides. Can hydrolyze both
+CC       cAMP and cGMP, but has higher affinity for cAMP and is more efficient
+CC       with cAMP as substrate. {ECO:0000269|PubMed:10583409}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a nucleoside 3',5'-cyclic phosphate + H2O = a nucleoside 5'-
+CC         phosphate + H(+); Xref=Rhea:RHEA:14653, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57867, ChEBI:CHEBI:58464; EC=3.1.4.17;
+CC         Evidence={ECO:0000269|PubMed:10583409, ECO:0000269|PubMed:14752115};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3',5'-cyclic AMP + H2O = AMP + H(+); Xref=Rhea:RHEA:25277,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:58165,
+CC         ChEBI:CHEBI:456215; Evidence={ECO:0000269|PubMed:10583409};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3',5'-cyclic GMP + H2O = GMP + H(+); Xref=Rhea:RHEA:16957,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57746,
+CC         ChEBI:CHEBI:58115; Evidence={ECO:0000269|PubMed:10583409,
+CC         ECO:0000269|PubMed:14752115};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000269|PubMed:17228859};
+CC       Note=Binds 2 divalent metal cations per subunit. Site 1 may
+CC       preferentially bind zinc ions, while site 2 has a preference for
+CC       magnesium and/or manganese ions. {ECO:0000269|PubMed:17228859};
+CC   -!- ACTIVITY REGULATION: Inhibited by dipyridamole and moderately by IBMX,
+CC       zaprinast and rolipram. {ECO:0000269|PubMed:10583409}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.26 uM for cAMP {ECO:0000269|PubMed:10583409};
+CC         KM=9.3 uM for cGMP {ECO:0000269|PubMed:10583409};
+CC   -!- PATHWAY: Purine metabolism; 3',5'-cyclic AMP degradation; AMP from
+CC       3',5'-cyclic AMP: step 1/1. {ECO:0000269|PubMed:10583409,
+CC       ECO:0000269|PubMed:14752115}.
+CC   -!- PATHWAY: Purine metabolism; 3',5'-cyclic GMP degradation; GMP from
+CC       3',5'-cyclic GMP: step 1/1. {ECO:0000269|PubMed:10583409,
+CC       ECO:0000269|PubMed:14752115}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q9Y233}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol {ECO:0000269|PubMed:10583409}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=6;
+CC       Name=1; Synonyms=PDE10A2 {ECO:0000303|PubMed:14752115};
+CC         IsoId=Q9QYJ6-1; Sequence=Displayed;
+CC       Name=2; Synonyms=PDE10A3 {ECO:0000303|PubMed:14752115};
+CC         IsoId=Q9QYJ6-2; Sequence=VSP_035921;
+CC       Name=3; Synonyms=PDE10A11 {ECO:0000303|PubMed:14752115};
+CC         IsoId=Q9QYJ6-3; Sequence=VSP_035922;
+CC       Name=4; Synonyms=PDE10A12 {ECO:0000303|PubMed:14752115};
+CC         IsoId=Q9QYJ6-4; Sequence=VSP_035923;
+CC       Name=5; Synonyms=PDE10A13 {ECO:0000303|PubMed:14752115};
+CC         IsoId=Q9QYJ6-5; Sequence=VSP_035920;
+CC       Name=6; Synonyms=PDE10A14 {ECO:0000303|PubMed:14752115};
+CC         IsoId=Q9QYJ6-6; Sequence=VSP_035919;
+CC   -!- TISSUE SPECIFICITY: Detected in striatum and testis (at protein level).
+CC       Detected in whole brain, hippocampus, olfactory bulb, striatum neurons
+CC       and testis. {ECO:0000269|PubMed:10583409, ECO:0000269|PubMed:14752115}.
+CC   -!- INDUCTION: Up-regulated in brain after seizures. Up-regulated in the
+CC       hippocampus one hour after induction of long-term potentiation.
+CC       {ECO:0000269|PubMed:14752115}.
+CC   -!- DOMAIN: The tandem GAF domains bind cAMP, and regulate enzyme activity.
+CC       The binding of cAMP stimulates enzyme activity.
+CC       {ECO:0000250|UniProtKB:Q9Y233}.
+CC   -!- DOMAIN: Composed of a C-terminal catalytic domain containing two
+CC       divalent metal sites and an N-terminal regulatory domain which contains
+CC       one cyclic nucleotide-binding region. {ECO:0000250|UniProtKB:Q9Y233}.
+CC   -!- SIMILARITY: Belongs to the cyclic nucleotide phosphodiesterase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB027155; BAA88996.1; -; mRNA.
+DR   EMBL; AB027156; BAA88997.1; -; mRNA.
+DR   EMBL; AY462091; AAS21243.1; -; mRNA.
+DR   EMBL; AY462092; AAS21244.1; -; mRNA.
+DR   EMBL; AY462093; AAS21245.1; -; mRNA.
+DR   EMBL; AY462094; AAS21246.1; -; mRNA.
+DR   EMBL; AY462095; AAS21247.1; -; mRNA.
+DR   EMBL; CH474059; EDL83106.1; -; Genomic_DNA.
+DR   RefSeq; NP_071572.1; NM_022236.1. [Q9QYJ6-1]
+DR   PDB; 2O8H; X-ray; 1.80 A; A=452-794.
+DR   PDB; 2OVV; X-ray; 2.00 A; A=452-794.
+DR   PDB; 2OVY; X-ray; 1.80 A; A=452-794.
+DR   PDB; 3HQW; X-ray; 1.70 A; A=452-794.
+DR   PDB; 3HQY; X-ray; 2.00 A; A=452-794.
+DR   PDB; 3HQZ; X-ray; 1.70 A; A=452-794.
+DR   PDB; 3HR1; X-ray; 1.53 A; A=452-794.
+DR   PDB; 3LXG; X-ray; 2.30 A; A=463-770.
+DR   PDB; 3QPN; X-ray; 2.00 A; A=452-794.
+DR   PDB; 3QPO; X-ray; 1.80 A; A=452-794.
+DR   PDB; 3QPP; X-ray; 1.80 A; A=452-794.
+DR   PDB; 6K9U; X-ray; 2.35 A; A=463-770.
+DR   PDBsum; 2O8H; -.
+DR   PDBsum; 2OVV; -.
+DR   PDBsum; 2OVY; -.
+DR   PDBsum; 3HQW; -.
+DR   PDBsum; 3HQY; -.
+DR   PDBsum; 3HQZ; -.
+DR   PDBsum; 3HR1; -.
+DR   PDBsum; 3LXG; -.
+DR   PDBsum; 3QPN; -.
+DR   PDBsum; 3QPO; -.
+DR   PDBsum; 3QPP; -.
+DR   PDBsum; 6K9U; -.
+DR   AlphaFoldDB; Q9QYJ6; -.
+DR   SMR; Q9QYJ6; -.
+DR   BioGRID; 248919; 1.
+DR   STRING; 10116.ENSRNOP00000042134; -.
+DR   BindingDB; Q9QYJ6; -.
+DR   ChEMBL; CHEMBL6140; -.
+DR   DrugCentral; Q9QYJ6; -.
+DR   iPTMnet; Q9QYJ6; -.
+DR   PhosphoSitePlus; Q9QYJ6; -.
+DR   SwissPalm; Q9QYJ6; -.
+DR   PaxDb; 10116-ENSRNOP00000060834; -.
+DR   Ensembl; ENSRNOT00000043474.4; ENSRNOP00000042134.2; ENSRNOG00000011310.9. [Q9QYJ6-1]
+DR   Ensembl; ENSRNOT00000067142.5; ENSRNOP00000060834.4; ENSRNOG00000011310.9. [Q9QYJ6-4]
+DR   Ensembl; ENSRNOT00000111873.1; ENSRNOP00000091632.1; ENSRNOG00000011310.9. [Q9QYJ6-3]
+DR   Ensembl; ENSRNOT00055049538; ENSRNOP00055040758; ENSRNOG00055028570. [Q9QYJ6-1]
+DR   Ensembl; ENSRNOT00060017358; ENSRNOP00060013486; ENSRNOG00060010248. [Q9QYJ6-1]
+DR   Ensembl; ENSRNOT00065051379; ENSRNOP00065042316; ENSRNOG00065029728. [Q9QYJ6-1]
+DR   GeneID; 63885; -.
+DR   KEGG; rno:63885; -.
+DR   AGR; RGD:68434; -.
+DR   CTD; 10846; -.
+DR   RGD; 68434; Pde10a.
+DR   eggNOG; KOG3689; Eukaryota.
+DR   GeneTree; ENSGT00940000156543; -.
+DR   InParanoid; Q9QYJ6; -.
+DR   OMA; HNWAHGW; -.
+DR   OrthoDB; 5479253at2759; -.
+DR   TreeFam; TF316499; -.
+DR   Reactome; R-RNO-418457; cGMP effects.
+DR   Reactome; R-RNO-418555; G alpha (s) signalling events.
+DR   SABIO-RK; Q9QYJ6; -.
+DR   UniPathway; UPA00762; UER00747.
+DR   UniPathway; UPA00763; UER00748.
+DR   EvolutionaryTrace; Q9QYJ6; -.
+DR   PRO; PR:Q9QYJ6; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Proteomes; UP000234681; Chromosome 1.
+DR   Bgee; ENSRNOG00000011310; Expressed in Ammon's horn and 15 other cell types or tissues.
+DR   ExpressionAtlas; Q9QYJ6; baseline and differential.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0099147; C:extrinsic component of postsynaptic density membrane; IDA:SynGO.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0043204; C:perikaryon; IDA:RGD.
+DR   GO; GO:0045202; C:synapse; ISO:RGD.
+DR   GO; GO:0004115; F:3',5'-cyclic-AMP phosphodiesterase activity; IBA:GO_Central.
+DR   GO; GO:0047555; F:3',5'-cyclic-GMP phosphodiesterase activity; IBA:GO_Central.
+DR   GO; GO:0004114; F:3',5'-cyclic-nucleotide phosphodiesterase activity; ISO:RGD.
+DR   GO; GO:0030552; F:cAMP binding; ISO:RGD.
+DR   GO; GO:0030553; F:cGMP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004118; F:cGMP-stimulated cyclic-nucleotide phosphodiesterase activity; ISS:UniProtKB.
+DR   GO; GO:0004112; F:cyclic-nucleotide phosphodiesterase activity; IDA:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006198; P:cAMP catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019933; P:cAMP-mediated signaling; IBA:GO_Central.
+DR   GO; GO:0046069; P:cGMP catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0043951; P:negative regulation of cAMP-mediated signaling; IDA:RGD.
+DR   GO; GO:0010754; P:negative regulation of cGMP-mediated signaling; IDA:RGD.
+DR   GO; GO:0106070; P:regulation of adenylate cyclase-activating G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0010738; P:regulation of protein kinase A signaling; ISO:RGD.
+DR   CDD; cd00077; HDc; 1.
+DR   Gene3D; 3.30.450.40; -; 2.
+DR   Gene3D; 1.10.1300.10; 3'5'-cyclic nucleotide phosphodiesterase, catalytic domain; 1.
+DR   InterPro; IPR003018; GAF.
+DR   InterPro; IPR029016; GAF-like_dom_sf.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR023088; PDEase.
+DR   InterPro; IPR002073; PDEase_catalytic_dom.
+DR   InterPro; IPR036971; PDEase_catalytic_dom_sf.
+DR   InterPro; IPR023174; PDEase_CS.
+DR   PANTHER; PTHR11347:SF111; CAMP AND CAMP-INHIBITED CGMP 3',5'-CYCLIC PHOSPHODIESTERASE 10A; 1.
+DR   PANTHER; PTHR11347; CYCLIC NUCLEOTIDE PHOSPHODIESTERASE; 1.
+DR   Pfam; PF01590; GAF; 2.
+DR   Pfam; PF00233; PDEase_I; 1.
+DR   PRINTS; PR00387; PDIESTERASE1.
+DR   SMART; SM00065; GAF; 2.
+DR   SMART; SM00471; HDc; 1.
+DR   SUPFAM; SSF55781; GAF domain-like; 2.
+DR   SUPFAM; SSF109604; HD-domain/PDEase-like; 1.
+DR   PROSITE; PS00126; PDEASE_I_1; 1.
+DR   PROSITE; PS51845; PDEASE_I_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Allosteric enzyme; Alternative splicing; cAMP; cAMP-binding;
+KW   cGMP; cGMP-binding; Cytoplasm; Hydrolase; Metal-binding;
+KW   Nucleotide-binding; Reference proteome; Repeat.
+FT   CHAIN           1..794
+FT                   /note="cAMP and cAMP-inhibited cGMP 3',5'-cyclic
+FT                   phosphodiesterase 10A"
+FT                   /id="PRO_0000355559"
+FT   DOMAIN          452..769
+FT                   /note="PDEase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01192"
+FT   ACT_SITE        525
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:O76083"
+FT   BINDING         296..297
+FT                   /ligand="3',5'-cyclic AMP"
+FT                   /ligand_id="ChEBI:CHEBI:58165"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y233"
+FT   BINDING         340..341
+FT                   /ligand="3',5'-cyclic AMP"
+FT                   /ligand_id="ChEBI:CHEBI:58165"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y233"
+FT   BINDING         374
+FT                   /ligand="3',5'-cyclic AMP"
+FT                   /ligand_id="ChEBI:CHEBI:58165"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y233"
+FT   BINDING         393
+FT                   /ligand="3',5'-cyclic AMP"
+FT                   /ligand_id="ChEBI:CHEBI:58165"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y233"
+FT   BINDING         525
+FT                   /ligand="3',5'-cyclic AMP"
+FT                   /ligand_id="ChEBI:CHEBI:58165"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y233"
+FT   BINDING         525
+FT                   /ligand="3',5'-cyclic GMP"
+FT                   /ligand_id="ChEBI:CHEBI:57746"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y233"
+FT   BINDING         529
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:17228859"
+FT   BINDING         563
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:17228859"
+FT   BINDING         564
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:17228859"
+FT   BINDING         564
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000269|PubMed:17228859"
+FT   BINDING         674
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000269|PubMed:17228859"
+FT   BINDING         726
+FT                   /ligand="3',5'-cyclic AMP"
+FT                   /ligand_id="ChEBI:CHEBI:58165"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y233"
+FT   BINDING         726
+FT                   /ligand="3',5'-cyclic GMP"
+FT                   /ligand_id="ChEBI:CHEBI:57746"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y233"
+FT   VAR_SEQ         1..141
+FT                   /note="Missing (in isoform 6)"
+FT                   /evidence="ECO:0000303|PubMed:14752115"
+FT                   /id="VSP_035919"
+FT   VAR_SEQ         1..80
+FT                   /note="Missing (in isoform 5)"
+FT                   /evidence="ECO:0000303|PubMed:14752115"
+FT                   /id="VSP_035920"
+FT   VAR_SEQ         1..23
+FT                   /note="MEDGPSNNASCFRRLTECFLSPS -> MSNDSPEGAVGSCNATG (in
+FT                   isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:10583409,
+FT                   ECO:0000303|PubMed:14752115"
+FT                   /id="VSP_035921"
+FT   VAR_SEQ         1..23
+FT                   /note="MEDGPSNNASCFRRLTECFLSPS -> MSKKRKALEGGGGGGEPQLPEEEPT
+FT                   AWFGGSSEEPAGCLPITFKGGSKGPALLALRNRTDSRGQMSNDSPEGAVGSCNATG
+FT                   (in isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:14752115"
+FT                   /id="VSP_035922"
+FT   VAR_SEQ         1..23
+FT                   /note="MEDGPSNNASCFRRLTECFLSPS -> MSKKRKALEGGGGGGEPQLPEEEPT
+FT                   AWFGGSSEEPAGCLPITFKGGSKGPALLALRNRTDSRGQMSNDSPEGAVGSCNATGSTG
+FT                   STGELGKEFHTPPRRKSASDSRLALCMG (in isoform 4)"
+FT                   /evidence="ECO:0000303|PubMed:14752115"
+FT                   /id="VSP_035923"
+FT   HELIX           466..471
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           483..485
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           486..498
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           500..502
+FT                   /evidence="ECO:0007829|PDB:3HQW"
+FT   HELIX           505..517
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   STRAND          523..526
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           527..542
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   TURN            545..547
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           550..562
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   TURN            563..566
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           572..578
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           581..585
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   STRAND          587..589
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           590..603
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   TURN            610..613
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           616..632
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           635..650
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           659..674
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           676..679
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           682..705
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           712..714
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           716..721
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           722..732
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           734..744
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           746..748
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+FT   HELIX           749..766
+FT                   /evidence="ECO:0007829|PDB:3HR1"
+SQ   SEQUENCE   794 AA;  90161 MW;  A36C4678B385846E CRC64;
+     MEDGPSNNAS CFRRLTECFL SPSLTDEKVK AYLSLHPQVL DEFVSESVSA ETVEKWLKRK
+     NNKAEDEPSP KEVSRYQDTN MQGVVYELNS YIEQRLDTGG DNHLLLYELS SIIRIATKAD
+     GFALYFLGEC NNSLCVFTPP GMKEGQPRLI PAGPITQGTT ISAYVAKSRK TLLVEDILGD
+     ERFPRGTGLE SGTRIQSVLC LPIVTAIGDL IGILELYRHW GKEAFCLSHQ EVATANLAWA
+     SVAIHQVQVC RGLAKQTELN DFLLDVSKTY FDNIVAIDSL LEHIMIYAKN LVNADRCALF
+     QVDHKNKELY SDLFDIGEEK EGKPVFKKTK EIRFSIEKGI AGQVARTGEV LNIPDAYADP
+     RFNREVDLYT GYTTRNILCM PIVSRGSVIG VVQMVNKISG SAFSKTDENN FKMFAVFCAL
+     ALHCANMYHR IRHSECIYRV TMEKLSYHSI CTSEEWQGLM HFNLPARICR DIELFHFDIG
+     PFENMWPGIF VYMIHRSCGT SCFELEKLCR FIMSVKKNYR RVPYHNWKHA VTVAHCMYAI
+     LQNNNGLFTD LERKGLLIAC LCHDLDHRGF SNSYLQKFDH PLAALYSTST MEQHHFSQTV
+     SILQLEGHNI FSTLSSSEYE QVLEIIRKAI IATDLALYFG NRKQLEEMYQ TGSLNLHNQS
+     HRDRVIGLMM TACDLCSVTK LWPVTKLTAN DIYAEFWAEG DEMKKLGIQP IPMMDRDKRD
+     EVPQGQLGFY NAVAIPCYTT LTQILPPTEP LLKACRDNLN QWEKVIRGEE TAMWISGPAT
+     SKSTSEKPTR KVDD
+//

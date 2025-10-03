@@ -1,0 +1,133 @@
+ID   EST5A_RAT               Reviewed;         575 AA.
+AC   Q5GRG2;
+DT   23-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   24-JUL-2024, entry version 92.
+DE   RecName: Full=Carboxylesterase 5A;
+DE            EC=3.1.1.1;
+DE   AltName: Full=Carboxylesterase-like urinary excreted protein homolog;
+DE            Short=Cauxin;
+DE   AltName: Full=Epididymis-specific gene 615 protein;
+DE   Flags: Precursor;
+GN   Name=Ces5a; Synonyms=Ces7;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Epididymis;
+RA   Hu Z.-H., Zhang Y.-L.;
+RT   "Identification of rat epididymis-specific gene 615.";
+RL   Submitted (JAN-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=19727521; DOI=10.1093/abbs/gmp061;
+RA   Zhang L., Liu Q., Zhou Y., Zhang Y.;
+RT   "Baculo-expression and enzymatic characterization of CES7 esterase.";
+RL   Acta Biochim. Biophys. Sin. 41:731-736(2009).
+CC   -!- FUNCTION: Involved in the detoxification of xenobiotics and in the
+CC       activation of ester and amide prodrugs. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a carboxylic ester + H2O = a carboxylate + an alcohol + H(+);
+CC         Xref=Rhea:RHEA:21164, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29067, ChEBI:CHEBI:30879, ChEBI:CHEBI:33308; EC=3.1.1.1;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10039};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=670 uM for p-NPA {ECO:0000269|PubMed:19727521};
+CC         Vmax=200 umol/min/mg enzyme with p-NPA as substrate
+CC         {ECO:0000269|PubMed:19727521};
+CC       pH dependence:
+CC         Optimum pH is 7.2. {ECO:0000269|PubMed:19727521};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the type-B carboxylesterase/lipase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF479659; AAQ05814.1; -; mRNA.
+DR   RefSeq; NP_001012056.1; NM_001012056.1.
+DR   AlphaFoldDB; Q5GRG2; -.
+DR   SMR; Q5GRG2; -.
+DR   STRING; 10116.ENSRNOP00000045129; -.
+DR   ESTHER; ratno-cauxin; Carb_B_Chordata.
+DR   GlyCosmos; Q5GRG2; 4 sites, No reported glycans.
+DR   GlyGen; Q5GRG2; 4 sites.
+DR   PhosphoSitePlus; Q5GRG2; -.
+DR   PaxDb; 10116-ENSRNOP00000045129; -.
+DR   GeneID; 307660; -.
+DR   KEGG; rno:307660; -.
+DR   UCSC; RGD:1549717; rat.
+DR   AGR; RGD:1549717; -.
+DR   CTD; 221223; -.
+DR   RGD; 1549717; Ces5a.
+DR   eggNOG; KOG1516; Eukaryota.
+DR   InParanoid; Q5GRG2; -.
+DR   OrthoDB; 4386at2759; -.
+DR   PhylomeDB; Q5GRG2; -.
+DR   PRO; PR:Q5GRG2; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0106435; F:carboxylesterase activity; IEA:UniProtKB-EC.
+DR   CDD; cd00312; Esterase_lipase; 1.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR002018; CarbesteraseB.
+DR   InterPro; IPR019826; Carboxylesterase_B_AS.
+DR   InterPro; IPR019819; Carboxylesterase_B_CS.
+DR   InterPro; IPR050309; Type-B_Carboxylest/Lipase.
+DR   PANTHER; PTHR11559; CARBOXYLESTERASE; 1.
+DR   PANTHER; PTHR11559:SF43; CARBOXYLESTERASE 5A; 1.
+DR   Pfam; PF00135; COesterase; 1.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+DR   PROSITE; PS00122; CARBOXYLESTERASE_B_1; 1.
+DR   PROSITE; PS00941; CARBOXYLESTERASE_B_2; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Glycoprotein; Hydrolase; Reference proteome; Secreted;
+KW   Serine esterase; Signal.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           29..575
+FT                   /note="Carboxylesterase 5A"
+FT                   /id="PRO_0000308593"
+FT   ACT_SITE        226
+FT                   /note="Acyl-ester intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10039"
+FT   ACT_SITE        345
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        454
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        281
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        363
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        515
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        524
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        94..121
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        280..291
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   575 AA;  64417 MW;  61E4404845225D47 CRC64;
+     MSGDWVHTGQ ALIWVLWIFA AIIRGSVTEE PHRYTRLGWV QGKQATVLGR LEPVNVFLGI
+     PFAAPPLGPL RFSNPQPPIP WHDLREATTY PNVCFQNLEW LFIYQNLLKV HYPKLGVSED
+     CLYLNIYAPA YANDGSRLPV MMWIPGGGFE TGSASIFDGS ALAAYEDVLI VTIQYRLGIF
+     GFFNTQNQHA PGNWAFQDQL AALQWVRENI NYFGGNPDSV TIFGGSAGAI SISSLILSPL
+     SAGLFHRAIM QSGVAIIPSL KNFDDELKHG LQVVADVCKC NVSDSKVLLK CLREKSSLEL
+     LSLGQKTKAF TRVVDGSFFP EEPMELLSQK TFKTVPSIIG VNNQECGYIL PMREAPEILF
+     GSNESTALTL IHVLLHIPPQ YMHIVAKDYF HGKHSLTDIR DTLLDLFGDV FFVVPGLVTA
+     RNHRDADGPV YFYEFQHRPN CFQNTRPAFV KADHTDEIRF VFGGPFLEGD VVMFEEATED
+     EKLLSRKMMS YWANFARSGD PNGDDLPLWP AYDQNESYLK LDVNISTGWR LKDRRVEFWT
+     DTLPLIMSAS KALLSPTFPL ILFSLLPPSL LSIAS
+//

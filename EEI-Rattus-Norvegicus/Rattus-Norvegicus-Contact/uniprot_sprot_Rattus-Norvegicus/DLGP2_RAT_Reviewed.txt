@@ -1,0 +1,209 @@
+ID   DLGP2_RAT               Reviewed;        1059 AA.
+AC   P97837;
+DT   26-SEP-2001, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2005, sequence version 3.
+DT   08-NOV-2023, entry version 141.
+DE   RecName: Full=Disks large-associated protein 2 {ECO:0000250|UniProtKB:Q9P1A6};
+DE            Short=DAP-2;
+DE   AltName: Full=PSD-95/SAP90-binding protein 2;
+DE   AltName: Full=SAP90/PSD-95-associated protein 2;
+DE            Short=SAPAP2;
+GN   Name=Dlgap2 {ECO:0000312|RGD:620224}; Synonyms=Dap2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, SUBCELLULAR LOCATION, AND
+RP   INTERACTION WITH DLG4.
+RC   TISSUE=Brain;
+RX   PubMed=9115257; DOI=10.1074/jbc.272.18.11943;
+RA   Takeuchi M., Hata Y., Hirao K., Toyoda A., Irie M., Takai Y.;
+RT   "SAPAPs. A family of PSD-95/SAP90-associated proteins localized at
+RT   postsynaptic density.";
+RL   J. Biol. Chem. 272:11943-11951(1997).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 234-241 AND 710-715, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RA   Lubec G., Kang S.U., Lubec S.;
+RL   Submitted (SEP-2007) to UniProtKB.
+RN   [3]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=15207911; DOI=10.1016/j.molbrainres.2004.03.014;
+RA   Kindler S., Rehbein M., Classen B., Richter D., Boeckers T.M.;
+RT   "Distinct spatiotemporal expression of SAPAP transcripts in the developing
+RT   rat brain: a novel dendritically localized mRNA.";
+RL   Brain Res. Mol. Brain Res. 126:14-21(2004).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-302; SER-308; SER-390;
+RP   SER-670; SER-673; THR-743; SER-745 AND SER-983, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: May play a role in the molecular organization of synapses and
+CC       neuronal cell signaling. Could be an adapter protein linking ion
+CC       channel to the subsynaptic cytoskeleton. May induce enrichment of PSD-
+CC       95/SAP90 at the plasma membrane.
+CC   -!- SUBUNIT: Interacts with DLG4/PSD-95. {ECO:0000269|PubMed:9115257}.
+CC   -!- INTERACTION:
+CC       P97837; P31016: Dlg4; NbExp=2; IntAct=EBI-81025, EBI-375655;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:9115257};
+CC       Peripheral membrane protein {ECO:0000269|PubMed:9115257}. Postsynaptic
+CC       density {ECO:0000269|PubMed:9115257}. Synapse
+CC       {ECO:0000269|PubMed:9115257}. Note=Postsynaptic density of neuronal
+CC       cells.
+CC   -!- TISSUE SPECIFICITY: Expressed in various brain areas.
+CC       {ECO:0000269|PubMed:15207911, ECO:0000269|PubMed:9115257}.
+CC   -!- SIMILARITY: Belongs to the SAPAP family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAB48588.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U67138; AAB48588.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_446353.2; NM_053901.1.
+DR   AlphaFoldDB; P97837; -.
+DR   SMR; P97837; -.
+DR   BioGRID; 250564; 6.
+DR   IntAct; P97837; 8.
+DR   MINT; P97837; -.
+DR   STRING; 10116.ENSRNOP00000054654; -.
+DR   iPTMnet; P97837; -.
+DR   PhosphoSitePlus; P97837; -.
+DR   SwissPalm; P97837; -.
+DR   PaxDb; 10116-ENSRNOP00000054654; -.
+DR   ABCD; P97837; 10 sequenced antibodies.
+DR   GeneID; 116681; -.
+DR   KEGG; rno:116681; -.
+DR   UCSC; RGD:620224; rat.
+DR   AGR; RGD:620224; -.
+DR   CTD; 9228; -.
+DR   RGD; 620224; Dlgap2.
+DR   eggNOG; KOG3971; Eukaryota.
+DR   InParanoid; P97837; -.
+DR   OrthoDB; 4153339at2759; -.
+DR   PhylomeDB; P97837; -.
+DR   Reactome; R-RNO-6794361; Neurexins and neuroligins.
+DR   PRO; PR:P97837; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0043197; C:dendritic spine; IDA:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0005883; C:neurofilament; NAS:UniProtKB.
+DR   GO; GO:0099092; C:postsynaptic density, intracellular component; ISO:RGD.
+DR   GO; GO:0045211; C:postsynaptic membrane; NAS:RGD.
+DR   GO; GO:0099572; C:postsynaptic specialization; IBA:GO_Central.
+DR   GO; GO:0004385; F:guanylate kinase activity; NAS:RGD.
+DR   GO; GO:0060090; F:molecular adaptor activity; IBA:GO_Central.
+DR   GO; GO:0019904; F:protein domain specific binding; IDA:RGD.
+DR   GO; GO:0050804; P:modulation of chemical synaptic transmission; ISO:RGD.
+DR   GO; GO:0007270; P:neuron-neuron synaptic transmission; NAS:UniProtKB.
+DR   InterPro; IPR005026; SAPAP.
+DR   PANTHER; PTHR12353:SF3; DISKS LARGE-ASSOCIATED PROTEIN 2; 1.
+DR   PANTHER; PTHR12353; DISKS LARGE-ASSOCIATED PROTEIN DAP SAP90/PSD-95-ASSOCIATED PROTEIN; 1.
+DR   Pfam; PF03359; GKAP; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Direct protein sequencing; Membrane; Phosphoprotein;
+KW   Reference proteome; Synapse.
+FT   CHAIN           1..1059
+FT                   /note="Disks large-associated protein 2"
+FT                   /id="PRO_0000174293"
+FT   REGION          31..56
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          244..311
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          446..466
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          632..669
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          723..756
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          985..1024
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        244..260
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        294..311
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        741..756
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1003..1024
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         302
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         308
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         390
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         456
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BJ42"
+FT   MOD_RES         667
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BJ42"
+FT   MOD_RES         670
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         673
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         720
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BJ42"
+FT   MOD_RES         743
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         745
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         776
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BJ42"
+FT   MOD_RES         811
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BJ42"
+FT   MOD_RES         983
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1012
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BJ42"
+SQ   SEQUENCE   1059 AA;  118978 MW;  8AB2A3667AD79434 CRC64;
+     MGTAQVLPGI LQKHCCILPD RNTESQCTLC GEPEEEEGGD LAQPGLSFPG PAEEDIDQQY
+     SWSPTQHFSE ERYSPAPRNM KGLTGSRNQP QLCVGHTCGL SPTDECEHPH DHVRHGPDVR
+     QPYLLSPAES CPMDHHRCSP RSSVHSECMM MPVMLGDHVS SSTFPRMHYS SHYDTRDDCA
+     TSHASTKVNR IPANLLDQFE KQLPLHRDGF HTLQYHRASA ATEQRNESPG RIRHLVHSVQ
+     KLFTKSHSLE GSSKSNINGT KSEGRMDDHH QSHLSKHSKR SKSKERKPES KHKSGMSSWW
+     SSDDNLDSDS TYRTPSVAHR HHMDHIPHCY PEALQSPFGD LSLKTSKSNS DVKCSACEGL
+     ALTPDTRYMK RSSWSTLTVS QAKEAYRKSS LNLDKPLVHP EIKPSLQPCH YLQVPQDDWG
+     AYPTGGKEEE IPCRRMRSGS YIKAMGDEES GESDSSPKTS PTVALRPEPL LKSIIQRPLG
+     DHQTQSYLQA ATEVPVGHSL DPSVNYNSPK FRSRNQSYMR AVSTLSQASC VSQMSEAEVN
+     GQFESVCESV FSEVESQAMD ALDLPGCFRT RSHSYLRAIQ AGYSQDDECI PVMTPSNMTS
+     TIRSTAAVSY TNYKKTPPPV PPRTTSKPLI SVTAQSSTES TQDAYQDSRA QRMSPWPQDS
+     RGGLYNSMDS LDSNKAMNLA LESAAAQRHA ADTQSSSTRS IDKAVLVSKA EELLKSRCSS
+     IGVQDSEFPD HQPYPRSDVE TATDSDTESR GLREYHSVGV QVEDEKRHGR FKRSNSVTAA
+     VQADLELEGF PGHVSMEDKG LQFGSSFQRH SEPSTPTQYG ALRTVRTQGL FSYREDYRTQ
+     VDTSTLPPPD PWLEPSLDTV ETGRMSPCRR DGSWFLKLLH TETKKMEGWC KEMEREAEEN
+     DLSEEILGKI RSAVGSAQLL MSQKFQQFYW LCQQNMDPSA MPRPTSQDLA GYWDMLQLSV
+     EDVSMKFDEL HQLKLNDWKI MESPERKEER KIPPPIPKKP PKGKFPITRE KSLDLPDRQR
+     QEARRRLMAA KRAASFRQNS ATERADSIEI YIPEAQTRL
+//

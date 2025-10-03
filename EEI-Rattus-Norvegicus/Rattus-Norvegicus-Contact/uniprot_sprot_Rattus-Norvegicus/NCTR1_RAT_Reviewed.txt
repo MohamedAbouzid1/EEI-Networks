@@ -1,0 +1,134 @@
+ID   NCTR1_RAT               Reviewed;         325 AA.
+AC   Q9Z0H5;
+DT   24-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   02-OCT-2024, entry version 141.
+DE   RecName: Full=Natural cytotoxicity triggering receptor 1;
+DE   AltName: Full=Activating receptor 1;
+DE            Short=rAR-1;
+DE   AltName: Full=Lymphocyte antigen 94 homolog;
+DE   AltName: Full=NK receptor KILR-1;
+DE   AltName: Full=NKACTR;
+DE   AltName: Full=Natural killer cell p46-related protein;
+DE            Short=NK-p46;
+DE            Short=NKp46;
+DE   AltName: CD_antigen=CD335;
+DE   Flags: Precursor;
+GN   Name=Ncr1; Synonyms=Ar1, Kilr1, Ly94;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   TISSUE=Lymphoid tissue;
+RX   PubMed=10424451; DOI=10.1016/s0165-2478(99)00052-8;
+RA   Falco M., Cantoni C., Bottino C., Moretta A., Biassoni R.;
+RT   "Identification of the rat homologue of the human NKp46 triggering
+RT   receptor.";
+RL   Immunol. Lett. 68:411-414(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=PVG;
+RA   Berg S.F., Dissen E., Westgaard I.H., Fossum S.;
+RT   "Molecular characterization of KILR-1, a novel immunoglobulin-like gene in
+RT   the rat, expressed by NK cells.";
+RL   Submitted (OCT-1998) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Cytotoxicity-activating receptor that may contribute to the
+CC       increased efficiency of activated natural killer (NK) cells to mediate
+CC       tumor cell lysis. {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with CD3Z and FCER1G. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass type I
+CC       membrane protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Weakly expressed in spleen, heart and lung.
+CC       {ECO:0000269|PubMed:10424451}.
+CC   -!- SIMILARITY: Belongs to the natural cytotoxicity receptor (NCR) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ012741; CAA10161.1; -; mRNA.
+DR   EMBL; AF082533; AAC69890.1; -; mRNA.
+DR   RefSeq; NP_476547.1; NM_057199.1.
+DR   AlphaFoldDB; Q9Z0H5; -.
+DR   SMR; Q9Z0H5; -.
+DR   STRING; 10116.ENSRNOP00000025080; -.
+DR   GlyCosmos; Q9Z0H5; 2 sites, No reported glycans.
+DR   GlyGen; Q9Z0H5; 2 sites.
+DR   PhosphoSitePlus; Q9Z0H5; -.
+DR   PaxDb; 10116-ENSRNOP00000025080; -.
+DR   GeneID; 117547; -.
+DR   KEGG; rno:117547; -.
+DR   UCSC; RGD:621288; rat.
+DR   AGR; RGD:621288; -.
+DR   CTD; 9437; -.
+DR   RGD; 621288; Ncr1.
+DR   VEuPathDB; HostDB:ENSRNOG00000027855; -.
+DR   eggNOG; ENOG502RWVC; Eukaryota.
+DR   HOGENOM; CLU_021100_1_1_1; -.
+DR   InParanoid; Q9Z0H5; -.
+DR   OrthoDB; 5263025at2759; -.
+DR   PhylomeDB; Q9Z0H5; -.
+DR   TreeFam; TF336644; -.
+DR   PRO; PR:Q9Z0H5; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000018458; Expressed in spleen and 6 other cell types or tissues.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0051607; P:defense response to virus; ISO:RGD.
+DR   GO; GO:0009597; P:detection of virus; ISO:RGD.
+DR   GO; GO:0002764; P:immune response-regulating signaling pathway; IBA:GO_Central.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 2.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR050412; Ig-like_Receptors_ImmuneReg.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR013151; Immunoglobulin_dom.
+DR   PANTHER; PTHR11738; MHC CLASS I NK CELL RECEPTOR; 1.
+DR   PANTHER; PTHR11738:SF14; NATURAL CYTOTOXICITY TRIGGERING RECEPTOR 1; 1.
+DR   Pfam; PF00047; ig; 1.
+DR   Pfam; PF13895; Ig_2; 1.
+DR   SMART; SM00409; IG; 2.
+DR   SUPFAM; SSF48726; Immunoglobulin; 2.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Disulfide bond; Glycoprotein; Immunoglobulin domain;
+KW   Membrane; Receptor; Reference proteome; Repeat; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..16
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           17..325
+FT                   /note="Natural cytotoxicity triggering receptor 1"
+FT                   /id="PRO_0000015030"
+FT   TOPO_DOM        17..258
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        259..279
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        280..325
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          42..100
+FT                   /note="Ig-like 1"
+FT   DOMAIN          137..192
+FT                   /note="Ig-like 2"
+FT   CARBOHYD        139
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        216
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        49..98
+FT                   /evidence="ECO:0000250|UniProtKB:O76036"
+FT   DISULFID        144..190
+FT                   /evidence="ECO:0000250|UniProtKB:O76036"
+SQ   SEQUENCE   325 AA;  37178 MW;  502C10AA02F65FA4 CRC64;
+     MLPTLTALLC LGLCLSQRIN TEKQTLPKPI IWAKPSIMVT KGNSVNIWCQ GAQSASEYQL
+     YFEGSFFALE RPKSSRSMNK VKFFISQMTS HTAGIYTCFY QSGELWSESS NPLKLVVTGL
+     YDTPTLWVHP GPEVTLGENV TFSCHLKTAT SKFFLLKERE SNHIQHKYGN IQAEFPMGPV
+     TRAHRGTYRC FGSYNDYAWS FPSEPVTLLI TGEVENTSLA PTDPVSSLDY WEFDLSTKES
+     GLQKDSAFWD HTAQNLIRIG LACIIVMALV WLLAEDWLSR RKDHEKLNRL TSWECRGRRR
+     MHRYHEEEQR DAISMRELKA TPGDM
+//

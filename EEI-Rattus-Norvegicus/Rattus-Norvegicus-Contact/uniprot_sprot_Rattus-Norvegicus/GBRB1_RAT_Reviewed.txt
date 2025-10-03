@@ -1,0 +1,319 @@
+ID   GBRB1_RAT               Reviewed;         474 AA.
+AC   P15431;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1990, sequence version 1.
+DT   02-OCT-2024, entry version 193.
+DE   RecName: Full=Gamma-aminobutyric acid receptor subunit beta-1;
+DE   AltName: Full=GABA(A) receptor subunit beta-1 {ECO:0000303|PubMed:30044221};
+DE            Short=GABAAR subunit beta-1 {ECO:0000250|UniProtKB:P14867};
+DE   Flags: Precursor;
+GN   Name=Gabrb1 {ECO:0000312|RGD:2649}; Synonyms=Gabrb-1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=2548852; DOI=10.1002/j.1460-2075.1989.tb03557.x;
+RA   Ymer S., Schofield P.R., Draguhn A., Werner P., Koehler M., Seeburg P.H.;
+RT   "GABAA receptor beta subunit heterogeneity: functional expression of cloned
+RT   cDNAs.";
+RL   EMBO J. 8:1665-1670(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND TRANSPORTER ACTIVITY.
+RX   PubMed=1977069; DOI=10.1016/0169-328x(90)90017-8;
+RA   Malherbe P., Draguhn A., Multhaup G., Beyreuther K., Mohler H.;
+RT   "GABAA-receptor expressed from rat brain alpha- and beta-subunit cDNAs
+RT   displays potentiation by benzodiazepine receptor ligands.";
+RL   Brain Res. Mol. Brain Res. 8:199-208(1990).
+RN   [3] {ECO:0007744|PDB:6DW0, ECO:0007744|PDB:6DW1}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (3.10 ANGSTROMS) OF 1-333 AND 440-474 IN
+RP   COMPLEX WITH GABA, FUNCTION, SUBUNIT, INTERACTION WITH GABRA1 AND GABRG2,
+RP   DISULFIDE BOND, AND GLYCOSYLATION AT ASN-105 AND ASN-174.
+RX   PubMed=30044221; DOI=10.7554/elife.39383;
+RA   Phulera S., Zhu H., Yu J., Claxton D.P., Yoder N., Yoshioka C., Gouaux E.;
+RT   "Cryo-EM structure of the benzodiazepine-sensitive alpha1beta1gamma2S tri-
+RT   heteromeric GABAA receptor in complex with GABA.";
+RL   Elife 7:0-0(2018).
+CC   -!- FUNCTION: Beta subunit of the heteropentameric ligand-gated chloride
+CC       channel gated by gamma-aminobutyric acid (GABA), a major inhibitory
+CC       neurotransmitter in the brain (PubMed:1977069). GABA-gated chloride
+CC       channels, also named GABA(A) receptors (GABAAR), consist of five
+CC       subunits arranged around a central pore and contain GABA active binding
+CC       site(s) located at the alpha and beta subunit interface(s)
+CC       (PubMed:30044221). When activated by GABA, GABAARs selectively allow
+CC       the flow of chloride anions across the cell membrane down their
+CC       electrochemical gradient (PubMed:1977069). Chloride influx into the
+CC       postsynaptic neuron following GABAAR opening decreases the neuron
+CC       ability to generate a new action potential, thereby reducing nerve
+CC       transmission (PubMed:1977069). Beta-containing GABAARs can
+CC       simultaneously bind GABA and histamine where histamine binds at the
+CC       interface of two neighboring beta subunits, which may be involved in
+CC       the regulation of sleep and wakefulness (By similarity).
+CC       {ECO:0000250|UniProtKB:P28472, ECO:0000269|PubMed:1977069,
+CC       ECO:0000269|PubMed:30044221}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(in) = chloride(out); Xref=Rhea:RHEA:29823,
+CC         ChEBI:CHEBI:17996; Evidence={ECO:0000269|PubMed:1977069};
+CC   -!- ACTIVITY REGULATION: Potentiated by histamine.
+CC       {ECO:0000250|UniProtKB:P63138}.
+CC   -!- SUBUNIT: Heteropentamer, formed by a combination of alpha (GABRA1-6),
+CC       beta (GABRB1-3), gamma (GABRG1-3), delta (GABRD), epsilon (GABRE), rho
+CC       (GABRR1-3), pi (GABRP) and theta (GABRQ) chains, each subunit
+CC       exhibiting distinct physiological and pharmacological properties
+CC       (PubMed:30044221). Binds UBQLN1 (By similarity).
+CC       {ECO:0000250|UniProtKB:P50571, ECO:0000269|PubMed:30044221}.
+CC   -!- SUBCELLULAR LOCATION: Postsynaptic cell membrane
+CC       {ECO:0000250|UniProtKB:P08220}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:P08220}. Cell membrane
+CC       {ECO:0000250|UniProtKB:P08220}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:P08220}.
+CC   -!- DOMAIN: GABAARs subunits share a common topological structure: a
+CC       peptide sequence made up of a long extracellular N-terminal, four
+CC       transmembrane domains, intracellular or cytoplasmic domain located
+CC       between the third and the fourth transmembrane domains.
+CC       {ECO:0000269|PubMed:30044221}.
+CC   -!- SIMILARITY: Belongs to the ligand-gated ion channel (TC 1.A.9) family.
+CC       Gamma-aminobutyric acid receptor (TC 1.A.9.5) subfamily. GABRB1 sub-
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X15466; CAA33493.1; -; mRNA.
+DR   PIR; S04464; B60039.
+DR   RefSeq; NP_037088.1; NM_012956.1.
+DR   PDB; 6DW0; EM; 3.80 A; B/E=1-333, B/E=440-474.
+DR   PDB; 6DW1; EM; 3.10 A; B/E=1-333, B/E=440-474.
+DR   PDBsum; 6DW0; -.
+DR   PDBsum; 6DW1; -.
+DR   AlphaFoldDB; P15431; -.
+DR   EMDB; EMD-8922; -.
+DR   EMDB; EMD-8923; -.
+DR   SMR; P15431; -.
+DR   CORUM; P15431; -.
+DR   IntAct; P15431; 2.
+DR   STRING; 10116.ENSRNOP00000003170; -.
+DR   ChEMBL; CHEMBL1907607; -.
+DR   DrugCentral; P15431; -.
+DR   TCDB; 1.A.9.5.1; the neurotransmitter receptor, cys loop, ligand-gated ion channel (lic) family.
+DR   GlyCosmos; P15431; 3 sites, No reported glycans.
+DR   GlyGen; P15431; 3 sites.
+DR   iPTMnet; P15431; -.
+DR   PhosphoSitePlus; P15431; -.
+DR   PaxDb; 10116-ENSRNOP00000003170; -.
+DR   ABCD; P15431; 1 sequenced antibody.
+DR   Ensembl; ENSRNOT00000003170.4; ENSRNOP00000003170.5; ENSRNOG00000002327.4.
+DR   Ensembl; ENSRNOT00055008351; ENSRNOP00055006320; ENSRNOG00055005200.
+DR   Ensembl; ENSRNOT00060038152; ENSRNOP00060031445; ENSRNOG00060022022.
+DR   Ensembl; ENSRNOT00065033579; ENSRNOP00065026870; ENSRNOG00065019927.
+DR   GeneID; 25450; -.
+DR   KEGG; rno:25450; -.
+DR   UCSC; RGD:2649; rat.
+DR   AGR; RGD:2649; -.
+DR   CTD; 2560; -.
+DR   RGD; 2649; Gabrb1.
+DR   eggNOG; KOG3643; Eukaryota.
+DR   GeneTree; ENSGT00940000154245; -.
+DR   HOGENOM; CLU_010920_0_2_1; -.
+DR   InParanoid; P15431; -.
+DR   OMA; YWQGGSN; -.
+DR   OrthoDB; 4265336at2759; -.
+DR   PhylomeDB; P15431; -.
+DR   TreeFam; TF315453; -.
+DR   Reactome; R-RNO-977443; GABA receptor activation.
+DR   PRO; PR:P15431; -.
+DR   Proteomes; UP000002494; Chromosome 14.
+DR   Bgee; ENSRNOG00000002327; Expressed in Ammon's horn and 2 other cell types or tissues.
+DR   GO; GO:0034707; C:chloride channel complex; IEA:UniProtKB-KW.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:1902711; C:GABA-A receptor complex; IMP:UniProtKB.
+DR   GO; GO:0098982; C:GABA-ergic synapse; IDA:SynGO.
+DR   GO; GO:0043005; C:neuron projection; IBA:GO_Central.
+DR   GO; GO:0005635; C:nuclear envelope; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IMP:UniProtKB.
+DR   GO; GO:0099634; C:postsynaptic specialization membrane; IDA:SynGO.
+DR   GO; GO:0048787; C:presynaptic active zone membrane; IDA:SynGO.
+DR   GO; GO:0043235; C:receptor complex; IDA:RGD.
+DR   GO; GO:0098685; C:Schaffer collateral - CA1 synapse; ISO:RGD.
+DR   GO; GO:0045202; C:synapse; IBA:GO_Central.
+DR   GO; GO:1902495; C:transmembrane transporter complex; IBA:GO_Central.
+DR   GO; GO:0150047; F:G protein-coupled neurotransmitter receptor activity involved in regulation of presynaptic membrane potential; ISO:RGD.
+DR   GO; GO:0050811; F:GABA receptor binding; IPI:RGD.
+DR   GO; GO:0004890; F:GABA-A receptor activity; IDA:RGD.
+DR   GO; GO:0022851; F:GABA-gated chloride ion channel activity; ISS:UniProtKB.
+DR   GO; GO:0015276; F:ligand-gated monoatomic ion channel activity; IMP:UniProtKB.
+DR   GO; GO:0099507; F:ligand-gated monoatomic ion channel activity involved in regulation of presynaptic membrane potential; ISO:RGD.
+DR   GO; GO:0005253; F:monoatomic anion channel activity; IDA:RGD.
+DR   GO; GO:0030594; F:neurotransmitter receptor activity; IBA:GO_Central.
+DR   GO; GO:1904315; F:transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential; IDA:SynGO.
+DR   GO; GO:0071420; P:cellular response to histamine; IDA:UniProtKB.
+DR   GO; GO:0021954; P:central nervous system neuron development; IEP:RGD.
+DR   GO; GO:1902476; P:chloride transmembrane transport; ISO:RGD.
+DR   GO; GO:0006821; P:chloride transport; TAS:RGD.
+DR   GO; GO:0007214; P:gamma-aminobutyric acid signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0006811; P:monoatomic ion transport; IMP:UniProtKB.
+DR   GO; GO:0042698; P:ovulation cycle; IEP:RGD.
+DR   GO; GO:0032570; P:response to progesterone; IEP:RGD.
+DR   GO; GO:0009636; P:response to toxic substance; IDA:RGD.
+DR   CDD; cd18999; LGIC_ECD_GABAAR_B; 1.
+DR   CDD; cd19053; LGIC_TM_GABAAR_beta; 1.
+DR   Gene3D; 2.70.170.10; Neurotransmitter-gated ion-channel ligand-binding domain; 1.
+DR   Gene3D; 1.20.58.390; Neurotransmitter-gated ion-channel transmembrane domain; 1.
+DR   InterPro; IPR006028; GABAA/Glycine_rcpt.
+DR   InterPro; IPR002289; GABAAb_rcpt.
+DR   InterPro; IPR006202; Neur_chan_lig-bd.
+DR   InterPro; IPR036734; Neur_chan_lig-bd_sf.
+DR   InterPro; IPR006201; Neur_channel.
+DR   InterPro; IPR036719; Neuro-gated_channel_TM_sf.
+DR   InterPro; IPR038050; Neuro_actylchol_rec.
+DR   InterPro; IPR006029; Neurotrans-gated_channel_TM.
+DR   InterPro; IPR018000; Neurotransmitter_ion_chnl_CS.
+DR   NCBIfam; TIGR00860; LIC; 1.
+DR   PANTHER; PTHR18945:SF429; GAMMA-AMINOBUTYRIC ACID RECEPTOR SUBUNIT BETA-1; 1.
+DR   PANTHER; PTHR18945; NEUROTRANSMITTER GATED ION CHANNEL; 1.
+DR   Pfam; PF02931; Neur_chan_LBD; 1.
+DR   Pfam; PF02932; Neur_chan_memb; 1.
+DR   PRINTS; PR01160; GABAARBETA.
+DR   PRINTS; PR00253; GABAARECEPTR.
+DR   PRINTS; PR00252; NRIONCHANNEL.
+DR   SUPFAM; SSF90112; Neurotransmitter-gated ion-channel transmembrane pore; 1.
+DR   SUPFAM; SSF63712; Nicotinic receptor ligand binding domain-like; 1.
+DR   PROSITE; PS00236; NEUROTR_ION_CHANNEL; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Chloride; Chloride channel; Disulfide bond;
+KW   Glycoprotein; Ion channel; Ion transport; Ligand-gated ion channel;
+KW   Membrane; Postsynaptic cell membrane; Receptor; Reference proteome; Signal;
+KW   Synapse; Transmembrane; Transmembrane helix; Transport.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..474
+FT                   /note="Gamma-aminobutyric acid receptor subunit beta-1"
+FT                   /id="PRO_0000000458"
+FT   TOPO_DOM        26..245
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        246..267
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        271..293
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        305..327
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000305"
+FT   TOPO_DOM        328..451
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        452..473
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         122
+FT                   /ligand="histamine"
+FT                   /ligand_id="ChEBI:CHEBI:58432"
+FT                   /ligand_note="ligand shared between two neighboring beta
+FT                   subunits"
+FT                   /note="in chain B"
+FT                   /evidence="ECO:0000250|UniProtKB:P28472"
+FT   BINDING         181..182
+FT                   /ligand="histamine"
+FT                   /ligand_id="ChEBI:CHEBI:58432"
+FT                   /ligand_note="ligand shared between two neighboring beta
+FT                   subunits"
+FT                   /note="in chain B"
+FT                   /evidence="ECO:0000250|UniProtKB:P28472"
+FT   BINDING         182
+FT                   /ligand="4-aminobutanoate"
+FT                   /ligand_id="ChEBI:CHEBI:59888"
+FT                   /ligand_note="ligand shared with the neighboring alpha
+FT                   subunit"
+FT                   /note="in chain A"
+FT                   /evidence="ECO:0000269|PubMed:30044221,
+FT                   ECO:0007744|PDB:6DW0, ECO:0007744|PDB:6DW1"
+FT   BINDING         227
+FT                   /ligand="4-aminobutanoate"
+FT                   /ligand_id="ChEBI:CHEBI:59888"
+FT                   /ligand_note="ligand shared with the neighboring alpha
+FT                   subunit"
+FT                   /note="in chain A"
+FT                   /evidence="ECO:0000269|PubMed:30044221,
+FT                   ECO:0007744|PDB:6DW0, ECO:0007744|PDB:6DW1"
+FT   BINDING         227
+FT                   /ligand="histamine"
+FT                   /ligand_id="ChEBI:CHEBI:58432"
+FT                   /ligand_note="ligand shared between two neighboring beta
+FT                   subunits"
+FT                   /note="in chain B"
+FT                   /evidence="ECO:0000250|UniProtKB:P28472"
+FT   CARBOHYD        33
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        105
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:30044221,
+FT                   ECO:0007744|PDB:6DW0, ECO:0007744|PDB:6DW1"
+FT   CARBOHYD        174
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:30044221,
+FT                   ECO:0007744|PDB:6DW0, ECO:0007744|PDB:6DW1"
+FT   DISULFID        161..175
+FT                   /evidence="ECO:0000269|PubMed:30044221,
+FT                   ECO:0007744|PDB:6DW0, ECO:0007744|PDB:6DW1"
+FT   CONFLICT        420
+FT                   /note="R -> Q (in Ref. 2; no nucleotide entry)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        428
+FT                   /note="R -> P (in Ref. 2; no nucleotide entry)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           36..44
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          45..47
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   TURN            54..57
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          61..71
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   TURN            77..80
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          81..93
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   HELIX           95..97
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   HELIX           110..112
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          121..123
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          126..131
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          134..136
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          139..142
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          145..160
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          178..183
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   TURN            186..188
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          189..193
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   HELIX           196..199
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          200..203
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          213..224
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+FT   STRAND          229..239
+FT                   /evidence="ECO:0007829|PDB:6DW1"
+SQ   SEQUENCE   474 AA;  54072 MW;  986277FDBD66377A CRC64;
+     MWTVQNRESL GLLSFPVMVA MVCCAHSSNE PSNMSYVKET VDRLLKGYDI RLRPDFGGPP
+     VDVGMRIDVA SIDMVSEVNM DYTLTMYFQQ SWKDKRLSYS GIPLNLTLDN RVADQLWVPD
+     TYFLNDKKSF VHGVTVKNRM IRLHPDGTVL YGLRITTTAA CMMDLRRYPL DEQNCTLEIE
+     SYGYTTDDIE FYWNGGEGAV TGVNKIELPQ FSIVDYKMVS KKVEFTTGAY PRLSLSFRLK
+     RNIGYFILQT YMPSTLITIL SWVSFWINYD ASAARVALGI TTVLTMTTIS THLRETLPKI
+     PYVKAIDIYL MGCFVFVFLA LLEYAFVNYI FFGKGPQKKG ASKQDQSANE KNKLEMNKVQ
+     VDAHGNILLS TLEIRNETSG SEVLTGVSDP KATMYSYDSA SIQYRKPLSS REGFGRGLDR
+     HGVPGKGRIR RRASQLKVKI PDLTDVNSID KWSRMFFPIT FSLFNVVYWL YYVH
+//

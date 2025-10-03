@@ -1,0 +1,176 @@
+ID   NAGA_RAT                Reviewed;         409 AA.
+AC   Q5BJY6;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 2.
+DT   29-MAY-2024, entry version 112.
+DE   RecName: Full=N-acetylglucosamine-6-phosphate deacetylase {ECO:0000250|UniProtKB:Q9Y303};
+DE            Short=GlcNAc 6-P deacetylase {ECO:0000250|UniProtKB:Q9Y303};
+DE            EC=3.5.1.25 {ECO:0000250|UniProtKB:Q9Y303};
+DE   AltName: Full=Amidohydrolase domain-containing protein 2 {ECO:0000250|UniProtKB:Q9Y303};
+GN   Name=Amdhd2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RX   PubMed=15057822; DOI=10.1038/nature02426;
+RA   Gibbs R.A., Weinstock G.M., Metzker M.L., Muzny D.M., Sodergren E.J.,
+RA   Scherer S., Scott G., Steffen D., Worley K.C., Burch P.E., Okwuonu G.,
+RA   Hines S., Lewis L., Deramo C., Delgado O., Dugan-Rocha S., Miner G.,
+RA   Morgan M., Hawes A., Gill R., Holt R.A., Adams M.D., Amanatides P.G.,
+RA   Baden-Tillson H., Barnstead M., Chin S., Evans C.A., Ferriera S.,
+RA   Fosler C., Glodek A., Gu Z., Jennings D., Kraft C.L., Nguyen T.,
+RA   Pfannkoch C.M., Sitter C., Sutton G.G., Venter J.C., Woodage T., Smith D.,
+RA   Lee H.-M., Gustafson E., Cahill P., Kana A., Doucette-Stamm L.,
+RA   Weinstock K., Fechtel K., Weiss R.B., Dunn D.M., Green E.D.,
+RA   Blakesley R.W., Bouffard G.G., De Jong P.J., Osoegawa K., Zhu B., Marra M.,
+RA   Schein J., Bosdet I., Fjell C., Jones S., Krzywinski M., Mathewson C.,
+RA   Siddiqui A., Wye N., McPherson J., Zhao S., Fraser C.M., Shetty J.,
+RA   Shatsman S., Geer K., Chen Y., Abramzon S., Nierman W.C., Havlak P.H.,
+RA   Chen R., Durbin K.J., Egan A., Ren Y., Song X.-Z., Li B., Liu Y., Qin X.,
+RA   Cawley S., Cooney A.J., D'Souza L.M., Martin K., Wu J.Q.,
+RA   Gonzalez-Garay M.L., Jackson A.R., Kalafus K.J., McLeod M.P.,
+RA   Milosavljevic A., Virk D., Volkov A., Wheeler D.A., Zhang Z., Bailey J.A.,
+RA   Eichler E.E., Tuzun E., Birney E., Mongin E., Ureta-Vidal A., Woodwark C.,
+RA   Zdobnov E., Bork P., Suyama M., Torrents D., Alexandersson M., Trask B.J.,
+RA   Young J.M., Huang H., Wang H., Xing H., Daniels S., Gietzen D., Schmidt J.,
+RA   Stevens K., Vitt U., Wingrove J., Camara F., Mar Alba M., Abril J.F.,
+RA   Guigo R., Smit A., Dubchak I., Rubin E.M., Couronne O., Poliakov A.,
+RA   Huebner N., Ganten D., Goesele C., Hummel O., Kreitler T., Lee Y.-A.,
+RA   Monti J., Schulz H., Zimdahl H., Himmelbauer H., Lehrach H., Jacob H.J.,
+RA   Bromberg S., Gullings-Handley J., Jensen-Seaman M.I., Kwitek A.E.,
+RA   Lazar J., Pasko D., Tonellato P.J., Twigger S., Ponting C.P., Duarte J.M.,
+RA   Rice S., Goodstadt L., Beatson S.A., Emes R.D., Winter E.E., Webber C.,
+RA   Brandt P., Nyakatura G., Adetobi M., Chiaromonte F., Elnitski L.,
+RA   Eswara P., Hardison R.C., Hou M., Kolbe D., Makova K., Miller W.,
+RA   Nekrutenko A., Riemer C., Schwartz S., Taylor J., Yang S., Zhang Y.,
+RA   Lindpaintner K., Andrews T.D., Caccamo M., Clamp M., Clarke L., Curwen V.,
+RA   Durbin R.M., Eyras E., Searle S.M., Cooper G.M., Batzoglou S., Brudno M.,
+RA   Sidow A., Stone E.A., Payseur B.A., Bourque G., Lopez-Otin C., Puente X.S.,
+RA   Chakrabarti K., Chatterji S., Dewey C., Pachter L., Bray N., Yap V.B.,
+RA   Caspi A., Tesler G., Pevzner P.A., Haussler D., Roskin K.M., Baertsch R.,
+RA   Clawson H., Furey T.S., Hinrichs A.S., Karolchik D., Kent W.J.,
+RA   Rosenbloom K.R., Trumbower H., Weirauch M., Cooper D.N., Stenson P.D.,
+RA   Ma B., Brent M., Arumugam M., Shteynberg D., Copley R.R., Taylor M.S.,
+RA   Riethman H., Mudunuri U., Peterson J., Guyer M., Felsenfeld A., Old S.,
+RA   Mockrin S., Collins F.S.;
+RT   "Genome sequence of the Brown Norway rat yields insights into mammalian
+RT   evolution.";
+RL   Nature 428:493-521(2004).
+CC   -!- FUNCTION: Hydrolyzes the N-glycolyl group from N-glycolylglucosamine 6-
+CC       phosphate (GlcNGc-6-P) in the N-glycolylneuraminic acid (Neu5Gc)
+CC       degradation pathway. {ECO:0000250|UniProtKB:Q9Y303}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-acetyl-D-glucosamine 6-phosphate = acetate + D-
+CC         glucosamine 6-phosphate; Xref=Rhea:RHEA:22936, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30089, ChEBI:CHEBI:57513, ChEBI:CHEBI:58725; EC=3.5.1.25;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y303};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000250|UniProtKB:P0AF18};
+CC       Note=Binds 1 divalent metal cation per subunit.
+CC       {ECO:0000250|UniProtKB:P0AF18};
+CC   -!- PATHWAY: Amino-sugar metabolism; N-acetylneuraminate degradation.
+CC       {ECO:0000250|UniProtKB:Q9Y303}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       NagA family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AABR03073424; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   RefSeq; NP_001020161.2; NM_001024990.2.
+DR   AlphaFoldDB; Q5BJY6; -.
+DR   SMR; Q5BJY6; -.
+DR   STRING; 10116.ENSRNOP00000008537; -.
+DR   PhosphoSitePlus; Q5BJY6; -.
+DR   jPOST; Q5BJY6; -.
+DR   PaxDb; 10116-ENSRNOP00000008537; -.
+DR   Ensembl; ENSRNOT00055045708; ENSRNOP00055037458; ENSRNOG00055026495.
+DR   Ensembl; ENSRNOT00060016702; ENSRNOP00060013052; ENSRNOG00060009895.
+DR   Ensembl; ENSRNOT00065016578; ENSRNOP00065012621; ENSRNOG00065010271.
+DR   GeneID; 302972; -.
+DR   KEGG; rno:302972; -.
+DR   UCSC; RGD:1304601; rat.
+DR   AGR; RGD:1304601; -.
+DR   CTD; 51005; -.
+DR   RGD; 1304601; Amdhd2.
+DR   VEuPathDB; HostDB:ENSRNOG00000006460; -.
+DR   eggNOG; KOG3892; Eukaryota.
+DR   HOGENOM; CLU_032482_0_2_1; -.
+DR   InParanoid; Q5BJY6; -.
+DR   OrthoDB; 2874448at2759; -.
+DR   PhylomeDB; Q5BJY6; -.
+DR   TreeFam; TF315036; -.
+DR   Reactome; R-RNO-446210; Synthesis of UDP-N-acetyl-glucosamine.
+DR   SABIO-RK; Q5BJY6; -.
+DR   UniPathway; UPA00629; -.
+DR   PRO; PR:Q5BJY6; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000006460; Expressed in jejunum and 18 other cell types or tissues.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0047419; F:N-acetylgalactosamine-6-phosphate deacetylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008448; F:N-acetylglucosamine-6-phosphate deacetylase activity; ISS:UniProtKB.
+DR   GO; GO:0006046; P:N-acetylglucosamine catabolic process; IBA:GO_Central.
+DR   GO; GO:0019262; P:N-acetylneuraminate catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00854; NagA; 1.
+DR   Gene3D; 3.20.20.140; Metal-dependent hydrolases; 1.
+DR   Gene3D; 2.30.40.10; Urease, subunit C, domain 1; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR003764; GlcNAc_6-P_deAcase.
+DR   InterPro; IPR011059; Metal-dep_hydrolase_composite.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   NCBIfam; TIGR00221; nagA; 1.
+DR   PANTHER; PTHR11113; N-ACETYLGLUCOSAMINE-6-PHOSPHATE DEACETYLASE; 1.
+DR   PANTHER; PTHR11113:SF14; N-ACETYLGLUCOSAMINE-6-PHOSPHATE DEACETYLASE; 1.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   PIRSF; PIRSF038994; NagA; 1.
+DR   SUPFAM; SSF51338; Composite domain of metallo-dependent hydrolases; 1.
+DR   SUPFAM; SSF51556; Metallo-dependent hydrolases; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Hydrolase; Metal-binding; Reference proteome.
+FT   CHAIN           1..409
+FT                   /note="N-acetylglucosamine-6-phosphate deacetylase"
+FT                   /id="PRO_0000315778"
+FT   ACT_SITE        294
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AF18"
+FT   BINDING         143
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AF18"
+FT   BINDING         154..155
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AF18"
+FT   BINDING         211
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AF18"
+FT   BINDING         232
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AF18"
+FT   BINDING         235..236
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AF18"
+FT   BINDING         243
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AF18"
+FT   BINDING         269..272
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AF18"
+FT   BINDING         328..330
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AF18"
+SQ   SEQUENCE   409 AA;  43539 MW;  F2AF4B70CE1484BC CRC64;
+     MRSGQSAALA PVLQFTNCRI LRGGTLLRED LWVRGGRILD PEKLFFEERR VADEQRDCGG
+     RILAPGFIDV QINGGFGVDF SRATEDVGSG VALVARRLLS HGVTSFCPTL VTSPPEVYHK
+     VLPQIPVKSG GPHGAGVLGV HLEGPFISRE KRGAHPEAYL RSFGANAFHD VLATYGPLDN
+     VCIVTLAPEL DRSHEVIQAL TAKGIRVSLG HSVADLRAAE VAVQSGATFI THLFNAMLPF
+     HHRDPGIVGL LTSDQLPPGH CIFYGMIADG IHTNPAALRI AHRAHPQGLV LVTDAVPALG
+     LGNGRHTLGQ QEVEVDGLIA YIAGTKTLSG SIAPMDVCIR HFLQATGCSV ESALEAASLH
+     PAQLLGLEKT KGSLDFGADA DFVVLDDTLH VQATYISGEL VWQAEEAGL
+//

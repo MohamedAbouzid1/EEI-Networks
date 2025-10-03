@@ -1,0 +1,121 @@
+ID   MCMBP_RAT               Reviewed;         642 AA.
+AC   B1H268;
+DT   08-MAR-2011, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   27-MAR-2024, entry version 73.
+DE   RecName: Full=Mini-chromosome maintenance complex-binding protein;
+DE            Short=MCM-BP;
+DE            Short=MCM-binding protein;
+GN   Name=Mcmbp;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Thymus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Associated component of the MCM complex that acts as a
+CC       regulator of DNA replication. Binds to the MCM complex during late S
+CC       phase and promotes the disassembly of the MCM complex from chromatin,
+CC       thereby acting as a key regulator of pre-replication complex (pre-RC)
+CC       unloading from replicated DNA. Can dissociate the MCM complex without
+CC       addition of ATP; probably acts by destabilizing interactions of each
+CC       individual subunits of the MCM complex. Required for sister chromatid
+CC       cohesion (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with the MCM complex: associates with the MCM3-7
+CC       complex which lacks MCM2, while it does not interact with the MCM
+CC       complex when MCM2 is present (MCM2-7 complex). Interacts with the RPA
+CC       complex, when composed of all RPA1, RPA2 and RPA3 components, but not
+CC       with RPA1 or RPA2 alone (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250}. Note=Associates with
+CC       chromatin. Highly associated with chromatin in G1/S and S phases,
+CC       reduced binding to chromatin in G2, and further decreased binding in
+CC       early M phase. It then reassociates with chromatin in late M phase.
+CC       Dissociates from chromatin later than component of the MCM complex (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the MCMBP family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC160884; AAI60884.1; -; mRNA.
+DR   RefSeq; NP_001034697.2; NM_001039608.2.
+DR   AlphaFoldDB; B1H268; -.
+DR   STRING; 10116.ENSRNOP00000027644; -.
+DR   iPTMnet; B1H268; -.
+DR   PhosphoSitePlus; B1H268; -.
+DR   jPOST; B1H268; -.
+DR   PaxDb; 10116-ENSRNOP00000027644; -.
+DR   PeptideAtlas; B1H268; -.
+DR   Ensembl; ENSRNOT00055048502; ENSRNOP00055039868; ENSRNOG00055028016.
+DR   Ensembl; ENSRNOT00060047139; ENSRNOP00060039212; ENSRNOG00060027141.
+DR   Ensembl; ENSRNOT00065026776; ENSRNOP00065021022; ENSRNOG00065016095.
+DR   GeneID; 309009; -.
+DR   KEGG; rno:309009; -.
+DR   UCSC; RGD:1306730; rat.
+DR   AGR; RGD:1306730; -.
+DR   CTD; 79892; -.
+DR   RGD; 1306730; Mcmbp.
+DR   VEuPathDB; HostDB:ENSRNOG00000020394; -.
+DR   eggNOG; KOG2545; Eukaryota.
+DR   HOGENOM; CLU_029811_0_0_1; -.
+DR   InParanoid; B1H268; -.
+DR   OrthoDB; 11329at2759; -.
+DR   PhylomeDB; B1H268; -.
+DR   TreeFam; TF324793; -.
+DR   PRO; PR:B1H268; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000020394; Expressed in thymus and 19 other cell types or tissues.
+DR   GO; GO:0042555; C:MCM complex; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0003682; F:chromatin binding; ISS:UniProtKB.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0006261; P:DNA-templated DNA replication; ISS:UniProtKB.
+DR   GO; GO:0007062; P:sister chromatid cohesion; ISS:UniProtKB.
+DR   InterPro; IPR019140; MCM_complex-bd.
+DR   PANTHER; PTHR13489:SF0; MINI-CHROMOSOME MAINTENANCE COMPLEX-BINDING PROTEIN; 1.
+DR   PANTHER; PTHR13489; UNCHARACTERIZED; 1.
+DR   Pfam; PF09739; MCM_bind; 1.
+PE   2: Evidence at transcript level;
+KW   Cell cycle; Cell division; DNA replication; Mitosis; Nucleus;
+KW   Phosphoprotein; Reference proteome.
+FT   CHAIN           1..642
+FT                   /note="Mini-chromosome maintenance complex-binding protein"
+FT                   /id="PRO_0000405808"
+FT   REGION          151..200
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        163..182
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         154
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BTE3"
+FT   MOD_RES         160
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BTE3"
+FT   MOD_RES         167
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BTE3"
+FT   MOD_RES         298
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BTE3"
+SQ   SEQUENCE   642 AA;  73007 MW;  F23D2B87F85A4E31 CRC64;
+     MPCGEDWLSH PLGIVQGFFA QNGVTPDWEK KVIDYFKEKL KENNAPKWVP SLNEVPLHYL
+     KPNSFVKFRC MIQDMFDPEF YMGVYETVNQ NTKARVLHFG KYRDVAECGP QQELDLNSPR
+     STTSERQTFY CVPVPGESLW VKEAYVNANQ ARVSPSTSYT PSRHKRSYED DEDMDLQPNK
+     QKDQHSGARQ AGGLGGLHWR GEPKRLETEA SSGQQLNSLN LSSPFDLNFP LPGEKGPACL
+     VKVYEDWDCF KVNDVLELYG VLSVDPILSI LNNEERDASA LLDPMECTDM AEEQRVHSPP
+     ASLVPRIHVI LAQKLQHINP LLPTCLNKEE SRTCQFVSNF MSELSPVRAE LLGFLTHALL
+     GDSLAAEYLI LHLISTVYTR RDVLPLGKFT VNLSGCPQNS TFTEHLYRII QHLVPASFRL
+     QMTIENMNQL KLIPHKDYTA NRLVSGLLQL PNNTSLVIDE TLLEQGQLDT PGVHNVAALS
+     NLITWQKVDY DFSYHQMEFP CNINVLITSE GRSLLPADCQ IHLQPQLIPP NMEEYMNGLL
+     SAVLPSVLNK FRIYLTLLRF LDYNLSDDIT KAVEDDFVEM RKNDPQSITA DDLHQLLVVA
+     RFLSLSAGQT TLSRERWLRA KQLEHSRRSR LQQQKSVNGN EL
+//

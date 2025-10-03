@@ -1,0 +1,166 @@
+ID   SYNPR_RAT               Reviewed;         265 AA.
+AC   P22831; Q9ERH1;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2003, sequence version 2.
+DT   29-MAY-2024, entry version 144.
+DE   RecName: Full=Synaptoporin;
+GN   Name=Synpr;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=2206533; DOI=10.1016/0896-6273(90)90084-s;
+RA   Knaus P., Marqueze-Pouey B., Scherer H., Betz H.;
+RT   "Synaptoporin, a novel putative channel protein of synaptic vesicles.";
+RL   Neuron 5:453-462(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal ganglion;
+RA   Xiao H., Huang Q., Zhang F., Yang Z., Chen Z., Han Z., Zhang X.;
+RT   "Novel genes expressed in rat dorsal root ganglion.";
+RL   Submitted (SEP-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-212, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Intrinsic membrane protein of small synaptic vesicles.
+CC       Probable vesicular channel protein.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasmic vesicle, secretory vesicle, synaptic
+CC       vesicle membrane; Multi-pass membrane protein. Synapse, synaptosome.
+CC   -!- TISSUE SPECIFICITY: Central nervous system.
+CC   -!- SIMILARITY: Belongs to the synaptophysin/synaptobrevin family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF306459; AAG33231.1; -; mRNA.
+DR   PIR; JH0300; JH0300.
+DR   RefSeq; NP_076464.1; NM_023974.1.
+DR   AlphaFoldDB; P22831; -.
+DR   STRING; 10116.ENSRNOP00000011307; -.
+DR   GlyCosmos; P22831; 3 sites, No reported glycans.
+DR   GlyGen; P22831; 3 sites.
+DR   iPTMnet; P22831; -.
+DR   PhosphoSitePlus; P22831; -.
+DR   PaxDb; 10116-ENSRNOP00000011307; -.
+DR   Ensembl; ENSRNOT00000011307.6; ENSRNOP00000011307.3; ENSRNOG00000008203.6.
+DR   Ensembl; ENSRNOT00055022690; ENSRNOP00055018435; ENSRNOG00055013229.
+DR   Ensembl; ENSRNOT00060031320; ENSRNOP00060025412; ENSRNOG00060018244.
+DR   Ensembl; ENSRNOT00065013547; ENSRNOP00065010048; ENSRNOG00065008537.
+DR   GeneID; 66030; -.
+DR   KEGG; rno:66030; -.
+DR   AGR; RGD:708366; -.
+DR   CTD; 132204; -.
+DR   RGD; 708366; Synpr.
+DR   eggNOG; ENOG502QT4W; Eukaryota.
+DR   GeneTree; ENSGT01030000234637; -.
+DR   InParanoid; P22831; -.
+DR   OrthoDB; 2881347at2759; -.
+DR   PhylomeDB; P22831; -.
+DR   TreeFam; TF315804; -.
+DR   PRO; PR:P22831; -.
+DR   Proteomes; UP000002494; Chromosome 15.
+DR   Bgee; ENSRNOG00000008203; Expressed in frontal cortex and 15 other cell types or tissues.
+DR   ExpressionAtlas; P22831; baseline and differential.
+DR   GO; GO:0098686; C:hippocampal mossy fiber to CA3 synapse; IDA:SynGO.
+DR   GO; GO:0043005; C:neuron projection; IEA:UniProtKB-KW.
+DR   GO; GO:0030672; C:synaptic vesicle membrane; IDA:SynGO.
+DR   GO; GO:0050804; P:modulation of chemical synaptic transmission; IDA:SynGO.
+DR   InterPro; IPR008253; Marvel.
+DR   InterPro; IPR001285; Synaptophysin/porin.
+DR   PANTHER; PTHR10306; SYNAPTOPHYSIN; 1.
+DR   PANTHER; PTHR10306:SF16; SYNAPTOPORIN; 1.
+DR   Pfam; PF01284; MARVEL; 1.
+DR   PRINTS; PR00220; SYNAPTOPHYSN.
+DR   PROSITE; PS51225; MARVEL; 1.
+DR   PROSITE; PS00604; SYNAPTOP; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasmic vesicle; Glycoprotein; Membrane; Phosphoprotein;
+KW   Reference proteome; Repeat; Synapse; Synaptosome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..265
+FT                   /note="Synaptoporin"
+FT                   /id="PRO_0000179159"
+FT   TOPO_DOM        1..4
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        5..25
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        26..81
+FT                   /note="Vesicular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        82..102
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        103..114
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        115..135
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        136..177
+FT                   /note="Vesicular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        178..198
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        199..265
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          1..202
+FT                   /note="MARVEL"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00581"
+FT   REPEAT          210..214
+FT                   /note="1"
+FT   REPEAT          222..226
+FT                   /note="2"
+FT   REPEAT          227..231
+FT                   /note="3"
+FT   REPEAT          232..236
+FT                   /note="4"
+FT   REPEAT          238..242
+FT                   /note="5"
+FT   REGION          210..242
+FT                   /note="5 X approximate repeats"
+FT   REGION          221..265
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         212
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         220
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        33
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        38
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        177
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        68..69
+FT                   /note="KL -> NV (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        167
+FT                   /note="A -> G (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   265 AA;  29107 MW;  F121BD8B79F71A28 CRC64;
+     MCMVIFAPLF AIFAFATCGG YSGGLRLSVD CVNKTESNLS IDIAFAYPFR LHQVTFEVPT
+     CEGKERQKLA LVGDSSSSAE FFVTVAVFAF LYSLAATVVY IFFQNKYREN NRGPLIDFIV
+     TVVFSFLWLV GSSAWAKGLS DVKVATDPKE VLLLMSACKQ PSNKCMAVHS PVMSSLNTSV
+     VFGFLNFILW AGNIWFVFKE TGWHSSGQRY LSDPMEKHSS SYNQGGYNQD SYGSSGGYSQ
+     QASLGPTSDE FGQQPSGPTS FNNQI
+//

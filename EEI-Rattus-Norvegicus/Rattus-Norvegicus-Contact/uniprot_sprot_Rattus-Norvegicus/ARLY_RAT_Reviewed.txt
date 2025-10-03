@@ -1,0 +1,299 @@
+ID   ARLY_RAT                Reviewed;         461 AA.
+AC   P20673; Q6AZ85;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1991, sequence version 1.
+DT   08-NOV-2023, entry version 160.
+DE   RecName: Full=Argininosuccinate lyase {ECO:0000303|PubMed:2834354};
+DE            Short=ASAL;
+DE            EC=4.3.2.1 {ECO:0000250|UniProtKB:P04424};
+DE   AltName: Full=Arginosuccinase;
+GN   Name=Asl;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=2834354; DOI=10.1093/oxfordjournals.jbchem.a122227;
+RA   Amaya Y., Matsubasa T., Takiguchi M., Kobayashi K., Saheki T., Kawamoto S.,
+RA   Mori M.;
+RT   "Amino acid sequence of rat argininosuccinate lyase deduced from cDNA.";
+RL   J. Biochem. 103:177-181(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2789519; DOI=10.1073/pnas.86.2.592;
+RA   Matsubasa T., Takiguchi M., Amaya Y., Matsuda I., Mori M.;
+RT   "Structure of the rat argininosuccinate lyase gene: close similarity to
+RT   chicken delta-crystallin genes.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 86:592-596(1989).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=2725197; DOI=10.1016/0169-328x(89)90040-5;
+RA   Kawamoto S., Kaneko T., Mizuki N., Ohsuga A., Fukushima J., Amaya Y.,
+RA   Mori M., Okuda K.;
+RT   "Molecular cloning and nucleotide sequence of rat brain argininosuccinate
+RT   lyase cDNA with an extremely long 5'-untranslated sequence: evidence for
+RT   the identity of the brain and liver enzymes.";
+RL   Brain Res. Mol. Brain Res. 5:235-241(1989).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANTS CYS-129 AND GLY-301.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=8485149; DOI=10.1016/0167-4781(93)90255-c;
+RA   Kawamoto S., Amaya Y., Hattori S., Miyagi Y., Onishi H., Okuda K.;
+RT   "Structural analysis of an extremely long 5'-noncoding region of rat brain
+RT   argininosuccinate lyase mRNA: presence of multiple B1 repeats and multiple
+RT   upstream AUG codons, and a possibility of translational control.";
+RL   Biochim. Biophys. Acta 1173:111-114(1993).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA], AND VARIANTS CYS-129 AND GLY-301.
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Catalyzes the reversible cleavage of L-argininosuccinate to
+CC       fumarate and L-arginine, an intermediate step reaction in the urea
+CC       cycle mostly providing for hepatic nitrogen detoxification into
+CC       excretable urea as well as de novo L-arginine synthesis in nonhepatic
+CC       tissues (By similarity). Essential regulator of intracellular and
+CC       extracellular L-arginine pools. As part of citrulline-nitric oxide
+CC       cycle, forms tissue-specific multiprotein complexes with
+CC       argininosuccinate synthase ASS1, transport protein SLC7A1 and nitric
+CC       oxide synthase NOS1, NOS2 or NOS3, allowing for cell-autonomous L-
+CC       arginine synthesis while channeling extracellular L-arginine to nitric
+CC       oxide synthesis pathway (By similarity).
+CC       {ECO:0000250|UniProtKB:P04424}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(N(omega)-L-arginino)succinate = fumarate + L-arginine;
+CC         Xref=Rhea:RHEA:24020, ChEBI:CHEBI:29806, ChEBI:CHEBI:32682,
+CC         ChEBI:CHEBI:57472; EC=4.3.2.1;
+CC         Evidence={ECO:0000250|UniProtKB:P04424};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:24021;
+CC         Evidence={ECO:0000250|UniProtKB:P04424};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:24022;
+CC         Evidence={ECO:0000250|UniProtKB:P04424};
+CC   -!- ACTIVITY REGULATION: Enzyme activity is regulated by acetylation.
+CC       {ECO:0000250|UniProtKB:P04424}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; L-arginine
+CC       from L-ornithine and carbamoyl phosphate: step 3/3.
+CC       {ECO:0000250|UniProtKB:P04424}.
+CC   -!- PATHWAY: Nitrogen metabolism; urea cycle; L-arginine and fumarate from
+CC       (N(omega)-L-arginino)succinate: step 1/1.
+CC       {ECO:0000250|UniProtKB:P04424}.
+CC   -!- SUBUNIT: Homotetramer (By similarity). Forms tissue-specific complexes
+CC       with ASS1, SLC7A1, HSP90AA1 and nitric oxide synthase NOS1, NOS2 or
+CC       NOS3; the complex maintenance is independent of ASL catalytic function
+CC       (By similarity). {ECO:0000250|UniProtKB:P04424,
+CC       ECO:0000250|UniProtKB:Q91YI0}.
+CC   -!- PTM: Acetylation modifies enzyme activity in response to alterations of
+CC       extracellular nutrient availability. Acetylation increased with
+CC       trichostin A (TSA) or with nicotinamide (NAM). Glucose increases
+CC       acetylation by about a factor of 3 with decreasing enzyme activity.
+CC       Acetylation on Lys-288 is decreased on the addition of extra amino
+CC       acids resulting in activation of enzyme activity.
+CC       {ECO:0000250|UniProtKB:P04424}.
+CC   -!- SIMILARITY: Belongs to the lyase 1 family. Argininosuccinate lyase
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D28501; BAA05859.1; -; mRNA.
+DR   EMBL; M22697; AAA40766.1; -; Genomic_DNA.
+DR   EMBL; M22682; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22683; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22684; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22685; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22686; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22687; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22688; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22689; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22690; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22691; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22692; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22693; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22694; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22695; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; M22696; AAA40766.1; JOINED; Genomic_DNA.
+DR   EMBL; D13978; BAA03088.1; -; mRNA.
+DR   EMBL; BC078682; AAH78682.1; -; mRNA.
+DR   PIR; A32188; WZRTRS.
+DR   RefSeq; NP_067588.2; NM_021577.3.
+DR   RefSeq; XP_006249307.1; XM_006249245.3.
+DR   RefSeq; XP_006249309.1; XM_006249247.3.
+DR   AlphaFoldDB; P20673; -.
+DR   SMR; P20673; -.
+DR   STRING; 10116.ENSRNOP00000001211; -.
+DR   iPTMnet; P20673; -.
+DR   PhosphoSitePlus; P20673; -.
+DR   jPOST; P20673; -.
+DR   PaxDb; 10116-ENSRNOP00000001211; -.
+DR   GeneID; 59085; -.
+DR   KEGG; rno:59085; -.
+DR   AGR; RGD:619974; -.
+DR   CTD; 435; -.
+DR   RGD; 619974; Asl.
+DR   eggNOG; KOG1316; Eukaryota.
+DR   InParanoid; P20673; -.
+DR   OrthoDB; 2722228at2759; -.
+DR   PhylomeDB; P20673; -.
+DR   Reactome; R-RNO-70635; Urea cycle.
+DR   SABIO-RK; P20673; -.
+DR   UniPathway; UPA00068; UER00114.
+DR   UniPathway; UPA00158; UER00273.
+DR   PRO; PR:P20673; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0070852; C:cell body fiber; IDA:RGD.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; IDA:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0043204; C:perikaryon; IDA:RGD.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:RGD.
+DR   GO; GO:0004056; F:argininosuccinate lyase activity; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0006520; P:amino acid metabolic process; ISO:RGD.
+DR   GO; GO:0019676; P:ammonia assimilation cycle; ISO:RGD.
+DR   GO; GO:0006526; P:arginine biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0042450; P:arginine biosynthetic process via ornithine; IBA:GO_Central.
+DR   GO; GO:0006525; P:arginine metabolic process; ISO:RGD.
+DR   GO; GO:0000053; P:argininosuccinate metabolic process; IDA:RGD.
+DR   GO; GO:0071242; P:cellular response to ammonium ion; IEP:RGD.
+DR   GO; GO:0071320; P:cellular response to cAMP; IEP:RGD.
+DR   GO; GO:0071549; P:cellular response to dexamethasone stimulus; IEP:RGD.
+DR   GO; GO:0071377; P:cellular response to glucagon stimulus; IEP:RGD.
+DR   GO; GO:0071385; P:cellular response to glucocorticoid stimulus; IEP:RGD.
+DR   GO; GO:0071456; P:cellular response to hypoxia; IEP:RGD.
+DR   GO; GO:0071356; P:cellular response to tumor necrosis factor; IEP:RGD.
+DR   GO; GO:0071346; P:cellular response to type II interferon; IEP:RGD.
+DR   GO; GO:0060539; P:diaphragm development; IEP:RGD.
+DR   GO; GO:0001822; P:kidney development; IEP:RGD.
+DR   GO; GO:0001889; P:liver development; IDA:RGD.
+DR   GO; GO:0007626; P:locomotory behavior; ISO:RGD.
+DR   GO; GO:0007494; P:midgut development; IEP:RGD.
+DR   GO; GO:0045429; P:positive regulation of nitric oxide biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0009791; P:post-embryonic development; ISO:RGD.
+DR   GO; GO:0014075; P:response to amine; IEP:RGD.
+DR   GO; GO:0060416; P:response to growth hormone; IEP:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0043434; P:response to peptide hormone; IEP:RGD.
+DR   GO; GO:0048545; P:response to steroid hormone; IEP:RGD.
+DR   GO; GO:0009636; P:response to toxic substance; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0010043; P:response to zinc ion; IEP:RGD.
+DR   GO; GO:0000050; P:urea cycle; IDA:RGD.
+DR   CDD; cd01359; Argininosuccinate_lyase; 1.
+DR   Gene3D; 1.10.40.30; Fumarase/aspartase (C-terminal domain); 1.
+DR   Gene3D; 1.20.200.10; Fumarase/aspartase (Central domain); 1.
+DR   Gene3D; 1.10.275.10; Fumarase/aspartase (N-terminal domain); 1.
+DR   HAMAP; MF_00006; Arg_succ_lyase; 1.
+DR   InterPro; IPR029419; Arg_succ_lyase_C.
+DR   InterPro; IPR009049; Argininosuccinate_lyase.
+DR   InterPro; IPR024083; Fumarase/histidase_N.
+DR   InterPro; IPR020557; Fumarate_lyase_CS.
+DR   InterPro; IPR000362; Fumarate_lyase_fam.
+DR   InterPro; IPR022761; Fumarate_lyase_N.
+DR   InterPro; IPR008948; L-Aspartase-like.
+DR   NCBIfam; TIGR00838; argH; 1.
+DR   PANTHER; PTHR43814; ARGININOSUCCINATE LYASE; 1.
+DR   PANTHER; PTHR43814:SF1; ARGININOSUCCINATE LYASE; 1.
+DR   Pfam; PF14698; ASL_C2; 1.
+DR   Pfam; PF00206; Lyase_1; 1.
+DR   PRINTS; PR00145; ARGSUCLYASE.
+DR   PRINTS; PR00149; FUMRATELYASE.
+DR   SUPFAM; SSF48557; L-aspartase-like; 1.
+DR   PROSITE; PS00163; FUMARATE_LYASES; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Amino-acid biosynthesis; Arginine biosynthesis; Lyase;
+KW   Reference proteome; Urea cycle.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91YI0"
+FT   CHAIN           2..461
+FT                   /note="Argininosuccinate lyase"
+FT                   /id="PRO_0000137715"
+FT   ACT_SITE        160
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P24058"
+FT   ACT_SITE        281
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:P24058"
+FT   BINDING         27
+FT                   /ligand="2-(N(omega)-L-arginino)succinate"
+FT                   /ligand_id="ChEBI:CHEBI:57472"
+FT                   /ligand_note="ligand shared between tetrameric partners"
+FT                   /note="in chain A"
+FT                   /evidence="ECO:0000250|UniProtKB:P24058"
+FT   BINDING         114
+FT                   /ligand="2-(N(omega)-L-arginino)succinate"
+FT                   /ligand_id="ChEBI:CHEBI:57472"
+FT                   /ligand_note="ligand shared between tetrameric partners"
+FT                   /note="in chain A"
+FT                   /evidence="ECO:0000250|UniProtKB:P24058"
+FT   BINDING         159
+FT                   /ligand="2-(N(omega)-L-arginino)succinate"
+FT                   /ligand_id="ChEBI:CHEBI:57472"
+FT                   /ligand_note="ligand shared between tetrameric partners"
+FT                   /note="in chain C"
+FT                   /evidence="ECO:0000250|UniProtKB:P24058"
+FT   BINDING         289
+FT                   /ligand="2-(N(omega)-L-arginino)succinate"
+FT                   /ligand_id="ChEBI:CHEBI:57472"
+FT                   /ligand_note="ligand shared between tetrameric partners"
+FT                   /note="in chain B"
+FT                   /evidence="ECO:0000250|UniProtKB:P24058"
+FT   BINDING         321
+FT                   /ligand="2-(N(omega)-L-arginino)succinate"
+FT                   /ligand_id="ChEBI:CHEBI:57472"
+FT                   /ligand_note="ligand shared between tetrameric partners"
+FT                   /note="in chain A"
+FT                   /evidence="ECO:0000250|UniProtKB:P24058"
+FT   BINDING         326
+FT                   /ligand="2-(N(omega)-L-arginino)succinate"
+FT                   /ligand_id="ChEBI:CHEBI:57472"
+FT                   /ligand_note="ligand shared between tetrameric partners"
+FT                   /note="in chain A"
+FT                   /evidence="ECO:0000250|UniProtKB:P24058"
+FT   BINDING         329
+FT                   /ligand="2-(N(omega)-L-arginino)succinate"
+FT                   /ligand_id="ChEBI:CHEBI:57472"
+FT                   /ligand_note="ligand shared between tetrameric partners"
+FT                   /note="in chain A"
+FT                   /evidence="ECO:0000250|UniProtKB:P24058"
+FT   SITE            294
+FT                   /note="Increases basicity of active site His"
+FT                   /evidence="ECO:0000250|UniProtKB:P24058"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91YI0"
+FT   MOD_RES         7
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91YI0"
+FT   MOD_RES         69
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P04424"
+FT   MOD_RES         288
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P04424"
+FT   VARIANT         129
+FT                   /note="Y -> C"
+FT                   /evidence="ECO:0000269|PubMed:15489334,
+FT                   ECO:0000269|PubMed:8485149"
+FT   VARIANT         301
+FT                   /note="R -> G"
+FT                   /evidence="ECO:0000269|PubMed:15489334,
+FT                   ECO:0000269|PubMed:8485149"
+SQ   SEQUENCE   461 AA;  51550 MW;  559DF2C59AEDDA8D CRC64;
+     MASESGKLWG GRFAGSVDPT MDKFNSSIAY DRHLWNVDLQ GSKAYSRGLE KAGLLTKAEM
+     QQILQGLDKV AEEWAQGIFK LYPNDEDIHT ANERRLKELI GEAAGKLHTG RSRNDQVVTD
+     LRLWMRQTYS KLSTFLKVLI EAMVDRAEAE CEVLFPGYTH LQRAQPIRWS HWILSHAVAL
+     TRDLERLKEV QKRINVLPLG SGAIAGNPLG VDREFLCAEL NFGAITLNSM DATSERDFVA
+     EFLFWASLCM THLSRMAEDL ILYGTKEFNF VQLSDAYSTG SSLMPQKKNP DSLELIRSKA
+     RRVFGRCAGL LMTLKGLPST YNKDLQEDKE AVFEVSDTMT AVLQVATGVI STLQIHRENM
+     AQALSPDMLA TDLAYYLVRK GMPFRQAHEA SGKAVVVAEM KGVALNQLSL QELQTVSPLF
+     SSDVNLVWDY SHSVEQYTAL GGTAQSSVEW QISQVRALLQ M
+//

@@ -1,0 +1,95 @@
+ID   GPX6_RAT                Reviewed;         221 AA.
+AC   Q64625;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JAN-2024, entry version 118.
+DE   RecName: Full=Glutathione peroxidase 6;
+DE            Short=GPx-6;
+DE            Short=GSHPx-6;
+DE            EC=1.11.1.9;
+DE   AltName: Full=Odorant-metabolizing protein RY2D1;
+DE   Flags: Precursor;
+GN   Name=Gpx6;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Olfactory epithelium;
+RX   PubMed=1931961; DOI=10.1021/bi00107a003;
+RA   Dear T.N., Campbell K., Rabbitts T.H.;
+RT   "Molecular cloning of putative odorant-binding and odorant-metabolizing
+RT   proteins.";
+RL   Biochemistry 30:10376-10382(1991).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 glutathione + H2O2 = glutathione disulfide + 2 H2O;
+CC         Xref=Rhea:RHEA:16833, ChEBI:CHEBI:15377, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:57925, ChEBI:CHEBI:58297; EC=1.11.1.9;
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Expressed in the Bowman glands.
+CC   -!- SIMILARITY: Belongs to the glutathione peroxidase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M76733; AAA42094.1; -; mRNA.
+DR   PIR; B40464; B40464.
+DR   RefSeq; NP_671694.1; NM_147165.1.
+DR   AlphaFoldDB; Q64625; -.
+DR   SMR; Q64625; -.
+DR   STRING; 10116.ENSRNOP00000070683; -.
+DR   PeroxiBase; 3736; RnoGPx06.
+DR   PhosphoSitePlus; Q64625; -.
+DR   PaxDb; 10116-ENSRNOP00000055070; -.
+DR   Ensembl; ENSRNOT00000082782.2; ENSRNOP00000070342.2; ENSRNOG00000060749.2.
+DR   GeneID; 259233; -.
+DR   KEGG; rno:259233; -.
+DR   UCSC; RGD:628789; rat.
+DR   AGR; RGD:628789; -.
+DR   CTD; 257202; -.
+DR   RGD; 628789; Gpx6.
+DR   eggNOG; KOG1651; Eukaryota.
+DR   GeneTree; ENSGT00940000161098; -.
+DR   InParanoid; Q64625; -.
+DR   OMA; VMRWHPR; -.
+DR   OrthoDB; 67394at2759; -.
+DR   PhylomeDB; Q64625; -.
+DR   Reactome; R-RNO-3299685; Detoxification of Reactive Oxygen Species.
+DR   PRO; PR:Q64625; -.
+DR   Proteomes; UP000002494; Chromosome 17.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004602; F:glutathione peroxidase activity; IBA:GO_Central.
+DR   GO; GO:0006979; P:response to oxidative stress; IEA:InterPro.
+DR   CDD; cd00340; GSH_Peroxidase; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   InterPro; IPR000889; Glutathione_peroxidase.
+DR   InterPro; IPR029759; GPX_AS.
+DR   InterPro; IPR029760; GPX_CS.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   PANTHER; PTHR11592; GLUTATHIONE PEROXIDASE; 1.
+DR   PANTHER; PTHR11592:SF15; GLUTATHIONE PEROXIDASE 6; 1.
+DR   Pfam; PF00255; GSHPx; 1.
+DR   PIRSF; PIRSF000303; Glutathion_perox; 1.
+DR   PRINTS; PR01011; GLUTPROXDASE.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS00460; GLUTATHIONE_PEROXID_1; 1.
+DR   PROSITE; PS00763; GLUTATHIONE_PEROXID_2; 1.
+DR   PROSITE; PS51355; GLUTATHIONE_PEROXID_3; 1.
+PE   2: Evidence at transcript level;
+KW   Oxidoreductase; Peroxidase; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..221
+FT                   /note="Glutathione peroxidase 6"
+FT                   /id="PRO_0000013083"
+FT   ACT_SITE        73
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   221 AA;  24961 MW;  92749EAF6A3EF48C CRC64;
+     MTQQFWGPCL FSLFMAVLAQ ETLDPQKSKV DCNKGVAGTV YEYGANTLDG GEYVQFQQYA
+     GKHILFVNVA SFCGLTATYP ELNTLQEELR PFNVSVLGFP CNQFGKQEPG KNSEILLGLK
+     YVRPGGGFVP NFQLFEKGDV NGDNEQKVFS FLKSSCPPTS ELLGSPEHLF WDPMKVHDIR
+     WNFEKFLVGP DGAPVMRWFH QTPVRVVQSD IMEYLNQTRT Q
+//

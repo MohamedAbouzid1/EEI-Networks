@@ -1,0 +1,330 @@
+ID   SC5A5_RAT               Reviewed;         618 AA.
+AC   Q63008;
+DT   24-JAN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-OCT-2024, entry version 139.
+DE   RecName: Full=Sodium/iodide cotransporter;
+DE            Short=Na(+)/I(-) cotransporter;
+DE   AltName: Full=Sodium-iodide symporter;
+DE            Short=Na(+)/I(-) symporter;
+DE   AltName: Full=Solute carrier family 5 member 5;
+GN   Name=Slc5a5; Synonyms=Nis;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND TRANSPORTER ACTIVITY.
+RC   TISSUE=Thyroid;
+RX   PubMed=8559252; DOI=10.1038/379458a0;
+RA   Dai G., Levy O., Carrasco N.;
+RT   "Cloning and characterization of the thyroid iodide transporter.";
+RL   Nature 379:458-460(1996).
+RN   [2]
+RP   FUNCTION, TRANSPORTER ACTIVITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=9341168; DOI=10.1074/jbc.272.43.27230;
+RA   Eskandari S., Loo D.D., Dai G., Levy O., Wright E.M., Carrasco N.;
+RT   "Thyroid Na+/I- symporter. Mechanism, stoichiometry, and specificity.";
+RL   J. Biol. Chem. 272:27230-27238(1997).
+RN   [3]
+RP   FUNCTION, TRANSPORTER ACTIVITY, AND ACTIVITY REGULATION.
+RX   PubMed=32084174; DOI=10.1371/journal.pone.0229085;
+RA   Concilio S.C., Zhekova H.R., Noskov S.Y., Russell S.J.;
+RT   "Inter-species variation in monovalent anion substrate selectivity and
+RT   inhibitor sensitivity in the sodium iodide symporter (NIS).";
+RL   PLoS ONE 15:e0229085-e0229085(2020).
+CC   -!- FUNCTION: Sodium:iodide symporter that mediates the transport of iodide
+CC       into the thyroid gland (PubMed:32084174, PubMed:8559252,
+CC       PubMed:9341168). Can also mediate the transport of chlorate,
+CC       thiocynate, nitrate and selenocynate (PubMed:9341168).
+CC       {ECO:0000269|PubMed:32084174, ECO:0000269|PubMed:8559252,
+CC       ECO:0000269|PubMed:9341168}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=iodide(out) + 2 Na(+)(out) = iodide(in) + 2 Na(+)(in);
+CC         Xref=Rhea:RHEA:71207, ChEBI:CHEBI:16382, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000269|PubMed:32084174, ECO:0000269|PubMed:8559252,
+CC         ECO:0000269|PubMed:9341168};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chlorate(out) + 2 Na(+)(out) = chlorate(in) + 2 Na(+)(in);
+CC         Xref=Rhea:RHEA:71211, ChEBI:CHEBI:29101, ChEBI:CHEBI:49709;
+CC         Evidence={ECO:0000269|PubMed:9341168};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + thiocyanate(out) = 2 Na(+)(in) +
+CC         thiocyanate(in); Xref=Rhea:RHEA:71215, ChEBI:CHEBI:18022,
+CC         ChEBI:CHEBI:29101; Evidence={ECO:0000269|PubMed:9341168};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + nitrate(out) = 2 Na(+)(in) + nitrate(in);
+CC         Xref=Rhea:RHEA:71219, ChEBI:CHEBI:17632, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000269|PubMed:9341168};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + selenocyanate(out) = 2 Na(+)(in) +
+CC         selenocyanate(in); Xref=Rhea:RHEA:71227, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:29445; Evidence={ECO:0000269|PubMed:9341168};
+CC   -!- ACTIVITY REGULATION: Perchlorate inhibits iodide transport activity.
+CC       {ECO:0000269|PubMed:32084174}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked (By similarity). Monomer (By
+CC       similarity). Homooligomer (By similarity).
+CC       {ECO:0000250|UniProtKB:Q92911}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:9341168};
+CC       Multi-pass membrane protein {ECO:0000255}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:Q92911}.
+CC   -!- SIMILARITY: Belongs to the sodium:solute symporter (SSF) (TC 2.A.21)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U60282; AAB03338.1; -; mRNA.
+DR   PIR; S68513; S68513.
+DR   RefSeq; NP_443215.2; NM_052983.2.
+DR   PDB; 7UUY; EM; 3.30 A; A=2-618.
+DR   PDB; 7UUZ; EM; 3.20 A; A=2-618.
+DR   PDB; 7UV0; EM; 3.10 A; A=2-618.
+DR   PDBsum; 7UUY; -.
+DR   PDBsum; 7UUZ; -.
+DR   PDBsum; 7UV0; -.
+DR   AlphaFoldDB; Q63008; -.
+DR   EMDB; EMD-26806; -.
+DR   EMDB; EMD-26807; -.
+DR   EMDB; EMD-26808; -.
+DR   SMR; Q63008; -.
+DR   STRING; 10116.ENSRNOP00000025577; -.
+DR   BindingDB; Q63008; -.
+DR   ChEMBL; CHEMBL2331047; -.
+DR   GlyCosmos; Q63008; 2 sites, No reported glycans.
+DR   GlyGen; Q63008; 2 sites.
+DR   iPTMnet; Q63008; -.
+DR   PhosphoSitePlus; Q63008; -.
+DR   PaxDb; 10116-ENSRNOP00000025577; -.
+DR   GeneID; 114613; -.
+DR   KEGG; rno:114613; -.
+DR   UCSC; RGD:69267; rat.
+DR   AGR; RGD:69267; -.
+DR   CTD; 6528; -.
+DR   RGD; 69267; Slc5a5.
+DR   eggNOG; KOG2349; Eukaryota.
+DR   InParanoid; Q63008; -.
+DR   OrthoDB; 3078791at2759; -.
+DR   PhylomeDB; Q63008; -.
+DR   Reactome; R-RNO-209968; Thyroxine biosynthesis.
+DR   Reactome; R-RNO-428643; Organic anion transporters.
+DR   PRO; PR:Q63008; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0015111; F:iodide transmembrane transporter activity; IMP:ARUK-UCL.
+DR   GO; GO:0015373; F:monoatomic anion:sodium symporter activity; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0008507; F:sodium:iodide symporter activity; IDA:UniProtKB.
+DR   GO; GO:0015293; F:symporter activity; ISO:RGD.
+DR   GO; GO:0071320; P:cellular response to cAMP; ISO:RGD.
+DR   GO; GO:1904322; P:cellular response to forskolin; ISO:RGD.
+DR   GO; GO:0071371; P:cellular response to gonadotropin stimulus; ISO:RGD.
+DR   GO; GO:1904401; P:cellular response to Thyroid stimulating hormone; ISO:RGD.
+DR   GO; GO:1904200; P:iodide transmembrane transport; IMP:ARUK-UCL.
+DR   GO; GO:0015705; P:iodide transport; IDA:RGD.
+DR   GO; GO:0098656; P:monoatomic anion transmembrane transport; ISO:RGD.
+DR   GO; GO:0035725; P:sodium ion transmembrane transport; ISO:RGD.
+DR   GO; GO:0006814; P:sodium ion transport; IDA:RGD.
+DR   GO; GO:0006590; P:thyroid hormone generation; TAS:RGD.
+DR   CDD; cd11503; SLC5sbd_NIS; 1.
+DR   Gene3D; 1.20.1730.10; Sodium/glucose cotransporter; 1.
+DR   InterPro; IPR038377; Na/Glc_symporter_sf.
+DR   InterPro; IPR001734; Na/solute_symporter.
+DR   InterPro; IPR018212; Na/solute_symporter_CS.
+DR   InterPro; IPR035689; SLC5A5.
+DR   InterPro; IPR051163; Sodium:Solute_Symporter_SSF.
+DR   NCBIfam; TIGR00813; sss; 1.
+DR   PANTHER; PTHR42985; SODIUM-COUPLED MONOCARBOXYLATE TRANSPORTER; 1.
+DR   PANTHER; PTHR42985:SF11; SODIUM_IODIDE COTRANSPORTER; 1.
+DR   Pfam; PF00474; SSF; 1.
+DR   PROSITE; PS00456; NA_SOLUT_SYMP_1; 1.
+DR   PROSITE; PS50283; NA_SOLUT_SYMP_3; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Cytoplasm; Disulfide bond; Glycoprotein;
+KW   Ion transport; Membrane; Phosphoprotein; Reference proteome; Sodium;
+KW   Sodium transport; Symport; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..618
+FT                   /note="Sodium/iodide cotransporter"
+FT                   /id="PRO_0000105385"
+FT   TOPO_DOM        1..16
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        17..37
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        38..53
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        54..74
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        75..88
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        89..109
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        110..136
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        137..157
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        158..163
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        164..184
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        185..186
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        187..207
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        208..241
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        242..262
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        263..286
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        287..307
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        308..326
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        327..347
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        348..391
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        392..412
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        413..416
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        417..437
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        438..444
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        445..465
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        466..520
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        521..541
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        542..618
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          587..618
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   SITE            242
+FT                   /note="Required for homodimerization"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92911"
+FT   SITE            243
+FT                   /note="Required for homodimerization"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92911"
+FT   SITE            471
+FT                   /note="Required for homodimerization"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92911"
+FT   MOD_RES         551
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        485
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        497
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   HELIX           14..35
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           54..56
+FT                   /evidence="ECO:0007829|PDB:7UUY"
+FT   HELIX           57..66
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   STRAND          67..69
+FT                   /evidence="ECO:0007829|PDB:7UUY"
+FT   HELIX           70..83
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           86..88
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           89..103
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           106..111
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           119..124
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           127..160
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           164..179
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           191..212
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           216..225
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   STRAND          238..242
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           244..259
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           264..270
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           276..306
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   STRAND          308..310
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           313..315
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           321..323
+FT                   /evidence="ECO:0007829|PDB:7UUZ"
+FT   HELIX           324..332
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   STRAND          334..338
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           339..369
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   TURN            370..374
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           380..408
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           412..436
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           442..465
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   TURN            470..474
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   TURN            514..520
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           525..545
+FT                   /evidence="ECO:0007829|PDB:7UV0"
+FT   HELIX           550..552
+FT                   /evidence="ECO:0007829|PDB:7UUZ"
+FT   STRAND          555..559
+FT                   /evidence="ECO:0007829|PDB:7UUY"
+SQ   SEQUENCE   618 AA;  65196 MW;  91EFAA6752B4F4B2 CRC64;
+     MEGAEAGARA TFGAWDYGVF ATMLLVSTGI GLWVGLARGG QRSADDFFTG GRQLAAVPVG
+     LSLAASFMSA VQVLGVPAEA ARYGLKFLWM CAGQLLNSLL TAFLFLPIFY RLGLTSTYQY
+     LELRFSRAVR LCGTLQYLVA TMLYTGIVIY APALILNQVT GLDIWASLLS TGIICTLYTT
+     VGGMKAVVWT DVFQVVVMLV GFWVILARGV ILLGGPRNVL SLAQNHSRIN LMDFDPDPRS
+     RYTFWTFIVG GTLVWLSMYG VNQAQVQRYV ACHTEGKAKL ALLVNQLGLF LIVASAACCG
+     IVMFVYYKDC DPLLTGRISA PDQYMPLLVL DIFEDLPGVP GLFLACAYSG TLSTASTSIN
+     AMAAVTVEDL IKPRMPGLAP RKLVFISKGL SFIYGSACLT VAALSSLLGG GVLQGSFTVM
+     GVISGPLLGA FTLGMLLPAC NTPGVLSGLA AGLAVSLWVA VGATLYPPGE QTMGVLPTSA
+     AGCTNDSVLL GPPGATNASN GIPSSGMDTG RPALADTFYA ISYLYYGALG TLTTMLCGAL
+     ISYLTGPTKR SSLGPGLLWW DLARQTASVA PKEDTATLEE SLVKGPEDIP AVTKKPPGLK
+     PGAETHPLYL GHDVETNL
+//

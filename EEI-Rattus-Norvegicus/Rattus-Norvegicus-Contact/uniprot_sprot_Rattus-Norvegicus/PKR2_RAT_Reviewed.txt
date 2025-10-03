@@ -1,0 +1,154 @@
+ID   PKR2_RAT                Reviewed;         383 AA.
+AC   Q8R415;
+DT   19-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2003, sequence version 2.
+DT   27-MAR-2024, entry version 131.
+DE   RecName: Full=Prokineticin receptor 2;
+DE            Short=PK-R2;
+DE   AltName: Full=G-protein coupled receptor 73-like 1;
+DE   AltName: Full=G-protein coupled receptor I5E;
+GN   Name=Prokr2; Synonyms=Gpr73l1, Pkr2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=12054613; DOI=10.1016/s0006-291x(02)00239-5;
+RA   Masuda Y., Takatsu Y., Terao Y., Kumano S., Ishibashi Y., Suenaga M.,
+RA   Abe M., Fukusumi S., Watanabe T., Shintani Y., Yamada T., Hinuma S.,
+RA   Inatomi N., Ohtaki T., Onda H., Fujino M.;
+RT   "Isolation and identification of EG-VEGF/prokineticins as cognate ligands
+RT   for two orphan G-protein-coupled receptors.";
+RL   Biochem. Biophys. Res. Commun. 293:396-402(2002).
+CC   -!- FUNCTION: Receptor for prokineticin 2. Exclusively coupled to the G(q)
+CC       subclass of heteromeric G proteins. Activation leads to mobilization of
+CC       calcium, stimulation of phosphoinositide turnover and activation of
+CC       p44/p42 mitogen-activated protein kinase (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q8NFJ6};
+CC       Multi-pass membrane protein.
+CC   -!- TISSUE SPECIFICITY: Abundantly expressed in the CNS and reproductive
+CC       organs with the highest levels in the cerebrum, cerebellum, testis and
+CC       ovary.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 1 family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00521}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAM11891.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY089975; AAM11891.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_620434.1; NM_138978.1.
+DR   AlphaFoldDB; Q8R415; -.
+DR   SMR; Q8R415; -.
+DR   STRING; 10116.ENSRNOP00000028889; -.
+DR   GlyCosmos; Q8R415; 2 sites, No reported glycans.
+DR   GlyGen; Q8R415; 2 sites.
+DR   PhosphoSitePlus; Q8R415; -.
+DR   PaxDb; 10116-ENSRNOP00000028889; -.
+DR   GeneID; 192649; -.
+DR   KEGG; rno:192649; -.
+DR   UCSC; RGD:708445; rat.
+DR   AGR; RGD:708445; -.
+DR   CTD; 128674; -.
+DR   RGD; 708445; Prokr2.
+DR   eggNOG; KOG3656; Eukaryota.
+DR   InParanoid; Q8R415; -.
+DR   OrthoDB; 4111530at2759; -.
+DR   PhylomeDB; Q8R415; -.
+DR   Reactome; R-RNO-375276; Peptide ligand-binding receptors.
+DR   Reactome; R-RNO-416476; G alpha (q) signalling events.
+DR   PRO; PR:Q8R415; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0004930; F:G protein-coupled receptor activity; IMP:RGD.
+DR   GO; GO:0004983; F:neuropeptide Y receptor activity; IEA:InterPro.
+DR   GO; GO:0007623; P:circadian rhythm; ISO:RGD.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; IBA:GO_Central.
+DR   CDD; cd15204; 7tmA_prokineticin-R; 1.
+DR   Gene3D; 1.20.1070.10; Rhodopsin 7-helix transmembrane proteins; 1.
+DR   InterPro; IPR000276; GPCR_Rhodpsn.
+DR   InterPro; IPR017452; GPCR_Rhodpsn_7TM.
+DR   InterPro; IPR000611; NPY_rcpt.
+DR   PANTHER; PTHR24238; G-PROTEIN COUPLED RECEPTOR; 1.
+DR   PANTHER; PTHR24238:SF71; PROKINETICIN RECEPTOR 2; 1.
+DR   Pfam; PF00001; 7tm_1; 1.
+DR   PRINTS; PR00237; GPCRRHODOPSN.
+DR   PRINTS; PR01012; NRPEPTIDEYR.
+DR   SUPFAM; SSF81321; Family A G protein-coupled receptor-like; 1.
+DR   PROSITE; PS00237; G_PROTEIN_RECEP_F1_1; 1.
+DR   PROSITE; PS50262; G_PROTEIN_RECEP_F1_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Disulfide bond; G-protein coupled receptor; Glycoprotein;
+KW   Membrane; Receptor; Reference proteome; Transducer; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..383
+FT                   /note="Prokineticin receptor 2"
+FT                   /id="PRO_0000070085"
+FT   TOPO_DOM        1..54
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        55..75
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        76..89
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        90..110
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        111..136
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        137..157
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        158..170
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        171..191
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        192..222
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        223..243
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        244..272
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        273..293
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        294..312
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        313..333
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        334..383
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        7
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        27
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        128..207
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00521"
+SQ   SEQUENCE   383 AA;  43603 MW;  477C501099535B93 CRC64;
+     MGDQNGNTSF APDLNPPQDH VSLLPLNYSY GDYDIPLDDD EDVTKTQTFF AAKIVIGVAL
+     AGIMLVCGVG NFVFIAALAR YKKLRNLTNL LIANLAISDF LVAIVCCPFE MDYYVVRQLS
+     WEHGHVLCAS VNYLRTVSLY VSTNALLAIA IDRYLAIVHP LKRMNYQTAS FLIALVWMVS
+     ILIAIPSAYF TTETILVIVK NQEKLFCGQI WPVDQQLYYK SYFLFVFGLE FVGPVVTMTL
+     CYARISQELW FKAVPGFQTE QIRKRLRCRR KTVLLLMGIL TAYVLCWAPF YGFTIVRDFF
+     PTLVVKEKHY LTAFYVVECI AMSNSMINTI CFVTVKNNTM KYFKKMLLLH WRPSHYGSKS
+     SADLDLKTSG VPATEEVDCI RLK
+//

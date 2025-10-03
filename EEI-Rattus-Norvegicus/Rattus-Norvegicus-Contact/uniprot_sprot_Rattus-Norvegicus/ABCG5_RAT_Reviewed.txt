@@ -1,0 +1,242 @@
+ID   ABCG5_RAT               Reviewed;         652 AA.
+AC   Q99PE7; Q8CIQ4;
+DT   05-DEC-2001, integrated into UniProtKB/Swiss-Prot.
+DT   15-AUG-2003, sequence version 3.
+DT   02-OCT-2024, entry version 160.
+DE   RecName: Full=ATP-binding cassette sub-family G member 5 {ECO:0000305};
+DE            EC=7.6.2.- {ECO:0000250|UniProtKB:Q99PE8};
+DE   AltName: Full=Sterolin-1 {ECO:0000250|UniProtKB:Q99PE8};
+GN   Name=Abcg5 {ECO:0000312|RGD:620298};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Small intestine;
+RX   PubMed=11138003; DOI=10.1038/83799;
+RA   Lee M.-H., Lu K., Hazard S., Yu H., Shulenin S., Hidaka H., Kojima H.,
+RA   Allikmets R., Sakuma N., Pegoraro R., Srivastava A.K., Salen G., Dean M.,
+RA   Patel S.B.;
+RT   "Identification of a gene, ABCG5, important in the regulation of dietary
+RT   cholesterol absorption.";
+RL   Nat. Genet. 27:79-83(2001).
+RN   [2]
+RP   SEQUENCE REVISION TO 2.
+RA   Lu K., Lee M.-H., Patel S.B.;
+RL   Submitted (AUG-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE, TISSUE SPECIFICITY, POLYMORPHISM, AND VARIANT CYS-583.
+RC   STRAIN=GH, SHR, SHRSP, Sprague-Dawley, Wistar, Wistar Kyoto, and WKA;
+RX   PubMed=12783625; DOI=10.1186/1471-2261-3-4;
+RA   Yu H., Pandit B., Klett E., Lee M.-H., Lu K., Helou K., Ikeda I.,
+RA   Egashira N., Sato M., Klein R., Batta A., Salen G., Patel S.B.;
+RT   "The rat STSL locus: characterization, chromosomal assignment, and genetic
+RT   variations in sitosterolemic hypertensive rats.";
+RL   BMC Cardiovasc. Disord. 3:4-4(2003).
+CC   -!- FUNCTION: ABCG5 and ABCG8 form an obligate heterodimer that mediates
+CC       Mg(2+)- and ATP-dependent sterol transport across the cell membrane.
+CC       Plays an essential role in the selective transport of dietary plant
+CC       sterols and cholesterol in and out of the enterocytes and in the
+CC       selective sterol excretion by the liver into bile. Required for normal
+CC       sterol homeostasis. The heterodimer with ABCG8 has ATPase activity.
+CC       {ECO:0000250|UniProtKB:Q9H222}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + cholesterol(in) + H2O = ADP + cholesterol(out) + H(+) +
+CC         phosphate; Xref=Rhea:RHEA:39051, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16113, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000250|UniProtKB:Q99PE8};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:39052;
+CC         Evidence={ECO:0000250|UniProtKB:Q99PE8};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + sitosterol(in) = ADP + H(+) + phosphate +
+CC         sitosterol(out); Xref=Rhea:RHEA:39103, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:27693, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000250|UniProtKB:Q99PE8};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:39104;
+CC         Evidence={ECO:0000250|UniProtKB:Q99PE8};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q99PE8};
+CC   -!- SUBUNIT: Heterodimer with ABCG8. {ECO:0000250|UniProtKB:Q9H222}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q9H222};
+CC       Multi-pass membrane protein {ECO:0000250|UniProtKB:Q9H222}. Apical cell
+CC       membrane {ECO:0000250|UniProtKB:Q9H222}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:Q9H222}.
+CC   -!- TISSUE SPECIFICITY: Detected in liver (at protein level). Expressed
+CC       only in liver and intestine. {ECO:0000269|PubMed:12783625}.
+CC   -!- DOMAIN: The Walker motif (consensus sequence G-X-X-G-X-G-K-[ST]-T) is
+CC       expected to bind ATP. Within this motif, the conserved Lys is essential
+CC       for transport activity mediated by the heterodimer with ABCG8.
+CC       {ECO:0000250|UniProtKB:Q99PE8}.
+CC   -!- PTM: N-glycosylated. N-glycosylation is important for efficient export
+CC       out of the endoplasmic reticulum. {ECO:0000250|UniProtKB:Q99PE8}.
+CC   -!- POLYMORPHISM: The polymorphism at position 583 is found in strains SHR,
+CC       SHRSP and Wistar Kyoto which are both hypertensive and sitosterolemic.
+CC       Strains which are hypertensive but not sitosterolemic do not contain a
+CC       polymorphism at this position. {ECO:0000269|PubMed:12783625}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. ABCG family.
+CC       Eye pigment precursor importer (TC 3.A.1.204) subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF312714; AAG53098.3; -; mRNA.
+DR   EMBL; AY145899; AAN64275.1; -; Genomic_DNA.
+DR   RefSeq; NP_446206.2; NM_053754.2.
+DR   AlphaFoldDB; Q99PE7; -.
+DR   SMR; Q99PE7; -.
+DR   STRING; 10116.ENSRNOP00000007174; -.
+DR   GlyCosmos; Q99PE7; 2 sites, No reported glycans.
+DR   GlyGen; Q99PE7; 2 sites.
+DR   PhosphoSitePlus; Q99PE7; -.
+DR   PaxDb; 10116-ENSRNOP00000007174; -.
+DR   Ensembl; ENSRNOT00000007174.3; ENSRNOP00000007174.1; ENSRNOG00000005250.3.
+DR   Ensembl; ENSRNOT00065025097; ENSRNOP00065019644; ENSRNOG00065015140.
+DR   GeneID; 114628; -.
+DR   KEGG; rno:114628; -.
+DR   UCSC; RGD:620298; rat.
+DR   AGR; RGD:620298; -.
+DR   CTD; 64240; -.
+DR   RGD; 620298; Abcg5.
+DR   eggNOG; KOG0061; Eukaryota.
+DR   GeneTree; ENSGT00940000157985; -.
+DR   HOGENOM; CLU_000604_57_9_1; -.
+DR   InParanoid; Q99PE7; -.
+DR   OMA; RVRPWWD; -.
+DR   OrthoDB; 936137at2759; -.
+DR   PhylomeDB; Q99PE7; -.
+DR   TreeFam; TF105212; -.
+DR   Reactome; R-RNO-1369062; ABC transporters in lipid homeostasis.
+DR   PRO; PR:Q99PE7; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000005250; Expressed in jejunum and 7 other cell types or tissues.
+DR   GO; GO:0045177; C:apical part of cell; ISO:RGD.
+DR   GO; GO:0016324; C:apical plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0043235; C:receptor complex; ISO:RGD.
+DR   GO; GO:0140359; F:ABC-type transporter activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:Ensembl.
+DR   GO; GO:0042626; F:ATPase-coupled transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0120020; F:cholesterol transfer activity; IEA:Ensembl.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046982; F:protein heterodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0033344; P:cholesterol efflux; ISS:UniProtKB.
+DR   GO; GO:0042632; P:cholesterol homeostasis; IEP:RGD.
+DR   GO; GO:0045796; P:negative regulation of intestinal cholesterol absorption; ISO:RGD.
+DR   GO; GO:0010949; P:negative regulation of intestinal phytosterol absorption; ISO:RGD.
+DR   GO; GO:0010212; P:response to ionizing radiation; IEP:RGD.
+DR   GO; GO:0014850; P:response to muscle activity; IEP:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0031667; P:response to nutrient levels; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0015918; P:sterol transport; ISS:UniProtKB.
+DR   GO; GO:0055085; P:transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0070328; P:triglyceride homeostasis; IEP:RGD.
+DR   CDD; cd03234; ABCG_White; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR013525; ABC2_TM.
+DR   InterPro; IPR003439; ABC_transporter-like_ATP-bd.
+DR   InterPro; IPR017871; ABC_transporter-like_CS.
+DR   InterPro; IPR043926; ABCG_dom.
+DR   InterPro; IPR050352; ABCG_transporters.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR48041; ABC TRANSPORTER G FAMILY MEMBER 28; 1.
+DR   PANTHER; PTHR48041:SF113; ATP-BINDING CASSETTE SUB-FAMILY G MEMBER 5; 1.
+DR   Pfam; PF01061; ABC2_membrane; 1.
+DR   Pfam; PF19055; ABC2_membrane_7; 1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell membrane; Glycoprotein; Lipid transport; Magnesium;
+KW   Membrane; Metal-binding; Nucleotide-binding; Reference proteome;
+KW   Translocase; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..652
+FT                   /note="ATP-binding cassette sub-family G member 5"
+FT                   /id="PRO_0000093395"
+FT   TOPO_DOM        1..384
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TRANSMEM        385..405
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TOPO_DOM        406..422
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TRANSMEM        423..443
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TOPO_DOM        444..468
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TRANSMEM        469..490
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TOPO_DOM        491..501
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TRANSMEM        502..522
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TOPO_DOM        523..529
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TRANSMEM        530..550
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TOPO_DOM        551..624
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TRANSMEM        625..645
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   TOPO_DOM        646..652
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H222"
+FT   DOMAIN          39..294
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   DOMAIN          389..646
+FT                   /note="ABC transmembrane type-2"
+FT   REGION          1..30
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        15..30
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         87..94
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   CARBOHYD        585
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        592
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VARIANT         583
+FT                   /note="G -> C (in strain: SHR, SHRSP and Wistar Kyoto)"
+FT                   /evidence="ECO:0000269|PubMed:12783625"
+SQ   SEQUENCE   652 AA;  73372 MW;  49FEF7372269299D CRC64;
+     MSELPFLSPE GARGPHNNRG SQSSLEEGSV TGSEARHSLG VLNVSFSVSN RVGPWWNIKS
+     CQQKWDRKIL KDVSLYIESG QTMCILGSSG SGKTTLLDAI SGRLRRTGTL EGEVFVNGCE
+     LRRDQFQDCV SYLLQSDVFL SSLTVRETLR YTAMLALRSS SADFYDKKVE AVLTELSLSH
+     VADQMIGNYN FGGISSGERR RVSIAAQLLQ DPKVMMLDEP TTGLDCMTAN HIVLLLVELA
+     RRNRIVIVTI HQPRSELFHH FDKIAILTYG ELVFCGTPEE MLGFFNNCGY PCPEHSNPFD
+     FYMDLTSVDT QSREREIETY KRVQMLESAF RQSDICHKIL ENIERTRHLK TLPMVPFKTK
+     NPPGMFCKLG VLLRRVTRNL MRNKQVVIMR LVQNLIMGLF LIFYLLRVQN NMLKGAVQDR
+     VGLLYQLVGA TPYTGMLNAV NLFPMLRAVS DQESQDGLYQ KWQMLLAYVL HALPFSIVAT
+     VIFSSVCYWT LGLYPEVARF GYFSAALLAP HLIGEFLTLV LLGMVQNPNI VNSIVALLSI
+     SGLLIGSGFI RNIEEMPIPL KILGYFTFQK YCCEILVVNE FYGLNFTCGG SNTSVPNNPM
+     CSMTQGIQFI EKTCPGATSR FTTNFLILYS FIPTLVILGM VVFKVRDYLI SR
+//

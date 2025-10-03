@@ -1,0 +1,172 @@
+ID   CP270_RAT               Reviewed;         489 AA.
+AC   P19225;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1990, sequence version 1.
+DT   24-JUL-2024, entry version 166.
+DE   RecName: Full=Cytochrome P450 2C70;
+DE            EC=1.14.14.- {ECO:0000250|UniProtKB:Q91W64};
+DE   AltName: Full=CYPIIC70;
+DE   AltName: Full=Cytochrome P-450Md;
+DE   AltName: Full=Cytochrome P450 P49;
+DE   Flags: Precursor;
+GN   Name=Cyp2c70 {ECO:0000312|RGD:620368}; Synonyms=Cyp2c-70, Cyp2c22, P450md;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=2395662; DOI=10.1093/nar/18.16.4934;
+RA   Nagata K., Sasamura H., Miyata M., Shimada M., Yamazoe Y., Kato R.;
+RT   "cDNA and deduced amino acid sequences of a male dominant P-450Md mRNA in
+RT   rats.";
+RL   Nucleic Acids Res. 18:4934-4934(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=2263625; DOI=10.1073/pnas.87.24.9746;
+RA   Emi Y., Chijiiwa C., Omura T.;
+RT   "A different cytochrome P450 form is induced in primary cultures of rat
+RT   hepatocytes.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:9746-9750(1990).
+CC   -!- FUNCTION: A cytochrome P450 monooxygenase involved in muricholic acid
+CC       (MCA) synthesis. Hydroxylates at the 6-beta position two major bile
+CC       acids, chenodeoxycholic acid (CDCA) and ursodeoxycholic acid (UDCA) to
+CC       form alpha-MCA and beta-MCA, respectively. May regulate NR1H4/farnesoid
+CC       X receptor signaling, as taurine-conjugated MCAs are antagonists of
+CC       NR1H4. Mechanistically, uses molecular oxygen inserting one oxygen atom
+CC       into a substrate, and reducing the second into a water molecule, with
+CC       two electrons provided by NADPH via cytochrome P450 reductase (CPR;
+CC       NADPH-ferrihemoprotein reductase). {ECO:0000250|UniProtKB:Q91W64}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chenodeoxycholate + O2 + reduced [NADPH--hemoprotein
+CC         reductase] = alpha-muricholate + H(+) + H2O + oxidized [NADPH--
+CC         hemoprotein reductase]; Xref=Rhea:RHEA:51448, Rhea:RHEA-COMP:11964,
+CC         Rhea:RHEA-COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:36234, ChEBI:CHEBI:57618,
+CC         ChEBI:CHEBI:58210, ChEBI:CHEBI:134116;
+CC         Evidence={ECO:0000250|UniProtKB:Q91W64};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:51449;
+CC         Evidence={ECO:0000250|UniProtKB:Q91W64};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O2 + reduced [NADPH--hemoprotein reductase] + ursodeoxycholate
+CC         = beta-muricholate + H(+) + H2O + oxidized [NADPH--hemoprotein
+CC         reductase]; Xref=Rhea:RHEA:51452, Rhea:RHEA-COMP:11964, Rhea:RHEA-
+CC         COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:57618, ChEBI:CHEBI:58210, ChEBI:CHEBI:78604,
+CC         ChEBI:CHEBI:134119; Evidence={ECO:0000250|UniProtKB:Q91W64};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:51453;
+CC         Evidence={ECO:0000250|UniProtKB:Q91W64};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000250|UniProtKB:P33261};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane; Peripheral
+CC       membrane protein. Microsome membrane; Peripheral membrane protein.
+CC   -!- SIMILARITY: Belongs to the cytochrome P450 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X53477; CAA37570.1; -; mRNA.
+DR   EMBL; M58041; AAA40950.1; -; mRNA.
+DR   PIR; S11160; A39257.
+DR   RefSeq; NP_612521.1; NM_138512.1.
+DR   AlphaFoldDB; P19225; -.
+DR   SMR; P19225; -.
+DR   IntAct; P19225; 4.
+DR   STRING; 10116.ENSRNOP00000051607; -.
+DR   iPTMnet; P19225; -.
+DR   PhosphoSitePlus; P19225; -.
+DR   PaxDb; 10116-ENSRNOP00000051607; -.
+DR   Ensembl; ENSRNOT00000054724.3; ENSRNOP00000051607.2; ENSRNOG00000021924.5.
+DR   Ensembl; ENSRNOT00055050001; ENSRNOP00055041169; ENSRNOG00055028865.
+DR   Ensembl; ENSRNOT00060042148; ENSRNOP00060034950; ENSRNOG00060024351.
+DR   Ensembl; ENSRNOT00065052030; ENSRNOP00065042828; ENSRNOG00065030141.
+DR   GeneID; 171518; -.
+DR   KEGG; rno:171518; -.
+DR   UCSC; RGD:620368; rat.
+DR   AGR; RGD:620368; -.
+DR   CTD; 171518; -.
+DR   RGD; 620368; Cyp2c22.
+DR   eggNOG; KOG0156; Eukaryota.
+DR   GeneTree; ENSGT00940000162654; -.
+DR   HOGENOM; CLU_001570_22_3_1; -.
+DR   InParanoid; P19225; -.
+DR   OMA; SYELCFI; -.
+DR   OrthoDB; 2900138at2759; -.
+DR   PhylomeDB; P19225; -.
+DR   TreeFam; TF352043; -.
+DR   PRO; PR:P19225; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000021924; Expressed in liver and 14 other cell types or tissues.
+DR   ExpressionAtlas; P19225; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IBA:GO_Central.
+DR   GO; GO:0008392; F:arachidonic acid epoxygenase activity; IBA:GO_Central.
+DR   GO; GO:0020037; F:heme binding; IBA:GO_Central.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0004497; F:monooxygenase activity; TAS:RGD.
+DR   GO; GO:0016712; F:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen; IBA:GO_Central.
+DR   GO; GO:0019373; P:epoxygenase P450 pathway; IBA:GO_Central.
+DR   GO; GO:0006805; P:xenobiotic metabolic process; IBA:GO_Central.
+DR   CDD; cd20665; CYP2C-like; 1.
+DR   Gene3D; 1.10.630.10; Cytochrome P450; 1.
+DR   InterPro; IPR001128; Cyt_P450.
+DR   InterPro; IPR017972; Cyt_P450_CS.
+DR   InterPro; IPR002401; Cyt_P450_E_grp-I.
+DR   InterPro; IPR008069; Cyt_P450_E_grp-I_CYP2D-like.
+DR   InterPro; IPR036396; Cyt_P450_sf.
+DR   InterPro; IPR050182; Cytochrome_P450_fam2.
+DR   PANTHER; PTHR24300:SF200; CYTOCHROME P450 2C70; 1.
+DR   PANTHER; PTHR24300; CYTOCHROME P450 508A4-RELATED; 1.
+DR   Pfam; PF00067; p450; 1.
+DR   PRINTS; PR00463; EP450I.
+DR   PRINTS; PR01686; EP450ICYP2D.
+DR   PRINTS; PR00385; P450.
+DR   SUPFAM; SSF48264; Cytochrome P450; 1.
+DR   PROSITE; PS00086; CYTOCHROME_P450; 1.
+PE   2: Evidence at transcript level;
+KW   Endoplasmic reticulum; Heme; Iron; Membrane; Metal-binding; Microsome;
+KW   Monooxygenase; Oxidoreductase; Reference proteome; Signal.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..489
+FT                   /note="Cytochrome P450 2C70"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000051727"
+FT   BINDING         434
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000250|UniProtKB:P33261"
+FT   CONFLICT        50
+FT                   /note="I -> M (in Ref. 2; AAA40950)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        177
+FT                   /note="V -> L (in Ref. 2; AAA40950)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        456
+FT                   /note="T -> I (in Ref. 2; AAA40950)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        478
+FT                   /note="V -> L (in Ref. 2; AAA40950)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        483
+FT                   /note="E -> Q (in Ref. 2; AAA40950)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   489 AA;  56157 MW;  E4C5B082AB81CB4D CRC64;
+     MALFIFLGIW LSCLVFLFLW NQHHVRRKLP PGPTPLPIFG NILQVGVKNI SKSMCMLAKE
+     YGPVFTMYLG MKPTVVLYGY EVLKEALIDR GEEFSDKMHS SMLSKVSQGL GIVFSNGEIW
+     KQTRRFSLMV LRSMGMGKRT IENRIQEEVV YLLEALRKTN GSPCDPSFLL ACVPCNVISS
+     VIFQHRFDYS DEKFQKFIEN FHTKIEILAS PWAQLCSAYP VLYYLPGIHN KFLKDVTEQK
+     KFILMEINRH RASLNLSNPQ DFIDYFLIKM EKEKHNEKSE FTMDNLIVTI GDLFGAGTET
+     TSSTIKYGLL LLLKYPEVTA KIQEEITRVI GRHRRPCMQD RNHMPYTDAV LHEIQRYIDF
+     VPIPLPRKTT QDVEFRGYHI PKGTSVMACL TSALHDDKEF PNPEKFDPGH FLDEKGNFKK
+     SDYFMAFSAG RRACIGEGLA RMEMFLILTS ILQHFTLKPL VNPEDIDTTP VQPGLLSVPP
+     PFELCFIPV
+//

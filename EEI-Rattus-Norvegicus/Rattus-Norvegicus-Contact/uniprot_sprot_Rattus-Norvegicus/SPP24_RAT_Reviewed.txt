@@ -1,0 +1,118 @@
+ID   SPP24_RAT               Reviewed;         203 AA.
+AC   Q62740; Q5M874;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   21-MAR-2006, sequence version 2.
+DT   24-JAN-2024, entry version 120.
+DE   RecName: Full=Secreted phosphoprotein 24;
+DE            Short=Spp-24;
+DE   AltName: Full=Secreted phosphoprotein 2;
+DE   Flags: Precursor;
+GN   Name=Spp2; Synonyms=Spp24;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 24-203.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RA   Hu B., Price P.A.;
+RL   Submitted (FEB-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-137; SER-138 AND SER-174, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Could coordinate an aspect of bone turnover. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- PTM: Multiply phosphorylated at serine residues. {ECO:0000250}.
+CC   -!- PTM: Phosphorylation sites are present in the extracellular medium.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the SPP2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC088193; AAH88193.1; -; mRNA.
+DR   EMBL; U19485; AAA87903.1; -; mRNA.
+DR   RefSeq; NP_446029.1; NM_053577.1.
+DR   AlphaFoldDB; Q62740; -.
+DR   SMR; Q62740; -.
+DR   STRING; 10116.ENSRNOP00000075164; -.
+DR   iPTMnet; Q62740; -.
+DR   PhosphoSitePlus; Q62740; -.
+DR   PaxDb; 10116-ENSRNOP00000026108; -.
+DR   Ensembl; ENSRNOT00055018318; ENSRNOP00055014727; ENSRNOG00055010825.
+DR   Ensembl; ENSRNOT00060017872; ENSRNOP00060013878; ENSRNOG00060010573.
+DR   Ensembl; ENSRNOT00065035389; ENSRNOP00065028497; ENSRNOG00065020842.
+DR   GeneID; 94168; -.
+DR   KEGG; rno:94168; -.
+DR   UCSC; RGD:708488; rat.
+DR   AGR; RGD:708488; -.
+DR   CTD; 6694; -.
+DR   RGD; 708488; Spp2.
+DR   eggNOG; ENOG502S7TB; Eukaryota.
+DR   InParanoid; Q62740; -.
+DR   OrthoDB; 4041620at2759; -.
+DR   PhylomeDB; Q62740; -.
+DR   TreeFam; TF335972; -.
+DR   Reactome; R-RNO-114608; Platelet degranulation.
+DR   Reactome; R-RNO-381426; Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).
+DR   Reactome; R-RNO-8957275; Post-translational protein phosphorylation.
+DR   PRO; PR:Q62740; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0046849; P:bone remodeling; IEA:InterPro.
+DR   GO; GO:0065003; P:protein-containing complex assembly; IPI:RGD.
+DR   Gene3D; 3.10.450.10; -; 1.
+DR   InterPro; IPR046350; Cystatin_sf.
+DR   InterPro; IPR010892; Spp-24.
+DR   PANTHER; PTHR15444; SECRETED PHOSPHOPROTEIN 24; 1.
+DR   PANTHER; PTHR15444:SF4; SECRETED PHOSPHOPROTEIN 24; 1.
+DR   Pfam; PF07448; Spp-24; 1.
+DR   SUPFAM; SSF54403; Cystatin/monellin; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Phosphoprotein; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..203
+FT                   /note="Secreted phosphoprotein 24"
+FT                   /id="PRO_0000072146"
+FT   MOD_RES         90
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13103"
+FT   MOD_RES         137
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         138
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         174
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   DISULFID        86..96
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        109..127
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        130
+FT                   /note="A -> R (in Ref. 2; AAA87903)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   203 AA;  23170 MW;  5B9BCA590DC7F63E CRC64;
+     MELATMKTLV MLVLGMHYWC ASGFPVYDYD PSSLQEALSA SVAKVNSQSL SPYLFRATRS
+     SLKRVNVLDE DTLVMNLEFT VQETTCLRES GDPSTCAFQR GYSVPTAACR STVQMSKGQV
+     KDVWAHCRWA STSESNSSEE MIFGDMARSH RRRNDYLLGF LYDEPKGEQF YDRSIEITRR
+     GHPPAHRRFL NLQRRARVNS GFE
+//

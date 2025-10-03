@@ -1,0 +1,146 @@
+ID   UB2G1_RAT               Reviewed;         170 AA.
+AC   P62255; Q99462;
+DT   05-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   24-JUL-2024, entry version 134.
+DE   RecName: Full=Ubiquitin-conjugating enzyme E2 G1;
+DE            EC=2.3.2.23;
+DE   AltName: Full=E2 ubiquitin-conjugating enzyme G1;
+DE   AltName: Full=E217K;
+DE   AltName: Full=UBC7;
+DE   AltName: Full=Ubiquitin carrier protein G1;
+DE   AltName: Full=Ubiquitin-protein ligase G1;
+DE   Contains:
+DE     RecName: Full=Ubiquitin-conjugating enzyme E2 G1, N-terminally processed;
+GN   Name=Ube2g1; Synonyms=Ubc7, Ube2g;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RX   PubMed=10329663; DOI=10.1074/jbc.274.21.14685;
+RA   Lin H., Wing S.S.;
+RT   "Identification of rabbit reticulocyte E217K as a UBC7 homologue and
+RT   functional characterization of its core domain loop.";
+RL   J. Biol. Chem. 274:14685-14691(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Accepts ubiquitin from the E1 complex and catalyzes its
+CC       covalent attachment to other proteins. In vitro catalyzes 'Lys-48'-, as
+CC       well as 'Lys-63'-linked polyubiquitination. May be involved in
+CC       degradation of muscle-specific proteins. Mediates polyubiquitination of
+CC       CYP3A4. {ECO:0000250|UniProtKB:P62253}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-ubiquitinyl-[E1 ubiquitin-activating enzyme]-L-cysteine +
+CC         [E2 ubiquitin-conjugating enzyme]-L-cysteine = [E1 ubiquitin-
+CC         activating enzyme]-L-cysteine + S-ubiquitinyl-[E2 ubiquitin-
+CC         conjugating enzyme]-L-cysteine.; EC=2.3.2.23;
+CC         Evidence={ECO:0000250|UniProtKB:P62253, ECO:0000255|PROSITE-
+CC         ProRule:PRU00388, ECO:0000255|PROSITE-ProRule:PRU10133};
+CC   -!- PATHWAY: Protein modification; protein ubiquitination.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00388}.
+CC   -!- TISSUE SPECIFICITY: Widely expressed, with higher level in testis.
+CC       {ECO:0000269|PubMed:10329663}.
+CC   -!- DEVELOPMENTAL STAGE: Induced from days 15 to 30.
+CC   -!- PTM: Autoubiquitinated. {ECO:0000250|UniProtKB:P62253}.
+CC   -!- SIMILARITY: Belongs to the ubiquitin-conjugating enzyme family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00388}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF099093; AAC69605.1; -; mRNA.
+DR   EMBL; BC086980; AAH86980.1; -; mRNA.
+DR   RefSeq; NP_073181.1; NM_022690.2.
+DR   AlphaFoldDB; P62255; -.
+DR   SMR; P62255; -.
+DR   IntAct; P62255; 1.
+DR   STRING; 10116.ENSRNOP00000013486; -.
+DR   PhosphoSitePlus; P62255; -.
+DR   jPOST; P62255; -.
+DR   PaxDb; 10116-ENSRNOP00000013486; -.
+DR   Ensembl; ENSRNOT00000013486.5; ENSRNOP00000013486.4; ENSRNOG00000010041.7.
+DR   Ensembl; ENSRNOT00055045827; ENSRNOP00055037567; ENSRNOG00055026532.
+DR   Ensembl; ENSRNOT00060041127; ENSRNOP00060034056; ENSRNOG00060023689.
+DR   Ensembl; ENSRNOT00065041350; ENSRNOP00065033775; ENSRNOG00065024070.
+DR   GeneID; 64631; -.
+DR   KEGG; rno:64631; -.
+DR   AGR; RGD:620392; -.
+DR   CTD; 7326; -.
+DR   RGD; 620392; Ube2g1.
+DR   eggNOG; KOG0425; Eukaryota.
+DR   GeneTree; ENSGT00940000155228; -.
+DR   HOGENOM; CLU_030988_10_1_1; -.
+DR   InParanoid; P62255; -.
+DR   OrthoDB; 149628at2759; -.
+DR   PhylomeDB; P62255; -.
+DR   TreeFam; TF101118; -.
+DR   Reactome; R-RNO-8866652; Synthesis of active ubiquitin: roles of E1 and E2 enzymes.
+DR   Reactome; R-RNO-983168; Antigen processing: Ubiquitination & Proteasome degradation.
+DR   UniPathway; UPA00143; -.
+DR   PRO; PR:P62255; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000010041; Expressed in quadriceps femoris and 20 other cell types or tissues.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0061631; F:ubiquitin conjugating enzyme activity; ISO:RGD.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0004842; F:ubiquitin-protein transferase activity; IDA:RGD.
+DR   GO; GO:0043161; P:proteasome-mediated ubiquitin-dependent protein catabolic process; IBA:GO_Central.
+DR   GO; GO:0070936; P:protein K48-linked ubiquitination; ISS:UniProtKB.
+DR   GO; GO:0070534; P:protein K63-linked ubiquitination; ISS:UniProtKB.
+DR   GO; GO:0000209; P:protein polyubiquitination; IBA:GO_Central.
+DR   GO; GO:0016567; P:protein ubiquitination; TAS:RGD.
+DR   GO; GO:0006511; P:ubiquitin-dependent protein catabolic process; TAS:RGD.
+DR   CDD; cd00195; UBCc; 1.
+DR   Gene3D; 3.10.110.10; Ubiquitin Conjugating Enzyme; 1.
+DR   InterPro; IPR050113; Ub_conjugating_enzyme.
+DR   InterPro; IPR000608; UBQ-conjugat_E2.
+DR   InterPro; IPR023313; UBQ-conjugating_AS.
+DR   InterPro; IPR016135; UBQ-conjugating_enzyme/RWD.
+DR   PANTHER; PTHR24067; UBIQUITIN-CONJUGATING ENZYME E2; 1.
+DR   PANTHER; PTHR24067:SF3; UBIQUITIN-CONJUGATING ENZYME E2 G1; 1.
+DR   Pfam; PF00179; UQ_con; 1.
+DR   SMART; SM00212; UBCc; 1.
+DR   SUPFAM; SSF54495; UBC-like; 1.
+DR   PROSITE; PS00183; UBC_1; 1.
+DR   PROSITE; PS50127; UBC_2; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; ATP-binding; Nucleotide-binding; Reference proteome;
+KW   Transferase; Ubl conjugation; Ubl conjugation pathway.
+FT   CHAIN           1..170
+FT                   /note="Ubiquitin-conjugating enzyme E2 G1"
+FT                   /id="PRO_0000424517"
+FT   INIT_MET        1
+FT                   /note="Removed; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P62253"
+FT   CHAIN           2..170
+FT                   /note="Ubiquitin-conjugating enzyme E2 G1, N-terminally
+FT                   processed"
+FT                   /id="PRO_0000082482"
+FT   DOMAIN          5..166
+FT                   /note="UBC core"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00388"
+FT   ACT_SITE        90
+FT                   /note="Glycyl thioester intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00388,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10133"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P62253"
+FT   MOD_RES         2
+FT                   /note="N-acetylthreonine; in Ubiquitin-conjugating enzyme
+FT                   E2 G1, N-terminally processed"
+FT                   /evidence="ECO:0000250|UniProtKB:P62253"
+SQ   SEQUENCE   170 AA;  19509 MW;  36B61766D995B332 CRC64;
+     MTELQSALLL RRQLAELNKN PVEGFSAGLI DDNDLYRWEV LIIGPPDTLY EGGVFKAHLT
+     FPKDYPLRPP KMKFITEIWH PNVDKNGDVC ISILHEPGED KYGYEKPEER WLPIHTVETI
+     MISVISMLAD PNGDSPANVD AAKEWREDRN GEFKRKVARC VRKSQETAFE
+//

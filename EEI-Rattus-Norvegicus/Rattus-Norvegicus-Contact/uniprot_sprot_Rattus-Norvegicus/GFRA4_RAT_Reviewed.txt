@@ -1,0 +1,135 @@
+ID   GFRA4_RAT               Reviewed;         273 AA.
+AC   Q9EPI2; Q9EPI3;
+DT   23-APR-2003, integrated into UniProtKB/Swiss-Prot.
+DT   23-APR-2003, sequence version 2.
+DT   02-OCT-2024, entry version 128.
+DE   RecName: Full=GDNF family receptor alpha-4;
+DE            Short=GDNF receptor alpha-4;
+DE            Short=GDNFR-alpha-4;
+DE            Short=GFR-alpha-4;
+DE   AltName: Full=Persephin receptor;
+DE   Flags: Precursor;
+GN   Name=Gfra4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS A AND B), FUNCTION, SUBCELLULAR
+RP   LOCATION, TISSUE SPECIFICITY, AND VARIANT ARG-257.
+RC   TISSUE=Brain, Heart, and Kidney;
+RX   PubMed=10958791; DOI=10.1074/jbc.m003867200;
+RA   Masure S., Cik M., Hoefnagel E., Nosrat C.A., Van der Linden I., Scott R.,
+RA   Van Gompel P., Lesage A.S.J., Verhasselt P., Ibanez C.F., Gordon R.D.;
+RT   "Mammalian GFRalpha-4, a divergent member of the GFRalpha family of
+RT   coreceptors for glial cell line-derived neurotrophic factor family ligands,
+RT   is a receptor for the neurotrophic factor persephin.";
+RL   J. Biol. Chem. 275:39427-39434(2000).
+CC   -!- FUNCTION: Receptor for persephin (PSPN), a growth factor that exhibits
+CC       neurotrophic activity on mesencephalic dopaminergic and motor neurons
+CC       (PubMed:10958791). Acts by binding to its coreceptor, GFRA4, leading to
+CC       autophosphorylation and activation of the RET receptor (By similarity).
+CC       May be important in C-cell development and, in the postnatal
+CC       development of the adrenal medulla (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9GZZ7, ECO:0000269|PubMed:10958791}.
+CC   -!- SUBUNIT: Interacts with ARTN ligand and RET: forms a 2:2:2 ternary
+CC       complex composed of ARTN ligand, GFRA3 and RET receptor. Interacts with
+CC       SORL1. {ECO:0000250|UniProtKB:Q9GZZ7}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform A]: Cell membrane
+CC       {ECO:0000269|PubMed:10958791}; Lipid-anchor, GPI-anchor
+CC       {ECO:0000250|UniProtKB:Q9GZZ7}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform B]: Secreted
+CC       {ECO:0000305|PubMed:10958791}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC         Comment=Additional isoforms seem to exist.;
+CC       Name=A;
+CC         IsoId=Q9EPI2-1; Sequence=Displayed;
+CC       Name=B;
+CC         IsoId=Q9EPI2-2; Sequence=VSP_007230;
+CC   -!- TISSUE SPECIFICITY: Weakly expressed in heart, brain and testis.
+CC   -!- MISCELLANEOUS: [Isoform A]: GPI-anchored form.
+CC       {ECO:0000269|PubMed:10958791}.
+CC   -!- SIMILARITY: Belongs to the GDNFR family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ294475; CAC16420.1; -; mRNA.
+DR   EMBL; AJ294476; CAC16421.1; -; mRNA.
+DR   RefSeq; NP_076457.1; NM_023967.1. [Q9EPI2-2]
+DR   AlphaFoldDB; Q9EPI2; -.
+DR   SMR; Q9EPI2; -.
+DR   STRING; 10116.ENSRNOP00000042875; -.
+DR   GlyCosmos; Q9EPI2; 1 site, No reported glycans.
+DR   GlyGen; Q9EPI2; 1 site.
+DR   PaxDb; 10116-ENSRNOP00000042875; -.
+DR   Ensembl; ENSRNOT00000047947.3; ENSRNOP00000042875.2; ENSRNOG00000021241.7. [Q9EPI2-2]
+DR   GeneID; 66023; -.
+DR   KEGG; rno:66023; -.
+DR   UCSC; RGD:620503; rat. [Q9EPI2-1]
+DR   AGR; RGD:620503; -.
+DR   CTD; 64096; -.
+DR   RGD; 620503; Gfra4.
+DR   VEuPathDB; HostDB:ENSRNOG00000021241; -.
+DR   eggNOG; ENOG502QSGA; Eukaryota.
+DR   GeneTree; ENSGT00940000160491; -.
+DR   HOGENOM; CLU_040179_2_0_1; -.
+DR   InParanoid; Q9EPI2; -.
+DR   OrthoDB; 4638216at2759; -.
+DR   Reactome; R-RNO-5673001; RAF/MAP kinase cascade.
+DR   Reactome; R-RNO-8853659; RET signaling.
+DR   PRO; PR:Q9EPI2; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000021241; Expressed in ovary and 15 other cell types or tissues.
+DR   GO; GO:0009897; C:external side of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0043235; C:receptor complex; IBA:GO_Central.
+DR   GO; GO:0016167; F:glial cell-derived neurotrophic factor receptor activity; IDA:RGD.
+DR   GO; GO:0035860; P:glial cell-derived neurotrophic factor receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0030279; P:negative regulation of ossification; ISO:RGD.
+DR   GO; GO:0007399; P:nervous system development; IBA:GO_Central.
+DR   GO; GO:0001503; P:ossification; ISO:RGD.
+DR   Gene3D; 1.10.220.110; GDNF binding domain; 1.
+DR   InterPro; IPR016017; GDNF/GAS1.
+DR   InterPro; IPR037193; GDNF_alpha.
+DR   InterPro; IPR003438; GDNF_rcpt.
+DR   PANTHER; PTHR10269:SF2; GDNF FAMILY RECEPTOR ALPHA-4; 1.
+DR   PANTHER; PTHR10269; GDNF RECEPTOR ALPHA; 1.
+DR   Pfam; PF02351; GDNF; 2.
+DR   PRINTS; PR01316; GDNFRECEPTOR.
+DR   SMART; SM00907; GDNF; 2.
+DR   SUPFAM; SSF110035; GDNF receptor-like; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Cell membrane; Glycoprotein; GPI-anchor; Lipoprotein;
+KW   Membrane; Receptor; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..?
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           ?..250
+FT                   /note="GDNF family receptor alpha-4"
+FT                   /id="PRO_0000010797"
+FT   PROPEP          251..273
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000010798"
+FT   LIPID           250
+FT                   /note="GPI-anchor amidated asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        192
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         253..273
+FT                   /note="CCFLWVSSMSILTALALQALL -> QAKVEA (in isoform B)"
+FT                   /evidence="ECO:0000303|PubMed:10958791"
+FT                   /id="VSP_007230"
+FT   VARIANT         257
+FT                   /note="W -> R (in 50% of the molecules)"
+FT                   /evidence="ECO:0000269|PubMed:10958791"
+SQ   SEQUENCE   273 AA;  29682 MW;  E0BB76ABE2AC6B04 CRC64;
+     MLSGAYLRVL NERPGQAVLW SLGCQRGSAS STEGNRCVEA AEACTADEQC QQLRSEYVAQ
+     CLGRAGWRGP GSCVRSRCRR ALRRFFARGP PALTHALLFC GCEGPACAER RRQTFAPACA
+     FSGPQLAPPS CLKPLDRCER SRRCRPRLFA FQASCAPAPG SRDGCPEEGG PRCLRAYAGL
+     VGTVVTPNYL DNVSARVAPW CGCEASGNRR EECEAFRKLF TRNPCLDGAI QAFDSSQPSV
+     LQDQWNPYQN AGCCFLWVSS MSILTALALQ ALL
+//

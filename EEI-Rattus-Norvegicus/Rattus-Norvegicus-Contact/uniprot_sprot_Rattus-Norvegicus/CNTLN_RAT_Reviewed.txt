@@ -1,0 +1,107 @@
+ID   CNTLN_RAT               Reviewed;         721 AA.
+AC   A9ZSY0;
+DT   08-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   24-JUL-2024, entry version 72.
+DE   RecName: Full=Centlein;
+DE   AltName: Full=Centrosomal protein;
+DE   Flags: Fragment;
+GN   Name=Cntln {ECO:0000250|UniProtKB:Q9NXG0};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:BAF98578.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND SUBCELLULAR LOCATION.
+RX   PubMed=18086554; DOI=10.1016/j.bbrc.2007.12.050;
+RA   Makino K., Umeda K., Uezu A., Hiragami Y., Sakamoto T., Ihn H.,
+RA   Nakanishi H.;
+RT   "Identification and characterization of the novel centrosomal protein
+RT   centlein.";
+RL   Biochem. Biophys. Res. Commun. 366:958-962(2008).
+CC   -!- FUNCTION: Required for centrosome cohesion and recruitment of CEP68 to
+CC       centrosomes. {ECO:0000250|UniProtKB:Q9NXG0}.
+CC   -!- SUBUNIT: Interacts with CEP250 and CEP68. Interacts with NEK2; the
+CC       interaction leads to phosphorylation of CNTLN.
+CC       {ECO:0000250|UniProtKB:Q9NXG0}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton, microtubule organizing
+CC       center, centrosome, centriole {ECO:0000269|PubMed:18086554}.
+CC       Note=Colocalizes with gamma-tubulin during interphase and mitosis
+CC       (PubMed:18086554). Appears to associate with the mother centriole
+CC       during G1 phase and with daughter centrioles towards G1/S phase
+CC       (PubMed:18086554). Localizes to the proximal ends of the centrioles (By
+CC       similarity). Levels are high at interphase centrosomes but are reduced
+CC       on mitotic spindle poles (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9NXG0, ECO:0000269|PubMed:18086554}.
+CC   -!- PTM: Phosphorylated directly or indirectly by NEK2.
+CC       {ECO:0000250|UniProtKB:Q9NXG0}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB369315; BAF98578.1; -; mRNA.
+DR   RefSeq; NP_001107874.1; NM_001114402.1.
+DR   AlphaFoldDB; A9ZSY0; -.
+DR   SMR; A9ZSY0; -.
+DR   STRING; 10116.ENSRNOP00000008757; -.
+DR   PhosphoSitePlus; A9ZSY0; -.
+DR   PaxDb; 10116-ENSRNOP00000008757; -.
+DR   PeptideAtlas; A9ZSY0; -.
+DR   GeneID; 679640; -.
+DR   KEGG; rno:679640; -.
+DR   UCSC; RGD:1308101; rat.
+DR   AGR; RGD:1308101; -.
+DR   CTD; 54875; -.
+DR   RGD; 1308101; Cntln.
+DR   eggNOG; ENOG502QRVC; Eukaryota.
+DR   InParanoid; A9ZSY0; -.
+DR   OrthoDB; 2913664at2759; -.
+DR   PhylomeDB; A9ZSY0; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005814; C:centriole; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0019904; F:protein domain specific binding; ISO:RGD.
+DR   GO; GO:0019901; F:protein kinase binding; ISO:RGD.
+DR   GO; GO:0030674; F:protein-macromolecule adaptor activity; ISO:RGD.
+DR   GO; GO:0010457; P:centriole-centriole cohesion; ISO:RGD.
+DR   GO; GO:0033365; P:protein localization to organelle; ISO:RGD.
+DR   InterPro; IPR038810; CNTLN.
+DR   PANTHER; PTHR18957; CENTLEIN; 1.
+DR   PANTHER; PTHR18957:SF0; CENTLEIN; 1.
+PE   2: Evidence at transcript level;
+KW   Coiled coil; Cytoplasm; Cytoskeleton; Phosphoprotein; Reference proteome.
+FT   CHAIN           <1..721
+FT                   /note="Centlein"
+FT                   /id="PRO_0000328977"
+FT   REGION          156..180
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          259..288
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          52..164
+FT                   /evidence="ECO:0000255"
+FT   COILED          345..515
+FT                   /evidence="ECO:0000255"
+FT   COILED          573..626
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         658
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:A2AM05"
+FT   NON_TER         1
+SQ   SEQUENCE   721 AA;  82721 MW;  D4BC438FFE46A88A CRC64;
+     MNLQDELDEL KIYMTIDKTT IQELNRCMAE KREEQLFRHH EDAGVKKSTP EKNEKAISEQ
+     TLEKVIELEN RLKSFEKNSR KLKEESKKLK KENDFLKSHL QHYQEDSESR GKELEKLLRV
+     SSSVEQDKSE LQTKVTALER EVTTLRRQVA KAKALRDENE EVVNPEEKEH CPTDKAKSEM
+     ATTDVRAQHC DCKTTTTKVK FKAAKKKCSV GRHHTVLNHS IKVMSHVENL SKDGWEDMSE
+     GSSDSETQTF QNLGTVIVET SQNIRPIEND GNQKETDQTE DSRAQQEVQT YSCEDLKAPQ
+     NTKKMTFQNK SGSLQKNLHS ALPARVNREK CKTKPAQKSS SNTILLRERI VSLQQQNSLL
+     QNARKAAESS AKEFKEANEK LLHQQQISDH RFQTSRQTIK LTLDLAELRK EKEDLLKKVE
+     SSSDITSLAE EVSRIMAPQI QVTTLGPSRS TDLEIKQLQC KLKNATNELT KQSSSVKSLK
+     LELLAKDDHM KAMQEKMSRM ERDITMKRHL IEDLKFRQKI NSESNESFNE MLGTLEKKDL
+     KMNLLISKLN DTETAMAQIK SAASEQLQGL ALQSEQVLEG TQKKLLLANE KIEEFTVFVQ
+     ALVNELQSDA HRTRQQVREL RQTQKSRHAC KTSTHKAQTL AASILNISRS DLEEILHTGD
+     EMEIEKTKID AENDKDWMLY IQKLLQGQLP FASYLLEAVL GKIKENKKLT EGYFTVMKDI
+     K
+//

@@ -1,0 +1,233 @@
+ID   INSI1_RAT               Reviewed;         259 AA.
+AC   Q08755;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   29-MAY-2024, entry version 130.
+DE   RecName: Full=Insulin-induced gene 1 protein {ECO:0000250|UniProtKB:O15503};
+DE            Short=INSIG-1 {ECO:0000250|UniProtKB:O15503};
+DE   AltName: Full=Immediate-early protein CL-6 {ECO:0000303|PubMed:7686911};
+DE   AltName: Full=Insulin-induced growth response protein CL-6 {ECO:0000303|PubMed:7686911};
+GN   Name=Insig1 {ECO:0000312|RGD:708457};
+GN   Synonyms=Cl-6 {ECO:0000303|PubMed:7686911};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND INDUCTION.
+RC   TISSUE=Liver;
+RX   PubMed=7686911; DOI=10.1016/s0021-9258(18)82454-1;
+RA   Diamond R.H., Du K., Lee V.M., Mohn K.L., Haber B.A., Tewari D.S., Taub R.;
+RT   "Novel delayed-early and highly insulin-induced growth response genes.
+RT   Identification of HRS, a potential regulator of alternative pre-mRNA
+RT   splicing.";
+RL   J. Biol. Chem. 268:15185-15192(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Oxysterol-binding protein that mediates feedback control of
+CC       cholesterol synthesis by controlling both endoplasmic reticulum to
+CC       Golgi transport of SCAP and degradation of HMGCR. Acts as a negative
+CC       regulator of cholesterol biosynthesis by mediating the retention of the
+CC       SCAP-SREBP complex in the endoplasmic reticulum, thereby blocking the
+CC       processing of sterol regulatory element-binding proteins (SREBPs)
+CC       SREBF1/SREBP1 and SREBF2/SREBP2. Binds oxysterol, including 25-
+CC       hydroxycholesterol, regulating interaction with SCAP and retention of
+CC       the SCAP-SREBP complex in the endoplasmic reticulum. In presence of
+CC       oxysterol, interacts with SCAP, retaining the SCAP-SREBP complex in the
+CC       endoplasmic reticulum, thereby preventing SCAP from escorting
+CC       SREBF1/SREBP1 and SREBF2/SREBP2 to the Golgi. Sterol deprivation or
+CC       phosphorylation by PCK1 reduce oxysterol-binding, disrupting the
+CC       interaction between INSIG1 and SCAP, thereby promoting Golgi transport
+CC       of the SCAP-SREBP complex, followed by processing and nuclear
+CC       translocation of SREBF1/SREBP1 and SREBF2/SREBP2. Also regulates
+CC       cholesterol synthesis by regulating degradation of HMGCR: initiates the
+CC       sterol-mediated ubiquitin-mediated endoplasmic reticulum-associated
+CC       degradation (ERAD) of HMGCR via recruitment of the reductase to the
+CC       ubiquitin ligases AMFR/gp78 and/or RNF139. Also regulates degradation
+CC       of SOAT2/ACAT2 when the lipid levels are low: initiates the ubiquitin-
+CC       mediated degradation of SOAT2/ACAT2 via recruitment of the ubiquitin
+CC       ligases AMFR/gp78. {ECO:0000250|UniProtKB:O15503}.
+CC   -!- SUBUNIT: Interacts with SCAP; interaction is direct and only takes
+CC       place in the presence of sterols; it prevents interaction between SCAP
+CC       and the coat protein complex II (COPII). Associates with the SCAP-SREBP
+CC       complex (composed of SCAP and SREBF1/SREBP1 or SREBF2/SREBP2);
+CC       association is mediated via its interaction with SCAP and only takes
+CC       place in the presence of sterols. Interacts with HMGCR (via its SSD);
+CC       the interaction, accelerated by sterols, leads to the recruitment of
+CC       HMGCR to AMFR/gp78 for its ubiquitination by the sterol-mediated ERAD
+CC       pathway. Interacts with AMFR/gp78 (via its membrane domain); the
+CC       interaction recruits HMCR at the ER membrane for its ubiquitination and
+CC       degradation by the sterol-mediated ERAD pathway. Interacts with
+CC       SOAT2/ACAT2; leading to promote recruitment of AMFR/gp78 and subsequent
+CC       ubiquitination of SOAT2/ACAT2. Interacts with RNF139. Interacts with
+CC       RNF145. {ECO:0000250|UniProtKB:O15503}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:O15503}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:O15503}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in liver and kidney.
+CC       {ECO:0000269|PubMed:7686911}.
+CC   -!- INDUCTION: By insulin and hepatectomy. {ECO:0000269|PubMed:7686911}.
+CC   -!- DOMAIN: The KxHxx motif mediates association with the coatomer complex.
+CC       {ECO:0000250|UniProtKB:O15503}.
+CC   -!- DOMAIN: Binds oxysterols in a pocket within their transmembrane domains
+CC       and interacts with SCAP via transmembrane domains 3 and 4.
+CC       {ECO:0000250|UniProtKB:Q9Y5U4}.
+CC   -!- PTM: Phosphorylation at Ser-189 by PCK1 reduces binding to oxysterol,
+CC       disrupting the interaction between INSIG1 and SCAP, thereby promoting
+CC       nuclear translocation of SREBP proteins (SREBF1/SREBP1 or
+CC       SREBF2/SREBP2) and subsequent transcription of downstream lipogenesis-
+CC       related genes. {ECO:0000250|UniProtKB:O15503}.
+CC   -!- PTM: Ubiquitinated by AMFR/gp78 in response to sterol deprivation,
+CC       leading to its degradation: when the SCAP-SREBP complex becomes
+CC       dissociated from INSIG1, INSIG1 is then ubiquitinated and degraded in
+CC       proteasomes. Although ubiquitination is required for rapid INSIG1
+CC       degradation, it is not required for release of the SCAP-SREBP complex.
+CC       Ubiquitinated by RNF139. {ECO:0000250|UniProtKB:O15503}.
+CC   -!- SIMILARITY: Belongs to the INSIG family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L13619; AAA40938.1; -; mRNA.
+DR   EMBL; BC078827; AAH78827.1; -; mRNA.
+DR   PIR; A47112; A47112.
+DR   RefSeq; NP_071787.1; NM_022392.1.
+DR   AlphaFoldDB; Q08755; -.
+DR   SMR; Q08755; -.
+DR   STRING; 10116.ENSRNOP00000009233; -.
+DR   PhosphoSitePlus; Q08755; -.
+DR   PaxDb; 10116-ENSRNOP00000009233; -.
+DR   Ensembl; ENSRNOT00000009233.7; ENSRNOP00000009233.4; ENSRNOG00000006859.7.
+DR   Ensembl; ENSRNOT00055008945; ENSRNOP00055006810; ENSRNOG00055005568.
+DR   Ensembl; ENSRNOT00060037076; ENSRNOP00060030581; ENSRNOG00060021414.
+DR   Ensembl; ENSRNOT00065006462; ENSRNOP00065004538; ENSRNOG00065004437.
+DR   GeneID; 64194; -.
+DR   KEGG; rno:64194; -.
+DR   AGR; RGD:708457; -.
+DR   CTD; 3638; -.
+DR   RGD; 708457; Insig1.
+DR   eggNOG; KOG4363; Eukaryota.
+DR   GeneTree; ENSGT00580000081600; -.
+DR   HOGENOM; CLU_092922_0_0_1; -.
+DR   InParanoid; Q08755; -.
+DR   OMA; FWSCSCT; -.
+DR   OrthoDB; 2943928at2759; -.
+DR   PhylomeDB; Q08755; -.
+DR   TreeFam; TF331013; -.
+DR   PRO; PR:Q08755; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000006859; Expressed in duodenum and 19 other cell types or tissues.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISO:RGD.
+DR   GO; GO:0032937; C:SREBP-SCAP-Insig complex; ISO:RGD.
+DR   GO; GO:0008142; F:oxysterol binding; ISS:UniProtKB.
+DR   GO; GO:0140311; F:protein sequestering activity; ISO:RGD.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; IEP:RGD.
+DR   GO; GO:0036315; P:cellular response to sterol; ISO:RGD.
+DR   GO; GO:0006695; P:cholesterol biosynthetic process; ISO:RGD.
+DR   GO; GO:0042632; P:cholesterol homeostasis; ISO:RGD.
+DR   GO; GO:0008203; P:cholesterol metabolic process; ISO:RGD.
+DR   GO; GO:0060363; P:cranial suture morphogenesis; ISO:RGD.
+DR   GO; GO:0042472; P:inner ear morphogenesis; ISO:RGD.
+DR   GO; GO:0042474; P:middle ear morphogenesis; ISO:RGD.
+DR   GO; GO:1901303; P:negative regulation of cargo loading into COPII-coated vesicle; ISO:RGD.
+DR   GO; GO:0045599; P:negative regulation of fat cell differentiation; ISO:RGD.
+DR   GO; GO:0045717; P:negative regulation of fatty acid biosynthetic process; ISO:RGD.
+DR   GO; GO:0070862; P:negative regulation of protein exit from endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0010894; P:negative regulation of steroid biosynthetic process; ISO:RGD.
+DR   GO; GO:0032355; P:response to estradiol; IEP:RGD.
+DR   GO; GO:0070542; P:response to fatty acid; IEP:RGD.
+DR   GO; GO:0033993; P:response to lipid; IEP:RGD.
+DR   GO; GO:0043434; P:response to peptide hormone; IEP:RGD.
+DR   GO; GO:0006991; P:response to sterol depletion; ISO:RGD.
+DR   GO; GO:0060021; P:roof of mouth development; ISO:RGD.
+DR   GO; GO:0032933; P:SREBP signaling pathway; ISO:RGD.
+DR   GO; GO:0036316; P:SREBP-SCAP complex retention in endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0016126; P:sterol biosynthetic process; ISO:RGD.
+DR   GO; GO:0006641; P:triglyceride metabolic process; ISO:RGD.
+DR   InterPro; IPR025929; INSIG_fam.
+DR   PANTHER; PTHR15301; INSULIN-INDUCED GENE 1; 1.
+DR   PANTHER; PTHR15301:SF11; INSULIN-INDUCED GENE 1 PROTEIN; 1.
+DR   Pfam; PF07281; INSIG; 1.
+PE   2: Evidence at transcript level;
+KW   Cholesterol metabolism; Endoplasmic reticulum; Isopeptide bond;
+KW   Lipid metabolism; Lipid-binding; Membrane; Phosphoprotein;
+KW   Reference proteome; Steroid metabolism; Sterol metabolism; Transmembrane;
+KW   Transmembrane helix; Ubl conjugation.
+FT   CHAIN           1..259
+FT                   /note="Insulin-induced gene 1 protein"
+FT                   /id="PRO_0000191677"
+FT   TOPO_DOM        1..66
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:O15503"
+FT   TRANSMEM        67..89
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000250|UniProtKB:A1T557"
+FT   TOPO_DOM        90..108
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        109..126
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000250|UniProtKB:A1T557"
+FT   TOPO_DOM        127..141
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        142..164
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000250|UniProtKB:A1T557"
+FT   TOPO_DOM        165..167
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        168..186
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000250|UniProtKB:A1T557"
+FT   TOPO_DOM        187..191
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:O15503"
+FT   TRANSMEM        192..213
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000250|UniProtKB:A1T557"
+FT   TOPO_DOM        214..227
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        228..245
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000250|UniProtKB:A1T557"
+FT   TOPO_DOM        246..259
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:O15503"
+FT   REGION          33..57
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           253..259
+FT                   /note="KxHxx"
+FT                   /evidence="ECO:0000250|UniProtKB:O15503"
+FT   SITE            153
+FT                   /note="Required for the recognition of 25-
+FT                   hydroxycholesterol"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y5U4"
+FT   MOD_RES         189
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O15503"
+FT   CROSSLNK        138
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:O15503"
+FT   CROSSLNK        140
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:O15503"
+SQ   SEQUENCE   259 AA;  28232 MW;  68DA7E609818F637 CRC64;
+     MPRLHDHVWS YPSAGAARPY SLPRGMIAAA LCPQGPGAPE PEPAPRGQRE GTAGFSARPG
+     SWHHDLVQRS LVLFSFGVVL ALVLNLLQIQ RNVTLFPDEV IATIFSSAWW VPPCCGTAAA
+     VVGLLYPCID SHLGEPHKFK REWASVMRCI AVFVGINHAS AKLDFANNVQ LSLTLAALSL
+     GLWWTFDRSR SGLGLGITIA FLATLITQFL VYNGVYQYTS PDFLYIRSWL PCIFFSGGVT
+     VGNIGRQLAM GVPEKPHSD
+//

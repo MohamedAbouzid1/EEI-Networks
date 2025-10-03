@@ -1,0 +1,216 @@
+ID   A1BG_RAT                Reviewed;         513 AA.
+AC   Q9EPH1; Q5EBD6; Q9JKL2;
+DT   04-JAN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 2.
+DT   02-OCT-2024, entry version 138.
+DE   RecName: Full=Alpha-1B-glycoprotein;
+DE   AltName: Full=Alpha-1-B glycoprotein;
+DE   AltName: Full=C44;
+DE   AltName: Full=Liver regeneration-related protein 1;
+DE   Flags: Precursor;
+GN   Name=A1bg {ECO:0000312|RGD:69417};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:CAC19029.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), TISSUE SPECIFICITY, DEVELOPMENTAL
+RP   STAGE, AND INDUCTION.
+RC   STRAIN=Sprague-Dawley {ECO:0000312|EMBL:CAC19029.1};
+RC   TISSUE=Liver {ECO:0000312|EMBL:CAC19029.1};
+RX   PubMed=11356721; DOI=10.1210/endo.142.6.8193;
+RA   Gardmo C., Persson B., Mode A.;
+RT   "Cloning of a novel growth hormone-regulated rat complementary
+RT   deoxyribonucleic acid with homology to the human alpha1B-glycoprotein,
+RT   characterizing a new protein family.";
+RL   Endocrinology 142:2695-2701(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3] {ECO:0000305, ECO:0000312|EMBL:AAF68963.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 219-513 (ISOFORM 2), AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar {ECO:0000269|PubMed:11097837};
+RC   TISSUE=Liver {ECO:0000312|EMBL:AAF68963.1};
+RX   PubMed=11097837; DOI=10.1006/bbrc.2000.3792;
+RA   Xu W., Wang S., Wang G., Wei H., He F., Yang X.;
+RT   "Identification and characterization of differentially expressed genes in
+RT   the early response phase during liver regeneration.";
+RL   Biochem. Biophys. Res. Commun. 278:318-325(2000).
+CC   -!- SUBUNIT: Interacts with CRISP3. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P04217}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1 {ECO:0000269|PubMed:11356721};
+CC         IsoId=Q9EPH1-1; Sequence=Displayed;
+CC       Name=2 {ECO:0000269|PubMed:11097837};
+CC         IsoId=Q9EPH1-2; Sequence=VSP_051640, VSP_051641;
+CC   -!- TISSUE SPECIFICITY: Isoform 1 is expressed in normal liver. Isoform 2
+CC       is expressed in the regenerating liver after partial hepatectomy and at
+CC       very low levels in the normal lung, brain and testis.
+CC       {ECO:0000269|PubMed:11097837, ECO:0000269|PubMed:11356721}.
+CC   -!- DEVELOPMENTAL STAGE: [Isoform 1]: Expressed in females at day 35 with
+CC       higher levels detected at day 56. Not detected in males of any age.
+CC       {ECO:0000269|PubMed:11356721}.
+CC   -!- INDUCTION: [Isoform 1]: Up-regulated by continuous exposure to growth
+CC       hormone. {ECO:0000269|PubMed:11356721}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAF68963.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ302031; CAC19029.1; -; mRNA.
+DR   EMBL; BC089771; AAH89771.1; -; mRNA.
+DR   EMBL; AF236054; AAF68963.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_071594.2; NM_022258.2. [Q9EPH1-1]
+DR   AlphaFoldDB; Q9EPH1; -.
+DR   SMR; Q9EPH1; -.
+DR   STRING; 10116.ENSRNOP00000006273; -.
+DR   MEROPS; I43.950; -.
+DR   GlyCosmos; Q9EPH1; 7 sites, No reported glycans.
+DR   GlyGen; Q9EPH1; 7 sites.
+DR   PhosphoSitePlus; Q9EPH1; -.
+DR   SwissPalm; Q9EPH1; -.
+DR   PaxDb; 10116-ENSRNOP00000006273; -.
+DR   Ensembl; ENSRNOT00000006273.7; ENSRNOP00000006273.4; ENSRNOG00000004692.8. [Q9EPH1-1]
+DR   Ensembl; ENSRNOT00055043475; ENSRNOP00055035471; ENSRNOG00055025223. [Q9EPH1-1]
+DR   Ensembl; ENSRNOT00060006062; ENSRNOP00060004479; ENSRNOG00060003670. [Q9EPH1-1]
+DR   GeneID; 140656; -.
+DR   KEGG; rno:140656; -.
+DR   UCSC; RGD:69417; rat. [Q9EPH1-1]
+DR   AGR; RGD:69417; -.
+DR   CTD; 1; -.
+DR   RGD; 69417; A1bg.
+DR   eggNOG; ENOG502RYEX; Eukaryota.
+DR   GeneTree; ENSGT01120000271908; -.
+DR   HOGENOM; CLU_042929_1_0_1; -.
+DR   InParanoid; Q9EPH1; -.
+DR   OMA; WMASTTS; -.
+DR   OrthoDB; 4636097at2759; -.
+DR   PhylomeDB; Q9EPH1; -.
+DR   TreeFam; TF336644; -.
+DR   Reactome; R-RNO-114608; Platelet degranulation.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   PRO; PR:Q9EPH1; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000004692; Expressed in liver and 4 other cell types or tissues.
+DR   GO; GO:0005576; C:extracellular region; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0002764; P:immune response-regulating signaling pathway; IBA:GO_Central.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 5.
+DR   InterPro; IPR016332; A1B_glyco/leuk_Ig-like_rcpt.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR050412; Ig-like_Receptors_ImmuneReg.
+DR   InterPro; IPR003599; Ig_sub.
+DR   PANTHER; PTHR11738; MHC CLASS I NK CELL RECEPTOR; 1.
+DR   PANTHER; PTHR11738:SF159; PLATELET GLYCOPROTEIN VI; 1.
+DR   Pfam; PF13895; Ig_2; 1.
+DR   Pfam; PF13927; Ig_3; 1.
+DR   PIRSF; PIRSF001979; Alpha_1B_glycoprot_prd; 1.
+DR   SMART; SM00409; IG; 3.
+DR   SUPFAM; SSF48726; Immunoglobulin; 5.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Disulfide bond; Glycoprotein; Immunoglobulin domain;
+KW   Reference proteome; Repeat; Secreted; Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..513
+FT                   /note="Alpha-1B-glycoprotein"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000014503"
+FT   DOMAIN          22..126
+FT                   /note="Ig-like V-type 1"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          127..219
+FT                   /note="Ig-like V-type 2"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          220..312
+FT                   /note="Ig-like V-type 3"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          313..415
+FT                   /note="Ig-like V-type 4"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          416..513
+FT                   /note="Ig-like V-type 5"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        44
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        89
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        192
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        369
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        381
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        389
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        485
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        49..96
+FT                   /evidence="ECO:0000250|UniProtKB:P04217,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        153..195
+FT                   /evidence="ECO:0000250|UniProtKB:P04217,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        245..292
+FT                   /evidence="ECO:0000250|UniProtKB:P04217,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        343..392
+FT                   /evidence="ECO:0000250|UniProtKB:P04217,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        441..488
+FT                   /evidence="ECO:0000250|UniProtKB:P04217,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   VAR_SEQ         417..473
+FT                   /note="PAPKPRLEALWKGKVPLGHEAIFQCHGHVPRVSMELVREGFKTPFWMASTTS
+FT                   TSAFL -> ELRRTMTEEGTERYSLRNQGSCAVISQLYLNEVLGFENLEEISLRCETWK
+FT                   SGLFRIL (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:11097837"
+FT                   /id="VSP_051640"
+FT   VAR_SEQ         474..513
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:11097837"
+FT                   /id="VSP_051641"
+FT   CONFLICT        24
+FT                   /note="D -> N (in Ref. 1; CAC19029)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        204
+FT                   /note="K -> E (in Ref. 1; CAC19029)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        239
+FT                   /note="T -> A (in Ref. 3; AAF68963)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        242
+FT                   /note="T -> M (in Ref. 3; AAF68963)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        283
+FT                   /note="E -> K (in Ref. 3; AAF68963)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   513 AA;  56479 MW;  9CFA96A8BBC2ED1D CRC64;
+     MSLLTTVLLL WGFTLGPGNA LWLDSGSEPE LRAEPQSLLE PWANLTLVCA VDLPTKVFEL
+     IMNGWFLSQV RLETPVLSYR FSLGAITSNN SGVYRCRCGV EPPVDIQLPA LSKWTMLSNA
+     LEVTGKEPLP PPSAHADPVS WITPGGLPVY IMCRVAMRGV TYLLRKEGVD GTQKPDVQHK
+     GTAGFLIYKP GNYSCSYLTH AGGKPSEPSA IVTIKMSATQ LPPSLCLMGS YLTIYPQKTH
+     ETLACKAPRN AAEFQLRQGE RVLNIQGFSP TRDATIYYVN LKELDNQSPF TCRYRMHKYM
+     HVWSEDSKPV ELMWSDEKLP APVLTAEPSS HNLEPGSTVQ LRCTAHKAGL RFGLQRQGKP
+     DLVVVQMLNS SGTEAVFELH NISTIDSGNY SCIYMEQAPP FSGSASSEPL ELRINGPAPK
+     PRLEALWKGK VPLGHEAIFQ CHGHVPRVSM ELVREGFKTP FWMASTTSTS AFLKLSFVGP
+     QHTGNYSCRY TALSPFTFES GISDPVEVVV EGS
+//

@@ -1,0 +1,214 @@
+ID   UDB17_RAT               Reviewed;         530 AA.
+AC   P08542; P16915;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1991, sequence version 2.
+DT   24-JUL-2024, entry version 156.
+DE   RecName: Full=UDP-glucuronosyltransferase 2B17 {ECO:0000305};
+DE            Short=UDPGT 2B17;
+DE            Short=UGT2B17;
+DE            EC=2.4.1.17 {ECO:0000269|PubMed:18719240};
+DE   AltName: Full=17-beta-hydroxysteroid-specific UDPGT;
+DE   AltName: Full=RLUG38;
+DE   AltName: Full=Testosterone, dihydrotestosterone, and beta-estradiol-specific UDPGT;
+DE   AltName: Full=UDP-glucuronosyltransferase 2B5;
+DE            Short=UDPGT 2B5;
+DE   AltName: Full=UDPGTr-3;
+DE   Flags: Precursor;
+GN   Name=Ugt2b17 {ECO:0000312|RGD:628623}; Synonyms=Ugt2b3, Ugt2b5;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=3110162; DOI=10.1016/s0021-9258(18)47997-5;
+RA   McKenzie P.I.;
+RT   "Rat liver UDP-glucuronosyltransferase. Identification of cDNAs encoding
+RT   two enzymes which glucuronidate testosterone, dihydrotestosterone, and
+RT   beta-estradiol.";
+RL   J. Biol. Chem. 262:9744-9749(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=3108864; DOI=10.1093/nar/15.9.3936;
+RA   Harding D., Wilson S.M., Jackson M.R., Burchell B., Green M.D.,
+RA   Tephly T.R.;
+RT   "Nucleotide and deduced amino acid sequence of rat liver 17 beta-
+RT   hydroxysteroid UDP-glucuronosyltransferase.";
+RL   Nucleic Acids Res. 15:3936-3936(1987).
+RN   [3]
+RP   CATALYTIC ACTIVITY, AND FUNCTION.
+RX   PubMed=1692835; DOI=10.1016/s0021-9258(19)38945-8;
+RA   McKenzie P.I.;
+RT   "The cDNA sequence and expression of a variant 17 beta-hydroxysteroid UDP-
+RT   glucuronosyltransferase.";
+RL   J. Biol. Chem. 265:8699-8703(1990).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=18719240; DOI=10.1124/dmd.108.022731;
+RA   Itaeaho K., Mackenzie P.I., Ikushiro S., Miners J.O., Finel M.;
+RT   "The configuration of the 17-hydroxy group variably influences the
+RT   glucuronidation of beta-estradiol and epiestradiol by human UDP-
+RT   glucuronosyltransferases.";
+RL   Drug Metab. Dispos. 36:2307-2315(2008).
+CC   -!- FUNCTION: UDP-glucuronosyltransferase (UGT) that catalyzes phase II
+CC       biotransformation reactions in which lipophilic substrates are
+CC       conjugated with glucuronic acid to increase the metabolite's water
+CC       solubility, thereby facilitating excretion into either the urine or
+CC       bile (PubMed:18719240). Catalyzes the glucuronidation of endogenous
+CC       steroid hormones such as androgens (epitestosterone, androsterone) and
+CC       estrogens (estradiol, epiestradiol) (By similarity) (PubMed:18719240).
+CC       {ECO:0000250|UniProtKB:O75795, ECO:0000269|PubMed:1692835,
+CC       ECO:0000269|PubMed:18719240}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glucuronate acceptor + UDP-alpha-D-glucuronate = acceptor
+CC         beta-D-glucuronoside + H(+) + UDP; Xref=Rhea:RHEA:21032,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58052, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:132367, ChEBI:CHEBI:132368; EC=2.4.1.17;
+CC         Evidence={ECO:0000269|PubMed:1692835, ECO:0000269|PubMed:18719240};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21033;
+CC         Evidence={ECO:0000305|PubMed:1692835, ECO:0000305|PubMed:18719240};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17alpha-estradiol + UDP-alpha-D-glucuronate = 17alpha-
+CC         estradiol 3-O-(beta-D-glucuronate) + H(+) + UDP;
+CC         Xref=Rhea:RHEA:52868, ChEBI:CHEBI:15378, ChEBI:CHEBI:17160,
+CC         ChEBI:CHEBI:57529, ChEBI:CHEBI:58052, ChEBI:CHEBI:58223;
+CC         Evidence={ECO:0000250|UniProtKB:O75795};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52869;
+CC         Evidence={ECO:0000250|UniProtKB:O75795};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17alpha-estradiol + UDP-alpha-D-glucuronate = 17alpha-
+CC         estradiol 17-O-(beta-D-glucuronate) + H(+) + UDP;
+CC         Xref=Rhea:RHEA:52872, ChEBI:CHEBI:15378, ChEBI:CHEBI:17160,
+CC         ChEBI:CHEBI:58052, ChEBI:CHEBI:58223, ChEBI:CHEBI:136642;
+CC         Evidence={ECO:0000269|PubMed:18719240};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52873;
+CC         Evidence={ECO:0000305|PubMed:18719240};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol + UDP-alpha-D-glucuronate = 17beta-estradiol
+CC         17-O-(beta-D-glucuronate) + H(+) + UDP; Xref=Rhea:RHEA:52464,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16469, ChEBI:CHEBI:58052,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:82961;
+CC         Evidence={ECO:0000269|PubMed:18719240};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52465;
+CC         Evidence={ECO:0000305|PubMed:18719240};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-hydroxy-5alpha-androstan-3-one + UDP-alpha-D-
+CC         glucuronate = 5alpha-dihydrotestosterone 17-O-(beta-D-glucuronate) +
+CC         H(+) + UDP; Xref=Rhea:RHEA:53000, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16330, ChEBI:CHEBI:58052, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:136914; Evidence={ECO:0000250|UniProtKB:O75795};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53001;
+CC         Evidence={ECO:0000250|UniProtKB:O75795};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=testosterone + UDP-alpha-D-glucuronate = H(+) + testosterone
+CC         17-O-(beta-D-glucuronate) + UDP; Xref=Rhea:RHEA:52456,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17347, ChEBI:CHEBI:58052,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:136639;
+CC         Evidence={ECO:0000250|UniProtKB:O75795};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52457;
+CC         Evidence={ECO:0000250|UniProtKB:O75795};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=30.2 uM for 17alpha-estradiol/epiestradiol (when assaying
+CC         glucuronidation at position 17) {ECO:0000269|PubMed:18719240};
+CC         KM=19.5 uM for 17beta-estradiol/estradiol (when assaying
+CC         glucuronidation at position 17) {ECO:0000269|PubMed:18719240};
+CC         Vmax=8110 pmol/min/mg enzyme for the formation of 17alpha-estradiol
+CC         17-O-(beta-D-glucuronate) {ECO:0000269|PubMed:18719240};
+CC         Vmax=5890 pmol/min/mg enzyme for the formation of 17beta-estradiol
+CC         17-O-(beta-D-glucuronate) {ECO:0000269|PubMed:18719240};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:O75795}; Single-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- INDUCTION: Constitutively expressed.
+CC   -!- SIMILARITY: Belongs to the UDP-glycosyltransferase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M31109; AAA41280.1; -; mRNA.
+DR   EMBL; Y00156; CAA68351.1; -; mRNA.
+DR   PIR; S07390; S07390.
+DR   RefSeq; NP_695226.2; NM_153314.2.
+DR   AlphaFoldDB; P08542; -.
+DR   SMR; P08542; -.
+DR   SwissLipids; SLP:000001700; -.
+DR   CAZy; GT1; Glycosyltransferase Family 1.
+DR   iPTMnet; P08542; -.
+DR   PhosphoSitePlus; P08542; -.
+DR   GeneID; 266685; -.
+DR   KEGG; rno:266685; -.
+DR   UCSC; RGD:628623; rat.
+DR   AGR; RGD:628623; -.
+DR   CTD; 7366; -.
+DR   RGD; 628623; Ugt2b5.
+DR   InParanoid; P08542; -.
+DR   OrthoDB; 382054at2759; -.
+DR   BRENDA; 2.4.1.17; 5301.
+DR   Reactome; R-RNO-156588; Glucuronidation.
+DR   Reactome; R-RNO-9749641; Aspirin ADME.
+DR   Reactome; R-RNO-9753281; Paracetamol ADME.
+DR   Reactome; R-RNO-9757110; Prednisone ADME.
+DR   PRO; PR:P08542; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015020; F:glucuronosyltransferase activity; IDA:RGD.
+DR   GO; GO:0052695; P:cellular glucuronidation; ISS:UniProtKB.
+DR   GO; GO:0071361; P:cellular response to ethanol; IEP:RGD.
+DR   GO; GO:0071385; P:cellular response to glucocorticoid stimulus; IEP:RGD.
+DR   GO; GO:0071378; P:cellular response to growth hormone stimulus; IEP:RGD.
+DR   GO; GO:0071394; P:cellular response to testosterone stimulus; IEP:RGD.
+DR   GO; GO:0008210; P:estrogen metabolic process; ISS:UniProtKB.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   CDD; cd03784; GT1_Gtf-like; 1.
+DR   Gene3D; 3.40.50.2000; Glycogen Phosphorylase B; 2.
+DR   InterPro; IPR050271; UDP-glycosyltransferase.
+DR   InterPro; IPR002213; UDP_glucos_trans.
+DR   InterPro; IPR035595; UDP_glycos_trans_CS.
+DR   PANTHER; PTHR48043; EG:EG0003.4 PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR48043:SF113; UDP GLUCURONOSYLTRANSFERASE 2 FAMILY, POLYPEPTIDE B38-RELATED; 1.
+DR   Pfam; PF00201; UDPGT; 1.
+DR   SUPFAM; SSF53756; UDP-Glycosyltransferase/glycogen phosphorylase; 1.
+DR   PROSITE; PS00375; UDPGT; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Glycosyltransferase; Lipid metabolism; Membrane;
+KW   Reference proteome; Signal; Steroid metabolism; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           24..530
+FT                   /note="UDP-glucuronosyltransferase 2B17"
+FT                   /id="PRO_0000036027"
+FT   TRANSMEM        494..510
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        54
+FT                   /note="T -> S (in Ref. 2; CAA68351)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        119
+FT                   /note="G -> E (in Ref. 2; CAA68351)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        376
+FT                   /note="S -> G (in Ref. 2; CAA68351)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        424
+FT                   /note="S -> T (in Ref. 2; CAA68351)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        500
+FT                   /note="T -> S (in Ref. 2; CAA68351)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   530 AA;  60525 MW;  BB633D70DBF8A7E4 CRC64;
+     MPGKWISALL LLQISCCFQS GNCGKVLVWP MEFSHWMNIK TILDELVQRG HEVTVLKPSA
+     YYVLDPKKSP DLKFETFPTS VSKDELENYF IKLVDVWTYE LQRDTCLSYS PLLQNMIDGF
+     SDYYLSLCKD TVSNKQLMAK LQESKFDVLL SDPVAACGEL IAEVLHIPFL YSLRFSPGYK
+     IEKSSGRFIL PPSYVPVILS GMGGPMTFID RVKNMICTLY FDFWFHMFNA KKWDPFYSEI
+     LGRPTTLAET MGKAEMWLIR SYWDLEFPHP TLPNVDYIGG LQCRPPKPLP KDMEDFVQSS
+     GEHGVVVFSL GSMVSSMTEE KANAIAWALA QIPQKVLWKF DGKTPATLGP NTRVYKWLPQ
+     NDLLGHPKTK AFVTHSGANG VYEAIYHGIP MVGIPMFGEQ HDNIAHMVAK GAAVTLNIRT
+     MSKSDLFNAL KEIINNPFYK KNAVWLSTIH HDQPMKPLDK AVFWIEFVMR HKGAKHLRPL
+     GHDLPWYQYH SLDVIGFLLT CSAVIAVLTV KCFLFIYRLF VKKEKKMKNE
+//

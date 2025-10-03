@@ -1,0 +1,285 @@
+ID   PLPP2_RAT               Reviewed;         276 AA.
+AC   Q8K593;
+DT   15-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   29-MAY-2024, entry version 124.
+DE   RecName: Full=Phospholipid phosphatase 2 {ECO:0000305};
+DE            EC=3.1.3.- {ECO:0000250|UniProtKB:O43688};
+DE            EC=3.1.3.4 {ECO:0000250|UniProtKB:O43688};
+DE   AltName: Full=Lipid phosphate phosphohydrolase 2;
+DE   AltName: Full=PAP2-gamma;
+DE            Short=PAP2-G;
+DE   AltName: Full=Phosphatidate phosphohydrolase type 2c;
+DE   AltName: Full=Phosphatidic acid phosphatase 2c;
+DE            Short=PAP-2c;
+DE            Short=PAP2c;
+GN   Name=Plpp2 {ECO:0000312|RGD:628893}; Synonyms=Lpp2, Ppap2c;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Lung;
+RA   Zhao L., Nanjundan M., Possmayer F.;
+RT   "Expression of lipid phosphate phosphohydrolase isoforms in rat lung
+RT   development.";
+RL   Submitted (APR-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=11704545; DOI=10.1152/ajplung.2001.281.6.l1484;
+RA   Nanjundan M., Possmayer F.;
+RT   "Molecular cloning and expression of pulmonary lipid phosphate
+RT   phosphohydrolases.";
+RL   Am. J. Physiol. 281:L1484-L1493(2001).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=16467304; DOI=10.1074/jbc.m511710200;
+RA   Morris K.E., Schang L.M., Brindley D.N.;
+RT   "Lipid phosphate phosphatase-2 activity regulates S-phase entry of the cell
+RT   cycle in Rat2 fibroblasts.";
+RL   J. Biol. Chem. 281:9297-9306(2006).
+CC   -!- FUNCTION: Magnesium-independent phospholipid phosphatase that catalyzes
+CC       the dephosphorylation of a variety of glycerolipid and sphingolipid
+CC       phosphate esters including phosphatidate/PA, lysophosphatidate/LPA,
+CC       sphingosine 1-phosphate/S1P and ceramide 1-phosphate/C1P. Has no
+CC       apparent extracellular phosphatase activity and therefore most probably
+CC       acts intracellularly. Also acts on N-oleoyl ethanolamine phosphate/N-
+CC       (9Z-octadecenoyl)-ethanolamine phosphate, a potential physiological
+CC       compound. Through dephosphorylation of these bioactive lipid mediators
+CC       produces new bioactive compounds and may regulate signal transduction
+CC       in different cellular processes (By similarity). Indirectly regulates,
+CC       for instance, cell cycle G1/S phase transition through its phospholipid
+CC       phosphatase activity (PubMed:16467304). {ECO:0000250|UniProtKB:O43688,
+CC       ECO:0000269|PubMed:16467304}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphate + H2O = a 1,2-diacyl-sn-
+CC         glycerol + phosphate; Xref=Rhea:RHEA:27429, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:17815, ChEBI:CHEBI:43474, ChEBI:CHEBI:58608; EC=3.1.3.4;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:27430;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihexadecanoyl-sn-glycero-3-phosphate + H2O = 1,2-
+CC         dihexadecanoyl-sn-glycerol + phosphate; Xref=Rhea:RHEA:43236,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:43474, ChEBI:CHEBI:72859,
+CC         ChEBI:CHEBI:82929; Evidence={ECO:0000250|UniProtKB:O43688};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:43237;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O = 1,2-
+CC         di-(9Z-octadecenoyl)-sn-glycerol + phosphate; Xref=Rhea:RHEA:43244,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:43474, ChEBI:CHEBI:52333,
+CC         ChEBI:CHEBI:74546; Evidence={ECO:0000250|UniProtKB:O43688};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:43245;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + monoacyl-sn-glycero-3-phosphate = a monoacylglycerol +
+CC         phosphate; Xref=Rhea:RHEA:46736, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:17408, ChEBI:CHEBI:43474, ChEBI:CHEBI:77589;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46737;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-octadecenoyl-sn-glycero-3-phosphate + H2O = (9Z-
+CC         octadecenoyl)-glycerol + phosphate; Xref=Rhea:RHEA:50884,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:43474, ChEBI:CHEBI:75937,
+CC         ChEBI:CHEBI:84973; Evidence={ECO:0000250|UniProtKB:O43688};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:50885;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + sphing-4-enine 1-phosphate = phosphate + sphing-4-enine;
+CC         Xref=Rhea:RHEA:27518, ChEBI:CHEBI:15377, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57756, ChEBI:CHEBI:60119;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:27519;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acylsphing-4-enine 1-phosphate + H2O = an N-acylsphing-4-
+CC         enine + phosphate; Xref=Rhea:RHEA:33743, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:52639, ChEBI:CHEBI:57674;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:33744;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-(octanoyl)-sphing-4-enine-1-phosphate = N-
+CC         octanoylsphing-4-enine + phosphate; Xref=Rhea:RHEA:62040,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:43474, ChEBI:CHEBI:45815,
+CC         ChEBI:CHEBI:85376; Evidence={ECO:0000250|UniProtKB:O43688};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62041;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-(9Z-octadecenoyl)-ethanolamine phosphate = N-(9Z-
+CC         octadecenoyl) ethanolamine + phosphate; Xref=Rhea:RHEA:62160,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:43474, ChEBI:CHEBI:71466,
+CC         ChEBI:CHEBI:145465; Evidence={ECO:0000250|UniProtKB:O43688};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62161;
+CC         Evidence={ECO:0000250|UniProtKB:O43688};
+CC   -!- ACTIVITY REGULATION: Magnesium-independent phospholipid phosphatase.
+CC       Insensitive to N-ethylmaleimide. {ECO:0000250|UniProtKB:O43688}.
+CC   -!- PATHWAY: Lipid metabolism; phospholipid metabolism.
+CC       {ECO:0000250|UniProtKB:O43688}.
+CC   -!- SUBUNIT: Forms functional homodimers and homooligomers. Can also form
+CC       heterooligomers with PLPP1 and PLPP3. {ECO:0000250|UniProtKB:O43688}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250|UniProtKB:O43688}; Multi-
+CC       pass membrane protein {ECO:0000255}. Cell membrane
+CC       {ECO:0000250|UniProtKB:O43688}; Multi-pass membrane protein
+CC       {ECO:0000255}. Early endosome membrane {ECO:0000250|UniProtKB:O43688};
+CC       Multi-pass membrane protein {ECO:0000255}. Endoplasmic reticulum
+CC       membrane {ECO:0000250|UniProtKB:O43688}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the brain.
+CC       {ECO:0000269|PubMed:11704545}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250|UniProtKB:O43688}.
+CC   -!- SIMILARITY: Belongs to the PA-phosphatase related phosphoesterase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF503611; AAM28632.1; -; mRNA.
+DR   EMBL; BC062088; AAH62088.1; -; mRNA.
+DR   RefSeq; NP_640345.1; NM_139252.1.
+DR   AlphaFoldDB; Q8K593; -.
+DR   STRING; 10116.ENSRNOP00000000193; -.
+DR   GlyCosmos; Q8K593; 2 sites, No reported glycans.
+DR   GlyGen; Q8K593; 2 sites.
+DR   PhosphoSitePlus; Q8K593; -.
+DR   PaxDb; 10116-ENSRNOP00000000193; -.
+DR   Ensembl; ENSRNOT00000000193.4; ENSRNOP00000000193.1; ENSRNOG00000000177.4.
+DR   Ensembl; ENSRNOT00065035418; ENSRNOP00065028526; ENSRNOG00065020855.
+DR   GeneID; 246115; -.
+DR   KEGG; rno:246115; -.
+DR   UCSC; RGD:628893; rat.
+DR   AGR; RGD:628893; -.
+DR   CTD; 8612; -.
+DR   RGD; 628893; Plpp2.
+DR   eggNOG; KOG3030; Eukaryota.
+DR   GeneTree; ENSGT00940000155885; -.
+DR   HOGENOM; CLU_021458_3_1_1; -.
+DR   InParanoid; Q8K593; -.
+DR   OrthoDB; 25293at2759; -.
+DR   PhylomeDB; Q8K593; -.
+DR   TreeFam; TF316040; -.
+DR   Reactome; R-RNO-9845614; Sphingolipid catabolism.
+DR   UniPathway; UPA00085; -.
+DR   PRO; PR:Q8K593; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000000177; Expressed in jejunum and 18 other cell types or tissues.
+DR   GO; GO:0005901; C:caveola; ISS:UniProtKB.
+DR   GO; GO:0005769; C:early endosome; ISS:UniProtKB.
+DR   GO; GO:0031901; C:early endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISS:UniProtKB.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0106235; F:ceramide-1-phosphate phosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0008195; F:phosphatidate phosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0042392; F:sphingosine-1-phosphate phosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0006672; P:ceramide metabolic process; ISS:UniProtKB.
+DR   GO; GO:0046839; P:phospholipid dephosphorylation; ISS:UniProtKB.
+DR   GO; GO:0006644; P:phospholipid metabolic process; ISS:UniProtKB.
+DR   GO; GO:1902806; P:regulation of cell cycle G1/S phase transition; IMP:UniProtKB.
+DR   GO; GO:0007165; P:signal transduction; IBA:GO_Central.
+DR   GO; GO:0006670; P:sphingosine metabolic process; ISS:UniProtKB.
+DR   CDD; cd03384; PAP2_wunen; 1.
+DR   Gene3D; 1.20.144.10; Phosphatidic acid phosphatase type 2/haloperoxidase; 1.
+DR   InterPro; IPR036938; P_Acid_Pase_2/haloperoxi_sf.
+DR   InterPro; IPR000326; P_Acid_Pase_2/haloperoxidase.
+DR   InterPro; IPR043216; PA_PP_rel.
+DR   PANTHER; PTHR10165; LIPID PHOSPHATE PHOSPHATASE; 1.
+DR   PANTHER; PTHR10165:SF25; PHOSPHOLIPID PHOSPHATASE 2; 1.
+DR   Pfam; PF01569; PAP2; 1.
+DR   SMART; SM00014; acidPPc; 1.
+DR   SUPFAM; SSF48317; Acid phosphatase/Vanadium-dependent haloperoxidase; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Endoplasmic reticulum; Endosome; Glycoprotein; Hydrolase;
+KW   Lipid metabolism; Membrane; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..276
+FT                   /note="Phospholipid phosphatase 2"
+FT                   /id="PRO_0000220911"
+FT   TOPO_DOM        1..4
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        5..25
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        26..51
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        52..72
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        73..87
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        88..108
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        109..161
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        162..182
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        183..189
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        190..210
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        211..225
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        226..246
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        247..276
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   REGION          117..125
+FT                   /note="Phosphatase sequence motif I"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   REGION          164..167
+FT                   /note="Phosphatase sequence motif II"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   REGION          212..223
+FT                   /note="Phosphatase sequence motif III"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   REGION          252..276
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        167
+FT                   /note="Proton donors"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   ACT_SITE        219
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   SITE            223
+FT                   /note="Stabilizes the active site histidine for
+FT                   nucleophilic attack"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   CARBOHYD        139
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        155
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   276 AA;  31101 MW;  41A0E1243458E24C CRC64;
+     MERRWVFVLL DVLCVLVASL PFIILTLVNA PYKRGFYCGD DSIRYPYRPD TITHGLMAGV
+     IITATVVLVS SGEAYLVYTD RLYSRSDFNN YVAAIYKVLG TFLFGAAVSQ SLTDLAKYMI
+     GRLRPSFLAV CDPDWSRVNC SGYVQVEVCR GSPANVTEAR LSFYSGHSSF GMYCMLFLAL
+     YVQARLCWKW ARLLRPTVQF FLVAFAIYVG YTRVSDNKHH WSDVLVGLLQ GALVACLTVC
+     YVSDFFKSRP PQSCQENEES ERKPSLSLTL TLGDRP
+//

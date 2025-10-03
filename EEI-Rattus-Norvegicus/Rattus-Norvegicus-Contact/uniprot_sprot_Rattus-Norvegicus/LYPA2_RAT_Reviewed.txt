@@ -1,0 +1,190 @@
+ID   LYPA2_RAT               Reviewed;         231 AA.
+AC   Q9QYL8;
+DT   16-JAN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   24-JUL-2024, entry version 130.
+DE   RecName: Full=Acyl-protein thioesterase 2;
+DE            Short=APT-2;
+DE            EC=3.1.2.- {ECO:0000250|UniProtKB:O95372};
+DE   AltName: Full=Lysophospholipase 2;
+DE   AltName: Full=Lysophospholipase II;
+DE            Short=LPL-II;
+DE            Short=LysoPLA II;
+DE   AltName: Full=Palmitoyl-protein hydrolase {ECO:0000305};
+DE            EC=3.1.2.22 {ECO:0000250|UniProtKB:O95372};
+GN   Name=Lypla2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Sugimoto H.;
+RT   "Rat lysophospholipase II.";
+RL   Submitted (DEC-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 165-190, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Hippocampus;
+RA   Lubec G., Chen W.-Q.;
+RL   Submitted (APR-2007) to UniProtKB.
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-82, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Acts as an acyl-protein thioesterase hydrolyzing fatty acids
+CC       from S-acylated cysteine residues in proteins such as trimeric G alpha
+CC       proteins, GSDMD, GAP43, ZDHHC6 or HRAS (By similarity). Deacylates
+CC       GAP43 (By similarity). Mediates depalmitoylation of ZDHHC6 (By
+CC       similarity). Has lysophospholipase activity (By similarity). Hydrolyzes
+CC       prostaglandin glycerol esters (PG-Gs) in the following order
+CC       prostaglandin D2-glycerol ester (PGD2-G) > prostaglandin E2 glycerol
+CC       ester (PGE2-G) > prostaglandin F2-alpha-glycerol ester (PGF2-alpha-G)
+CC       (By similarity). Hydrolyzes 1-arachidonoylglycerol but not 2-
+CC       arachidonoylglycerol or arachidonoylethanolamide (By similarity).
+CC       {ECO:0000250|UniProtKB:O95372, ECO:0000250|UniProtKB:Q9WTL7}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + S-hexadecanoyl-L-cysteinyl-[protein] = H(+) +
+CC         hexadecanoate + L-cysteinyl-[protein]; Xref=Rhea:RHEA:19233,
+CC         Rhea:RHEA-COMP:10131, Rhea:RHEA-COMP:11032, ChEBI:CHEBI:7896,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:74151; EC=3.1.2.22;
+CC         Evidence={ECO:0000250|UniProtKB:O95372};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + prostaglandin E2 1-glyceryl ester = glycerol + H(+) +
+CC         prostaglandin E2; Xref=Rhea:RHEA:48296, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17754, ChEBI:CHEBI:90230,
+CC         ChEBI:CHEBI:606564; Evidence={ECO:0000250|UniProtKB:O95372};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48297;
+CC         Evidence={ECO:0000250|UniProtKB:O95372};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-sn-glycero-3-phosphocholine + H2O = H(+) +
+CC         hexadecanoate + sn-glycerol 3-phosphocholine; Xref=Rhea:RHEA:40435,
+CC         ChEBI:CHEBI:7896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16870, ChEBI:CHEBI:72998;
+CC         Evidence={ECO:0000250|UniProtKB:O95372};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40436;
+CC         Evidence={ECO:0000250|UniProtKB:O95372};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-octadecanoyl-sn-glycero-3-phosphocholine + H2O = H(+) +
+CC         octadecanoate + sn-glycerol 3-phosphocholine; Xref=Rhea:RHEA:40887,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16870,
+CC         ChEBI:CHEBI:25629, ChEBI:CHEBI:73858;
+CC         Evidence={ECO:0000250|UniProtKB:O95372};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40888;
+CC         Evidence={ECO:0000250|UniProtKB:O95372};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-sn-glycero-3-phosphate + H2O = H(+) +
+CC         hexadecanoate + sn-glycerol 3-phosphate; Xref=Rhea:RHEA:49092,
+CC         ChEBI:CHEBI:7896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57518, ChEBI:CHEBI:57597;
+CC         Evidence={ECO:0000250|UniProtKB:O95372};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:49093;
+CC         Evidence={ECO:0000250|UniProtKB:O95372};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-sn-glycero-3-phospho-L-serine + H2O = H(+) +
+CC         hexadecanoate + sn-glycero-3-phospho-L-serine; Xref=Rhea:RHEA:44552,
+CC         ChEBI:CHEBI:7896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:64765, ChEBI:CHEBI:75020;
+CC         Evidence={ECO:0000250|UniProtKB:O95372};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:44553;
+CC         Evidence={ECO:0000250|UniProtKB:O95372};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:O95372}.
+CC   -!- SIMILARITY: Belongs to the AB hydrolase superfamily. AB hydrolase 2
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB021645; BAA87911.1; -; mRNA.
+DR   EMBL; BC070503; AAH70503.1; -; mRNA.
+DR   RefSeq; NP_112632.1; NM_031342.1.
+DR   AlphaFoldDB; Q9QYL8; -.
+DR   SMR; Q9QYL8; -.
+DR   STRING; 10116.ENSRNOP00000014415; -.
+DR   ChEMBL; CHEMBL3784905; -.
+DR   ESTHER; ratno-lypla2; LYsophospholipase_carboxylesterase.
+DR   iPTMnet; Q9QYL8; -.
+DR   PhosphoSitePlus; Q9QYL8; -.
+DR   SwissPalm; Q9QYL8; -.
+DR   jPOST; Q9QYL8; -.
+DR   PaxDb; 10116-ENSRNOP00000014415; -.
+DR   Ensembl; ENSRNOT00000014415.6; ENSRNOP00000014415.3; ENSRNOG00000010067.6.
+DR   Ensembl; ENSRNOT00055046252; ENSRNOP00055037972; ENSRNOG00055026757.
+DR   Ensembl; ENSRNOT00060054799; ENSRNOP00060045313; ENSRNOG00060031614.
+DR   Ensembl; ENSRNOT00065044206; ENSRNOP00065036287; ENSRNOG00065025631.
+DR   GeneID; 83510; -.
+DR   KEGG; rno:83510; -.
+DR   UCSC; RGD:620210; rat.
+DR   AGR; RGD:620210; -.
+DR   CTD; 11313; -.
+DR   RGD; 620210; Lypla2.
+DR   eggNOG; KOG2112; Eukaryota.
+DR   GeneTree; ENSGT00940000156197; -.
+DR   HOGENOM; CLU_049413_3_5_1; -.
+DR   InParanoid; Q9QYL8; -.
+DR   OrthoDB; 4670340at2759; -.
+DR   PhylomeDB; Q9QYL8; -.
+DR   TreeFam; TF314619; -.
+DR   Reactome; R-RNO-373760; L1CAM interactions.
+DR   PRO; PR:Q9QYL8; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   Bgee; ENSRNOG00000010067; Expressed in thymus and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005795; C:Golgi stack; ISO:RGD.
+DR   GO; GO:0052689; F:carboxylic ester hydrolase activity; IBA:GO_Central.
+DR   GO; GO:0004622; F:lysophospholipase activity; ISS:UniProtKB.
+DR   GO; GO:0008474; F:palmitoyl-(protein) hydrolase activity; ISS:UniProtKB.
+DR   GO; GO:0046464; P:acylglycerol catabolic process; ISS:UniProtKB.
+DR   GO; GO:0006631; P:fatty acid metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:1905344; P:prostaglandin catabolic process; ISS:UniProtKB.
+DR   GO; GO:0002084; P:protein depalmitoylation; ISS:UniProtKB.
+DR   Gene3D; 3.40.50.1820; alpha/beta hydrolase; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR050565; AB_hydrolase_domain.
+DR   InterPro; IPR003140; PLipase/COase/thioEstase.
+DR   PANTHER; PTHR10655:SF13; ACYL-PROTEIN THIOESTERASE 2; 1.
+DR   PANTHER; PTHR10655; LYSOPHOSPHOLIPASE-RELATED; 1.
+DR   Pfam; PF02230; Abhydrolase_2; 1.
+DR   SUPFAM; SSF53474; alpha/beta-Hydrolases; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Direct protein sequencing; Fatty acid metabolism; Hydrolase;
+KW   Lipid metabolism; Lipoprotein; Palmitate; Phosphoprotein;
+KW   Reference proteome.
+FT   CHAIN           1..231
+FT                   /note="Acyl-protein thioesterase 2"
+FT                   /id="PRO_0000102273"
+FT   ACT_SITE        122
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:O95372"
+FT   ACT_SITE        176
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:O75608"
+FT   ACT_SITE        210
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:O75608"
+FT   MOD_RES         82
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   LIPID           2
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:O95372"
+SQ   SEQUENCE   231 AA;  24807 MW;  49A710C5A997C7C1 CRC64;
+     MCGNNMSVPL LTDAATVSGA ERETAAVIFL HGLGDTGHSW ADALSTIRLP HVKYICPHAP
+     RIPVTLNMKM VMPSWFDLMG LSPDAPEDEA GIKKAAENIK ALIEHEMKNG IPANRIVLGG
+     FSQGGALSLY TALTCPHPLA GIVALSCWLP LHRNFPQAAN GSAKDLAILQ CHGELDPMVP
+     VRFGALTAEK LRTVVTPARV QFKTYPGVMH SSCPQEMAAV KEFLEKLLPP V
+//

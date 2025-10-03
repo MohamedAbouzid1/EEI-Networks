@@ -1,0 +1,259 @@
+ID   ACV1B_RAT               Reviewed;         505 AA.
+AC   P80202;
+DT   01-OCT-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1993, sequence version 1.
+DT   24-JUL-2024, entry version 190.
+DE   RecName: Full=Activin receptor type-1B;
+DE            EC=2.7.11.30;
+DE   AltName: Full=Activin receptor type IB;
+DE            Short=ACTR-IB;
+DE   AltName: Full=Activin receptor-like kinase 4;
+DE            Short=ALK-4;
+DE   AltName: Full=Serine/threonine-protein kinase receptor R2;
+DE            Short=SKR2;
+DE   Flags: Precursor;
+GN   Name=Acvr1b; Synonyms=Acvrlk4, Alk4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Urogenital ridge;
+RX   PubMed=8395914; DOI=10.1002/aja.1001960207;
+RA   He W.-W., Gustafson M.L., Hirobe S., Donahoe P.K.;
+RT   "Developmental expression of four novel serine/threonine kinase receptors
+RT   homologous to the activin/transforming growth factor-beta type II receptor
+RT   family.";
+RL   Dev. Dyn. 196:133-142(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=7813622; DOI=10.1006/excr.1995.1026;
+RA   Takumi T., Moustakas A., Lin H.Y., Lodish H.F.;
+RT   "Molecular characterization of a type I serine-threonine kinase receptor
+RT   for TGF-beta and activin in the rat pituitary tumor cell line GH3.";
+RL   Exp. Cell Res. 216:208-214(1995).
+CC   -!- FUNCTION: Transmembrane serine/threonine kinase activin type-1 receptor
+CC       forming an activin receptor complex with activin receptor type-2
+CC       (ACVR2A or ACVR2B). Transduces the activin signal from the cell surface
+CC       to the cytoplasm and is thus regulating a many physiological and
+CC       pathological processes including neuronal differentiation and neuronal
+CC       survival, hair follicle development and cycling, FSH production by the
+CC       pituitary gland, wound healing, extracellular matrix production,
+CC       immunosuppression and carcinogenesis. Activin is also thought to have a
+CC       paracrine or autocrine role in follicular development in the ovary.
+CC       Within the receptor complex, type-2 receptors (ACVR2A and/or ACVR2B)
+CC       act as a primary activin receptors whereas the type-1 receptors like
+CC       ACVR1B act as downstream transducers of activin signals. Activin binds
+CC       to type-2 receptor at the plasma membrane and activates its serine-
+CC       threonine kinase. The activated receptor type-2 then phosphorylates and
+CC       activates the type-1 receptor such as ACVR1B. Once activated, the type-
+CC       1 receptor binds and phosphorylates the SMAD proteins SMAD2 and SMAD3,
+CC       on serine residues of the C-terminal tail. Soon after their association
+CC       with the activin receptor and subsequent phosphorylation, SMAD2 and
+CC       SMAD3 are released into the cytoplasm where they interact with the
+CC       common partner SMAD4. This SMAD complex translocates into the nucleus
+CC       where it mediates activin-induced transcription. Inhibitory SMAD7,
+CC       which is recruited to ACVR1B through FKBP1A, can prevent the
+CC       association of SMAD2 and SMAD3 with the activin receptor complex,
+CC       thereby blocking the activin signal. Activin signal transduction is
+CC       also antagonized by the binding to the receptor of inhibin-B via the
+CC       IGSF1 inhibin coreceptor. ACVR1B also phosphorylates TDP2 (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[receptor-protein] = ADP + H(+) + O-phospho-
+CC         L-threonyl-[receptor-protein]; Xref=Rhea:RHEA:44880, Rhea:RHEA-
+CC         COMP:11024, Rhea:RHEA-COMP:11025, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30013, ChEBI:CHEBI:30616, ChEBI:CHEBI:61977,
+CC         ChEBI:CHEBI:456216; EC=2.7.11.30;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[receptor-protein] = ADP + H(+) + O-phospho-L-
+CC         seryl-[receptor-protein]; Xref=Rhea:RHEA:18673, Rhea:RHEA-COMP:11022,
+CC         Rhea:RHEA-COMP:11023, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:83421, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.30;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Activin receptor type-2 (ACVR2A or ACVR2B)
+CC       activates the type-1 receptor through phosphorylation of its regulatory
+CC       GS domain. {ECO:0000250}.
+CC   -!- SUBUNIT: Forms an activin receptor complex with activin receptor type-2
+CC       (ACVR2A or ACVR2B) (By similarity). Part of a complex consisting of
+CC       MAGI2/ARIP1, ACVR2A, ACVR1B and SMAD3 (By similarity). Interacts with
+CC       SMAD2 and SMAD3 (By similarity). Interacts with SMAD7 (By similarity).
+CC       Interacts with FKBP1A (By similarity). Interacts with IGSF1 (By
+CC       similarity). Interacts with CRIPTO (By similarity). Interacts with TDP2
+CC       (By similarity). Interacts with TSC22D1/TSC-22 (By similarity).
+CC       {ECO:0000250|UniProtKB:P36896, ECO:0000250|UniProtKB:Q61271}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Single-pass type I
+CC       membrane protein {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Urogenital ridge, testis, ovary, brain and lungs.
+CC   -!- DOMAIN: The GS domain is a 30-amino-acid sequence adjacent to the N-
+CC       terminal boundary of the kinase domain and highly conserved in all
+CC       other known type-1 receptors but not in type-2 receptors. The GS domain
+CC       is the site of activation through phosphorylation by the II receptors
+CC       (By similarity). {ECO:0000250}.
+CC   -!- PTM: Autophosphorylated. Phosphorylated by activin receptor type-2
+CC       (ACVR2A or ACVR2B) in response to activin-binding at serine and
+CC       threonine residues in the GS domain. Phosphorylation of ACVR1B by
+CC       activin receptor type-2 regulates association with SMAD7 (By
+CC       similarity). {ECO:0000250}.
+CC   -!- PTM: Ubiquitinated. Level of ubiquitination is regulated by the SMAD7-
+CC       SMURF1 complex (By similarity). {ECO:0000250}.
+CC   -!- PTM: Ubiquitinated. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. TKL Ser/Thr
+CC       protein kinase family. TGFB receptor subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; S76466; AAB33045.1; -; mRNA.
+DR   RefSeq; NP_954700.1; NM_199230.1.
+DR   AlphaFoldDB; P80202; -.
+DR   SMR; P80202; -.
+DR   BioGRID; 248033; 1.
+DR   STRING; 10116.ENSRNOP00000009345; -.
+DR   GlyCosmos; P80202; 1 site, No reported glycans.
+DR   GlyGen; P80202; 1 site.
+DR   iPTMnet; P80202; -.
+DR   PhosphoSitePlus; P80202; -.
+DR   PaxDb; 10116-ENSRNOP00000009345; -.
+DR   Ensembl; ENSRNOT00000009345.8; ENSRNOP00000009345.6; ENSRNOG00000006934.8.
+DR   Ensembl; ENSRNOT00055045464; ENSRNOP00055037258; ENSRNOG00055026359.
+DR   Ensembl; ENSRNOT00060026649; ENSRNOP00060021324; ENSRNOG00060015573.
+DR   Ensembl; ENSRNOT00065039368; ENSRNOP00065031998; ENSRNOG00065023030.
+DR   GeneID; 29381; -.
+DR   KEGG; rno:29381; -.
+DR   UCSC; RGD:735207; rat.
+DR   AGR; RGD:735207; -.
+DR   CTD; 91; -.
+DR   RGD; 735207; Acvr1b.
+DR   eggNOG; KOG2052; Eukaryota.
+DR   GeneTree; ENSGT00940000157032; -.
+DR   HOGENOM; CLU_000288_8_1_1; -.
+DR   InParanoid; P80202; -.
+DR   OrthoDB; 3900892at2759; -.
+DR   PhylomeDB; P80202; -.
+DR   BRENDA; 2.7.10.2; 5301.
+DR   Reactome; R-RNO-1502540; Signaling by Activin.
+DR   PRO; PR:P80202; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000006934; Expressed in frontal cortex and 18 other cell types or tissues.
+DR   GO; GO:0048179; C:activin receptor complex; ISO:RGD.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0043235; C:receptor complex; ISO:RGD.
+DR   GO; GO:0048185; F:activin binding; ISO:RGD.
+DR   GO; GO:0017002; F:activin receptor activity; ISO:RGD.
+DR   GO; GO:0016361; F:activin receptor activity, type I; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; ISO:RGD.
+DR   GO; GO:0070411; F:I-SMAD binding; ISO:RGD.
+DR   GO; GO:0034711; F:inhibin binding; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; ISO:RGD.
+DR   GO; GO:0046332; F:SMAD binding; ISO:RGD.
+DR   GO; GO:0004675; F:transmembrane receptor protein serine/threonine kinase activity; TAS:RGD.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0032924; P:activin receptor signaling pathway; IMP:RGD.
+DR   GO; GO:0060936; P:cardiac fibroblast cell development; IMP:RGD.
+DR   GO; GO:0071363; P:cellular response to growth factor stimulus; IBA:GO_Central.
+DR   GO; GO:0046545; P:development of primary female sexual characteristics; IEP:RGD.
+DR   GO; GO:0097191; P:extrinsic apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:0000082; P:G1/S transition of mitotic cell cycle; ISO:RGD.
+DR   GO; GO:0001942; P:hair follicle development; ISO:RGD.
+DR   GO; GO:0001701; P:in utero embryonic development; ISO:RGD.
+DR   GO; GO:0030308; P:negative regulation of cell growth; ISO:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:0007399; P:nervous system development; IBA:GO_Central.
+DR   GO; GO:0038092; P:nodal signaling pathway; ISO:RGD.
+DR   GO; GO:0032927; P:positive regulation of activin receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0032967; P:positive regulation of collagen biosynthetic process; IMP:RGD.
+DR   GO; GO:0045648; P:positive regulation of erythrocyte differentiation; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; IMP:RGD.
+DR   GO; GO:1901165; P:positive regulation of trophoblast cell migration; ISO:RGD.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0009966; P:regulation of signal transduction; ISO:RGD.
+DR   GO; GO:0014823; P:response to activity; IEP:RGD.
+DR   GO; GO:0007165; P:signal transduction; ISO:RGD.
+DR   CDD; cd14143; STKc_TGFbR1_ACVR1b_ACVR1c; 1.
+DR   Gene3D; 2.10.60.10; CD59; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR000472; Activin_recp.
+DR   InterPro; IPR003605; GS_dom.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   InterPro; IPR045860; Snake_toxin-like_sf.
+DR   InterPro; IPR000333; TGFB_receptor.
+DR   PANTHER; PTHR23255:SF22; ACTIVIN RECEPTOR TYPE-1B; 1.
+DR   PANTHER; PTHR23255; TRANSFORMING GROWTH FACTOR-BETA RECEPTOR TYPE I AND II; 1.
+DR   Pfam; PF01064; Activin_recp; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF08515; TGF_beta_GS; 1.
+DR   SMART; SM00467; GS; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   SUPFAM; SSF57302; Snake toxin-like; 1.
+DR   PROSITE; PS51256; GS; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Cell membrane; Glycoprotein; Kinase; Magnesium; Manganese;
+KW   Membrane; Metal-binding; Nucleotide-binding; Phosphoprotein; Receptor;
+KW   Reference proteome; Serine/threonine-protein kinase; Signal; Transferase;
+KW   Transmembrane; Transmembrane helix; Ubl conjugation.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..505
+FT                   /note="Activin receptor type-1B"
+FT                   /id="PRO_0000024419"
+FT   TOPO_DOM        24..126
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        127..149
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        150..505
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          177..206
+FT                   /note="GS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00585"
+FT   DOMAIN          207..497
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   ACT_SITE        335
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         213..221
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         234
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         380
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P36896"
+FT   CARBOHYD        43
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   505 AA;  56805 MW;  377F4A5C867B3860 CRC64;
+     MAESAGASSF FPLVVLLLAG SGGSGPRGIQ ALLCACTSCL QTNYTCETDG ACMVSIFNLD
+     GMEHHVRTCI PKVELVPAGK PFYCLSSEDL RNTHCCYIDF CNKIDLRVPS GHLKEPEHPS
+     MWGPVELVGI IAGPVFLLFL IIIIVFLVIN YHQRVYHNRQ RLDMEDPSCE MCLSKDKTLQ
+     DLVYDLSTSG SGSGLPLFVQ RTVARTIVLQ EIIGKGRFGE VWRGRWRGGD VAVKIFSSRE
+     ERSWFREAEI YQTVMLRHEN ILGFIAADNK DNGTWTQLWL VSDYHEHGSL FDYLNRYTVT
+     IEGMIKLALS AASGLAHLHM EIVGTQGKPG IAHRDLKSKN ILVKKNGMCA IADLGLAVRH
+     DAVTDTIDIA PNQRVGTKRY MAPEVLDETI NMKHFDSFKC ADIYALGLVY WEIARRCNSG
+     GVHEEYQLPY YDLVPSDPSI EEMRKVVCDQ KLRPNVPNWW QSYEALRVMG KMMRECWYAN
+     GAARLTALRI KKTLSQLSVQ EDVKI
+//

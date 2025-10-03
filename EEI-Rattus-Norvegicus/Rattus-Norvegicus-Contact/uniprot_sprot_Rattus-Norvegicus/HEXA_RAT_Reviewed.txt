@@ -1,0 +1,225 @@
+ID   HEXA_RAT                Reviewed;         528 AA.
+AC   Q641X3;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   02-OCT-2024, entry version 135.
+DE   RecName: Full=Beta-hexosaminidase subunit alpha {ECO:0000305};
+DE            EC=3.2.1.52 {ECO:0000250|UniProtKB:P06865};
+DE   AltName: Full=Beta-N-acetylhexosaminidase subunit alpha;
+DE            Short=Hexosaminidase subunit A;
+DE   AltName: Full=N-acetyl-beta-glucosaminidase subunit alpha;
+DE   Flags: Precursor;
+GN   Name=Hexa {ECO:0000312|RGD:2792};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Hydrolyzes the non-reducing end N-acetyl-D-hexosamine and/or
+CC       sulfated N-acetyl-D-hexosamine of glycoconjugates, such as the
+CC       oligosaccharide moieties from proteins and neutral glycolipids, or from
+CC       certain mucopolysaccharides. The isozyme S is as active as the isozyme
+CC       A on the anionic bis-sulfated glycans, the chondroitin-6-sulfate
+CC       trisaccharide (C6S-3), and the dermatan sulfate pentasaccharide, and
+CC       the sulfated glycosphingolipid SM2. The isozyme B does not hydrolyze
+CC       each of these substrates, however hydrolyzes efficiently neutral
+CC       oligosaccharide. Only the isozyme A is responsible for the degradation
+CC       of GM2 gangliosides in the presence of GM2A.
+CC       {ECO:0000250|UniProtKB:P06865}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing N-acetyl-D-hexosamine
+CC         residues in N-acetyl-beta-D-hexosaminides.; EC=3.2.1.52;
+CC         Evidence={ECO:0000250|UniProtKB:P06865};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-acetyl-beta-D-galactosaminyl-(1->4)-beta-D-3-
+CC         sulfogalactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide = a beta-D-
+CC         3-sulfogalactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide + N-
+CC         acetyl-beta-D-galactosamine; Xref=Rhea:RHEA:48276, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:28497, ChEBI:CHEBI:90163, ChEBI:CHEBI:90164;
+CC         Evidence={ECO:0000250|UniProtKB:P06865};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48277;
+CC         Evidence={ECO:0000250|UniProtKB:P06865};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ganglioside GM2 (d18:1(4E)) + H2O = a ganglioside GM3
+CC         (d18:1(4E)) + N-acetyl-beta-D-galactosamine; Xref=Rhea:RHEA:47940,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:28497, ChEBI:CHEBI:60065,
+CC         ChEBI:CHEBI:71502; Evidence={ECO:0000250|UniProtKB:P06865};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47941;
+CC         Evidence={ECO:0000250|UniProtKB:P06865};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ganglioside GM2 + H2O = a ganglioside GM3 + N-acetyl-beta-D-
+CC         galactosamine; Xref=Rhea:RHEA:47968, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:28497, ChEBI:CHEBI:79210, ChEBI:CHEBI:79218;
+CC         Evidence={ECO:0000250|UniProtKB:P06865};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47969;
+CC         Evidence={ECO:0000250|UniProtKB:P06865};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=beta-D-GalNAc-(1->4)-alpha-L-IdoA-(1->3)-beta-D-GalNAc-4-
+CC         sulfate-(1->4)-alpha-L-IdoA-(1->3)-D-GalNAc-4-sulfate + H2O = alpha-
+CC         L-IdoA-(1->3)-beta-D-GalNAc-4-sulfate-(1->4)-alpha-L-IdoA-(1->3)-D-
+CC         GalNAc-4-sulfate + N-acetyl-D-galactosamine; Xref=Rhea:RHEA:64372,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:28037, ChEBI:CHEBI:152565,
+CC         ChEBI:CHEBI:152566; Evidence={ECO:0000250|UniProtKB:P06865};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64373;
+CC         Evidence={ECO:0000250|UniProtKB:P06865};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-acetyl-beta-D-6-sulfogalactosaminyl-(1->4)-alpha-L-
+CC         iduronyl-(1->3)-N-acetyl-D-6-sulfogalactosamine = alpha-L-iduronyl-
+CC         (1->3)-N-acetyl-D-6-sulfogalactosamine + N-acetyl-D-6-
+CC         sulfogalactosamine; Xref=Rhea:RHEA:64384, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:152567, ChEBI:CHEBI:152568, ChEBI:CHEBI:153064;
+CC         Evidence={ECO:0000250|UniProtKB:P06865};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64385;
+CC         Evidence={ECO:0000250|UniProtKB:P06865};
+CC   -!- ACTIVITY REGULATION: Addition of GM2A stimulates the hydrolysis of
+CC       sulfated glycosphingolipid SM2 and the ganglioside GM2.
+CC       {ECO:0000250|UniProtKB:P06865}.
+CC   -!- SUBUNIT: There are 3 beta-hexosaminidase isozymes: isozyme A
+CC       (hexosaminidase A) is a heterodimer composed of one subunit alpha and
+CC       one subunit beta (chain A and B); isozyme B (hexosaminidase B) is a
+CC       homodimer of two beta subunits (two chains A and B); isozyme S
+CC       (hexosaminidase S) is a homodimer of two alpha subunits. The
+CC       composition of the dimer (isozyme A versus isozyme S) has a significant
+CC       effect on the substrate specificity of the alpha subunit active site.
+CC       {ECO:0000250|UniProtKB:P06865}.
+CC   -!- SUBCELLULAR LOCATION: Lysosome {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 20 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC082097; AAH82097.1; -; mRNA.
+DR   RefSeq; NP_001004443.1; NM_001004443.1.
+DR   AlphaFoldDB; Q641X3; -.
+DR   SMR; Q641X3; -.
+DR   IntAct; Q641X3; 1.
+DR   STRING; 10116.ENSRNOP00000013747; -.
+DR   CAZy; GH20; Glycoside Hydrolase Family 20.
+DR   GlyCosmos; Q641X3; 4 sites, No reported glycans.
+DR   GlyGen; Q641X3; 4 sites.
+DR   PhosphoSitePlus; Q641X3; -.
+DR   jPOST; Q641X3; -.
+DR   PaxDb; 10116-ENSRNOP00000013747; -.
+DR   Ensembl; ENSRNOT00000108506.1; ENSRNOP00000084550.1; ENSRNOG00000010252.5.
+DR   Ensembl; ENSRNOT00055046863; ENSRNOP00055038495; ENSRNOG00055027102.
+DR   Ensembl; ENSRNOT00060027496; ENSRNOP00060022084; ENSRNOG00060016046.
+DR   Ensembl; ENSRNOT00065010982; ENSRNOP00065008066; ENSRNOG00065007034.
+DR   GeneID; 300757; -.
+DR   KEGG; rno:300757; -.
+DR   UCSC; RGD:2792; rat.
+DR   AGR; RGD:2792; -.
+DR   CTD; 3073; -.
+DR   RGD; 2792; Hexa.
+DR   eggNOG; KOG2499; Eukaryota.
+DR   GeneTree; ENSGT00390000008107; -.
+DR   HOGENOM; CLU_007082_0_0_1; -.
+DR   InParanoid; Q641X3; -.
+DR   OMA; KMWPRAA; -.
+DR   OrthoDB; 178991at2759; -.
+DR   PhylomeDB; Q641X3; -.
+DR   TreeFam; TF313036; -.
+DR   Reactome; R-RNO-2022857; Keratan sulfate degradation.
+DR   Reactome; R-RNO-2024101; CS/DS degradation.
+DR   Reactome; R-RNO-2160916; Hyaluronan uptake and degradation.
+DR   Reactome; R-RNO-9840310; Glycosphingolipid catabolism.
+DR   SABIO-RK; Q641X3; -.
+DR   PRO; PR:Q641X3; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000010252; Expressed in adult mammalian kidney and 19 other cell types or tissues.
+DR   GO; GO:0042582; C:azurophil granule; ISO:RGD.
+DR   GO; GO:1905379; C:beta-N-acetylhexosaminidase complex; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; IEA:Ensembl.
+DR   GO; GO:0005764; C:lysosome; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0008375; F:acetylglucosaminyltransferase activity; ISO:RGD.
+DR   GO; GO:0004563; F:beta-N-acetylhexosaminidase activity; ISS:UniProtKB.
+DR   GO; GO:0102148; F:N-acetyl-beta-D-galactosaminidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046982; F:protein heterodimerization activity; ISO:RGD.
+DR   GO; GO:0007628; P:adult walking behavior; ISO:RGD.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0048667; P:cell morphogenesis involved in neuron differentiation; ISO:RGD.
+DR   GO; GO:0030209; P:dermatan sulfate catabolic process; ISO:RGD.
+DR   GO; GO:0006689; P:ganglioside catabolic process; ISS:UniProtKB.
+DR   GO; GO:0006024; P:glycosaminoglycan biosynthetic process; ISO:RGD.
+DR   GO; GO:0030203; P:glycosaminoglycan metabolic process; ISO:RGD.
+DR   GO; GO:0030214; P:hyaluronan catabolic process; ISO:RGD.
+DR   GO; GO:0019915; P:lipid storage; ISO:RGD.
+DR   GO; GO:0007626; P:locomotory behavior; ISO:RGD.
+DR   GO; GO:0007040; P:lysosome organization; ISO:RGD.
+DR   GO; GO:0051651; P:maintenance of location in cell; ISO:RGD.
+DR   GO; GO:0042552; P:myelination; ISO:RGD.
+DR   GO; GO:0050885; P:neuromuscular process controlling balance; ISO:RGD.
+DR   GO; GO:0050884; P:neuromuscular process controlling posture; ISO:RGD.
+DR   GO; GO:0007605; P:sensory perception of sound; ISO:RGD.
+DR   GO; GO:0019953; P:sexual reproduction; ISO:RGD.
+DR   GO; GO:0001501; P:skeletal system development; ISO:RGD.
+DR   CDD; cd06562; GH20_HexA_HexB-like; 1.
+DR   Gene3D; 3.30.379.10; Chitobiase/beta-hexosaminidase domain 2-like; 1.
+DR   Gene3D; 3.20.20.80; Glycosidases; 1.
+DR   InterPro; IPR025705; Beta_hexosaminidase_sua/sub.
+DR   InterPro; IPR015883; Glyco_hydro_20_cat.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR029018; Hex-like_dom2.
+DR   InterPro; IPR029019; HEX_eukaryotic_N.
+DR   PANTHER; PTHR22600; BETA-HEXOSAMINIDASE; 1.
+DR   PANTHER; PTHR22600:SF39; BETA-HEXOSAMINIDASE SUBUNIT ALPHA; 1.
+DR   Pfam; PF00728; Glyco_hydro_20; 1.
+DR   Pfam; PF14845; Glycohydro_20b2; 1.
+DR   PIRSF; PIRSF001093; B-hxosamndse_ab_euk; 1.
+DR   PRINTS; PR00738; GLHYDRLASE20.
+DR   SUPFAM; SSF51445; (Trans)glycosidases; 1.
+DR   SUPFAM; SSF55545; beta-N-acetylhexosaminidase-like domain; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Glycosidase; Hydrolase; Lipid metabolism;
+KW   Lysosome; Reference proteome; Signal; Zymogen.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          23..88
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000011999"
+FT   CHAIN           89..528
+FT                   /note="Beta-hexosaminidase subunit alpha"
+FT                   /id="PRO_0000012000"
+FT   REGION          422..423
+FT                   /note="Critical for hydrolysis GM2 gangliosides"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        323
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        115
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        157
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        295
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        487
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        58..104
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        277..328
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        504..521
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   528 AA;  60538 MW;  B87DD9A21260DCA3 CRC64;
+     MAGCRLWVSL LLAAALACLA TALWPWPQYI QTSHRRYTLY PNNFQFRYHA GSAAQAGCVV
+     LDEAFRRYRS LLFGSGSWPR PSFSKKQQPL GKNILMVSVV TAECNEFPNL ESVENYTLTI
+     NDDQCLLSSE TVWGALRGLE TFSQLVWKSA EGTFFINKTK ITDFPRFPHR GILLDTSRHY
+     LPLSSILNTL DVMAYNKFNV FHWHLVDDSS FPYESFTFPE LTRKGSFNPV THIYTAQDVK
+     EVIEYARLRG IRVLAEFDTP GHTLSWGAGV PGLLTPCYSG SRLSGTYGPV NPSLNSTYDF
+     MSTFFLEISS VFPDFYLHLG GDEVDFTCWK SNPNIQAFMK KKGFTDYKQL ESFYIQTLLD
+     IVSDYDKGYV VWQEVFDNKV KVRPDTIIQV WREEMPVQYM KEIEAITQAG FRALLSAPWY
+     LNRVKYGPDW KEMYKVEPLA FRGTPAQKAL VIGGEACMWG EYVDSTNLVP RLWPRAGAIA
+     ERLWSSNLTT NMDFAFKRLS HFRCELLRRG IQAQPISVGY CEQEFEHT
+//

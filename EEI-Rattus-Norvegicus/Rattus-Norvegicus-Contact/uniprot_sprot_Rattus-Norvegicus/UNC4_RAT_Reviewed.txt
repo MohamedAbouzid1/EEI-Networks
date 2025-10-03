@@ -1,0 +1,124 @@
+ID   UNC4_RAT                Reviewed;         530 AA.
+AC   P97830;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   02-OCT-2024, entry version 125.
+DE   RecName: Full=Homeobox protein unc-4 homolog;
+DE   AltName: Full=Homeobox protein Uncx4.1;
+DE   AltName: Full=Paired-type homeodomain transcription factor 1;
+GN   Name=Uncx; Synonyms=Phd1, Uncx4.1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Head;
+RX   PubMed=8948581; DOI=10.1006/dbio.1996.0291;
+RA   Saito T., Lo L., Anderson D.J., Mikoshiba K.;
+RT   "Identification of novel paired homeodomain protein related to C. elegans
+RT   unc-4 as a potential downstream target of MASH1.";
+RL   Dev. Biol. 180:143-155(1996).
+CC   -!- FUNCTION: Transcription factor involved in somitogenesis and
+CC       neurogenesis. Required for the maintenance and differentiation of
+CC       particular elements of the axial skeleton. May act upstream of PAX9.
+CC       Plays a role in controlling the development of connections of
+CC       hypothalamic neurons to pituitary elements, allowing central neurons to
+CC       reach the peripheral blood circulation and to deliver hormones for
+CC       control of peripheral functions (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000255|PROSITE-ProRule:PRU00108}.
+CC   -!- TISSUE SPECIFICITY: Expressed in a narrow layer adjacent to the
+CC       ventricular zone of the dorsal spinal cord, preceding overt neuronal
+CC       differentiation. {ECO:0000269|PubMed:8948581}.
+CC   -!- SIMILARITY: Belongs to the paired homeobox family. Unc-4 subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D87748; BAA13452.1; -; mRNA.
+DR   RefSeq; NP_058875.1; NM_017179.1.
+DR   AlphaFoldDB; P97830; -.
+DR   STRING; 10116.ENSRNOP00000001730; -.
+DR   PhosphoSitePlus; P97830; -.
+DR   PaxDb; 10116-ENSRNOP00000001730; -.
+DR   GeneID; 29375; -.
+DR   KEGG; rno:29375; -.
+DR   UCSC; RGD:69361; rat.
+DR   AGR; RGD:69361; -.
+DR   CTD; 340260; -.
+DR   RGD; 69361; Uncx.
+DR   eggNOG; KOG0490; Eukaryota.
+DR   InParanoid; P97830; -.
+DR   OrthoDB; 2902937at2759; -.
+DR   PhylomeDB; P97830; -.
+DR   PRO; PR:P97830; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000981; F:DNA-binding transcription factor activity, RNA polymerase II-specific; IEA:InterPro.
+DR   GO; GO:1990837; F:sequence-specific double-stranded DNA binding; ISO:RGD.
+DR   GO; GO:0001502; P:cartilage condensation; ISO:RGD.
+DR   GO; GO:0035726; P:common myeloid progenitor cell proliferation; ISO:RGD.
+DR   GO; GO:0021516; P:dorsal spinal cord development; ISO:RGD.
+DR   GO; GO:0021889; P:olfactory bulb interneuron differentiation; ISO:RGD.
+DR   GO; GO:0007389; P:pattern specification process; ISO:RGD.
+DR   GO; GO:0045595; P:regulation of cell differentiation; ISO:RGD.
+DR   GO; GO:0010468; P:regulation of gene expression; ISO:RGD.
+DR   CDD; cd00086; homeodomain; 1.
+DR   Gene3D; 1.10.10.60; Homeodomain-like; 1.
+DR   InterPro; IPR001356; HD.
+DR   InterPro; IPR017970; Homeobox_CS.
+DR   InterPro; IPR009057; Homeodomain-like_sf.
+DR   PANTHER; PTHR46799; HOMEOBOX PROTEIN UNC-4 HOMOLOG; 1.
+DR   PANTHER; PTHR46799:SF1; HOMEOBOX PROTEIN UNC-4 HOMOLOG; 1.
+DR   Pfam; PF00046; Homeodomain; 1.
+DR   SMART; SM00389; HOX; 1.
+DR   SUPFAM; SSF46689; Homeodomain-like; 1.
+DR   PROSITE; PS00027; HOMEOBOX_1; 1.
+DR   PROSITE; PS50071; HOMEOBOX_2; 1.
+PE   2: Evidence at transcript level;
+KW   Developmental protein; Differentiation; DNA-binding; Homeobox;
+KW   Neurogenesis; Nucleus; Reference proteome; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..530
+FT                   /note="Homeobox protein unc-4 homolog"
+FT                   /id="PRO_0000334626"
+FT   DNA_BIND        109..168
+FT                   /note="Homeobox"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00108"
+FT   REGION          90..111
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          165..362
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          400..530
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        95..110
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        192..207
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        223..243
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        405..423
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        479..503
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   530 AA;  53880 MW;  F5D5C0BD87ECF792 CRC64;
+     MMDGRLLEHP HAQFGGSLGG VVGFPYPLGH HHVYELAGHQ LQSAAAAAAA ASVPFSIDGL
+     LSGSCAAAAA SVVNPTPLLP AACGVAGESQ PFKLADSGDP DKESPGCKRR RTRTNFTGWQ
+     LEELEKAFNE SHYPDVFMRE ALAVRLDLVE SRVQVWFQNR RAKWRKKENT KKGPGRPAHN
+     SHPTTCSGEP MDPEEIARKE LEKMEKKKRK HEKKLLKSQS RHLHSPGGLS LHSAPSSDSD
+     SGGGGLSPEP PEPPPPTASA KGPGAHGSGI AGSAPVPPGE PPAPGTCDPA FYPSQRSGAG
+     SQPRLGRPAD KDTVPCGPGA ASTAGLPKAS PFSVESLLSD SPPRRKATPA NTAATAGLDF
+     TPGLPCAPRT LIGKGHFLLY PITQPLGFLV PQAALKGGAG PELVPKDAPP APPAPPAPPA
+     QASFGAFPGP VGAADPAFAR RSPEVVASPG PPAPASFRGL AAAAAESGAG DCADAGTVCP
+     AAPPPPPLET SPGPGPRAPS PPGEPATCGA AEPGAATGSS PPEGEEVDMD
+//

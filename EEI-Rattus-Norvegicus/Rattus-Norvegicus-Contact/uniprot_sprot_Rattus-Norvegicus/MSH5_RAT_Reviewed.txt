@@ -1,0 +1,136 @@
+ID   MSH5_RAT                Reviewed;         831 AA.
+AC   Q6MG62; Q5XHZ5;
+DT   24-JAN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   24-JAN-2024, entry version 126.
+DE   RecName: Full=MutS protein homolog 5;
+GN   Name=Msh5;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RX   PubMed=15060004; DOI=10.1101/gr.1987704;
+RA   Hurt P., Walter L., Sudbrak R., Klages S., Mueller I., Shiina T., Inoko H.,
+RA   Lehrach H., Guenther E., Reinhardt R., Himmelbauer H.;
+RT   "The genomic sequence and comparative analysis of the rat major
+RT   histocompatibility complex.";
+RL   Genome Res. 14:631-639(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Involved in DNA mismatch repair and meiotic recombination
+CC       processes. Facilitates crossovers between homologs during meiosis (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Heterooligomer of MSH4 and MSH5. Interacts with HJURP (By
+CC       similarity). Interacts with C7h12orf40/REDIC1 (By similarity).
+CC       {ECO:0000250, ECO:0000250|UniProtKB:Q9QUM7}.
+CC   -!- SIMILARITY: Belongs to the DNA mismatch repair MutS family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX883045; CAE83984.1; -; Genomic_DNA.
+DR   EMBL; BC083904; AAH83904.1; -; mRNA.
+DR   RefSeq; NP_997701.2; NM_212536.2.
+DR   RefSeq; XP_017457063.1; XM_017601574.1.
+DR   AlphaFoldDB; Q6MG62; -.
+DR   SMR; Q6MG62; -.
+DR   STRING; 10116.ENSRNOP00000057489; -.
+DR   iPTMnet; Q6MG62; -.
+DR   PhosphoSitePlus; Q6MG62; -.
+DR   PaxDb; 10116-ENSRNOP00000057489; -.
+DR   Ensembl; ENSRNOT00000060762.3; ENSRNOP00000057489.3; ENSRNOG00000000857.7.
+DR   Ensembl; ENSRNOT00055012278; ENSRNOP00055009730; ENSRNOG00055007376.
+DR   Ensembl; ENSRNOT00060007467; ENSRNOP00060005652; ENSRNOG00060004454.
+DR   GeneID; 294252; -.
+DR   KEGG; rno:294252; -.
+DR   UCSC; RGD:1303008; rat.
+DR   AGR; RGD:1303008; -.
+DR   CTD; 4439; -.
+DR   RGD; 1303008; Msh5.
+DR   eggNOG; KOG0221; Eukaryota.
+DR   GeneTree; ENSGT00550000074977; -.
+DR   HOGENOM; CLU_002472_8_0_1; -.
+DR   InParanoid; Q6MG62; -.
+DR   OMA; METHQDG; -.
+DR   OrthoDB; 9867at2759; -.
+DR   PhylomeDB; Q6MG62; -.
+DR   TreeFam; TF314549; -.
+DR   PRO; PR:Q6MG62; -.
+DR   Proteomes; UP000002494; Chromosome 20.
+DR   Bgee; ENSRNOG00000000857; Expressed in testis and 14 other cell types or tissues.
+DR   ExpressionAtlas; Q6MG62; baseline and differential.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0000795; C:synaptonemal complex; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0140664; F:ATP-dependent DNA damage sensor activity; IEA:InterPro.
+DR   GO; GO:0003690; F:double-stranded DNA binding; IBA:GO_Central.
+DR   GO; GO:0030983; F:mismatched DNA binding; IEA:InterPro.
+DR   GO; GO:0051026; P:chiasma assembly; IBA:GO_Central.
+DR   GO; GO:0007292; P:female gamete generation; ISO:RGD.
+DR   GO; GO:0007129; P:homologous chromosome pairing at meiosis; ISO:RGD.
+DR   GO; GO:0007127; P:meiosis I; ISO:RGD.
+DR   GO; GO:0006298; P:mismatch repair; IEA:InterPro.
+DR   CDD; cd03281; ABC_MSH5_euk; 1.
+DR   Gene3D; 1.10.1420.10; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR011184; DNA_mismatch_repair_Msh2.
+DR   InterPro; IPR000432; DNA_mismatch_repair_MutS_C.
+DR   InterPro; IPR007861; DNA_mismatch_repair_MutS_clamp.
+DR   InterPro; IPR007696; DNA_mismatch_repair_MutS_core.
+DR   InterPro; IPR036187; DNA_mismatch_repair_MutS_sf.
+DR   InterPro; IPR045076; MutS_family.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR11361; DNA MISMATCH REPAIR PROTEIN MUTS FAMILY MEMBER; 1.
+DR   PANTHER; PTHR11361:SF20; MUTS PROTEIN HOMOLOG 5; 1.
+DR   Pfam; PF05192; MutS_III; 1.
+DR   Pfam; PF05190; MutS_IV; 1.
+DR   Pfam; PF00488; MutS_V; 1.
+DR   PIRSF; PIRSF005813; MSH2; 1.
+DR   SMART; SM00534; MUTSac; 1.
+DR   SMART; SM00533; MUTSd; 1.
+DR   SUPFAM; SSF48334; DNA repair protein MutS, domain III; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00486; DNA_MISMATCH_REPAIR_2; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; DNA damage; DNA repair; DNA-binding; Meiosis;
+KW   Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..831
+FT                   /note="MutS protein homolog 5"
+FT                   /id="PRO_0000115204"
+FT   REGION          1..43
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         589..596
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        379
+FT                   /note="Missing (in Ref. 2; AAH83904)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   831 AA;  92452 MW;  6C6AE6C02795321D CRC64;
+     MAFRATPGRT PPGPGPGVPS ASFSSPQPAM AAPGGIEEED EEEPAEIHLC VLWSSGYLGI
+     AYYDTSDSTI HFMPDAPDHE SLKLLQRVLD EINPQSVVTS AKQDEAMTQF LGKLASQEHR
+     EPKRPEIILL PSVDFGPEIS KQRLLSGNYS FISESMTATE KILFLSSIIP FDCVLTVRAL
+     GGLLKFLSRR RVGVELEDYS VGVPILGFKK FVLTHLVSID QDTYSVLQIF KSESHPSVYK
+     VASGLKEGLS LFGILNRCRC RWGQKLLRLW FTRPTRELRE LNSRLDVIEF FLMPQNLDMA
+     QMMHRLLSHI KNVPLILKRM KLSHTKVSDW QVLYKTVYSA LGLRDACRSL PQSIQLFRDI
+     TQEFSDDLHH IASLIGKVVD FEESLAENRF TVLPNIDPEI DAKKRRLMGL PSFLTEVAQK
+     ELENLDSCIP SCSVIYIPLI GFLLSIPRLS FMVEASDFEI EGLDFMFLSE DKLHYRSART
+     KELDALLGDL HCEIRDQEML LMHQLQCQVL ARAPVLTRVL DLASRLDVLL ALASAARDYG
+     YSRPHYSPCI QGVRIKNGRH PLMELCARTF VPNSTDCGGD QGRVKVITGP NSSGKSIYLK
+     QVGLITFMAL VGSFVPAEEA EIGVIDAIFT RIHSCESISL GLSTFMIDLN QVAKAVNNAT
+     EHSLVLIDEF GKGTNSVDGL ALLTAVLRHW LALGPSCPHI FVATNFLSLV QLQLLPQGPL
+     VQYLTMETCE DGNDLVFFYQ LCHGVASASH ASYTAAQAGL PDPLIARGKE VSDSIRSGKP
+     VKPMHELVRR TQMENCQALV DKFLKLDLED PSLDLDIFIS QEVLPAATTI L
+//

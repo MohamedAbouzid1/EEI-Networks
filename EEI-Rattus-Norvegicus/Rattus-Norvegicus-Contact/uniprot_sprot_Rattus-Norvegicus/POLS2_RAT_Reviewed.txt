@@ -1,0 +1,173 @@
+ID   POLS2_RAT               Reviewed;         875 AA.
+AC   Q5K2P9;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2005, sequence version 1.
+DT   27-MAR-2024, entry version 106.
+DE   RecName: Full=Polyserase-2;
+DE            EC=3.4.21.-;
+DE   AltName: Full=Polyserine protease 2;
+DE   AltName: Full=Serine protease 36;
+DE   Flags: Precursor;
+GN   Name=Prss36;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15536082; DOI=10.1074/jbc.m409139200;
+RA   Cal S., Quesada V., Llamazares M., Diaz-Perales A., Garabaya C.,
+RA   Lopez-Otin C.;
+RT   "Human polyserase-2, a novel enzyme with three tandem serine protease
+RT   domains in a single polypeptide chain.";
+RL   J. Biol. Chem. 280:1953-1961(2005).
+CC   -!- FUNCTION: Serine protease. Hydrolyzes the peptides N-t-Boc-Gln-Ala-Arg-
+CC       AMC and N-t-Boc-Gln-Gly-Arg-AMC and, to a lesser extent, N-t-Boc-Ala-
+CC       Phe-Lys-AMC and N-t-Boc-Val-Leu-Lys-AMC. Has a preference for
+CC       substrates with an Arg instead of a Lys residue in position P1 (By
+CC       similarity). {ECO:0000250}.
+CC   -!- ACTIVITY REGULATION: Inhibited by serine proteinase inhibitor 4-(2-
+CC       aminoethyl)-benzenesulfonyl fluoride, but not with EDTA or E-64.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}. Note=Not attached to membranes. {ECO:0000250}.
+CC   -!- DOMAIN: The first serine protease domain is catalytically active,
+CC       whereas the second domain lacks the essential His residue of the
+CC       catalytic triad at position 387, and the third domain lacks the
+CC       essential Asp residue of the catalytic triad at position 697. The
+CC       second and third domains are therefore predicted to be inactive.
+CC   -!- PTM: The 3 protease domains are not proteolytically cleaved.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1 family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00274}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ784938; CAH05009.1; -; mRNA.
+DR   AlphaFoldDB; Q5K2P9; -.
+DR   SMR; Q5K2P9; -.
+DR   STRING; 10116.ENSRNOP00000026587; -.
+DR   MEROPS; S01.414; -.
+DR   GlyCosmos; Q5K2P9; 6 sites, No reported glycans.
+DR   GlyGen; Q5K2P9; 6 sites.
+DR   UCSC; RGD:1593186; rat.
+DR   AGR; RGD:1593186; -.
+DR   RGD; 1593186; Prss36.
+DR   InParanoid; Q5K2P9; -.
+DR   PhylomeDB; Q5K2P9; -.
+DR   PRO; PR:Q5K2P9; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; ISO:RGD.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd00190; Tryp_SPc; 1.
+DR   Gene3D; 2.40.10.10; Trypsin-like serine proteases; 4.
+DR   InterPro; IPR017326; Pept_S1A_polyserase-2.
+DR   InterPro; IPR009003; Peptidase_S1_PA.
+DR   InterPro; IPR043504; Peptidase_S1_PA_chymotrypsin.
+DR   InterPro; IPR001314; Peptidase_S1A.
+DR   InterPro; IPR001254; Trypsin_dom.
+DR   InterPro; IPR018114; TRYPSIN_HIS.
+DR   InterPro; IPR033116; TRYPSIN_SER.
+DR   PANTHER; PTHR24253:SF100; POLYSERASE-2; 1.
+DR   PANTHER; PTHR24253; TRANSMEMBRANE PROTEASE SERINE; 1.
+DR   Pfam; PF00089; Trypsin; 3.
+DR   PIRSF; PIRSF037933; Polyserase-2; 1.
+DR   PRINTS; PR00722; CHYMOTRYPSIN.
+DR   SMART; SM00020; Tryp_SPc; 1.
+DR   SUPFAM; SSF50494; Trypsin-like serine proteases; 3.
+DR   PROSITE; PS50240; TRYPSIN_DOM; 3.
+DR   PROSITE; PS00134; TRYPSIN_HIS; 1.
+DR   PROSITE; PS00135; TRYPSIN_SER; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Extracellular matrix; Glycoprotein; Hydrolase; Protease;
+KW   Reference proteome; Repeat; Secreted; Serine protease; Signal; Zymogen.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          24..50
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000027883"
+FT   CHAIN           51..875
+FT                   /note="Polyserase-2"
+FT                   /id="PRO_0000027884"
+FT   DOMAIN          51..315
+FT                   /note="Peptidase S1 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DOMAIN          347..573
+FT                   /note="Peptidase S1 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DOMAIN          608..826
+FT                   /note="Peptidase S1 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   REGION          320..340
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        91
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        163
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        267
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        96
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        134
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        241
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        341
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        420
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        439
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        76..92
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        197..273
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        230..252
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        263..291
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        372..388
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        462..534
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        490..512
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        524..552
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        633..649
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        729..790
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   DISULFID        757..769
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+SQ   SEQUENCE   875 AA;  94483 MW;  251C8DE6909FDE17 CRC64;
+     MSHHLFLPVV IMVVSPIPPG AFQDSVVSPT QGEFEDLDCG DCGRPEPSSR IVGGSDAHPG
+     TWPWQVSLHQ GGGHICGGSL IAPSWVLSAA HCFVTNGTLE PADELSVLLG VHSQDGPLEG
+     AHMRSVATIL IPDNYSTVEL GADLALLRLA SPAKLGPSVR GADLALLRLA SPAKLGPSVR
+     PVCLPRASHL FAHGTACWAT GWGDVQEAVP LPLPWVLQEV ELRLLGEAAC QCLYSRPGPF
+     NLTFQLLPGM LCAGYPAGRR DTCQGDSGGP LVCEDGGRWF LAGITSFGFG CGRRNRPGVF
+     TAVAPYESWI REHVMGSEPG PVFPSQLQKP QSGPWEPREE NCTFAQPECG KAPRPGTWPW
+     EAQVTVPGST PCYGALVSDR WVLAPASCFL DSPHDFETWR VLLPSRPEEE RVARLVAHEN
+     ASRDFASDLA LLQLRTRVNL TAAPSAVCLP HHEHYFLPGS HCRLARWGRG ELAPGSSAQL
+     EAQLLNGWWC HCLYGRQGET VPRPGDPPHL LCPAYQEEEE AGLCWVDSSW SLLCREEGTW
+     FLAGYRTLSD GCLRPRAFSP MQTHGPWIRH VTQGAYLEDQ LTWDWGPEGE ETEKQTCPTH
+     TEHGACGLRP KSTPAGVLWP WLTEVHVTGD RVCTGILVAP GWVLAATHCI LRLGSTTVPY
+     IEVYLGRAGV SSLPQGHQVS RSVVSIRLPR HLGLRPPLAL LELNSRVEPS PSALPICLHP
+     GGIPSGASCW VLGWKNPQDR VPVVAAVSIL TPRLCHCLYP GILTPGTFCV LYSEGQEDRC
+     EVTSAPPLLC QTEEGPWVLV GMAVRGNREL FAAIGPEATW ISQTVGEAHF LHLGGSSYWS
+     PEGSDLCPQD LAGSASSPKV TALLLLLLLA PLIPR
+//

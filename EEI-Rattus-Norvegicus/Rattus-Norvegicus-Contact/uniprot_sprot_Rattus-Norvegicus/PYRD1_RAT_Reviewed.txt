@@ -1,0 +1,97 @@
+ID   PYRD1_RAT               Reviewed;         498 AA.
+AC   Q68FS6;
+DT   08-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   02-OCT-2024, entry version 92.
+DE   RecName: Full=Pyridine nucleotide-disulfide oxidoreductase domain-containing protein 1;
+DE            EC=1.8.1.-;
+GN   Name=Pyroxd1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Probable FAD-dependent oxidoreductase; involved in the
+CC       cellular oxidative stress response (By similarity). Required for normal
+CC       sarcomere structure and muscle fiber integrity (By similarity).
+CC       {ECO:0000250|UniProtKB:Q6PBT5, ECO:0000250|UniProtKB:Q8WU10}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000250|UniProtKB:O52582};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000250|UniProtKB:O52582};
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q8WU10}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:Q3TMV7}. Cytoplasm, myofibril, sarcomere
+CC       {ECO:0000250|UniProtKB:Q8WU10}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridine nucleotide-disulfide
+CC       oxidoreductase family. PYROXD1 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079377; AAH79377.1; -; mRNA.
+DR   RefSeq; NP_001004234.1; NM_001004234.1.
+DR   AlphaFoldDB; Q68FS6; -.
+DR   SMR; Q68FS6; -.
+DR   STRING; 10116.ENSRNOP00000016794; -.
+DR   iPTMnet; Q68FS6; -.
+DR   PhosphoSitePlus; Q68FS6; -.
+DR   PaxDb; 10116-ENSRNOP00000016794; -.
+DR   GeneID; 297708; -.
+DR   KEGG; rno:297708; -.
+DR   UCSC; RGD:1303253; rat.
+DR   AGR; RGD:1303253; -.
+DR   CTD; 79912; -.
+DR   RGD; 1303253; Pyroxd1.
+DR   eggNOG; KOG2755; Eukaryota.
+DR   InParanoid; Q68FS6; -.
+DR   OrthoDB; 5488855at2759; -.
+DR   PhylomeDB; Q68FS6; -.
+DR   PRO; PR:Q68FS6; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0030017; C:sarcomere; ISS:UniProtKB.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; ISS:UniProtKB.
+DR   Gene3D; 3.30.390.30; -; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 3.
+DR   InterPro; IPR050260; FAD-dep_Oxidoreductase.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR016156; FAD/NAD-linked_Rdtase_dimer_sf.
+DR   InterPro; IPR041575; Rubredoxin_C.
+DR   PANTHER; PTHR43429; PYRIDINE NUCLEOTIDE-DISULFIDE OXIDOREDUCTASE DOMAIN-CONTAINING; 1.
+DR   PANTHER; PTHR43429:SF2; PYRIDINE NUCLEOTIDE-DISULFIDE OXIDOREDUCTASE DOMAIN-CONTAINING PROTEIN 1; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 2.
+DR   Pfam; PF18267; Rubredoxin_C; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 2.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Cytoplasm; FAD; Flavoprotein; NADP; Nucleus; Oxidoreductase;
+KW   Reference proteome.
+FT   CHAIN           1..498
+FT                   /note="Pyridine nucleotide-disulfide oxidoreductase domain-
+FT                   containing protein 1"
+FT                   /id="PRO_0000327422"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WU10"
+SQ   SEQUENCE   498 AA;  55490 MW;  320BDA30A6675AB6 CRC64;
+     MEAARPAGTF VVVGGGIAGV TCAEQLAINF PAEDILLVTA SPVIKAVTNF KQVSKVLEEF
+     DVEEQPSTML ENRFPNIKVI ESGVKQLKSD KHCIFTEDGR EYVYKKLCLC AGAKPKLICE
+     GNPYVLGIRD TDSAQEFQKQ LTKARRIMIV GNGGIALELA YEVEVCEVIW AIKDKAIGNT
+     FFDAGAAEFL TSRLLSEKSE AKLAHKRTIY TVEEAKKETS TKSKADYVGS ALGPDWHGGL
+     ALKGTEEFSH SIHIETKCEV KKIYLQEEFK IMKKKSLAFP KDHHKSVTVD KEMWPVYVEL
+     TNGSIYGCDF LVSATGVTPN VQPFLHGNDF DLGEDGGLRV DEQMRTSLPD IYAAGDICTA
+     CWPPSPVWQQ MRLWTQARQM GCYAAKCMAA ATMGHPIDMD FSFELFAHVT KFFNYKVVLL
+     GKYNAQGLGV DHELMLRCTR GQEYIKVVMH NGRMMGAVLI GETDLEETFE NLILNQMDLS
+     SYGEDLLNPD IDIEDYFD
+//

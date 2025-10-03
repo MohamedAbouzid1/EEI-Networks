@@ -1,0 +1,131 @@
+ID   KACB_RAT                Reviewed;         106 AA.
+AC   P01835;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   24-JUL-2024, entry version 111.
+DE   RecName: Full=Ig kappa chain C region, B allele;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=Louvain;
+RX   PubMed=6273908; DOI=10.1073/pnas.78.11.7064;
+RA   Sheppard H.W., Gutman G.A.;
+RT   "Allelic forms of rat kappa chain genes: evidence for strong selection at
+RT   the level of nucleotide sequence.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 78:7064-7068(1981).
+RN   [2]
+RP   PROTEIN SEQUENCE (BENCE-JONES PROTEIN S211).
+RX   PubMed=807630;
+RA   Starace V., Querinjean P.;
+RT   "The primary structure of a rat kappa Bence Jones protein: phylogenetic
+RT   relationships of V- and C-region genes.";
+RL   J. Immunol. 115:59-62(1975).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; A93901; K1RTB.
+DR   PDB; 1BFO; X-ray; 2.60 A; A/C/E/G=1-106.
+DR   PDB; 1C5D; X-ray; 2.40 A; A/L=1-106.
+DR   PDB; 1FN4; X-ray; 2.80 A; A/C=4-106.
+DR   PDB; 1LK3; X-ray; 1.91 A; L/M=1-103.
+DR   PDB; 4UAO; X-ray; 3.10 A; B=1-106.
+DR   PDBsum; 1BFO; -.
+DR   PDBsum; 1C5D; -.
+DR   PDBsum; 1FN4; -.
+DR   PDBsum; 1LK3; -.
+DR   PDBsum; 4UAO; -.
+DR   AlphaFoldDB; P01835; -.
+DR   SMR; P01835; -.
+DR   STRING; 10116.ENSRNOP00000029319; -.
+DR   PaxDb; 10116-ENSRNOP00000066644; -.
+DR   AGR; RGD:1561547; -.
+DR   eggNOG; ENOG502RZ26; Eukaryota.
+DR   HOGENOM; CLU_077975_3_0_1; -.
+DR   InParanoid; P01835; -.
+DR   EvolutionaryTrace; P01835; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   CDD; cd07699; IgC1_L; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 1.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003006; Ig/MHC_CS.
+DR   InterPro; IPR003597; Ig_C1-set.
+DR   InterPro; IPR050160; MHC/Immunoglobulin.
+DR   PANTHER; PTHR19944:SF98; IG-LIKE DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR19944; MHC CLASS II-RELATED; 1.
+DR   Pfam; PF07654; C1-set; 1.
+DR   SMART; SM00407; IGc1; 1.
+DR   SUPFAM; SSF48726; Immunoglobulin; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+DR   PROSITE; PS00290; IG_MHC; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond;
+KW   Immunoglobulin domain; Reference proteome.
+FT   CHAIN           <1..106
+FT                   /note="Ig kappa chain C region, B allele"
+FT                   /id="PRO_0000153605"
+FT   DOMAIN          5..102
+FT                   /note="Ig-like"
+FT   DISULFID        26..86
+FT   DISULFID        106
+FT                   /note="Interchain (with a heavy chain)"
+FT   CONFLICT        2
+FT                   /note="D -> N (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        30
+FT                   /note="N -> K (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        48
+FT                   /note="Missing (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        79
+FT                   /note="E -> Q (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        87
+FT                   /note="E -> Q (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        98
+FT                   /note="V -> VW (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        100
+FT                   /note="S -> N (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   NON_TER         1
+FT   STRAND          6..10
+FT                   /evidence="ECO:0007829|PDB:1LK3"
+FT   HELIX           14..17
+FT                   /evidence="ECO:0007829|PDB:1LK3"
+FT   TURN            18..20
+FT                   /evidence="ECO:0007829|PDB:1LK3"
+FT   STRAND          21..34
+FT                   /evidence="ECO:0007829|PDB:1LK3"
+FT   STRAND          37..42
+FT                   /evidence="ECO:0007829|PDB:1LK3"
+FT   STRAND          45..47
+FT                   /evidence="ECO:0007829|PDB:1C5D"
+FT   STRAND          51..55
+FT                   /evidence="ECO:0007829|PDB:1LK3"
+FT   TURN            60..62
+FT                   /evidence="ECO:0007829|PDB:1LK3"
+FT   STRAND          65..74
+FT                   /evidence="ECO:0007829|PDB:1LK3"
+FT   HELIX           75..79
+FT                   /evidence="ECO:0007829|PDB:1LK3"
+FT   STRAND          83..89
+FT                   /evidence="ECO:0007829|PDB:1LK3"
+FT   TURN            91..93
+FT                   /evidence="ECO:0007829|PDB:1C5D"
+FT   STRAND          94..96
+FT                   /evidence="ECO:0007829|PDB:1BFO"
+FT   STRAND          97..102
+FT                   /evidence="ECO:0007829|PDB:1LK3"
+SQ   SEQUENCE   106 AA;  11601 MW;  4CFA7CA820D1CA36 CRC64;
+     ADAAPTVSIF PPSTEQLATG GASVVCLMNN FYPRDISVKW KIDGTERRDG VLDSVTDQDS
+     KDSTYSMSST LSLTKADYES HNLYTCEVVH KTSSSPVVKS FNRNEC
+//

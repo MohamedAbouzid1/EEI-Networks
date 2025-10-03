@@ -1,0 +1,194 @@
+ID   RGS9_RAT                Reviewed;         677 AA.
+AC   P49805;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2000, sequence version 3.
+DT   02-OCT-2024, entry version 169.
+DE   RecName: Full=Regulator of G-protein signaling 9;
+DE            Short=RGS9;
+GN   Name=Rgs9;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND ALTERNATIVE SPLICING.
+RC   STRAIN=Sprague-Dawley; TISSUE=Hypothalamus;
+RX   PubMed=9765512;
+RA   Granneman J.G., Zhai Y., Zhu Z., Bannon M.J., Burchett S.A., Schmidt C.J.,
+RA   Andrade R., Cooper J.;
+RT   "Molecular characterization of human and rat RGS9L, a novel splice variant
+RT   enriched in dopamine target regions, and chromosomal localization of the
+RT   RGS9 gene.";
+RL   Mol. Pharmacol. 54:687-694(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM RGS9L).
+RC   TISSUE=Brain;
+RA   Zhou J., Moroi K., Homma S., Usui H., Nishiyama M., Kimura S.;
+RT   "A long form of rat regulator of G-protein signaling 9 (RGS9).";
+RL   Submitted (OCT-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 234-677 (ISOFORM RGS9L).
+RC   STRAIN=Sprague-Dawley; TISSUE=Cerebellum, Corpus striatum, and Hippocampus;
+RX   PubMed=9556034;
+RX   DOI=10.1002/(sici)1097-4547(19980401)52:1<118::aid-jnr11>3.0.co;2-6;
+RA   Thomas E.A., Danielson P.E., Sutcliffe J.G.;
+RT   "RGS9: a regulator of G-protein signalling with specific expression in rat
+RT   and mouse striatum.";
+RL   J. Neurosci. Res. 52:118-124(1998).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 330-395.
+RC   TISSUE=Brain;
+RX   PubMed=8548815; DOI=10.1016/s0092-8674(00)80998-8;
+RA   Koelle M.R., Horvitz H.R.;
+RT   "EGL-10 regulates G protein signaling in the C. elegans nervous system and
+RT   shares a conserved domain with many mammalian proteins.";
+RL   Cell 84:115-125(1996).
+CC   -!- FUNCTION: Inhibits signal transduction by increasing the GTPase
+CC       activity of G protein alpha subunits thereby driving them into their
+CC       inactive GDP-bound form. Binds to GNAT1. Involved in phototransduction;
+CC       key element in the recovery phase of visual transduction (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Heterodimer with GNB5. Interacts with RGS7BP, leading to
+CC       regulate the subcellular location of the heterodimer formed with GNB5.
+CC       Component of the RGS9-1-Gbeta5 complex composed of RGS9 (RGS9-1),
+CC       Gbeta5 (GNB5) and RGS9BP. Interacts with PDE6G and GNAT1.
+CC       {ECO:0000250|UniProtKB:O46469}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Peripheral membrane protein.
+CC       Note=Targeted to the membrane via its interaction with RGS9BP.
+CC       {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=RGS9L;
+CC         IsoId=P49805-1; Sequence=Displayed;
+CC       Name=RGS9S;
+CC         IsoId=P49805-2; Sequence=VSP_005680;
+CC   -!- TISSUE SPECIFICITY: Expressed in the central nervous system. Isoform
+CC       RGS9L is found in striatum, hypothalamus and nucleus accumbens while
+CC       isoform RGS9S is expressed in retina and pineal gland.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF071475; AAC64039.1; -; mRNA.
+DR   EMBL; AB019145; BAA34051.1; -; mRNA.
+DR   EMBL; AF038006; AAC01959.1; -; mRNA.
+DR   EMBL; U32433; AAC52370.1; -; mRNA.
+DR   RefSeq; NP_062097.1; NM_019224.2. [P49805-1]
+DR   AlphaFoldDB; P49805; -.
+DR   SMR; P49805; -.
+DR   STRING; 10116.ENSRNOP00000005076; -.
+DR   CarbonylDB; P49805; -.
+DR   PhosphoSitePlus; P49805; -.
+DR   PaxDb; 10116-ENSRNOP00000005076; -.
+DR   Ensembl; ENSRNOT00000005076.7; ENSRNOP00000005076.6; ENSRNOG00000003800.7. [P49805-1]
+DR   Ensembl; ENSRNOT00055054679; ENSRNOP00055045196; ENSRNOG00055031554. [P49805-1]
+DR   Ensembl; ENSRNOT00060024734; ENSRNOP00060019701; ENSRNOG00060014467. [P49805-1]
+DR   GeneID; 29481; -.
+DR   KEGG; rno:29481; -.
+DR   AGR; RGD:3572; -.
+DR   CTD; 8787; -.
+DR   RGD; 3572; Rgs9.
+DR   eggNOG; KOG3589; Eukaryota.
+DR   GeneTree; ENSGT00940000156505; -.
+DR   HOGENOM; CLU_025092_5_0_1; -.
+DR   InParanoid; P49805; -.
+DR   OrthoDB; 22856at2759; -.
+DR   PhylomeDB; P49805; -.
+DR   Reactome; R-RNO-2514859; Inactivation, recovery and regulation of the phototransduction cascade.
+DR   Reactome; R-RNO-418594; G alpha (i) signalling events.
+DR   Reactome; R-RNO-6814122; Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding.
+DR   PRO; PR:P49805; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000003800; Expressed in frontal cortex and 10 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0043005; C:neuron projection; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0098839; C:postsynaptic density membrane; ISO:RGD.
+DR   GO; GO:0042734; C:presynaptic membrane; ISO:RGD.
+DR   GO; GO:0005096; F:GTPase activator activity; IDA:RGD.
+DR   GO; GO:1990603; P:dark adaptation; ISO:RGD.
+DR   GO; GO:0007212; P:G protein-coupled dopamine receptor signaling pathway; IMP:RGD.
+DR   GO; GO:0035556; P:intracellular signal transduction; IEA:InterPro.
+DR   GO; GO:0036367; P:light adaption; ISO:RGD.
+DR   GO; GO:0009968; P:negative regulation of signal transduction; IEA:UniProtKB-KW.
+DR   GO; GO:0007399; P:nervous system development; IEP:RGD.
+DR   GO; GO:1905912; P:regulation of calcium ion export across plasma membrane; IDA:RGD.
+DR   GO; GO:0008277; P:regulation of G protein-coupled receptor signaling pathway; IDA:RGD.
+DR   GO; GO:0001975; P:response to amphetamine; IEP:RGD.
+DR   GO; GO:0032355; P:response to estradiol; IEP:RGD.
+DR   GO; GO:0007601; P:visual perception; IEA:UniProtKB-KW.
+DR   CDD; cd04450; DEP_RGS7-like; 1.
+DR   CDD; cd00068; GGL; 1.
+DR   CDD; cd08739; RGS_RGS9; 1.
+DR   Gene3D; 1.10.1240.60; -; 1.
+DR   Gene3D; 1.10.167.10; Regulator of G-protein Signalling 4, domain 2; 1.
+DR   Gene3D; 4.10.260.10; Transducin (heterotrimeric G protein), gamma chain; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   InterPro; IPR000591; DEP_dom.
+DR   InterPro; IPR015898; G-protein_gamma-like_dom.
+DR   InterPro; IPR036284; GGL_sf.
+DR   InterPro; IPR016137; RGS.
+DR   InterPro; IPR047016; RGS6/7/9/11.
+DR   InterPro; IPR047017; RGS6/7/9/11_DHEX_sf.
+DR   InterPro; IPR047077; RGS9_RGS.
+DR   InterPro; IPR040759; RGS_DHEX.
+DR   InterPro; IPR036305; RGS_sf.
+DR   InterPro; IPR044926; RGS_subdomain_2.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   PANTHER; PTHR45746; LP21163P; 1.
+DR   PANTHER; PTHR45746:SF1; REGULATOR OF G-PROTEIN SIGNALING 9; 1.
+DR   Pfam; PF00610; DEP; 1.
+DR   Pfam; PF00631; G-gamma; 1.
+DR   Pfam; PF00615; RGS; 1.
+DR   Pfam; PF18148; RGS_DHEX; 1.
+DR   PRINTS; PR01301; RGSPROTEIN.
+DR   SMART; SM00049; DEP; 1.
+DR   SMART; SM01224; G_gamma; 1.
+DR   SMART; SM00224; GGL; 1.
+DR   SMART; SM00315; RGS; 1.
+DR   SUPFAM; SSF48097; Regulator of G-protein signaling, RGS; 1.
+DR   SUPFAM; SSF48670; Transducin (heterotrimeric G protein), gamma chain; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+DR   PROSITE; PS50186; DEP; 1.
+DR   PROSITE; PS50132; RGS; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Membrane; Reference proteome; Sensory transduction;
+KW   Signal transduction inhibitor; Vision.
+FT   CHAIN           1..677
+FT                   /note="Regulator of G-protein signaling 9"
+FT                   /id="PRO_0000204205"
+FT   DOMAIN          30..105
+FT                   /note="DEP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00066"
+FT   DOMAIN          219..280
+FT                   /note="G protein gamma"
+FT   DOMAIN          295..416
+FT                   /note="RGS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00171"
+FT   REGION          530..571
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          639..677
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   VAR_SEQ         467..677
+FT                   /note="Missing (in isoform RGS9S)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_005680"
+SQ   SEQUENCE   677 AA;  77131 MW;  39F403E3D3C37A67 CRC64;
+     MTIRHQGQQY RPRMAFLQKI EALVKDMQNP ETGVRMQNQR VLVTSVPHAM TGGDVLQWII
+     QRLWISNLEA QNLGNFIVKY GYIYPLQDPK NLVLKPDSSL YRFQTPYFWP TQQWPAEDTD
+     YAIYLAKRNI KKKGILEEYE KENYDFLNKK INYKWDFVIM QAKEQYRTGK ERNKADRYAL
+     DCQEKAYWLV HRSPPGMNNV LDYGLDRVTN PNEVKKQTVT AVRKEIMYYQ QALMRSTVKS
+     SVSLGGIVKY SEQFSSNDAI MSGCLPSNPW ITDDTQFWDL NAKLVEVPTK MRVERWAFNF
+     SELIRDPKGR QSFQYFLKKE FSGENLGFWE ACEDLKYGDQ SKVKEKAEEI YKLFLAPGAR
+     RWINIDGKTM DITVKGLRHP HRYVLDAAQT HIYMLMKKDS YARYLKSPIY KEMLAKAIEP
+     QETTKRSSTL PFMRRHLRSS PSPVILRQLE EEERAREAAN TVDITQPGQH LAPSPHLAVY
+     TGTCVPPSPS SPFSPSCRSP RKPFPSPSRF IRRPSIAICP SPIRVALEGS SGLEGKGEAS
+     WSGANPGPPV TESIETSVDR SRPHSQPRAP LKARAALSLG RFLRRGCLAS PVFARLSPKC
+     PSVSHGKVQP LGDMGQQLPR LKPKKVANFF QIKMEMPTDS GPCLMDSDDP GAGESGDQTT
+     EKEVICPWES LAEGKAG
+//

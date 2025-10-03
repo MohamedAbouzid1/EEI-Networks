@@ -1,0 +1,315 @@
+ID   GABT_RAT                Reviewed;         500 AA.
+AC   P50554; O70539; Q66HM1;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 3.
+DT   29-MAY-2024, entry version 175.
+DE   RecName: Full=4-aminobutyrate aminotransferase, mitochondrial;
+DE            Short=beta-AlaAT I {ECO:0000303|PubMed:10447691};
+DE            EC=2.6.1.19 {ECO:0000269|PubMed:10447691};
+DE   AltName: Full=(S)-3-amino-2-methylpropionate transaminase;
+DE            EC=2.6.1.22 {ECO:0000269|PubMed:10989446};
+DE   AltName: Full=GABA aminotransferase;
+DE            Short=GABA-AT;
+DE   AltName: Full=Gamma-amino-N-butyrate transaminase;
+DE            Short=GABA transaminase;
+DE            Short=GABA-T;
+DE   AltName: Full=L-AIBAT;
+DE   Contains:
+DE     RecName: Full=4-aminobutyrate aminotransferase, brain isoform {ECO:0000303|PubMed:10447691};
+DE   Contains:
+DE     RecName: Full=4-aminobutyrate aminotransferase, liver isoform {ECO:0000303|PubMed:10447691};
+DE   Flags: Precursor;
+GN   Name=Abat {ECO:0000312|RGD:620948}; Synonyms=Gabat;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=8133261; DOI=10.1046/j.1471-4159.1994.62041267.x;
+RA   Medina-Kauwe L.K., Tillakaratne N.J., Wu J.Y., Tobin A.J.;
+RT   "A rat brain cDNA encodes enzymatically active GABA transaminase and
+RT   provides a molecular probe for GABA-catabolizing cells.";
+RL   J. Neurochem. 62:1267-1275(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 35-54, PROTEOLYTIC
+RP   PROCESSING, AND SUBCELLULAR LOCATION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, and Liver;
+RX   PubMed=10447691; DOI=10.1046/j.1432-1327.1999.00612.x;
+RA   Kontani Y., Sakata S.F., Matsuda K., Ohyama T., Sano K., Tamaki N.;
+RT   "The mature size of rat 4-aminobutyrate aminotransferase is different in
+RT   liver and brain.";
+RL   Eur. J. Biochem. 264:218-222(1999).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA], CHARACTERIZATION, FUNCTION, AND CATALYTIC
+RP   ACTIVITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=10989446; DOI=10.1016/s0076-6879(00)24247-x;
+RA   Tamaki N., Sakata S.F., Matsuda K.;
+RT   "Purification, properties, and sequencing of aminoisobutyrate
+RT   aminotransferases from rat liver.";
+RL   Methods Enzymol. 324:376-389(2000).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 253-268 AND 389-400, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal cord;
+RA   Lubec G., Afjehi-Sadat L.;
+RL   Submitted (NOV-2006) to UniProtKB.
+CC   -!- FUNCTION: Catalyzes the conversion of gamma-aminobutyrate and L-beta-
+CC       aminoisobutyrate to succinate semialdehyde and methylmalonate
+CC       semialdehyde, respectively (PubMed:10447691). Can also convert delta-
+CC       aminovalerate and beta-alanine (PubMed:10447691).
+CC       {ECO:0000269|PubMed:10447691, ECO:0000269|PubMed:10989446}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + 4-aminobutanoate = L-glutamate + succinate
+CC         semialdehyde; Xref=Rhea:RHEA:23352, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:57706, ChEBI:CHEBI:59888; EC=2.6.1.19;
+CC         Evidence={ECO:0000269|PubMed:10447691, ECO:0000269|PubMed:10989446};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:23353;
+CC         Evidence={ECO:0000305|PubMed:10447691, ECO:0000305|PubMed:10989446};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-3-amino-2-methylpropanoate + 2-oxoglutarate = 2-methyl-3-
+CC         oxopropanoate + L-glutamate; Xref=Rhea:RHEA:13993, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:57700, ChEBI:CHEBI:58655; EC=2.6.1.22;
+CC         Evidence={ECO:0000269|PubMed:10989446};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:13994;
+CC         Evidence={ECO:0000305|PubMed:10989446};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250|UniProtKB:P80147};
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000250|UniProtKB:P80147};
+CC       Note=Binds 1 [2Fe-2S] cluster per homodimer.
+CC       {ECO:0000250|UniProtKB:P80147};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES: [4-aminobutyrate aminotransferase, liver isoform]:
+CC       Kinetic parameters:
+CC         KM=1.6 mM for 4-aminobutanoate {ECO:0000269|PubMed:10447691};
+CC         KM=5.3 mM for beta-alanine {ECO:0000269|PubMed:10447691};
+CC         Vmax=0.83 umol/min/mg enzyme {ECO:0000269|PubMed:10447691};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES: [4-aminobutyrate aminotransferase, brain isoform]:
+CC       Kinetic parameters:
+CC         KM=1.6 mM for 4-aminobutanoate {ECO:0000269|PubMed:10447691};
+CC         KM=6.1 mM for beta-alanine {ECO:0000269|PubMed:10447691};
+CC         Vmax=1 umol/min/mg enzyme {ECO:0000269|PubMed:10447691};
+CC   -!- SUBUNIT: Homodimer; disulfide-linked.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix
+CC       {ECO:0000305|PubMed:10447691}.
+CC   -!- SIMILARITY: Belongs to the class-III pyridoxal-phosphate-dependent
+CC       aminotransferase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U29701; AAA70415.1; -; mRNA.
+DR   EMBL; D87839; BAA25570.1; -; mRNA.
+DR   EMBL; BC081787; AAH81787.1; -; mRNA.
+DR   PIR; I56502; I56502.
+DR   RefSeq; NP_112265.1; NM_031003.2.
+DR   RefSeq; XP_006245822.1; XM_006245760.3.
+DR   AlphaFoldDB; P50554; -.
+DR   SMR; P50554; -.
+DR   BioGRID; 249532; 1.
+DR   IntAct; P50554; 1.
+DR   MINT; P50554; -.
+DR   STRING; 10116.ENSRNOP00000003633; -.
+DR   BindingDB; P50554; -.
+DR   ChEMBL; CHEMBL3148; -.
+DR   DrugCentral; P50554; -.
+DR   iPTMnet; P50554; -.
+DR   PhosphoSitePlus; P50554; -.
+DR   SwissPalm; P50554; -.
+DR   jPOST; P50554; -.
+DR   PaxDb; 10116-ENSRNOP00000003633; -.
+DR   Ensembl; ENSRNOT00000003633.5; ENSRNOP00000003633.2; ENSRNOG00000002636.8.
+DR   Ensembl; ENSRNOT00055043768; ENSRNOP00055035754; ENSRNOG00055025368.
+DR   Ensembl; ENSRNOT00060017651; ENSRNOP00060013718; ENSRNOG00060010424.
+DR   Ensembl; ENSRNOT00065004124; ENSRNOP00065002944; ENSRNOG00065002947.
+DR   GeneID; 81632; -.
+DR   KEGG; rno:81632; -.
+DR   UCSC; RGD:620948; rat.
+DR   AGR; RGD:620948; -.
+DR   CTD; 18; -.
+DR   RGD; 620948; Abat.
+DR   eggNOG; KOG1405; Eukaryota.
+DR   GeneTree; ENSGT00550000074885; -.
+DR   HOGENOM; CLU_016922_12_1_1; -.
+DR   InParanoid; P50554; -.
+DR   OMA; KTQVCGI; -.
+DR   OrthoDB; 177625at2759; -.
+DR   PhylomeDB; P50554; -.
+DR   TreeFam; TF105021; -.
+DR   BRENDA; 2.6.1.19; 5301.
+DR   Reactome; R-RNO-916853; Degradation of GABA.
+DR   SABIO-RK; P50554; -.
+DR   PRO; PR:P50554; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000002636; Expressed in liver and 15 other cell types or tissues.
+DR   GO; GO:0032144; C:4-aminobutyrate transaminase complex; ISS:UniProtKB.
+DR   GO; GO:0005759; C:mitochondrial matrix; IDA:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0047298; F:(S)-3-amino-2-methylpropionate transaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003867; F:4-aminobutyrate transaminase activity; IDA:RGD.
+DR   GO; GO:0034386; F:4-aminobutyrate:2-oxoglutarate transaminase activity; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISS:UniProtKB.
+DR   GO; GO:0051536; F:iron-sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; ISS:UniProtKB.
+DR   GO; GO:0032145; F:succinate-semialdehyde dehydrogenase binding; ISS:UniProtKB.
+DR   GO; GO:0048148; P:behavioral response to cocaine; ISS:UniProtKB.
+DR   GO; GO:0021549; P:cerebellum development; IEP:RGD.
+DR   GO; GO:0007620; P:copulation; IMP:RGD.
+DR   GO; GO:0035640; P:exploration behavior; IMP:RGD.
+DR   GO; GO:0009449; P:gamma-aminobutyric acid biosynthetic process; IMP:RGD.
+DR   GO; GO:0009450; P:gamma-aminobutyric acid catabolic process; IBA:GO_Central.
+DR   GO; GO:0009448; P:gamma-aminobutyric acid metabolic process; ISO:RGD.
+DR   GO; GO:0007626; P:locomotory behavior; IMP:RGD.
+DR   GO; GO:0045776; P:negative regulation of blood pressure; IMP:RGD.
+DR   GO; GO:0033602; P:negative regulation of dopamine secretion; IMP:RGD.
+DR   GO; GO:0014053; P:negative regulation of gamma-aminobutyric acid secretion; IMP:RGD.
+DR   GO; GO:1904450; P:positive regulation of aspartate secretion; IMP:RGD.
+DR   GO; GO:0045964; P:positive regulation of dopamine metabolic process; IMP:RGD.
+DR   GO; GO:0031652; P:positive regulation of heat generation; IMP:RGD.
+DR   GO; GO:0097151; P:positive regulation of inhibitory postsynaptic potential; IMP:RGD.
+DR   GO; GO:0032024; P:positive regulation of insulin secretion; IMP:RGD.
+DR   GO; GO:1902722; P:positive regulation of prolactin secretion; IMP:RGD.
+DR   GO; GO:0070474; P:positive regulation of uterine smooth muscle contraction; IMP:RGD.
+DR   GO; GO:0042220; P:response to cocaine; IMP:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IDA:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IMP:RGD.
+DR   GO; GO:0010039; P:response to iron ion; IDA:RGD.
+DR   GO; GO:0035094; P:response to nicotine; IMP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IDA:RGD.
+DR   CDD; cd00610; OAT_like; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR004631; 4NH2But_aminotransferase_euk.
+DR   InterPro; IPR005814; Aminotrans_3.
+DR   InterPro; IPR049704; Aminotrans_3_PPA_site.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR00699; GABAtrns_euk; 1.
+DR   PANTHER; PTHR43206:SF1; 4-AMINOBUTYRATE AMINOTRANSFERASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43206; AMINOTRANSFERASE; 1.
+DR   Pfam; PF00202; Aminotran_3; 1.
+DR   PIRSF; PIRSF000521; Transaminase_4ab_Lys_Orn; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00600; AA_TRANSFER_CLASS_3; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Aminotransferase; Direct protein sequencing; Disulfide bond;
+KW   Iron; Iron-sulfur; Metal-binding; Mitochondrion;
+KW   Neurotransmitter degradation; Pyridoxal phosphate; Reference proteome;
+KW   Transferase; Transit peptide.
+FT   TRANSIT         1..27
+FT                   /note="Mitochondrion"
+FT   CHAIN           28..500
+FT                   /note="4-aminobutyrate aminotransferase, brain isoform"
+FT                   /evidence="ECO:0000303|PubMed:10447691"
+FT                   /id="PRO_0000001252"
+FT   CHAIN           35..500
+FT                   /note="4-aminobutyrate aminotransferase, liver isoform"
+FT                   /evidence="ECO:0000303|PubMed:10447691"
+FT                   /id="PRO_0000001253"
+FT   BINDING         163
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250|UniProtKB:P80147"
+FT   BINDING         164..165
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:P80147"
+FT   BINDING         166
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250|UniProtKB:P80147"
+FT   BINDING         220
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P80147"
+FT   BINDING         381
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000250|UniProtKB:P80147"
+FT   MOD_RES         231
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P61922"
+FT   MOD_RES         252
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P61922"
+FT   MOD_RES         252
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P61922"
+FT   MOD_RES         279
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P61922"
+FT   MOD_RES         318
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P61922"
+FT   MOD_RES         357
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P80147"
+FT   MOD_RES         413
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P61922"
+FT   MOD_RES         413
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P61922"
+FT   MOD_RES         452
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P61922"
+FT   MOD_RES         470
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P61922"
+FT   DISULFID        321
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        3
+FT                   /note="F -> L (in Ref. 1; AAA70415)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        25
+FT                   /note="S -> T (in Ref. 1; AAA70415)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        36
+FT                   /note="D -> T (in Ref. 1; AAA70415)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        135..170
+FT                   /note="PPENFVDKLRESLMSVAPKGMCQLITMACGSCSNEN -> LQRTLWTSSGSP
+FT                   CSRWLPKACVSSSRWPAGPAPMRM (in Ref. 1; AAA70415)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        277
+FT                   /note="I -> N (in Ref. 1; AAA70415)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        425
+FT                   /note="Q -> R (in Ref. 1; AAA70415)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        447
+FT                   /note="E -> K (in Ref. 2 and 3; BAA25570)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        486
+FT                   /note="H -> Q (in Ref. 1; AAA70415)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   500 AA;  56456 MW;  1EA7180B72797B72 CRC64;
+     MAFLLTTRRL VCSSQKNLHL FTPGSRYISQ AAAKVDFEFD YDGPLMKTEV PGPRSQELMK
+     QLNTIQNAEA VHFFCNYEES RGNYLVDVDG NRMLDLYSQI SSVPIGYNHP ALAKLVQQPQ
+     NASTFINRPA LGILPPENFV DKLRESLMSV APKGMCQLIT MACGSCSNEN AFKTIFMWYR
+     SKERGQRGFS KEELETCMVN QSPGCPDYSI LSFMGAFHGR TMGCLATTHS KAIHKIDIPS
+     FDWPIAPFPR LKYPLEEFVT DNQQEEARCL EEVEDLIVKY RKKKRTVAGI IVEPIQSEGG
+     DNHASDDFFR KLRDIARKHG CAFLVDEVQT GGGCTGKFWA HEHWGLDDPA DVMSFSKKMM
+     TGGFFHKEEF RPSAPYRIFN TWLGDPSKNL LLAEVINIIK REDLLNNVAH AGKTLLTGLL
+     DLQAQYPQFV SRVRGRGTFC SFDTPDEAIR NKLILIARNK GVVLGGCGDK SIRFRPTLVF
+     RDHHAHLFLN IFSGILADFK
+//

@@ -1,0 +1,150 @@
+ID   PTER_RAT                Reviewed;         349 AA.
+AC   Q63530; Q6AYY7;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   03-NOV-2009, sequence version 2.
+DT   29-MAY-2024, entry version 125.
+DE   RecName: Full=Phosphotriesterase-related protein;
+DE            EC=3.1.-.-;
+DE   AltName: Full=Parathion hydrolase-related protein;
+DE   AltName: Full=Resiniferotoxin-binding phosphotriesterase-related protein;
+GN   Name=Pter; Synonyms=Rpr-1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=9237666; DOI=10.1016/s0014-5793(97)00614-5;
+RA   Davies J.A., Buchman V., Krylova O., Ninkina N.N.;
+RT   "Molecular cloning and expression pattern of rpr-1, a resiniferatoxin-
+RT   binding, phosphotriesterase-related protein, expressed in rat kidney
+RT   tubules.";
+RL   FEBS Lett. 410:378-382(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Binds resiniferotoxin, a vanilloid that desensitizes
+CC       nociceptive neurons.
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000250};
+CC       Note=Binds 2 divalent metal cations per subunit. {ECO:0000250};
+CC   -!- TISSUE SPECIFICITY: Expressed primarily in proximal tubules of the
+CC       kidney.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       Phosphotriesterase family. {ECO:0000255|PROSITE-ProRule:PRU00679}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X99477; CAA67840.1; -; Genomic_DNA.
+DR   EMBL; BC078833; AAH78833.1; -; mRNA.
+DR   RefSeq; NP_071560.2; NM_022224.2.
+DR   RefSeq; XP_006254353.1; XM_006254291.3.
+DR   AlphaFoldDB; Q63530; -.
+DR   SMR; Q63530; -.
+DR   STRING; 10116.ENSRNOP00000023446; -.
+DR   iPTMnet; Q63530; -.
+DR   PhosphoSitePlus; Q63530; -.
+DR   PaxDb; 10116-ENSRNOP00000023446; -.
+DR   Ensembl; ENSRNOT00000023446.5; ENSRNOP00000023446.2; ENSRNOG00000017328.5.
+DR   Ensembl; ENSRNOT00055019132; ENSRNOP00055015410; ENSRNOG00055011291.
+DR   Ensembl; ENSRNOT00060015445; ENSRNOP00060012046; ENSRNOG00060009159.
+DR   Ensembl; ENSRNOT00065011444; ENSRNOP00065008326; ENSRNOG00065007353.
+DR   GeneID; 63852; -.
+DR   KEGG; rno:63852; -.
+DR   AGR; RGD:61313; -.
+DR   CTD; 9317; -.
+DR   RGD; 61313; Pter.
+DR   eggNOG; ENOG502QQQR; Eukaryota.
+DR   GeneTree; ENSGT00390000006960; -.
+DR   HOGENOM; CLU_054760_0_1_1; -.
+DR   InParanoid; Q63530; -.
+DR   OrthoDB; 5387837at2759; -.
+DR   PhylomeDB; Q63530; -.
+DR   TreeFam; TF323205; -.
+DR   PRO; PR:Q63530; -.
+DR   Proteomes; UP000002494; Chromosome 17.
+DR   Bgee; ENSRNOG00000017328; Expressed in kidney and 19 other cell types or tissues.
+DR   GO; GO:0016788; F:hydrolase activity, acting on ester bonds; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0009056; P:catabolic process; IEA:InterPro.
+DR   GO; GO:0030855; P:epithelial cell differentiation; ISO:RGD.
+DR   CDD; cd00530; PTE; 1.
+DR   Gene3D; 3.20.20.140; Metal-dependent hydrolases; 1.
+DR   InterPro; IPR017947; AryldialkylPase_Zn-BS.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   InterPro; IPR001559; Phosphotriesterase.
+DR   PANTHER; PTHR10819; PHOSPHOTRIESTERASE-RELATED; 1.
+DR   PANTHER; PTHR10819:SF3; PHOSPHOTRIESTERASE-RELATED PROTEIN; 1.
+DR   Pfam; PF02126; PTE; 1.
+DR   PIRSF; PIRSF016839; PhP; 1.
+DR   SUPFAM; SSF51556; Metallo-dependent hydrolases; 1.
+DR   PROSITE; PS01322; PHOSPHOTRIESTERASE_1; 1.
+DR   PROSITE; PS51347; PHOSPHOTRIESTERASE_2; 1.
+PE   2: Evidence at transcript level;
+KW   Hydrolase; Metal-binding; Reference proteome.
+FT   CHAIN           1..349
+FT                   /note="Phosphotriesterase-related protein"
+FT                   /id="PRO_0000205366"
+FT   BINDING         26
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P45548"
+FT   BINDING         28
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P45548"
+FT   BINDING         169
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P45548"
+FT   BINDING         169
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P45548"
+FT   BINDING         201
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P45548"
+FT   BINDING         230
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P45548"
+FT   BINDING         298
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P45548"
+FT   CONFLICT        134
+FT                   /note="S -> F (in Ref. 1; CAA67840)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        271
+FT                   /note="M -> L (in Ref. 1; CAA67840)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        277..280
+FT                   /note="RIRR -> GLGG (in Ref. 1; CAA67840)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        310
+FT                   /note="G -> V (in Ref. 1; CAA67840)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   349 AA;  39145 MW;  FAC9749B900D89B4 CRC64;
+     MSSLSGKVQT VLGPVEPSQL GRTLTHEHLT MAFDSFYCPP PPCQEAASRE PIMMKNLFWI
+     QKNPYSHQEN LQLNQEVEAV REELLYFKAK GGGAVVENTT TGLSRDVRTL KWLAEQTGVH
+     IIAGAGFYVD ATHSAATRAM SVEQLTDVLI SEILHGADGT SIKCGVIGEI GCSWPLTDSE
+     RKVLQATAHA QAQLGCPVII HPGRNPGAPF QIIRVLQEAG ADISKTVMSH LDRSIFDKKE
+     LLEFAQLGCY LEYDLFGTEL LNYQLSPDID MPDDNKRIRR VRFLVNEGYE DRILMAHDIH
+     TKHRLMKYGG HGYSHILTNV VPKMLLRGLT ERVLDKILRE NPKQWLTFK
+//

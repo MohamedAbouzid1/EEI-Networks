@@ -1,0 +1,113 @@
+ID   GLPC_RAT                Reviewed;          95 AA.
+AC   Q6XFR6;
+DT   07-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   29-MAY-2024, entry version 95.
+DE   RecName: Full=Glycophorin-C;
+DE   AltName: CD_antigen=CD236;
+GN   Name=Gypc;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Chen Y., Peng J., Huang C.-H.;
+RT   "Sequence and evolution of glycophorin C (GPC) proteins.";
+RL   Submitted (FEB-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-78, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Single-pass type III
+CC       membrane protein {ECO:0000250}. Note=Linked to the membrane via band
+CC       4.1. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycophorin-C family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY234182; AAP70023.1; -; mRNA.
+DR   EMBL; CH473974; EDL76190.1; -; Genomic_DNA.
+DR   EMBL; BC103641; AAI03642.1; -; mRNA.
+DR   RefSeq; NP_001013251.1; NM_001013233.1.
+DR   AlphaFoldDB; Q6XFR6; -.
+DR   SMR; Q6XFR6; -.
+DR   STRING; 10116.ENSRNOP00000049537; -.
+DR   iPTMnet; Q6XFR6; -.
+DR   PhosphoSitePlus; Q6XFR6; -.
+DR   PaxDb; 10116-ENSRNOP00000049537; -.
+DR   Ensembl; ENSRNOT00000046369.4; ENSRNOP00000049537.3; ENSRNOG00000029939.4.
+DR   GeneID; 364837; -.
+DR   KEGG; rno:364837; -.
+DR   UCSC; RGD:1310295; rat.
+DR   AGR; RGD:1310295; -.
+DR   CTD; 2995; -.
+DR   RGD; 1310295; Gypc.
+DR   eggNOG; ENOG502S5JS; Eukaryota.
+DR   GeneTree; ENSGT00510000049102; -.
+DR   HOGENOM; CLU_176666_0_0_1; -.
+DR   InParanoid; Q6XFR6; -.
+DR   OMA; QPHGDVE; -.
+DR   OrthoDB; 4254807at2759; -.
+DR   PhylomeDB; Q6XFR6; -.
+DR   TreeFam; TF337016; -.
+DR   PRO; PR:Q6XFR6; -.
+DR   Proteomes; UP000002494; Chromosome 18.
+DR   Proteomes; UP000234681; Chromosome 18.
+DR   Bgee; ENSRNOG00000029939; Expressed in heart and 19 other cell types or tissues.
+DR   GO; GO:0030863; C:cortical cytoskeleton; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR042192; Glycophorin-C.
+DR   InterPro; IPR003585; Neurexin-like.
+DR   PANTHER; PTHR47614; GLYCOPHORIN-C; 1.
+DR   PANTHER; PTHR47614:SF2; GLYCOPHORIN-C; 1.
+DR   SMART; SM00294; 4.1m; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Membrane; Phosphoprotein; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..95
+FT                   /note="Glycophorin-C"
+FT                   /id="PRO_0000378455"
+FT   TOPO_DOM        1..25
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        26..46
+FT                   /note="Helical; Signal-anchor for type III membrane
+FT                   protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        47..95
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         71
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P04921"
+FT   MOD_RES         78
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         89
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P04921"
+SQ   SEQUENCE   95 AA;  10443 MW;  6917EF24507EC340 CRC64;
+     MSSPVRTPPP ERLEPNPGMS YAVMEIAIIA AVITAVALVL VCLLFLMLRY LYRHKGTYYT
+     NEAKGTEFAE SADAALQSDP ALQDAGDTSK KEYFI
+//

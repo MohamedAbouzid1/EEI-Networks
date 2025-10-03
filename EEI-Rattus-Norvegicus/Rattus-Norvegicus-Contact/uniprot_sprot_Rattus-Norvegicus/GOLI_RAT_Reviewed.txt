@@ -1,0 +1,151 @@
+ID   GOLI_RAT                Reviewed;         419 AA.
+AC   Q6Y290;
+DT   21-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   29-MAY-2024, entry version 101.
+DE   RecName: Full=E3 ubiquitin-protein ligase RNF130;
+DE            EC=2.3.2.27 {ECO:0000250|UniProtKB:Q86XS8};
+DE   AltName: Full=Goliath homolog;
+DE            Short=R-goliath;
+DE   AltName: Full=RING finger protein 130;
+DE   Flags: Precursor;
+GN   Name=Rnf130 {ECO:0000250|UniProtKB:Q86XS8};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAO31973.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], INDUCTION, SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Sprague-Dawley {ECO:0000312|EMBL:AAO31973.1};
+RC   TISSUE=Liver {ECO:0000312|EMBL:AAO31973.1};
+RX   PubMed=13679316; DOI=10.1095/biolreprod.103.018820;
+RA   Guais A., Solhonne B., Melaine N., Guellaeen G., Bulle F.;
+RT   "Goliath, a ring-H2 mitochondrial protein, regulated by luteinizing
+RT   hormone/human chorionic gonadotropin in rat Leydig cells.";
+RL   Biol. Reprod. 70:204-213(2004).
+CC   -!- FUNCTION: Acts as an E3 ubiquitin-protein ligase (By similarity). May
+CC       have a role during the programmed cell death of hematopoietic cells.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-ubiquitinyl-[E2 ubiquitin-conjugating enzyme]-L-cysteine +
+CC         [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-
+CC         cysteine + N(6)-ubiquitinyl-[acceptor protein]-L-lysine.;
+CC         EC=2.3.2.27; Evidence={ECO:0000250|UniProtKB:Q86XS8};
+CC   -!- PATHWAY: Protein modification; protein ubiquitination.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass type I
+CC       membrane protein {ECO:0000305}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:Q86XS8}. Note=May be mitochondrial in the R2C
+CC       Leydig cell line. {ECO:0000269|PubMed:13679316}.
+CC   -!- TISSUE SPECIFICITY: In testis sections, expressed in interstitial
+CC       tissue and seminiferous tubules. In tubules, expression is mainly in
+CC       postmeiotic germ cells and to a much lesser extent in Sertoli cells (at
+CC       protein level). Expressed at high levels in liver, lung, stomach, heart
+CC       and thymus. {ECO:0000269|PubMed:13679316}.
+CC   -!- INDUCTION: Regulated by lutenising hormone (LH) in Leydig cells but not
+CC       in germ cells. {ECO:0000269|PubMed:13679316}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY190520; AAO31973.1; -; mRNA.
+DR   RefSeq; NP_001032747.1; NM_001037658.1.
+DR   AlphaFoldDB; Q6Y290; -.
+DR   SMR; Q6Y290; -.
+DR   STRING; 10116.ENSRNOP00000066033; -.
+DR   GlyCosmos; Q6Y290; 6 sites, No reported glycans.
+DR   GlyGen; Q6Y290; 6 sites.
+DR   PhosphoSitePlus; Q6Y290; -.
+DR   jPOST; Q6Y290; -.
+DR   GeneID; 652955; -.
+DR   KEGG; rno:652955; -.
+DR   AGR; RGD:1562041; -.
+DR   CTD; 55819; -.
+DR   RGD; 1562041; Rnf130.
+DR   InParanoid; Q6Y290; -.
+DR   OrthoDB; 5474929at2759; -.
+DR   PhylomeDB; Q6Y290; -.
+DR   Reactome; R-RNO-983168; Antigen processing: Ubiquitination & Proteasome degradation.
+DR   UniPathway; UPA00143; -.
+DR   PRO; PR:Q6Y290; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0061630; F:ubiquitin protein ligase activity; IBA:GO_Central.
+DR   GO; GO:0004842; F:ubiquitin-protein transferase activity; ISS:UniProtKB.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   GO; GO:0012501; P:programmed cell death; ISS:UniProtKB.
+DR   GO; GO:0016567; P:protein ubiquitination; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006511; P:ubiquitin-dependent protein catabolic process; IBA:GO_Central.
+DR   CDD; cd02122; PA_GRAIL_like; 1.
+DR   CDD; cd16803; RING-H2_RNF130; 1.
+DR   Gene3D; 3.50.30.30; -; 1.
+DR   Gene3D; 3.30.40.10; Zinc/RING finger domain, C3HC4 (zinc finger); 1.
+DR   InterPro; IPR046450; PA_dom_sf.
+DR   InterPro; IPR003137; PA_domain.
+DR   InterPro; IPR001841; Znf_RING.
+DR   InterPro; IPR013083; Znf_RING/FYVE/PHD.
+DR   PANTHER; PTHR46539; E3 UBIQUITIN-PROTEIN LIGASE ATL42; 1.
+DR   PANTHER; PTHR46539:SF27; RING FINGER PROTEIN 130; 1.
+DR   Pfam; PF02225; PA; 1.
+DR   Pfam; PF13639; zf-RING_2; 1.
+DR   SMART; SM00184; RING; 1.
+DR   SUPFAM; SSF52025; PA domain; 1.
+DR   SUPFAM; SSF57850; RING/U-box; 1.
+DR   PROSITE; PS50089; ZF_RING_2; 1.
+PE   1: Evidence at protein level;
+KW   Apoptosis; Cytoplasm; Glycoprotein; Membrane; Metal-binding;
+KW   Phosphoprotein; Reference proteome; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix; Ubl conjugation pathway; Zinc; Zinc-finger.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..419
+FT                   /note="E3 ubiquitin-protein ligase RNF130"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000030720"
+FT   TOPO_DOM        28..194
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        195..217
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        218..419
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          105..176
+FT                   /note="PA"
+FT   ZN_FING         264..305
+FT                   /note="RING-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00175"
+FT   MOD_RES         341
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86XS8"
+FT   CARBOHYD        29
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        40
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        112
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        135
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        172
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        189
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   419 AA;  46449 MW;  C9FA8EE15B58DD32 CRC64;
+     MSGAARAGPA RLAALALLTC SLWPTRADNA SQEYYTALIN VTVQEPGRGT PLTFRIDRGR
+     YGLDSPKAEV RGQVLAPLPI HGVADHLGCD PQTRFFVPPN IKQWIALLQR GNCTFKEKIS
+     RAAFHNAVAV VIYNNKSKEE PVTMTHPGTG DIIAVMITEL RGKDILSYLE KNISVQMTIA
+     VGTRMPPKNF SRGSLVFVSI SFIVLMIISS AWLIFYFIQK IRYTNARDRN QRRLGDAAKK
+     AISKLTTRTV KKGDKETDPD FDHCAVCIES YKQNDVVRVL PCKHVFHKSC VDPWLSEHCT
+     CPMCKLNILK ALGIVPNLPC TDNVAFDMER LTRTQAVNRR SALGDLANDS SLGLEPLRTS
+     GISPLPQDGE LTPRTGEINI AVTKEWFIIA SFGLLSALTL CYMIIRATAS LNANEVEWF
+//

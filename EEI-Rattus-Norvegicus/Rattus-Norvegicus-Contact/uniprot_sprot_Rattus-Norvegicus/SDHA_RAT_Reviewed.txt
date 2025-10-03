@@ -1,0 +1,336 @@
+ID   SDHA_RAT                Reviewed;         656 AA.
+AC   Q920L2;
+DT   27-SEP-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   02-OCT-2024, entry version 167.
+DE   RecName: Full=Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial;
+DE            EC=1.3.5.1 {ECO:0000250|UniProtKB:P31040};
+DE   AltName: Full=Flavoprotein subunit of complex II;
+DE            Short=Fp;
+DE   AltName: Full=Malate dehydrogenase [quinone] flavoprotein subunit;
+DE            EC=1.1.5.- {ECO:0000250|UniProtKB:P31039};
+DE   Flags: Precursor;
+GN   Name=Sdha;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Tomitsuka E., Kita K.;
+RT   "Complex II from rat mitochondria.";
+RL   Submitted (OCT-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PROTEIN SEQUENCE OF 39-67; 225-238; 354-371 AND 444-457, AND IDENTIFICATION
+RP   BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal cord;
+RA   Lubec G., Afjehi-Sadat L.;
+RL   Submitted (NOV-2006) to UniProtKB.
+CC   -!- FUNCTION: Flavoprotein (FP) subunit of succinate dehydrogenase (SDH)
+CC       that is involved in complex II of the mitochondrial electron transport
+CC       chain and is responsible for transferring electrons from succinate to
+CC       ubiquinone (coenzyme Q) (By similarity). SDH also oxidizes malate to
+CC       the non-canonical enol form of oxaloacetate, enol-oxaloacetate. Enol-
+CC       oxaloacetate, which is a potent inhibitor of the succinate
+CC       dehydrogenase activity, is further isomerized into keto-oxaloacetate
+CC       (By similarity). Can act as a tumor suppressor (By similarity).
+CC       {ECO:0000250|UniProtKB:P31039, ECO:0000250|UniProtKB:P31040}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + succinate = a quinol + fumarate;
+CC         Xref=Rhea:RHEA:40523, ChEBI:CHEBI:24646, ChEBI:CHEBI:29806,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:132124; EC=1.3.5.1;
+CC         Evidence={ECO:0000250|UniProtKB:P31040};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-malate + a quinone = a quinol + enol-oxaloacetate;
+CC         Xref=Rhea:RHEA:79827, ChEBI:CHEBI:15588, ChEBI:CHEBI:17479,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:132124;
+CC         Evidence={ECO:0000250|UniProtKB:P31039};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79828;
+CC         Evidence={ECO:0000250|UniProtKB:P31039};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-malate + a quinone = a quinol + enol-oxaloacetate;
+CC         Xref=Rhea:RHEA:79831, ChEBI:CHEBI:15589, ChEBI:CHEBI:17479,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:132124;
+CC         Evidence={ECO:0000250|UniProtKB:P31039};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:79832;
+CC         Evidence={ECO:0000250|UniProtKB:P31039};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000250|UniProtKB:Q0QF01};
+CC   -!- ACTIVITY REGULATION: Enol-oxaloacetate inhibits the succinate
+CC       dehydrogenase activity. {ECO:0000250|UniProtKB:P31039}.
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle; fumarate
+CC       from succinate (eukaryal route): step 1/1.
+CC       {ECO:0000250|UniProtKB:P31040}.
+CC   -!- SUBUNIT: Component of complex II composed of four subunits: the
+CC       flavoprotein (FP) SDHA, iron-sulfur protein (IP) SDHB, and a cytochrome
+CC       b560 composed of SDHC and SDHD (By similarity). Interacts with
+CC       SDHAF2/SDH5; interaction is required for FAD attachment (By
+CC       similarity). Interacts with TRAP1 (By similarity). Interacts with LACC1
+CC       (By similarity). {ECO:0000250|UniProtKB:P31040,
+CC       ECO:0000250|UniProtKB:Q0QF01}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000250|UniProtKB:Q0QF01}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:Q0QF01}; Matrix side
+CC       {ECO:0000250|UniProtKB:Q0QF01}.
+CC   -!- PTM: Acetylated. Deacetylated by SIRT3. {ECO:0000250|UniProtKB:Q8K2B3}.
+CC   -!- PTM: Phosphorylation at Tyr-207 is important for efficient electron
+CC       transfer in complex II and the prevention of ROS generation.
+CC       {ECO:0000250|UniProtKB:P31040}.
+CC   -!- SIMILARITY: Belongs to the FAD-dependent oxidoreductase 2 family.
+CC       FRD/SDH subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB072907; BAB69818.1; -; mRNA.
+DR   RefSeq; NP_569112.1; NM_130428.1.
+DR   AlphaFoldDB; Q920L2; -.
+DR   SMR; Q920L2; -.
+DR   BioGRID; 250905; 4.
+DR   ComplexPortal; CPX-564; Mitochondrial respiratory chain complex II.
+DR   CORUM; Q920L2; -.
+DR   IntAct; Q920L2; 2.
+DR   MINT; Q920L2; -.
+DR   STRING; 10116.ENSRNOP00000018336; -.
+DR   ChEMBL; CHEMBL4523415; -.
+DR   CarbonylDB; Q920L2; -.
+DR   GlyGen; Q920L2; 5 sites, 1 O-linked glycan (5 sites).
+DR   iPTMnet; Q920L2; -.
+DR   PhosphoSitePlus; Q920L2; -.
+DR   SwissPalm; Q920L2; -.
+DR   jPOST; Q920L2; -.
+DR   PaxDb; 10116-ENSRNOP00000018336; -.
+DR   GeneID; 157074; -.
+DR   KEGG; rno:157074; -.
+DR   UCSC; RGD:621557; rat.
+DR   AGR; RGD:621557; -.
+DR   CTD; 6389; -.
+DR   RGD; 621557; Sdha.
+DR   VEuPathDB; HostDB:ENSRNOG00000013331; -.
+DR   eggNOG; KOG2403; Eukaryota.
+DR   HOGENOM; CLU_014312_6_1_1; -.
+DR   InParanoid; Q920L2; -.
+DR   OrthoDB; 551958at2759; -.
+DR   PhylomeDB; Q920L2; -.
+DR   BRENDA; 1.3.5.1; 5301.
+DR   Reactome; R-RNO-71403; Citric acid cycle (TCA cycle).
+DR   Reactome; R-RNO-9854311; Maturation of TCA enzymes and regulation of TCA cycle.
+DR   SABIO-RK; Q920L2; -.
+DR   UniPathway; UPA00223; UER01006.
+DR   PRO; PR:Q920L2; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000013331; Expressed in heart and 19 other cell types or tissues.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IDA:RGD.
+DR   GO; GO:0005749; C:mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone); IBA:GO_Central.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0045273; C:respiratory chain complex II; ISS:UniProtKB.
+DR   GO; GO:0045257; C:succinate dehydrogenase complex (ubiquinone); ISO:RGD.
+DR   GO; GO:0009055; F:electron transfer activity; IBA:GO_Central.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IBA:GO_Central.
+DR   GO; GO:0008177; F:succinate dehydrogenase (quinone) activity; IMP:RGD.
+DR   GO; GO:0006121; P:mitochondrial electron transport, succinate to ubiquinone; IBA:GO_Central.
+DR   GO; GO:0007399; P:nervous system development; ISO:RGD.
+DR   GO; GO:0042776; P:proton motive force-driven mitochondrial ATP synthesis; NAS:ComplexPortal.
+DR   GO; GO:0022904; P:respiratory electron transport chain; IMP:RGD.
+DR   GO; GO:0006105; P:succinate metabolic process; IMP:RGD.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; NAS:ComplexPortal.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 1.
+DR   Gene3D; 1.20.58.100; Fumarate reductase/succinate dehydrogenase flavoprotein-like, C-terminal domain; 1.
+DR   Gene3D; 4.10.80.40; succinate dehydrogenase protein domain; 1.
+DR   Gene3D; 3.90.700.10; Succinate dehydrogenase/fumarate reductase flavoprotein, catalytic domain; 1.
+DR   InterPro; IPR003953; FAD-binding_2.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR003952; FRD_SDH_FAD_BS.
+DR   InterPro; IPR037099; Fum_R/Succ_DH_flav-like_C_sf.
+DR   InterPro; IPR015939; Fum_Rdtase/Succ_DH_flav-like_C.
+DR   InterPro; IPR030664; SdhA/FrdA/AprA.
+DR   InterPro; IPR027477; Succ_DH/fumarate_Rdtase_cat_sf.
+DR   InterPro; IPR011281; Succ_DH_flav_su_fwd.
+DR   InterPro; IPR014006; Succ_Dhase_FrdA_Gneg.
+DR   NCBIfam; TIGR01816; sdhA_forward; 1.
+DR   NCBIfam; TIGR01812; sdhA_frdA_Gneg; 1.
+DR   PANTHER; PTHR11632; SUCCINATE DEHYDROGENASE 2 FLAVOPROTEIN SUBUNIT; 1.
+DR   PANTHER; PTHR11632:SF51; SUCCINATE DEHYDROGENASE [UBIQUINONE] FLAVOPROTEIN SUBUNIT, MITOCHONDRIAL; 1.
+DR   Pfam; PF00890; FAD_binding_2; 1.
+DR   Pfam; PF02910; Succ_DH_flav_C; 1.
+DR   PIRSF; PIRSF000171; SDHA_APRA_LASPO; 1.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   SUPFAM; SSF46977; Succinate dehydrogenase/fumarate reductase flavoprotein C-terminal domain; 1.
+DR   SUPFAM; SSF56425; Succinate dehydrogenase/fumarate reductase flavoprotein, catalytic domain; 1.
+DR   PROSITE; PS00504; FRD_SDH_FAD_BINDING; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; Electron transport; FAD;
+KW   Flavoprotein; Membrane; Mitochondrion; Mitochondrion inner membrane;
+KW   Oxidoreductase; Phosphoprotein; Reference proteome; Transit peptide;
+KW   Transport; Tricarboxylic acid cycle; Tumor suppressor.
+FT   TRANSIT         1..34
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000250|UniProtKB:Q0QF01"
+FT   CHAIN           35..656
+FT                   /note="Succinate dehydrogenase [ubiquinone] flavoprotein
+FT                   subunit, mitochondrial"
+FT                   /id="PRO_0000010338"
+FT   ACT_SITE        332
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9YHT1"
+FT   BINDING         61
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         64
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         83
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         84
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         90
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         92
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         97
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         213
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         267
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         288
+FT                   /ligand="oxaloacetate"
+FT                   /ligand_id="ChEBI:CHEBI:16452"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         332
+FT                   /ligand="oxaloacetate"
+FT                   /ligand_id="ChEBI:CHEBI:16452"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         399
+FT                   /ligand="oxaloacetate"
+FT                   /ligand_id="ChEBI:CHEBI:16452"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         432
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         443
+FT                   /ligand="oxaloacetate"
+FT                   /ligand_id="ChEBI:CHEBI:16452"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         446
+FT                   /ligand="oxaloacetate"
+FT                   /ligand_id="ChEBI:CHEBI:16452"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         448
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   BINDING         449
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   MOD_RES         91
+FT                   /note="Tele-8alpha-FAD histidine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q0QF01"
+FT   MOD_RES         171
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   MOD_RES         171
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         174
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         207
+FT                   /note="Phosphotyrosine; by SRC"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   MOD_RES         242
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         242
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         327
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   MOD_RES         327
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         415
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         472
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         477
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         477
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         490
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         490
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         509
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         530
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         530
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         542
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         590
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         600
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P31040"
+FT   MOD_RES         607
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         616
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         625
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         628
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+FT   MOD_RES         639
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K2B3"
+SQ   SEQUENCE   656 AA;  71615 MW;  9E820F7FF7EC3B36 CRC64;
+     MAGVGAVSRL LRGRRLALAG ATRGFHFSVG ESKKASAKVS DAISTQYPVV DHEFDAVVVG
+     AGGAGLRAAF GLSEAGFNTA CLTKLFPTRS HTVAAQGGIN AALGNMEEDN WRWHFYDTVK
+     GSDWLGDQDA IHYMTEQAPA SVVELENYGM PFSRTEDGRI YQRAFGGQSL KFGKGGQAHR
+     CCCVADRTGH SLLHTLYGRS LRYDTSYFVE YFALDLLMEN GECRGVIALC IEDGSIHRIR
+     AKNTIIATGG YGRTYFSCTS AHTSTGDGTA MVTRAGLPCQ DLEFVQFHPT GIYGAGCLIT
+     EGCRGEGGIL INSQGERFME RYAPVAKDLA SRDVVSRSMT LEIREGRGCG PEKDHVYLQL
+     HHLPPEQLAT RLPGISETAM IFAGVDVTKE PIPVLPTVHY NMGGIPTNYK GQVLKHVNGQ
+     DQIVPGLYAC GEAACASVHG ANRLGANSLL DLVVFGRACA LSIAESCRPG DKVPPIKANA
+     GEESVMNLDK LRFADGSVRT SELRLSMQKS MQSHAAVFRV GSVLQEGCEK VSQLYGDLQH
+     LKTFDRGMVW NTDLVETLEL QNLMLCALQT IYGAEARKES RGAHAREDYK VRIDEYDYSK
+     PIEGQQKKPF AEHWRKHTLS YVDTKTGKVT LDYRPVIDKT LNEADCATVP PAIRSY
+//

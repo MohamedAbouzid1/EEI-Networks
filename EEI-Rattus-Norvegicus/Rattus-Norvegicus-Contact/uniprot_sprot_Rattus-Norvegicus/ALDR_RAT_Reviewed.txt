@@ -1,0 +1,324 @@
+ID   ALDR_RAT                Reviewed;         316 AA.
+AC   P07943;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   02-OCT-2024, entry version 178.
+DE   RecName: Full=Aldo-keto reductase family 1 member B1;
+DE            EC=1.1.1.21 {ECO:0000250|UniProtKB:P15121};
+DE            EC=1.1.1.300 {ECO:0000250|UniProtKB:P15121};
+DE            EC=1.1.1.372 {ECO:0000250|UniProtKB:P15121};
+DE            EC=1.1.1.54 {ECO:0000250|UniProtKB:P15121};
+DE   AltName: Full=Aldehyde reductase;
+DE   AltName: Full=Aldose reductase;
+DE            Short=AR;
+GN   Name=Akr1b1; Synonyms=Akr1b4, Aldr1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE, AND PARTIAL PROTEIN SEQUENCE.
+RC   STRAIN=Sprague-Dawley; TISSUE=Lens;
+RX   PubMed=3111886; DOI=10.1016/0014-5793(87)80905-5;
+RA   Carper D., Nishimura C., Shinohara T., Dietzchold B., Wistow G., Craft C.,
+RA   Kador P., Kinoshita J.H.;
+RT   "Aldose reductase and p-crystallin belong to the same protein superfamily
+RT   as aldehyde reductase.";
+RL   FEBS Lett. 220:209-213(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1748296; DOI=10.1016/0378-1119(91)90326-7;
+RA   Graham C.E., Szpirer C., Levan G., Carper D.;
+RT   "Characterization of the aldose reductase-encoding gene family in rat.";
+RL   Gene 107:259-267(1991).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 42-53; 156-169; 178-195; 276-294 AND 307-316, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Spinal cord;
+RA   Lubec G., Afjehi-Sadat L.;
+RL   Submitted (NOV-2006) to UniProtKB.
+RN   [5]
+RP   PROTEIN SEQUENCE OF 156-169 AND 205-210.
+RC   TISSUE=Astrocyte;
+RX   PubMed=7498172; DOI=10.1002/elps.11501601205;
+RA   Laeng P., Bouillon P., Taupenot L., Labourdette G.;
+RT   "Long-term induction of an aldose reductase protein by basic fibroblast
+RT   growth factor in rat astrocytes in vitro.";
+RL   Electrophoresis 16:1240-1250(1995).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-3, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reduction of a wide variety of
+CC       carbonyl-containing compounds to their corresponding alcohols with a
+CC       broad range of catalytic efficiencies.
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reduction of a wide variety of
+CC       carbonyl-containing compounds to their corresponding alcohols. Displays
+CC       enzymatic activity towards endogenous metabolites such as aromatic and
+CC       aliphatic aldehydes, ketones, monosacharides, bile acids and
+CC       xenobiotics substrates. Key enzyme in the polyol pathway, catalyzes
+CC       reduction of glucose to sorbitol during hyperglycemia. Reduces steroids
+CC       and their derivatives and prostaglandins. Displays low enzymatic
+CC       activity toward all-trans-retinal, 9-cis-retinal, and 13-cis-retinal.
+CC       Catalyzes the reduction of diverse phospholipid aldehydes such as 1-
+CC       palmitoyl-2-(5-oxovaleroyl)-sn -glycero-3-phosphoethanolamin (POVPC)
+CC       and related phospholipid aldehydes that are generated from the
+CC       oxydation of phosphotidylcholine and phosphatdyleethanolamides. Plays a
+CC       role in detoxifying dietary and lipid-derived unsaturated carbonyls,
+CC       such as crotonaldehyde, 4-hydroxynonenal, trans-2-hexenal, trans-2,4-
+CC       hexadienal and their glutathione-conjugates carbonyls (GS-carbonyls).
+CC       {ECO:0000250|UniProtKB:P15121}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an alditol + NADP(+) = an aldose + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:12789, Rhea:RHEA-COMP:9554, Rhea:RHEA-COMP:9555,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15693, ChEBI:CHEBI:17522,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.1.1.21;
+CC         Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinol + NADP(+) = all-trans-retinal + H(+) +
+CC         NADPH; Xref=Rhea:RHEA:25033, ChEBI:CHEBI:15378, ChEBI:CHEBI:17336,
+CC         ChEBI:CHEBI:17898, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.300; Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=9-cis-retinol + NADP(+) = 9-cis-retinal + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:54916, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:78272, ChEBI:CHEBI:78273;
+CC         Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=13-cis-retinol + NADP(+) = 13-cis-retinal + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:54920, ChEBI:CHEBI:15378, ChEBI:CHEBI:45479,
+CC         ChEBI:CHEBI:45487, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycerol + NADP(+) = D-glyceraldehyde + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:23592, ChEBI:CHEBI:15378, ChEBI:CHEBI:17378,
+CC         ChEBI:CHEBI:17754, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.372; Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycerol + NADP(+) = H(+) + L-glyceraldehyde + NADPH;
+CC         Xref=Rhea:RHEA:38111, ChEBI:CHEBI:15378, ChEBI:CHEBI:17754,
+CC         ChEBI:CHEBI:27975, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.372; Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + prenol = 3-methyl-2-butenal + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:58420, ChEBI:CHEBI:15378, ChEBI:CHEBI:15825,
+CC         ChEBI:CHEBI:16019, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(E)-hex-2-en-1-ol + NADP(+) = (E)-hex-2-enal + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:58424, ChEBI:CHEBI:15378, ChEBI:CHEBI:28913,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:141205;
+CC         Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(E,E)-2,4-hexadien-1-ol + NADP(+) = (E,E)-2,4-hexadienal +
+CC         H(+) + NADPH; Xref=Rhea:RHEA:58428, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:82334,
+CC         ChEBI:CHEBI:142625; Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 4-hydroxynonen-1-ol + NADP(+) = a 4-hydroxynonenal + H(+) +
+CC         NADPH; Xref=Rhea:RHEA:58336, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:142593, ChEBI:CHEBI:142606;
+CC         Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + prostaglandin F2alpha = H(+) + NADPH + prostaglandin
+CC         H2; Xref=Rhea:RHEA:45312, ChEBI:CHEBI:15378, ChEBI:CHEBI:57404,
+CC         ChEBI:CHEBI:57405, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=allyl alcohol + NADP(+) = acrolein + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:12168, ChEBI:CHEBI:15368, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16605, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.1.1.54;
+CC         Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + pyridine 3-methanol = H(+) + NADPH + pyridine-3-
+CC         carbaldehyde; Xref=Rhea:RHEA:58776, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:28345, ChEBI:CHEBI:45213, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(5-oxopentanoyl)-sn-glycero-3-phosphocholine
+CC         + H(+) + NADPH = 1-hexadecanoyl-2-(5-hydroxypentanoyl)-sn-glycero-3-
+CC         phosphocholine + NADP(+); Xref=Rhea:RHEA:58512, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:77890,
+CC         ChEBI:CHEBI:142747; Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(7-oxoheptanoyl)-sn-glycero-3-phosphocholine
+CC         + H(+) + NADPH = 1-hexadecanoyl-2-(7-hydroxyheptanoyl)-sn-glycero-3-
+CC         phosphocholine + NADP(+); Xref=Rhea:RHEA:58752, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:134601,
+CC         ChEBI:CHEBI:142748; Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(9-oxononanoyl)-sn-glycero-3-phosphocholine +
+CC         H(+) + NADPH = 1-hexadecanoyl-2-(9-hydroxynonanoyl)-sn-glycero-3-
+CC         phosphocholine + NADP(+); Xref=Rhea:RHEA:58592, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:61042,
+CC         ChEBI:CHEBI:142749; Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(5-oxopentanoyl)-sn-glycero-3-
+CC         phosphoethanolamine + H(+) + NADPH = 1-hexadecanoyl-2-(5-
+CC         hydroxypentanoyl)-sn-glycero-3-phosphoethanolamine + NADP(+);
+CC         Xref=Rhea:RHEA:58756, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:142750, ChEBI:CHEBI:142751;
+CC         Evidence={ECO:0000250|UniProtKB:P15121};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:P15121}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Belongs to the aldo/keto reductase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X05884; CAA29308.1; -; mRNA.
+DR   EMBL; M60322; AAA40721.1; -; Genomic_DNA.
+DR   EMBL; BC062034; AAH62034.1; -; mRNA.
+DR   PIR; A60603; A60603.
+DR   RefSeq; NP_036630.1; NM_012498.1.
+DR   AlphaFoldDB; P07943; -.
+DR   SMR; P07943; -.
+DR   BioGRID; 246382; 2.
+DR   STRING; 10116.ENSRNOP00000012879; -.
+DR   BindingDB; P07943; -.
+DR   ChEMBL; CHEMBL2622; -.
+DR   DrugCentral; P07943; -.
+DR   iPTMnet; P07943; -.
+DR   PhosphoSitePlus; P07943; -.
+DR   SwissPalm; P07943; -.
+DR   jPOST; P07943; -.
+DR   PaxDb; 10116-ENSRNOP00000012879; -.
+DR   GeneID; 24192; -.
+DR   KEGG; rno:24192; -.
+DR   UCSC; RGD:2092; rat.
+DR   AGR; RGD:2092; -.
+DR   CTD; 231; -.
+DR   RGD; 2092; Akr1b1.
+DR   VEuPathDB; HostDB:ENSRNOG00000009513; -.
+DR   eggNOG; KOG1577; Eukaryota.
+DR   HOGENOM; CLU_023205_0_0_1; -.
+DR   InParanoid; P07943; -.
+DR   OrthoDB; 890110at2759; -.
+DR   PhylomeDB; P07943; -.
+DR   TreeFam; TF106492; -.
+DR   BRENDA; 1.1.1.2; 5301.
+DR   BRENDA; 1.1.1.21; 5301.
+DR   Reactome; R-RNO-196108; Pregnenolone biosynthesis.
+DR   Reactome; R-RNO-5652227; Fructose biosynthesis.
+DR   SABIO-RK; P07943; -.
+DR   PRO; PR:P07943; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000009513; Expressed in ovary and 19 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0042629; C:mast cell granule; IDA:RGD.
+DR   GO; GO:0033010; C:paranodal junction; IDA:RGD.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IDA:RGD.
+DR   GO; GO:0032838; C:plasma membrane bounded cell projection cytoplasm; IDA:RGD.
+DR   GO; GO:0043220; C:Schmidt-Lanterman incisure; IDA:RGD.
+DR   GO; GO:0097454; C:Schwann cell microvillus; IDA:RGD.
+DR   GO; GO:0004032; F:aldose reductase (NADPH) activity; IDA:RGD.
+DR   GO; GO:0052650; F:all-trans-retinol dehydrogenase (NADP+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0047655; F:allyl-alcohol dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0018505; F:cis-1,2-dihydro-1,2-dihydroxynaphthalene dehydrogenase activity; IDA:RGD.
+DR   GO; GO:0043795; F:glyceraldehyde oxidoreductase activity; ISO:RGD.
+DR   GO; GO:0047956; F:glycerol dehydrogenase (NADP+) activity; IEA:RHEA.
+DR   GO; GO:0047939; F:L-glucuronate reductase activity; ISO:RGD.
+DR   GO; GO:0036130; F:prostaglandin H2 endoperoxidase reductase activity; IEA:RHEA.
+DR   GO; GO:0001758; F:retinal dehydrogenase activity; ISS:UniProtKB.
+DR   GO; GO:0071475; P:cellular hyperosmotic salinity response; ISO:RGD.
+DR   GO; GO:0097238; P:cellular response to methylglyoxal; IDA:RGD.
+DR   GO; GO:1901653; P:cellular response to peptide; IEP:RGD.
+DR   GO; GO:0044597; P:daunorubicin metabolic process; ISO:RGD.
+DR   GO; GO:0044598; P:doxorubicin metabolic process; ISO:RGD.
+DR   GO; GO:0002070; P:epithelial cell maturation; ISO:RGD.
+DR   GO; GO:0046370; P:fructose biosynthetic process; ISO:RGD.
+DR   GO; GO:0072061; P:inner medullary collecting duct development; IDA:RGD.
+DR   GO; GO:0019853; P:L-ascorbic acid biosynthetic process; ISO:RGD.
+DR   GO; GO:0060135; P:maternal process involved in female pregnancy; IEP:RGD.
+DR   GO; GO:0072205; P:metanephric collecting duct development; ISO:RGD.
+DR   GO; GO:0005996; P:monosaccharide metabolic process; IDA:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:0042415; P:norepinephrine metabolic process; IDA:RGD.
+DR   GO; GO:0046427; P:positive regulation of receptor signaling pathway via JAK-STAT; IMP:RGD.
+DR   GO; GO:0048661; P:positive regulation of smooth muscle cell proliferation; IMP:RGD.
+DR   GO; GO:0035809; P:regulation of urine volume; ISO:RGD.
+DR   GO; GO:0003091; P:renal water homeostasis; ISO:RGD.
+DR   GO; GO:0097066; P:response to thyroid hormone; IEP:RGD.
+DR   GO; GO:0001523; P:retinoid metabolic process; ISS:UniProtKB.
+DR   GO; GO:0006061; P:sorbitol biosynthetic process; IMP:RGD.
+DR   GO; GO:0031098; P:stress-activated protein kinase signaling cascade; IMP:RGD.
+DR   GO; GO:0001894; P:tissue homeostasis; IMP:RGD.
+DR   CDD; cd19107; AKR_AKR1B1-19; 1.
+DR   Gene3D; 3.20.20.100; NADP-dependent oxidoreductase domain; 1.
+DR   InterPro; IPR020471; AKR.
+DR   InterPro; IPR018170; Aldo/ket_reductase_CS.
+DR   InterPro; IPR023210; NADP_OxRdtase_dom.
+DR   InterPro; IPR036812; NADP_OxRdtase_dom_sf.
+DR   PANTHER; PTHR11732:SF294; ALDO-KETO REDUCTASE FAMILY 1 MEMBER B1; 1.
+DR   PANTHER; PTHR11732; ALDO/KETO REDUCTASE; 1.
+DR   Pfam; PF00248; Aldo_ket_red; 1.
+DR   PIRSF; PIRSF000097; AKR; 1.
+DR   PRINTS; PR00069; ALDKETRDTASE.
+DR   SUPFAM; SSF51430; NAD(P)-linked oxidoreductase; 1.
+DR   PROSITE; PS00798; ALDOKETO_REDUCTASE_1; 1.
+DR   PROSITE; PS00062; ALDOKETO_REDUCTASE_2; 1.
+DR   PROSITE; PS00063; ALDOKETO_REDUCTASE_3; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Direct protein sequencing; Lipid metabolism; NADP;
+KW   Oxidoreductase; Phosphoprotein; Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P16116"
+FT   CHAIN           2..316
+FT                   /note="Aldo-keto reductase family 1 member B1"
+FT                   /id="PRO_0000124627"
+FT   ACT_SITE        49
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:P15121"
+FT   BINDING         10..19
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         111
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         211..273
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:P15121"
+FT   SITE            78
+FT                   /note="Lowers pKa of active site Tyr"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P16116"
+FT   MOD_RES         3
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         95
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P15121"
+FT   MOD_RES         222
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P15121"
+FT   MOD_RES         263
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P15121"
+SQ   SEQUENCE   316 AA;  35797 MW;  D6D07843B6850002 CRC64;
+     MASHLELNNG TKMPTLGLGT WKSPPGQVTE AVKVAIDMGY RHIDCAQVYQ NEKEVGVALQ
+     EKLKEQVVKR QDLFIVSKLW CTFHDQSMVK GACQKTLSDL QLDYLDLYLI HWPTGFKPGP
+     DYFPLDASGN VIPSDTDFVD TWTAMEQLVD EGLVKAIGVS NFNPLQIERI LNKPGLKYKP
+     AVNQIECHPY LTQEKLIEYC HCKGIVVTAY SPLGSPDRPW AKPEDPSLLE DPRIKEIAAK
+     YNKTTAQVLI RFPIQRNLVV IPKSVTPARI AENFKVFDFE LSNEDMATLL SYNRNWRVCA
+     LMSCAKHKDY PFHAEV
+//

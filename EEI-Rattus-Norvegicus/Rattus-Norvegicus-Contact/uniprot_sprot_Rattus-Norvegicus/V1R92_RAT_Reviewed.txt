@@ -1,0 +1,148 @@
+ID   V1R92_RAT               Reviewed;         308 AA.
+AC   Q5J3N1; Q9WUU3;
+DT   13-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2005, sequence version 1.
+DT   29-MAY-2024, entry version 99.
+DE   RecName: Full=Vomeronasal type-1 receptor 92;
+DE   AltName: Full=M24 pheromone receptor;
+DE   AltName: Full=Vomeronasal type-1 receptor B6;
+GN   Name=Vom1r92; Synonyms=V1rb6;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000312|EMBL:CAB44236.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Mimmack M.L.;
+RL   Submitted (JUN-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000312|EMBL:CAB44236.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Capello L., Rodriguez I.;
+RT   "Rat vomeronasal receptors.";
+RL   Submitted (DEC-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-284, AND PUTATIVE FUNCTION.
+RX   PubMed=9757043; DOI=10.1016/s0169-328x(98)00183-1;
+RA   Saito H., Mimmack M.L., Keverne E.B., Kishimoto J., Emson P.C.;
+RT   "Isolation of mouse vomeronasal receptor genes and their co-localization
+RT   with specific G-protein messenger RNAs.";
+RL   Brain Res. Mol. Brain Res. 60:215-227(1998).
+CC   -!- FUNCTION: Putative pheromone receptor implicated in the regulation of
+CC       social as well as reproductive behavior.
+CC       {ECO:0000250|UniProtKB:Q8VIC6}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 1 family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00521}.
+CC   -!- CAUTION: Was originally thought to originate from mouse
+CC       (PubMed:9757043, Ref.1). {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y17567; CAB44236.1; -; Genomic_DNA.
+DR   EMBL; AY510279; AAR87946.1; -; mRNA.
+DR   AlphaFoldDB; Q5J3N1; -.
+DR   SMR; Q5J3N1; -.
+DR   STRING; 10116.ENSRNOP00000069841; -.
+DR   GlyCosmos; Q5J3N1; 1 site, No reported glycans.
+DR   GlyGen; Q5J3N1; 1 site.
+DR   iPTMnet; Q5J3N1; -.
+DR   PhosphoSitePlus; Q5J3N1; -.
+DR   PaxDb; 10116-ENSRNOP00000063674; -.
+DR   UCSC; RGD:1564573; rat.
+DR   AGR; RGD:1564573; -.
+DR   RGD; 1564573; Vom1r92.
+DR   VEuPathDB; HostDB:ENSRNOG00000065051; -.
+DR   eggNOG; ENOG502SNRJ; Eukaryota.
+DR   HOGENOM; CLU_058641_0_0_1; -.
+DR   InParanoid; Q5J3N1; -.
+DR   PhylomeDB; Q5J3N1; -.
+DR   PRO; PR:Q5J3N1; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016503; F:pheromone receptor activity; IEA:InterPro.
+DR   GO; GO:0019236; P:response to pheromone; IEA:UniProtKB-KW.
+DR   GO; GO:0007606; P:sensory perception of chemical stimulus; IEA:UniProt.
+DR   CDD; cd13949; 7tm_V1R_pheromone; 1.
+DR   Gene3D; 1.20.1070.10; Rhodopsin 7-helix transmembrane proteins; 1.
+DR   InterPro; IPR017452; GPCR_Rhodpsn_7TM.
+DR   InterPro; IPR004072; Vmron_rcpt_1.
+DR   PANTHER; PTHR24062; VOMERONASAL TYPE-1 RECEPTOR; 1.
+DR   PANTHER; PTHR24062:SF89; VOMERONASAL TYPE-1 RECEPTOR 44-RELATED; 1.
+DR   Pfam; PF03402; V1R; 1.
+DR   PRINTS; PR01534; VOMERONASL1R.
+DR   SUPFAM; SSF81321; Family A G protein-coupled receptor-like; 1.
+DR   PROSITE; PS50262; G_PROTEIN_RECEP_F1_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Disulfide bond; G-protein coupled receptor; Glycoprotein;
+KW   Membrane; Pheromone response; Receptor; Reference proteome; Transducer;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..308
+FT                   /note="Vomeronasal type-1 receptor 92"
+FT                   /id="PRO_0000239978"
+FT   TOPO_DOM        1..18
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        19..39
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        40..48
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        49..69
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        70..91
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        92..112
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        113..132
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        133..153
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        154..188
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        189..209
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        210..236
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        237..257
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        258..267
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        268..288
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        289..308
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        157
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        83..170
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00521"
+FT   CONFLICT        148
+FT                   /note="L -> F (in Ref. 1; CAB44236)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        185
+FT                   /note="T -> P (in Ref. 1; CAB44236)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   308 AA;  35098 MW;  85ADCFE1D86C2A07 CRC64;
+     MNKDNTLHTI MKITMFSEVS VGISANSILF FAHLCMLLGE NRPKPFHLYI VSLSLTQLIL
+     LITMGLIAVD MFMSWGRWDS TPCQSLIYLH RLLRGFTLCA ACLLNVFWMI TLSPRSSCLS
+     KFKHNSPHHI SGAFLFLCVL YMSFSSHLLV SIIATPNLTS NIFMYVTQSC SLLPMSYSRT
+     STFSTTIAIR EAFLISLMAL SSGFMVTLLW RHKKQAQHLH STSLSSKASP ERRATRTILL
+     LMSFFVVLYI LENVVFYSRM KFKDGSMFYC VQIIVSHSYA TISPFVFICT EKHMTKILRS
+     VCTRIINI
+//

@@ -1,0 +1,174 @@
+ID   KITH_RAT                Reviewed;         121 AA.
+AC   P27158; Q6LAG4;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 1.
+DT   24-JUL-2024, entry version 135.
+DE   RecName: Full=Thymidine kinase, cytosolic;
+DE            EC=2.7.1.21 {ECO:0000250|UniProtKB:P04183};
+DE   Flags: Fragment;
+GN   Name=Tk1; Synonyms=Tk-1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3479791; DOI=10.1073/pnas.84.23.8277;
+RA   Murphy A.J.M., Efstratiadis A.;
+RT   "Cloning vectors for expression of cDNA libraries in mammalian cells.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 84:8277-8281(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-44.
+RC   STRAIN=Sprague-Dawley;
+RA   Sauer M.;
+RL   Submitted (MAY-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-32.
+RC   TISSUE=Liver;
+RX   PubMed=1777676; DOI=10.3109/10425179109039682;
+RA   Arcot S., Traina-Dorge V.L., Deininger P.L.;
+RT   "The rat thymidine kinase gene 5' region: evolution of a promoter.";
+RL   DNA Seq. 2:129-131(1991).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Cell-cycle-regulated enzyme of importance in nucleotide
+CC       metabolism. Catalyzes the first enzymatic step in the salvage pathway
+CC       converting thymidine into thymidine monophosphate. Transcriptional
+CC       regulation limits expression to the S phase of the cell cycle and
+CC       transient expression coincides with the oscillation in the
+CC       intracellular dTTP concentration. {ECO:0000250|UniProtKB:P04183}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + thymidine = ADP + dTMP + H(+); Xref=Rhea:RHEA:19129,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17748, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:63528, ChEBI:CHEBI:456216; EC=2.7.1.21;
+CC         Evidence={ECO:0000250|UniProtKB:P04183};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19130;
+CC         Evidence={ECO:0000250|UniProtKB:P04183};
+CC   -!- SUBUNIT: Homotetramer. Tetramerization from dimerization is induced by
+CC       ATP and increases catalytic efficiency due to a high affinity for
+CC       thymidine. Tetramerization is inhibited by phosphorylation at Ser-13.
+CC       Interacts (via the KEN box) with FZR1. {ECO:0000250|UniProtKB:P04183}.
+CC   -!- INTERACTION:
+CC       P27158; P27158: Tk1; NbExp=2; IntAct=EBI-8306437, EBI-8306437;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- DOMAIN: KEN box sequence located in the C-terminal region is required
+CC       for its mitotic degradation by the APC/C-FZR1 ubiquitin ligase and
+CC       interaction capability with FZR1. {ECO:0000250|UniProtKB:P04183}.
+CC   -!- PTM: Phosphorylated on Ser-13 in mitosis. Phosphorylation of Ser-13 by
+CC       CDK1 during mitosis reduces homotetramerization and catalytic
+CC       efficiency when DNA replication is complete and intracellular TK1 is
+CC       still present at a high level. {ECO:0000250|UniProtKB:P04183}.
+CC   -!- PTM: Polyubiquitinated. Postmitosis, ubiquitination leads to
+CC       proteasomal degradation. The KEN box sequence located at the C-terminal
+CC       region targets for degradation by the anaphase promoting complex
+CC       (APC/C) activated and rate-limited by FZR1.
+CC       {ECO:0000250|UniProtKB:P04183}.
+CC   -!- MISCELLANEOUS: Two forms have been identified in animal cells, one in
+CC       cytosol and one in mitochondria. Activity of the cytosolic enzyme is
+CC       high in proliferating cells and peaks during the S-phase of the cell
+CC       cycle; it is very low in resting cells.
+CC   -!- SIMILARITY: Belongs to the thymidine kinase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M22642; AAA75560.1; -; mRNA.
+DR   EMBL; Y17296; CAA76733.1; -; Genomic_DNA.
+DR   EMBL; X54173; CAA38106.1; -; Genomic_DNA.
+DR   PIR; A39968; A39968.
+DR   RefSeq; NP_434687.1; NM_052800.1.
+DR   AlphaFoldDB; P27158; -.
+DR   SMR; P27158; -.
+DR   IntAct; P27158; 1.
+DR   MINT; P27158; -.
+DR   STRING; 10116.ENSRNOP00000067459; -.
+DR   BindingDB; P27158; -.
+DR   ChEMBL; CHEMBL4022; -.
+DR   PhosphoSitePlus; P27158; -.
+DR   PaxDb; 10116-ENSRNOP00000067459; -.
+DR   GeneID; 24834; -.
+DR   KEGG; rno:24834; -.
+DR   AGR; RGD:621014; -.
+DR   CTD; 7083; -.
+DR   RGD; 621014; Tk1.
+DR   eggNOG; KOG3125; Eukaryota.
+DR   InParanoid; P27158; -.
+DR   OrthoDB; 674053at2759; -.
+DR   PhylomeDB; P27158; -.
+DR   BRENDA; 2.7.1.21; 5301.
+DR   SABIO-RK; P27158; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IEA:GOC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0004797; F:thymidine kinase activity; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0009157; P:deoxyribonucleoside monophosphate biosynthetic process; ISO:RGD.
+DR   GO; GO:0048565; P:digestive tract development; IEP:RGD.
+DR   GO; GO:1904860; P:DNA synthesis involved in mitotic DNA replication; ISO:RGD.
+DR   GO; GO:0060138; P:fetal process involved in parturition; IEP:RGD.
+DR   GO; GO:0001889; P:liver development; IEP:RGD.
+DR   GO; GO:0009165; P:nucleotide biosynthetic process; ISO:RGD.
+DR   GO; GO:0051289; P:protein homotetramerization; ISS:UniProtKB.
+DR   GO; GO:0046688; P:response to copper ion; IEP:RGD.
+DR   GO; GO:0051414; P:response to cortisol; IEP:RGD.
+DR   GO; GO:0031667; P:response to nutrient levels; IEP:RGD.
+DR   GO; GO:0009636; P:response to toxic substance; IEP:RGD.
+DR   GO; GO:0014856; P:skeletal muscle cell proliferation; IEP:RGD.
+DR   GO; GO:0046105; P:thymidine biosynthetic process; ISO:RGD.
+DR   GO; GO:0046104; P:thymidine metabolic process; IDA:RGD.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR001267; Thymidine_kinase.
+DR   PANTHER; PTHR11441; THYMIDINE KINASE; 1.
+DR   PANTHER; PTHR11441:SF0; THYMIDINE KINASE, CYTOSOLIC; 1.
+DR   Pfam; PF00265; TK; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Cytoplasm; DNA synthesis; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Reference proteome; Transferase;
+KW   Ubl conjugation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P04183"
+FT   CHAIN           2..>121
+FT                   /note="Thymidine kinase, cytosolic"
+FT                   /id="PRO_0000174950"
+FT   ACT_SITE        98
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         26..33
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         58..60
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04183"
+FT   BINDING         97..100
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P04183"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P04183"
+FT   MOD_RES         2
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P04183"
+FT   MOD_RES         13
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P04183"
+FT   NON_TER         121
+SQ   SEQUENCE   121 AA;  13511 MW;  8330BDFD9CDA9EB0 CRC64;
+     MSYINLPTVL PISPSKTRGQ IQVILGPMFS GKSTELMRRV RRFQIAQYKC LVIKYAKDTR
+     YSNSFSTHDR NTMDALPACM LKDVAQEALG VAVIGIDEGQ FFPDIVDFCE TMANTGKTVI
+     V
+//

@@ -1,0 +1,233 @@
+ID   VMAT1_RAT               Reviewed;         521 AA.
+AC   Q01818;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   24-JUL-2024, entry version 151.
+DE   RecName: Full=Chromaffin granule amine transporter;
+DE   AltName: Full=Solute carrier family 18 member 1;
+DE   AltName: Full=Vesicular amine transporter 1;
+DE            Short=VAT1;
+GN   Name=Slc18a1; Synonyms=Cgat {ECO:0000303|PubMed:8125935}, Vmat1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORT ACTIVITY, ACTIVITY
+RP   REGULATION, AND TISSUE SPECIFICITY.
+RX   PubMed=1505023; DOI=10.1016/0092-8674(92)90425-c;
+RA   Liu Y., Peter D., Roghani A., Schuldiner S., Prive G.G., Eisenberg D.,
+RA   Brecha N., Edwards R.H.;
+RT   "A cDNA that suppresses MPP+ toxicity encodes a vesicular amine
+RT   transporter.";
+RL   Cell 70:539-551(1992).
+RN   [2]
+RP   FUNCTION, TRANSPORT ACTIVITY, ACTIVITY REGULATION, AND BIOPHYSICOCHEMICAL
+RP   PROPERTIES.
+RX   PubMed=8125935; DOI=10.1016/s0021-9258(17)37272-1;
+RA   Peter D., Jimenez J., Liu Y., Kim J., Edwards R.H.;
+RT   "The chromaffin granule and synaptic vesicle amine transporters differ in
+RT   substrate recognition and sensitivity to inhibitors.";
+RL   J. Biol. Chem. 269:7231-7237(1994).
+CC   -!- FUNCTION: Electrogenic antiporter that exchanges one cationic monoamine
+CC       with two intravesicular protons across the membrane of secretory and
+CC       synaptic vesicles. Uses the electrochemical proton gradient established
+CC       by the V-type proton-pump ATPase to accumulate high concentrations of
+CC       monoamines inside the vesicles prior to their release via exocytosis.
+CC       Transports catecholamines and indolamines with higher affinity for
+CC       serotonin (PubMed:1505023, PubMed:8125935). Regulates the
+CC       transvesicular monoaminergic gradient that determines the quantal size.
+CC       Mediates presynaptic monoaminergic vesicle transport in the amygdala
+CC       and prefrontal brain regions related with emotion processing in
+CC       response to environmental stimuli (By similarity).
+CC       {ECO:0000250|UniProtKB:P54219, ECO:0000269|PubMed:1505023,
+CC       ECO:0000269|PubMed:8125935}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+)(out) + serotonin(in) = 2 H(+)(in) + serotonin(out);
+CC         Xref=Rhea:RHEA:73743, ChEBI:CHEBI:15378, ChEBI:CHEBI:350546;
+CC         Evidence={ECO:0000269|PubMed:8125935};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:73744;
+CC         Evidence={ECO:0000305|PubMed:8125935};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-noradrenaline(in) + 2 H(+)(out) = (R)-noradrenaline(out) +
+CC         2 H(+)(in); Xref=Rhea:RHEA:73747, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:72587; Evidence={ECO:0000250|UniProtKB:P54219};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:73748;
+CC         Evidence={ECO:0000250|UniProtKB:P54219};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dopamine(in) + 2 H(+)(out) = dopamine(out) + 2 H(+)(in);
+CC         Xref=Rhea:RHEA:73739, ChEBI:CHEBI:15378, ChEBI:CHEBI:59905;
+CC         Evidence={ECO:0000269|PubMed:1505023};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:73740;
+CC         Evidence={ECO:0000305|PubMed:1505023};
+CC   -!- ACTIVITY REGULATION: Strongly inhibited by reserpine, ketanserin and
+CC       methamphetamine. Also inhibited weakly by tetrabenazine.
+CC       {ECO:0000269|PubMed:1505023, ECO:0000269|PubMed:8125935}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.85 uM for serotonin {ECO:0000269|PubMed:8125935};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasmic vesicle, secretory vesicle membrane
+CC       {ECO:0000250|UniProtKB:P54219}; Multi-pass membrane protein
+CC       {ECO:0000255}. Cytoplasmic vesicle, secretory vesicle, synaptic vesicle
+CC       membrane {ECO:0000250|UniProtKB:Q8R090}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Adrenal gland. {ECO:0000269|PubMed:1505023}.
+CC   -!- SIMILARITY: Belongs to the major facilitator superfamily. Vesicular
+CC       transporter family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M97380; AAA40921.1; -; mRNA.
+DR   PIR; A43319; A43319.
+DR   RefSeq; NP_037284.2; NM_013152.2.
+DR   AlphaFoldDB; Q01818; -.
+DR   SMR; Q01818; -.
+DR   CORUM; Q01818; -.
+DR   STRING; 10116.ENSRNOP00000016193; -.
+DR   TCDB; 2.A.1.2.11; the major facilitator superfamily (mfs).
+DR   GlyCosmos; Q01818; 3 sites, No reported glycans.
+DR   GlyGen; Q01818; 3 sites.
+DR   PhosphoSitePlus; Q01818; -.
+DR   jPOST; Q01818; -.
+DR   PaxDb; 10116-ENSRNOP00000016193; -.
+DR   GeneID; 25693; -.
+DR   KEGG; rno:25693; -.
+DR   UCSC; RGD:3693; rat.
+DR   AGR; RGD:3693; -.
+DR   CTD; 6570; -.
+DR   RGD; 3693; Slc18a1.
+DR   eggNOG; KOG3764; Eukaryota.
+DR   InParanoid; Q01818; -.
+DR   OrthoDB; 5388206at2759; -.
+DR   PhylomeDB; Q01818; -.
+DR   Reactome; R-RNO-442660; Na+/Cl- dependent neurotransmitter transporters.
+DR   PRO; PR:Q01818; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0045202; C:synapse; ISO:RGD.
+DR   GO; GO:0030672; C:synaptic vesicle membrane; IBA:GO_Central.
+DR   GO; GO:0043195; C:terminal bouton; IBA:GO_Central.
+DR   GO; GO:0019899; F:enzyme binding; IPI:RGD.
+DR   GO; GO:0015311; F:monoamine:proton antiporter activity; IDA:UniProtKB.
+DR   GO; GO:0005335; F:serotonin:sodium:chloride symporter activity; IDA:RGD.
+DR   GO; GO:0042910; F:xenobiotic transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0015842; P:aminergic neurotransmitter loading into synaptic vesicle; IBA:GO_Central.
+DR   GO; GO:0071285; P:cellular response to lithium ion; IEP:RGD.
+DR   GO; GO:0051612; P:negative regulation of serotonin uptake; IMP:RGD.
+DR   GO; GO:0033603; P:positive regulation of dopamine secretion; IMP:RGD.
+DR   GO; GO:0051610; P:serotonin uptake; IDA:UniProtKB.
+DR   CDD; cd17384; MFS_SLC18A1_2_VAT1_2; 1.
+DR   Gene3D; 1.20.1250.20; MFS general substrate transporter like domains; 2.
+DR   InterPro; IPR011701; MFS.
+DR   InterPro; IPR020846; MFS_dom.
+DR   InterPro; IPR036259; MFS_trans_sf.
+DR   InterPro; IPR050930; MFS_Vesicular_Transporter.
+DR   InterPro; IPR004734; Multidrug-R.
+DR   NCBIfam; TIGR00880; 2_A_01_02; 1.
+DR   PANTHER; PTHR23506; -; 1.
+DR   PANTHER; PTHR23506:SF31; CHROMAFFIN GRANULE AMINE TRANSPORTER; 1.
+DR   Pfam; PF07690; MFS_1; 1.
+DR   SUPFAM; SSF103473; MFS general substrate transporter; 1.
+DR   PROSITE; PS50850; MFS; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasmic vesicle; Glycoprotein; Membrane; Neurotransmitter transport;
+KW   Reference proteome; Synapse; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..521
+FT                   /note="Chromaffin granule amine transporter"
+FT                   /id="PRO_0000127512"
+FT   TOPO_DOM        1..21
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        22..42
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        43..135
+FT                   /note="Lumenal, vesicle"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        136..155
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        156..164
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        165..185
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        186..194
+FT                   /note="Lumenal, vesicle"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        195..215
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        216..224
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        225..247
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        248..253
+FT                   /note="Lumenal, vesicle"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        254..276
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        277..296
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        297..316
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        317..332
+FT                   /note="Lumenal, vesicle"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        333..357
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        358..362
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        363..383
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        384..394
+FT                   /note="Lumenal, vesicle"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        395..415
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        416..419
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        420..440
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        441..445
+FT                   /note="Lumenal, vesicle"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        446..467
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        468..521
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        58
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        87
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        104
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   521 AA;  55935 MW;  DCDC0D0AF0EC15D4 CRC64;
+     MLQVVLGAPQ RLLKEGRQSR KLVLVVVFVA LLLDNMLLTV VVPIVPTFLY ATEFKDSNSS
+     LHRGPSVSSQ QALTSPAFST IFSFFDNTTT TVEEHVPFRV TWTNGTIPPP VTEASSVPKN
+     NCLQGIEFLE EENVRIGILF ASKALMQLLV NPFVGPLTNR IGYHIPMFVG FMIMFLSTLM
+     FAFSGTYALL FVARTLQGIG SSFSSVAGLG MLASVYTDNY ERGRAMGIAL GGLALGLLVG
+     APFGSVMYEF VGKSSPFLIL AFLALLDGAL QLCILWPSKV SPESAMGTSL LTLLKDPYIL
+     VAAGSICLAN MGVAILEPTL PIWMMQTMCS PEWQLGLAFL PASVAYLIGT NLFGVLANKM
+     GRWLCSLVGM VAVGISLLCV PLAHNIFGLI GPNAGLGFAI GMVDSSLMPI MGYLVDLRHT
+     SVYGSVYAIA DVAFCVGFAI GPSTGGVIVQ VIGFPWLMVI IGTINIIYAP LCCFLQNPPA
+     KEEKRAILSQ ECPTETQMYT FQKPTKAFPL GENSDDPSSG E
+//

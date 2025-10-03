@@ -1,0 +1,255 @@
+ID   GPR37_RAT               Reviewed;         603 AA.
+AC   Q9QYC6;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   02-OCT-2024, entry version 143.
+DE   RecName: Full=Prosaposin receptor GPR37;
+DE   AltName: Full=G-protein coupled receptor 37;
+DE   AltName: Full=G-protein coupled receptor CNS1;
+DE   Flags: Precursor;
+GN   Name=Gpr37;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   TISSUE=Hypothalamus;
+RX   PubMed=10350639; DOI=10.1016/s0169-328x(99)00092-3;
+RA   Leng N., Gu G., Simerly R.B., Spindel E.R.;
+RT   "Molecular cloning and characterization of two putative G protein-coupled
+RT   receptors which are highly expressed in the central nervous system.";
+RL   Brain Res. Mol. Brain Res. 69:73-83(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: G-protein-coupled receptor that plays a role in several
+CC       physiological pathways such as resolution of inflammatory pain and
+CC       oligodendrocyte differentiation (By similarity). Acts as a receptor for
+CC       several ligands including prosaposin, osteocalcin or neuroprotectin D1.
+CC       Ligand binding induces endocytosis, followed by an ERK phosphorylation
+CC       cascade (By similarity). Acts as a receptor for osteocalcin (OCN) to
+CC       regulate oligodendrocyte differentiation and central nervous system
+CC       myelination. Mechanistically, plays a negative role in oligodendrocyte
+CC       differentiation and myelination during development via activation of
+CC       the ERK1/2 signaling pathway. Therefore, regulates the stability of
+CC       myelin or resistance of myelin itself to demyelination. Upon activation
+CC       by neuroprotectin D1 (NPD1), promotes the activation of phagocytosis in
+CC       macrophages as well as the shift in cytokine release toward an anti-
+CC       inflammatory profile, and thus helps to reverse inflammatory pain. In
+CC       addition, the increased macrophage phagocytosis mediates protection
+CC       against sepsis upon pathogen infection. Additionally, extracellular
+CC       vesicles derived from efferocyte express prosaposin, which binds to
+CC       macrophage GPR37 to increase expression of the efferocytosis receptor
+CC       TIM4 via an ERK-AP1-dependent signaling axis, leading to increased
+CC       macrophage efferocytosis efficiency and accelerated resolution of
+CC       inflammation (By similarity). May also act as a maturation factor of
+CC       LRP6, protecting LRP6 from the endoplasmic reticulum (ER)-associated
+CC       protein degradation (ERAD) and thereby promoting the Wnt/beta-catenin
+CC       signaling pathway (By similarity). {ECO:0000250|UniProtKB:O15354,
+CC       ECO:0000250|UniProtKB:Q9QY42}.
+CC   -!- SUBUNIT: Forms a complex with PRKN, STUB1 and HSP70. The amount of
+CC       STUB1 in the complex increases during ER stress. STUB1 promotes the
+CC       dissociation of HSP70 from PRKN, thus facilitating PRKN-mediated GPR37
+CC       ubiquitination. Interacts with PACRG (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell projection, dendrite
+CC       {ECO:0000250|UniProtKB:O15354}. Synapse {ECO:0000250|UniProtKB:O15354}.
+CC       Cell membrane {ECO:0000250|UniProtKB:O15354}; Multi-pass membrane
+CC       protein {ECO:0000250|UniProtKB:O15354}. Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:O15354}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:O15354}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in the brain. High levels of
+CC       expression were seen in fiber tracts such as the corpus callosum,
+CC       anterior commissure, fornix, internal capsule, cerebral peduncles, and
+CC       stria terminalis. Additionally, moderate levels of expression were seen
+CC       in the pyramidal tracts and cerebellar peduncles, as well as in the
+CC       spinal tract of the trigeminal nerve and the spinal fasciculi.
+CC       {ECO:0000269|PubMed:10350639}.
+CC   -!- PTM: The N-terminus is cleaved by ADAM10 metalloproteinase; mediating
+CC       limited proteolysis leading to the release of receptor ectodomain by
+CC       shedding. In addition, cleaved by FURIN between Arg-53 and Asp-54.
+CC       {ECO:0000250|UniProtKB:O15354}.
+CC   -!- PTM: Ubiquitinated by PRKN in the presence of UBE2E1 and UBE2L3 in the
+CC       endoplasmic reticulum. The unfolded form is specifically ubiquitinated
+CC       by SYVN1, which promotes its proteasomal degradation and prevents
+CC       neuronal cell death. {ECO:0000250|UniProtKB:O15354}.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 1 family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00521}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF087946; AAD54655.1; -; mRNA.
+DR   EMBL; BC087728; AAH87728.1; -; mRNA.
+DR   RefSeq; NP_476549.1; NM_057201.1.
+DR   AlphaFoldDB; Q9QYC6; -.
+DR   SMR; Q9QYC6; -.
+DR   STRING; 10116.ENSRNOP00000003593; -.
+DR   GlyCosmos; Q9QYC6; 3 sites, No reported glycans.
+DR   GlyGen; Q9QYC6; 3 sites.
+DR   PhosphoSitePlus; Q9QYC6; -.
+DR   PaxDb; 10116-ENSRNOP00000003593; -.
+DR   Ensembl; ENSRNOT00000003593.7; ENSRNOP00000003593.4; ENSRNOG00000002524.7.
+DR   Ensembl; ENSRNOT00055036212; ENSRNOP00055029422; ENSRNOG00055021199.
+DR   Ensembl; ENSRNOT00060031435; ENSRNOP00060025506; ENSRNOG00060018313.
+DR   Ensembl; ENSRNOT00065042331; ENSRNOP00065034633; ENSRNOG00065024650.
+DR   GeneID; 117549; -.
+DR   KEGG; rno:117549; -.
+DR   UCSC; RGD:619848; rat.
+DR   AGR; RGD:619848; -.
+DR   CTD; 2861; -.
+DR   RGD; 619848; Gpr37.
+DR   eggNOG; KOG3656; Eukaryota.
+DR   GeneTree; ENSGT01120000271846; -.
+DR   HOGENOM; CLU_032138_1_0_1; -.
+DR   InParanoid; Q9QYC6; -.
+DR   OMA; HSRRWRT; -.
+DR   OrthoDB; 4268515at2759; -.
+DR   PhylomeDB; Q9QYC6; -.
+DR   TreeFam; TF331292; -.
+DR   Reactome; R-RNO-375276; Peptide ligand-binding receptors.
+DR   Reactome; R-RNO-418594; G alpha (i) signalling events.
+DR   PRO; PR:Q9QYC6; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000002524; Expressed in Ammon's horn and 19 other cell types or tissues.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0030425; C:dendrite; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0043235; C:receptor complex; ISO:RGD.
+DR   GO; GO:0045202; C:synapse; ISO:RGD.
+DR   GO; GO:0000151; C:ubiquitin ligase complex; ISO:RGD.
+DR   GO; GO:0008528; F:G protein-coupled peptide receptor activity; ISO:RGD.
+DR   GO; GO:0031072; F:heat shock protein binding; ISO:RGD.
+DR   GO; GO:0030544; F:Hsp70 protein binding; ISO:RGD.
+DR   GO; GO:0042923; F:neuropeptide binding; ISO:RGD.
+DR   GO; GO:0008188; F:neuropeptide receptor activity; ISO:RGD.
+DR   GO; GO:0030165; F:PDZ domain binding; ISO:RGD.
+DR   GO; GO:0042277; F:peptide binding; ISO:RGD.
+DR   GO; GO:0036505; F:prosaposin receptor activity; ISO:RGD.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0007193; P:adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0034614; P:cellular response to reactive oxygen species; ISO:RGD.
+DR   GO; GO:0016358; P:dendrite development; ISO:RGD.
+DR   GO; GO:0042416; P:dopamine biosynthetic process; ISO:RGD.
+DR   GO; GO:0031987; P:locomotion involved in locomotory behavior; ISO:RGD.
+DR   GO; GO:0007218; P:neuropeptide signaling pathway; ISO:RGD.
+DR   GO; GO:0045964; P:positive regulation of dopamine metabolic process; ISO:RGD.
+DR   GO; GO:0043410; P:positive regulation of MAPK cascade; ISO:RGD.
+DR   CDD; cd15127; 7tmA_GPR37; 1.
+DR   Gene3D; 1.20.1070.10; Rhodopsin 7-helix transmembrane proteins; 1.
+DR   InterPro; IPR000276; GPCR_Rhodpsn.
+DR   InterPro; IPR017452; GPCR_Rhodpsn_7TM.
+DR   InterPro; IPR003909; GPR37_orph.
+DR   PANTHER; PTHR46216:SF3; PROSAPOSIN RECEPTOR GPR37; 1.
+DR   PANTHER; PTHR46216; PROSAPOSIN RECEPTOR GPR37 FAMILY MEMBER; 1.
+DR   Pfam; PF00001; 7tm_1; 1.
+DR   PRINTS; PR00237; GPCRRHODOPSN.
+DR   PRINTS; PR01421; GPR37ORPHANR.
+DR   SUPFAM; SSF81321; Family A G protein-coupled receptor-like; 1.
+DR   PROSITE; PS50262; G_PROTEIN_RECEP_F1_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Cell projection; Disulfide bond; Endoplasmic reticulum;
+KW   G-protein coupled receptor; Glycoprotein; Membrane; Receptor;
+KW   Reference proteome; Signal; Synapse; Transducer; Transmembrane;
+KW   Transmembrane helix; Ubl conjugation.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..603
+FT                   /note="Prosaposin receptor GPR37"
+FT                   /id="PRO_0000012801"
+FT   TOPO_DOM        27..255
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        256..276
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        277..289
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        290..310
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        311..325
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        326..346
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        347..369
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        370..390
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        391..433
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        434..454
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        455..483
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        484..504
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        505..521
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        522..542
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        543..603
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          39..232
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        56..80
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        127..141
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        148..177
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   SITE            53..54
+FT                   /note="Cleavage; by FURIN"
+FT                   /evidence="ECO:0000250|UniProtKB:O15354"
+FT   SITE            164..165
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000250|UniProtKB:O15354"
+FT   CARBOHYD        36
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        212
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        229
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        324..409
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00521"
+SQ   SEQUENCE   603 AA;  66961 MW;  87F3042B8267CEAD CRC64;
+     MPAPGAPLSR TSRLLLLLLF KVSVSAALSF VPEPRNGTCL GESCSPLIPR RSRDAGGPRN
+     SARDALRVHV PREKLEAEVR GATSWDLPPP RGGDTGVIEE AAASGPLGPP TKPPGAWRWK
+     GAQGKEPSGH LGRREPTDSQ LFRQTSERGE MSSKRDEIPQ GSQEHSVKTE PEPRDLFYWP
+     RKTGQLQGSH YRPSAVHEGR TLAPPGRALP QNGSADDWVP DQGGPRRGNS TNRRVRLKNP
+     FYPLTQESYG AYAVMCLSVV IFGTGIIGNL AVMCIVCHNY YMRSISNSLL ANLAFWDFLI
+     IFFCLPLVIF HELTKKWLLE DFSCKIVPYI EVASLGVTTF TLCALCIDRF RAATNVQMYY
+     EMIENCSSTT AKLAVIWVGA LLLALPEVVL RQLSKEDLGF SGQAPAERCV IKISPDLPDT
+     IYVLALTYDG ARLWWYFGCY FCLPTLFTIT CSLVTARKIR KAEKASTRGN KRQIHLESQM
+     NCTVVALTIL YGFCIIPENI CNIVTAYMAT GVSQQTMDLL NIISQFLLFF KSCVTPVLLF
+     CLCRPFSRAF MECCCCCCEE CIQKSSTVTS DDNDNEYTTE LELSPFSTIR REMSTFASVG
+     THC
+//

@@ -1,0 +1,274 @@
+ID   KCNKA_RAT               Reviewed;         538 AA.
+AC   Q9JIS4; Q548D8;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   02-OCT-2024, entry version 144.
+DE   RecName: Full=Potassium channel subfamily K member 10;
+DE   AltName: Full=Outward rectifying potassium channel protein TREK-2;
+DE   AltName: Full=TREK-2 K(+) channel subunit;
+GN   Name=Kcnk10; Synonyms=Trek2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY, AND ACTIVITY
+RP   REGULATION.
+RX   PubMed=10747911; DOI=10.1074/jbc.m000445200;
+RA   Bang H., Kim Y., Kim D.;
+RT   "TREK-2, a new member of the mechanosensitive tandem-pore K+ channel
+RT   family.";
+RL   J. Biol. Chem. 275:17412-17419(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar;
+RX   PubMed=11897838; DOI=10.1113/jphysiol.2001.013432;
+RA   Gu W., Schlichthorl G., Hirsch J.R., Engels H., Karschin C., Karschin A.,
+RA   Derst C., Steinlein O.K., Daut J.;
+RT   "Expression pattern and functional characteristics of two novel splice
+RT   variants of the two-pore-domain potassium channel TREK-2.";
+RL   J. Physiol. (Lond.) 539:657-668(2002).
+CC   -!- FUNCTION: K(+) channel that conducts voltage-dependent outward
+CC       rectifying currents upon membrane depolarization. Voltage sensing is
+CC       coupled to K(+) electrochemical gradient in an 'ion flux gating' mode
+CC       where outward but not inward ion flow opens the gate. Converts to
+CC       voltage-independent 'leak' conductance mode upon stimulation by various
+CC       stimuli including mechanical membrane stretch, acidic pH, heat and
+CC       lipids. Homo- and heterodimerizes to form functional channels with
+CC       distinct regulatory and gating properties (By similarity). In
+CC       trigeminal ganglia sensory neurons, the heterodimer of KCNK10/TREK-2
+CC       and KCNK18/TRESK inhibits neuronal firing and neurogenic inflammation
+CC       by stabilizing the resting membrane potential at K(+) equilibrium
+CC       potential as well as by regulating the threshold of action potentials
+CC       and the spike frequency (By similarity). Permeable to other monovalent
+CC       ions such as Rb(+) and Cs(+) (By similarity) (PubMed:10747911).
+CC       {ECO:0000250|UniProtKB:P57789, ECO:0000250|UniProtKB:Q8BUW1,
+CC       ECO:0000269|PubMed:10747911}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=K(+)(in) = K(+)(out); Xref=Rhea:RHEA:29463, ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000269|PubMed:10747911};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Rb(+)(in) = Rb(+)(out); Xref=Rhea:RHEA:78547,
+CC         ChEBI:CHEBI:49847; Evidence={ECO:0000250|UniProtKB:P57789};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Cs(+)(in) = Cs(+)(out); Xref=Rhea:RHEA:78555,
+CC         ChEBI:CHEBI:49547; Evidence={ECO:0000250|UniProtKB:P57789};
+CC   -!- ACTIVITY REGULATION: Activated by stimuli such as mechanical stretch,
+CC       acidic pH and polyunsaturated free fatty acids.
+CC       {ECO:0000269|PubMed:10747911}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked (By similarity). Forms
+CC       heterodimers with other 2-pore domain K(+) channel subunits, such as
+CC       KCNK2, KCNK4 and KCNK18 (By similarity). {ECO:0000250|UniProtKB:P57789,
+CC       ECO:0000250|UniProtKB:Q8BUW1}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q8BUW1};
+CC       Multi-pass membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed mainly in the cerebellum, spleen, and
+CC       testis. {ECO:0000269|PubMed:10747911}.
+CC   -!- DOMAIN: Each subunit contributes two pore-forming domains 1 and 2 which
+CC       assemble to form a single pore with M2 and M4 transmembrane helices
+CC       lining the central cavity and M1 and M3 facing the lipid bilayer. The
+CC       transmembrane helices are bridged by the selectivity filters 1 and 2
+CC       carrying a signature sequence TxTTxGYGD that coordinate the permeant
+CC       ions. Up to four ions can simultaneously occupy the selectivity filter
+CC       and at least two elementary charges must translocate across the filter
+CC       to convert it into the open conformation.
+CC       {ECO:0000250|UniProtKB:P57789}.
+CC   -!- SIMILARITY: Belongs to the two pore domain potassium channel (TC
+CC       1.A.1.8) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF196965; AAF75132.1; -; mRNA.
+DR   EMBL; AF385401; AAL95707.1; -; mRNA.
+DR   RefSeq; NP_075584.1; NM_023096.2.
+DR   AlphaFoldDB; Q9JIS4; -.
+DR   SMR; Q9JIS4; -.
+DR   STRING; 10116.ENSRNOP00000005175; -.
+DR   BindingDB; Q9JIS4; -.
+DR   ChEMBL; CHEMBL3308951; -.
+DR   TCDB; 1.A.1.9.4; the voltage-gated ion channel (vic) superfamily.
+DR   GlyCosmos; Q9JIS4; 2 sites, No reported glycans.
+DR   GlyGen; Q9JIS4; 2 sites.
+DR   iPTMnet; Q9JIS4; -.
+DR   PhosphoSitePlus; Q9JIS4; -.
+DR   PaxDb; 10116-ENSRNOP00000005175; -.
+DR   Ensembl; ENSRNOT00000005175.5; ENSRNOP00000005175.3; ENSRNOG00000003813.5.
+DR   Ensembl; ENSRNOT00055026257; ENSRNOP00055021353; ENSRNOG00055015349.
+DR   Ensembl; ENSRNOT00060008469; ENSRNOP00060006348; ENSRNOG00060005081.
+DR   Ensembl; ENSRNOT00065023671; ENSRNOP00065018425; ENSRNOG00065014345.
+DR   GeneID; 65272; -.
+DR   KEGG; rno:65272; -.
+DR   UCSC; RGD:619732; rat.
+DR   AGR; RGD:619732; -.
+DR   CTD; 54207; -.
+DR   RGD; 619732; Kcnk10.
+DR   eggNOG; KOG1418; Eukaryota.
+DR   GeneTree; ENSGT00940000156147; -.
+DR   HOGENOM; CLU_022504_10_0_1; -.
+DR   InParanoid; Q9JIS4; -.
+DR   OMA; MNWYKPL; -.
+DR   OrthoDB; 600333at2759; -.
+DR   PhylomeDB; Q9JIS4; -.
+DR   TreeFam; TF313947; -.
+DR   Reactome; R-RNO-1299503; TWIK related potassium channel (TREK).
+DR   Reactome; R-RNO-5576886; Phase 4 - resting membrane potential.
+DR   PRO; PR:Q9JIS4; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000003813; Expressed in cerebellum and 7 other cell types or tissues.
+DR   GO; GO:0034702; C:monoatomic ion channel complex; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0015271; F:outward rectifier potassium channel activity; IBA:GO_Central.
+DR   GO; GO:0005267; F:potassium channel activity; IDA:RGD.
+DR   GO; GO:0022841; F:potassium ion leak channel activity; IBA:GO_Central.
+DR   GO; GO:0007613; P:memory; IEP:RGD.
+DR   GO; GO:0071805; P:potassium ion transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0030322; P:stabilization of membrane potential; IBA:GO_Central.
+DR   Gene3D; 1.10.287.70; -; 1.
+DR   InterPro; IPR003280; 2pore_dom_K_chnl.
+DR   InterPro; IPR003976; 2pore_dom_K_chnl_TREK.
+DR   InterPro; IPR013099; K_chnl_dom.
+DR   PANTHER; PTHR11003:SF32; POTASSIUM CHANNEL SUBFAMILY K MEMBER 10; 1.
+DR   PANTHER; PTHR11003; POTASSIUM CHANNEL, SUBFAMILY K; 1.
+DR   Pfam; PF07885; Ion_trans_2; 2.
+DR   PRINTS; PR01333; 2POREKCHANEL.
+DR   PRINTS; PR01499; TREKCHANNEL.
+DR   SUPFAM; SSF81324; Voltage-gated potassium channels; 2.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Disulfide bond; Glycoprotein; Ion channel; Ion transport;
+KW   Membrane; Metal-binding; Potassium; Potassium channel; Potassium transport;
+KW   Reference proteome; Transmembrane; Transmembrane helix; Transport;
+KW   Voltage-gated channel.
+FT   CHAIN           1..538
+FT                   /note="Potassium channel subfamily K member 10"
+FT                   /id="PRO_0000101759"
+FT   TOPO_DOM        1..71
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        72..92
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   INTRAMEM        154..180
+FT                   /note="Pore-forming; Name=Pore-forming 1"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        182..202
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        203..233
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        234..254
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   INTRAMEM        263..294
+FT                   /note="Pore-forming; Name=Pore-forming 2"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        299..319
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        320..538
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          167..172
+FT                   /note="Selectivity filter 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   REGION          276..281
+FT                   /note="Selectivity filter 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   REGION          412..444
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         167
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         167
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         168
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         168
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         169
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         169
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         170
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         276
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         276
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         277
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         277
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         278
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         278
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   BINDING         279
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+FT   SITE            151
+FT                   /note="pH sensor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BUW1"
+FT   CARBOHYD        144
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        147
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        118
+FT                   /note="Interchain (with C-118)"
+FT                   /evidence="ECO:0000250|UniProtKB:P57789"
+SQ   SEQUENCE   538 AA;  59801 MW;  1FF33F0AA52B97E4 CRC64;
+     MKFPIETPRK QVNWDPKVAV PAAAPPVCQP KSATNGHHPV PRLSISSRAT VVARMEGASQ
+     GGLQTVMKWK TVVAIFVVVV VYLVTGGLVF RALEQPFESS QKNTIALEKA EFLRDHICVS
+     PQELETLIQH ALDADNAGVS PVGNSSNSSS HWDLGSAFFF AGTVITTIGY GNIAPSTEGG
+     KIFCILYAIF GIPLFGFLLA GIGDQLGTIF GKSIARVEKV FRKKQVSQTK IRVISTILFI
+     LAGCIVFVTI PAVIFKYIEG WTALESIYFV VVTLTTVGFG DFVAGGNAGI NYREWYKPLV
+     WFWILVGLAY FAAVLSMIGD WLRVLSKKTK EEVGEIKAHA AEWKANVTAE FRETRRRLSV
+     EIHDKLQRAA TIRSMERRRL GLDQRAHSLD MLSPEKRSVF AALDTGRFKA SSQESINNRP
+     NNLRLKGPEQ LNKHGQGASE DNIINKFGST SKLTKRKNKD LKKTLPEDVQ KIYKTFRNYS
+     LDEEKKEDET EKMCNSDNSS TAMLTECIQQ QAEMENGMVP MDTKDQGLEN NSLLEDRN
+//

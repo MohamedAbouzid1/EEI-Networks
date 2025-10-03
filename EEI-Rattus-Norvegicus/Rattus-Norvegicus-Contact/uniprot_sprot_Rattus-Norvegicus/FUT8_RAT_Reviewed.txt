@@ -1,0 +1,157 @@
+ID   FUT8_RAT                Reviewed;         575 AA.
+AC   Q6EV76;
+DT   16-DEC-2008, integrated into UniProtKB/Swiss-Prot.
+DT   16-AUG-2004, sequence version 1.
+DT   08-NOV-2023, entry version 111.
+DE   RecName: Full=Alpha-(1,6)-fucosyltransferase;
+DE            Short=Alpha1-6FucT;
+DE            EC=2.4.1.68;
+DE   AltName: Full=GDP-L-Fuc:N-acetyl-beta-D-glucosaminide alpha1,6-fucosyltransferase;
+DE   AltName: Full=GDP-fucose--glycoprotein fucosyltransferase;
+DE   AltName: Full=Glycoprotein 6-alpha-L-fucosyltransferase;
+GN   Name=Fut8;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar;
+RA   Martinez-Duncker I., Oriol R., Mollicone R.;
+RT   "Phylogeny of fucosyltransferases.";
+RL   Submitted (JUL-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the addition of fucose in alpha 1-6 linkage to the
+CC       first GlcNAc residue, next to the peptide chains in N-glycans.
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GDP-beta-L-fucose + N(4)-{beta-D-GlcNAc-(1->2)-alpha-D-Man-
+CC         (1->3)-[beta-D-GlcNAc-(1->2)-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-
+CC         beta-D-GlcNAc-(1->4)-beta-D-GlcNAc}-L-asparaginyl-[protein] = GDP +
+CC         H(+) + N(4)-{beta-D-GlcNAc-(1->2)-alpha-D-Man-(1->3)-[beta-D-GlcNAc-
+CC         (1->2)-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-
+CC         [alpha-L-Fuc-(1->6)]-beta-D-GlcNAc}-L-asparaginyl-[protein];
+CC         Xref=Rhea:RHEA:12985, Rhea:RHEA-COMP:13526, Rhea:RHEA-COMP:13532,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57273, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:60651, ChEBI:CHEBI:137207; EC=2.4.1.68;
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus, Golgi stack membrane
+CC       {ECO:0000250}; Single-pass type II membrane protein {ECO:0000250}.
+CC       Note=Membrane-bound form in trans cisternae of Golgi. {ECO:0000250}.
+CC   -!- PTM: Tyrosine phosphorylated by PKDCC/VLK.
+CC       {ECO:0000250|UniProtKB:Q9BYC5}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 23 family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00992}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ781406; CAH03674.1; -; mRNA.
+DR   RefSeq; NP_001002289.1; NM_001002289.1.
+DR   AlphaFoldDB; Q6EV76; -.
+DR   SMR; Q6EV76; -.
+DR   STRING; 10116.ENSRNOP00000011220; -.
+DR   CAZy; GT23; Glycosyltransferase Family 23.
+DR   iPTMnet; Q6EV76; -.
+DR   PhosphoSitePlus; Q6EV76; -.
+DR   PaxDb; 10116-ENSRNOP00000011220; -.
+DR   GeneID; 432392; -.
+DR   KEGG; rno:432392; -.
+DR   UCSC; RGD:1303096; rat.
+DR   AGR; RGD:1303096; -.
+DR   CTD; 2530; -.
+DR   RGD; 1303096; Fut8.
+DR   eggNOG; KOG3705; Eukaryota.
+DR   InParanoid; Q6EV76; -.
+DR   PhylomeDB; Q6EV76; -.
+DR   Reactome; R-RNO-975578; Reactions specific to the complex N-glycan synthesis pathway.
+DR   UniPathway; UPA00378; -.
+DR   PRO; PR:Q6EV76; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0032580; C:Golgi cisterna membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046921; F:alpha-(1->6)-fucosyltransferase activity; ISO:RGD.
+DR   GO; GO:0008424; F:glycoprotein 6-alpha-L-fucosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0017124; F:SH3 domain binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016477; P:cell migration; ISO:RGD.
+DR   GO; GO:0010761; P:fibroblast migration; ISO:RGD.
+DR   GO; GO:0046368; P:GDP-L-fucose metabolic process; ISS:UniProtKB.
+DR   GO; GO:0007229; P:integrin-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0036071; P:N-glycan fucosylation; ISO:RGD.
+DR   GO; GO:0006491; P:N-glycan processing; ISO:RGD.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; IBA:GO_Central.
+DR   GO; GO:0018279; P:protein N-linked glycosylation via asparagine; ISS:UniProtKB.
+DR   GO; GO:0043112; P:receptor metabolic process; ISO:RGD.
+DR   GO; GO:1900407; P:regulation of cellular response to oxidative stress; ISO:RGD.
+DR   GO; GO:0010468; P:regulation of gene expression; ISO:RGD.
+DR   GO; GO:0007585; P:respiratory gaseous exchange by respiratory system; ISO:RGD.
+DR   GO; GO:0007179; P:transforming growth factor beta receptor signaling pathway; ISO:RGD.
+DR   CDD; cd11300; Fut8_like; 1.
+DR   CDD; cd11792; SH3_Fut8; 1.
+DR   Gene3D; 3.40.50.11350; -; 1.
+DR   Gene3D; 1.10.287.1060; ESAT-6-like; 1.
+DR   Gene3D; 2.30.30.40; SH3 Domains; 1.
+DR   InterPro; IPR015827; Fut8.
+DR   InterPro; IPR045573; Fut8_N_cat.
+DR   InterPro; IPR035653; Fut8_SH3.
+DR   InterPro; IPR027350; GT23_dom.
+DR   InterPro; IPR036028; SH3-like_dom_sf.
+DR   InterPro; IPR001452; SH3_domain.
+DR   PANTHER; PTHR13132; ALPHA- 1,6 -FUCOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR13132:SF29; ALPHA-(1,6)-FUCOSYLTRANSFERASE; 1.
+DR   Pfam; PF19745; FUT8_N_cat; 1.
+DR   Pfam; PF14604; SH3_9; 1.
+DR   PIRSF; PIRSF000472; Alpha1_6FUT_euk; 1.
+DR   SMART; SM00326; SH3; 1.
+DR   SUPFAM; SSF50044; SH3-domain; 1.
+DR   PROSITE; PS51659; GT23; 1.
+DR   PROSITE; PS50002; SH3; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycosyltransferase; Golgi apparatus; Membrane;
+KW   Phosphoprotein; Reference proteome; SH3 domain; SH3-binding; Signal-anchor;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..575
+FT                   /note="Alpha-(1,6)-fucosyltransferase"
+FT                   /id="PRO_0000357042"
+FT   TOPO_DOM        1..9
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        10..30
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        31..575
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          206..493
+FT                   /note="GT23"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00992"
+FT   DOMAIN          502..563
+FT                   /note="SH3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00192"
+FT   REGION          365..366
+FT                   /note="Important for donor substrate binding"
+FT   MOTIF           299..305
+FT                   /note="SH3-binding"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         278
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9WTS2"
+FT   DISULFID        204..266
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        212..230
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        218..222
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        465..472
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   575 AA;  66485 MW;  731EFB6D850B76CC CRC64;
+     MRAWTGSWRW IMLILFAWGT LLFYIGGHLV RDNDHPDHSS RELSKILAKL ERLKQQNEDL
+     RRMAESLRIP EGPIDQGTAT GRVRVLEEQL VKAKEQIENY KKQARNGLGK DHELLRRRIE
+     NGAKELWFFL QSELKKLKHL EGNELQRHAD EILLDLGHHE RSIMTDLYYL SQTDGAGDWR
+     EKEAKDLTEL VQRRITYLQN PKDCSKARKL VCNINKGCGY GCQLHHVVYC FMIAYGTQRT
+     LILESQNWRY ATGGWETVFR PVSETCTDRS GLSTGHWSGE VNDKNIQVVE LPIVDSLHPR
+     PPYLPLAVPE DLADRLVRVH GDPAVWWVSQ FVKYLIRPQP WLEKEIEEAT KKLGFKHPVI
+     GVHVRRTDKV GTEAAFHPIE EYMVHVEEHF QLLARRMQVD KKRVYLATDD PALLKEAKTK
+     YSNYEFISDN SISWSAGLHN RYTENSLRGV ILDIHFLSQA DFLVCTFSSQ VCRVAYEIMQ
+     TLHPDASANF HSLDDIYYFG GQNAHNQIAV YPHKPRTDEE IPMEPGDIIG VAGNHWDGYS
+     KGVNRKLGKT GLYPSYKVRE KIETVKYPTY PEAEK
+//

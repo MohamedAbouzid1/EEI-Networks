@@ -1,0 +1,103 @@
+ID   CC117_RAT               Reviewed;         277 AA.
+AC   Q5M9G5;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   29-MAY-2024, entry version 85.
+DE   RecName: Full=Coiled-coil domain-containing protein 117 {ECO:0000305};
+GN   Name=Ccdc117 {ECO:0000312|RGD:1561762};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Facilitates DNA repair, cell cycle progression, and cell
+CC       proliferation through its interaction with CIAO2B.
+CC       {ECO:0000250|UniProtKB:Q8IWD4}.
+CC   -!- SUBUNIT: Interacts with CIAO2B; the interaction is direct. Interacts
+CC       with MMS19; the interaction is indirect.
+CC       {ECO:0000250|UniProtKB:Q8IWD4}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton, spindle
+CC       {ECO:0000250|UniProtKB:Q8IWD4}. Nucleus {ECO:0000250|UniProtKB:Q8IWD4}.
+CC       Note=Mitotic spindle. {ECO:0000250|UniProtKB:Q8IWD4}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC087119; AAH87119.1; -; mRNA.
+DR   RefSeq; NP_001017502.1; NM_001017502.1.
+DR   AlphaFoldDB; Q5M9G5; -.
+DR   STRING; 10116.ENSRNOP00000015627; -.
+DR   iPTMnet; Q5M9G5; -.
+DR   PhosphoSitePlus; Q5M9G5; -.
+DR   PaxDb; 10116-ENSRNOP00000015627; -.
+DR   Ensembl; ENSRNOT00000015627.5; ENSRNOP00000015627.3; ENSRNOG00000010706.5.
+DR   Ensembl; ENSRNOT00055047588; ENSRNOP00055039158; ENSRNOG00055027480.
+DR   Ensembl; ENSRNOT00060051454; ENSRNOP00060042803; ENSRNOG00060029626.
+DR   Ensembl; ENSRNOT00065035787; ENSRNOP00065028848; ENSRNOG00065021055.
+DR   GeneID; 498404; -.
+DR   KEGG; rno:498404; -.
+DR   UCSC; RGD:1561762; rat.
+DR   AGR; RGD:1561762; -.
+DR   CTD; 150275; -.
+DR   RGD; 1561762; Ccdc117.
+DR   eggNOG; ENOG502S42Q; Eukaryota.
+DR   GeneTree; ENSGT00390000005772; -.
+DR   HOGENOM; CLU_083045_0_0_1; -.
+DR   InParanoid; Q5M9G5; -.
+DR   OMA; PPDDPFC; -.
+DR   OrthoDB; 4589302at2759; -.
+DR   PhylomeDB; Q5M9G5; -.
+DR   TreeFam; TF335674; -.
+DR   PRO; PR:Q5M9G5; -.
+DR   Proteomes; UP000002494; Chromosome 14.
+DR   Bgee; ENSRNOG00000010706; Expressed in stomach and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-KW.
+DR   GO; GO:0072686; C:mitotic spindle; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; ISS:UniProtKB.
+DR   GO; GO:0045739; P:positive regulation of DNA repair; ISS:UniProtKB.
+DR   InterPro; IPR031630; CCDC117.
+DR   PANTHER; PTHR36128; COILED-COIL DOMAIN-CONTAINING PROTEIN 117; 1.
+DR   PANTHER; PTHR36128:SF1; COILED-COIL DOMAIN-CONTAINING PROTEIN 117; 1.
+DR   Pfam; PF15810; CCDC117; 1.
+PE   2: Evidence at transcript level;
+KW   Coiled coil; Cytoplasm; Cytoskeleton; Methylation; Nucleus; Phosphoprotein;
+KW   Reference proteome.
+FT   CHAIN           1..277
+FT                   /note="Coiled-coil domain-containing protein 117"
+FT                   /id="PRO_0000254140"
+FT   REGION          22..69
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          216..242
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          255..277
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          139..166
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        221..242
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         47
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6PB51"
+FT   MOD_RES         52
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IWD4"
+SQ   SEQUENCE   277 AA;  30360 MW;  49CD6A76D8F00720 CRC64;
+     MAALGRPFSG LPLSGSADFL QSPPAFAGRA FPPGAAGHDL APRPGVRGPP SSPDGRTARG
+     RVSIHCRKKH KRLAEDDECP VRKKRLTEAE LGAVADEWVL GTHQGIEGHG VNTCPGGLSV
+     PSILDAVCEE MDQTTGEPQC EVARRRLQEI EDRIIDEDEE VESDRNVSHL PSLVLSDTMK
+     TGLKREFDEV FTKKMIESMS RPSMELVLWK PLPELLSEKP KPSSNPKNYM GESQTKHTAT
+     GTAFPQRTEV LLEPQCTDTP LYHSLETAAS TEEEMEL
+//

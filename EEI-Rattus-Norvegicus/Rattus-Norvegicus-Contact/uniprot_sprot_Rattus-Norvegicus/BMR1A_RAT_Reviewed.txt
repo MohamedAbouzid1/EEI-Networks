@@ -1,0 +1,303 @@
+ID   BMR1A_RAT               Reviewed;         532 AA.
+AC   Q78EA7; Q64308;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   02-OCT-2024, entry version 159.
+DE   RecName: Full=Bone morphogenetic protein receptor type-1A;
+DE            Short=BMP type-1A receptor;
+DE            Short=BMPR-1A;
+DE            EC=2.7.11.30;
+DE   AltName: Full=Activin receptor-like kinase 3;
+DE            Short=ALK-3;
+DE   AltName: Full=Bone morphogenetic protein 4 receptor;
+DE   AltName: CD_antigen=CD292;
+DE   Flags: Precursor;
+GN   Name=Bmpr1a;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=7897267; DOI=10.5357/koubyou.61.512;
+RA   Takeda K.;
+RT   "Expression of serine/threonine kinase receptors during ectopic bone
+RT   formation induced by bone morphogenetic protein (BMP).";
+RL   Kokubyo Gakkai Zasshi 61:512-526(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar; TISSUE=Dental pulp;
+RX   PubMed=7945360; DOI=10.1006/bbrc.1994.2445;
+RA   Takeda K., Oida S., Ichijo H., Iimura T., Maruoka Y., Amagasa T.,
+RA   Sasaki S.;
+RT   "Molecular cloning of rat bone morphogenetic protein (BMP) type IA receptor
+RT   and its expression during ectopic bone formation induced by BMP.";
+RL   Biochem. Biophys. Res. Commun. 204:203-209(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar; TISSUE=Brain;
+RA   Ikeda T., Takahashi H.;
+RT   "Expression pattern of bone morphogenetic protein 4 receptor in embryo and
+RT   adult rat.";
+RL   Submitted (SEP-1993) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: On ligand binding, forms a receptor complex consisting of two
+CC       type II and two type I transmembrane serine/threonine kinases. Type II
+CC       receptors phosphorylate and activate type I receptors which
+CC       autophosphorylate, then bind and activate SMAD transcriptional
+CC       regulators. Receptor for BMP2, BMP4, GDF5 and GDF6. Positively
+CC       regulates chondrocyte differentiation through GDF5 interaction.
+CC       Mediates induction of adipogenesis by GDF6. May promote the expression
+CC       of HAMP, potentially via its interaction with BMP2 (By similarity).
+CC       {ECO:0000250|UniProtKB:P36895}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[receptor-protein] = ADP + H(+) + O-phospho-
+CC         L-threonyl-[receptor-protein]; Xref=Rhea:RHEA:44880, Rhea:RHEA-
+CC         COMP:11024, Rhea:RHEA-COMP:11025, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30013, ChEBI:CHEBI:30616, ChEBI:CHEBI:61977,
+CC         ChEBI:CHEBI:456216; EC=2.7.11.30;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[receptor-protein] = ADP + H(+) + O-phospho-L-
+CC         seryl-[receptor-protein]; Xref=Rhea:RHEA:18673, Rhea:RHEA-COMP:11022,
+CC         Rhea:RHEA-COMP:11023, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:83421, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.30;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Interacts with low affinity with GDF5; positively regulates
+CC       chondrocyte differentiation (By similarity). Interacts with BMP4 (By
+CC       similarity). Interacts with SCUBE3 (By similarity). Interacts with
+CC       TSC22D1/TSC-22 (By similarity). Interacts with BMP2; the interaction
+CC       may induce HAMP expression (By similarity). Interacts with BMP6 (By
+CC       similarity). Interacts with heterodimers composed of BMP2 and BMP6 in
+CC       vitro; the interaction may induce HAMP expression (By similarity).
+CC       {ECO:0000250|UniProtKB:P36894, ECO:0000250|UniProtKB:P36895}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P36898};
+CC       Single-pass type I membrane protein {ECO:0000255}. Cell surface
+CC       {ECO:0000250|UniProtKB:P36895}.
+CC   -!- PTM: Glycosylated. {ECO:0000250|UniProtKB:P36895}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. TKL Ser/Thr
+CC       protein kinase family. TGFB receptor subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; S75359; AAB33865.1; -; mRNA.
+DR   EMBL; D38082; BAA07275.1; -; mRNA.
+DR   EMBL; D17667; BAA04549.1; -; mRNA.
+DR   PIR; JC2387; JC2387.
+DR   RefSeq; NP_110476.1; NM_030849.1.
+DR   RefSeq; XP_017455745.1; XM_017600256.1.
+DR   AlphaFoldDB; Q78EA7; -.
+DR   BMRB; Q78EA7; -.
+DR   SMR; Q78EA7; -.
+DR   BioGRID; 249504; 1.
+DR   STRING; 10116.ENSRNOP00000074885; -.
+DR   GlyCosmos; Q78EA7; 1 site, No reported glycans.
+DR   GlyGen; Q78EA7; 1 site.
+DR   iPTMnet; Q78EA7; -.
+DR   PhosphoSitePlus; Q78EA7; -.
+DR   PaxDb; 10116-ENSRNOP00000015047; -.
+DR   Ensembl; ENSRNOT00000079554.2; ENSRNOP00000074885.1; ENSRNOG00000052469.2.
+DR   Ensembl; ENSRNOT00055015312; ENSRNOP00055012270; ENSRNOG00055009048.
+DR   Ensembl; ENSRNOT00060024297; ENSRNOP00060019389; ENSRNOG00060014195.
+DR   Ensembl; ENSRNOT00065023550; ENSRNOP00065018320; ENSRNOG00065014276.
+DR   GeneID; 81507; -.
+DR   KEGG; rno:81507; -.
+DR   UCSC; RGD:70989; rat.
+DR   AGR; RGD:70989; -.
+DR   CTD; 657; -.
+DR   RGD; 70989; Bmpr1a.
+DR   eggNOG; KOG2052; Eukaryota.
+DR   GeneTree; ENSGT00940000156225; -.
+DR   HOGENOM; CLU_000288_8_1_1; -.
+DR   InParanoid; Q78EA7; -.
+DR   OMA; GSCPNNV; -.
+DR   OrthoDB; 3900892at2759; -.
+DR   PhylomeDB; Q78EA7; -.
+DR   TreeFam; TF314724; -.
+DR   Reactome; R-RNO-201451; Signaling by BMP.
+DR   PRO; PR:Q78EA7; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000052469; Expressed in duodenum and 19 other cell types or tissues.
+DR   GO; GO:0005901; C:caveola; ISO:RGD.
+DR   GO; GO:0009986; C:cell surface; ISS:UniProtKB.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISO:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0043235; C:receptor complex; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; ISO:RGD.
+DR   GO; GO:0036122; F:BMP binding; ISO:RGD.
+DR   GO; GO:0098821; F:BMP receptor activity; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; ISO:RGD.
+DR   GO; GO:0046332; F:SMAD binding; ISO:RGD.
+DR   GO; GO:0005025; F:transforming growth factor beta receptor activity, type I; ISO:RGD.
+DR   GO; GO:0001525; P:angiogenesis; ISO:RGD.
+DR   GO; GO:0009952; P:anterior/posterior pattern specification; ISO:RGD.
+DR   GO; GO:0060928; P:atrioventricular node cell development; ISO:RGD.
+DR   GO; GO:0003171; P:atrioventricular valve development; ISO:RGD.
+DR   GO; GO:0030509; P:BMP signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0003161; P:cardiac conduction system development; ISO:RGD.
+DR   GO; GO:0003215; P:cardiac right ventricle morphogenesis; ISO:RGD.
+DR   GO; GO:0051216; P:cartilage development; ISO:RGD.
+DR   GO; GO:0071773; P:cellular response to BMP stimulus; ISO:RGD.
+DR   GO; GO:0071363; P:cellular response to growth factor stimulus; IBA:GO_Central.
+DR   GO; GO:0021953; P:central nervous system neuron differentiation; ISO:RGD.
+DR   GO; GO:0002062; P:chondrocyte differentiation; ISO:RGD.
+DR   GO; GO:0048589; P:developmental growth; ISO:RGD.
+DR   GO; GO:0035912; P:dorsal aorta morphogenesis; ISO:RGD.
+DR   GO; GO:0009950; P:dorsal/ventral axis specification; ISO:RGD.
+DR   GO; GO:0009953; P:dorsal/ventral pattern formation; ISO:RGD.
+DR   GO; GO:0007398; P:ectoderm development; ISO:RGD.
+DR   GO; GO:0042733; P:embryonic digit morphogenesis; ISO:RGD.
+DR   GO; GO:0048598; P:embryonic morphogenesis; ISO:RGD.
+DR   GO; GO:0048568; P:embryonic organ development; ISO:RGD.
+DR   GO; GO:0003272; P:endocardial cushion formation; ISO:RGD.
+DR   GO; GO:0003203; P:endocardial cushion morphogenesis; ISO:RGD.
+DR   GO; GO:0007492; P:endoderm development; ISO:RGD.
+DR   GO; GO:0050673; P:epithelial cell proliferation; ISO:RGD.
+DR   GO; GO:1905285; P:fibrous ring of heart morphogenesis; ISO:RGD.
+DR   GO; GO:0007507; P:heart development; ISO:RGD.
+DR   GO; GO:0060914; P:heart formation; ISO:RGD.
+DR   GO; GO:0003007; P:heart morphogenesis; ISO:RGD.
+DR   GO; GO:0035137; P:hindlimb morphogenesis; ISO:RGD.
+DR   GO; GO:0006955; P:immune response; ISO:RGD.
+DR   GO; GO:0001701; P:in utero embryonic development; ISO:RGD.
+DR   GO; GO:0048368; P:lateral mesoderm development; ISO:RGD.
+DR   GO; GO:0030324; P:lung development; ISO:RGD.
+DR   GO; GO:0048382; P:mesendoderm development; ISO:RGD.
+DR   GO; GO:0001707; P:mesoderm formation; ISO:RGD.
+DR   GO; GO:0003183; P:mitral valve morphogenesis; ISO:RGD.
+DR   GO; GO:0001880; P:Mullerian duct regression; ISO:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:0051148; P:negative regulation of muscle cell differentiation; ISO:RGD.
+DR   GO; GO:0050768; P:negative regulation of neurogenesis; ISO:RGD.
+DR   GO; GO:0014912; P:negative regulation of smooth muscle cell migration; ISO:RGD.
+DR   GO; GO:0007399; P:nervous system development; ISO:RGD.
+DR   GO; GO:0014032; P:neural crest cell development; ISO:RGD.
+DR   GO; GO:0021998; P:neural plate mediolateral regionalization; ISO:RGD.
+DR   GO; GO:0060896; P:neural plate pattern specification; ISO:RGD.
+DR   GO; GO:0042475; P:odontogenesis of dentin-containing tooth; ISO:RGD.
+DR   GO; GO:0001649; P:osteoblast differentiation; ISO:RGD.
+DR   GO; GO:0003151; P:outflow tract morphogenesis; ISO:RGD.
+DR   GO; GO:0003148; P:outflow tract septum morphogenesis; ISO:RGD.
+DR   GO; GO:0048339; P:paraxial mesoderm development; ISO:RGD.
+DR   GO; GO:0048352; P:paraxial mesoderm structural organization; ISO:RGD.
+DR   GO; GO:0007389; P:pattern specification process; ISO:RGD.
+DR   GO; GO:0061626; P:pharyngeal arch artery morphogenesis; ISO:RGD.
+DR   GO; GO:0021983; P:pituitary gland development; ISO:RGD.
+DR   GO; GO:0030501; P:positive regulation of bone mineralization; ISO:RGD.
+DR   GO; GO:0060045; P:positive regulation of cardiac muscle cell proliferation; ISO:RGD.
+DR   GO; GO:1904414; P:positive regulation of cardiac ventricle development; ISO:RGD.
+DR   GO; GO:0050679; P:positive regulation of epithelial cell proliferation; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:0002053; P:positive regulation of mesenchymal cell proliferation; ISO:RGD.
+DR   GO; GO:1902895; P:positive regulation of miRNA transcription; ISO:RGD.
+DR   GO; GO:0045669; P:positive regulation of osteoblast differentiation; ISO:RGD.
+DR   GO; GO:0060391; P:positive regulation of SMAD protein signal transduction; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0032915; P:positive regulation of transforming growth factor beta2 production; ISO:RGD.
+DR   GO; GO:1904707; P:positive regulation of vascular associated smooth muscle cell proliferation; ISO:RGD.
+DR   GO; GO:0060043; P:regulation of cardiac muscle cell proliferation; ISO:RGD.
+DR   GO; GO:2000772; P:regulation of cellular senescence; ISO:RGD.
+DR   GO; GO:0048378; P:regulation of lateral mesodermal cell fate specification; ISO:RGD.
+DR   GO; GO:0060021; P:roof of mouth development; ISO:RGD.
+DR   GO; GO:0035019; P:somatic stem cell population maintenance; ISO:RGD.
+DR   GO; GO:0001756; P:somitogenesis; ISO:RGD.
+DR   GO; GO:0007179; P:transforming growth factor beta receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0003186; P:tricuspid valve morphogenesis; ISO:RGD.
+DR   GO; GO:0003223; P:ventricular compact myocardium morphogenesis; ISO:RGD.
+DR   GO; GO:0060412; P:ventricular septum morphogenesis; ISO:RGD.
+DR   GO; GO:0003222; P:ventricular trabecula myocardium morphogenesis; ISO:RGD.
+DR   CDD; cd14220; STKc_BMPR1a; 1.
+DR   Gene3D; 2.10.60.10; CD59; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR000472; Activin_recp.
+DR   InterPro; IPR003605; GS_dom.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   InterPro; IPR045860; Snake_toxin-like_sf.
+DR   InterPro; IPR000333; TGFB_receptor.
+DR   PANTHER; PTHR23255:SF50; BONE MORPHOGENETIC PROTEIN RECEPTOR TYPE-1A; 1.
+DR   PANTHER; PTHR23255; TRANSFORMING GROWTH FACTOR-BETA RECEPTOR TYPE I AND II; 1.
+DR   Pfam; PF01064; Activin_recp; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF08515; TGF_beta_GS; 1.
+DR   SMART; SM00467; GS; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   SUPFAM; SSF57302; Snake toxin-like; 1.
+DR   PROSITE; PS51256; GS; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Cell membrane; Disulfide bond; Glycoprotein; Kinase;
+KW   Magnesium; Manganese; Membrane; Metal-binding; Nucleotide-binding;
+KW   Receptor; Reference proteome; Serine/threonine-protein kinase; Signal;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..532
+FT                   /note="Bone morphogenetic protein receptor type-1A"
+FT                   /id="PRO_0000254907"
+FT   TOPO_DOM        24..152
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        153..176
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        177..532
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          204..233
+FT                   /note="GS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00585"
+FT   DOMAIN          234..525
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          107..109
+FT                   /note="Mediates specificity for BMP ligand"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        362
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         240..248
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         261
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   CARBOHYD        73
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        61..82
+FT                   /evidence="ECO:0000250|UniProtKB:P36894"
+FT   DISULFID        63..67
+FT                   /evidence="ECO:0000250|UniProtKB:P36894"
+FT   DISULFID        76..100
+FT                   /evidence="ECO:0000250|UniProtKB:P36894"
+FT   DISULFID        110..124
+FT                   /evidence="ECO:0000250|UniProtKB:P36894"
+FT   DISULFID        125..130
+FT                   /evidence="ECO:0000250|UniProtKB:P36894"
+SQ   SEQUENCE   532 AA;  59994 MW;  14ED4C03E2540A0C CRC64;
+     MTQLYTYIRL LGACLFIISH VQGQNLDSML HGTGMKSDVD QKKPENGVTL APEDTLPFLK
+     CYCSGHCPDD AINNTCITNG HCFAIIEEDD QGETTLTSGC MKYEGSDFQC KDSPKAQLRR
+     TIECCRTNLC NQYLQPTLPP VVIGPFFDGS VRWLAVLISM AVCIVAMIVF SSCFCYKHYC
+     KSISSRGRYN RDLEQDEAFI PVGESLKDLI DQSQSSGSGS GLPLLVQRTI AKQIQMVRQV
+     GKGRYGEVWM GKWRGEKVAV KVFFTTEEAS WFRETEIYQT VLMRHENILG FIAADIKGTG
+     SWTQLYLITD YHENGSLYDF LKCATLDTRA LLKLAYSAAC GLCHLHTEIY GTQGKPAIAH
+     RDLKSKNILI KKNGSCCIAD LGLAVKFNSD TNEVDIPLNT RVGTRRYMAP EVLDESLSKN
+     HFQPYIMADI YSFGLIIWEM ARRCITGGIV EEYQLPYYNM VPSDPSYEDM REVVCVKRLR
+     PIVSNRWNSD ECLRAVLKLM SECWAHNPAS RLTALRIKKT LAKMVESQDV KI
+//

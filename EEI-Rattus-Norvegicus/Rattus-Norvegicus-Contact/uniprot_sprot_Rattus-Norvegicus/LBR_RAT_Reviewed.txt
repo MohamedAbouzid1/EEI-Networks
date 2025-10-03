@@ -1,0 +1,261 @@
+ID   LBR_RAT                 Reviewed;         620 AA.
+AC   O08984;
+DT   21-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1997, sequence version 1.
+DT   24-JUL-2024, entry version 140.
+DE   RecName: Full=Delta(14)-sterol reductase LBR;
+DE            Short=Delta-14-SR;
+DE            EC=1.3.1.70 {ECO:0000250|UniProtKB:Q14739};
+DE   AltName: Full=3-beta-hydroxysterol Delta (14)-reductase {ECO:0000250|UniProtKB:Q14739};
+DE   AltName: Full=C-14 sterol reductase;
+DE            Short=C14SR;
+DE   AltName: Full=Integral nuclear envelope inner membrane protein {ECO:0000250|UniProtKB:Q14739};
+DE   AltName: Full=Lamin-B receptor {ECO:0000250|UniProtKB:Q14739};
+DE   AltName: Full=NBP60 {ECO:0000303|PubMed:9192729};
+DE   AltName: Full=Sterol C14-reductase;
+GN   Name=Lbr;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Fischer 344; TISSUE=Liver;
+RX   PubMed=9192729; DOI=10.1093/oxfordjournals.jbchem.a021669;
+RA   Kawahire S., Takeuchi M., Gohshi T., Sasagawa S., Shimada M., Takahashi M.,
+RA   Abe T.K., Ueda T., Kuwano R., Hikawa A., Ichimura T., Omata S.,
+RA   Horigome T.;
+RT   "cDNA cloning of nuclear localization signal binding protein NBP60, a rat
+RT   homologue of lamin B receptor, and identification of binding sites of human
+RT   lamin B receptor for nuclear localization signals and chromatin.";
+RL   J. Biochem. 121:881-889(1997).
+RN   [2]
+RP   GLYCOSYLATION AT SER-96, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=12438562; DOI=10.1074/mcp.m200048-mcp200;
+RA   Wells L., Vosseller K., Cole R.N., Cronshaw J.M., Matunis M.J., Hart G.W.;
+RT   "Mapping sites of O-GlcNAc modification using affinity tags for serine and
+RT   threonine post-translational modifications.";
+RL   Mol. Cell. Proteomics 1:791-804(2002).
+RN   [3]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=16784888; DOI=10.1016/j.bbalip.2006.05.004;
+RA   Bennati A.M., Castelli M., Della Fazia M.A., Beccari T., Caruso D.,
+RA   Servillo G., Roberti R.;
+RT   "Sterol dependent regulation of human TM7SF2 gene expression: role of the
+RT   encoded 3beta-hydroxysterol Delta14-reductase in human cholesterol
+RT   biosynthesis.";
+RL   Biochim. Biophys. Acta 1761:677-685(2006).
+CC   -!- FUNCTION: Catalyzes the reduction of the C14-unsaturated bond of
+CC       lanosterol, as part of the metabolic pathway leading to cholesterol
+CC       biosynthesis (By similarity). Plays a critical role in myeloid cell
+CC       cholesterol biosynthesis which is essential to both myeloid cell growth
+CC       and functional maturation (By similarity). Mediates the activation of
+CC       NADPH oxidases, perhaps by maintaining critical levels of cholesterol
+CC       required for membrane lipid raft formation during neutrophil
+CC       differentiation (By similarity). Anchors the lamina and the
+CC       heterochromatin to the inner nuclear membrane (By similarity).
+CC       {ECO:0000250|UniProtKB:Q14739, ECO:0000250|UniProtKB:Q3U9G9}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5alpha-cholest-8,14-dien-3beta-ol + H(+) + NADPH = 5alpha-
+CC         cholest-8-en-3beta-ol + NADP(+); Xref=Rhea:RHEA:46456,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16608, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:86131;
+CC         Evidence={ECO:0000250|UniProtKB:Q14739};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4,4-dimethyl-5alpha-cholesta-8,24-dien-3beta-ol + NADP(+) =
+CC         4,4-dimethyl-5alpha-cholesta-8,14,24-trien-3beta-ol + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:18561, ChEBI:CHEBI:15378, ChEBI:CHEBI:17813,
+CC         ChEBI:CHEBI:18364, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.3.1.70;
+CC         Evidence={ECO:0000250|UniProtKB:Q14739};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4,4-dimethyl-8,14-cholestadien-3beta-ol + H(+) + NADPH = 4,4-
+CC         dimethyl-5alpha-cholest-8-en-3beta-ol + NADP(+);
+CC         Xref=Rhea:RHEA:46812, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:78904, ChEBI:CHEBI:87044;
+CC         Evidence={ECO:0000250|UniProtKB:Q14739};
+CC   -!- PATHWAY: Steroid biosynthesis; cholesterol biosynthesis.
+CC   -!- SUBUNIT: Interacts with CBX5. Interacts with DNA. Interaction with DNA
+CC       is sequence independent with higher affinity for supercoiled and
+CC       relaxed circular DNA than linear DNA. Interacts with lamin B. Interacts
+CC       with CLNK. Interacts with TMEM147; promoting LBR localization to the
+CC       nucleus inner membrane. {ECO:0000250|UniProtKB:Q14739}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus inner membrane
+CC       {ECO:0000250|UniProtKB:Q14739}; Multi-pass membrane protein
+CC       {ECO:0000255}. Nucleus {ECO:0000250|UniProtKB:Q14739}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:Q14739}. Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q14739}. Note=Nucleus; nuclear rim.
+CC       {ECO:0000250|UniProtKB:Q14739}.
+CC   -!- DOMAIN: The Tudor domain may not recognize methylation marks, but
+CC       rather bind unassembled free histone H3.
+CC       {ECO:0000250|UniProtKB:P23913}.
+CC   -!- PTM: Phosphorylated by CDK1 in mitosis when the inner nuclear membrane
+CC       breaks down into vesicles that dissociate from the lamina and the
+CC       chromatin (By similarity). It is phosphorylated by different protein
+CC       kinases in interphase when the membrane is associated with these
+CC       structures (By similarity). Phosphorylation of LBR and HP1 proteins may
+CC       be responsible for some of the alterations in chromatin organization
+CC       and nuclear structure which occur at various times during the cell
+CC       cycle (By similarity). Phosphorylated by SRPK1 (By similarity). In late
+CC       anaphase LBR is dephosphorylated, probably by PP1 and/or PP2A, allowing
+CC       reassociation with chromatin (By similarity).
+CC       {ECO:0000250|UniProtKB:Q14739}.
+CC   -!- SIMILARITY: Belongs to the ERG4/ERG24 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB002466; BAA20471.1; -; mRNA.
+DR   PIR; JC5567; JC5567.
+DR   RefSeq; NP_604448.1; NM_134453.1.
+DR   AlphaFoldDB; O08984; -.
+DR   SMR; O08984; -.
+DR   BioGRID; 250124; 3.
+DR   STRING; 10116.ENSRNOP00000069002; -.
+DR   GlyCosmos; O08984; 1 site, No reported glycans.
+DR   GlyGen; O08984; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; O08984; -.
+DR   PhosphoSitePlus; O08984; -.
+DR   jPOST; O08984; -.
+DR   UCSC; RGD:620813; rat.
+DR   AGR; RGD:620813; -.
+DR   RGD; 620813; Lbr.
+DR   InParanoid; O08984; -.
+DR   OrthoDB; 275939at2759; -.
+DR   PhylomeDB; O08984; -.
+DR   UniPathway; UPA00063; -.
+DR   PRO; PR:O08984; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005635; C:nuclear envelope; IDA:RGD.
+DR   GO; GO:0005637; C:nuclear inner membrane; ISO:RGD.
+DR   GO; GO:0031965; C:nuclear membrane; ISO:RGD.
+DR   GO; GO:0005643; C:nuclear pore; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0070087; F:chromo shadow domain binding; ISO:RGD.
+DR   GO; GO:0050613; F:delta14-sterol reductase activity; ISS:UniProtKB.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0070402; F:NADPH binding; ISS:UniProtKB.
+DR   GO; GO:0008139; F:nuclear localization sequence binding; IPI:RGD.
+DR   GO; GO:0051087; F:protein-folding chaperone binding; IPI:RGD.
+DR   GO; GO:0006695; P:cholesterol biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0030223; P:neutrophil differentiation; ISS:UniProtKB.
+DR   CDD; cd20381; Tudor_LBR; 1.
+DR   Gene3D; 1.20.120.1630; -; 1.
+DR   Gene3D; 2.30.30.140; -; 1.
+DR   InterPro; IPR001171; ERG24_DHCR-like.
+DR   InterPro; IPR019023; Lamin-B_rcpt_of_tudor.
+DR   InterPro; IPR018083; Sterol_reductase_CS.
+DR   InterPro; IPR002999; Tudor.
+DR   PANTHER; PTHR21257; DELTA(14)-STEROL REDUCTASE; 1.
+DR   PANTHER; PTHR21257:SF52; DELTA(14)-STEROL REDUCTASE LBR; 1.
+DR   Pfam; PF01222; ERG4_ERG24; 1.
+DR   Pfam; PF09465; LBR_tudor; 1.
+DR   SMART; SM00333; TUDOR; 1.
+DR   SUPFAM; SSF63748; Tudor/PWWP/MBT; 1.
+DR   PROSITE; PS01017; STEROL_REDUCT_1; 1.
+DR   PROSITE; PS01018; STEROL_REDUCT_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cholesterol biosynthesis; Cholesterol metabolism; Cytoplasm;
+KW   DNA-binding; Endoplasmic reticulum; Glycoprotein; Lipid biosynthesis;
+KW   Lipid metabolism; Membrane; Nucleus; Oxidoreductase; Phosphoprotein;
+KW   Receptor; Reference proteome; Steroid biosynthesis; Steroid metabolism;
+KW   Sterol biosynthesis; Sterol metabolism; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..620
+FT                   /note="Delta(14)-sterol reductase LBR"
+FT                   /id="PRO_0000227911"
+FT   TOPO_DOM        1..215
+FT                   /note="Nuclear"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        216..236
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        263..283
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        304..324
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        331..351
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        452..472
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        486..506
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        525..547
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        566..586
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          1..62
+FT                   /note="Tudor"
+FT   REGION          52..111
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        61..75
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        76..92
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         55
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14739"
+FT   MOD_RES         59
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14739"
+FT   MOD_RES         67
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q3U9G9"
+FT   MOD_RES         71
+FT                   /note="Phosphoserine; by CDK1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14739"
+FT   MOD_RES         86
+FT                   /note="Phosphoserine; by CDK1"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         88
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14739"
+FT   MOD_RES         99
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14739"
+FT   MOD_RES         101
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14739"
+FT   MOD_RES         123
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14739"
+FT   MOD_RES         133
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14739"
+FT   MOD_RES         205
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14739"
+FT   MOD_RES         599
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14739"
+FT   MOD_RES         606
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14739"
+FT   CARBOHYD        96
+FT                   /note="O-linked (GlcNAc) serine"
+FT                   /evidence="ECO:0000269|PubMed:12438562"
+SQ   SEQUENCE   620 AA;  70724 MW;  04BD9FDDCC61ED5D CRC64;
+     MPGRKFADGE VVRGRWPGSS LYYEVEILSH DSTSQLYTVK YKDGTELELK ESDIKPLKSF
+     KQRKSGSTSS SPSRRRSSRS RSRSRSRSPG RAPKGSRRSV SASYQADAKE KEMRREILQV
+     KLTPLVLKPF ANSVSVYNGE PEHMEKSATP PKNKQERVIL STEDSYIATQ YSLRPRREEV
+     KPKHRVRGTN LVTRGPVPLG TFQVTTPQRR DLEFGGVPGA LLIMLGLPAC VFLLLLQCAQ
+     KDPGLLQFPP PLPALRELWE ARVCGVYLLW FFLQALFSLL PVGKVVEGTP LVDGRRLKYR
+     LNGLYAFILT SAAVGTAVFW DIELYYLYTH FLQFALAAIV FSVVLSVYLY ARSLKVPRDE
+     LSPASSGNAV YDFFIGRELN PRIGAFDLKF FCELRPGLIG WVVINLVMLL AEMKVQERSA
+     PSLAMTLVNS FQLLYVVDAL WFEEALLTTM DIIHDGFGFM LAFGDLVWVP FTYSLQAFYL
+     VNHPQDLSWP LTSVIIALKL CGYVIFRCAN SQKNAFRKNP TDPKLAHLKT IPTSTWKSLL
+     VSGWWGFVRH PNYLGDLIMA LAWSLPCGFN HILPYFYVIY FTALLIHREA RDEHQCRRKY
+     GLAWEKYCQR VPYRIFPYIY
+//

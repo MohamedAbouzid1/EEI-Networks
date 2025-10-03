@@ -1,0 +1,440 @@
+ID   NAC2_RAT                Reviewed;         921 AA.
+AC   P48768;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   02-OCT-2024, entry version 155.
+DE   RecName: Full=Sodium/calcium exchanger 2;
+DE   AltName: Full=Na(+)/Ca(2+)-exchange protein 2;
+DE   AltName: Full=Solute carrier family 8 member 2;
+DE   Flags: Precursor;
+GN   Name=Slc8a2; Synonyms=Ncx2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, SUBCELLULAR LOCATION, ACTIVITY
+RP   REGULATION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain stem;
+RX   PubMed=8021246; DOI=10.1016/s0021-9258(17)32458-4;
+RA   Li Z., Matsuoka S., Hryshko L.V., Nicoll D.A., Bershon M.M., Burke E.P.,
+RA   Lifton R.P., Philipson K.D.;
+RT   "Cloning of the NCX2 isoform of the plasma membrane Na(+)-Ca2+ exchanger.";
+RL   J. Biol. Chem. 269:17434-17439(1994).
+RN   [2]
+RP   TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=8798769; DOI=10.1074/jbc.271.40.24914;
+RA   Nicoll D.A., Quednau B.D., Qui Z., Xia Y.-R., Lusis A.J., Philipson K.D.;
+RT   "Cloning of a third mammalian Na+-Ca2+ exchanger, NCX3.";
+RL   J. Biol. Chem. 271:24914-24921(1996).
+RN   [3]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND ACTIVITY REGULATION.
+RX   PubMed=9486131; DOI=10.1152/ajpcell.1998.274.2.c415;
+RA   Linck B., Qiu Z., He Z., Tong Q., Hilgemann D.W., Philipson K.D.;
+RT   "Functional comparison of the three isoforms of the Na+/Ca2+ exchanger
+RT   (NCX1, NCX2, NCX3).";
+RL   Am. J. Physiol. 274:C415-C423(1998).
+RN   [4]
+RP   TISSUE SPECIFICITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=16914199; DOI=10.1016/j.ceca.2006.06.004;
+RA   Minelli A., Castaldo P., Gobbi P., Salucci S., Magi S., Amoroso S.;
+RT   "Cellular and subcellular localization of Na+-Ca2+ exchanger protein
+RT   isoforms, NCX1, NCX2, and NCX3 in cerebral cortex and hippocampus of adult
+RT   rat.";
+RL   Cell Calcium 41:221-234(2007).
+RN   [5]
+RP   REVIEW.
+RX   PubMed=23506867; DOI=10.1016/j.mam.2012.07.003;
+RA   Khananshvili D.;
+RT   "The SLC8 gene family of sodium-calcium exchangers (NCX) - structure,
+RT   function, and regulation in health and disease.";
+RL   Mol. Aspects Med. 34:220-235(2013).
+CC   -!- FUNCTION: Mediates the electrogenic exchange of Ca(2+) against Na(+)
+CC       ions across the cell membrane, and thereby contributes to the
+CC       regulation of cytoplasmic Ca(2+) levels and Ca(2+)-dependent cellular
+CC       processes (PubMed:8021246, PubMed:9486131). Contributes to cellular
+CC       Ca(2+) homeostasis in excitable cells (By similarity). Contributes to
+CC       the rapid decrease of cytoplasmic Ca(2+) levels back to baseline after
+CC       neuronal activation, and thereby contributes to modulate synaptic
+CC       plasticity, learning and memory (By similarity). Plays a role in
+CC       regulating urinary Ca(2+) and Na(+) excretion (By similarity).
+CC       {ECO:0000250|UniProtKB:Q8K596, ECO:0000269|PubMed:8021246,
+CC       ECO:0000269|PubMed:9486131}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Ca(2+)(in) + 3 Na(+)(out) = Ca(2+)(out) + 3 Na(+)(in);
+CC         Xref=Rhea:RHEA:69955, ChEBI:CHEBI:29101, ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:9486131};
+CC   -!- ACTIVITY REGULATION: Calcium transport is down-regulated by Na(+) and
+CC       stimulated by Ca(2+). {ECO:0000269|PubMed:8021246,
+CC       ECO:0000269|PubMed:9486131}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:16914199,
+CC       ECO:0000269|PubMed:8021246, ECO:0000269|PubMed:9486131}; Multi-pass
+CC       membrane protein {ECO:0000305}. Basolateral cell membrane
+CC       {ECO:0000250|UniProtKB:Q8K596}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:Q8K596}. Perikaryon
+CC       {ECO:0000269|PubMed:16914199}. Cell projection, dendrite
+CC       {ECO:0000269|PubMed:16914199}. Cell projection, dendritic spine
+CC       {ECO:0000269|PubMed:16914199}.
+CC   -!- TISSUE SPECIFICITY: Detected in neocortex and hippocampus on pyramidal
+CC       cells, astrocyte processes and dendrites (at protein level)
+CC       (PubMed:16914199). Brain and skeletal muscle.
+CC       {ECO:0000269|PubMed:8021246, ECO:0000269|PubMed:8798769}.
+CC   -!- DOMAIN: The cytoplasmic Calx-beta domains bind the regulatory Ca(2+).
+CC       The first Calx-beta domain can bind up to four Ca(2+) ions. The second
+CC       domain can bind another two Ca(2+) ions that are essential for calcium-
+CC       regulated ion exchange. {ECO:0000250|UniProtKB:P23685}.
+CC   -!- SIMILARITY: Belongs to the Ca(2+):cation antiporter (CaCA) (TC 2.A.19)
+CC       family. SLC8 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U08141; AAA19920.1; -; mRNA.
+DR   PIR; A54139; A54139.
+DR   RefSeq; NP_511174.1; NM_078619.1.
+DR   AlphaFoldDB; P48768; -.
+DR   SMR; P48768; -.
+DR   BioGRID; 250785; 2.
+DR   IntAct; P48768; 2.
+DR   MINT; P48768; -.
+DR   STRING; 10116.ENSRNOP00000042012; -.
+DR   GuidetoPHARMACOLOGY; 946; -.
+DR   GlyCosmos; P48768; 2 sites, No reported glycans.
+DR   GlyGen; P48768; 2 sites.
+DR   iPTMnet; P48768; -.
+DR   PhosphoSitePlus; P48768; -.
+DR   SwissPalm; P48768; -.
+DR   PaxDb; 10116-ENSRNOP00000042012; -.
+DR   GeneID; 140447; -.
+DR   KEGG; rno:140447; -.
+DR   UCSC; RGD:620194; rat.
+DR   AGR; RGD:620194; -.
+DR   CTD; 6543; -.
+DR   RGD; 620194; Slc8a2.
+DR   eggNOG; KOG1306; Eukaryota.
+DR   InParanoid; P48768; -.
+DR   OrthoDB; 462435at2759; -.
+DR   Reactome; R-RNO-418359; Reduction of cytosolic Ca++ levels.
+DR   Reactome; R-RNO-425561; Sodium/Calcium exchangers.
+DR   Reactome; R-RNO-5578775; Ion homeostasis.
+DR   PRO; PR:P48768; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030424; C:axon; IDA:ARUK-UCL.
+DR   GO; GO:0043679; C:axon terminus; ISO:RGD.
+DR   GO; GO:0016323; C:basolateral plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042995; C:cell projection; IDA:RGD.
+DR   GO; GO:0030425; C:dendrite; IDA:ARUK-UCL.
+DR   GO; GO:0043197; C:dendritic spine; IDA:RGD.
+DR   GO; GO:0005874; C:microtubule; IDA:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:ARUK-UCL.
+DR   GO; GO:0043204; C:perikaryon; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0098794; C:postsynapse; IBA:GO_Central.
+DR   GO; GO:0014069; C:postsynaptic density; ISO:RGD.
+DR   GO; GO:0045211; C:postsynaptic membrane; IDA:SynGO.
+DR   GO; GO:0098793; C:presynapse; ISO:RGD.
+DR   GO; GO:0042383; C:sarcolemma; IBA:GO_Central.
+DR   GO; GO:0045202; C:synapse; ISO:RGD.
+DR   GO; GO:0015085; F:calcium ion transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:1905060; F:calcium:monoatomic cation antiporter activity involved in regulation of postsynaptic cytosolic calcium ion concentration; IDA:SynGO.
+DR   GO; GO:0005432; F:calcium:sodium antiporter activity; IDA:RGD.
+DR   GO; GO:0005516; F:calmodulin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015081; F:sodium ion transmembrane transporter activity; IDA:ARUK-UCL.
+DR   GO; GO:1990034; P:calcium ion export across plasma membrane; IDA:RGD.
+DR   GO; GO:0098703; P:calcium ion import across plasma membrane; IDA:RGD.
+DR   GO; GO:0070588; P:calcium ion transmembrane transport; IDA:ARUK-UCL.
+DR   GO; GO:0060402; P:calcium ion transport into cytosol; IDA:RGD.
+DR   GO; GO:0007154; P:cell communication; IEA:InterPro.
+DR   GO; GO:0050890; P:cognition; ISO:RGD.
+DR   GO; GO:0006874; P:intracellular calcium ion homeostasis; IDA:ARUK-UCL.
+DR   GO; GO:0007612; P:learning; ISS:UniProtKB.
+DR   GO; GO:0007611; P:learning or memory; ISO:RGD.
+DR   GO; GO:0060291; P:long-term synaptic potentiation; ISS:UniProtKB.
+DR   GO; GO:0007613; P:memory; ISS:UniProtKB.
+DR   GO; GO:0098815; P:modulation of excitatory postsynaptic potential; ISO:RGD.
+DR   GO; GO:0070050; P:neuron cellular homeostasis; ISO:RGD.
+DR   GO; GO:0099608; P:regulation of action potential firing pattern; ISO:RGD.
+DR   GO; GO:0106056; P:regulation of calcineurin-mediated signaling; ISO:RGD.
+DR   GO; GO:0051480; P:regulation of cytosolic calcium ion concentration; ISO:RGD.
+DR   GO; GO:0010468; P:regulation of gene expression; ISO:RGD.
+DR   GO; GO:0048172; P:regulation of short-term neuronal synaptic plasticity; ISS:UniProtKB.
+DR   GO; GO:0002931; P:response to ischemia; ISO:RGD.
+DR   GO; GO:0033280; P:response to vitamin D; IEP:RGD.
+DR   GO; GO:0035725; P:sodium ion transmembrane transport; IDA:ARUK-UCL.
+DR   GO; GO:0006814; P:sodium ion transport; IDA:RGD.
+DR   GO; GO:0050808; P:synapse organization; ISO:RGD.
+DR   GO; GO:0021537; P:telencephalon development; IEP:RGD.
+DR   Gene3D; 2.60.40.2030; -; 2.
+DR   Gene3D; 1.20.1420.30; NCX, central ion-binding region; 2.
+DR   InterPro; IPR051171; CaCA.
+DR   InterPro; IPR038081; CalX-like_sf.
+DR   InterPro; IPR003644; Calx_beta.
+DR   InterPro; IPR004836; Na_Ca_Ex.
+DR   InterPro; IPR032452; Na_Ca_Ex_C-exten.
+DR   InterPro; IPR004837; NaCa_Exmemb.
+DR   InterPro; IPR044880; NCX_ion-bd_dom_sf.
+DR   NCBIfam; TIGR00845; caca; 1.
+DR   PANTHER; PTHR11878; SODIUM/CALCIUM EXCHANGER; 1.
+DR   PANTHER; PTHR11878:SF8; SODIUM_CALCIUM EXCHANGER 2; 1.
+DR   Pfam; PF03160; Calx-beta; 1.
+DR   Pfam; PF01699; Na_Ca_ex; 2.
+DR   Pfam; PF16494; Na_Ca_ex_C; 1.
+DR   PRINTS; PR01259; NACAEXCHNGR.
+DR   SMART; SM00237; Calx_beta; 2.
+DR   SUPFAM; SSF141072; CalX-like; 2.
+PE   1: Evidence at protein level;
+KW   Antiport; Calcium; Calcium transport; Calmodulin-binding; Cell membrane;
+KW   Cell projection; Glycoprotein; Ion transport; Membrane; Metal-binding;
+KW   Phosphoprotein; Reference proteome; Repeat; Signal; Sodium;
+KW   Sodium transport; Synapse; Transmembrane; Transmembrane helix; Transport.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..921
+FT                   /note="Sodium/calcium exchanger 2"
+FT                   /id="PRO_0000019383"
+FT   TOPO_DOM        21..68
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        69..90
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        91..130
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        131..152
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        153..164
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        165..185
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        186..196
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        197..219
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        220..222
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        223..246
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        247..720
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        721..740
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        741..747
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        748..770
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        771..772
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        773..791
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        792..822
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        823..843
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        844..854
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        855..875
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        876..892
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        893..909
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        910..921
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          135..175
+FT                   /note="Alpha-1"
+FT   DOMAIN          384..483
+FT                   /note="Calx-beta 1"
+FT   DOMAIN          512..612
+FT                   /note="Calx-beta 2"
+FT   REPEAT          790..826
+FT                   /note="Alpha-2"
+FT   REGION          23..42
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          248..267
+FT                   /note="Putative calmodulin-binding region"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   REGION          372..391
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         407
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         407
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         407
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         443
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         443
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         468
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         469
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         469
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         469
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         469
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         471
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         473
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         473
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         473
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         476
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         518
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         519
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         520
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         520
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         536
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         598
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         598
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         599
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         600
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         600
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   BINDING         665
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:P23685"
+FT   MOD_RES         622
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K596"
+FT   CARBOHYD        34
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        817
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   921 AA;  100523 MW;  0CDB26BEACBCF6B1 CRC64;
+     MAPLALVGVA LLLGAPHCLG EATPTPSLPP PPANDSDASP GGCQGSYRCQ PGVLLPVWEP
+     DDPSLGDKAA RAVVYFVAMV YMFLGLSIIA DRFMASIEVI TSKEKEITIT KANGETSVGT
+     VRIWNETVSN LTLMALGSSA PEILLSVIEV CGHNFQAGEL GPGTIVGSAA FNMFVVIAVC
+     VYVIPAGESR KIKHLRVFFV TASWSIFAYV WLYLILAVFS PGVVQVWEAL LTLVFFPVCV
+     VFAWMADKRL LFYKYVYKRY RTDPRSGIII GAEGDPPKSI ELDGTFVGTE VPGELGALGT
+     GPAEARELDA SRREVIQILK DLKQKHPDKD LEQLVGIAKY YALLHQQKSR AFYRIQATRL
+     MTGAGNVLRR HAADAARRPG ANDGAPDDED DGASRIFFEP SLYHCLENCG SVLLSVACQG
+     GEGNSTFYVD YRTEDGSAKA GSDYEYSEGT LVFKPGETQK ELRIGIIDDD IFEEDEHFFV
+     RLLNLRVGDA QGMFEPDGGG RPKGRLVAPL LATVTILDDD HAGIFSFQDR LLHVSECMGT
+     VDVRVVRSSG ARGTVRLPYR TVDGTARGGG VHYEDACGEL EFGDDETMKT LQVKIVDDEE
+     YEKKDNFFIE LGQPQWLKRG ISALLLNQGD GDRKLTAEEE EAQRIAEMGK PVLGENCRLE
+     VIIEESYDFK NTVDKLIKKT NLALVIGTHS WREQFLEAVT VSAGDEEEDE DGSREERLPS
+     CFDYVMHFLT VFWKVLFACL PPTEYCHGWA CFGVCILVIG LLTALIGDLA SHFGCTVGLK
+     DSVNAVVFVA LGTSIPDTFA SKVAALQDQC ADASIGNVTG SNAVNVFLGL GVAWSVAAVY
+     WAVQGRPFEV RTGTLAFSVT LFTVFAFVGI AVLLYRRRPH IGGELGGPRG PKLATTALFL
+     GLWFLYILFA SLEAYCHIRG F
+//

@@ -1,0 +1,213 @@
+ID   SMYD2_RAT               Reviewed;         433 AA.
+AC   Q7M6Z3;
+DT   10-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   24-JUL-2024, entry version 125.
+DE   RecName: Full=N-lysine methyltransferase SMYD2;
+DE            EC=2.1.1.- {ECO:0000250|UniProtKB:Q9NRG4};
+DE   AltName: Full=Histone methyltransferase SMYD2;
+DE            EC=2.1.1.354 {ECO:0000250|UniProtKB:Q9NRG4};
+DE   AltName: Full=SET and MYND domain-containing protein 2;
+GN   Name=Smyd2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=12783626; DOI=10.1186/1471-2164-4-22;
+RA   Oduru S., Campbell J.L., Karri S., Hendry W.J., Khan S.A., Williams S.C.;
+RT   "Gene discovery in the hamster: a comparative genomics approach for gene
+RT   annotation by sequencing of hamster testis cDNAs.";
+RL   BMC Genomics 4:22-22(2003).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-283, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Protein-lysine N-methyltransferase that methylates both
+CC       histones and non-histone proteins, including p53/TP53 and RB1.
+CC       Specifically trimethylates histone H3 'Lys-4' (H3K4me3) in vivo. The
+CC       activity requires interaction with HSP90alpha. Shows even higher
+CC       methyltransferase activity on p53/TP53. Monomethylates 'Lys-370' of
+CC       p53/TP53, leading to decreased DNA-binding activity and subsequent
+CC       transcriptional regulation activity of p53/TP53. Monomethylates RB1 at
+CC       'Lys-860'. {ECO:0000250|UniProtKB:Q9NRG4}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-lysyl(4)-[histone H3] + 3 S-adenosyl-L-methionine = 3 H(+) +
+CC         N(6),N(6),N(6)-trimethyl-L-lysyl(4)-[histone H3] + 3 S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:60260, Rhea:RHEA-COMP:15537, Rhea:RHEA-
+CC         COMP:15547, ChEBI:CHEBI:15378, ChEBI:CHEBI:29969, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:61961; EC=2.1.1.354;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NRG4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-lysyl-[protein] + S-adenosyl-L-methionine = H(+) + N(6)-
+CC         methyl-L-lysyl-[protein] + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:51736, Rhea:RHEA-COMP:9752, Rhea:RHEA-COMP:13053,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29969, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:61929;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NRG4};
+CC   -!- SUBUNIT: Interacts with RNA polymerase II and HELZ. Interacts with
+CC       SIN3A and HDAC1. Interacts (via MYND-type zinc finger) with EPB41L3.
+CC       Interacts (via SET domain) with p53/TP53. Interacts with RB1 and
+CC       HSP90AA1 (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol {ECO:0000250}. Nucleus
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class V-like SAM-binding methyltransferase
+CC       superfamily. {ECO:0000255|PROSITE-ProRule:PRU00190}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BK001057; DAA01315.1; -; mRNA.
+DR   RefSeq; NP_996733.1; NM_206851.1.
+DR   AlphaFoldDB; Q7M6Z3; -.
+DR   SMR; Q7M6Z3; -.
+DR   STRING; 10116.ENSRNOP00000004783; -.
+DR   iPTMnet; Q7M6Z3; -.
+DR   PhosphoSitePlus; Q7M6Z3; -.
+DR   jPOST; Q7M6Z3; -.
+DR   PaxDb; 10116-ENSRNOP00000004783; -.
+DR   Ensembl; ENSRNOT00000004783.7; ENSRNOP00000004783.4; ENSRNOG00000003583.7.
+DR   Ensembl; ENSRNOT00055018776; ENSRNOP00055015135; ENSRNOG00055011078.
+DR   GeneID; 289372; -.
+DR   KEGG; rno:289372; -.
+DR   AGR; RGD:727785; -.
+DR   CTD; 56950; -.
+DR   RGD; 727785; Smyd2.
+DR   eggNOG; KOG2084; Eukaryota.
+DR   GeneTree; ENSGT00940000157082; -.
+DR   HOGENOM; CLU_018406_0_0_1; -.
+DR   InParanoid; Q7M6Z3; -.
+DR   OMA; HRIMDYL; -.
+DR   OrthoDB; 166337at2759; -.
+DR   PhylomeDB; Q7M6Z3; -.
+DR   TreeFam; TF106487; -.
+DR   Reactome; R-RNO-3214841; PKMTs methylate histone lysines.
+DR   Reactome; R-RNO-6804760; Regulation of TP53 Activity through Methylation.
+DR   PRO; PR:Q7M6Z3; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000003583; Expressed in skeletal muscle tissue and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0046975; F:histone H3K36 methyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0140999; F:histone H3K4 trimethyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0002039; F:p53 binding; ISO:RGD.
+DR   GO; GO:0016279; F:protein-lysine N-methyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0000993; F:RNA polymerase II complex binding; ISS:UniProtKB.
+DR   GO; GO:0006338; P:chromatin remodeling; ISO:RGD.
+DR   GO; GO:0007507; P:heart development; IEP:RGD.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; ISS:UniProtKB.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISS:UniProtKB.
+DR   GO; GO:0018027; P:peptidyl-lysine dimethylation; ISS:UniProtKB.
+DR   GO; GO:0018026; P:peptidyl-lysine monomethylation; ISS:UniProtKB.
+DR   GO; GO:0043516; P:regulation of DNA damage response, signal transduction by p53 class mediator; ISS:UniProtKB.
+DR   CDD; cd19202; SET_SMYD2; 1.
+DR   Gene3D; 1.10.220.160; -; 1.
+DR   Gene3D; 6.10.140.2220; -; 1.
+DR   Gene3D; 2.170.270.10; SET domain; 1.
+DR   Gene3D; 1.25.40.10; Tetratricopeptide repeat domain; 1.
+DR   InterPro; IPR050869; H3K4_H4K5_MeTrfase.
+DR   InterPro; IPR001214; SET_dom.
+DR   InterPro; IPR046341; SET_dom_sf.
+DR   InterPro; IPR044419; SMYD2_SET.
+DR   InterPro; IPR011990; TPR-like_helical_dom_sf.
+DR   InterPro; IPR002893; Znf_MYND.
+DR   PANTHER; PTHR12197; HISTONE-LYSINE N-METHYLTRANSFERASE SMYD; 1.
+DR   PANTHER; PTHR12197:SF193; N-LYSINE METHYLTRANSFERASE SMYD2; 1.
+DR   Pfam; PF00856; SET; 1.
+DR   Pfam; PF01753; zf-MYND; 1.
+DR   SUPFAM; SSF82199; SET domain; 1.
+DR   SUPFAM; SSF48452; TPR-like; 1.
+DR   PROSITE; PS50280; SET; 1.
+DR   PROSITE; PS01360; ZF_MYND_1; 1.
+DR   PROSITE; PS50865; ZF_MYND_2; 1.
+PE   1: Evidence at protein level;
+KW   Chromatin regulator; Cytoplasm; Metal-binding; Methyltransferase; Nucleus;
+KW   Phosphoprotein; Reference proteome; S-adenosyl-L-methionine; Transcription;
+KW   Transcription regulation; Transferase; Zinc; Zinc-finger.
+FT   CHAIN           1..433
+FT                   /note="N-lysine methyltransferase SMYD2"
+FT                   /id="PRO_0000218311"
+FT   DOMAIN          7..241
+FT                   /note="SET"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00190"
+FT   ZN_FING         52..90
+FT                   /note="MYND-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00134"
+FT   BINDING         17..19
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         52
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00134"
+FT   BINDING         55
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00134"
+FT   BINDING         65
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00134"
+FT   BINDING         68
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00134"
+FT   BINDING         74
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00134"
+FT   BINDING         78
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00134"
+FT   BINDING         86
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00134"
+FT   BINDING         90
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00134"
+FT   BINDING         137
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00190"
+FT   BINDING         206..207
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         258..260
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         283
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   433 AA;  49648 MW;  7CE05492B8CA1578 CRC64;
+     MRAEARGGLE RFCSAGKGRG LRALRPFHVG DLLFSCPAYA CVLTVGERGH HCECCFARKE
+     GLSKCGRCKQ AFYCDVECQK EDWPLHKLEC SSMVVFGENW NPSETVRLTA RILAKQKMHP
+     ERTPSEKLLA VREFESHLDK LDNEKKDLIQ SDIAALHQFY SKHLEFPDHS SLVVLFAQVN
+     CNGFTIEDEE LSHLGSAIFP DVALMNHSCC PNVIVTYKGT LAEVRAVQEI HPGDEVFTSY
+     IDLLYPTEDR NDRLRDSYFF TCECRECTTK DKDKAKVEIR KLSNPPQAEA IRDMVRYARN
+     VIEEFRRAKH YKSPSELLEI CELSQEKMSS VFEDSNVYML HMMYQAMGVC LYMQDWEGAL
+     KYGQKIIKPY SKHYPVYSLN VASMWLKLGR LYMGLENKAA GEKALKKAIA IMEIAHGKDH
+     PYISEIKQEI ESH
+//

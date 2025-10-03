@@ -1,0 +1,220 @@
+ID   RALA_RAT                Reviewed;         206 AA.
+AC   P63322; P05810;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   02-OCT-2024, entry version 158.
+DE   RecName: Full=Ras-related protein Ral-A;
+DE            EC=3.6.5.2 {ECO:0000250|UniProtKB:P11233};
+DE   Flags: Precursor;
+GN   Name=Rala; Synonyms=Ral, Ral-a;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RX   PubMed=7687439; DOI=10.1006/bbrc.1993.1855;
+RA   Wildey G.M., Viggeswarapu M., Rim S., Denker J.K.;
+RT   "Isolation of cDNA clones and tissue expression of rat ral A and ral B GTP-
+RT   binding proteins.";
+RL   Biochem. Biophys. Res. Commun. 194:552-559(1993).
+RN   [2]
+RP   INTERACTION WITH RALBP1 AND CDC42, AND MUTAGENESIS OF ASP-49.
+RX   PubMed=7623849; DOI=10.1128/mcb.15.8.4578;
+RA   Cantor S.B., Urano T., Feig L.A.;
+RT   "Identification and characterization of Ral-binding protein 1, a potential
+RT   downstream target of Ral GTPases.";
+RL   Mol. Cell. Biol. 15:4578-4584(1995).
+CC   -!- FUNCTION: Multifunctional GTPase involved in a variety of cellular
+CC       processes including gene expression, cell migration, cell
+CC       proliferation, oncogenic transformation and membrane trafficking.
+CC       Accomplishes its multiple functions by interacting with distinct
+CC       downstream effectors. Acts as a GTP sensor for GTP-dependent exocytosis
+CC       of dense core vesicles. Key regulator of LPAR1 signaling and competes
+CC       with GRK2 for binding to LPAR1 thus affecting the signaling properties
+CC       of the receptor. Required for anchorage-independent proliferation of
+CC       transformed cells (By similarity). The RALA-exocyst complex regulates
+CC       integrin-dependent membrane raft exocytosis and growth signaling (By
+CC       similarity). During mitosis, supports the stabilization and elongation
+CC       of the intracellular bridge between dividing cells. Cooperates with
+CC       EXOC2 to recruit other components of the exocyst to the early midbody
+CC       (By similarity). During mitosis, also controls mitochondrial fission by
+CC       recruiting to the mitochondrion RALBP1, which mediates the
+CC       phosphorylation and activation of DNM1L by the mitotic kinase cyclin B-
+CC       CDK1 (By similarity). {ECO:0000250|UniProtKB:P11233,
+CC       ECO:0000250|UniProtKB:P63321}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = GDP + H(+) + phosphate; Xref=Rhea:RHEA:19669,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58189; EC=3.6.5.2;
+CC         Evidence={ECO:0000250|UniProtKB:P11233};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19670;
+CC         Evidence={ECO:0000250|UniProtKB:P11233};
+CC   -!- ACTIVITY REGULATION: Alternates between an inactive form bound to GDP
+CC       and an active form bound to GTP. Activated by a guanine nucleotide-
+CC       exchange factor (GEF) and inactivated by a GTPase-activating protein
+CC       (GAP).
+CC   -!- SUBUNIT: Interacts (via effector domain) with RALBP1; during mitosis,
+CC       recruits RALBP1 to the mitochondrion where it promotes DNM1L
+CC       phosphorylation and mitochondrial fission (PubMed:7623849). Interacts
+CC       with EXOC2/Sec5 and EXOC8/Exo84; binding to EXOC2 and EXOC8 is mutually
+CC       exclusive. Interacts with Clostridium exoenzyme C3. Interacts with
+CC       RALGPS1. Interacts with LPAR1 and LPAR2. Interacts with GRK2 in
+CC       response to LPAR1 activation. RALA and GRK2 binding to LPAR1 is
+CC       mutually exclusive (By similarity). Interacts with CDC42
+CC       (PubMed:7623849). {ECO:0000250|UniProtKB:P11233,
+CC       ECO:0000269|PubMed:7623849}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P11233};
+CC       Lipid-anchor {ECO:0000250|UniProtKB:P11233}; Cytoplasmic side
+CC       {ECO:0000250|UniProtKB:P11233}. Cleavage furrow
+CC       {ECO:0000250|UniProtKB:P11233}. Midbody, Midbody ring
+CC       {ECO:0000250|UniProtKB:P11233}. Mitochondrion
+CC       {ECO:0000250|UniProtKB:P11233}. Note=Predominantly at the cell surface
+CC       in the absence of LPA. In the presence of LPA, colocalizes with LPAR1
+CC       and LPAR2 in endocytic vesicles. May colocalize with CNTRL/centriolin
+CC       at the midbody ring. However, localization at the midbody at late
+CC       cytokinesis was not confirmed. Relocalizes to the mitochondrion during
+CC       mitosis where it regulates mitochondrial fission.
+CC       {ECO:0000250|UniProtKB:P11233}.
+CC   -!- TISSUE SPECIFICITY: Higher levels where found in testes followed by
+CC       brain, adrenal gland, pituitary gland, ovary, liver and kidney. Low
+CC       expression was found in muscle. {ECO:0000269|PubMed:7687439}.
+CC   -!- PTM: Prenylation is essential for membrane localization.
+CC       {ECO:0000250|UniProtKB:P11233}.
+CC   -!- PTM: Phosphorylated. Phosphorylation at Ser-194 by AURKA/Aurora kinase
+CC       A, during mitosis, induces RALA localization to the mitochondrion where
+CC       it regulates mitochondrial fission. {ECO:0000250|UniProtKB:P11233}.
+CC   -!- SIMILARITY: Belongs to the small GTPase superfamily. Ras family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L19698; AAA42003.1; -; mRNA.
+DR   PIR; JN0622; JN0622.
+DR   RefSeq; NP_112355.1; NM_031093.2.
+DR   RefSeq; XP_006254055.1; XM_006253993.3.
+DR   RefSeq; XP_017456153.1; XM_017600664.1.
+DR   RefSeq; XP_017456154.1; XM_017600665.1.
+DR   AlphaFoldDB; P63322; -.
+DR   SMR; P63322; -.
+DR   BioGRID; 249629; 5.
+DR   IntAct; P63322; 1.
+DR   STRING; 10116.ENSRNOP00000018190; -.
+DR   iPTMnet; P63322; -.
+DR   PhosphoSitePlus; P63322; -.
+DR   SwissPalm; P63322; -.
+DR   PaxDb; 10116-ENSRNOP00000018190; -.
+DR   Ensembl; ENSRNOT00000102020.1; ENSRNOP00000090376.1; ENSRNOG00000013454.5.
+DR   Ensembl; ENSRNOT00055018744; ENSRNOP00055015104; ENSRNOG00055011063.
+DR   Ensembl; ENSRNOT00060025735; ENSRNOP00060020560; ENSRNOG00060015014.
+DR   Ensembl; ENSRNOT00065036386; ENSRNOP00065029321; ENSRNOG00065021402.
+DR   GeneID; 81757; -.
+DR   KEGG; rno:81757; -.
+DR   UCSC; RGD:619851; rat.
+DR   AGR; RGD:619851; -.
+DR   CTD; 5898; -.
+DR   RGD; 619851; Rala.
+DR   eggNOG; KOG0395; Eukaryota.
+DR   GeneTree; ENSGT00940000155142; -.
+DR   HOGENOM; CLU_041217_9_8_1; -.
+DR   InParanoid; P63322; -.
+DR   OMA; ECQSRAQ; -.
+DR   OrthoDB; 8685at2759; -.
+DR   PhylomeDB; P63322; -.
+DR   TreeFam; TF312796; -.
+DR   PRO; PR:P63322; -.
+DR   Proteomes; UP000002494; Chromosome 17.
+DR   Bgee; ENSRNOG00000013454; Expressed in heart and 20 other cell types or tissues.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0032154; C:cleavage furrow; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0030139; C:endocytic vesicle; ISO:RGD.
+DR   GO; GO:0090543; C:Flemming body; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005925; C:focal adhesion; IEA:Ensembl.
+DR   GO; GO:0005739; C:mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0098685; C:Schaffer collateral - CA1 synapse; IDA:SynGO.
+DR   GO; GO:0097060; C:synaptic membrane; IDA:SynGO.
+DR   GO; GO:0051117; F:ATPase binding; ISO:RGD.
+DR   GO; GO:0031755; F:Edg-2 lysophosphatidic acid receptor binding; ISS:UniProtKB.
+DR   GO; GO:0003925; F:G protein activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019003; F:GDP binding; ISO:RGD.
+DR   GO; GO:0005525; F:GTP binding; ISO:RGD.
+DR   GO; GO:0003924; F:GTPase activity; ISO:RGD.
+DR   GO; GO:0017022; F:myosin binding; ISO:RGD.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0072655; P:establishment of protein localization to mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0006887; P:exocytosis; IEA:UniProtKB-KW.
+DR   GO; GO:0051665; P:membrane raft localization; ISS:UniProtKB.
+DR   GO; GO:0001843; P:neural tube closure; ISO:RGD.
+DR   GO; GO:0045742; P:positive regulation of epidermal growth factor receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0051491; P:positive regulation of filopodium assembly; ISO:RGD.
+DR   GO; GO:0090141; P:positive regulation of mitochondrial fission; ISS:UniProtKB.
+DR   GO; GO:0007265; P:Ras protein signal transduction; ISO:RGD.
+DR   GO; GO:0031623; P:receptor internalization; ISO:RGD.
+DR   GO; GO:0032956; P:regulation of actin cytoskeleton organization; ISO:RGD.
+DR   GO; GO:0017157; P:regulation of exocytosis; ISS:UniProtKB.
+DR   GO; GO:0099149; P:regulation of postsynaptic neurotransmitter receptor internalization; IDA:SynGO.
+DR   CDD; cd04139; RalA_RalB; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR001806; Small_GTPase.
+DR   InterPro; IPR020849; Small_GTPase_Ras-type.
+DR   NCBIfam; TIGR00231; small_GTP; 1.
+DR   PANTHER; PTHR24070; RAS, DI-RAS, AND RHEB FAMILY MEMBERS OF SMALL GTPASE SUPERFAMILY; 1.
+DR   PANTHER; PTHR24070:SF174; RAS-RELATED PROTEIN RAL-A; 1.
+DR   Pfam; PF00071; Ras; 1.
+DR   PRINTS; PR00449; RASTRNSFRMNG.
+DR   SMART; SM00175; RAB; 1.
+DR   SMART; SM00176; RAN; 1.
+DR   SMART; SM00173; RAS; 1.
+DR   SMART; SM00174; RHO; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51421; RAS; 1.
+PE   1: Evidence at protein level;
+KW   Cell cycle; Cell division; Cell membrane; Exocytosis; GTP-binding;
+KW   Hydrolase; Lipoprotein; Membrane; Methylation; Mitochondrion;
+KW   Nucleotide-binding; Phosphoprotein; Prenylation; Reference proteome.
+FT   CHAIN           1..203
+FT                   /note="Ras-related protein Ral-A"
+FT                   /id="PRO_0000082695"
+FT   PROPEP          204..206
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000281346"
+FT   MOTIF           43..51
+FT                   /note="Effector region"
+FT   BINDING         21..28
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         68..72
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         127..130
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         194
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11233"
+FT   MOD_RES         203
+FT                   /note="Cysteine methyl ester"
+FT                   /evidence="ECO:0000250"
+FT   LIPID           203
+FT                   /note="S-geranylgeranyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   MUTAGEN         49
+FT                   /note="D->N: Loss of RALBP1 binding."
+FT                   /evidence="ECO:0000269|PubMed:7623849"
+SQ   SEQUENCE   206 AA;  23553 MW;  6974341FA08C1874 CRC64;
+     MAANKPKGQN SLALHKVIMV GSGGVGKSAL TLQFMYDEFV EDYEPTKADS YRKKVVLDGE
+     EVQIDILDTA GQEDYAAIRD NYFRSGEGFL CVFSITEMES FAATADFREQ ILRVKEDENV
+     PFLLVGNKSD LEDKRQVSVE EAKNRADQWN VNYVETSAKT RANVDKVFFD LMREIRARKM
+     EDSKEKNGKK KRKSLAKRIR ERCCIL
+//

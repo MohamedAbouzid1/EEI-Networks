@@ -1,0 +1,362 @@
+ID   ATF2_RAT                Reviewed;         487 AA.
+AC   Q00969; Q62870;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2000, sequence version 2.
+DT   24-JUL-2024, entry version 181.
+DE   RecName: Full=Cyclic AMP-dependent transcription factor ATF-2;
+DE            Short=cAMP-dependent transcription factor ATF-2;
+DE   AltName: Full=Activating transcription factor 2;
+DE   AltName: Full=cAMP response element-binding protein CRE-BP1;
+GN   Name=Atf2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RC   TISSUE=Brain;
+RX   PubMed=1714459; DOI=10.1016/s0021-9258(18)98648-5;
+RA   Kageyama R., Sasai Y., Nakanishi S.;
+RT   "Molecular characterization of transcription factors that bind to the cAMP
+RT   responsive region of the substance P precursor gene. cDNA cloning of a
+RT   novel C/EBP-related factor.";
+RL   J. Biol. Chem. 266:15525-15531(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RA   Muramatsu S.;
+RL   Submitted (OCT-1995) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-51; THR-53 AND SER-94, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Transcriptional activator which regulates the transcription
+CC       of various genes, including those involved in anti-apoptosis, cell
+CC       growth, and DNA damage response. Dependent on its binding partner,
+CC       binds to CRE (cAMP response element) consensus sequences (5'-TGACGTCA-
+CC       3') or to AP-1 (activator protein 1) consensus sequences (5'-TGACTCA-
+CC       3'). In the nucleus, contributes to global transcription and the DNA
+CC       damage response, in addition to specific transcriptional activities
+CC       that are related to cell development, proliferation and death. In the
+CC       cytoplasm, interacts with and perturbs HK1- and VDAC1-containing
+CC       complexes at the mitochondrial outer membrane, thereby impairing
+CC       mitochondrial membrane potential, inducing mitochondrial leakage and
+CC       promoting cell death. The phosphorylated form (mediated by ATM) plays a
+CC       role in the DNA damage response and is involved in the ionizing
+CC       radiation (IR)-induced S phase checkpoint control and in the
+CC       recruitment of the MRN complex into the IR-induced foci (IRIF).
+CC       Exhibits histone acetyltransferase (HAT) activity which specifically
+CC       acetylates histones H2B and H4 in vitro. In concert with CUL3 and RBX1,
+CC       promotes the degradation of KAT5 thereby attenuating its ability to
+CC       acetylate and activate ATM. Can elicit oncogenic or tumor suppressor
+CC       activities depending on the tissue or cell type (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Binds DNA as a dimer and can form a homodimer in the absence
+CC       of DNA. Can form a heterodimer with JUN. Heterodimerization is
+CC       essential for its transcriptional activity. Interacts with SMAD3 and
+CC       SMAD4. Binds through its N-terminal region to UTF1 which acts as a
+CC       coactivator of ATF2 transcriptional activity (By similarity). Interacts
+CC       with the HK1/VDAC1 complex. Interacts with NBN, MRE11, XPO1, KAT5 and
+CC       CUL3 (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus. Cytoplasm {ECO:0000250}. Mitochondrion
+CC       outer membrane {ECO:0000250}. Note=Shuttles between the cytoplasm and
+CC       the nucleus and heterodimerization with JUN is essential for the
+CC       nuclear localization. Localization to the cytoplasm is observed under
+CC       conditions of cellular stress and in disease states. Localizes at the
+CC       mitochondrial outer membrane in response to genotoxic stress.
+CC       Phosphorylation at Thr-34 is required for its nuclear localization and
+CC       negatively regulates its mitochondrial localization. Colocalizes with
+CC       the MRN complex in the IR-induced foci (IRIF) (By similarity).
+CC       {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q00969-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q00969-2; Sequence=VSP_000591;
+CC   -!- PTM: Phosphorylation of Thr-51 by MAPK14 and MAPK11, and at Thr-53 by
+CC       MAPK1/ERK2, MAPK3/ERK1, MAPK11, MAPK12 and MAPK14 in response to
+CC       external stimulus like insulin causes increased transcriptional
+CC       activity. Phosphorylated by PLK3 following hyperosmotic stress. Also
+CC       phosphorylated and activated by JNK and CaMK4. ATM-mediated
+CC       phosphorylation at Ser-472 and Ser-480 stimulates its function in DNA
+CC       damage response. Phosphorylation at Ser-44, Thr-55 and Ser-103
+CC       activates its transcriptional activity. Phosphorylation at Thr-51 or
+CC       Thr-53 enhances acetylation of histones H2B and H4.
+CC       {ECO:0000250|UniProtKB:P15336}.
+CC   -!- SIMILARITY: Belongs to the bZIP family. ATF subfamily. {ECO:0000305}.
+CC   -!- CAUTION: Appears to have histone acetyltransferase (HAT) activity,
+CC       specifically towards histones H2B and H4 in vitro (By similarity).
+CC       However, it is not clear if this activity is genuine or caused by
+CC       contamination with other histone acetyltransferases in the assay.
+CC       {ECO:0000250|UniProtKB:P15336, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M65148; AAA42013.1; -; mRNA.
+DR   EMBL; U38938; AAA93263.1; -; mRNA.
+DR   PIR; A39429; A39429.
+DR   RefSeq; NP_112280.1; NM_031018.1. [Q00969-1]
+DR   AlphaFoldDB; Q00969; -.
+DR   BMRB; Q00969; -.
+DR   SMR; Q00969; -.
+DR   BioGRID; 249547; 3.
+DR   CORUM; Q00969; -.
+DR   STRING; 10116.ENSRNOP00000002174; -.
+DR   GlyGen; Q00969; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; Q00969; -.
+DR   PhosphoSitePlus; Q00969; -.
+DR   PaxDb; 10116-ENSRNOP00000002174; -.
+DR   Ensembl; ENSRNOT00000050513.5; ENSRNOP00000046001.3; ENSRNOG00000001597.9. [Q00969-2]
+DR   Ensembl; ENSRNOT00055040097; ENSRNOP00055032544; ENSRNOG00055023318. [Q00969-1]
+DR   Ensembl; ENSRNOT00060026385; ENSRNOP00060021106; ENSRNOG00060015350. [Q00969-1]
+DR   Ensembl; ENSRNOT00065029334; ENSRNOP00065023280; ENSRNOG00065017506. [Q00969-1]
+DR   GeneID; 81647; -.
+DR   KEGG; rno:81647; -.
+DR   UCSC; RGD:621862; rat. [Q00969-1]
+DR   AGR; RGD:621862; -.
+DR   CTD; 1386; -.
+DR   RGD; 621862; Atf2.
+DR   VEuPathDB; HostDB:ENSRNOG00000001597; -.
+DR   eggNOG; KOG1414; Eukaryota.
+DR   GeneTree; ENSGT00940000156582; -.
+DR   HOGENOM; CLU_021564_0_0_1; -.
+DR   InParanoid; Q00969; -.
+DR   OrthoDB; 1361169at2759; -.
+DR   PhylomeDB; Q00969; -.
+DR   Reactome; R-RNO-3214847; HATs acetylate histones.
+DR   Reactome; R-RNO-450341; Activation of the AP-1 family of transcription factors.
+DR   Reactome; R-RNO-9018519; Estrogen-dependent gene expression.
+DR   PRO; PR:Q00969; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000001597; Expressed in frontal cortex and 19 other cell types or tissues.
+DR   GO; GO:0016602; C:CCAAT-binding factor complex; IDA:MGI.
+DR   GO; GO:0000785; C:chromatin; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:1902562; C:H4 histone acetyltransferase complex; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0090575; C:RNA polymerase II transcription regulator complex; ISO:RGD.
+DR   GO; GO:0035861; C:site of double-strand break; ISS:UniProtKB.
+DR   GO; GO:0035497; F:cAMP response element binding; IDA:RGD.
+DR   GO; GO:0008140; F:cAMP response element binding protein binding; ISO:RGD.
+DR   GO; GO:0003682; F:chromatin binding; ISO:RGD.
+DR   GO; GO:0000987; F:cis-regulatory region sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0003677; F:DNA binding; ISO:RGD.
+DR   GO; GO:0001228; F:DNA-binding transcription activator activity, RNA polymerase II-specific; ISO:RGD.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; ISO:RGD.
+DR   GO; GO:0000981; F:DNA-binding transcription factor activity, RNA polymerase II-specific; IBA:GO_Central.
+DR   GO; GO:0044013; F:histone H2B acetyltransferase activity; ISO:RGD.
+DR   GO; GO:0010485; F:histone H4 acetyltransferase activity; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0043522; F:leucine zipper domain binding; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:1990841; F:promoter-specific chromatin binding; ISO:RGD.
+DR   GO; GO:0046982; F:protein heterodimerization activity; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0019901; F:protein kinase binding; ISO:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IPI:RGD.
+DR   GO; GO:0000978; F:RNA polymerase II cis-regulatory region sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0000977; F:RNA polymerase II transcription regulatory region sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0061629; F:RNA polymerase II-specific DNA-binding transcription factor binding; ISO:RGD.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IDA:RGD.
+DR   GO; GO:1990837; F:sequence-specific double-stranded DNA binding; ISO:RGD.
+DR   GO; GO:0021742; P:abducens nucleus development; ISO:RGD.
+DR   GO; GO:0060612; P:adipose tissue development; ISO:RGD.
+DR   GO; GO:0097186; P:amelogenesis; IDA:RGD.
+DR   GO; GO:0006915; P:apoptotic process; ISO:RGD.
+DR   GO; GO:1902742; P:apoptotic process involved in development; ISO:RGD.
+DR   GO; GO:0030509; P:BMP signaling pathway; ISO:RGD.
+DR   GO; GO:0003360; P:brainstem development; ISO:RGD.
+DR   GO; GO:0044255; P:cellular lipid metabolic process; ISO:RGD.
+DR   GO; GO:0072740; P:cellular response to anisomycin; ISO:RGD.
+DR   GO; GO:1990253; P:cellular response to leucine starvation; ISO:RGD.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; ISO:RGD.
+DR   GO; GO:0098586; P:cellular response to virus; ISO:RGD.
+DR   GO; GO:0060245; P:detection of cell density; ISO:RGD.
+DR   GO; GO:0006974; P:DNA damage response; ISS:UniProtKB.
+DR   GO; GO:0021754; P:facial nucleus development; ISO:RGD.
+DR   GO; GO:0010467; P:gene expression; ISO:RGD.
+DR   GO; GO:0003418; P:growth plate cartilage chondrocyte differentiation; ISO:RGD.
+DR   GO; GO:0003419; P:growth plate cartilage chondrocyte proliferation; ISO:RGD.
+DR   GO; GO:0007507; P:heart development; ISO:RGD.
+DR   GO; GO:0002244; P:hematopoietic progenitor cell differentiation; ISO:RGD.
+DR   GO; GO:0097284; P:hepatocyte apoptotic process; ISO:RGD.
+DR   GO; GO:0021743; P:hypoglossal nucleus development; ISO:RGD.
+DR   GO; GO:0001701; P:in utero embryonic development; ISO:RGD.
+DR   GO; GO:1990144; P:intrinsic apoptotic signaling pathway in response to hypoxia; ISO:RGD.
+DR   GO; GO:0007254; P:JNK cascade; ISO:RGD.
+DR   GO; GO:0001889; P:liver development; ISO:RGD.
+DR   GO; GO:0000165; P:MAPK cascade; ISO:RGD.
+DR   GO; GO:0031573; P:mitotic intra-S DNA damage checkpoint signaling; ISS:UniProtKB.
+DR   GO; GO:0097049; P:motor neuron apoptotic process; ISO:RGD.
+DR   GO; GO:0042789; P:mRNA transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0016525; P:negative regulation of angiogenesis; ISO:RGD.
+DR   GO; GO:0050680; P:negative regulation of epithelial cell proliferation; IMP:RGD.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; IMP:RGD.
+DR   GO; GO:0060052; P:neurofilament cytoskeleton organization; ISO:RGD.
+DR   GO; GO:0001865; P:NK T cell differentiation; ISO:RGD.
+DR   GO; GO:0003151; P:outflow tract morphogenesis; ISO:RGD.
+DR   GO; GO:0038066; P:p38MAPK cascade; ISO:RGD.
+DR   GO; GO:0110024; P:positive regulation of cardiac muscle myoblast proliferation; ISO:RGD.
+DR   GO; GO:0051091; P:positive regulation of DNA-binding transcription factor activity; ISS:UniProtKB.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:1902110; P:positive regulation of mitochondrial membrane permeability involved in apoptotic process; ISS:UniProtKB.
+DR   GO; GO:0043525; P:positive regulation of neuron apoptotic process; IMP:RGD.
+DR   GO; GO:0001934; P:positive regulation of protein phosphorylation; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; IDA:RGD.
+DR   GO; GO:0032915; P:positive regulation of transforming growth factor beta2 production; ISO:RGD.
+DR   GO; GO:0006606; P:protein import into nucleus; ISO:RGD.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; ISS:UniProtKB.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; ISO:RGD.
+DR   GO; GO:0006970; P:response to osmotic stress; ISS:UniProtKB.
+DR   GO; GO:0045815; P:transcription initiation-coupled chromatin remodeling; ISO:RGD.
+DR   GO; GO:0007033; P:vacuole organization; ISO:RGD.
+DR   GO; GO:0050872; P:white fat cell differentiation; ISO:RGD.
+DR   CDD; cd14687; bZIP_ATF2; 1.
+DR   CDD; cd12192; GCN4_cent; 1.
+DR   Gene3D; 1.20.5.170; -; 1.
+DR   Gene3D; 3.30.160.60; Classic Zinc Finger; 1.
+DR   InterPro; IPR004827; bZIP.
+DR   InterPro; IPR046347; bZIP_sf.
+DR   InterPro; IPR051027; bZIP_transcription_factors.
+DR   InterPro; IPR016378; TF_CRE-BP1-typ.
+DR   InterPro; IPR036236; Znf_C2H2_sf.
+DR   InterPro; IPR013087; Znf_C2H2_type.
+DR   PANTHER; PTHR19304:SF9; CYCLIC AMP-DEPENDENT TRANSCRIPTION FACTOR ATF-2; 1.
+DR   PANTHER; PTHR19304; CYCLIC-AMP RESPONSE ELEMENT BINDING PROTEIN; 1.
+DR   Pfam; PF00170; bZIP_1; 1.
+DR   PIRSF; PIRSF003153; ATF2_CRE-BP1; 1.
+DR   SMART; SM00338; BRLZ; 1.
+DR   SUPFAM; SSF57667; beta-beta-alpha zinc fingers; 1.
+DR   SUPFAM; SSF57959; Leucine zipper domain; 1.
+DR   PROSITE; PS50217; BZIP; 1.
+DR   PROSITE; PS00036; BZIP_BASIC; 1.
+DR   PROSITE; PS00028; ZINC_FINGER_C2H2_1; 1.
+DR   PROSITE; PS50157; ZINC_FINGER_C2H2_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Activator; Alternative splicing; Cytoplasm; DNA damage;
+KW   DNA-binding; Membrane; Metal-binding; Mitochondrion;
+KW   Mitochondrion outer membrane; Nucleus; Phosphoprotein; Reference proteome;
+KW   Transcription; Transcription regulation; Zinc; Zinc-finger.
+FT   CHAIN           1..487
+FT                   /note="Cyclic AMP-dependent transcription factor ATF-2"
+FT                   /id="PRO_0000076579"
+FT   DOMAIN          334..397
+FT                   /note="bZIP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00978"
+FT   ZN_FING         7..31
+FT                   /note="C2H2-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   REGION          107..130
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          241..355
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          278..281
+FT                   /note="Essential for its histone acetyltransferase
+FT                   activity"
+FT                   /evidence="ECO:0000250"
+FT   REGION          336..356
+FT                   /note="Basic motif"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00978"
+FT   REGION          362..390
+FT                   /note="Leucine-zipper"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00978"
+FT   REGION          407..487
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           387..396
+FT                   /note="Nuclear export signal"
+FT                   /evidence="ECO:0000250"
+FT   COMPBIAS        288..324
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        325..348
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        424..487
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         34
+FT                   /note="Phosphothreonine; by PKC/PRKCH"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         44
+FT                   /note="Phosphoserine; by VRK1"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         51
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         53
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         55
+FT                   /note="Phosphothreonine; by VRK1"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         72
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         94
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         98
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         103
+FT                   /note="Phosphoserine; by PKC/PRKCA and PKC/PRKCB"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         118
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         310
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         322
+FT                   /note="Phosphoserine; by PKC/PRKCA and PKC/PRKCB"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         339
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         349
+FT                   /note="Phosphoserine; by PKC/PRKCA and PKC/PRKCB"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         356
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         424
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         428
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         472
+FT                   /note="Phosphoserine; by ATM"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   MOD_RES         480
+FT                   /note="Phosphoserine; by ATM"
+FT                   /evidence="ECO:0000250|UniProtKB:P15336"
+FT   VAR_SEQ         132..229
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:1714459"
+FT                   /id="VSP_000591"
+SQ   SEQUENCE   487 AA;  52287 MW;  4ED95B106DF5F9EE CRC64;
+     MSDDKPFLCT APGCGQRFTN EDHLAVHKHK HEMTLKFGPA RNDSVIVADQ TPTPTRFLKN
+     CEEVGLFNEL ASPFENEFKK ASEDDIKKMP LDLSPLATPI IRSKIEEPSV VETTHQDSPL
+     PHPESTTNDE KEIPLAQTAQ PTSAIVRPAS LQVPNVLLTS SDSSVIIQQA VPSPTSSTVI
+     TQAPSSNRPI VPVPGPFPLL LHLPNGQTMP VAIPASITSS NVHVPAAVPL VRPVTMVPSV
+     PGIPGPSSPQ PVQSEAKMRL KAALTQQHPP VTNGDTVKGH GSGLVRAQSE ESRPQSLQQP
+     ATSTTETPAS PAHTTPQTQN TSGRRRRAAN EDPDEKRRKF LERNRAAASR CRQKRKVWVQ
+     SLEKKAEDLS SLNGQLQSEV TLLRNEVAQL KQLLLAHKDC PVTAMQKKSG YHTADKDDSS
+     EDLSVPSSPH TEAIQHSSVS TSNGVSSTSK TEAGATSVLT QMADQSTEPA LSQIVMAPSS
+     QAQPSGS
+//

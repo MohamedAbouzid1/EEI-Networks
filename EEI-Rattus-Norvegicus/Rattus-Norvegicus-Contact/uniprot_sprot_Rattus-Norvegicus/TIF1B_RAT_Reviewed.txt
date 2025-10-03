@@ -1,0 +1,616 @@
+ID   TIF1B_RAT               Reviewed;         835 AA.
+AC   O08629; B2RYN5;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   20-JAN-2009, sequence version 2.
+DT   02-OCT-2024, entry version 189.
+DE   RecName: Full=Transcription intermediary factor 1-beta {ECO:0000305};
+DE            Short=TIF1-beta;
+DE   AltName: Full=E3 SUMO-protein ligase TRIM28;
+DE            EC=2.3.2.27;
+DE   AltName: Full=KRAB-associated protein 1;
+DE   AltName: Full=Nuclear corepressor KAP-1;
+DE   AltName: Full=RING-type E3 ubiquitin transferase TIF1-beta {ECO:0000305};
+DE   AltName: Full=Tripartite motif-containing protein 28;
+GN   Name=Trim28 {ECO:0000312|RGD:620289}; Synonyms=Kap1, Tif1b;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 197-281.
+RA   Emison E.S., Lewis B.C., Shim H., Li Q., Dang C.V., Lee L.A.;
+RL   Submitted (MAR-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   INTERACTION WITH ZNF382.
+RX   PubMed=11154279; DOI=10.1128/mcb.21.3.928-939.2001;
+RA   Gebelein B., Urrutia R.;
+RT   "Sequence-specific transcriptional repression by KS1, a multiple-zinc-
+RT   finger-Kruppel-associated box protein.";
+RL   Mol. Cell. Biol. 21:928-939(2001).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-24; SER-27; SER-474; SER-502;
+RP   SER-684; SER-753 AND SER-758, AND IDENTIFICATION BY MASS SPECTROMETRY
+RP   [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Nuclear corepressor for KRAB domain-containing zinc finger
+CC       proteins (KRAB-ZFPs). Mediates gene silencing by recruiting CHD3, a
+CC       subunit of the nucleosome remodeling and deacetylation (NuRD) complex,
+CC       and SETDB1 (which specifically methylates histone H3 at 'Lys-9'
+CC       (H3K9me)) to the promoter regions of KRAB target genes. Enhances
+CC       transcriptional repression by coordinating the increase in H3K9me, the
+CC       decrease in histone H3 'Lys-9 and 'Lys-14' acetylation (H3K9ac and
+CC       H3K14ac, respectively) and the disposition of HP1 proteins to silence
+CC       gene expression. Recruitment of SETDB1 induces heterochromatinization.
+CC       May play a role as a coactivator for CEBPB and NR3C1 in the
+CC       transcriptional activation of ORM1. Also a corepressor for ERBB4.
+CC       Inhibits E2F1 activity by stimulating E2F1-HDAC1 complex formation and
+CC       inhibiting E2F1 acetylation. May serve as a partial backup to prevent
+CC       E2F1-mediated apoptosis in the absence of RB1. Important regulator of
+CC       CDKN1A/p21(CIP1). Has E3 SUMO-protein ligase activity toward itself via
+CC       its PHD-type zinc finger. Also specifically sumoylates IRF7, thereby
+CC       inhibiting its transactivation activity. Ubiquitinates p53/TP53 leading
+CC       to its proteasomal degradation; the function is enhanced by MAGEC2 and
+CC       MAGEA2, and possibly MAGEA3 and MAGEA6. Mediates the nuclear
+CC       localization of KOX1, ZNF268 and ZNF300 transcription factors. In
+CC       association with isoform 2 of ZFP90, is required for the
+CC       transcriptional repressor activity of FOXP3 and the suppressive
+CC       function of regulatory T-cells (Treg). Probably forms a corepressor
+CC       complex required for activated KRAS-mediated promoter hypermethylation
+CC       and transcriptional silencing of tumor suppressor genes (TSGs) or other
+CC       tumor-related genes in colorectal cancer (CRC) cells. Required to
+CC       maintain a transcriptionally repressive state of genes in
+CC       undifferentiated embryonic stem cells (ESCs). In ESCs, in collaboration
+CC       with SETDB1, is also required for H3K9me3 and silencing of endogenous
+CC       and introduced retroviruses in a DNA-methylation independent-pathway.
+CC       Associates at promoter regions of tumor suppressor genes (TSGs) leading
+CC       to their gene silencing. The SETDB1-TRIM28-ZNF274 complex may play a
+CC       role in recruiting ATRX to the 3'-exons of zinc finger genes with
+CC       atypical chromatin signatures to establish or maintain/protect H3K9me3
+CC       at these transcriptionally active regions.
+CC       {ECO:0000250|UniProtKB:Q13263, ECO:0000250|UniProtKB:Q62318}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-ubiquitinyl-[E2 ubiquitin-conjugating enzyme]-L-cysteine +
+CC         [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-
+CC         cysteine + N(6)-ubiquitinyl-[acceptor protein]-L-lysine.;
+CC         EC=2.3.2.27;
+CC   -!- PATHWAY: Protein modification; protein sumoylation.
+CC   -!- SUBUNIT: Interacts with ZNF382 (PubMed:11154279). Interacts with SETX.
+CC       Oligomer; the RBCC domain homotrimerizes and interacts with one
+CC       molecule of KRAB to form the KRAB-KAP1 corepressor complex. Binding to
+CC       a KRAB domain is an absolute requirement for silencing gene expression.
+CC       Interacts with CEBPB and NR3C1. Interacts with a number of KRAB-ZFP
+CC       proteins including ZNF10, ZFP53, ZFP68 and ZNF256. Interacts with
+CC       NCOR1, NR3C1 and CHD3. Interacts with CEBPB (via the RING-type and PHD-
+CC       type zinc fingers). Component of a ternary complex that includes
+CC       TRIM28, a HP1 protein (CBX1, CBX3 OR CBX5), a KRAB domain-containing
+CC       protein, and DNA. Interacts with CBX5 (via the PxVxL motif); the
+CC       interaction occurs in interphase nuclei and competes for binding POGZ.
+CC       Interacts with POGZ; the interaction competes for interaction with
+CC       CBX5. Interacts with SETDB1; the interaction is enhanced by KAP1
+CC       sumoylation, stimulates SETDB1 histone methyltransferase activity and
+CC       gene silencing. Interacts (via the PHD-type zinc finger) with UBE2I;
+CC       the interaction is required for sumoylation and repressor activity.
+CC       Component of the TRIM28/KAP1-ERBB4-MDM2 complex involved in connecting
+CC       growth factor and DNA damage responses. Interacts directly with ERBB4;
+CC       the interaction represses ERBB4-mediated transcription activity.
+CC       Interacts with MDM2; the interaction contributes to p53/TP53
+CC       inactivation. Component of the TRIM28/KAP1-MDM2-p53/TP53; involved in
+CC       regulating p53/TP53 stabilization and activity. Interacts (via the
+CC       leucine zipper alpha helical coiled-coil) with E2F1 (central region);
+CC       the interaction inhibits E2F1 acetylation and transcriptional activity.
+CC       Interacts with PPP1CA; the interaction dephosphorylates TRIM28 at Ser-
+CC       824 and forms a complex at the p21 promoter site. Interacts with
+CC       PPP1CB; the interaction is weak but is increased on dephosphorylation
+CC       at Ser-824. Interacts with SMARCAD1. Interacts with, and sumoylates
+CC       IRF7. Interacts with MAGEC2. Part of a complex composed of TRIM28,
+CC       HDAC1, HDAC2 and EHMT2. Interacts with AICDA. The large PER complex
+CC       involved in the histone methylation is composed of at least PER2, CBX3,
+CC       TRIM28, SUV39H1 and/or SUV39H2; CBX3 mediates the formation of the
+CC       complex (By similarity). Interacts with NR4A3; the interactions
+CC       potentiates NR4A3 activity on NurRE promoter (By similarity). Interacts
+CC       (unphosphorylated or phosphorylated form) with ZBTB1 (via BTB domain)
+CC       (By similarity). Probably part of a corepressor complex containing
+CC       ZNF304, TRIM28, SETDB1 and DNMT1. Interacts with ATRX. Forms a complex
+CC       with ATRX, SETDB1 and ZNF274 (By similarity). Interacts with ZFP568;
+CC       the interaction mediates ZFP568 transcriptional repression activity (By
+CC       similarity). Interacts with RRP1B (By similarity). Interacts with CRY1
+CC       (By similarity). Interacts with ZNF263; recruited to the SIX3 promoter
+CC       along with other proteins involved in chromatin modification and
+CC       transcriptional corepression where it contributes to transcriptional
+CC       repression (By similarity). Interacts with CYREN (via XLF motif) (By
+CC       similarity). Interacts with TRIM17; this interaction prevents TRIM28
+CC       activity (By similarity). Interacts with ZNF746 (By similarity).
+CC       Interacts with PHF13 (By similarity). Interacts with ZNF354C (By
+CC       similarity). Interacts with ZNF432; the interaction is independent of
+CC       PARP1 (By similarity). {ECO:0000250|UniProtKB:Q13263,
+CC       ECO:0000250|UniProtKB:Q62318, ECO:0000269|PubMed:11154279}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q62318}.
+CC       Note=Associated with centromeric heterochromatin during cell
+CC       differentiation through CBX1 (By similarity). Localizes to sites of DNA
+CC       damage (By similarity). {ECO:0000250|UniProtKB:Q13263,
+CC       ECO:0000250|UniProtKB:Q62318}.
+CC   -!- DOMAIN: The HP1 box is both necessary and sufficient for HP1 binding.
+CC       {ECO:0000250|UniProtKB:Q13263}.
+CC   -!- DOMAIN: The PHD-type zinc finger enhances CEBPB transcriptional
+CC       activity. The PHD-type zinc finger, the HP1 box and the bromo domain,
+CC       function together to assemble the machinery required for repression of
+CC       KRAB domain-containing proteins. Acts as an intramolecular SUMO E3
+CC       ligase for autosumoylation of bromodomain.
+CC       {ECO:0000250|UniProtKB:Q13263}.
+CC   -!- DOMAIN: The RING-finger-B Box-coiled-coil/tripartite motif (RBCC/TRIM
+CC       motif) is required for interaction with the KRAB domain of KRAB-zinc
+CC       finger proteins. Binds four zinc ions per molecule. The RING finger and
+CC       the N-terminal of the leucine zipper alpha helical coiled-coil region
+CC       of RBCC are required for oligomerization.
+CC       {ECO:0000250|UniProtKB:Q13263}.
+CC   -!- DOMAIN: Contains one Pro-Xaa-Val-Xaa-Leu (PxVxL) motif, which is
+CC       required for interaction with chromoshadow domains. This motif requires
+CC       additional residues -7, -6, +4 and +5 of the central Val which contact
+CC       the chromoshadow domain. {ECO:0000250|UniProtKB:Q13263}.
+CC   -!- PTM: ATM-induced phosphorylation on Ser-825 represses sumoylation
+CC       leading to the de-repression of expression of a subset of genes
+CC       involved in cell cycle control and apoptosis in response to genotoxic
+CC       stress. Dephosphorylation by the phosphatases, PPP1CA and PP1CB forms,
+CC       allows sumoylation and expression of TRIM28 target genes.
+CC       {ECO:0000250|UniProtKB:Q13263}.
+CC   -!- PTM: Sumoylation/desumoylation events regulate TRIM28-mediated
+CC       transcriptional repression. Sumoylation is required for interaction
+CC       with CHD3 and SETDB1 and the corepressor activity. Represses and is
+CC       repressed by Ser-824 phosphorylation. Enhances the TRIM28 corepressor
+CC       activity, inhibiting transcriptional activity of a number of genes
+CC       including GADD45A and CDKN1A/p21. Lys-555, Lys-780 and Lys-805 are the
+CC       major sites of sumoylation. In response to Dox-induced DNA damage,
+CC       enhanced phosphorylation on Ser-825 prevents sumoylation and allows de-
+CC       repression of CDKN1A/p21. {ECO:0000250|UniProtKB:Q13263}.
+CC   -!- PTM: Auto-ubiquitinated; enhanced by MAGEA2 and MAGEC2.
+CC       {ECO:0000250|UniProtKB:Q13263}.
+CC   -!- PTM: Citrullinated by PADI4. {ECO:0000250|UniProtKB:Q62318}.
+CC   -!- PTM: ADP-ribosylated by SIRT6, promoting TRIM28/KAP1 interaction with
+CC       CBX5, thereby contributing to the packaging of LINE-1 retrotransposon
+CC       elements into transcriptionally repressive heterochromatin.
+CC       {ECO:0000250|UniProtKB:Q62318}.
+CC   -!- SIMILARITY: Belongs to the TRIM/RBCC family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC166843; AAI66843.1; -; mRNA.
+DR   EMBL; U95041; AAB51518.1; -; mRNA.
+DR   RefSeq; NP_446368.1; NM_053916.1.
+DR   AlphaFoldDB; O08629; -.
+DR   BMRB; O08629; -.
+DR   SMR; O08629; -.
+DR   BioGRID; 250580; 5.
+DR   IntAct; O08629; 4.
+DR   STRING; 10116.ENSRNOP00000031061; -.
+DR   iPTMnet; O08629; -.
+DR   PhosphoSitePlus; O08629; -.
+DR   jPOST; O08629; -.
+DR   PaxDb; 10116-ENSRNOP00000031061; -.
+DR   Ensembl; ENSRNOT00000029996.3; ENSRNOP00000031061.2; ENSRNOG00000027487.3.
+DR   Ensembl; ENSRNOT00055027966; ENSRNOP00055022487; ENSRNOG00055016489.
+DR   Ensembl; ENSRNOT00060041547; ENSRNOP00060034428; ENSRNOG00060023972.
+DR   Ensembl; ENSRNOT00065051941; ENSRNOP00065042755; ENSRNOG00065030085.
+DR   GeneID; 116698; -.
+DR   KEGG; rno:116698; -.
+DR   UCSC; RGD:620289; rat.
+DR   AGR; RGD:620289; -.
+DR   CTD; 10155; -.
+DR   RGD; 620289; Trim28.
+DR   eggNOG; KOG2177; Eukaryota.
+DR   GeneTree; ENSGT00940000160527; -.
+DR   HOGENOM; CLU_005817_2_0_1; -.
+DR   InParanoid; O08629; -.
+DR   OMA; DCKDEVP; -.
+DR   OrthoDB; 56754at2759; -.
+DR   PhylomeDB; O08629; -.
+DR   TreeFam; TF106455; -.
+DR   Reactome; R-RNO-212436; Generic Transcription Pathway.
+DR   Reactome; R-RNO-9843940; Regulation of endogenous retroelements by KRAB-ZFP proteins.
+DR   UniPathway; UPA00886; -.
+DR   PRO; PR:O08629; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000027487; Expressed in testis and 20 other cell types or tissues.
+DR   GO; GO:0000785; C:chromatin; ISO:RGD.
+DR   GO; GO:0000791; C:euchromatin; ISO:RGD.
+DR   GO; GO:0000792; C:heterochromatin; ISO:RGD.
+DR   GO; GO:0005654; C:nucleoplasm; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0090575; C:RNA polymerase II transcription regulator complex; ISS:BHF-UCL.
+DR   GO; GO:0003682; F:chromatin binding; ISO:RGD.
+DR   GO; GO:0070087; F:chromo shadow domain binding; ISO:RGD.
+DR   GO; GO:0003677; F:DNA binding; ISO:RGD.
+DR   GO; GO:0035851; F:Krueppel-associated box domain binding; ISS:UniProtKB.
+DR   GO; GO:1990841; F:promoter-specific chromatin binding; ISS:UniProtKB.
+DR   GO; GO:0004672; F:protein kinase activity; ISO:RGD.
+DR   GO; GO:0019789; F:SUMO transferase activity; ISO:RGD.
+DR   GO; GO:0003713; F:transcription coactivator activity; ISS:UniProtKB.
+DR   GO; GO:0003714; F:transcription corepressor activity; ISO:RGD.
+DR   GO; GO:0061630; F:ubiquitin protein ligase activity; IBA:GO_Central.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0004842; F:ubiquitin-protein transferase activity; ISO:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; ISO:RGD.
+DR   GO; GO:0006325; P:chromatin organization; IBA:GO_Central.
+DR   GO; GO:0060028; P:convergent extension involved in axis elongation; ISO:RGD.
+DR   GO; GO:0006281; P:DNA repair; ISO:RGD.
+DR   GO; GO:0007566; P:embryo implantation; ISO:RGD.
+DR   GO; GO:0060669; P:embryonic placenta morphogenesis; ISO:RGD.
+DR   GO; GO:0043045; P:epigenetic programming of gene expression; ISO:RGD.
+DR   GO; GO:0001837; P:epithelial to mesenchymal transition; ISS:HGNC-UCL.
+DR   GO; GO:0071514; P:genomic imprinting; ISO:RGD.
+DR   GO; GO:0001701; P:in utero embryonic development; ISO:RGD.
+DR   GO; GO:0045087; P:innate immune response; ISO:RGD.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0045869; P:negative regulation of single stranded viral RNA replication via double stranded DNA intermediate; ISO:RGD.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0090309; P:positive regulation of DNA methylation-dependent heterochromatin formation; ISS:UniProtKB.
+DR   GO; GO:0045739; P:positive regulation of DNA repair; ISO:RGD.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; ISS:HGNC-UCL.
+DR   GO; GO:0042307; P:positive regulation of protein import into nucleus; ISS:UniProtKB.
+DR   GO; GO:0016925; P:protein sumoylation; ISO:RGD.
+DR   GO; GO:0044790; P:suppression of viral release by host; ISO:RGD.
+DR   CDD; cd19846; Bbox1_TIF1b_C-VI; 1.
+DR   CDD; cd19829; Bbox2_TIF1b_C-VI; 1.
+DR   CDD; cd15623; PHD_TIF1beta; 1.
+DR   CDD; cd16765; RING-HC_TIF1beta; 1.
+DR   Gene3D; 1.20.920.10; Bromodomain-like; 1.
+DR   Gene3D; 3.30.160.60; Classic Zinc Finger; 1.
+DR   Gene3D; 3.30.40.10; Zinc/RING finger domain, C3HC4 (zinc finger); 2.
+DR   InterPro; IPR003649; Bbox_C.
+DR   InterPro; IPR001487; Bromodomain.
+DR   InterPro; IPR036427; Bromodomain-like_sf.
+DR   InterPro; IPR037373; KAP1.
+DR   InterPro; IPR047059; TIF1b_Bbox1_Znf.
+DR   InterPro; IPR047058; TIF1b_Bbox2_Znf.
+DR   InterPro; IPR042713; TIF1beta_RING-HC.
+DR   InterPro; IPR019786; Zinc_finger_PHD-type_CS.
+DR   InterPro; IPR000315; Znf_B-box.
+DR   InterPro; IPR011011; Znf_FYVE_PHD.
+DR   InterPro; IPR001965; Znf_PHD.
+DR   InterPro; IPR019787; Znf_PHD-finger.
+DR   InterPro; IPR001841; Znf_RING.
+DR   InterPro; IPR013083; Znf_RING/FYVE/PHD.
+DR   PANTHER; PTHR45915; TRANSCRIPTION INTERMEDIARY FACTOR; 1.
+DR   PANTHER; PTHR45915:SF9; TRIPARTITE MOTIF CONTAINING 28; 1.
+DR   Pfam; PF00628; PHD; 1.
+DR   Pfam; PF00643; zf-B_box; 2.
+DR   Pfam; PF14634; zf-RING_5; 1.
+DR   SMART; SM00502; BBC; 1.
+DR   SMART; SM00336; BBOX; 2.
+DR   SMART; SM00297; BROMO; 1.
+DR   SMART; SM00249; PHD; 1.
+DR   SMART; SM00184; RING; 2.
+DR   SUPFAM; SSF57845; B-box zinc-binding domain; 1.
+DR   SUPFAM; SSF57903; FYVE/PHD zinc finger; 1.
+DR   SUPFAM; SSF57850; RING/U-box; 1.
+DR   PROSITE; PS50119; ZF_BBOX; 2.
+DR   PROSITE; PS01359; ZF_PHD_1; 1.
+DR   PROSITE; PS50016; ZF_PHD_2; 1.
+DR   PROSITE; PS50089; ZF_RING_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ADP-ribosylation; Bromodomain; Chromatin regulator;
+KW   Citrullination; Coiled coil; Isopeptide bond; Metal-binding; Nucleus;
+KW   Phosphoprotein; Reference proteome; Repeat; Repressor; Transcription;
+KW   Transcription regulation; Transferase; Ubl conjugation;
+KW   Ubl conjugation pathway; Zinc; Zinc-finger.
+FT   CHAIN           1..835
+FT                   /note="Transcription intermediary factor 1-beta"
+FT                   /id="PRO_0000056394"
+FT   DOMAIN          698..802
+FT                   /note="Bromo"
+FT   ZN_FING         67..123
+FT                   /note="RING-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00175"
+FT   ZN_FING         150..197
+FT                   /note="B box-type 1; atypical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00024"
+FT   ZN_FING         206..247
+FT                   /note="B box-type 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00024"
+FT   ZN_FING         626..673
+FT                   /note="PHD-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00146"
+FT   REGION          14..57
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          248..378
+FT                   /note="Leucine zipper alpha helical coiled-coil region"
+FT                   /evidence="ECO:0000250"
+FT   REGION          249..378
+FT                   /note="Interaction with MAGEC2"
+FT                   /evidence="ECO:0000250"
+FT   REGION          368..372
+FT                   /note="Involved in binding PPP1CA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          413..481
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          477..514
+FT                   /note="HP1 box"
+FT   MOTIF           482..495
+FT                   /note="PxVxL motif"
+FT   BINDING         155
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00024"
+FT   BINDING         158
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00024"
+FT   BINDING         179
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00024"
+FT   BINDING         183
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00024"
+FT   BINDING         211
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00024"
+FT   BINDING         214
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00024"
+FT   BINDING         234
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00024"
+FT   BINDING         239
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00024"
+FT   MOD_RES         24
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         27
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         31
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         52
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         140
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         268
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62318"
+FT   MOD_RES         306
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         342
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         379
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         419
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         439
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62318"
+FT   MOD_RES         441
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         471
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         472
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         473
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         474
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         480
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         490
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         499
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         502
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         595
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         684
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         690
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         698
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         753
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         756
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62318"
+FT   MOD_RES         758
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         771
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         775
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         780
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62318"
+FT   MOD_RES         785
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   MOD_RES         825
+FT                   /note="Phosphoserine; by ATM and ATR and dsDNA kinase"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        36
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        129
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        201
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        256
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        263
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        274
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        306
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        321
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        368
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        379
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        379
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        409
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        436
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        470
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        470
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        508
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        555
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        555
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        576
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        677
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        751
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        751
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        751
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        771
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        775
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        780
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        780
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CROSSLNK        805
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13263"
+FT   CONFLICT        220
+FT                   /note="V -> A (in Ref. 2; AAB51518)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        263
+FT                   /note="K -> R (in Ref. 2; AAB51518)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   835 AA;  88956 MW;  0E4245EA6CA45CA0 CRC64;
+     MAASAAAATA AASAATAASA ASGSPGSGEG SAGGEKRPAA SSAAAASASA SSPAGGGGEA
+     QELLEHCGVC RERLRPERDP RLLPCLHSAC SACLGPATPA AANNSGDGGS AGDGAMVDCP
+     VCKQQCYSKD IVENYFMRDS GSKASSDSQD ANQCCTSCED NAPATSYCVE CSEPLCETCV
+     EAHQRVKYTK DHTVRSTGPA KTRDGERTVY CNVHKHEPLV LFCESCDTLT CRDCQLNAHK
+     DHQYQFLEDA VRNQRKLLAS LVKRLGDKHA TLQKNTKEVR SSIRQVSDVQ KRVQVDVKMA
+     ILQIMKELNK RGRVLVNDAQ KVTEGQQERL ERQHWTMTKI QKHQEHILRF ASWALESDNN
+     TALLLSKKLI YFQLHRALKM IVDPVEPHGE MKFQWDLNAW TKSAEAFGKI VAERPGTNST
+     GPGPMAPPRA PGPLSKQGSG SSQPMEVQEG YGFGTDDPYS SAEPHVSGMK RSRSGEGEVS
+     GLMRKVPRVS LERLDLDLTS DSQPPVFKVF PGSTTEDYNL IVIERGAAAA AAGQAGTVPP
+     GAPGAPPLPG MAIVKEEETE AAIGAPPAAP EGPETKPVLM ALTEGPGAEG PRLASPSGST
+     SSGLEVVAPE VTSAPVSGPG ILDDSATICR VCQKPGDLVM CNQCEFCFHL DCHLPSLQDV
+     PGEEWSCSLC HVLPDLKEED GSLSLDGADS TGVVAKLSPA NQRKCERVLL ALFCHEPCRP
+     LHQLATDSTF SMEQPGGTLD LTLIRARLQE KLSPPYSSPQ EFAQDVGRMF KQFNKLTEDK
+     ADVQSIIGLQ RFFETRMNDA FGDTKFSAVL VEPPPLNLPS AGLSSQELSG PGDGP
+//

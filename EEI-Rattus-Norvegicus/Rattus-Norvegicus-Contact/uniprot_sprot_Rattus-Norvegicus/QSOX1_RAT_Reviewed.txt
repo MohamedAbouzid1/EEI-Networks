@@ -1,0 +1,396 @@
+ID   QSOX1_RAT               Reviewed;         750 AA.
+AC   Q6IUU3; Q8K4M2; Q99J80;
+DT   19-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   24-JUL-2024, entry version 133.
+DE   RecName: Full=Sulfhydryl oxidase 1;
+DE            Short=rQSOX;
+DE            Short=rSOx;
+DE            EC=1.8.3.2 {ECO:0000269|PubMed:11278790, ECO:0000269|PubMed:26819240};
+DE   AltName: Full=FAD-dependent sulfhydryl oxidase-2;
+DE            Short=SOx-2;
+DE   AltName: Full=Quiescin Q6;
+DE   Flags: Precursor;
+GN   Name=Qsox1; Synonyms=Qscn6, Sox2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 2 AND 3), PARTIAL PROTEIN SEQUENCE,
+RP   FUNCTION, CATALYTIC ACTIVITY, GLYCOSYLATION, TISSUE SPECIFICITY, COFACTOR,
+RP   SUBUNIT, AND SUBCELLULAR LOCATION (ISOFORM 3).
+RC   STRAIN=Wistar; TISSUE=Seminal vesicle;
+RX   PubMed=11278790; DOI=10.1074/jbc.m010933200;
+RA   Benayoun B., Esnard-Feve A., Castella S., Courty Y., Esnard F.;
+RT   "Rat seminal vesicle FAD-dependent sulfhydryl oxidase: biochemical
+RT   characterization and molecular cloning of a member of the new sulfhydryl
+RT   oxidase/quiescin Q6 gene family.";
+RL   J. Biol. Chem. 276:13830-13837(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3), PROTEIN SEQUENCE OF 33-65,
+RP   SUBCELLULAR LOCATION, TISSUE SPECIFICITY, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RX   PubMed=12354420; DOI=10.1016/s0923-1811(02)00061-0;
+RA   Matsuba S., Suga Y., Ishidoh K., Hashimoto Y., Takamori K., Kominami E.,
+RA   Wilhelm B., Seitz J., Ogawa H.;
+RT   "Sulfhydryl oxidase (SOx) from mouse epidermis: molecular cloning,
+RT   nucleotide sequence, and expression of recombinant protein in the cultured
+RT   cells.";
+RL   J. Dermatol. Sci. 30:50-62(2002).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), TISSUE SPECIFICITY, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Wistar; TISSUE=Brain;
+RX   PubMed=16806532; DOI=10.1016/j.bbaexp.2006.04.008;
+RA   Radom J., Colin D., Thiebault F., Dognin-Bergeret M.J., Mairet-Coello G.,
+RA   Esnard-Feve A., Fellmann D., Jouvenot M.;
+RT   "Identification and expression of a new splicing variant of FAD-sulfhydryl
+RT   oxidase in adult rat brain.";
+RL   Biochim. Biophys. Acta 1759:225-233(2006).
+RN   [4]
+RP   CATALYTIC ACTIVITY.
+RX   PubMed=26819240; DOI=10.1093/protein/gzv067;
+RA   Grossman I., Ilani T., Fleishman S.J., Fass D.;
+RT   "Overcoming a species-specificity barrier in development of an inhibitory
+RT   antibody targeting a modulator of tumor stroma.";
+RL   Protein Eng. Des. Sel. 29:135-147(2016).
+RN   [5] {ECO:0007744|PDB:4P2L}
+RP   X-RAY CRYSTALLOGRAPHY (2.90 ANGSTROMS) OF 33-550 IN COMPLEX WITH FAD,
+RP   DISULFIDE BONDS, AND COFACTOR.
+RX   PubMed=24888638; DOI=10.1002/pro.2496;
+RA   Gat Y., Vardi-Kilshtain A., Grossman I., Major D.T., Fass D.;
+RT   "Enzyme structure captures four cysteines aligned for disulfide relay.";
+RL   Protein Sci. 23:1102-1112(2014).
+CC   -!- FUNCTION: Catalyzes the oxidation of sulfhydryl groups in peptide and
+CC       protein thiols to disulfides with the reduction of oxygen to hydrogen
+CC       peroxide (PubMed:11278790). Plays a role in disulfide bond formation in
+CC       a variety of extracellular proteins. In fibroblasts, required for
+CC       normal incorporation of laminin into the extracellular matrix, and
+CC       thereby for normal cell-cell adhesion and cell migration (By
+CC       similarity). {ECO:0000250|UniProtKB:O00391,
+CC       ECO:0000269|PubMed:11278790}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O2 + 2 R'C(R)SH = H2O2 + R'C(R)S-S(R)CR';
+CC         Xref=Rhea:RHEA:17357, ChEBI:CHEBI:15379, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:16520, ChEBI:CHEBI:17412; EC=1.8.3.2;
+CC         Evidence={ECO:0000269|PubMed:11278790, ECO:0000269|PubMed:26819240};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000269|PubMed:11278790};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000250|UniProtKB:O00391};
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:11278790}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform 1]: Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:O00391}; Single-pass membrane protein
+CC       {ECO:0000250|UniProtKB:O00391}. Secreted
+CC       {ECO:0000250|UniProtKB:O00391}. Note=A small proportion is secreted,
+CC       probably via a proteolytic cleavage that removes the membrane anchor.
+CC       {ECO:0000250|UniProtKB:O00391}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform 3]: Secreted
+CC       {ECO:0000269|PubMed:11278790, ECO:0000269|PubMed:12354420}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1; Synonyms=QSOX-L;
+CC         IsoId=Q6IUU3-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q6IUU3-2; Sequence=VSP_020499, VSP_020497, VSP_020498;
+CC       Name=3;
+CC         IsoId=Q6IUU3-3; Sequence=VSP_020497, VSP_020498;
+CC   -!- TISSUE SPECIFICITY: Isoform 3: Detected in seminal vesicle fluid (at
+CC       protein level) (PubMed:11278790, PubMed:12354420). Isoform 1: Detected
+CC       in brain, hypophysis, heart, testis and the seminal vesicle. Isoform 3:
+CC       Highly expressed in the seminal vesicles followed by testis, heart,
+CC       brain, thymus, hypophysis and lung. Also expressed in prostate, kidney,
+CC       spleen, liver. {ECO:0000269|PubMed:11278790,
+CC       ECO:0000269|PubMed:12354420, ECO:0000269|PubMed:16806532}.
+CC   -!- PTM: N-glycosylated. O-glycosylated on Thr and Ser residues.
+CC       {ECO:0000250|UniProtKB:O00391}.
+CC   -!- SIMILARITY: Belongs to the quiescin-sulfhydryl oxidase (QSOX) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF217799; AAM67412.1; -; mRNA.
+DR   EMBL; AF285078; AAG53892.1; -; mRNA.
+DR   EMBL; AB044285; BAB21937.1; -; mRNA.
+DR   EMBL; AY623665; AAT40988.1; -; mRNA.
+DR   RefSeq; NP_001103368.1; NM_001109898.1. [Q6IUU3-1]
+DR   RefSeq; NP_445883.1; NM_053431.3. [Q6IUU3-3]
+DR   PDB; 4P2L; X-ray; 2.90 A; A/B=36-550.
+DR   PDBsum; 4P2L; -.
+DR   AlphaFoldDB; Q6IUU3; -.
+DR   SMR; Q6IUU3; -.
+DR   STRING; 10116.ENSRNOP00000061072; -.
+DR   GlyCosmos; Q6IUU3; 2 sites, No reported glycans.
+DR   GlyGen; Q6IUU3; 2 sites.
+DR   PhosphoSitePlus; Q6IUU3; -.
+DR   PaxDb; 10116-ENSRNOP00000005052; -.
+DR   Ensembl; ENSRNOT00000005052.10; ENSRNOP00000005052.6; ENSRNOG00000003649.10. [Q6IUU3-3]
+DR   Ensembl; ENSRNOT00000068044.4; ENSRNOP00000061072.2; ENSRNOG00000003649.10. [Q6IUU3-1]
+DR   GeneID; 84491; -.
+DR   KEGG; rno:84491; -.
+DR   UCSC; RGD:68957; rat. [Q6IUU3-1]
+DR   AGR; RGD:68957; -.
+DR   CTD; 5768; -.
+DR   RGD; 68957; Qsox1.
+DR   eggNOG; KOG1731; Eukaryota.
+DR   GeneTree; ENSGT00940000159504; -.
+DR   HOGENOM; CLU_020182_1_0_1; -.
+DR   InParanoid; Q6IUU3; -.
+DR   OMA; SDMDMRM; -.
+DR   OrthoDB; 20090at2759; -.
+DR   PhylomeDB; Q6IUU3; -.
+DR   BRENDA; 1.8.3.2; 5301.
+DR   Reactome; R-RNO-114608; Platelet degranulation.
+DR   Reactome; R-RNO-381426; Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   Reactome; R-RNO-8957275; Post-translational protein phosphorylation.
+DR   EvolutionaryTrace; Q6IUU3; -.
+DR   PRO; PR:Q6IUU3; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000003649; Expressed in pancreas and 19 other cell types or tissues.
+DR   GO; GO:0070062; C:extracellular exosome; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:UniProtKB.
+DR   GO; GO:0000139; C:Golgi membrane; ISS:UniProtKB.
+DR   GO; GO:0045171; C:intercellular bridge; IEA:Ensembl.
+DR   GO; GO:0071949; F:FAD binding; IDA:UniProtKB.
+DR   GO; GO:0016971; F:flavin-dependent sulfhydryl oxidase activity; IDA:UniProtKB.
+DR   GO; GO:0003756; F:protein disulfide isomerase activity; ISS:UniProtKB.
+DR   GO; GO:0085029; P:extracellular matrix assembly; ISO:RGD.
+DR   GO; GO:0016242; P:negative regulation of macroautophagy; ISO:RGD.
+DR   GO; GO:0006457; P:protein folding; IBA:GO_Central.
+DR   CDD; cd02992; PDI_a_QSOX; 1.
+DR   Gene3D; 1.20.120.310; ERV/ALR sulfhydryl oxidase domain; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 2.
+DR   Gene3D; 1.20.120.1960; QSOX sulfhydryl oxidase domain; 1.
+DR   InterPro; IPR036774; ERV/ALR_sulphydryl_oxid_sf.
+DR   InterPro; IPR017905; ERV/ALR_sulphydryl_oxidase.
+DR   InterPro; IPR040986; QSOX_FAD-bd_dom.
+DR   InterPro; IPR042568; QSOX_FAD-bd_sf.
+DR   InterPro; IPR041269; QSOX_Trx1.
+DR   InterPro; IPR039798; Sulfhydryl_oxidase.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   InterPro; IPR013766; Thioredoxin_domain.
+DR   PANTHER; PTHR22897; QUIESCIN Q6-RELATED SULFHYDRYL OXIDASE; 1.
+DR   PANTHER; PTHR22897:SF6; SULFHYDRYL OXIDASE 1; 1.
+DR   Pfam; PF04777; Evr1_Alr; 1.
+DR   Pfam; PF18371; FAD_SOX; 1.
+DR   Pfam; PF18108; QSOX_Trx1; 1.
+DR   Pfam; PF00085; Thioredoxin; 1.
+DR   SUPFAM; SSF69000; FAD-dependent thiol oxidase; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS51324; ERV_ALR; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Direct protein sequencing;
+KW   Disulfide bond; FAD; Flavoprotein; Glycoprotein; Golgi apparatus; Membrane;
+KW   Oxidoreductase; Reference proteome; Secreted; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..32
+FT                   /evidence="ECO:0000269|PubMed:11278790,
+FT                   ECO:0000269|PubMed:12354420"
+FT   CHAIN           33..750
+FT                   /note="Sulfhydryl oxidase 1"
+FT                   /id="PRO_0000249535"
+FT   TRANSMEM        710..730
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          33..159
+FT                   /note="Thioredoxin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00691"
+FT   DOMAIN          399..506
+FT                   /note="ERV/ALR sulfhydryl oxidase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00654"
+FT   REGION          545..567
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          585..632
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        73
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        76
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         404
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:24888638,
+FT                   ECO:0007744|PDB:4P2L"
+FT   BINDING         411
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:24888638,
+FT                   ECO:0007744|PDB:4P2L"
+FT   BINDING         415
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:24888638,
+FT                   ECO:0007744|PDB:4P2L"
+FT   BINDING         454
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:O00391"
+FT   BINDING         458
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:O00391"
+FT   BINDING         481..488
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:24888638,
+FT                   ECO:0007744|PDB:4P2L"
+FT   BINDING         503
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:24888638,
+FT                   ECO:0007744|PDB:4P2L"
+FT   BINDING         506
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000269|PubMed:24888638,
+FT                   ECO:0007744|PDB:4P2L"
+FT   CARBOHYD        133
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        246
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        73..76
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00654,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00691,
+FT                   ECO:0000269|PubMed:24888638, ECO:0007744|PDB:4P2L"
+FT   DISULFID        104..113
+FT                   /evidence="ECO:0000269|PubMed:24888638,
+FT                   ECO:0007744|PDB:4P2L"
+FT   DISULFID        396..408
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00654,
+FT                   ECO:0000269|PubMed:24888638, ECO:0007744|PDB:4P2L"
+FT   DISULFID        452..455
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00654,
+FT                   ECO:0000269|PubMed:24888638, ECO:0007744|PDB:4P2L"
+FT   DISULFID        512..515
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00654,
+FT                   ECO:0000269|PubMed:24888638, ECO:0007744|PDB:4P2L"
+FT   VAR_SEQ         27..32
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:11278790"
+FT                   /id="VSP_020499"
+FT   VAR_SEQ         569..570
+FT                   /note="VM -> LL (in isoform 2 and isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:11278790,
+FT                   ECO:0000303|PubMed:12354420"
+FT                   /id="VSP_020497"
+FT   VAR_SEQ         571..750
+FT                   /note="Missing (in isoform 2 and isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:11278790,
+FT                   ECO:0000303|PubMed:12354420"
+FT                   /id="VSP_020498"
+FT   CONFLICT        352
+FT                   /note="N -> S (in Ref. 1; AAM67412)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          41..48
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   TURN            50..52
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           53..57
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          61..69
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           74..89
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           91..93
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   TURN            94..96
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          97..103
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           107..109
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           110..115
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          120..127
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           146..157
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           176..180
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   TURN            181..185
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          189..196
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           202..209
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   TURN            210..212
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          216..222
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           226..231
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          237..244
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          249..251
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          255..258
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           259..266
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           293..296
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          301..303
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           304..316
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           319..321
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          323..325
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           327..343
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           348..363
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           371..380
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           383..386
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          403..405
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           406..427
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           437..448
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           453..466
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           467..469
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           473..490
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          505..507
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   TURN            509..511
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   STRAND          516..519
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           528..538
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+FT   HELIX           541..543
+FT                   /evidence="ECO:0007829|PDB:4P2L"
+SQ   SEQUENCE   750 AA;  82412 MW;  1781E657ED085114 CRC64;
+     MRRCGRHSGP PSLLLLLLLL PPLLLSVPGA YAARLSVLYS SSDPLTLLDA DTVRPAVLGS
+     SSAWAVEFFA SWCGHCIAFA PTWKELANDV KDWRPALNLA VLDCADETNS AVCREFNIAG
+     FPTVRFFKAF SKNGTGTALP AAGANVQTLR MRLIDALESH RDTWPPACPP LEPAKLKDIN
+     EFFTRSKAEY LALIFEREDS YLGREVTLDL SQFHAVAVRR VLNSESDVVS KFAVTDFPSC
+     YLLLRNGSVS RVPVLVESRP FYTSYLRGLP GLTREAPPTT AAPVTPDKIA PTVWKFADRS
+     KIYMADLESA LHYILRVEVG KFSVLEGQRL VALKKFVAVL AKYFPGQPLV QNFLHSINDW
+     LQKQQKKKIP YSYFKAALDS RKENAVLAEK VNWIGCQGSE PHFRGFPCSL WVLFHFLTVQ
+     AHRYSEAHPQ EPADGQEVLQ AMRSYVQSFF GCRDCANHFE QMAAASMHQV KSPSNAVLWL
+     WTSHNRVNAR LSGALSEDPQ FPKVQWPPRE LCSACHNEVN GQVPLWDLGA TLNFLKAHFS
+     PANIVRDPPA PGPASRRGTQ DPEASPNLVM DTLKLETGNS VLGHEQAASA ASPGATALDV
+     PAGKPEASGP QELNAGLSMG GASPGQGPPE HTEELLRDVQ ENAQGQQHLS KRDTEALLLP
+     EVNHLQGPLA PRRGGHSPKQ LASILEGEPE ALAIQGRRQW LQVLGGGVSF LDISLCVGLY
+     SVSFMGLLAM YTYFRARMRT PKGHVSYPTA
+//

@@ -1,0 +1,469 @@
+ID   ENTP1_RAT               Reviewed;         511 AA.
+AC   P97687;
+DT   20-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   24-JUL-2024, entry version 140.
+DE   RecName: Full=Ectonucleoside triphosphate diphosphohydrolase 1 {ECO:0000305};
+DE            EC=3.6.1.5 {ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928, ECO:0000269|PubMed:9364474};
+DE   AltName: Full=ATP diphosphohydrolase {ECO:0000250|UniProtKB:P49961};
+DE            Short=ATP-DPH {ECO:0000250|UniProtKB:P49961};
+DE            Short=ATPDase {ECO:0000250|UniProtKB:P49961};
+DE   AltName: Full=Ecto-ATP diphosphohydrolase 1 {ECO:0000250|UniProtKB:P49961};
+DE            Short=Ecto-ATPDase 1;
+DE            Short=Ecto-ATPase 1;
+DE   AltName: Full=Ecto-apyrase {ECO:0000303|PubMed:9221928};
+DE   AltName: Full=Lymphoid cell activation antigen {ECO:0000250|UniProtKB:P49961};
+DE   AltName: Full=Nucleoside triphosphate diphosphohydrolase 1 {ECO:0000303|PubMed:22100451};
+DE            Short=NTPDase1 {ECO:0000303|PubMed:22100451};
+DE   AltName: CD_antigen=CD39 {ECO:0000303|PubMed:9221928};
+GN   Name=Entpd1 {ECO:0000312|RGD:69265};
+GN   Synonyms=Cd39 {ECO:0000303|PubMed:9221928};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], CATALYTIC ACTIVITY, FUNCTION, COFACTOR,
+RP   GLYCOSYLATION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, and Hippocampus;
+RX   PubMed=9221928; DOI=10.1016/s0169-328x(97)00066-1;
+RA   Wang T.-F., Rosenberg P.A., Guidotti G.;
+RT   "Characterization of brain ecto-apyrase: evidence for only one ecto-apyrase
+RT   (CD39) gene.";
+RL   Brain Res. Mol. Brain Res. 47:295-302(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 432-511, FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=9364474; DOI=10.1016/s0028-3908(97)00115-9;
+RA   Kegel B., Braun N., Heine P., Maliszewski C.R., Zimmermann H.;
+RT   "An ecto-ATPase and an ecto-ATP diphosphohydrolase are expressed in rat
+RT   brain.";
+RL   Neuropharmacology 36:1189-1200(1997).
+RN   [3] {ECO:0007744|PDB:3ZX0, ECO:0007744|PDB:3ZX2, ECO:0007744|PDB:3ZX3}
+RP   X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS) OF 38-477, DISULFIDE BONDS, FUNCTION,
+RP   CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=22100451; DOI=10.1016/j.jmb.2011.10.050;
+RA   Zebisch M., Krauss M., Schafer P., Strater N.;
+RT   "Crystallographic evidence for a domain motion in rat nucleoside
+RT   triphosphate diphosphohydrolase (NTPDase) 1.";
+RL   J. Mol. Biol. 415:288-306(2012).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of both di- and triphosphate
+CC       nucleotides (NDPs and NTPs) and hydrolyze NTPs to nucleotide
+CC       monophosphates (NMPs) in two distinct successive phosphate-releasing
+CC       steps, with NDPs as intermediates and participates in the regulation of
+CC       extracellular levels of nucleotides (PubMed:22100451, PubMed:9221928,
+CC       PubMed:9364474). By hydrolyzing proinflammatory ATP and platelet-
+CC       activating ADP to AMP, it blocks platelet aggregation and supports
+CC       blood flow (By similarity). {ECO:0000250|UniProtKB:P49961,
+CC       ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC       ECO:0000269|PubMed:9364474}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + 2 H2O = a ribonucleoside
+CC         5'-phosphate + 2 H(+) + 2 phosphate; Xref=Rhea:RHEA:36795,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58043, ChEBI:CHEBI:61557; EC=3.6.1.5;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36796;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + H2O = a ribonucleoside 5'-
+CC         diphosphate + H(+) + phosphate; Xref=Rhea:RHEA:23680,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:61557;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:23681;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-diphosphate + H2O = a ribonucleoside 5'-
+CC         phosphate + H(+) + phosphate; Xref=Rhea:RHEA:36799,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:58043;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36800;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + 2 H2O = AMP + 2 H(+) + 2 phosphate;
+CC         Xref=Rhea:RHEA:20988, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:456215;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:20989;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:13066;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ADP + H2O = AMP + H(+) + phosphate; Xref=Rhea:RHEA:61436,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:456215, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:61437;
+CC         Evidence={ECO:0000269|PubMed:22100451, ECO:0000269|PubMed:9221928,
+CC         ECO:0000269|PubMed:9364474};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CTP + 2 H2O = CMP + 2 H(+) + 2 phosphate;
+CC         Xref=Rhea:RHEA:64908, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:37563, ChEBI:CHEBI:43474, ChEBI:CHEBI:60377;
+CC         Evidence={ECO:0000250|UniProtKB:P49961};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64909;
+CC         Evidence={ECO:0000250|UniProtKB:P49961};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CTP + H2O = CDP + H(+) + phosphate; Xref=Rhea:RHEA:29387,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:37563,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58069;
+CC         Evidence={ECO:0000250|UniProtKB:P49961};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:29388;
+CC         Evidence={ECO:0000250|UniProtKB:P49961};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CDP + H2O = CMP + H(+) + phosphate; Xref=Rhea:RHEA:64880,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58069, ChEBI:CHEBI:60377;
+CC         Evidence={ECO:0000250|UniProtKB:P49961};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64881;
+CC         Evidence={ECO:0000250|UniProtKB:P49961};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + 2 H2O = GMP + 2 H(+) + 2 phosphate;
+CC         Xref=Rhea:RHEA:64904, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:37565, ChEBI:CHEBI:43474, ChEBI:CHEBI:58115;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64905;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = GDP + H(+) + phosphate; Xref=Rhea:RHEA:19669,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58189;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19670;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GDP + H2O = GMP + H(+) + phosphate; Xref=Rhea:RHEA:22156,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58115, ChEBI:CHEBI:58189;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:22157;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H2O + ITP = 2 H(+) + IMP + 2 phosphate;
+CC         Xref=Rhea:RHEA:77735, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58053, ChEBI:CHEBI:61402;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:77736;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + ITP = H(+) + IDP + phosphate; Xref=Rhea:RHEA:28330,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58280, ChEBI:CHEBI:61402;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:28331;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + IDP = H(+) + IMP + phosphate; Xref=Rhea:RHEA:35207,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58053, ChEBI:CHEBI:58280;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:35208;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H2O + UTP = 2 H(+) + 2 phosphate + UMP;
+CC         Xref=Rhea:RHEA:64896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:46398, ChEBI:CHEBI:57865;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64897;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + UTP = H(+) + phosphate + UDP; Xref=Rhea:RHEA:64900,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:46398, ChEBI:CHEBI:58223;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64901;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + UDP = H(+) + phosphate + UMP; Xref=Rhea:RHEA:64876,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57865, ChEBI:CHEBI:58223;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:64877;
+CC         Evidence={ECO:0000269|PubMed:22100451};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:9221928};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:9221928};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=4.7 uM for ADP {ECO:0000269|PubMed:22100451};
+CC         KM=10 uM for UTP {ECO:0000269|PubMed:22100451};
+CC         KM=11.3 uM for UDP {ECO:0000269|PubMed:22100451};
+CC         KM=9 uM for GTP {ECO:0000269|PubMed:22100451};
+CC         KM=11.4 uM for GDP {ECO:0000269|PubMed:22100451};
+CC         KM=48.8 uM for GDP (with 100 uM AMP) {ECO:0000269|PubMed:22100451};
+CC         KM=13.1 uM for GDP (with 100 uM UMP) {ECO:0000269|PubMed:22100451};
+CC         KM=149.0 uM for GDP (with 100 muM hexaammonium heptamolybdate
+CC         tetrahydrate) {ECO:0000269|PubMed:22100451};
+CC         KM=10.8 uM for ITP {ECO:0000269|PubMed:22100451};
+CC         KM=10.5 uM for IDP {ECO:0000269|PubMed:22100451};
+CC         KM=749.5 uM for thiamine(1+) diphosphate
+CC         {ECO:0000269|PubMed:22100451};
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. {ECO:0000250|UniProtKB:Q9MYU4}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250|UniProtKB:P49961}; Multi-
+CC       pass membrane protein {ECO:0000250|UniProtKB:P49961}. Membrane, caveola
+CC       {ECO:0000250|UniProtKB:P49961}.
+CC   -!- TISSUE SPECIFICITY: Expressed in primary neurons and astrocytes,
+CC       kidney, liver, muscle, thymus, lung and spleen.
+CC       {ECO:0000269|PubMed:9221928}.
+CC   -!- PTM: N-glycosylated. {ECO:0000269|PubMed:9221928}.
+CC   -!- PTM: The N-terminus is blocked. {ECO:0000250|UniProtKB:P49961}.
+CC   -!- PTM: Palmitoylated on Cys-13; which is required for caveola targeting.
+CC       {ECO:0000250|UniProtKB:P49961}.
+CC   -!- SIMILARITY: Belongs to the GDA1/CD39 NTPase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U81295; AAC53195.1; -; mRNA.
+DR   EMBL; Y15685; CAA75730.1; -; mRNA.
+DR   PDB; 3ZX0; X-ray; 2.50 A; A/B/C/D=38-189, A/B/C/D=207-477.
+DR   PDB; 3ZX2; X-ray; 1.81 A; A/B/C/D=38-189, A/B/C/D=207-477.
+DR   PDB; 3ZX3; X-ray; 1.70 A; A/B/C/D=38-189, A/B/C/D=207-477.
+DR   PDBsum; 3ZX0; -.
+DR   PDBsum; 3ZX2; -.
+DR   PDBsum; 3ZX3; -.
+DR   AlphaFoldDB; P97687; -.
+DR   SMR; P97687; -.
+DR   STRING; 10116.ENSRNOP00000051602; -.
+DR   BindingDB; P97687; -.
+DR   ChEMBL; CHEMBL2767; -.
+DR   GuidetoPHARMACOLOGY; 2888; -.
+DR   GlyCosmos; P97687; 7 sites, No reported glycans.
+DR   GlyGen; P97687; 7 sites.
+DR   iPTMnet; P97687; -.
+DR   PhosphoSitePlus; P97687; -.
+DR   SwissPalm; P97687; -.
+DR   PaxDb; 10116-ENSRNOP00000051602; -.
+DR   AGR; RGD:69265; -.
+DR   RGD; 69265; Entpd1.
+DR   eggNOG; KOG1386; Eukaryota.
+DR   InParanoid; P97687; -.
+DR   PhylomeDB; P97687; -.
+DR   BRENDA; 3.6.1.5; 5301.
+DR   BRENDA; 3.6.1.6; 5301.
+DR   Reactome; R-RNO-8850843; Phosphate bond hydrolysis by NTPDase proteins.
+DR   SABIO-RK; P97687; -.
+DR   EvolutionaryTrace; P97687; -.
+DR   PRO; PR:P97687; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005604; C:basement membrane; ISO:RGD.
+DR   GO; GO:0016323; C:basolateral plasma membrane; IDA:RGD.
+DR   GO; GO:0005901; C:caveola; ISS:UniProtKB.
+DR   GO; GO:0009986; C:cell surface; IDA:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0097060; C:synaptic membrane; IDA:RGD.
+DR   GO; GO:0008021; C:synaptic vesicle; IDA:RGD.
+DR   GO; GO:0043262; F:ADP phosphatase activity; IDA:RGD.
+DR   GO; GO:0004050; F:apyrase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IDA:RGD.
+DR   GO; GO:0036384; F:CDP phosphatase activity; IEA:RHEA.
+DR   GO; GO:0043273; F:CTPase activity; IEA:RHEA.
+DR   GO; GO:0004382; F:GDP phosphatase activity; IBA:GO_Central.
+DR   GO; GO:0003924; F:GTPase activity; IEA:RHEA.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:1990003; F:IDP phosphatase activity; IEA:RHEA.
+DR   GO; GO:0103023; F:ITPase activity; IEA:RHEA.
+DR   GO; GO:0017110; F:nucleoside diphosphate phosphatase activity; IDA:UniProtKB.
+DR   GO; GO:0017111; F:ribonucleoside triphosphate phosphatase activity; IDA:UniProtKB.
+DR   GO; GO:0045134; F:UDP phosphatase activity; IBA:GO_Central.
+DR   GO; GO:0046032; P:ADP catabolic process; ISO:RGD.
+DR   GO; GO:0071275; P:cellular response to aluminum ion; IEP:RGD.
+DR   GO; GO:0035457; P:cellular response to interferon-alpha; IEP:RGD.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0071356; P:cellular response to tumor necrosis factor; IEP:RGD.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:2001170; P:negative regulation of ATP biosynthetic process; IMP:RGD.
+DR   GO; GO:0033602; P:negative regulation of dopamine secretion; IMP:RGD.
+DR   GO; GO:0009134; P:nucleoside diphosphate catabolic process; IBA:GO_Central.
+DR   GO; GO:0030168; P:platelet activation; ISO:RGD.
+DR   GO; GO:0070527; P:platelet aggregation; ISS:UniProtKB.
+DR   GO; GO:0009181; P:purine ribonucleoside diphosphate catabolic process; ISO:RGD.
+DR   GO; GO:0033198; P:response to ATP; IEP:RGD.
+DR   GO; GO:0010996; P:response to auditory stimulus; IEP:RGD.
+DR   GO; GO:0031000; P:response to caffeine; IEP:RGD.
+DR   GO; GO:0010332; P:response to gamma radiation; IEP:RGD.
+DR   GO; GO:1903576; P:response to L-arginine; IEP:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0010238; P:response to proline; IEP:RGD.
+DR   CDD; cd00012; NBD_sugar-kinase_HSP70_actin; 1.
+DR   Gene3D; 3.30.420.40; -; 1.
+DR   Gene3D; 3.30.420.150; Exopolyphosphatase. Domain 2; 1.
+DR   InterPro; IPR000407; GDA1_CD39_NTPase.
+DR   PANTHER; PTHR11782; ADENOSINE/GUANOSINE DIPHOSPHATASE; 1.
+DR   PANTHER; PTHR11782:SF32; ECTONUCLEOSIDE TRIPHOSPHATE DIPHOSPHOHYDROLASE 1; 1.
+DR   Pfam; PF01150; GDA1_CD39; 1.
+DR   PROSITE; PS01238; GDA1_CD39_NTPASE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Calcium; Disulfide bond; Glycoprotein;
+KW   Hydrolase; Magnesium; Membrane; Nucleotide-binding; Reference proteome;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..511
+FT                   /note="Ectonucleoside triphosphate diphosphohydrolase 1"
+FT                   /id="PRO_0000209904"
+FT   TOPO_DOM        1..16
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        17..37
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        38..478
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        479..499
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        500..511
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          46..171
+FT                   /note="N-terminal lobe"
+FT   REGION          205..441
+FT                   /note="C-terminal lobe"
+FT   ACT_SITE        174
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:O35795"
+FT   CARBOHYD        73
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        226
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        291
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        333
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        374
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        429
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        458
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        84..108
+FT                   /evidence="ECO:0000269|PubMed:22100451"
+FT   DISULFID        254..300
+FT                   /evidence="ECO:0000269|PubMed:22100451"
+FT   DISULFID        281..324
+FT                   /evidence="ECO:0000269|PubMed:22100451"
+FT   DISULFID        337..342
+FT                   /evidence="ECO:0000269|PubMed:22100451"
+FT   DISULFID        391..414
+FT                   /evidence="ECO:0000269|PubMed:22100451"
+FT   STRAND          47..55
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          60..68
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          79..85
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          87..89
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           91..94
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           98..100
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           101..115
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           118..121
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          125..130
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           132..140
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           142..157
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          159..168
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           171..185
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   TURN            186..189
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          209..213
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          215..222
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          229..231
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           232..234
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          235..240
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          243..253
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           257..268
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          273..279
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          287..291
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           292..295
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           299..304
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          311..317
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           321..329
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          338..344
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          356..360
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           361..372
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           380..391
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           395..401
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           407..410
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           413..425
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   HELIX           432..437
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          438..440
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          442..444
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+FT   STRAND          447..451
+FT                   /evidence="ECO:0007829|PDB:3ZX2"
+FT   HELIX           452..459
+FT                   /evidence="ECO:0007829|PDB:3ZX3"
+SQ   SEQUENCE   511 AA;  57408 MW;  4CC123D3E644C193 CRC64;
+     MEDIKDSKVK RFCSKNILII LGFSSVLAVI ALIAVGLTHN KPLPENVKYG IVLDAGSSHT
+     NLYIYKWPAE KENDTGVVQL LEECQVKGPG ISKYAQKTDE IAAYLAECMK MSTERIPASK
+     QHQTPVYLGA TAGMRLLRME SKQSADEVLA AVSRSLKSYP FDFQGAKIIT GQEEGAYGWI
+     TINYLLGRFT QEQSWLNFIS DSQKQATFGA LDLGGSSTQV TFVPLNQTLE APETSLQFRL
+     YGTDYTVYTH SFLCYGKDQA LWQKLAQDIQ VSSGGILKDP CFYPGYKKVV NVSELYGTPC
+     TKRFEKKLPF NQFQVQGTGD YEQCHQSILK FFNNSHCPYS QCAFNGVFLP PLQGSFGAFS
+     AFYFVMDFFK KMANDSVSSQ EKMTEITKNF CSKPWEEVKA SYPTVKEKYL SEYCFSGTYI
+     LSLLLQGYNF TGTSWDQIHF MGKIKDSNAG WTLGYMLNLT NMIPAEQPLS PPLPHSTYIS
+     LMVLFSLVLV AMVITGLFIF SKPSYFWKEA V
+//

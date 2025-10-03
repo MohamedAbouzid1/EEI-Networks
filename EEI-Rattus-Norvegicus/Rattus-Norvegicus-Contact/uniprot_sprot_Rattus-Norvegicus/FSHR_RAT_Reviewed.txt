@@ -1,0 +1,335 @@
+ID   FSHR_RAT                Reviewed;         692 AA.
+AC   P20395; Q64183;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1991, sequence version 1.
+DT   24-JAN-2024, entry version 198.
+DE   RecName: Full=Follicle-stimulating hormone receptor;
+DE            Short=FSH-R;
+DE   AltName: Full=Follitropin receptor;
+DE   Flags: Precursor;
+GN   Name=Fshr;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Sertoli cell;
+RX   PubMed=2126341; DOI=10.1210/mend-4-4-525;
+RA   Sprengel R., Braun T., Nikolics K., Segaloff D.L., Seeburg P.H.;
+RT   "The testicular receptor for follicle stimulating hormone: structure and
+RT   functional expression of cloned cDNA.";
+RL   Mol. Endocrinol. 4:525-530(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1738373; DOI=10.1210/mend.6.1.1738373;
+RA   Heckert L.L., Daley I.J., Griswold M.D.;
+RT   "Structural organization of the follicle-stimulating hormone receptor
+RT   gene.";
+RL   Mol. Endocrinol. 6:70-80(1992).
+RN   [3]
+RP   GLYCOSYLATION AT ASN-191 AND ASN-293, AND MUTAGENESIS OF ASN-191; ASN-199
+RP   AND ASN-293.
+RX   PubMed=7776966; DOI=10.1210/mend.9.2.7776966;
+RA   Davis D., Liu X., Segaloff D.L.;
+RT   "Identification of the sites of N-linked glycosylation on the follicle-
+RT   stimulating hormone (FSH) receptor and assessment of their role in FSH
+RT   receptor function.";
+RL   Mol. Endocrinol. 9:159-170(1995).
+RN   [4]
+RP   INTERACTION WITH ARRB2, AND MUTAGENESIS OF THR-387; SER-389; THR-394;
+RP   ASP-407 AND TYR-548.
+RX   PubMed=12850288; DOI=10.1016/s0303-7207(03)00088-1;
+RA   Krishnamurthy H., Galet C., Ascoli M.;
+RT   "The association of arrestin-3 with the follitropin receptor depends on
+RT   receptor activation and phosphorylation.";
+RL   Mol. Cell. Endocrinol. 204:127-140(2003).
+CC   -!- FUNCTION: G protein-coupled receptor for follitropin, the follicle-
+CC       stimulating hormone. Through cAMP production activates the downstream
+CC       PI3K-AKT and ERK1/ERK2 signaling pathways.
+CC       {ECO:0000250|UniProtKB:P23945}.
+CC   -!- SUBUNIT: Homotrimer. Functions as a homotrimer binding the FSH hormone
+CC       heterodimer composed of CGA and FSHB (By similarity). Interacts with
+CC       ARRB2 (PubMed:12850288). Interacts with APPL2; interaction is
+CC       independent of follicle stimulating hormone stimulation (By
+CC       similarity). {ECO:0000250|UniProtKB:P23945,
+CC       ECO:0000269|PubMed:12850288}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P23945};
+CC       Multi-pass membrane protein {ECO:0000250|UniProtKB:P23945}.
+CC   -!- TISSUE SPECIFICITY: Sertoli cells and ovarian granulosa cells.
+CC   -!- PTM: N-glycosylated; indirectly required for FSH-binding, possibly via
+CC       a conformational change that allows high affinity binding of hormone.
+CC       {ECO:0000269|PubMed:7776966}.
+CC   -!- PTM: Sulfated. {ECO:0000250|UniProtKB:P23945}.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 1 family.
+CC       FSH/LSH/TSH subfamily. {ECO:0000255|PROSITE-ProRule:PRU00521}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L02842; AAA41175.1; -; mRNA.
+DR   EMBL; S81198; AAB21415.2; -; Genomic_DNA.
+DR   EMBL; S81117; AAB21415.2; JOINED; Genomic_DNA.
+DR   EMBL; S81119; AAB21415.2; JOINED; Genomic_DNA.
+DR   EMBL; S81171; AAB21415.2; JOINED; Genomic_DNA.
+DR   EMBL; S81121; AAB21415.2; JOINED; Genomic_DNA.
+DR   EMBL; S81174; AAB21415.2; JOINED; Genomic_DNA.
+DR   EMBL; S81183; AAB21415.2; JOINED; Genomic_DNA.
+DR   EMBL; S81194; AAB21415.2; JOINED; Genomic_DNA.
+DR   EMBL; S81185; AAB21415.2; JOINED; Genomic_DNA.
+DR   EMBL; S81178; AAB21415.2; JOINED; Genomic_DNA.
+DR   PIR; A34548; A34548.
+DR   RefSeq; NP_954707.1; NM_199237.1.
+DR   AlphaFoldDB; P20395; -.
+DR   SMR; P20395; -.
+DR   STRING; 10116.ENSRNOP00000022802; -.
+DR   BindingDB; P20395; -.
+DR   ChEMBL; CHEMBL4288; -.
+DR   GlyCosmos; P20395; 3 sites, No reported glycans.
+DR   GlyGen; P20395; 3 sites.
+DR   iPTMnet; P20395; -.
+DR   PhosphoSitePlus; P20395; -.
+DR   PaxDb; 10116-ENSRNOP00000022802; -.
+DR   Ensembl; ENSRNOT00000022802.5; ENSRNOP00000022802.3; ENSRNOG00000016783.7.
+DR   Ensembl; ENSRNOT00055032478; ENSRNOP00055026297; ENSRNOG00055019041.
+DR   Ensembl; ENSRNOT00060007308; ENSRNOP00060005541; ENSRNOG00060004359.
+DR   Ensembl; ENSRNOT00065012038; ENSRNOP00065008796; ENSRNOG00065007694.
+DR   GeneID; 25449; -.
+DR   KEGG; rno:25449; -.
+DR   UCSC; RGD:2632; rat.
+DR   AGR; RGD:2632; -.
+DR   CTD; 2492; -.
+DR   RGD; 2632; Fshr.
+DR   eggNOG; KOG2087; Eukaryota.
+DR   GeneTree; ENSGT00940000158952; -.
+DR   HOGENOM; CLU_006130_1_1_1; -.
+DR   InParanoid; P20395; -.
+DR   OMA; FINFSCG; -.
+DR   OrthoDB; 1202285at2759; -.
+DR   PhylomeDB; P20395; -.
+DR   TreeFam; TF316814; -.
+DR   Reactome; R-RNO-375281; Hormone ligand-binding receptors.
+DR   PRO; PR:P20395; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000016783; Expressed in ovary and 1 other cell type or tissue.
+DR   GO; GO:0009986; C:cell surface; IDA:RGD.
+DR   GO; GO:0005768; C:endosome; IDA:RGD.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0043235; C:receptor complex; ISS:UniProtKB.
+DR   GO; GO:0004963; F:follicle-stimulating hormone receptor activity; IDA:RGD.
+DR   GO; GO:0008528; F:G protein-coupled peptide receptor activity; IBA:GO_Central.
+DR   GO; GO:0004930; F:G protein-coupled receptor activity; TAS:RGD.
+DR   GO; GO:0017046; F:peptide hormone binding; IDA:RGD.
+DR   GO; GO:0007189; P:adenylate cyclase-activating G protein-coupled receptor signaling pathway; IDA:RGD.
+DR   GO; GO:0007193; P:adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0007188; P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0071711; P:basement membrane organization; ISO:RGD.
+DR   GO; GO:0071372; P:cellular response to follicle-stimulating hormone stimulus; ISS:UniProtKB.
+DR   GO; GO:0042699; P:follicle-stimulating hormone signaling pathway; IDA:RGD.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0009755; P:hormone-mediated signaling pathway; IBA:GO_Central.
+DR   GO; GO:0009992; P:intracellular water homeostasis; ISO:RGD.
+DR   GO; GO:0007626; P:locomotory behavior; ISO:RGD.
+DR   GO; GO:0008584; P:male gonad development; ISO:RGD.
+DR   GO; GO:0045779; P:negative regulation of bone resorption; ISO:RGD.
+DR   GO; GO:0031175; P:neuron projection development; ISO:RGD.
+DR   GO; GO:0001541; P:ovarian follicle development; ISO:RGD.
+DR   GO; GO:0022602; P:ovulation cycle process; ISO:RGD.
+DR   GO; GO:0007200; P:phospholipase C-activating G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0070374; P:positive regulation of ERK1 and ERK2 cascade; ISS:UniProtKB.
+DR   GO; GO:0033148; P:positive regulation of intracellular estrogen receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0051897; P:positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISS:UniProtKB.
+DR   GO; GO:0001545; P:primary ovarian follicle growth; ISO:RGD.
+DR   GO; GO:0060408; P:regulation of acetylcholine metabolic process; ISO:RGD.
+DR   GO; GO:0033044; P:regulation of chromosome organization; ISO:RGD.
+DR   GO; GO:0032350; P:regulation of hormone metabolic process; ISO:RGD.
+DR   GO; GO:0033146; P:regulation of intracellular estrogen receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0043408; P:regulation of MAPK cascade; ISO:RGD.
+DR   GO; GO:0045670; P:regulation of osteoclast differentiation; ISO:RGD.
+DR   GO; GO:0010640; P:regulation of platelet-derived growth factor receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0010738; P:regulation of protein kinase A signaling; ISS:UniProtKB.
+DR   GO; GO:0001932; P:regulation of protein phosphorylation; ISO:RGD.
+DR   GO; GO:0003073; P:regulation of systemic arterial blood pressure; ISO:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:0060009; P:Sertoli cell development; ISO:RGD.
+DR   GO; GO:0060011; P:Sertoli cell proliferation; ISO:RGD.
+DR   GO; GO:0035092; P:sperm DNA condensation; ISO:RGD.
+DR   GO; GO:0007286; P:spermatid development; ISO:RGD.
+DR   GO; GO:0007283; P:spermatogenesis; ISO:RGD.
+DR   GO; GO:0045056; P:transcytosis; IDA:RGD.
+DR   GO; GO:0060065; P:uterus development; ISO:RGD.
+DR   CDD; cd15360; 7tmA_FSH-R; 1.
+DR   Gene3D; 1.20.1070.10; Rhodopsin 7-helix transmembrane proteins; 1.
+DR   Gene3D; 3.80.10.10; Ribonuclease Inhibitor; 1.
+DR   InterPro; IPR002272; FSH_rcpt.
+DR   InterPro; IPR024635; GnHR_TM.
+DR   InterPro; IPR000276; GPCR_Rhodpsn.
+DR   InterPro; IPR017452; GPCR_Rhodpsn_7TM.
+DR   InterPro; IPR002131; Gphrmn_rcpt_fam.
+DR   InterPro; IPR001611; Leu-rich_rpt.
+DR   InterPro; IPR026906; LRR_5.
+DR   InterPro; IPR032675; LRR_dom_sf.
+DR   InterPro; IPR000372; LRRNT.
+DR   PANTHER; PTHR24372:SF5; FOLLICLE-STIMULATING HORMONE RECEPTOR; 1.
+DR   PANTHER; PTHR24372; GLYCOPROTEIN HORMONE RECEPTOR; 1.
+DR   Pfam; PF00001; 7tm_1; 1.
+DR   Pfam; PF12369; GnHR_trans; 1.
+DR   Pfam; PF13306; LRR_5; 2.
+DR   PRINTS; PR01143; FSHRECEPTOR.
+DR   PRINTS; PR00373; GLYCHORMONER.
+DR   PRINTS; PR00237; GPCRRHODOPSN.
+DR   SMART; SM00013; LRRNT; 1.
+DR   SUPFAM; SSF81321; Family A G protein-coupled receptor-like; 1.
+DR   SUPFAM; SSF52058; L domain-like; 1.
+DR   PROSITE; PS00237; G_PROTEIN_RECEP_F1_1; 1.
+DR   PROSITE; PS50262; G_PROTEIN_RECEP_F1_2; 1.
+DR   PROSITE; PS51450; LRR; 3.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Disulfide bond; G-protein coupled receptor; Glycoprotein;
+KW   Leucine-rich repeat; Membrane; Receptor; Reference proteome; Repeat;
+KW   Signal; Sulfation; Transducer; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           18..692
+FT                   /note="Follicle-stimulating hormone receptor"
+FT                   /id="PRO_0000012775"
+FT   TOPO_DOM        18..365
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        366..386
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        387..397
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        398..420
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        421..442
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        443..464
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        465..484
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        485..507
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        508..527
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        528..549
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        550..572
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        573..596
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        597..607
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        608..629
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        630..692
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          18..46
+FT                   /note="LRRNT"
+FT   REPEAT          49..72
+FT                   /note="LRR 1"
+FT   REPEAT          73..97
+FT                   /note="LRR 2"
+FT   REPEAT          98..118
+FT                   /note="LRR 3"
+FT   REPEAT          119..143
+FT                   /note="LRR 4"
+FT   REPEAT          144..169
+FT                   /note="LRR 5"
+FT   REPEAT          170..192
+FT                   /note="LRR 6"
+FT   REPEAT          193..216
+FT                   /note="LRR 7"
+FT   REPEAT          217..240
+FT                   /note="LRR 8"
+FT   REPEAT          241..259
+FT                   /note="LRR 9"
+FT   MOD_RES         334
+FT                   /note="Sulfotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P23945"
+FT   CARBOHYD        191
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:7776966"
+FT   CARBOHYD        199
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        293
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:7776966"
+FT   DISULFID        18..25
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00521"
+FT   DISULFID        23..32
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00521"
+FT   DISULFID        275..345
+FT                   /evidence="ECO:0000250|UniProtKB:P23945"
+FT   DISULFID        276..355
+FT                   /evidence="ECO:0000250|UniProtKB:P23945"
+FT   DISULFID        276..292
+FT                   /evidence="ECO:0000250|UniProtKB:P23945"
+FT   DISULFID        292..337
+FT                   /evidence="ECO:0000250|UniProtKB:P23945"
+FT   DISULFID        441..516
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00521"
+FT   MUTAGEN         191
+FT                   /note="N->Q: Reduces N-glycosylation level."
+FT                   /evidence="ECO:0000269|PubMed:7776966"
+FT   MUTAGEN         199
+FT                   /note="N->Q: Does not affect N-glycosylation level."
+FT                   /evidence="ECO:0000269|PubMed:7776966"
+FT   MUTAGEN         293
+FT                   /note="N->Q: Reduces N-glycosylation level."
+FT                   /evidence="ECO:0000269|PubMed:7776966"
+FT   MUTAGEN         387
+FT                   /note="T->I: Reduces interaction with ARRB2; when
+FT                   associated with I-389 and N-394."
+FT                   /evidence="ECO:0000269|PubMed:12850288"
+FT   MUTAGEN         389
+FT                   /note="S->I: Reduces interaction with ARRB2; when
+FT                   associated with I-387 and N-394."
+FT                   /evidence="ECO:0000269|PubMed:12850288"
+FT   MUTAGEN         394
+FT                   /note="T->N: Reduces interaction with ARRB2; when
+FT                   associated with I-387 and I-389."
+FT                   /evidence="ECO:0000269|PubMed:12850288"
+FT   MUTAGEN         407
+FT                   /note="D->N: Reduces interaction with ARRB2."
+FT                   /evidence="ECO:0000269|PubMed:12850288"
+FT   MUTAGEN         548
+FT                   /note="Y->F: Reduces interaction with ARRB2."
+FT                   /evidence="ECO:0000269|PubMed:12850288"
+FT   CONFLICT        172..175
+FT                   /note="Missing (in Ref. 2; AAB21415)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        252
+FT                   /note="L -> W (in Ref. 2; AAB21415)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   692 AA;  77681 MW;  267EA78C7CFD8EC6 CRC64;
+     MALLLVSLLA FLGTGSGCHH WLCHCSNRVF LCQDSKVTEI PTDLPRNAIE LRFVLTKLRV
+     IPKGSFAGFG DLEKIEISQN DVLEVIEADV FSNLPKLHEI RIEKANNLLY INPEAFQNLP
+     SLRYLLISNT GIKHLPAVHK IQSLQKVLLD IQDNINIHIV ARNSFMGLSF ESVILWLSKN
+     GIEEIHNCAF NGTQLDELNL SDNNNLEELP NDVFQGASGP VILDISRTKV HSLPNHGLEN
+     LKKLRARSTY RLKKLPNLDK FVTLMEASLT YPSHCCAFAN LKRQISELHP ICNKSILRQD
+     IDDMTQIGDQ RVSLIDDEPS YGKGSDMMYN EFDYDLCNEV VDVTCSPKPD AFNPCEDIMG
+     YNILRVLIWF ISILAITGNT TVLVVLTTSQ YKLTVPRFLM CNLAFADLCI GIYLLLIASV
+     DIHTKSQYHN YAIDWQTGAG CDAAGFFTVF ASELSVYTLT AITLERWHTI THAMQLECKV
+     QLRHAASVMV LGWTFAFAAA LFPIFGISSY MKVSICLPMD IDSPLSQLYV MALLVLNVLA
+     FVVICGCYTH IYLTVRNPTI VSSSSDTKIA KRMATLIFTD FLCMAPISFF AISASLKVPL
+     ITVSKAKILL VLFYPINSCA NPFLYAIFTK NFRRDFFILL SKFGCYEMQA QIYRTETSSA
+     THNFHARKSH CSSAPRVTNS YVLVPLNHSS QN
+//

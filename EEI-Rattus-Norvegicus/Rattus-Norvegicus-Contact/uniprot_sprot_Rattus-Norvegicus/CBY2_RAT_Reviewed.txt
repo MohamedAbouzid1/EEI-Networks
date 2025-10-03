@@ -1,0 +1,144 @@
+ID   CBY2_RAT                Reviewed;         447 AA.
+AC   Q6AXV6;
+DT   23-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   27-MAR-2024, entry version 83.
+DE   RecName: Full=Protein chibby homolog 2 {ECO:0000305};
+DE   AltName: Full=Spermatid-associated protein;
+GN   Name=Cby2; Synonyms=Spert;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-41; SER-85; SER-88; SER-96;
+RP   SER-123; SER-143; SER-147; SER-149; SER-211; SER-224; SER-272; SER-275;
+RP   SER-333 AND SER-336, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE
+RP   ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- SUBUNIT: Homodimer. Binds to NEK1 (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the chibby family. SPERT subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079300; AAH79300.1; -; mRNA.
+DR   RefSeq; NP_001017506.1; NM_001017506.1.
+DR   AlphaFoldDB; Q6AXV6; -.
+DR   SMR; Q6AXV6; -.
+DR   STRING; 10116.ENSRNOP00000066296; -.
+DR   iPTMnet; Q6AXV6; -.
+DR   PhosphoSitePlus; Q6AXV6; -.
+DR   PaxDb; 10116-ENSRNOP00000066296; -.
+DR   Ensembl; ENSRNOT00000072138.2; ENSRNOP00000066296.1; ENSRNOG00000047413.2.
+DR   Ensembl; ENSRNOT00055026410; ENSRNOP00055021457; ENSRNOG00055015473.
+DR   Ensembl; ENSRNOT00060033899; ENSRNOP00060027758; ENSRNOG00060019583.
+DR   Ensembl; ENSRNOT00065014486; ENSRNOP00065010844; ENSRNOG00065009066.
+DR   GeneID; 498572; -.
+DR   KEGG; rno:498572; -.
+DR   AGR; RGD:1561044; -.
+DR   CTD; 220082; -.
+DR   RGD; 1561044; Cby2.
+DR   eggNOG; ENOG502S6IZ; Eukaryota.
+DR   GeneTree; ENSGT00940000153137; -.
+DR   HOGENOM; CLU_041289_0_0_1; -.
+DR   InParanoid; Q6AXV6; -.
+DR   OMA; QNEWSIW; -.
+DR   OrthoDB; 4512778at2759; -.
+DR   PhylomeDB; Q6AXV6; -.
+DR   PRO; PR:Q6AXV6; -.
+DR   Proteomes; UP000002494; Chromosome 15.
+DR   Bgee; ENSRNOG00000047413; Expressed in testis and 1 other cell type or tissue.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; ISO:RGD.
+DR   CDD; cd07429; Cby_like; 1.
+DR   InterPro; IPR028118; Chibby_fam.
+DR   PANTHER; PTHR21533; LEUCINE-RICH PROTEIN; 1.
+DR   PANTHER; PTHR21533:SF13; PROTEIN CHIBBY HOMOLOG 2; 1.
+DR   Pfam; PF14645; Chibby; 1.
+PE   1: Evidence at protein level;
+KW   Coiled coil; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..447
+FT                   /note="Protein chibby homolog 2"
+FT                   /id="PRO_0000307294"
+FT   REGION          208..244
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          266..320
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          164..197
+FT                   /evidence="ECO:0000255"
+FT   COILED          237..264
+FT                   /evidence="ECO:0000255"
+FT   COILED          354..412
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        266..319
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         41
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         85
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         88
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         96
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         123
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         143
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         147
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         149
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         211
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         224
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         272
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         275
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         333
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         336
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   447 AA;  52009 MW;  9FE9118048BB1F1E CRC64;
+     MSPLECSECF GDQLMHRTYT WHLTLHSRPN FTRKREIRSE SLEIPINVIL PQRGTEPFLR
+     LHNLYTTPRC SRQAAMPRIS RRVASQHSYP LNRFSSMPFD PMERPTSQAD LELDYNPPRV
+     QLSDEMFVFQ DGRWVNESCR LQSPYFSPSS SFHHKLHHKR MAKEYLLQEE NKSLRDENRA
+     LRDENKALRK ENKILQVFWE EHKVTLGHEE SQTSSPLLHK DTTSQEVVKK DNATLPAQRS
+     KENTLQFIRE ENRALQQLLE QRQAYWAQAE ESATSAEEGK PTSSPKEEPH NSGLLPDQST
+     SHSSHFEEPK ASPTTQEDSK TLRALREMVT NLSGPSGEEE GKAGPNLTDS AQPLQLLREM
+     NQALQALREE NRLLQEENRA LHAMREEHRV FQEENKALWE NNKLKLQQRL VIDTVTEVTA
+     RMEMLIEELY AFMPAKNNKD PKKPSRV
+//

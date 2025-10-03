@@ -1,0 +1,176 @@
+ID   UD2B1_RAT               Reviewed;         529 AA.
+AC   P09875;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1989, sequence version 1.
+DT   24-JUL-2024, entry version 168.
+DE   RecName: Full=UDP-glucuronosyltransferase 2B1 {ECO:0000303|PubMed:18719240};
+DE            Short=UDPGT 2B1;
+DE            Short=UGT2B1;
+DE            EC=2.4.1.17 {ECO:0000269|PubMed:18719240};
+DE   AltName: Full=UDPGTr-2;
+DE   Flags: Precursor;
+GN   Name=Ugt2b1 {ECO:0000312|RGD:708541}; Synonyms=Udpgtr2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND SUBCELLULAR LOCATION.
+RC   TISSUE=Liver;
+RX   PubMed=3084479; DOI=10.1016/s0021-9258(17)38500-9;
+RA   McKenzie P.I.;
+RT   "Rat liver UDP-glucuronosyltransferase. Sequence and expression of a cDNA
+RT   encoding a phenobarbital-inducible form.";
+RL   J. Biol. Chem. 261:6119-6125(1986).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2113533; DOI=10.1016/s0021-9258(19)38595-3;
+RA   McKenzie P.I., Rodbourn L.;
+RT   "Organization of the rat UDP-glucuronosyltransferase, UDPGTr-2, gene and
+RT   characterization of its promoter.";
+RL   J. Biol. Chem. 265:11328-11332(1990).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=18719240; DOI=10.1124/dmd.108.022731;
+RA   Itaeaho K., Mackenzie P.I., Ikushiro S., Miners J.O., Finel M.;
+RT   "The configuration of the 17-hydroxy group variably influences the
+RT   glucuronidation of beta-estradiol and epiestradiol by human UDP-
+RT   glucuronosyltransferases.";
+RL   Drug Metab. Dispos. 36:2307-2315(2008).
+CC   -!- FUNCTION: UDP-glucuronosyltransferase (UGT) that catalyzes phase II
+CC       biotransformation reactions in which lipophilic substrates are
+CC       conjugated with glucuronic acid to increase the metabolite's water
+CC       solubility, thereby facilitating excretion into either the urine or
+CC       bile (PubMed:18719240). Essential for the elimination and
+CC       detoxification of drugs, xenobiotics and endogenous compounds
+CC       (PubMed:18719240). Catalyzes the glucuronidation of the endogenous
+CC       estrogen hormone estradiol (PubMed:18719240).
+CC       {ECO:0000269|PubMed:18719240}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glucuronate acceptor + UDP-alpha-D-glucuronate = acceptor
+CC         beta-D-glucuronoside + H(+) + UDP; Xref=Rhea:RHEA:21032,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58052, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:132367, ChEBI:CHEBI:132368; EC=2.4.1.17;
+CC         Evidence={ECO:0000269|PubMed:18719240};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21033;
+CC         Evidence={ECO:0000305|PubMed:18719240};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol + UDP-alpha-D-glucuronate = 17beta-estradiol
+CC         17-O-(beta-D-glucuronate) + H(+) + UDP; Xref=Rhea:RHEA:52464,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16469, ChEBI:CHEBI:58052,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:82961;
+CC         Evidence={ECO:0000269|PubMed:18719240};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52465;
+CC         Evidence={ECO:0000305|PubMed:18719240};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=13.4 uM for 17beta-estradiol/estradiol (when assaying
+CC         glucuronidation at position 17) {ECO:0000269|PubMed:18719240};
+CC         Vmax=1630 pmol/min/mg enzyme for the formation of 17beta-estradiol
+CC         17-O-(beta-D-glucuronate) {ECO:0000269|PubMed:18719240};
+CC         Vmax=55 pmol/min/mg enzyme for the formation of 17beta-estradiol 3-O-
+CC         (beta-D-glucuronate) {ECO:0000269|PubMed:18719240};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000305|PubMed:3084479}; Single-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- INDUCTION: By phenobarbital. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the UDP-glycosyltransferase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M13506; AAA42313.1; -; mRNA.
+DR   EMBL; M35086; AAA42310.1; -; Genomic_DNA.
+DR   EMBL; M35202; AAA42310.1; JOINED; Genomic_DNA.
+DR   EMBL; M35080; AAA42310.1; JOINED; Genomic_DNA.
+DR   EMBL; M35082; AAA42310.1; JOINED; Genomic_DNA.
+DR   EMBL; M35083; AAA42310.1; JOINED; Genomic_DNA.
+DR   PIR; A42233; A42233.
+DR   RefSeq; NP_775417.1; NM_173295.1.
+DR   AlphaFoldDB; P09875; -.
+DR   SMR; P09875; -.
+DR   IntAct; P09875; 5.
+DR   STRING; 10116.ENSRNOP00000002724; -.
+DR   SwissLipids; SLP:000001699; -.
+DR   CAZy; GT1; Glycosyltransferase Family 1.
+DR   GlyCosmos; P09875; 2 sites, No reported glycans.
+DR   GlyGen; P09875; 2 sites.
+DR   iPTMnet; P09875; -.
+DR   PhosphoSitePlus; P09875; -.
+DR   PaxDb; 10116-ENSRNOP00000002724; -.
+DR   Ensembl; ENSRNOT00000002724.4; ENSRNOP00000002724.2; ENSRNOG00000001990.5.
+DR   GeneID; 286954; -.
+DR   KEGG; rno:286954; -.
+DR   UCSC; RGD:708541; rat.
+DR   AGR; RGD:708541; -.
+DR   CTD; 71773; -.
+DR   RGD; 708541; Ugt2b1.
+DR   eggNOG; KOG1192; Eukaryota.
+DR   GeneTree; ENSGT00940000153212; -.
+DR   InParanoid; P09875; -.
+DR   OMA; KCLFCVL; -.
+DR   OrthoDB; 382054at2759; -.
+DR   PhylomeDB; P09875; -.
+DR   TreeFam; TF315472; -.
+DR   BRENDA; 2.4.1.17; 5301.
+DR   Reactome; R-RNO-156588; Glucuronidation.
+DR   Reactome; R-RNO-9749641; Aspirin ADME.
+DR   Reactome; R-RNO-9753281; Paracetamol ADME.
+DR   Reactome; R-RNO-9757110; Prednisone ADME.
+DR   SABIO-RK; P09875; -.
+DR   PRO; PR:P09875; -.
+DR   Proteomes; UP000002494; Chromosome 14.
+DR   Bgee; ENSRNOG00000001990; Expressed in duodenum and 11 other cell types or tissues.
+DR   ExpressionAtlas; P09875; baseline and differential.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015020; F:glucuronosyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0070980; P:biphenyl catabolic process; IDA:RGD.
+DR   GO; GO:0052695; P:cellular glucuronidation; IDA:UniProtKB.
+DR   GO; GO:0071361; P:cellular response to ethanol; IEP:RGD.
+DR   GO; GO:0071385; P:cellular response to glucocorticoid stimulus; IEP:RGD.
+DR   GO; GO:0071378; P:cellular response to growth hormone stimulus; IEP:RGD.
+DR   GO; GO:0071394; P:cellular response to testosterone stimulus; IEP:RGD.
+DR   GO; GO:0008210; P:estrogen metabolic process; IDA:UniProtKB.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0006805; P:xenobiotic metabolic process; TAS:RGD.
+DR   CDD; cd03784; GT1_Gtf-like; 1.
+DR   Gene3D; 3.40.50.2000; Glycogen Phosphorylase B; 2.
+DR   InterPro; IPR050271; UDP-glycosyltransferase.
+DR   InterPro; IPR002213; UDP_glucos_trans.
+DR   InterPro; IPR035595; UDP_glycos_trans_CS.
+DR   PANTHER; PTHR48043; EG:EG0003.4 PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR48043:SF12; UDP-GLUCURONOSYLTRANSFERASE 2B17-RELATED; 1.
+DR   Pfam; PF00201; UDPGT; 1.
+DR   SUPFAM; SSF53756; UDP-Glycosyltransferase/glycogen phosphorylase; 1.
+DR   PROSITE; PS00375; UDPGT; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Glycoprotein; Glycosyltransferase; Membrane;
+KW   Reference proteome; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           24..529
+FT                   /note="UDP-glucuronosyltransferase 2B1"
+FT                   /id="PRO_0000036025"
+FT   TRANSMEM        494..510
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        134
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        316
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   529 AA;  60485 MW;  14DF0224BF1C3044 CRC64;
+     MSMKQTSVFL LIQLICYFRP GACGKVLVWP TEYSHWINIK IILNELAQRG HEVTVLVSSA
+     SILIEPTKES SINFEIYSVP LSKSDLEYSF AKWIDEWTRD FETLSIWTYY SKMQKVFNEY
+     SDVVENLCKA LIWNKSLMKK LQGSQFDVIL ADAVGPCGEL LAELLKTPLV YSLRFCPGYR
+     CEKFSGGLPL PPSYVPVVLS ELSDRMTFVE RVKNMLQMLY FDFWFQPFKE KSWSQFYSDV
+     LGRPTTLTEM MGKADIWLIR TFWDLEFPHP FLPNFDFVGG LHCKPAKPLP REMEEFVQSS
+     GEHGVVVFSL GSMVKNLTEE KANVVASALA QIPQKVVWRF DGKKPDTLGS NTRLYKWIPQ
+     NDLLGHPKTK AFVAHGGTNG IYEAIYHGIP IVGIPLFADQ PDNINHMVAK GAAVRVDFSI
+     LSTTGLLTAL KIVMNDPSYK ENAMRLSRIH HDQPVKPLDR AVFWIEYVMR HKGAKHLRST
+     LHDLSWFQYH SLDVIGFLLL CVVGVVFIIT KFCLFCCRKT ANMGKKKKE
+//

@@ -1,0 +1,189 @@
+ID   UD17_RAT                Reviewed;         531 AA.
+AC   Q64633;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   02-OCT-2024, entry version 129.
+DE   RecName: Full=UDP-glucuronosyltransferase 1A7 {ECO:0000305};
+DE            Short=UGT1A7;
+DE            EC=2.4.1.17 {ECO:0000250|UniProtKB:Q9HAW7};
+DE   AltName: Full=A2;
+DE   AltName: Full=UDP-glucuronosyltransferase 1-7;
+DE            Short=UDPGT 1-7;
+DE            Short=UGT1*7;
+DE            Short=UGT1-07;
+DE            Short=UGT1.7;
+DE   AltName: Full=UDP-glucuronosyltransferase 1A7C;
+DE   Flags: Precursor;
+GN   Name=Ugt1a7 {ECO:0000312|RGD:620950}; Synonyms=Ugt1, Ugt1a7c;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-286.
+RC   STRAIN=Wistar;
+RX   PubMed=7608130; DOI=10.1093/jb/117.2.392;
+RA   Emi Y., Ikushiro S., Iyanagi T.;
+RT   "Drug-responsive and tissue-specific alternative expression of multiple
+RT   first exons in rat UDP-glucuronosyltransferase family 1 (UGT1) gene
+RT   complex.";
+RL   J. Biochem. 117:392-399(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 287-531.
+RC   TISSUE=Liver;
+RX   PubMed=2112380; DOI=10.1016/0006-291x(90)91462-2;
+RA   Sato H., Koiwai O., Tanabe K., Kashiwamata S.;
+RT   "Isolation and sequencing of rat liver bilirubin UDP-
+RT   glucuronosyltransferase cDNA: possible alternate splicing of a common
+RT   primary transcript.";
+RL   Biochem. Biophys. Res. Commun. 169:260-264(1990).
+CC   -!- FUNCTION: UDP-glucuronosyltransferase (UGT) that catalyzes phase II
+CC       biotransformation reactions in which lipophilic substrates are
+CC       conjugated with glucuronic acid to increase the metabolite's water
+CC       solubility, thereby facilitating excretion into either the urine or
+CC       bile. Essential for the elimination and detoxification of drugs,
+CC       xenobiotics and endogenous compounds. Catalyzes the glucuronidation of
+CC       endogenous estrogen hormone epiestradiol. Also catalyzes the
+CC       glucuronidation of the isoflavones genistein, daidzein, glycitein,
+CC       formononetin, biochanin A and prunetin, which are phytoestrogens with
+CC       anticancer and cardiovascular properties. Involved in the
+CC       glucuronidation of the AGTR1 angiotensin receptor antagonist
+CC       caderastan, a drug which can inhibit the effect of angiotensin II.
+CC       Involved in the biotransformation of 7-ethyl-10-hydroxycamptothecin
+CC       (SN-38), the pharmacologically active metabolite of the anticancer drug
+CC       irinotecan. {ECO:0000250|UniProtKB:Q9HAW7}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glucuronate acceptor + UDP-alpha-D-glucuronate = acceptor
+CC         beta-D-glucuronoside + H(+) + UDP; Xref=Rhea:RHEA:21032,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58052, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:132367, ChEBI:CHEBI:132368; EC=2.4.1.17;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21033;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17alpha-estradiol + UDP-alpha-D-glucuronate = 17alpha-
+CC         estradiol 3-O-(beta-D-glucuronate) + H(+) + UDP;
+CC         Xref=Rhea:RHEA:52868, ChEBI:CHEBI:15378, ChEBI:CHEBI:17160,
+CC         ChEBI:CHEBI:57529, ChEBI:CHEBI:58052, ChEBI:CHEBI:58223;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:52869;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=mycophenolate + UDP-alpha-D-glucuronate = H(+) + mycophenolate
+CC         7-O-beta-D-glucuronide + UDP; Xref=Rhea:RHEA:63704,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58052, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:62932, ChEBI:CHEBI:149486;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63705;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=SN-38 + UDP-alpha-D-glucuronate = H(+) + SN-38 O-beta-D-
+CC         glucuronide + UDP; Xref=Rhea:RHEA:63696, ChEBI:CHEBI:8988,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58052, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:149482; Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63697;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=prunetin + UDP-alpha-D-glucuronate = prunetin-5-O-beta-D-
+CC         glucuronide + UDP; Xref=Rhea:RHEA:63612, ChEBI:CHEBI:58052,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:147403, ChEBI:CHEBI:147405;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63613;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=candesartan + UDP-alpha-D-glucuronate = candesartan O-beta-D-
+CC         glucuronoside + UDP; Xref=Rhea:RHEA:63724, ChEBI:CHEBI:58052,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:149509, ChEBI:CHEBI:149522;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63725;
+CC         Evidence={ECO:0000250|UniProtKB:Q9HAW7};
+CC   -!- SUBUNIT: Homodimer. Homooligomer. Interacts with UGT1A1, UGT1A3,
+CC       UGT1A4, UGT1A6, UGT1A8, UGT1A9 and UGT1A10 to form heterodimers.
+CC       {ECO:0000250|UniProtKB:Q9HAW7}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q9HAW7}; Single-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=1;
+CC         Comment=UGT1A7 is one of the isoforms produced at the UGT1A complex
+CC         locus. The UGT1A complex locus produces different isoforms based on
+CC         alternative use of promoters, first exons and terminal exons.
+CC         {ECO:0000250|UniProtKB:Q9HAW7};
+CC       Name=1;
+CC         IsoId=Q64633-1; Sequence=Displayed;
+CC   -!- SIMILARITY: Belongs to the UDP-glycosyltransferase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D38062; BAA07258.1; -; Genomic_DNA.
+DR   EMBL; M34007; AAA42312.1; ALT_TERM; mRNA.
+DR   AlphaFoldDB; Q64633; -.
+DR   SMR; Q64633; -.
+DR   CAZy; GT1; Glycosyltransferase Family 1.
+DR   GlyCosmos; Q64633; 3 sites, No reported glycans.
+DR   GlyGen; Q64633; 3 sites.
+DR   PhosphoSitePlus; Q64633; -.
+DR   UCSC; RGD:620950; rat. [Q64633-1]
+DR   AGR; RGD:620950; -.
+DR   RGD; 620950; Ugt1a7c.
+DR   InParanoid; Q64633; -.
+DR   BRENDA; 2.4.1.17; 5301.
+DR   Reactome; R-RNO-156588; Glucuronidation.
+DR   Reactome; R-RNO-9749641; Aspirin ADME.
+DR   Reactome; R-RNO-9753281; Paracetamol ADME.
+DR   PRO; PR:Q64633; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IBA:GO_Central.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019899; F:enzyme binding; IBA:GO_Central.
+DR   GO; GO:0015020; F:glucuronosyltransferase activity; IDA:RGD.
+DR   GO; GO:0052695; P:cellular glucuronidation; ISS:UniProtKB.
+DR   GO; GO:0046226; P:coumarin catabolic process; IDA:RGD.
+DR   GO; GO:0006711; P:estrogen catabolic process; IDA:RGD.
+DR   GO; GO:0001889; P:liver development; IEP:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IEP:RGD.
+DR   CDD; cd03784; GT1_Gtf-like; 1.
+DR   Gene3D; 3.40.50.2000; Glycogen Phosphorylase B; 2.
+DR   InterPro; IPR050271; UDP-glycosyltransferase.
+DR   InterPro; IPR002213; UDP_glucos_trans.
+DR   InterPro; IPR035595; UDP_glycos_trans_CS.
+DR   PANTHER; PTHR48043; EG:EG0003.4 PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR48043:SF157; UDP GLUCURONOSYLTRANSFERASE 1 FAMILY POLYPEPTIDE A3 PRECURSOR-RELATED; 1.
+DR   Pfam; PF00201; UDPGT; 1.
+DR   SUPFAM; SSF53756; UDP-Glycosyltransferase/glycogen phosphorylase; 1.
+DR   PROSITE; PS00375; UDPGT; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Endoplasmic reticulum; Glycoprotein;
+KW   Glycosyltransferase; Lipid metabolism; Membrane; Reference proteome;
+KW   Signal; Transferase; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..531
+FT                   /note="UDP-glucuronosyltransferase 1A7"
+FT                   /id="PRO_0000036021"
+FT   TRANSMEM        487..503
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        71
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        293
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        431
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   531 AA;  59627 MW;  BC791DCE724CA621 CRC64;
+     MAPADVPASL PLGLCLLLAS GFGHAGKLLV VPMDGSHWFT MQMVVEKLLP KGHEVVVVVP
+     EVSWQLGKPL NFTVKTYSVS HTQEDLNREF KFFIDSQWKT QQESGVLPLL TSPAQGFFEL
+     LFSHCRSLFK DKKLVEYLKQ SSFDAVFLDP FDVCGLTVAK YFSLPSVVFS RGIFCHYLEE
+     GSQCPSPPSY VPRPILKLTD TMTFKERVWN LLSYMGEHAF CPSFFKTATD IASEVLQTPV
+     TMTDLFSPVS VWLLRTDFTL ELPRPVMPNV IHIGGINCHQ RKPVSKEFEA YVNASGEHGI
+     VVFSLGSMVS EIPEKKAMEI AEALGRIPQT LLWRYTGTRP SNLAKNTILV KWLPQNDLLG
+     HPKARAFITH SGSHGIYEGI CNGVPMVMMP LFGDQMDNAK RMETRGAGVT LNVLEMTADD
+     LENALKTVIN NKSYKENIMR LSSLHKDRPI EPLDLAVFWV EYVMRHKGAP HLRPAAHDLT
+     WYQYHSLDVI GFLLAIVLTV VFIVYKSCAY GCRKCFGGKG RVKKSHKSKT H
+//

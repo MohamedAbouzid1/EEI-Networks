@@ -1,0 +1,349 @@
+ID   PEMT_RAT                Reviewed;         199 AA.
+AC   Q08388; Q5BK89;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   29-MAY-2024, entry version 135.
+DE   RecName: Full=Phosphatidylethanolamine N-methyltransferase {ECO:0000303|PubMed:3182818, ECO:0000303|PubMed:3680298, ECO:0000303|PubMed:8344945};
+DE            Short=PE N-methyltransferase {ECO:0000303|PubMed:3182818, ECO:0000303|PubMed:3680298, ECO:0000303|PubMed:8344945};
+DE            Short=PEAMT {ECO:0000255|HAMAP-Rule:MF_03216};
+DE            Short=PEMT {ECO:0000255|HAMAP-Rule:MF_03216};
+DE            EC=2.1.1.17 {ECO:0000305|PubMed:3182818, ECO:0000305|PubMed:3680298, ECO:0000305|PubMed:8344945};
+DE            EC=2.1.1.71 {ECO:0000305|PubMed:3182818, ECO:0000305|PubMed:3680298, ECO:0000305|PubMed:8344945};
+DE   AltName: Full=Phospholipid methyltransferase {ECO:0000255|HAMAP-Rule:MF_03216};
+DE            Short=PLMT {ECO:0000255|HAMAP-Rule:MF_03216};
+GN   Name=Pemt {ECO:0000255|HAMAP-Rule:MF_03216}; Synonyms=Pempt;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, SUBCELLULAR
+RP   LOCATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Liver;
+RX   PubMed=8344945; DOI=10.1016/s0021-9258(19)85468-6;
+RA   Cui Z., Vance J.E., Chen M.H., Voelker D.R., Vance D.E.;
+RT   "Cloning and expression of a novel phosphatidylethanolamine N-
+RT   methyltransferase. A specific biochemical and cytological marker for a
+RT   unique membrane fraction in rat liver.";
+RL   J. Biol. Chem. 268:16655-16663(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 2-31.
+RA   Ridgway N.D.;
+RL   Thesis (1988), University of British Columbia, Canada.
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND PATHWAY.
+RX   PubMed=3680298; DOI=10.1016/s0021-9258(18)45514-7;
+RA   Ridgway N.D., Vance D.E.;
+RT   "Purification of phosphatidylethanolamine N-methyltransferase from rat
+RT   liver.";
+RL   J. Biol. Chem. 262:17231-17239(1987).
+RN   [5]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=3182818; DOI=10.1016/s0021-9258(18)37470-2;
+RA   Ridgway N.D., Vance D.E.;
+RT   "Specificity of rat hepatic phosphatidylethanolamine N-methyltransferase
+RT   for molecular species of diacyl phosphatidylethanolamine.";
+RL   J. Biol. Chem. 263:16856-16863(1988).
+CC   -!- FUNCTION: Catalyzes the three sequential steps of the methylation
+CC       pathway for the biosynthesis of phosphatidylcholine, a critical and
+CC       essential component for membrane structure (Probable) (PubMed:8344945).
+CC       Uses S-adenosylmethionine (S-adenosyl-L-methionine, SAM or AdoMet) as
+CC       the methyl group donor for the methylation of phosphatidylethanolamine
+CC       (1,2-diacyl-sn-glycero-3-phosphoethanolamine, PE) to
+CC       phosphatidylmonomethylethanolamine (1,2-diacyl-sn-glycero-3-phospho-N-
+CC       methylethanolamine, PMME), PMME to phosphatidyldimethylethanolamine
+CC       (1,2-diacyl-sn-glycero-3-phospho-N,N-dimethylethanolamine, PDME), and
+CC       PDME to phosphatidylcholine (1,2-diacyl-sn-glycero-3-phosphocholine,
+CC       PC), producing S-adenosyl-L-homocysteine in each step (Probable)
+CC       (PubMed:8344945). {ECO:0000269|PubMed:8344945,
+CC       ECO:0000305|PubMed:3182818, ECO:0000305|PubMed:3680298}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphoethanolamine + S-adenosyl-L-
+CC         methionine = 1,2-diacyl-sn-glycero-3-phospho-N-methylethanolamine +
+CC         H(+) + S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:11164,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:64573, ChEBI:CHEBI:64612; EC=2.1.1.17;
+CC         Evidence={ECO:0000305|PubMed:3182818, ECO:0000305|PubMed:3680298,
+CC         ECO:0000305|PubMed:8344945};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:11165;
+CC         Evidence={ECO:0000305|PubMed:3182818, ECO:0000305|PubMed:3680298,
+CC         ECO:0000305|PubMed:8344945};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-diacyl-sn-glycero-3-phospho-N-methylethanolamine + S-
+CC         adenosyl-L-methionine = 1,2-diacyl-sn-glycero-3-phospho-N,N-
+CC         dimethylethanolamine + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:32735, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:64572, ChEBI:CHEBI:64573; EC=2.1.1.71;
+CC         Evidence={ECO:0000305|PubMed:3182818, ECO:0000305|PubMed:3680298,
+CC         ECO:0000305|PubMed:8344945};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:32736;
+CC         Evidence={ECO:0000305|PubMed:3182818, ECO:0000305|PubMed:3680298,
+CC         ECO:0000305|PubMed:8344945};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-diacyl-sn-glycero-3-phospho-N,N-dimethylethanolamine + S-
+CC         adenosyl-L-methionine = a 1,2-diacyl-sn-glycero-3-phosphocholine +
+CC         H(+) + S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:32739,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57643, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:64572; EC=2.1.1.71;
+CC         Evidence={ECO:0000305|PubMed:3182818, ECO:0000305|PubMed:3680298,
+CC         ECO:0000305|PubMed:8344945};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:32740;
+CC         Evidence={ECO:0000305|PubMed:3182818, ECO:0000305|PubMed:3680298,
+CC         ECO:0000305|PubMed:8344945};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine + S-
+CC         adenosyl-L-methionine = 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-
+CC         phospho-N-methylethanolamine + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:70619, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:74986, ChEBI:CHEBI:85679;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70620;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phospho-N-
+CC         methylethanolamine + S-adenosyl-L-methionine = 1,2-di-(9Z-
+CC         octadecenoyl)-sn-glycero-3-phospho-N,N-dimethylethanolamine + H(+) +
+CC         S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:46112, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:85679,
+CC         ChEBI:CHEBI:85680; Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:46113;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phospho-N,N-
+CC         dimethylethanolamine + S-adenosyl-L-methionine = 1,2-di-(9Z-
+CC         octadecenoyl)-sn-glycero-3-phosphocholine + H(+) + S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:70623, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:74669,
+CC         ChEBI:CHEBI:85680; Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70624;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-
+CC         phosphoethanolamine + S-adenosyl-L-methionine = 1,2-di-(9Z,12Z-
+CC         octadecadienoyl)-sn-glycero-3-phospho-N-methylethanolamine + H(+) +
+CC         S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:70739, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:172403,
+CC         ChEBI:CHEBI:189848; Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70740;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phospho-N-
+CC         methylethanolamine + S-adenosyl-L-methionine = 1,2-di-(9Z,12Z-
+CC         octadecadienoyl)-sn-glycero-3-phospho-N,N-dimethylethanolamine + H(+)
+CC         + S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:70743, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:189848,
+CC         ChEBI:CHEBI:189849; Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70744;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phospho-N,N-
+CC         dimethylethanolamine + S-adenosyl-L-methionine = 1,2-di-(9Z,12Z-
+CC         octadecadienoyl)-sn-glycero-3-phosphocholine + H(+) + S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:70747, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:42027, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:189849; Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70748;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-
+CC         phosphoethanolamine + S-adenosyl-L-methionine = 1,2-di-(9Z,12Z,15Z-
+CC         octadecatrienoyl)-sn-glycero-3-phospho-N-methylethanolamine + H(+) +
+CC         S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:70751, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:189858,
+CC         ChEBI:CHEBI:189859; Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70752;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phospho-N-
+CC         methylethanolamine + S-adenosyl-L-methionine = 1,2-di-(9Z,12Z,15Z-
+CC         octadecatrienoyl)-sn-glycero-3-phospho-N,N-dimethylethanolamine +
+CC         H(+) + S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:70755,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:189859, ChEBI:CHEBI:189860;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70756;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-di-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phospho-N,N-
+CC         dimethylethanolamine + S-adenosyl-L-methionine = 1,2-di-(9Z,12Z,15Z-
+CC         octadecatrienoyl)-sn-glycero-3-phosphocholine + H(+) + S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:70759, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:86161,
+CC         ChEBI:CHEBI:189860; Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70760;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-
+CC         glycero-3-phosphoethanolamine + S-adenosyl-L-methionine = 1-
+CC         hexadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycero-3-
+CC         phospho-N-methylethanolamine + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:70763, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:78261, ChEBI:CHEBI:189861;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70764;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-
+CC         glycero-3-phospho-N-methylethanolamine + S-adenosyl-L-methionine = 1-
+CC         hexadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycero-3-
+CC         phospho-N,N-dimethylethanolamine + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:70767, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:189861, ChEBI:CHEBI:189862;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70768;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-
+CC         glycero-3-phospho-N,N-dimethylethanolamine + S-adenosyl-L-methionine
+CC         = 1-hexadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-
+CC         glycero-3-phosphocholine + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:70771, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:74963, ChEBI:CHEBI:189862;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70772;
+CC         Evidence={ECO:0000305|PubMed:3182818};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 10. {ECO:0000305|PubMed:3680298};
+CC   -!- PATHWAY: Phospholipid metabolism; phosphatidylcholine biosynthesis.
+CC       {ECO:0000305|PubMed:3680298}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q9UBM1}; Multi-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_03216}. Mitochondrion membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_03216}; Multi-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_03216}. Note=Found in endoplasmic reticulum
+CC       where most PEMT activity is generated and in mitochondria (By
+CC       similarity). Located in a unique membrane in the hepatocyte, which is
+CC       not recognizable as any known subcellular structure (PubMed:8344945).
+CC       {ECO:0000250|UniProtKB:Q9UBM1, ECO:0000269|PubMed:8344945}.
+CC   -!- TISSUE SPECIFICITY: Expressed in liver (at protein level).
+CC       {ECO:0000269|PubMed:8344945}.
+CC   -!- SIMILARITY: Belongs to the class VI-like SAM-binding methyltransferase
+CC       superfamily. PEMT/PEM2 methyltransferase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_03216}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L14441; AAA03154.1; -; mRNA.
+DR   EMBL; BC091162; AAH91162.1; -; mRNA.
+DR   PIR; A47353; A47353.
+DR   RefSeq; NP_037135.1; NM_013003.1.
+DR   AlphaFoldDB; Q08388; -.
+DR   STRING; 10116.ENSRNOP00000074801; -.
+DR   PaxDb; 10116-ENSRNOP00000004488; -.
+DR   Ensembl; ENSRNOT00055046642; ENSRNOP00055038280; ENSRNOG00055027004.
+DR   Ensembl; ENSRNOT00060049591; ENSRNOP00060041355; ENSRNOG00060028516.
+DR   Ensembl; ENSRNOT00065012494; ENSRNOP00065009192; ENSRNOG00065007931.
+DR   GeneID; 25511; -.
+DR   KEGG; rno:25511; -.
+DR   AGR; RGD:3297; -.
+DR   CTD; 10400; -.
+DR   RGD; 3297; Pemt.
+DR   VEuPathDB; HostDB:ENSRNOG00000054423; -.
+DR   eggNOG; KOG4142; Eukaryota.
+DR   HOGENOM; CLU_086119_0_1_1; -.
+DR   InParanoid; Q08388; -.
+DR   OrthoDB; 1499at2759; -.
+DR   PhylomeDB; Q08388; -.
+DR   BioCyc; MetaCyc:MONOMER-16675; -.
+DR   BRENDA; 2.1.1.17; 5301.
+DR   Reactome; R-RNO-1483191; Synthesis of PC.
+DR   UniPathway; UPA00753; -.
+DR   PRO; PR:Q08388; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000054423; Expressed in liver and 19 other cell types or tissues.
+DR   GO; GO:0031526; C:brush border membrane; IDA:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISO:RGD.
+DR   GO; GO:0031966; C:mitochondrial membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042383; C:sarcolemma; IDA:RGD.
+DR   GO; GO:0080101; F:phosphatidyl-N-dimethylethanolamine N-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000773; F:phosphatidyl-N-methylethanolamine N-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008429; F:phosphatidylethanolamine binding; IDA:RGD.
+DR   GO; GO:0004608; F:phosphatidylethanolamine N-methyltransferase activity; IDA:RGD.
+DR   GO; GO:0008757; F:S-adenosylmethionine-dependent methyltransferase activity; IDA:RGD.
+DR   GO; GO:0001835; P:blastocyst hatching; ISO:RGD.
+DR   GO; GO:0006650; P:glycerophospholipid metabolic process; IMP:RGD.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; IMP:RGD.
+DR   GO; GO:0006656; P:phosphatidylcholine biosynthetic process; IDA:RGD.
+DR   GO; GO:0120162; P:positive regulation of cold-induced thermogenesis; ISS:YuBioLab.
+DR   GO; GO:0050747; P:positive regulation of lipoprotein metabolic process; IMP:RGD.
+DR   GO; GO:0043200; P:response to amino acid; IEP:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IEP:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IEP:RGD.
+DR   GO; GO:0033273; P:response to vitamin; IDA:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IDA:RGD.
+DR   GO; GO:0046498; P:S-adenosylhomocysteine metabolic process; IDA:RGD.
+DR   GO; GO:0046500; P:S-adenosylmethionine metabolic process; IDA:RGD.
+DR   GO; GO:0006686; P:sphingomyelin biosynthetic process; ISO:RGD.
+DR   Gene3D; 1.20.120.1630; -; 1.
+DR   HAMAP; MF_03216; PLMT; 1.
+DR   InterPro; IPR024960; PEMT/MFAP.
+DR   InterPro; IPR007318; Phopholipid_MeTrfase.
+DR   PANTHER; PTHR15458; PHOSPHATIDYLETHANOLAMINE N-METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR15458:SF5; PHOSPHATIDYLETHANOLAMINE N-METHYLTRANSFERASE; 1.
+DR   Pfam; PF04191; PEMT; 1.
+DR   PIRSF; PIRSF005444; PEMT; 1.
+DR   PROSITE; PS51599; SAM_PEMT_PEM2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Endoplasmic reticulum; Lipid biosynthesis;
+KW   Lipid metabolism; Membrane; Methyltransferase; Mitochondrion;
+KW   Phospholipid biosynthesis; Phospholipid metabolism; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase; Transmembrane; Transmembrane helix.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|Ref.3"
+FT   CHAIN           2..199
+FT                   /note="Phosphatidylethanolamine N-methyltransferase"
+FT                   /id="PRO_0000193922"
+FT   TOPO_DOM        2..12
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03216"
+FT   INTRAMEM        13..33
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03216"
+FT   TOPO_DOM        34..45
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03216"
+FT   TRANSMEM        46..66
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03216"
+FT   TOPO_DOM        67..93
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03216"
+FT   TRANSMEM        94..114
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03216"
+FT   TOPO_DOM        115..157
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03216"
+FT   TRANSMEM        158..178
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03216"
+FT   TOPO_DOM        179..199
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03216"
+FT   BINDING         98..100
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03216"
+FT   BINDING         180..181
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03216"
+SQ   SEQUENCE   199 AA;  22486 MW;  8F1A938ED883B0FA CRC64;
+     MSWLLGYVDP TEPSFVAAVL TIVFNPLFWN VVARWEQRTR KLSRAFGSPY LACYSLGSII
+     LLLNILRSHC FTQAMMSQPK MEGLDSHTIY FLGLALLGWG LVFVLSSFYA LGFTGTFLGD
+     YFGILKESRV TTFPFSVLDN PMYWGSTANY LGWALMHASP TGLLLTVLVA LVYVVALLFE
+     EPFTAEIYRR KATRLHKRS
+//

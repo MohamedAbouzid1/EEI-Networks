@@ -1,0 +1,148 @@
+ID   SFXN1_RAT               Reviewed;         322 AA.
+AC   Q63965;
+DT   27-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 4.
+DT   24-JUL-2024, entry version 115.
+DE   RecName: Full=Sideroflexin-1;
+DE   AltName: Full=Tricarboxylate carrier protein {ECO:0000303|PubMed:8132491};
+DE            Short=TCC {ECO:0000303|PubMed:8132491};
+GN   Name=Sfxn1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND CAUTION.
+RC   TISSUE=Liver;
+RX   PubMed=8132491; DOI=10.1007/bf01108408;
+RA   Azzi A., Glerum M., Koller R., Mertens W., Spycher S.;
+RT   "The mitochondrial tricarboxylate carrier.";
+RL   J. Bioenerg. Biomembr. 25:515-524(1993).
+RN   [2]
+RP   CAUTION.
+RX   PubMed=30442778; DOI=10.1126/science.aat9528;
+RA   Kory N., Wyant G.A., Prakash G., Uit de Bos J., Bottanelli F., Pacold M.E.,
+RA   Chan S.H., Lewis C.A., Wang T., Keys H.R., Guo Y.E., Sabatini D.M.;
+RT   "SFXN1 is a mitochondrial serine transporter required for one-carbon
+RT   metabolism.";
+RL   Science 362:0-0(2018).
+CC   -!- FUNCTION: Amino acid transporter importing serine, an essential
+CC       substrate of the mitochondrial branch of the one-carbon pathway, into
+CC       mitochondria. Mitochondrial serine is then converted to glycine and
+CC       formate, which exits to the cytosol where it is used to generate the
+CC       charged folates that serve as one-carbon donors. May also transport
+CC       other amino acids including alanine and cysteine.
+CC       {ECO:0000250|UniProtKB:Q9H9B4}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-serine(in) = L-serine(out); Xref=Rhea:RHEA:35031,
+CC         ChEBI:CHEBI:33384; Evidence={ECO:0000250|UniProtKB:Q9H9B4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-alanine(in) = L-alanine(out); Xref=Rhea:RHEA:70719,
+CC         ChEBI:CHEBI:57972; Evidence={ECO:0000250|UniProtKB:Q9H9B4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-cysteine(in) = L-cysteine(out); Xref=Rhea:RHEA:29655,
+CC         ChEBI:CHEBI:35235; Evidence={ECO:0000250|UniProtKB:Q9H9B4};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000250|UniProtKB:Q9H9B4}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the sideroflexin family. {ECO:0000305}.
+CC   -!- CAUTION: Originally identified from a mitochondrial tricarboxylate
+CC       carrier purification (PubMed:8132491). The physiological relevance of
+CC       this remains unclear (PubMed:30442778). {ECO:0000269|PubMed:8132491,
+CC       ECO:0000303|PubMed:30442778}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAB30258.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; S70011; AAB30258.1; ALT_INIT; mRNA.
+DR   PIR; I55210; I55210.
+DR   AlphaFoldDB; Q63965; -.
+DR   IntAct; Q63965; 2.
+DR   MINT; Q63965; -.
+DR   STRING; 10116.ENSRNOP00000024707; -.
+DR   CarbonylDB; Q63965; -.
+DR   PhosphoSitePlus; Q63965; -.
+DR   SwissPalm; Q63965; -.
+DR   jPOST; Q63965; -.
+DR   PaxDb; 10116-ENSRNOP00000024707; -.
+DR   AGR; RGD:1308482; -.
+DR   RGD; 1308482; Sfxn1.
+DR   eggNOG; KOG3767; Eukaryota.
+DR   InParanoid; Q63965; -.
+DR   PhylomeDB; Q63965; -.
+DR   PRO; PR:Q63965; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISS:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0015180; F:L-alanine transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015194; F:L-serine transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015075; F:monoatomic ion transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0022857; F:transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0030218; P:erythrocyte differentiation; ISO:RGD.
+DR   GO; GO:0006826; P:iron ion transport; ISO:RGD.
+DR   GO; GO:0015808; P:L-alanine transport; ISS:UniProtKB.
+DR   GO; GO:0015825; P:L-serine transport; ISS:UniProtKB.
+DR   GO; GO:0006730; P:one-carbon metabolic process; ISS:UniProtKB.
+DR   GO; GO:0140300; P:serine import into mitochondrion; ISS:UniProtKB.
+DR   InterPro; IPR004686; Mtc.
+DR   NCBIfam; TIGR00798; mtc; 1.
+DR   PANTHER; PTHR11153; SIDEROFLEXIN; 1.
+DR   PANTHER; PTHR11153:SF8; SIDEROFLEXIN-1; 1.
+DR   Pfam; PF03820; SFXNs; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Amino-acid transport; Membrane; Mitochondrion;
+KW   Mitochondrion inner membrane; One-carbon metabolism; Reference proteome;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H9B4"
+FT   CHAIN           2..322
+FT                   /note="Sideroflexin-1"
+FT                   /id="PRO_0000177034"
+FT   TOPO_DOM        2..102
+FT                   /note="Mitochondrial matrix"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H9B4"
+FT   TRANSMEM        103..120
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        121..146
+FT                   /note="Mitochondrial intermembrane"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        147..167
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        168..174
+FT                   /note="Mitochondrial matrix"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        175..195
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        196..228
+FT                   /note="Mitochondrial intermembrane"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        229..249
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        250..266
+FT                   /note="Mitochondrial matrix"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        267..287
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        288..322
+FT                   /note="Mitochondrial intermembrane"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H9B4"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H9B4"
+SQ   SEQUENCE   322 AA;  35546 MW;  D28CBD898E8ABC5D CRC64;
+     MSGEVPPNIN IKEPRWDQST FIGRASHFFT VTDPKNILLT NEQLENARKV VHDYRQGIVP
+     AGLTENELWR AKYAYDSAFH PDTGEKMTLI GRMSAQVPMN MTITGCMMTF YRTTPAVLFW
+     QWINQSFNAV VNYTNRSGDA PLTVNELGTA YVSATTGAVA TALGLNALTK HVSPLIGRFV
+     PFAAVAAANC INIPLMRQRE LKVGIPVTDE NGTRLGESTN AAKQAITQVV ISRILMAAPG
+     MAIPPFIMNT LEKKAFLKRF PWMSAPIQVT LVGFCLVFAT PLCCALFPQK SSMSVTSLED
+     DLQASIQKSH PELRRVYFNK GL
+//

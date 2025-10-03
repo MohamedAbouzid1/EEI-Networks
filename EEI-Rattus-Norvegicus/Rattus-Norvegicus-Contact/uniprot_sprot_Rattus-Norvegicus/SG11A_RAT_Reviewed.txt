@@ -1,0 +1,99 @@
+ID   SG11A_RAT               Reviewed;          68 AA.
+AC   Q8VBV2;
+DT   19-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   29-MAY-2024, entry version 108.
+DE   RecName: Full=Sperm-associated antigen 11A {ECO:0000312|RGD:628905};
+DE   AltName: Full=Antimicrobial-like protein Bin-1b {ECO:0000303|PubMed:11230693};
+DE   AltName: Full=EP2 protein {ECO:0000250|UniProtKB:Q6PDA7};
+DE   Flags: Precursor;
+GN   Name=Spag11a {ECO:0000312|RGD:628905};
+GN   Synonyms=Bin1b {ECO:0000312|RGD:628905},
+GN   Ep2 {ECO:0000250|UniProtKB:Q6PDA7}, Spag11 {ECO:0000312|RGD:628905};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA], FUNCTION, TISSUE SPECIFICITY, AND
+RP   DEVELOPMENTAL STAGE.
+RC   STRAIN=Sprague-Dawley; TISSUE=Epididymis;
+RX   PubMed=11230693; DOI=10.1126/science.1056545;
+RA   Li P., Chan H.C., He B., So S.C., Chung Y.W., Shang Q., Zhang Y.-D.,
+RA   Zhang Y.-L.;
+RT   "An antimicrobial peptide gene found in the male reproductive system of
+RT   rats.";
+RL   Science 291:1783-1785(2001).
+CC   -!- FUNCTION: Has antimicrobial activity against E.coli (PubMed:11230693).
+CC       Plays a role in the defense response in the male reproductive tract,
+CC       contributing to sperm maturation, storage and protection
+CC       (PubMed:11230693). {ECO:0000269|PubMed:11230693}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Only expressed in epididymis (middle part of the
+CC       caput). {ECO:0000269|PubMed:11230693}.
+CC   -!- DEVELOPMENTAL STAGE: Its expression starts at 30 days of age, reaches a
+CC       maximum during the sexually mature period, and then decreased in old
+CC       rats. {ECO:0000269|PubMed:11230693}.
+CC   -!- SIMILARITY: Belongs to the beta-defensin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF217089; AAL55637.1; -; Genomic_DNA.
+DR   EMBL; AF217088; AAL55636.1; -; mRNA.
+DR   RefSeq; NP_659555.1; NM_145087.2.
+DR   AlphaFoldDB; Q8VBV2; -.
+DR   STRING; 10116.ENSRNOP00000018741; -.
+DR   PaxDb; 10116-ENSRNOP00000018741; -.
+DR   Ensembl; ENSRNOT00000018741.3; ENSRNOP00000018741.1; ENSRNOG00000013957.4.
+DR   Ensembl; ENSRNOT00055014193; ENSRNOP00055011391; ENSRNOG00055008390.
+DR   Ensembl; ENSRNOT00060006785; ENSRNOP00060005112; ENSRNOG00060004059.
+DR   Ensembl; ENSRNOT00060031509; ENSRNOP00060025578; ENSRNOG00060018357.
+DR   Ensembl; ENSRNOT00065013945; ENSRNOP00065010390; ENSRNOG00065008763.
+DR   GeneID; 246305; -.
+DR   KEGG; rno:246305; -.
+DR   UCSC; RGD:628905; rat.
+DR   AGR; RGD:628905; -.
+DR   CTD; 653423; -.
+DR   RGD; 628905; Spag11a.
+DR   eggNOG; ENOG502TDUZ; Eukaryota.
+DR   GeneTree; ENSGT00940000161432; -.
+DR   HOGENOM; CLU_197160_0_0_1; -.
+DR   InParanoid; Q8VBV2; -.
+DR   OMA; FFCHFGE; -.
+DR   OrthoDB; 5258222at2759; -.
+DR   PhylomeDB; Q8VBV2; -.
+DR   PRO; PR:Q8VBV2; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   GO; GO:0009986; C:cell surface; IEA:Ensembl.
+DR   GO; GO:0005615; C:extracellular space; IEA:Ensembl.
+DR   GO; GO:0019731; P:antibacterial humoral response; IEA:Ensembl.
+DR   GO; GO:0019732; P:antifungal humoral response; IEA:Ensembl.
+DR   GO; GO:0061844; P:antimicrobial humoral immune response mediated by antimicrobial peptide; IBA:GO_Central.
+DR   GO; GO:0032690; P:negative regulation of interleukin-1 alpha production; IEA:Ensembl.
+DR   GO; GO:0032691; P:negative regulation of interleukin-1 beta production; IEA:Ensembl.
+DR   InterPro; IPR001855; Defensin_beta-typ.
+DR   InterPro; IPR007988; Sperm_Ag_11A_B.
+DR   PANTHER; PTHR14081:SF3; SPERM-ASSOCIATED ANTIGEN 11A; 1.
+DR   PANTHER; PTHR14081; SPERM-ASSOCIATED ANTIGEN 11A-RELATED-RELATED; 1.
+DR   Pfam; PF00711; Defensin_beta; 1.
+DR   SUPFAM; SSF57392; Defensin-like; 1.
+PE   2: Evidence at transcript level;
+KW   Antibiotic; Antimicrobial; Defensin; Disulfide bond; Reference proteome;
+KW   Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..68
+FT                   /note="Sperm-associated antigen 11A"
+FT                   /id="PRO_0000006956"
+FT   DISULFID        30..59
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        37..52
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        42..60
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   68 AA;  7799 MW;  86BBCC7A5D2FA53E CRC64;
+     MKVLLLFAVF FCLVQRNSGD IPPGIRNTVC FMQRGHCRLF MCRSGERKGD ICSDPWNRCC
+     VSSSIKNR
+//

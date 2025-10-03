@@ -1,0 +1,156 @@
+ID   ACY1B_RAT               Reviewed;         408 AA.
+AC   Q6PTT0;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   24-JUL-2024, entry version 93.
+DE   RecName: Full=Aminoacylase-1B;
+DE            Short=ACY-1B;
+DE            EC=3.5.1.14 {ECO:0000305|PubMed:11012679};
+DE   AltName: Full=ACY IB;
+DE   AltName: Full=N-acyl-L-amino-acid amidohydrolase;
+GN   Name=Acy1b; Synonyms=Acy1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 161-178, FUNCTION, TISSUE
+RP   SPECIFICITY, AND CATALYTIC ACTIVITY.
+RC   STRAIN=Wistar; TISSUE=Kidney;
+RX   PubMed=11012679; DOI=10.1046/j.1432-1327.2000.01712.x;
+RA   Giardina T., Perrier J., Puigserver A.;
+RT   "The rat kidney acylase I, characterization and molecular cloning.
+RT   Differences with other acylases I.";
+RL   Eur. J. Biochem. 267:6249-6255(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar;
+RX   PubMed=15253876; DOI=10.1016/j.cbpc.2004.04.010;
+RA   Perrier J., Durand A., Giardina T., Puigserver A.;
+RT   "The rat kidney acylase 1. Evidence for a new cDNA form and comparisons
+RT   with the porcine intestinal enzyme.";
+RL   Comp. Biochem. Physiol. 138B:277-283(2004).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-408, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Involved in the hydrolysis of N-acylated or N-acetylated
+CC       amino acids (except L-aspartate). {ECO:0000269|PubMed:11012679}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acyl-L-amino acid + H2O = a carboxylate + an L-alpha-
+CC         amino acid; Xref=Rhea:RHEA:15565, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:29067, ChEBI:CHEBI:59869, ChEBI:CHEBI:59874; EC=3.5.1.14;
+CC         Evidence={ECO:0000305|PubMed:11012679};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15566;
+CC         Evidence={ECO:0000305|PubMed:11012679};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acetyl-L-cysteine-S-conjugate + H2O = acetate + an S-
+CC         substituted L-cysteine; Xref=Rhea:RHEA:36855, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30089, ChEBI:CHEBI:58717, ChEBI:CHEBI:58718; EC=3.5.1.14;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed in kidney. {ECO:0000269|PubMed:11012679}.
+CC   -!- SIMILARITY: Belongs to the peptidase M20A family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY580165; AAS90691.1; -; mRNA.
+DR   AlphaFoldDB; Q6PTT0; -.
+DR   SMR; Q6PTT0; -.
+DR   iPTMnet; Q6PTT0; -.
+DR   jPOST; Q6PTT0; -.
+DR   UCSC; RGD:2030; rat.
+DR   AGR; RGD:2030; -.
+DR   RGD; 2030; Acy1.
+DR   PhylomeDB; Q6PTT0; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070062; C:extracellular exosome; ISO:RGD.
+DR   GO; GO:0004046; F:aminoacylase activity; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006520; P:amino acid metabolic process; IEA:InterPro.
+DR   GO; GO:0030163; P:protein catabolic process; TAS:RGD.
+DR   CDD; cd05646; M20_AcylaseI_like; 1.
+DR   Gene3D; 1.10.150.900; -; 1.
+DR   Gene3D; 3.30.70.360; -; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 1.
+DR   InterPro; IPR052083; Aminoacylase-1_M20A.
+DR   InterPro; IPR001261; ArgE/DapE_CS.
+DR   InterPro; IPR036264; Bact_exopeptidase_dim_dom.
+DR   InterPro; IPR010159; N-acyl_aa_amidohydrolase.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   InterPro; IPR011650; Peptidase_M20_dimer.
+DR   NCBIfam; TIGR01880; Ac-peptdase-euk; 1.
+DR   PANTHER; PTHR45892; AMINOACYLASE-1; 1.
+DR   PANTHER; PTHR45892:SF1; AMINOACYLASE-1; 1.
+DR   Pfam; PF07687; M20_dimer; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   PIRSF; PIRSF036696; ACY-1; 1.
+DR   SUPFAM; SSF55031; Bacterial exopeptidase dimerisation domain; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+DR   PROSITE; PS00758; ARGE_DAPE_CPG2_1; 1.
+DR   PROSITE; PS00759; ARGE_DAPE_CPG2_2; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Direct protein sequencing; Hydrolase; Metal-binding;
+KW   Phosphoprotein; Reference proteome; Zinc.
+FT   CHAIN           1..408
+FT                   /note="Aminoacylase-1B"
+FT                   /id="PRO_0000274010"
+FT   ACT_SITE        82
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        147
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         80
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         113
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         113
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         148
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         175
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         373
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         408
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   408 AA;  45823 MW;  F335317AF2574927 CRC64;
+     MTSKGPEEEH PSVTLFRQYL RIRTVQPKPD YGAAVAFFEE TARQLGLGCQ KVEVAPGYVV
+     TVLTWPGTNP TLSSILLNSH TDVVPVFKEH WSHDPFEAFK DSEGYIYTRG AQDMKCVSIQ
+     YLEAVKRLKV EGHRFPRTIH MTFVPDEEVG GHQGMELFVQ RHEFHALRAG FALDEGLANP
+     TDAFTVFYSE RSPWWVRVTS TGRPGHASRF MEDTAAEKLH KVVNSILAFR EKEWQRLQSN
+     PHLKEGSVTS VNLTKLEGGV AYNVVPATMS ACFDFRVAPD VDMKAFEEQL QSWCQEAGEG
+     VTFEFAQKFT EPRMTPTDDT DPWWAAFSGA CKEMTLTLEP EIFPAATDSR YIRAVGIPAL
+     GFSPMNRTPV LLHDHNERLH EAVFLRGVDI YTRLVAALAS VPALPGES
+//

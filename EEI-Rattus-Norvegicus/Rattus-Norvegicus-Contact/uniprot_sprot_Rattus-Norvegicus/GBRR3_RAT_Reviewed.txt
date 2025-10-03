@@ -1,0 +1,222 @@
+ID   GBRR3_RAT               Reviewed;         464 AA.
+AC   P50573;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   02-OCT-2024, entry version 168.
+DE   RecName: Full=Gamma-aminobutyric acid receptor subunit rho-3 {ECO:0000303|PubMed:8605242};
+DE   AltName: Full=GABA(A) receptor subunit rho-3;
+DE            Short=GABAAR subunit rho-3;
+DE   AltName: Full=GABA(C) receptor {ECO:0000303|PubMed:11861315};
+DE   Flags: Precursor;
+GN   Name=Gabrr3 {ECO:0000312|RGD:621564};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Retina;
+RX   PubMed=8605242; DOI=10.1016/0167-4781(95)00205-7;
+RA   Ogurusu T., Shingai R.;
+RT   "Cloning of a putative gamma-aminobutyric acid (GABA) receptor subunit rho
+RT   3 cDNA.";
+RL   Biochim. Biophys. Acta 1305:15-18(1996).
+RN   [2]
+RP   FUNCTION, TRANSPORTER ACTIVITY, HOMOPENTAMER, AND ACTIVITY REGULATION.
+RX   PubMed=11861315; DOI=10.1038/sj.bjp.0704432;
+RA   Vien J., Duke R.K., Mewett K.N., Johnston G.A., Shingai R., Chebib M.;
+RT   "trans-4-Amino-2-methylbut-2-enoic acid (2-MeTACA) and (+/-)-trans-2-
+RT   aminomethylcyclopropanecarboxylic acid ((+/-)-TAMP) can differentiate rat
+RT   rho3 from human rho1 and rho2 recombinant GABA(C) receptors.";
+RL   Br. J. Pharmacol. 135:883-890(2002).
+RN   [3]
+RP   INTERACTION WITH SQSTM1 AND PRKCZ, AND DOMAIN.
+RX   PubMed=12431995; DOI=10.1074/jbc.m205162200;
+RA   Croci C., Brandstaetter J.H., Enz R.;
+RT   "ZIP3, a new splice variant of the PKC-zeta-interacting protein family,
+RT   binds to GABAC receptors, PKC-zeta, and Kv beta 2.";
+RL   J. Biol. Chem. 278:6128-6135(2003).
+CC   -!- FUNCTION: Rho subunit of the pentameric ligand-gated chloride channels
+CC       responsible for mediating the effects of gamma-aminobutyric acid
+CC       (GABA), the major inhibitory neurotransmitter in the brain
+CC       (PubMed:11861315). Rho-containing GABA-gated chloride channels are a
+CC       subclass of GABA(A) receptors (GABAARs) entirely composed of rho
+CC       subunits, where GABA molecules bind at the rho intersubunit interfaces
+CC       (By similarity). When activated by GABA, rho-GABAARs selectively allow
+CC       the flow of chloride anions across the cell membrane down their
+CC       electrochemical gradient (PubMed:11861315).
+CC       {ECO:0000250|UniProtKB:P24046, ECO:0000269|PubMed:11861315}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chloride(in) = chloride(out); Xref=Rhea:RHEA:29823,
+CC         ChEBI:CHEBI:17996; Evidence={ECO:0000269|PubMed:11861315};
+CC   -!- ACTIVITY REGULATION: Activated by agonists in the following the potency
+CC       order: muscimol > TACP > TACA > thiomuscimol > CAMP > CACA, when
+CC       forming a homopentamer (PubMed:11861315). Inhibited by TPMPA, a rho-
+CC       specific antagonist, when forming a homopentamer (PubMed:11861315).
+CC       Inhibited antagonists in the following the potency order: TAMP = TPMPA
+CC       > P4MPA = THIP > 14AA > 3-APA, when forming a homopentamer
+CC       (PubMed:11861315). {ECO:0000269|PubMed:11861315}.
+CC   -!- SUBUNIT: Three rho subunits (rho-1/GBRR1, rho-2/GBRR2 and rho-3/GBRR3)
+CC       coassemble either to form functional homopentamers or heteropentamers
+CC       (PubMed:11861315). Forms a ternary complex with SQSTM1 and PRKCZ
+CC       (PubMed:12431995). {ECO:0000269|PubMed:11861315,
+CC       ECO:0000269|PubMed:12431995}.
+CC   -!- SUBCELLULAR LOCATION: Postsynaptic cell membrane; Multi-pass membrane
+CC       protein {ECO:0000255}. Cell membrane; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in retina. {ECO:0000269|PubMed:8605242}.
+CC   -!- DOMAIN: GABAARs subunits share a common topological structure: a
+CC       peptide sequence made up of a long extracellular N-terminal, four
+CC       transmembrane domains, intracellular or cytoplasmic domain located
+CC       between the third and the fourth transmembrane domains.
+CC       {ECO:0000250|UniProtKB:P24046}.
+CC   -!- SIMILARITY: Belongs to the ligand-gated ion channel (TC 1.A.9) family.
+CC       Gamma-aminobutyric acid receptor (TC 1.A.9.5) subfamily. GABRR3 sub-
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D50671; BAA09322.1; -; mRNA.
+DR   PIR; S65756; S65756.
+DR   RefSeq; NP_620252.1; NM_138897.1.
+DR   AlphaFoldDB; P50573; -.
+DR   SMR; P50573; -.
+DR   BioGRID; 251384; 1.
+DR   CORUM; P50573; -.
+DR   STRING; 10116.ENSRNOP00000002281; -.
+DR   GlyCosmos; P50573; 2 sites, No reported glycans.
+DR   GlyGen; P50573; 2 sites.
+DR   PhosphoSitePlus; P50573; -.
+DR   PaxDb; 10116-ENSRNOP00000002281; -.
+DR   Ensembl; ENSRNOT00000002281.5; ENSRNOP00000002281.4; ENSRNOG00000001679.5.
+DR   GeneID; 192258; -.
+DR   KEGG; rno:192258; -.
+DR   UCSC; RGD:621564; rat.
+DR   AGR; RGD:621564; -.
+DR   CTD; 200959; -.
+DR   RGD; 621564; Gabrr3.
+DR   eggNOG; KOG3643; Eukaryota.
+DR   GeneTree; ENSGT00940000159906; -.
+DR   HOGENOM; CLU_010920_0_1_1; -.
+DR   InParanoid; P50573; -.
+DR   OMA; TGWYYRL; -.
+DR   OrthoDB; 4265336at2759; -.
+DR   PhylomeDB; P50573; -.
+DR   TreeFam; TF315453; -.
+DR   Reactome; R-RNO-977443; GABA receptor activation.
+DR   PRO; PR:P50573; -.
+DR   Proteomes; UP000002494; Chromosome 11.
+DR   Bgee; ENSRNOG00000001679; Expressed in ovary and 3 other cell types or tissues.
+DR   GO; GO:0034707; C:chloride channel complex; IEA:UniProtKB-KW.
+DR   GO; GO:1902711; C:GABA-A receptor complex; IBA:GO_Central.
+DR   GO; GO:0098982; C:GABA-ergic synapse; ISO:RGD.
+DR   GO; GO:0043005; C:neuron projection; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0045211; C:postsynaptic membrane; ISO:RGD.
+DR   GO; GO:0045202; C:synapse; IBA:GO_Central.
+DR   GO; GO:1902495; C:transmembrane transporter complex; IBA:GO_Central.
+DR   GO; GO:0004890; F:GABA-A receptor activity; IDA:UniProtKB.
+DR   GO; GO:0022851; F:GABA-gated chloride ion channel activity; IDA:UniProtKB.
+DR   GO; GO:0030594; F:neurotransmitter receptor activity; IBA:GO_Central.
+DR   GO; GO:0019904; F:protein domain specific binding; IPI:RGD.
+DR   GO; GO:1902476; P:chloride transmembrane transport; IBA:GO_Central.
+DR   CDD; cd19059; LGIC_TM_GABAAR_rho; 1.
+DR   Gene3D; 2.70.170.10; Neurotransmitter-gated ion-channel ligand-binding domain; 1.
+DR   Gene3D; 1.20.58.390; Neurotransmitter-gated ion-channel transmembrane domain; 1.
+DR   InterPro; IPR006028; GABAA/Glycine_rcpt.
+DR   InterPro; IPR006202; Neur_chan_lig-bd.
+DR   InterPro; IPR036734; Neur_chan_lig-bd_sf.
+DR   InterPro; IPR006201; Neur_channel.
+DR   InterPro; IPR036719; Neuro-gated_channel_TM_sf.
+DR   InterPro; IPR038050; Neuro_actylchol_rec.
+DR   InterPro; IPR006029; Neurotrans-gated_channel_TM.
+DR   InterPro; IPR018000; Neurotransmitter_ion_chnl_CS.
+DR   NCBIfam; TIGR00860; LIC; 1.
+DR   PANTHER; PTHR18945:SF196; GAMMA-AMINOBUTYRIC ACID RECEPTOR SUBUNIT RHO-3; 1.
+DR   PANTHER; PTHR18945; NEUROTRANSMITTER GATED ION CHANNEL; 1.
+DR   Pfam; PF02931; Neur_chan_LBD; 1.
+DR   Pfam; PF02932; Neur_chan_memb; 1.
+DR   PRINTS; PR00253; GABAARECEPTR.
+DR   PRINTS; PR00252; NRIONCHANNEL.
+DR   SUPFAM; SSF90112; Neurotransmitter-gated ion-channel transmembrane pore; 1.
+DR   SUPFAM; SSF63712; Nicotinic receptor ligand binding domain-like; 1.
+DR   PROSITE; PS00236; NEUROTR_ION_CHANNEL; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Chloride; Chloride channel; Disulfide bond; Glycoprotein;
+KW   Ion channel; Ion transport; Membrane; Postsynaptic cell membrane;
+KW   Reference proteome; Signal; Synapse; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   SIGNAL          1..15
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           16..464
+FT                   /note="Gamma-aminobutyric acid receptor subunit rho-3"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000000491"
+FT   TOPO_DOM        16..263
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        264..284
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        285..296
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        297..317
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        318..328
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        329..349
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        350..443
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        444..464
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   REGION          344..445
+FT                   /note="Interaction with SQSTM1"
+FT                   /evidence="ECO:0000269|PubMed:12431995"
+FT   BINDING         108
+FT                   /ligand="4-aminobutanoate"
+FT                   /ligand_id="ChEBI:CHEBI:59888"
+FT                   /ligand_note="ligand shared between two neighboring rho
+FT                   subunits"
+FT                   /note="in chain A"
+FT                   /evidence="ECO:0000250|UniProtKB:P24046"
+FT   BINDING         172
+FT                   /ligand="4-aminobutanoate"
+FT                   /ligand_id="ChEBI:CHEBI:59888"
+FT                   /ligand_note="ligand shared between two neighboring rho
+FT                   subunits"
+FT                   /note="in chain A"
+FT                   /evidence="ECO:0000250|UniProtKB:P24046"
+FT   BINDING         200
+FT                   /ligand="4-aminobutanoate"
+FT                   /ligand_id="ChEBI:CHEBI:59888"
+FT                   /ligand_note="ligand shared between two neighboring rho
+FT                   subunits"
+FT                   /note="in chain B"
+FT                   /evidence="ECO:0000250|UniProtKB:P24046"
+FT   CARBOHYD        123
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        194
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        181..195
+FT                   /evidence="ECO:0000250|UniProtKB:P28472"
+SQ   SEQUENCE   464 AA;  54031 MW;  FC86BE7E8DA5ACE2 CRC64;
+     MVLAFWLAFF TYTWITLMLD ASAVKEPHQQ CLSSPKQTRI RETRMRKDDL TKVWPLKREQ
+     LLHIEDHDFS TRPGFGGSPV PVGIDVQVES IDSISEVNMD FTMTFYLRHY WKDERLSFPS
+     TTNKSMTFDR RLIQKIWVPD IFFVHSKRSF IHDTTVENIM LRVHPDGNVL FSLRITVSAM
+     CFMDFSRFPL DTQNCSLELE SYAYNEEDLM LYWKHGNKSL NTEEHISLSQ FFIEEFSASS
+     GLAFYSSTGW YYRLFINFVL RRHIFFFVLQ TYFPAMLMVM LSWVSFWIDR RAVPARVSLG
+     ITTVLTMSTI VTGVSASMPQ VSYVKAVDVY MWVSSLFVFL SVIEYAAVNY LTTVEEWKQL
+     NRRGKISGMY NIDAVQAMAF DGCYHDGETD VDQTSFFLHS EEDSMRTKFT GSPCADSSQI
+     KRKSLGGNVG RIILENNHVI DTYSRIVFPV VYIIFNLFYW GIYV
+//

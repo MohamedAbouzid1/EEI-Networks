@@ -1,0 +1,341 @@
+ID   HCK_RAT                 Reviewed;         524 AA.
+AC   P50545; Q64647; Q6AYV7;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 4.
+DT   02-OCT-2024, entry version 202.
+DE   RecName: Full=Tyrosine-protein kinase HCK;
+DE            EC=2.7.10.2;
+DE   AltName: Full=Hematopoietic cell kinase;
+DE   AltName: Full=Hemopoietic cell kinase;
+DE   AltName: Full=p56-HCK;
+DE   AltName: Full=p56Hck;
+DE   AltName: Full=p59Hck;
+GN   Name=Hck;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RC   TISSUE=Megakaryocyte;
+RX   PubMed=1764064; DOI=10.1016/0006-291x(91)92057-q;
+RA   Okano Y., Sugimoto Y., Fukuoka M., Matsui A., Nagata K., Nozawa Y.;
+RT   "Identification of rat cDNA encoding hck tyrosine kinase from
+RT   megakaryocytes.";
+RL   Biochem. Biophys. Res. Commun. 181:1137-1144(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Spleen;
+RA   Vijaya Gouri B.S., Rema V., Kamatkar S., Swarup G.;
+RT   "Nucleotide sequence of a cDNA coding for rat hck tyrosine kinase and
+RT   characterization of its gene product.";
+RL   J. Biosci. 19:117-129(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   STRAIN=Brown Norway; TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   INTERACTION WITH RAPGEF1, AND FUNCTION IN PHOSPHORYLATION OF RAPGEF1.
+RX   PubMed=14551197; DOI=10.1074/jbc.m310656200;
+RA   Shivakrupa R., Radha V., Sudhakar C., Swarup G.;
+RT   "Physical and functional interaction between Hck tyrosine kinase and
+RT   guanine nucleotide exchange factor C3G results in apoptosis, which is
+RT   independent of C3G catalytic domain.";
+RL   J. Biol. Chem. 278:52188-52194(2003).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Non-receptor tyrosine-protein kinase found in hematopoietic
+CC       cells that transmits signals from cell surface receptors and plays an
+CC       important role in the regulation of innate immune responses, including
+CC       neutrophil, monocyte, macrophage and mast cell functions, phagocytosis,
+CC       cell survival and proliferation, cell adhesion and migration. Acts
+CC       downstream of receptors that bind the Fc region of immunoglobulins,
+CC       such as FCGR1A and FCGR2A, but also CSF3R, PLAUR, the receptors for
+CC       IFNG, IL2, IL6 and IL8, and integrins, such as ITGB1 and ITGB2. During
+CC       the phagocytic process, mediates mobilization of secretory lysosomes,
+CC       degranulation, and activation of NADPH oxidase to bring about the
+CC       respiratory burst. Plays a role in the release of inflammatory
+CC       molecules. Promotes reorganization of the actin cytoskeleton and actin
+CC       polymerization, formation of podosomes and cell protrusions. Inhibits
+CC       TP73-mediated transcription activation and TP73-mediated apoptosis.
+CC       Phosphorylates CBL in response to activation of immunoglobulin gamma Fc
+CC       region receptors. Phosphorylates ADAM15, BCR, ELMO1, FCGR2A, GAB1,
+CC       GAB2, RAPGEF1, STAT5B, TP73, VAV1 and WAS (By similarity).
+CC       {ECO:0000250, ECO:0000269|PubMed:14551197}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tyrosyl-[protein] = ADP + H(+) + O-phospho-L-tyrosyl-
+CC         [protein]; Xref=Rhea:RHEA:10596, Rhea:RHEA-COMP:10136, Rhea:RHEA-
+CC         COMP:10137, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:46858,
+CC         ChEBI:CHEBI:82620, ChEBI:CHEBI:456216; EC=2.7.10.2;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10028};
+CC   -!- ACTIVITY REGULATION: Subject to autoinhibition, mediated by
+CC       intramolecular interactions involving the SH2 and SH3 domains. Kinase
+CC       activity is also regulated by phosphorylation at regulatory tyrosine
+CC       residues. Phosphorylation at Tyr-409 is required for optimal activity.
+CC       Phosphorylation at Tyr-520 inhibits kinase activity (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with ADAM15. Interacts with FASLG. Interacts with
+CC       ARRB1 and ARRB2. Interacts with FCGR1A; the interaction may be
+CC       indirect. Interacts with IL6ST. Interacts (via SH3 domain) with ELMO1.
+CC       Interacts (via SH3 domain) with TP73. Interacts with YAP1. Interacts
+CC       with ABL1 and ITGB1, and thereby recruits ABL1 to activated ITGB1.
+CC       Interacts (via SH2 domain) with FLT3 (tyrosine phosphorylated).
+CC       Interacts with CBL. Interacts with VAV1, WAS and RAPGEF1.Interacts (via
+CC       SH3 domain) with WDCP. {ECO:0000250|UniProtKB:P08103,
+CC       ECO:0000250|UniProtKB:P08631}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasmic vesicle, secretory vesicle
+CC       {ECO:0000250}. Cytoplasm, cytosol {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform 1]: Membrane; Lipid-anchor. Membrane,
+CC       caveola {ECO:0000250}. Lysosome {ECO:0000250}. Cell projection,
+CC       podosome membrane {ECO:0000250}; Lipid-anchor {ECO:0000250}. Cytoplasm,
+CC       cytosol {ECO:0000250}. Note=Associated with specialized secretory
+CC       lysosomes called azurophil granules. A fraction of this isoform is
+CC       found in the cytoplasm, some of this fraction is myristoylated (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform 2]: Cell membrane; Lipid-anchor.
+CC       Membrane, caveola {ECO:0000250}; Lipid-anchor {ECO:0000250}. Cell
+CC       junction, focal adhesion {ECO:0000250}. Cytoplasm, cytoskeleton
+CC       {ECO:0000250}. Golgi apparatus {ECO:0000250}. Cytoplasmic vesicle
+CC       {ECO:0000250}. Lysosome {ECO:0000250}. Nucleus {ECO:0000250}. Note=A
+CC       small fraction of this isoform is associated with caveolae.
+CC       Localization at the cell membrane and at caveolae requires
+CC       palmitoylation at Cys-3. Colocalizes with the actin cytoskeleton at
+CC       focal adhesions (By similarity). {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative initiation; Named isoforms=2;
+CC       Name=1; Synonyms=p59-HCK;
+CC         IsoId=P50545-1; Sequence=Displayed;
+CC       Name=2; Synonyms=p56-HCK;
+CC         IsoId=P50545-2; Sequence=VSP_022248;
+CC   -!- TISSUE SPECIFICITY: Expressed strongly in spleen and at very low levels
+CC       in thymus. {ECO:0000269|Ref.2}.
+CC   -!- PTM: Phosphorylated on several tyrosine residues. Autophosphorylated.
+CC       Becomes rapidly phosphorylated upon activation of the immunoglobulin
+CC       receptors FCGR1A and FCGR2A. Phosphorylation at Tyr-409 increases
+CC       kinase activity. Phosphorylation at Tyr-520 inhibits kinase activity.
+CC       Kinase activity is not required for phosphorylation at Tyr-520,
+CC       suggesting that this site may be a target of other kinases (By
+CC       similarity). {ECO:0000250}.
+CC   -!- PTM: Ubiquitinated by CBL, leading to its degradation via the
+CC       proteasome. {ECO:0000250}.
+CC   -!- PTM: Isoform 2 palmitoylation at position 2 requires prior
+CC       myristoylation. Palmitoylation at position 3 is required for caveolar
+CC       localization of isoform 2. {ECO:0000250|UniProtKB:P08631}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. SRC subfamily. {ECO:0000255|PROSITE-ProRule:PRU00159}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA41312.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC       Sequence=AAB20754.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC       Sequence=CAA44218.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M83666; AAA41312.1; ALT_INIT; mRNA.
+DR   EMBL; S74141; AAB20754.1; ALT_INIT; mRNA.
+DR   EMBL; X62345; CAA44218.1; ALT_INIT; mRNA.
+DR   EMBL; BC078890; AAH78890.2; -; mRNA.
+DR   PIR; JQ1321; JQ1321.
+DR   RefSeq; NP_037317.2; NM_013185.3. [P50545-1]
+DR   AlphaFoldDB; P50545; -.
+DR   SMR; P50545; -.
+DR   IntAct; P50545; 2.
+DR   STRING; 10116.ENSRNOP00000012432; -.
+DR   iPTMnet; P50545; -.
+DR   PhosphoSitePlus; P50545; -.
+DR   jPOST; P50545; -.
+DR   PaxDb; 10116-ENSRNOP00000012432; -.
+DR   GeneID; 25734; -.
+DR   KEGG; rno:25734; -.
+DR   UCSC; RGD:2785; rat. [P50545-1]
+DR   AGR; RGD:2785; -.
+DR   CTD; 3055; -.
+DR   RGD; 2785; Hck.
+DR   VEuPathDB; HostDB:ENSRNOG00000009331; -.
+DR   eggNOG; KOG0197; Eukaryota.
+DR   InParanoid; P50545; -.
+DR   OrthoDB; 1614410at2759; -.
+DR   PhylomeDB; P50545; -.
+DR   BRENDA; 2.7.10.2; 5301.
+DR   Reactome; R-RNO-2029481; FCGR activation.
+DR   Reactome; R-RNO-912631; Regulation of signaling by CBL.
+DR   Reactome; R-RNO-9674555; Signaling by CSF3 (G-CSF).
+DR   Reactome; R-RNO-9705462; Inactivation of CSF3 (G-CSF) signaling.
+DR   PRO; PR:P50545; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000009331; Expressed in spleen and 19 other cell types or tissues.
+DR   GO; GO:0005884; C:actin filament; ISO:RGD.
+DR   GO; GO:0005901; C:caveola; ISO:RGD.
+DR   GO; GO:0042995; C:cell projection; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009898; C:cytoplasmic side of plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005925; C:focal adhesion; ISO:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005764; C:lysosome; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030133; C:transport vesicle; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008289; F:lipid binding; ISO:RGD.
+DR   GO; GO:0004715; F:non-membrane spanning protein tyrosine kinase activity; IBA:GO_Central.
+DR   GO; GO:0001784; F:phosphotyrosine residue binding; ISO:RGD.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; ISS:UniProtKB.
+DR   GO; GO:0005102; F:signaling receptor binding; IBA:GO_Central.
+DR   GO; GO:0030154; P:cell differentiation; IBA:GO_Central.
+DR   GO; GO:0007169; P:cell surface receptor protein tyrosine kinase signaling pathway; IBA:GO_Central.
+DR   GO; GO:0050830; P:defense response to Gram-positive bacterium; ISO:RGD.
+DR   GO; GO:0006887; P:exocytosis; IEA:UniProtKB-KW.
+DR   GO; GO:0006954; P:inflammatory response; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IBA:GO_Central.
+DR   GO; GO:0035556; P:intracellular signal transduction; ISO:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:0018108; P:peptidyl-tyrosine phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0006909; P:phagocytosis; ISO:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; ISS:UniProtKB.
+DR   GO; GO:0046777; P:protein autophosphorylation; ISS:UniProtKB.
+DR   GO; GO:0032956; P:regulation of actin cytoskeleton organization; ISS:UniProtKB.
+DR   GO; GO:0008360; P:regulation of cell shape; ISS:UniProtKB.
+DR   GO; GO:0050764; P:regulation of phagocytosis; ISS:UniProtKB.
+DR   GO; GO:0071801; P:regulation of podosome assembly; ISS:UniProtKB.
+DR   CDD; cd10363; SH2_Src_HCK; 1.
+DR   Gene3D; 3.30.505.10; SH2 domain; 1.
+DR   Gene3D; 2.30.30.40; SH3 Domains; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR035851; HCK_SH2.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR050198; Non-receptor_tyrosine_kinases.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr_kinase_cat_dom.
+DR   InterPro; IPR000980; SH2.
+DR   InterPro; IPR036860; SH2_dom_sf.
+DR   InterPro; IPR036028; SH3-like_dom_sf.
+DR   InterPro; IPR001452; SH3_domain.
+DR   InterPro; IPR008266; Tyr_kinase_AS.
+DR   InterPro; IPR020635; Tyr_kinase_cat_dom.
+DR   PANTHER; PTHR24418; TYROSINE-PROTEIN KINASE; 1.
+DR   PANTHER; PTHR24418:SF245; TYROSINE-PROTEIN KINASE HCK; 1.
+DR   Pfam; PF07714; PK_Tyr_Ser-Thr; 1.
+DR   Pfam; PF00017; SH2; 1.
+DR   Pfam; PF00018; SH3_1; 1.
+DR   PRINTS; PR00401; SH2DOMAIN.
+DR   PRINTS; PR00452; SH3DOMAIN.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00252; SH2; 1.
+DR   SMART; SM00326; SH3; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   SUPFAM; SSF55550; SH2 domain; 1.
+DR   SUPFAM; SSF50044; SH3-domain; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS50001; SH2; 1.
+DR   PROSITE; PS50002; SH3; 1.
+PE   1: Evidence at protein level;
+KW   Alternative initiation; ATP-binding; Cell junction; Cell membrane;
+KW   Cell projection; Cytoplasm; Cytoplasmic vesicle; Cytoskeleton; Exocytosis;
+KW   Golgi apparatus; Immunity; Inflammatory response; Innate immunity; Kinase;
+KW   Lipoprotein; Lysosome; Membrane; Myristate; Nucleotide-binding; Nucleus;
+KW   Palmitate; Phagocytosis; Phosphoprotein; Proto-oncogene;
+KW   Reference proteome; SH2 domain; SH3 domain; Transferase;
+KW   Tyrosine-protein kinase; Ubl conjugation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P08631"
+FT   CHAIN           2..524
+FT                   /note="Tyrosine-protein kinase HCK"
+FT                   /id="PRO_0000088104"
+FT   DOMAIN          76..136
+FT                   /note="SH3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00192"
+FT   DOMAIN          142..239
+FT                   /note="SH2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00191"
+FT   DOMAIN          260..513
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          1..20
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          35..71
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        379
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10028"
+FT   BINDING         266..274
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         288
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         50
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P08631"
+FT   MOD_RES         200
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08631"
+FT   MOD_RES         207
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08103"
+FT   MOD_RES         409
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P08631"
+FT   MOD_RES         460
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08631"
+FT   MOD_RES         520
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08631"
+FT   LIPID           2
+FT                   /note="N-myristoyl glycine"
+FT                   /evidence="ECO:0000250"
+FT   VAR_SEQ         1..21
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334,
+FT                   ECO:0000303|PubMed:1764064, ECO:0000303|Ref.2"
+FT                   /id="VSP_022248"
+FT   CONFLICT        72
+FT                   /note="V -> F (in Ref. 1; AAA41312/AAB20754)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        226
+FT                   /note="K -> R (in Ref. 2; CAA44218)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        327
+FT                   /note="I -> T (in Ref. 2; CAA44218)"
+FT                   /evidence="ECO:0000305"
+FT   INIT_MET        P50545-2:1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000305"
+FT   LIPID           P50545-2:2
+FT                   /note="N-myristoyl glycine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08631"
+FT   LIPID           P50545-2:3
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08631"
+SQ   SEQUENCE   524 AA;  59154 MW;  BBD928C9E717BF4B CRC64;
+     MGGRSSCEDP GCPRGEGRVP RMGCVKSRFL REGSKASKIE PNANQKGPVY VPDPTSPKKL
+     GPNSINSLPP GVVEGSEDTI VVALYDYEAI HREDLSFQKG DQMVVLEESG EWWKARSLAT
+     KKEGYIPSNY VARVNSLETE EWFFKGISRK DAERHLLAPG NMLGSFMIRD SETTKGSYSL
+     SVRDFDPQHG DTVKHYKIRT LDSGGFYISP RSTFSSLQEL VVHYKKGKDG LCQKLSVPCV
+     SPKPQKPWEK DAWEIPRESL QMEKKLGAGQ FGEVWMATYN KHTKVAVKTM KPGSMSVEAF
+     LAEANLMKTL QHDKLVKLHA VVSQEPIFIV TEFMAKGSLL DFLKSEEGSK QPLPKLIDFS
+     AQISEGMAFI EQRNYIHRDL RAANILVSAS LVCKIADFGL ARIIEDNEYT AREGAKFPIK
+     WTAPEAINFG SFTIKSDVWS FGILLMEIVT YGRIPYPGMS NPEVIRALEH GYRMPRPDNC
+     PEELYSIMIR CWKNRPEERP TFEYIQSVLD DFYTATESQY QQQP
+//

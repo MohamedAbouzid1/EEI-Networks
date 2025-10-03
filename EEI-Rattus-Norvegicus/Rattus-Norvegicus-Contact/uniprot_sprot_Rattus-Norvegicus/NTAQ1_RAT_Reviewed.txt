@@ -1,0 +1,106 @@
+ID   NTAQ1_RAT               Reviewed;         207 AA.
+AC   Q5BJV9;
+DT   06-MAR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   12-APR-2005, sequence version 1.
+DT   29-MAY-2024, entry version 94.
+DE   RecName: Full=Protein N-terminal glutamine amidohydrolase {ECO:0000305};
+DE            EC=3.5.1.122 {ECO:0000250|UniProtKB:Q80WB5};
+DE   AltName: Full=Protein NH2-terminal glutamine deamidase;
+DE            Short=N-terminal Gln amidase;
+DE            Short=Nt(Q)-amidase;
+DE   AltName: Full=WDYHV motif-containing protein 1;
+GN   Name=Ntaq1; Synonyms=Wdyhv1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Ovary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Mediates the side-chain deamidation of N-terminal glutamine
+CC       residues to glutamate, an important step in N-end rule pathway of
+CC       protein degradation. Conversion of the resulting N-terminal glutamine
+CC       to glutamate renders the protein susceptible to arginylation,
+CC       polyubiquitination and degradation as specified by the N-end rule. Does
+CC       not act on substrates with internal or C-terminal glutamine and does
+CC       not act on non-glutamine residues in any position. Does not deaminate
+CC       acetylated N-terminal glutamine. With the exception of proline, all
+CC       tested second-position residues on substrate peptides do not greatly
+CC       influence the activity. In contrast, a proline at position 2, virtually
+CC       abolishes deamidation of N-terminal glutamine.
+CC       {ECO:0000250|UniProtKB:Q80WB5}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-terminal L-glutaminyl-[protein] = N-terminal L-
+CC         glutamyl-[protein] + NH4(+); Xref=Rhea:RHEA:50680, Rhea:RHEA-
+CC         COMP:12668, Rhea:RHEA-COMP:12777, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:64721, ChEBI:CHEBI:64722;
+CC         EC=3.5.1.122; Evidence={ECO:0000250|UniProtKB:Q80WB5};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:Q96HA8}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:Q80WB5}. Nucleus {ECO:0000250|UniProtKB:Q80WB5}.
+CC   -!- SIMILARITY: Belongs to the NTAQ1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC091306; AAH91306.1; -; mRNA.
+DR   RefSeq; NP_001020195.1; NM_001025024.1.
+DR   AlphaFoldDB; Q5BJV9; -.
+DR   SMR; Q5BJV9; -.
+DR   STRING; 10116.ENSRNOP00000008785; -.
+DR   PhosphoSitePlus; Q5BJV9; -.
+DR   PaxDb; 10116-ENSRNOP00000008785; -.
+DR   Ensembl; ENSRNOT00000008785.7; ENSRNOP00000008785.6; ENSRNOG00000006700.8.
+DR   Ensembl; ENSRNOT00055044054; ENSRNOP00055036036; ENSRNOG00055025512.
+DR   Ensembl; ENSRNOT00060005694; ENSRNOP00060004153; ENSRNOG00060003468.
+DR   GeneID; 362914; -.
+DR   KEGG; rno:362914; -.
+DR   UCSC; RGD:1311362; rat.
+DR   AGR; RGD:1311362; -.
+DR   CTD; 55093; -.
+DR   RGD; 1311362; Ntaq1.
+DR   eggNOG; KOG3261; Eukaryota.
+DR   GeneTree; ENSGT00390000014398; -.
+DR   InParanoid; Q5BJV9; -.
+DR   OMA; THFWKYA; -.
+DR   OrthoDB; 160852at2759; -.
+DR   PhylomeDB; Q5BJV9; -.
+DR   PRO; PR:Q5BJV9; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000006700; Expressed in pancreas and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q5BJV9; baseline and differential.
+DR   GO; GO:0005829; C:cytosol; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0008418; F:protein-N-terminal asparagine amidohydrolase activity; IEA:InterPro.
+DR   GO; GO:0070773; F:protein-N-terminal glutamine amidohydrolase activity; ISS:UniProtKB.
+DR   GO; GO:0036211; P:protein modification process; ISS:UniProtKB.
+DR   Gene3D; 3.10.620.10; Protein N-terminal glutamine amidohydrolase, alpha beta roll; 1.
+DR   InterPro; IPR037132; N_Gln_amidohydro_ab_roll_sf.
+DR   InterPro; IPR039733; NTAQ1.
+DR   InterPro; IPR023128; Prot_N_Gln_amidohydro_ab_roll.
+DR   PANTHER; PTHR13035:SF0; PROTEIN N-TERMINAL GLUTAMINE AMIDOHYDROLASE; 1.
+DR   PANTHER; PTHR13035; UNCHARACTERIZED; 1.
+DR   Pfam; PF09764; Nt_Gln_amidase; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Hydrolase; Nucleus; Reference proteome.
+FT   CHAIN           1..207
+FT                   /note="Protein N-terminal glutamine amidohydrolase"
+FT                   /id="PRO_0000279411"
+FT   ACT_SITE        30
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        83
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        99
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   207 AA;  24125 MW;  79BAD8A0C0A9DC7D CRC64;
+     MEGDSRAATA SQYQPACPTR DACVYSSCYC EENIWKLCEY IKTHNQYLLE ECYAVFISNE
+     KKMVPIWKQQ ARPENGPVIW DYHVVLLHVS REGQSFIYDL DTILPFPCPF DIYIEDALKS
+     DDDIHPQFRR KFRVVRADSY LKNFASDRSH MKDSSGNWRE PPPEYPCIET GDSKMNLNDF
+     ISMDPAVGWG AVYTLSEFVH RFSSKNY
+//

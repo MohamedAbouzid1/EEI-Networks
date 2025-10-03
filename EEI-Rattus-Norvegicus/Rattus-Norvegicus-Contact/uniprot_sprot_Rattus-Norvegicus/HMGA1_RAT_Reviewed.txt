@@ -1,0 +1,293 @@
+ID   HMGA1_RAT               Reviewed;         107 AA.
+AC   Q8K585; Q8K1F5;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   02-OCT-2024, entry version 160.
+DE   RecName: Full=High mobility group protein HMG-I/HMG-Y;
+DE            Short=HMG-I(Y);
+DE   AltName: Full=High mobility group AT-hook protein 1;
+DE            Short=High mobility group protein A1;
+GN   Name=Hmga1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS HMG-I AND HMG-Y), PHOSPHORYLATION,
+RP   METHYLATION AT ARG-26, AND MASS SPECTROMETRY.
+RC   STRAIN=COP; TISSUE=Prostatic carcinoma;
+RX   PubMed=12653562; DOI=10.1021/bi027338l;
+RA   Sgarra R., Diana F., Bellarosa C., Dekleva V., Rustighi A., Toller M.,
+RA   Manfioletti G., Giancotti V.;
+RT   "During apoptosis of tumor cells HMGA1a protein undergoes methylation:
+RT   identification of the modification site by mass spectrometry.";
+RL   Biochemistry 42:3575-3585(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM HMG-I).
+RC   STRAIN=Sprague-Dawley; TISSUE=Lung;
+RA   Claus P.;
+RL   Submitted (APR-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: HMG-I/Y bind preferentially to the minor groove of A+T rich
+CC       regions in double-stranded DNA. It is suggested that these proteins
+CC       could function in nucleosome phasing and in the 3'-end processing of
+CC       mRNA transcripts. They are also involved in the transcription
+CC       regulation of genes containing, or in close proximity to A+T-rich
+CC       regions (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with HIPK2. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus. Chromosome.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=HMG-I; Synonyms=HMGA1a;
+CC         IsoId=Q8K585-1; Sequence=Displayed;
+CC       Name=HMG-Y; Synonyms=HMGA1b;
+CC         IsoId=Q8K585-2; Sequence=VSP_016395;
+CC   -!- PTM: Isoforms HMG-I and HMG-Y can be phosphorylated by HIPK2.
+CC       Phosphorylation may modulate DNA-binding affinity (By similarity).
+CC       {ECO:0000250}.
+CC   -!- PTM: Methylation at Arg-58 is mutually exclusive with methylation at
+CC       Arg-60. {ECO:0000250}.
+CC   -!- MASS SPECTROMETRY: Mass=11776.8; Mass_error=1; Method=MALDI; Note=With
+CC       1 acetyl and 2 phosphate groups.;
+CC       Evidence={ECO:0000269|PubMed:12653562};
+CC   -!- MASS SPECTROMETRY: Mass=11856.8; Mass_error=1; Method=MALDI; Note=With
+CC       1 acetyl and 3 phosphate groups.;
+CC       Evidence={ECO:0000269|PubMed:12653562};
+CC   -!- MASS SPECTROMETRY: Mass=11791.2; Mass_error=1; Method=MALDI; Note=With
+CC       1 acetyl, 1 methyl and 2 phosphate groups.;
+CC       Evidence={ECO:0000269|PubMed:12653562};
+CC   -!- MASS SPECTROMETRY: Mass=11871.3; Mass_error=1; Method=MALDI; Note=With
+CC       1 acetyl, 1 methyl and 3 phosphate groups.;
+CC       Evidence={ECO:0000269|PubMed:12653562};
+CC   -!- SIMILARITY: Belongs to the HMGA family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF511040; AAM74157.1; -; mRNA.
+DR   EMBL; AF507966; AAM33433.1; -; mRNA.
+DR   RefSeq; NP_647543.1; NM_139327.1. [Q8K585-1]
+DR   RefSeq; XP_006256218.1; XM_006256156.2.
+DR   RefSeq; XP_006256219.1; XM_006256157.3. [Q8K585-1]
+DR   RefSeq; XP_006256220.1; XM_006256158.3. [Q8K585-1]
+DR   RefSeq; XP_006256224.1; XM_006256162.3. [Q8K585-2]
+DR   RefSeq; XP_006256225.1; XM_006256163.3. [Q8K585-2]
+DR   RefSeq; XP_017457021.1; XM_017601532.1.
+DR   AlphaFoldDB; Q8K585; -.
+DR   BioGRID; 250659; 1.
+DR   CORUM; Q8K585; -.
+DR   STRING; 10116.ENSRNOP00000000580; -.
+DR   iPTMnet; Q8K585; -.
+DR   PhosphoSitePlus; Q8K585; -.
+DR   jPOST; Q8K585; -.
+DR   PaxDb; 10116-ENSRNOP00000000580; -.
+DR   Ensembl; ENSRNOT00000113836.1; ENSRNOP00000086846.1; ENSRNOG00000000488.5. [Q8K585-1]
+DR   Ensembl; ENSRNOT00055013831; ENSRNOP00055011094; ENSRNOG00055008159. [Q8K585-1]
+DR   Ensembl; ENSRNOT00060010499; ENSRNOP00060007790; ENSRNOG00060006381. [Q8K585-1]
+DR   Ensembl; ENSRNOT00065048524; ENSRNOP00065039788; ENSRNOG00065028125. [Q8K585-1]
+DR   GeneID; 117062; -.
+DR   KEGG; rno:117062; -.
+DR   UCSC; RGD:628699; rat. [Q8K585-1]
+DR   AGR; RGD:628699; -.
+DR   CTD; 3159; -.
+DR   RGD; 628699; Hmga1.
+DR   eggNOG; ENOG502S5JW; Eukaryota.
+DR   GeneTree; ENSGT00730000111329; -.
+DR   HOGENOM; CLU_138888_0_0_1; -.
+DR   InParanoid; Q8K585; -.
+DR   OMA; AGCWALW; -.
+DR   OrthoDB; 4851225at2759; -.
+DR   PhylomeDB; Q8K585; -.
+DR   TreeFam; TF351623; -.
+DR   PRO; PR:Q8K585; -.
+DR   Proteomes; UP000002494; Chromosome 20.
+DR   Bgee; ENSRNOG00000000488; Expressed in thymus and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0001673; C:male germ cell nucleus; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0090575; C:RNA polymerase II transcription regulator complex; ISO:RGD.
+DR   GO; GO:0035985; C:senescence-associated heterochromatin focus; ISS:UniProtKB.
+DR   GO; GO:0106068; C:SUMO ligase complex; ISO:RGD.
+DR   GO; GO:0051575; F:5'-deoxyribose-5-phosphate lyase activity; ISO:RGD.
+DR   GO; GO:0003682; F:chromatin binding; ISO:RGD.
+DR   GO; GO:0000987; F:cis-regulatory region sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0062037; F:D-loop DNA binding; ISO:RGD.
+DR   GO; GO:0003677; F:DNA binding; ISO:RGD.
+DR   GO; GO:0008301; F:DNA binding, bending; ISO:RGD.
+DR   GO; GO:0003906; F:DNA-(apurinic or apyrimidinic site) endonuclease activity; ISO:RGD.
+DR   GO; GO:0001228; F:DNA-binding transcription activator activity, RNA polymerase II-specific; ISO:RGD.
+DR   GO; GO:0019899; F:enzyme binding; ISO:RGD.
+DR   GO; GO:0003680; F:minor groove of adenine-thymine-rich DNA binding; ISO:RGD.
+DR   GO; GO:0060090; F:molecular adaptor activity; ISO:RGD.
+DR   GO; GO:0140677; F:molecular function activator activity; ISO:RGD.
+DR   GO; GO:0030374; F:nuclear receptor coactivator activity; ISS:UniProtKB.
+DR   GO; GO:0042974; F:nuclear retinoic acid receptor binding; ISS:UniProtKB.
+DR   GO; GO:0046965; F:nuclear retinoid X receptor binding; ISS:UniProtKB.
+DR   GO; GO:0042975; F:peroxisome proliferator activated receptor binding; ISS:UniProtKB.
+DR   GO; GO:0003723; F:RNA binding; ISO:RGD.
+DR   GO; GO:0000978; F:RNA polymerase II cis-regulatory region sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0000979; F:RNA polymerase II core promoter sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0003713; F:transcription coactivator activity; ISO:RGD.
+DR   GO; GO:0003712; F:transcription coregulator activity; IBA:GO_Central.
+DR   GO; GO:0001221; F:transcription coregulator binding; ISS:UniProtKB.
+DR   GO; GO:0006914; P:autophagy; ISO:RGD.
+DR   GO; GO:0030183; P:B cell differentiation; ISO:RGD.
+DR   GO; GO:0006284; P:base-excision repair; ISO:RGD.
+DR   GO; GO:0008283; P:cell population proliferation; ISO:RGD.
+DR   GO; GO:0006325; P:chromatin organization; ISO:RGD.
+DR   GO; GO:0030218; P:erythrocyte differentiation; ISO:RGD.
+DR   GO; GO:0010467; P:gene expression; ISO:RGD.
+DR   GO; GO:0042593; P:glucose homeostasis; ISO:RGD.
+DR   GO; GO:0007507; P:heart development; ISO:RGD.
+DR   GO; GO:0006925; P:inflammatory cell apoptotic process; ISO:RGD.
+DR   GO; GO:0006954; P:inflammatory response; ISO:RGD.
+DR   GO; GO:0008286; P:insulin receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0030073; P:insulin secretion; ISO:RGD.
+DR   GO; GO:0060425; P:lung morphogenesis; ISO:RGD.
+DR   GO; GO:0002320; P:lymphoid progenitor cell differentiation; ISO:RGD.
+DR   GO; GO:0035264; P:multicellular organism growth; ISO:RGD.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; ISS:UniProtKB.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; ISS:UniProtKB.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0022008; P:neurogenesis; ISO:RGD.
+DR   GO; GO:0090402; P:oncogene-induced cell senescence; ISS:UniProtKB.
+DR   GO; GO:0035357; P:peroxisome proliferator activated receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; ISS:UniProtKB.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; IBA:GO_Central.
+DR   GO; GO:0051896; P:regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISO:RGD.
+DR   GO; GO:0003016; P:respiratory system process; ISO:RGD.
+DR   GO; GO:0051591; P:response to cAMP; ISO:RGD.
+DR   GO; GO:0033762; P:response to glucagon; ISO:RGD.
+DR   GO; GO:0009749; P:response to glucose; ISO:RGD.
+DR   GO; GO:0032868; P:response to insulin; ISO:RGD.
+DR   GO; GO:0009611; P:response to wounding; ISO:RGD.
+DR   GO; GO:0007283; P:spermatogenesis; ISO:RGD.
+DR   GO; GO:0030217; P:T cell differentiation; ISO:RGD.
+DR   GO; GO:0030878; P:thyroid gland development; ISO:RGD.
+DR   InterPro; IPR017956; AT_hook_DNA-bd_motif.
+DR   InterPro; IPR000116; HMGA.
+DR   InterPro; IPR000637; HMGI/Y_DNA-bd_CS.
+DR   PANTHER; PTHR23341:SF1; HIGH MOBILITY GROUP PROTEIN HMG-I_HMG-Y; 1.
+DR   PANTHER; PTHR23341; HIGH MOBILITY GROUP PROTEINS HMG-A AND C; 1.
+DR   Pfam; PF02178; AT_hook; 3.
+DR   PRINTS; PR00929; ATHOOK.
+DR   PRINTS; PR00930; HIGHMOBLTYIY.
+DR   SMART; SM00384; AT_hook; 3.
+DR   PROSITE; PS00354; HMGI_Y; 3.
+PE   1: Evidence at protein level;
+KW   Acetylation; ADP-ribosylation; Alternative splicing; Chromosome;
+KW   DNA-binding; Isopeptide bond; Methylation; Nucleus; Phosphoprotein;
+KW   Reference proteome; Repeat; Transcription; Transcription regulation;
+KW   Ubl conjugation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P17095"
+FT   CHAIN           2..107
+FT                   /note="High mobility group protein HMG-I/HMG-Y"
+FT                   /id="PRO_0000206710"
+FT   DNA_BIND        21..31
+FT                   /note="A.T hook 1"
+FT   DNA_BIND        53..63
+FT                   /note="A.T hook 2"
+FT   DNA_BIND        78..89
+FT                   /note="A.T hook 3"
+FT   REGION          1..107
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          53..77
+FT                   /note="Interaction with HIPK2"
+FT                   /evidence="ECO:0000250"
+FT   COMPBIAS        1..15
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17095"
+FT   MOD_RES         7
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17095"
+FT   MOD_RES         8
+FT                   /note="ADP-ribosylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         9
+FT                   /note="ADP-ribosylserine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         9
+FT                   /note="Phosphoserine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         15
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         26
+FT                   /note="Asymmetric dimethylarginine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         26
+FT                   /note="Omega-N-methylarginine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         26
+FT                   /note="Symmetric dimethylarginine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         36
+FT                   /note="Phosphoserine; by HIPK2 and CDC2"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         39
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         44
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         49
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         53
+FT                   /note="Phosphothreonine; by HIPK2 and CDC2"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         58
+FT                   /note="Asymmetric dimethylarginine; by PRMT6; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         58
+FT                   /note="Omega-N-methylarginine; by PRMT6; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         60
+FT                   /note="Asymmetric dimethylarginine; by PRMT6; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         60
+FT                   /note="Omega-N-methylarginine; by PRMT6; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         78
+FT                   /note="Phosphothreonine; by HIPK2 and CDC2"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         99
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         102
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   MOD_RES         103
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   CROSSLNK        15
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P17096"
+FT   VAR_SEQ         35..45
+FT                   /note="Missing (in isoform HMG-Y)"
+FT                   /evidence="ECO:0000303|PubMed:12653562"
+FT                   /id="VSP_016395"
+FT   CONFLICT        5
+FT                   /note="V -> G (in Ref. 2; AAM33433)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   107 AA;  11706 MW;  0F944B183384C10E CRC64;
+     MSESVSKSSQ PLASKQEKDG TEKRGRGRPR KQPSVSPGTA LVGSQKEPSE VPTPKRPRGR
+     PKGSKNKGTA KTRKVTTTPG RKPRGRPKKL EKEEEEGISQ ESSEEEQ
+//

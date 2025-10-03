@@ -1,0 +1,338 @@
+ID   PLCB1_RAT               Reviewed;        1216 AA.
+AC   P10687;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1989, sequence version 1.
+DT   02-OCT-2024, entry version 202.
+DE   RecName: Full=1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-1 {ECO:0000305};
+DE            EC=3.1.4.11 {ECO:0000269|PubMed:8454637};
+DE   AltName: Full=PLC-154;
+DE   AltName: Full=Phosphoinositide phospholipase C-beta-1;
+DE   AltName: Full=Phospholipase C-I;
+DE            Short=PLC-I;
+DE   AltName: Full=Phospholipase C-beta-1;
+DE            Short=PLC-beta-1;
+GN   Name=Plcb1 {ECO:0000312|RGD:3344};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3390863; DOI=10.1016/0092-8674(88)90548-x;
+RA   Suh P.-G., Ryu S.H., Moon K.H., Suh H.W., Rhee S.G.;
+RT   "Cloning and sequence of multiple forms of phospholipase C.";
+RL   Cell 54:161-169(1988).
+RN   [2]
+RP   CATALYTIC ACTIVITY, TISSUE SPECIFICITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=8454637; DOI=10.1016/s0021-9258(18)53300-7;
+RA   Jhon D.-Y., Lee H.-H., Park D., Lee C.-W., Lee K.-H., Yoo O.J., Rhee S.G.;
+RT   "Cloning, sequencing, purification, and Gq-dependent activation of
+RT   phospholipase C-beta 3.";
+RL   J. Biol. Chem. 268:6654-6661(1993).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-582; SER-1197; SER-1199 AND
+RP   SER-1200, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of 1-phosphatidylinositol 4,5-
+CC       bisphosphate into diacylglycerol (DAG) and inositol 1,4,5-trisphosphate
+CC       (IP3) and mediates intracellular signaling downstream of G protein-
+CC       coupled receptors. Regulates the function of the endothelial barrier.
+CC       {ECO:0000250|UniProtKB:Q9Z1B3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol-4,5-
+CC         bisphosphate) + H2O = 1D-myo-inositol 1,4,5-trisphosphate + a 1,2-
+CC         diacyl-sn-glycerol + H(+); Xref=Rhea:RHEA:33179, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17815, ChEBI:CHEBI:58456,
+CC         ChEBI:CHEBI:203600; EC=3.1.4.11;
+CC         Evidence={ECO:0000269|PubMed:8454637};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:33180;
+CC         Evidence={ECO:0000305|PubMed:8454637};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol) + H2O =
+CC         1D-myo-inositol 1-phosphate + a 1,2-diacyl-sn-glycerol + H(+);
+CC         Xref=Rhea:RHEA:43484, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17815, ChEBI:CHEBI:57880, ChEBI:CHEBI:58433;
+CC         Evidence={ECO:0000269|PubMed:8454637};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:43485;
+CC         Evidence={ECO:0000305|PubMed:8454637};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC   -!- SUBUNIT: Interacts with DGKQ. {ECO:0000250|UniProtKB:Q9NQ66}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus membrane {ECO:0000250|UniProtKB:Q9Z1B3}.
+CC       Cytoplasm {ECO:0000269|PubMed:8454637}. Note=Colocalizes with the
+CC       adrenergic receptors, ADREN1A and ADREN1B, at the nuclear membrane of
+CC       cardiac myocytes. {ECO:0000250|UniProtKB:Q9Z1B3}.
+CC   -!- TISSUE SPECIFICITY: Highest expression in brain. Also expressed in
+CC       parotid gland, liver, uterus, lung, heart, adrenal gland and ovary. Not
+CC       detected in spleen, pancreas, intestine, thymus or kidney.
+CC       {ECO:0000269|PubMed:8454637}.
+CC   -!- PTM: Palmitoylated. Palmitoylation at Cys-17 by ZDHHC21 regulates the
+CC       signaling activity of PLCB1 and the function of the endothelial
+CC       barrier. Palmitoylation by ZDHHC21 is stimulated by inflammation.
+CC       {ECO:0000250|UniProtKB:Q9Z1B3}.
+CC   -!- MISCELLANEOUS: The receptor-mediated activation of PLC-beta-1 is
+CC       mediated by two G-protein alpha subunits, alpha-Q and alpha-11.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M20636; AAA41885.1; -; mRNA.
+DR   PIR; A28821; A28821.
+DR   RefSeq; NP_001071109.1; NM_001077641.1.
+DR   RefSeq; XP_017446955.1; XM_017591466.1.
+DR   AlphaFoldDB; P10687; -.
+DR   SMR; P10687; -.
+DR   BioGRID; 246789; 162.
+DR   IntAct; P10687; 4.
+DR   MINT; P10687; -.
+DR   STRING; 10116.ENSRNOP00000006389; -.
+DR   BindingDB; P10687; -.
+DR   SwissLipids; SLP:000000946; -.
+DR   GlyGen; P10687; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; P10687; -.
+DR   PhosphoSitePlus; P10687; -.
+DR   SwissPalm; P10687; -.
+DR   PaxDb; 10116-ENSRNOP00000006389; -.
+DR   Ensembl; ENSRNOT00000006389.7; ENSRNOP00000006389.7; ENSRNOG00000004810.9.
+DR   Ensembl; ENSRNOT00055039612; ENSRNOP00055032162; ENSRNOG00055022915.
+DR   Ensembl; ENSRNOT00060003760; ENSRNOP00060002619; ENSRNOG00060002294.
+DR   Ensembl; ENSRNOT00065021680; ENSRNOP00065016793; ENSRNOG00065013076.
+DR   GeneID; 24654; -.
+DR   KEGG; rno:24654; -.
+DR   UCSC; RGD:3344; rat.
+DR   AGR; RGD:3344; -.
+DR   CTD; 23236; -.
+DR   RGD; 3344; Plcb1.
+DR   eggNOG; KOG1265; Eukaryota.
+DR   GeneTree; ENSGT00940000155428; -.
+DR   InParanoid; P10687; -.
+DR   OMA; GKVNHKP; -.
+DR   OrthoDB; 2900494at2759; -.
+DR   PhylomeDB; P10687; -.
+DR   TreeFam; TF313216; -.
+DR   BRENDA; 3.1.4.11; 5301.
+DR   Reactome; R-RNO-112043; PLC beta mediated events.
+DR   Reactome; R-RNO-1855204; Synthesis of IP3 and IP4 in the cytosol.
+DR   Reactome; R-RNO-399997; Acetylcholine regulates insulin secretion.
+DR   Reactome; R-RNO-416476; G alpha (q) signalling events.
+DR   Reactome; R-RNO-434316; Fatty Acids bound to GPR40 (FFAR1) regulate insulin secretion.
+DR   SABIO-RK; P10687; -.
+DR   PRO; PR:P10687; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   GO; GO:0000785; C:chromatin; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISS:BHF-UCL.
+DR   GO; GO:0098982; C:GABA-ergic synapse; ISO:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0031965; C:nuclear membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016607; C:nuclear speck; ISS:BHF-UCL.
+DR   GO; GO:0005634; C:nucleus; ISS:BHF-UCL.
+DR   GO; GO:0099524; C:postsynaptic cytosol; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:BHF-UCL.
+DR   GO; GO:0005516; F:calmodulin binding; ISO:RGD.
+DR   GO; GO:0019899; F:enzyme binding; ISO:RGD.
+DR   GO; GO:0005096; F:GTPase activator activity; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:BHF-UCL.
+DR   GO; GO:0005521; F:lamin binding; ISO:RGD.
+DR   GO; GO:0004435; F:phosphatidylinositol phospholipase C activity; IDA:RGD.
+DR   GO; GO:0005546; F:phosphatidylinositol-4,5-bisphosphate binding; ISO:RGD.
+DR   GO; GO:0060466; P:activation of meiosis involved in egg activation; ISS:BHF-UCL.
+DR   GO; GO:1902618; P:cellular response to fluoride; IDA:RGD.
+DR   GO; GO:1905631; P:cellular response to glyceraldehyde; IDA:RGD.
+DR   GO; GO:1904637; P:cellular response to ionomycin; IDA:RGD.
+DR   GO; GO:1904117; P:cellular response to vasopressin; IDA:RGD.
+DR   GO; GO:0021987; P:cerebral cortex development; ISS:BHF-UCL.
+DR   GO; GO:0045444; P:fat cell differentiation; ISO:RGD.
+DR   GO; GO:0007213; P:G protein-coupled acetylcholine receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; IBA:GO_Central.
+DR   GO; GO:0000086; P:G2/M transition of mitotic cell cycle; ISO:RGD.
+DR   GO; GO:0007215; P:glutamate receptor signaling pathway; ISS:BHF-UCL.
+DR   GO; GO:0032957; P:inositol trisphosphate metabolic process; IDA:RGD.
+DR   GO; GO:0048009; P:insulin-like growth factor receptor signaling pathway; ISS:BHF-UCL.
+DR   GO; GO:0070498; P:interleukin-1-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0035722; P:interleukin-12-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0035723; P:interleukin-15-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0099105; P:ion channel modulating, G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0007612; P:learning; IEP:RGD.
+DR   GO; GO:1990806; P:ligand-gated ion channel signaling pathway; ISO:RGD.
+DR   GO; GO:0007613; P:memory; IEP:RGD.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; ISS:BHF-UCL.
+DR   GO; GO:2000438; P:negative regulation of monocyte extravasation; ISS:BHF-UCL.
+DR   GO; GO:0031161; P:phosphatidylinositol catabolic process; IDA:RGD.
+DR   GO; GO:0046488; P:phosphatidylinositol metabolic process; IEP:RGD.
+DR   GO; GO:0048015; P:phosphatidylinositol-mediated signaling; IBA:GO_Central.
+DR   GO; GO:0007207; P:phospholipase C-activating G protein-coupled acetylcholine receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0007200; P:phospholipase C-activating G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:2000344; P:positive regulation of acrosome reaction; ISO:RGD.
+DR   GO; GO:2000560; P:positive regulation of CD24 production; ISS:BHF-UCL.
+DR   GO; GO:0048639; P:positive regulation of developmental growth; ISS:BHF-UCL.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; ISS:BHF-UCL.
+DR   GO; GO:0040019; P:positive regulation of embryonic development; ISO:RGD.
+DR   GO; GO:1900087; P:positive regulation of G1/S transition of mitotic cell cycle; ISS:BHF-UCL.
+DR   GO; GO:0032024; P:positive regulation of insulin secretion; ISO:RGD.
+DR   GO; GO:0032735; P:positive regulation of interleukin-12 production; ISS:BHF-UCL.
+DR   GO; GO:0046330; P:positive regulation of JNK cascade; ISO:RGD.
+DR   GO; GO:0045663; P:positive regulation of myoblast differentiation; ISS:BHF-UCL.
+DR   GO; GO:0099170; P:postsynaptic modulation of chemical synaptic transmission; ISO:RGD.
+DR   GO; GO:1903140; P:regulation of establishment of endothelial barrier; ISO:RGD.
+DR   GO; GO:0080154; P:regulation of fertilization; ISO:RGD.
+DR   GO; GO:0008277; P:regulation of G protein-coupled receptor signaling pathway; ISS:BHF-UCL.
+DR   GO; GO:0099178; P:regulation of retrograde trans-synaptic signaling by endocanabinoid; ISO:RGD.
+DR   GO; GO:0051209; P:release of sequestered calcium ion into cytosol; IBA:GO_Central.
+DR   GO; GO:0034284; P:response to monosaccharide; IDA:BHF-UCL.
+DR   GO; GO:0043434; P:response to peptide hormone; IDA:BHF-UCL.
+DR   CDD; cd00275; C2_PLC_like; 1.
+DR   CDD; cd16208; EFh_PI-PLCbeta1; 1.
+DR   CDD; cd13361; PH_PLC_beta; 1.
+DR   CDD; cd08591; PI-PLCc_beta; 1.
+DR   Gene3D; 2.30.29.240; -; 1.
+DR   Gene3D; 2.60.40.150; C2 domain; 1.
+DR   Gene3D; 1.10.238.10; EF-hand; 1.
+DR   Gene3D; 3.20.20.190; Phosphatidylinositol (PI) phosphodiesterase; 1.
+DR   Gene3D; 1.20.1230.10; Phospholipase C beta, distal C-terminal domain; 1.
+DR   InterPro; IPR000008; C2_dom.
+DR   InterPro; IPR035892; C2_domain_sf.
+DR   InterPro; IPR011992; EF-hand-dom_pair.
+DR   InterPro; IPR001192; PI-PLC_fam.
+DR   InterPro; IPR016280; PLC-beta.
+DR   InterPro; IPR028400; PLC-beta1_EF.
+DR   InterPro; IPR014815; PLC-beta_C.
+DR   InterPro; IPR042531; PLC-beta_C_sf.
+DR   InterPro; IPR037862; PLC-beta_PH.
+DR   InterPro; IPR017946; PLC-like_Pdiesterase_TIM-brl.
+DR   InterPro; IPR053945; PLCB1-4-like_EFh.
+DR   InterPro; IPR000909; PLipase_C_PInositol-sp_X_dom.
+DR   InterPro; IPR001711; PLipase_C_Pinositol-sp_Y.
+DR   PANTHER; PTHR10336:SF12; 1-PHOSPHATIDYLINOSITOL 4,5-BISPHOSPHATE PHOSPHODIESTERASE BETA-1; 1.
+DR   PANTHER; PTHR10336; PHOSPHOINOSITIDE-SPECIFIC PHOSPHOLIPASE C FAMILY PROTEIN; 1.
+DR   Pfam; PF17787; PH_14; 1.
+DR   Pfam; PF00388; PI-PLC-X; 1.
+DR   Pfam; PF00387; PI-PLC-Y; 1.
+DR   Pfam; PF08703; PLC-beta_C; 1.
+DR   Pfam; PF22631; PLCB1-4-like_EFh; 1.
+DR   PIRSF; PIRSF000956; PLC-beta; 1.
+DR   PRINTS; PR00390; PHPHLIPASEC.
+DR   SMART; SM00239; C2; 1.
+DR   SMART; SM00148; PLCXc; 1.
+DR   SMART; SM00149; PLCYc; 1.
+DR   SUPFAM; SSF69989; C-terminal domain of PLC-beta; 1.
+DR   SUPFAM; SSF49562; C2 domain (Calcium/lipid-binding domain, CaLB); 1.
+DR   SUPFAM; SSF47473; EF-hand; 1.
+DR   SUPFAM; SSF50729; PH domain-like; 1.
+DR   SUPFAM; SSF51695; PLC-like phosphodiesterases; 1.
+DR   PROSITE; PS50004; C2; 1.
+DR   PROSITE; PS50007; PIPLC_X_DOMAIN; 1.
+DR   PROSITE; PS50008; PIPLC_Y_DOMAIN; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Cytoplasm; Hydrolase; Lipid degradation; Lipid metabolism;
+KW   Lipoprotein; Membrane; Nucleus; Palmitate; Phosphoprotein;
+KW   Reference proteome; Transducer.
+FT   CHAIN           1..1216
+FT                   /note="1-phosphatidylinositol 4,5-bisphosphate
+FT                   phosphodiesterase beta-1"
+FT                   /id="PRO_0000088488"
+FT   DOMAIN          316..467
+FT                   /note="PI-PLC X-box"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00270"
+FT   DOMAIN          540..656
+FT                   /note="PI-PLC Y-box"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00271"
+FT   DOMAIN          656..784
+FT                   /note="C2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   REGION          469..534
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          834..891
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          967..989
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1072..1095
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1172..1216
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        480..500
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        507..521
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        848..875
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        967..982
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        331
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00270"
+FT   ACT_SITE        378
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00270"
+FT   MOD_RES         236
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1B3"
+FT   MOD_RES         417
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1B3"
+FT   MOD_RES         509
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1B3"
+FT   MOD_RES         511
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1B3"
+FT   MOD_RES         582
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         887
+FT                   /note="Phosphoserine; by PKC"
+FT                   /evidence="ECO:0000250|UniProtKB:P10894"
+FT   MOD_RES         978
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1B3"
+FT   MOD_RES         987
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1B3"
+FT   MOD_RES         1197
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1199
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1200
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   LIPID           17
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1B3"
+SQ   SEQUENCE   1216 AA;  138344 MW;  92F23691781F788E CRC64;
+     MAGAQPGVHA LQLKPVCVSD SLKKGTKFVK WDDDSTIVTP IILRTDPQGF FFYWTDQNKE
+     TELLDLSLVK DARCGKHAKA PKDPKLRELL DVGNIGHLEQ RMITVVYGPD LVNISHLNLV
+     AFQEEVAKEW TNEVFSLATN LLAQNMSRDA FLEKAYTKLK LQVTPEGRIP LKNIYRLFSA
+     DRKRVETALE ACSLPSSRND SIPQEDFTPD VYRVFLNNLC PRPEIDNIFS EFGAKSKPYL
+     TVDQMMDFIN LKQRDPRLNE ILYPPLKQEQ VQVLIEKYEP NSSLAKKGQM SVDGFMRYLS
+     GEENGVVSPE KLDLNEDMSQ PLSHYFINSS HNTYLTAGQL AGNSSVEMYR QVLLSGCRCV
+     ELDCWKGRTA EEEPVITHGF TMTTEISFKE VIEAIAECAF KTSPFPILLS FENHVDSPKQ
+     QAKMAEYCRL IFGDALLMEP LEKYPLESGV PLPSPMDLMY KILVKNKKKS HKSSEGSGKK
+     KLSEQASNTY SDSSSVFEPS SPGAGEADTE SDDDDDDDDC KKSSMDEGTA GSEAMATEEM
+     SNLVNYIQPV KFESFETSKK RNKSFEMSSF VETKGLEQLT KSPVEFVEYN KMQLSRIYPK
+     GTRVDSSNYM PQLFWNAGCQ MVALNFQTVD LAMQINMGMY EYNGKSGYRL KPEFMRRPDK
+     HFDPFTEGIV DGIVANTLSV KIISGQFLSD KKVGTYVEVD MFGLPVDTRR KAFKTKTSQG
+     NAVNPVWEEE PIVFKKVVLP SLACLRIAAY EEGGKFIGHR ILPVQAIRPG YHYICLRNER
+     NQPLMLPAVF VYIEVKDYVP DTYADVIEAL SNPIRYVNLM EQRAKQLAAL TLEDEEEVKK
+     EADPGETSSE APSETRTTPA ENGVNHTATL APKPPSQAPH SQPAPGSVKA PAKTEDLIQS
+     VLTEVEAQTI EELKQQKSFV KLQKKHYKEM KDLVKRHHKK TTELIKEHTT KYNEIQNDYL
+     RRRAALEKSA KKDSKKKSEP SSPDHGSSAI EQDLAALDAE MTQKLIDLKD KQQQQLLNLR
+     QEQYYSEKYQ KREHIKLLIQ KLTDVAEECQ NNQLKKLKEI CEKEKKELKK KMDKKRQEKI
+     TEAKSKDKSQ MEEEKTEMIR SYIQEVVQYI KRLEEAQSKR QEKLVEKHKE IRQQILDEKP
+     KLQMELEQEY QDKFKRLPLE ILEFVQEAMK GKVSEDSNHG SAPPSLASDP AKVNLKSPSS
+     EEVQGENAGR EFDTPL
+//

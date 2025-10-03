@@ -1,0 +1,134 @@
+ID   MCTS1_RAT               Reviewed;         182 AA.
+AC   Q4G009;
+DT   22-JUL-2008, integrated into UniProtKB/Swiss-Prot.
+DT   30-AUG-2005, sequence version 1.
+DT   02-OCT-2024, entry version 115.
+DE   RecName: Full=Malignant T-cell-amplified sequence 1;
+DE            Short=MCT-1;
+GN   Name=Mcts1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Spleen;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Translation regulator forming a complex with DENR to promote
+CC       translation reinitiation. Translation reinitiation is the process where
+CC       the small ribosomal subunit remains attached to the mRNA following
+CC       termination of translation of a regulatory upstream ORF (uORF), and
+CC       resume scanning on the same mRNA molecule to initiate translation of a
+CC       downstream ORF, usually the main ORF (mORF). The MCTS1/DENR complex is
+CC       pivotal to two linked mechanisms essential for translation
+CC       reinitiation. Firstly, the dissociation of deacylated tRNAs from post-
+CC       termination 40S ribosomal complexes during ribosome recycling.
+CC       Secondly, the recruitment in an EIF2-independent manner of
+CC       aminoacylated initiator tRNA to P site of 40S ribosomes for a new round
+CC       of translation. This regulatory mechanism governs the translation of
+CC       more than 150 genes which translation reinitiation is MCTS1/DENR
+CC       complex-dependent. Consequently, modulates various unrelated biological
+CC       processes including cell cycle regulation and DNA damage signaling and
+CC       repair. Notably, it positively regulates interferon gamma immunity to
+CC       mycobacteria by enhancing the translation of JAK2.
+CC       {ECO:0000250|UniProtKB:Q9ULC4}.
+CC   -!- SUBUNIT: Interacts (via PUA domain) with DENR; the complex regulates
+CC       translation reinitiation. {ECO:0000250|UniProtKB:Q9ULC4}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q9ULC4}.
+CC       Note=Nuclear relocalization after DNA damage.
+CC       {ECO:0000250|UniProtKB:Q9ULC4}.
+CC   -!- DOMAIN: The PUA RNA-binding domain is critical for cap binding, but not
+CC       sufficient for translation enhancer function. MCT1 N-terminal region is
+CC       required to enhance translation possibly through interaction with other
+CC       proteins.
+CC   -!- PTM: Phosphorylation is critical for stabilization and promotion of
+CC       cell proliferation. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the MCTS1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC098848; AAH98848.1; -; mRNA.
+DR   RefSeq; NP_001037702.1; NM_001044237.1.
+DR   AlphaFoldDB; Q4G009; -.
+DR   SMR; Q4G009; -.
+DR   BioGRID; 257211; 1.
+DR   STRING; 10116.ENSRNOP00000061717; -.
+DR   iPTMnet; Q4G009; -.
+DR   PhosphoSitePlus; Q4G009; -.
+DR   jPOST; Q4G009; -.
+DR   PaxDb; 10116-ENSRNOP00000061717; -.
+DR   Ensembl; ENSRNOT00000066677.2; ENSRNOP00000061717.1; ENSRNOG00000002563.8.
+DR   Ensembl; ENSRNOT00055043240; ENSRNOP00055035272; ENSRNOG00055025089.
+DR   Ensembl; ENSRNOT00060030557; ENSRNOP00060024709; ENSRNOG00060017835.
+DR   Ensembl; ENSRNOT00065016916; ENSRNOP00065012953; ENSRNOG00065010446.
+DR   GeneID; 302500; -.
+DR   KEGG; rno:302500; -.
+DR   UCSC; RGD:1566390; rat.
+DR   AGR; RGD:1566390; -.
+DR   CTD; 28985; -.
+DR   RGD; 1566390; Mcts1.
+DR   eggNOG; KOG2523; Eukaryota.
+DR   GeneTree; ENSGT00550000074964; -.
+DR   InParanoid; Q4G009; -.
+DR   OrthoDB; 5036262at2759; -.
+DR   PhylomeDB; Q4G009; -.
+DR   TreeFam; TF315123; -.
+DR   PRO; PR:Q4G009; -.
+DR   Proteomes; UP000002494; Chromosome X.
+DR   Bgee; ENSRNOG00000002563; Expressed in pancreas and 20 other cell types or tissues.
+DR   ExpressionAtlas; Q4G009; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0022627; C:cytosolic small ribosomal subunit; ISO:RGD.
+DR   GO; GO:0043024; F:ribosomal small subunit binding; ISS:UniProtKB.
+DR   GO; GO:0000339; F:RNA cap binding; ISS:UniProtKB.
+DR   GO; GO:0045183; F:translation factor activity, non-nucleic acid binding; ISS:UniProtKB.
+DR   GO; GO:0006974; P:DNA damage response; IEA:UniProtKB-KW.
+DR   GO; GO:0001731; P:formation of translation preinitiation complex; ISO:RGD.
+DR   GO; GO:0075522; P:IRES-dependent viral translational initiation; ISO:RGD.
+DR   GO; GO:0032790; P:ribosome disassembly; ISS:UniProtKB.
+DR   GO; GO:0002188; P:translation reinitiation; ISS:UniProtKB.
+DR   CDD; cd11609; MCT1_N; 1.
+DR   CDD; cd21155; PUA_MCTS-1-like; 1.
+DR   Gene3D; 3.10.400.20; -; 1.
+DR   InterPro; IPR016437; MCT-1/Tma20.
+DR   InterPro; IPR041366; Pre-PUA.
+DR   InterPro; IPR002478; PUA.
+DR   InterPro; IPR015947; PUA-like_sf.
+DR   InterPro; IPR004521; Uncharacterised_CHP00451.
+DR   NCBIfam; TIGR00451; unchar_dom_2; 1.
+DR   PANTHER; PTHR22798:SF10; MALIGNANT T-CELL-AMPLIFIED SEQUENCE 1; 1.
+DR   PANTHER; PTHR22798; MCT-1 PROTEIN; 1.
+DR   Pfam; PF17832; Pre-PUA; 1.
+DR   Pfam; PF01472; PUA; 1.
+DR   PIRSF; PIRSF005067; Tma_RNA-bind_prd; 1.
+DR   SMART; SM00359; PUA; 1.
+DR   SUPFAM; SSF88697; PUA domain-like; 1.
+DR   PROSITE; PS50890; PUA; 1.
+PE   2: Evidence at transcript level;
+KW   Cell cycle; Cytoplasm; DNA damage; Growth regulation; Phosphoprotein;
+KW   Reference proteome; Transcription; Transcription regulation;
+KW   Tumor suppressor.
+FT   CHAIN           1..182
+FT                   /note="Malignant T-cell-amplified sequence 1"
+FT                   /id="PRO_0000344789"
+FT   DOMAIN          93..172
+FT                   /note="PUA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00161"
+FT   MOD_RES         82
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9ULC4"
+FT   MOD_RES         119
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9ULC4"
+SQ   SEQUENCE   182 AA;  20550 MW;  0ED704B1C7602954 CRC64;
+     MGKGRFDEKE NVSNCIQLKT SVIKGIKNQL LEQFPGIEPW LNQIMPKKDP VKIVRCHEHI
+     EILTVNGELL FFRQREGPFY PTLRLLHKYP FILPHQQVDK GAIKFVLSGA NIMCPGLTSP
+     GAKLYPAAVD TIVAIMAEGK QHALCVGVMK MSAEDIEKVN KGIGIENIHY LNDGLWHMKT
+     YK
+//

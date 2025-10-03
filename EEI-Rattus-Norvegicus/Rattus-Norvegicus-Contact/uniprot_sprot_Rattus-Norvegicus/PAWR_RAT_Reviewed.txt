@@ -1,0 +1,216 @@
+ID   PAWR_RAT                Reviewed;         332 AA.
+AC   Q62627;
+DT   24-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-OCT-2024, entry version 133.
+DE   RecName: Full=PRKC apoptosis WT1 regulator protein;
+DE   AltName: Full=Prostate apoptosis response 4 protein;
+DE            Short=Par-4;
+DE   AltName: Full=Transcriptional repressor Par-4-like protein PAWR;
+GN   Name=Pawr; Synonyms=Par4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND INDUCTION.
+RC   TISSUE=Prostate;
+RX   PubMed=8043520;
+RA   Sells S.F., Wood D.P. Jr., Joshi-Barve S.S., Muthukumar S., Jacob R.J.,
+RA   Crist S.A., Humphreys S., Rangnekar V.M.;
+RT   "Commonality of the gene programs induced by effectors of apoptosis in
+RT   androgen-dependent and -independent prostate cells.";
+RL   Cell Growth Differ. 5:457-466(1994).
+RN   [2]
+RP   DOMAIN SAC, MUTAGENESIS, AND SUBCELLULAR LOCATION.
+RX   PubMed=12897127; DOI=10.1128/mcb.23.16.5516-5525.2003;
+RA   El-Guendy N., Zhao Y., Gurumurthy S., Burikhanov R., Rangnekar V.M.;
+RT   "Identification of a unique core domain of par-4 sufficient for selective
+RT   apoptosis induction in cancer cells.";
+RL   Mol. Cell. Biol. 23:5516-5525(2003).
+RN   [3]
+RP   PHOSPHORYLATION AT THR-155 BY PKA.
+RX   PubMed=15657440; DOI=10.1128/mcb.25.3.1146-1161.2005;
+RA   Gurumurthy S., Goswami A., Vasudevan K.M., Rangnekar V.M.;
+RT   "Phosphorylation of Par-4 by protein kinase A is critical for apoptosis.";
+RL   Mol. Cell. Biol. 25:1146-1161(2005).
+RN   [4]
+RP   INTERACTION WITH ACTIN.
+RX   PubMed=15817164; DOI=10.1016/j.yexcr.2005.01.012;
+RA   Vetterkind S., Illenberger S., Kubicek J., Boosen M., Appel S., Naim H.Y.,
+RA   Scheidtmann K.H., Preuss U.;
+RT   "Binding of Par-4 to the actin cytoskeleton is essential for Par-4/Dlk-
+RT   mediated apoptosis.";
+RL   Exp. Cell Res. 305:392-408(2005).
+CC   -!- FUNCTION: Pro-apoptotic protein capable of selectively inducing
+CC       apoptosis in cancer cells, sensitizing the cells to diverse apoptotic
+CC       stimuli and causing regression of tumors in animal models. Induces
+CC       apoptosis in certain cancer cells by activation of the Fas prodeath
+CC       pathway and coparallel inhibition of NF-kappa-B transcriptional
+CC       activity. Inhibits the transcriptional activation and augments the
+CC       transcriptional repression mediated by WT1. Down-regulates the anti-
+CC       apoptotic protein BCL2 via its interaction with WT1. Seems also to be a
+CC       transcriptional repressor by itself. May be directly involved in
+CC       regulating the amyloid precursor protein (APP) cleavage activity of
+CC       BACE1 (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homooligomer. Interacts (via the C-terminal region) with WT1.
+CC       Interacts with THAP1. Interacts with AATF. Interacts with BACE1.
+CC       Interacts with SPSB1 (via B30.2/SPRY domain); this interaction is
+CC       direct and occurs in association with the Elongin BC complex. Interacts
+CC       with SPSB2 (via B30.2/SPRY domain); this interaction occurs in
+CC       association with the Elongin BC complex. Interacts with SPSB4 (via
+CC       B30.2/SPRY domain); this interaction occurs in association with the
+CC       Elongin BC complex. Component of a ternary complex composed of SQSTM1
+CC       and PRKCZ (By similarity). Interacts with actin (PubMed:15817164).
+CC       {ECO:0000250|UniProtKB:Q925B0, ECO:0000250|UniProtKB:Q96IZ0,
+CC       ECO:0000269|PubMed:15817164}.
+CC   -!- INTERACTION:
+CC       Q62627; O88764: Dapk3; NbExp=5; IntAct=EBI-1187240, EBI-4404236;
+CC       Q62627; Q9JMG6: Tfpt; NbExp=8; IntAct=EBI-1187240, EBI-1767101;
+CC       Q62627; P11021: HSPA5; Xeno; NbExp=4; IntAct=EBI-1187240, EBI-354921;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Nucleus {ECO:0000250}.
+CC       Note=Mainly cytoplasmic in absence of apoptosis signal and in normal
+CC       cells. Nuclear in most cancer cell lines. Nuclear entry seems to be
+CC       essential but not sufficient for apoptosis. Nuclear localization
+CC       includes nucleoplasm and PML nuclear bodies (By similarity).
+CC       {ECO:0000250}.
+CC   -!- INDUCTION: In ventral prostate following castration.
+CC       {ECO:0000269|PubMed:8043520}.
+CC   -!- DOMAIN: The leucine-zipper domain is not essential for apoptosis, but
+CC       is required for sensitization of cells to exogenous apoptotic insults
+CC       and for interaction with its partners. {ECO:0000250}.
+CC   -!- DOMAIN: The SAC domain is a death-inducing domain selective for
+CC       apoptosis induction in cancer cells. This domain is essential for
+CC       nuclear entry, Fas activation, inhibition of NF-kappa-B activity and
+CC       induction of apoptosis in cancer cells (By similarity). {ECO:0000250}.
+CC   -!- DOMAIN: The B30.2/SPRY domain-binding motif mediates recognition by
+CC       proteins containing a B30.2/SPRY domain.
+CC       {ECO:0000250|UniProtKB:Q96IZ0}.
+CC   -!- PTM: Preferentially phosphorylated at the Thr-155 by PKC in cancer
+CC       cells. {ECO:0000269|PubMed:15657440}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U05989; AAA16492.1; -; mRNA.
+DR   RefSeq; NP_277020.1; NM_033485.2.
+DR   PDB; 5FIY; X-ray; 3.00 A; A/B/C/D/E/F/G=240-332.
+DR   PDBsum; 5FIY; -.
+DR   AlphaFoldDB; Q62627; -.
+DR   SMR; Q62627; -.
+DR   BioGRID; 249098; 4.
+DR   IntAct; Q62627; 5.
+DR   STRING; 10116.ENSRNOP00000008222; -.
+DR   iPTMnet; Q62627; -.
+DR   PhosphoSitePlus; Q62627; -.
+DR   PaxDb; 10116-ENSRNOP00000008222; -.
+DR   DNASU; 64513; -.
+DR   GeneID; 64513; -.
+DR   KEGG; rno:64513; -.
+DR   UCSC; RGD:69065; rat.
+DR   AGR; RGD:69065; -.
+DR   CTD; 5074; -.
+DR   RGD; 69065; Pawr.
+DR   eggNOG; ENOG502QVUF; Eukaryota.
+DR   InParanoid; Q62627; -.
+DR   OrthoDB; 5362291at2759; -.
+DR   PhylomeDB; Q62627; -.
+DR   PRO; PR:Q62627; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005884; C:actin filament; IDA:RGD.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0000785; C:chromatin; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0003779; F:actin binding; IDA:UniProtKB.
+DR   GO; GO:0019899; F:enzyme binding; ISO:RGD.
+DR   GO; GO:0043522; F:leucine zipper domain binding; ISO:RGD.
+DR   GO; GO:0005080; F:protein kinase C binding; IPI:RGD.
+DR   GO; GO:0008157; F:protein phosphatase 1 binding; IPI:RGD.
+DR   GO; GO:0051017; P:actin filament bundle assembly; IDA:UniProtKB.
+DR   GO; GO:0006915; P:apoptotic process; IDA:UniProtKB.
+DR   GO; GO:0097190; P:apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:0098703; P:calcium ion import across plasma membrane; IDA:RGD.
+DR   GO; GO:0071392; P:cellular response to estradiol stimulus; IEP:RGD.
+DR   GO; GO:0071372; P:cellular response to follicle-stimulating hormone stimulus; IEP:RGD.
+DR   GO; GO:0071347; P:cellular response to interleukin-1; IEP:RGD.
+DR   GO; GO:0071306; P:cellular response to vitamin E; IEP:RGD.
+DR   GO; GO:0050966; P:detection of mechanical stimulus involved in sensory perception of pain; IDA:RGD.
+DR   GO; GO:0050965; P:detection of temperature stimulus involved in sensory perception of pain; IDA:RGD.
+DR   GO; GO:0030889; P:negative regulation of B cell proliferation; ISO:RGD.
+DR   GO; GO:0090281; P:negative regulation of calcium ion import; IDA:RGD.
+DR   GO; GO:0048147; P:negative regulation of fibroblast proliferation; ISO:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:0042130; P:negative regulation of T cell proliferation; ISO:RGD.
+DR   GO; GO:0050860; P:negative regulation of T cell receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0045760; P:positive regulation of action potential; IDA:RGD.
+DR   GO; GO:0042986; P:positive regulation of amyloid precursor protein biosynthetic process; ISO:RGD.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:2000774; P:positive regulation of cellular senescence; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:0060450; P:positive regulation of hindgut contraction; IDA:RGD.
+DR   GO; GO:1901300; P:positive regulation of hydrogen peroxide-mediated programmed cell death; ISO:RGD.
+DR   GO; GO:1903238; P:positive regulation of leukocyte tethering or rolling; IDA:RGD.
+DR   GO; GO:0043525; P:positive regulation of neuron apoptotic process; IMP:RGD.
+DR   GO; GO:1904457; P:positive regulation of neuronal action potential; IMP:RGD.
+DR   GO; GO:2000391; P:positive regulation of neutrophil extravasation; IDA:RGD.
+DR   GO; GO:1901082; P:positive regulation of relaxation of smooth muscle; IDA:RGD.
+DR   GO; GO:0032355; P:response to estradiol; IEP:RGD.
+DR   GO; GO:0010040; P:response to iron(II) ion; IEP:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   DisProt; DP00940; -.
+DR   InterPro; IPR026117; Par-4.
+DR   PANTHER; PTHR15093:SF1; PRKC APOPTOSIS WT1 REGULATOR PROTEIN; 1.
+DR   PANTHER; PTHR15093; PROSTATE APOPTOSIS RESPONSE PROTEIN PAR-4; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Apoptosis; Coiled coil; Cytoplasm; Nucleus; Phosphoprotein;
+KW   Reference proteome; Transcription; Transcription regulation.
+FT   CHAIN           1..332
+FT                   /note="PRKC apoptosis WT1 regulator protein"
+FT                   /id="PRO_0000058238"
+FT   REGION          1..253
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          137..195
+FT                   /note="Selective for apoptosis induction in cancer cells
+FT                   (SAC)"
+FT   REGION          292..332
+FT                   /note="Leucine-zipper"
+FT   COILED          176..198
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           61..65
+FT                   /note="B30.2/SPRY domain-binding motif"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96IZ0"
+FT   MOTIF           137..153
+FT                   /note="Nuclear localization signal"
+FT   COMPBIAS        1..15
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        139..154
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        186..218
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        230..244
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         155
+FT                   /note="Phosphothreonine; by PKA"
+FT                   /evidence="ECO:0000269|PubMed:15657440"
+FT   MOD_RES         223
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96IZ0"
+FT   HELIX           257..330
+FT                   /evidence="ECO:0007829|PDB:5FIY"
+SQ   SEQUENCE   332 AA;  35866 MW;  2069B32DEFFF160F CRC64;
+     MATGGYRSSG STTDFLEEWK AKREKMRAKQ NPVGPGSSGG DPAAKSPAGP LAQTTAAGTS
+     ELNHGPAGAA APAAPGPGAL NCAHGSSALP RGAPGSRRPE DECPIAAGAA GAPASRGDEE
+     EPDSAPEKGR SSGPSARKGK GQIEKRKLRE KRRSTGVVNI PAAECLDEYE DDEAGQKERK
+     REDAITQQNT IQNEAASLPD PGTSYLPQDP SRTVPGRYKS TISAPEEEIL NRYPRTDRSG
+     FSRHNRDTSA PANFASSSTL EKRIEDLEKE VLRERQENLR LTRLMQDKEE MIGKLKEEID
+     LLNRDLDDME DENEQLKQEN KTLLKVVGQL TR
+//

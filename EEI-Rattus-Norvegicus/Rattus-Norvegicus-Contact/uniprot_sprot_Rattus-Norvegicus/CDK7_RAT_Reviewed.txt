@@ -1,0 +1,229 @@
+ID   CDK7_RAT                Reviewed;         329 AA.
+AC   P51952;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 2.
+DT   02-OCT-2024, entry version 175.
+DE   RecName: Full=Cyclin-dependent kinase 7;
+DE            EC=2.7.11.22;
+DE            EC=2.7.11.23;
+DE   AltName: Full=39 protein kinase;
+DE            Short=P39 Mo15;
+DE   AltName: Full=CDK-activating kinase 1;
+DE   AltName: Full=Cell division protein kinase 7;
+DE   AltName: Full=TFIIH basal transcription factor complex kinase subunit;
+DE   Flags: Fragment;
+GN   Name=Cdk7; Synonyms=Cak, Cak1, Mo15;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Testis;
+RA   Wu L., Hall F.;
+RL   Submitted (DEC-1994) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-162, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Serine/threonine kinase involved in cell cycle control and in
+CC       RNA polymerase II-mediated RNA transcription. Cyclin-dependent kinases
+CC       (CDKs) are activated by the binding to a cyclin and mediate the
+CC       progression through the cell cycle. Each different complex controls a
+CC       specific transition between 2 subsequent phases in the cell cycle.
+CC       Required for both activation and complex formation of CDK1/cyclin-B
+CC       during G2-M transition, and for activation of CDK2/cyclins during G1-S
+CC       transition (but not complex formation). CDK7 is the catalytic subunit
+CC       of the CDK-activating kinase (CAK) complex. Phosphorylates SPT5/SUPT5H,
+CC       SF1/NR5A1, POLR2A, p53/TP53, CDK1, CDK2, CDK4, CDK6 and CDK11B/CDK11.
+CC       CAK activates the cyclin-associated kinases CDK1, CDK2, CDK4 and CDK6
+CC       by threonine phosphorylation, thus regulating cell cycle progression.
+CC       CAK complexed to the core-TFIIH basal transcription factor activates
+CC       RNA polymerase II by serine phosphorylation of the repetitive C-
+CC       terminal domain (CTD) of its large subunit (POLR2A), allowing its
+CC       escape from the promoter and elongation of the transcripts.
+CC       Phosphorylation of POLR2A in complex with DNA promotes transcription
+CC       initiation by triggering dissociation from DNA. Its expression and
+CC       activity are constant throughout the cell cycle. Upon DNA damage,
+CC       triggers p53/TP53 activation by phosphorylation, but is inactivated in
+CC       turn by p53/TP53; this feedback loop may lead to an arrest of the cell
+CC       cycle and of the transcription, helping in cell recovery, or to
+CC       apoptosis. Required for DNA-bound peptides-mediated transcription and
+CC       cellular growth inhibition (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.22;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.22;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[DNA-directed RNA polymerase] + ATP = ADP + H(+) + phospho-
+CC         [DNA-directed RNA polymerase]; Xref=Rhea:RHEA:10216, Rhea:RHEA-
+CC         COMP:11321, Rhea:RHEA-COMP:11322, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43176, ChEBI:CHEBI:68546,
+CC         ChEBI:CHEBI:456216; EC=2.7.11.23;
+CC   -!- ACTIVITY REGULATION: Phosphorylation at Thr-162 is required for
+CC       enzymatic activity. The association of p53/TP53 to the CAK complex in
+CC       response to DNA damage reduces kinase activity toward CDK2 and RNA
+CC       polymerase II repetitive C-terminal domain (CTD), thus stopping cell
+CC       cycle progression (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Associates primarily with cyclin-H (CCNH) and MAT1 to form the
+CC       CAK complex. CAK can further associate with the core-TFIIH to form the
+CC       TFIIH basal transcription factor; this complex is sensitive to UV
+CC       light. The CAK complex binds to p53/TP53 in response to DNA damage.
+CC       Interacts with CDK2, SF1/NR5A1, PUF60 and PRKCI (By similarity).
+CC       Interacts with HINT1 (By similarity). {ECO:0000250|UniProtKB:P50613}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:P50613}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:P50613}. Cytoplasm, perinuclear region
+CC       {ECO:0000250|UniProtKB:P50613}. Note=Colocalizes with PRKCI in the
+CC       cytoplasm and nucleus. Translocates from the nucleus to cytoplasm and
+CC       perinuclear region in response to DNA-bound peptides (By similarity).
+CC       {ECO:0000250|UniProtKB:P50613}.
+CC   -!- PTM: Phosphorylation of Ser-156 during mitosis inactivates the enzyme.
+CC       Phosphorylation of Thr-162 is required for activity. Phosphorylated at
+CC       Ser-156 and Thr-162 by CDK2 (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC Ser/Thr
+CC       protein kinase family. CDC2/CDKX subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA58562.1; Type=Erroneous termination; Note=Truncated C-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X83579; CAA58562.1; ALT_SEQ; mRNA.
+DR   PIR; S51085; S51085.
+DR   AlphaFoldDB; P51952; -.
+DR   SMR; P51952; -.
+DR   STRING; 10116.ENSRNOP00000025026; -.
+DR   iPTMnet; P51952; -.
+DR   PhosphoSitePlus; P51952; -.
+DR   jPOST; P51952; -.
+DR   PaxDb; 10116-ENSRNOP00000025026; -.
+DR   UCSC; RGD:621124; rat.
+DR   AGR; RGD:621124; -.
+DR   RGD; 621124; Cdk7.
+DR   eggNOG; KOG0659; Eukaryota.
+DR   InParanoid; P51952; -.
+DR   PhylomeDB; P51952; -.
+DR   Reactome; R-RNO-112382; Formation of RNA Pol II elongation complex.
+DR   Reactome; R-RNO-113418; Formation of the Early Elongation Complex.
+DR   Reactome; R-RNO-5696395; Formation of Incision Complex in GG-NER.
+DR   Reactome; R-RNO-674695; RNA Polymerase II Pre-transcription Events.
+DR   Reactome; R-RNO-6781823; Formation of TC-NER Pre-Incision Complex.
+DR   Reactome; R-RNO-6782135; Dual incision in TC-NER.
+DR   Reactome; R-RNO-6782210; Gap-filling DNA repair synthesis and ligation in TC-NER.
+DR   Reactome; R-RNO-6796648; TP53 Regulates Transcription of DNA Repair Genes.
+DR   Reactome; R-RNO-6807505; RNA polymerase II transcribes snRNA genes.
+DR   Reactome; R-RNO-69202; Cyclin E associated events during G1/S transition.
+DR   Reactome; R-RNO-69231; Cyclin D associated events in G1.
+DR   Reactome; R-RNO-69273; Cyclin A/B1/B2 associated events during G2/M transition.
+DR   Reactome; R-RNO-69656; Cyclin A:Cdk2-associated events at S phase entry.
+DR   Reactome; R-RNO-72086; mRNA Capping.
+DR   Reactome; R-RNO-73762; RNA Polymerase I Transcription Initiation.
+DR   Reactome; R-RNO-73772; RNA Polymerase I Promoter Escape.
+DR   Reactome; R-RNO-73776; RNA Polymerase II Promoter Escape.
+DR   Reactome; R-RNO-73779; RNA Polymerase II Transcription Pre-Initiation And Promoter Opening.
+DR   Reactome; R-RNO-73863; RNA Polymerase I Transcription Termination.
+DR   Reactome; R-RNO-75953; RNA Polymerase II Transcription Initiation.
+DR   Reactome; R-RNO-75955; RNA Polymerase II Transcription Elongation.
+DR   Reactome; R-RNO-76042; RNA Polymerase II Transcription Initiation And Promoter Clearance.
+DR   Reactome; R-RNO-77075; RNA Pol II CTD phosphorylation and interaction with CE.
+DR   Reactome; R-RNO-8939236; RUNX1 regulates transcription of genes involved in differentiation of HSCs.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0070516; C:CAK-ERCC2 complex; ISO:RGD.
+DR   GO; GO:0000307; C:cyclin-dependent protein kinase holoenzyme complex; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0001673; C:male germ cell nucleus; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000439; C:transcription factor TFIIH core complex; ISO:RGD.
+DR   GO; GO:0005675; C:transcription factor TFIIH holo complex; IDA:RGD.
+DR   GO; GO:0070985; C:transcription factor TFIIK complex; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008094; F:ATP-dependent activity, acting on DNA; ISS:UniProtKB.
+DR   GO; GO:0004693; F:cyclin-dependent protein serine/threonine kinase activity; IDA:RGD.
+DR   GO; GO:0016301; F:kinase activity; ISO:RGD.
+DR   GO; GO:0004672; F:protein kinase activity; ISO:RGD.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0008353; F:RNA polymerase II CTD heptapeptide repeat kinase activity; ISS:UniProtKB.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   GO; GO:0051321; P:meiotic cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISS:UniProtKB.
+DR   GO; GO:0050821; P:protein stabilization; ISO:RGD.
+DR   GO; GO:2000045; P:regulation of G1/S transition of mitotic cell cycle; ISO:RGD.
+DR   GO; GO:0006366; P:transcription by RNA polymerase II; IDA:RGD.
+DR   GO; GO:0006367; P:transcription initiation at RNA polymerase II promoter; ISO:RGD.
+DR   CDD; cd07841; STKc_CDK7; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR050108; CDK.
+DR   InterPro; IPR037770; CDK7.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   PANTHER; PTHR24056; CELL DIVISION PROTEIN KINASE; 1.
+DR   PANTHER; PTHR24056:SF0; CYCLIN-DEPENDENT KINASE 7; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell cycle; Cell division; Cytoplasm; DNA damage; DNA repair;
+KW   Kinase; Meiosis; Nucleotide-binding; Nucleus; Phosphoprotein;
+KW   Reference proteome; Serine/threonine-protein kinase; Transcription;
+KW   Transcription regulation; Transferase.
+FT   CHAIN           <1..>329
+FT                   /note="Cyclin-dependent kinase 7"
+FT                   /id="PRO_0000085793"
+FT   DOMAIN          4..287
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          309..329
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        129
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         10..18
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         33
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         156
+FT                   /note="Phosphoserine; by CDK1 and CDK2"
+FT                   /evidence="ECO:0000250|UniProtKB:P50613"
+FT   MOD_RES         162
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         313
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50613"
+FT   NON_TER         1
+FT   NON_TER         329
+SQ   SEQUENCE   329 AA;  37141 MW;  B7159FD074881B0F CRC64;
+     ANRNEKLDFL GEGQFATVYK ARDKNTNQIV AIKKIKLGHR SEAKDGINRT ALREIKLLQE
+     LSHPNIIGLL DAFGHKSNIS LVFDFMETDL EVIIKDNSLV LTPSHIKAYM LMTLQGLEYL
+     HQHWILHRDL KPNNLLLDEN GVLKLADFGL AKSFGSPNWA YTHQVVTRWY RAPELLFGAR
+     MYGVGVDMWA VGCILAELLL RVPFLPGDSD LDQLTRIFET LGTPTEEQWP DMCSLPDYVT
+     FKSFPGIPLQ HIFIAAGDDL LELIQGLFLF NPCTRITASQ ALRTKYFSNR PGPTPGCQLP
+     RPNCPVEALK EQSNPAMATK RKRAEALEQ
+//

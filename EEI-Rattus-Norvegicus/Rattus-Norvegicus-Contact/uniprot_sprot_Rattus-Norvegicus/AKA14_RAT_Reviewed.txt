@@ -1,0 +1,118 @@
+ID   AKA14_RAT               Reviewed;         502 AA.
+AC   O35817;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   24-JUL-2024, entry version 117.
+DE   RecName: Full=A-kinase anchor protein 14;
+DE            Short=AKAP-14;
+DE   AltName: Full=TAKAP-1.2;
+DE   AltName: Full=Testis-specific A-kinase-anchoring protein TAKAP-80;
+GN   Name=Akap14; Synonyms=Takap80;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   TISSUE=Testis;
+RX   PubMed=9208934; DOI=10.1111/j.1432-1033.1997.t01-1-00425.x;
+RA   Mei X., Singh I.S., Erlichman J., Orr G.A.;
+RT   "Cloning and characterization of a testis-specific, developmentally
+RT   regulated A-kinase anchoring protein (TAKAP-80) present on the fibrous
+RT   sheath of rat sperm.";
+RL   Eur. J. Biochem. 246:425-432(1997).
+CC   -!- FUNCTION: Binds to type II regulatory subunits of protein kinase A and
+CC       anchors/targets them.
+CC   -!- SUBUNIT: Binds to type II regulatory subunits (RII).
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}. Note=In fibrous sheath
+CC       from epididymal sperm.
+CC   -!- TISSUE SPECIFICITY: Testis specific. {ECO:0000269|PubMed:9208934}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed at detectable levels 30 days after birth
+CC       and increased greatly during the next 10 days.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ002474; CAA05485.1; -; mRNA.
+DR   RefSeq; NP_067735.1; NM_021703.1.
+DR   AlphaFoldDB; O35817; -.
+DR   STRING; 10116.ENSRNOP00000009123; -.
+DR   PhosphoSitePlus; O35817; -.
+DR   PaxDb; 10116-ENSRNOP00000009123; -.
+DR   Ensembl; ENSRNOT00000009123.6; ENSRNOP00000009123.2; ENSRNOG00000006899.8.
+DR   Ensembl; ENSRNOT00055043895; ENSRNOP00055035878; ENSRNOG00055025437.
+DR   Ensembl; ENSRNOT00060029500; ENSRNOP00060023719; ENSRNOG00060017269.
+DR   Ensembl; ENSRNOT00065016564; ENSRNOP00065012608; ENSRNOG00065010259.
+DR   GeneID; 60332; -.
+DR   KEGG; rno:60332; -.
+DR   UCSC; RGD:708510; rat.
+DR   AGR; RGD:708510; -.
+DR   CTD; 158798; -.
+DR   RGD; 708510; Akap14.
+DR   eggNOG; ENOG502S0CR; Eukaryota.
+DR   GeneTree; ENSGT00390000003444; -.
+DR   HOGENOM; CLU_542857_0_0_1; -.
+DR   InParanoid; O35817; -.
+DR   OMA; ILMPEMK; -.
+DR   OrthoDB; 5382799at2759; -.
+DR   TreeFam; TF329057; -.
+DR   PRO; PR:O35817; -.
+DR   Proteomes; UP000002494; Chromosome X.
+DR   Bgee; ENSRNOG00000006899; Expressed in testis and 2 other cell types or tissues.
+DR   GO; GO:0005930; C:axoneme; ISO:RGD.
+DR   GO; GO:0005952; C:cAMP-dependent protein kinase complex; ISO:RGD.
+DR   GO; GO:0035686; C:sperm fibrous sheath; IDA:RGD.
+DR   GO; GO:0051018; F:protein kinase A binding; IPI:RGD.
+DR   GO; GO:0034237; F:protein kinase A regulatory subunit binding; ISO:RGD.
+DR   GO; GO:0007283; P:spermatogenesis; IEP:RGD.
+DR   InterPro; IPR053084; AKAP.
+DR   InterPro; IPR025663; AKAP_28.
+DR   PANTHER; PTHR35075; A-KINASE ANCHOR PROTEIN 14; 1.
+DR   PANTHER; PTHR35075:SF1; A-KINASE ANCHOR PROTEIN 14; 1.
+DR   Pfam; PF14469; AKAP28; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Reference proteome; Repeat.
+FT   CHAIN           1..502
+FT                   /note="A-kinase anchor protein 14"
+FT                   /id="PRO_0000064520"
+FT   REPEAT          199..202
+FT                   /note="1"
+FT   REPEAT          205..208
+FT                   /note="2"
+FT   REPEAT          211..214
+FT                   /note="3"
+FT   REPEAT          217..220
+FT                   /note="4"
+FT   REPEAT          235..238
+FT                   /note="5"
+FT   REPEAT          241..244
+FT                   /note="6"
+FT   REPEAT          250..253
+FT                   /note="7"
+FT   REPEAT          262..265
+FT                   /note="8"
+FT   REGION          1..84
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          199..265
+FT                   /note="8 X 4 AA repeat of P-X-X-P"
+FT   REGION          258..378
+FT                   /note="RII-binding"
+FT   COMPBIAS        1..17
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        18..84
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   502 AA;  55756 MW;  D06DED22F954E975 CRC64;
+     MNNKKKPPNQ KAKTVENTST AKAKKPEAPE PKNVTEPKDS KAVEDPKKSV TNQKEKKTVT
+     IIADPKDKKS VTEPKEKKTV TISDPKDKKP VIEKDKRTVT FVTDVKDKRI VTDTKENRIA
+     SIDTKEKGPV VPEVKEKKVQ LIDPKEKVVA PVAPVAPVAH AAQVPHAAQV PHAVQVPHAV
+     PVAHAAPVAH TAQVSHAAPV APSLPVVPPA PVVPLAPVVP PAPVAHTEPV AHAVPFAPPA
+     PVAPPASVAP PVPDAPVALV APVAPQVKQK IRVSEVKRKK EVPPRVPQLK EMKVVLFTPE
+     IKEKKVVSEI KEKTQVIDGK EKLIVPDVKE KKPAVVEKKD ERMNEIARTV VEGVLAASVQ
+     FVEEARNPIK NIKWLTHGEF TAEKGRKQIE KFVSTWEFQN RWVYYADFIE KKDLIHSFHY
+     IYRVRWSAPT AVRPMARVSA NAYFTIKFNK SKPADMPVDV SYIFENSELL QRPGKIRFRE
+     QWLRDITETK HILLESIPFK VV
+//

@@ -1,0 +1,774 @@
+ID   MTOR_RAT                Reviewed;        2549 AA.
+AC   P42346;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   02-OCT-2024, entry version 207.
+DE   RecName: Full=Serine/threonine-protein kinase mTOR {ECO:0000305};
+DE            EC=2.7.11.1 {ECO:0000269|PubMed:9465032};
+DE   AltName: Full=FK506-binding protein 12-rapamycin complex-associated protein 1;
+DE   AltName: Full=FKBP12-rapamycin complex-associated protein;
+DE   AltName: Full=Mammalian target of rapamycin;
+DE            Short=mTOR;
+DE   AltName: Full=Mechanistic target of rapamycin;
+DE   AltName: Full=Rapamycin target protein 1;
+DE            Short=RAPT1;
+GN   Name=Mtor {ECO:0000312|RGD:68371}; Synonyms=Frap1, Raft1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=7822316; DOI=10.1074/jbc.270.2.815;
+RA   Sabers C.J., Martin M.M., Brunn G.J., Williams J.M., Dumont F.J.,
+RA   Wiederrecht G., Abraham R.T.;
+RT   "Isolation of a protein target of the FKBP12-rapamycin complex in mammalian
+RT   cells.";
+RL   J. Biol. Chem. 270:815-822(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=7518356; DOI=10.1016/0092-8674(94)90570-3;
+RA   Sabatini D.M., Erdjument-Bromage H., Lui M., Tempst P., Snyder S.H.;
+RT   "RAFT1: a mammalian protein that binds to FKBP12 in a rapamycin-dependent
+RT   fashion and is homologous to yeast TORs.";
+RL   Cell 78:35-43(1994).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 215-226 AND 533-541, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RA   Lubec G., Kang S.U., Lubec S.;
+RL   Submitted (SEP-2007) to UniProtKB.
+RN   [4]
+RP   FUNCTION IN PHOSPHORYLATION OF RPS6KB1 AND EIF4EBP1, AND CATALYTIC
+RP   ACTIVITY.
+RX   PubMed=9465032; DOI=10.1073/pnas.95.4.1432;
+RA   Burnett P.E., Barrow R.K., Cohen N.A., Snyder S.H., Sabatini D.M.;
+RT   "RAFT1 phosphorylation of the translational regulators p70 S6 kinase and
+RT   4E-BP1.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 95:1432-1437(1998).
+RN   [5]
+RP   PHOSPHORYLATION AT THR-2164.
+RX   PubMed=21576368; DOI=10.1128/mcb.05437-11;
+RA   Ekim B., Magnuson B., Acosta-Jaquez H.A., Keller J.A., Feener E.P.,
+RA   Fingar D.C.;
+RT   "mTOR kinase domain phosphorylation promotes mTORC1 signaling, cell growth,
+RT   and cell cycle progression.";
+RL   Mol. Cell. Biol. 31:2787-2801(2011).
+RN   [6]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+RN   [7]
+RP   PHOSPHORYLATION AT SER-2448.
+RX   PubMed=24187137; DOI=10.1074/jbc.m113.500736;
+RA   Seldin M.M., Lei X., Tan S.Y., Stanson K.P., Wei Z., Wong G.W.;
+RT   "Skeletal muscle-derived myonectin activates the mammalian target of
+RT   rapamycin (mTOR) pathway to suppress autophagy in liver.";
+RL   J. Biol. Chem. 288:36073-36082(2013).
+CC   -!- FUNCTION: Serine/threonine protein kinase which is a central regulator
+CC       of cellular metabolism, growth and survival in response to hormones,
+CC       growth factors, nutrients, energy and stress signals (By similarity).
+CC       MTOR directly or indirectly regulates the phosphorylation of at least
+CC       800 proteins (By similarity). Functions as part of 2 structurally and
+CC       functionally distinct signaling complexes mTORC1 and mTORC2 (mTOR
+CC       complex 1 and 2) (By similarity). In response to nutrients, growth
+CC       factors or amino acids, mTORC1 is recruited to the lysosome membrane
+CC       and promotes protein, lipid and nucleotide synthesis by phosphorylating
+CC       key regulators of mRNA translation and ribosome synthesis (By
+CC       similarity). This includes phosphorylation of EIF4EBP1 and release of
+CC       its inhibition toward the elongation initiation factor 4E (eiF4E) (By
+CC       similarity). Moreover, phosphorylates and activates RPS6KB1 and RPS6KB2
+CC       that promote protein synthesis by modulating the activity of their
+CC       downstream targets including ribosomal protein S6, eukaryotic
+CC       translation initiation factor EIF4B, and the inhibitor of translation
+CC       initiation PDCD4 (PubMed:9465032). Stimulates the pyrimidine
+CC       biosynthesis pathway, both by acute regulation through RPS6KB1-mediated
+CC       phosphorylation of the biosynthetic enzyme CAD, and delayed regulation,
+CC       through transcriptional enhancement of the pentose phosphate pathway
+CC       which produces 5-phosphoribosyl-1-pyrophosphate (PRPP), an allosteric
+CC       activator of CAD at a later step in synthesis, this function is
+CC       dependent on the mTORC1 complex (By similarity). Regulates ribosome
+CC       synthesis by activating RNA polymerase III-dependent transcription
+CC       through phosphorylation and inhibition of MAF1 an RNA polymerase III-
+CC       repressor (By similarity). Activates dormant ribosomes by mediating
+CC       phosphorylation of SERBP1, leading to SERBP1 inactivation and
+CC       reactivation of translation (By similarity). In parallel to protein
+CC       synthesis, also regulates lipid synthesis through SREBF1/SREBP1 and
+CC       LPIN1 (By similarity). To maintain energy homeostasis mTORC1 may also
+CC       regulate mitochondrial biogenesis through regulation of PPARGC1A (By
+CC       similarity). In the same time, mTORC1 inhibits catabolic pathways:
+CC       negatively regulates autophagy through phosphorylation of ULK1 (By
+CC       similarity). Under nutrient sufficiency, phosphorylates ULK1 at 'Ser-
+CC       758', disrupting the interaction with AMPK and preventing activation of
+CC       ULK1 (By similarity). Also prevents autophagy through phosphorylation
+CC       of the autophagy inhibitor DAP (By similarity). Also prevents autophagy
+CC       by phosphorylating RUBCNL/Pacer under nutrient-rich conditions (By
+CC       similarity). Prevents autophagy by mediating phosphorylation of AMBRA1,
+CC       thereby inhibiting AMBRA1 ability to mediate ubiquitination of ULK1 and
+CC       interaction between AMBRA1 and PPP2CA (By similarity). mTORC1 exerts a
+CC       feedback control on upstream growth factor signaling that includes
+CC       phosphorylation and activation of GRB10 a INSR-dependent signaling
+CC       suppressor (By similarity). Among other potential targets mTORC1 may
+CC       phosphorylate CLIP1 and regulate microtubules (By similarity). The
+CC       mTORC1 complex is inhibited in response to starvation and amino acid
+CC       depletion (By similarity). The non-canonical mTORC1 complex, which acts
+CC       independently of RHEB, specifically mediates phosphorylation of MiT/TFE
+CC       factors TFEB and TFE3 in the presence of nutrients, promoting their
+CC       cytosolic retention and inactivation (By similarity). Upon starvation
+CC       or lysosomal stress, inhibition of mTORC1 induces dephosphorylation and
+CC       nuclear translocation of TFEB and TFE3, promoting their transcription
+CC       factor activity (By similarity). The mTORC1 complex regulates
+CC       pyroptosis in macrophages by promoting GSDMD oligomerization (By
+CC       similarity). MTOR phosphorylates RPTOR which in turn inhibits mTORC1
+CC       (By similarity). As part of the mTORC2 complex MTOR may regulate other
+CC       cellular processes including survival and organization of the
+CC       cytoskeleton (By similarity). mTORC2 plays a critical role in the
+CC       phosphorylation at 'Ser-473' of AKT1, a pro-survival effector of
+CC       phosphoinositide 3-kinase, facilitating its activation by PDK1 (By
+CC       similarity). mTORC2 may regulate the actin cytoskeleton, through
+CC       phosphorylation of PRKCA, PXN and activation of the Rho-type guanine
+CC       nucleotide exchange factors RHOA and RAC1A or RAC1B (By similarity).
+CC       mTORC2 also regulates the phosphorylation of SGK1 at 'Ser-422' (By
+CC       similarity). Regulates osteoclastogenesis by adjusting the expression
+CC       of CEBPB isoforms (By similarity). Plays an important regulatory role
+CC       in the circadian clock function; regulates period length and rhythm
+CC       amplitude of the suprachiasmatic nucleus (SCN) and liver clocks (By
+CC       similarity). {ECO:0000250|UniProtKB:P42345,
+CC       ECO:0000250|UniProtKB:Q9JLN9, ECO:0000269|PubMed:9465032}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000269|PubMed:9465032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1; Evidence={ECO:0000269|PubMed:9465032};
+CC   -!- ACTIVITY REGULATION: The mTORC1 complex is activated in response to
+CC       nutrients, growth factors or amino acids: activation requires
+CC       relocalization of the mTORC1 complex to lysosomes that is mediated by
+CC       the Ragulator complex, SLC38A9, and the Rag GTPases RagA/RRAGA,
+CC       RagB/RRAGB, RagC/RRAGC and RagD/RRAGD. Activation of mTORC1 by growth
+CC       factors such as insulin involves AKT1-mediated phosphorylation of TSC1-
+CC       TSC2, which leads to the activation of the RHEB GTPase a potent
+CC       activator of the protein kinase activity of mTORC1. Insulin-stimulated
+CC       and amino acid-dependent phosphorylation at Ser-1261 promotes
+CC       autophosphorylation and the activation of mTORC1. On the other hand,
+CC       low cellular energy levels can inhibit mTORC1 through activation of
+CC       PRKAA1 while hypoxia inhibits mTORC1 through a REDD1-dependent
+CC       mechanism which may also require PRKAA1. The kinase activity of MTOR
+CC       within the mTORC1 complex is positively regulated by MLST8. The kinase
+CC       activity of MTOR is inhibited by DEPTOR and AKT1S1. The non-canonical
+CC       mTORC1 complex is independent of the RHEB GTPase and specifically
+CC       mediates phosphorylation of MiT/TFE factors TFEB and TFE3 but not other
+CC       mTORC1 substrates: it is activated by FLCN, which activates Rag GTPases
+CC       RagC/RRAGC and RagD/RRAGD. MTOR is the target of the immunosuppressive
+CC       and anti-cancer drug rapamycin which acts in complex with
+CC       FKBP1A/FKBP12, and specifically inhibits its kinase activity. mTORC2 is
+CC       also activated by growth factors, but seems to be nutrient-insensitive.
+CC       mTORC2 may also be regulated by RHEB but in an indirect manner through
+CC       the PI3K signaling pathway. {ECO:0000250|UniProtKB:P42345}.
+CC   -!- SUBUNIT: Part of the mechanistic target of rapamycin complex 1 (mTORC1)
+CC       which contains MTOR, MLST8 and RPTOR. The mTORC1 complex is a 1 Md
+CC       obligate dimer of two stoichiometric heterotetramers with overall
+CC       dimensions of 290 A x 210 A x 135 A. It has a rhomboid shape and a
+CC       central cavity, the dimeric interfaces are formed by interlocking
+CC       interactions between the two MTOR and the two RPTOR subunits. The MLST8
+CC       subunit forms distal foot-like protuberances, and contacts only one
+CC       MTOR within the complex, while the small AKT1S1/PRAS40 localizes to the
+CC       midsection of the central core, in close proximity to RPTOR. mTORC1
+CC       associates with AKT1S1/PRAS40, which inhibits its activity by blocking
+CC       MTOR substrate-recruitment site. Part of the mechanistic target of
+CC       rapamycin complex 2 (mTORC2) which contains MTOR, MLST8, PRR5, RICTOR,
+CC       MAPKAP1 and DEPTOR (By similarity). Interacts with PLPP7 and PML (By
+CC       similarity). Interacts with PRR5 and RICTOR; the interaction is direct
+CC       within the mTORC2 complex and interaction with RICTOR is enhanced by
+CC       deubiquitination of RICTOR by USP9X. mTORC1 and mTORC2 associate with
+CC       DEPTOR, which regulates its activity. Interacts with WAC; WAC
+CC       positively regulates MTOR activity by promoting the assembly of the TTT
+CC       complex composed of TELO2, TTI1 and TTI2 and the RUVBL complex composed
+CC       of RUVBL1 and RUVBL2 into the TTT-RUVBL complex which leads to the
+CC       dimerization of the mTORC1 complex and its subsequent activation.
+CC       Interacts with UBQLN1. Interacts with TTI1 and TELO2. Interacts with
+CC       CLIP1; phosphorylates and regulates CLIP1. Interacts with NBN.
+CC       Interacts with HTR6. Interacts with BRAT1. Interacts with MEAK7 (via C-
+CC       terminal domain); the interaction increases upon nutrient stimulation.
+CC       Interacts with TM4SF5; the interaction is positively regulated by
+CC       arginine and is negatively regulated by leucine. Interacts with
+CC       GPR137B. Interacts with NCKAP1L. Interacts with TPCN1 and TPCN2; the
+CC       interaction is required for TPCN1 and TPCN2 sensitivity to ATP (By
+CC       similarity). Interacts with ATP6V1A and with CRYAB, forming a ternary
+CC       complex (By similarity). Interacts with SLC38A7; this interaction
+CC       mediates the recruitment of mTORC1 to the lysosome and its subsequent
+CC       activation (By similarity). Interacts with TSPAN8 (By similarity).
+CC       {ECO:0000250|UniProtKB:P42345, ECO:0000250|UniProtKB:Q9JLN9}.
+CC   -!- INTERACTION:
+CC       P42346; Q8TB45: DEPTOR; Xeno; NbExp=2; IntAct=EBI-1571489, EBI-2359040;
+CC   -!- SUBCELLULAR LOCATION: Lysosome membrane {ECO:0000250|UniProtKB:P42345};
+CC       Peripheral membrane protein {ECO:0000250|UniProtKB:P42345}; Cytoplasmic
+CC       side {ECO:0000250|UniProtKB:P42345}. Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:P42345}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:P42345}; Cytoplasmic side
+CC       {ECO:0000250|UniProtKB:P42345}. Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:P42345}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:P42345}; Cytoplasmic side
+CC       {ECO:0000250|UniProtKB:P42345}. Mitochondrion outer membrane
+CC       {ECO:0000250|UniProtKB:P42345}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:P42345}; Cytoplasmic side
+CC       {ECO:0000250|UniProtKB:P42345}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:P42345}. Nucleus {ECO:0000250|UniProtKB:Q9JLN9}.
+CC       Nucleus, PML body {ECO:0000250|UniProtKB:Q9JLN9}. Microsome membrane
+CC       {ECO:0000250|UniProtKB:P42345}. Cytoplasmic vesicle, phagosome
+CC       {ECO:0000250|UniProtKB:P42345}. Note=Shuttles between cytoplasm and
+CC       nucleus. Accumulates in the nucleus in response to hypoxia (By
+CC       similarity). Targeting to lysosomes depends on amino acid availability
+CC       and RRAGA and RRAGB. Lysosome targeting also depends on interaction
+CC       with MEAK7. Translocates to the lysosome membrane in the presence of
+CC       TM4SF5 (By similarity). {ECO:0000250|UniProtKB:P42345,
+CC       ECO:0000250|UniProtKB:Q9JLN9}.
+CC   -!- DOMAIN: The kinase domain (PI3K/PI4K) is intrinsically active but has a
+CC       highly restricted catalytic center. {ECO:0000250|UniProtKB:P42345}.
+CC   -!- DOMAIN: The FAT domain forms three discontinuous subdomains of alpha-
+CC       helical TPR repeats plus a single subdomain of HEAT repeats. The four
+CC       domains pack sequentially to form a C-shaped a-solenoid that clamps
+CC       onto the kinase domain (By similarity). {ECO:0000250|UniProtKB:P42345}.
+CC   -!- PTM: Autophosphorylates when part of mTORC1 or mTORC2 (By similarity).
+CC       Phosphorylation at Ser-1261, Ser-2159 and Thr-2164 promotes
+CC       autophosphorylation (By similarity). Phosphorylation in the kinase
+CC       domain modulates the interactions of MTOR with RPTOR and AKT1S1/PRAS40
+CC       and leads to increased intrinsic mTORC1 kinase activity (By
+CC       similarity). Phosphorylation at Ser-2159 by TBK1 in response to growth
+CC       factors and pathogen recognition receptors promotes mTORC1 activity (By
+CC       similarity). Phosphorylation at Thr-2173 in the ATP-binding region by
+CC       AKT1 strongly reduces kinase activity (By similarity).
+CC       {ECO:0000250|UniProtKB:P42345}.
+CC   -!- SIMILARITY: Belongs to the PI3/PI4-kinase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L37085; AAA65929.1; -; mRNA.
+DR   EMBL; U11681; AAA20091.1; -; mRNA.
+DR   PIR; A54837; A54837.
+DR   RefSeq; NP_063971.1; NM_019906.1.
+DR   AlphaFoldDB; P42346; -.
+DR   BMRB; P42346; -.
+DR   SMR; P42346; -.
+DR   BioGRID; 248568; 6.
+DR   DIP; DIP-261N; -.
+DR   IntAct; P42346; 10.
+DR   MINT; P42346; -.
+DR   STRING; 10116.ENSRNOP00000014167; -.
+DR   BindingDB; P42346; -.
+DR   ChEMBL; CHEMBL1075134; -.
+DR   CarbonylDB; P42346; -.
+DR   iPTMnet; P42346; -.
+DR   PhosphoSitePlus; P42346; -.
+DR   jPOST; P42346; -.
+DR   PaxDb; 10116-ENSRNOP00000014167; -.
+DR   GeneID; 56718; -.
+DR   KEGG; rno:56718; -.
+DR   UCSC; RGD:68371; rat.
+DR   AGR; RGD:68371; -.
+DR   CTD; 2475; -.
+DR   RGD; 68371; Mtor.
+DR   VEuPathDB; HostDB:ENSRNOG00000009615; -.
+DR   eggNOG; KOG0891; Eukaryota.
+DR   HOGENOM; CLU_000178_7_1_1; -.
+DR   InParanoid; P42346; -.
+DR   OrthoDB; 8448at2759; -.
+DR   PhylomeDB; P42346; -.
+DR   TreeFam; TF105134; -.
+DR   Reactome; R-RNO-1257604; PIP3 activates AKT signaling.
+DR   Reactome; R-RNO-1632852; Macroautophagy.
+DR   Reactome; R-RNO-165159; MTOR signalling.
+DR   Reactome; R-RNO-166208; mTORC1-mediated signalling.
+DR   Reactome; R-RNO-3371571; HSF1-dependent transactivation.
+DR   Reactome; R-RNO-380972; Energy dependent regulation of mTOR by LKB1-AMPK.
+DR   Reactome; R-RNO-389357; CD28 dependent PI3K/Akt signaling.
+DR   Reactome; R-RNO-5218920; VEGFR2 mediated vascular permeability.
+DR   Reactome; R-RNO-5628897; TP53 Regulates Metabolic Genes.
+DR   Reactome; R-RNO-6804757; Regulation of TP53 Degradation.
+DR   Reactome; R-RNO-8943724; Regulation of PTEN gene transcription.
+DR   Reactome; R-RNO-9639288; Amino acids regulate mTORC1.
+DR   PRO; PR:P42346; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   Bgee; ENSRNOG00000009615; Expressed in skeletal muscle tissue and 18 other cell types or tissues.
+DR   ExpressionAtlas; P42346; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0012505; C:endomembrane system; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005765; C:lysosomal membrane; ISS:UniProtKB.
+DR   GO; GO:0005764; C:lysosome; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005635; C:nuclear envelope; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0045335; C:phagocytic vesicle; ISS:UniProtKB.
+DR   GO; GO:0016605; C:PML body; ISO:RGD.
+DR   GO; GO:0099524; C:postsynaptic cytosol; IDA:SynGO.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0031931; C:TORC1 complex; IDA:RGD.
+DR   GO; GO:0031932; C:TORC2 complex; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0016301; F:kinase activity; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051219; F:phosphoprotein binding; ISO:RGD.
+DR   GO; GO:0019904; F:protein domain specific binding; IPI:RGD.
+DR   GO; GO:0004672; F:protein kinase activity; ISO:RGD.
+DR   GO; GO:0019901; F:protein kinase binding; IPI:RGD.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:RGD.
+DR   GO; GO:0043022; F:ribosome binding; ISO:RGD.
+DR   GO; GO:0001002; F:RNA polymerase III type 1 promoter sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0001003; F:RNA polymerase III type 2 promoter sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0001006; F:RNA polymerase III type 3 promoter sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0001156; F:TFIIIC-class transcription factor complex binding; ISO:RGD.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; ISO:RGD.
+DR   GO; GO:0048266; P:behavioral response to pain; ISO:RGD.
+DR   GO; GO:0033173; P:calcineurin-NFAT signaling cascade; ISO:RGD.
+DR   GO; GO:0055006; P:cardiac cell development; ISO:RGD.
+DR   GO; GO:0055013; P:cardiac muscle cell development; ISO:RGD.
+DR   GO; GO:0060048; P:cardiac muscle contraction; ISO:RGD.
+DR   GO; GO:0048738; P:cardiac muscle tissue development; ISO:RGD.
+DR   GO; GO:0030030; P:cell projection organization; IGI:MGI.
+DR   GO; GO:0034198; P:cellular response to amino acid starvation; ISS:UniProtKB.
+DR   GO; GO:0071230; P:cellular response to amino acid stimulus; ISO:RGD.
+DR   GO; GO:0071456; P:cellular response to hypoxia; ISS:UniProtKB.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; ISO:RGD.
+DR   GO; GO:0071233; P:cellular response to L-leucine; ISO:RGD.
+DR   GO; GO:1990253; P:cellular response to leucine starvation; ISO:RGD.
+DR   GO; GO:0061431; P:cellular response to methionine; ISO:RGD.
+DR   GO; GO:0031670; P:cellular response to nutrient; ISO:RGD.
+DR   GO; GO:0031669; P:cellular response to nutrient levels; ISS:UniProtKB.
+DR   GO; GO:0009267; P:cellular response to starvation; ISS:UniProtKB.
+DR   GO; GO:0006112; P:energy reserve metabolic process; ISO:RGD.
+DR   GO; GO:0007281; P:germ cell development; ISO:RGD.
+DR   GO; GO:0003007; P:heart morphogenesis; ISO:RGD.
+DR   GO; GO:0003179; P:heart valve morphogenesis; ISO:RGD.
+DR   GO; GO:0006954; P:inflammatory response; ISO:RGD.
+DR   GO; GO:0007616; P:long-term memory; IMP:RGD.
+DR   GO; GO:0007040; P:lysosome organization; ISS:UniProtKB.
+DR   GO; GO:0016236; P:macroautophagy; ISO:RGD.
+DR   GO; GO:0060135; P:maternal process involved in female pregnancy; IDA:RGD.
+DR   GO; GO:0048255; P:mRNA stabilization; IMP:RGD.
+DR   GO; GO:0035264; P:multicellular organism growth; ISO:RGD.
+DR   GO; GO:0010507; P:negative regulation of autophagy; IMP:RGD.
+DR   GO; GO:0070885; P:negative regulation of calcineurin-NFAT signaling cascade; ISO:RGD.
+DR   GO; GO:0045792; P:negative regulation of cell size; IMP:MGI.
+DR   GO; GO:1904193; P:negative regulation of cholangiocyte apoptotic process; IMP:RGD.
+DR   GO; GO:1904213; P:negative regulation of iodide transmembrane transport; IMP:RGD.
+DR   GO; GO:1905672; P:negative regulation of lysosome organization; ISS:UniProtKB.
+DR   GO; GO:0016242; P:negative regulation of macroautophagy; ISO:RGD.
+DR   GO; GO:0014736; P:negative regulation of muscle atrophy; IMP:RGD.
+DR   GO; GO:1900181; P:negative regulation of protein localization to nucleus; ISS:UniProtKB.
+DR   GO; GO:0001933; P:negative regulation of protein phosphorylation; IMP:RGD.
+DR   GO; GO:0031397; P:negative regulation of protein ubiquitination; IMP:RGD.
+DR   GO; GO:0019228; P:neuronal action potential; ISO:RGD.
+DR   GO; GO:0051647; P:nucleus localization; ISS:UniProtKB.
+DR   GO; GO:0048709; P:oligodendrocyte differentiation; ISO:RGD.
+DR   GO; GO:0018105; P:peptidyl-serine phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0030838; P:positive regulation of actin filament polymerization; ISO:RGD.
+DR   GO; GO:0061051; P:positive regulation of cell growth involved in cardiac muscle cell development; IMP:RGD.
+DR   GO; GO:2000774; P:positive regulation of cellular senescence; IMP:RGD.
+DR   GO; GO:1904056; P:positive regulation of cholangiocyte proliferation; IMP:RGD.
+DR   GO; GO:0060999; P:positive regulation of dendritic spine development; IMP:RGD.
+DR   GO; GO:1904000; P:positive regulation of eating behavior; IMP:RGD.
+DR   GO; GO:0001938; P:positive regulation of endothelial cell proliferation; IMP:RGD.
+DR   GO; GO:1904037; P:positive regulation of epithelial cell apoptotic process; IMP:RGD.
+DR   GO; GO:0010718; P:positive regulation of epithelial to mesenchymal transition; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:0060252; P:positive regulation of glial cell proliferation; IMP:RGD.
+DR   GO; GO:1904197; P:positive regulation of granulosa cell proliferation; IMP:RGD.
+DR   GO; GO:0051549; P:positive regulation of keratinocyte migration; ISO:RGD.
+DR   GO; GO:0010592; P:positive regulation of lamellipodium assembly; ISO:RGD.
+DR   GO; GO:0046889; P:positive regulation of lipid biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0010831; P:positive regulation of myotube differentiation; ISO:RGD.
+DR   GO; GO:0050769; P:positive regulation of neurogenesis; IMP:RGD.
+DR   GO; GO:0043525; P:positive regulation of neuron apoptotic process; IMP:RGD.
+DR   GO; GO:0014042; P:positive regulation of neuron maturation; IMP:RGD.
+DR   GO; GO:0010976; P:positive regulation of neuron projection development; IMP:RGD.
+DR   GO; GO:0045429; P:positive regulation of nitric oxide biosynthetic process; IMP:RGD.
+DR   GO; GO:0048714; P:positive regulation of oligodendrocyte differentiation; IMP:RGD.
+DR   GO; GO:0050731; P:positive regulation of peptidyl-tyrosine phosphorylation; ISO:RGD.
+DR   GO; GO:0051897; P:positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; IMP:RGD.
+DR   GO; GO:0001934; P:positive regulation of protein phosphorylation; ISO:RGD.
+DR   GO; GO:1904206; P:positive regulation of skeletal muscle hypertrophy; IMP:RGD.
+DR   GO; GO:0048661; P:positive regulation of smooth muscle cell proliferation; IMP:RGD.
+DR   GO; GO:0051496; P:positive regulation of stress fiber assembly; ISO:RGD.
+DR   GO; GO:0045945; P:positive regulation of transcription by RNA polymerase III; ISO:RGD.
+DR   GO; GO:1901838; P:positive regulation of transcription of nucleolar large rRNA by RNA polymerase I; ISO:RGD.
+DR   GO; GO:0045727; P:positive regulation of translation; IMP:RGD.
+DR   GO; GO:0045948; P:positive regulation of translational initiation; ISO:RGD.
+DR   GO; GO:1903691; P:positive regulation of wound healing, spreading of epidermal cells; ISO:RGD.
+DR   GO; GO:0009791; P:post-embryonic development; ISO:RGD.
+DR   GO; GO:0031648; P:protein destabilization; ISS:UniProtKB.
+DR   GO; GO:0032956; P:regulation of actin cytoskeleton organization; ISO:RGD.
+DR   GO; GO:2000785; P:regulation of autophagosome assembly; ISO:RGD.
+DR   GO; GO:0010506; P:regulation of autophagy; ISS:UniProtKB.
+DR   GO; GO:0090335; P:regulation of brown fat cell differentiation; IMP:RGD.
+DR   GO; GO:0006109; P:regulation of carbohydrate metabolic process; IDA:RGD.
+DR   GO; GO:0043610; P:regulation of carbohydrate utilization; IDA:RGD.
+DR   GO; GO:0001558; P:regulation of cell growth; ISO:RGD.
+DR   GO; GO:0008361; P:regulation of cell size; ISO:RGD.
+DR   GO; GO:0042752; P:regulation of circadian rhythm; ISS:UniProtKB.
+DR   GO; GO:0031998; P:regulation of fatty acid beta-oxidation; IDA:RGD.
+DR   GO; GO:0005979; P:regulation of glycogen biosynthetic process; IDA:RGD.
+DR   GO; GO:1904059; P:regulation of locomotor rhythm; ISS:UniProtKB.
+DR   GO; GO:0090559; P:regulation of membrane permeability; ISO:RGD.
+DR   GO; GO:0031641; P:regulation of myelination; ISO:RGD.
+DR   GO; GO:0045670; P:regulation of osteoclast differentiation; ISS:UniProtKB.
+DR   GO; GO:0051896; P:regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISO:RGD.
+DR   GO; GO:0001932; P:regulation of protein phosphorylation; ISO:RGD.
+DR   GO; GO:0032095; P:regulation of response to food; IDA:RGD.
+DR   GO; GO:0099547; P:regulation of translation at synapse, modulating synaptic transmission; IDA:SynGO.
+DR   GO; GO:0014823; P:response to activity; IEP:RGD.
+DR   GO; GO:0043200; P:response to amino acid; ISO:RGD.
+DR   GO; GO:0042220; P:response to cocaine; IMP:RGD.
+DR   GO; GO:0009408; P:response to heat; ISO:RGD.
+DR   GO; GO:0032868; P:response to insulin; ISO:RGD.
+DR   GO; GO:0007584; P:response to nutrient; ISO:RGD.
+DR   GO; GO:0031667; P:response to nutrient levels; ISS:UniProtKB.
+DR   GO; GO:0048511; P:rhythmic process; IEA:UniProtKB-KW.
+DR   GO; GO:0031529; P:ruffle organization; ISO:RGD.
+DR   GO; GO:0035176; P:social behavior; IMP:RGD.
+DR   GO; GO:0021510; P:spinal cord development; IDA:RGD.
+DR   GO; GO:0002296; P:T-helper 1 cell lineage commitment; ISO:RGD.
+DR   GO; GO:0031929; P:TOR signaling; ISS:UniProtKB.
+DR   GO; GO:0038202; P:TORC1 signaling; ISS:UniProtKB.
+DR   GO; GO:0008542; P:visual learning; IMP:RGD.
+DR   GO; GO:0050882; P:voluntary musculoskeletal movement; ISO:RGD.
+DR   CDD; cd05169; PIKKc_TOR; 1.
+DR   Gene3D; 1.20.120.150; FKBP12-rapamycin binding domain; 1.
+DR   Gene3D; 1.25.10.10; Leucine-rich Repeat Variant; 4.
+DR   Gene3D; 1.10.1070.11; Phosphatidylinositol 3-/4-kinase, catalytic domain; 1.
+DR   Gene3D; 1.25.40.10; Tetratricopeptide repeat domain; 1.
+DR   InterPro; IPR011989; ARM-like.
+DR   InterPro; IPR016024; ARM-type_fold.
+DR   InterPro; IPR050517; DDR_Repair_Kinase.
+DR   InterPro; IPR003152; FATC_dom.
+DR   InterPro; IPR009076; FRB_dom.
+DR   InterPro; IPR036738; FRB_sf.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR024585; mTOR_dom.
+DR   InterPro; IPR000403; PI3/4_kinase_cat_dom.
+DR   InterPro; IPR036940; PI3/4_kinase_cat_sf.
+DR   InterPro; IPR018936; PI3/4_kinase_CS.
+DR   InterPro; IPR003151; PIK-rel_kinase_FAT.
+DR   InterPro; IPR014009; PIK_FAT.
+DR   InterPro; IPR026683; TOR_cat.
+DR   InterPro; IPR011990; TPR-like_helical_dom_sf.
+DR   PANTHER; PTHR11139; ATAXIA TELANGIECTASIA MUTATED ATM -RELATED; 1.
+DR   PANTHER; PTHR11139:SF9; SERINE_THREONINE-PROTEIN KINASE MTOR; 1.
+DR   Pfam; PF02259; FAT; 1.
+DR   Pfam; PF02260; FATC; 1.
+DR   Pfam; PF08771; FRB_dom; 1.
+DR   Pfam; PF11865; mTOR_dom; 1.
+DR   Pfam; PF00454; PI3_PI4_kinase; 1.
+DR   SMART; SM01346; DUF3385; 1.
+DR   SMART; SM01343; FATC; 1.
+DR   SMART; SM00146; PI3Kc; 1.
+DR   SMART; SM01345; Rapamycin_bind; 1.
+DR   SUPFAM; SSF48371; ARM repeat; 1.
+DR   SUPFAM; SSF47212; FKBP12-rapamycin-binding domain of FKBP-rapamycin-associated protein (FRAP); 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS51189; FAT; 1.
+DR   PROSITE; PS51190; FATC; 1.
+DR   PROSITE; PS00915; PI3_4_KINASE_1; 1.
+DR   PROSITE; PS00916; PI3_4_KINASE_2; 1.
+DR   PROSITE; PS50290; PI3_4_KINASE_3; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Biological rhythms; Cytoplasm;
+KW   Cytoplasmic vesicle; Direct protein sequencing; Endoplasmic reticulum;
+KW   Golgi apparatus; Kinase; Lysosome; Magnesium; Membrane; Metal-binding;
+KW   Microsome; Mitochondrion; Mitochondrion outer membrane; Nucleotide-binding;
+KW   Nucleus; Phosphoprotein; Reference proteome; Repeat;
+KW   Serine/threonine-protein kinase; TPR repeat; Transferase.
+FT   CHAIN           1..2549
+FT                   /note="Serine/threonine-protein kinase mTOR"
+FT                   /id="PRO_0000088810"
+FT   REPEAT          16..53
+FT                   /note="HEAT 1"
+FT   REPEAT          55..99
+FT                   /note="HEAT 2"
+FT   REPEAT          100..137
+FT                   /note="HEAT 3"
+FT   REPEAT          138..179
+FT                   /note="HEAT 4"
+FT   REPEAT          180..220
+FT                   /note="HEAT 5"
+FT   REPEAT          222..276
+FT                   /note="HEAT 6"
+FT   REPEAT          277..313
+FT                   /note="HEAT 7"
+FT   REPEAT          314..364
+FT                   /note="HEAT 8"
+FT   REPEAT          365..409
+FT                   /note="HEAT 9"
+FT   REPEAT          410..445
+FT                   /note="HEAT 10"
+FT   REPEAT          446..494
+FT                   /note="HEAT 11"
+FT   REPEAT          495..529
+FT                   /note="HEAT 12"
+FT   REPEAT          530..563
+FT                   /note="HEAT 13"
+FT   REPEAT          564..596
+FT                   /note="HEAT 14"
+FT   REPEAT          597..636
+FT                   /note="HEAT 15"
+FT   REPEAT          637..683
+FT                   /note="HEAT 16"
+FT   REPEAT          686..724
+FT                   /note="HEAT 17"
+FT   REPEAT          727..766
+FT                   /note="HEAT 18"
+FT   REPEAT          769..811
+FT                   /note="HEAT 19"
+FT   REPEAT          814..853
+FT                   /note="HEAT 20"
+FT   REPEAT          857..893
+FT                   /note="HEAT 21"
+FT   REPEAT          894..942
+FT                   /note="HEAT 22"
+FT   REPEAT          943..988
+FT                   /note="HEAT 23"
+FT   REPEAT          989..1027
+FT                   /note="HEAT 24"
+FT   REPEAT          1029..1068
+FT                   /note="HEAT 25"
+FT   REPEAT          1069..1105
+FT                   /note="HEAT 26"
+FT   REPEAT          1106..1144
+FT                   /note="HEAT 27"
+FT   REPEAT          1145..1188
+FT                   /note="HEAT 28"
+FT   REPEAT          1189..1225
+FT                   /note="HEAT 29"
+FT   REPEAT          1226..1273
+FT                   /note="HEAT 30"
+FT   REPEAT          1274..1311
+FT                   /note="HEAT 31"
+FT   REPEAT          1312..1345
+FT                   /note="HEAT 32"
+FT   REPEAT          1346..1382
+FT                   /note="TPR 1"
+FT   DOMAIN          1382..1982
+FT                   /note="FAT"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00534"
+FT   REPEAT          1383..1408
+FT                   /note="TPR 2"
+FT   REPEAT          1409..1442
+FT                   /note="TPR 3"
+FT   REPEAT          1443..1473
+FT                   /note="TPR 4"
+FT   REPEAT          1474..1507
+FT                   /note="TPR 5"
+FT   REPEAT          1508..1541
+FT                   /note="TPR 6"
+FT   REPEAT          1542..1574
+FT                   /note="TPR 7"
+FT   REPEAT          1575..1614
+FT                   /note="TPR 8"
+FT   REPEAT          1615..1649
+FT                   /note="TPR 9"
+FT   REPEAT          1650..1693
+FT                   /note="TPR 10"
+FT   REPEAT          1694..1731
+FT                   /note="TPR 11"
+FT   REPEAT          1732..1786
+FT                   /note="TPR 12"
+FT   REPEAT          1787..1846
+FT                   /note="TPR 13"
+FT   REPEAT          1898..1930
+FT                   /note="TPR 14"
+FT   REPEAT          1931..1970
+FT                   /note="TPR 15"
+FT   REPEAT          1971..2005
+FT                   /note="TPR 16"
+FT   DOMAIN          2156..2469
+FT                   /note="PI3K/PI4K catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00269"
+FT   DOMAIN          2517..2549
+FT                   /note="FATC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00534,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00535"
+FT   REGION          1..651
+FT                   /note="Interaction with NBN"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   REGION          1812..1867
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          2012..2144
+FT                   /note="Sufficient for interaction with the FKBP1A/rapamycin
+FT                   complex"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JLN9"
+FT   REGION          2162..2168
+FT                   /note="G-loop"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00269"
+FT   REGION          2258..2296
+FT                   /note="Interaction with MLST8"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   REGION          2335..2343
+FT                   /note="Catalytic loop"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00269"
+FT   REGION          2355..2380
+FT                   /note="Activation loop"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00269"
+FT   COMPBIAS        1822..1867
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         2165
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2167
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2185
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2187
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2190
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2225
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2238
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2239
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2240
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2245
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2343
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2345
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2356
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   BINDING         2357
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   MOD_RES         567
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   MOD_RES         1162
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   MOD_RES         1218
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   MOD_RES         1261
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   MOD_RES         2159
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   MOD_RES         2164
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000269|PubMed:21576368"
+FT   MOD_RES         2173
+FT                   /note="Phosphothreonine; by PKB/AKT1"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   MOD_RES         2446
+FT                   /note="Phosphothreonine; by RPS6KB1"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   MOD_RES         2448
+FT                   /note="Phosphoserine; by RPS6KB1"
+FT                   /evidence="ECO:0000269|PubMed:24187137"
+FT   MOD_RES         2478
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+FT   MOD_RES         2481
+FT                   /note="Phosphoserine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P42345"
+SQ   SEQUENCE   2549 AA;  288794 MW;  BE841EA7B9086F99 CRC64;
+     MLGTGPATAT AGAATSSNVS VLQQFASGLK SRNEETRAKA AKELQHYVTM ELREMSQEES
+     TRFYDQLNHH IFELVSSSDA NERKGGILAI ASLIGVEGGN STRIGRFANY LRNLLPSSDP
+     VVMEMASKAI GRLAMAGDTF TAEYVEFEVK RALEWLGADR NEGRRHAAVL VLRELAISVP
+     TFFFQQVQPF FDNIFVAVWD PKQAIREGAV AALRACLILT TQREPKEMQK PQWYRHTFEE
+     AEKGFDETLA KEKGMNRDDR IHGALLILNE LVRISSMEGE RLREEMEEIT QQQLVHDKYC
+     KDLMGFGTKP RHITPFTSFQ AVQPQQSNAL VGLLGYSSHQ GLMGFGASPS PTKSTLVESR
+     CCRDLMEEKF DQVCQWVLKC RSSKNSLIQM TILNLLPRLA AFRPSAFTDT QYLQDTMNHV
+     LSCVKKEKER TAAFQALGLL SVAVRSEFKV YLPRVLDIIR AALPPKDFAH KRQKTVQVDA
+     TVFTCISMLA RAMGPGIQQD IKELLEPMLA VGLSPALTAV LYDLSRQIPQ LKKDIQDGLL
+     KMLSLVLMHK PLRHPGMPKG LAHQLASPGL TTLPEASDVA SITLALRTLG SFEFEGHSLT
+     QFVRHCADHF LNSEHKEIRM EAARTCSRLL TPSIHLISGH AHVVSQTAVQ VVADVLSKLL
+     VVGITDPDPD IRYCVLASLD ERFDAHLAQA ENLQALFVAL NDQVFEIREL AICTVGRLSS
+     MNPAFVMPFL RKMLIQILTE LEHSGIGRIK EQSARMLGHL VSNAPRLIRP YMEPILKALI
+     LKLKDPDPDP NPGVINNVLA TIGELAQVSG LEMRKWVDEL FVIIMDMLQD SSLLAKRQVA
+     LWTLGQLVAS TGYVVEPYRK YPTLLEVLLN FLKTEQNQGT RREAIRVLGL LGALDPYKHK
+     VNIGMIDQSR DASAVSLSES KSSQDSSDYS TSEMLVNMGN LPLDEFYPAV SMVALMRIFR
+     DQSLSHHHTM VVQAITFIFK SLGLKCVQFL PQVMPTFLNV IRVCDGAIRE FLFQQLGMLV
+     SFVKSHIRPY MDEIVTLMRE FWVMNTSIQS TIILLIEQIV VALGGEFKLY LPQLIPHMLR
+     VFMHDNSQGR IVSIKLLAAI QLFGANLDDY LHLLLPPIVK LFDAPEVPLP SRKAALETVD
+     RLTESLDFTD YASRIIHPIV RTLDQSPELR STAMDTLSSL VFQLGKKYQI FIPMVNKVLV
+     RHRINHQRYD VLICRIVKGY TLADEEEDPL IYQHRMLRSS QGDALASGPV ETGPMKKLHV
+     STINLQKAWG AARRVSKDDW LEWLRRLSLE LLKDSSSPSL RSCWALAQAY NPMARDLFNA
+     AFVSCWSELN EDQQDELIRS IELALTSQDI AEVTQTLLNL AEFMEHSDKG PLPLRDDNGI
+     VLLGERAAKC RAYAKALHYK ELEFQKGPTP AILESLISIN NKLQQPEAAS GVLEYAMKHF
+     GELEIQATWY EKLHEWEDAL VAYDKKMDTN KDDPELMLGR MRCLEALGEW GQLHQQCCEK
+     WTLVNDETQA KMARMAAAAA WGLGQWDSME EYTCMIPRDT HDGAFYRAVL ALHQDLFSLA
+     QQCIDKARDL LDAELTAMAG ESYSRAYGAM VSCHMLSELE EVIQYKLVPE RREIIRQIWW
+     ERLQGCQRIV EDWQKILMVR SLVVSPHEDM RTWLKYASLC GKSGRLALAH KTLVLLLGVD
+     PSRQLDHPLP TVHPQVTYAY MKNMWKSARK IDAFQHMQHF VQTMQQQAQH AIATEDQQHK
+     QELHKLMARC FLKLGEWQLN LQGINESTIP KVLQYYSAAT EHDRSWYKAW HAWAVMNFEA
+     VLHYKHQNQA RDEKKKLRHA SGANITNATT TATTAASAAA ATSTEGSNSE SEAESNESSP
+     TPSPLQKKVT EDLSKTLLLY TVPAVQGFFR SISLSRGNNL QDTLRVLTLW FDYGHWPDVN
+     EALVEGVKAI QIDTWLQVIP QLIARIDTPR PLVGRLIHQL LTDIGRYHPQ ALIYPLTVAS
+     KSTTTARHNA ANKILKNMCE HSNTLVQQAM MVSEELIRVA ILWHEMWHEG LEEASRLYFG
+     ERNVKGMFEV LEPLHAMMER GPQTLKETSF NQAYGRDLME AQEWCRKYMK SGNVKDLTQA
+     WDLYYHVFRR ISKQLPQLTS LELQYVSPKL LMCRDLELAV PGTYDPNQPI IRIQSIAPSL
+     QVITSKQRPR KLTLMGSNGH EFVFLLKGHE DLRQDERVMQ LFGLVNTLLA NDPTSLRKNL
+     SIQRYAVIPL STNSGLIGWV PHCDTLHALI RDYREKKKIL LNIEHRIMLR MAPDYDHLTL
+     MQKVEVFEHA VNNTAGDDLA KLLWLKSPSS EVWFDRRTNY TRSLAVMSMV GYILGLGDRH
+     PSNLMLDRLS GKILHIDFGD CFEVAMTREK FPEKIPFRLT RMLTNAMEVT GLDGNYRTTC
+     HTVMEVLREH KDSVMAVLEA FVYDPLLNWR LMDTNAKGNK RSRTRTDSYS AGQSVEILDG
+     VELGEPAHKK TGTTVPESIH SFIGDGLVKP EALNKKAIQI INRVRDKLTG RDFSHDDTLD
+     VPTQVELLIK QATSHENLCQ CYIGWCPFW
+//

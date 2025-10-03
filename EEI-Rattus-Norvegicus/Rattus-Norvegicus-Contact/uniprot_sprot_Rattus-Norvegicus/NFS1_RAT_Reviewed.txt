@@ -1,0 +1,234 @@
+ID   NFS1_RAT                Reviewed;         451 AA.
+AC   Q99P39;
+DT   23-JAN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   02-OCT-2024, entry version 137.
+DE   RecName: Full=Cysteine desulfurase {ECO:0000305};
+DE            EC=2.8.1.7 {ECO:0000250|UniProtKB:Q9Y697};
+DE   Flags: Precursor;
+GN   Name=Nfs1 {ECO:0000312|RGD:620912}; Synonyms=Nifs;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RA   Hsu S.-C., Liew Y.-F., Shaw N.-S.;
+RT   "cDNA cloning of cysteine desulfurase (NifS) protein in rat liver.";
+RL   Submitted (JAN-2001) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: [Isoform Mitochondrial]: Cysteine desulfurase, of the core
+CC       iron-sulfur cluster (ISC) assembly complex, that catalyzes the
+CC       desulfuration of L-cysteine to L-alanine, as component of the cysteine
+CC       desulfurase complex leading to the formation of a cysteine persulfide
+CC       intermediate at the active site cysteine residue and participates in
+CC       the [2Fe-2S] clusters assembly on the scaffolding protein ISCU. The
+CC       persulfide is then transferred on the flexible Cys loop from the
+CC       catalytic site of NFS1 to the surface of NFS1 (By similarity). After
+CC       the NFS1-linked persulfide sulfur is transferred to one of the
+CC       conserved Cys residues of the scaffold, a reaction assisted by FXN (By
+CC       similarity). The core iron-sulfur cluster (ISC) assembly complex is
+CC       involved in the de novo synthesis of a [2Fe-2S] cluster, the first step
+CC       of the mitochondrial iron-sulfur protein biogenesis. This process is
+CC       initiated by the cysteine desulfurase complex (NFS1:LYRM4:NDUFAB1) that
+CC       produces persulfide which is delivered on the scaffold protein ISCU in
+CC       a FXN-dependent manner. Then this complex is stabilized by FDX2 which
+CC       provides reducing equivalents to accomplish the [2Fe-2S] cluster
+CC       assembly. Finally, the [2Fe-2S] cluster is transferred from ISCU to
+CC       chaperone proteins, including HSCB, HSPA9 and GLRX5 (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9H1K1, ECO:0000250|UniProtKB:Q9Y697,
+CC       ECO:0000250|UniProtKB:Q9Z1J3}.
+CC   -!- FUNCTION: [Isoform Cytoplasmic]: May catalyze the desulfuration of L-
+CC       cysteine to L-alanine as component of the cysteine desulfurase complex
+CC       (NFS1:LYRM4), leading to the formation of a cysteine persulfide
+CC       intermediate. Acts as a sulfur donor for MOCS3 by transferring the
+CC       sulfur of the cysteine persulfide intermediate on MOCS3.
+CC       {ECO:0000250|UniProtKB:Q9Y697}.
+CC   -!- CATALYTIC ACTIVITY: [Isoform Mitochondrial]:
+CC       Reaction=[sulfur carrier]-H + L-cysteine = [sulfur carrier]-SH + L-
+CC         alanine; Xref=Rhea:RHEA:43892, Rhea:RHEA-COMP:14737, Rhea:RHEA-
+CC         COMP:14739, ChEBI:CHEBI:29917, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:64428; EC=2.8.1.7;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y697};
+CC   -!- CATALYTIC ACTIVITY: [Isoform Cytoplasmic]:
+CC       Reaction=[sulfur carrier]-H + L-cysteine = [sulfur carrier]-SH + L-
+CC         alanine; Xref=Rhea:RHEA:43892, Rhea:RHEA-COMP:14737, Rhea:RHEA-
+CC         COMP:14739, ChEBI:CHEBI:29917, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:64428; EC=2.8.1.7;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y697};
+CC   -!- CATALYTIC ACTIVITY: [Isoform Cytoplasmic]:
+CC       Reaction=[sulfur-carrier protein]-L-cysteine + L-cysteine = [sulfur-
+CC         carrier protein]-S-sulfanyl-L-cysteine + L-alanine;
+CC         Xref=Rhea:RHEA:17457, Rhea:RHEA-COMP:10742, Rhea:RHEA-COMP:10744,
+CC         ChEBI:CHEBI:29950, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:61963; Evidence={ECO:0000250|UniProtKB:Q9Y697};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y697};
+CC   -!- ACTIVITY REGULATION: Active only in complex with LYRM4.
+CC       {ECO:0000250|UniProtKB:Q9Y697}.
+CC   -!- SUBUNIT: [Isoform Mitochondrial]: Homodimer. Component of the
+CC       mitochondrial core iron-sulfur cluster (ISC) complex composed of NFS1,
+CC       LYRM4, NDUFAB1, ISCU, FXN, and FDX2; this complex is a heterohexamer
+CC       containing two copies of each monomer. Component of cyteine desulfurase
+CC       complex composed of NFS1, LYRM4 and NDUFAB1; this complex contributes
+CC       to the activation of cysteine desulfurase activity and NFS1
+CC       stabilization. Interacts (homodimer form) with ISCU (D-state); each
+CC       monomer interacts with the C-terminal regions of each NFS1 monomer.
+CC       Interacts with HSPA9. Interacts (via homodimer form) with FDX2.
+CC       Interacts (via homodimer form) with FXN. Interacts with LYRM4 (By
+CC       similarity). Component of a complex composed of FXN, NFS1, LYRM4 and
+CC       ISCU (By similarity). {ECO:0000250|UniProtKB:Q9Y697,
+CC       ECO:0000250|UniProtKB:Q9Z1J3}.
+CC   -!- SUBUNIT: [Isoform Cytoplasmic]: Monomer. Homodimer. Oligomer. Interacts
+CC       with ISCU. Component of the cysteine desulfurase complex composed of
+CC       NFS1 and LYRM4; this complex contributes to the activation of cysteine
+CC       desulfurase activity. Interacts with MOCS3.
+CC       {ECO:0000250|UniProtKB:Q9Y697}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform Mitochondrial]: Mitochondrion
+CC       {ECO:0000250|UniProtKB:Q9Y697}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform Cytoplasmic]: Cytoplasm
+CC       {ECO:0000250|UniProtKB:Q9Y697}. Nucleus {ECO:0000250|UniProtKB:Q9Y697}.
+CC       Cytoplasm, cytoskeleton, microtubule organizing center, centrosome
+CC       {ECO:0000250|UniProtKB:Q9Y697}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative initiation; Named isoforms=2;
+CC       Name=Mitochondrial;
+CC         IsoId=Q99P39-1; Sequence=Displayed;
+CC       Name=Cytoplasmic;
+CC         IsoId=Q99P39-2; Sequence=VSP_018648;
+CC   -!- PTM: N-gluconoylated. {ECO:0000250|UniProtKB:Q9Z1J3}.
+CC   -!- PTM: Cysteine persulfide intermediate is reduced by thiol-containing
+CC       molecules like glutathione and L-cysteine. Persulfide reduction is a
+CC       rate-limiting step of cysteine desulfurase catalytic cycle.
+CC       {ECO:0000250|UniProtKB:Q9Z1J3}.
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. NifS/IscS subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF336041; AAK12337.1; -; mRNA.
+DR   AlphaFoldDB; Q99P39; -.
+DR   SMR; Q99P39; -.
+DR   IntAct; Q99P39; 2.
+DR   STRING; 10116.ENSRNOP00000026820; -.
+DR   iPTMnet; Q99P39; -.
+DR   PhosphoSitePlus; Q99P39; -.
+DR   jPOST; Q99P39; -.
+DR   PaxDb; 10116-ENSRNOP00000026820; -.
+DR   PeptideAtlas; Q99P39; -.
+DR   UCSC; RGD:620912; rat. [Q99P39-1]
+DR   AGR; RGD:620912; -.
+DR   RGD; 620912; Nfs1.
+DR   eggNOG; KOG1549; Eukaryota.
+DR   InParanoid; Q99P39; -.
+DR   BRENDA; 2.8.1.7; 5301.
+DR   Reactome; R-RNO-1362409; Mitochondrial iron-sulfur cluster biogenesis.
+DR   Reactome; R-RNO-947581; Molybdenum cofactor biosynthesis.
+DR   Reactome; R-RNO-9865881; Complex III assembly.
+DR   PRO; PR:Q99P39; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005813; C:centrosome; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISS:UniProtKB.
+DR   GO; GO:0099128; C:mitochondrial [2Fe-2S] assembly complex; ISS:UniProtKB.
+DR   GO; GO:0005759; C:mitochondrial matrix; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0031071; F:cysteine desulfurase activity; ISS:UniProtKB.
+DR   GO; GO:0051536; F:iron-sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0044571; P:[2Fe-2S] cluster assembly; ISS:UniProtKB.
+DR   GO; GO:0044572; P:[4Fe-4S] cluster assembly; ISS:UniProtKB.
+DR   GO; GO:0016226; P:iron-sulfur cluster assembly; IBA:GO_Central.
+DR   GO; GO:0006777; P:Mo-molybdopterin cofactor biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   HAMAP; MF_00331; Cys_desulf_IscS; 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR010240; Cys_deSase_IscS.
+DR   InterPro; IPR016454; Cysteine_dSase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR02006; IscS; 1.
+DR   PANTHER; PTHR11601:SF34; CYSTEINE DESULFURASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11601; CYSTEINE DESULFURYLASE FAMILY MEMBER; 1.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   PIRSF; PIRSF005572; NifS; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative initiation; Cytoplasm; Cytoskeleton; Iron; Iron-sulfur;
+KW   Metal-binding; Mitochondrion; Molybdenum cofactor biosynthesis; Nucleus;
+KW   Pyridoxal phosphate; Reference proteome; Transferase; Transit peptide;
+KW   Zinc.
+FT   TRANSIT         1..?
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           ?..451
+FT                   /note="Cysteine desulfurase"
+FT                   /id="PRO_0000001296"
+FT   ACT_SITE        375
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1J3"
+FT   BINDING         121
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y697"
+FT   BINDING         122
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y697"
+FT   BINDING         229
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y697"
+FT   BINDING         249
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y697"
+FT   BINDING         251
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y697"
+FT   BINDING         289
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y697"
+FT   BINDING         375
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /ligand_note="ligand shared with ISCU"
+FT                   /note="via persulfide group"
+FT                   /evidence="ECO:0000250|UniProtKB:O29689"
+FT   BINDING         375
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="ligand shared with ISCU (isoform 2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y697"
+FT   MOD_RES         252
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y697"
+FT   MOD_RES         375
+FT                   /note="Cysteine persulfide"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Z1J3"
+FT   VAR_SEQ         1..54
+FT                   /note="Missing (in isoform Cytoplasmic)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_018648"
+SQ   SEQUENCE   451 AA;  50013 MW;  8E9083D6222F3087 CRC64;
+     MLLRVAWRRA SLAATSVALR RSSVPTRGLR LRVVDHAPHS AVPSEAEAVL RPLYMDVRAT
+     TPLDPRVLDA MLPYLVNYYG NPHSRTHAYG WESEAAMERA RQQVASLIGA DPREIIFTSG
+     ATESNNIAIK GVARFYRSRK KHLVTTQTEH KCVLDSCRSL EAEGFRVTYL PVQKSGIIDL
+     KELEAAIQPD TSLVSVMTVN NEIGVKQPIA EIGQICSSRK LYFHTDAAQA VGKIPLDVND
+     MKIDLMSISG HKLYGPKGVG AIYIRRRPRV RVEALQSGGG QERGMRSGTV PTPLVVGLGA
+     ACELAQQEME YDHKRISKLA ERLIQKIMKN LPDVVMNGDP KQHYPGCINL SFAYVEGESL
+     LMALKDVALS SGSACTSASL EPSYVLRAIG TDEDLAHSSI RFGIGRFTTE EEVDYTVQKC
+     IHHVKRLREM SPLWEMVQDG IDLKSIKWTQ H
+//

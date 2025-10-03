@@ -1,0 +1,122 @@
+ID   TECT2_RAT               Reviewed;         700 AA.
+AC   Q3B7D3;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   22-NOV-2005, sequence version 1.
+DT   29-MAY-2024, entry version 96.
+DE   RecName: Full=Tectonic-2;
+DE   Flags: Precursor;
+GN   Name=Tctn2; Synonyms=Tect2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Component of the tectonic-like complex, a complex localized
+CC       at the transition zone of primary cilia and acting as a barrier that
+CC       prevents diffusion of transmembrane proteins between the cilia and
+CC       plasma membranes. Required for hedgehog signaling transduction (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Part of the tectonic-like complex (also named B9 complex).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass type I
+CC       membrane protein {ECO:0000305}. Cytoplasm, cytoskeleton, cilium basal
+CC       body {ECO:0000250}. Note=Localizes at the transition zone, a region
+CC       between the basal body and the ciliary axoneme. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the tectonic family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC107658; AAI07659.1; -; mRNA.
+DR   RefSeq; NP_001074251.1; NM_001080782.1.
+DR   AlphaFoldDB; Q3B7D3; -.
+DR   STRING; 10116.ENSRNOP00000073487; -.
+DR   GlyCosmos; Q3B7D3; 5 sites, No reported glycans.
+DR   GlyGen; Q3B7D3; 5 sites.
+DR   PhosphoSitePlus; Q3B7D3; -.
+DR   PaxDb; 10116-ENSRNOP00000001349; -.
+DR   Ensembl; ENSRNOT00000084553.2; ENSRNOP00000072568.1; ENSRNOG00000052704.2.
+DR   GeneID; 689779; -.
+DR   KEGG; rno:689779; -.
+DR   UCSC; RGD:1591895; rat.
+DR   AGR; RGD:1591895; -.
+DR   CTD; 79867; -.
+DR   RGD; 1591895; Tctn2.
+DR   eggNOG; KOG2189; Eukaryota.
+DR   GeneTree; ENSGT00940000154642; -.
+DR   HOGENOM; CLU_025134_0_0_1; -.
+DR   InParanoid; Q3B7D3; -.
+DR   OrthoDB; 2909954at2759; -.
+DR   Reactome; R-RNO-5620912; Anchoring of the basal body to the plasma membrane.
+DR   PRO; PR:Q3B7D3; -.
+DR   Proteomes; UP000002494; Chromosome 12.
+DR   Bgee; ENSRNOG00000052704; Expressed in jejunum and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q3B7D3; baseline and differential.
+DR   GO; GO:0035869; C:ciliary transition zone; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-KW.
+DR   GO; GO:0005856; C:cytoskeleton; IEA:UniProtKB-KW.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0036038; C:MKS complex; ISS:UniProtKB.
+DR   GO; GO:0060271; P:cilium assembly; ISS:UniProtKB.
+DR   GO; GO:1904491; P:protein localization to ciliary transition zone; ISO:RGD.
+DR   GO; GO:0007224; P:smoothened signaling pathway; ISS:UniProtKB.
+DR   InterPro; IPR040354; Tectonic.
+DR   InterPro; IPR011677; Tectonic_dom.
+DR   PANTHER; PTHR14611; TECTONIC FAMILY MEMBER; 1.
+DR   PANTHER; PTHR14611:SF6; TECTONIC-2; 1.
+DR   Pfam; PF07773; TCTN_DUF1619; 1.
+PE   2: Evidence at transcript level;
+KW   Cell projection; Cilium biogenesis/degradation; Cytoplasm; Cytoskeleton;
+KW   Glycoprotein; Membrane; Reference proteome; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..700
+FT                   /note="Tectonic-2"
+FT                   /id="PRO_0000229800"
+FT   TOPO_DOM        26..665
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        666..682
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        683..700
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        76
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        82
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        146
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        156
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        389
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   700 AA;  77301 MW;  D11C5B9C3CC4EE1D CRC64;
+     MGSLSPLSFL WGLLLLQGVL RPLRGDPVFI PPFIRMSSPE VRASLVGGSE DVTVSLTPLQ
+     IKEGVLPVPT CGGLRNETGD WNLTVSPQAN MLEVTVRWKR GLDWCSPDET ASFSEAPCIV
+     QTLLVSASHN ASCLAHLLIQ VEIYPNTSVT HNASENMTVI PNQVYQPLGP CPCDLTAKAC
+     DIRCCCDQDC QPELRELFER FCFSGVFGGY VSPPSHHRCA ARTTHQTPDW FPFLCVQSPP
+     STSPFLGHFY HGAISPRHSP GFETHSHLDL RDFFADASYK QGDPIMTTNG YFTIPQASLA
+     GQCLQDAPVA FLRNFHSVCT TDLEVQERDR LIPEDMRIRT TGGLVTPTVT YEEATDLDKL
+     ITSPDTILSA GSAPRNVTVE EHYVFRWQNN SISSLDITII RAEINAHQRG TMTQRFTVKF
+     LSPNSGGEKE FSGNPGYQLG KPVRALHTDG MNVTTLHLWQ PAGRGLCTSA ALRPVLFGED
+     ASSGCLLEVG IKENCTQLRE NVLQRLDLLI QATHVARRGN SDYGDLSDGW LEVIRVDAPD
+     AGADLPLSSA NGMCPEVPTH VTIRILTAEA GAVEGEAQRE ILAVETRFST VTWQYQCGLT
+     CEEDKADLLP LSASVKFINI PAQMPRPTRF QINFTEYDCT RNELCWPQLL YPLTQYYQGE
+     PRPQCVAKGL MLLSLLMLAI LLRHPWVGMC KAWSSASIQH
+//

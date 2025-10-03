@@ -1,0 +1,98 @@
+ID   RLIG1_RAT               Reviewed;         325 AA.
+AC   Q6AXM9;
+DT   02-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   02-OCT-2007, sequence version 2.
+DT   24-JAN-2024, entry version 94.
+DE   RecName: Full=RNA ligase 1;
+DE            EC=6.5.1.3 {ECO:0000250|UniProtKB:Q8N999};
+DE   AltName: Full=RNA ligase;
+DE            Short=Rnl;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Functions as an RNA ligase, in vitro. The ligation reaction
+CC       entails three nucleotidyl transfer steps. In the first step, the RNA
+CC       ligase reacts with ATP in the absence of nucleic acid to form a
+CC       covalent ligase-AMP intermediate and release pyrophosphate. In step 2,
+CC       the ligase-AMP binds to the nucleic acid and transfers the adenylate to
+CC       the 5'-PO4 terminus to form an adenylylated intermediate. In step 3,
+CC       the RNA ligase directs the attack of the 3'-OH on the 5'-
+CC       phosphoanhydride linkage, resulting in a repaired 3'-5' phosphodiester
+CC       and release of AMP. Exhibits selectivity for single-stranded RNA
+CC       substrates and may not have nick-sealing activity on double-stranded
+CC       DNA-RNA hybrids. May play a role in maintaining RNA integrity under
+CC       stress conditions, for example in response to reactive oxygen species
+CC       (ROS). {ECO:0000250|UniProtKB:Q8N999}.
+CC   -!- CATALYTIC ACTIVITY: [RNA ligase 1]:
+CC       Reaction=ATP + (ribonucleotide)n-3'-hydroxyl + 5'-phospho-
+CC         (ribonucleotide)m = (ribonucleotide)n+m + AMP + diphosphate.;
+CC         EC=6.5.1.3; Evidence={ECO:0000250|UniProtKB:Q8N999};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q8N999};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q8N999};
+CC   -!- PTM: AMPylates itself (auto-AMPylation).
+CC       {ECO:0000250|UniProtKB:Q8N999}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH79461.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079461; AAH79461.1; ALT_FRAME; mRNA.
+DR   RefSeq; NP_001014105.2; NM_001014083.2.
+DR   AlphaFoldDB; Q6AXM9; -.
+DR   STRING; 10116.ENSRNOP00000030713; -.
+DR   iPTMnet; Q6AXM9; -.
+DR   PhosphoSitePlus; Q6AXM9; -.
+DR   PaxDb; 10116-ENSRNOP00000030713; -.
+DR   GeneID; 314788; -.
+DR   KEGG; rno:314788; -.
+DR   UCSC; RGD:1307947; rat.
+DR   AGR; RGD:1307947; -.
+DR   CTD; 91298; -.
+DR   RGD; 1307947; RGD1307947.
+DR   VEuPathDB; HostDB:ENSRNOG00000006973; -.
+DR   eggNOG; ENOG502QWBV; Eukaryota.
+DR   HOGENOM; CLU_074918_0_0_1; -.
+DR   InParanoid; Q6AXM9; -.
+DR   OrthoDB; 2946317at2759; -.
+DR   PhylomeDB; Q6AXM9; -.
+DR   TreeFam; TF328501; -.
+DR   PRO; PR:Q6AXM9; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000006973; Expressed in cerebellum and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q6AXM9; baseline and differential.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003972; F:RNA ligase (ATP) activity; ISO:RGD.
+DR   GO; GO:0002244; P:hematopoietic progenitor cell differentiation; ISO:RGD.
+DR   GO; GO:0000302; P:response to reactive oxygen species; ISO:RGD.
+DR   GO; GO:0042245; P:RNA repair; IEA:UniProtKB-KW.
+DR   InterPro; IPR041211; RLIG1.
+DR   PANTHER; PTHR31219:SF2; CHROMOSOME 12 OPEN READING FRAME 29; 1.
+DR   PANTHER; PTHR31219; CHROMOSOME 28 C12ORF29 HOMOLOG; 1.
+DR   Pfam; PF17720; DUF5565; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Ligase; Nucleotide-binding; Reference proteome; RNA repair.
+FT   CHAIN           1..325
+FT                   /note="RNA ligase 1"
+FT                   /id="PRO_0000305275"
+SQ   SEQUENCE   325 AA;  37305 MW;  AC5833B11035E048 CRC64;
+     MNRLGSVQRK MPCVFVTEVK AEPSAKREHQ PFKVLATETL SEKALDADVY NAVATEKVDG
+     TCCYVTNYKG QPYLWARLDR KPNKQADKRF KKFLHSKENA KEFHWNTEED FKPVPECWIP
+     AKEIEKQNGK PVPDENGHIP GWVPVEKNSK QYCWHSSVVS YEFGIALVLR HHPDDPGVLE
+     ISAVPLSELL EQTLELIGTN INGNPYGLGS KKYPLHFLTP HGAFQVRNLP TLKHNDLLSW
+     FEGCREGQIE GIVWHCGDGC LIKVHRHHLG LCWPLPDTYM NSKPVIINMN LDKYDCAFDH
+     QSLFNKFSKI DKQKFDRLKD ITLDI
+//

@@ -1,0 +1,337 @@
+ID   FUT9_RAT                Reviewed;         359 AA.
+AC   Q99JB3;
+DT   09-NOV-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   29-MAY-2024, entry version 129.
+DE   RecName: Full=4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase 9 {ECO:0000305};
+DE            EC=2.4.1.152 {ECO:0000269|PubMed:11020213, ECO:0000269|PubMed:11675393};
+DE   AltName: Full=Fucosyltransferase 9;
+DE   AltName: Full=Fucosyltransferase IX {ECO:0000303|PubMed:11020213, ECO:0000303|PubMed:11675393};
+DE            Short=Fuc-TIX {ECO:0000303|PubMed:11020213};
+DE            Short=FucT-IX;
+DE   AltName: Full=Galactoside 3-L-fucosyltransferase;
+GN   Name=Fut9 {ECO:0000312|RGD:619955};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=11675393; DOI=10.1074/jbc.m108495200;
+RA   Shimoda Y., Tajima Y., Osanai T., Katsume A., Kohara M., Kudo T.,
+RA   Narimatsu H., Takashima N., Ishii Y., Nakamura S., Osumi N., Sanai Y.;
+RT   "Pax6 controls the expression of Lewis x epitope in the embryonic forebrain
+RT   by regulating alpha 1,3-fucosyltransferase IX expression.";
+RL   J. Biol. Chem. 277:2033-2039(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=11020213;
+RX   DOI=10.1002/1097-4547(20001015)62:2<206::aid-jnr5>3.0.co;2-e;
+RA   Baboval T., Henion T., Kinnally E., Smith F.I.;
+RT   "Molecular cloning of rat alpha1,3-fucosyltransferase IX (Fuc-TIX) and
+RT   comparison of the expression of Fuc-TIV and Fuc-TIX genes during rat
+RT   postnatal cerebellum development.";
+RL   J. Neurosci. Res. 62:206-215(2000).
+CC   -!- FUNCTION: Catalyzes alpha(1->3) linkage of fucosyl moiety transferred
+CC       from GDP-beta-L-fucose to N-acetyl glucosamine (GlcNAc) within type 2
+CC       lactosamine (LacNAc, beta-D-Gal-(1->4)-beta-D-GlcNAc-) glycan attached
+CC       to glycolipids and N- or O-linked glycoproteins. Fucosylates distal
+CC       type 2 LacNAc and its fucosylated (H-type 2 LacNAc) and sialylated
+CC       (sialyl-type 2 LacNAc) derivatives to form Lewis x (Lex) (CD15) and
+CC       Lewis y (Ley) antigenic epitopes involved in cell adhesion and
+CC       differentiation (By similarity) (PubMed:11020213, PubMed:11675393).
+CC       Generates Lex epitopes in the brain, presumably playing a role in the
+CC       maintenance of neuronal stemness and neurite outgrowth in progenitor
+CC       neural cells (By similarity). Fucosylates the internal type 2 LacNAc
+CC       unit of the polylactosamine chain to form VIM-2 antigen that serves as
+CC       recognition epitope for SELE (By similarity). Can also modify milk
+CC       oligosaccharides in particular type 2 tetrasaccharide LNnT (By
+CC       similarity). {ECO:0000250|UniProtKB:O88819,
+CC       ECO:0000250|UniProtKB:Q9Y231, ECO:0000269|PubMed:11020213,
+CC       ECO:0000269|PubMed:11675393}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl
+CC         derivative + GDP-beta-L-fucose = a beta-D-galactosyl-(1->4)-[alpha-L-
+CC         fucosyl-(1->3)]-N-acetyl-beta-D-glucosaminyl derivative + GDP + H(+);
+CC         Xref=Rhea:RHEA:14257, ChEBI:CHEBI:15378, ChEBI:CHEBI:57273,
+CC         ChEBI:CHEBI:58189, ChEBI:CHEBI:133507, ChEBI:CHEBI:137941;
+CC         EC=2.4.1.152; Evidence={ECO:0000269|PubMed:11020213,
+CC         ECO:0000269|PubMed:11675393};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:14258;
+CC         Evidence={ECO:0000269|PubMed:11020213, ECO:0000269|PubMed:11675393};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-
+CC         beta-D-Gal-(1->4)-beta-D-GlcNAc derivative + GDP-beta-L-fucose = an
+CC         alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-
+CC         Gal-(1->4)-[alpha-L-Fuc-(1->3)]-beta-D-GlcNAc derivative + GDP +
+CC         H(+); Xref=Rhea:RHEA:68044, ChEBI:CHEBI:15378, ChEBI:CHEBI:57273,
+CC         ChEBI:CHEBI:58189, ChEBI:CHEBI:145343, ChEBI:CHEBI:176900;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y231};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68045;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y231};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-N-glycoloylneuraminosyl-(2->3)-beta-D-galactosyl-(1->4)-
+CC         N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-N-
+CC         acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-
+CC         glucosyl-(1<->1')-ceramide + GDP-beta-L-fucose = alpha-N-
+CC         glycoloylneuraminosyl-(2->3)-beta-D-galactosyl-(1->4)-N-acetyl-beta-
+CC         D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-[alpha-L-fucosyl-
+CC         (1->3)]-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-
+CC         beta-D-glucosyl-(1<->1')-ceramide + GDP + H(+); Xref=Rhea:RHEA:48388,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57273, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:90383, ChEBI:CHEBI:90384;
+CC         Evidence={ECO:0000250|UniProtKB:O88819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48389;
+CC         Evidence={ECO:0000250|UniProtKB:O88819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-galactosyl-(1->3)-beta-D-galactosyl-(1->4)-N-acetyl-
+CC         beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-
+CC         (1<->1')-ceramide + GDP-beta-L-fucose = a neolactoside IV(3)-alpha-
+CC         Gal,III(3)-alpha-Fuc-nLc4Cer + GDP + H(+); Xref=Rhea:RHEA:48380,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57273, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:90380, ChEBI:CHEBI:90381;
+CC         Evidence={ECO:0000250|UniProtKB:O88819};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48381;
+CC         Evidence={ECO:0000250|UniProtKB:O88819};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a neolactoside nLc4Cer + GDP-beta-L-fucose = a neolactoside
+CC         III(3)-alpha-Fuc-nLc4Cer + GDP + H(+); Xref=Rhea:RHEA:48376,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57273, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:90376, ChEBI:CHEBI:90379;
+CC         Evidence={ECO:0000269|PubMed:11020213, ECO:0000269|PubMed:11675393};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48377;
+CC         Evidence={ECO:0000269|PubMed:11020213, ECO:0000269|PubMed:11675393};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acetyl-alpha-neuraminyl-(2->3)-beta-D-galactosyl-(1->4)-
+CC         N-acetyl-beta-D-glucosaminyl derivative + GDP-beta-L-fucose = an
+CC         alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->4)-[alpha-L-Fuc-(1->3)]-beta-D-
+CC         GlcNAc derivative + GDP + H(+); Xref=Rhea:RHEA:56076,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57273, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:136545, ChEBI:CHEBI:139509;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y231};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:56077;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y231};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-D-Glc
+CC         + GDP-beta-L-fucose = beta-D-Gal-(1->4)-[alpha-L-Fuc-(1->3)]-beta-D-
+CC         GlcNAc-(1->3)-beta-D-Gal-(1->4)-D-Glc + GDP + H(+);
+CC         Xref=Rhea:RHEA:77187, ChEBI:CHEBI:15378, ChEBI:CHEBI:57273,
+CC         ChEBI:CHEBI:58189, ChEBI:CHEBI:60239, ChEBI:CHEBI:61352;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y231};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:77188;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y231};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an alpha-L-Fuc-(1->2)-beta-D-Gal-(1->4)-beta-D-GlcNAc
+CC         derivative + GDP-beta-L-fucose = an alpha-L-Fuc-(1->2)-beta-D-Gal-
+CC         (1->4)-[alpha-L-Fuc-(1->3)]-beta-D-GlcNAc derivative + GDP + H(+);
+CC         Xref=Rhea:RHEA:77191, ChEBI:CHEBI:15378, ChEBI:CHEBI:57273,
+CC         ChEBI:CHEBI:58189, ChEBI:CHEBI:133510, ChEBI:CHEBI:195560;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y231};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:77192;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y231};
+CC   -!- ACTIVITY REGULATION: Activated by Mn2+. {ECO:0000250|UniProtKB:Q9Y231}.
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000250|UniProtKB:O88819, ECO:0000250|UniProtKB:Q9Y231}.
+CC   -!- PATHWAY: Glycolipid biosynthesis. {ECO:0000250|UniProtKB:O88819}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q9Y231}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus, trans-Golgi network membrane
+CC       {ECO:0000250|UniProtKB:Q9Y231}; Single-pass type II membrane protein
+CC       {ECO:0000250|UniProtKB:Q6P4F1}. Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:O88819}.
+CC   -!- DOMAIN: The donor-binding domain adopts a Rossman-like fold involved in
+CC       GDP-beta-L-fucose sugar donor interactions.
+CC       {ECO:0000250|UniProtKB:Q9Y231}.
+CC   -!- DOMAIN: The acceptor-binding domain adopts a Rossman-like fold
+CC       consisting of six-stranded parallel beta sheets characteristic of the
+CC       Toll/interleukin-1 receptor (TIR) fold family. Interacts with the
+CC       LacNAc unit of type 2 LacNAc and H-type 2 LacNAc structures. It
+CC       contains the catalytic base Glu-137 which deprotonates the hydroxyl
+CC       group of GlcNAc while forming bridging interactions with the donor
+CC       sugar to position the catalytic machinery in the active site.
+CC       {ECO:0000250|UniProtKB:Q9Y231}.
+CC   -!- PTM: N-glycosylated with complex-type N-glycans.
+CC       {ECO:0000250|UniProtKB:Q9Y231}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 10 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB049819; BAB40953.1; -; mRNA.
+DR   EMBL; AF345993; AAK16591.1; -; mRNA.
+DR   RefSeq; NP_445917.1; NM_053465.1.
+DR   AlphaFoldDB; Q99JB3; -.
+DR   SMR; Q99JB3; -.
+DR   STRING; 10116.ENSRNOP00000011393; -.
+DR   CAZy; GT10; Glycosyltransferase Family 10.
+DR   GlyCosmos; Q99JB3; 3 sites, No reported glycans.
+DR   GlyGen; Q99JB3; 3 sites.
+DR   PhosphoSitePlus; Q99JB3; -.
+DR   PaxDb; 10116-ENSRNOP00000011393; -.
+DR   Ensembl; ENSRNOT00000113229.1; ENSRNOP00000087361.1; ENSRNOG00000070149.1.
+DR   Ensembl; ENSRNOT00055017213; ENSRNOP00055013853; ENSRNOG00055010194.
+DR   Ensembl; ENSRNOT00060023642; ENSRNOP00060018794; ENSRNOG00060013840.
+DR   Ensembl; ENSRNOT00065008515; ENSRNOP00065006000; ENSRNOG00065005705.
+DR   GeneID; 84597; -.
+DR   KEGG; rno:84597; -.
+DR   UCSC; RGD:619955; rat.
+DR   AGR; RGD:619955; -.
+DR   CTD; 10690; -.
+DR   RGD; 619955; Fut9.
+DR   eggNOG; KOG2619; Eukaryota.
+DR   GeneTree; ENSGT00940000155095; -.
+DR   HOGENOM; CLU_032075_4_2_1; -.
+DR   InParanoid; Q99JB3; -.
+DR   OMA; FRKWDSQ; -.
+DR   OrthoDB; 1331128at2759; -.
+DR   PhylomeDB; Q99JB3; -.
+DR   TreeFam; TF316348; -.
+DR   Reactome; R-RNO-9037629; Lewis blood group biosynthesis.
+DR   UniPathway; UPA00378; -.
+DR   PRO; PR:Q99JB3; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   Bgee; ENSRNOG00000008475; Expressed in frontal cortex and 4 other cell types or tissues.
+DR   GO; GO:0005794; C:Golgi apparatus; ISS:UniProtKB.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005802; C:trans-Golgi network; ISS:UniProtKB.
+DR   GO; GO:0032588; C:trans-Golgi network membrane; ISS:UniProtKB.
+DR   GO; GO:0017083; F:4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0046920; F:alpha-(1->3)-fucosyltransferase activity; ISO:RGD.
+DR   GO; GO:0008417; F:fucosyltransferase activity; NAS:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0036065; P:fucosylation; ISS:UniProtKB.
+DR   GO; GO:0006688; P:glycosphingolipid biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0106402; P:Lewis x epitope biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0036071; P:N-glycan fucosylation; ISO:RGD.
+DR   GO; GO:0007399; P:nervous system development; IDA:RGD.
+DR   GO; GO:0030182; P:neuron differentiation; ISS:UniProtKB.
+DR   GO; GO:0036445; P:neuronal stem cell division; ISS:UniProtKB.
+DR   GO; GO:0009312; P:oligosaccharide biosynthetic process; ISO:RGD.
+DR   GO; GO:0000271; P:polysaccharide biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0010976; P:positive regulation of neuron projection development; ISS:UniProtKB.
+DR   GO; GO:0006486; P:protein glycosylation; ISO:RGD.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; ISS:UniProtKB.
+DR   GO; GO:0006493; P:protein O-linked glycosylation; ISS:UniProtKB.
+DR   GO; GO:1903037; P:regulation of leukocyte cell-cell adhesion; ISS:UniProtKB.
+DR   GO; GO:1903236; P:regulation of leukocyte tethering or rolling; ISS:UniProtKB.
+DR   Gene3D; 3.40.50.11660; Glycosyl transferase family 10, C-terminal domain; 1.
+DR   InterPro; IPR031481; Glyco_tran_10_N.
+DR   InterPro; IPR001503; Glyco_trans_10.
+DR   InterPro; IPR038577; GT10-like_C_sf.
+DR   PANTHER; PTHR11929:SF10; 4-GALACTOSYL-N-ACETYLGLUCOSAMINIDE 3-ALPHA-L-FUCOSYLTRANSFERASE 9; 1.
+DR   PANTHER; PTHR11929; ALPHA- 1,3 -FUCOSYLTRANSFERASE; 1.
+DR   Pfam; PF17039; Glyco_tran_10_N; 1.
+DR   Pfam; PF00852; Glyco_transf_10; 1.
+DR   SUPFAM; SSF53756; UDP-Glycosyltransferase/glycogen phosphorylase; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Glycoprotein; Glycosyltransferase; Golgi apparatus;
+KW   Lipid metabolism; Membrane; Reference proteome; Signal-anchor; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..359
+FT                   /note="4-galactosyl-N-acetylglucosaminide 3-alpha-L-
+FT                   fucosyltransferase 9"
+FT                   /id="PRO_0000221121"
+FT   TOPO_DOM        1..11
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        12..32
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        33..359
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   REGION          63..168
+FT                   /note="Acceptor-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   REGION          169..326
+FT                   /note="Donor-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   REGION          327..359
+FT                   /note="Acceptor-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   ACT_SITE        137
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         75
+FT                   /ligand="a beta-D-galactosyl-(1->4)-N-acetyl-beta-D-
+FT                   glucosaminyl derivative"
+FT                   /ligand_id="ChEBI:CHEBI:133507"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         137
+FT                   /ligand="a beta-D-galactosyl-(1->4)-N-acetyl-beta-D-
+FT                   glucosaminyl derivative"
+FT                   /ligand_id="ChEBI:CHEBI:133507"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         137
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         168
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         192
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         194
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         195
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         202
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         226
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         241
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         246
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         252
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         255
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   BINDING         256
+FT                   /ligand="GDP-beta-L-fucose"
+FT                   /ligand_id="ChEBI:CHEBI:57273"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   CARBOHYD        62
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        101
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        153
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231, ECO:0000255"
+FT   DISULFID        82..335
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   DISULFID        91..338
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+FT   DISULFID        190..238
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y231"
+SQ   SEQUENCE   359 AA;  42037 MW;  369B4A7BD0C6CC80 CRC64;
+     MTSTSKGILR PFLIVCIILG CFVACLLIYI KPTNSWVFSP MESASSVLKM KNFFSRKTDY
+     FNETTILVWV WPFGQTFDLT SCQAMFNIQG CHLTTDRSLY NKSHAVLIHH RDISWDLTNL
+     PQQARPPFQK WIWMNLESPT HTPQKSGIEH LFNLTLTYRR DSDIQVPYGF LTVSTSPFVF
+     EVPSKEKLVC WVVSNWNPEH ARVKYYNELS KSIEIHTYGQ AFGEYVNDKN LIPTISTCKF
+     YLSFENSIHK DYITEKLYNA FLAGSVPVVL GPSRENYENY IPADSFIHVE DFNSPSELAK
+     YLKEVDKNNK LYLSYFNWRK DFTVNLPRFW ESHACLACDH VKRHQEYKSV GNLEKWFWN
+//

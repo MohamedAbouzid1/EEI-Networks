@@ -1,0 +1,257 @@
+ID   DNLI1_RAT               Reviewed;         918 AA.
+AC   Q9JHY8;
+DT   20-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   24-JUL-2024, entry version 149.
+DE   RecName: Full=DNA ligase 1;
+DE            EC=6.5.1.1;
+DE   AltName: Full=DNA ligase I;
+DE   AltName: Full=Polydeoxyribonucleotide synthase [ATP] 1;
+GN   Name=Lig1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RA   Chen D., Cao G., Chen J.;
+RT   "Molecular cloning and characterization of rat DNA ligase I.";
+RL   Submitted (JUN-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-66; SER-67 AND THR-78, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: DNA ligase that seals nicks in double-stranded during DNA
+CC       repair. Also involved in DNA replication and DNA recombination.
+CC       {ECO:0000250|UniProtKB:P18858}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + (deoxyribonucleotide)n-3'-hydroxyl + 5'-phospho-
+CC         (deoxyribonucleotide)m = (deoxyribonucleotide)n+m + AMP +
+CC         diphosphate.; EC=6.5.1.1;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Interacts with PCNA. Interacts with POLB.
+CC       {ECO:0000250|UniProtKB:P12004}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus.
+CC   -!- SIMILARITY: Belongs to the ATP-dependent DNA ligase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF276774; AAF82585.1; -; mRNA.
+DR   AlphaFoldDB; Q9JHY8; -.
+DR   SMR; Q9JHY8; -.
+DR   STRING; 10116.ENSRNOP00000019799; -.
+DR   iPTMnet; Q9JHY8; -.
+DR   PhosphoSitePlus; Q9JHY8; -.
+DR   jPOST; Q9JHY8; -.
+DR   PaxDb; 10116-ENSRNOP00000019799; -.
+DR   UCSC; RGD:621424; rat.
+DR   AGR; RGD:621424; -.
+DR   RGD; 621424; Lig1.
+DR   eggNOG; KOG0967; Eukaryota.
+DR   InParanoid; Q9JHY8; -.
+DR   PhylomeDB; Q9JHY8; -.
+DR   Reactome; R-RNO-110362; POLB-Dependent Long Patch Base Excision Repair.
+DR   Reactome; R-RNO-174414; Processive synthesis on the C-strand of the telomere.
+DR   Reactome; R-RNO-5358565; Mismatch repair (MMR) directed by MSH2:MSH6 (MutSalpha).
+DR   Reactome; R-RNO-5358606; Mismatch repair (MMR) directed by MSH2:MSH3 (MutSbeta).
+DR   Reactome; R-RNO-5651801; PCNA-Dependent Long Patch Base Excision Repair.
+DR   Reactome; R-RNO-6782210; Gap-filling DNA repair synthesis and ligation in TC-NER.
+DR   Reactome; R-RNO-69183; Processive synthesis on the lagging strand.
+DR   PRO; PR:Q9JHY8; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0003910; F:DNA ligase (ATP) activity; IBA:GO_Central.
+DR   GO; GO:0003909; F:DNA ligase activity; IDA:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006284; P:base-excision repair; ISO:RGD.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071897; P:DNA biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006266; P:DNA ligation; IBA:GO_Central.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IDA:RGD.
+DR   GO; GO:0006260; P:DNA replication; ISO:RGD.
+DR   GO; GO:0006303; P:double-strand break repair via nonhomologous end joining; ISO:RGD.
+DR   GO; GO:0006273; P:lagging strand elongation; IBA:GO_Central.
+DR   GO; GO:1903461; P:Okazaki fragment processing involved in mitotic DNA replication; IBA:GO_Central.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; ISO:RGD.
+DR   CDD; cd07900; Adenylation_DNA_ligase_I_Euk; 1.
+DR   CDD; cd07969; OBF_DNA_ligase_I; 1.
+DR   Gene3D; 3.30.1490.70; -; 1.
+DR   Gene3D; 1.10.3260.10; DNA ligase, ATP-dependent, N-terminal domain; 1.
+DR   Gene3D; 3.30.470.30; DNA ligase/mRNA capping enzyme; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   InterPro; IPR050191; ATP-dep_DNA_ligase.
+DR   InterPro; IPR000977; DNA_ligase_ATP-dep.
+DR   InterPro; IPR012309; DNA_ligase_ATP-dep_C.
+DR   InterPro; IPR012310; DNA_ligase_ATP-dep_cent.
+DR   InterPro; IPR016059; DNA_ligase_ATP-dep_CS.
+DR   InterPro; IPR012308; DNA_ligase_ATP-dep_N.
+DR   InterPro; IPR036599; DNA_ligase_N_sf.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   NCBIfam; TIGR00574; dnl1; 1.
+DR   PANTHER; PTHR45674:SF4; DNA LIGASE 1; 1.
+DR   PANTHER; PTHR45674; DNA LIGASE 1/3 FAMILY MEMBER; 1.
+DR   Pfam; PF04679; DNA_ligase_A_C; 1.
+DR   Pfam; PF01068; DNA_ligase_A_M; 1.
+DR   Pfam; PF04675; DNA_ligase_A_N; 1.
+DR   SUPFAM; SSF117018; ATP-dependent DNA ligase DNA-binding domain; 1.
+DR   SUPFAM; SSF56091; DNA ligase/mRNA capping enzyme, catalytic domain; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   PROSITE; PS00333; DNA_LIGASE_A2; 1.
+DR   PROSITE; PS50160; DNA_LIGASE_A3; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Cell cycle; Cell division; DNA damage;
+KW   DNA recombination; DNA repair; DNA replication; Ligase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Nucleus; Phosphoprotein;
+KW   Reference proteome.
+FT   CHAIN           1..918
+FT                   /note="DNA ligase 1"
+FT                   /id="PRO_0000059572"
+FT   REGION          1..271
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          642..644
+FT                   /note="Interaction with target DNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          881..918
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        16..56
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        81..114
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        129..180
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        240..260
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        887..911
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        568
+FT                   /note="N6-AMP-lysine intermediate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         566
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   BINDING         573
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   BINDING         621
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   BINDING         621
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         720
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         725
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   BINDING         744
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   SITE            305
+FT                   /note="Interaction with target DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            590
+FT                   /note="Interaction with target DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            770
+FT                   /note="Interaction with target DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            795
+FT                   /note="Interaction with target DNA"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         50
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   MOD_RES         52
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   MOD_RES         66
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         67
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         78
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         145
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P37913"
+FT   MOD_RES         195
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   MOD_RES         227
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P37913"
+FT   MOD_RES         230
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   MOD_RES         231
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   MOD_RES         234
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   MOD_RES         798
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   MOD_RES         801
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+FT   MOD_RES         908
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P37913"
+FT   MOD_RES         909
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P37913"
+FT   MOD_RES         913
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18858"
+SQ   SEQUENCE   918 AA;  102482 MW;  B4ECA8861C521567 CRC64;
+     MQRSIMSFFQ PTTTEGKAKK PEKEIPSSIR EKEPPPKVAL KERNRAVPES DSPVKRPGRK
+     VAQVLSSEGE DEDEAPGTPQ VQKPVSDSKQ SSPPSPDSCP ENSPVFNCSP SMDISPSGFP
+     KRRTARKQLP KRTIQDTLEE PNEDKAKAVK KRKKEDPQTP PESLTEAEEV NQKEEQVEDQ
+     PTVPPEPTES PESVTLTKTE NIPMCKAGVK QKPQEEEQSK PPARGAKPLS SFFTPRKPAV
+     KTEVKQEESD TPRKEETKGA PDPTNYNPSK SNYHPIEDAC WKHGQKVPFL AVARTFEKIE
+     EVSARLKMVE TLSNLLRSVV ALSPTDLLPV LYLSLNRLGP PQQGLELGVG DGVLLKAVAQ
+     ATGRQLESIR AEVAEKGDVG LVAENSRSTQ RLMLPSPPLT VSGVFTKFCD IARLTGSASM
+     AKKMDIIKGL FVACRYSEAR FIARSLSGRL RLGLAEQSVL AALAQAGSLT PPGQEFPTVV
+     VDAGKGKTAE ARKMWLEEQG MILKQTFCEV PDLDRIIPVL LEHGLESLPE HCKLSPGVPL
+     KPMLAHPTRG VREVLKRFEE VDFTCEYKYY GQRAQIHVLE GGEVKIFSRN QEDNSGKYPD
+     IISRIPKIKH PSVTSFILDT EAVAWDREKK QIQPFQVLTT RKRKEVDASE IQVQVCLYAF
+     DLIYLNGESL ARQPLSRRRQ LLRENFVETE GEFVFATSLD TKDIEQIAEF LEQSVKDSCE
+     GLMVKTLDVD ATYEIAKRSH NWLKLKKDYL EGVGDTLDLV VIGAYLGRGK RPGRYGGFLL
+     AAYDEESEEL AAICKLGTGF SDEELEEHHQ NMQALLLPTP RPYVRIDGAV APNHWLDPSI
+     VWEVKCADLT LSPIYRAARG MVDKEKGISL RFPRFIRVRE DKQPEQATTS DQVASLYRKQ
+     SQIQNQQSSD LDSDVEDY
+//

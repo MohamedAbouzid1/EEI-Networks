@@ -1,0 +1,238 @@
+ID   HACL1_RAT               Reviewed;         581 AA.
+AC   Q8CHM7;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   24-JUL-2024, entry version 135.
+DE   RecName: Full=2-hydroxyacyl-CoA lyase 1;
+DE            EC=4.1.2.63 {ECO:0000269|PubMed:10468558};
+DE   AltName: Full=2-hydroxyphytanoyl-CoA lyase {ECO:0000303|PubMed:10468558};
+DE            Short=2-HPCL {ECO:0000303|PubMed:10468558};
+DE   AltName: Full=Phytanoyl-CoA 2-hydroxylase 2;
+GN   Name=Hacl1; Synonyms=2hpcl, Hpcl2, Phyh2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar;
+RA   Van Veldhoven P.P., Foulon V., Casteels M.;
+RT   "Cloning of 2-hydroxyphytanoyl-CoA lyase of rodents.";
+RL   Submitted (NOV-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 28-44; 225-237 AND 341-351, SUBCELLULAR LOCATION,
+RP   COFACTOR, SUBUNIT, BIOPHYSICOCHEMICAL PROPERTIES, AND CATALYTIC ACTIVITY.
+RC   STRAIN=Wistar;
+RX   PubMed=10468558; DOI=10.1073/pnas.96.18.10039;
+RA   Foulon V., Antonenkov V.D., Croes K., Waelkens E., Mannaerts G.P.,
+RA   Van Veldhoven P.P., Casteels M.;
+RT   "Purification, molecular cloning, and expression of 2-hydroxyphytanoyl-CoA
+RT   lyase, a peroxisomal thiamine hydrophosphate-dependent enzyme that
+RT   catalyzes the carbon-carbon bond cleavage during alpha-oxidation of 3-
+RT   methyl-branched fatty acids.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 96:10039-10044(1999).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-2; SER-4 AND SER-6, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes a carbon-carbon cleavage reaction; cleaves a 2-
+CC       hydroxy-3-methylacyl-CoA into formyl-CoA and a 2-methyl-branched fatty
+CC       aldehyde.
+CC   -!- FUNCTION: Peroxisomal 2-OH acyl-CoA lyase involved in the cleavage (C1
+CC       removal) reaction in the fatty acid alpha-oxydation in a thiamine
+CC       pyrophosphate (TPP)-dependent manner. Involved in the degradation of 3-
+CC       methyl-branched fatty acids like phytanic acid (PubMed:10468558).
+CC       Involved also in the shortening of 2-hydroxy long-chain fatty acids (By
+CC       similarity). Plays a significant role in the biosynthesis of
+CC       heptadecanal in the liver (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9QXE0, ECO:0000250|UniProtKB:Q9UJ83,
+CC       ECO:0000269|PubMed:10468558}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2-hydroxy-3-methyl fatty acyl-CoA = a 2-methyl-branched
+CC         fatty aldehyde + formyl-CoA; Xref=Rhea:RHEA:25375, ChEBI:CHEBI:49188,
+CC         ChEBI:CHEBI:57376, ChEBI:CHEBI:58783; EC=4.1.2.63;
+CC         Evidence={ECO:0000269|PubMed:10468558};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:25376;
+CC         Evidence={ECO:0000305|PubMed:10468558};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an (R)-2-hydroxy-long-chain-fatty acyl-CoA = a long-chain
+CC         fatty aldehyde + formyl-CoA; Xref=Rhea:RHEA:67444, ChEBI:CHEBI:17176,
+CC         ChEBI:CHEBI:57376, ChEBI:CHEBI:170012; EC=4.1.2.63;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UJ83};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67445;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UJ83};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-hydroxy-3-methylhexadecanoyl-CoA = 2-methylpentadecanal +
+CC         formyl-CoA; Xref=Rhea:RHEA:25379, ChEBI:CHEBI:49190,
+CC         ChEBI:CHEBI:57376, ChEBI:CHEBI:58784;
+CC         Evidence={ECO:0000269|PubMed:10468558};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:25380;
+CC         Evidence={ECO:0000305|PubMed:10468558};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-hydroxyoctadecanoyl-CoA = formyl-CoA + heptadecanal;
+CC         Xref=Rhea:RHEA:55196, ChEBI:CHEBI:57376, ChEBI:CHEBI:74116,
+CC         ChEBI:CHEBI:138631; Evidence={ECO:0000250|UniProtKB:Q9UJ83};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55197;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UJ83};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-hydroxyphytanoyl-CoA = 2,6,10,14-tetramethylpentadecanal +
+CC         formyl-CoA; Xref=Rhea:RHEA:25355, ChEBI:CHEBI:49189,
+CC         ChEBI:CHEBI:57334, ChEBI:CHEBI:57376;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UJ83};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:25356;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UJ83};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:10468558};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000269|PubMed:10468558};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000269|PubMed:10468558};
+CC       Note=Binds 1 thiamine pyrophosphate per subunit.
+CC       {ECO:0000269|PubMed:10468558};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=15 uM for 2-hydroxy-3-methylhexadecanoyl-CoA
+CC         {ECO:0000269|PubMed:10468558};
+CC       pH dependence:
+CC         Optimum pH is 7.5-8. {ECO:0000269|PubMed:10468558};
+CC   -!- PATHWAY: Lipid metabolism; fatty acid metabolism.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:10468558}.
+CC   -!- SUBCELLULAR LOCATION: Peroxisome {ECO:0000269|PubMed:10468558}.
+CC   -!- SIMILARITY: Belongs to the TPP enzyme family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC078697; AAH78697.1; -; mRNA.
+DR   EMBL; AJ517469; CAD56981.1; -; mRNA.
+DR   RefSeq; NP_445945.1; NM_053493.1.
+DR   AlphaFoldDB; Q8CHM7; -.
+DR   SMR; Q8CHM7; -.
+DR   STRING; 10116.ENSRNOP00000026588; -.
+DR   SwissLipids; SLP:000001016; -.
+DR   iPTMnet; Q8CHM7; -.
+DR   PhosphoSitePlus; Q8CHM7; -.
+DR   jPOST; Q8CHM7; -.
+DR   PaxDb; 10116-ENSRNOP00000026588; -.
+DR   Ensembl; ENSRNOT00000026588.4; ENSRNOP00000026588.2; ENSRNOG00000019630.8.
+DR   GeneID; 85255; -.
+DR   KEGG; rno:85255; -.
+DR   UCSC; RGD:619849; rat.
+DR   AGR; RGD:619849; -.
+DR   CTD; 26061; -.
+DR   RGD; 619849; Hacl1.
+DR   eggNOG; KOG1185; Eukaryota.
+DR   GeneTree; ENSGT00940000156802; -.
+DR   HOGENOM; CLU_013748_3_3_1; -.
+DR   InParanoid; Q8CHM7; -.
+DR   OrthoDB; 1966690at2759; -.
+DR   PhylomeDB; Q8CHM7; -.
+DR   TreeFam; TF105690; -.
+DR   BioCyc; MetaCyc:MONOMER-17701; -.
+DR   BRENDA; 4.1.2.63; 5301.
+DR   Reactome; R-RNO-389599; Alpha-oxidation of phytanate.
+DR   Reactome; R-RNO-9033241; Peroxisomal protein import.
+DR   SABIO-RK; Q8CHM7; -.
+DR   UniPathway; UPA00199; -.
+DR   PRO; PR:Q8CHM7; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000019630; Expressed in liver and 20 other cell types or tissues.
+DR   GO; GO:0005777; C:peroxisome; IDA:HGNC-UCL.
+DR   GO; GO:0106359; F:2-hydroxyacyl-CoA lyase activity; ISO:RGD.
+DR   GO; GO:0106376; F:2-hydroxyphytanoyl-CoA lyase activity; IEA:RHEA.
+DR   GO; GO:0005524; F:ATP binding; ISO:RGD.
+DR   GO; GO:0016830; F:carbon-carbon lyase activity; IDA:HGNC-UCL.
+DR   GO; GO:0042802; F:identical protein binding; ISS:UniProtKB.
+DR   GO; GO:0016829; F:lyase activity; ISO:RGD.
+DR   GO; GO:0000287; F:magnesium ion binding; ISO:RGD.
+DR   GO; GO:0030976; F:thiamine pyrophosphate binding; IDA:HGNC-UCL.
+DR   GO; GO:0001561; P:fatty acid alpha-oxidation; IDA:HGNC-UCL.
+DR   GO; GO:0006631; P:fatty acid metabolic process; ISO:RGD.
+DR   GO; GO:0006629; P:lipid metabolic process; ISO:RGD.
+DR   GO; GO:0097089; P:methyl-branched fatty acid metabolic process; IDA:UniProtKB.
+DR   GO; GO:1903512; P:phytanic acid metabolic process; ISS:UniProtKB.
+DR   GO; GO:0006625; P:protein targeting to peroxisome; ISS:UniProtKB.
+DR   CDD; cd02004; TPP_BZL_OCoD_HPCL; 1.
+DR   CDD; cd07035; TPP_PYR_POX_like; 1.
+DR   Gene3D; 3.40.50.970; -; 2.
+DR   Gene3D; 3.40.50.1220; TPP-binding domain; 1.
+DR   InterPro; IPR029035; DHS-like_NAD/FAD-binding_dom.
+DR   InterPro; IPR045025; HACL1-like.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR012000; Thiamin_PyroP_enz_cen_dom.
+DR   InterPro; IPR012001; Thiamin_PyroP_enz_TPP-bd_dom.
+DR   InterPro; IPR011766; TPP_enzyme_TPP-bd.
+DR   PANTHER; PTHR43710; 2-HYDROXYACYL-COA LYASE; 1.
+DR   PANTHER; PTHR43710:SF2; 2-HYDROXYACYL-COA LYASE 1; 1.
+DR   Pfam; PF02775; TPP_enzyme_C; 1.
+DR   Pfam; PF00205; TPP_enzyme_M; 1.
+DR   Pfam; PF02776; TPP_enzyme_N; 1.
+DR   SUPFAM; SSF52467; DHS-like NAD/FAD-binding domain; 1.
+DR   SUPFAM; SSF52518; Thiamin diphosphate-binding fold (THDP-binding); 2.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Fatty acid metabolism; Lipid metabolism; Lyase;
+KW   Magnesium; Metal-binding; Peroxisome; Phosphoprotein; Reference proteome;
+KW   Thiamine pyrophosphate.
+FT   CHAIN           1..581
+FT                   /note="2-hydroxyacyl-CoA lyase 1"
+FT                   /id="PRO_0000337675"
+FT   REGION          404..489
+FT                   /note="Thiamine pyrophosphate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P40149"
+FT   MOTIF           579..581
+FT                   /note="Microbody targeting signal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UJ83"
+FT   BINDING         63
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000250|UniProtKB:P40149"
+FT   BINDING         458
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P40149"
+FT   BINDING         485
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P40149"
+FT   MOD_RES         2
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         4
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         6
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         361
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QXE0"
+FT   MOD_RES         368
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9QXE0"
+SQ   SEQUENCE   581 AA;  63616 MW;  007F0738173A8BA9 CRC64;
+     MSESNSAEGS DRSEEQVSGA KVIAQALKTQ DVEYMFGVVG IPVTEIALAA QELGIKYIGM
+     RNEQAACYAA SAVGYLTGRP GVCLVVSGPG LIHALGGMAN ANMNCWPLIV IGGSSERNQE
+     AMGAFQEFPQ VEACRLYSKF SARPSSIQHI PFVIEKAVRS SIYGRPGACY IDVPADLVTL
+     QESTTSIKYK ECCMPPPLSL AETSAVRAAA SVLRSAKQPL LIIGKGAAYS HAEDSIRKLV
+     ELCNLPFLPT PMGKGVVPDN HPNCVGAARS RALQFADVIV LFGARLNWIL HFGLPPRYQA
+     DVKFIQIDIC AEELGNNVRP SVTLLGDVNA VSKQLLEQFV KNPWQYPTDS KWWETLREKR
+     KNNEAVSKEL ASKKSLPMNY YTVFYHVQEQ LPRNCFIVSE GANTMDIGRT VLQNYLPRHR
+     LDAGSFGTMG VGLGFAIAAA VVAKERSPGQ RVICVEGDSA FGFSGMEVET ICRYNLPIII
+     LVVNNNGIYQ GFDADTWGKI LNFQGTATTI PPMCLLPNSH YEQVMTAFGG KGYFVQTPEE
+     LQDSLRQALK DTSKPCLINI MIEPQSTRKA QDFHWLTRSN I
+//

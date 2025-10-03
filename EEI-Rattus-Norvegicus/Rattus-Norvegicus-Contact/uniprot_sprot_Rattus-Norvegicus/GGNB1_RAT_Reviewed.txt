@@ -1,0 +1,116 @@
+ID   GGNB1_RAT               Reviewed;         373 AA.
+AC   Q5J2D6;
+DT   13-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2005, sequence version 1.
+DT   02-OCT-2024, entry version 90.
+DE   RecName: Full=Gametogenetin-binding protein 1;
+GN   Name=Ggnbp1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=15625700; DOI=10.1002/mrd.20214;
+RA   Zhou Y., Zhao Q., Bishop C.E., Huang P., Lu B.;
+RT   "Identification and characterization of a novel testicular germ cell-
+RT   specific gene Ggnbp1.";
+RL   Mol. Reprod. Dev. 70:301-307(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Induces mitochondrial fragmentation, possibly by promoting
+CC       DNM1L-dependent fission and may play a role in mitochondrial
+CC       morphogenesis during spermatogenesis. {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with CCDC159 (By similarity). Interacts with GGN (By
+CC       similarity). {ECO:0000250|UniProtKB:Q6K1E7}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Membrane {ECO:0000250};
+CC       Peripheral membrane protein {ECO:0000250}. Golgi apparatus
+CC       {ECO:0000250}. Mitochondrion intermembrane space {ECO:0000250}.
+CC   -!- DOMAIN: The N-terminal domain is required for targeting to the
+CC       mitochondrion. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY529104; AAS93935.1; -; mRNA.
+DR   EMBL; BC105838; AAI05839.1; -; mRNA.
+DR   RefSeq; NP_001009972.1; NM_001009972.1.
+DR   AlphaFoldDB; Q5J2D6; -.
+DR   SMR; Q5J2D6; -.
+DR   STRING; 10116.ENSRNOP00000000577; -.
+DR   PhosphoSitePlus; Q5J2D6; -.
+DR   PaxDb; 10116-ENSRNOP00000000577; -.
+DR   Ensembl; ENSRNOT00000000577.7; ENSRNOP00000000577.4; ENSRNOG00000000486.7.
+DR   Ensembl; ENSRNOT00055014283; ENSRNOP00055011472; ENSRNOG00055008435.
+DR   Ensembl; ENSRNOT00060009984; ENSRNOP00060007475; ENSRNOG00060006029.
+DR   Ensembl; ENSRNOT00065055938; ENSRNOP00065046067; ENSRNOG00065032523.
+DR   GeneID; 494520; -.
+DR   KEGG; rno:494520; -.
+DR   UCSC; RGD:1359729; rat.
+DR   AGR; RGD:1359729; -.
+DR   CTD; 449520; -.
+DR   RGD; 1359729; Ggnbp1.
+DR   eggNOG; KOG1870; Eukaryota.
+DR   GeneTree; ENSGT00390000006663; -.
+DR   HOGENOM; CLU_816260_0_0_1; -.
+DR   InParanoid; Q5J2D6; -.
+DR   OMA; PWNRLLN; -.
+DR   OrthoDB; 5357941at2759; -.
+DR   PhylomeDB; Q5J2D6; -.
+DR   TreeFam; TF339395; -.
+DR   PRO; PR:Q5J2D6; -.
+DR   Proteomes; UP000002494; Chromosome 20.
+DR   Bgee; ENSRNOG00000000486; Expressed in testis and 14 other cell types or tissues.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0005758; C:mitochondrial intermembrane space; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0030154; P:cell differentiation; IEA:UniProtKB-KW.
+DR   GO; GO:0000266; P:mitochondrial fission; ISS:UniProtKB.
+DR   GO; GO:0007283; P:spermatogenesis; IEA:UniProtKB-KW.
+DR   InterPro; IPR028135; Ub_USP-typ.
+DR   Pfam; PF14836; Ubiquitin_3; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Developmental protein; Differentiation; Golgi apparatus;
+KW   Membrane; Mitochondrion; Reference proteome; Spermatogenesis.
+FT   CHAIN           1..373
+FT                   /note="Gametogenetin-binding protein 1"
+FT                   /id="PRO_0000239347"
+FT   REGION          26..113
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          226..373
+FT                   /note="Required for induction of mitochondrial
+FT                   fragmentation"
+FT                   /evidence="ECO:0000250"
+FT   REGION          237..268
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          301..373
+FT                   /note="Interaction with GGN"
+FT                   /evidence="ECO:0000250"
+FT   COMPBIAS        27..54
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        95..113
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        254..268
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   373 AA;  40854 MW;  3DCB8BD316FB328A CRC64;
+     MAAQARTPRS RILGCSSMLR FLRSLVGSKG SSKSSNRPLN RSQPSSSPEQ DVVSPTMGHQ
+     GGCGRKETRP RVLSATSSNG KREPRPRVLS AAPSNQRLRD ASGLGTGDTG SQTLTSKDVL
+     KLRAQGVEVT SVPTRGTWEV LEHLPEKKGE EGEPAGEVSG ASDRAHFGQA LEAEQGCLQW
+     VSGPMVLPPE AFIKEEEDEH CLIDFGDLRL SSCKVGSTPW NYLLGLYKQL QKSAMTKAQR
+     PDADAPQFAL KDSSPTEERG EREEAVDESS LKWCAPRASS DDSNLKWCAP RNSTYQSPLQ
+     KTFRSTDTVG FVESELKKIL AVQREARLWK VGNPEGRELL TQPDITLEEA GMVDGQHLLL
+     EEMDEMGNWP PPE
+//

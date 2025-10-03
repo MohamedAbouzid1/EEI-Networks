@@ -1,0 +1,231 @@
+ID   DECR_RAT                Reviewed;         335 AA.
+AC   Q64591; Q6PCV4;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUN-2005, sequence version 2.
+DT   29-MAY-2024, entry version 146.
+DE   RecName: Full=2,4-dienoyl-CoA reductase [(3E)-enoyl-CoA-producing], mitochondrial;
+DE            EC=1.3.1.124 {ECO:0000250|UniProtKB:Q16698};
+DE   AltName: Full=2,4-dienoyl-CoA reductase [NADPH];
+DE            Short=4-enoyl-CoA reductase [NADPH];
+DE   Flags: Precursor;
+GN   Name=Decr1; Synonyms=Decr;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 35-53, AND SUBCELLULAR
+RP   LOCATION.
+RC   TISSUE=Liver;
+RX   PubMed=2383590; DOI=10.1016/0167-4781(90)90109-f;
+RA   Hirose A., Kamijo K., Osumi T., Hashimoto T., Mizugaki M.;
+RT   "cDNA cloning of rat liver 2,4-dienoyl-CoA reductase.";
+RL   Biochim. Biophys. Acta 1049:346-349(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Auxiliary enzyme of beta-oxidation. It participates in the
+CC       metabolism of unsaturated fatty enoyl-CoA esters having double bonds in
+CC       both even- and odd-numbered positions in mitochondria. Catalyzes the
+CC       NADP-dependent reduction of 2,4-dienoyl-CoA to yield trans-3-enoyl-CoA.
+CC       {ECO:0000250|UniProtKB:Q16698}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a (2E,4E)-dienoyl-CoA + H(+) + NADPH = a 4,5-saturated-(3E)-
+CC         enoyl-CoA + NADP(+); Xref=Rhea:RHEA:45912, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:85101,
+CC         ChEBI:CHEBI:85493; EC=1.3.1.124;
+CC         Evidence={ECO:0000250|UniProtKB:Q16698};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a (2E,4Z)-dienoyl-CoA + H(+) + NADPH = a 4,5-saturated-(3E)-
+CC         enoyl-CoA + NADP(+); Xref=Rhea:RHEA:61892, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:85099,
+CC         ChEBI:CHEBI:85493; EC=1.3.1.124;
+CC         Evidence={ECO:0000250|UniProtKB:Q16698};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E,4E)-hexadienoyl-CoA + H(+) + NADPH = (3E)-hexenoyl-CoA +
+CC         NADP(+); Xref=Rhea:RHEA:44912, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:84788, ChEBI:CHEBI:84790;
+CC         Evidence={ECO:0000250|UniProtKB:Q16698};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:Q16698}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000305|PubMed:2383590}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. 2,4-dienoyl-CoA reductase subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D00569; BAA00446.1; -; mRNA.
+DR   EMBL; BC059120; AAH59120.1; -; mRNA.
+DR   PIR; S11021; S11021.
+DR   RefSeq; NP_476545.2; NM_057197.2.
+DR   AlphaFoldDB; Q64591; -.
+DR   SMR; Q64591; -.
+DR   BioGRID; 250758; 2.
+DR   IntAct; Q64591; 2.
+DR   STRING; 10116.ENSRNOP00000011330; -.
+DR   iPTMnet; Q64591; -.
+DR   PhosphoSitePlus; Q64591; -.
+DR   jPOST; Q64591; -.
+DR   PaxDb; 10116-ENSRNOP00000011330; -.
+DR   Ensembl; ENSRNOT00055000620; ENSRNOP00055000482; ENSRNOG00055000350.
+DR   Ensembl; ENSRNOT00060001551; ENSRNOP00060000781; ENSRNOG00060001119.
+DR   Ensembl; ENSRNOT00065026245; ENSRNOP00065020624; ENSRNOG00065015795.
+DR   GeneID; 117543; -.
+DR   KEGG; rno:117543; -.
+DR   UCSC; RGD:70999; rat.
+DR   AGR; RGD:70999; -.
+DR   CTD; 1666; -.
+DR   RGD; 70999; Decr1.
+DR   eggNOG; KOG0725; Eukaryota.
+DR   InParanoid; Q64591; -.
+DR   OrthoDB; 71414at2759; -.
+DR   PhylomeDB; Q64591; -.
+DR   BRENDA; 1.3.1.124; 5301.
+DR   Reactome; R-RNO-77288; mitochondrial fatty acid beta-oxidation of unsaturated fatty acids.
+DR   PRO; PR:Q64591; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:1902494; C:catalytic complex; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0008670; F:2,4-dienoyl-CoA reductase (NADPH) activity; ISS:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0070402; F:NADPH binding; ISO:RGD.
+DR   GO; GO:0006635; P:fatty acid beta-oxidation; ISS:UniProtKB.
+DR   GO; GO:0120162; P:positive regulation of cold-induced thermogenesis; ISS:YuBioLab.
+DR   CDD; cd05369; TER_DECR_SDR_a; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PANTHER; PTHR43658:SF14; 2,4-DIENOYL-COA REDUCTASE [(3E)-ENOYL-COA-PRODUCING], MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43658; SHORT-CHAIN DEHYDROGENASE/REDUCTASE; 1.
+DR   Pfam; PF13561; adh_short_C2; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; Fatty acid metabolism;
+KW   Lipid metabolism; Mitochondrion; NADP; Oxidoreductase; Phosphoprotein;
+KW   Reference proteome; Transit peptide.
+FT   TRANSIT         1..34
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000305|PubMed:2383590"
+FT   CHAIN           35..335
+FT                   /note="2,4-dienoyl-CoA reductase [(3E)-enoyl-CoA-
+FT                   producing], mitochondrial"
+FT                   /id="PRO_0000031967"
+FT   ACT_SITE        199
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         66..71
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16698"
+FT   BINDING         91
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16698"
+FT   BINDING         91
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         117
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16698"
+FT   BINDING         119
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16698"
+FT   BINDING         149
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16698"
+FT   BINDING         157
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16698"
+FT   BINDING         214
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16698"
+FT   BINDING         240..243
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16698"
+FT   BINDING         251
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         42
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         42
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         49
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         49
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         69
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16698"
+FT   MOD_RES         73
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         97
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         97
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         106
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         106
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         244
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         244
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         260
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         260
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         315
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         319
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   MOD_RES         319
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CQ62"
+FT   CONFLICT        11
+FT                   /note="G -> R (in Ref. 2; AAH59120)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        23
+FT                   /note="R -> K (in Ref. 1; BAA00446)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        79
+FT                   /note="L -> R (in Ref. 1; BAA00446)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        162
+FT                   /note="K -> R (in Ref. 1; BAA00446)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        190
+FT                   /note="A -> V (in Ref. 1; BAA00446)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   335 AA;  36133 MW;  C4386C65E49A4D2F CRC64;
+     MALLARAFFA GVSRLPCDPG PQRFFSFGTK TLYQSIDAPQ SKFFPPILKP MLPPNAFQGK
+     VAFITGGGTG LGKAMTTFLS SLGAQCVIAS RNIDVLKATA EEITSKTGNK VYAIRCDVRD
+     PDMVHNTVLE LIKVAGHPDV VINNAAGNFI SPSERLSPNG WKTITDIVLN GTAYVTIEIG
+     KQLIKAQKGA AFLAITTIYA ESGSGFVMPS SSAKSGVEAM NKSLAAEWGR YGMRFNIIQP
+     GPIKTKGAFS RLDPTGKFEK DMIERIPCGR LGTVEELANL ATFLCSDYAS WINGAVIRFD
+     GGEEVFLSGE FNSLKKVTKE EWDVIEGLIR KTKGS
+//

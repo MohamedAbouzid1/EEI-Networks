@@ -1,0 +1,88 @@
+ID   TKNK_RAT                Reviewed;         116 AA.
+AC   P08435;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1988, sequence version 1.
+DT   24-JAN-2024, entry version 123.
+DE   RecName: Full=Tachykinin-3;
+DE   Contains:
+DE     RecName: Full=Neurokinin-B;
+DE              Short=NKB;
+DE     AltName: Full=Neuromedin-K;
+DE   Flags: Precursor;
+GN   Name=Tac3; Synonyms=Nknb, Tac2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3479225; DOI=10.1016/0169-328x(87)90031-3;
+RA   Bonner T.I., Affolter H.-U., Young A.C., Young W.S. III;
+RT   "A cDNA encoding the precursor of the rat neuropeptide, neurokinin B.";
+RL   Brain Res. 388:243-249(1987).
+CC   -!- FUNCTION: Tachykinins are active peptides which excite neurons, evoke
+CC       behavioral responses, are potent vasodilators and secretagogues, and
+CC       contract (directly or indirectly) many smooth muscles. Is a critical
+CC       central regulator of gonadal function (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- SIMILARITY: Belongs to the tachykinin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M16410; AAA41711.1; -; mRNA.
+DR   PIR; A43779; A43779.
+DR   RefSeq; NP_062035.1; NM_019162.2.
+DR   AlphaFoldDB; P08435; -.
+DR   SMR; P08435; -.
+DR   STRING; 10116.ENSRNOP00000005679; -.
+DR   PhosphoSitePlus; P08435; -.
+DR   PaxDb; 10116-ENSRNOP00000005679; -.
+DR   GeneID; 29191; -.
+DR   KEGG; rno:29191; -.
+DR   AGR; RGD:3809; -.
+DR   CTD; 6866; -.
+DR   RGD; 3809; Tac3.
+DR   eggNOG; ENOG502S4B9; Eukaryota.
+DR   InParanoid; P08435; -.
+DR   OrthoDB; 5361267at2759; -.
+DR   PhylomeDB; P08435; -.
+DR   Reactome; R-RNO-380095; Tachykinin receptors bind tachykinins.
+DR   Reactome; R-RNO-416476; G alpha (q) signalling events.
+DR   PRO; PR:P08435; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0007218; P:neuropeptide signaling pathway; IEA:UniProtKB-KW.
+DR   GO; GO:0045777; P:positive regulation of blood pressure; IDA:RGD.
+DR   GO; GO:0007217; P:tachykinin receptor signaling pathway; IEA:InterPro.
+DR   InterPro; IPR003635; Neurokinin-B/TAC3.
+DR   InterPro; IPR013055; Tachy_Neuro_lke_CS.
+DR   PANTHER; PTHR15536; TACHYKININ-3; 1.
+DR   PANTHER; PTHR15536:SF1; TACHYKININ-3; 1.
+DR   Pfam; PF03823; Neurokinin_B; 1.
+DR   PIRSF; PIRSF001843; Neurokinin; 1.
+DR   PRINTS; PR01828; NEUROKININB.
+DR   PROSITE; PS00267; TACHYKININ; 1.
+PE   3: Inferred from homology;
+KW   Amidation; Cleavage on pair of basic residues; Neuropeptide;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          21..79
+FT                   /id="PRO_0000033571"
+FT   PEPTIDE         82..91
+FT                   /note="Neurokinin-B"
+FT                   /id="PRO_0000033572"
+FT   PROPEP          95..116
+FT                   /id="PRO_0000033573"
+FT   REGION          92..116
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         91
+FT                   /note="Methionine amide"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   116 AA;  12660 MW;  C73EC67F2BAF8C8C CRC64;
+     MRSAMLFAAV LALSLAWTFG AACEEPQEQG GRLSKDSDLS LLPPPLLRRL YDSRSISLEG
+     LLKVLSKASV GPKETSLPQK RDMHDFFVGL MGKRNSQPDT PADVVEENTP SFGVLK
+//

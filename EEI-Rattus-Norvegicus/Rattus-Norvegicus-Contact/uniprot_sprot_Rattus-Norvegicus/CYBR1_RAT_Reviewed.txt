@@ -1,0 +1,289 @@
+ID   CYBR1_RAT               Reviewed;         286 AA.
+AC   Q5RKJ2;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 1.
+DT   29-MAY-2024, entry version 115.
+DE   RecName: Full=Plasma membrane ascorbate-dependent reductase CYBRD1 {ECO:0000250|UniProtKB:Q53TN4};
+DE            EC=7.2.1.3 {ECO:0000250|UniProtKB:Q53TN4};
+DE   AltName: Full=Cytochrome b reductase 1;
+DE   AltName: Full=Duodenal cytochrome b {ECO:0000303|PubMed:16510471};
+GN   Name=Cybrd1 {ECO:0000312|RGD:1305740};
+GN   Synonyms=Dcytb {ECO:0000303|PubMed:16510471};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=16510471; DOI=10.1152/ajplung.00342.2005;
+RA   Turi J.L., Wang X., McKie A.T., Nozik-Grayck E., Mamo L.B., Crissman K.,
+RA   Piantadosi C.A., Ghio A.J.;
+RT   "Duodenal cytochrome b: a novel ferrireductase in airway epithelial
+RT   cells.";
+RL   Am. J. Physiol. 291:L272-L280(2006).
+RN   [3]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=17627967; DOI=10.1152/ajpgi.00579.2006;
+RA   Frazer D.M., Wilkins S.J., Anderson G.J.;
+RT   "Elevated iron absorption in the neonatal rat reflects high expression of
+RT   iron transport genes in the distal alimentary tract.";
+RL   Am. J. Physiol. 293:G525-G531(2007).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Plasma membrane reductase that uses cytoplasmic ascorbate as
+CC       an electron donor to reduce extracellular Fe(3+) into Fe(2+). Probably
+CC       functions in dietary iron absorption at the brush border of duodenal
+CC       enterocytes by producing Fe(2+), the divalent form of iron that can be
+CC       transported into enterocytes. It is also able to reduce extracellular
+CC       monodehydro-L-ascorbate and may be involved in extracellular ascorbate
+CC       regeneration by erythrocytes in blood. May also act as a ferrireductase
+CC       in airway epithelial cells (By similarity). May also function as a
+CC       cupric transmembrane reductase (By similarity).
+CC       {ECO:0000250|UniProtKB:Q53TN4, ECO:0000250|UniProtKB:Q925G2}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Fe(3+)(out) + L-ascorbate(in) = Fe(2+)(out) + H(+) +
+CC         monodehydro-L-ascorbate radical(in); Xref=Rhea:RHEA:30403,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:38290, ChEBI:CHEBI:59513; EC=7.2.1.3;
+CC         Evidence={ECO:0000250|UniProtKB:Q53TN4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:30404;
+CC         Evidence={ECO:0000250|UniProtKB:Q53TN4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Cu(2+)(out) + L-ascorbate(in) = Cu(+)(out) + H(+) +
+CC         monodehydro-L-ascorbate radical(in); Xref=Rhea:RHEA:66656,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29036, ChEBI:CHEBI:38290,
+CC         ChEBI:CHEBI:49552, ChEBI:CHEBI:59513;
+CC         Evidence={ECO:0000250|UniProtKB:Q925G2};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:66657;
+CC         Evidence={ECO:0000250|UniProtKB:Q925G2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-ascorbate(in) + monodehydro-L-ascorbate radical(out) = L-
+CC         ascorbate(out) + monodehydro-L-ascorbate radical(in);
+CC         Xref=Rhea:RHEA:66524, ChEBI:CHEBI:38290, ChEBI:CHEBI:59513;
+CC         Evidence={ECO:0000250|UniProtKB:Q53TN4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:66525;
+CC         Evidence={ECO:0000250|UniProtKB:Q53TN4};
+CC   -!- COFACTOR:
+CC       Name=heme b; Xref=ChEBI:CHEBI:60344;
+CC         Evidence={ECO:0000250|UniProtKB:Q53TN4};
+CC       Note=Binds 2 heme b groups non-covalently.
+CC       {ECO:0000250|UniProtKB:Q53TN4};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q53TN4}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q53TN4};
+CC       Multi-pass membrane protein {ECO:0000250|UniProtKB:Q53TN4}. Apical cell
+CC       membrane {ECO:0000250|UniProtKB:Q53TN4}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:Q53TN4}. Note=Localized at the brush border of
+CC       duodenal cells. {ECO:0000250|UniProtKB:Q53TN4}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in all regions of the small
+CC       intestine and colon studied in suckling animals. However, after
+CC       weaning, when iron absorption declines significantly, strong expression
+CC       is retained only in the duodenum. Also expressed in respiratory
+CC       epithelium. {ECO:0000269|PubMed:16510471, ECO:0000269|PubMed:17627967}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC085768; AAH85768.1; -; mRNA.
+DR   RefSeq; NP_001011954.1; NM_001011954.1.
+DR   AlphaFoldDB; Q5RKJ2; -.
+DR   SMR; Q5RKJ2; -.
+DR   STRING; 10116.ENSRNOP00000012942; -.
+DR   PhosphoSitePlus; Q5RKJ2; -.
+DR   PaxDb; 10116-ENSRNOP00000012942; -.
+DR   Ensembl; ENSRNOT00000012942.7; ENSRNOP00000012942.4; ENSRNOG00000009620.7.
+DR   Ensembl; ENSRNOT00055041917; ENSRNOP00055034154; ENSRNOG00055024392.
+DR   Ensembl; ENSRNOT00060004171; ENSRNOP00060002940; ENSRNOG00060002600.
+DR   Ensembl; ENSRNOT00065028054; ENSRNOP00065022170; ENSRNOG00065016809.
+DR   GeneID; 295669; -.
+DR   KEGG; rno:295669; -.
+DR   UCSC; RGD:1305740; rat.
+DR   AGR; RGD:1305740; -.
+DR   CTD; 79901; -.
+DR   RGD; 1305740; Cybrd1.
+DR   eggNOG; KOG1619; Eukaryota.
+DR   GeneTree; ENSGT00950000183197; -.
+DR   HOGENOM; CLU_069712_1_2_1; -.
+DR   InParanoid; Q5RKJ2; -.
+DR   OMA; NWHPVLA; -.
+DR   OrthoDB; 2877457at2759; -.
+DR   PhylomeDB; Q5RKJ2; -.
+DR   TreeFam; TF314222; -.
+DR   Reactome; R-RNO-917937; Iron uptake and transport.
+DR   PRO; PR:Q5RKJ2; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000009620; Expressed in duodenum and 18 other cell types or tissues.
+DR   GO; GO:0016324; C:apical plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0031526; C:brush border membrane; ISS:UniProtKB.
+DR   GO; GO:0005765; C:lysosomal membrane; IBA:GO_Central.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016491; F:oxidoreductase activity; IBA:GO_Central.
+DR   GO; GO:0016722; F:oxidoreductase activity, acting on metal ions; ISO:RGD.
+DR   GO; GO:0140571; F:transmembrane ascorbate ferrireductase activity; ISS:UniProtKB.
+DR   GO; GO:0140575; F:transmembrane monodehydroascorbate reductase activity; ISS:UniProtKB.
+DR   GO; GO:0140576; P:ascorbate homeostasis; ISS:UniProtKB.
+DR   GO; GO:0006879; P:intracellular iron ion homeostasis; ISO:RGD.
+DR   GO; GO:0060586; P:multicellular organismal-level iron ion homeostasis; ISS:UniProtKB.
+DR   GO; GO:0010039; P:response to iron ion; ISO:RGD.
+DR   Gene3D; 1.20.120.1770; -; 1.
+DR   InterPro; IPR043205; CYB561/CYBRD1-like.
+DR   InterPro; IPR006593; Cyt_b561/ferric_Rdtase_TM.
+DR   PANTHER; PTHR10106; CYTOCHROME B561-RELATED; 1.
+DR   PANTHER; PTHR10106:SF12; PLASMA MEMBRANE ASCORBATE-DEPENDENT REDUCTASE CYBRD1; 1.
+DR   Pfam; PF03188; Cytochrom_B561; 1.
+DR   SMART; SM00665; B561; 1.
+DR   PROSITE; PS50939; CYTOCHROME_B561; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Electron transport; Heme; Iron; Membrane; Metal-binding;
+KW   Oxidoreductase; Phosphoprotein; Reference proteome; Translocase;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..286
+FT                   /note="Plasma membrane ascorbate-dependent reductase
+FT                   CYBRD1"
+FT                   /id="PRO_0000314833"
+FT   TOPO_DOM        1..7
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        8..32
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TOPO_DOM        33..47
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        48..69
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TOPO_DOM        70..78
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        79..105
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TOPO_DOM        106..118
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        119..144
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TOPO_DOM        145..151
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        152..179
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TOPO_DOM        180..197
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        198..222
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TOPO_DOM        223..286
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   DOMAIN          15..220
+FT                   /note="Cytochrome b561"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00242"
+FT   BINDING         50
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /ligand_label="1"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         70
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         79
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         79
+FT                   /ligand="L-ascorbate"
+FT                   /ligand_id="ChEBI:CHEBI:38290"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         83
+FT                   /ligand="L-ascorbate"
+FT                   /ligand_id="ChEBI:CHEBI:38290"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         86
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /ligand_label="2"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         108
+FT                   /ligand="Fe(3+)"
+FT                   /ligand_id="ChEBI:CHEBI:29034"
+FT                   /ligand_note="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         115..118
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         120
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /ligand_label="1"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         152
+FT                   /ligand="L-ascorbate"
+FT                   /ligand_id="ChEBI:CHEBI:38290"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         159
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /ligand_label="2"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         180
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         225
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   MOD_RES         232
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   MOD_RES         285
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+SQ   SEQUENCE   286 AA;  31519 MW;  38B043EDDA187916 CRC64;
+     MAMEGYRGFL GLLVSALLVG FLSVIFVLIW VLHFREGLGW DGGALEFNWH PVLAVTGFVF
+     IQGIAIIVYR LPWTWKCSKF LMKSIHAGLN AVAAILAIIS VVAVFDYHNV RKIPHMYSLH
+     SWVGLTVLIL YIQQLVVGFF IFLLPWAPPS LRAIVMPIHV YSGLLLFGTV IATVLMGVTE
+     KLFFVLKNPS YHSFPPEGVF TNTLGLLILV FGALIFWIVT RPQWKRPREP GSIPLQLNGG
+     NADGMEGAIA ISSAHNMDAA DAELSSEGAA RKRTLGLVDT GQRSTM
+//

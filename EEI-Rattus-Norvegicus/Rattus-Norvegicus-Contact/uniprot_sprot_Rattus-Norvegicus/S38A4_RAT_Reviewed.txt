@@ -1,0 +1,288 @@
+ID   S38A4_RAT               Reviewed;         547 AA.
+AC   Q9EQ25;
+DT   25-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   24-JUL-2024, entry version 129.
+DE   RecName: Full=Sodium-coupled neutral amino acid transporter 4 {ECO:0000305};
+DE   AltName: Full=Amino acid transporter A3;
+DE   AltName: Full=Na(+)-coupled neutral amino acid transporter 4;
+DE   AltName: Full=Solute carrier family 38 member 4;
+DE   AltName: Full=System A amino acid transporter 3;
+GN   Name=Slc38a4 {ECO:0000312|EMBL:AAH97292.1};
+GN   Synonyms=Ata3 {ECO:0000303|PubMed:11118514}, Snat4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Skeletal muscle;
+RX   PubMed=11118514; DOI=10.1016/s0005-2736(00)00349-7;
+RA   Sugawara M., Nakanishi T., Fei Y.-J., Martindale R.G., Ganapathy M.E.,
+RA   Leibach F.H., Ganapathy V.;
+RT   "Structure and function of ATA3, a new subtype of amino acid transport
+RT   system A, primarily expressed in the liver and skeletal muscle.";
+RL   Biochim. Biophys. Acta 1509:7-13(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-49, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Symporter that cotransports neutral amino acids and sodium
+CC       ions from the extraccellular to the intracellular side of the cell
+CC       membrane (PubMed:11118514). The transport is electrogenic, pH dependent
+CC       and partially tolerates substitution of Na(+) by Li(+)
+CC       (PubMed:11118514). Preferentially transports smaller amino acids, such
+CC       as glycine, L-alanine, L-serine, L-asparagine and L-threonine, followed
+CC       by L-cysteine, L-histidine, L-proline and L-glutamine and L-methionine
+CC       (PubMed:11118514). {ECO:0000269|PubMed:11118514}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-alanine(in) + Na(+)(in) = L-alanine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:29283, ChEBI:CHEBI:29101, ChEBI:CHEBI:57972;
+CC         Evidence={ECO:0000269|PubMed:11118514};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:29285;
+CC         Evidence={ECO:0000250|UniProtKB:Q969I6};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-serine(in) + Na(+)(in) = L-serine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:29575, ChEBI:CHEBI:29101, ChEBI:CHEBI:33384;
+CC         Evidence={ECO:0000269|PubMed:11118514};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:29577;
+CC         Evidence={ECO:0000250|UniProtKB:Q969I6};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycine(in) + Na(+)(in) = glycine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:68228, ChEBI:CHEBI:29101, ChEBI:CHEBI:57305;
+CC         Evidence={ECO:0000269|PubMed:11118514};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:68230;
+CC         Evidence={ECO:0000250|UniProtKB:Q969I6};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-cysteine(in) + Na(+)(in) = L-cysteine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:68232, ChEBI:CHEBI:29101, ChEBI:CHEBI:35235;
+CC         Evidence={ECO:0000269|PubMed:11118514};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:68234;
+CC         Evidence={ECO:0000305|PubMed:11118514};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-asparagine(in) + Na(+)(in) = L-asparagine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:71383, ChEBI:CHEBI:29101, ChEBI:CHEBI:58048;
+CC         Evidence={ECO:0000269|PubMed:11118514};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:71385;
+CC         Evidence={ECO:0000250|UniProtKB:Q969I6};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonine(in) + Na(+)(in) = L-threonine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:69999, ChEBI:CHEBI:29101, ChEBI:CHEBI:57926;
+CC         Evidence={ECO:0000269|PubMed:11118514};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:70001;
+CC         Evidence={ECO:0000250|UniProtKB:Q969I6};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-proline(in) + Na(+)(in) = L-proline(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:28967, ChEBI:CHEBI:29101, ChEBI:CHEBI:60039;
+CC         Evidence={ECO:0000269|PubMed:11118514};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:28969;
+CC         Evidence={ECO:0000305|PubMed:11118514};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-methionine(in) + Na(+)(in) = L-methionine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:68240, ChEBI:CHEBI:29101, ChEBI:CHEBI:57844;
+CC         Evidence={ECO:0000269|PubMed:11118514};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:68242;
+CC         Evidence={ECO:0000305|PubMed:11118514};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamine(in) + Na(+)(in) = L-glutamine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:68236, ChEBI:CHEBI:29101, ChEBI:CHEBI:58359;
+CC         Evidence={ECO:0000269|PubMed:11118514};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:68238;
+CC         Evidence={ECO:0000250|UniProtKB:Q969I6};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-histidine(in) + Na(+)(in) = L-histidine(out) + Na(+)(out);
+CC         Xref=Rhea:RHEA:71583, ChEBI:CHEBI:29101, ChEBI:CHEBI:57595;
+CC         Evidence={ECO:0000269|PubMed:11118514};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:71585;
+CC         Evidence={ECO:0000250|UniProtKB:Q969I6};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q969I6};
+CC       Multi-pass membrane protein {ECO:0000250|UniProtKB:Q969I6}. Cell
+CC       projection, microvillus membrane {ECO:0000250|UniProtKB:Q969I6}; Multi-
+CC       pass membrane protein {ECO:0000250|UniProtKB:Q969I6}. Note=Microvillus
+CC       membrane localization in placenta. {ECO:0000250|UniProtKB:Q969I6}.
+CC   -!- TISSUE SPECIFICITY: Expressed predominantly in liver, and at lower
+CC       level in skeletal muscle. {ECO:0000269|PubMed:11118514}.
+CC   -!- PTM: The disulfide bond plays an important role in substrate transport,
+CC       but has no effect on trafficking to the cell surface.
+CC       {ECO:0000250|UniProtKB:Q8R1S9}.
+CC   -!- SIMILARITY: Belongs to the amino acid/polyamine transporter 2 family.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: There is a disagreement about sodium-independent transport of
+CC       cationic amino acids, such as L-arginine and L-lysine (By similarity).
+CC       While Hatanaka et al. shown that SLC38A4 may mediate sodium-independent
+CC       transport of cationic amino acids, such as L-arginine and L-lysine (By
+CC       similarity). Recent studies by Fairweather et al., using quantitative
+CC       LC-MS analysis, shown any transport activity of cationic amino acids,
+CC       such as L-arginine and L-lysine (By similarity).
+CC       {ECO:0000250|UniProtKB:Q969I6}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF295535; AAG45335.1; -; mRNA.
+DR   EMBL; BC097292; AAH97292.1; -; mRNA.
+DR   RefSeq; NP_570104.1; NM_130748.1.
+DR   RefSeq; XP_008763885.1; XM_008765663.2.
+DR   AlphaFoldDB; Q9EQ25; -.
+DR   SMR; Q9EQ25; -.
+DR   STRING; 10116.ENSRNOP00000068616; -.
+DR   TCDB; 2.A.18.6.7; the amino acid/auxin permease (aaap) family.
+DR   GlyCosmos; Q9EQ25; 3 sites, No reported glycans.
+DR   GlyGen; Q9EQ25; 3 sites.
+DR   iPTMnet; Q9EQ25; -.
+DR   PhosphoSitePlus; Q9EQ25; -.
+DR   jPOST; Q9EQ25; -.
+DR   PaxDb; 10116-ENSRNOP00000009187; -.
+DR   Ensembl; ENSRNOT00000009187.6; ENSRNOP00000009187.2; ENSRNOG00000006653.6.
+DR   Ensembl; ENSRNOT00055021743; ENSRNOP00055017628; ENSRNOG00055012724.
+DR   Ensembl; ENSRNOT00060011398; ENSRNOP00060008522; ENSRNOG00060006956.
+DR   Ensembl; ENSRNOT00065032227; ENSRNOP00065025735; ENSRNOG00065019162.
+DR   GeneID; 170573; -.
+DR   KEGG; rno:170573; -.
+DR   UCSC; RGD:621836; rat.
+DR   AGR; RGD:621836; -.
+DR   CTD; 55089; -.
+DR   RGD; 621836; Slc38a4.
+DR   eggNOG; KOG1305; Eukaryota.
+DR   GeneTree; ENSGT00940000158917; -.
+DR   InParanoid; Q9EQ25; -.
+DR   OMA; HNVHPIE; -.
+DR   OrthoDB; 935269at2759; -.
+DR   PhylomeDB; Q9EQ25; -.
+DR   TreeFam; TF328787; -.
+DR   Reactome; R-RNO-352230; Amino acid transport across the plasma membrane.
+DR   PRO; PR:Q9EQ25; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000006653; Expressed in liver and 18 other cell types or tissues.
+DR   GO; GO:0031528; C:microvillus membrane; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0015655; F:alanine:sodium symporter activity; ISS:UniProtKB.
+DR   GO; GO:0015171; F:amino acid transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0005283; F:amino acid:sodium symporter activity; ISO:RGD.
+DR   GO; GO:0015179; F:L-amino acid transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0061459; F:L-arginine transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0005295; F:neutral L-amino acid:sodium symporter activity; IDA:UniProtKB.
+DR   GO; GO:0003333; P:amino acid transmembrane transport; IBA:GO_Central.
+DR   GO; GO:1904273; P:L-alanine import across plasma membrane; ISS:UniProtKB.
+DR   GO; GO:1904557; P:L-alanine transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:1903826; P:L-arginine transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0015804; P:neutral amino acid transport; IDA:UniProtKB.
+DR   InterPro; IPR013057; AA_transpt_TM.
+DR   PANTHER; PTHR22950; AMINO ACID TRANSPORTER; 1.
+DR   PANTHER; PTHR22950:SF222; SODIUM-COUPLED NEUTRAL AMINO ACID TRANSPORTER 4; 1.
+DR   Pfam; PF01490; Aa_trans; 2.
+PE   1: Evidence at protein level;
+KW   Amino-acid transport; Cell membrane; Cell projection; Disulfide bond;
+KW   Glycoprotein; Ion transport; Membrane; Phosphoprotein; Reference proteome;
+KW   Sodium; Sodium transport; Symport; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..547
+FT                   /note="Sodium-coupled neutral amino acid transporter 4"
+FT                   /id="PRO_0000247863"
+FT   TOPO_DOM        1..104
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969I6, ECO:0000255"
+FT   TRANSMEM        105..125
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        126..151
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969I6, ECO:0000255"
+FT   TRANSMEM        152..172
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        173..195
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969I6, ECO:0000255"
+FT   TRANSMEM        196..216
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        217..220
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969I6, ECO:0000255"
+FT   TRANSMEM        221..241
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        242..332
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969I6, ECO:0000255"
+FT   TRANSMEM        333..353
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        354..369
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969I6, ECO:0000255"
+FT   TRANSMEM        370..390
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        391..411
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969I6, ECO:0000255"
+FT   TRANSMEM        412..432
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        433..453
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969I6, ECO:0000255"
+FT   TRANSMEM        454..474
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        475..476
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        477..497
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        498..514
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969I6, ECO:0000255"
+FT   TRANSMEM        515..535
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        536..547
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969I6, ECO:0000255"
+FT   SITE            232
+FT                   /note="Influences on amino acid transport capacity"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8R1S9"
+FT   MOD_RES         49
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CARBOHYD        260
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        264
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        276
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        249..321
+FT                   /evidence="ECO:0000250|UniProtKB:Q8R1S9"
+SQ   SEQUENCE   547 AA;  60613 MW;  28BFF2C0F2B74BF0 CRC64;
+     MDPIELRSVN IEPYEDSCSV DSIQSCYTGM GNSEKGAMDS QFANEDAESQ KFLTNGFLGK
+     KTLTDYADEH HPGTTSFGMS SFNLSNAIMG SGILGLSYAM ANTGIVLFVI MLLTVAILSL
+     YSVHLLLKTA KEGGSLIYEK LGEKAFGWPG KIGAFISITM QNIGAMSSYL FIIKYELPEV
+     IRVFMGLEEN TGEWYLNGNY LVLFVSVGII LPLSLLKNLG YLGYTSGFSL TCMVFFVSVV
+     IYKKFQIPCP LPVLDHNNGN LTFNNTLPMH VIMLPNNSES TGMNFMVDYT HRDPEGLDEK
+     PAAGPLHGSG VEYEAHSGDK CQPKYFVFNS RTAYAIPILA FAFVCHPEVL PIYSELKDRS
+     RRKMQTVSNI SITGMLVMYL LAALFGYLSF YGEVEDELLH AYSKVYTFDT ALLMVRLAVL
+     VAVTLTVPIV LFPIRTSVIT LLFPRRPFSW VKHFGIAAII IALNNVLVIL VPTIKYIFGF
+     IGASSATMLI FILPAAFYLK LVKKEPLRSP QKIGALVFLV TGIIFMMGSM ALIIIDWIYN
+     PPNPDHH
+//

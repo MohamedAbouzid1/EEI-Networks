@@ -1,0 +1,226 @@
+ID   SDC1_RAT                Reviewed;         313 AA.
+AC   P26260;
+DT   01-MAY-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 2.
+DT   02-OCT-2024, entry version 162.
+DE   RecName: Full=Syndecan-1 {ECO:0000312|RGD:3648};
+DE            Short=SYND1 {ECO:0000312|RGD:3648};
+DE   AltName: CD_antigen=CD138;
+DE   Flags: Precursor;
+GN   Name=Sdc1 {ECO:0000312|RGD:3648}; Synonyms=Synd1 {ECO:0000312|RGD:3648};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=1537865; DOI=10.1016/s0021-9258(18)42911-0;
+RA   Kojima T., Shworak N.W., Rosenberg R.D.;
+RT   "Molecular cloning and expression of two distinct cDNA-encoding heparan
+RT   sulfate proteoglycan core proteins from a rat endothelial cell line.";
+RL   J. Biol. Chem. 267:4870-4877(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Endothelial cell;
+RX   PubMed=8495865; DOI=10.1159/000216925;
+RA   Shworak N.W., Kojima T., Rosenberg R.D.;
+RT   "Isolation and characterization of ryudocan and syndecan heparan sulfate
+RT   proteoglycans, core proteins, and cDNAs from a rat endothelial cell line.";
+RL   Haemostasis 23:161-176(1993).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Aorta;
+RX   PubMed=1639809; DOI=10.1016/s0021-9258(19)49596-3;
+RA   Cizmeci-Smith G., Asundi V., Stahl R.C., Teichman L.J., Chernousov M.,
+RA   Cowan K., Carey D.J.;
+RT   "Regulated expression of syndecan in vascular smooth muscle cells and
+RT   cloning of rat syndecan core protein cDNA.";
+RL   J. Biol. Chem. 267:15729-15736(1992).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   INTERACTION WITH MDK.
+RX   PubMed=9089390;
+RA   Nakanishi T., Kadomatsu K., Okamoto T., Ichihara-Tanaka K., Kojima T.,
+RA   Saito H., Tomoda Y., Muramatsu T.;
+RT   "Expression of syndecan-1 and -3 during embryogenesis of the central
+RT   nervous system in relation to binding with midkine.";
+RL   J. Biochem. 121:197-205(1997).
+CC   -!- FUNCTION: Cell surface proteoglycan that contains both heparan sulfate
+CC       and chondroitin sulfate and that links the cytoskeleton to the
+CC       interstitial matrix (By similarity). Regulates exosome biogenesis in
+CC       concert with SDCBP and PDCD6IP (By similarity). Able to induce its own
+CC       expression in dental mesenchymal cells and also in the neighboring
+CC       dental epithelial cells via an MSX1-mediated pathway (By similarity).
+CC       {ECO:0000250|UniProtKB:P18827, ECO:0000250|UniProtKB:P18828}.
+CC   -!- SUBUNIT: Interacts with CDCP1. Interacts (via C-terminus) with TIAM1
+CC       (via PDZ domain) (By similarity). Interacts with MDK (PubMed:9089390).
+CC       {ECO:0000250|UniProtKB:P18827, ECO:0000269|PubMed:9089390}.
+CC   -!- INTERACTION:
+CC       P26260; P34900: Sdc2; NbExp=2; IntAct=EBI-1173127, EBI-1173032;
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000255}; Single-pass type I
+CC       membrane protein {ECO:0000255}. Secreted
+CC       {ECO:0000250|UniProtKB:P18827}. Secreted, extracellular exosome
+CC       {ECO:0000250|UniProtKB:P18827}. Note=Shedding of the ectodomain
+CC       produces a soluble form. {ECO:0000250|UniProtKB:P18827}.
+CC   -!- PTM: Shedding is enhanced by a number of factors such as heparanase,
+CC       thrombin or EGF. Also by stress and wound healing. PMA-mediated
+CC       shedding is inhibited by TIMP3 (By similarity).
+CC       {ECO:0000250|UniProtKB:P18827}.
+CC   -!- SIMILARITY: Belongs to the syndecan proteoglycan family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X60651; CAA43058.1; -; mRNA.
+DR   EMBL; M81785; AAA42198.1; -; mRNA.
+DR   EMBL; S61865; AAB26726.1; -; mRNA.
+DR   EMBL; BC061834; AAH61834.1; -; mRNA.
+DR   PIR; A42853; A42853.
+DR   RefSeq; NP_037158.1; NM_013026.2.
+DR   AlphaFoldDB; P26260; -.
+DR   IntAct; P26260; 4.
+DR   STRING; 10116.ENSRNOP00000072283; -.
+DR   GlyCosmos; P26260; 6 sites, No reported glycans.
+DR   GlyGen; P26260; 6 sites.
+DR   iPTMnet; P26260; -.
+DR   PhosphoSitePlus; P26260; -.
+DR   jPOST; P26260; -.
+DR   PaxDb; 10116-ENSRNOP00000008582; -.
+DR   Ensembl; ENSRNOT00000086633.2; ENSRNOP00000072283.1; ENSRNOG00000059947.2.
+DR   Ensembl; ENSRNOT00055009257; ENSRNOP00055007098; ENSRNOG00055005732.
+DR   Ensembl; ENSRNOT00060005969; ENSRNOP00060004390; ENSRNOG00060003626.
+DR   Ensembl; ENSRNOT00065007815; ENSRNOP00065005441; ENSRNOG00065005294.
+DR   GeneID; 25216; -.
+DR   KEGG; rno:25216; -.
+DR   AGR; RGD:3648; -.
+DR   CTD; 6382; -.
+DR   RGD; 3648; Sdc1.
+DR   eggNOG; ENOG502RZWT; Eukaryota.
+DR   GeneTree; ENSGT00940000161171; -.
+DR   HOGENOM; CLU_887201_0_0_1; -.
+DR   InParanoid; P26260; -.
+DR   OMA; STWKDMA; -.
+DR   OrthoDB; 5360052at2759; -.
+DR   PhylomeDB; P26260; -.
+DR   TreeFam; TF320463; -.
+DR   Reactome; R-RNO-1971475; A tetrasaccharide linker sequence is required for GAG synthesis.
+DR   Reactome; R-RNO-2022928; HS-GAG biosynthesis.
+DR   Reactome; R-RNO-2024096; HS-GAG degradation.
+DR   Reactome; R-RNO-202733; Cell surface interactions at the vascular wall.
+DR   Reactome; R-RNO-3000170; Syndecan interactions.
+DR   Reactome; R-RNO-449836; Other interleukin signaling.
+DR   Reactome; R-RNO-975634; Retinoid metabolism and transport.
+DR   PRO; PR:P26260; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000059947; Expressed in esophagus and 17 other cell types or tissues.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISO:RGD.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0038024; F:cargo receptor activity; ISO:RGD.
+DR   GO; GO:0050840; F:extracellular matrix binding; TAS:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0060070; P:canonical Wnt signaling pathway; ISO:RGD.
+DR   GO; GO:0007155; P:cell adhesion; NAS:RGD.
+DR   GO; GO:0016477; P:cell migration; IBA:GO_Central.
+DR   GO; GO:0007267; P:cell-cell signaling; NAS:RGD.
+DR   GO; GO:0048627; P:myoblast development; ISO:RGD.
+DR   GO; GO:1903543; P:positive regulation of exosomal secretion; ISO:RGD.
+DR   GO; GO:1903553; P:positive regulation of extracellular exosome assembly; ISO:RGD.
+DR   GO; GO:0006898; P:receptor-mediated endocytosis; ISO:RGD.
+DR   GO; GO:0051592; P:response to calcium ion; IEP:RGD.
+DR   GO; GO:0051591; P:response to cAMP; IEP:RGD.
+DR   GO; GO:0051384; P:response to glucocorticoid; IEP:RGD.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; IEP:RGD.
+DR   GO; GO:0009636; P:response to toxic substance; IEP:RGD.
+DR   GO; GO:0060009; P:Sertoli cell development; IEP:RGD.
+DR   GO; GO:0055002; P:striated muscle cell development; ISO:RGD.
+DR   GO; GO:0001657; P:ureteric bud development; IEP:RGD.
+DR   InterPro; IPR003585; Neurexin-like.
+DR   InterPro; IPR001050; Syndecan.
+DR   InterPro; IPR027789; Syndecan/Neurexin_dom.
+DR   InterPro; IPR030479; Syndecan_CS.
+DR   PANTHER; PTHR10915; SYNDECAN; 1.
+DR   PANTHER; PTHR10915:SF5; SYNDECAN-1; 1.
+DR   Pfam; PF01034; Syndecan; 1.
+DR   SMART; SM00294; 4.1m; 1.
+DR   PROSITE; PS00964; SYNDECAN; 1.
+PE   1: Evidence at protein level;
+KW   Glycoprotein; Heparan sulfate; Membrane; Phosphoprotein; Proteoglycan;
+KW   Reference proteome; Secreted; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..313
+FT                   /note="Syndecan-1"
+FT                   /id="PRO_0000033502"
+FT   TOPO_DOM        23..257
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        258..278
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        279..313
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          27..58
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          95..186
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          286..313
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        40..58
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        100..127
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        128..156
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   SITE            253..254
+FT                   /note="Cleavage of ectodomain"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         288
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18827"
+FT   CARBOHYD        37
+FT                   /note="O-linked (Xyl...) (chondroitin sulfate) serine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18828"
+FT   CARBOHYD        43
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        45
+FT                   /note="O-linked (Xyl...) (heparan sulfate) serine"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        47
+FT                   /note="O-linked (Xyl...) (heparan sulfate) serine"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        209
+FT                   /note="O-linked (Xyl...) (chondroitin sulfate) serine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18827"
+FT   CARBOHYD        219
+FT                   /note="O-linked (Xyl...) (chondroitin sulfate) serine"
+FT                   /evidence="ECO:0000250|UniProtKB:P18828"
+FT   CONFLICT        15
+FT                   /note="L -> V (in Ref. 3)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   313 AA;  33214 MW;  C6EC50E8798A5218 CRC64;
+     MRRAALWLWL CALALRLQPA LPQIVTANVP PEDQDGSGDD SDNFSGSGTG ALPDMTLSRQ
+     TPSTWKDVWL LTATPTAPEP TSRDTEATLT SILPAGEKPE EGEPVAHVEA EPDFTARDKE
+     KEATTRPRET TQLPVTQQAS TAARATTAQA SVTSHPHGDV QPGLHETLAP TAPGQPDHQP
+     PSVEDGGTSV IKEVVEDETT NQLPAGEGSG EQDFTFETSG ENTAVAGVEP DLRNQSPVDE
+     GATGASQGLL DRKEVLGGVI AGGLVGLIFA VCLVAFMLYR MKKKDEGSYS LEEPKQANGG
+     AYQKPTKQEE FYA
+//

@@ -1,0 +1,110 @@
+ID   CP4F6_RAT               Reviewed;         537 AA.
+AC   P51871;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   24-JUL-2024, entry version 159.
+DE   RecName: Full=Cytochrome P450 4F6;
+DE            EC=1.14.14.1;
+DE   AltName: Full=CYPIVF6;
+GN   Name=Cyp4f6;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=8554568; DOI=10.1006/bbrc.1995.2887;
+RA   Kawashima H., Strobel H.W.;
+RT   "cDNA cloning of three new forms of rat brain cytochrome P450 belonging to
+RT   the CYP4F subfamily.";
+RL   Biochem. Biophys. Res. Commun. 217:1137-1144(1995).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an organic molecule + O2 + reduced [NADPH--hemoprotein
+CC         reductase] = an alcohol + H(+) + H2O + oxidized [NADPH--hemoprotein
+CC         reductase]; Xref=Rhea:RHEA:17149, Rhea:RHEA-COMP:11964, Rhea:RHEA-
+CC         COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:30879, ChEBI:CHEBI:57618, ChEBI:CHEBI:58210,
+CC         ChEBI:CHEBI:142491; EC=1.14.14.1;
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000250|UniProtKB:P51869};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane; Peripheral
+CC       membrane protein. Microsome membrane; Peripheral membrane protein.
+CC   -!- TISSUE SPECIFICITY: High expression in liver and kidney. Lower
+CC       expression in brain.
+CC   -!- SIMILARITY: Belongs to the cytochrome P450 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U39208; AAC52360.1; -; mRNA.
+DR   PIR; JC4534; JC4534.
+DR   RefSeq; NP_695230.1; NM_153318.1.
+DR   AlphaFoldDB; P51871; -.
+DR   SMR; P51871; -.
+DR   STRING; 10116.ENSRNOP00000059924; -.
+DR   ChEMBL; CHEMBL3509599; -.
+DR   PhosphoSitePlus; P51871; -.
+DR   PaxDb; 10116-ENSRNOP00000006335; -.
+DR   GeneID; 266689; -.
+DR   KEGG; rno:266689; -.
+DR   UCSC; RGD:708365; rat.
+DR   AGR; RGD:708365; -.
+DR   CTD; 266689; -.
+DR   RGD; 708365; Cyp4f6.
+DR   VEuPathDB; HostDB:ENSRNOG00000043233; -.
+DR   eggNOG; KOG0157; Eukaryota.
+DR   InParanoid; P51871; -.
+DR   OMA; SWRLDRE; -.
+DR   OrthoDB; 1611592at2759; -.
+DR   PhylomeDB; P51871; -.
+DR   TreeFam; TF105088; -.
+DR   PRO; PR:P51871; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000043233; Expressed in liver and 19 other cell types or tissues.
+DR   ExpressionAtlas; P51871; baseline and differential.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070330; F:aromatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0006691; P:leukotriene metabolic process; IMP:RGD.
+DR   CDD; cd20679; CYP4F; 1.
+DR   Gene3D; 1.10.630.10; Cytochrome P450; 1.
+DR   InterPro; IPR001128; Cyt_P450.
+DR   InterPro; IPR017972; Cyt_P450_CS.
+DR   InterPro; IPR002403; Cyt_P450_E_grp-IV.
+DR   InterPro; IPR036396; Cyt_P450_sf.
+DR   InterPro; IPR050196; Cytochrome_P450_Monoox.
+DR   PANTHER; PTHR24291:SF141; CYTOCHROME P450 CYP4F13-RELATED; 1.
+DR   PANTHER; PTHR24291; CYTOCHROME P450 FAMILY 4; 1.
+DR   Pfam; PF00067; p450; 1.
+DR   PRINTS; PR00465; EP450IV.
+DR   PRINTS; PR00385; P450.
+DR   SUPFAM; SSF48264; Cytochrome P450; 1.
+DR   PROSITE; PS00086; CYTOCHROME_P450; 1.
+PE   2: Evidence at transcript level;
+KW   Endoplasmic reticulum; Heme; Iron; Membrane; Metal-binding; Microsome;
+KW   Monooxygenase; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..537
+FT                   /note="Cytochrome P450 4F6"
+FT                   /id="PRO_0000051854"
+FT   BINDING         468
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000250|UniProtKB:P51869"
+SQ   SEQUENCE   537 AA;  61541 MW;  4D96D761A2BEA7E9 CRC64;
+     MLQLSLSRLG MGSLTASPWH LLLLGGASWI LARILAWIYT FYDNCCRLRC FPQPPKPSWF
+     WGHLTLMKNN EEGMQFIAHL GRNFRDIHLS WVGPVYPILR LVHPNVIAPL LQASAAVAPK
+     EMTLYGFLKP WLGDGLLMSA GEKWNHHRRL LTPAFHFDIL KSYVKIFNKS VNTMHAKWQR
+     LTAKGSARLD MFEHISLMTL DSLQKCIFSF DSNCQESNSE YIAAILELSS LIVKRQRQPF
+     LYLDFLYYLT ADGRRFRKAC DVVHNFTDAV IRERRSTLNT QGVDEFLKAR AKTKTLDFID
+     VLLLAKDEHG KGLSDVDIRA EADTFMFGGH DTTASALSWI LYNLARHPEY QERCRQEVRE
+     LLRDREPEEI EWDDLAQLPF LTMCIKESLR LHPPVLLISR CCSQDIVLPD GRVIPKGNIC
+     VISIFGVHHN PSVWPDPEVY NPFRFDPENP QKRSPLAFIP FSAGPRNCIG QTFAMSEIKV
+     ALALTLLRFC VLPDDKEPRR KPELILRAEG GLWLRVEPLS TVTSQLPWDL LAHPPTS
+//

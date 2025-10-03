@@ -1,0 +1,113 @@
+ID   SYT13_RAT               Reviewed;         426 AA.
+AC   Q925B5; Q9ERD5;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   24-JUL-2024, entry version 131.
+DE   RecName: Full=Synaptotagmin-13;
+DE   AltName: Full=Synaptotagmin XIII;
+DE            Short=SytXIII;
+GN   Name=Syt13;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   TISSUE=Brain;
+RX   PubMed=11211934; DOI=10.1078/0171-9335-00133;
+RA   von Poser C., Suedhof T.C.;
+RT   "Synaptotagmin 13: structure and expression of a novel synaptotagmin.";
+RL   Eur. J. Cell Biol. 80:41-47(2001).
+CC   -!- FUNCTION: May be involved in transport vesicle docking to the plasma
+CC       membrane. {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with NRXN1. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250}; Single-pass membrane
+CC       protein {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed in brain, spleen, kidney and testis.
+CC       {ECO:0000269|PubMed:11211934}.
+CC   -!- DOMAIN: The first C2 domain/C2A does not mediate Ca(2+)-dependent
+CC       phospholipid binding. {ECO:0000250}.
+CC   -!- DOMAIN: The second C2 domain/C2B domain binds phospholipids regardless
+CC       of whether calcium is present. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the synaptotagmin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF313453; AAG30575.1; -; mRNA.
+DR   EMBL; AF375466; AAK56961.1; -; mRNA.
+DR   RefSeq; NP_110466.2; NM_030839.3.
+DR   AlphaFoldDB; Q925B5; -.
+DR   SMR; Q925B5; -.
+DR   BioGRID; 249494; 1.
+DR   STRING; 10116.ENSRNOP00000011459; -.
+DR   iPTMnet; Q925B5; -.
+DR   PhosphoSitePlus; Q925B5; -.
+DR   PaxDb; 10116-ENSRNOP00000011459; -.
+DR   GeneID; 80977; -.
+DR   KEGG; rno:80977; -.
+DR   UCSC; RGD:621877; rat.
+DR   AGR; RGD:621877; -.
+DR   CTD; 57586; -.
+DR   RGD; 621877; Syt13.
+DR   eggNOG; KOG1028; Eukaryota.
+DR   InParanoid; Q925B5; -.
+DR   OrthoDB; 590187at2759; -.
+DR   PhylomeDB; Q925B5; -.
+DR   TreeFam; TF315600; -.
+DR   PRO; PR:Q925B5; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0070382; C:exocytic vesicle; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; IBA:GO_Central.
+DR   GO; GO:0005544; F:calcium-dependent phospholipid binding; IBA:GO_Central.
+DR   GO; GO:0030276; F:clathrin binding; IBA:GO_Central.
+DR   GO; GO:0001786; F:phosphatidylserine binding; IBA:GO_Central.
+DR   GO; GO:0000149; F:SNARE binding; IBA:GO_Central.
+DR   GO; GO:0017156; P:calcium-ion regulated exocytosis; IBA:GO_Central.
+DR   GO; GO:0016192; P:vesicle-mediated transport; ISO:RGD.
+DR   CDD; cd08407; C2B_Synaptotagmin-13; 1.
+DR   Gene3D; 2.60.40.150; C2 domain; 2.
+DR   InterPro; IPR000008; C2_dom.
+DR   InterPro; IPR035892; C2_domain_sf.
+DR   InterPro; IPR028692; Syt13_C2B.
+DR   PANTHER; PTHR10024; SYNAPTOTAGMIN; 1.
+DR   PANTHER; PTHR10024:SF250; SYNAPTOTAGMIN-13; 1.
+DR   Pfam; PF00168; C2; 2.
+DR   SMART; SM00239; C2; 1.
+DR   SUPFAM; SSF49562; C2 domain (Calcium/lipid-binding domain, CaLB); 2.
+DR   PROSITE; PS50004; C2; 2.
+PE   2: Evidence at transcript level;
+KW   Membrane; Reference proteome; Repeat; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..426
+FT                   /note="Synaptotagmin-13"
+FT                   /id="PRO_0000183977"
+FT   TOPO_DOM        1..6
+FT                   /note="Vesicular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        7..29
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        30..426
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          158..275
+FT                   /note="C2 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   DOMAIN          287..422
+FT                   /note="C2 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   CONFLICT        226
+FT                   /note="T -> A (in Ref. 1; AAG30575)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   426 AA;  46881 MW;  84048947BF2AB65B CRC64;
+     MVLSVPVIAL GATLGTATSI LALCGVTCLC RHMHPKKGLL PRDREPDPEK ARPGVLQAAQ
+     QFNVKKSTEP VQPRPLLKFP DIYGPRPAVT APEVINYADY TLGTTEESAA PASPQAQSDS
+     RLKRQVTEEL FILPQNGVVE DVCVMETWNP EKAASWNQAP KLHFRLDYDQ KKAELFVTSL
+     EAVTSDHEGG CDCYIQGSVA VKTGSVEAQT ALKKRQLHTT WEEGLTLPLG EEELPTATLT
+     LTLRTCDRFS RHSVIGELRL GLNGASVPLG TAQWGELKTT AKEPSAGTGE VLLSISYLPA
+     ANRLLVVLIK AKNLHSNQSK ELLGKDVSVK VTLKHQAQKL KKKQTKRAKH KINPVWNEMI
+     MFELPDDLLQ ASSVELEVLG QGEEGPSCEL GRCSLGLHAS GSERSHWEEM LKNPRRQIAM
+     WHQLHL
+//

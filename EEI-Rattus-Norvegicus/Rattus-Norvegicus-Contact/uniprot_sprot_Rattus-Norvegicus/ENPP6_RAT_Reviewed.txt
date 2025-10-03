@@ -1,0 +1,317 @@
+ID   ENPP6_RAT               Reviewed;         440 AA.
+AC   B0BND0;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   29-MAY-2024, entry version 97.
+DE   RecName: Full=Glycerophosphocholine cholinephosphodiesterase ENPP6 {ECO:0000305};
+DE            Short=GPC-Cpde;
+DE            EC=3.1.4.- {ECO:0000250|UniProtKB:Q8BGN3};
+DE            EC=3.1.4.38 {ECO:0000250|UniProtKB:Q8BGN3};
+DE   AltName: Full=Choline-specific glycerophosphodiester phosphodiesterase {ECO:0000250|UniProtKB:Q8BGN3};
+DE   AltName: Full=Ectonucleotide pyrophosphatase/phosphodiesterase family member 6;
+DE            Short=E-NPP 6;
+DE            Short=NPP-6;
+DE   Flags: Precursor;
+GN   Name=Enpp6 {ECO:0000312|RGD:1311645};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-71, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+RN   [3]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-341, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain;
+RX   PubMed=24090084; DOI=10.1021/pr400783j;
+RA   Parker B.L., Thaysen-Andersen M., Solis N., Scott N.E., Larsen M.R.,
+RA   Graham M.E., Packer N.H., Cordwell S.J.;
+RT   "Site-specific glycan-peptide analysis for determination of N-glycoproteome
+RT   heterogeneity.";
+RL   J. Proteome Res. 12:5791-5800(2013).
+CC   -!- FUNCTION: Choline-specific glycerophosphodiesterase that hydrolyzes
+CC       glycerophosphocholine (GPC) and lysophosphatidylcholine (LPC) and
+CC       contributes to supplying choline to the cells. Has a preference for LPC
+CC       with short (12:0 and 14:0) or polyunsaturated (18:2 and 20:4) fatty
+CC       acids. In vitro, hydrolyzes only choline-containing lysophospholipids,
+CC       such as sphingosylphosphorylcholine (SPC), platelet-activating factor
+CC       (PAF) and lysoPAF, but not other lysophospholipids.
+CC       {ECO:0000250|UniProtKB:Q8BGN3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + sn-glycerol 3-phosphocholine = glycerol + H(+) +
+CC         phosphocholine; Xref=Rhea:RHEA:19545, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16870, ChEBI:CHEBI:17754,
+CC         ChEBI:CHEBI:295975; EC=3.1.4.38;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19546;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1-acyl-sn-glycero-3-phosphocholine + H2O = a 1-acyl-sn-
+CC         glycerol + H(+) + phosphocholine; Xref=Rhea:RHEA:44720,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:58168,
+CC         ChEBI:CHEBI:64683, ChEBI:CHEBI:295975;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:44721;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-O-alkyl-sn-glycero-3-phosphocholine + H2O = 1-O-alkyl-sn-
+CC         glycerol + H(+) + phosphocholine; Xref=Rhea:RHEA:36083,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15850,
+CC         ChEBI:CHEBI:30909, ChEBI:CHEBI:295975;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:36084;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-dodecanoyl-sn-glycero-3-phosphocholine + H2O = 1-dodecanoyl-
+CC         sn-glycerol + H(+) + phosphocholine; Xref=Rhea:RHEA:41127,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:74966,
+CC         ChEBI:CHEBI:75529, ChEBI:CHEBI:295975;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41128;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-sn-glycero-3-phosphocholine + H2O = 1-
+CC         hexadecanoyl-sn-glycerol + H(+) + phosphocholine;
+CC         Xref=Rhea:RHEA:41119, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:72998, ChEBI:CHEBI:75542, ChEBI:CHEBI:295975;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41120;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphocholine
+CC         + H2O = 1-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycerol + H(+) +
+CC         phosphocholine; Xref=Rhea:RHEA:41003, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:34071, ChEBI:CHEBI:74344,
+CC         ChEBI:CHEBI:295975; Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41004;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-tetradecanoyl-sn-glycero-3-phosphocholine + H2O = 1-
+CC         tetradecanoyl-sn-glycerol + H(+) + phosphocholine;
+CC         Xref=Rhea:RHEA:40999, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:64489, ChEBI:CHEBI:75536, ChEBI:CHEBI:295975;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41000;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + sphing-4-enine-phosphocholine = H(+) + phosphocholine +
+CC         sphing-4-enine; Xref=Rhea:RHEA:41095, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57756, ChEBI:CHEBI:58906,
+CC         ChEBI:CHEBI:295975; Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41096;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + H2O = 1-(9Z-
+CC         octadecenoyl)-sn-glycerol + H(+) + phosphocholine;
+CC         Xref=Rhea:RHEA:41091, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:28610, ChEBI:CHEBI:75757, ChEBI:CHEBI:295975;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41092;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z,12Z)-octadecadienoyl-sn-glycero-3-phosphocholine + H2O =
+CC         1-(9Z,12Z-octadecadienoyl)-sn-glycerol + H(+) + phosphocholine;
+CC         Xref=Rhea:RHEA:41115, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:28733, ChEBI:CHEBI:75561, ChEBI:CHEBI:295975;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41116;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycero-2-phosphocholine + H2O = glycerol + H(+) +
+CC         phosphocholine; Xref=Rhea:RHEA:61684, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17754, ChEBI:CHEBI:144950,
+CC         ChEBI:CHEBI:295975; Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:61685;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BGN3};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250|UniProtKB:Q8BGN3};
+CC   -!- ACTIVITY REGULATION: Inhibited by EDTA and EGTA in vitro.
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. Homotetramer. {ECO:0000250,
+CC       ECO:0000250|UniProtKB:Q8BGN3}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Lipid-anchor, GPI-
+CC       anchor {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the nucleotide pyrophosphatase/phosphodiesterase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC158772; AAI58773.1; -; mRNA.
+DR   RefSeq; XP_006253218.1; XM_006253156.3.
+DR   AlphaFoldDB; B0BND0; -.
+DR   SMR; B0BND0; -.
+DR   BioGRID; 258461; 1.
+DR   IntAct; B0BND0; 1.
+DR   MINT; B0BND0; -.
+DR   STRING; 10116.ENSRNOP00000013005; -.
+DR   GlyCosmos; B0BND0; 4 sites, 4 glycans.
+DR   GlyGen; B0BND0; 4 sites, 4 N-linked glycans (1 site).
+DR   iPTMnet; B0BND0; -.
+DR   PhosphoSitePlus; B0BND0; -.
+DR   PaxDb; 10116-ENSRNOP00000013005; -.
+DR   Ensembl; ENSRNOT00000013005.9; ENSRNOP00000013005.5; ENSRNOG00000009660.9.
+DR   Ensembl; ENSRNOT00055019686; ENSRNOP00055015877; ENSRNOG00055011594.
+DR   Ensembl; ENSRNOT00060014467; ENSRNOP00060011130; ENSRNOG00060008654.
+DR   Ensembl; ENSRNOT00065024987; ENSRNOP00065019557; ENSRNOG00065015085.
+DR   AGR; RGD:1311645; -.
+DR   RGD; 1311645; Enpp6.
+DR   eggNOG; KOG2645; Eukaryota.
+DR   GeneTree; ENSGT00940000158457; -.
+DR   InParanoid; B0BND0; -.
+DR   OMA; NVSMYYW; -.
+DR   OrthoDB; 1366859at2759; -.
+DR   PhylomeDB; B0BND0; -.
+DR   TreeFam; TF330032; -.
+DR   Reactome; R-RNO-6814848; Glycerophospholipid catabolism.
+DR   PRO; PR:B0BND0; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000009660; Expressed in adult mammalian kidney and 6 other cell types or tissues.
+DR   ExpressionAtlas; B0BND0; baseline and differential.
+DR   GO; GO:0005576; C:extracellular region; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0098552; C:side of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0047390; F:glycerophosphocholine cholinephosphodiesterase activity; ISS:UniProtKB.
+DR   GO; GO:0008889; F:glycerophosphodiester phosphodiesterase activity; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008081; F:phosphoric diester hydrolase activity; ISS:UniProtKB.
+DR   GO; GO:0019695; P:choline metabolic process; ISS:UniProtKB.
+DR   GO; GO:0016042; P:lipid catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006629; P:lipid metabolic process; ISS:UniProtKB.
+DR   CDD; cd16018; Enpp; 1.
+DR   Gene3D; 3.30.1360.180; -; 1.
+DR   Gene3D; 3.40.720.10; Alkaline Phosphatase, subunit A; 1.
+DR   InterPro; IPR017850; Alkaline_phosphatase_core_sf.
+DR   InterPro; IPR002591; Phosphodiest/P_Trfase.
+DR   PANTHER; PTHR10151; ECTONUCLEOTIDE PYROPHOSPHATASE/PHOSPHODIESTERASE; 1.
+DR   PANTHER; PTHR10151:SF66; GLYCEROPHOSPHOCHOLINE CHOLINEPHOSPHODIESTERASE ENPP6; 1.
+DR   Pfam; PF01663; Phosphodiest; 1.
+DR   SUPFAM; SSF53649; Alkaline phosphatase-like; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Disulfide bond; Glycoprotein; GPI-anchor; Hydrolase;
+KW   Lipid degradation; Lipid metabolism; Lipoprotein; Membrane; Metal-binding;
+KW   Phosphoprotein; Reference proteome; Signal; Zinc.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           23..419
+FT                   /note="Glycerophosphocholine cholinephosphodiesterase
+FT                   ENPP6"
+FT                   /id="PRO_0000366924"
+FT   PROPEP          420..440
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000420894"
+FT   ACT_SITE        71
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         32
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         32
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         71
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         71
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         92
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         193
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         193
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         197
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         240
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         241
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         241
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         354
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   BINDING         354
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   MOD_RES         71
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   LIPID           419
+FT                   /note="GPI-anchor amidated serine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        100
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   CARBOHYD        118
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   CARBOHYD        341
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007744|PubMed:24090084"
+FT   CARBOHYD        404
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   DISULFID        142..154
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BGN3"
+FT   DISULFID        412
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   440 AA;  50701 MW;  4A76DB3E3EF8AD08 CRC64;
+     MAGKLWTFLL LFGFSWVWPA SAHRKLLVLL LDGFRSDYIS EDALASLPGF REIVNRGVKV
+     DYLTPDFPSL SYPNYYTLMT GRHCEVHQMI GNYMWDPRTN KSFDIGVNRD SLMPLWWNGS
+     EPLWITLMKA RRKVYMYYWP GCEVEILGVR PTYCLEYKNV PTDINFANAV SDALDSLKSG
+     RADLAAIYHE RIDVEGHHYG PSSPQRKDAL KAVDTVLKYM TQWIQERGLQ NDLNVILFSD
+     HGMTDIFWMD KVIELSKYIS LDDLQQVKDQ GPVVSLWPVP EKHSEIYHKL RTVEHMTVYE
+     KEAIPNRFYY KKGKFVSPLT LVADEGWFIA ESREALPFWM NSTGKREGWQ HGWHGYDNEL
+     MDMRGIFLAF GPDFKSNFRA APIRSVDVYN IMCNVVGITP LPNNGSWSRV VCMLKSQTSS
+     SPSIPPNSCA LVLILLLYFV
+//

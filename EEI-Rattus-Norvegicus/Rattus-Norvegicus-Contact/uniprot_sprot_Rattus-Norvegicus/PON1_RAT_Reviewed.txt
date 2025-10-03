@@ -1,0 +1,238 @@
+ID   PON1_RAT                Reviewed;         355 AA.
+AC   P55159; O08682; Q5BJN6;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   05-OCT-2010, sequence version 3.
+DT   02-OCT-2024, entry version 163.
+DE   RecName: Full=Serum paraoxonase/arylesterase 1;
+DE            Short=PON 1;
+DE            EC=3.1.1.2 {ECO:0000250|UniProtKB:P27169};
+DE            EC=3.1.1.81 {ECO:0000250|UniProtKB:P27169};
+DE            EC=3.1.8.1 {ECO:0000250|UniProtKB:P27169};
+DE   AltName: Full=Aromatic esterase 1;
+DE            Short=A-esterase 1;
+DE   AltName: Full=Serum aryldialkylphosphatase 1;
+GN   Name=Pon1; Synonyms=Pon;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 2-11; 47-56 AND 307-316.
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=9032442; DOI=10.1042/bj3210595;
+RA   Rodrigo L., Gil F., Hernandez A.F., Marina A., Vazquez J., Pla A.;
+RT   "Purification and characterization of paraoxon hydrolase from rat liver.";
+RL   Biochem. J. 321:595-601(1997).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 2-26.
+RA   Blatter M.-C.;
+RL   Submitted (JAN-1995) to UniProtKB.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 11-355.
+RA   Leviev I.G., Blatter M.-C., James R.W.;
+RT   "Rat paraoxonase partial mRNA sequence.";
+RL   Submitted (APR-1997) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Hydrolyzes the toxic metabolites of a variety of
+CC       organophosphorus insecticides. Capable of hydrolyzing a broad spectrum
+CC       of organophosphate substrates and lactones, and a number of aromatic
+CC       carboxylic acid esters. Mediates an enzymatic protection of low density
+CC       lipoproteins against oxidative modification.
+CC       {ECO:0000250|UniProtKB:P27169}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a phenyl acetate + H2O = a phenol + acetate + H(+);
+CC         Xref=Rhea:RHEA:17309, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30089, ChEBI:CHEBI:33853, ChEBI:CHEBI:140310; EC=3.1.1.2;
+CC         Evidence={ECO:0000250|UniProtKB:P27169};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=An aryl dialkyl phosphate + H2O = dialkyl phosphate + an aryl
+CC         alcohol.; EC=3.1.8.1; Evidence={ECO:0000250|UniProtKB:P27169};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acyl-L-homoserine lactone + H2O = an N-acyl-L-homoserine
+CC         + H(+); Xref=Rhea:RHEA:22576, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:55474, ChEBI:CHEBI:58921; EC=3.1.1.81;
+CC         Evidence={ECO:0000250|UniProtKB:P27169};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. Interacts with CLU. {ECO:0000250|UniProtKB:P27169}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space.
+CC   -!- TISSUE SPECIFICITY: Plasma. Associated with HDL.
+CC   -!- PTM: Glycosylated. {ECO:0000250|UniProtKB:P27169}.
+CC   -!- PTM: The signal sequence is not cleaved.
+CC   -!- MISCELLANEOUS: The preferential association of PON1 with HDL is
+CC       mediated in part by its signal peptide, by binding phospholipids
+CC       directly, rather than binding apo AI. The retained signal peptide may
+CC       allow transfer of the protein between phospholipid surfaces.
+CC       {ECO:0000250|UniProtKB:P27169}.
+CC   -!- SIMILARITY: Belongs to the paraoxonase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH473959; EDM15017.1; -; Genomic_DNA.
+DR   EMBL; BC091403; AAH91403.1; -; mRNA.
+DR   EMBL; U94856; AAB53441.1; -; mRNA.
+DR   PIR; PT0088; PT0088.
+DR   RefSeq; NP_114466.1; NM_032077.1.
+DR   AlphaFoldDB; P55159; -.
+DR   SMR; P55159; -.
+DR   IntAct; P55159; 1.
+DR   STRING; 10116.ENSRNOP00000011823; -.
+DR   GlyCosmos; P55159; 3 sites, No reported glycans.
+DR   GlyGen; P55159; 3 sites.
+DR   iPTMnet; P55159; -.
+DR   PhosphoSitePlus; P55159; -.
+DR   PaxDb; 10116-ENSRNOP00000011823; -.
+DR   GeneID; 84024; -.
+DR   KEGG; rno:84024; -.
+DR   UCSC; RGD:620062; rat.
+DR   AGR; RGD:620062; -.
+DR   CTD; 5444; -.
+DR   RGD; 620062; Pon1.
+DR   VEuPathDB; HostDB:ENSRNOG00000008902; -.
+DR   eggNOG; ENOG502S3B5; Eukaryota.
+DR   HOGENOM; CLU_049839_0_1_1; -.
+DR   InParanoid; P55159; -.
+DR   OrthoDB; 2874974at2759; -.
+DR   PhylomeDB; P55159; -.
+DR   TreeFam; TF322436; -.
+DR   BRENDA; 3.1.1.2; 5301.
+DR   BRENDA; 3.1.8.1; 5301.
+DR   Reactome; R-RNO-2142688; Synthesis of 5-eicosatetraenoic acids.
+DR   Reactome; R-RNO-9754706; Atorvastatin ADME.
+DR   PRO; PR:P55159; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Proteomes; UP000234681; Chromosome 4.
+DR   Bgee; ENSRNOG00000008902; Expressed in liver and 16 other cell types or tissues.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0034364; C:high-density lipoprotein particle; ISO:RGD.
+DR   GO; GO:0034366; C:spherical high-density lipoprotein particle; ISO:RGD.
+DR   GO; GO:0102007; F:acyl-L-homoserine-lactone lactonohydrolase activity; ISO:RGD.
+DR   GO; GO:0004063; F:aryldialkylphosphatase activity; IDA:RGD.
+DR   GO; GO:0004064; F:arylesterase activity; ISS:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0005543; F:phospholipid binding; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0046395; P:carboxylic acid catabolic process; ISO:RGD.
+DR   GO; GO:0008203; P:cholesterol metabolic process; ISO:RGD.
+DR   GO; GO:1901335; P:lactone catabolic process; ISO:RGD.
+DR   GO; GO:0046434; P:organophosphate catabolic process; ISO:RGD.
+DR   GO; GO:0046470; P:phosphatidylcholine metabolic process; ISO:RGD.
+DR   GO; GO:0010875; P:positive regulation of cholesterol efflux; ISO:RGD.
+DR   GO; GO:0070542; P:response to fatty acid; IEP:RGD.
+DR   GO; GO:1902617; P:response to fluoride; IDA:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0031667; P:response to nutrient levels; IEP:RGD.
+DR   GO; GO:0009636; P:response to toxic substance; ISO:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   Gene3D; 2.120.10.30; TolB, C-terminal domain; 1.
+DR   InterPro; IPR011042; 6-blade_b-propeller_TolB-like.
+DR   InterPro; IPR002640; Arylesterase.
+DR   InterPro; IPR008363; Paraoxonase1.
+DR   InterPro; IPR051288; Serum_paraoxonase/arylesterase.
+DR   PANTHER; PTHR11799; PARAOXONASE; 1.
+DR   PANTHER; PTHR11799:SF16; SERUM PARAOXONASE_ARYLESTERASE 1; 1.
+DR   Pfam; PF01731; Arylesterase; 1.
+DR   PRINTS; PR01785; PARAOXONASE.
+DR   PRINTS; PR01786; PARAOXONASE1.
+DR   SUPFAM; SSF63829; Calcium-dependent phosphotriesterase; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Disulfide bond; Glycoprotein; HDL;
+KW   Hydrolase; Metal-binding; Reference proteome; Secreted; Signal.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:9032442, ECO:0000269|Ref.4"
+FT   CHAIN           2..355
+FT                   /note="Serum paraoxonase/arylesterase 1"
+FT                   /id="PRO_0000223284"
+FT   SIGNAL          2..?
+FT                   /note="Not cleaved"
+FT   ACT_SITE        115
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P27169"
+FT   BINDING         53
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P27169"
+FT   BINDING         54
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P27169"
+FT   BINDING         117
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P27169"
+FT   BINDING         168
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P27169"
+FT   BINDING         169
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P27169"
+FT   BINDING         224
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P27169"
+FT   BINDING         269
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P27169"
+FT   BINDING         270
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P27169"
+FT   CARBOHYD        253
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        270
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        324
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        42..353
+FT                   /evidence="ECO:0000250|UniProtKB:P27169"
+FT   CONFLICT        20..26
+FT                   /note="HRSSYQT -> PLXDWYR (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        68
+FT                   /note="G -> F (in Ref. 5; AAB53441)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        354
+FT                   /note="D -> Y (in Ref. 5; AAB53441)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   355 AA;  39358 MW;  FE2886875D01E52D CRC64;
+     MAKLLGLTLV GLVLALYKNH RSSYQTRLNA FREVTPVDLP NCTLVKGIEA GAEDLEILPN
+     GLTFFSTGLK YPGIKSFDPS KPGKILLMDL NEKEPAVSEL AIMGNTLDMS SFNPHGISTF
+     IDEDNTVYLL VVSHPDSSST VEVFKFQEEE RSLLHLKTIT HELLPSINDI AAVGPESFYA
+     TNDHYFADPY LRSWEMYLGL SWSNVVYYSP DKVRVVADGF DFANGIGISL DGKYVYIAEL
+     LAHKIHVYEK HANWTLTPLK VLSFDTLVDN ISVDPVTGDL WVGCHPNGMR IFFYDSENPP
+     GSEVLRIQSI LSEDPKVTVV YAENGTVLQG TTVAAVYKGK LLIGTVFHRA LCCDL
+//

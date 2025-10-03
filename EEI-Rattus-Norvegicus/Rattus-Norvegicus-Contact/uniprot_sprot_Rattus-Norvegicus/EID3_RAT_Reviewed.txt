@@ -1,0 +1,107 @@
+ID   EID3_RAT                Reviewed;         387 AA.
+AC   Q4V8G2;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 2.
+DT   24-JAN-2024, entry version 77.
+DE   RecName: Full=EP300-interacting inhibitor of differentiation 3;
+DE            Short=EID-3;
+DE   AltName: Full=E1A-like inhibitor of differentiation 3;
+DE   AltName: Full=EID-1-like inhibitor of differentiation 3;
+DE   AltName: Full=Non-structural maintenance of chromosomes element 4 homolog B;
+DE            Short=NS4EB;
+DE            Short=Non-SMC element 4 homolog B;
+GN   Name=Eid3 {ECO:0000312|EMBL:AAH97404.1};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000312|EMBL:AAH97404.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis {ECO:0000312|EMBL:AAH97404.1};
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Tissue-specific component of the SMC5-SMC6 complex, a complex
+CC       involved in repair of DNA double-strand breaks by homologous
+CC       recombination. The complex may promote sister chromatid homologous
+CC       recombination by recruiting the SMC1-SMC3 cohesin complex to double-
+CC       strand breaks. The complex is required for telomere maintenance via
+CC       recombination and mediates sumoylation of shelterin complex (telosome)
+CC       components (By similarity). {ECO:0000250}.
+CC   -!- FUNCTION: Acts as a repressor of nuclear receptor-dependent
+CC       transcription possibly by interfering with CREBBP-dependent
+CC       coactivation. May function as a coinhibitor of other CREBBP/EP300-
+CC       dependent transcription factors (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Component of the SMC5-SMC6 complex which consists at least of
+CC       SMC5, SMC6, NSMCE2, NSMCE1, NSMCE4A or EID3 and NSMCE3. NSMCE1, NSMCE4A
+CC       or EID3 and NSMCE3 probably form a subcomplex that bridges the head
+CC       domains of the SMC5:SMC6 heterodimer. Homodimer, and heterodimer with
+CC       EID2. Interacts with the C-terminal region of CREBBP (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q8N140}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:Q8N140}. Chromosome, telomere {ECO:0000250}.
+CC       Note=May shuttle between nucleus and cytoplasm.
+CC       {ECO:0000250|UniProtKB:Q8N140}.
+CC   -!- SIMILARITY: Belongs to the NSE4 family. {ECO:0000255}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH97404.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC097404; AAH97404.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_001037769.2; NM_001044304.1.
+DR   AlphaFoldDB; Q4V8G2; -.
+DR   PhosphoSitePlus; Q4V8G2; -.
+DR   GeneID; 691688; -.
+DR   KEGG; rno:691688; -.
+DR   UCSC; RGD:1597206; rat.
+DR   AGR; RGD:1597206; -.
+DR   CTD; 493861; -.
+DR   RGD; 1597206; Eid3.
+DR   InParanoid; Q4V8G2; -.
+DR   OrthoDB; 318111at2759; -.
+DR   PhylomeDB; Q4V8G2; -.
+DR   PRO; PR:Q4V8G2; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0000781; C:chromosome, telomeric region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0030915; C:Smc5-Smc6 complex; ISS:UniProtKB.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IBA:GO_Central.
+DR   InterPro; IPR027786; Nse4/EID.
+DR   InterPro; IPR014854; Nse4_C.
+DR   InterPro; IPR029225; Nse4_Nse3-bd.
+DR   PANTHER; PTHR16140:SF1; EP300-INTERACTING INHIBITOR OF DIFFERENTIATION 3; 1.
+DR   PANTHER; PTHR16140; UNCHARACTERIZED; 1.
+DR   Pfam; PF15412; Nse4-Nse3_bdg; 1.
+DR   Pfam; PF08743; Nse4_C; 1.
+PE   2: Evidence at transcript level;
+KW   Chromosome; Cytoplasm; DNA damage; DNA recombination; DNA repair; Nucleus;
+KW   Reference proteome; Repressor; Telomere; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..387
+FT                   /note="EP300-interacting inhibitor of differentiation 3"
+FT                   /id="PRO_0000315908"
+FT   REGION          1..77
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..20
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        32..68
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   387 AA;  44785 MW;  879EF3B5E2924125 CRC64;
+     MSEEKCSLTG GEEKGEELAR SLAWQHLVKQ AEEDDDDDEE ALKKEEEEEE EEEEEDEEEE
+     EEGPDSSSDD LSPEAPCMHP DLLELAVDRE KCRSIRRQYR QLIYTVQQNR EDIVNTASDS
+     LTEALEEANV LFDGVSRTRE AALDAQFLVL ASDLGKEKAK QLNSDMSFFN HVAFCELLLV
+     FVGLNWMEEE CEELSECDES IALSFWNMLH KEATAWMLQA ETFHFIFGSF KAERSARKPR
+     QEHHKRACKM EGNGDMPTKL RKLDVHANQE TTEKEVERIL GLLQTYFQKY PDTPVSYFEF
+     VIDPNSFSRT VENIFYVSFI IRDGFARIRL DQDRLPILEP TNVNQVDEEN DSCSYCRKQG
+     VISLSLQDWK NIVSTFEISE AMIKNSY
+//

@@ -1,0 +1,200 @@
+ID   XPP1_RAT                Reviewed;         623 AA.
+AC   O54975;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   24-JUL-2024, entry version 143.
+DE   RecName: Full=Xaa-Pro aminopeptidase 1;
+DE            EC=3.4.11.9 {ECO:0000269|PubMed:10095056};
+DE   AltName: Full=Aminoacylproline aminopeptidase;
+DE   AltName: Full=Cytosolic aminopeptidase P;
+DE   AltName: Full=Soluble aminopeptidase P;
+DE            Short=sAmp;
+DE   AltName: Full=X-Pro aminopeptidase 1;
+DE   AltName: Full=X-prolyl aminopeptidase 1, soluble;
+GN   Name=Xpnpep1 {ECO:0000312|RGD:621274}; Synonyms=App;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000312|EMBL:AAB95331.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 1-19; 85-89; 96-105;
+RP   107-112; 372-385; 422-442 AND 599-606, FUNCTION, CATALYTIC ACTIVITY,
+RP   ACTIVITY REGULATION, SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Liver {ECO:0000312|EMBL:AAB95331.1};
+RX   PubMed=10095056; DOI=10.1016/s0167-4781(99)00005-6;
+RA   Czirjak G., Burkhart W.A., Moyer M.B., Antal J., Shears S.B., Enyedi P.;
+RT   "Cloning and functional expression of the cytoplasmic form of rat
+RT   aminopeptidase P.";
+RL   Biochim. Biophys. Acta 1444:326-336(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Metalloaminopeptidase that catalyzes the removal of a
+CC       penultimate prolyl residue from the N-termini of peptides, such as Arg-
+CC       Pro-Pro (PubMed:10095056). Contributes to the degradation of bradykinin
+CC       (By similarity). {ECO:0000250|UniProtKB:Q9NQW7,
+CC       ECO:0000269|PubMed:10095056}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of any N-terminal amino acid, including proline, that
+CC         is linked to proline, even from a dipeptide or tripeptide.;
+CC         EC=3.4.11.9; Evidence={ECO:0000269|PubMed:10095056};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NQW7};
+CC       Note=Binds 2 manganese ions per subunit.
+CC       {ECO:0000250|UniProtKB:Q9NQW7};
+CC   -!- ACTIVITY REGULATION: Inhibited by inositol hexakisphosphate.
+CC       {ECO:0000269|PubMed:10095056}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q9NQW7}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:10095056}.
+CC   -!- TISSUE SPECIFICITY: Expressed in all tissues tested, including liver,
+CC       adrenal decapsular tissue, adrenal capsular tissue, corpus luteum,
+CC       testis, submandibular gland, thymus, brain, cerebellum and heart.
+CC       Highest levels in testis. {ECO:0000269|PubMed:10095056}.
+CC   -!- SIMILARITY: Belongs to the peptidase M24B family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF038591; AAB95331.1; -; mRNA.
+DR   EMBL; BC061758; AAH61758.1; -; mRNA.
+DR   RefSeq; NP_571988.1; NM_131913.1.
+DR   AlphaFoldDB; O54975; -.
+DR   SMR; O54975; -.
+DR   BioGRID; 250985; 2.
+DR   STRING; 10116.ENSRNOP00000069329; -.
+DR   MEROPS; M24.009; -.
+DR   iPTMnet; O54975; -.
+DR   PhosphoSitePlus; O54975; -.
+DR   jPOST; O54975; -.
+DR   PaxDb; 10116-ENSRNOP00000031325; -.
+DR   PeptideAtlas; O54975; -.
+DR   GeneID; 170751; -.
+DR   KEGG; rno:170751; -.
+DR   UCSC; RGD:621274; rat.
+DR   AGR; RGD:621274; -.
+DR   CTD; 7511; -.
+DR   RGD; 621274; Xpnpep1.
+DR   VEuPathDB; HostDB:ENSRNOG00000012084; -.
+DR   eggNOG; KOG2413; Eukaryota.
+DR   HOGENOM; CLU_011781_2_2_1; -.
+DR   InParanoid; O54975; -.
+DR   OrthoDB; 869at2759; -.
+DR   PhylomeDB; O54975; -.
+DR   PRO; PR:O54975; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000012084; Expressed in duodenum and 20 other cell types or tissues.
+DR   ExpressionAtlas; O54975; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0004177; F:aminopeptidase activity; IDA:UniProtKB.
+DR   GO; GO:0030145; F:manganese ion binding; ISS:UniProtKB.
+DR   GO; GO:0070006; F:metalloaminopeptidase activity; ISS:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0010815; P:bradykinin catabolic process; ISS:UniProtKB.
+DR   GO; GO:0043069; P:negative regulation of programmed cell death; ISS:UniProtKB.
+DR   GO; GO:0006508; P:proteolysis; IDA:UniProtKB.
+DR   CDD; cd01085; APP; 1.
+DR   Gene3D; 3.90.230.10; Creatinase/methionine aminopeptidase superfamily; 1.
+DR   Gene3D; 3.40.350.10; Creatinase/prolidase N-terminal domain; 2.
+DR   InterPro; IPR029149; Creatin/AminoP/Spt16_NTD.
+DR   InterPro; IPR036005; Creatinase/aminopeptidase-like.
+DR   InterPro; IPR000587; Creatinase_N.
+DR   InterPro; IPR000994; Pept_M24.
+DR   InterPro; IPR033740; Pept_M24B.
+DR   InterPro; IPR032416; Peptidase_M24_C.
+DR   InterPro; IPR001131; Peptidase_M24B_aminopep-P_CS.
+DR   InterPro; IPR050422; X-Pro_aminopeptidase_P.
+DR   PANTHER; PTHR43763; XAA-PRO AMINOPEPTIDASE 1; 1.
+DR   PANTHER; PTHR43763:SF6; XAA-PRO AMINOPEPTIDASE 1; 1.
+DR   Pfam; PF01321; Creatinase_N; 1.
+DR   Pfam; PF16189; Creatinase_N_2; 1.
+DR   Pfam; PF00557; Peptidase_M24; 1.
+DR   Pfam; PF16188; Peptidase_M24_C; 1.
+DR   SUPFAM; SSF55920; Creatinase/aminopeptidase; 1.
+DR   SUPFAM; SSF53092; Creatinase/prolidase N-terminal domain; 1.
+DR   PROSITE; PS00491; PROLINE_PEPTIDASE; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Aminopeptidase; Cytoplasm; Direct protein sequencing;
+KW   Hydrolase; Manganese; Metal-binding; Metalloprotease; Protease;
+KW   Reference proteome.
+FT   CHAIN           1..623
+FT                   /note="Xaa-Pro aminopeptidase 1"
+FT                   /id="PRO_0000185085"
+FT   BINDING         77
+FT                   /ligand="a peptide"
+FT                   /ligand_id="ChEBI:CHEBI:60466"
+FT                   /evidence="ECO:0000250|UniProtKB:O44750"
+FT   BINDING         395
+FT                   /ligand="a peptide"
+FT                   /ligand_id="ChEBI:CHEBI:60466"
+FT                   /evidence="ECO:0000250|UniProtKB:O44750"
+FT   BINDING         415
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQW7"
+FT   BINDING         426
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQW7"
+FT   BINDING         426
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQW7"
+FT   BINDING         489
+FT                   /ligand="a peptide"
+FT                   /ligand_id="ChEBI:CHEBI:60466"
+FT                   /evidence="ECO:0000250|UniProtKB:O44750"
+FT   BINDING         489
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQW7"
+FT   BINDING         498
+FT                   /ligand="a peptide"
+FT                   /ligand_id="ChEBI:CHEBI:60466"
+FT                   /evidence="ECO:0000250|UniProtKB:O44750"
+FT   BINDING         523
+FT                   /ligand="a peptide"
+FT                   /ligand_id="ChEBI:CHEBI:60466"
+FT                   /evidence="ECO:0000250|UniProtKB:O44750"
+FT   BINDING         523
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQW7"
+FT   BINDING         537
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQW7"
+FT   BINDING         537
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQW7"
+FT   MOD_RES         304
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQW7"
+SQ   SEQUENCE   623 AA;  69658 MW;  42D21C2617F88225 CRC64;
+     MAPKVTSELL RQLRQAMRNS ECVAEPIQAY IIPSGDAHQS EYIAPCDCRR AFVSGFDGSA
+     GTAIITEEHA AMWTDGRYFL QAAKQMDNNW TLMKMGLKDT PTQEDWLVSV LPEGSRVGVD
+     PLIIPTDYWK KMAKVLRSAG HHLVPVKENL VDKIWTDRPE RPCKPLLTLG LDYTGISWKE
+     KVADLRLKMA ERSIVWFVVT ALDEIAWLFN LRGSDVEHNP VFFSYAIIGL ERIMLFIDGD
+     RIDAPGVKQH LLLDLGLEAE YKIQVLPYKS ILSELKTLCA DLSPREKVWV SDKASYAVSE
+     AIPKDHRCCM PYTPICIAKA VKNSAESAGM RRAHIKDAVA LCELFNWLEQ EVPKGGVTEI
+     SAADKAEEFR RQQADFVDLS FPTISSTGPN GAIIHYAPIP ETNRTLSLDE VYLIDSGAQY
+     KDGTTDVTRT MHFGTPTAYE KECFTYVLKG HIAVSAAVFP TGTKGHLLDS FARSALWDSG
+     LDYLHGTGHG VGSFLNVHEG PCGISYKTFS DEPLEAGMIV TDEPGYYEDG AFGIRIENVV
+     LVVPAKTKYN FNNRGSLTFE PLTLVPIQTK MIDVDALTDK ECDWLNSYHQ TCRDVIGKEL
+     QTQGRQEALE WLLRETEPIS RQH
+//

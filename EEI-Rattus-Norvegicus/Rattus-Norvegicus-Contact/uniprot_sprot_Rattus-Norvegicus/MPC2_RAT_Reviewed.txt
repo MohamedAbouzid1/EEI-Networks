@@ -1,0 +1,132 @@
+ID   MPC2_RAT                Reviewed;         127 AA.
+AC   P38718;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 1.
+DT   29-MAY-2024, entry version 130.
+DE   RecName: Full=Mitochondrial pyruvate carrier 2;
+DE   AltName: Full=Brain protein 44;
+DE   AltName: Full=Protein 0-44;
+GN   Name=Mpc2; Synonyms=Brp44;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS LONG AND SHORT), AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=3022128; DOI=10.1128/mcb.6.3.768-778.1986;
+RA   Tsou A.-P., Lai C., Danielson P., Noonan D.J., Sutcliffe J.G.;
+RT   "Structural characterization of a heterogeneous family of rat brain
+RT   mRNAs.";
+RL   Mol. Cell. Biol. 6:768-778(1986).
+CC   -!- FUNCTION: Mediates the uptake of pyruvate into mitochondria.
+CC       {ECO:0000250|UniProtKB:O95563}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(out) + pyruvate(out) = H(+)(in) + pyruvate(in);
+CC         Xref=Rhea:RHEA:64720, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378;
+CC         Evidence={ECO:0000250|UniProtKB:O95563};
+CC   -!- SUBUNIT: Homodimer. Homooligomer. Forms heterodimers with MPC1 and
+CC       MPC1L. The heterodimer is the more stable and dominant form.
+CC       {ECO:0000250|UniProtKB:O95563}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000250|UniProtKB:O95563}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=Long;
+CC         IsoId=P38718-1; Sequence=Displayed;
+CC       Name=Short;
+CC         IsoId=P38718-2; Sequence=VSP_006719;
+CC   -!- TISSUE SPECIFICITY: Liver, kidney, and brain.
+CC       {ECO:0000269|PubMed:3022128}.
+CC   -!- SIMILARITY: Belongs to the mitochondrial pyruvate carrier (MPC) (TC
+CC       2.A.105) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M13095; AAA40791.1; -; Genomic_DNA.
+DR   EMBL; M13094; AAA40791.1; JOINED; Genomic_DNA.
+DR   RefSeq; NP_001071111.1; NM_001077643.2. [P38718-1]
+DR   RefSeq; XP_006250188.1; XM_006250126.2. [P38718-2]
+DR   AlphaFoldDB; P38718; -.
+DR   SMR; P38718; -.
+DR   BioGRID; 1199117; 1.
+DR   STRING; 10116.ENSRNOP00000004206; -.
+DR   GuidetoPHARMACOLOGY; 3023; -.
+DR   iPTMnet; P38718; -.
+DR   PhosphoSitePlus; P38718; -.
+DR   jPOST; P38718; -.
+DR   PaxDb; 10116-ENSRNOP00000004206; -.
+DR   Ensembl; ENSRNOT00000004206.8; ENSRNOP00000004206.6; ENSRNOG00000003150.8. [P38718-1]
+DR   Ensembl; ENSRNOT00055029758; ENSRNOP00055023903; ENSRNOG00055017585. [P38718-1]
+DR   Ensembl; ENSRNOT00060016624; ENSRNOP00060012986; ENSRNOG00060009849. [P38718-1]
+DR   Ensembl; ENSRNOT00065033125; ENSRNOP00065026490; ENSRNOG00065019658. [P38718-1]
+DR   GeneID; 100359982; -.
+DR   KEGG; rno:100359982; -.
+DR   AGR; RGD:1563422; -.
+DR   CTD; 25874; -.
+DR   RGD; 1563422; Mpc2.
+DR   eggNOG; KOG1589; Eukaryota.
+DR   GeneTree; ENSGT00510000047120; -.
+DR   HOGENOM; CLU_099502_4_1_1; -.
+DR   InParanoid; P38718; -.
+DR   OMA; PQQFAIC; -.
+DR   OrthoDB; 590256at2759; -.
+DR   PhylomeDB; P38718; -.
+DR   PRO; PR:P38718; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000003150; Expressed in kidney and 20 other cell types or tissues.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISS:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0050833; F:pyruvate transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0006086; P:acetyl-CoA biosynthetic process from pyruvate; ISO:RGD.
+DR   GO; GO:0006850; P:mitochondrial pyruvate transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0035774; P:positive regulation of insulin secretion involved in cellular response to glucose stimulus; ISO:RGD.
+DR   InterPro; IPR005336; MPC.
+DR   PANTHER; PTHR14154:SF2; MITOCHONDRIAL PYRUVATE CARRIER 2; 1.
+DR   PANTHER; PTHR14154; UPF0041 BRAIN PROTEIN 44-RELATED; 1.
+DR   Pfam; PF03650; MPC; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Alternative splicing; Membrane; Mitochondrion;
+KW   Mitochondrion inner membrane; Reference proteome; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..127
+FT                   /note="Mitochondrial pyruvate carrier 2"
+FT                   /id="PRO_0000212796"
+FT   TOPO_DOM        2..40
+FT                   /note="Mitochondrial matrix"
+FT                   /evidence="ECO:0000250|UniProtKB:O95563"
+FT   TRANSMEM        41..61
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        62..72
+FT                   /note="Mitochondrial intermembrane"
+FT                   /evidence="ECO:0000250|UniProtKB:O95563"
+FT   TRANSMEM        73..90
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        91..95
+FT                   /note="Mitochondrial matrix"
+FT                   /evidence="ECO:0000250|UniProtKB:O95563"
+FT   TRANSMEM        96..115
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        116..127
+FT                   /note="Mitochondrial intermembrane"
+FT                   /evidence="ECO:0000250|UniProtKB:O95563"
+FT   MOD_RES         26
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9D023"
+FT   VAR_SEQ         117..127
+FT                   /note="Missing (in isoform Short)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_006719"
+SQ   SEQUENCE   127 AA;  14258 MW;  BE8AEC82CA4405A6 CRC64;
+     MAAAGARGLR ATYHRLMDKV ELLLPKKLRP LYNHPAGPRT VFFWAPIMKW GLVCAGLADM
+     ARPAEKLSTA QSTVLMATGF IWSRYSLVII PKNWSLFAVN FFVGSAGASQ LFRIWKYNQE
+     LKSKGIQ
+//

@@ -1,0 +1,164 @@
+ID   CLASR_RAT               Reviewed;         668 AA.
+AC   Q5HZB6;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAY-2007, sequence version 2.
+DT   29-MAY-2024, entry version 90.
+DE   RecName: Full=CLK4-associating serine/arginine rich protein;
+DE   AltName: Full=Splicing factor, arginine/serine-rich 16;
+GN   Name=Clasrp; Synonyms=Sfrs16;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-294 AND SER-541, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Probably functions as an alternative splicing regulator. May
+CC       regulate the mRNA splicing of genes such as CLK1. May act by regulating
+CC       members of the CLK kinase family (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Probably interacts with CLK4. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250}.
+CC   -!- PTM: Phosphorylated in vitro by CLK4. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the splicing factor SR family. {ECO:0000305}.
+CC   -!- CAUTION: It is uncertain whether Met-1 or Met-16 is the initiator.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH473979; EDM08179.1; -; Genomic_DNA.
+DR   EMBL; BC089090; AAH89090.2; -; mRNA.
+DR   RefSeq; NP_001019465.2; NM_001024294.1.
+DR   AlphaFoldDB; Q5HZB6; -.
+DR   SMR; Q5HZB6; -.
+DR   STRING; 10116.ENSRNOP00000075310; -.
+DR   iPTMnet; Q5HZB6; -.
+DR   PhosphoSitePlus; Q5HZB6; -.
+DR   PaxDb; 10116-ENSRNOP00000066334; -.
+DR   Ensembl; ENSRNOT00000075144.3; ENSRNOP00000066334.1; ENSRNOG00000046000.3.
+DR   Ensembl; ENSRNOT00055053715; ENSRNOP00055044437; ENSRNOG00055030958.
+DR   Ensembl; ENSRNOT00060057145; ENSRNOP00060047225; ENSRNOG00060032955.
+DR   Ensembl; ENSRNOT00065056110; ENSRNOP00065046219; ENSRNOG00065032614.
+DR   GeneID; 499390; -.
+DR   KEGG; rno:499390; -.
+DR   AGR; RGD:1563538; -.
+DR   CTD; 11129; -.
+DR   RGD; 1563538; Clasrp.
+DR   eggNOG; KOG2548; Eukaryota.
+DR   GeneTree; ENSGT00940000153892; -.
+DR   InParanoid; Q5HZB6; -.
+DR   OMA; YSECAPV; -.
+DR   OrthoDB; 1330734at2759; -.
+DR   PhylomeDB; Q5HZB6; -.
+DR   PRO; PR:Q5HZB6; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Proteomes; UP000234681; Chromosome 1.
+DR   Bgee; ENSRNOG00000046000; Expressed in cerebellum and 20 other cell types or tissues.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0006397; P:mRNA processing; IEA:UniProtKB-KW.
+DR   GO; GO:0008380; P:RNA splicing; IEA:UniProtKB-KW.
+DR   InterPro; IPR040397; SWAP.
+DR   InterPro; IPR019147; SWAP_N_domain.
+DR   PANTHER; PTHR13161:SF4; CLK4-ASSOCIATING SERINE_ARGININE RICH PROTEIN; 1.
+DR   PANTHER; PTHR13161; SPLICING FACTOR SUPPRESSOR OF WHITE APRICOT; 1.
+DR   Pfam; PF09750; DRY_EERY; 1.
+DR   SMART; SM01141; DRY_EERY; 1.
+PE   1: Evidence at protein level;
+KW   Coiled coil; mRNA processing; mRNA splicing; Nucleus; Phosphoprotein;
+KW   Reference proteome.
+FT   CHAIN           1..668
+FT                   /note="CLK4-associating serine/arginine rich protein"
+FT                   /id="PRO_0000370323"
+FT   REGION          173..232
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          252..668
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          579..641
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        185..214
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        252..269
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        295..309
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        372..399
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        400..432
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        433..450
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        455..485
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        486..531
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        568..636
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         101
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N2M8"
+FT   MOD_RES         285
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N2M8"
+FT   MOD_RES         294
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         327
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N2M8"
+FT   MOD_RES         331
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N2M8"
+FT   MOD_RES         335
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N2M8"
+FT   MOD_RES         541
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         567
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N2M8"
+SQ   SEQUENCE   668 AA;  76807 MW;  1673410C203FF581 CRC64;
+     MWHEARKHER KLRGMMVDYK KRAERRREYY EKIKKDPAQF LQVHGRACKV HLDSAVALAA
+     ESPVNMMPWQ GDTNNMIDRF DVRAHLDHIP DYTPPLLTTI SPEQESDERK CNYERYRGLV
+     QNDFAGISEE QCLYQIYIDE LYGGLQRPSE DEKKKLAEKK ASIGYTYEDS TVAEVEKVAE
+     KPEEEESPAE EESNSDEDEV IPDIDVEVDV DELNQEQVAD LNKQATTYGM ADGDFVRMLR
+     KDKEEAEAIK HAKALEEEKA MYSGRRSRRQ RREFREKRLR GRKISPPSYA RRDSPTYDPY
+     KRSPSESSSE SRSRSRSPSP GREEKITFIT SFGGSDEEAA AAAAAAAASG AAPGKPPAPP
+     QPGGPAPGRN ASARRRSSSS SASRTSSSRS SSRSSSRSRR GYYRSGRHAR SRSRSWSRSR
+     SRSRRYSRSR SRGRRHSDGG SRDGHRYSRS PARRSGYAPR RRSRSRSRSG DRYKRGARGP
+     RHHSSSHSRS SWSLSPSRSR SLTRSGSRSQ SRSRSRSQSH SQSQSHSPSP PREKLTRPAA
+     SPAVGEKLKK TEPAAGKETG AAKPKLTPQE RLKLRMQKAL NRQFKADKKA AQEKMIQQEH
+     ERQEREDELR AMARKIRMKE RERREKEREE WERQYSRQSR SPSPRYSREY SSSRRRSRSR
+     SRSPHYRH
+//

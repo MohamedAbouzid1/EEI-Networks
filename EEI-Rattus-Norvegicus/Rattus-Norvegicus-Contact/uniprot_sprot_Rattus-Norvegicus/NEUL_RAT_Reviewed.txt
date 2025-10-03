@@ -1,0 +1,309 @@
+ID   NEUL_RAT                Reviewed;         704 AA.
+AC   P42676; Q6GQQ4;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   24-JAN-2024, entry version 161.
+DE   RecName: Full=Neurolysin, mitochondrial;
+DE            EC=3.4.24.16 {ECO:0000269|PubMed:12500972, ECO:0000269|PubMed:7836437};
+DE   AltName: Full=Microsomal endopeptidase;
+DE            Short=MEP;
+DE   AltName: Full=Mitochondrial oligopeptidase M;
+DE   AltName: Full=Neurotensin endopeptidase;
+DE   Flags: Precursor;
+GN   Name=Nln;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=7592986; DOI=10.1074/jbc.270.45.27266;
+RA   Dauch P., Vincent J.-P., Checler F.;
+RT   "Molecular cloning and expression of rat brain endopeptidase 3.4.24.16.";
+RL   J. Biol. Chem. 270:27266-27271(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 38-57, FUNCTION, CATALYTIC ACTIVITY, AND SUBCELLULAR
+RP   LOCATION.
+RC   TISSUE=Liver;
+RX   PubMed=7836437; DOI=10.1074/jbc.270.5.2092;
+RA   Serizawa A., Dando P.M., Barrett A.J.;
+RT   "Characterization of a mitochondrial metallopeptidase reveals neurolysin as
+RT   a homologue of thimet oligopeptidase.";
+RL   J. Biol. Chem. 270:2092-2098(1995).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS).
+RX   PubMed=11248043; DOI=10.1073/pnas.051633198;
+RA   Brown C.K., Madauss K., Lian W., Beck M.R., Tolbert W.D., Rodgers D.W.;
+RT   "Structure of neurolysin reveals a deep channel that limits substrate
+RT   access.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:3127-3132(2001).
+RN   [5]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=12500972; DOI=10.1074/jbc.m212030200;
+RA   Rioli V., Gozzo F.C., Heimann A.S., Linardi A., Krieger J.E., Shida C.S.,
+RA   Almeida P.C., Hyslop S., Eberlin M.N., Ferro E.S.;
+RT   "Novel natural peptide substrates for endopeptidase 24.15, neurolysin, and
+RT   angiotensin-converting enzyme.";
+RL   J. Biol. Chem. 278:8547-8555(2003).
+RN   [6]
+RP   FUNCTION.
+RX   PubMed=18077343; DOI=10.1073/pnas.0706980105;
+RA   Heimann A.S., Gomes I., Dale C.S., Pagano R.L., Gupta A., de Souza L.L.,
+RA   Luchessi A.D., Castro L.M., Giorgi R., Rioli V., Ferro E.S., Devi L.A.;
+RT   "Hemopressin is an inverse agonist of CB1 cannabinoid receptors.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:20588-20593(2007).
+CC   -!- FUNCTION: Hydrolyzes oligopeptides such as neurotensin, bradykinin and
+CC       dynorphin A (PubMed:7836437). Acts as a regulator of cannabinoid
+CC       signaling pathway by mediating degradation of hemopressin, an
+CC       antagonist peptide of the cannabinoid receptor CNR1 (PubMed:12500972,
+CC       PubMed:18077343). {ECO:0000269|PubMed:12500972,
+CC       ECO:0000269|PubMed:18077343, ECO:0000269|PubMed:7836437}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Preferential cleavage in neurotensin: 10-Pro-|-Tyr-11.;
+CC         EC=3.4.24.16; Evidence={ECO:0000269|PubMed:12500972,
+CC         ECO:0000269|PubMed:7836437};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P52888};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P52888};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion intermembrane space
+CC       {ECO:0000269|PubMed:7836437}. Cytoplasm, cytosol
+CC       {ECO:0000269|PubMed:7836437}.
+CC   -!- SIMILARITY: Belongs to the peptidase M3 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X87157; CAA60630.1; -; mRNA.
+DR   EMBL; BC072687; AAH72687.1; -; mRNA.
+DR   RefSeq; NP_446422.2; NM_053970.2.
+DR   PDB; 1I1I; X-ray; 2.30 A; P=24-704.
+DR   PDB; 2O3E; X-ray; 2.20 A; A=24-701.
+DR   PDB; 4FXY; X-ray; 2.80 A; P/Q=24-704.
+DR   PDBsum; 1I1I; -.
+DR   PDBsum; 2O3E; -.
+DR   PDBsum; 4FXY; -.
+DR   AlphaFoldDB; P42676; -.
+DR   SMR; P42676; -.
+DR   STRING; 10116.ENSRNOP00000059652; -.
+DR   BindingDB; P42676; -.
+DR   ChEMBL; CHEMBL5169134; -.
+DR   MEROPS; M03.002; -.
+DR   iPTMnet; P42676; -.
+DR   PhosphoSitePlus; P42676; -.
+DR   SwissPalm; P42676; -.
+DR   jPOST; P42676; -.
+DR   PaxDb; 10116-ENSRNOP00000059652; -.
+DR   Ensembl; ENSRNOT00065036516; ENSRNOP00065029425; ENSRNOG00065021420.
+DR   GeneID; 117041; -.
+DR   KEGG; rno:117041; -.
+DR   UCSC; RGD:621518; rat.
+DR   AGR; RGD:621518; -.
+DR   CTD; 57486; -.
+DR   RGD; 621518; Nln.
+DR   eggNOG; KOG2089; Eukaryota.
+DR   InParanoid; P42676; -.
+DR   OrthoDB; 735202at2759; -.
+DR   PhylomeDB; P42676; -.
+DR   TreeFam; TF300459; -.
+DR   BRENDA; 3.4.24.16; 5301.
+DR   Reactome; R-RNO-375276; Peptide ligand-binding receptors.
+DR   EvolutionaryTrace; P42676; -.
+DR   PRO; PR:P42676; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005758; C:mitochondrial intermembrane space; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IDA:RGD.
+DR   GO; GO:0070012; F:oligopeptidase activity; IDA:RGD.
+DR   GO; GO:0008233; F:peptidase activity; IDA:UniProtKB.
+DR   GO; GO:0042277; F:peptide binding; ISO:RGD.
+DR   GO; GO:0043171; P:peptide catabolic process; IDA:UniProtKB.
+DR   GO; GO:0006518; P:peptide metabolic process; IBA:GO_Central.
+DR   GO; GO:0030163; P:protein catabolic process; IDA:RGD.
+DR   GO; GO:0006508; P:proteolysis; IBA:GO_Central.
+DR   GO; GO:0006111; P:regulation of gluconeogenesis; ISO:RGD.
+DR   GO; GO:1902809; P:regulation of skeletal muscle fiber differentiation; ISO:RGD.
+DR   CDD; cd09605; M3A; 1.
+DR   Gene3D; 3.40.390.10; Collagenase (Catalytic Domain); 1.
+DR   Gene3D; 1.10.1370.10; Neurolysin, domain 3; 1.
+DR   InterPro; IPR024079; MetalloPept_cat_dom_sf.
+DR   InterPro; IPR024077; Neurolysin/TOP_dom2.
+DR   InterPro; IPR024080; Neurolysin/TOP_N.
+DR   InterPro; IPR045090; Pept_M3A_M3B.
+DR   InterPro; IPR001567; Pept_M3A_M3B_dom.
+DR   PANTHER; PTHR11804:SF44; NEUROLYSIN, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11804; PROTEASE M3 THIMET OLIGOPEPTIDASE-RELATED; 1.
+DR   Pfam; PF01432; Peptidase_M3; 1.
+DR   SUPFAM; SSF55486; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Cytoplasm; Direct protein sequencing; Hydrolase;
+KW   Metal-binding; Metalloprotease; Mitochondrion; Protease;
+KW   Reference proteome; Transit peptide; Zinc.
+FT   TRANSIT         1..37
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000269|PubMed:7836437"
+FT   CHAIN           38..704
+FT                   /note="Neurolysin, mitochondrial"
+FT                   /id="PRO_0000028578"
+FT   ACT_SITE        498
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         497
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         501
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         504
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   MOD_RES         664
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BYT8"
+FT   CONFLICT        128
+FT                   /note="K -> R (in Ref. 2; AAH72687)"
+FT                   /evidence="ECO:0000305"
+FT   TURN            43..45
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           54..75
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           80..82
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   TURN            85..88
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           89..107
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           109..112
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           116..137
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           140..152
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           160..175
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   TURN            176..179
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           182..187
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           189..208
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   STRAND          212..216
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   TURN            217..222
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           225..229
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   STRAND          231..233
+FT                   /evidence="ECO:0007829|PDB:4FXY"
+FT   STRAND          235..244
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           245..254
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           258..268
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   TURN            269..272
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           273..293
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           299..304
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           312..347
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           358..360
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           361..372
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           377..380
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           381..383
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           386..401
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   STRAND          403..407
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   STRAND          419..425
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   TURN            426..428
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   STRAND          431..438
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   STRAND          450..455
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   STRAND          468..473
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   STRAND          481..483
+FT                   /evidence="ECO:0007829|PDB:4FXY"
+FT   HELIX           489..507
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   STRAND          510..512
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           513..515
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   TURN            522..526
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           527..533
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           534..537
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           539..545
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   STRAND          549..551
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           557..565
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   TURN            566..570
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           571..588
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           596..606
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           618..621
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   STRAND          625..628
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           635..649
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           651..654
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           659..669
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   TURN            670..672
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           673..675
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           678..686
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+FT   HELIX           693..699
+FT                   /evidence="ECO:0007829|PDB:2O3E"
+SQ   SEQUENCE   704 AA;  80254 MW;  E33F7967A79343D1 CRC64;
+     MITLCLSTLR GLHRAGGSRL QLTMTLGKEL ASPLQAMSSY TAAGRNVLRW DLSPEQIKTR
+     TEQLIAQTKQ VYDTVGTIAL KEVTYENCLQ VLADIEVTYI VERTMLDFPQ HVSSDREVRA
+     ASTEADKKLS RFDIEMSMRE DVFQRIVHLQ ETCDLEKIKP EARRYLEKSI KMGKRNGLHL
+     SEHIRNEIKS MKKRMSELCI DFNKNLNEDD TSLVFSKAEL GALPDDFIDS LEKTDEDKYK
+     VTLKYPHYFP VMKKCCVPET RRKMEMAFHT RCKQENTAIL QQLLPLRAQV AKLLGYNTHA
+     DFVLELNTAK STSRVAAFLD DLSQKLKPLG EAEREFILSL KKKECEERGF EYDGKINAWD
+     LHYYMTQTEE LKYSVDQESL KEYFPIEVVT EGLLSIYQEL LGLSFEQVPD AHVWNKSVSL
+     YTVKDKATGE VLGQFYLDLY PREGKYNHAA CFGLQPGCLL PDGSRMMSVA ALVVNFSQPV
+     AGRPSLLRHD EVRTYFHEFG HVMHQICAQT DFARFSGTNV ETDFVEVPSQ MLENWVWDVD
+     SLRKLSKHYK DGHPITDELL EKLVASRLVN TGLLTLRQIV LSKVDQSLHT NATLDAASEY
+     AKYCTEILGV AATPGTNMPA TFGHLAGGYD GQYYGYLWSE VFSMDMFHSC FKKEGIMNPE
+     VGMKYRNLIL KPGGSLDGMD MLQNFLQREP NQKAFLMSRG LNGS
+//

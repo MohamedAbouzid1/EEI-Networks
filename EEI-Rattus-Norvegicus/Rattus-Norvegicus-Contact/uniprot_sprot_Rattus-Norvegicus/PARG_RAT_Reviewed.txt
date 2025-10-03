@@ -1,0 +1,352 @@
+ID   PARG_RAT                Reviewed;         972 AA.
+AC   Q9QYM2;
+DT   25-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   24-JUL-2024, entry version 113.
+DE   RecName: Full=Poly(ADP-ribose) glycohydrolase {ECO:0000303|PubMed:10502684};
+DE            EC=3.2.1.143 {ECO:0000250|UniProtKB:Q86W56};
+GN   Name=Parg {ECO:0000303|PubMed:10502684, ECO:0000312|RGD:620387};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 543-550; 556-562 AND
+RP   948-957, AND TISSUE SPECIFICITY.
+RC   STRAIN=Buffalo; TISSUE=Colon;
+RX   PubMed=10502684; DOI=10.1093/oxfordjournals.jbchem.a022512;
+RA   Shimokawa T., Masutani M., Nagasawa S., Nozaki T., Ikota N., Aoki Y.,
+RA   Nakagama H., Sugimura T.;
+RT   "Isolation and cloning of rat poly(ADP-ribose) glycohydrolase: presence of
+RT   a potential nuclear export signal conserved in mammalian orthologs.";
+RL   J. Biochem. 126:748-755(1999).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-256; SER-259 AND SER-286, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) OF 385-972 IN COMPLEX WITH SUBSTRATE
+RP   ANALOG, ACTIVE SITE, AND SUBSTRATE-BINDING SITES.
+RX   PubMed=22609859; DOI=10.1038/nsmb.2305;
+RA   Kim I.K., Kiefer J.R., Ho C.M., Stegeman R.A., Classen S., Tainer J.A.,
+RA   Ellenberger T.;
+RT   "Structure of mammalian poly(ADP-ribose) glycohydrolase reveals a flexible
+RT   tyrosine clasp as a substrate-binding element.";
+RL   Nat. Struct. Mol. Biol. 19:653-656(2012).
+CC   -!- FUNCTION: Poly(ADP-ribose) glycohydrolase that degrades poly(ADP-
+CC       ribose) by hydrolyzing the ribose-ribose bonds present in poly(ADP-
+CC       ribose). PARG acts both as an endo- and exoglycosidase, releasing
+CC       poly(ADP-ribose) of different length as well as ADP-ribose monomers. It
+CC       is however unable to cleave the ester bond between the terminal ADP-
+CC       ribose and ADP-ribosylated residues, leaving proteins that are mono-
+CC       ADP-ribosylated. Poly(ADP-ribose) is synthesized after DNA damage is
+CC       only present transiently and is rapidly degraded by PARG. Required to
+CC       prevent detrimental accumulation of poly(ADP-ribose) upon prolonged
+CC       replicative stress, while it is not required for recovery from
+CC       transient replicative stress. Responsible for the prevalence of mono-
+CC       ADP-ribosylated proteins in cells, thanks to its ability to degrade
+CC       poly(ADP-ribose) without cleaving the terminal protein-ribose bond.
+CC       Required for retinoid acid-dependent gene transactivation, probably by
+CC       removing poly(ADP-ribose) from histone demethylase KDM4D, allowing
+CC       chromatin derepression at RAR-dependent gene promoters. Involved in the
+CC       synthesis of ATP in the nucleus, together with PARP1, NMNAT1 and NUDT5.
+CC       Nuclear ATP generation is required for extensive chromatin remodeling
+CC       events that are energy-consuming. {ECO:0000250|UniProtKB:Q86W56}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[(1''->2')-ADP-alpha-D-ribose](n) + H2O = [(1''->2')-ADP-
+CC         alpha-D-ribose](n-1) + ADP-D-ribose; Xref=Rhea:RHEA:52216, Rhea:RHEA-
+CC         COMP:16922, Rhea:RHEA-COMP:16923, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:57967, ChEBI:CHEBI:142512; EC=3.2.1.143;
+CC         Evidence={ECO:0000250|UniProtKB:Q86W56};
+CC   -!- SUBUNIT: Interacts with PCNA. Interacts with NUDT5.
+CC       {ECO:0000250|UniProtKB:Q86W56}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q86W56}.
+CC       Note=Colocalizes with PCNA at replication foci. Relocalizes to the
+CC       cytoplasm in response to DNA damage (By similarity).
+CC       {ECO:0000250|UniProtKB:Q86W56}.
+CC   -!- TISSUE SPECIFICITY: Ubiquitously expressed.
+CC       {ECO:0000269|PubMed:10502684}.
+CC   -!- DOMAIN: The PIP-box mediates interaction with PCNA and localization to
+CC       replication foci. {ECO:0000250|UniProtKB:Q86W56}.
+CC   -!- SIMILARITY: Belongs to the poly(ADP-ribose) glycohydrolase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB019366; BAA87901.1; -; mRNA.
+DR   RefSeq; NP_112629.1; NM_031339.1.
+DR   PDB; 3UEK; X-ray; 1.95 A; A=385-972.
+DR   PDB; 3UEL; X-ray; 3.00 A; A/B/C=385-972.
+DR   PDBsum; 3UEK; -.
+DR   PDBsum; 3UEL; -.
+DR   AlphaFoldDB; Q9QYM2; -.
+DR   SMR; Q9QYM2; -.
+DR   STRING; 10116.ENSRNOP00000027071; -.
+DR   BindingDB; Q9QYM2; -.
+DR   ChEMBL; CHEMBL3317337; -.
+DR   iPTMnet; Q9QYM2; -.
+DR   PhosphoSitePlus; Q9QYM2; -.
+DR   PaxDb; 10116-ENSRNOP00000027071; -.
+DR   GeneID; 83507; -.
+DR   KEGG; rno:83507; -.
+DR   UCSC; RGD:620387; rat.
+DR   AGR; RGD:620387; -.
+DR   CTD; 8505; -.
+DR   RGD; 620387; Parg.
+DR   eggNOG; KOG2064; Eukaryota.
+DR   InParanoid; Q9QYM2; -.
+DR   OrthoDB; 20682at2759; -.
+DR   PhylomeDB; Q9QYM2; -.
+DR   BRENDA; 3.2.1.143; 5301.
+DR   Reactome; R-RNO-110362; POLB-Dependent Long Patch Base Excision Repair.
+DR   EvolutionaryTrace; Q9QYM2; -.
+DR   PRO; PR:Q9QYM2; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0000785; C:chromatin; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0003682; F:chromatin binding; IDA:RGD.
+DR   GO; GO:0004649; F:poly(ADP-ribose) glycohydrolase activity; IDA:RGD.
+DR   GO; GO:1990966; P:ATP generation from poly-ADP-D-ribose; ISS:UniProtKB.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0016045; P:detection of bacterium; ISO:RGD.
+DR   GO; GO:0006974; P:DNA damage response; ISO:RGD.
+DR   GO; GO:0009225; P:nucleotide-sugar metabolic process; IBA:GO_Central.
+DR   GO; GO:0045739; P:positive regulation of DNA repair; IMP:RGD.
+DR   GO; GO:0006282; P:regulation of DNA repair; IBA:GO_Central.
+DR   InterPro; IPR046372; PARG_cat_C.
+DR   InterPro; IPR048362; PARG_helical.
+DR   InterPro; IPR007724; Poly_GlycHdrlase.
+DR   PANTHER; PTHR12837; POLY ADP-RIBOSE GLYCOHYDROLASE; 1.
+DR   PANTHER; PTHR12837:SF0; POLY(ADP-RIBOSE) GLYCOHYDROLASE; 1.
+DR   Pfam; PF05028; PARG_cat_C; 1.
+DR   Pfam; PF20811; PARG_cat_N; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Direct protein sequencing; DNA damage;
+KW   Hydrolase; Nucleus; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..972
+FT                   /note="Poly(ADP-ribose) glycohydrolase"
+FT                   /id="PRO_0000066604"
+FT   REGION          1..452
+FT                   /note="A-domain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   REGION          1..239
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          253..351
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          369..409
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          605..790
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   MOTIF           10..16
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   MOTIF           77..84
+FT                   /note="PIP-box (PCNA interacting peptide)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   COMPBIAS        130..153
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        167..191
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        192..207
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        369..394
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        395..409
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        733
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   ACT_SITE        751
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   ACT_SITE        752
+FT                   /evidence="ECO:0000269|PubMed:22609859"
+FT   BINDING         722..723
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:22609859"
+FT   BINDING         736
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:22609859"
+FT   BINDING         750
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:22609859"
+FT   BINDING         791
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:22609859"
+FT   BINDING         865..870
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|PubMed:22609859"
+FT   MOD_RES         69
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   MOD_RES         135
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   MOD_RES         137
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   MOD_RES         195
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   MOD_RES         197
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   MOD_RES         256
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         259
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         281
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   MOD_RES         286
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         293
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   MOD_RES         297
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   MOD_RES         311
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86W56"
+FT   MOD_RES         337
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:O88622"
+FT   STRAND          448..452
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           454..456
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   TURN            460..463
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          476..478
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           482..484
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          493..497
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          503..506
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          516..520
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          522..524
+FT                   /evidence="ECO:0007829|PDB:3UEL"
+FT   STRAND          526..530
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           531..539
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           546..555
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           558..560
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   TURN            561..563
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           567..574
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           579..587
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           589..598
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           600..603
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          617..622
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           623..634
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          644..646
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   TURN            648..651
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           658..661
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           668..684
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          690..697
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           704..706
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          714..720
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           722..725
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   TURN            726..728
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          729..735
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   TURN            739..744
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           750..757
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           759..763
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           764..767
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          775..780
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          786..790
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           792..794
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          796..800
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          816..821
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           828..832
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           834..848
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           855..857
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          861..864
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           875..888
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          893..896
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           901..916
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           921..935
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   TURN            936..938
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   STRAND          941..943
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+FT   HELIX           948..957
+FT                   /evidence="ECO:0007829|PDB:3UEK"
+SQ   SEQUENCE   972 AA;  109003 MW;  3DED7885684F59E9 CRC64;
+     MSAGPGCEPC TKRPRWGAAG TSAPTASDSR SFPGRQKRVL DPKDAPVQFR VPPSSSACVS
+     GRAGPHRGSV TSFVFKQKPI TTWMDTKGPK TAESESKENN NTRTDPMMSS VQKDNFYPHK
+     VEKLGNVPQL NLDKSPTEKS TPYLNQQQTA GVCKWHSAGE RAEQLSASEP SAVTQAPKQL
+     SNANIDQSPP TDGHSDTDHE EDRDNQQFLT PVKLANAKQT VGDGQARSNC KCSASCQCGQ
+     DCAGCQREEA DVIPESPLSD VGAEDIGTGS KNDNKLTGQE SGLGDSPPFE KESEPESPMD
+     VDNSKTSCQD SEADEEASPV FDEQDDQDDR SSQTANKLSS RQAREVDGDL RKRYLTKGSE
+     IRLHFQFEGG SNAGTSDLNA KPSGNSSSLN VDGRSSKQHG KRDSKITDHF VRIPKSEDKR
+     KEQCEVRHQR AERKIPKYVP PNLPPDKKWL GTPIEEMRKM PRCGVRLPLL RPSASHTVTV
+     RVDLLRAGEV PKPFPTHYKD LWDNKHVKMP CSEQNLYPVE DENGERTAGS RWELIQTALL
+     NKFTRPQNLK DAILKYNVAY SKKWDFTALV DFWDKVLEEA EAQHLYQSIL PDMVKIALCL
+     PNICTQPIPL LKQKMNHSVT MSQEQIASLL ANAFFCTFPR RNAKMKSEYS SYPDINFNRL
+     FEGRSSRKPE KLKTLFCYFR RVTEKKPTGL VTFTRQSLED FPEWERCDKP LTRLHVTYEG
+     TIEGNGRGML QVDFANRFVG GGVTGAGLVQ EEIRFLINPE LIVSRLFTEV LDHNECLIIT
+     GTEQYSEYTG YAETYRWARS HEDGSEKDDW QRCCTEIVAI DALHFRRYLD QFVPEKVRRE
+     LNKAYCGFLR PGVPPENLSA VATGNWGCGA FGGDARLKAL IQLLAAAAAE RDVVYFTFGD
+     SELMRDIYSM HTFLTERKLN VGKVYRLLLR YYREECRDCS SPGPDTKLYP FIYHAAESSA
+     ETSDQPGQRT GT
+//

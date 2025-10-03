@@ -1,0 +1,248 @@
+ID   RB27A_RAT               Reviewed;         221 AA.
+AC   P23640; Q4KMA7;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1991, sequence version 1.
+DT   02-OCT-2024, entry version 176.
+DE   RecName: Full=Ras-related protein Rab-27A;
+DE            Short=Rab-27;
+DE            EC=3.6.5.2 {ECO:0000250|UniProtKB:P51159};
+DE   AltName: Full=GTP-binding protein Ram;
+DE   AltName: Full=Ram p25;
+GN   Name=Rab27a; Synonyms=Rab27;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Megakaryocyte;
+RX   PubMed=2124544; DOI=10.1016/0014-5793(90)81431-m;
+RA   Nagata K., Satoh T., Itoh H., Kozasa T., Okano Y., Doi T., Kaziro Y.,
+RA   Nozawa Y.;
+RT   "The ram: a novel low molecular weight GTP-binding protein cDNA from a rat
+RT   megakaryocyte library.";
+RL   FEBS Lett. 275:29-32(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Thymus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   CHARACTERIZATION, AND MUTAGENESIS.
+RX   PubMed=1527078; DOI=10.1016/s0021-9258(18)41817-0;
+RA   Nagata K., Suzuki T., Shibagaki Y., Mizumoto K., Okano Y., Kaziro Y.,
+RA   Nozawa Y.;
+RT   "Characterization and site-directed mutagenesis of a low M(r) GTP-binding
+RT   protein, ram p25, expressed in Escherichia coli.";
+RL   J. Biol. Chem. 267:19600-19606(1992).
+CC   -!- FUNCTION: Small GTPase which cycles between active GTP-bound and
+CC       inactive GDP-bound states. In its active state, binds to a variety of
+CC       effector proteins to regulate homeostasis of late endocytic pathway,
+CC       including endosomal positioning, maturation and secretion. Plays a role
+CC       in cytotoxic granule exocytosis in lymphocytes. Required for both
+CC       granule maturation and granule docking and priming at the immunologic
+CC       synapse. {ECO:0000250|UniProtKB:P51159}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = GDP + H(+) + phosphate; Xref=Rhea:RHEA:19669,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58189; EC=3.6.5.2;
+CC         Evidence={ECO:0000250|UniProtKB:P51159};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19670;
+CC         Evidence={ECO:0000250|UniProtKB:P51159};
+CC   -!- ACTIVITY REGULATION: Regulated by guanine nucleotide exchange factors
+CC       (GEFs) which promote the exchange of bound GDP for free GTP, GTPase
+CC       activating proteins (GAPs) which increase the GTP hydrolysis activity,
+CC       and GDP dissociation inhibitors which inhibit the dissociation of the
+CC       nucleotide from the GTPase. Activated by GEFs such as DENND10.
+CC       {ECO:0000250|UniProtKB:P51159}.
+CC   -!- SUBUNIT: Binds SYTL1, SLAC2B, MYRIP, SYTL3, SYTL4 and SYTL5. Interacts
+CC       with RPH3A and RPH3A (By similarity). Binds MLPH and SYTL2. Interacts
+CC       with UNC13D. Does not interact with the BLOC-3 complex (heterodimer of
+CC       HPS1 and HPS4) (By similarity). Interacts (GDP-bound form
+CC       preferentially) with DENND10 (By similarity).
+CC       {ECO:0000250|UniProtKB:P51159, ECO:0000250|UniProtKB:Q9ERI2}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250|UniProtKB:P51159}; Lipid-
+CC       anchor {ECO:0000250|UniProtKB:P51159}. Melanosome
+CC       {ECO:0000250|UniProtKB:P51159}. Late endosome
+CC       {ECO:0000250|UniProtKB:P51159}. Lysosome
+CC       {ECO:0000250|UniProtKB:P51159}. Note=Identified by mass spectrometry in
+CC       melanosome fractions from stage I to stage IV. Localizes to endosomal
+CC       exocytic vesicles. {ECO:0000250|UniProtKB:P51159}.
+CC   -!- TISSUE SPECIFICITY: High levels in eye, intestine, lung, pancreas and
+CC       spleen, and low or absent in brain, liver, heart, kidney, and skeletal
+CC       muscle.
+CC   -!- SIMILARITY: Belongs to the small GTPase superfamily. Rab family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D17352; BAA04167.1; -; mRNA.
+DR   EMBL; BC098667; AAH98667.1; -; mRNA.
+DR   PIR; S12959; S12959.
+DR   RefSeq; NP_059013.1; NM_017317.2.
+DR   RefSeq; XP_017451353.1; XM_017595864.1.
+DR   AlphaFoldDB; P23640; -.
+DR   SMR; P23640; -.
+DR   STRING; 10116.ENSRNOP00000068946; -.
+DR   PhosphoSitePlus; P23640; -.
+DR   jPOST; P23640; -.
+DR   PaxDb; 10116-ENSRNOP00000010012; -.
+DR   Ensembl; ENSRNOT00000083957.2; ENSRNOP00000068946.1; ENSRNOG00000052499.2.
+DR   Ensembl; ENSRNOT00055012047; ENSRNOP00055009550; ENSRNOG00055007239.
+DR   Ensembl; ENSRNOT00060027180; ENSRNOP00060021794; ENSRNOG00060015877.
+DR   Ensembl; ENSRNOT00065029273; ENSRNOP00065023222; ENSRNOG00065017513.
+DR   GeneID; 50645; -.
+DR   KEGG; rno:50645; -.
+DR   UCSC; RGD:620918; rat.
+DR   AGR; RGD:620918; -.
+DR   CTD; 5873; -.
+DR   RGD; 620918; Rab27a.
+DR   eggNOG; KOG0081; Eukaryota.
+DR   GeneTree; ENSGT00940000156218; -.
+DR   HOGENOM; CLU_041217_10_1_1; -.
+DR   InParanoid; P23640; -.
+DR   OMA; CTGANIQ; -.
+DR   OrthoDB; 8685at2759; -.
+DR   PhylomeDB; P23640; -.
+DR   TreeFam; TF312895; -.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   Reactome; R-RNO-8873719; RAB geranylgeranylation.
+DR   Reactome; R-RNO-8876198; RAB GEFs exchange GTP for GDP on RABs.
+DR   Reactome; R-RNO-9824585; Regulation of MITF-M-dependent genes involved in pigmentation.
+DR   PRO; PR:P23640; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000052499; Expressed in stomach and 19 other cell types or tissues.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:RGD.
+DR   GO; GO:0030425; C:dendrite; ISO:RGD.
+DR   GO; GO:0070382; C:exocytic vesicle; ISO:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0005770; C:late endosome; ISS:UniProtKB.
+DR   GO; GO:0005764; C:lysosome; ISO:RGD.
+DR   GO; GO:0042470; C:melanosome; IDA:RGD.
+DR   GO; GO:0032585; C:multivesicular body membrane; ISO:RGD.
+DR   GO; GO:0001750; C:photoreceptor outer segment; ISO:RGD.
+DR   GO; GO:0030141; C:secretory granule; IDA:UniProtKB.
+DR   GO; GO:0033093; C:Weibel-Palade body; IDA:UniProtKB.
+DR   GO; GO:0003925; F:G protein activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019003; F:GDP binding; ISS:UniProtKB.
+DR   GO; GO:0005525; F:GTP binding; ISS:UniProtKB.
+DR   GO; GO:0003924; F:GTPase activity; ISS:UniProtKB.
+DR   GO; GO:0031489; F:myosin V binding; ISO:RGD.
+DR   GO; GO:0019904; F:protein domain specific binding; IPI:UniProtKB.
+DR   GO; GO:0019882; P:antigen processing and presentation; ISO:RGD.
+DR   GO; GO:0007596; P:blood coagulation; ISO:RGD.
+DR   GO; GO:0097278; P:complement-dependent cytotoxicity; ISO:RGD.
+DR   GO; GO:0043316; P:cytotoxic T cell degranulation; ISO:RGD.
+DR   GO; GO:0006887; P:exocytosis; ISO:RGD.
+DR   GO; GO:1990182; P:exosomal secretion; ISO:RGD.
+DR   GO; GO:0030318; P:melanocyte differentiation; ISO:RGD.
+DR   GO; GO:0032400; P:melanosome localization; ISO:RGD.
+DR   GO; GO:0032402; P:melanosome transport; ISO:RGD.
+DR   GO; GO:0036257; P:multivesicular body organization; ISO:RGD.
+DR   GO; GO:0071985; P:multivesicular body sorting pathway; ISO:RGD.
+DR   GO; GO:0043320; P:natural killer cell degranulation; ISO:RGD.
+DR   GO; GO:0051875; P:pigment granule localization; ISO:RGD.
+DR   GO; GO:0051904; P:pigment granule transport; ISO:RGD.
+DR   GO; GO:0043473; P:pigmentation; ISO:RGD.
+DR   GO; GO:1903435; P:positive regulation of constitutive secretory pathway; ISO:RGD.
+DR   GO; GO:0045921; P:positive regulation of exocytosis; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:0050766; P:positive regulation of phagocytosis; ISO:RGD.
+DR   GO; GO:1903428; P:positive regulation of reactive oxygen species biosynthetic process; ISO:RGD.
+DR   GO; GO:1903307; P:positive regulation of regulated secretory pathway; ISO:RGD.
+DR   GO; GO:0009306; P:protein secretion; ISO:RGD.
+DR   GO; GO:0016192; P:vesicle-mediated transport; ISO:RGD.
+DR   CDD; cd04127; Rab27A; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR050227; Rab.
+DR   InterPro; IPR041837; Rab27a/b.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR001806; Small_GTPase.
+DR   NCBIfam; TIGR00231; small_GTP; 1.
+DR   PANTHER; PTHR47977; RAS-RELATED PROTEIN RAB; 1.
+DR   PANTHER; PTHR47977:SF20; RAS-RELATED PROTEIN RAB-27A; 1.
+DR   Pfam; PF00071; Ras; 1.
+DR   PRINTS; PR00449; RASTRNSFRMNG.
+DR   SMART; SM00175; RAB; 1.
+DR   SMART; SM00176; RAN; 1.
+DR   SMART; SM00173; RAS; 1.
+DR   SMART; SM00174; RHO; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51419; RAB; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Disulfide bond; Endosome; Exocytosis; GTP-binding; Hydrolase;
+KW   Lipoprotein; Lysosome; Membrane; Methylation; Nucleotide-binding;
+KW   Phosphoprotein; Prenylation; Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P51159"
+FT   CHAIN           2..221
+FT                   /note="Ras-related protein Rab-27A"
+FT                   /id="PRO_0000121223"
+FT   MOTIF           38..46
+FT                   /note="Effector region"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         16..24
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         74..78
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         133..136
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         163..165
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P51159"
+FT   MOD_RES         2
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P51159"
+FT   MOD_RES         221
+FT                   /note="Cysteine methyl ester"
+FT                   /evidence="ECO:0000250"
+FT   LIPID           219
+FT                   /note="S-geranylgeranyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   LIPID           221
+FT                   /note="S-geranylgeranyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        123..188
+FT                   /evidence="ECO:0000250"
+FT   MUTAGEN         19
+FT                   /note="G->V: No binding of GTP and GDP."
+FT                   /evidence="ECO:0000269|PubMed:1527078"
+FT   MUTAGEN         41
+FT                   /note="T->S: Increased rates of GTP binding and GDP
+FT                   dissociation."
+FT                   /evidence="ECO:0000269|PubMed:1527078"
+FT   MUTAGEN         76
+FT                   /note="A->T: Increased rates of GTP binding and GDP
+FT                   dissociation."
+FT                   /evidence="ECO:0000269|PubMed:1527078"
+FT   MUTAGEN         78
+FT                   /note="Q->L: Increased GTP dissociation and decreased GDP
+FT                   hydrolysis."
+FT                   /evidence="ECO:0000269|PubMed:1527078"
+FT   MUTAGEN         133
+FT                   /note="N->H: Increased rates of GTP binding and GDP
+FT                   dissociation."
+FT                   /evidence="ECO:0000269|PubMed:1527078"
+SQ   SEQUENCE   221 AA;  25068 MW;  6A3125DCC4738C80 CRC64;
+     MSDGDYDYLI KFLALGDSGV GKTSVLYQYT DGKFNSKFIT TVGIDFREKR VVYRANGPDG
+     TVGRGQRIHL QLWDTAGQER FRSLTTAFFR DAMGFLLLFD LTNEQSFLNV RNWISQLQMH
+     AYCENPDIVL CGNKSDLEDQ RAVKEEEARE LAEKYGIPYF ETSAANGTNI SQAIEMLLDL
+     IMKRMERCVD KSWIPEGVVR SNGHTSTDQL SEEKEKGLCG C
+//

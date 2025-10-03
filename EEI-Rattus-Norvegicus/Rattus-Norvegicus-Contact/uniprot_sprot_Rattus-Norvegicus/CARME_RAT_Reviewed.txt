@@ -1,0 +1,179 @@
+ID   CARME_RAT               Reviewed;         400 AA.
+AC   Q5BJZ6;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   12-APR-2005, sequence version 1.
+DT   08-NOV-2023, entry version 105.
+DE   RecName: Full=Carnosine N-methyltransferase {ECO:0000303|PubMed:26001783, ECO:0000305, ECO:0000312|RGD:1311863};
+DE            EC=2.1.1.22 {ECO:0000269|PubMed:26001783};
+DE   AltName: Full=Anserine-producing methyltransferase {ECO:0000303|PubMed:26001783};
+GN   Name=Carnmt1 {ECO:0000312|RGD:1311863};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Thymus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY, FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RX   PubMed=26001783; DOI=10.1074/jbc.m115.640037;
+RA   Drozak J., Piecuch M., Poleszak O., Kozlowski P., Chrobok L., Baelde H.J.,
+RA   de Heer E.;
+RT   "UPF0586 protein C9orf41 homolog is anserine-producing methyltransferase.";
+RL   J. Biol. Chem. 290:17190-17205(2015).
+CC   -!- FUNCTION: N-methyltransferase that catalyzes the formation of anserine
+CC       (beta-alanyl-N(Pi)-methyl-L-histidine) from carnosine. Anserine, a
+CC       methylated derivative of carnosine (beta-alanyl-L-histidine), is an
+CC       abundant constituent of vertebrate skeletal muscles. Also methylates
+CC       other L-histidine-containing di- and tripeptides such as Gly-Gly-His,
+CC       Gly-His and homocarnosine (GABA-His). {ECO:0000269|PubMed:26001783}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=carnosine + S-adenosyl-L-methionine = anserine + H(+) + S-
+CC         adenosyl-L-homocysteine; Xref=Rhea:RHEA:14205, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57485, ChEBI:CHEBI:57856, ChEBI:CHEBI:58445,
+CC         ChEBI:CHEBI:59789; EC=2.1.1.22;
+CC         Evidence={ECO:0000269|PubMed:26001783};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=3.33 mM for carnosine {ECO:0000269|PubMed:26001783};
+CC         KM=0.042 mM for S-adenosyl-L-methionine
+CC         {ECO:0000269|PubMed:26001783};
+CC         Vmax=2.93 nmol/min/mg enzyme with carnosine as substrate
+CC         {ECO:0000269|PubMed:26001783};
+CC         Note=kcat is 0.15 min(-1) for carnosine. kcat is 4.69 min(-1) for S-
+CC         adenosyl-L-methionine. {ECO:0000269|PubMed:26001783};
+CC       pH dependence:
+CC         Optimum pH is 7.0-7.5. {ECO:0000269|PubMed:26001783};
+CC       Temperature dependence:
+CC         Optimum temperature is 50 degrees Celsius.
+CC         {ECO:0000269|PubMed:26001783};
+CC   -!- SUBUNIT: Homodimer. Each monomer accommodates one molecule of carnosine
+CC       in its active pocket, precisely anchoring the histidine imidazole ring
+CC       such that only N1 is exposed and deprotonated for methylation.
+CC       {ECO:0000250|UniProtKB:Q8N4J0}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol {ECO:0000269|PubMed:26001783}.
+CC       Nucleus {ECO:0000269|PubMed:26001783}.
+CC   -!- TISSUE SPECIFICITY: Expressed at higher level in skeletal muscle
+CC       compared to other tissues. {ECO:0000269|PubMed:26001783}.
+CC   -!- DOMAIN: The Gly-Xaa-Gly-Xaa-Gly (GXGXG) motif binds the adenosyl part
+CC       of S-adenosyl-L-methionine. {ECO:0000250|UniProtKB:Q8N4J0}.
+CC   -!- DOMAIN: The carnosine-binding region forms hydrophobic and hydrogen
+CC       bonds with carnosine, defining a flipping orientation of the imidazole
+CC       ring so that N1 is present next to S-adenosyl-L-methionine for
+CC       methylation. {ECO:0000250|UniProtKB:Q8N4J0}.
+CC   -!- SIMILARITY: Belongs to the carnosine N-methyltransferase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC091268; AAH91268.1; -; mRNA.
+DR   RefSeq; NP_001020145.1; NM_001024974.1.
+DR   AlphaFoldDB; Q5BJZ6; -.
+DR   SMR; Q5BJZ6; -.
+DR   STRING; 10116.ENSRNOP00000017405; -.
+DR   iPTMnet; Q5BJZ6; -.
+DR   PhosphoSitePlus; Q5BJZ6; -.
+DR   PaxDb; 10116-ENSRNOP00000017405; -.
+DR   GeneID; 293871; -.
+DR   KEGG; rno:293871; -.
+DR   UCSC; RGD:1311863; rat.
+DR   AGR; RGD:1311863; -.
+DR   CTD; 138199; -.
+DR   RGD; 1311863; Carnmt1.
+DR   eggNOG; KOG2798; Eukaryota.
+DR   HOGENOM; CLU_030612_0_1_1; -.
+DR   InParanoid; Q5BJZ6; -.
+DR   OrthoDB; 167229at2759; -.
+DR   PhylomeDB; Q5BJZ6; -.
+DR   TreeFam; TF313564; -.
+DR   BRENDA; 2.1.1.22; 5301.
+DR   Reactome; R-RNO-70921; Histidine catabolism.
+DR   SABIO-RK; Q5BJZ6; -.
+DR   PRO; PR:Q5BJZ6; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; IDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0030735; F:carnosine N-methyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0008757; F:S-adenosylmethionine-dependent methyltransferase activity; ISO:RGD.
+DR   GO; GO:0035498; P:carnosine metabolic process; IDA:UniProtKB.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR012901; CARME.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   PANTHER; PTHR12303:SF6; CARNOSINE N-METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR12303; UNCHARACTERIZED; 1.
+DR   Pfam; PF07942; CARME; 1.
+DR   SMART; SM01296; N2227; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Methyltransferase; Nucleus; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..400
+FT                   /note="Carnosine N-methyltransferase"
+FT                   /id="PRO_0000089687"
+FT   REGION          1..49
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         155
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N4J0"
+FT   BINDING         158
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N4J0"
+FT   BINDING         199
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N4J0"
+FT   BINDING         220
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N4J0"
+FT   BINDING         286
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N4J0"
+FT   BINDING         287
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N4J0"
+FT   BINDING         303
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N4J0"
+FT   BINDING         307
+FT                   /ligand="carnosine"
+FT                   /ligand_id="ChEBI:CHEBI:57485"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N4J0"
+FT   BINDING         315
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N4J0"
+FT   BINDING         338
+FT                   /ligand="carnosine"
+FT                   /ligand_id="ChEBI:CHEBI:57485"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N4J0"
+FT   BINDING         389
+FT                   /ligand="carnosine"
+FT                   /ligand_id="ChEBI:CHEBI:57485"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N4J0"
+SQ   SEQUENCE   400 AA;  46385 MW;  293A02908569D836 CRC64;
+     MQRRRRAPPA SQPAQDSGHS EEVEVQFSAG RLGSAAPAGP PVRGTAEDEE RLEREHFWKV
+     INAFRYYGTS MHERVNRTER QFRSLPDNQQ KLLPQFPLHL DKIRKCVDHN QEILLTIVND
+     CIHMFENKEY GEDANGKIMP ASTFDMDKLK STLKQFVRDW SGTGKAERDA CYKPIIKEII
+     KNFPKERWDP SKVNILVPGA GLGRLAWEIA MLGYACQGNE WSFFMLFSSN FVLNRCSEVD
+     KYKLYPWIHQ FSNNRRSADQ IRPIFFPDVD PHSLPPGSNF SMTAGDFQEI YSECNTWDCI
+     ATCFFIDTAH NVIDYIDTIW RILKPGGIWI NLGPLLYHFE NLANELSIEL SYEDIKNVVL
+     QYGFQLEVEK ESVLSTYTVN DLSMMKYYYE CVLFVVRKPQ
+//

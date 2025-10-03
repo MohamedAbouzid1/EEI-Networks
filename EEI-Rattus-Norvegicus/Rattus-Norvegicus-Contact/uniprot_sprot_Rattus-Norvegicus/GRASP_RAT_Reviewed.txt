@@ -1,0 +1,188 @@
+ID   GRASP_RAT               Reviewed;         394 AA.
+AC   Q8R4T5;
+DT   27-SEP-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   02-OCT-2024, entry version 140.
+DE   RecName: Full=General receptor for phosphoinositides 1-associated scaffold protein;
+DE            Short=GRP1-associated scaffold protein;
+DE   AltName: Full=95 kDa postsynaptic density protein discs-large ZO-1 domain-containing protein;
+DE   AltName: Full=PSD-95 PDZ domain-containing protein;
+DE   AltName: Full=Tamalin {ECO:0000303|PubMed:11850456};
+GN   Name=Tamalin {ECO:0000303|PubMed:11850456}; Synonyms=Grasp;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, INTERACTION WITH GRM1;
+RP   GRM2; GRM3; GRM5 AND CYTH2, SUBCELLULAR LOCATION, AND FUNCTION.
+RC   TISSUE=Brain;
+RX   PubMed=11850456; DOI=10.1523/jneurosci.22-04-01280.2002;
+RA   Kitano J., Kimura K., Yamazaki Y., Soda T., Shigemoto R., Nakajima Y.,
+RA   Nakanishi S.;
+RT   "Tamalin, a PDZ domain-containing protein, links a protein complex
+RT   formation of group 1 metabotropic glutamate receptors and the guanine
+RT   nucleotide exchange factor cytohesins.";
+RL   J. Neurosci. 22:1280-1289(2002).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-93 AND SER-386, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Plays a role in intracellular trafficking and contributes to
+CC       the macromolecular organization of group 1 metabotropic glutamate
+CC       receptors (mGluRs) at synapses. {ECO:0000269|PubMed:11850456}.
+CC   -!- SUBUNIT: Heteromer. Composed of TAMALIN, CYTH2 and at least one GRM1.
+CC       Also interacts with CYTH3, GRM2, GRM3 and GRM5.
+CC       {ECO:0000250|UniProtKB:Q9JJA9, ECO:0000269|PubMed:11850456}.
+CC   -!- INTERACTION:
+CC       Q8R4T5; O35431: Apba2; NbExp=4; IntAct=EBI-7361884, EBI-2028211;
+CC       Q8R4T5; P31016: Dlg4; NbExp=3; IntAct=EBI-7361884, EBI-375655;
+CC       Q8R4T5; P97838: Dlgap3; NbExp=3; IntAct=EBI-7361884, EBI-375673;
+CC       Q8R4T5; P31424: Grm5; NbExp=5; IntAct=EBI-7361884, EBI-2902734;
+CC       Q8R4T5; O88382: Magi2; NbExp=5; IntAct=EBI-7361884, EBI-696179;
+CC       Q8R4T5; Q8R4T5: Tamalin; NbExp=3; IntAct=EBI-7361884, EBI-7361884;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, perinuclear region
+CC       {ECO:0000269|PubMed:11850456}. Cell membrane
+CC       {ECO:0000269|PubMed:11850456}; Peripheral membrane protein
+CC       {ECO:0000269|PubMed:11850456}; Cytoplasmic side
+CC       {ECO:0000269|PubMed:11850456}. Postsynaptic cell membrane
+CC       {ECO:0000269|PubMed:11850456}.
+CC   -!- TISSUE SPECIFICITY: Expressed in brain. {ECO:0000269|PubMed:11850456}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF374272; AAL87038.1; -; mRNA.
+DR   RefSeq; NP_620249.1; NM_138894.1.
+DR   PDB; 2EGK; X-ray; 2.85 A; A/B/C/D=96-189.
+DR   PDB; 2EGN; X-ray; 2.40 A; A=96-189.
+DR   PDB; 2EGO; X-ray; 1.80 A; A/B=96-189.
+DR   PDBsum; 2EGK; -.
+DR   PDBsum; 2EGN; -.
+DR   PDBsum; 2EGO; -.
+DR   AlphaFoldDB; Q8R4T5; -.
+DR   SMR; Q8R4T5; -.
+DR   BioGRID; 251380; 19.
+DR   CORUM; Q8R4T5; -.
+DR   ELM; Q8R4T5; -.
+DR   IntAct; Q8R4T5; 16.
+DR   MINT; Q8R4T5; -.
+DR   STRING; 10116.ENSRNOP00000009979; -.
+DR   iPTMnet; Q8R4T5; -.
+DR   PhosphoSitePlus; Q8R4T5; -.
+DR   PaxDb; 10116-ENSRNOP00000009979; -.
+DR   Ensembl; ENSRNOT00000009979.4; ENSRNOP00000009979.1; ENSRNOG00000007346.4.
+DR   Ensembl; ENSRNOT00065039388; ENSRNOP00065032016; ENSRNOG00065023049.
+DR   GeneID; 192254; -.
+DR   KEGG; rno:192254; -.
+DR   UCSC; RGD:70554; rat.
+DR   AGR; RGD:70554; -.
+DR   CTD; 160622; -.
+DR   RGD; 70554; Tamalin.
+DR   eggNOG; KOG3528; Eukaryota.
+DR   GeneTree; ENSGT00530000063734; -.
+DR   HOGENOM; CLU_058640_0_0_1; -.
+DR   InParanoid; Q8R4T5; -.
+DR   OMA; KVHNDSP; -.
+DR   OrthoDB; 5356422at2759; -.
+DR   PhylomeDB; Q8R4T5; -.
+DR   TreeFam; TF316315; -.
+DR   EvolutionaryTrace; Q8R4T5; -.
+DR   PRO; PR:Q8R4T5; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000007346; Expressed in frontal cortex and 18 other cell types or tissues.
+DR   ExpressionAtlas; Q8R4T5; baseline and differential.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0014069; C:postsynaptic density; IDA:SynGO.
+DR   GO; GO:0045211; C:postsynaptic membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0098685; C:Schaffer collateral - CA1 synapse; IEA:Ensembl.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0030165; F:PDZ domain binding; IDA:RGD.
+DR   GO; GO:0031267; F:small GTPase binding; IDA:RGD.
+DR   GO; GO:0099152; P:regulation of neurotransmitter receptor transport, endosome to postsynaptic membrane; IEA:Ensembl.
+DR   GO; GO:0099149; P:regulation of postsynaptic neurotransmitter receptor internalization; ISO:RGD.
+DR   GO; GO:0007165; P:signal transduction; ISO:RGD.
+DR   CDD; cd00992; PDZ_signaling; 1.
+DR   DisProt; DP02535; -.
+DR   Gene3D; 2.30.42.10; -; 1.
+DR   InterPro; IPR052122; Intracell_Traff_Signaling_Reg.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   PANTHER; PTHR15963; GENERAL RECEPTOR FOR PHOSPHOINOSITIDES 1-ASSOCIATED SCAFFOLD PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR15963:SF3; PROTEIN TAMALIN; 1.
+DR   Pfam; PF00595; PDZ; 1.
+DR   SMART; SM00228; PDZ; 1.
+DR   SUPFAM; SSF50156; PDZ domain-like; 1.
+DR   PROSITE; PS50106; PDZ; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Cytoplasm; Membrane; Methylation;
+KW   Phosphoprotein; Postsynaptic cell membrane; Reference proteome; Synapse.
+FT   CHAIN           1..394
+FT                   /note="General receptor for phosphoinositides 1-associated
+FT                   scaffold protein"
+FT                   /id="PRO_0000087586"
+FT   DOMAIN          100..189
+FT                   /note="PDZ"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00143"
+FT   REGION          1..51
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          180..257
+FT                   /note="Interaction with PSCD3"
+FT                   /evidence="ECO:0000250"
+FT   REGION          293..318
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        294..309
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         76
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JJA9"
+FT   MOD_RES         93
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         236
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7Z6J2"
+FT   MOD_RES         269
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JJA9"
+FT   MOD_RES         386
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   STRAND          98..104
+FT                   /evidence="ECO:0007829|PDB:2EGO"
+FT   STRAND          107..109
+FT                   /evidence="ECO:0007829|PDB:2EGK"
+FT   STRAND          112..119
+FT                   /evidence="ECO:0007829|PDB:2EGO"
+FT   STRAND          130..137
+FT                   /evidence="ECO:0007829|PDB:2EGO"
+FT   HELIX           142..145
+FT                   /evidence="ECO:0007829|PDB:2EGO"
+FT   STRAND          153..157
+FT                   /evidence="ECO:0007829|PDB:2EGO"
+FT   HELIX           167..176
+FT                   /evidence="ECO:0007829|PDB:2EGO"
+FT   TURN            177..179
+FT                   /evidence="ECO:0007829|PDB:2EGO"
+FT   STRAND          180..186
+FT                   /evidence="ECO:0007829|PDB:2EGO"
+SQ   SEQUENCE   394 AA;  42321 MW;  520D0AD23CB2B70D CRC64;
+     MTLRRLRKLQ QKEEATAAPD LAGRAPDSEA ARAAPTPSGP PAAAAPPGAP GDELYAALED
+     YHPAELYRAL AVSGGTLPRR KGSGFRWKNF TQSPEQQRKV LTLEKGDNQT FGFEIQTYGL
+     HHREEQRVEM VTFVCRVHES SPAQLAGLTP GDTIASVNGL NVEGIRHREI VDIIKASGNV
+     LRLETLYGTS IRKAELEARL QYLKQTLYEK WGEYRSLMVQ EQRLVHGLVV KDPSIYDTLE
+     SVRSCLYGAG LLPGSLPFGP LLAAPGGARG GSRRAKGDTD DAVYHTCFFG GAEPQALPPP
+     PPPARAPGPG SAETPASVLC PAPRATLSRS ASVRCAGPGG GGGGGAPGAL WTEAREQALC
+     GAGLRKTKYR SFRRRLLKFI PGLNRSLEEE ESQL
+//

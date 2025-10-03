@@ -1,0 +1,189 @@
+ID   AL1A3_RAT               Reviewed;         512 AA.
+AC   Q8K4D8;
+DT   27-SEP-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   24-JAN-2024, entry version 125.
+DE   RecName: Full=Retinaldehyde dehydrogenase 3;
+DE            Short=RALDH-3;
+DE            Short=RalDH3 {ECO:0000303|PubMed:12390888};
+DE            EC=1.2.1.36 {ECO:0000250|UniProtKB:Q9JHW9};
+DE   AltName: Full=Aldehyde dehydrogenase 6 {ECO:0000303|PubMed:12390888};
+DE   AltName: Full=Aldehyde dehydrogenase family 1 member A3;
+DE            Short=Aldh1a3;
+GN   Name=Aldh1a3; Synonyms=Aldh6, Raldh3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND FUNCTION.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=12390888; DOI=10.1095/biolreprod.102.007021;
+RA   Rexer B.N., Ong D.E.;
+RT   "A novel short-chain alcohol dehydrogenase from rats with retinol
+RT   dehydrogenase activity, cyclically expressed in uterine epithelium.";
+RL   Biol. Reprod. 67:1555-1564(2002).
+CC   -!- FUNCTION: Catalyzes the NAD-dependent oxidation of aldehyde substrates,
+CC       such as all-trans-retinal and all-trans-13,14-dihydroretinal, to their
+CC       corresponding carboxylic acids, all-trans-retinoate and all-trans-
+CC       13,14-dihydroretinoate, respectively (Probable). High specificity for
+CC       all-trans-retinal as substrate, can also accept acetaldehyde as
+CC       substrate in vitro but with lower affinity (By similarity). Required
+CC       for the biosynthesis of normal levels of retinoate in the embryonic
+CC       ocular and nasal regions; a critical lipid in the embryonic development
+CC       of the eye and the nasal region (By similarity).
+CC       {ECO:0000250|UniProtKB:P47895, ECO:0000250|UniProtKB:Q9JHW9,
+CC       ECO:0000305|PubMed:12390888}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinal + H2O + NAD(+) = all-trans-retinoate + 2
+CC         H(+) + NADH; Xref=Rhea:RHEA:42080, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17898, ChEBI:CHEBI:35291,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.2.1.36;
+CC         Evidence={ECO:0000250|UniProtKB:P47895};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:42081;
+CC         Evidence={ECO:0000250|UniProtKB:P47895};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + NAD(+) + retinal = 2 H(+) + NADH + retinoate;
+CC         Xref=Rhea:RHEA:16177, ChEBI:CHEBI:15035, ChEBI:CHEBI:15036,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.2.1.36;
+CC         Evidence={ECO:0000250|UniProtKB:P47895};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16178;
+CC         Evidence={ECO:0000250|UniProtKB:P47895};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-13,14-dihydroretinal + H2O + NAD(+) = all-trans-
+CC         13,14-dihydroretinoate + 2 H(+) + NADH; Xref=Rhea:RHEA:75119,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:194182, ChEBI:CHEBI:194183;
+CC         Evidence={ECO:0000250|UniProtKB:Q9JHW9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:75120;
+CC         Evidence={ECO:0000250|UniProtKB:Q9JHW9};
+CC   -!- PATHWAY: Cofactor metabolism; retinol metabolism.
+CC       {ECO:0000250|UniProtKB:P47895}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:P47895}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q9JHW9}.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF434845; AAN03711.1; -; mRNA.
+DR   RefSeq; NP_695212.1; NM_153300.1.
+DR   AlphaFoldDB; Q8K4D8; -.
+DR   SMR; Q8K4D8; -.
+DR   STRING; 10116.ENSRNOP00000069212; -.
+DR   PhosphoSitePlus; Q8K4D8; -.
+DR   jPOST; Q8K4D8; -.
+DR   PaxDb; 10116-ENSRNOP00000045261; -.
+DR   GeneID; 266603; -.
+DR   KEGG; rno:266603; -.
+DR   UCSC; RGD:628662; rat.
+DR   AGR; RGD:628662; -.
+DR   CTD; 220; -.
+DR   RGD; 628662; Aldh1a3.
+DR   eggNOG; KOG2450; Eukaryota.
+DR   InParanoid; Q8K4D8; -.
+DR   OrthoDB; 2291791at2759; -.
+DR   PhylomeDB; Q8K4D8; -.
+DR   BRENDA; 1.2.1.36; 5301.
+DR   Reactome; R-RNO-5365859; RA biosynthesis pathway.
+DR   UniPathway; UPA00912; -.
+DR   PRO; PR:Q8K4D8; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0004029; F:aldehyde dehydrogenase (NAD+) activity; ISO:RGD.
+DR   GO; GO:0004030; F:aldehyde dehydrogenase [NAD(P)+] activity; IDA:RGD.
+DR   GO; GO:0070403; F:NAD+ binding; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0001758; F:retinal dehydrogenase activity; ISS:UniProtKB.
+DR   GO; GO:0070324; F:thyroid hormone binding; ISO:RGD.
+DR   GO; GO:0006915; P:apoptotic process; ISO:RGD.
+DR   GO; GO:0031076; P:embryonic camera-type eye development; ISO:RGD.
+DR   GO; GO:0048048; P:embryonic eye morphogenesis; ISO:RGD.
+DR   GO; GO:0060324; P:face development; ISO:RGD.
+DR   GO; GO:0070384; P:Harderian gland development; ISO:RGD.
+DR   GO; GO:0042472; P:inner ear morphogenesis; ISO:RGD.
+DR   GO; GO:0001822; P:kidney development; IEP:RGD.
+DR   GO; GO:0007626; P:locomotory behavior; ISO:RGD.
+DR   GO; GO:0050885; P:neuromuscular process controlling balance; ISO:RGD.
+DR   GO; GO:0043584; P:nose development; ISO:RGD.
+DR   GO; GO:0021768; P:nucleus accumbens development; ISO:RGD.
+DR   GO; GO:0060166; P:olfactory pit development; ISO:RGD.
+DR   GO; GO:0002072; P:optic cup morphogenesis involved in camera-type eye development; ISO:RGD.
+DR   GO; GO:0021983; P:pituitary gland development; IEP:RGD.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:0051289; P:protein homotetramerization; ISS:UniProtKB.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0042574; P:retinal metabolic process; ISO:RGD.
+DR   GO; GO:0002138; P:retinoic acid biosynthetic process; IMP:RGD.
+DR   GO; GO:0042573; P:retinoic acid metabolic process; ISO:RGD.
+DR   GO; GO:0042572; P:retinol metabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0060013; P:righting reflex; ISO:RGD.
+DR   CDD; cd07141; ALDH_F1AB_F2_RALDH1; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   PANTHER; PTHR11699:SF209; ALDEHYDE DEHYDROGENASE FAMILY 1 MEMBER A3; 1.
+DR   PANTHER; PTHR11699; ALDEHYDE DEHYDROGENASE-RELATED; 1.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; ALDH-like; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Cytoplasm; Lipid metabolism; NAD; Oxidoreductase;
+KW   Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P47895"
+FT   CHAIN           2..512
+FT                   /note="Retinaldehyde dehydrogenase 3"
+FT                   /id="PRO_0000056480"
+FT   REGION          1..23
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        280
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10008"
+FT   ACT_SITE        314
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10008"
+FT   BINDING         204
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P47895"
+FT   BINDING         207
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P47895"
+FT   BINDING         257..262
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P47895"
+FT   BINDING         361
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P47895"
+FT   BINDING         411
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P47895"
+FT   SITE            181
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:P47895"
+SQ   SEQUENCE   512 AA;  56171 MW;  2A818D7472F67A5E CRC64;
+     MATANGAVEN GQPDGKPPAL PRPIRNLEVK FTKIFINNDW HEPKSGRKFA TYNPSTLEKI
+     CEVEEGDKPD VDKAVEAAQA AFQRGSPWRR LDALSRGQLL HQLADLIERD RAILATLETM
+     DTGKPFLHAF FVDLEGCIKT FRYFAGWADK IQGRTIPTDD NVMCFTRHEP IGVCGAITPW
+     NFPLLMLAWK LAPALCCGNT VVLKPAEQTP LTALYLASLI KEVGFPPGVV NIVPGFGPTV
+     GAAISSHPQI NKIAFTGSTE VGKLVKEAAS RSNLKRVTLE LGGRNPCIVC ADADLDLAVE
+     CAHQGVFFNQ GQCCTAASRV FVEEQVYGEF VRRSVEFAKK RPVGDPFDAK TEQGPQIDQK
+     QFDKILELIE SGKKEGAKLE CGGSAMEDRG LFIKPTVFSD VTDNMRIAKE EIFGPVQPIL
+     KFKNLEEVIK RANSTDYGLT AAVFTKNLDK ALKLASALES GTVWVNCYNA FYAQAPFGGF
+     KMSGNGRELG EYALAEYTEV KTVTIKLDEK NP
+//

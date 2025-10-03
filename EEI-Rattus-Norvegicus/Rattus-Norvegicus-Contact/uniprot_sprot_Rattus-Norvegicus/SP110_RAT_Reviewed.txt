@@ -1,0 +1,142 @@
+ID   SP110_RAT               Reviewed;         478 AA.
+AC   Q3KRF1;
+DT   22-AUG-2006, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 1.
+DT   24-JAN-2024, entry version 101.
+DE   RecName: Full=Sp110 nuclear body protein;
+DE   AltName: Full=Intracellular pathogen resistance protein 1;
+GN   Name=Sp110; Synonyms=Ipr1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-305, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: May act as a transcription factor. Plays a role in the innate
+CC       immunity against intracellular pathogens. Required for resistance to
+CC       M.tuberculosis and L.monocytogenes. Promotes apoptosis of infected
+CC       cells (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000255|PROSITE-ProRule:PRU00185,
+CC       ECO:0000255|PROSITE-ProRule:PRU00747}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC105751; AAI05752.1; -; mRNA.
+DR   RefSeq; NP_001029309.1; NM_001034137.1.
+DR   AlphaFoldDB; Q3KRF1; -.
+DR   SMR; Q3KRF1; -.
+DR   STRING; 10116.ENSRNOP00000053828; -.
+DR   iPTMnet; Q3KRF1; -.
+DR   PhosphoSitePlus; Q3KRF1; -.
+DR   PaxDb; 10116-ENSRNOP00000053828; -.
+DR   Ensembl; ENSRNOT00000056995.5; ENSRNOP00000053828.5; ENSRNOG00000033747.6.
+DR   GeneID; 301570; -.
+DR   KEGG; rno:301570; -.
+DR   UCSC; RGD:1310173; rat.
+DR   AGR; RGD:1310173; -.
+DR   CTD; 3431; -.
+DR   RGD; 1310173; Sp110.
+DR   eggNOG; KOG2177; Eukaryota.
+DR   InParanoid; Q3KRF1; -.
+DR   OMA; QKARNEC; -.
+DR   OrthoDB; 38708at2759; -.
+DR   PhylomeDB; Q3KRF1; -.
+DR   TreeFam; TF335091; -.
+DR   PRO; PR:Q3KRF1; -.
+DR   Proteomes; UP000002494; Chromosome 9.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000981; F:DNA-binding transcription factor activity, RNA polymerase II-specific; IBA:GO_Central.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; IBA:GO_Central.
+DR   GO; GO:0009617; P:response to bacterium; ISO:RGD.
+DR   Gene3D; 3.10.390.10; SAND domain-like; 1.
+DR   InterPro; IPR004865; HSR_dom.
+DR   InterPro; IPR010919; SAND-like_dom_sf.
+DR   InterPro; IPR000770; SAND_dom.
+DR   InterPro; IPR043563; Sp110/Sp140/Sp140L-like.
+DR   PANTHER; PTHR46386; NUCLEAR BODY PROTEIN SP140; 1.
+DR   PANTHER; PTHR46386:SF7; SP110 NUCLEAR BODY PROTEIN; 1.
+DR   Pfam; PF03172; HSR; 1.
+DR   Pfam; PF01342; SAND; 1.
+DR   SMART; SM00258; SAND; 1.
+DR   SUPFAM; SSF63763; SAND domain-like; 1.
+DR   PROSITE; PS51414; HSR; 1.
+DR   PROSITE; PS50864; SAND; 1.
+PE   1: Evidence at protein level;
+KW   Apoptosis; DNA-binding; Immunity; Innate immunity; Nucleus; Phosphoprotein;
+KW   Reference proteome; Transcription; Transcription regulation.
+FT   CHAIN           1..478
+FT                   /note="Sp110 nuclear body protein"
+FT                   /id="PRO_0000247962"
+FT   DOMAIN          1..108
+FT                   /note="HSR"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00747"
+FT   DOMAIN          385..466
+FT                   /note="SAND"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00185"
+FT   REGION          131..310
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          337..385
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           279..294
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        131..172
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        193..213
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        225..239
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        273..297
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        340..355
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         175
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BVK9"
+FT   MOD_RES         177
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BVK9"
+FT   MOD_RES         254
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HB58"
+FT   MOD_RES         305
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   478 AA;  53205 MW;  DE3FB12100B37478 CRC64;
+     MFTLTKALEK ALLQHFIYTK LDIAYAINKP FPFFEALRDN SFITERMYKE SLEACQNLVP
+     LSKVVHNILT SLEQTFDPSM LLILFSKVNL REYPSLGAIC RSFRNVGNAY EGRNRPAPTL
+     LGASTNPAEG CSFQTLLPQP RSQALPPSHL SSGLRIRDPG TTSLQITEIL DEQPSPSHPA
+     APLPGYIREG KTTPVSSRDH QRKDKEDSQE MPHHPSGPEA VVKDILTSKT NNRDDSGAQP
+     PGSPGTMHVV QDNSPAPNDP EVPQEAPCTP ANKKARKRKS CIWSNSKRRR QKKKPPQHKM
+     MGVASPGPGV QEKLKVVGQR TLNQDDSTRN VKVVTRTLRE RTRCAQTSSS QEISKEASKP
+     RARKRPQKRP HTAGRTIHVP EKSKDDAVDF LSPTLSVTCG EARGTLFKEK LKQGSSEKCI
+     QNEAGAWLTV KEFLKKGGKA TSKDWKKAIR CNKKTLRSLE QDGFLFCTSK SKPQKECD
+//

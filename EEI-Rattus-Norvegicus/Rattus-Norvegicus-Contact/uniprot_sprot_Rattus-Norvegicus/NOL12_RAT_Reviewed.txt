@@ -1,0 +1,108 @@
+ID   NOL12_RAT               Reviewed;         216 AA.
+AC   Q5D1Z3;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAR-2005, sequence version 1.
+DT   29-MAY-2024, entry version 96.
+DE   RecName: Full=Nucleolar protein 12;
+DE   AltName: Full=25 kDa nucleolar protein;
+GN   Name=Nol12; Synonyms=Nop25;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar;
+RX   PubMed=16430885; DOI=10.1016/j.yexcr.2005.12.017;
+RA   Suzuki S., Kanno M., Fujiwara T., Sugiyama H., Yokoyama A., Takahashi H.,
+RA   Tanaka J.;
+RT   "Molecular cloning and characterization of Nop25, a novel nucleolar RNA
+RT   binding protein, highly conserved in vertebrate species.";
+RL   Exp. Cell Res. 312:1031-1041(2006).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Ovary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Multifunctional RNA binding protein that plays a role in RNA
+CC       metabolism and DNA maintenance. Participates in the resolution of DNA
+CC       stress and the maintenance of genome integrity by localizing to sites
+CC       of DNA insults. Plays also a role in proper nucleolar organization by
+CC       limiting nucleolar size and regulating nucleolar number.
+CC       Mechanistically, regulates the nucleolar levels of fibrillarin and
+CC       nucleolin, two key players in pre-rRNA processing and ribosome
+CC       assembly. {ECO:0000250|UniProtKB:Q9UGY1}.
+CC   -!- SUBUNIT: Interacts with KIAA1191. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus, nucleolus
+CC       {ECO:0000250|UniProtKB:Q9UGY1}. Nucleus {ECO:0000250|UniProtKB:Q9UGY1}.
+CC       Cytoplasm {ECO:0000250|UniProtKB:Q9UGY1}.
+CC   -!- SIMILARITY: Belongs to the RRP17 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY917132; AAX12419.1; -; mRNA.
+DR   EMBL; BC103643; AAI03644.1; -; mRNA.
+DR   RefSeq; NP_001012765.1; NM_001012747.2.
+DR   AlphaFoldDB; Q5D1Z3; -.
+DR   SMR; Q5D1Z3; -.
+DR   STRING; 10116.ENSRNOP00000013764; -.
+DR   PhosphoSitePlus; Q5D1Z3; -.
+DR   PaxDb; 10116-ENSRNOP00000013764; -.
+DR   Ensembl; ENSRNOT00000013764.7; ENSRNOP00000013764.3; ENSRNOG00000010209.8.
+DR   Ensembl; ENSRNOT00055050546; ENSRNOP00055041627; ENSRNOG00055029174.
+DR   Ensembl; ENSRNOT00060040002; ENSRNOP00060033030; ENSRNOG00060023113.
+DR   Ensembl; ENSRNOT00065055475; ENSRNOP00065045642; ENSRNOG00065032228.
+DR   GeneID; 362955; -.
+DR   KEGG; rno:362955; -.
+DR   AGR; RGD:1305327; -.
+DR   CTD; 79159; -.
+DR   RGD; 1305327; Nol12.
+DR   eggNOG; KOG4709; Eukaryota.
+DR   GeneTree; ENSGT00390000015973; -.
+DR   HOGENOM; CLU_111183_0_0_1; -.
+DR   InParanoid; Q5D1Z3; -.
+DR   OMA; HMHSRKK; -.
+DR   OrthoDB; 5404493at2759; -.
+DR   PhylomeDB; Q5D1Z3; -.
+DR   TreeFam; TF323855; -.
+DR   PRO; PR:Q5D1Z3; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000010209; Expressed in skeletal muscle tissue and 19 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005730; C:nucleolus; IDA:MGI.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0003723; F:RNA binding; IDA:RGD.
+DR   GO; GO:0019843; F:rRNA binding; IDA:MGI.
+DR   GO; GO:0003697; F:single-stranded DNA binding; IDA:RGD.
+DR   InterPro; IPR019186; Nucleolar_protein_12.
+DR   PANTHER; PTHR14577; NUCLEOLAR PROTEIN 12; 1.
+DR   PANTHER; PTHR14577:SF0; NUCLEOLAR PROTEIN 12; 1.
+DR   Pfam; PF09805; Nop25; 1.
+PE   2: Evidence at transcript level;
+KW   Coiled coil; Cytoplasm; Nucleus; Reference proteome; RNA-binding;
+KW   rRNA-binding.
+FT   CHAIN           1..216
+FT                   /note="Nucleolar protein 12"
+FT                   /id="PRO_0000271210"
+FT   REGION          120..216
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          33..97
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        137..151
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        171..186
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   216 AA;  25186 MW;  AD106673D3753B0F CRC64;
+     MGRNKKKKRD GDDRRPRLIL NFDEEKRREY LTGFHKRKVE RKKAAIEEIK QRLKQEQKKL
+     REERHQEYLK MLAEREEALE EADELERLVT AKTESVQYDH PNHTVTVTTV SDLDLSGARL
+     LGLPLPEQGD QDGSQEEEVS SMEKPTKALP KKSKDPLLSQ RISSLTATLH AHSRKKVKRK
+     HPRRAQDSTK KPPSATRTSK TQRRRRMTGK ARHNGE
+//

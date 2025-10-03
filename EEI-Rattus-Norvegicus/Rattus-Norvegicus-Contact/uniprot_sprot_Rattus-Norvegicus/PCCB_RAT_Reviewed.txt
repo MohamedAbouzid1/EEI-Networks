@@ -1,0 +1,170 @@
+ID   PCCB_RAT                Reviewed;         541 AA.
+AC   P07633;
+DT   01-APR-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1988, sequence version 1.
+DT   24-JUL-2024, entry version 133.
+DE   RecName: Full=Propionyl-CoA carboxylase beta chain, mitochondrial {ECO:0000305|PubMed:3464942};
+DE            Short=PCCase subunit beta;
+DE            EC=6.4.1.3 {ECO:0000250|UniProtKB:P05166};
+DE   AltName: Full=Propanoyl-CoA:carbon dioxide ligase subunit beta;
+DE   Flags: Precursor;
+GN   Name=Pccb {ECO:0000312|RGD:3265};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=3464942; DOI=10.1073/pnas.83.21.8049;
+RA   Kraus J.P., Firgaira F., Novotny J., Kalousek F., Williams K.R.,
+RA   Williamson C., Ohura T., Rosenberg L.E.;
+RT   "Coding sequence of the precursor of the beta subunit of rat propionyl-CoA
+RT   carboxylase.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 83:8049-8053(1986).
+CC   -!- FUNCTION: This is one of the 2 subunits of the biotin-dependent
+CC       propionyl-CoA carboxylase (PCC), a mitochondrial enzyme involved in the
+CC       catabolism of odd chain fatty acids, branched-chain amino acids
+CC       isoleucine, threonine, methionine, and valine and other metabolites.
+CC       Propionyl-CoA carboxylase catalyzes the carboxylation of propionyl-
+CC       CoA/propanoyl-CoA to D-methylmalonyl-CoA/(S)-methylmalonyl-CoA (By
+CC       similarity). Within the holoenzyme, the alpha subunit catalyzes the
+CC       ATP-dependent carboxylation of the biotin carried by the biotin
+CC       carboxyl carrier (BCC) domain, while the beta subunit then transfers
+CC       the carboxyl group from carboxylated biotin to propionyl-CoA (By
+CC       similarity). Propionyl-CoA carboxylase also significantly acts on
+CC       butyryl-CoA/butanoyl-CoA, which is converted to ethylmalonyl-CoA/(2S)-
+CC       ethylmalonyl-CoA (By similarity). Other alternative minor substrates
+CC       include (2E)-butenoyl-CoA/crotonoyl-CoA (By similarity).
+CC       {ECO:0000250|UniProtKB:P05166, ECO:0000250|UniProtKB:P79384,
+CC       ECO:0000250|UniProtKB:Q168G2}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + hydrogencarbonate + propanoyl-CoA = (S)-methylmalonyl-
+CC         CoA + ADP + H(+) + phosphate; Xref=Rhea:RHEA:23720,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17544, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57327, ChEBI:CHEBI:57392,
+CC         ChEBI:CHEBI:456216; EC=6.4.1.3;
+CC         Evidence={ECO:0000250|UniProtKB:P05166};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:23721;
+CC         Evidence={ECO:0000250|UniProtKB:P05166};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + butanoyl-CoA + hydrogencarbonate = (2S)-ethylmalonyl-CoA
+CC         + ADP + H(+) + phosphate; Xref=Rhea:RHEA:59520, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17544, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57371, ChEBI:CHEBI:60909, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000250|UniProtKB:P79384};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:59521;
+CC         Evidence={ECO:0000250|UniProtKB:P79384};
+CC   -!- PATHWAY: Metabolic intermediate metabolism; propanoyl-CoA degradation;
+CC       succinyl-CoA from propanoyl-CoA: step 1/3.
+CC       {ECO:0000250|UniProtKB:P05166}.
+CC   -!- SUBUNIT: The holoenzyme is a dodecamer composed of 6 PCCA/alpha
+CC       subunits and 6 PCCB/beta subunits. {ECO:0000250|UniProtKB:P05166}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix
+CC       {ECO:0000250|UniProtKB:P05166}.
+CC   -!- DOMAIN: The beta subunit contains the carboxyl transferase (CT) domain.
+CC       {ECO:0000250|UniProtKB:Q168G2}.
+CC   -!- SIMILARITY: Belongs to the AccD/PCCB family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M14634; AAA41818.1; -; mRNA.
+DR   PIR; A25516; A25516.
+DR   AlphaFoldDB; P07633; -.
+DR   SMR; P07633; -.
+DR   IntAct; P07633; 1.
+DR   STRING; 10116.ENSRNOP00000021657; -.
+DR   iPTMnet; P07633; -.
+DR   PhosphoSitePlus; P07633; -.
+DR   SwissPalm; P07633; -.
+DR   jPOST; P07633; -.
+DR   PaxDb; 10116-ENSRNOP00000021657; -.
+DR   UCSC; RGD:3265; rat.
+DR   AGR; RGD:3265; -.
+DR   RGD; 3265; Pccb.
+DR   eggNOG; KOG0540; Eukaryota.
+DR   InParanoid; P07633; -.
+DR   PhylomeDB; P07633; -.
+DR   BioCyc; MetaCyc:MONOMER-8607; -.
+DR   Reactome; R-RNO-196780; Biotin transport and metabolism.
+DR   Reactome; R-RNO-71032; Propionyl-CoA catabolism.
+DR   Reactome; R-RNO-9837999; Mitochondrial protein degradation.
+DR   UniPathway; UPA00945; UER00908.
+DR   PRO; PR:P07633; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:1902494; C:catalytic complex; ISO:RGD.
+DR   GO; GO:0005759; C:mitochondrial matrix; ISS:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004658; F:propionyl-CoA carboxylase activity; ISS:UniProtKB.
+DR   GO; GO:0009063; P:amino acid catabolic process; TAS:RGD.
+DR   GO; GO:0009062; P:fatty acid catabolic process; TAS:RGD.
+DR   InterPro; IPR051047; AccD/PCCB.
+DR   InterPro; IPR034733; AcCoA_carboxyl_beta.
+DR   InterPro; IPR029045; ClpP/crotonase-like_dom_sf.
+DR   InterPro; IPR011763; COA_CT_C.
+DR   InterPro; IPR011762; COA_CT_N.
+DR   PANTHER; PTHR43842; PROPIONYL-COA CARBOXYLASE BETA CHAIN; 1.
+DR   PANTHER; PTHR43842:SF3; PROPIONYL-COA CARBOXYLASE BETA CHAIN, MITOCHONDRIAL; 1.
+DR   Pfam; PF01039; Carboxyl_trans; 1.
+DR   SUPFAM; SSF52096; ClpP/crotonase; 2.
+DR   PROSITE; PS50989; COA_CT_CTER; 1.
+DR   PROSITE; PS50980; COA_CT_NTER; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; ATP-binding; Ligase; Mitochondrion; Nucleotide-binding;
+KW   Phosphoprotein; Reference proteome; Transit peptide.
+FT   TRANSIT         1..28
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           29..541
+FT                   /note="Propionyl-CoA carboxylase beta chain, mitochondrial"
+FT                   /id="PRO_0000000296"
+FT   DOMAIN          34..292
+FT                   /note="CoA carboxyltransferase N-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01136"
+FT   DOMAIN          296..535
+FT                   /note="CoA carboxyltransferase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01137"
+FT   REGION          34..535
+FT                   /note="Carboxyltransferase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01138"
+FT   REGION          327..360
+FT                   /note="Acyl-CoA binding"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         73
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P05166"
+FT   MOD_RES         101
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99MN9"
+FT   MOD_RES         101
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99MN9"
+FT   MOD_RES         250
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99MN9"
+FT   MOD_RES         476
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99MN9"
+FT   MOD_RES         476
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99MN9"
+FT   MOD_RES         491
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99MN9"
+FT   MOD_RES         491
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99MN9"
+SQ   SEQUENCE   541 AA;  58626 MW;  052E668E9EE23524 CRC64;
+     MAAVIRIRAM AAGTRLRVLN CGLGTTIRSL CSQPVSVNER IENKRHAALL GGGQRRIDAQ
+     HKRGKLTARE RISLLLDPGS FLESDMFVEH RCADFGMAAE KNKFPGDSVV TGRGRINGRL
+     VYVFSQDFTV FGGSLSGAHA QKICKIMDQA ITVGAPVIGL NDSGGARIQE GVESLAGYAD
+     IFLRNVTASG VIPQISLIMG PCAGGAVYSP ALTDFTFMVK DTSYLFITGP EFVKSVTNED
+     VTQEQLGGAK THTTVSGVAH RAFDNDVDAL CNLREFLNFL PLSNQDPASI RECHDPSDRL
+     VPELDTVVPL ESSKAYNMLD IIHAVIDERE FFEIMPNYAK NIVIGFARMN GRTVGIVGNQ
+     PNVASGCLDI NSSVKGARFV RFCDAFSIPL ITFVDVPGFL PGTAQEYGGI IRHGAKLLYA
+     FAEATVPKIT VITRKAYGGA YDVMSSKHLL GDTNYAWPTA EIAVMGAKGA VEIIFKGHED
+     VEAAQAEYVE KFANPFPAAV RGFVDDIIQP SSTRARICCD LEVLASKKVH RPWRKHANVP
+     L
+//

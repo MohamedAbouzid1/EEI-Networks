@@ -1,0 +1,268 @@
+ID   PNMT_RAT                Reviewed;         285 AA.
+AC   P10937;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 3.
+DT   24-JUL-2024, entry version 129.
+DE   RecName: Full=Phenylethanolamine N-methyltransferase;
+DE            Short=PNMTase;
+DE            EC=2.1.1.28 {ECO:0000269|PubMed:683413};
+DE   AltName: Full=Noradrenaline N-methyltransferase;
+GN   Name=Pnmt;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=7931317; DOI=10.1046/j.1471-4159.1994.63051603.x;
+RA   Suh Y.H., Chun Y.S., Lee I.S., Kim S.S., Choi W., Chong Y.H., Hong L.,
+RA   Kim S.H., Park C.W., Kim C.G.;
+RT   "Complete nucleotide sequence and tissue-specific expression of the rat
+RT   phenylethanolamine N-methyltransferase gene.";
+RL   J. Neurochem. 63:1603-1608(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Wistar; TISSUE=Spleen;
+RX   PubMed=7558218; DOI=10.1161/01.hyp.26.4.595;
+RA   Koike G., Jacob H.J., Krieger J.E., Szpirer C., Hoehe M.R., Horiuchi M.,
+RA   Dzau V.J.;
+RT   "Investigation of the phenylethanolamine N-methyltransferase gene as a
+RT   candidate gene for hypertension.";
+RL   Hypertension 26:595-601(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 16-285.
+RC   TISSUE=Adrenal gland;
+RX   PubMed=2575695; DOI=10.1016/0169-328x(89)90050-8;
+RA   Weisberg E.P., Baruchin A., Stachowiak M.K., Stricker E.M., Zigmond M.J.,
+RA   Kaplan B.B.;
+RT   "Isolation of a rat adrenal cDNA clone encoding phenylethanolamine N-
+RT   methyltransferase and cold-induced alterations in adrenal PNMT mRNA and
+RT   protein.";
+RL   Brain Res. Mol. Brain Res. 6:159-166(1989).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 26-285.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=2928117; DOI=10.1093/nar/17.5.2125;
+RA   Mezey E.;
+RT   "Cloning of the rat adrenal medullary phenylethanolamine-N-
+RT   methyltransferase.";
+RL   Nucleic Acids Res. 17:2125-2125(1989).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND TISSUE SPECIFICITY.
+RX   PubMed=13863458;
+RA   Axelrod J.;
+RT   "Purification and properties of phenylethanolamine-N-methyl transferase.";
+RL   J. Biol. Chem. 237:1657-1660(1962).
+RN   [6]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, TISSUE
+RP   SPECIFICITY, AND ACTIVITY REGULATION.
+RX   PubMed=683413; DOI=10.1007/bf00964357;
+RA   Diaz Borges J.M., Urbina M., Drujan B.D.;
+RT   "Some properties of phenylethanolamine-N-methyltransferase of rat brain.";
+RL   Neurochem. Res. 3:15-26(1978).
+CC   -!- FUNCTION: Catalyzes the transmethylation of nonepinephrine
+CC       (noradrenaline) to form epinephrine (adrenaline), using S-adenosyl-L-
+CC       methionine as the methyl donor (By similarity). Other substrates
+CC       include phenylethanolamine, octopamine and normetanephrine
+CC       (PubMed:13863458, PubMed:683413). {ECO:0000250|UniProtKB:P11086,
+CC       ECO:0000269|PubMed:13863458, ECO:0000269|PubMed:683413}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phenylethanolamine + S-adenosyl-L-methionine = H(+) + N-
+CC         methylphenylethanolamine + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:12176, ChEBI:CHEBI:15378, ChEBI:CHEBI:57741,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:57946, ChEBI:CHEBI:59789; EC=2.1.1.28;
+CC         Evidence={ECO:0000269|PubMed:683413};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:12177;
+CC         Evidence={ECO:0000305|PubMed:683413};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-noradrenaline + S-adenosyl-L-methionine = (R)-adrenaline +
+CC         H(+) + S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:25269,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:71406, ChEBI:CHEBI:72587; EC=2.1.1.28;
+CC         Evidence={ECO:0000250|UniProtKB:P11086};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:25270;
+CC         Evidence={ECO:0000250|UniProtKB:P11086};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-normetanephrine + S-adenosyl-L-methionine = (R)-
+CC         metanephrine + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:70683, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:189645, ChEBI:CHEBI:189646;
+CC         Evidence={ECO:0000269|PubMed:13863458, ECO:0000269|PubMed:683413};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70684;
+CC         Evidence={ECO:0000305|PubMed:13863458};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-octopamine + S-adenosyl-L-methionine = (R)-synephrine +
+CC         H(+) + S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:70519,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:63694, ChEBI:CHEBI:141486;
+CC         Evidence={ECO:0000269|PubMed:683413};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:70520;
+CC         Evidence={ECO:0000305|PubMed:683413};
+CC   -!- ACTIVITY REGULATION: Inhibited by 3-methyl-l,2,3,4-
+CC       tetrahydro[1]benzothieno[3,2-c]pyridine hydrochloride.
+CC       {ECO:0000269|PubMed:683413}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=288 uM for normetanephrine (enzyme found in the brain)
+CC         {ECO:0000269|PubMed:683413};
+CC         KM=272 uM for normetanephrine (enzyme found in the adrenal gland)
+CC         {ECO:0000269|PubMed:683413};
+CC         KM=1.9 uM for S-adenosyl-L-methionine (enzyme found in the brain)
+CC         {ECO:0000269|PubMed:683413};
+CC         KM=2.9 uM for S-adenosyl-L-methionine (enzyme found in the adrenal
+CC         gland) {ECO:0000269|PubMed:683413};
+CC       pH dependence:
+CC         Optimum pH is 7.9 in phosphate buffer. {ECO:0000269|PubMed:683413};
+CC   -!- PATHWAY: Catecholamine biosynthesis; (R)-adrenaline biosynthesis; (R)-
+CC       adrenaline from (R)-noradrenaline: step 1/1.
+CC       {ECO:0000250|UniProtKB:P11086}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the adrenal medulla and brain.
+CC       {ECO:0000269|PubMed:13863458, ECO:0000269|PubMed:683413}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. NNMT/PNMT/TEMT family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X75333; CAA53082.1; -; Genomic_DNA.
+DR   EMBL; U11694; AAA91779.1; -; Genomic_DNA.
+DR   EMBL; U11275; AAA91779.1; JOINED; Genomic_DNA.
+DR   EMBL; X14211; CAA32428.1; -; mRNA.
+DR   PIR; S38567; S38567.
+DR   RefSeq; NP_113714.1; NM_031526.1.
+DR   AlphaFoldDB; P10937; -.
+DR   SMR; P10937; -.
+DR   STRING; 10116.ENSRNOP00000067392; -.
+DR   PhosphoSitePlus; P10937; -.
+DR   PaxDb; 10116-ENSRNOP00000067392; -.
+DR   GeneID; 24661; -.
+DR   KEGG; rno:24661; -.
+DR   AGR; RGD:3361; -.
+DR   CTD; 5409; -.
+DR   RGD; 3361; Pnmt.
+DR   eggNOG; ENOG502QT44; Eukaryota.
+DR   InParanoid; P10937; -.
+DR   OrthoDB; 5297821at2759; -.
+DR   PhylomeDB; P10937; -.
+DR   Reactome; R-RNO-209905; Catecholamine biosynthesis.
+DR   UniPathway; UPA00749; UER00736.
+DR   PRO; PR:P10937; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0043204; C:perikaryon; IDA:RGD.
+DR   GO; GO:0043195; C:terminal bouton; IDA:RGD.
+DR   GO; GO:0043196; C:varicosity; IDA:RGD.
+DR   GO; GO:0008168; F:methyltransferase activity; TAS:RGD.
+DR   GO; GO:0004603; F:phenylethanolamine N-methyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0008757; F:S-adenosylmethionine-dependent methyltransferase activity; TAS:RGD.
+DR   GO; GO:0016740; F:transferase activity; TAS:RGD.
+DR   GO; GO:0030325; P:adrenal gland development; IEP:RGD.
+DR   GO; GO:0071549; P:cellular response to dexamethasone stimulus; IEP:RGD.
+DR   GO; GO:0071363; P:cellular response to growth factor stimulus; IEP:RGD.
+DR   GO; GO:0071375; P:cellular response to peptide hormone stimulus; IEP:RGD.
+DR   GO; GO:0042418; P:epinephrine biosynthetic process; IDA:RGD.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0042415; P:norepinephrine metabolic process; IDA:RGD.
+DR   GO; GO:0014823; P:response to activity; IEP:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IEP:RGD.
+DR   GO; GO:0045472; P:response to ether; IEP:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0035902; P:response to immobilization stress; IEP:RGD.
+DR   GO; GO:0032868; P:response to insulin; IEP:RGD.
+DR   GO; GO:0035900; P:response to isolation stress; IEP:RGD.
+DR   GO; GO:0043434; P:response to peptide hormone; IEP:RGD.
+DR   GO; GO:0046498; P:S-adenosylhomocysteine metabolic process; TAS:RGD.
+DR   GO; GO:0046500; P:S-adenosylmethionine metabolic process; TAS:RGD.
+DR   GO; GO:0035176; P:social behavior; IEP:RGD.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR025820; NNMT/PNMT/TEMT_CS.
+DR   InterPro; IPR000940; NNMT_TEMT_trans.
+DR   InterPro; IPR053384; SAM-dep_methyltransferase.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; NF041360; GntF_guanitoxin; 1.
+DR   PANTHER; PTHR10867; NNMT/PNMT/TEMT FAMILY MEMBER; 1.
+DR   PANTHER; PTHR10867:SF18; PHENYLETHANOLAMINE N-METHYLTRANSFERASE; 1.
+DR   Pfam; PF01234; NNMT_PNMT_TEMT; 1.
+DR   PIRSF; PIRSF000384; PNMTase; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS01100; NNMT_PNMT_TEMT; 1.
+DR   PROSITE; PS51681; SAM_MT_NNMT_PNMT_TEMT; 1.
+PE   1: Evidence at protein level;
+KW   Catecholamine biosynthesis; Methyltransferase; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P11086"
+FT   CHAIN           2..285
+FT                   /note="Phenylethanolamine N-methyltransferase"
+FT                   /id="PRO_0000159711"
+FT   BINDING         36
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P11086"
+FT   BINDING         41
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P11086"
+FT   BINDING         80..81
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P11086"
+FT   BINDING         86
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P11086"
+FT   BINDING         102
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P11086"
+FT   BINDING         107
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P11086"
+FT   BINDING         159..160
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P11086"
+FT   BINDING         182
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:P11086"
+FT   BINDING         220
+FT                   /ligand="octopamine"
+FT                   /ligand_id="ChEBI:CHEBI:58025"
+FT                   /evidence="ECO:0000250|UniProtKB:P11086"
+FT   BINDING         268
+FT                   /ligand="octopamine"
+FT                   /ligand_id="ChEBI:CHEBI:58025"
+FT                   /evidence="ECO:0000250|UniProtKB:P11086"
+FT   CONFLICT        16..17
+FT                   /note="DS -> LA (in Ref. 3)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        52
+FT                   /note="D -> H (in Ref. 4; CAA32428)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        204
+FT                   /note="T -> A (in Ref. 4; CAA32428)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        211
+FT                   /note="N -> H (in Ref. 2 and 3)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        214
+FT                   /note="F -> L (in Ref. 2 and 3)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        285
+FT                   /note="V -> A (in Ref. 2; AAA91779)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   285 AA;  31670 MW;  28A239A5411AD2F6 CRC64;
+     MDRGSDPKHT AGMDSDSDPG QAEVALAYQR FEPRAYLRNN YAPPRGDLSN PDGVGPWKLR
+     CMAQVFATGE VSGQVLIDIG SGPTIYQLLS ACAHFEDITM TDFLEVNRQE LGLWLREEPG
+     AFDWSVYSQH VCLIEDKGES WQEKERQLRA RVKRVLPIDV HKPQPLGASG LAPLPADALV
+     SAFCLEAVSP DLPSFRQALY HITTLLRPGG NLLFIGALEE SWYLAGEARL SVVPVSEEEV
+     REALVCSGYE VRDLRTYIMP AHLRTGVDDV KGIFFAWAQK IEVQV
+//

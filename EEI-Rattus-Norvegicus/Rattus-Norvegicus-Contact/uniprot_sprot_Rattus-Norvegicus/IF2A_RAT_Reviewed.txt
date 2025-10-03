@@ -1,0 +1,248 @@
+ID   IF2A_RAT                Reviewed;         315 AA.
+AC   P68101; P05199;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   24-JUL-2024, entry version 140.
+DE   RecName: Full=Eukaryotic translation initiation factor 2 subunit 1;
+DE   AltName: Full=Eukaryotic translation initiation factor 2 subunit alpha;
+DE            Short=eIF-2-alpha;
+DE            Short=eIF-2A;
+DE            Short=eIF-2alpha;
+DE            Short=eIF2-alpha;
+GN   Name=Eif2s1; Synonyms=Eif2a;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PHOSPHORYLATION.
+RC   TISSUE=Brain;
+RX   PubMed=2948954; DOI=10.1016/s0021-9258(19)75772-x;
+RA   Ernst H., Duncan R.F., Hershey J.W.B.;
+RT   "Cloning and sequencing of complementary DNAs encoding the alpha-subunit of
+RT   translational initiation factor eIF-2. Characterization of the protein and
+RT   its messenger RNA.";
+RL   J. Biol. Chem. 262:1206-1212(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   INTERACTION WITH METAP2.
+RX   PubMed=1346232; DOI=10.1073/pnas.89.2.539;
+RA   Ray M.K., Datta B., Chakraborty A., Chattopadhyay A., Meza-Keuthen S.,
+RA   Gupta N.K.;
+RT   "The eukaryotic initiation factor 2-associated 67-kDa polypeptide (p67)
+RT   plays a critical role in regulation of protein synthesis initiation in
+RT   animal cells.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 89:539-543(1992).
+CC   -!- FUNCTION: Member of the eIF2 complex that functions in the early steps
+CC       of protein synthesis by forming a ternary complex with GTP and
+CC       initiator tRNA. This complex binds to a 40S ribosomal subunit, followed
+CC       by mRNA binding to form a 43S pre-initiation complex. Junction of the
+CC       60S ribosomal subunit to form the 80S initiation complex is preceded by
+CC       hydrolysis of the GTP bound to eIF2 and release of an eIF2-GDP binary
+CC       complex. In order for eIF2 to recycle and catalyze another round of
+CC       initiation, the GDP bound to eIF2 must exchange with GTP by way of a
+CC       reaction catalyzed by eIF2B. EIF2S1/eIF2-alpha is a key component of
+CC       the integrated stress response (ISR), required for adaptation to
+CC       various stress: phosphorylation by metabolic-stress sensing protein
+CC       kinases (EIF2AK1/HRI, EIF2AK2/PKR, EIF2AK3/PERK and EIF2AK4/GCN2) in
+CC       response to stress converts EIF2S1/eIF2-alpha in a global protein
+CC       synthesis inhibitor, leading to a attenuation of cap-dependent
+CC       translation, while concomitantly initiating the preferential
+CC       translation of ISR-specific mRNAs, such as the transcriptional
+CC       activators ATF4 and QRICH1, and hence allowing ATF4- and QRICH1-
+CC       mediated reprogramming. EIF2S1/eIF2-alpha also acts as an activator of
+CC       mitophagy in response to mitochondrial damage: phosphorylation by
+CC       EIF2AK1/HRI promotes relocalization to the mitochondrial surface,
+CC       thereby triggering PRKN-independent mitophagy (By similarity).
+CC       {ECO:0000250|UniProtKB:P05198}.
+CC   -!- ACTIVITY REGULATION: Activity is regulated by phosphorylation at Ser-49
+CC       and Ser-52, which stabilizes the eIF2/GDP/eIF2B complex and prevents
+CC       the eIF2B-mediated exchange of GDP for GTP, thereby preventing the
+CC       formation of the 43S pre-initiation complex (43S PIC). This results in
+CC       the global attenuation of 5' cap-dependent protein synthesis and
+CC       concomitant translation of ISR-specific mRNAs that contain a short
+CC       upstream open reading frame (uORF) in their 5' UTR, such as ATF4, ATF5,
+CC       DDIT3/CHOP and PPP1R15A/GADD34. {ECO:0000250|UniProtKB:P05198}.
+CC   -!- SUBUNIT: Eukaryotic translation initiation factor 2 eIF2 is a
+CC       heterotrimeric complex composed of an alpha (EIF2S1), a beta (EIF2S2)
+CC       and a gamma (EIF2S3) chain (By similarity). eIF2 is member of the 43S
+CC       pre-initiation complex (43S PIC). eIF2 forms a complex with at least
+CC       CELF1/CUGBP1, CALR, CALR3, EIF2S1, EIF2S2, HSP90B1 and HSPA5 (By
+CC       similarity). Interaction with METAP2 protects EIF2S1 from inhibitory
+CC       phosphorylation (PubMed:1346232). Interacts with ABCF1 (By similarity).
+CC       Associates with ribosomes (By similarity). Interacts with DDX3X in an
+CC       RNA-independent manner (By similarity). {ECO:0000250|UniProtKB:P05198,
+CC       ECO:0000250|UniProtKB:Q6ZWX6, ECO:0000269|PubMed:1346232}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, Stress granule
+CC       {ECO:0000250|UniProtKB:Q6ZWX6}. Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:P56286}. Mitochondrion
+CC       {ECO:0000250|UniProtKB:P05198}. Note=Colocalizes with NANOS3 in the
+CC       stress granules (By similarity). Relocalizes to the surface of
+CC       mitochondria in response to mitochondrial damage and phosphorylation by
+CC       EIF2AK1/HRI (By similarity). {ECO:0000250|UniProtKB:P05198,
+CC       ECO:0000250|UniProtKB:Q6ZWX6}.
+CC   -!- PTM: Phosphorylation at Ser-49 and Ser-52 stabilizes the eIF-
+CC       2/GDP/eIF2B complex and prevents GDP/GTP exchange reaction, thus
+CC       impairing the recycling of eIF-2 between successive rounds of
+CC       initiation and leading to global inhibition of translation, while
+CC       concomitantly initiating the preferential translation of integrated
+CC       stress response (ISR)-specific mRNAs (By similarity). Substrate for at
+CC       least 4 kinases: EIF2AK1/HRI, EIF2AK2/PKR, EIF2AK3/PERK and
+CC       EIF2AK4/GCN2 (By similarity). Phosphorylation on Ser-52 by the
+CC       EIF2AK4/GCN2 protein kinase occurs in response to amino acid starvation
+CC       and UV irradiation (By similarity). Phosphorylation at Ser-52 by
+CC       EIF2AK1/HRI in response to mitochondrial damage promotes relocalization
+CC       to the mitochondrial surface (By similarity).
+CC       {ECO:0000250|UniProtKB:P05198, ECO:0000250|UniProtKB:Q6ZWX6}.
+CC   -!- SIMILARITY: Belongs to the eIF-2-alpha family. {ECO:0000305}.
+CC   -!- CAUTION: This gene should not be confused with EIF2A, with which it
+CC       shares the alias EIF2A. Although both of these proteins function in
+CC       binding initiator tRNA to the 40S ribosomal subunit, the eIF2 complex
+CC       requires GTP, whereas the EIF2A protein does so in a codon-dependent
+CC       manner. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J02646; AAA41110.1; -; mRNA.
+DR   EMBL; BC087019; AAH87019.1; -; mRNA.
+DR   PIR; A26711; A26711.
+DR   RefSeq; NP_062229.1; NM_019356.1.
+DR   AlphaFoldDB; P68101; -.
+DR   BMRB; P68101; -.
+DR   SMR; P68101; -.
+DR   BioGRID; 248534; 5.
+DR   IntAct; P68101; 7.
+DR   STRING; 10116.ENSRNOP00000013375; -.
+DR   iPTMnet; P68101; -.
+DR   PhosphoSitePlus; P68101; -.
+DR   jPOST; P68101; -.
+DR   PaxDb; 10116-ENSRNOP00000013375; -.
+DR   Ensembl; ENSRNOT00000013375.5; ENSRNOP00000013375.2; ENSRNOG00000009432.5.
+DR   Ensembl; ENSRNOT00055031811; ENSRNOP00055025719; ENSRNOG00055018677.
+DR   Ensembl; ENSRNOT00060048341; ENSRNOP00060040257; ENSRNOG00060027849.
+DR   Ensembl; ENSRNOT00065030333; ENSRNOP00065024112; ENSRNOG00065018108.
+DR   GeneID; 54318; -.
+DR   KEGG; rno:54318; -.
+DR   UCSC; RGD:620963; rat.
+DR   AGR; RGD:620963; -.
+DR   CTD; 1965; -.
+DR   RGD; 620963; Eif2s1.
+DR   eggNOG; KOG2916; Eukaryota.
+DR   GeneTree; ENSGT00390000007015; -.
+DR   HOGENOM; CLU_033458_0_0_1; -.
+DR   InParanoid; P68101; -.
+DR   OMA; DVNEHQR; -.
+DR   OrthoDB; 4371132at2759; -.
+DR   PhylomeDB; P68101; -.
+DR   TreeFam; TF101502; -.
+DR   Reactome; R-RNO-156827; L13a-mediated translational silencing of Ceruloplasmin expression.
+DR   Reactome; R-RNO-381042; PERK regulates gene expression.
+DR   Reactome; R-RNO-382556; ABC-family proteins mediated transport.
+DR   Reactome; R-RNO-72649; Translation initiation complex formation.
+DR   Reactome; R-RNO-72695; Formation of the ternary complex, and subsequently, the 43S complex.
+DR   Reactome; R-RNO-72702; Ribosomal scanning and start codon recognition.
+DR   Reactome; R-RNO-72731; Recycling of eIF2:GDP.
+DR   Reactome; R-RNO-9840373; Cellular response to mitochondrial stress.
+DR   PRO; PR:P68101; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000009432; Expressed in testis and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISS:AgBase.
+DR   GO; GO:0010494; C:cytoplasmic stress granule; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0033290; C:eukaryotic 48S preinitiation complex; IBA:GO_Central.
+DR   GO; GO:0005850; C:eukaryotic translation initiation factor 2 complex; IDA:RGD.
+DR   GO; GO:0097451; C:glial limiting end-foot; IDA:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0045202; C:synapse; ISO:RGD.
+DR   GO; GO:0044207; C:translation initiation ternary complex; IDA:RGD.
+DR   GO; GO:0043022; F:ribosome binding; ISO:RGD.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003743; F:translation initiation factor activity; ISS:UniProtKB.
+DR   GO; GO:0034198; P:cellular response to amino acid starvation; ISS:UniProtKB.
+DR   GO; GO:0034605; P:cellular response to heat; IDA:RGD.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; ISO:RGD.
+DR   GO; GO:0034644; P:cellular response to UV; ISS:UniProtKB.
+DR   GO; GO:0140468; P:HRI-mediated signaling; ISS:UniProtKB.
+DR   GO; GO:0000423; P:mitophagy; ISS:UniProtKB.
+DR   GO; GO:0032057; P:negative regulation of translational initiation in response to stress; ISS:UniProtKB.
+DR   GO; GO:0036499; P:PERK-mediated unfolded protein response; ISS:UniProtKB.
+DR   GO; GO:2000676; P:positive regulation of type B pancreatic cell apoptotic process; IMP:RGD.
+DR   GO; GO:0036490; P:regulation of translation in response to endoplasmic reticulum stress; ISO:RGD.
+DR   GO; GO:0043558; P:regulation of translational initiation in response to stress; ISO:RGD.
+DR   GO; GO:0034976; P:response to endoplasmic reticulum stress; ISS:UniProtKB.
+DR   GO; GO:1904373; P:response to kainic acid; IEP:RGD.
+DR   GO; GO:1990737; P:response to manganese-induced endoplasmic reticulum stress; IEP:ParkinsonsUK-UCL.
+DR   GO; GO:0034063; P:stress granule assembly; ISO:RGD.
+DR   GO; GO:0006412; P:translation; ISO:RGD.
+DR   GO; GO:0006413; P:translational initiation; ISO:RGD.
+DR   CDD; cd04452; S1_IF2_alpha; 1.
+DR   Gene3D; 3.30.70.1130; EIF_2_alpha; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR003029; S1_domain.
+DR   InterPro; IPR044126; S1_IF2_alpha.
+DR   InterPro; IPR024055; TIF2_asu_C.
+DR   InterPro; IPR024054; TIF2_asu_middle_sf.
+DR   InterPro; IPR011488; TIF_2_asu.
+DR   PANTHER; PTHR10602; EUKARYOTIC TRANSLATION INITIATION FACTOR 2 SUBUNIT 1; 1.
+DR   PANTHER; PTHR10602:SF0; EUKARYOTIC TRANSLATION INITIATION FACTOR 2 SUBUNIT 1; 1.
+DR   Pfam; PF07541; EIF_2_alpha; 1.
+DR   Pfam; PF00575; S1; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF110993; eIF-2-alpha, C-terminal domain; 1.
+DR   SUPFAM; SSF116742; eIF2alpha middle domain-like; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   PROSITE; PS50126; S1; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Initiation factor; Mitochondrion; Phosphoprotein;
+KW   Protein biosynthesis; Reference proteome; RNA-binding;
+KW   Translation regulation.
+FT   CHAIN           1..315
+FT                   /note="Eukaryotic translation initiation factor 2 subunit
+FT                   1"
+FT                   /id="PRO_0000137386"
+FT   DOMAIN          17..88
+FT                   /note="S1 motif"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00180"
+FT   REGION          292..315
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        300..315
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         49
+FT                   /note="Phosphoserine; by HRI"
+FT                   /evidence="ECO:0000250|UniProtKB:P83268"
+FT   MOD_RES         52
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P05198"
+FT   MOD_RES         141
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P05198"
+FT   MOD_RES         158
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P05198"
+FT   MOD_RES         279
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P05198"
+FT   MOD_RES         281
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P05198"
+SQ   SEQUENCE   315 AA;  36108 MW;  018480B89175D118 CRC64;
+     MPGLSCRFYQ HKFPEVEDVV MVNVRSIAEM GAYVSLLEYN NIEGMILLSE LSRRRIRSIN
+     KLIRIGRNEC VVVIRVDKEK GYIDLSKRRV SPEEAIKCED KFTKSKTVYS ILRHVAEVLE
+     YTKDEQLESL FQRTAWVFDD KYKRPGYGAY DAFKHAVSDP SILDSLDLNE DEREVLINNI
+     NRRLTPQAVK IRADIEVACY GYEGIDAVKE ALRAGLNCST ETMPIKINLI APPRYVMTTT
+     TLERTEGLSV LNQAMAVIKE KIEEKRGVFN VQMEPKVVTD TDETELARQL ERLERENAEV
+     DGDDDAEEME AKAED
+//

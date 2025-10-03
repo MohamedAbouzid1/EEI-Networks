@@ -1,0 +1,110 @@
+ID   TIM21_RAT               Reviewed;         245 AA.
+AC   Q5U2X7;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   07-DEC-2004, sequence version 1.
+DT   02-OCT-2024, entry version 112.
+DE   RecName: Full=Mitochondrial import inner membrane translocase subunit Tim21;
+DE   AltName: Full=TIM21-like protein, mitochondrial;
+DE   Flags: Precursor;
+GN   Name=Timm21; Synonyms=Tim21;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Participates in the translocation of transit peptide-
+CC       containing proteins across the mitochondrial inner membrane. Also
+CC       required for assembly of mitochondrial respiratory chain complex I and
+CC       complex IV as component of the MITRAC (mitochondrial translation
+CC       regulation assembly intermediate of cytochrome c oxidase complex)
+CC       complex. Probably shuttles between the presequence translocase and
+CC       respiratory-chain assembly intermediates in a process that promotes
+CC       incorporation of early nuclear-encoded subunits into these complexes.
+CC       {ECO:0000250|UniProtKB:Q9BVV7}.
+CC   -!- SUBUNIT: Component of the TIM23 complex. Component of the MITRAC
+CC       (mitochondrial translation regulation assembly intermediate of
+CC       cytochrome c oxidase complex) complex, the core components of this
+CC       complex being COA3/MITRAC12 and COX14. Interacts with COA3 and MT-
+CC       CO1/COX1. {ECO:0000250|UniProtKB:Q9BVV7}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion membrane {ECO:0000305}; Single-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the TIM21 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC085823; AAH85823.1; -; mRNA.
+DR   RefSeq; NP_001008344.1; NM_001008343.1.
+DR   AlphaFoldDB; Q5U2X7; -.
+DR   SMR; Q5U2X7; -.
+DR   STRING; 10116.ENSRNOP00000020376; -.
+DR   iPTMnet; Q5U2X7; -.
+DR   PhosphoSitePlus; Q5U2X7; -.
+DR   SwissPalm; Q5U2X7; -.
+DR   jPOST; Q5U2X7; -.
+DR   PaxDb; 10116-ENSRNOP00000020376; -.
+DR   Ensembl; ENSRNOT00000020376.5; ENSRNOP00000020376.3; ENSRNOG00000015142.5.
+DR   Ensembl; ENSRNOT00055023530; ENSRNOP00055019139; ENSRNOG00055013698.
+DR   Ensembl; ENSRNOT00060025823; ENSRNOP00060020644; ENSRNOG00060015064.
+DR   Ensembl; ENSRNOT00065004069; ENSRNOP00065002896; ENSRNOG00065002921.
+DR   GeneID; 307210; -.
+DR   KEGG; rno:307210; -.
+DR   AGR; RGD:1307279; -.
+DR   CTD; 29090; -.
+DR   RGD; 1307279; Timm21.
+DR   eggNOG; KOG4836; Eukaryota.
+DR   GeneTree; ENSGT00390000011552; -.
+DR   HOGENOM; CLU_099476_0_0_1; -.
+DR   InParanoid; Q5U2X7; -.
+DR   OrthoDB; 4573706at2759; -.
+DR   PhylomeDB; Q5U2X7; -.
+DR   TreeFam; TF315067; -.
+DR   Reactome; R-RNO-9864848; Complex IV assembly.
+DR   PRO; PR:Q5U2X7; -.
+DR   Proteomes; UP000002494; Chromosome 18.
+DR   Bgee; ENSRNOG00000015142; Expressed in heart and 20 other cell types or tissues.
+DR   GO; GO:0005744; C:TIM23 mitochondrial import inner membrane translocase complex; ISS:UniProtKB.
+DR   GO; GO:0033617; P:mitochondrial cytochrome c oxidase assembly; ISS:UniProtKB.
+DR   GO; GO:0032981; P:mitochondrial respiratory chain complex I assembly; ISS:UniProtKB.
+DR   GO; GO:0030150; P:protein import into mitochondrial matrix; ISS:UniProtKB.
+DR   Gene3D; 3.10.450.320; Mitochondrial import inner membrane translocase subunit Tim21; 1.
+DR   InterPro; IPR013261; Tim21.
+DR   InterPro; IPR038552; Tim21_IMS_sf.
+DR   PANTHER; PTHR13032; MITOCHONDRIAL IMPORT INNER MEMBRANE TRANSLOCASE SUBUNIT TIM21; 1.
+DR   PANTHER; PTHR13032:SF6; MITOCHONDRIAL IMPORT INNER MEMBRANE TRANSLOCASE SUBUNIT TIM21; 1.
+DR   Pfam; PF08294; TIM21; 1.
+PE   2: Evidence at transcript level;
+KW   Membrane; Mitochondrion; Protein transport; Reference proteome;
+KW   Transit peptide; Translocation; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   TRANSIT         1..18
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           19..245
+FT                   /note="Mitochondrial import inner membrane translocase
+FT                   subunit Tim21"
+FT                   /id="PRO_0000043231"
+FT   TRANSMEM        108..128
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   REGION          64..97
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        69..84
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   245 AA;  27876 MW;  10DCA7B2071B81ED CRC64;
+     MICAFLRVVR HAEKLHGSLG RQLLLPHFVL TKACLKTQPL RWGLREQKKT VQPRTVLGFT
+     QKTFWTQGPD PRKAKEDSSK QVSINRNQRE ETGVSTSQKV KEAGRDVTYL IVVLFGVSIT
+     GSLLYTIFKE LFSSSSPNII YGKALGKCRT HPEVISVFGE PVKGYGEMSR RGRRQHVSFT
+     EYANNGLKRI RVKFYIEGSE PGKQGTVHAE VEENPRSGQF DFRYIFVDVA PKRSIVVEDN
+     RFQQS
+//

@@ -1,0 +1,105 @@
+ID   TSAP1_RAT               Reviewed;         287 AA.
+AC   Q9QZI7;
+DT   02-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   27-MAR-2024, entry version 106.
+DE   RecName: Full=tRNA selenocysteine 1-associated protein 1;
+DE   AltName: Full=SECp43;
+DE   AltName: Full=tRNA selenocysteine-associated protein 1;
+GN   Name=Trnau1ap; Synonyms=Secp43, Trspap1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], IDENTIFICATION IN A COMPLEX WITH TRNA(SEC),
+RP   INTERACTION WITH SEPSECS, SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Cerebellum;
+RX   PubMed=10606267; DOI=10.1017/s1355838299991598;
+RA   Ding F., Grabowski P.J.;
+RT   "Identification of a protein component of a mammalian tRNA(Sec) complex
+RT   implicated in the decoding of UGA as selenocysteine.";
+RL   RNA 5:1561-1569(1999).
+CC   -!- FUNCTION: Involved in the early steps of selenocysteine biosynthesis
+CC       and tRNA(Sec) charging to the later steps resulting in the
+CC       cotranslational incorporation of selenocysteine into selenoproteins.
+CC       Stabilizes the SECISBP2, EEFSEC and tRNA(Sec) complex. May be involved
+CC       in the methylation of tRNA(Sec). Enhances efficiency of selenoproteins
+CC       synthesis (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Component of the tRNA(Sec) complex composed at least of
+CC       EEFSEC, SECISBP2, SEPHS1, SEPSECS, TRNAU1AP and tRNA(Sec). Associates
+CC       with mRNP and/or polysomes (By similarity). Found in a complex with
+CC       tRNA(Sec). Interacts with SEPSECS. {ECO:0000250,
+CC       ECO:0000269|PubMed:10606267}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000269|PubMed:10606267}. Cytoplasm
+CC       {ECO:0000269|PubMed:10606267}. Note=Abundant in the nucleus.
+CC   -!- TISSUE SPECIFICITY: Ubiquitous. {ECO:0000269|PubMed:10606267}.
+CC   -!- SIMILARITY: Belongs to the RRM TRSPAP family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF181856; AAD54419.1; -; mRNA.
+DR   RefSeq; NP_075416.1; NM_023027.1.
+DR   AlphaFoldDB; Q9QZI7; -.
+DR   SMR; Q9QZI7; -.
+DR   STRING; 10116.ENSRNOP00000070906; -.
+DR   PhosphoSitePlus; Q9QZI7; -.
+DR   PaxDb; 10116-ENSRNOP00000065702; -.
+DR   Ensembl; ENSRNOT00000113510.1; ENSRNOP00000084120.1; ENSRNOG00000055344.2.
+DR   Ensembl; ENSRNOT00055045768; ENSRNOP00055037517; ENSRNOG00055026499.
+DR   Ensembl; ENSRNOT00060040939; ENSRNOP00060033875; ENSRNOG00060023551.
+DR   Ensembl; ENSRNOT00065048290; ENSRNOP00065039622; ENSRNOG00065027993.
+DR   GeneID; 65241; -.
+DR   KEGG; rno:65241; -.
+DR   AGR; RGD:619995; -.
+DR   CTD; 54952; -.
+DR   RGD; 619995; Trnau1ap.
+DR   eggNOG; KOG0118; Eukaryota.
+DR   GeneTree; ENSGT00940000156139; -.
+DR   InParanoid; Q9QZI7; -.
+DR   OMA; SSKWIPC; -.
+DR   OrthoDB; 129910at2759; -.
+DR   PhylomeDB; Q9QZI7; -.
+DR   PRO; PR:Q9QZI7; -.
+DR   Proteomes; UP000002494; Chromosome 5.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; ISS:HGNC-UCL.
+DR   GO; GO:0000049; F:tRNA binding; IDA:RGD.
+DR   GO; GO:0001514; P:selenocysteine incorporation; ISS:HGNC-UCL.
+DR   CDD; cd12610; RRM1_SECp43; 1.
+DR   CDD; cd12612; RRM2_SECp43; 1.
+DR   Gene3D; 3.30.70.330; -; 2.
+DR   InterPro; IPR012677; Nucleotide-bd_a/b_plait_sf.
+DR   InterPro; IPR035979; RBD_domain_sf.
+DR   InterPro; IPR000504; RRM_dom.
+DR   InterPro; IPR034510; SECp43_RRM2.
+DR   InterPro; IPR040434; TSAP1.
+DR   InterPro; IPR041085; TSAP1_C.
+DR   PANTHER; PTHR37457:SF2; TRNA SELENOCYSTEINE 1-ASSOCIATED PROTEIN 1; 1.
+DR   PANTHER; PTHR37457; TRNA SELENOCYSTEINE 1-ASSOCIATED PROTEIN 1-RELATED; 1.
+DR   Pfam; PF00076; RRM_1; 2.
+DR   Pfam; PF17654; Trnau1ap; 1.
+DR   SMART; SM00360; RRM; 2.
+DR   SUPFAM; SSF54928; RNA-binding domain, RBD; 1.
+DR   PROSITE; PS50102; RRM; 2.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Nucleus; Protein biosynthesis; Reference proteome; Repeat;
+KW   RNA-binding.
+FT   CHAIN           1..287
+FT                   /note="tRNA selenocysteine 1-associated protein 1"
+FT                   /id="PRO_0000304920"
+FT   DOMAIN          3..86
+FT                   /note="RRM 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00176"
+FT   DOMAIN          96..175
+FT                   /note="RRM 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00176"
+SQ   SEQUENCE   287 AA;  32454 MW;  5485AE4CB30E56F5 CRC64;
+     MAASLWMGDL EPYMDENFIS RAFATMGETV MSVKIIRNRL TGIPAGYCFV EFADLATAEK
+     CLHKINGKPL PGATPAKRFK LNYATYGKQP DNSPEYSLFV GDLTPDVDDG MLYEFFVKVY
+     PSCRGGKVVL DQTGVSKGYG FVKFTDELEQ KRALTECQGA VGLGCKPVRL SVAIPKASRV
+     KPVEYSQMYS YSYNQYYQQY QNYYAQWGYD QNTGSYSYSY PQYGYTQSTM QTYEEVGDDA
+     LEDPAPQLDV TEANKEFMEQ SEELYDALMD CHWQPLDTVS SEIPAMM
+//

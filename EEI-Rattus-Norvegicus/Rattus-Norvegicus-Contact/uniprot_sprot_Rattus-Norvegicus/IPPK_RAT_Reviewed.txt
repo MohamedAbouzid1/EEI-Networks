@@ -1,0 +1,103 @@
+ID   IPPK_RAT                Reviewed;         489 AA.
+AC   Q5PXE9;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   04-JAN-2005, sequence version 1.
+DT   24-JUL-2024, entry version 90.
+DE   RecName: Full=Inositol-pentakisphosphate 2-kinase;
+DE            EC=2.7.1.158;
+DE   AltName: Full=Inositol-1,3,4,5,6-pentakisphosphate 2-kinase;
+DE   AltName: Full=Ins(1,3,4,5,6)P5 2-kinase;
+DE            Short=InsP5 2-kinase;
+DE            Short=rIPK1;
+GN   Name=Ippk;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, AND SUBCELLULAR
+RP   LOCATION.
+RX   PubMed=15528195; DOI=10.1074/jbc.m412006200;
+RA   Fujii M., York J.D.;
+RT   "A role for rat inositol polyphosphate kinases, rIpk2 and rIpk1, in
+RT   inositol pentakisphosphate and inositol hexakisphosphate production in Rat-
+RT   1 cells.";
+RL   J. Biol. Chem. 280:1156-1164(2005).
+CC   -!- FUNCTION: Phosphorylates Ins(1,3,4,5,6)P5 at position 2 to form
+CC       Ins(1,2,3,4,5,6)P6 (InsP6 or phytate). InsP6 is involved in many
+CC       processes such as mRNA export, non-homologous end-joining, endocytosis,
+CC       ion channel regulation. It also protects cells from TNF-alpha-induced
+CC       apoptosis. {ECO:0000269|PubMed:15528195}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1D-myo-inositol 1,3,4,5,6-pentakisphosphate + ATP = 1D-myo-
+CC         inositol hexakisphosphate + ADP + H(+); Xref=Rhea:RHEA:20313,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57733,
+CC         ChEBI:CHEBI:58130, ChEBI:CHEBI:456216; EC=2.7.1.158;
+CC         Evidence={ECO:0000269|PubMed:15528195};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305|PubMed:15528195}. Nucleus
+CC       {ECO:0000305|PubMed:15528195}.
+CC   -!- DOMAIN: The EXKPK motif is conserved in inositol-pentakisphosphate 2-
+CC       kinases of both family 1 and 2.
+CC   -!- SIMILARITY: Belongs to the IPK1 type 2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY823319; AAV76010.1; -; mRNA.
+DR   RefSeq; NP_001008556.1; NM_001008556.1.
+DR   AlphaFoldDB; Q5PXE9; -.
+DR   SMR; Q5PXE9; -.
+DR   STRING; 10116.ENSRNOP00000021022; -.
+DR   PhosphoSitePlus; Q5PXE9; -.
+DR   PaxDb; 10116-ENSRNOP00000021022; -.
+DR   Ensembl; ENSRNOT00055025136; ENSRNOP00055020555; ENSRNOG00055014658.
+DR   Ensembl; ENSRNOT00060034786; ENSRNOP00060028566; ENSRNOG00060020106.
+DR   Ensembl; ENSRNOT00065015975; ENSRNOP00065012074; ENSRNOG00065009945.
+DR   GeneID; 306808; -.
+DR   KEGG; rno:306808; -.
+DR   AGR; RGD:1311271; -.
+DR   CTD; 64768; -.
+DR   RGD; 1311271; Ippk.
+DR   eggNOG; KOG4749; Eukaryota.
+DR   InParanoid; Q5PXE9; -.
+DR   OrthoDB; 8233at2759; -.
+DR   PhylomeDB; Q5PXE9; -.
+DR   BRENDA; 2.7.1.158; 5301.
+DR   Reactome; R-RNO-1855167; Synthesis of pyrophosphates in the cytosol.
+DR   Reactome; R-RNO-1855191; Synthesis of IPs in the nucleus.
+DR   PRO; PR:Q5PXE9; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005730; C:nucleolus; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0035299; F:inositol pentakisphosphate 2-kinase activity; IDA:UniProtKB.
+DR   GO; GO:0060090; F:molecular adaptor activity; ISO:RGD.
+DR   GO; GO:0032958; P:inositol phosphate biosynthetic process; IBA:GO_Central.
+DR   GO; GO:1901838; P:positive regulation of transcription of nucleolar large rRNA by RNA polymerase I; ISO:RGD.
+DR   Gene3D; 3.30.200.110; Inositol-pentakisphosphate 2-kinase, N-lobe; 1.
+DR   InterPro; IPR009286; Ins_P5_2-kin.
+DR   InterPro; IPR043001; IP5_2-K_N_lobe.
+DR   PANTHER; PTHR14456; INOSITOL POLYPHOSPHATE KINASE 1; 1.
+DR   PANTHER; PTHR14456:SF2; INOSITOL-PENTAKISPHOSPHATE 2-KINASE; 1.
+DR   Pfam; PF06090; Ins_P5_2-kin; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cytoplasm; Kinase; Nucleotide-binding; Nucleus;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..489
+FT                   /note="Inositol-pentakisphosphate 2-kinase"
+FT                   /id="PRO_0000110531"
+FT   MOTIF           136..140
+FT                   /note="EXKPK motif"
+SQ   SEQUENCE   489 AA;  55634 MW;  4C710CBA57BFA215 CRC64;
+     MEEGKMDENE WSYHGEGNKS LVVAHAQRCV VLRFLKFPPN KKKTSEEILQ HLQNIVDFGK
+     NVMKDFLGEN YVHCGEVVQL PLEFVKQLCL KIQCERPESR CDKDLDTLSG YAMCLPNLTR
+     LQTFPFAEHR PILCVEIKPK CGFIPFSNGV THEMKHKVCR YCMHQHLKVA TGKWKKISKY
+     CPLDLYSGNK QRMHFALKSL LQEAQNNLRI FKNGELIYGC ADARSPVADL KALAHHLKPF
+     FFPSNGLASG PQCTRAVIRE LVHVITRVLL STSDKGRAGA LRLGLQGARV CEASPFSRSL
+     HHQGKNTPEH SGLPKGCLLY KTLQVQMLDQ LDIEGLYPLY NRVEQYLEEF PEERKTLQID
+     GPYDEVFYQK LLDLSTEDDG TVAFALTKVQ QYRVAMTAKD CSIMIALSPC LQGASSDQRP
+     VIPSSRSRLA FSVSVLDLDL KPYESIPHQY KLDSKIVSYY SKTVHAKDDT VRSTRFKEHE
+     DCTLVLHKV
+//

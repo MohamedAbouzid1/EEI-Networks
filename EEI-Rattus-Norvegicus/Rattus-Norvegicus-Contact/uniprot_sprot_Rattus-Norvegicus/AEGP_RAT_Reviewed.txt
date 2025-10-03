@@ -1,0 +1,180 @@
+ID   AEGP_RAT                Reviewed;        1216 AA.
+AC   Q63191;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JUL-2024, entry version 125.
+DE   RecName: Full=Apical endosomal glycoprotein;
+DE   AltName: Full=MAM domain-containing protein 4;
+DE   Flags: Precursor;
+GN   Name=Mamdc4; Synonyms=Aegp;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 22-27; 108-121; 159-179;
+RP   210-227 AND 270-279, AND TISSUE SPECIFICITY.
+RC   TISSUE=Intestinal epithelium;
+RX   PubMed=7829488; DOI=10.1074/jbc.270.4.1583;
+RA   Speelman B.A., Allen K., Grounds T.L., Neutra M.R., Kirchhausen T.,
+RA   Wilson J.M.;
+RT   "Molecular characterization of an apical early endosomal glycoprotein from
+RT   developing rat intestinal epithelial cells.";
+RL   J. Biol. Chem. 270:1583-1588(1995).
+CC   -!- FUNCTION: Probably involved in the sorting and selective transport of
+CC       receptors and ligands across polarized epithelia.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass type I
+CC       membrane protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Apical endosomal tubules of developing rat
+CC       intestinal epithelial cells. {ECO:0000269|PubMed:7829488}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L37380; AAA65200.1; -; mRNA.
+DR   PIR; A55620; A55620.
+DR   RefSeq; NP_665711.1; NM_145768.1.
+DR   AlphaFoldDB; Q63191; -.
+DR   SMR; Q63191; -.
+DR   STRING; 10116.ENSRNOP00000022390; -.
+DR   GlyCosmos; Q63191; 6 sites, No reported glycans.
+DR   GlyGen; Q63191; 6 sites.
+DR   PhosphoSitePlus; Q63191; -.
+DR   PaxDb; 10116-ENSRNOP00000022390; -.
+DR   GeneID; 252882; -.
+DR   KEGG; rno:252882; -.
+DR   UCSC; RGD:708583; rat.
+DR   AGR; RGD:708583; -.
+DR   CTD; 158056; -.
+DR   RGD; 708583; Mamdc4.
+DR   eggNOG; KOG3627; Eukaryota.
+DR   InParanoid; Q63191; -.
+DR   OrthoDB; 2905895at2759; -.
+DR   PhylomeDB; Q63191; -.
+DR   PRO; PR:Q63191; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005768; C:endosome; IDA:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   CDD; cd00112; LDLa; 2.
+DR   CDD; cd06263; MAM; 5.
+DR   Gene3D; 2.60.120.200; -; 6.
+DR   Gene3D; 4.10.400.10; Low-density Lipoprotein Receptor; 2.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR036055; LDL_receptor-like_sf.
+DR   InterPro; IPR023415; LDLR_class-A_CS.
+DR   InterPro; IPR002172; LDrepeatLR_classA_rpt.
+DR   InterPro; IPR000998; MAM_dom.
+DR   InterPro; IPR051560; MAM_domain-containing.
+DR   PANTHER; PTHR23282:SF129; APICAL ENDOSOMAL GLYCOPROTEIN; 1.
+DR   PANTHER; PTHR23282; APICAL ENDOSOMAL GLYCOPROTEIN PRECURSOR; 1.
+DR   Pfam; PF00057; Ldl_recept_a; 1.
+DR   Pfam; PF00629; MAM; 6.
+DR   PRINTS; PR00261; LDLRECEPTOR.
+DR   SMART; SM00192; LDLa; 2.
+DR   SMART; SM00137; MAM; 5.
+DR   SUPFAM; SSF49899; Concanavalin A-like lectins/glucanases; 6.
+DR   SUPFAM; SSF57424; LDL receptor-like module; 2.
+DR   PROSITE; PS01209; LDLRA_1; 2.
+DR   PROSITE; PS50068; LDLRA_2; 2.
+DR   PROSITE; PS50060; MAM_2; 6.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein; Membrane;
+KW   Protein transport; Reference proteome; Repeat; Signal; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000269|PubMed:7829488"
+FT   CHAIN           22..1216
+FT                   /note="Apical endosomal glycoprotein"
+FT                   /id="PRO_0000020634"
+FT   TOPO_DOM        22..1155
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1156..1176
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1177..1216
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          27..54
+FT                   /note="LDL-receptor class A 1; truncated"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          62..224
+FT                   /note="MAM 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00128"
+FT   DOMAIN          229..269
+FT                   /note="LDL-receptor class A 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          268..427
+FT                   /note="MAM 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00128"
+FT   DOMAIN          454..491
+FT                   /note="LDL-receptor class A 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          492..647
+FT                   /note="MAM 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00128"
+FT   DOMAIN          654..813
+FT                   /note="MAM 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00128"
+FT   DOMAIN          812..973
+FT                   /note="MAM 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00128"
+FT   DOMAIN          972..1142
+FT                   /note="MAM 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00128"
+FT   CARBOHYD        205
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        291
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        341
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        368
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        639
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        839
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        231..243
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        238..256
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        250..267
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        456..467
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        463..480
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        474..489
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+SQ   SEQUENCE   1216 AA;  133777 MW;  64F3B28A7B61BA2E CRC64;
+     MCLPSCLLSI WVLFMAAQSL GKTWVPDHCR SPTEATCNFV CDCGDCSDEA QCGFHGASTT
+     PNTPFTCNFE QDPCGWQDIS TSGYRWLRDR AGAGLDSSGP HSDHTRGTDL GWYMAVGTHS
+     GKEPSTRTLR SPVMREAAPT CELRLWYHTD SRDVAELRLD LTHGMETLTL WQSSGPWGPW
+     PGRELAVNTG RIQGDFKVTF SATRNATHRG AVALDDMEFW DCGLPIPQAR CPLGHHHCQN
+     KACVEPHQLC DGEDNCGDSS DEDPLICSHH MATDFETGLG PWTQLEGWTR NFSAGSMVSP
+     AWPHRDHSRN SAYGFFLVSV AKPGTTAVLY SPEFQGSVSY NCSFTFYYYL HGSEANQFQL
+     FVQAQGLNTT QPPVLLRSRH GELGTAWVRD RVNIQSAHPF RILLAGETGP GGFVGLDDLI
+     MSNHCILVPG MSTLQSSLSG PVPLALYPQT SIKRTCDAGH LSCDELCVPP EQLCDFQQHC
+     AEGEDEEKCG TTDFESASAG GWEDISIGKL QWQRAEAQES GKPARDTNRN APGHFLSLRK
+     AWGQLRSEAR ALTPTLGPSG PHCELHMTYY FHSHPQGFLA LAVVENGFRE LLWQAPSSSS
+     GGWTLQKILL GARRWPFQLE FVSLVDLDGP GQQGAGVDNV TLRDCNPMVT TESDQEVSCN
+     FERDSCSWHT GHLTDAHWHR VKSHGSQYDH TTGQGFFMFL DPMDPPARGQ GALLLTRPQV
+     PVVPKECLSF WYHLHGPQIG TLCLAMRREG EEDTLLWSRS GTHGNRWHQA WVTLHHQLQP
+     STKYQLLFEG LRDGYHGTMG LDDMAVRPGP CWAAKRCSFE DSDCGFSPGD WGLWTRQNNA
+     SGLGPWGPWI DHTTGTAQGH YMVVDTSPNL LPKGHVASLT SEEHPPLSRP ACLSFWYHLS
+     FHNPGTLRVF VEESTRRQEL SISGHGGFAW RLGSVNVQAE QAWKVVFEAM ASGVEHSYMA
+     LDDISLQDGP CAQPGSCDFE SGLCGWSHLP WPGLGGYSWD WSSGATPSRY PRPSVDHTVG
+     TEAGHFAFFE TSVLGPGGQA AWLGSEPLPA TAVSCLHFWY YMGFPAHFYK GELRVLLSST
+     QGQLAVWHRG GHLRDQWLQV QIEVSSSEEF QIVFEATLGG QPALGPIALD DVEYLAGQHC
+     KQPTPSQGRV AAPVSVPVAV GGALLLFLLL LGLGGWHWLQ KQHLPCQSTD AAASGFDNIL
+     FNADQVTLPE SITSNP
+//

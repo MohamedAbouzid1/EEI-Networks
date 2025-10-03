@@ -1,0 +1,112 @@
+ID   BHMT2_RAT               Reviewed;         363 AA.
+AC   Q68FT5;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   24-JUL-2024, entry version 111.
+DE   RecName: Full=S-methylmethionine--homocysteine S-methyltransferase BHMT2;
+DE            Short=SMM-hcy methyltransferase;
+DE            EC=2.1.1.10;
+DE   AltName: Full=Betaine--homocysteine S-methyltransferase 2;
+GN   Name=Bhmt2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Involved in the regulation of homocysteine metabolism.
+CC       Converts betaine and homocysteine to dimethylglycine and methionine,
+CC       respectively. This reaction is also required for the irreversible
+CC       oxidation of choline (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-homocysteine + S-methyl-L-methionine = H(+) + 2 L-
+CC         methionine; Xref=Rhea:RHEA:26337, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:58199, ChEBI:CHEBI:58252; EC=2.1.1.10;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de novo
+CC       pathway; L-methionine from L-homocysteine (BhmT route): step 1/1.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079366; AAH79366.1; -; mRNA.
+DR   RefSeq; NP_001014278.2; NM_001014256.2.
+DR   AlphaFoldDB; Q68FT5; -.
+DR   SMR; Q68FT5; -.
+DR   STRING; 10116.ENSRNOP00000058419; -.
+DR   iPTMnet; Q68FT5; -.
+DR   PhosphoSitePlus; Q68FT5; -.
+DR   PaxDb; 10116-ENSRNOP00000058419; -.
+DR   GeneID; 365972; -.
+DR   KEGG; rno:365972; -.
+DR   UCSC; RGD:1359418; rat.
+DR   AGR; RGD:1359418; -.
+DR   CTD; 23743; -.
+DR   RGD; 1359418; Bhmt2.
+DR   eggNOG; KOG1579; Eukaryota.
+DR   InParanoid; Q68FT5; -.
+DR   OrthoDB; 66796at2759; -.
+DR   PhylomeDB; Q68FT5; -.
+DR   Reactome; R-RNO-1614635; Sulfur amino acid metabolism.
+DR   UniPathway; UPA00051; UER00083.
+DR   PRO; PR:Q68FT5; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0008898; F:S-adenosylmethionine-homocysteine S-methyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0061627; F:S-methylmethionine-homocysteine S-methyltransferase activity; ISO:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; ISO:RGD.
+DR   GO; GO:0071267; P:L-methionine salvage; ISO:RGD.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0046500; P:S-adenosylmethionine metabolic process; ISO:RGD.
+DR   GO; GO:0033477; P:S-methylmethionine metabolic process; ISO:RGD.
+DR   Gene3D; 3.20.20.330; Homocysteine-binding-like domain; 1.
+DR   InterPro; IPR017226; Betaine-hCys_S-MeTrfase_BHMT.
+DR   InterPro; IPR051524; BHMT.
+DR   InterPro; IPR003726; HCY_dom.
+DR   InterPro; IPR036589; HCY_dom_sf.
+DR   PANTHER; PTHR46120; BETAINE--HOMOCYSTEINE S-METHYLTRANSFERASE 1; 1.
+DR   PANTHER; PTHR46120:SF3; S-METHYLMETHIONINE--HOMOCYSTEINE S-METHYLTRANSFERASE BHMT2; 1.
+DR   Pfam; PF02574; S-methyl_trans; 1.
+DR   PIRSF; PIRSF037505; Betaine_HMT; 1.
+DR   SUPFAM; SSF82282; Homocysteine S-methyltransferase; 1.
+DR   PROSITE; PS50970; HCY; 1.
+PE   2: Evidence at transcript level;
+KW   Metal-binding; Methyltransferase; Reference proteome; Transferase; Zinc.
+FT   CHAIN           1..363
+FT                   /note="S-methylmethionine--homocysteine S-methyltransferase
+FT                   BHMT2"
+FT                   /id="PRO_0000273227"
+FT   DOMAIN          11..305
+FT                   /note="Hcy-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00333"
+FT   BINDING         208
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00333"
+FT   BINDING         290
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00333"
+FT   BINDING         291
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00333"
+SQ   SEQUENCE   363 AA;  39929 MW;  403AAC188B979BFE CRC64;
+     MAPAGGPRVK KVILERLDSG EVVVGDGGFL FTLEKRGFVK AGLWTPEAVV EYPSAVRQLH
+     TEFLRAGADV LQTFTFSAAE DRMESKWEAV NAAACDLAQE VADGGAALVA GGICQTSLYK
+     YHKDETRIKN IFRLQLGVFA RKNVDFLIAE YFEHVEEAVW AVEVLREVGA PVAVTMCIGP
+     EGDMHGVTPG ECAVRLSRAG ANIIGVNCRF GPWTSLQTMK LMKEGLRDAG LQAHLMVQCL
+     GFHTPDCGKG GFVDLPEYPF GLEPRVATRW DIQKYAREAY NLGVRYIGGC CGFEPYHIRA
+     IAEELAPERG FLPPASEKHG IWGSGLDMHT KPWIRARARR EYWETLLPAS GRPFCPSLSK
+     PDA
+//

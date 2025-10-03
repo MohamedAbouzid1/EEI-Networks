@@ -1,0 +1,146 @@
+ID   PA2GC_RAT               Reviewed;         150 AA.
+AC   P39878;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 2.
+DT   24-JAN-2024, entry version 142.
+DE   RecName: Full=Group IIC secretory phospholipase A2;
+DE            Short=GIIC sPLA2;
+DE            Short=sPLA2-IIC;
+DE            EC=3.1.1.4;
+DE   AltName: Full=14 kDa phospholipase A2;
+DE   AltName: Full=PLA2-8;
+DE   AltName: Full=Phosphatidylcholine 2-acylhydrolase 2C;
+DE   Flags: Precursor;
+GN   Name=Pla2g2c;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=8083202; DOI=10.1016/s0021-9258(17)31613-7;
+RA   Chen J., Engle S.J., Seilhamer J.J., Tischfield J.A.;
+RT   "Cloning and characterization of novel rat and mouse low molecular weight
+RT   Ca(2+)-dependent phospholipase A2s containing 16 cysteines.";
+RL   J. Biol. Chem. 269:23018-23024(1994).
+CC   -!- FUNCTION: PA2 catalyzes the calcium-dependent hydrolysis of the 2-acyl
+CC       groups in 3-sn-phosphoglycerides.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + H2O = a 1-acyl-sn-
+CC         glycero-3-phosphocholine + a fatty acid + H(+); Xref=Rhea:RHEA:15801,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28868,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:58168; EC=3.1.1.4;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10035, ECO:0000255|PROSITE-
+CC         ProRule:PRU10036};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the phospholipase A2 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA57473.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U07798; AAA57473.1; ALT_INIT; mRNA.
+DR   PIR; B54762; B54762.
+DR   RefSeq; NP_062075.1; NM_019202.2.
+DR   RefSeq; XP_006239204.1; XM_006239142.3.
+DR   RefSeq; XP_006239205.1; XM_006239143.3.
+DR   RefSeq; XP_008762435.1; XM_008764213.2.
+DR   AlphaFoldDB; P39878; -.
+DR   SMR; P39878; -.
+DR   STRING; 10116.ENSRNOP00000072615; -.
+DR   GlyCosmos; P39878; 1 site, No reported glycans.
+DR   GlyGen; P39878; 1 site.
+DR   PaxDb; 10116-ENSRNOP00000039825; -.
+DR   GeneID; 29387; -.
+DR   KEGG; rno:29387; -.
+DR   UCSC; RGD:3340; rat.
+DR   AGR; RGD:3340; -.
+DR   CTD; 391013; -.
+DR   RGD; 3340; Pla2g2c.
+DR   eggNOG; KOG4087; Eukaryota.
+DR   InParanoid; P39878; -.
+DR   OrthoDB; 638584at2759; -.
+DR   PRO; PR:P39878; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; IBA:GO_Central.
+DR   GO; GO:0047498; F:calcium-dependent phospholipase A2 activity; IDA:RGD.
+DR   GO; GO:0005543; F:phospholipid binding; IBA:GO_Central.
+DR   GO; GO:0005102; F:signaling receptor binding; IBA:GO_Central.
+DR   GO; GO:0050482; P:arachidonic acid secretion; IEA:InterPro.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0016042; P:lipid catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006644; P:phospholipid metabolic process; IBA:GO_Central.
+DR   GO; GO:0048146; P:positive regulation of fibroblast proliferation; IBA:GO_Central.
+DR   Gene3D; 1.20.90.10; Phospholipase A2 domain; 1.
+DR   InterPro; IPR001211; PLipase_A2.
+DR   InterPro; IPR033112; PLipase_A2_Asp_AS.
+DR   InterPro; IPR016090; PLipase_A2_dom.
+DR   InterPro; IPR036444; PLipase_A2_dom_sf.
+DR   InterPro; IPR033113; PLipase_A2_His_AS.
+DR   PANTHER; PTHR11716:SF5; INACTIVE GROUP IIC SECRETORY PHOSPHOLIPASE A2-RELATED; 1.
+DR   PANTHER; PTHR11716; PHOSPHOLIPASE A2 FAMILY MEMBER; 1.
+DR   Pfam; PF00068; Phospholip_A2_1; 1.
+DR   PRINTS; PR00389; PHPHLIPASEA2.
+DR   SMART; SM00085; PA2c; 1.
+DR   SUPFAM; SSF48619; Phospholipase A2, PLA2; 1.
+DR   PROSITE; PS00119; PA2_ASP; 1.
+DR   PROSITE; PS00118; PA2_HIS; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Disulfide bond; Glycoprotein; Hydrolase; Lipid degradation;
+KW   Lipid metabolism; Metal-binding; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..150
+FT                   /note="Group IIC secretory phospholipase A2"
+FT                   /id="PRO_0000022754"
+FT   ACT_SITE        67
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        115
+FT                   /evidence="ECO:0000250"
+FT   BINDING         47
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         49
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         51
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         68
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        92
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        46..143
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        48..64
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        63..121
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        69..150
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        70..114
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        79..107
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        97..112
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        99..105
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   150 AA;  16919 MW;  F80575BE19A3B7FF CRC64;
+     MKGIAVFLVF IFCWTTSTLS SFWQFQRMVK HITGRSAFFS YYGYGCYCGL GGRGIPVDAT
+     DRCCWAHDCC YHKLKEYGCQ PILNAYQFAI VNGTVTCGCT MGGGCLCGQK ACECDKLSVY
+     CFKENLATYE KTFKQLFPTR PQCGRDKLHC
+//

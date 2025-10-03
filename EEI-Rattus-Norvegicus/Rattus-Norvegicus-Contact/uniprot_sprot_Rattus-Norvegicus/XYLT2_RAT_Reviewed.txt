@@ -1,0 +1,182 @@
+ID   XYLT2_RAT               Reviewed;         864 AA.
+AC   Q9EPI0;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   24-JAN-2024, entry version 114.
+DE   RecName: Full=Xylosyltransferase 2;
+DE            EC=2.4.2.26 {ECO:0000250|UniProtKB:Q86Y38};
+DE   AltName: Full=Peptide O-xylosyltransferase 2;
+DE   AltName: Full=Xylosyltransferase II;
+GN   Name=Xylt2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=11099377; DOI=10.1006/jmbi.2000.4261;
+RA   Goetting C., Kuhn J., Zahn R., Brinkmann T., Kleesiek K.;
+RT   "Molecular cloning and expression of human UDP-D-xylose:proteoglycan core
+RT   protein beta-D-xylosyltransferase and its first isoform XT-II.";
+RL   J. Mol. Biol. 304:517-528(2000).
+CC   -!- FUNCTION: Catalyzes the first step in the biosynthesis of chondroitin
+CC       sulfate, heparan sulfate and dermatan sulfate proteoglycans, such as
+CC       DCN (By similarity). Transfers D-xylose from UDP-D-xylose to specific
+CC       serine residues of the core protein (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9EPL0, ECO:0000250|UniProtKB:Q9H1B5}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-seryl-[protein] + UDP-alpha-D-xylose = 3-O-(beta-D-xylosyl)-
+CC         L-seryl-[protein] + H(+) + UDP; Xref=Rhea:RHEA:50192, Rhea:RHEA-
+CC         COMP:9863, Rhea:RHEA-COMP:12567, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29999, ChEBI:CHEBI:57632, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:132085; EC=2.4.2.26;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H1B5};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H1B5};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H1B5};
+CC       Note=Active with either Mg(2+) or Mn(2+), but activity is highest when
+CC       both are present. {ECO:0000250|UniProtKB:Q9H1B5};
+CC   -!- PATHWAY: Glycan metabolism; chondroitin sulfate biosynthesis.
+CC       {ECO:0000250|UniProtKB:Q9H1B5}.
+CC   -!- PATHWAY: Glycan metabolism; heparan sulfate biosynthesis.
+CC       {ECO:0000250|UniProtKB:Q9H1B5}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:Q86Y38}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:Q9H1B5}; Single-pass type II membrane protein
+CC       {ECO:0000250|UniProtKB:Q9H1B5}. Secreted
+CC       {ECO:0000250|UniProtKB:Q9H1B5}.
+CC   -!- PTM: Contains disulfide bonds. {ECO:0000250|UniProtKB:Q86Y38}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 14 family. XylT
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ295749; CAC16796.2; -; mRNA.
+DR   AlphaFoldDB; Q9EPI0; -.
+DR   SMR; Q9EPI0; -.
+DR   STRING; 10116.ENSRNOP00000052446; -.
+DR   CAZy; GT14; Glycosyltransferase Family 14.
+DR   GlyCosmos; Q9EPI0; 3 sites, No reported glycans.
+DR   GlyGen; Q9EPI0; 3 sites.
+DR   PhosphoSitePlus; Q9EPI0; -.
+DR   PaxDb; 10116-ENSRNOP00000052446; -.
+DR   AGR; RGD:619765; -.
+DR   RGD; 619765; Xylt2.
+DR   eggNOG; KOG0799; Eukaryota.
+DR   InParanoid; Q9EPI0; -.
+DR   PhylomeDB; Q9EPI0; -.
+DR   Reactome; R-RNO-1971475; A tetrasaccharide linker sequence is required for GAG synthesis.
+DR   UniPathway; UPA00755; -.
+DR   UniPathway; UPA00756; -.
+DR   PRO; PR:Q9EPI0; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; ISS:UniProtKB.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000287; F:magnesium ion binding; ISS:UniProtKB.
+DR   GO; GO:0030145; F:manganese ion binding; ISS:UniProtKB.
+DR   GO; GO:0030158; F:protein xylosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0030206; P:chondroitin sulfate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0050650; P:chondroitin sulfate proteoglycan biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0006024; P:glycosaminoglycan biosynthetic process; ISO:RGD.
+DR   GO; GO:0015012; P:heparan sulfate proteoglycan biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0030210; P:heparin biosynthetic process; ISO:RGD.
+DR   GO; GO:0030166; P:proteoglycan biosynthetic process; ISO:RGD.
+DR   InterPro; IPR003406; Glyco_trans_14.
+DR   InterPro; IPR043538; XYLT.
+DR   InterPro; IPR024448; XylT_C.
+DR   PANTHER; PTHR46025:SF1; XYLOSYLTRANSFERASE 2; 1.
+DR   PANTHER; PTHR46025; XYLOSYLTRANSFERASE OXT; 1.
+DR   Pfam; PF02485; Branch; 1.
+DR   Pfam; PF12529; Xylo_C; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Glycosyltransferase; Golgi apparatus;
+KW   Magnesium; Manganese; Membrane; Metal-binding; Reference proteome;
+KW   Secreted; Signal-anchor; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..864
+FT                   /note="Xylosyltransferase 2"
+FT                   /id="PRO_0000191409"
+FT   TOPO_DOM        1..15
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        16..36
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        37..864
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   REGION          39..123
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          136..158
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        39..72
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         239
+FT                   /ligand="UDP-alpha-D-xylose"
+FT                   /ligand_id="ChEBI:CHEBI:57632"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+FT   BINDING         267
+FT                   /ligand="UDP-alpha-D-xylose"
+FT                   /ligand_id="ChEBI:CHEBI:57632"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+FT   BINDING         296..298
+FT                   /ligand="UDP-alpha-D-xylose"
+FT                   /ligand_id="ChEBI:CHEBI:57632"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+FT   BINDING         400..401
+FT                   /ligand="UDP-alpha-D-xylose"
+FT                   /ligand_id="ChEBI:CHEBI:57632"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+FT   BINDING         481
+FT                   /ligand="UDP-alpha-D-xylose"
+FT                   /ligand_id="ChEBI:CHEBI:57632"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+FT   BINDING         504..505
+FT                   /ligand="UDP-alpha-D-xylose"
+FT                   /ligand_id="ChEBI:CHEBI:57632"
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+FT   CARBOHYD        122
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        327
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        682
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        162..190
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+FT   DISULFID        206..448
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+FT   DISULFID        467..480
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+FT   DISULFID        469..478
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+FT   DISULFID        580..832
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+FT   DISULFID        825..838
+FT                   /evidence="ECO:0000250|UniProtKB:Q86Y38"
+SQ   SEQUENCE   864 AA;  96790 MW;  ED6586B9D886D21D CRC64;
+     MVASARVQKL VRRYKLAIAT ALAILLLQGL VVWSFSGLEE DEPGEKGRQR KPRPLDPGEG
+     SKDTDSSAGR RGSAGRRHGR WRGRAESPGV PVAKVVRAVT SRQRASRRVP PAPPPEAPGR
+     QNLSGAAAGE ALIGAAGFPQ HGDTGSVEGA PQPTDNSFTP KCEIVGKDAL SALARASTKH
+     CQQEIANVVC LHQAGNLMPK SVPRHCQLAG KVSPGIQWEE VRAQQPVSGP LVRIAYMLVV
+     HGRAVRQLKR LLKAVYHEEH FFYIHVDKRS NYLYREVVEL AQHYDNVRVT PWRMVTIWGG
+     ASLLRMYLRS MKDLLETPGW TWDFFINLSA TDYPTRTNEE LVAFLSKNRD KNFLKSHGRD
+     NSRFIKKQGL DRLFHECDSH MWRLGERQIP AGIVVDGGSD WFVLTRSFVE YVVYTEDPLV
+     AQLRQFYTYT LLPAESFFHT VLENSPACES LVDNNLRVTN WNRKLGCKCQ YKHIVDWCGC
+     SPNDFKPQDF LRLQQVSRPT FFARKFESTV NQEVLEILDF HLYGSYPPGT PALKAYWENI
+     YDMADGPSGL SDVLLTAYTA FARISLRHAA TVSPLATAVC RFEPRGLPSS VHLYFYDDHF
+     QGYLVTQAVQ PSAQGPAETL EMWLMPQRLL KPLGHSDQAS RLQSLEVGTE WDPKERLFRN
+     FGGLLGPLDE PVAMQRWARG PNLTATVVWI DPTYVVATSY DITVDADTEV TQYKPPLSLP
+     LRPGAWTVRL LQFWEPLGET RFLVLPLTFN HKLPLRKDDA SWLHAGPPHN EYMEQSFQGL
+     SGILNLPQPE AVEEAARRHT ELTGPALEAW TDGELSSFWS VAGLCAIGPS SCPSLELCRL
+     TSWSSLSPDP KSELGPVKAD GRLR
+//

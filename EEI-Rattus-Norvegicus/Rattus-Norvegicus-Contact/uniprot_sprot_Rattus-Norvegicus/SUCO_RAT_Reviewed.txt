@@ -1,0 +1,167 @@
+ID   SUCO_RAT                Reviewed;        1253 AA.
+AC   Q710E6;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   24-JUL-2024, entry version 91.
+DE   RecName: Full=SUN domain-containing ossification factor;
+DE   AltName: Full=Membrane protein CH1;
+DE   AltName: Full=Protein osteopotentia homolog;
+DE   AltName: Full=SUN-like protein 1;
+DE   Flags: Precursor;
+GN   Name=Suco; Synonyms=Dd25, Opt;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar; TISSUE=Brain;
+RA   Verlaet M., Lakaye B., Grisar T.;
+RT   "Expression of mRNA encoding C1orf9 in brain structures of Rat.";
+RL   Submitted (NOV-2001) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Required for bone modeling during late embryogenesis.
+CC       Regulates type I collagen synthesis in osteoblasts during their
+CC       postnatal maturation (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Rough endoplasmic reticulum membrane
+CC       {ECO:0000250}; Single-pass type I membrane protein {ECO:0000250}.
+CC   -!- PTM: O-glycosylated. O-mannosylated by POMT1 and POMT2 and elongated by
+CC       POMGNT1. {ECO:0000250|UniProtKB:Q9UBS9}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250|UniProtKB:Q8C341}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ421447; CAD13342.1; -; mRNA.
+DR   RefSeq; NP_955435.1; NM_199403.1.
+DR   AlphaFoldDB; Q710E6; -.
+DR   SMR; Q710E6; -.
+DR   STRING; 10116.ENSRNOP00000075385; -.
+DR   GlyCosmos; Q710E6; 4 sites, No reported glycans.
+DR   GlyGen; Q710E6; 4 sites.
+DR   iPTMnet; Q710E6; -.
+DR   PhosphoSitePlus; Q710E6; -.
+DR   PaxDb; 10116-ENSRNOP00000068027; -.
+DR   GeneID; 360863; -.
+DR   KEGG; rno:360863; -.
+DR   UCSC; RGD:735185; rat.
+DR   AGR; RGD:735185; -.
+DR   CTD; 51430; -.
+DR   RGD; 735185; Suco.
+DR   eggNOG; KOG1396; Eukaryota.
+DR   InParanoid; Q710E6; -.
+DR   OrthoDB; 103878at2759; -.
+DR   PhylomeDB; Q710E6; -.
+DR   PRO; PR:Q710E6; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0005791; C:rough endoplasmic reticulum; ISS:UniProtKB.
+DR   GO; GO:0030867; C:rough endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0001503; P:ossification; IEA:UniProtKB-KW.
+DR   GO; GO:0032967; P:positive regulation of collagen biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0045669; P:positive regulation of osteoblast differentiation; ISS:UniProtKB.
+DR   GO; GO:0046850; P:regulation of bone remodeling; ISS:UniProtKB.
+DR   Gene3D; 2.60.120.260; Galactose-binding domain-like; 1.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR045120; Suco/Slp1-like.
+DR   InterPro; IPR012919; SUN_dom.
+DR   PANTHER; PTHR12953; MEMBRANE PROTEIN CH1 RELATED; 1.
+DR   PANTHER; PTHR12953:SF0; SUN DOMAIN-CONTAINING OSSIFICATION FACTOR; 1.
+DR   Pfam; PF07738; Sad1_UNC; 1.
+DR   SUPFAM; SSF49785; Galactose-binding domain-like; 1.
+DR   PROSITE; PS51469; SUN; 1.
+PE   2: Evidence at transcript level;
+KW   Coiled coil; Developmental protein; Endoplasmic reticulum; Glycoprotein;
+KW   Membrane; Osteogenesis; Phosphoprotein; Reference proteome; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..1253
+FT                   /note="SUN domain-containing ossification factor"
+FT                   /id="PRO_0000302719"
+FT   TRANSMEM        1012..1032
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          284..453
+FT                   /note="SUN"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00802"
+FT   REGION          112..303
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          521..550
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          582..607
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          719..777
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1152..1171
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          910..1010
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        115..160
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        204..225
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        229..244
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        266..287
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        288..303
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        526..549
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        585..607
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        719..748
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         1082
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBS9"
+FT   CARBOHYD        202
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        236
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        929
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        956
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   1253 AA;  139260 MW;  4E21F2371612F8E1 CRC64;
+     MKKYRRALAL VSCLSLCSLV WLPSWHVCCK ESSSASTSYY SQDDNCAVGS EDIQFQKKNE
+     REEPSNAKVS EKSNSYLTIS PEENKLKDDY TVDECKIWKQ SKLSLPVVEA LPTVDSHEES
+     SSVVVGSENI ENSSSSSTSE TSPISKLDEI ENSGTLSVAK PGDTEQPEAD CDAGEAADAD
+     ASVEQPAFVS APESLVGQHI ENVSSSHGKE KVTKSEFESK VSVSEQDGGD PKSALNASDT
+     LKNESSDYTK PRETDPTSVT SPKDPEDIPT FDEWKKKVME VEKEKSQSLH PSSNGGPHAT
+     KKVQKNRNNY ASVECGAKIL AANPEAKSTS AILIENMDLY MLNPCSTKIW FVIELCEPIQ
+     VKQFDIANYE LFSSTPKDFL VSISDRYPTN KWIKLGTFHG RDERTVQSFP LDEQMYAKYV
+     KMFIKYIKVE LLSHFGSEHF CPLSLIRVFG TSMVEEYEEI ADSQYQSERQ ELFDEDYDYP
+     LDYNTVEDKS SKNLLGSATN AILNMVNIAA NILGAKTEDL TEGDKSISEN ATATTEPKMP
+     ESTGVSTPVP SPEYIIKEVH THDTEPPTSD PPKESPIVQL VQEEEEEASP STVTLLGSGE
+     QEDESSSWFE SETQILCSEL TSICCISSFS EYLYKWCSVR IALYRQHSRT VSKGKDVSPQ
+     PSLLPPVDSV EVSVLQPPSG NVDKEDMERE LETVALDDLS SVHQAHVRNH TVDTVELEPS
+     YPQTLSQSLP LDVTPEMDSL STVEGSESVK SEGGHKPSQV MPQESSVEFD DETEKKPESF
+     SSVAKLSVIY ETSKVNEVMD GPVKEDIVST HVVTKFPETK FPETVAPPPI NTAAVPESEG
+     METKPSLADT LKHVVTPVTD PSLPEVKEDE QSPDDALLRG LQRTATDFYA ELQNSTDLGY
+     GNGNLVHGSN QKESVFMRLN NRIKALEVNM SLSGRYLEEL SQRYRKQMEE MQKAFNKTIV
+     KLQNTSRIAE EQDQRQTEAI HLLQAQLTNM TQIVSNLSAT VAELKREVSD RQSYLVMSLV
+     LCVVLGLMLC MQRCRNTSQF DGDYTSKLPK SNQYPSPKRC FSSYDDMNLK RRTSFPLIRS
+     KSLQFTGKED PNDLYIVEPL KFSPEKKKKR CKYKTEKIET IKPADPLHPI ANGDIKGRKP
+     FTNQRDFSSM GEVYHSSYKG PPSEGSSETS SQSEESYFCG ISACTSLCNG QTQKTKLRRG
+     LKRRRSKVQD QGKLIKALIQ TKSGSLPSLH DIIKGNKEIT VGAFGVTAVS GHI
+//

@@ -1,0 +1,274 @@
+ID   S39A8_RAT               Reviewed;         462 AA.
+AC   Q5FVQ0;
+DT   04-DEC-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   24-JUL-2024, entry version 107.
+DE   RecName: Full=Metal cation symporter ZIP8 {ECO:0000305|PubMed:22898811};
+DE   AltName: Full=Solute carrier family 39 member 8 {ECO:0000312|RGD:1308236};
+DE   AltName: Full=Zrt- and Irt-like protein 8 {ECO:0000250|UniProtKB:Q91W10};
+DE            Short=ZIP-8 {ECO:0000250|UniProtKB:Q91W10};
+DE   Flags: Precursor;
+GN   Name=Slc39a8 {ECO:0000312|RGD:1308236};
+GN   Synonyms=Zip8 {ECO:0000303|PubMed:22898811};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   FUNCTION, TRANSPORTER ACTIVITY, SUBSTRATE SPECIFICITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, SUBUNIT, SUBCELLULAR LOCATION, MUTAGENESIS OF ASN-40; ASN-88
+RP   AND ASN-96, TOPOLOGY, AND GLYCOSYLATION AT ASN-40; ASN-88 AND ASN-96.
+RX   PubMed=22898811; DOI=10.1074/jbc.m112.367284;
+RA   Wang C.Y., Jenkitkasemwong S., Duarte S., Sparkman B.K., Shawki A.,
+RA   Mackenzie B., Knutson M.D.;
+RT   "ZIP8 is an iron and zinc transporter whose cell-surface expression is up-
+RT   regulated by cellular iron loading.";
+RL   J. Biol. Chem. 287:34032-34043(2012).
+CC   -!- FUNCTION: Electroneutral divalent metal cation:bicarbonate symporter of
+CC       the plasma membrane mediating the cellular uptake of zinc and
+CC       manganese, two divalent metal cations important for development, tissue
+CC       homeostasis and immunity (PubMed:22898811). Transports an
+CC       electroneutral complex composed of a divalent metal cation and two
+CC       bicarbonate anions or alternatively a bicarbonate and a selenite anion
+CC       (PubMed:22898811). Thereby, it also contributes to the cellular uptake
+CC       of selenium, an essential trace metal and micronutrient
+CC       (PubMed:22898811). Also imports cadmium a non-essential metal which is
+CC       cytotoxic and carcinogenic (PubMed:22898811). May also transport iron
+CC       and cobalt through membranes (PubMed:22898811). Through zinc import,
+CC       indirectly regulates the metal-dependent transcription factor MTF1 and
+CC       the expression of some metalloproteases involved in cartilage
+CC       catabolism and also probably heart development. Also indirectly
+CC       regulates the expression of proteins involved in cell morphology and
+CC       cytoskeleton organization. Indirectly controls innate immune function
+CC       and inflammatory response by regulating zinc cellular uptake which in
+CC       turn modulates the expression of genes specific of these processes.
+CC       Protects, for instance, cells from injury and death at the onset of
+CC       inflammation (By similarity). By regulating zinc influx into monocytes
+CC       also directly modulates their adhesion to endothelial cells and
+CC       arteries (By similarity). Reclaims manganese from the bile at the
+CC       apical membrane of hepatocytes, thereby regulating the activity of the
+CC       manganese-dependent enzymes through the systemic levels of the
+CC       nutrient. Also participates in manganese reabsorption in the proximal
+CC       tubule of the kidney. By mediating the extracellular uptake of
+CC       manganese by cells of the blood-brain barrier, may also play a role in
+CC       the transport of the micronutrient to the brain. With manganese
+CC       cellular uptake also participates in mitochondrial proper function (By
+CC       similarity). Finally, also probably functions intracellularly,
+CC       translocating zinc from lysosome to cytosol to indirectly enhance the
+CC       expression of specific genes during TCR-mediated T cell activation (By
+CC       similarity). {ECO:0000250|UniProtKB:Q91W10,
+CC       ECO:0000250|UniProtKB:Q9C0K1, ECO:0000269|PubMed:22898811}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 hydrogencarbonate(out) + Zn(2+)(out) = 2
+CC         hydrogencarbonate(in) + Zn(2+)(in); Xref=Rhea:RHEA:62252,
+CC         ChEBI:CHEBI:17544, ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000305|PubMed:22898811};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hydrogencarbonate(out) + selenite(out) + Zn(2+)(out) =
+CC         hydrogencarbonate(in) + selenite(in) + Zn(2+)(in);
+CC         Xref=Rhea:RHEA:62264, ChEBI:CHEBI:17544, ChEBI:CHEBI:18212,
+CC         ChEBI:CHEBI:29105; Evidence={ECO:0000305|PubMed:22898811};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 hydrogencarbonate(out) + Mn(2+)(out) = 2
+CC         hydrogencarbonate(in) + Mn(2+)(in); Xref=Rhea:RHEA:62260,
+CC         ChEBI:CHEBI:17544, ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000305|PubMed:22898811};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Fe(2+)(out) + 2 hydrogencarbonate(out) = Fe(2+)(in) + 2
+CC         hydrogencarbonate(in); Xref=Rhea:RHEA:62368, ChEBI:CHEBI:17544,
+CC         ChEBI:CHEBI:29033; Evidence={ECO:0000305|PubMed:22898811};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Cd(2+)(out) + 2 hydrogencarbonate(out) = Cd(2+)(in) + 2
+CC         hydrogencarbonate(in); Xref=Rhea:RHEA:62256, ChEBI:CHEBI:17544,
+CC         ChEBI:CHEBI:48775; Evidence={ECO:0000305|PubMed:22898811};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Co(2+)(out) + 2 hydrogencarbonate(out) = Co(2+)(in) + 2
+CC         hydrogencarbonate(in); Xref=Rhea:RHEA:73491, ChEBI:CHEBI:17544,
+CC         ChEBI:CHEBI:48828; Evidence={ECO:0000305|PubMed:22898811};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 7.5 for iron transport. {ECO:0000269|PubMed:22898811};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:22898811}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:22898811};
+CC       Multi-pass membrane protein {ECO:0000255}. Lysosome membrane
+CC       {ECO:0000250|UniProtKB:Q9C0K1}; Multi-pass membrane protein
+CC       {ECO:0000255}. Apical cell membrane {ECO:0000250|UniProtKB:Q9C0K1};
+CC       Multi-pass membrane protein {ECO:0000255}. Basolateral cell membrane
+CC       {ECO:0000250|UniProtKB:Q9C0K1}; Multi-pass membrane protein
+CC       {ECO:0000255}. Note=Localizes to the lysosome of activated T-cells. A
+CC       large fraction of the protein is found intracellularly in microvascular
+CC       capillary endothelial cells that constitute the blood-brain barrier.
+CC       Localized and functional at both apical and basolateral membranes of
+CC       microvascular capillary endothelial cells that constitute the blood-
+CC       brain barrier. {ECO:0000250|UniProtKB:Q9C0K1}.
+CC   -!- INDUCTION: Up-regulation upon iron or zinc loading increases expression
+CC       at the plasma membrane (at protein level).
+CC       {ECO:0000269|PubMed:22898811}.
+CC   -!- PTM: N-glycosylated. N-glycosylation is not required for proper iron
+CC       and zinc transport. {ECO:0000269|PubMed:22898811}.
+CC   -!- SIMILARITY: Belongs to the ZIP transporter (TC 2.A.5) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC089844; AAH89844.1; -; mRNA.
+DR   RefSeq; NP_001011952.1; NM_001011952.1.
+DR   RefSeq; XP_006233418.1; XM_006233356.2.
+DR   RefSeq; XP_006233419.1; XM_006233357.2.
+DR   RefSeq; XP_017446276.1; XM_017590787.1.
+DR   AlphaFoldDB; Q5FVQ0; -.
+DR   STRING; 10116.ENSRNOP00000030977; -.
+DR   GlyCosmos; Q5FVQ0; 3 sites, No reported glycans.
+DR   GlyGen; Q5FVQ0; 3 sites.
+DR   iPTMnet; Q5FVQ0; -.
+DR   PhosphoSitePlus; Q5FVQ0; -.
+DR   PaxDb; 10116-ENSRNOP00000030977; -.
+DR   Ensembl; ENSRNOT00000033413.6; ENSRNOP00000030977.4; ENSRNOG00000012508.7.
+DR   Ensembl; ENSRNOT00055019283; ENSRNOP00055015555; ENSRNOG00055011373.
+DR   Ensembl; ENSRNOT00060037410; ENSRNOP00060030841; ENSRNOG00060021601.
+DR   Ensembl; ENSRNOT00065043650; ENSRNOP00065035829; ENSRNOG00065025333.
+DR   GeneID; 295455; -.
+DR   KEGG; rno:295455; -.
+DR   AGR; RGD:1308236; -.
+DR   CTD; 64116; -.
+DR   RGD; 1308236; Slc39a8.
+DR   eggNOG; KOG2693; Eukaryota.
+DR   GeneTree; ENSGT00940000158926; -.
+DR   HOGENOM; CLU_015114_13_0_1; -.
+DR   InParanoid; Q5FVQ0; -.
+DR   OMA; ITMFAGE; -.
+DR   OrthoDB; 5488029at2759; -.
+DR   PhylomeDB; Q5FVQ0; -.
+DR   TreeFam; TF318470; -.
+DR   Reactome; R-RNO-442380; Zinc influx into cells by the SLC39 gene family.
+DR   PRO; PR:Q5FVQ0; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000012508; Expressed in liver and 18 other cell types or tissues.
+DR   GO; GO:0016324; C:apical plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0016323; C:basolateral plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0005765; C:lysosomal membrane; ISS:UniProtKB.
+DR   GO; GO:0031090; C:organelle membrane; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0140410; F:monoatomic cation:bicarbonate symporter activity; IDA:UniProtKB.
+DR   GO; GO:0005385; F:zinc ion transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0140412; F:zinc:bicarbonate symporter activity; IDA:UniProtKB.
+DR   GO; GO:0006525; P:arginine metabolic process; ISS:UniProtKB.
+DR   GO; GO:0015701; P:bicarbonate transport; ISS:UniProtKB.
+DR   GO; GO:0070574; P:cadmium ion transmembrane transport; IDA:UniProtKB.
+DR   GO; GO:1990079; P:cartilage homeostasis; ISS:UniProtKB.
+DR   GO; GO:0098849; P:cellular detoxification of cadmium ion; ISS:UniProtKB.
+DR   GO; GO:0006824; P:cobalt ion transport; IDA:UniProtKB.
+DR   GO; GO:0006351; P:DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0030198; P:extracellular matrix organization; ISS:UniProtKB.
+DR   GO; GO:0030026; P:intracellular manganese ion homeostasis; ISS:UniProtKB.
+DR   GO; GO:0030003; P:intracellular monoatomic cation homeostasis; IBA:GO_Central.
+DR   GO; GO:0006882; P:intracellular zinc ion homeostasis; ISS:UniProtKB.
+DR   GO; GO:0098711; P:iron ion import across plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0061757; P:leukocyte adhesion to arterial endothelial cell; ISS:UniProtKB.
+DR   GO; GO:0071421; P:manganese ion transmembrane transport; IDA:UniProtKB.
+DR   GO; GO:0015694; P:mercury ion transport; ISO:RGD.
+DR   GO; GO:1990540; P:mitochondrial manganese ion transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0043124; P:negative regulation of canonical NF-kappaB signal transduction; ISO:RGD.
+DR   GO; GO:0050728; P:negative regulation of inflammatory response; ISO:RGD.
+DR   GO; GO:0097080; P:plasma membrane selenite transport; ISO:RGD.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; ISS:UniProtKB.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; ISS:UniProtKB.
+DR   GO; GO:0042391; P:regulation of membrane potential; ISS:UniProtKB.
+DR   GO; GO:0071578; P:zinc ion import across plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0071577; P:zinc ion transmembrane transport; ISO:RGD.
+DR   GO; GO:0006829; P:zinc ion transport; ISS:UniProtKB.
+DR   InterPro; IPR003689; ZIP.
+DR   InterPro; IPR050799; ZIP_Transporter.
+DR   PANTHER; PTHR12191:SF2; METAL CATION SYMPORTER ZIP8; 1.
+DR   PANTHER; PTHR12191; SOLUTE CARRIER FAMILY 39; 1.
+DR   Pfam; PF02535; Zip; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Glycoprotein; Ion transport; Lysosome; Membrane;
+KW   Reference proteome; Signal; Symport; Transmembrane; Transmembrane helix;
+KW   Transport; Zinc; Zinc transport.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..462
+FT                   /note="Metal cation symporter ZIP8"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000312709"
+FT   TOPO_DOM        20..132
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305|PubMed:22898811"
+FT   TRANSMEM        133..153
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        154..160
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305|PubMed:22898811"
+FT   TRANSMEM        161..181
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        182..191
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305|PubMed:22898811"
+FT   TRANSMEM        192..212
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        213..367
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305|PubMed:22898811"
+FT   TRANSMEM        368..388
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        389..390
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305|PubMed:22898811"
+FT   TRANSMEM        391..411
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        412..431
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305|PubMed:22898811"
+FT   TRANSMEM        432..452
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        453..462
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305|PubMed:22898811"
+FT   MOTIF           345..350
+FT                   /note="XEXPHE-motif"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9C0K1"
+FT   CARBOHYD        40
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:22898811"
+FT   CARBOHYD        88
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:22898811"
+FT   CARBOHYD        96
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:22898811"
+FT   MUTAGEN         40
+FT                   /note="N->D: Decreased glycosylation."
+FT                   /evidence="ECO:0000269|PubMed:22898811"
+FT   MUTAGEN         88
+FT                   /note="N->Q: Decreased glycosylation."
+FT                   /evidence="ECO:0000269|PubMed:22898811"
+FT   MUTAGEN         96
+FT                   /note="N->Q: Decreased glycosylation."
+FT                   /evidence="ECO:0000269|PubMed:22898811"
+SQ   SEQUENCE   462 AA;  50171 MW;  954467170797180F CRC64;
+     MAPGRAVAGL LLLAATGLGR PSEGPELAFT EDVLRVFGAN QSLSAAQLGR LLERLGAAPQ
+     QGALELGQLH FNQCLSAEDI FSLHGFSNVT QITSSNFTAI CPAILQQLNF HPCEDPQKHS
+     VKPSFSEVWG YGFLSVTIIN LASLLGLILT PLIKKSYFPK ILTYFVGLAI GTLFSNAIFQ
+     LIPEAFGFNP KIDNYVEKAV AVFGGFYMLF FVERTLKMLL KTYGQNDHTH FRNDDFGSKE
+     KAHQPKTLPL PPVNGVTCYA NPAVTEPNGH IHFDTVSVVS LQDGKAESSS CTCLKGPKLS
+     EIGTIAWMIT LCDALHNFID GLAIGASYTL SLLQGLSTSI AILCEEFPHE LGDFVILLNA
+     GMSTRQALLF NFLSACSCYV GLAFGILVGN NFAPNIIFAL AGGMFLYISL ADMFPEMNDM
+     LREKVTGRQT DFTFFMIQNA GMLTGFTAIL LITLYAGDIE LQ
+//

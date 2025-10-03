@@ -1,0 +1,386 @@
+ID   TAP1_RAT                Reviewed;         725 AA.
+AC   P36370;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 2.
+DT   24-JUL-2024, entry version 174.
+DE   RecName: Full=Antigen peptide transporter 1;
+DE            Short=APT1;
+DE            EC=7.4.2.14 {ECO:0000305|PubMed:17018292};
+DE   AltName: Full=ATP-binding cassette sub-family B member 2;
+DE   AltName: Full=Peptide transporter TAP1;
+GN   Name=Tap1; Synonyms=Abcb2, Mtp1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=1979660; DOI=10.1038/348738a0;
+RA   Deverson E.V., Gow I.R., Coadwell W.J., Monaco J.J., Butcher G.W.,
+RA   Howard J.C.;
+RT   "MHC class II region encoding proteins related to the multidrug resistance
+RT   family of transmembrane transporters.";
+RL   Nature 348:738-741(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=BDIX; TISSUE=Lymphocyte;
+RA   Deverson E.V.;
+RL   Submitted (JAN-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) OF 465-725 IN COMPLEX WITH ATP AND
+RP   MAGNESIUM, COFACTOR, DOMAIN, FUNCTION, CATALYTIC ACTIVITY, AND MUTAGENESIS
+RP   OF 621-SER-GLY-622; ASP-645; ASP-651 AND GLN-678.
+RX   PubMed=17018292; DOI=10.1016/j.molcel.2006.07.034;
+RA   Procko E., Ferrin-O'Connell I., Ng S.L., Gaudet R.;
+RT   "Distinct structural and functional properties of the ATPase sites in an
+RT   asymmetric ABC transporter.";
+RL   Mol. Cell 24:51-62(2006).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (2.65 ANGSTROMS) OF 465-725 IN COMPLEX WITH ATP AND
+RP   MAGNESIUM, COFACTOR, AND MUTAGENESIS OF ASP-251.
+RX   PubMed=25377891; DOI=10.1038/ncomms6419;
+RA   Grossmann N., Vakkasoglu A.S., Hulpke S., Abele R., Gaudet R., Tampe R.;
+RT   "Mechanistic determinants of the directionality and energetics of active
+RT   export by a heterodimeric ABC transporter.";
+RL   Nat. Commun. 5:5419-5419(2014).
+CC   -!- FUNCTION: ABC transporter associated with antigen processing
+CC       (PubMed:17018292). In complex with TAP2 mediates unidirectional
+CC       translocation of peptide antigens from cytosol to endoplasmic reticulum
+CC       (ER) for loading onto MHC class I (MHCI) molecules (By similarity).
+CC       Uses the chemical energy of ATP to export peptides against the
+CC       concentration gradient (By similarity). During the transport cycle
+CC       alternates between 'inward-facing' state with peptide binding site
+CC       facing the cytosol to 'outward-facing' state with peptide binding site
+CC       facing the ER lumen. Peptide antigen binding to ATP-loaded TAP1-TAP2
+CC       induces a switch to hydrolysis-competent 'outward-facing' conformation
+CC       ready for peptide loading onto nascent MHCI molecules. Subsequently ATP
+CC       hydrolysis resets the transporter to the 'inward facing' state for a
+CC       new cycle (By similarity). As a component of the peptide loading
+CC       complex (PLC), acts as a molecular scaffold essential for peptide-MHCI
+CC       assembly and antigen presentation (By similarity).
+CC       {ECO:0000250|UniProtKB:Q03518, ECO:0000269|PubMed:17018292}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a peptide antigen(in) + ATP + H2O = a peptide antigen(out) +
+CC         ADP + H(+) + phosphate; Xref=Rhea:RHEA:65972, Rhea:RHEA-COMP:16941,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:166823, ChEBI:CHEBI:456216;
+CC         EC=7.4.2.14; Evidence={ECO:0000305|PubMed:17018292};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:65973;
+CC         Evidence={ECO:0000305|PubMed:17018292};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:17018292, ECO:0000269|PubMed:25377891};
+CC   -!- SUBUNIT: Heterodimer of TAP1 and TAP2 (TAP1-TAP2). A component of the
+CC       peptide loading complex (PLC), interacts via TAPBP with MHCI
+CC       heterodimer; this interaction mediates peptide-MHCI assembly. Interacts
+CC       with PSMB5 and PSMB8. {ECO:0000250|UniProtKB:Q03518}.
+CC   -!- INTERACTION:
+CC       P36370; Q99JC6: Tapbp; NbExp=2; IntAct=EBI-11303917, EBI-11304538;
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q03518}; Multi-pass membrane protein
+CC       {ECO:0000255}. Note=The transmembrane segments seem to form a pore in
+CC       the membrane.
+CC   -!- DOMAIN: The peptide-binding site is shared between the cytoplasmic
+CC       loops of TAP1 and TAP2. {ECO:0000250|UniProtKB:Q03518}.
+CC   -!- DOMAIN: The nucleotide-binding domain (NBD) mediates ATP hydrolysis
+CC       coupled to peptide translocation. Two ATP molecules are accommodated at
+CC       distinct nucleotide binding sites (NBS) at TAP1-TAP2 dimer interface.
+CC       Each NBS is formed by Walker A (GxxGxGKST) and Q-loop motifs from NBD
+CC       of one subunit, while the NBD from the second subunit completes the
+CC       active site by contributing the C loop motif (LSGGQ). Each ATP molecule
+CC       is coordinated via the beta- and gamma-phosphates to a Mg2+ ion, which
+CC       is necessary for ATP hydrolysis. {ECO:0000269|PubMed:17018292}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. ABCB family.
+CC       MHC peptide exporter (TC 3.A.1.209) subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA40742.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X57523; CAA40742.1; ALT_INIT; mRNA.
+DR   EMBL; Y10231; CAA71280.1; -; mRNA.
+DR   PIR; S13426; S13426.
+DR   PDB; 2IXE; X-ray; 2.00 A; A/D=465-725.
+DR   PDB; 2IXF; X-ray; 2.00 A; A/B/C/D=465-725.
+DR   PDB; 2IXG; X-ray; 2.70 A; A=465-725.
+DR   PDB; 4K8O; X-ray; 2.65 A; A=465-725.
+DR   PDBsum; 2IXE; -.
+DR   PDBsum; 2IXF; -.
+DR   PDBsum; 2IXG; -.
+DR   PDBsum; 4K8O; -.
+DR   AlphaFoldDB; P36370; -.
+DR   SMR; P36370; -.
+DR   IntAct; P36370; 3.
+DR   STRING; 10116.ENSRNOP00000000529; -.
+DR   iPTMnet; P36370; -.
+DR   PhosphoSitePlus; P36370; -.
+DR   jPOST; P36370; -.
+DR   PaxDb; 10116-ENSRNOP00000000529; -.
+DR   UCSC; RGD:3817; rat.
+DR   AGR; RGD:3817; -.
+DR   RGD; 3817; Tap1.
+DR   eggNOG; KOG0058; Eukaryota.
+DR   InParanoid; P36370; -.
+DR   PhylomeDB; P36370; -.
+DR   BRENDA; 7.4.2.14; 5301.
+DR   Reactome; R-RNO-1236974; ER-Phagosome pathway.
+DR   Reactome; R-RNO-983170; Antigen Presentation: Folding, assembly and peptide loading of class I MHC.
+DR   EvolutionaryTrace; P36370; -.
+DR   PRO; PR:P36370; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0042824; C:MHC class I peptide loading complex; IDA:UniProtKB.
+DR   GO; GO:0042825; C:TAP complex; IDA:UniProtKB.
+DR   GO; GO:0015433; F:ABC-type peptide antigen transporter activity; ISO:RGD.
+DR   GO; GO:0043531; F:ADP binding; IDA:RGD.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IDA:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042288; F:MHC class I protein binding; IDA:UniProtKB.
+DR   GO; GO:0023029; F:MHC class Ib protein binding; ISO:RGD.
+DR   GO; GO:0000166; F:nucleotide binding; IDA:RGD.
+DR   GO; GO:0042605; F:peptide antigen binding; ISO:RGD.
+DR   GO; GO:1904680; F:peptide transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; IPI:UniProtKB.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0046978; F:TAP1 binding; IPI:UniProtKB.
+DR   GO; GO:0046979; F:TAP2 binding; IPI:UniProtKB.
+DR   GO; GO:0046980; F:tapasin binding; IDA:RGD.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0019885; P:antigen processing and presentation of endogenous peptide antigen via MHC class I; ISO:RGD.
+DR   GO; GO:0046967; P:cytosol to endoplasmic reticulum transport; ISO:RGD.
+DR   GO; GO:0006952; P:defense response; ISO:RGD.
+DR   GO; GO:0046968; P:peptide antigen transport; TAS:RGD.
+DR   GO; GO:0015833; P:peptide transport; IMP:RGD.
+DR   GO; GO:0042270; P:protection from natural killer cell mediated cytotoxicity; IMP:RGD.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   GO; GO:0055085; P:transmembrane transport; IBA:GO_Central.
+DR   Gene3D; 1.20.1560.10; ABC transporter type 1, transmembrane domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011527; ABC1_TM_dom.
+DR   InterPro; IPR036640; ABC1_TM_sf.
+DR   InterPro; IPR013305; ABC_Tap-like.
+DR   InterPro; IPR003439; ABC_transporter-like_ATP-bd.
+DR   InterPro; IPR017871; ABC_transporter-like_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR039421; Type_1_exporter.
+DR   NCBIfam; TIGR00958; 3a01208; 1.
+DR   PANTHER; PTHR43394; ATP-DEPENDENT PERMEASE MDL1, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43394:SF15; TRANSPORTER 1, ATP BINDING CASSETTE SUBFAMILY B MEMBER; 1.
+DR   Pfam; PF00664; ABC_membrane; 1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   PIRSF; PIRSF002773; ABC_prm/ATPase_B; 1.
+DR   PRINTS; PR01896; TAP1PROTEIN.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF90123; ABC transporter transmembrane region; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS50929; ABC_TM1F; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Adaptive immunity; ATP-binding; Endoplasmic reticulum;
+KW   Immunity; Magnesium; Membrane; Metal-binding; Nucleotide-binding;
+KW   Peptide transport; Protein transport; Reference proteome; Translocase;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..725
+FT                   /note="Antigen peptide transporter 1"
+FT                   /id="PRO_0000093328"
+FT   TOPO_DOM        1..8
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        9..29
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        30..38
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        39..60
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        61..67
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        68..88
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        89..110
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        111..131
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        132..163
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        164..184
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        185..204
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        205..225
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        226..275
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        276..296
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        297..305
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        306..326
+FT                   /note="Helical; Name=8"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        327..395
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        396..416
+FT                   /note="Helical; Name=9"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        417..420
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        421..441
+FT                   /note="Helical; Name=10"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        442..725
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          164..447
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   DOMAIN          480..719
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   REGION          352..397
+FT                   /note="Part of the peptide-binding site"
+FT                   /evidence="ECO:0000250|UniProtKB:Q03518"
+FT   REGION          430..464
+FT                   /note="Part of the peptide-binding site"
+FT                   /evidence="ECO:0000250|UniProtKB:Q03518"
+FT   BINDING         515..523
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434,
+FT                   ECO:0000269|PubMed:17018292, ECO:0007744|PDB:2IXE,
+FT                   ECO:0007744|PDB:2IXF, ECO:0007744|PDB:2IXG,
+FT                   ECO:0007744|PDB:4K8O"
+FT   BINDING         522
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000269|PubMed:17018292,
+FT                   ECO:0000269|PubMed:25377891, ECO:0007744|PDB:2IXE,
+FT                   ECO:0007744|PDB:2IXF, ECO:0007744|PDB:4K8O"
+FT   BINDING         618..624
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000269|PubMed:17018292,
+FT                   ECO:0000269|PubMed:25377891, ECO:0007744|PDB:2IXE,
+FT                   ECO:0007744|PDB:2IXF, ECO:0007744|PDB:4K8O"
+FT   BINDING         678
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000269|PubMed:17018292,
+FT                   ECO:0000269|PubMed:25377891, ECO:0007744|PDB:2IXE,
+FT                   ECO:0007744|PDB:2IXG, ECO:0007744|PDB:4K8O"
+FT   SITE            17
+FT                   /note="Inter-subunit salt bridge with TAPBP"
+FT                   /evidence="ECO:0000250|UniProtKB:Q03518"
+FT   MUTAGEN         621..622
+FT                   /note="SG->AV: Complete loss of ATPase activity; when
+FT                   associated with N-645. Impairs peptide loading onto MHCI."
+FT                   /evidence="ECO:0000269|PubMed:17018292"
+FT   MUTAGEN         645
+FT                   /note="D->E: Increases ATPase activity by 8-fold; when
+FT                   associated with H-678."
+FT                   /evidence="ECO:0000269|PubMed:17018292"
+FT   MUTAGEN         645
+FT                   /note="D->N: Complete loss of ATPase activity; when
+FT                   associated with A-621 and V-622."
+FT                   /evidence="ECO:0000269|PubMed:17018292"
+FT   MUTAGEN         645
+FT                   /note="D->Q: Impairs ATPase activity; when associated with
+FT                   H-678."
+FT                   /evidence="ECO:0000269|PubMed:17018292"
+FT   MUTAGEN         651
+FT                   /note="D->A,N: Decreases ATP-driven nucleotide binding
+FT                   domain (NBD) dimerization."
+FT                   /evidence="ECO:0000269|PubMed:25377891"
+FT   MUTAGEN         678
+FT                   /note="Q->H: Increases ATPase activity by 8-fold; when
+FT                   associated with E-645. Impairs ATPase activity; when
+FT                   associated with Q-645."
+FT                   /evidence="ECO:0000269|PubMed:17018292"
+FT   TURN            466..469
+FT                   /evidence="ECO:0007829|PDB:2IXF"
+FT   STRAND          480..487
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   STRAND          498..505
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   STRAND          510..514
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           521..528
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   STRAND          535..541
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           546..548
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           551..557
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   STRAND          558..561
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   STRAND          569..571
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           572..577
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           586..595
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           599..604
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           608..610
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           615..617
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           622..634
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   STRAND          639..645
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   TURN            646..649
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           652..664
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   TURN            666..670
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   STRAND          671..676
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           680..683
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   STRAND          687..693
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   STRAND          696..701
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           703..709
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+FT   HELIX           712..718
+FT                   /evidence="ECO:0007829|PDB:2IXE"
+SQ   SEQUENCE   725 AA;  79150 MW;  3FA7215D0AC22EE0 CRC64;
+     MAAHAWPTAA LLLLLVDWLL LRPVLPGIFS LLVPEVPLLR VWAVGLSRWA ILGLGVRGVL
+     GVTAGARGWL AALQPLVAAL GLALPGLASF RKLSAWGALR EGDNAGLLHW NSRLDAFVLS
+     YVAALPAAAL WHKLGGFWAP SGHKGAGDML CRMLGFLDSK KGRLHLVLVL LILSCLGEMA
+     IPFFTGRITD WILQDKTAPS FARNMWLMCI LTIASTVLEF AGDGIYNITM GHMHSRVHGE
+     VFRAVLHQET GFFLKNPTGS ITSRVTEDTS NVCESISDKL NLFLWYLGRG LCLLAFMIWG
+     SFYLTVVTLL SLPLLFLLPR RLGKVYQSLA VKVQESLAKS TQVALEALSA MPTVRSFANE
+     EGEAQKFRQK LEEMKPLNKK EALAYVTEVW TMSVSGMLLK VGILYLGGQL VVRGAVSSGN
+     LVSFVLYQLQ FTRAVEVLLS IYPSMQKSVG ASEKIFEYLD RTPCSPLSGS LAPLNMKGLV
+     KFQDVSFAYP NHPNVQVLQG LTFTLYPGKV TALVGPNGSG KSTVAALLQN LYQPTGGKVL
+     LDGEPLVQYD HHYLHTQVAA VGQEPLLFGR SFRENIAYGL TRTPTMEEIT AVAMESGAHD
+     FISGFPQGYD TEVGETGNQL SGGQRQAVAL ARALIRKPRL LILDDATSAL DAGNQLRVQR
+     LLYESPEWAS RTVLLITQQL SLAERAHHIL FLKEGSVCEQ GTHLQLMERG GCYRSMVEAL
+     AAPSD
+//

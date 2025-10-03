@@ -1,0 +1,265 @@
+ID   PI4KB_RAT               Reviewed;         816 AA.
+AC   O08561;
+DT   14-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1997, sequence version 1.
+DT   24-JUL-2024, entry version 171.
+DE   RecName: Full=Phosphatidylinositol 4-kinase beta;
+DE            Short=PI4K-beta;
+DE            Short=PI4Kbeta;
+DE            Short=PtdIns 4-kinase beta;
+DE            EC=2.7.1.67 {ECO:0000269|PubMed:8973579};
+GN   Name=Pi4kb; Synonyms=Pik4cb;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116 {ECO:0000312|EMBL:BAA18969.1};
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, ACTIVITY
+RP   REGULATION, SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar Imamichi {ECO:0000269|PubMed:8973579};
+RC   TISSUE=Brain {ECO:0000269|PubMed:8973579};
+RX   PubMed=8973579; DOI=10.1042/bj3200643;
+RA   Nakagawa T., Goto K., Kondo H.;
+RT   "Cloning and characterization of a 92 kDa soluble phosphatidylinositol 4-
+RT   kinase.";
+RL   Biochem. J. 320:643-649(1996).
+RN   [2]
+RP   INTERACTION WITH NCS1, AND SUBCELLULAR LOCATION.
+RX   PubMed=11526106; DOI=10.1074/jbc.m104048200;
+RA   Zhao X., Varnai P., Tuymetova G., Balla A., Toth Z.E., Oker-Blom C.,
+RA   Roder J., Jeromin A., Balla T.;
+RT   "Interaction of neuronal calcium sensor-1 (NCS-1) with phosphatidylinositol
+RT   4-kinase beta stimulates lipid kinase activity and affects membrane
+RT   trafficking in COS-7 cells.";
+RL   J. Biol. Chem. 276:40183-40189(2001).
+RN   [3]
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH CALN1/CABP8 AND CALN2/CABP7.
+RX   PubMed=19458041; DOI=10.1073/pnas.0903001106;
+RA   Mikhaylova M., Reddy P.P., Munsch T., Landgraf P., Suman S.K.,
+RA   Smalla K.-H., Gundelfinger E.D., Sharma Y., Kreutz M.R.;
+RT   "Calneurons provide a calcium threshold for trans-Golgi network to plasma
+RT   membrane trafficking.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:9093-9098(2009).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-428 AND SER-511, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Phosphorylates phosphatidylinositol (PI) in the first
+CC       committed step in the production of the second messenger inositol-
+CC       1,4,5,-trisphosphate (PIP) (PubMed:8973579). May regulate Golgi
+CC       disintegration/reorganization during mitosis, possibly via its
+CC       phosphorylation (By similarity). Involved in Golgi-to-plasma membrane
+CC       trafficking (PubMed:8973579). May play an important role in the inner
+CC       ear development. {ECO:0000250|UniProtKB:Q9UBF8,
+CC       ECO:0000269|PubMed:8973579}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol) + ATP = a
+CC         1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol 4-phosphate) + ADP +
+CC         H(+); Xref=Rhea:RHEA:19877, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57880, ChEBI:CHEBI:58178, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.67; Evidence={ECO:0000269|PubMed:8973579};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19878;
+CC         Evidence={ECO:0000305|PubMed:8973579};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UBF8};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UBF8};
+CC   -!- ACTIVITY REGULATION: Inhibited by wortmannin (PubMed:8973579).
+CC       Increased kinase activity upon interaction with NCS1/FREQ (By
+CC       similarity). {ECO:0000250|UniProtKB:O02810,
+CC       ECO:0000269|PubMed:8973579}.
+CC   -!- SUBUNIT: Interacts with ARF1 and ARF3 in the Golgi complex, but not
+CC       with ARF4, ARF5 or ARF6 (By similarity). Interacts with NCS1/FREQ in a
+CC       calcium-independent manner. Interacts with CALN1/CABP8 and CALN2/CABP7;
+CC       in a calcium-dependent manner; this interaction competes with NCS1/FREQ
+CC       binding (PubMed:19458041). Interacts with ACBD3. Interacts with ARMH3,
+CC       YWHAB, YWHAE, YWHAG, YWHAH, YWHAQ, YWHAZ and SFN (By similarity).
+CC       Interacts with GGA2 (via VHS domain); the interaction is important for
+CC       PI4KB location at the Golgi apparatus membrane (By similarity).
+CC       Interacts with ATG9A. {ECO:0000250|UniProtKB:Q9UBF8,
+CC       ECO:0000269|PubMed:19458041}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus {ECO:0000269|PubMed:11526106,
+CC       ECO:0000269|PubMed:19458041, ECO:0000269|PubMed:8973579}. Endomembrane
+CC       system {ECO:0000250}. Mitochondrion outer membrane {ECO:0000250};
+CC       Peripheral membrane protein {ECO:0000250}. Rough endoplasmic reticulum
+CC       membrane {ECO:0000250}; Peripheral membrane protein {ECO:0000250}.
+CC       Golgi apparatus membrane {ECO:0000250|UniProtKB:Q9UBF8}. Note=Found in
+CC       the outer membrane of mitochondria and membranes of the rough
+CC       endoplasmic reticulum. Recruited to the Golgi complex by the small
+CC       GTPase ARF to stimulate the synthesis of phosphatidylinositol 4,5-
+CC       bisphosphate (PIP2) on the Golgi complex. Recruited to the Golgi
+CC       apparatus membrane by ACBD3, GGA2 is also involved in the recruitment.
+CC       {ECO:0000250|UniProtKB:Q9UBF8}.
+CC   -!- TISSUE SPECIFICITY: Strongly expressed in brain, kidney, lung, small
+CC       intestine, uterus and adrenal gland. Weaker expression in liver, heart,
+CC       skeletal muscle, thymus and testis. Not detected in spleen.
+CC       {ECO:0000269|PubMed:8973579}.
+CC   -!- SIMILARITY: Belongs to the PI3/PI4-kinase family. Type III PI4K
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D84667; BAA18969.1; -; mRNA.
+DR   RefSeq; NP_112345.1; NM_031083.1.
+DR   AlphaFoldDB; O08561; -.
+DR   SMR; O08561; -.
+DR   IntAct; O08561; 4.
+DR   MINT; O08561; -.
+DR   STRING; 10116.ENSRNOP00000070653; -.
+DR   iPTMnet; O08561; -.
+DR   PhosphoSitePlus; O08561; -.
+DR   jPOST; O08561; -.
+DR   PaxDb; 10116-ENSRNOP00000039342; -.
+DR   GeneID; 81747; -.
+DR   KEGG; rno:81747; -.
+DR   AGR; RGD:621214; -.
+DR   CTD; 5298; -.
+DR   RGD; 621214; Pi4kb.
+DR   VEuPathDB; HostDB:ENSRNOG00000021024; -.
+DR   eggNOG; KOG0903; Eukaryota.
+DR   HOGENOM; CLU_002446_6_0_1; -.
+DR   InParanoid; O08561; -.
+DR   OrthoDB; 147843at2759; -.
+DR   PhylomeDB; O08561; -.
+DR   TreeFam; TF102042; -.
+DR   Reactome; R-RNO-1660514; Synthesis of PIPs at the Golgi membrane.
+DR   PRO; PR:O08561; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000021024; Expressed in skeletal muscle tissue and 19 other cell types or tissues.
+DR   ExpressionAtlas; O08561; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0000139; C:Golgi membrane; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030867; C:rough endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004430; F:1-phosphatidylinositol 4-kinase activity; IDA:RGD.
+DR   GO; GO:0071889; F:14-3-3 protein binding; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0048839; P:inner ear development; ISS:UniProtKB.
+DR   GO; GO:0007040; P:lysosome organization; ISO:RGD.
+DR   GO; GO:0046854; P:phosphatidylinositol phosphate biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0048015; P:phosphatidylinositol-mediated signaling; IBA:GO_Central.
+DR   CDD; cd22246; PI4KB_NTD; 1.
+DR   CDD; cd05168; PI4Kc_III_beta; 1.
+DR   Gene3D; 1.10.1070.11; Phosphatidylinositol 3-/4-kinase, catalytic domain; 1.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000403; PI3/4_kinase_cat_dom.
+DR   InterPro; IPR036940; PI3/4_kinase_cat_sf.
+DR   InterPro; IPR018936; PI3/4_kinase_CS.
+DR   InterPro; IPR001263; PI3K_accessory_dom.
+DR   InterPro; IPR049160; PI4KB-PIK1_PIK.
+DR   InterPro; IPR015433; PI_Kinase.
+DR   PANTHER; PTHR10048:SF22; PHOSPHATIDYLINOSITOL 4-KINASE BETA; 1.
+DR   PANTHER; PTHR10048; PHOSPHATIDYLINOSITOL KINASE; 1.
+DR   Pfam; PF00454; PI3_PI4_kinase; 1.
+DR   Pfam; PF21245; PI4KB-PIK1_PIK; 1.
+DR   SMART; SM00146; PI3Kc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS00915; PI3_4_KINASE_1; 1.
+DR   PROSITE; PS00916; PI3_4_KINASE_2; 1.
+DR   PROSITE; PS50290; PI3_4_KINASE_3; 1.
+DR   PROSITE; PS51545; PIK_HELICAL; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Endoplasmic reticulum; Golgi apparatus; Kinase;
+KW   Lipid metabolism; Membrane; Mitochondrion; Mitochondrion outer membrane;
+KW   Nucleotide-binding; Phosphoprotein; Reference proteome; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBF8"
+FT   CHAIN           2..816
+FT                   /note="Phosphatidylinositol 4-kinase beta"
+FT                   /id="PRO_0000088831"
+FT   DOMAIN          61..242
+FT                   /note="PIK helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00878"
+FT   DOMAIN          535..801
+FT                   /note="PI3K/PI4K catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00269"
+FT   REGION          1..29
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          2..68
+FT                   /note="Interaction with ACBD3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBF8"
+FT   REGION          99..121
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          250..318
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          541..547
+FT                   /note="G-loop"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00269"
+FT   REGION          668..676
+FT                   /note="Catalytic loop"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00269"
+FT   REGION          687..711
+FT                   /note="Activation loop"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00269"
+FT   COMPBIAS        277..294
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         2
+FT                   /note="N-acetylglycine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBF8"
+FT   MOD_RES         258
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBF8"
+FT   MOD_RES         263
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBF8"
+FT   MOD_RES         266
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBF8"
+FT   MOD_RES         275
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BKC8"
+FT   MOD_RES         277
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBF8"
+FT   MOD_RES         284
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8BKC8"
+FT   MOD_RES         294
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBF8"
+FT   MOD_RES         428
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         438
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBF8"
+FT   MOD_RES         511
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         517
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBF8"
+FT   MOD_RES         519
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UBF8"
+SQ   SEQUENCE   816 AA;  91655 MW;  D7460076CE0AC362 CRC64;
+     MGDMVVEPAT LKPTSEPTPS PSGNNGGSLL SVITEGVGEL SVIDPEVAQK ACQEVLEKVK
+     LLHGGVAISS KGSPLELVNG DGVDNEIRCL DDPPTEIREE EDEMEPGVVS GTAKGTRRRR
+     QNNSAKQSWL LRLFESKLFD ISMAISYLYN SKEPGVQAYI GNRLFCFRNE DVDFYLPQLL
+     NMYIHMDEDV GDAIKPYIVH RCRQSINFSL QCALLLGAYS SDMHISTQRH SRGTKLRKLI
+     LSDELKPAHR KRELPTLSPA PDTGLSPSKR THQRSKSDAT ASISLSSNLK RTASNPKVEN
+     EDEELSSSTE SIDNSFSSPV RLAPEREFIK SLMAIGKRLA TLPTKEQKTQ RLISELSLLN
+     HKLPARVWLP TAGFDHHVVR VPHTQAVVLN SKDKAPYLIY VEVLECENFD TTNVPARIPE
+     NRIRSTRSVE NLPECGITHE QRAGSFSTVP NYDNDDEAWS VDDIGELQVE LPEVHTNSCD
+     NISQFSVDSI TSQESKEPVF IAAGDIRRRL SEQLAHTPTA FKRDPEDPSA VALKEPWQEK
+     VRRIREGSPY GHLPNWRLLS VIVKCGDDLR QELLAFQVLK QLQSIWEQER VPLWIKPYKI
+     LVISADSGMI EPVVNAVSIH QVKKQSQLSL LDYFLQEHGS YTTEAFLSAQ RNFVQSCAGY
+     CLVCYLLQVK DRHNGNILLD AEGHIIHIDF GFILSSSPRN LGFETSAFKL TTEFVDVMGG
+     LNGDMFNYYK MLMLQGLIAA RKHMDKVVQI VEIMQQGSQL PCFHGSSTIR NLKERFHMSM
+     TEEQLQLLVE QMVDGSMRSI TTKLYDGFQY LTNGIM
+//

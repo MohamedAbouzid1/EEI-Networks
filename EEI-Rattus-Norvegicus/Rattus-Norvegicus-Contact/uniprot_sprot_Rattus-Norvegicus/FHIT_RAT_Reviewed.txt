@@ -1,0 +1,187 @@
+ID   FHIT_RAT                Reviewed;         150 AA.
+AC   Q9JIX3;
+DT   29-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   24-JUL-2024, entry version 109.
+DE   RecName: Full=Bis(5'-adenosyl)-triphosphatase;
+DE            EC=3.6.1.29 {ECO:0000250|UniProtKB:P49789};
+DE   AltName: Full=AP3A hydrolase;
+DE            Short=AP3Aase;
+DE   AltName: Full=Adenosine 5'-monophosphoramidase FHIT {ECO:0000250|UniProtKB:P49789};
+DE            EC=3.9.1.- {ECO:0000250|UniProtKB:P49789};
+DE   AltName: Full=Adenylylsulfatase;
+DE            EC=3.6.2.1 {ECO:0000250|UniProtKB:P49789};
+DE   AltName: Full=Adenylylsulfate-ammonia adenylyltransferase;
+DE            EC=2.7.7.51 {ECO:0000250|UniProtKB:P49789};
+DE   AltName: Full=Diadenosine 5',5'''-P1,P3-triphosphate hydrolase;
+DE   AltName: Full=Dinucleosidetriphosphatase;
+DE   AltName: Full=Fragile histidine triad protein;
+GN   Name=Fhit;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Fischer 344; TISSUE=Liver;
+RA   Luceri C., De Filippo C., Caderni G., Dolara P.;
+RT   "Identification of FHIT gene in rat Fisher 344.";
+RL   Submitted (JUL-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PROTEIN SEQUENCE OF 5-18 AND 49-64, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Hippocampus;
+RA   Lubec G., Chen W.-Q.;
+RL   Submitted (APR-2007) to UniProtKB.
+CC   -!- FUNCTION: Possesses dinucleoside triphosphate hydrolase activity (By
+CC       similarity). Cleaves P(1)-P(3)-bis(5'-adenosyl) triphosphate (Ap3A) to
+CC       yield AMP and ADP (By similarity). Can also hydrolyze P(1)-P(4)-bis(5'-
+CC       adenosyl) tetraphosphate (Ap4A), but has extremely low activity with
+CC       ATP (By similarity). Exhibits adenylylsulfatase activity, hydrolyzing
+CC       adenosine 5'-phosphosulfate to yield AMP and sulfate (By similarity).
+CC       Exhibits adenosine 5'-monophosphoramidase activity, hydrolyzing purine
+CC       nucleotide phosphoramidates with a single phosphate group such as
+CC       adenosine 5'monophosphoramidate (AMP-NH2) to yield AMP and NH2 (By
+CC       similarity). Exhibits adenylylsulfate-ammonia adenylyltransferase,
+CC       catalyzing the ammonolysis of adenosine 5'-phosphosulfate resulting in
+CC       the formation of adenosine 5'-phosphoramidate (By similarity). Also
+CC       catalyzes the ammonolysis of adenosine 5-phosphorofluoridate and
+CC       diadenosine triphosphate (By similarity). Modulates transcriptional
+CC       activation by CTNNB1 and thereby contributes to regulate the expression
+CC       of genes essential for cell proliferation and survival, such as CCND1
+CC       and BIRC5 (By similarity). Plays a role in the induction of apoptosis
+CC       via SRC and AKT1 signaling pathways (By similarity). Inhibits MDM2-
+CC       mediated proteasomal degradation of p53/TP53 and thereby plays a role
+CC       in p53/TP53-mediated apoptosis (By similarity). Induction of apoptosis
+CC       depends on the ability of FHIT to bind P(1)-P(3)-bis(5'-adenosyl)
+CC       triphosphate or related compounds, but does not require its catalytic
+CC       activity (By similarity) Functions as a tumor suppressor (By
+CC       similarity). {ECO:0000250|UniProtKB:O89106,
+CC       ECO:0000250|UniProtKB:P49789}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + P(1),P(3)-bis(5'-adenosyl) triphosphate = ADP + AMP + 2
+CC         H(+); Xref=Rhea:RHEA:13893, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:58529, ChEBI:CHEBI:456215, ChEBI:CHEBI:456216;
+CC         EC=3.6.1.29; Evidence={ECO:0000250|UniProtKB:P49789};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine 5'-phosphosulfate + H2O = AMP + 2 H(+) + sulfate;
+CC         Xref=Rhea:RHEA:17041, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16189, ChEBI:CHEBI:58243, ChEBI:CHEBI:456215; EC=3.6.2.1;
+CC         Evidence={ECO:0000250|UniProtKB:P49789};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine 5'-phosphosulfate + NH4(+) = adenosine 5'-
+CC         phosphoramidate + 2 H(+) + sulfate; Xref=Rhea:RHEA:19197,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16189, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:57890, ChEBI:CHEBI:58243; EC=2.7.7.51;
+CC         Evidence={ECO:0000250|UniProtKB:P49789};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine 5'-phosphoramidate + H2O = AMP + NH4(+);
+CC         Xref=Rhea:RHEA:67916, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:57890, ChEBI:CHEBI:456215;
+CC         Evidence={ECO:0000250|UniProtKB:P49789};
+CC   -!- SUBUNIT: Homodimer. Interacts with UBE2I. Interacts with MDM2.
+CC       Interacts with CTNNB1. Identified in a complex with CTNNB1 and LEF1 (By
+CC       similarity). {ECO:0000250|UniProtKB:P49789}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P49789}. Nucleus
+CC       {ECO:0000250|UniProtKB:P49789}. Mitochondrion
+CC       {ECO:0000250|UniProtKB:P49789}.
+CC   -!- PTM: Phosphorylation at Tyr-114 by SRC is required for induction of
+CC       apoptosis. {ECO:0000250|UniProtKB:P49789}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF170064; AAF89328.1; -; mRNA.
+DR   RefSeq; NP_068542.1; NM_021774.1.
+DR   AlphaFoldDB; Q9JIX3; -.
+DR   SMR; Q9JIX3; -.
+DR   iPTMnet; Q9JIX3; -.
+DR   PhosphoSitePlus; Q9JIX3; -.
+DR   PaxDb; 10116-ENSRNOP00000009393; -.
+DR   GeneID; 60398; -.
+DR   KEGG; rno:60398; -.
+DR   AGR; RGD:620448; -.
+DR   CTD; 2272; -.
+DR   RGD; 620448; Fhit.
+DR   eggNOG; KOG3379; Eukaryota.
+DR   InParanoid; Q9JIX3; -.
+DR   PhylomeDB; Q9JIX3; -.
+DR   PRO; PR:Q9JIX3; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0043530; F:adenosine 5'-monophosphoramidase activity; ISS:UniProtKB.
+DR   GO; GO:0047627; F:adenylylsulfatase activity; ISS:UniProtKB.
+DR   GO; GO:0047352; F:adenylylsulfate-ammonia adenylyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0047710; F:bis(5'-adenosyl)-triphosphatase activity; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0016151; F:nickel cation binding; IDA:RGD.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0015964; P:diadenosine triphosphate catabolic process; IDA:RGD.
+DR   GO; GO:0006260; P:DNA replication; ISO:RGD.
+DR   GO; GO:0072332; P:intrinsic apoptotic signaling pathway by p53 class mediator; ISS:UniProtKB.
+DR   GO; GO:0032435; P:negative regulation of proteasomal ubiquitin-dependent protein catabolic process; ISS:UniProtKB.
+DR   GO; GO:0006163; P:purine nucleotide metabolic process; ISS:UniProtKB.
+DR   CDD; cd01275; FHIT; 1.
+DR   Gene3D; 3.30.428.10; HIT-like; 1.
+DR   InterPro; IPR052677; Dinucleoside_ppp_hydrolase.
+DR   InterPro; IPR039383; FHIT.
+DR   InterPro; IPR019808; Histidine_triad_CS.
+DR   InterPro; IPR011146; HIT-like.
+DR   InterPro; IPR036265; HIT-like_sf.
+DR   PANTHER; PTHR46981; BIS(5'-ADENOSYL)-TRIPHOSPHATASE; 1.
+DR   PANTHER; PTHR46981:SF1; BIS(5'-ADENOSYL)-TRIPHOSPHATASE; 1.
+DR   Pfam; PF01230; HIT; 1.
+DR   SUPFAM; SSF54197; HIT-like; 1.
+DR   PROSITE; PS00892; HIT_1; 1.
+DR   PROSITE; PS51084; HIT_2; 1.
+PE   1: Evidence at protein level;
+KW   Apoptosis; Cytoplasm; Direct protein sequencing; Hydrolase; Magnesium;
+KW   Manganese; Mitochondrion; Nucleotide-binding; Nucleus; Phosphoprotein;
+KW   Reference proteome; Transcription; Transcription regulation; Transferase.
+FT   CHAIN           1..150
+FT                   /note="Bis(5'-adenosyl)-triphosphatase"
+FT                   /id="PRO_0000288473"
+FT   DOMAIN          2..109
+FT                   /note="HIT"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00464"
+FT   MOTIF           94..98
+FT                   /note="Histidine triad motif"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00464"
+FT   ACT_SITE        96
+FT                   /note="Tele-AMP-histidine intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:P49789"
+FT   BINDING         8
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P49789"
+FT   BINDING         27
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P49789"
+FT   BINDING         83
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P49789"
+FT   BINDING         89..92
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P49789"
+FT   BINDING         98
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P49789"
+FT   SITE            114
+FT                   /note="Important for induction of apoptosis"
+FT                   /evidence="ECO:0000250|UniProtKB:P49789"
+FT   MOD_RES         114
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49789"
+FT   MOD_RES         147
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49789"
+SQ   SEQUENCE   150 AA;  17348 MW;  E0C466FB045EE714 CRC64;
+     MSFKFGQHLI KPSVVFLKTE LSFALVNRKP VVPGHVLMCP LRPVERFRDL RPDEVADLFQ
+     VTQRVGTVVE KHFQGTSITF SMQDGPEAGQ TVKHVHVHIL PRKSGDFRRN DNIYDELQKH
+     DREEEDSPAF WRSEEEMAAE AEVLRAYFQA
+//

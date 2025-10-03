@@ -1,0 +1,156 @@
+ID   PAR16_RAT               Reviewed;         322 AA.
+AC   Q5U2Q4;
+DT   17-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   07-DEC-2004, sequence version 1.
+DT   24-JUL-2024, entry version 98.
+DE   RecName: Full=Protein mono-ADP-ribosyltransferase PARP16 {ECO:0000305};
+DE            EC=2.4.2.- {ECO:0000250|UniProtKB:Q8N5Y8};
+DE   AltName: Full=ADP-ribosyltransferase diphtheria toxin-like 15 {ECO:0000250|UniProtKB:Q8N5Y8};
+DE   AltName: Full=Poly [ADP-ribose] polymerase 16 {ECO:0000250|UniProtKB:Q8N5Y8};
+DE            Short=PARP-16 {ECO:0000250|UniProtKB:Q8N5Y8};
+GN   Name=Parp16 {ECO:0000312|RGD:1306243};
+GN   Synonyms=Artd15 {ECO:0000312|RGD:1306243};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (NOV-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Intracellular mono-ADP-ribosyltransferase that plays a role
+CC       in different processes, such as protein translation and unfolded
+CC       protein response (UPR), through the mono-ADP-ribosylation of proteins
+CC       involved in those processes. Acts as an inhibitor of protein
+CC       translation by catalyzing mono-ADP-ribosylation of ribosomal subunits,
+CC       such as RPL14 and RPS6, thereby inhibiting polysome assembly and mRNA
+CC       loading. Mono-ADP-ribosylation of ribosomal subunits is promoted by
+CC       NMNAT2. Involved in the unfolded protein response (UPR) by ADP-
+CC       ribosylating and activating EIF2AK3 and ERN1, two important UPR
+CC       effectors. May also mediate mono-ADP-ribosylation of karyopherin KPNB1
+CC       a nuclear import factor. May not modify proteins on arginine or
+CC       cysteine residues compared to other mono-ADP-ribosyltransferases.
+CC       {ECO:0000250|UniProtKB:Q8N5Y8}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-aspartyl-[protein] + NAD(+) = 4-O-(ADP-D-ribosyl)-L-
+CC         aspartyl-[protein] + nicotinamide; Xref=Rhea:RHEA:54424, Rhea:RHEA-
+CC         COMP:9867, Rhea:RHEA-COMP:13832, ChEBI:CHEBI:17154,
+CC         ChEBI:CHEBI:29961, ChEBI:CHEBI:57540, ChEBI:CHEBI:138102;
+CC         Evidence={ECO:0000250|UniProtKB:Q8N5Y8};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-lysyl-[protein] + NAD(+) = H(+) + N(6)-(ADP-D-ribosyl)-L-
+CC         lysyl-[protein] + nicotinamide; Xref=Rhea:RHEA:58220, Rhea:RHEA-
+CC         COMP:9752, Rhea:RHEA-COMP:15088, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17154, ChEBI:CHEBI:29969, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:142515; Evidence={ECO:0000250|UniProtKB:Q8N5Y8};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamyl-[protein] + NAD(+) = 5-O-(ADP-D-ribosyl)-L-
+CC         glutamyl-[protein] + nicotinamide; Xref=Rhea:RHEA:58224, Rhea:RHEA-
+CC         COMP:10208, Rhea:RHEA-COMP:15089, ChEBI:CHEBI:17154,
+CC         ChEBI:CHEBI:29973, ChEBI:CHEBI:57540, ChEBI:CHEBI:142540;
+CC         Evidence={ECO:0000250|UniProtKB:Q8N5Y8};
+CC   -!- ACTIVITY REGULATION: In absence of activation signal, PARP16 is
+CC       autoinhibited by the PARP alpha-helical domain (also named HD region),
+CC       which prevents effective NAD(+)-binding. Activity is highly stimulated
+CC       by signals, which unfold the PARP alpha-helical domain, relieving
+CC       autoinhibition. {ECO:0000250|UniProtKB:Q9UGN5}.
+CC   -!- SUBUNIT: Interacts with KPNB1. {ECO:0000250|UniProtKB:Q8N5Y8}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q8N5Y8}; Single-pass type IV membrane protein
+CC       {ECO:0000250|UniProtKB:Q8N5Y8}.
+CC   -!- DOMAIN: The PARP alpha-helical domain (also named HD region) is
+CC       regulatory, it packs against the catalytic domain.
+CC       {ECO:0000250|UniProtKB:Q8N5Y8}.
+CC   -!- PTM: Auto-mono-ADP-ribosylated. {ECO:0000250|UniProtKB:Q8N5Y8}.
+CC   -!- SIMILARITY: Belongs to the ARTD/PARP family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC085908; AAH85908.1; -; mRNA.
+DR   RefSeq; NP_001014115.1; NM_001014093.1.
+DR   RefSeq; XP_006243320.1; XM_006243258.3.
+DR   AlphaFoldDB; Q5U2Q4; -.
+DR   SMR; Q5U2Q4; -.
+DR   STRING; 10116.ENSRNOP00000043841; -.
+DR   PhosphoSitePlus; Q5U2Q4; -.
+DR   PaxDb; 10116-ENSRNOP00000043841; -.
+DR   GeneID; 315760; -.
+DR   KEGG; rno:315760; -.
+DR   UCSC; RGD:1306243; rat.
+DR   AGR; RGD:1306243; -.
+DR   CTD; 54956; -.
+DR   RGD; 1306243; Parp16.
+DR   eggNOG; ENOG502QPKE; Eukaryota.
+DR   InParanoid; Q5U2Q4; -.
+DR   OrthoDB; 5473461at2759; -.
+DR   Reactome; R-RNO-197264; Nicotinamide salvaging.
+DR   PRO; PR:Q5U2Q4; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071782; C:endoplasmic reticulum tubular network; ISO:RGD.
+DR   GO; GO:0005635; C:nuclear envelope; ISO:RGD.
+DR   GO; GO:0019900; F:kinase binding; ISO:RGD.
+DR   GO; GO:0003950; F:NAD+ ADP-ribosyltransferase activity; ISO:RGD.
+DR   GO; GO:0140806; F:NAD+- protein-aspartate ADP-ribosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0140804; F:NAD+- protein-lysine ADP-ribosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:1990404; F:NAD+-protein ADP-ribosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0140807; F:NAD+-protein-glutamate ADP-ribosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0016779; F:nucleotidyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0043539; F:protein serine/threonine kinase activator activity; ISO:RGD.
+DR   GO; GO:1990830; P:cellular response to leukemia inhibitory factor; ISO:RGD.
+DR   GO; GO:0030968; P:endoplasmic reticulum unfolded protein response; ISO:RGD.
+DR   GO; GO:0036498; P:IRE1-mediated unfolded protein response; ISO:RGD.
+DR   GO; GO:2000766; P:negative regulation of cytoplasmic translation; ISO:RGD.
+DR   GO; GO:0070213; P:protein auto-ADP-ribosylation; ISS:UniProtKB.
+DR   Gene3D; 3.90.228.10; -; 1.
+DR   InterPro; IPR051838; ARTD_PARP.
+DR   InterPro; IPR041400; PARP16_N.
+DR   InterPro; IPR012317; Poly(ADP-ribose)pol_cat_dom.
+DR   PANTHER; PTHR21328; POLY ADP-RIBOSE POLYMERASE FAMILY, MEMBER PARP; 1.
+DR   PANTHER; PTHR21328:SF2; PROTEIN MONO-ADP-RIBOSYLTRANSFERASE PARP16; 1.
+DR   Pfam; PF18084; ARTD15_N; 1.
+DR   Pfam; PF00644; PARP; 1.
+DR   SUPFAM; SSF56399; ADP-ribosylation; 1.
+DR   PROSITE; PS51059; PARP_CATALYTIC; 1.
+PE   2: Evidence at transcript level;
+KW   ADP-ribosylation; Endoplasmic reticulum; Glycosyltransferase; Membrane;
+KW   NAD; Nucleotidyltransferase; Reference proteome; Transferase;
+KW   Transmembrane; Transmembrane helix; Unfolded protein response.
+FT   CHAIN           1..322
+FT                   /note="Protein mono-ADP-ribosyltransferase PARP16"
+FT                   /id="PRO_0000252439"
+FT   TRANSMEM        285..305
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          5..91
+FT                   /note="PARP alpha-helical"
+FT   DOMAIN          77..280
+FT                   /note="PARP catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00397"
+FT   BINDING         152
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N5Y8"
+FT   BINDING         182
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N5Y8"
+FT   BINDING         254
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N5Y8"
+FT   SITE            193
+FT                   /note="Nicotinamide-stacking aromate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N5Y8"
+SQ   SEQUENCE   322 AA;  36712 MW;  9D45121DB8D093CF CRC64;
+     MQLSNRAAAR ESVSRDVLAA DLRCSLFASA LQSYKRDSVL RPFPASYARH DCKDFEALLA
+     DTGRLPNLKE LLQSSRDTDK QTWDLVSWIL SSKILTIHSA EKAEFEKIQQ LTGAPHTPVP
+     IPDFLFEIEY FDPANARFYE TKGGRDLIYA FHGSRLENFH SIIHNGLHCH LNKTSLFGEG
+     TYLTSDLSLA LIYSPHGRGW QHSLLGQTLS CVAVCEVIDH PDVKCQTKKK DSKEIDRSRA
+     RIKHSEGGDV PPKYFVVTNN QLLRVKYLLV YSQKQPKRAS SQLSWLCSHW FMVAMSLYLL
+     LLLIVSVTNS SAFQHFWNRL KR
+//

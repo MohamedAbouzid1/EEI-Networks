@@ -1,0 +1,469 @@
+ID   PRDM9_RAT               Reviewed;         796 AA.
+AC   P0C6Y7;
+DT   10-FEB-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   02-OCT-2024, entry version 113.
+DE   RecName: Full=Histone-lysine N-methyltransferase PRDM9 {ECO:0000305};
+DE   AltName: Full=PR domain zinc finger protein 9;
+DE   AltName: Full=PR domain-containing protein 9;
+DE   AltName: Full=Protein-lysine N-methyltransferase PRDM9 {ECO:0000250|UniProtKB:Q96EQ9};
+DE            EC=2.1.1.- {ECO:0000250|UniProtKB:Q96EQ9};
+DE   AltName: Full=[histone H3]-lysine36 N-trimethyltransferase PRDM9 {ECO:0000250|UniProtKB:Q96EQ9};
+DE            EC=2.1.1.359 {ECO:0000250|UniProtKB:Q96EQ9};
+DE   AltName: Full=[histone H3]-lysine4 N-trimethyltransferase PRDM9 {ECO:0000250|UniProtKB:Q96EQ9};
+DE            EC=2.1.1.354 {ECO:0000250|UniProtKB:Q96EQ9};
+DE   AltName: Full=[histone H3]-lysine9 N-trimethyltransferase PRDM9 {ECO:0000250|UniProtKB:Q96EQ9};
+DE            EC=2.1.1.355 {ECO:0000250|UniProtKB:Q96EQ9};
+DE   AltName: Full=[histone H4]-N-methyl-L-lysine20 N-methyltransferase PRDM9 {ECO:0000250|UniProtKB:Q96EQ9};
+DE            EC=2.1.1.362 {ECO:0000250|UniProtKB:Q96EQ9};
+DE   AltName: Full=[histone H4]-lysine20 N-methyltransferase PRDM9 {ECO:0000250|UniProtKB:Q96EQ9};
+DE            EC=2.1.1.361 {ECO:0000250|UniProtKB:Q96EQ9};
+GN   Name=Prdm9 {ECO:0000312|RGD:1305247};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Histone methyltransferase that sequentially mono-, di-, and
+CC       tri-methylates both 'Lys-4' (H3K4) and 'Lys-36' (H3K36) of histone H3
+CC       to produce respectively trimethylated 'Lys-4' (H3K4me3) and
+CC       trimethylated 'Lys-36' (H3K36me3) histone H3 and plays a key role in
+CC       meiotic prophase by determining hotspot localization thereby promoting
+CC       meiotic recombination. Can also methylate all four core histones with
+CC       H3 being the best substrate and the most highly modified. Is also able,
+CC       on one hand, to mono and di-methylate H4K20 and on other hand to
+CC       trimethylate H3K9 with the di-methylated H3K9 as the best substrate.
+CC       During meiotic prophase, binds specific DNA sequences through its zinc
+CC       finger domains thereby determining hotspot localization where it
+CC       promotes local H3K4me3 and H3K36me3 enrichment on the same nucleosomes
+CC       through its histone methyltransferase activity. Thereby promotes
+CC       double-stranded breaks (DSB) formation, at this subset of PRDM9-binding
+CC       sites, that initiates meiotic recombination for the proper meiotic
+CC       progression. During meiotic progression hotspot-bound PRDM9 interacts
+CC       with several complexes; in early leptonema binds CDYL and EHMT2
+CC       followed by EWSR1 and CXXC1 by the end of leptonema. EWSR1 joins PRDM9
+CC       with the chromosomal axis through REC8. In this way, controls the DSB
+CC       repair pathway, pairing of homologous chromosomes and sex body
+CC       formation. Moreover plays a central role in the transcriptional
+CC       activation of genes during early meiotic prophase thanks to H3K4me3 and
+CC       H3K36me3 enrichment that represents a specific tag for epigenetic
+CC       transcriptional activation. In addition performs automethylation.
+CC       Acetylation and phosphorylation of histone H3 attenuate or prevent
+CC       histone H3 methylation. {ECO:0000250|UniProtKB:Q96EQ9}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-lysyl-[protein] + S-adenosyl-L-methionine = H(+) + N(6)-
+CC         methyl-L-lysyl-[protein] + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:51736, Rhea:RHEA-COMP:9752, Rhea:RHEA-COMP:13053,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29969, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:61929;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EQ9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:51737;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EQ9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-methyl-L-lysyl-[protein] + S-adenosyl-L-methionine = H(+)
+CC         + N(6),N(6)-dimethyl-L-lysyl-[protein] + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:54196, Rhea:RHEA-COMP:13053, Rhea:RHEA-COMP:13827,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:61929, ChEBI:CHEBI:61976;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EQ9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54197;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EQ9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-lysyl(4)-[histone H3] + 3 S-adenosyl-L-methionine = 3 H(+) +
+CC         N(6),N(6),N(6)-trimethyl-L-lysyl(4)-[histone H3] + 3 S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:60260, Rhea:RHEA-COMP:15537, Rhea:RHEA-
+CC         COMP:15547, ChEBI:CHEBI:15378, ChEBI:CHEBI:29969, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:61961; EC=2.1.1.354;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NQV7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60261;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NQV7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-lysyl(36)-[histone H3] + 3 S-adenosyl-L-methionine = 3 H(+)
+CC         + N(6),N(6),N(6)-trimethyl-L-lysyl(36)-[histone H3] + 3 S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:60324, Rhea:RHEA-COMP:9785, Rhea:RHEA-
+CC         COMP:15536, ChEBI:CHEBI:15378, ChEBI:CHEBI:29969, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:61961; EC=2.1.1.359;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NQV7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60325;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NQV7};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-lysyl(9)-[histone H3] + 3 S-adenosyl-L-methionine = 3 H(+) +
+CC         N(6),N(6),N(6)-trimethyl-L-lysyl(9)-[histone H3] + 3 S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:60276, Rhea:RHEA-COMP:15538, Rhea:RHEA-
+CC         COMP:15546, ChEBI:CHEBI:15378, ChEBI:CHEBI:29969, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:61961; EC=2.1.1.355;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EQ9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60277;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EQ9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-lysyl(20)-[histone H4] + S-adenosyl-L-methionine = H(+) +
+CC         N(6)-methyl-L-lysyl(20)-[histone H4] + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:60344, Rhea:RHEA-COMP:15554, Rhea:RHEA-COMP:15555,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29969, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:61929; EC=2.1.1.361;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EQ9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60345;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EQ9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-methyl-L-lysyl(20)-[histone H4] + S-adenosyl-L-methionine
+CC         = H(+) + N(6),N(6)-dimethyl-L-lysyl(20)-[histone H4] + S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:60348, Rhea:RHEA-COMP:15555, Rhea:RHEA-
+CC         COMP:15556, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:61929, ChEBI:CHEBI:61976; EC=2.1.1.362;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EQ9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60349;
+CC         Evidence={ECO:0000250|UniProtKB:Q96EQ9};
+CC   -!- SUBUNIT: Homodimer. Interacts with EHMT2 and CDYL; interaction only
+CC       takes place when PRDM9 is bound to hotspot DNA. Interacts with CXXC1;
+CC       this interaction does not link PRDM9-activated recombination hotspot
+CC       sites with DSB machinery and is not required for the hotspot
+CC       recognition pathway. Forms a complex with EWSR1, REC8, SYCP3 and SYCP1;
+CC       complex formation is dependent of phosphorylated form of REC8 and
+CC       requires PRDM9 bound to hotspot DNA; EWSR1 joins PRDM9 with the
+CC       chromosomal axis through REC8. {ECO:0000250|UniProtKB:Q96EQ9}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q96EQ9}.
+CC       Chromosome {ECO:0000250|UniProtKB:Q96EQ9}. Note=Localizes in nuclei of
+CC       pre-leptotene, leptotene, and early to mid-zygotene spermatocytes.
+CC       {ECO:0000250|UniProtKB:Q96EQ9}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P0C6Y7-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P0C6Y7-2; Sequence=VSP_036379, VSP_036380, VSP_036381;
+CC   -!- DOMAIN: The C2H2-type zinc fingers determine the hotspot localization
+CC       through its binding to specific DNA sequences. Variations in their
+CC       sequence affect affinity towards DNA-binding motif.
+CC       {ECO:0000250|UniProtKB:Q96EQ9}.
+CC   -!- PTM: Mono-methylated; automethylated. Tri-methylated; automethylated.
+CC       Mono-methylation is predominant; automethylation is lower and slower
+CC       than H3 peptide methylation and is in a highest S-adenosyl-L-methionine
+CC       concentration-dependent. There are two major sites for automethylation
+CC       at Lys-372 and Lys-378. Lysines can be simultaneously methylated, such
+CC       as Lys-372(me3)/Lys-376(me1), Lys-372(me1)/Lys-378(me1) and Lys-
+CC       372(me1)/Lys-376(me1)/Lys-378(me1). Automethylation is an
+CC       intramolecular (cis) process. {ECO:0000250|UniProtKB:Q96EQ9}.
+CC   -!- SIMILARITY: Belongs to the class V-like SAM-binding methyltransferase
+CC       superfamily. {ECO:0000255|PROSITE-ProRule:PRU00190}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH474033; EDL99813.1; -; Genomic_DNA.
+DR   RefSeq; NP_001102373.2; NM_001108903.2. [P0C6Y7-1]
+DR   AlphaFoldDB; P0C6Y7; -.
+DR   SMR; P0C6Y7; -.
+DR   STRING; 10116.ENSRNOP00000060531; -.
+DR   PhosphoSitePlus; P0C6Y7; -.
+DR   PaxDb; 10116-ENSRNOP00000060531; -.
+DR   Ensembl; ENSRNOT00000066370.4; ENSRNOP00000060531.1; ENSRNOG00000021493.7. [P0C6Y7-1]
+DR   GeneID; 365155; -.
+DR   KEGG; rno:365155; -.
+DR   UCSC; RGD:1305247; rat. [P0C6Y7-1]
+DR   AGR; RGD:1305247; -.
+DR   CTD; 56979; -.
+DR   RGD; 1305247; Prdm9.
+DR   eggNOG; KOG1721; Eukaryota.
+DR   eggNOG; KOG2461; Eukaryota.
+DR   GeneTree; ENSGT00940000158211; -.
+DR   HOGENOM; CLU_002678_32_0_1; -.
+DR   InParanoid; P0C6Y7; -.
+DR   OMA; KRTWQRE; -.
+DR   OrthoDB; 3470369at2759; -.
+DR   PhylomeDB; P0C6Y7; -.
+DR   TreeFam; TF338096; -.
+DR   Reactome; R-RNO-3214841; PKMTs methylate histone lysines.
+DR   PRO; PR:P0C6Y7; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Proteomes; UP000234681; Chromosome 1.
+DR   Bgee; ENSRNOG00000021493; Expressed in liver and 19 other cell types or tissues.
+DR   GO; GO:0000785; C:chromatin; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0046975; F:histone H3K36 methyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0140955; F:histone H3K36 trimethyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0042800; F:histone H3K4 methyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0140999; F:histone H3K4 trimethyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0140949; F:histone H3K9 trimethyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0140944; F:histone H4K20 monomethyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0140941; F:histone H4K20me methyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0010844; F:recombination hotspot binding; ISS:UniProtKB.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0000976; F:transcription cis-regulatory region binding; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006338; P:chromatin remodeling; ISO:RGD.
+DR   GO; GO:1990918; P:double-strand break repair involved in meiotic recombination; ISS:UniProtKB.
+DR   GO; GO:0007292; P:female gamete generation; ISS:UniProtKB.
+DR   GO; GO:0007129; P:homologous chromosome pairing at meiosis; ISS:UniProtKB.
+DR   GO; GO:0048232; P:male gamete generation; ISS:UniProtKB.
+DR   GO; GO:0007127; P:meiosis I; ISO:RGD.
+DR   GO; GO:0006311; P:meiotic gene conversion; ISO:RGD.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISS:UniProtKB.
+DR   GO; GO:1905516; P:positive regulation of fertilization; ISS:UniProtKB.
+DR   GO; GO:0060903; P:positive regulation of meiosis I; ISO:RGD.
+DR   GO; GO:0010845; P:positive regulation of reciprocal meiotic recombination; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0010468; P:regulation of gene expression; IBA:GO_Central.
+DR   GO; GO:0007283; P:spermatogenesis; ISO:RGD.
+DR   CDD; cd07765; KRAB_A-box; 1.
+DR   CDD; cd19193; PR-SET_PRDM7_9; 1.
+DR   Gene3D; 6.10.140.140; -; 1.
+DR   Gene3D; 3.30.160.60; Classic Zinc Finger; 11.
+DR   Gene3D; 2.170.270.10; SET domain; 1.
+DR   InterPro; IPR003655; aKRAB.
+DR   InterPro; IPR001909; KRAB.
+DR   InterPro; IPR036051; KRAB_dom_sf.
+DR   InterPro; IPR048414; PDRM9-like_Znf-C2H2.
+DR   InterPro; IPR044417; PRDM7_9_PR-SET.
+DR   InterPro; IPR001214; SET_dom.
+DR   InterPro; IPR046341; SET_dom_sf.
+DR   InterPro; IPR019041; SSXRD_motif.
+DR   InterPro; IPR050331; Zinc_finger.
+DR   InterPro; IPR036236; Znf_C2H2_sf.
+DR   InterPro; IPR013087; Znf_C2H2_type.
+DR   PANTHER; PTHR16515:SF52; HISTONE-LYSINE N-METHYLTRANSFERASE PRDM9; 1.
+DR   PANTHER; PTHR16515; PR DOMAIN ZINC FINGER PROTEIN; 1.
+DR   Pfam; PF01352; KRAB; 1.
+DR   Pfam; PF21549; PRDM2_PR; 1.
+DR   Pfam; PF09514; SSXRD; 1.
+DR   Pfam; PF00096; zf-C2H2; 9.
+DR   Pfam; PF21225; zf-C2H2_5; 1.
+DR   SMART; SM00349; KRAB; 1.
+DR   SMART; SM00317; SET; 1.
+DR   SMART; SM00355; ZnF_C2H2; 11.
+DR   SUPFAM; SSF57667; beta-beta-alpha zinc fingers; 5.
+DR   SUPFAM; SSF109640; KRAB domain (Kruppel-associated box); 1.
+DR   SUPFAM; SSF82199; SET domain; 1.
+DR   PROSITE; PS50806; KRAB_RELATED; 1.
+DR   PROSITE; PS50280; SET; 1.
+DR   PROSITE; PS00028; ZINC_FINGER_C2H2_1; 10.
+DR   PROSITE; PS50157; ZINC_FINGER_C2H2_2; 10.
+PE   3: Inferred from homology;
+KW   Activator; Alternative splicing; Chromatin regulator; Chromosome;
+KW   DNA-binding; Meiosis; Metal-binding; Methylation; Methyltransferase;
+KW   Nucleus; Reference proteome; Repeat; S-adenosyl-L-methionine;
+KW   Transcription; Transcription regulation; Transferase; Zinc; Zinc-finger.
+FT   CHAIN           1..796
+FT                   /note="Histone-lysine N-methyltransferase PRDM9"
+FT                   /id="PRO_0000363961"
+FT   DOMAIN          27..90
+FT                   /note="KRAB-related"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00120"
+FT   DOMAIN          248..362
+FT                   /note="SET"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00190"
+FT   ZN_FING         392..415
+FT                   /note="C2H2-type 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         522..540
+FT                   /note="C2H2-type 2; degenerate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         546..568
+FT                   /note="C2H2-type 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         574..596
+FT                   /note="C2H2-type 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         602..624
+FT                   /note="C2H2-type 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         630..652
+FT                   /note="C2H2-type 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         658..680
+FT                   /note="C2H2-type 7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         686..708
+FT                   /note="C2H2-type 8"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         714..736
+FT                   /note="C2H2-type 9"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         742..764
+FT                   /note="C2H2-type 10"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   ZN_FING         770..792
+FT                   /note="C2H2-type 11"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00042"
+FT   REGION          1..23
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          149..172
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          443..497
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        149..165
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        443..457
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        482..497
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         209
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   BINDING         212
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   BINDING         220
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   BINDING         223
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   BINDING         260..262
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   BINDING         292..298
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   BINDING         295
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   BINDING         324..325
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   BINDING         361
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   BINDING         394
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         397
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         410
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         415
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         716
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         719
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         732
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         736
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         744
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         747
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         760
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         764
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         772
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         775
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         788
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   BINDING         792
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NQV7"
+FT   MOD_RES         372
+FT                   /note="N6,N6,N6-trimethyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   MOD_RES         372
+FT                   /note="N6-methyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   MOD_RES         376
+FT                   /note="N6-methyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   MOD_RES         378
+FT                   /note="N6-methyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96EQ9"
+FT   VAR_SEQ         1..125
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_036379"
+FT   VAR_SEQ         386..408
+FT                   /note="ELRTEIHPCFLCSLAFSSQKFLT -> GGYHYDSLKEKEKMDFSLRIFIF
+FT                   (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_036380"
+FT   VAR_SEQ         409..796
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_036381"
+SQ   SEQUENCE   796 AA;  92579 MW;  7FB5104B805F87D9 CRC64;
+     MSRTMNTNKP EENSTEGDAG KLEWKPKVKD EFKDISIYFS KEEWAEMGEW EKIRYRNVKR
+     NYKMLISIGL RAPRPAFMCY QRQAIKPQIN DNEDSDEEWT PKQQVSSPWV PFRVKHSKQQ
+     KETPRMPLSD KSSVKEVFGI ENLLNTSGSE HAQKPVCSPE EGNTSGQHFG KKLKLRRKNV
+     EVNRYRLRER KDLAYEEVSE PQDDDYLYCE KCQNFFIDSC PNHGPPVFVK DSVVDRGHPN
+     HSVLSLPPGL RIGPSGIPEA GLGVWNEASD LPVGLHFGPY KGQITEDEEA ANSGYSWLIT
+     KGRNCYEYVD GQDESQANWM RYVNCARDDE EQNLVAFQYH RKIFYRTCRV IRPGRELLVW
+     YGDEYGQELG IKWGSKMKKG FTAGRELRTE IHPCFLCSLA FSSQKFLTQH VEWNHRTEIF
+     PGASARINPK PGDPCPDQLQ EHFDSQNKND KASNEVKRKS KPRHKWTRQR ISTAFSSTLK
+     EQMRSEESKR TVEEELRTGQ TTNIEDTAKS FIASETSRIE RQCGQCFSDK SNVSEHQRTH
+     TGEKPYICRE CGRGFSQKSD LIKHQRTHTE EKPYICRECG RGFTQKSDLI KHQRTHTEEK
+     PYICRECGRG FTQKSDLIKH QRTHTGEKPY ICRECGRGFT QKSDLIKHQR THTEEKPYIC
+     RECGRGFTQK SSLIRHQRTH TGEKPYICRE CGLGFTQKSN LIRHLRTHTG EKPYICRECG
+     LGFTRKSNLI QHQRTHTGEK PYICRECGQG LTWKSSLIQH QRTHTGEKPY ICRECGRGFT
+     WKSSLIQHQR THTVEK
+//

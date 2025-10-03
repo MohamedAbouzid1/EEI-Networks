@@ -1,0 +1,332 @@
+ID   AOC3_RAT                Reviewed;         763 AA.
+AC   O08590; Q497D2; Q5R1T5;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 4.
+DT   02-OCT-2024, entry version 169.
+DE   RecName: Full=Amine oxidase [copper-containing] 3 {ECO:0000250|UniProtKB:Q16853};
+DE            EC=1.4.3.21 {ECO:0000250|UniProtKB:Q16853};
+DE   AltName: Full=Amine oxidase copper-containing 3 {ECO:0000312|RGD:62058};
+DE   AltName: Full=Copper amine oxidase;
+DE   AltName: Full=Semicarbazide-sensitive amine oxidase;
+DE            Short=SSAO;
+DE   AltName: Full=VP97;
+DE   AltName: Full=Vascular adhesion protein 1;
+DE            Short=VAP-1;
+GN   Name=Aoc3 {ECO:0000312|RGD:62058};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Aorta;
+RX   PubMed=15744061; DOI=10.1248/bpb.28.413;
+RA   Ochiai Y., Itoh K., Sakurai E., Tanaka Y.;
+RT   "Molecular cloning and characterization of rat semicarbazide-sensitive
+RT   amine oxidase.";
+RL   Biol. Pharm. Bull. 28:413-418(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-322, PARTIAL PROTEIN SEQUENCE, AND
+RP   SUBCELLULAR LOCATION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Adipocyte;
+RX   PubMed=9083076; DOI=10.1074/jbc.272.14.9388;
+RA   Morris N.J., Ducret A., Aebersold R., Ross S.A., Keller S.R.,
+RA   Lienhard G.E.;
+RT   "Membrane amine oxidase cloning and identification as a major protein in
+RT   the adipocyte plasma membrane.";
+RL   J. Biol. Chem. 272:9388-9392(1997).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 2-20, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Adipocyte;
+RX   PubMed=8520629; DOI=10.3109/09687689509072428;
+RA   Jochen A., Guven S., Hays J.;
+RT   "The major integral membrane glycoprotein in adipocytes is a novel 200-kDa
+RT   heterodimer.";
+RL   Mol. Membr. Biol. 12:277-281(1995).
+CC   -!- FUNCTION: Catalyzes the oxidative deamination of primary amines to the
+CC       corresponding aldehydes with the concomitant production of hydrogen
+CC       peroxide and ammonia. Has a preference for the primary monoamines
+CC       methylamine and benzylamine (PubMed:15744061). Could also act on 2-
+CC       phenylethylamine but much less efficiently. At endothelial cells
+CC       surface can also function as a cell adhesion protein that participates
+CC       in lymphocyte extravasation and recirculation by mediating the binding
+CC       of lymphocytes to peripheral lymph node vascular endothelial cells in
+CC       an L-selectin-independent fashion (By similarity).
+CC       {ECO:0000250|UniProtKB:Q16853, ECO:0000269|PubMed:15744061}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + methylamine + O2 = formaldehyde + H2O2 + NH4(+);
+CC         Xref=Rhea:RHEA:59420, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:16842, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:59338; Evidence={ECO:0000250|UniProtKB:Q16853};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:59421;
+CC         Evidence={ECO:0000250|UniProtKB:Q16853};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=benzylamine + H2O + O2 = benzaldehyde + H2O2 + NH4(+);
+CC         Xref=Rhea:RHEA:59424, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:17169, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:225238; Evidence={ECO:0000269|PubMed:15744061};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:59425;
+CC         Evidence={ECO:0000250|UniProtKB:Q16853};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-phenylethylamine + H2O + O2 = 2-phenylacetaldehyde + H2O2 +
+CC         NH4(+); Xref=Rhea:RHEA:25265, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:16424, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:225237; EC=1.4.3.21;
+CC         Evidence={ECO:0000250|UniProtKB:Q16853};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:25266;
+CC         Evidence={ECO:0000250|UniProtKB:Q16853};
+CC   -!- COFACTOR:
+CC       Name=Cu(2+); Xref=ChEBI:CHEBI:29036;
+CC         Evidence={ECO:0000250|UniProtKB:Q16853};
+CC       Note=Binds 1 copper ion per subunit. {ECO:0000250|UniProtKB:Q16853};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:Q16853};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250|UniProtKB:Q16853};
+CC   -!- COFACTOR:
+CC       Name=L-topaquinone; Xref=ChEBI:CHEBI:79027;
+CC         Evidence={ECO:0000250|UniProtKB:Q16853};
+CC       Note=Contains 1 topaquinone per subunit.
+CC       {ECO:0000250|UniProtKB:Q16853};
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. Probably forms heterodimers with
+CC       AOC2. {ECO:0000250|UniProtKB:Q16853}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:8520629,
+CC       ECO:0000269|PubMed:9083076}; Single-pass type II membrane protein
+CC       {ECO:0000250|UniProtKB:Q16853}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in adipocytes, aorta and lung.
+CC       Expressed at lower levels in heart, kidney, large intestine, liver,
+CC       small intestine and stomach. {ECO:0000269|PubMed:15744061}.
+CC   -!- PTM: Topaquinone (TPQ) is generated by copper-dependent autoxidation of
+CC       a specific tyrosyl residue. {ECO:0000250|UniProtKB:Q16853}.
+CC   -!- PTM: N- and O-glycosylated. {ECO:0000250|UniProtKB:Q16853}.
+CC   -!- SIMILARITY: Belongs to the copper/topaquinone oxidase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB195675; BAD74047.1; -; mRNA.
+DR   EMBL; BC100613; AAI00614.1; -; mRNA.
+DR   EMBL; U72632; AAC53189.1; -; mRNA.
+DR   RefSeq; NP_113770.2; NM_031582.2.
+DR   AlphaFoldDB; O08590; -.
+DR   SMR; O08590; -.
+DR   BioGRID; 248115; 1.
+DR   STRING; 10116.ENSRNOP00000068449; -.
+DR   BindingDB; O08590; -.
+DR   ChEMBL; CHEMBL4592; -.
+DR   DrugCentral; O08590; -.
+DR   GlyCosmos; O08590; 6 sites, No reported glycans.
+DR   GlyGen; O08590; 6 sites.
+DR   iPTMnet; O08590; -.
+DR   PhosphoSitePlus; O08590; -.
+DR   PaxDb; 10116-ENSRNOP00000068449; -.
+DR   GeneID; 29473; -.
+DR   KEGG; rno:29473; -.
+DR   UCSC; RGD:62058; rat.
+DR   AGR; RGD:62058; -.
+DR   CTD; 8639; -.
+DR   RGD; 62058; Aoc3.
+DR   VEuPathDB; HostDB:ENSRNOG00000053448; -.
+DR   eggNOG; KOG1186; Eukaryota.
+DR   HOGENOM; CLU_015739_1_0_1; -.
+DR   InParanoid; O08590; -.
+DR   OrthoDB; 5490352at2759; -.
+DR   BRENDA; 1.4.3.21; 5301.
+DR   Reactome; R-RNO-211945; Phase I - Functionalization of compounds.
+DR   PRO; PR:O08590; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000051307; Expressed in lung and 19 other cell types or tissues.
+DR   GO; GO:0009986; C:cell surface; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005769; C:early endosome; ISO:RGD.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0005902; C:microvillus; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0052595; F:aliphatic amine oxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005509; F:calcium ion binding; ISO:RGD.
+DR   GO; GO:0005507; F:copper ion binding; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0008131; F:primary amine oxidase activity; IDA:RGD.
+DR   GO; GO:0046982; F:protein heterodimerization activity; ISO:RGD.
+DR   GO; GO:0048038; F:quinone binding; ISS:UniProtKB.
+DR   GO; GO:0009308; P:amine metabolic process; ISS:UniProtKB.
+DR   GO; GO:0007155; P:cell adhesion; ISS:UniProtKB.
+DR   GO; GO:0042755; P:eating behavior; IMP:RGD.
+DR   GO; GO:0002523; P:leukocyte migration involved in inflammatory response; IMP:RGD.
+DR   GO; GO:0002675; P:positive regulation of acute inflammatory response; IMP:RGD.
+DR   GO; GO:0010828; P:positive regulation of glucose transmembrane transport; IDA:RGD.
+DR   GO; GO:0002687; P:positive regulation of leukocyte migration; IMP:RGD.
+DR   GO; GO:0008217; P:regulation of blood pressure; IMP:RGD.
+DR   GO; GO:0046677; P:response to antibiotic; IBA:GO_Central.
+DR   GO; GO:0035902; P:response to immobilization stress; IMP:RGD.
+DR   Gene3D; 3.10.450.40; -; 2.
+DR   Gene3D; 2.70.98.20; Copper amine oxidase, catalytic domain; 1.
+DR   InterPro; IPR049947; Cu_Am_Ox_Cu-bd.
+DR   InterPro; IPR049948; Cu_Am_ox_TPQ-bd.
+DR   InterPro; IPR000269; Cu_amine_oxidase.
+DR   InterPro; IPR015798; Cu_amine_oxidase_C.
+DR   InterPro; IPR036460; Cu_amine_oxidase_C_sf.
+DR   InterPro; IPR016182; Cu_amine_oxidase_N-reg.
+DR   InterPro; IPR015800; Cu_amine_oxidase_N2.
+DR   InterPro; IPR015802; Cu_amine_oxidase_N3.
+DR   PANTHER; PTHR10638; COPPER AMINE OXIDASE; 1.
+DR   PANTHER; PTHR10638:SF23; MEMBRANE PRIMARY AMINE OXIDASE; 1.
+DR   Pfam; PF01179; Cu_amine_oxid; 1.
+DR   Pfam; PF02727; Cu_amine_oxidN2; 1.
+DR   Pfam; PF02728; Cu_amine_oxidN3; 1.
+DR   PRINTS; PR00766; CUDAOXIDASE.
+DR   SUPFAM; SSF49998; Amine oxidase catalytic domain; 1.
+DR   SUPFAM; SSF54416; Amine oxidase N-terminal region; 2.
+DR   PROSITE; PS01164; COPPER_AMINE_OXID_1; 1.
+DR   PROSITE; PS01165; COPPER_AMINE_OXID_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Cell adhesion; Cell membrane; Copper; Direct protein sequencing;
+KW   Disulfide bond; Glycoprotein; Membrane; Metal-binding; Oxidoreductase;
+KW   Reference proteome; Signal-anchor; TPQ; Transmembrane; Transmembrane helix.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:8520629"
+FT   CHAIN           2..763
+FT                   /note="Amine oxidase [copper-containing] 3"
+FT                   /id="PRO_0000064105"
+FT   TOPO_DOM        2..6
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        7..27
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        28..763
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        386
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P19801"
+FT   ACT_SITE        471
+FT                   /note="Schiff-base intermediate with substrate; via
+FT                   topaquinone"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         520
+FT                   /ligand="Cu(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29036"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         522
+FT                   /ligand="Cu(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29036"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         529
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         530
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         531
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         572
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         641
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         663
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         667
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         673
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         674
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   BINDING         684
+FT                   /ligand="Cu(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29036"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   MOD_RES         471
+FT                   /note="2',4',5'-topaquinone"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   CARBOHYD        137
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        232
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        294
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        581
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        592
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        666
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        198..199
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   DISULFID        404..430
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   DISULFID        734..741
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   DISULFID        748
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16853"
+FT   CONFLICT        54
+FT                   /note="P -> S (in Ref. 3; AAC53189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        329
+FT                   /note="Q -> R (in Ref. 1; BAD74047)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        645
+FT                   /note="S -> F (in Ref. 1; BAD74047)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   763 AA;  84981 MW;  5FD739AF43F39039 CRC64;
+     MTQKTTLVLL ALAVITIFAL VCVLLAGRSG DGGRLSQPLH CPSVLPSVQP QTHPGQSQPF
+     ADLSPEELTA VMSFLIKHLG PGLVDAAQAR PSDNCVFSVE LQLPAKAAAL AHLDRGGPPP
+     VREALAIIFF GGQPKPNVSE LVVGPLPHPS YMRDVTVERH GGPLPYYRRP VLTREYQDIQ
+     EMIFHRELPQ ASGLLHHCCF YKRQGHNLLK MTTAPRGLQS GDRATWFGIY YNLSGAGFYP
+     HPIGLELLVD HKALDPALWT IQKVFYQGRY YESLTQLEDM FEAGLVNVVL VPDNGTGGSW
+     SLKSSVPPGR APPLQFHPEG PRFSVQGSQV RSSLWAFSFG LGAFSGPRIF DIRFQGERVA
+     YEISVQEAIA LYGGNSPASM STCYMDGSFG IGKYSTPLTR GVDCPYLATY VDWHFLLESQ
+     TPKTLRDAFC VFEQNQGLPL RRHHSDFYSH YFGGVVETVL VVRSVATLLN YDYVWDMVFH
+     SNGAIEVKFH ATGYITSAFF FGAGEKFGNR VAEHTLGTVH THNAHFKVDL DVAGLKNWAW
+     AEDLAFVPMN VPWQPEFQMQ RLQVTRKLLE TEEEAAFPLG NATPRYLYLA SNHSNKWGHR
+     RGYRIQILSF AGKPLPQESP IEKAFTWGRY HLAVTQRKEE EPSSSSIYNQ NDPWTPTVDF
+     TDFISNETIA GEDLVAWVTA GFLHIPHAED IPNTVTVGNG VGFFLRPYNF FDEDPSFYSP
+     DSIYFRKDQD VTDCEVNSLA CLSQTANCVP DLPAFSHGGF TYK
+//

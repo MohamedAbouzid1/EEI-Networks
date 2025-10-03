@@ -1,0 +1,109 @@
+ID   RT31_RAT                Reviewed;         387 AA.
+AC   B0BN56;
+DT   01-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   29-MAY-2024, entry version 81.
+DE   RecName: Full=Small ribosomal subunit protein mS31 {ECO:0000305};
+DE   AltName: Full=28S ribosomal protein S31, mitochondrial;
+DE            Short=MRP-S31;
+DE            Short=S31mt;
+DE   Flags: Precursor;
+GN   Name=Mrps31;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- SUBUNIT: Component of the mitochondrial ribosome small subunit (28S)
+CC       which comprises a 12S rRNA and about 30 distinct proteins.
+CC       {ECO:0000250|UniProtKB:P82925}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250|UniProtKB:P82925}.
+CC   -!- SIMILARITY: Belongs to the mitochondrion-specific ribosomal protein
+CC       mS31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH473970; EDM09000.1; -; Genomic_DNA.
+DR   EMBL; BC158691; AAI58692.1; -; mRNA.
+DR   RefSeq; NP_001099561.1; NM_001106091.1.
+DR   RefSeq; XP_006253411.1; XM_006253349.3.
+DR   AlphaFoldDB; B0BN56; -.
+DR   SMR; B0BN56; -.
+DR   IntAct; B0BN56; 3.
+DR   STRING; 10116.ENSRNOP00000015790; -.
+DR   iPTMnet; B0BN56; -.
+DR   PhosphoSitePlus; B0BN56; -.
+DR   jPOST; B0BN56; -.
+DR   PaxDb; 10116-ENSRNOP00000015790; -.
+DR   PeptideAtlas; B0BN56; -.
+DR   Ensembl; ENSRNOT00000015790.6; ENSRNOP00000015790.4; ENSRNOG00000011839.6.
+DR   Ensembl; ENSRNOT00055013191; ENSRNOP00055010567; ENSRNOG00055007852.
+DR   Ensembl; ENSRNOT00060048989; ENSRNOP00060040879; ENSRNOG00060028173.
+DR   Ensembl; ENSRNOT00065014030; ENSRNOP00065010471; ENSRNOG00065008799.
+DR   GeneID; 290850; -.
+DR   KEGG; rno:290850; -.
+DR   UCSC; RGD:1307668; rat.
+DR   AGR; RGD:1307668; -.
+DR   CTD; 10240; -.
+DR   RGD; 1307668; Mrps31.
+DR   eggNOG; ENOG502QSX9; Eukaryota.
+DR   GeneTree; ENSGT00390000010017; -.
+DR   HOGENOM; CLU_052666_0_0_1; -.
+DR   InParanoid; B0BN56; -.
+DR   OrthoDB; 2919581at2759; -.
+DR   PhylomeDB; B0BN56; -.
+DR   TreeFam; TF324305; -.
+DR   Reactome; R-RNO-5389840; Mitochondrial translation elongation.
+DR   Reactome; R-RNO-5419276; Mitochondrial translation termination.
+DR   PRO; PR:B0BN56; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Proteomes; UP000234681; Chromosome 16.
+DR   Bgee; ENSRNOG00000011839; Expressed in jejunum and 20 other cell types or tissues.
+DR   GO; GO:0005763; C:mitochondrial small ribosomal subunit; ISS:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0019904; F:protein domain specific binding; ISO:RGD.
+DR   GO; GO:0003735; F:structural constituent of ribosome; IEA:InterPro.
+DR   InterPro; IPR026299; MRP-S31.
+DR   PANTHER; PTHR13231:SF3; 28S RIBOSOMAL PROTEIN S31, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR13231; MITOCHONDRIAL RIBOSOMAL PROTEIN S31; 1.
+DR   Pfam; PF15433; MRP-S31; 1.
+PE   2: Evidence at transcript level;
+KW   Mitochondrion; Reference proteome; Ribonucleoprotein; Ribosomal protein;
+KW   Transit peptide.
+FT   TRANSIT         1..56
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           57..387
+FT                   /note="Small ribosomal subunit protein mS31"
+FT                   /id="PRO_0000383148"
+FT   REGION          59..83
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          203..228
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        59..79
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   387 AA;  43962 MW;  E46B2FE6693C103B CRC64;
+     MLHRIPAFIR PRPFSGLPLS CGNREVSVAA SVLPAAGSGA VRTENTIQRH FCTSRSICSK
+     KDDQSVPANE TSQKAAESQG EGKETLKKNL LDVIKDMKVQ LNTANVKTTK PRGRQPPAHL
+     ETAVGRLQKA LGEPPRKRNE FLSPELVAAA SAVADSLPFD KQTTKSELLK QLQQHEEESR
+     AQTDRQKRRV SFTQIISNMK IAKSPSMRVS SRPQHQIQFD EEVDSSLSQE KPADFRRRKC
+     LFKGKRLSIF DVKAFDDEAP EPEAAPSLWE IEFAKQLATV SEQPFGNGFE EMIQWTKEGK
+     LWEFPVNNEA GLDDDGSEFH EHIFLEKHLE DFPKQGPIRL FMELVTCGLS KNPYLSVRQK
+     VEHIEWFRNY FNEKRDILKE NNIHLTS
+//

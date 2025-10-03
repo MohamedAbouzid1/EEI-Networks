@@ -1,0 +1,265 @@
+ID   PLS1_RAT                Reviewed;         335 AA.
+AC   P58195;
+DT   20-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   20-JUN-2001, sequence version 1.
+DT   29-MAY-2024, entry version 130.
+DE   RecName: Full=Phospholipid scramblase 1;
+DE            Short=PL scramblase 1;
+DE   AltName: Full=Ca(2+)-dependent phospholipid scramblase 1;
+DE   AltName: Full=Mg(2+)-dependent nuclease {ECO:0000250|UniProtKB:O15162};
+DE            EC=3.1.-.- {ECO:0000250|UniProtKB:O15162};
+GN   Name=Plscr1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PHOSPHORYLATION.
+RX   PubMed=11259432; DOI=10.1074/jbc.m100790200;
+RA   Pastorelli C., Veiga J., Charles N., Voignier E., Moussu H., Monteiro R.C.,
+RA   Benhamou M.;
+RT   "IgE receptor type I-dependent tyrosine phosphorylation of phospholipid
+RT   scramblase.";
+RL   J. Biol. Chem. 276:20407-20412(2001).
+CC   -!- FUNCTION: Catalyzes calcium-induced ATP-independent rapid bidirectional
+CC       and non-specific distribution of phospholipids (lipid scrambling or
+CC       lipid flip-flop) between the inner and outer leaflet of the plasma
+CC       membrane resulting in collapse of the phospholipid asymmetry which
+CC       leads to phosphatidylserine externalization on the cell surface (By
+CC       similarity). Mediates calcium-dependent phosphatidylserine
+CC       externalization and apoptosis in neurons via its association with TRPC5
+CC       (By similarity). Also exhibits magnesium-dependent nuclease activity
+CC       against double-stranded DNA and RNA but not single-stranded DNA and can
+CC       enhance DNA decatenation mediated by TOP2A (By similarity). Negatively
+CC       regulates FcR-mediated phagocytosis in differentiated macrophages (By
+CC       similarity). May contribute to cytokine-regulated cell proliferation
+CC       and differentiation (By similarity). {ECO:0000250|UniProtKB:O15162,
+CC       ECO:0000250|UniProtKB:Q9JJ00}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine(in) = a 1,2-diacyl-
+CC         sn-glycero-3-phosphocholine(out); Xref=Rhea:RHEA:38571,
+CC         ChEBI:CHEBI:57643; Evidence={ECO:0000250|UniProtKB:O15162};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38572;
+CC         Evidence={ECO:0000250|UniProtKB:O15162};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:38573;
+CC         Evidence={ECO:0000250|UniProtKB:O15162};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphoethanolamine(in) = a 1,2-
+CC         diacyl-sn-glycero-3-phosphoethanolamine(out); Xref=Rhea:RHEA:38895,
+CC         ChEBI:CHEBI:64612; Evidence={ECO:0000250|UniProtKB:O15162};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38896;
+CC         Evidence={ECO:0000250|UniProtKB:O15162};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-L-serine(in) = a 1,2-diacyl-
+CC         sn-glycero-3-phospho-L-serine(out); Xref=Rhea:RHEA:38663,
+CC         ChEBI:CHEBI:57262; Evidence={ECO:0000250|UniProtKB:O15162};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38664;
+CC         Evidence={ECO:0000250|UniProtKB:O15162};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:38665;
+CC         Evidence={ECO:0000250|UniProtKB:O15162};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:O15162};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:O15162};
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:O15162};
+CC       Note=Magnesium. Can also use zinc with lower efficiency.
+CC       {ECO:0000250|UniProtKB:O15162};
+CC   -!- SUBUNIT: Forms homooligomers in the presence of calcium (By
+CC       similarity). Interacts with ABL (By similarity). Interacts with RELT,
+CC       RELL1 and RELL2 (By similarity). Interacts with OXSR1 in the presence
+CC       of RELT (By similarity). Interacts with OCLN, TOP2A and TOP2B (By
+CC       similarity). Interacts with TRPC1, TRPC4 and TRPC5 (By similarity).
+CC       Interacts with ILDR1 (By similarity). {ECO:0000250|UniProtKB:O15162,
+CC       ECO:0000250|UniProtKB:Q9JJ00}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:O15162};
+CC       Single-pass type II membrane protein {ECO:0000250|UniProtKB:O15162}.
+CC       Cell membrane {ECO:0000250|UniProtKB:O15162}; Lipid-anchor
+CC       {ECO:0000250|UniProtKB:O15162}; Cytoplasmic side. Nucleus
+CC       {ECO:0000250|UniProtKB:O15162}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:O15162}. Cytoplasm, perinuclear region
+CC       {ECO:0000250|UniProtKB:O15162}. Note=Localizes to the perinuclear
+CC       region in the presence of RELT. Palmitoylation regulates its
+CC       localization to the cell membrane or the nucleus; trafficking to the
+CC       cell membrane is dependent upon palmitoylation whereas in the absence
+CC       of palmitoylation, localizes to the nucleus.
+CC       {ECO:0000250|UniProtKB:O15162}.
+CC   -!- DOMAIN: The N-terminal proline-rich domain (PRD) is required for
+CC       phospholipid scramblase activity. {ECO:0000250|UniProtKB:O15162}.
+CC   -!- DOMAIN: The transmembrane domain is essential for membrane insertion,
+CC       phospholipid scramblase activity and proper calcium-binding.
+CC       {ECO:0000250|UniProtKB:O15162}.
+CC   -!- PTM: Phosphorylated on tyrosine residues (PubMed:11259432).
+CC       Phosphorylated by OXSR1 in the presence of RELT (By similarity).
+CC       Phosphorylation at Thr-178 by PKC/PKCD increases its phospholipid
+CC       scramblase activity during both cell stimulation and apoptosis (By
+CC       similarity). {ECO:0000250|UniProtKB:O15162,
+CC       ECO:0000269|PubMed:11259432}.
+CC   -!- PTM: Palmitoylation is required for its phospholipid scramblase
+CC       activity (By similarity). Palmitoylation regulates its localization to
+CC       the cell membrane or the nucleus; trafficking to the cell membrane is
+CC       dependent upon palmitoylation whereas in the absence of palmitoylation,
+CC       localizes to the nucleus (By similarity).
+CC       {ECO:0000250|UniProtKB:O15162}.
+CC   -!- SIMILARITY: Belongs to the phospholipid scramblase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY024347; AAK00575.1; -; mRNA.
+DR   RefSeq; NP_476542.1; NM_057194.1.
+DR   RefSeq; XP_006243600.1; XM_006243538.3.
+DR   AlphaFoldDB; P58195; -.
+DR   STRING; 10116.ENSRNOP00000053569; -.
+DR   PhosphoSitePlus; P58195; -.
+DR   SwissPalm; P58195; -.
+DR   PaxDb; 10116-ENSRNOP00000053569; -.
+DR   GeneID; 117540; -.
+DR   KEGG; rno:117540; -.
+DR   UCSC; RGD:620521; rat.
+DR   AGR; RGD:620521; -.
+DR   CTD; 5359; -.
+DR   RGD; 620521; Plscr1.
+DR   VEuPathDB; HostDB:ENSRNOG00000008048; -.
+DR   eggNOG; KOG0621; Eukaryota.
+DR   HOGENOM; CLU_053024_2_0_1; -.
+DR   InParanoid; P58195; -.
+DR   OrthoDB; 4390at2759; -.
+DR   PRO; PR:P58195; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000008048; Expressed in adult mammalian kidney and 18 other cell types or tissues.
+DR   ExpressionAtlas; P58195; baseline and differential.
+DR   GO; GO:0062023; C:collagen-containing extracellular matrix; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISS:UniProtKB.
+DR   GO; GO:0005794; C:Golgi apparatus; ISS:UniProtKB.
+DR   GO; GO:0045121; C:membrane raft; IDA:UniProtKB.
+DR   GO; GO:0005730; C:nucleolus; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0042609; F:CD4 receptor binding; ISS:UniProtKB.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0001228; F:DNA-binding transcription activator activity, RNA polymerase II-specific; ISS:UniProtKB.
+DR   GO; GO:0019899; F:enzyme binding; IPI:UniProtKB.
+DR   GO; GO:0005154; F:epidermal growth factor receptor binding; ISS:UniProtKB.
+DR   GO; GO:0032791; F:lead ion binding; ISS:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; ISS:UniProtKB.
+DR   GO; GO:0045340; F:mercury ion binding; ISS:UniProtKB.
+DR   GO; GO:0004518; F:nuclease activity; ISS:UniProtKB.
+DR   GO; GO:0017128; F:phospholipid scramblase activity; ISS:UniProtKB.
+DR   GO; GO:0017124; F:SH3 domain binding; ISS:UniProtKB.
+DR   GO; GO:0001618; F:virus receptor activity; ISO:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0006953; P:acute-phase response; ISO:RGD.
+DR   GO; GO:0006915; P:apoptotic process; ISS:UniProtKB.
+DR   GO; GO:0071345; P:cellular response to cytokine stimulus; ISO:RGD.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; ISO:RGD.
+DR   GO; GO:0051607; P:defense response to virus; ISS:UniProtKB.
+DR   GO; GO:0006955; P:immune response; IMP:RGD.
+DR   GO; GO:0097193; P:intrinsic apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:0030099; P:myeloid cell differentiation; ISO:RGD.
+DR   GO; GO:0050765; P:negative regulation of phagocytosis; ISS:UniProtKB.
+DR   GO; GO:0045071; P:negative regulation of viral genome replication; ISS:UniProtKB.
+DR   GO; GO:0006659; P:phosphatidylserine biosynthetic process; ISO:RGD.
+DR   GO; GO:0070782; P:phosphatidylserine exposure on apoptotic cell surface; ISS:UniProtKB.
+DR   GO; GO:0015914; P:phospholipid transport; TAS:RGD.
+DR   GO; GO:0017121; P:plasma membrane phospholipid scrambling; IMP:UniProtKB.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:1905820; P:positive regulation of chromosome separation; ISS:UniProtKB.
+DR   GO; GO:2000373; P:positive regulation of DNA topoisomerase (ATP-hydrolyzing) activity; ISS:UniProtKB.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:0045089; P:positive regulation of innate immune response; ISS:UniProtKB.
+DR   GO; GO:1902231; P:positive regulation of intrinsic apoptotic signaling pathway in response to DNA damage; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISS:UniProtKB.
+DR   GO; GO:0060368; P:regulation of Fc receptor mediated stimulatory signaling pathway; IMP:UniProtKB.
+DR   GO; GO:0033003; P:regulation of mast cell activation; IMP:UniProtKB.
+DR   GO; GO:0035455; P:response to interferon-alpha; ISO:RGD.
+DR   GO; GO:0035456; P:response to interferon-beta; ISO:RGD.
+DR   GO; GO:0010288; P:response to lead ion; ISO:RGD.
+DR   InterPro; IPR005552; Scramblase.
+DR   PANTHER; PTHR23248:SF38; PHOSPHOLIPID SCRAMBLASE 1; 1.
+DR   PANTHER; PTHR23248; PHOSPHOLIPID SCRAMBLASE-RELATED; 1.
+DR   Pfam; PF03803; Scramblase; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Cell membrane; Cytoplasm; DNA-binding; Hydrolase; Lipid transport;
+KW   Lipoprotein; Membrane; Nuclease; Nucleus; Palmitate; Phosphoprotein;
+KW   Reference proteome; Repeat; SH3-binding; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..335
+FT                   /note="Phospholipid scramblase 1"
+FT                   /id="PRO_0000100786"
+FT   TOPO_DOM        1..305
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:O15162"
+FT   TRANSMEM        306..322
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        323..335
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:O15162"
+FT   REPEAT          23..29
+FT                   /note="1"
+FT   REPEAT          30..36
+FT                   /note="2"
+FT   REPEAT          37..43
+FT                   /note="3"
+FT   REPEAT          44..50
+FT                   /note="4"
+FT   REPEAT          51..57
+FT                   /note="5"
+FT   REPEAT          58..64
+FT                   /note="6"
+FT   REPEAT          65..71
+FT                   /note="7; approximate"
+FT   REGION          1..102
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1..101
+FT                   /note="Proline-rich domain (PRD)"
+FT                   /evidence="ECO:0000250|UniProtKB:O15162"
+FT   REGION          23..71
+FT                   /note="7 X 7 AA tandem repeats of Q-G-P-Y-[AP]-G-P"
+FT   MOTIF           64..72
+FT                   /note="SH3-binding 1"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           101..109
+FT                   /note="SH3-binding 2"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           274..283
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000250|UniProtKB:O15162"
+FT   COMPBIAS        27..73
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         91
+FT                   /note="Phosphotyrosine; by ABL"
+FT                   /evidence="ECO:0000250|UniProtKB:O15162"
+FT   MOD_RES         178
+FT                   /note="Phosphothreonine; by PKC/PRKCD"
+FT                   /evidence="ECO:0000250|UniProtKB:O15162"
+FT   LIPID           201
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:O15162"
+FT   LIPID           202
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:O15162"
+FT   LIPID           205
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:O15162"
+FT   LIPID           206
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:O15162"
+SQ   SEQUENCE   335 AA;  36711 MW;  7A674DDE7F2759EB CRC64;
+     MEKHGPPEHA AYPIPQADYQ GSQGPYPGPQ GPYPGPQGPY AGPQGPYPGP QGPYAGPQGP
+     YPGPQPGYPV PPGSYAGGDP SGFPVQHQPA YNHPGGPGGT PWMQAPPPPL DCPPGLEYLT
+     QIDQILVHQQ IELLEVLTGF ETNNKYEIKN SLGQRVYFAV EDTDCCTRNC CGASRPFTLR
+     ILDNMGREVM TLERPLRCSS CCFPCCLQEI EIQAPPGVPV GYVIQTWHPC LPKFTLQNEK
+     RQDVLKVVGP CVVCSCCSDI DFELKSLDEE SVVGKISKQW SGFVREAFTD ADNFGIQFPL
+     DLDVKMKAVM LGACFLIDFM FFERTGNEEQ RSGVW
+//

@@ -1,0 +1,203 @@
+ID   TRXR2_RAT               Reviewed;         526 AA.
+AC   Q9Z0J5;
+DT   19-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 3.
+DT   24-JUL-2024, entry version 172.
+DE   RecName: Full=Thioredoxin reductase 2, mitochondrial;
+DE            EC=1.8.1.9;
+DE   AltName: Full=Thioredoxin reductase TR3;
+DE   Flags: Precursor;
+GN   Name=Txnrd2; Synonyms=Trxr2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116 {ECO:0000312|EMBL:AAD13801.1};
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), PROTEIN SEQUENCE OF 37-55; 206-217;
+RP   343-362 AND 515-526, SELENOCYSTEINE AT SEC-525, FUNCTION, CATALYTIC
+RP   ACTIVITY, MASS SPECTROMETRY, COFACTOR, SUBUNIT, SUBCELLULAR LOCATION, AND
+RP   TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=9988709; DOI=10.1074/jbc.274.8.4722;
+RA   Lee S.-R., Kim J.-R., Kwon K.-S., Yoon H.W., Levine R.L., Ginsburg A.,
+RA   Rhee S.G.;
+RT   "Molecular cloning and characterization of a mitochondrial selenocysteine-
+RT   containing thioredoxin reductase from rat liver.";
+RL   J. Biol. Chem. 274:4722-4734(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   ALTERNATIVE SPLICING (ISOFORMS 1 AND 2).
+RX   PubMed=11060283; DOI=10.1074/jbc.m004750200;
+RA   Sun Q.-A., Zappacosta F., Factor V.M., Wirth P.J., Hatfield D.L.,
+RA   Gladyshev V.N.;
+RT   "Heterogeneity within animal thioredoxin reductases: evidence for
+RT   alternative first exon splicing.";
+RL   J. Biol. Chem. 276:3106-3114(2001).
+CC   -!- FUNCTION: Involved in the control of reactive oxygen species levels and
+CC       the regulation of mitochondrial redox homeostasis (By similarity).
+CC       Maintains mitochondrial thioredoxin in a reduced state. May play a role
+CC       in redox-regulated cell signaling. {ECO:0000250|UniProtKB:Q9NNW7,
+CC       ECO:0000269|PubMed:9988709}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-dithiol + NADP(+) = [thioredoxin]-disulfide +
+CC         H(+) + NADPH; Xref=Rhea:RHEA:20345, Rhea:RHEA-COMP:10698, Rhea:RHEA-
+CC         COMP:10700, ChEBI:CHEBI:15378, ChEBI:CHEBI:29950, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.8.1.9;
+CC         Evidence={ECO:0000269|PubMed:9988709};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:20347;
+CC         Evidence={ECO:0000305|PubMed:9988709};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000269|PubMed:9988709};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:9988709}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000269|PubMed:9988709}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q9Z0J5-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9Z0J5-2; Sequence=VSP_008307;
+CC   -!- TISSUE SPECIFICITY: Expressed in liver, kidney, adrenal gland and
+CC       heart. {ECO:0000269|PubMed:9988709}.
+CC   -!- MASS SPECTROMETRY: [Isoform 1]: Mass=53037; Mass_error=2;
+CC       Method=Electrospray; Note=The measured range is 37-526.;
+CC       Evidence={ECO:0000269|PubMed:9988709};
+CC   -!- MISCELLANEOUS: The active site is a redox-active disulfide bond. The
+CC       selenocysteine residue is also essential for catalytic activity (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF072865; AAD13801.1; -; mRNA.
+DR   EMBL; BC085734; AAH85734.1; -; mRNA.
+DR   RefSeq; NP_072106.1; NM_022584.2. [Q9Z0J5-1]
+DR   STRING; 10116.ENSRNOP00000002593; -.
+DR   BindingDB; Q9Z0J5; -.
+DR   ChEMBL; CHEMBL5086; -.
+DR   iPTMnet; Q9Z0J5; -.
+DR   PhosphoSitePlus; Q9Z0J5; -.
+DR   SwissPalm; Q9Z0J5; -.
+DR   jPOST; Q9Z0J5; -.
+DR   PaxDb; 10116-ENSRNOP00000002593; -.
+DR   Ensembl; ENSRNOT00000002593.8; ENSRNOP00000002593.7; ENSRNOG00000001890.8. [Q9Z0J5-1]
+DR   Ensembl; ENSRNOT00055005458; ENSRNOP00055004064; ENSRNOG00055003511. [Q9Z0J5-1]
+DR   Ensembl; ENSRNOT00060021499; ENSRNOP00060016995; ENSRNOG00060012649. [Q9Z0J5-1]
+DR   Ensembl; ENSRNOT00065013043; ENSRNOP00065009623; ENSRNOG00065008228. [Q9Z0J5-1]
+DR   GeneID; 50551; -.
+DR   KEGG; rno:50551; -.
+DR   AGR; RGD:61960; -.
+DR   CTD; 10587; -.
+DR   RGD; 61960; Txnrd2.
+DR   eggNOG; KOG4716; Eukaryota.
+DR   GeneTree; ENSGT00940000158832; -.
+DR   InParanoid; Q9Z0J5; -.
+DR   OMA; CFDYVKP; -.
+DR   OrthoDB; 5473641at2759; -.
+DR   PhylomeDB; Q9Z0J5; -.
+DR   BRENDA; 1.8.1.9; 5301.
+DR   Reactome; R-RNO-3299685; Detoxification of Reactive Oxygen Species.
+DR   SABIO-RK; Q9Z0J5; -.
+DR   PRO; PR:Q9Z0J5; -.
+DR   Proteomes; UP000002494; Chromosome 11.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IDA:UniProtKB.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0042803; F:protein homodimerization activity; IDA:UniProtKB.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0004791; F:thioredoxin-disulfide reductase (NADPH) activity; IDA:UniProtKB.
+DR   GO; GO:0045454; P:cell redox homeostasis; ISS:UniProtKB.
+DR   GO; GO:0007507; P:heart development; ISO:RGD.
+DR   GO; GO:0030097; P:hemopoiesis; ISO:RGD.
+DR   GO; GO:0065003; P:protein-containing complex assembly; TAS:RGD.
+DR   GO; GO:0042542; P:response to hydrogen peroxide; TAS:RGD.
+DR   GO; GO:0055093; P:response to hyperoxia; IEP:RGD.
+DR   GO; GO:0000305; P:response to oxygen radical; TAS:UniProtKB.
+DR   GO; GO:0010269; P:response to selenium ion; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   Gene3D; 3.30.390.30; -; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR016156; FAD/NAD-linked_Rdtase_dimer_sf.
+DR   InterPro; IPR046952; GSHR/TRXR-like.
+DR   InterPro; IPR001100; Pyr_nuc-diS_OxRdtase.
+DR   InterPro; IPR004099; Pyr_nucl-diS_OxRdtase_dimer.
+DR   InterPro; IPR012999; Pyr_OxRdtase_I_AS.
+DR   InterPro; IPR006338; Thioredoxin/glutathione_Rdtase.
+DR   NCBIfam; TIGR01438; TGR; 1.
+DR   PANTHER; PTHR42737; GLUTATHIONE REDUCTASE; 1.
+DR   PANTHER; PTHR42737:SF6; THIOREDOXIN REDUCTASE 2; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   Pfam; PF02852; Pyr_redox_dim; 1.
+DR   PIRSF; PIRSF000350; Mercury_reductase_MerA; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   PRINTS; PR00411; PNDRDTASEI.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   SUPFAM; SSF55424; FAD/NAD-linked reductases, dimerisation (C-terminal) domain; 1.
+DR   PROSITE; PS00076; PYRIDINE_REDOX_1; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Direct protein sequencing; Disulfide bond; FAD;
+KW   Flavoprotein; Mitochondrion; NADP; Oxidoreductase; Redox-active center;
+KW   Reference proteome; Selenocysteine; Transit peptide.
+FT   TRANSIT         1..36
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000269|PubMed:9988709"
+FT   CHAIN           37..526
+FT                   /note="Thioredoxin reductase 2, mitochondrial"
+FT                   /id="PRO_0000030290"
+FT   ACT_SITE        499
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         43..72
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   NON_STD         525
+FT                   /note="Selenocysteine"
+FT                   /evidence="ECO:0000269|PubMed:9988709"
+FT   MOD_RES         81
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JLT4"
+FT   MOD_RES         177
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JLT4"
+FT   MOD_RES         331
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JLT4"
+FT   DISULFID        88..93
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000250"
+FT   CROSSLNK        524..525
+FT                   /note="Cysteinyl-selenocysteine (Cys-Sec)"
+FT                   /evidence="ECO:0000250"
+FT   VAR_SEQ         1..38
+FT                   /note="MAAIVAALRGSSGRFRPQTRVLTRGTRGAAGAASAAGG -> MEG (in
+FT                   isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_008307"
+SQ   SEQUENCE   526 AA;  56575 MW;  ADEEBAD54BE6F241 CRC64;
+     MAAIVAALRG SSGRFRPQTR VLTRGTRGAA GAASAAGGQQ NFDLLVIGGG SGGLACAKEA
+     AQLGRKVAVA DYVEPSPRGT KWGLGGTCVN VGCIPKKLMH QAALLGGMIR DAQHYGWEVA
+     QPVQHNWKAM AEAVQNHVKS LNWGHRVQLQ DRKVKYFNIK ASFVNEHTVH GVDKAGKVTQ
+     LSAKHIVIAT GGRPKYPTQV KGALEHGITS DDIFWLKESP GKTLVVGASY VALECAGFLT
+     GIGLDTTVMM RSVPLRGFDQ QMASLVTEHM ESHGTRFLKG CVPSLIRKLP TNQLQVTWED
+     LASGKEDVGT FDTVLWAIGR VPETRNLNLE KAGVNTNPKN QKIIVDAQEA TSVPHIYAIG
+     DVAEGRPELT PTAIKAGKLL AQRLFGKSST LMNYSNVPTT VFTPLEYGCV GLSEEEAVAL
+     HGQEHIEVYH AYYKPLEFTV ADRDASQCYI KMVCMREPPQ LVLGLHFLGP NAGEVTQGFA
+     LGIQCGASYA QVMQTVGIHP TCSEEVVKLH ISKRSGLDPT VTGCUG
+//

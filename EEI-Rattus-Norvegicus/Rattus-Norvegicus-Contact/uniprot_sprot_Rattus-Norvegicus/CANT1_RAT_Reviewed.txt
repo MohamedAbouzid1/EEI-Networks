@@ -1,0 +1,178 @@
+ID   CANT1_RAT               Reviewed;         403 AA.
+AC   Q8K4Y7; Q4V8N9;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   29-MAY-2024, entry version 130.
+DE   RecName: Full=Soluble calcium-activated nucleotidase 1;
+DE            Short=SCAN-1;
+DE            EC=3.6.1.6 {ECO:0000269|PubMed:12167635};
+DE   AltName: Full=Apyrase homolog;
+GN   Name=Cant1; Synonyms=Srapy;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, COFACTOR,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=12167635; DOI=10.1074/jbc.m201656200;
+RA   Failer B.U., Braun N., Zimmermann H.;
+RT   "Cloning, expression, and functional characterization of a Ca2+-dependent
+RT   endoplasmic reticulum nucleoside diphosphatase.";
+RL   J. Biol. Chem. 277:36978-36986(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Calcium-dependent nucleotidase with a preference for UDP. The
+CC       order of activity with different substrates is UDP > GDP > IDP >> UTP >
+CC       CDP = GTP = ITP. Has very low activity towards ADP and even lower
+CC       activity towards ATP. Does not hydrolyze AMP and GMP (PubMed:12167635).
+CC       Involved in proteoglycan synthesis (By similarity).
+CC       {ECO:0000250|UniProtKB:Q8WVQ1, ECO:0000269|PubMed:12167635}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-diphosphate + H2O = a ribonucleoside 5'-
+CC         phosphate + H(+) + phosphate; Xref=Rhea:RHEA:36799,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:58043; EC=3.6.1.6;
+CC         Evidence={ECO:0000269|PubMed:12167635};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:12167635};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=216 uM for UDP {ECO:0000269|PubMed:12167635};
+CC   -!- SUBUNIT: Monomer. Homodimer; dimerization is Ca(2+)-dependent.
+CC       {ECO:0000250|UniProtKB:Q8WVQ1}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000269|PubMed:12167635}; Single-pass type II membrane protein
+CC       {ECO:0000269|PubMed:12167635}. Golgi apparatus, Golgi stack membrane
+CC       {ECO:0000269|PubMed:12167635}; Single-pass type II membrane protein
+CC       {ECO:0000269|PubMed:12167635}. Note=Processed form: Secreted.
+CC   -!- TISSUE SPECIFICITY: Detected in intestine, thymus, heart, lung, spleen,
+CC       kidney, liver, testis, skeletal muscle and brain.
+CC       {ECO:0000269|PubMed:12167635}.
+CC   -!- SIMILARITY: Belongs to the apyrase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ312207; CAC85467.1; -; mRNA.
+DR   EMBL; BC097279; AAH97279.1; -; mRNA.
+DR   RefSeq; NP_653355.1; NM_144754.2.
+DR   RefSeq; XP_006247851.1; XM_006247789.3.
+DR   RefSeq; XP_006247852.1; XM_006247790.1.
+DR   AlphaFoldDB; Q8K4Y7; -.
+DR   SMR; Q8K4Y7; -.
+DR   STRING; 10116.ENSRNOP00000059931; -.
+DR   GlyCosmos; Q8K4Y7; 1 site, No reported glycans.
+DR   GlyGen; Q8K4Y7; 1 site.
+DR   PhosphoSitePlus; Q8K4Y7; -.
+DR   PaxDb; 10116-ENSRNOP00000059931; -.
+DR   Ensembl; ENSRNOT00000066303.3; ENSRNOP00000059931.2; ENSRNOG00000003239.7.
+DR   Ensembl; ENSRNOT00065007322; ENSRNOP00065005082; ENSRNOG00065004998.
+DR   GeneID; 246272; -.
+DR   KEGG; rno:246272; -.
+DR   UCSC; RGD:628743; rat.
+DR   AGR; RGD:628743; -.
+DR   CTD; 124583; -.
+DR   RGD; 628743; Cant1.
+DR   eggNOG; KOG4494; Eukaryota.
+DR   GeneTree; ENSGT00390000012872; -.
+DR   HOGENOM; CLU_047493_0_0_1; -.
+DR   InParanoid; Q8K4Y7; -.
+DR   OMA; HENWVSH; -.
+DR   OrthoDB; 1242at2759; -.
+DR   BRENDA; 3.6.1.6; 5301.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   SABIO-RK; Q8K4Y7; -.
+DR   PRO; PR:Q8K4Y7; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000003239; Expressed in colon and 19 other cell types or tissues.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IDA:RGD.
+DR   GO; GO:0032580; C:Golgi cisterna membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0043262; F:ADP phosphatase activity; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; ISO:RGD.
+DR   GO; GO:0004382; F:GDP phosphatase activity; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0045134; F:UDP phosphatase activity; IBA:GO_Central.
+DR   GO; GO:0030166; P:proteoglycan biosynthetic process; ISS:UniProtKB.
+DR   Gene3D; 2.120.10.100; Apyrase; 1.
+DR   InterPro; IPR009283; Apyrase.
+DR   InterPro; IPR036258; Apyrase_sf.
+DR   PANTHER; PTHR13023; APYRASE; 1.
+DR   PANTHER; PTHR13023:SF3; SOLUBLE CALCIUM-ACTIVATED NUCLEOTIDASE 1; 1.
+DR   Pfam; PF06079; Apyrase; 1.
+DR   SUPFAM; SSF101887; Apyrase; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Endoplasmic reticulum; Glycoprotein; Golgi apparatus; Hydrolase;
+KW   Membrane; Metal-binding; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..403
+FT                   /note="Soluble calcium-activated nucleotidase 1"
+FT                   /id="PRO_0000209927"
+FT   TOPO_DOM        1..44
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        45..61
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        62..403
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         170
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WVQ1"
+FT   BINDING         171
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WVQ1"
+FT   BINDING         217
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WVQ1"
+FT   BINDING         286
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WVQ1"
+FT   BINDING         347
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WVQ1"
+FT   BINDING         398
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WVQ1"
+FT   SITE            162
+FT                   /note="Important for dimer formation"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WVQ1"
+FT   SITE            202
+FT                   /note="Important for dimer formation"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WVQ1"
+FT   SITE            204
+FT                   /note="Important for dimer formation"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WVQ1"
+FT   SITE            258
+FT                   /note="Important for dimer formation"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8WVQ1"
+FT   CARBOHYD        90
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   403 AA;  45659 MW;  34340AF7917334F1 CRC64;
+     MPIQPFDQRE WNEPMHSLRI SVGGLPVLAS MTKATDPRFR PRWRVILTSF VGAALLWLLY
+     SHHQTPVSGR PPIHNAHNWR LRQERISQYN DTYPLSPPQR TPGGIRYRIA VIADLDTGSK
+     AQEENTWFSY LKKGYLTLSD SGDRVSVEWD KDRGVLESHL AEKGRGMELS DLIVFNGKLY
+     SVDDRTGVIY QIEGTKAVPW VILSDGDGAV EKGFKAEWLA VKDEHLYVGG LGKEWTTTTG
+     EVVNENPEWV KVVGHRGSVE HENWVSSYNA LRAAAGIQPP GYLIHESACW SDTLQRWFFL
+     PRRASHERYS EREDERKGSN LLLSAAQDFR DISVRQVGAL VPTHGFSSFK FIPNTDDQII
+     VALKSEEDNG RIATYVMAFT LDGRFLLPET KIGSVKYEGI EFI
+//

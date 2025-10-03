@@ -1,0 +1,151 @@
+ID   DHB2_RAT                Reviewed;         381 AA.
+AC   Q62730;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-OCT-2024, entry version 134.
+DE   RecName: Full=Estradiol 17-beta-dehydrogenase 2;
+DE            EC=1.1.1.62 {ECO:0000269|PubMed:8612487};
+DE   AltName: Full=17-beta-hydroxysteroid dehydrogenase type 2;
+DE            Short=17-beta-HSD 2;
+DE   AltName: Full=Testosterone 17-beta-dehydrogenase;
+DE            EC=1.1.1.239 {ECO:0000269|PubMed:8612487};
+GN   Name=Hsd17b2; Synonyms=Edh17b2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, CATALYTIC ACTIVITY, AND
+RP   FUNCTION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Placenta;
+RX   PubMed=8612487; DOI=10.1210/endo.137.5.8612487;
+RA   Akinola L.A., Poutanen M., Vihko R.;
+RT   "Cloning of rat 17 beta-hydroxysteroid dehydrogenase type 2 and
+RT   characterization of tissue distribution and catalytic activity of rat type
+RT   1 and type 2 enzymes.";
+RL   Endocrinology 137:1572-1579(1996).
+CC   -!- FUNCTION: Catalyzes the NAD-dependent oxidation of highly active
+CC       17beta-hydroxysteroids, such as estradiol (E2), testosterone (T), and
+CC       dihydrotestosterone (DHT), to their less active forms and thus
+CC       regulates the biological potency of these steroids. Oxidizes estradiol
+CC       to estrone, testosterone to androstenedione, and dihydrotestosterone to
+CC       5alpha-androstan-3,17-dione (PubMed:8612487). Also has 20-alpha-HSD
+CC       activity (By similarity). {ECO:0000250|UniProtKB:P37059,
+CC       ECO:0000269|PubMed:8612487}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol + NAD(+) = estrone + H(+) + NADH;
+CC         Xref=Rhea:RHEA:24612, ChEBI:CHEBI:15378, ChEBI:CHEBI:16469,
+CC         ChEBI:CHEBI:17263, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.62;
+CC         Evidence={ECO:0000269|PubMed:8612487};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:24613;
+CC         Evidence={ECO:0000305|PubMed:8612487};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + testosterone = androst-4-ene-3,17-dione + H(+) +
+CC         NADH; Xref=Rhea:RHEA:14929, ChEBI:CHEBI:15378, ChEBI:CHEBI:16422,
+CC         ChEBI:CHEBI:17347, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         EC=1.1.1.239; Evidence={ECO:0000269|PubMed:8612487};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:14930;
+CC         Evidence={ECO:0000305|PubMed:8612487};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-hydroxy-5alpha-androstan-3-one + NAD(+) = 5alpha-
+CC         androstan-3,17-dione + H(+) + NADH; Xref=Rhea:RHEA:41992,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15994, ChEBI:CHEBI:16330,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000250|UniProtKB:P37059};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(20S)-hydroxypregn-4-en-3-one + NAD(+) = H(+) + NADH +
+CC         progesterone; Xref=Rhea:RHEA:42108, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17026, ChEBI:CHEBI:28453, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; Evidence={ECO:0000250|UniProtKB:P37059};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:P37059}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:P37059}; Single-pass type II membrane protein
+CC       {ECO:0000250|UniProtKB:P37059}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in the placenta, and in the small
+CC       intestine, and liver. {ECO:0000269|PubMed:8612487}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X91234; CAA62617.1; -; mRNA.
+DR   RefSeq; NP_077367.1; NM_024391.1.
+DR   AlphaFoldDB; Q62730; -.
+DR   SMR; Q62730; -.
+DR   STRING; 10116.ENSRNOP00000018795; -.
+DR   BindingDB; Q62730; -.
+DR   ChEMBL; CHEMBL1914268; -.
+DR   PhosphoSitePlus; Q62730; -.
+DR   PaxDb; 10116-ENSRNOP00000018795; -.
+DR   Ensembl; ENSRNOT00055037681; ENSRNOP00055030724; ENSRNOG00055021964.
+DR   Ensembl; ENSRNOT00060040976; ENSRNOP00060033910; ENSRNOG00060023663.
+DR   Ensembl; ENSRNOT00065009780; ENSRNOP00065007084; ENSRNOG00065006369.
+DR   GeneID; 79243; -.
+DR   KEGG; rno:79243; -.
+DR   UCSC; RGD:621803; rat.
+DR   AGR; RGD:621803; -.
+DR   CTD; 3294; -.
+DR   RGD; 621803; Hsd17b2.
+DR   eggNOG; KOG1610; Eukaryota.
+DR   InParanoid; Q62730; -.
+DR   OrthoDB; 5403248at2759; -.
+DR   PhylomeDB; Q62730; -.
+DR   Reactome; R-RNO-193144; Estrogen biosynthesis.
+DR   PRO; PR:Q62730; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IBA:GO_Central.
+DR   GO; GO:0004303; F:estradiol 17-beta-dehydrogenase [NAD(P)+] activity; IDA:RGD.
+DR   GO; GO:0047035; F:testosterone dehydrogenase (NAD+) activity; IDA:RGD.
+DR   GO; GO:0006702; P:androgen biosynthetic process; IDA:RGD.
+DR   GO; GO:0008209; P:androgen metabolic process; ISO:RGD.
+DR   GO; GO:0060348; P:bone development; IEP:RGD.
+DR   GO; GO:0071248; P:cellular response to metal ion; IEP:RGD.
+DR   GO; GO:0006703; P:estrogen biosynthetic process; IDA:RGD.
+DR   GO; GO:0001701; P:in utero embryonic development; ISO:RGD.
+DR   GO; GO:0001890; P:placenta development; ISO:RGD.
+DR   GO; GO:0032526; P:response to retinoic acid; ISO:RGD.
+DR   GO; GO:0008202; P:steroid metabolic process; IBA:GO_Central.
+DR   CDD; cd09805; type2_17beta_HSD-like_SDR_c; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR020904; Sc_DH/Rdtase_CS.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PANTHER; PTHR43313:SF3; 17-BETA-HYDROXYSTEROID DEHYDROGENASE TYPE 2; 1.
+DR   PANTHER; PTHR43313; SHORT-CHAIN DEHYDROGENASE/REDUCTASE FAMILY 9C; 1.
+DR   Pfam; PF00106; adh_short; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00061; ADH_SHORT; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Lipid biosynthesis; Lipid metabolism; Membrane; NAD;
+KW   Oxidoreductase; Reference proteome; Signal-anchor; Steroid biosynthesis;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..381
+FT                   /note="Estradiol 17-beta-dehydrogenase 2"
+FT                   /id="PRO_0000054572"
+FT   TRANSMEM        4..24
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        233
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10001"
+FT   BINDING         83..112
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         220
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   381 AA;  41967 MW;  8E1D08DF345DE136 CRC64;
+     MNPFSSESAW LCLTATAVLG GMLLCKAWSS GQLRSQVVCL AGLWGGACLL SLSLLCSLFL
+     LSVSCFFLLY VSSSDQDLLP VDQKAVLVTG ADSGFGHALA KHLDKLGFTV FAGVLDKEGP
+     GAEELRKNCS ERLSVLQMDV TKPEQIKDVH SEVAEKIQDK GLWAVVNNAG VLHFPIDGEL
+     IPMTVYRKCM AVNFFGAVEV TKVFLPLLRK SKGRLVNVSS MGAMIPFQMV AAYASTKAAI
+     SMFSAVIRQE LAKWGVKVVT IHPGGFQTNI VGSQDSWDKM EKEILDHFSK EIQENYGQEY
+     VHTQKLALPV MREMSNPDIT PVLRDIQHAI CAKNPSSFYC SGRMTYLWIC FAAYSPISLL
+     DYILKNYFTP KLMPRALRTA S
+//

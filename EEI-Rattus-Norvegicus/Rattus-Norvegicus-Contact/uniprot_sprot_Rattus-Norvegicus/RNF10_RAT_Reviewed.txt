@@ -1,0 +1,166 @@
+ID   RNF10_RAT               Reviewed;         802 AA.
+AC   Q5XI59;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   02-OCT-2024, entry version 117.
+DE   RecName: Full=E3 ubiquitin-protein ligase RNF10 {ECO:0000305};
+DE            EC=2.3.2.27 {ECO:0000250|UniProtKB:Q8N5U6};
+DE   AltName: Full=RING finger protein 10 {ECO:0000303|PubMed:18941509};
+GN   Name=Rnf10 {ECO:0000303|PubMed:18941509, ECO:0000312|RGD:1309282};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=18941509; DOI=10.1371/journal.pone.0003464;
+RA   Hoshikawa S., Ogata T., Fujiwara S., Nakamura K., Tanaka S.;
+RT   "A novel function of RING finger protein 10 in transcriptional regulation
+RT   of the myelin-associated glycoprotein gene and myelin formation in Schwann
+RT   cells.";
+RL   PLoS ONE 3:E3464-E3464(2008).
+CC   -!- FUNCTION: E3 ubiquitin-protein ligase that catalyzes monoubiquitination
+CC       of 40S ribosomal proteins RPS2/us5 and RPS3/us3 in response to ribosome
+CC       stalling. Part of a ribosome quality control that takes place when
+CC       ribosomes have stalled during translation initiation (iRQC): RNF10 acts
+CC       by mediating monoubiquitination of RPS2/us5 and RPS3/us3, promoting
+CC       their degradation by the proteasome. Also promotes ubiquitination of
+CC       40S ribosomal proteins in response to ribosome stalling during
+CC       translation elongation. The action of RNF10 in iRQC is counteracted by
+CC       USP10 (By similarity). May also act as a transcriptional factor
+CC       involved in the regulation of MAG (Myelin-associated glycoprotein)
+CC       expression (PubMed:18941509). Acts as a regulator of Schwann cell
+CC       differentiation and myelination (PubMed:18941509).
+CC       {ECO:0000250|UniProtKB:Q8N5U6, ECO:0000269|PubMed:18941509}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-ubiquitinyl-[E2 ubiquitin-conjugating enzyme]-L-cysteine +
+CC         [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-
+CC         cysteine + N(6)-ubiquitinyl-[acceptor protein]-L-lysine.;
+CC         EC=2.3.2.27; Evidence={ECO:0000250|UniProtKB:Q8N5U6};
+CC   -!- PATHWAY: Protein modification; protein ubiquitination.
+CC       {ECO:0000250|UniProtKB:Q8N5U6}.
+CC   -!- SUBUNIT: Interacts with MEOX2. {ECO:0000250|UniProtKB:Q8N5U6}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q8N5U6}. Nucleus
+CC       {ECO:0000269|PubMed:18941509}.
+CC   -!- SIMILARITY: Belongs to the RNF10 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC083831; AAH83831.1; -; mRNA.
+DR   RefSeq; NP_001011904.1; NM_001011904.1.
+DR   AlphaFoldDB; Q5XI59; -.
+DR   STRING; 10116.ENSRNOP00000063855; -.
+DR   PhosphoSitePlus; Q5XI59; -.
+DR   PaxDb; 10116-ENSRNOP00000063855; -.
+DR   Ensembl; ENSRNOT00000064910.3; ENSRNOP00000063855.3; ENSRNOG00000001172.8.
+DR   GeneID; 288710; -.
+DR   KEGG; rno:288710; -.
+DR   UCSC; RGD:1309282; rat.
+DR   AGR; RGD:1309282; -.
+DR   CTD; 9921; -.
+DR   RGD; 1309282; Rnf10.
+DR   eggNOG; KOG2164; Eukaryota.
+DR   GeneTree; ENSGT00390000001731; -.
+DR   HOGENOM; CLU_018206_0_0_1; -.
+DR   InParanoid; Q5XI59; -.
+DR   OMA; PKQELWP; -.
+DR   OrthoDB; 125113at2759; -.
+DR   UniPathway; UPA00143; -.
+DR   PRO; PR:Q5XI59; -.
+DR   Proteomes; UP000002494; Chromosome 12.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0022626; C:cytosolic ribosome; ISO:RGD.
+DR   GO; GO:0099147; C:extrinsic component of postsynaptic density membrane; IDA:SynGO.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000976; F:transcription cis-regulatory region binding; IDA:UniProtKB.
+DR   GO; GO:0061630; F:ubiquitin protein ligase activity; ISS:UniProtKB.
+DR   GO; GO:0010626; P:negative regulation of Schwann cell proliferation; IDA:UniProtKB.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0031643; P:positive regulation of myelination; IMP:UniProtKB.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; IDA:UniProtKB.
+DR   GO; GO:0099527; P:postsynapse to nucleus signaling pathway; IDA:SynGO.
+DR   GO; GO:0051865; P:protein autoubiquitination; ISO:RGD.
+DR   GO; GO:0006513; P:protein monoubiquitination; ISS:UniProtKB.
+DR   GO; GO:1990116; P:ribosome-associated ubiquitin-dependent protein catabolic process; ISS:UniProtKB.
+DR   CDD; cd16536; RING-HC_RNF10; 1.
+DR   Gene3D; 3.30.40.10; Zinc/RING finger domain, C3HC4 (zinc finger); 1.
+DR   InterPro; IPR039739; MAG2/RNF10.
+DR   InterPro; IPR018957; Znf_C3HC4_RING-type.
+DR   InterPro; IPR001841; Znf_RING.
+DR   InterPro; IPR013083; Znf_RING/FYVE/PHD.
+DR   InterPro; IPR017907; Znf_RING_CS.
+DR   PANTHER; PTHR12983; RING FINGER 10 FAMILY MEMBER; 1.
+DR   PANTHER; PTHR12983:SF9; RING FINGER PROTEIN 10; 1.
+DR   Pfam; PF00097; zf-C3HC4; 1.
+DR   SMART; SM00184; RING; 1.
+DR   SUPFAM; SSF57850; RING/U-box; 1.
+DR   PROSITE; PS00518; ZF_RING_1; 1.
+DR   PROSITE; PS50089; ZF_RING_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; DNA-binding; Metal-binding; Nucleus; Phosphoprotein;
+KW   Reference proteome; Transcription; Transcription regulation; Transferase;
+KW   Ubl conjugation pathway; Zinc; Zinc-finger.
+FT   CHAIN           1..802
+FT                   /note="E3 ubiquitin-protein ligase RNF10"
+FT                   /id="PRO_0000259587"
+FT   ZN_FING         225..267
+FT                   /note="RING-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00175"
+FT   REGION          1..134
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          645..664
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          716..753
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          767..802
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..38
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        54..72
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        73..116
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         5
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N5U6"
+FT   MOD_RES         110
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N5U6"
+FT   MOD_RES         128
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8N5U6"
+SQ   SEQUENCE   802 AA;  88410 MW;  B71581B1A18A759C CRC64;
+     MPQSSPSTAA TASDMDKNSG SNSSSASSGS SKGQQPPRSA SAGPAGESKP KSDGKNSNGS
+     KRYNRKREPS YPKNENFSNQ SRRSNSQKSK TFNKTPPQRG GGSSKPFSSS SNGGRRDEVA
+     EAQRAEFSPA QFSGPKKINL NHLLNFTFEP RGQAGHFEGS GHGSWGKRNK WGHKPFNKEL
+     FLQANCQFVV SEDQDYTANF ADPDTLVNWD FVEQVRICSH EVPSCPICLY PPTAAKITRC
+     GHIFCWACIL HYLSLSERTW SKCPICYSSV HKKDLKSVVA TESRQYVVGD TITMQLMKRE
+     KGVLVALPKS KWMNVDHPIS LGDEQHSQYS KLLLASKEQV LHRVVLEEKV ALEQQLAEEK
+     HTPESCFIEA ALQEVKIREE ALSGVAGGRA EVTGVVTALE QLVLMAPLAK ESAFQPRKGV
+     LEYLSAFDEE AAQVCSLDPP GPLALPLVEE EEAVSEPEAC EDLIADDSLG EGTVCAELSQ
+     EEPIAKPGFT QLSSSPCYYF YQAEDGQHMF LHPVNVRCLV REYGSLEQSP EKISATVVEI
+     AGYSMSEDVR QRHRYLSHLP LTCEFSICEL ALQPPVVSKE TLEMFSDDIE KRKRQRQKKA
+     REERRRERRI ELEENKRQGR YPEVHIPLEN LQQFPAFNSY TCSSDSALGP TSTEGHGALS
+     LSPLSRSPGS HADFLLTPLS PTASQGSPSF CVGSLEEDSP FLSFAQMLRV GKAKADGWPK
+     AAPKKDDNSL APPAPVDSDG ESDNSDRVPV PSFQNSFSQA IEAAFMKLDT PATSDPLSDR
+     GGRKRKRQKQ KLLFSTSVVH TK
+//

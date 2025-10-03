@@ -1,0 +1,104 @@
+ID   APOC4_RAT               Reviewed;         124 AA.
+AC   P55797;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   12-DEC-2006, sequence version 2.
+DT   29-MAY-2024, entry version 123.
+DE   RecName: Full=Apolipoprotein C-IV;
+DE            Short=Apo-CIV;
+DE            Short=ApoC-IV;
+DE   AltName: Full=Apolipoprotein C4;
+DE   AltName: Full=Apolipoprotein E-linked;
+DE   AltName: Full=ECL;
+DE   Flags: Precursor;
+GN   Name=Apoc4; Synonyms=Ecl;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RX   PubMed=1379790; DOI=10.1016/0003-9861(92)90683-n;
+RA   Shen P., Howlett G.J.;
+RT   "Two coding regions closely linked to the rat apolipoprotein E gene:
+RT   nucleotide sequences of rat apolipoprotein C-I and ECL cDNA.";
+RL   Arch. Biochem. Biophys. 297:345-353(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RA   Lee N.H., Glodek A., Chandra I., Mason T.M., Quackenbush J.,
+RA   Kerlavage A.R., Adams M.D.;
+RL   Submitted (AUG-2001) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: May participate in lipoprotein metabolism.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P55797-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P55797-2; Sequence=VSP_022002;
+CC   -!- SIMILARITY: Belongs to the apolipoprotein C4 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA39653.1; Type=Erroneous translation; Note=Wrong choice of frame.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X56190; CAA39653.1; ALT_SEQ; mRNA.
+DR   EMBL; AA945171; -; NOT_ANNOTATED_CDS; mRNA.
+DR   PIR; S25719; S25719.
+DR   RefSeq; NP_001102889.1; NM_001109419.1. [P55797-1]
+DR   AlphaFoldDB; P55797; -.
+DR   IntAct; P55797; 1.
+DR   STRING; 10116.ENSRNOP00000024832; -.
+DR   iPTMnet; P55797; -.
+DR   PhosphoSitePlus; P55797; -.
+DR   PaxDb; 10116-ENSRNOP00000024832; -.
+DR   Ensembl; ENSRNOT00000024832.8; ENSRNOP00000024832.4; ENSRNOG00000018405.8. [P55797-1]
+DR   Ensembl; ENSRNOT00055054264; ENSRNOP00055044876; ENSRNOG00055031328. [P55797-1]
+DR   Ensembl; ENSRNOT00060057166; ENSRNOP00060047246; ENSRNOG00060032962. [P55797-1]
+DR   Ensembl; ENSRNOT00065056478; ENSRNOP00065046457; ENSRNOG00065032856. [P55797-1]
+DR   GeneID; 680551; -.
+DR   KEGG; rno:680551; -.
+DR   UCSC; RGD:70959; rat. [P55797-1]
+DR   AGR; RGD:70959; -.
+DR   CTD; 346; -.
+DR   RGD; 70959; Apoc4.
+DR   eggNOG; ENOG502TE52; Eukaryota.
+DR   GeneTree; ENSGT00390000015914; -.
+DR   HOGENOM; CLU_161459_0_0_1; -.
+DR   InParanoid; P55797; -.
+DR   OMA; KWQWFWG; -.
+DR   OrthoDB; 4638429at2759; -.
+DR   PhylomeDB; P55797; -.
+DR   TreeFam; TF336879; -.
+DR   Reactome; R-RNO-8866423; VLDL assembly.
+DR   Reactome; R-RNO-8964046; VLDL clearance.
+DR   PRO; PR:P55797; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000018405; Expressed in liver and 15 other cell types or tissues.
+DR   GO; GO:0034364; C:high-density lipoprotein particle; ISO:RGD.
+DR   GO; GO:0034361; C:very-low-density lipoprotein particle; ISO:RGD.
+DR   GO; GO:0006869; P:lipid transport; IEA:UniProtKB-KW.
+DR   GO; GO:0010890; P:positive regulation of sequestering of triglyceride; ISO:RGD.
+DR   GO; GO:0070328; P:triglyceride homeostasis; ISO:RGD.
+DR   InterPro; IPR028120; APOC4.
+DR   PANTHER; PTHR32288; APOLIPOPROTEIN C-IV; 1.
+DR   PANTHER; PTHR32288:SF0; APOLIPOPROTEIN C-IV; 1.
+DR   Pfam; PF15119; APOC4; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Lipid transport; Reference proteome; Secreted;
+KW   Signal; Transport.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000250|UniProtKB:P55057"
+FT   CHAIN           28..124
+FT                   /note="Apolipoprotein C-IV"
+FT                   /id="PRO_0000002039"
+FT   VAR_SEQ         70..124
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:1379790"
+FT                   /id="VSP_022002"
+SQ   SEQUENCE   124 AA;  14532 MW;  8C7CB8975D95D81F CRC64;
+     MSLLRCRQQT LPSLCLSVLF LACFVASMPT ESLTPTPGPE NSRWSLVRAR VMEMVEPLVT
+     RTRDRWRWFW GPRAIQGFVQ TYYEDHLKDL GPRTQAWLQS SRDHLLNKTH SLCPRLLCRD
+     WTQG
+//

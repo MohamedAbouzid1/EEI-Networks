@@ -1,0 +1,176 @@
+ID   B4GT1_RAT               Reviewed;          32 AA.
+AC   P80225;
+DT   01-OCT-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1993, sequence version 1.
+DT   27-MAR-2024, entry version 99.
+DE   RecName: Full=Beta-1,4-galactosyltransferase 1 {ECO:0000305};
+DE            Short=Beta-1,4-GalTase 1;
+DE            Short=Beta4Gal-T1;
+DE            Short=b4Gal-T1;
+DE            EC=2.4.1.-;
+DE   AltName: Full=Beta-N-acetylglucosaminyl-glycolipid beta-1,4-galactosyltransferase;
+DE   AltName: Full=Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase;
+DE            EC=2.4.1.38;
+DE   AltName: Full=Lactose synthase A protein;
+DE            EC=2.4.1.22;
+DE   AltName: Full=N-acetyllactosamine synthase;
+DE            EC=2.4.1.90;
+DE   AltName: Full=Nal synthase;
+DE   AltName: Full=Neolactotriaosylceramide beta-1,4-galactosyltransferase;
+DE            EC=2.4.1.275 {ECO:0000250|UniProtKB:P08037};
+DE   AltName: Full=UDP-Gal:beta-GlcNAc beta-1,4-galactosyltransferase 1;
+DE   AltName: Full=UDP-galactose:beta-N-acetylglucosamine beta-1,4-galactosyltransferase 1;
+DE   Flags: Fragments;
+GN   Name=B4galt1 {ECO:0000312|RGD:620900}; Synonyms=Ggtb2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RC   TISSUE=Liver;
+RX   PubMed=8375379; DOI=10.1111/j.1432-1033.1993.tb18158.x;
+RA   Bendiak B., Ward L.D., Simpson R.J.;
+RT   "Proteins of the Golgi apparatus. Purification to homogeneity, N-terminal
+RT   sequence, and unusually large Stokes radius of the membrane-bound form of
+RT   UDP-galactose:N-acetylglucosamine beta 1-4galactosyltransferase from rat
+RT   liver.";
+RL   Eur. J. Biochem. 216:405-417(1993).
+CC   -!- FUNCTION: This protein is responsible for the synthesis of complex-type
+CC       N-linked oligosaccharides in many glycoproteins as well as the
+CC       carbohydrate moieties of glycolipids. {ECO:0000250|UniProtKB:P08037}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glucose + UDP-alpha-D-galactose = H(+) + lactose + UDP;
+CC         Xref=Rhea:RHEA:12404, ChEBI:CHEBI:4167, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17716, ChEBI:CHEBI:58223, ChEBI:CHEBI:66914; EC=2.4.1.22;
+CC         Evidence={ECO:0000250|UniProtKB:P08037};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:12405;
+CC         Evidence={ECO:0000250|UniProtKB:P08037};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acetyl-beta-D-glucosaminyl derivative + UDP-alpha-D-
+CC         galactose = a beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl
+CC         derivative + H(+) + UDP; Xref=Rhea:RHEA:22932, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:61631, ChEBI:CHEBI:66914,
+CC         ChEBI:CHEBI:133507; EC=2.4.1.38;
+CC         Evidence={ECO:0000250|UniProtKB:P08037};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:22933;
+CC         Evidence={ECO:0000250|UniProtKB:P08037};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-acetyl-D-glucosamine + UDP-alpha-D-galactose = beta-D-
+CC         galactosyl-(1->4)-N-acetyl-D-glucosamine + H(+) + UDP;
+CC         Xref=Rhea:RHEA:17745, ChEBI:CHEBI:15378, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:60152, ChEBI:CHEBI:66914, ChEBI:CHEBI:506227;
+CC         EC=2.4.1.90; Evidence={ECO:0000250|UniProtKB:P08037};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:17746;
+CC         Evidence={ECO:0000250|UniProtKB:P08037};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1)-
+CC         Cer(d18:1(4E)) + UDP-alpha-D-galactose = a neolactoside
+CC         nLc4Cer(d18:1(4E)) + H(+) + UDP; Xref=Rhea:RHEA:31499,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17006, ChEBI:CHEBI:17103,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:66914; EC=2.4.1.275;
+CC         Evidence={ECO:0000250|UniProtKB:P08037};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:31500;
+CC         Evidence={ECO:0000250|UniProtKB:P08037};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=beta-D-glucosylceramide + UDP-alpha-D-galactose = a beta-D-
+CC         galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide + H(+) + UDP;
+CC         Xref=Rhea:RHEA:62552, ChEBI:CHEBI:15378, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:66914, ChEBI:CHEBI:79208, ChEBI:CHEBI:83264;
+CC         Evidence={ECO:0000250|UniProtKB:P08037};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62553;
+CC         Evidence={ECO:0000250|UniProtKB:P08037};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a neolactoside IV(3)-beta-GlcNAc-nLc4Cer + UDP-alpha-D-
+CC         galactose = beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-
+CC         beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer + H(+)
+CC         + UDP; Xref=Rhea:RHEA:62548, ChEBI:CHEBI:15378, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:66914, ChEBI:CHEBI:90357, ChEBI:CHEBI:144378;
+CC         Evidence={ECO:0000250|UniProtKB:P08037};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62549;
+CC         Evidence={ECO:0000250|UniProtKB:P08037};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:P15291};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus, Golgi stack membrane
+CC       {ECO:0000250|UniProtKB:P15535}; Single-pass type II membrane protein.
+CC       Secreted {ECO:0000250|UniProtKB:P08037}. Cell membrane
+CC       {ECO:0000250|UniProtKB:P08037}; Single-pass type II membrane protein
+CC       {ECO:0000250|UniProtKB:P08037}. Cell projection, filopodium
+CC       {ECO:0000250|UniProtKB:P15535}. Note=Membrane-bound form in trans
+CC       cisternae of Golgi. Secreted into the body fluid.
+CC       {ECO:0000250|UniProtKB:P15535}.
+CC   -!- PTM: The soluble form derives from the membrane form by proteolytic
+CC       processing.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 7 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; S36825; S36825.
+DR   UCSC; RGD:620900; rat.
+DR   AGR; RGD:620900; -.
+DR   RGD; 620900; B4galt1.
+DR   InParanoid; P80225; -.
+DR   BRENDA; 2.4.1.133; 5301.
+DR   BRENDA; 2.4.1.38; 5301.
+DR   SABIO-RK; P80225; -.
+DR   UniPathway; UPA00378; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016323; C:basolateral plasma membrane; ISO:RGD.
+DR   GO; GO:0031526; C:brush border membrane; ISO:RGD.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0030057; C:desmosome; ISO:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISO:RGD.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030175; C:filopodium; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0032580; C:Golgi cisterna membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000138; C:Golgi trans cisterna; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0003831; F:beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0008378; F:galactosyltransferase activity; ISO:RGD.
+DR   GO; GO:0004461; F:lactose synthase activity; ISO:RGD.
+DR   GO; GO:0030145; F:manganese ion binding; ISO:RGD.
+DR   GO; GO:0003945; F:N-acetyllactosamine synthase activity; ISO:RGD.
+DR   GO; GO:0035250; F:UDP-galactosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0002526; P:acute inflammatory response; ISO:RGD.
+DR   GO; GO:0060055; P:angiogenesis involved in wound healing; ISO:RGD.
+DR   GO; GO:0007339; P:binding of sperm to zona pellucida; ISO:RGD.
+DR   GO; GO:0007155; P:cell adhesion; ISO:RGD.
+DR   GO; GO:0008283; P:cell population proliferation; ISO:RGD.
+DR   GO; GO:0045136; P:development of secondary sexual characteristics; ISO:RGD.
+DR   GO; GO:0002064; P:epithelial cell development; ISO:RGD.
+DR   GO; GO:0050673; P:epithelial cell proliferation; ISO:RGD.
+DR   GO; GO:0030198; P:extracellular matrix organization; ISO:RGD.
+DR   GO; GO:0006012; P:galactose metabolic process; ISO:RGD.
+DR   GO; GO:0009101; P:glycoprotein biosynthetic process; ISO:RGD.
+DR   GO; GO:0005989; P:lactose biosynthetic process; ISO:RGD.
+DR   GO; GO:0006629; P:lipid metabolic process; ISS:UniProtKB.
+DR   GO; GO:1905517; P:macrophage migration; ISO:RGD.
+DR   GO; GO:0050680; P:negative regulation of epithelial cell proliferation; ISO:RGD.
+DR   GO; GO:0009312; P:oligosaccharide biosynthetic process; ISO:RGD.
+DR   GO; GO:0007341; P:penetration of zona pellucida; ISO:RGD.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:0061755; P:positive regulation of circulating fibrinogen levels; ISS:UniProtKB.
+DR   GO; GO:0060054; P:positive regulation of epithelial cell proliferation involved in wound healing; ISO:RGD.
+DR   GO; GO:0006486; P:protein glycosylation; ISO:RGD.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; ISO:RGD.
+DR   GO; GO:0060046; P:regulation of acrosome reaction; ISO:RGD.
+DR   GO; GO:0042060; P:wound healing; ISO:RGD.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Cell projection; Direct protein sequencing;
+KW   Glycosyltransferase; Golgi apparatus; Lipid metabolism; Manganese;
+KW   Membrane; Metal-binding; Reference proteome; Secreted; Transferase.
+FT   CHAIN           1..>32
+FT                   /note="Beta-1,4-galactosyltransferase 1"
+FT                   /id="PRO_0000080531"
+FT   NON_CONS        15..16
+FT                   /evidence="ECO:0000305"
+FT   NON_TER         32
+SQ   SEQUENCE   32 AA;  3137 MW;  F58B846F5DCB297F CRC64;
+     PGATLQXAXX LLVAVXAXPP PPLGVXPKPX PG
+//

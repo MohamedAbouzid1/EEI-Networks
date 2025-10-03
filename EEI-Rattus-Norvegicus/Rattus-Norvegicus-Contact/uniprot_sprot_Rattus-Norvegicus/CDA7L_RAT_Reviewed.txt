@@ -1,0 +1,162 @@
+ID   CDA7L_RAT               Reviewed;         438 AA.
+AC   Q4G059;
+DT   05-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   30-AUG-2005, sequence version 1.
+DT   29-MAY-2024, entry version 112.
+DE   RecName: Full=Cell division cycle-associated 7-like protein;
+GN   Name=Cdca7l;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Thymus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-113, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Plays a role in transcriptional regulation as a repressor
+CC       that inhibits monoamine oxidase A (MAOA) activity and gene expression
+CC       by binding to the promoter. Plays an important oncogenic role in
+CC       mediating the full transforming effect of MYC in medulloblastoma cells.
+CC       Involved in apoptotic signaling pathways; May act downstream of P38-
+CC       kinase and BCL-2, but upstream of CASP3/caspase-3 as well as
+CC       CCND1/cyclin D1 and E2F1 (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with MYC (By similarity). Interacts (via IBM motifs)
+CC       with PSIP1 (via IBD domain); phosphorylation increases its affinity for
+CC       PSIP1 (By similarity). {ECO:0000250|UniProtKB:Q96GN5}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Nucleus {ECO:0000250}.
+CC       Note=Associates with chromatin. Translocates from cytoplasm to nucleus
+CC       under dexamethasone induction (By similarity). {ECO:0000250}.
+CC   -!- PTM: Phosphorylation increases its interaction with PSIP1.
+CC       {ECO:0000250|UniProtKB:Q96GN5}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC098734; AAH98734.1; -; mRNA.
+DR   RefSeq; NP_001030125.1; NM_001034953.1.
+DR   AlphaFoldDB; Q4G059; -.
+DR   STRING; 10116.ENSRNOP00000061054; -.
+DR   iPTMnet; Q4G059; -.
+DR   PhosphoSitePlus; Q4G059; -.
+DR   PaxDb; 10116-ENSRNOP00000061054; -.
+DR   Ensembl; ENSRNOT00000064868.3; ENSRNOP00000061054.1; ENSRNOG00000005410.7.
+DR   Ensembl; ENSRNOT00055007920; ENSRNOP00055005970; ENSRNOG00055004938.
+DR   Ensembl; ENSRNOT00060025467; ENSRNOP00060020301; ENSRNOG00060014878.
+DR   GeneID; 619566; -.
+DR   KEGG; rno:619566; -.
+DR   UCSC; RGD:1564080; rat.
+DR   AGR; RGD:1564080; -.
+DR   CTD; 55536; -.
+DR   RGD; 1564080; Cdca7l.
+DR   eggNOG; ENOG502QWH1; Eukaryota.
+DR   GeneTree; ENSGT00940000159108; -.
+DR   HOGENOM; CLU_035988_0_0_1; -.
+DR   InParanoid; Q4G059; -.
+DR   OrthoDB; 2912062at2759; -.
+DR   PhylomeDB; Q4G059; -.
+DR   TreeFam; TF101076; -.
+DR   PRO; PR:Q4G059; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000005410; Expressed in thymus and 18 other cell types or tissues.
+DR   ExpressionAtlas; Q4G059; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; IEA:InterPro.
+DR   InterPro; IPR040221; CDCA7/CDA7L.
+DR   InterPro; IPR018866; Znf-4CXXC_R1.
+DR   PANTHER; PTHR31169:SF4; CELL DIVISION CYCLE-ASSOCIATED 7-LIKE PROTEIN; 1.
+DR   PANTHER; PTHR31169; OS05G0300700 PROTEIN; 1.
+DR   Pfam; PF10497; zf-4CXXC_R1; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Isopeptide bond; Nucleus; Phosphoprotein; Reference proteome;
+KW   Repressor; Transcription; Transcription regulation; Ubl conjugation.
+FT   CHAIN           1..438
+FT                   /note="Cell division cycle-associated 7-like protein"
+FT                   /id="PRO_0000249315"
+FT   REGION          55..114
+FT                   /note="PSIP1-binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          72..199
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          201..223
+FT                   /note="MYC-binding"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           9..33
+FT                   /note="Integrase domain-binding motif 1 (IBM1)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   MOTIF           62..88
+FT                   /note="Integrase domain-binding motif 2 (IBM2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   COMPBIAS        162..199
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         21
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   MOD_RES         74
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   MOD_RES         76
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   MOD_RES         85
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   MOD_RES         100
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   MOD_RES         103
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   MOD_RES         113
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         135
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   MOD_RES         136
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   MOD_RES         183
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q922M5"
+FT   MOD_RES         185
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q922M5"
+FT   MOD_RES         249
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   CROSSLNK        210
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+FT   CROSSLNK        213
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96GN5"
+SQ   SEQUENCE   438 AA;  49973 MW;  33D13AF4DE7F9612 CRC64;
+     MELATRSQIP KEVADIFNAP SDDEEFVGFQ DDVPMENLSE SCGSLDSLEL EKQNACLHSK
+     YFTEELRRIF KEDTDSDNED FEGFTESELN IGSNPELIES ELSDGDKTHP MMSDEEDDDD
+     EEEAAPRRGR QSTRSSFGLR VAFQFPTKKT AKTPDKNSPH LLGGKTDLRR EKSCRQPKEK
+     EDSASDAEDE SRAESQETSD ALLKRAMNIK ENKAMLAQLL AELNSVPDFF PVRTPPSASR
+     RRTPRRAFSE GQITRRVNPT RSARPPEKFA LENFTFSATK LTEELYSFRR RKTISGGKCQ
+     KYRRHRISSF RSVKDITEEE LENIAITVRD KVYDKVLGNT CHQCRQKTID TKTVCRNQGC
+     GGVRGQFCGP CLRNRYGEDV RTALLDPKWT CPPCRGICNC SYCRRRDGRC ATGILIHLAK
+     FYGYDNVKEY LESLQKQL
+//

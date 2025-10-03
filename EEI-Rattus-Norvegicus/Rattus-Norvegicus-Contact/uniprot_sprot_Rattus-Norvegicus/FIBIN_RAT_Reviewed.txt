@@ -1,0 +1,101 @@
+ID   FIBIN_RAT               Reviewed;         217 AA.
+AC   Q5U2T4;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   07-DEC-2004, sequence version 1.
+DT   29-MAY-2024, entry version 91.
+DE   RecName: Full=Fin bud initiation factor homolog;
+DE   Flags: Precursor;
+GN   Name=Fibin;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- SUBUNIT: Homodimer; disulfide-linked. Seems to also exist as monomers
+CC       (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}. Golgi apparatus
+CC       {ECO:0000250}. Endoplasmic reticulum {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the FIBIN family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH473949; EDL79766.1; -; Genomic_DNA.
+DR   EMBL; BC085873; AAH85873.1; -; mRNA.
+DR   RefSeq; NP_001020213.1; NM_001025042.2.
+DR   AlphaFoldDB; Q5U2T4; -.
+DR   SMR; Q5U2T4; -.
+DR   STRING; 10116.ENSRNOP00000006203; -.
+DR   GlyCosmos; Q5U2T4; 1 site, No reported glycans.
+DR   GlyGen; Q5U2T4; 1 site.
+DR   PhosphoSitePlus; Q5U2T4; -.
+DR   PaxDb; 10116-ENSRNOP00000006203; -.
+DR   Ensembl; ENSRNOT00000006203.4; ENSRNOP00000006203.1; ENSRNOG00000004699.4.
+DR   Ensembl; ENSRNOT00055042315; ENSRNOP00055034547; ENSRNOG00055024593.
+DR   Ensembl; ENSRNOT00060003641; ENSRNOP00060002529; ENSRNOG00060002310.
+DR   Ensembl; ENSRNOT00065027097; ENSRNOP00065021299; ENSRNOG00065016282.
+DR   GeneID; 499856; -.
+DR   KEGG; rno:499856; -.
+DR   UCSC; RGD:1563711; rat.
+DR   AGR; RGD:1563711; -.
+DR   CTD; 387758; -.
+DR   RGD; 1563711; Fibin.
+DR   eggNOG; ENOG502QSW0; Eukaryota.
+DR   GeneTree; ENSGT00390000007623; -.
+DR   HOGENOM; CLU_1323584_0_0_1; -.
+DR   InParanoid; Q5U2T4; -.
+DR   OMA; GFFCHLC; -.
+DR   OrthoDB; 4475554at2759; -.
+DR   PhylomeDB; Q5U2T4; -.
+DR   TreeFam; TF331989; -.
+DR   PRO; PR:Q5U2T4; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Proteomes; UP000234681; Chromosome 3.
+DR   Bgee; ENSRNOG00000004699; Expressed in colon and 17 other cell types or tissues.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0070528; P:protein kinase C signaling; ISO:RGD.
+DR   GO; GO:0071548; P:response to dexamethasone; ISO:RGD.
+DR   GO; GO:0010042; P:response to manganese ion; ISO:RGD.
+DR   InterPro; IPR026772; Fibin.
+DR   PANTHER; PTHR31185; FIN BUD INITIATION FACTOR FIBIN; 1.
+DR   PANTHER; PTHR31185:SF0; FIN BUD INITIATION FACTOR HOMOLOG; 1.
+DR   Pfam; PF15819; Fibin; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Endoplasmic reticulum; Glycoprotein; Golgi apparatus;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           19..217
+FT                   /note="Fin bud initiation factor homolog"
+FT                   /id="PRO_0000349213"
+FT   CARBOHYD        30
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        52
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        64
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   217 AA;  24754 MW;  7187A56978D5D31B CRC64;
+     MMFTKLIWMG FFCHLCRGYF DGPLYPEMSN GTLHHYFVPD GDYEENDDPE KCQLLFRVSD
+     RRRCSQGEGG QASSLLSLTL REEFTVLGRQ VEDAGRVLEG ISKSISYDLD GEESYGKYLR
+     RESHQIGDAY SNSDKSLTEL ESKFKQGQEQ DSRQESRLNE DFLGMLVHTR SLLKETLGIS
+     VGLRDKYELL AHTIRSHGTR LGRLKSDYLE GGGQKMG
+//

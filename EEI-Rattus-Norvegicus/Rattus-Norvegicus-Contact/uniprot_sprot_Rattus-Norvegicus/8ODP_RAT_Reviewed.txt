@@ -1,0 +1,270 @@
+ID   8ODP_RAT                Reviewed;         156 AA.
+AC   P53369;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   29-MAY-2024, entry version 138.
+DE   RecName: Full=Oxidized purine nucleoside triphosphate hydrolase {ECO:0000305};
+DE            EC=3.6.1.56 {ECO:0000250|UniProtKB:P36639};
+DE   AltName: Full=2-hydroxy-dATP diphosphatase;
+DE   AltName: Full=7,8-dihydro-8-oxoguanine triphosphatase;
+DE   AltName: Full=8-oxo-dGTPase;
+DE   AltName: Full=Methylated purine nucleoside triphosphate hydrolase {ECO:0000250|UniProtKB:P36639};
+DE            EC=3.6.1.- {ECO:0000250|UniProtKB:P36639};
+DE   AltName: Full=Nucleoside diphosphate-linked moiety X motif 1;
+DE            Short=Nudix motif 1;
+GN   Name=Nudt1; Synonyms=Mth1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA], FUNCTION, CATALYTIC ACTIVITY, AND
+RP   TISSUE SPECIFICITY.
+RC   STRAIN=Donryu; TISSUE=Spleen;
+RX   PubMed=7586133; DOI=10.1093/carcin/16.10.2343;
+RA   Cai J.P., Kakuma T., Tsuzuki T., Sekiguchi M.;
+RT   "cDNA and genomic sequences for rat 8-oxo-dGTPase that prevents occurrence
+RT   of spontaneous mutations due to oxidation of guanine nucleotides.";
+RL   Carcinogenesis 16:2343-2350(1995).
+RN   [2]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=11817101; DOI=10.1078/0940-2993-00201;
+RA   Kasprzak K.S., Nakabeppu Y., Kakuma T., Sakai Y., Tsuruya K., Sekiguchi M.,
+RA   Ward J.M., Diwan B.A., Nagashima K., Kasprzak B.H.;
+RT   "Intracellular distribution of the antimutagenic enzyme MTH1 in the liver,
+RT   kidney and testis of F344 rats and its modulation by cadmium.";
+RL   Exp. Toxicol. Pathol. 53:325-335(2001).
+RN   [3]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=30304478; DOI=10.1093/nar/gky896;
+RA   Jemth A.S., Gustafsson R., Braeutigam L., Henriksson L., Vallin K.S.A.,
+RA   Sarno A., Almloef I., Homan E., Rasti A., Warpman Berglund U., Stenmark P.,
+RA   Helleday T.;
+RT   "MutT homologue 1 (MTH1) catalyzes the hydrolysis of mutagenic O6-methyl-
+RT   dGTP.";
+RL   Nucleic Acids Res. 46:10888-10904(2018).
+RN   [4]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=32144205; DOI=10.1074/jbc.ra120.012636;
+RA   Scaletti E.R., Vallin K.S., Braeutigam L., Sarno A., Warpman Berglund U.,
+RA   Helleday T., Stenmark P., Jemth A.S.;
+RT   "MutT homologue 1 (MTH1) removes N6-methyl-dATP from the dNTP pool.";
+RL   J. Biol. Chem. 295:4761-4772(2020).
+CC   -!- FUNCTION: Oxidized purine nucleoside triphosphate hydrolase which is a
+CC       prominent sanitizer of the oxidized nucleotide pool (PubMed:7586133).
+CC       Catalyzes the hydrolysis of 2-oxo-dATP (2-hydroxy-dATP) into 2-oxo-dAMP
+CC       (PubMed:7586133). Has also a significant hydrolase activity toward 2-
+CC       oxo-ATP, 8-oxo-dGTP and 8-oxo-dATP (By similarity). Through the
+CC       hydrolysis of oxidized purine nucleoside triphosphates, prevents their
+CC       incorporation into DNA and the subsequent transversions A:T to C:G and
+CC       G:C to T:A (PubMed:7586133). Also catalyzes the hydrolysis of
+CC       methylated purine nucleoside triphosphate preventing their integration
+CC       into DNA (PubMed:30304478, PubMed:32144205). Through this antimutagenic
+CC       activity protects cells from oxidative stress (PubMed:30304478,
+CC       PubMed:32144205, PubMed:7586133). {ECO:0000250|UniProtKB:P36639,
+CC       ECO:0000269|PubMed:30304478, ECO:0000269|PubMed:32144205,
+CC       ECO:0000269|PubMed:7586133}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxo-dATP + H2O = 2-oxo-dAMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:31583, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:63212, ChEBI:CHEBI:77897; EC=3.6.1.56;
+CC         Evidence={ECO:0000250|UniProtKB:P36639};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:31584;
+CC         Evidence={ECO:0000250|UniProtKB:P36639};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxo-ATP + H2O = 2-oxo-AMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:67392, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:71395, ChEBI:CHEBI:172878;
+CC         Evidence={ECO:0000250|UniProtKB:P36639};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67393;
+CC         Evidence={ECO:0000250|UniProtKB:P36639};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=8-oxo-dGTP + H2O = 8-oxo-dGMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:31575, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:63224, ChEBI:CHEBI:77896;
+CC         Evidence={ECO:0000269|PubMed:30304478, ECO:0000269|PubMed:7586133};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:31576;
+CC         Evidence={ECO:0000305|PubMed:7586133};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=8-oxo-dATP + H2O = 8-oxo-dAMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:65396, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:71361, ChEBI:CHEBI:172871;
+CC         Evidence={ECO:0000250|UniProtKB:P36639};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:65397;
+CC         Evidence={ECO:0000250|UniProtKB:P36639};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O(6)-methyl-dGTP = diphosphate + H(+) + O(6)-methyl-
+CC         dGMP; Xref=Rhea:RHEA:67600, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:169974, ChEBI:CHEBI:169975;
+CC         Evidence={ECO:0000269|PubMed:30304478};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67601;
+CC         Evidence={ECO:0000305|PubMed:30304478};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(6)-methyl-dATP = diphosphate + H(+) + N(6)-methyl-
+CC         dAMP; Xref=Rhea:RHEA:67604, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:169976, ChEBI:CHEBI:172872;
+CC         Evidence={ECO:0000269|PubMed:32144205};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67605;
+CC         Evidence={ECO:0000305|PubMed:32144205};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(6)-methyl-ATP = diphosphate + H(+) + N(6)-methyl-AMP;
+CC         Xref=Rhea:RHEA:67608, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:144842, ChEBI:CHEBI:172873;
+CC         Evidence={ECO:0000250|UniProtKB:P36639};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67609;
+CC         Evidence={ECO:0000250|UniProtKB:P36639};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q7ZWC3};
+CC       Note=Binds 2 Mg(2+) ion per subunit. {ECO:0000250|UniProtKB:Q7ZWC3};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:P36639}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:11817101}. Nucleus
+CC       {ECO:0000269|PubMed:11817101}. Nucleus membrane
+CC       {ECO:0000269|PubMed:11817101}. Cytoplasmic vesicle, secretory vesicle,
+CC       acrosome {ECO:0000269|PubMed:11817101}.
+CC   -!- TISSUE SPECIFICITY: Expressed in liver in hepatocytes and weakly in
+CC       Kupffer's cells. Expression detected in testes in primary and secondary
+CC       spermatocytes and interstitial cells. High expression levels detected
+CC       in the inner cortex of kidney, with lower levels detected in the
+CC       tubules of the outer cortex, medulla, renal pelvis and glomeruli (at
+CC       protein level). Expressed in heart, brain, spleen, lung, liver,
+CC       skeletal muscle, kidney and testis. {ECO:0000269|PubMed:11817101,
+CC       ECO:0000269|PubMed:7586133}.
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D49977; BAA08726.1; -; mRNA.
+DR   EMBL; D49980; BAA08727.1; -; Genomic_DNA.
+DR   RefSeq; NP_476461.1; NM_057120.1.
+DR   RefSeq; XP_006248973.1; XM_006248911.3.
+DR   AlphaFoldDB; P53369; -.
+DR   SMR; P53369; -.
+DR   STRING; 10116.ENSRNOP00000001700; -.
+DR   PhosphoSitePlus; P53369; -.
+DR   jPOST; P53369; -.
+DR   PaxDb; 10116-ENSRNOP00000001700; -.
+DR   Ensembl; ENSRNOT00000001700.7; ENSRNOP00000001700.4; ENSRNOG00000001260.7.
+DR   Ensembl; ENSRNOT00055019902; ENSRNOP00055016043; ENSRNOG00055011717.
+DR   Ensembl; ENSRNOT00060051463; ENSRNOP00060042810; ENSRNOG00060029637.
+DR   Ensembl; ENSRNOT00065000229; ENSRNOP00065000228; ENSRNOG00065000132.
+DR   GeneID; 117260; -.
+DR   KEGG; rno:117260; -.
+DR   UCSC; RGD:621080; rat.
+DR   AGR; RGD:621080; -.
+DR   CTD; 4521; -.
+DR   RGD; 621080; Nudt1.
+DR   eggNOG; ENOG502S254; Eukaryota.
+DR   GeneTree; ENSGT00390000000341; -.
+DR   HOGENOM; CLU_037162_11_1_1; -.
+DR   InParanoid; P53369; -.
+DR   OMA; MIEATLC; -.
+DR   OrthoDB; 4161489at2759; -.
+DR   PhylomeDB; P53369; -.
+DR   TreeFam; TF106348; -.
+DR   Reactome; R-RNO-2393930; Phosphate bond hydrolysis by NUDT proteins.
+DR   PRO; PR:P53369; -.
+DR   Proteomes; UP000002494; Chromosome 12.
+DR   Bgee; ENSRNOG00000001260; Expressed in thymus and 19 other cell types or tissues.
+DR   GO; GO:0001669; C:acrosomal vesicle; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IEA:Ensembl.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005759; C:mitochondrial matrix; ISS:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0031965; C:nuclear membrane; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0106377; F:2-hydroxy-ATP hydrolase activity; ISS:UniProtKB.
+DR   GO; GO:0106378; F:2-hydroxy-dATP hydrolase activity; ISS:UniProtKB.
+DR   GO; GO:0035539; F:8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0008413; F:8-oxo-7,8-dihydroguanosine triphosphate pyrophosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0047693; F:ATP diphosphatase activity; ISO:RGD.
+DR   GO; GO:0008828; F:dATP diphosphatase activity; ISO:RGD.
+DR   GO; GO:0016818; F:hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106431; F:N6-methyl-(d)ATP hydrolase activity; IEA:RHEA.
+DR   GO; GO:0106433; F:O6-methyl-dGTP hydrolase activity; IEA:RHEA.
+DR   GO; GO:0030515; F:snoRNA binding; ISS:UniProtKB.
+DR   GO; GO:0042262; P:DNA protection; ISS:UniProtKB.
+DR   GO; GO:0008584; P:male gonad development; IEP:RGD.
+DR   GO; GO:0006152; P:purine nucleoside catabolic process; ISS:UniProtKB.
+DR   GO; GO:0046686; P:response to cadmium ion; IEP:RGD.
+DR   CDD; cd03427; MTH1; 1.
+DR   Gene3D; 3.90.79.10; Nucleoside Triphosphate Pyrophosphohydrolase; 1.
+DR   InterPro; IPR003563; 8ODP.
+DR   InterPro; IPR020476; Nudix_hydrolase.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   PANTHER; PTHR43758; 7,8-DIHYDRO-8-OXOGUANINE TRIPHOSPHATASE; 1.
+DR   PANTHER; PTHR43758:SF2; OXIDIZED PURINE NUCLEOSIDE TRIPHOSPHATE HYDROLASE; 1.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR01403; 8OXTPHPHTASE.
+DR   PRINTS; PR00502; NUDIXFAMILY.
+DR   SUPFAM; SSF55811; Nudix; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Cytoplasmic vesicle; Hydrolase; Magnesium; Membrane;
+KW   Metal-binding; Nucleus; Reference proteome; RNA-binding.
+FT   CHAIN           1..156
+FT                   /note="Oxidized purine nucleoside triphosphate hydrolase"
+FT                   /id="PRO_0000057101"
+FT   DOMAIN          3..132
+FT                   /note="Nudix hydrolase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00794"
+FT   MOTIF           37..58
+FT                   /note="Nudix box"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00794"
+FT   BINDING         8
+FT                   /ligand="2-oxo-dATP"
+FT                   /ligand_id="ChEBI:CHEBI:77897"
+FT                   /evidence="ECO:0000250|UniProtKB:P36639"
+FT   BINDING         23
+FT                   /ligand="8-oxo-dGTP"
+FT                   /ligand_id="ChEBI:CHEBI:77896"
+FT                   /evidence="ECO:0000250|UniProtKB:P36639"
+FT   BINDING         33
+FT                   /ligand="2-oxo-dATP"
+FT                   /ligand_id="ChEBI:CHEBI:77897"
+FT                   /evidence="ECO:0000250|UniProtKB:P36639"
+FT   BINDING         35..38
+FT                   /ligand="2-oxo-dATP"
+FT                   /ligand_id="ChEBI:CHEBI:77897"
+FT                   /evidence="ECO:0000250|UniProtKB:P36639"
+FT   BINDING         36
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7ZWC3"
+FT   BINDING         52
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7ZWC3"
+FT   BINDING         55
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7ZWC3"
+FT   BINDING         56
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7ZWC3"
+FT   BINDING         100
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7ZWC3"
+FT   BINDING         117..120
+FT                   /ligand="2-oxo-dATP"
+FT                   /ligand_id="ChEBI:CHEBI:77897"
+FT                   /evidence="ECO:0000250|UniProtKB:P36639"
+SQ   SEQUENCE   156 AA;  18018 MW;  60AFB6522CB03E18 CRC64;
+     MSTSRLYTLV LVLQPQRVLL GMKKRGFGAG RWNGFGGKVQ EGETIEDGAK RELLEESGLR
+     VDTLHKVGHI SFEFVGSPEL MDVHIFSTDH VHGTPTESEE MRPQWFQLDQ IPFADMWPDD
+     SYWFPLLLQK KKFCGHFKFH GQDTILSYSL REVDEF
+//

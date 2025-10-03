@@ -1,0 +1,149 @@
+ID   ULA1_RAT                Reviewed;         534 AA.
+AC   Q9Z1A5;
+DT   19-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   02-OCT-2024, entry version 137.
+DE   RecName: Full=NEDD8-activating enzyme E1 regulatory subunit;
+DE   AltName: Full=Amyloid beta precursor protein-binding protein 1, 59 kDa;
+DE            Short=APP-BP1;
+DE   AltName: Full=Amyloid protein-binding protein 1;
+GN   Name=Nae1; Synonyms=Appbp1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RA   Chow N., Mobley W.C., Dreger U.C., Coopersmith R., Neve R.L.;
+RT   "Localization of the amyloid protein precursor binding protein, APP-BP1, in
+RT   the developing central nervous system.";
+RL   Submitted (FEB-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=8626687; DOI=10.1074/jbc.271.19.11339;
+RA   Chow N., Korenberg J.R., Chen X.-N., Neve R.L.;
+RT   "APP-BP1, a novel protein that binds to the carboxyl-terminal region of the
+RT   amyloid precursor protein.";
+RL   J. Biol. Chem. 271:11339-11346(1996).
+RN   [3]
+RP   FUNCTION, INTERACTION WITH APP, AND SUBCELLULAR LOCATION.
+RX   PubMed=14557245; DOI=10.1083/jcb.200304003;
+RA   Chen Y., Liu W., McPhie D.L., Hassinger L., Neve R.L.;
+RT   "APP-BP1 mediates APP-induced apoptosis and DNA synthesis and is increased
+RT   in Alzheimer's disease brain.";
+RL   J. Cell Biol. 163:27-33(2003).
+CC   -!- FUNCTION: Regulatory subunit of the dimeric UBA3-NAE1 E1 enzyme. E1
+CC       activates NEDD8 by first adenylating its C-terminal glycine residue
+CC       with ATP, thereafter linking this residue to the side chain of the
+CC       catalytic cysteine, yielding a NEDD8-UBA3 thioester and free AMP. E1
+CC       finally transfers NEDD8 to the catalytic cysteine of UBE2M. Necessary
+CC       for cell cycle progression through the S-M checkpoint. Overexpression
+CC       of NAE1 causes apoptosis through deregulation of NEDD8 conjugation
+CC       (PubMed:14557245). The covalent attachment of NEDD8 to target proteins
+CC       is known as 'neddylation' and the process is involved in the regulation
+CC       of cell growth, viability and development.
+CC       {ECO:0000250|UniProtKB:Q13564, ECO:0000269|PubMed:14557245}.
+CC   -!- ACTIVITY REGULATION: Binding of TP53BP2 to the regulatory subunit NAE1
+CC       decreases neddylation activity. {ECO:0000250}.
+CC   -!- PATHWAY: Protein modification; protein neddylation.
+CC   -!- SUBUNIT: Heterodimer of UBA3 and NAE1. The complex binds NEDD8 and
+CC       UBE2M. Binds APP and TP53BP2.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:14557245}.
+CC       Note=Colocalizes with APP in lipid rafts.
+CC   -!- TISSUE SPECIFICITY: Expressed throughout the brain. In hippocampus,
+CC       strongly expressed in granule cells and in the pyramidal cell layer.
+CC       Strongly expressed in the piriform cortex. In the cerebellum, expressed
+CC       only in Purkinje cells. {ECO:0000269|PubMed:8626687}.
+CC   -!- PTM: Ubiquitinated by TRIP12, leading to its degradation by the
+CC       proteasome. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the ubiquitin-activating E1 family. ULA1
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U90829; AAD09247.1; -; mRNA.
+DR   AlphaFoldDB; Q9Z1A5; -.
+DR   SMR; Q9Z1A5; -.
+DR   STRING; 10116.ENSRNOP00000045593; -.
+DR   iPTMnet; Q9Z1A5; -.
+DR   PhosphoSitePlus; Q9Z1A5; -.
+DR   jPOST; Q9Z1A5; -.
+DR   PaxDb; 10116-ENSRNOP00000045593; -.
+DR   UCSC; RGD:619945; rat.
+DR   AGR; RGD:619945; -.
+DR   RGD; 619945; Nae1.
+DR   eggNOG; KOG2016; Eukaryota.
+DR   InParanoid; Q9Z1A5; -.
+DR   PhylomeDB; Q9Z1A5; -.
+DR   Reactome; R-RNO-8951664; Neddylation.
+DR   UniPathway; UPA00885; -.
+DR   PRO; PR:Q9Z1A5; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005769; C:early endosome; IDA:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0019781; F:NEDD8 activating enzyme activity; IEA:InterPro.
+DR   GO; GO:0046982; F:protein heterodimerization activity; ISO:RGD.
+DR   GO; GO:0004839; F:ubiquitin activating enzyme activity; IBA:GO_Central.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0006974; P:DNA damage response; IBA:GO_Central.
+DR   GO; GO:0033314; P:mitotic DNA replication checkpoint signaling; ISO:RGD.
+DR   GO; GO:0051402; P:neuron apoptotic process; ISO:RGD.
+DR   GO; GO:0045116; P:protein neddylation; ISS:UniProtKB.
+DR   GO; GO:0016567; P:protein ubiquitination; IBA:GO_Central.
+DR   GO; GO:0042981; P:regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:0043523; P:regulation of neuron apoptotic process; ISO:RGD.
+DR   GO; GO:0150052; P:regulation of postsynapse assembly; ISO:RGD.
+DR   GO; GO:0006511; P:ubiquitin-dependent protein catabolic process; IBA:GO_Central.
+DR   CDD; cd01493; APPBP1_RUB; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 2.
+DR   InterPro; IPR030667; APP-BP1.
+DR   InterPro; IPR045886; ThiF/MoeB/HesA.
+DR   InterPro; IPR000594; ThiF_NAD_FAD-bd.
+DR   InterPro; IPR035985; Ubiquitin-activating_enz.
+DR   PANTHER; PTHR10953:SF29; NEDD8-ACTIVATING ENZYME E1 REGULATORY SUBUNIT; 1.
+DR   PANTHER; PTHR10953; UBIQUITIN-ACTIVATING ENZYME E1; 1.
+DR   Pfam; PF00899; ThiF; 1.
+DR   PIRSF; PIRSF039099; APP-BP1; 1.
+DR   SUPFAM; SSF69572; Activating enzymes of the ubiquitin-like proteins; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Apoptosis; Cell cycle; Cell membrane; Membrane;
+KW   Reference proteome; Ubl conjugation; Ubl conjugation pathway.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13564"
+FT   CHAIN           2..534
+FT                   /note="NEDD8-activating enzyme E1 regulatory subunit"
+FT                   /id="PRO_0000194954"
+FT   REGION          331..344
+FT                   /note="Interaction with UBA3"
+FT                   /evidence="ECO:0000250"
+FT   SITE            211
+FT                   /note="Interaction with UBA3"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13564"
+FT   MOD_RES         6
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13564"
+FT   MOD_RES         341
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VBW6"
+SQ   SEQUENCE   534 AA;  60383 MW;  5A759E170D7A99B2 CRC64;
+     MAQQGKILKE QKYDRQLRLW GDHGQEALES AHVCLINATA TGTEILKNLV LPGIGSFTII
+     DGNQVSGEDV GNNFFLQKCS IGKNRAQAAM EFLQELNSDV SGSFVEESPE NLLDNDPSFF
+     CRFTIVVATQ LLESTLLRLA DVLWNSQIPL LICRTYGLVG YMRIIIKEHP VIESHPDNAL
+     EDLRLDKPFP ELREHFQSYD LDHMEKKDHS HTPWIVIIAK YLAQWYSETN GRIPKSYKEK
+     EDFRELIRQG ILKNENGAPE DEENFEEAIK NVNTALNTTQ IPSSIEDIFN DDRCINITKQ
+     TPSFWILARA LKEFVAKEGQ GNLPVRGTIP DMIADSNKYI KLQNVYREKA KKDAAAVGNH
+     VAKLLQSCGQ APESISEKEL KLLCSNSAFL RVVRCRSLAE EYGLHTVNKD EIISSMDNPD
+     NEIVLYLMLR AVDRFHKQHG RYPGVSNYQV EEDIGKLKSC LTGFLQEYGL SVMVKDDYVH
+     EFCRYGAAEP HTVAAFLGGA AAQEVIKIIT KQFVIFNNTY IYSGMSQTSA TFQL
+//

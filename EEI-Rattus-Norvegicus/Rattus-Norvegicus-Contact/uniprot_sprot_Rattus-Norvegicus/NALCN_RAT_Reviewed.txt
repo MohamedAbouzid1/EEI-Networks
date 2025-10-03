@@ -1,0 +1,627 @@
+ID   NALCN_RAT               Reviewed;        1738 AA.
+AC   Q6Q760; Q9Z165;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   24-JUL-2024, entry version 118.
+DE   RecName: Full=Sodium leak channel NALCN {ECO:0000305};
+DE   AltName: Full=Four domain-type voltage-gated ion channel alpha-1 subunit;
+DE   AltName: Full=Rb21-channel {ECO:0000303|PubMed:10094463};
+DE   AltName: Full=Sodium leak channel non-selective protein;
+DE   AltName: Full=Voltage gated channel-like protein 1;
+GN   Name=Nalcn; Synonyms=Nca, Rb21 {ECO:0000303|PubMed:10094463}, Vgcnl1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=10094463; DOI=10.1016/s0014-5793(99)00082-4;
+RA   Lee J.-H., Cribbs L.L., Perez-Reyes E.;
+RT   "Cloning of a novel four repeat protein related to voltage-gated sodium and
+RT   calcium channels.";
+RL   FEBS Lett. 445:231-236(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RA   Hamming K.S., Snutch T.P.;
+RT   "Member of a novel family of four domain-type voltage-gated ion channel in
+RT   Rattus norvegicus.";
+RL   Submitted (FEB-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=17448995; DOI=10.1016/j.cell.2007.02.041;
+RA   Lu B., Su Y., Das S., Liu J., Xia J., Ren D.;
+RT   "The neuronal channel NALCN contributes resting sodium permeability and is
+RT   required for normal respiratory rhythm.";
+RL   Cell 129:371-383(2007).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+RN   [5] {ECO:0007744|PDB:7CU3}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (2.65 ANGSTROMS) IN COMPLEX WITH MOUSE
+RP   NALF1, DISULFIDE BOND, GLYCOSYLATION AT ASN-210; ASN-216 AND ASN-1064, AND
+RP   MUTAGENESIS OF GLU-1389 AND ASP-1390.
+RX   PubMed=33273469; DOI=10.1038/s41467-020-20002-9;
+RA   Kang Y., Wu J.X., Chen L.;
+RT   "Structure of voltage-modulated sodium-selective NALCN-FAM155A channel
+RT   complex.";
+RL   Nat. Commun. 11:6199-6199(2020).
+CC   -!- FUNCTION: Voltage-gated ion channel responsible for the resting Na(+)
+CC       permeability that controls neuronal excitability. NALCN channel
+CC       functions as a multi-protein complex, which consists at least of NALCN,
+CC       NALF1, UNC79 and UNC80. NALCN is the voltage-sensing, pore-forming
+CC       subunit of the NALCN channel complex. NALCN channel complex is
+CC       constitutively active and conducts monovalent cations but is blocked by
+CC       physiological concentrations of extracellular divalent cations (By
+CC       similarity). In addition to its role in regulating neuronal
+CC       excitability, is required for normal respiratory rhythm, systemic
+CC       osmoregulation by controlling the serum sodium concentration and in the
+CC       regulation of the intestinal pace-making activity in the interstitial
+CC       cells of Cajal. NALCN channel is also activated by neuropeptides such
+CC       as neurotensin and substance P (SP) through a SRC family kinases-
+CC       dependent pathway. In addition, NALCN activity is enhanced/modulated by
+CC       several GPCRs, such as CHRM3 (By similarity).
+CC       {ECO:0000250|UniProtKB:Q8BXR5, ECO:0000250|UniProtKB:Q8IZF0}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Na(+)(in) = Na(+)(out); Xref=Rhea:RHEA:34963,
+CC         ChEBI:CHEBI:29101; Evidence={ECO:0000250|UniProtKB:Q8IZF0};
+CC   -!- ACTIVITY REGULATION: Inhibited by low micromolar concentrations of
+CC       Gd(3+) and high micromolar concentrations of verapamil. Insensitive to
+CC       tetrodotoxin (TTX) and potentiated by low external Ca(2+)
+CC       concentration. {ECO:0000250|UniProtKB:Q8IZF0}.
+CC   -!- SUBUNIT: Found in a complex with NALCN, UNC79, UNC80 and NACL1; these
+CC       auxiliary subunits are indispensable for the function of NALCN channel
+CC       (By similarity). Interacts with UNC80; required for the NALCN
+CC       activation/inhibition by GPCRs in neurons. Found in a complex with
+CC       NALCN, UNC79 and UNC80; UNC80 bridges NALCN to UNC79. Interacts with
+CC       CHRM3 (By similarity). {ECO:0000250|UniProtKB:Q8BXR5,
+CC       ECO:0000250|UniProtKB:Q8IZF0}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q8IZF0};
+CC       Multi-pass membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Predominantly expressed in the brain, moderately in
+CC       the heart and weakly in the pancreas. {ECO:0000269|PubMed:10094463}.
+CC   -!- DOMAIN: Contains 24 transmembrane helices (TM) that form four
+CC       homologous functional repeats connected by intracellular linkers. Each
+CC       of the four internal repeats contains five hydrophobic transmembrane
+CC       segments (S1, S2, S3, S5, S6) and one positively charged transmembrane
+CC       segment (S4). S4 segments represent the voltage-sensor. S4
+CC       transmembrane segments lack some of the charged residues (K and R)
+CC       found at every third position in the S4s of the NaV, CaV, and KV
+CC       channels. Pore-forming loops (P loops) between S5 and S6 of each domain
+CC       form an EEKE sodium- ion selectivity filter a mixture between the EEEE
+CC       found in the CaVs and the DEKA of NaVs. Voltage-sensing domains (VSDs),
+CC       formed by S1 to S4 of each domain, detect changes in membrane potential
+CC       and induce the opening or closing of the ion-conducting pore domain,
+CC       formed by S5 and S6. {ECO:0000250|UniProtKB:Q8BXR5}.
+CC   -!- PTM: Phosphorylated on tyrosine residues.
+CC       {ECO:0000250|UniProtKB:Q8BXR5}.
+CC   -!- SIMILARITY: Belongs to the NALCN family. {ECO:0000305}.
+CC   -!- CAUTION: NALCN was also originally reported to be a voltage-
+CC       independent, cation-nonselective channel which is permeable to sodium,
+CC       potassium and calcium ions (PubMed:17448995). However, NALCN is
+CC       recently reported to be selective only for monovalent cations and to be
+CC       blocked by extracellular divalent cations (By similarity). Futhemore,
+CC       coexpression of NALCN, UNC79, UNC80, and NALF1 results in voltage-
+CC       dependent NALCN currents (By similarity).
+CC       {ECO:0000250|UniProtKB:Q8IZF0, ECO:0000269|PubMed:17448995}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF078779; AAC68885.1; -; mRNA.
+DR   EMBL; AY555273; AAS65873.1; -; mRNA.
+DR   PIR; T17101; T17101.
+DR   RefSeq; NP_705894.1; NM_153630.1.
+DR   PDB; 7CU3; EM; 2.65 A; A=1-1738.
+DR   PDB; 7W7G; EM; 3.20 A; C=1-1738.
+DR   PDBsum; 7CU3; -.
+DR   PDBsum; 7W7G; -.
+DR   AlphaFoldDB; Q6Q760; -.
+DR   EMDB; EMD-30470; -.
+DR   EMDB; EMD-32344; -.
+DR   SMR; Q6Q760; -.
+DR   STRING; 10116.ENSRNOP00000054214; -.
+DR   GlyCosmos; Q6Q760; 3 sites, No reported glycans.
+DR   GlyGen; Q6Q760; 3 sites.
+DR   iPTMnet; Q6Q760; -.
+DR   PhosphoSitePlus; Q6Q760; -.
+DR   PaxDb; 10116-ENSRNOP00000054214; -.
+DR   ABCD; Q6Q760; 1 sequenced antibody.
+DR   AGR; RGD:628710; -.
+DR   RGD; 628710; Nalcn.
+DR   eggNOG; KOG2301; Eukaryota.
+DR   InParanoid; Q6Q760; -.
+DR   OrthoDB; 1110761at2759; -.
+DR   PhylomeDB; Q6Q760; -.
+DR   Reactome; R-RNO-2672351; Stimuli-sensing channels.
+DR   PRO; PR:Q6Q760; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0034702; C:monoatomic ion channel complex; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0022840; F:leak channel activity; ISS:UniProtKB.
+DR   GO; GO:0005261; F:monoatomic cation channel activity; ISS:UniProtKB.
+DR   GO; GO:0005248; F:voltage-gated sodium channel activity; ISS:UniProtKB.
+DR   GO; GO:0070588; P:calcium ion transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0032224; P:positive regulation of synaptic transmission, cholinergic; IBA:GO_Central.
+DR   GO; GO:0032230; P:positive regulation of synaptic transmission, GABAergic; IBA:GO_Central.
+DR   GO; GO:0071805; P:potassium ion transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0060075; P:regulation of resting membrane potential; ISS:UniProtKB.
+DR   GO; GO:0035725; P:sodium ion transmembrane transport; ISS:UniProtKB.
+DR   Gene3D; 1.10.287.70; -; 4.
+DR   Gene3D; 1.10.238.10; EF-hand; 1.
+DR   Gene3D; 1.20.120.350; Voltage-gated potassium channels. Chain C; 4.
+DR   InterPro; IPR005821; Ion_trans_dom.
+DR   InterPro; IPR028823; NALCN.
+DR   InterPro; IPR027359; Volt_channel_dom_sf.
+DR   PANTHER; PTHR46141:SF1; SODIUM LEAK CHANNEL NALCN; 1.
+DR   PANTHER; PTHR46141; SODIUM LEAK CHANNEL NON-SELECTIVE PROTEIN; 1.
+DR   Pfam; PF00520; Ion_trans; 4.
+DR   SUPFAM; SSF81324; Voltage-gated potassium channels; 4.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Coiled coil; Disulfide bond; Glycoprotein;
+KW   Ion channel; Ion transport; Membrane; Phosphoprotein; Reference proteome;
+KW   Repeat; Sodium; Sodium channel; Sodium transport; Transmembrane;
+KW   Transmembrane helix; Transport; Voltage-gated channel.
+FT   CHAIN           1..1738
+FT                   /note="Sodium leak channel NALCN"
+FT                   /id="PRO_0000314012"
+FT   TOPO_DOM        1..36
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        37..57
+FT                   /note="Helical; Name=S1 of repeat I"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        58..65
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        66..90
+FT                   /note="Helical; Name=S2 of repeat I"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        91..106
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        107..129
+FT                   /note="Helical; Name=S3 of repeat I"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        130..137
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        138..158
+FT                   /note="Helical; Voltage-sensor; Name=S4 of repeat I"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        159..173
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        174..199
+FT                   /note="Helical; Name=S5 of repeat I"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        200..269
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   INTRAMEM        270..289
+FT                   /note="Pore-forming"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        290..294
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        295..322
+FT                   /note="Helical; Name=S6 of repeat I"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        323..382
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        383..403
+FT                   /note="Helical; Name=S1 of repeat II"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        404..416
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        417..439
+FT                   /note="Helical; Name=S2 of repeat II"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        440..447
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        448..468
+FT                   /note="Helical; Name=S3 of repeat II"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        469..472
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        473..492
+FT                   /note="Helical; Voltage-sensor; Name=S4 of repeat II"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        493..502
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        503..530
+FT                   /note="Helical; Name=S5 of repeat II"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        531..543
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   INTRAMEM        544..563
+FT                   /note="Pore-forming"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        564..569
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        570..599
+FT                   /note="Helical; Name=S6 of repeat II"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        600..886
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        887..906
+FT                   /note="Helical; Name=S1 of repeat III"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        907..915
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        916..939
+FT                   /note="Helical; Name=S2 of repeat III"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        940..947
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        948..972
+FT                   /note="Helical; Name=S3 of repeat III"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        973..980
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        981..1003
+FT                   /note="Helical; Voltage-sensor; Name=S4 of repeat III"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        1004..1015
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        1016..1039
+FT                   /note="Helical; Name=S5 of repeat III"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        1040..1104
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   INTRAMEM        1105..1124
+FT                   /note="Pore-forming"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        1125..1129
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        1130..1159
+FT                   /note="Helical; Name=S6 of repeat III"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        1160..1210
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        1211..1227
+FT                   /note="Helical; Name=S1 of repeat IV"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        1228..1236
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        1237..1260
+FT                   /note="Helical; Name=S2 of repeat IV"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        1261..1271
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        1272..1293
+FT                   /note="Helical; Name=S3 of repeat IV"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        1294..1296
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        1297..1318
+FT                   /note="Helical; Voltage-sensor; Name=S4 of repeat IV"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        1319..1331
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        1332..1357
+FT                   /note="Helical; Name=S5 of repeat IV"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        1358..1378
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   INTRAMEM        1379..1398
+FT                   /note="Pore-forming"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        1399..1420
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TRANSMEM        1421..1447
+FT                   /note="Helical; Name=S6 of repeat IV"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   TOPO_DOM        1448..1738
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IZF0"
+FT   REGION          762..789
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1611..1679
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          795..830
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        772..789
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1611..1653
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        210
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:33273469,
+FT                   ECO:0007744|PDB:7CU3"
+FT   CARBOHYD        216
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:33273469,
+FT                   ECO:0007744|PDB:7CU3"
+FT   CARBOHYD        1064
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:33273469,
+FT                   ECO:0007744|PDB:7CU3"
+FT   DISULFID        207..239
+FT                   /evidence="ECO:0000269|PubMed:33273469,
+FT                   ECO:0007744|PDB:7CU3"
+FT   DISULFID        229..245
+FT                   /evidence="ECO:0000269|PubMed:33273469,
+FT                   ECO:0007744|PDB:7CU3"
+FT   DISULFID        1046..1057
+FT                   /evidence="ECO:0000269|PubMed:33273469,
+FT                   ECO:0007744|PDB:7CU3"
+FT   DISULFID        1405..1417
+FT                   /evidence="ECO:0000269|PubMed:33273469,
+FT                   ECO:0007744|PDB:7CU3"
+FT   MUTAGEN         1389
+FT                   /note="E->A: Affects ion seletivity."
+FT                   /evidence="ECO:0000269|PubMed:33273469"
+FT   MUTAGEN         1390
+FT                   /note="D->A: Affects ion seletivity."
+FT                   /evidence="ECO:0000269|PubMed:33273469"
+FT   CONFLICT        52
+FT                   /note="P -> S (in Ref. 1; AAC68885)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        748
+FT                   /note="T -> A (in Ref. 1; AAC68885)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1480..1485
+FT                   /note="KREGVI -> NERCD (in Ref. 1; AAC68885)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          33..35
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           36..54
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           58..63
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           65..90
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           108..129
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          135..137
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           138..143
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           146..149
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           150..154
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           155..157
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           164..199
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          206..210
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   TURN            219..221
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          231..236
+FT                   /evidence="ECO:0007829|PDB:7W7G"
+FT   STRAND          243..246
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           255..258
+FT                   /evidence="ECO:0007829|PDB:7W7G"
+FT   HELIX           266..277
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           282..292
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           295..308
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   TURN            309..311
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           312..335
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          350..353
+FT                   /evidence="ECO:0007829|PDB:7W7G"
+FT   STRAND          359..362
+FT                   /evidence="ECO:0007829|PDB:7W7G"
+FT   HELIX           377..382
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           384..402
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          413..416
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           417..440
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           442..446
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           451..465
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   TURN            467..471
+FT                   /evidence="ECO:0007829|PDB:7W7G"
+FT   HELIX           475..480
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           481..488
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           490..500
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   TURN            503..505
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           506..528
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          529..531
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          537..539
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           540..552
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           556..567
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          569..571
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           572..602
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           606..614
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           660..668
+FT                   /evidence="ECO:0007829|PDB:7W7G"
+FT   HELIX           704..717
+FT                   /evidence="ECO:0007829|PDB:7W7G"
+FT   HELIX           719..739
+FT                   /evidence="ECO:0007829|PDB:7W7G"
+FT   HELIX           753..763
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           847..853
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           876..882
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           887..903
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          908..910
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   TURN            912..914
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           916..940
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          942..945
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          949..952
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           953..971
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           981..989
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           990..995
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           996..999
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1001..1011
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1014..1039
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          1045..1048
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1054..1056
+FT                   /evidence="ECO:0007829|PDB:7W7G"
+FT   STRAND          1059..1065
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          1082..1087
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1101..1112
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1117..1127
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1130..1132
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1133..1143
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   TURN            1144..1146
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1147..1162
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   TURN            1163..1166
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1170..1182
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1198..1207
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1210..1225
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1238..1262
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1265..1268
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1272..1293
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1297..1313
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1314..1317
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1319..1334
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1336..1357
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          1367..1370
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          1372..1374
+FT                   /evidence="ECO:0007829|PDB:7W7G"
+FT   HELIX           1375..1386
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1391..1397
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1412..1414
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1420..1436
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1439..1453
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          1459..1461
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1464..1477
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   STRAND          1478..1480
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1488..1496
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1499..1501
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   TURN            1505..1507
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1509..1521
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   TURN            1522..1524
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1532..1540
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1544..1547
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+FT   HELIX           1550..1577
+FT                   /evidence="ECO:0007829|PDB:7CU3"
+SQ   SEQUENCE   1738 AA;  200491 MW;  9920B25C43193C75 CRC64;
+     MLKRKQSSRV EAQPVTDFGP DESLSDNADI LWINKPWVHS LLRICAIISV IPVCMNTPMT
+     FEHYPPLQYV TFTLDTLLMF LYTAEMIAKM HIRGIVKGDS SYVKDRWCVF DGFMVFCLWV
+     SLVLQVFEIA DIVDQMSPWG MLRIPRPLIM IRAFRIYFRF ELPRTRITNI LKRSGEQIWS
+     VSIFLLFFLL LYGILGVQMF GTFTYHCVVN DTKPGNVTWN SLAIPDTHCS PELEEGYQCP
+     PGFKCMDLED LGLSRQELGY SGFNEIGTSI FTVYEASSQE GWVFLMYRAI DSFPRWRSYF
+     YFITLIFFLA WLVKNVFIAV IIETFAEIRV QFQQMWGTRS STTSTATTQM FHEDAAGGWQ
+     LVAVDVNKPQ GRAPACLQKM MRSSVFHMFI LSMVTVDVIV AASNYYKGEN FRRQYDEFYL
+     AEVAFTVLFD LEALLKIWCL GFTGYISSSL HKFELLLVIG TTLHVYPDLY HSQFTYFQVL
+     RVVRLIKISP ALEDFVYKIF GPGKKLGSLV VFTASLLIVM SAISLQMFCF VEELDRFTTF
+     PRAFMSMFQI LTQEGWVDVM DQTLNAVGHM WAPLVAIYFI LYHLFATLIL LSLFVAVILD
+     NLELDEDLKK LKQLKQSEAN ADTKEKLPLR LRIFEKFPNR PQMVKISKLP SDFTVPKIRE
+     SFMKQFIDRQ QQDTCCLFRI LPSTSSSSCD NPKRPTVEDN KYIDQKLRKS VFSIRARNLL
+     EKETAVTKIL RACTRQRMLS GSFEGQPTKE RSILSVQHHI RQERRSLRHG SNSQRISRGK
+     SLETLTQDHS NTVRYRNAQR EDSEIKMIQE KKEQAEMKRK VQEEELRENH PYFDKPLFIV
+     GREHRFRNFC RVVVRARFNA SKTDPVTGAV KNTKYHQLYD LLGLVTYLDW VMITVTICSC
+     ISMMFESPFR RVMHAPTLQI AEYVFVIFMS IELNLKIMAD GLFFTPTAVI RDFGGVMDIF
+     IYLVSLIFLC WMPQNVPAES GAQLLMVLRC LRPLRIFKLV PQMRKVVREL FSGFKEIFLV
+     SILLLTLMLV FASFGVQLFA GKLAKCNDPN IIRREDCNGI FRINVSVSKN LNLKLRPGEK
+     KPGFWVPRVW ANPRNFNFDN VGNAMLALFE VLSLKGWVEV RDVIIHRVGP IHGIYIHVFV
+     FLGCMIGLTL FVGVVIANFN ENKGTALLTV DQRRWEDLKS RLKIAQPLHL PPRPDNDGFR
+     AKMYDITQHP FFKRTIALLV LAQSVLLSVK WDVEDPVTVP LATMSVVFTF IFVLEVTMKI
+     IAMSPAGFWQ SRRNRYDLLV TSLGVVWVVL HFALLNAYTY MMGACVIVFR FFSICGKHVT
+     LKMLLLTVVV SMYKSFFIIV GMFLLLLCYA FAGVVLFGTV KYGENINRHA NFSSAGKAIT
+     VLFRIVTGED WNKIMHDCMV QPPFCTPDEF TYWATDCGNY AGALMYFCSF YVIIAYIMLN
+     LLVAIIVENF SLFYSTEEDQ LLSYNDLRHF QIIWNMVDDK REGVIPTFRV KFLLRLLRGR
+     LEVDLDKDKL LFKHMCYEME RLHNGGDVTF HDVLSMLSYR SVDIRKSLQL EELLAREQLE
+     YTIEEEVAKQ TIRMWLKKCL KRIRAKQQQS CSIIHSLRES QQQELSRFLN PPSIETTQPS
+     EDTNANSQDH NTQPESSSQQ QLLSPTLSDR GGSRQDAADT GKPQRKIGQW RLPSAPKPIS
+     HSVSSVNLRF GGRTTMKSVV CKMNPMPDTA SCGSEVKKWW TRQLTVESDE SGDDLLDI
+//

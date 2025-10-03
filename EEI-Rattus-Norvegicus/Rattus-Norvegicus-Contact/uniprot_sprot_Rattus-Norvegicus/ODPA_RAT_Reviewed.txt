@@ -1,0 +1,314 @@
+ID   ODPA_RAT                Reviewed;         390 AA.
+AC   P26284;
+DT   01-MAY-1992, integrated into UniProtKB/Swiss-Prot.
+DT   12-DEC-2006, sequence version 2.
+DT   02-OCT-2024, entry version 153.
+DE   RecName: Full=Pyruvate dehydrogenase E1 component subunit alpha, somatic form, mitochondrial;
+DE            EC=1.2.4.1;
+DE   AltName: Full=PDHE1-A type I;
+DE   Flags: Precursor;
+GN   Name=Pdha1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2025639; DOI=10.1016/0167-4781(91)90076-x;
+RA   Matuda S., Nakano K., Ohta S., Saheki T., Kawanishi Y., Miyata T.;
+RT   "The alpha-ketoacid dehydrogenase complexes. Sequence similarity of rat
+RT   pyruvate dehydrogenase with Escherichia coli and Azotobacter vinelandii
+RT   alpha-ketoglutarate dehydrogenase.";
+RL   Biochim. Biophys. Acta 1089:1-7(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=8158120; DOI=10.1046/j.1471-4159.1994.62051682.x;
+RA   Cullingford T.E., Clark J.B., Phillips I.R.;
+RT   "The pyruvate dehydrogenase complex: cloning of the rat somatic E1 alpha
+RT   subunit and its coordinate expression with the mRNAs for the E1 beta, E2,
+RT   and E3 catalytic subunits in developing rat brain.";
+RL   J. Neurochem. 62:1682-1690(1994).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 133-141; 216-226; 245-253; 289-302 AND 324-343, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Hippocampus;
+RA   Lubec G., Diao W., Chen W.-Q.;
+RL   Submitted (APR-2007) to UniProtKB.
+RN   [4]
+RP   SUBCELLULAR LOCATION, AND PHOSPHORYLATION AT SER-232; SER-293 AND SER-300.
+RX   PubMed=19341700; DOI=10.1016/j.ab.2009.03.040;
+RA   Rardin M.J., Wiley S.E., Naviaux R.K., Murphy A.N., Dixon J.E.;
+RT   "Monitoring phosphorylation of the pyruvate dehydrogenase complex.";
+RL   Anal. Biochem. 389:157-164(2009).
+CC   -!- FUNCTION: The pyruvate dehydrogenase complex catalyzes the overall
+CC       conversion of pyruvate to acetyl-CoA and CO(2), and thereby links the
+CC       glycolytic pathway to the tricarboxylic cycle. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + N(6)-[(R)-lipoyl]-L-lysyl-[dihydrolipoyllysine-residue
+CC         acetyltransferase] + pyruvate = CO2 + N(6)-[(R)-S(8)-
+CC         acetyldihydrolipoyl]-L-lysyl-[dihydrolipoyllysine-residue
+CC         acetyltransferase]; Xref=Rhea:RHEA:19189, Rhea:RHEA-COMP:10480,
+CC         Rhea:RHEA-COMP:10481, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:83099, ChEBI:CHEBI:83111; EC=1.2.4.1;
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000250|UniProtKB:P08559};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P08559};
+CC   -!- ACTIVITY REGULATION: Pyruvate dehydrogenase activity is inhibited by
+CC       phosphorylation of PDHA1; it is reactivated by dephosphorylation.
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Heterotetramer of two PDHA1 and two PDHB subunits. The
+CC       heterotetramer interacts with DLAT, and is part of the multimeric
+CC       pyruvate dehydrogenase complex that contains multiple copies of
+CC       pyruvate dehydrogenase (E1), dihydrolipoamide acetyltransferase (DLAT,
+CC       E2) and lipoamide dehydrogenase (DLD, E3). These subunits are bound to
+CC       an inner core composed of about 48 DLAT and 12 PDHX molecules (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix
+CC       {ECO:0000269|PubMed:19341700}.
+CC   -!- TISSUE SPECIFICITY: In all tissues, but in very low amount in testis.
+CC       {ECO:0000269|PubMed:8158120}.
+CC   -!- PTM: Phosphorylation at Ser-232, Ser-293 and Ser-300 by PDK family
+CC       kinases inactivates the enzyme; for this phosphorylation at a single
+CC       site is sufficient. Phosphorylation at Ser-293 interferes with access
+CC       to active site, and thereby inactivates the enzyme. Dephosphorylation
+CC       at all three sites, i.e. at Ser-232, Ser-293 and Ser-300, is required
+CC       for reactivation. {ECO:0000269|PubMed:19341700}.
+CC   -!- PTM: Acetylation alters the phosphorylation pattern. Deacetylated by
+CC       SIRT3 (By similarity). {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z12158; CAA78146.1; -; mRNA.
+DR   PIR; S15891; DERTPA.
+DR   PIR; S21553; DERTP1.
+DR   AlphaFoldDB; P26284; -.
+DR   SMR; P26284; -.
+DR   ComplexPortal; CPX-378; Pyruvate dehydrogenase E1 heterotetramer.
+DR   IntAct; P26284; 1.
+DR   MINT; P26284; -.
+DR   STRING; 10116.ENSRNOP00000069789; -.
+DR   ChEMBL; CHEMBL2176823; -.
+DR   CarbonylDB; P26284; -.
+DR   GlyGen; P26284; 2 sites, 1 O-linked glycan (2 sites).
+DR   iPTMnet; P26284; -.
+DR   PhosphoSitePlus; P26284; -.
+DR   jPOST; P26284; -.
+DR   PaxDb; 10116-ENSRNOP00000030279; -.
+DR   AGR; RGD:3286; -.
+DR   RGD; 3286; Pdha1.
+DR   eggNOG; KOG0225; Eukaryota.
+DR   InParanoid; P26284; -.
+DR   PhylomeDB; P26284; -.
+DR   Reactome; R-RNO-204174; Regulation of pyruvate dehydrogenase (PDH) complex.
+DR   Reactome; R-RNO-5362517; Signaling by Retinoic Acid.
+DR   Reactome; R-RNO-9861559; PDH complex synthesizes acetyl-CoA from PYR.
+DR   PRO; PR:P26284; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:1902494; C:catalytic complex; ISO:RGD.
+DR   GO; GO:0005759; C:mitochondrial matrix; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0045254; C:pyruvate dehydrogenase complex; IDA:RGD.
+DR   GO; GO:0004739; F:pyruvate dehydrogenase (acetyl-transferring) activity; IDA:RGD.
+DR   GO; GO:0034604; F:pyruvate dehydrogenase (NAD+) activity; ISO:RGD.
+DR   GO; GO:0004738; F:pyruvate dehydrogenase activity; ISO:RGD.
+DR   GO; GO:0006086; P:acetyl-CoA biosynthetic process from pyruvate; IDA:RGD.
+DR   GO; GO:0006006; P:glucose metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-KW.
+DR   CDD; cd02000; TPP_E1_PDC_ADC_BCADC; 1.
+DR   Gene3D; 3.40.50.970; -; 1.
+DR   InterPro; IPR001017; DH_E1.
+DR   InterPro; IPR050642; PDH_E1_Alpha_Subunit.
+DR   InterPro; IPR017597; Pyrv_DH_E1_asu_subgrp-y.
+DR   InterPro; IPR029061; THDP-binding.
+DR   NCBIfam; TIGR03182; PDH_E1_alph_y; 1.
+DR   PANTHER; PTHR11516:SF51; PYRUVATE DEHYDROGENASE E1 COMPONENT SUBUNIT ALPHA, SOMATIC FORM, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11516; PYRUVATE DEHYDROGENASE E1 COMPONENT, ALPHA SUBUNIT BACTERIAL AND ORGANELLAR; 1.
+DR   Pfam; PF00676; E1_dh; 1.
+DR   SUPFAM; SSF52518; Thiamin diphosphate-binding fold (THDP-binding); 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Carbohydrate metabolism; Direct protein sequencing;
+KW   Glucose metabolism; Magnesium; Metal-binding; Mitochondrion;
+KW   Oxidoreductase; Phosphoprotein; Pyruvate; Reference proteome;
+KW   Thiamine pyrophosphate; Transit peptide; Tricarboxylic acid cycle.
+FT   TRANSIT         1..29
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           30..390
+FT                   /note="Pyruvate dehydrogenase E1 component subunit alpha,
+FT                   somatic form, mitochondrial"
+FT                   /id="PRO_0000020445"
+FT   BINDING         92
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         118
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         118
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /ligand_note="ligand shared with beta subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         119
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         119
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /ligand_note="ligand shared with beta subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         157
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         165
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         165
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /ligand_note="ligand shared with beta subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         167
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         167
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /ligand_note="ligand shared with beta subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         196
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         196
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         196
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /ligand_note="ligand shared with beta subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         197
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         197
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /ligand_note="ligand shared with beta subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         198
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         198
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /ligand_note="ligand shared with beta subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         225
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         225
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         225
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /ligand_note="ligand shared with beta subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         227
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         227
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   BINDING         292
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /ligand_note="ligand shared with beta subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   MOD_RES         63
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   MOD_RES         63
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   MOD_RES         232
+FT                   /note="Phosphoserine; by PDK1"
+FT                   /evidence="ECO:0000269|PubMed:19341700"
+FT   MOD_RES         244
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   MOD_RES         244
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   MOD_RES         267
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   MOD_RES         277
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   MOD_RES         293
+FT                   /note="Phosphoserine; by PDK1, PDK2, PDK3 and PDK4"
+FT                   /evidence="ECO:0000269|PubMed:19341700"
+FT   MOD_RES         295
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   MOD_RES         300
+FT                   /note="Phosphoserine; by PDK1, PDK2, PDK3 and PDK4"
+FT                   /evidence="ECO:0000269|PubMed:19341700"
+FT   MOD_RES         301
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   MOD_RES         313
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   MOD_RES         313
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   MOD_RES         321
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08559"
+FT   MOD_RES         336
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   MOD_RES         385
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35486"
+FT   CONFLICT        10
+FT                   /note="R -> H (in Ref. 2; CAA78146)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        126
+FT                   /note="N -> T (in Ref. 2; CAA78146)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        129..130
+FT                   /note="HA -> LP (in Ref. 2; CAA78146)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        134
+FT                   /note="I -> V (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   390 AA;  43227 MW;  254B5A801E750DC0 CRC64;
+     MRKMLAAVSR VLAGAAQKPA SRVLVASRNF ANDATFEIKK CDLHRLEEGP PVTTVLTRED
+     GLKYYRMMQT VRRMELKADQ LYKQKIIRGF CHLCDGQEAC CVGLEAGINP TDHLITAYRA
+     HGFTFNRGHA VRAILAELTG RRGGCAKGKG GSMHMYAKNF YGGNGIVGAQ VPLGAGIALA
+     CKYNGKDEVC LTLYGDGAAN QGQIFEAYNM AALWKLPCIF ICENNRYGMG TSVERAAAST
+     DYYKRGDFIP GLRVDGMDIL CVREATKFAA AYCRSGKGPI LMELQTYRYH GHSMSDPGVS
+     YRTREEIQEV RSKSDPIMLL KDRMVNSNLA SVEELKEIDV EVRKEIEDAA QFATADPEPP
+     LEELGYHIYS SDPPFEVRGA NQWIKFKSVS
+//

@@ -1,0 +1,173 @@
+ID   P4HA1_RAT               Reviewed;         534 AA.
+AC   P54001; Q6AZ74;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 2.
+DT   24-JAN-2024, entry version 150.
+DE   RecName: Full=Prolyl 4-hydroxylase subunit alpha-1;
+DE            Short=4-PH alpha-1;
+DE            EC=1.14.11.2 {ECO:0000250|UniProtKB:P13674};
+DE   AltName: Full=Procollagen-proline,2-oxoglutarate-4-dioxygenase subunit alpha-1;
+DE   Flags: Precursor;
+GN   Name=P4ha1; Synonyms=P4ha;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=7959029; DOI=10.1016/0378-1119(94)90188-0;
+RA   Hopkinson I., Smith S.A., Donne A., Gregory H., Franklin T.J., Grant M.E.,
+RA   Rosamond J.;
+RT   "The complete cDNA derived sequence of the rat prolyl 4-hydroxylase alpha
+RT   subunit.";
+RL   Gene 149:391-392(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Catalyzes the post-translational formation of 4-
+CC       hydroxyproline in -Xaa-Pro-Gly- sequences in collagens and other
+CC       proteins. {ECO:0000250|UniProtKB:P13674}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + L-prolyl-[collagen] + O2 = CO2 + succinate +
+CC         trans-4-hydroxy-L-prolyl-[collagen]; Xref=Rhea:RHEA:18945, Rhea:RHEA-
+CC         COMP:11676, Rhea:RHEA-COMP:11680, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:50342, ChEBI:CHEBI:61965; EC=1.14.11.2;
+CC         Evidence={ECO:0000250|UniProtKB:P13674};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00805};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00805};
+CC   -!- COFACTOR:
+CC       Name=L-ascorbate; Xref=ChEBI:CHEBI:38290;
+CC         Evidence={ECO:0000250|UniProtKB:P13674};
+CC   -!- SUBUNIT: Heterotetramer of two alpha-1 chains and two beta chains
+CC       (P4HB)(the beta chain is the multi-functional PDI), where P4HB plays
+CC       the role of a structural subunit; this tetramer catalyzes the formation
+CC       of 4-hydroxyproline in collagen. {ECO:0000250|UniProtKB:P13674}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the P4HA family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X78949; CAA55546.1; -; mRNA.
+DR   EMBL; BC078703; AAH78703.1; -; mRNA.
+DR   PIR; S44204; S44204.
+DR   RefSeq; NP_742059.2; NM_172062.2.
+DR   RefSeq; XP_006256486.1; XM_006256424.3.
+DR   AlphaFoldDB; P54001; -.
+DR   SMR; P54001; -.
+DR   BioGRID; 249090; 1.
+DR   IntAct; P54001; 7.
+DR   STRING; 10116.ENSRNOP00000064405; -.
+DR   BindingDB; P54001; -.
+DR   ChEMBL; CHEMBL3301; -.
+DR   GlyCosmos; P54001; 2 sites, No reported glycans.
+DR   GlyGen; P54001; 2 sites.
+DR   PhosphoSitePlus; P54001; -.
+DR   jPOST; P54001; -.
+DR   PaxDb; 10116-ENSRNOP00000064405; -.
+DR   Ensembl; ENSRNOT00000106077.1; ENSRNOP00000084000.1; ENSRNOG00000050655.2.
+DR   Ensembl; ENSRNOT00055016163; ENSRNOP00055012981; ENSRNOG00055009534.
+DR   Ensembl; ENSRNOT00060005174; ENSRNOP00060003810; ENSRNOG00060003130.
+DR   Ensembl; ENSRNOT00065043474; ENSRNOP00065035666; ENSRNOG00065025183.
+DR   GeneID; 64475; -.
+DR   KEGG; rno:64475; -.
+DR   AGR; RGD:621000; -.
+DR   CTD; 5033; -.
+DR   RGD; 621000; P4ha1.
+DR   eggNOG; KOG1591; Eukaryota.
+DR   GeneTree; ENSGT00940000156635; -.
+DR   HOGENOM; CLU_024155_1_1_1; -.
+DR   InParanoid; P54001; -.
+DR   OrthoDB; 2899308at2759; -.
+DR   PhylomeDB; P54001; -.
+DR   BRENDA; 1.14.11.2; 5301.
+DR   Reactome; R-RNO-1650814; Collagen biosynthesis and modifying enzymes.
+DR   PRO; PR:P54001; -.
+DR   Proteomes; UP000002494; Chromosome 20.
+DR   Bgee; ENSRNOG00000050655; Expressed in skeletal muscle tissue and 19 other cell types or tissues.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IBA:GO_Central.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016222; C:procollagen-proline 4-dioxygenase complex; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0031418; F:L-ascorbic acid binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004656; F:procollagen-proline 4-dioxygenase activity; ISS:UniProtKB.
+DR   GO; GO:0030199; P:collagen fibril organization; ISO:RGD.
+DR   Gene3D; 6.10.140.1460; -; 1.
+DR   Gene3D; 2.60.120.620; q2cbj1_9rhob like domain; 1.
+DR   Gene3D; 1.25.40.10; Tetratricopeptide repeat domain; 1.
+DR   InterPro; IPR005123; Oxoglu/Fe-dep_dioxygenase.
+DR   InterPro; IPR045054; P4HA-like.
+DR   InterPro; IPR006620; Pro_4_hyd_alph.
+DR   InterPro; IPR044862; Pro_4_hyd_alph_FE2OG_OXY.
+DR   InterPro; IPR013547; Pro_4_hyd_alph_N.
+DR   InterPro; IPR011990; TPR-like_helical_dom_sf.
+DR   InterPro; IPR019734; TPR_repeat.
+DR   PANTHER; PTHR10869; PROLYL 4-HYDROXYLASE ALPHA SUBUNIT; 1.
+DR   PANTHER; PTHR10869:SF101; PROLYL 4-HYDROXYLASE SUBUNIT ALPHA-1; 1.
+DR   Pfam; PF13640; 2OG-FeII_Oxy_3; 1.
+DR   Pfam; PF08336; P4Ha_N; 1.
+DR   SMART; SM00702; P4Hc; 1.
+DR   SUPFAM; SSF48452; TPR-like; 1.
+DR   PROSITE; PS51471; FE2OG_OXY; 1.
+DR   PROSITE; PS50005; TPR; 1.
+DR   PROSITE; PS50293; TPR_REGION; 1.
+PE   2: Evidence at transcript level;
+KW   Dioxygenase; Endoplasmic reticulum; Glycoprotein; Iron; Metal-binding;
+KW   Oxidoreductase; Reference proteome; Signal; TPR repeat; Vitamin C.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           18..534
+FT                   /note="Prolyl 4-hydroxylase subunit alpha-1"
+FT                   /id="PRO_0000022725"
+FT   REPEAT          205..238
+FT                   /note="TPR"
+FT   DOMAIN          411..519
+FT                   /note="Fe2OG dioxygenase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   BINDING         429
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   BINDING         431
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   BINDING         500
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   BINDING         510
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00805"
+FT   CARBOHYD        113
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        259
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        265..267
+FT                   /note="DQS -> ERA (in Ref. 1; CAA55546)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   534 AA;  60898 MW;  C44659978281FF30 CRC64;
+     MIWGVLMMGI LLPQCSAHPG FFTSIGQMTD LIHNEKDLVT SLKDYIKAEE DKLEQIKKWA
+     EKLDRLTSTA TKDPEGFVGH PVNAFKLMKR LNTEWSELEN LILKDMSDGF ISNLTIQRQY
+     FPNDEDQVGA AKALFRLQDT YNLDTNTISK GNLPGVKHKS FLTAEDCFEL GKVAYTEADY
+     YHTELWMEQA LMQLEEGEMS TVDKVSVLDY LSYAVYQQGD LDKALLLTKK LLELDPEHQR
+     ANGNLVYFEY IMSKEKDANK SASGDQSDQK TTPKKKGIAV DYLPERQKYE MLCRGEGIKM
+     TPRRQKRLFC RYHDGNRNPK FILAPAKQED EWDKPRIIRF HDIISDAEIE IVKDLAKPRL
+     SRATVHDPET GKLTTAQYRV SKSAWLSGYE DPVVSRINMR IQDLTGLDVS TAEELQVANY
+     GVGGQYEPHF DFARKDEPDA FRELGTGNRI ATWLFYMSDV SAGGATVFPE VGASVWPKKG
+     TAVFWYNLFA SGEGDYSTRH AACPVLVGNK WVSNKWLHER GQEFRRPCTL SELE
+//

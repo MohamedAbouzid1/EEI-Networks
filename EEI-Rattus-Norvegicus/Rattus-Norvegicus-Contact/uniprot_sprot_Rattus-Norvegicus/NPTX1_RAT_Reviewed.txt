@@ -1,0 +1,189 @@
+ID   NPTX1_RAT               Reviewed;         432 AA.
+AC   P47971;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   24-JUL-2024, entry version 154.
+DE   RecName: Full=Neuronal pentraxin-1;
+DE            Short=NP1;
+DE   AltName: Full=47 kDa taipoxin-binding protein;
+DE   AltName: Full=Neuronal pentraxin I;
+DE            Short=NP-I;
+DE   Flags: Precursor;
+GN   Name=Nptx1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 40-80; 119-153 AND
+RP   293-337.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=7695898; DOI=10.1016/0896-6273(95)90308-9;
+RA   Schlimgen A.K., Helms J.A., Vogel H., Perin M.S.;
+RT   "Neuronal pentraxin, a secreted protein with homology to acute phase
+RT   proteins of the immune system.";
+RL   Neuron 14:519-526(1995).
+RN   [2]
+RP   FUNCTION, AND SUBUNIT.
+RX   PubMed=10748068; DOI=10.1074/jbc.m002254200;
+RA   Kirkpatrick L.L., Matzuk M.M., Dodds D.C., Perin M.S.;
+RT   "Biochemical interactions of the neuronal pentraxins. Neuronal pentraxin
+RT   (NP) receptor binds to taipoxin and taipoxin-associated calcium-binding
+RT   protein 49 via NP1 and NP2.";
+RL   J. Biol. Chem. 275:17786-17792(2000).
+RN   [3]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-154, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain;
+RX   PubMed=24090084; DOI=10.1021/pr400783j;
+RA   Parker B.L., Thaysen-Andersen M., Solis N., Scott N.E., Larsen M.R.,
+RA   Graham M.E., Packer N.H., Cordwell S.J.;
+RT   "Site-specific glycan-peptide analysis for determination of N-glycoproteome
+RT   heterogeneity.";
+RL   J. Proteome Res. 12:5791-5800(2013).
+CC   -!- FUNCTION: May be involved in mediating uptake of synaptic material
+CC       during synapse remodeling or in mediating the synaptic clustering of
+CC       AMPA glutamate receptors at a subset of excitatory synapses.
+CC       {ECO:0000269|PubMed:10748068}.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 2 calcium ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homooligomer or heterooligomer (probably pentamer) with
+CC       neuronal pentraxin receptor (NPTXR). {ECO:0000269|PubMed:10748068}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:Q15818}.
+CC       Cytoplasmic vesicle, secretory vesicle {ECO:0000305}. Endoplasmic
+CC       reticulum {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Cerebellum, hippocampus and cerebral cortex.
+CC   -!- PTM: Glycosylated.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U18772; AAA92685.1; -; mRNA.
+DR   RefSeq; NP_714957.1; NM_153735.2.
+DR   AlphaFoldDB; P47971; -.
+DR   SMR; P47971; -.
+DR   BioGRID; 251819; 3.
+DR   CORUM; P47971; -.
+DR   IntAct; P47971; 1.
+DR   MINT; P47971; -.
+DR   STRING; 10116.ENSRNOP00000005067; -.
+DR   GlyCosmos; P47971; 2 sites, 9 glycans.
+DR   GlyGen; P47971; 2 sites, 9 N-linked glycans (1 site).
+DR   iPTMnet; P47971; -.
+DR   PhosphoSitePlus; P47971; -.
+DR   PaxDb; 10116-ENSRNOP00000005067; -.
+DR   Ensembl; ENSRNOT00000005067.7; ENSRNOP00000005067.6; ENSRNOG00000003741.7.
+DR   Ensembl; ENSRNOT00055054777; ENSRNOP00055045272; ENSRNOG00055031635.
+DR   Ensembl; ENSRNOT00060048114; ENSRNOP00060040038; ENSRNOG00060027723.
+DR   Ensembl; ENSRNOT00065007023; ENSRNOP00065004836; ENSRNOG00065004839.
+DR   GeneID; 266777; -.
+DR   KEGG; rno:266777; -.
+DR   AGR; RGD:628894; -.
+DR   CTD; 4884; -.
+DR   RGD; 628894; Nptx1.
+DR   eggNOG; ENOG502QTID; Eukaryota.
+DR   GeneTree; ENSGT01060000248591; -.
+DR   HOGENOM; CLU_032051_0_0_1; -.
+DR   InParanoid; P47971; -.
+DR   OMA; IAWSETN; -.
+DR   OrthoDB; 4219275at2759; -.
+DR   PhylomeDB; P47971; -.
+DR   TreeFam; TF330208; -.
+DR   PRO; PR:P47971; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IEA:UniProtKB-SubCell.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0043083; C:synaptic cleft; IDA:SynGO.
+DR   GO; GO:0030133; C:transport vesicle; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0060385; P:axonogenesis involved in innervation; ISO:RGD.
+DR   GO; GO:0071333; P:cellular response to glucose stimulus; IEP:RGD.
+DR   GO; GO:0035865; P:cellular response to potassium ion; IDA:RGD.
+DR   GO; GO:0043653; P:mitochondrial fragmentation involved in apoptotic process; IMP:RGD.
+DR   GO; GO:0006839; P:mitochondrial transport; IMP:RGD.
+DR   GO; GO:0099645; P:neurotransmitter receptor localization to postsynaptic specialization membrane; IDA:SynGO.
+DR   GO; GO:0097107; P:postsynaptic density assembly; IDA:SynGO.
+DR   CDD; cd00152; PTX; 1.
+DR   Gene3D; 2.60.120.200; -; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR051360; Neuronal_Pentraxin_Related.
+DR   InterPro; IPR030476; Pentaxin_CS.
+DR   InterPro; IPR001759; Pentraxin-related.
+DR   PANTHER; PTHR19277:SF24; NEURONAL PENTRAXIN-1; 1.
+DR   PANTHER; PTHR19277; PENTRAXIN; 1.
+DR   Pfam; PF00354; Pentaxin; 1.
+DR   PRINTS; PR00895; PENTAXIN.
+DR   SMART; SM00159; PTX; 1.
+DR   SUPFAM; SSF49899; Concanavalin A-like lectins/glucanases; 1.
+DR   PROSITE; PS00289; PTX_1; 1.
+DR   PROSITE; PS51828; PTX_2; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Cytoplasmic vesicle; Direct protein sequencing; Disulfide bond;
+KW   Endoplasmic reticulum; Glycoprotein; Metal-binding; Reference proteome;
+KW   Secreted; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..432
+FT                   /note="Neuronal pentraxin-1"
+FT                   /id="PRO_0000023549"
+FT   DOMAIN          226..428
+FT                   /note="Pentraxin (PTX)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   REGION          90..128
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         280
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         358
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         358
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         359
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         360
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         360
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   BINDING         370
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+FT   CARBOHYD        154
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007744|PubMed:24090084"
+FT   CARBOHYD        193
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        256..316
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01172"
+SQ   SEQUENCE   432 AA;  47216 MW;  3071E3E40ACA3820 CRC64;
+     MLAGRAARTC ALLALCLLGS RAQDFGPTRF ICTSVPVDAD MCAASVAAGG AEELRSNVLQ
+     LRETVLQQKE TILSQKETIR ELTTKLGRCE SQSTLDAGPG EARSGGGRKQ PGSGKNTMGD
+     LSRTPASETL SQLGQTLQSL KTRLENLEQY SRLNSSSQTN SLKDLLQSKI DDLERQVLSR
+     VNTLEEGKGG PKNDTEERAK IESALTSLHQ RISELEKGQK DNRPGDKFQL TFPLRTNYMY
+     AKVKKSLPEM YAFTVCMWLK SSAAPGVGTP FSYAVPGQAN ELVLIEWGNN PMEILINDKV
+     AKLPFVINDG KWHHICVTWT TRDGVWEAYQ DGTQGGNGEN LAPYHPIKPQ GVLVLGQEQD
+     TLGGGFDATQ AFVGELAHFN IWDRKLTPGE VYNLATCSSK ALSGNVIAWA ESQIEIFGGA
+     TKWTFEACRQ IN
+//

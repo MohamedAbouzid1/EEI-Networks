@@ -1,0 +1,129 @@
+ID   TPD54_RAT               Reviewed;         220 AA.
+AC   Q6PCT3;
+DT   12-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   29-MAY-2024, entry version 101.
+DE   RecName: Full=Tumor protein D54;
+DE   AltName: Full=Tumor protein D52-like 2;
+GN   Name=Tpd52l2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-12; SER-180 AND SER-209, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- SUBUNIT: Forms a homodimer or heterodimer with other members of the
+CC       family. Interacts with MAL2 (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the TPD52 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC059167; AAH59167.1; -; mRNA.
+DR   RefSeq; NP_942039.1; NM_198744.2.
+DR   AlphaFoldDB; Q6PCT3; -.
+DR   SMR; Q6PCT3; -.
+DR   BioGRID; 255374; 1.
+DR   STRING; 10116.ENSRNOP00000020374; -.
+DR   iPTMnet; Q6PCT3; -.
+DR   PhosphoSitePlus; Q6PCT3; -.
+DR   jPOST; Q6PCT3; -.
+DR   PaxDb; 10116-ENSRNOP00000020374; -.
+DR   GeneID; 296480; -.
+DR   KEGG; rno:296480; -.
+DR   UCSC; RGD:735167; rat.
+DR   AGR; RGD:735167; -.
+DR   CTD; 7165; -.
+DR   RGD; 735167; Tpd52l2.
+DR   eggNOG; KOG4010; Eukaryota.
+DR   HOGENOM; CLU_080743_1_0_1; -.
+DR   InParanoid; Q6PCT3; -.
+DR   OrthoDB; 2880493at2759; -.
+DR   PhylomeDB; Q6PCT3; -.
+DR   PRO; PR:Q6PCT3; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000015122; Expressed in cerebellum and 19 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   InterPro; IPR007327; TPD52.
+DR   PANTHER; PTHR19307; TUMOR PROTEIN D52; 1.
+DR   PANTHER; PTHR19307:SF13; TUMOR PROTEIN D54; 1.
+DR   Pfam; PF04201; TPD52; 2.
+PE   1: Evidence at protein level;
+KW   Acetylation; Coiled coil; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..220
+FT                   /note="Tumor protein D54"
+FT                   /id="PRO_0000185747"
+FT   REGION          1..26
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          189..220
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          40..82
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        1..18
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:O43399"
+FT   MOD_RES         3
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O43399"
+FT   MOD_RES         12
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         19
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O43399"
+FT   MOD_RES         96
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O43399"
+FT   MOD_RES         149
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O43399"
+FT   MOD_RES         168
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CYZ2"
+FT   MOD_RES         175
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O43399"
+FT   MOD_RES         177
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:O43399"
+FT   MOD_RES         180
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         187
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:O43399"
+FT   MOD_RES         206
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CYZ2"
+FT   MOD_RES         209
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   220 AA;  23992 MW;  505408FBFFABAFD8 CRC64;
+     MDSASQDINL NSPNKGVLSD FMTDVPVDPG VVHRTPAVEG LTEVEEEELR AELAKVEEEI
+     VTLRQVLAAK ERHCGELKRR LGLSTLGELK QNLSRSWHDV QGSTAYVKTS EKLGEWNEKV
+     TQSDLYKKTQ ETLSQAGQKT SAALSTMGSA ISRKLGDMSS YSIRHSISMP VMRNSATFKS
+     FEDRVGTIKS KVVGGRENGS DTLPSSPGSG DQTLPDHAPF
+//

@@ -1,0 +1,124 @@
+ID   NDK6_RAT                Reviewed;         175 AA.
+AC   O88426;
+DT   11-JAN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   24-JUL-2024, entry version 130.
+DE   RecName: Full=Nucleoside diphosphate kinase 6;
+DE            Short=NDK 6;
+DE            Short=NDP kinase 6;
+DE            EC=2.7.4.6;
+DE   AltName: Full=nm23-R6;
+DE   Flags: Fragment;
+GN   Name=Nme6;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=10453732; DOI=10.1007/s004390050987;
+RA   Mehus J.G., Deloukas P., Lambeth D.O.;
+RT   "NME6: a new member of the nm23/nucleoside diphosphate kinase gene family
+RT   located on human chromosome 3p21.3.";
+RL   Hum. Genet. 104:454-459(1999).
+CC   -!- FUNCTION: Major role in the synthesis of nucleoside triphosphates other
+CC       than ATP. The ATP gamma phosphate is transferred to the NDP beta
+CC       phosphate via a ping-pong mechanism, using a phosphorylated active-site
+CC       intermediate.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-diphosphate + ATP = a 2'-
+CC         deoxyribonucleoside 5'-triphosphate + ADP; Xref=Rhea:RHEA:44640,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61560, ChEBI:CHEBI:73316,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.6; Evidence={ECO:0000255|PROSITE-
+CC         ProRule:PRU10030};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-diphosphate + ATP = a ribonucleoside 5'-
+CC         triphosphate + ADP; Xref=Rhea:RHEA:18113, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:61557, ChEBI:CHEBI:456216; EC=2.7.4.6;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10030};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the NDK family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF051943; AAC78465.1; -; mRNA.
+DR   AlphaFoldDB; O88426; -.
+DR   SMR; O88426; -.
+DR   STRING; 10116.ENSRNOP00000028125; -.
+DR   PhosphoSitePlus; O88426; -.
+DR   PaxDb; 10116-ENSRNOP00000028125; -.
+DR   UCSC; RGD:61896; rat.
+DR   AGR; RGD:61896; -.
+DR   RGD; 61896; Nme6.
+DR   eggNOG; KOG0888; Eukaryota.
+DR   InParanoid; O88426; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISO:RGD.
+DR   GO; GO:0005759; C:mitochondrial matrix; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004550; F:nucleoside diphosphate kinase activity; ISO:RGD.
+DR   GO; GO:0006241; P:CTP biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006183; P:GTP biosynthetic process; IEA:InterPro.
+DR   GO; GO:0030308; P:negative regulation of cell growth; ISO:RGD.
+DR   GO; GO:0045839; P:negative regulation of mitotic nuclear division; ISO:RGD.
+DR   GO; GO:0006228; P:UTP biosynthetic process; IEA:InterPro.
+DR   CDD; cd04414; NDPk6; 1.
+DR   Gene3D; 3.30.70.141; Nucleoside diphosphate kinase-like domain; 1.
+DR   InterPro; IPR034907; NDK-like_dom.
+DR   InterPro; IPR036850; NDK-like_dom_sf.
+DR   InterPro; IPR037994; NDPk6.
+DR   InterPro; IPR001564; Nucleoside_diP_kinase.
+DR   InterPro; IPR023005; Nucleoside_diP_kinase_AS.
+DR   PANTHER; PTHR46956; NUCLEOSIDE DIPHOSPHATE KINASE 6; 1.
+DR   PANTHER; PTHR46956:SF1; NUCLEOSIDE DIPHOSPHATE KINASE 6; 1.
+DR   Pfam; PF00334; NDK; 1.
+DR   PRINTS; PR01243; NUCDPKINASE.
+DR   SMART; SM00562; NDK; 1.
+DR   SUPFAM; SSF54919; Nucleoside diphosphate kinase, NDK; 1.
+DR   PROSITE; PS00469; NDPK; 1.
+DR   PROSITE; PS51374; NDPK_LIKE; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Kinase; Magnesium; Metal-binding; Nucleotide metabolism;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN           <1..175
+FT                   /note="Nucleoside diphosphate kinase 6"
+FT                   /id="PRO_0000137129"
+FT   ACT_SITE        118
+FT                   /note="Pros-phosphohistidine intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10030"
+FT   BINDING         8
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         57
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         85
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         91
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         105
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         115
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         1
+SQ   SEQUENCE   175 AA;  20112 MW;  E75F77C698639878 CRC64;
+     QLTLALIKPD AVAHPLILEA VHQQILSNKF LIVRMRELLW KPEDCRRFYR EHEGRFFYQR
+     LVEFMTSGPI RAYILAHKDA IQLWRTLMGP TRVFRARHIA PDSIRGSLGL TDTRNTTHGS
+     DSVVSASREI AAFFPDFSEQ RWYEEEEPQL RCGPVHYSPE EGIHCAAETG GPKPA
+//

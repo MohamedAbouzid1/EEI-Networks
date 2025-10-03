@@ -1,0 +1,267 @@
+ID   AT1A4_RAT               Reviewed;        1028 AA.
+AC   Q64541;
+DT   18-OCT-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JUL-2024, entry version 177.
+DE   RecName: Full=Sodium/potassium-transporting ATPase subunit alpha-4;
+DE            Short=Na(+)/K(+) ATPase alpha-4 subunit;
+DE            EC=7.2.2.13 {ECO:0000269|PubMed:20179187};
+DE   AltName: Full=Sodium pump subunit alpha-4;
+GN   Name=Atp1a4; Synonyms=Atp1al2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Testis;
+RX   PubMed=7809153; DOI=10.1073/pnas.91.26.12952;
+RA   Shamraj O.I., Lingrel J.B.;
+RT   "A putative fourth Na+,K(+)-ATPase alpha-subunit gene is expressed in
+RT   testis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 91:12952-12956(1994).
+RN   [2]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=20179187; DOI=10.1530/rep-09-0495;
+RA   Jimenez T., Sanchez G., Wertheimer E., Blanco G.;
+RT   "Activity of the Na,K-ATPase alpha4 isoform is important for membrane
+RT   potential, intracellular Ca2+, and pH to maintain motility in rat
+RT   spermatozoa.";
+RL   Reproduction 139:835-845(2010).
+CC   -!- FUNCTION: This is the catalytic component of the active enzyme, which
+CC       catalyzes the hydrolysis of ATP coupled with the exchange of sodium and
+CC       potassium ions across the plasma membrane. This action creates the
+CC       electrochemical gradient of sodium and potassium ions, providing the
+CC       energy for active transport of various nutrients. Plays a role in sperm
+CC       motility. {ECO:0000269|PubMed:20179187}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + K(+)(out) + Na(+)(in) = ADP + H(+) + K(+)(in) +
+CC         Na(+)(out) + phosphate; Xref=Rhea:RHEA:18353, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29101, ChEBI:CHEBI:29103,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:456216;
+CC         EC=7.2.2.13; Evidence={ECO:0000269|PubMed:20179187};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:18354;
+CC         Evidence={ECO:0000269|PubMed:20179187};
+CC   -!- ACTIVITY REGULATION: Specifically inhibited by an endogenous cardiac
+CC       glycoside, ouabain. {ECO:0000250}.
+CC   -!- SUBUNIT: The sodium/potassium-transporting ATPase is composed of a
+CC       catalytic alpha subunit, an auxiliary non-catalytic beta subunit and an
+CC       additional regulatory subunit. {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Multi-pass membrane protein.
+CC   -!- SIMILARITY: Belongs to the cation transport ATPase (P-type) (TC 3.A.3)
+CC       family. Type IIC subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U15176; AAB81285.1; -; mRNA.
+DR   RefSeq; NP_001257959.1; NM_001271030.1.
+DR   RefSeq; NP_074039.1; NM_022848.3.
+DR   AlphaFoldDB; Q64541; -.
+DR   SMR; Q64541; -.
+DR   BioGRID; 247817; 1.
+DR   STRING; 10116.ENSRNOP00000062079; -.
+DR   BindingDB; Q64541; -.
+DR   ChEMBL; CHEMBL2485; -.
+DR   iPTMnet; Q64541; -.
+DR   PhosphoSitePlus; Q64541; -.
+DR   jPOST; Q64541; -.
+DR   PaxDb; 10116-ENSRNOP00000062079; -.
+DR   GeneID; 29132; -.
+DR   KEGG; rno:29132; -.
+DR   UCSC; RGD:61952; rat.
+DR   AGR; RGD:61952; -.
+DR   CTD; 480; -.
+DR   RGD; 61952; Atp1a4.
+DR   VEuPathDB; HostDB:ENSRNOG00000032378; -.
+DR   eggNOG; KOG0203; Eukaryota.
+DR   HOGENOM; CLU_002360_4_3_1; -.
+DR   InParanoid; Q64541; -.
+DR   OMA; NGQEYSM; -.
+DR   OrthoDB; 203629at2759; -.
+DR   PhylomeDB; Q64541; -.
+DR   Reactome; R-RNO-5578775; Ion homeostasis.
+DR   Reactome; R-RNO-936837; Ion transport by P-type ATPases.
+DR   SABIO-RK; Q64541; -.
+DR   PRO; PR:Q64541; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000032378; Expressed in testis and 6 other cell types or tissues.
+DR   GO; GO:0042995; C:cell projection; IBA:GO_Central.
+DR   GO; GO:0097733; C:photoreceptor cell cilium; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0120200; C:rod photoreceptor outer segment; ISO:RGD.
+DR   GO; GO:0005890; C:sodium:potassium-exchanging ATPase complex; ISO:RGD.
+DR   GO; GO:0097225; C:sperm midpiece; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0019829; F:ATPase-coupled monoatomic cation transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005391; F:P-type sodium:potassium-exchanging transporter activity; IDA:MGI.
+DR   GO; GO:0051649; P:establishment of localization in cell; ISO:RGD.
+DR   GO; GO:0009566; P:fertilization; ISO:RGD.
+DR   GO; GO:0030317; P:flagellated sperm motility; IDA:RGD.
+DR   GO; GO:0030007; P:intracellular potassium ion homeostasis; IBA:GO_Central.
+DR   GO; GO:0006883; P:intracellular sodium ion homeostasis; IBA:GO_Central.
+DR   GO; GO:1990573; P:potassium ion import across plasma membrane; IBA:GO_Central.
+DR   GO; GO:0071805; P:potassium ion transmembrane transport; ISO:RGD.
+DR   GO; GO:0006813; P:potassium ion transport; TAS:RGD.
+DR   GO; GO:1902600; P:proton transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0030641; P:regulation of cellular pH; IDA:RGD.
+DR   GO; GO:0042391; P:regulation of membrane potential; ISO:RGD.
+DR   GO; GO:0036376; P:sodium ion export across plasma membrane; IBA:GO_Central.
+DR   GO; GO:0035725; P:sodium ion transmembrane transport; ISO:RGD.
+DR   GO; GO:0006814; P:sodium ion transport; ISO:RGD.
+DR   GO; GO:0007283; P:spermatogenesis; IEP:RGD.
+DR   CDD; cd02608; P-type_ATPase_Na-K_like; 1.
+DR   Gene3D; 3.40.1110.10; Calcium-transporting ATPase, cytoplasmic domain N; 1.
+DR   Gene3D; 2.70.150.10; Calcium-transporting ATPase, cytoplasmic transduction domain A; 1.
+DR   Gene3D; 1.20.1110.10; Calcium-transporting ATPase, transmembrane domain; 1.
+DR   Gene3D; 3.40.50.1000; HAD superfamily/HAD-like; 1.
+DR   InterPro; IPR006068; ATPase_P-typ_cation-transptr_C.
+DR   InterPro; IPR004014; ATPase_P-typ_cation-transptr_N.
+DR   InterPro; IPR023299; ATPase_P-typ_cyto_dom_N.
+DR   InterPro; IPR018303; ATPase_P-typ_P_site.
+DR   InterPro; IPR023298; ATPase_P-typ_TM_dom_sf.
+DR   InterPro; IPR008250; ATPase_P-typ_transduc_dom_A_sf.
+DR   InterPro; IPR050510; Cation_transp_ATPase_P-type.
+DR   InterPro; IPR036412; HAD-like_sf.
+DR   InterPro; IPR023214; HAD_sf.
+DR   InterPro; IPR005775; P-type_ATPase_IIC.
+DR   InterPro; IPR001757; P_typ_ATPase.
+DR   InterPro; IPR044492; P_typ_ATPase_HD_dom.
+DR   NCBIfam; TIGR01106; ATPase-IIC_X-K; 1.
+DR   NCBIfam; TIGR01494; ATPase_P-type; 2.
+DR   PANTHER; PTHR43294; SODIUM/POTASSIUM-TRANSPORTING ATPASE SUBUNIT ALPHA; 1.
+DR   PANTHER; PTHR43294:SF3; SODIUM_POTASSIUM-TRANSPORTING ATPASE SUBUNIT ALPHA-4; 1.
+DR   Pfam; PF13246; Cation_ATPase; 1.
+DR   Pfam; PF00689; Cation_ATPase_C; 1.
+DR   Pfam; PF00690; Cation_ATPase_N; 1.
+DR   Pfam; PF00122; E1-E2_ATPase; 1.
+DR   Pfam; PF00702; Hydrolase; 1.
+DR   PRINTS; PR00119; CATATPASE.
+DR   PRINTS; PR00121; NAKATPASE.
+DR   SFLD; SFLDG00002; C1.7:_P-type_atpase_like; 1.
+DR   SFLD; SFLDF00027; p-type_atpase; 1.
+DR   SMART; SM00831; Cation_ATPase_N; 1.
+DR   SUPFAM; SSF81653; Calcium ATPase, transduction domain A; 1.
+DR   SUPFAM; SSF81665; Calcium ATPase, transmembrane domain M; 1.
+DR   SUPFAM; SSF56784; HAD-like; 1.
+DR   SUPFAM; SSF81660; Metal cation-transporting ATPase, ATP-binding domain N; 1.
+DR   PROSITE; PS00154; ATPASE_E1_E2; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell membrane; Ion transport; Magnesium; Membrane;
+KW   Metal-binding; Nucleotide-binding; Phosphoprotein; Potassium;
+KW   Potassium transport; Reference proteome; Sodium; Sodium transport;
+KW   Sodium/potassium transport; Translocase; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..1028
+FT                   /note="Sodium/potassium-transporting ATPase subunit alpha-
+FT                   4"
+FT                   /id="PRO_0000046305"
+FT   TOPO_DOM        1..92
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        93..113
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        114..137
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        138..158
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        159..294
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        295..314
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        315..326
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        327..344
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        345..777
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        778..797
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        798..807
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        808..828
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        829..848
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        849..871
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        872..923
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        924..943
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        944..956
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        957..975
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        976..990
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        991..1011
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1012..1028
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          1..36
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          87..89
+FT                   /note="Interaction with phosphoinositide-3 kinase"
+FT                   /evidence="ECO:0000250"
+FT   COMPBIAS        11..25
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        382
+FT                   /note="4-aspartylphosphate intermediate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         722
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         726
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         948
+FT                   /note="Phosphoserine; by PKA"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1028 AA;  114005 MW;  858FE008735D06FA CRC64;
+     MEPGKETAAT SEQKPRPTLR ASNTNRQPKV KRRKKDLEEL KKEVVMDDHK LTLDELSAKY
+     SVDLTKGLSV TDAQEILTLN GPNVLTPPPT TPEWIKFCKQ LFGGFSLLLW TGSLLCFLAY
+     GIHVSYYQEN ANKDNLYLGI VLSAVVIITG CFSYYQEAKS SKIMESFKTM VPQQALVIRD
+     GEKMQINVRD VVLGDLVEVK GGDQVPADIR VIAAQGCKVD NSSLTGESEP QSRCPDCTHE
+     NPLETRNIIF FSTNCVEGTA RGVVIATGDH TVMGRIASLT SGLTMGKTPI ATEIEHFIHI
+     ITAVAVFLGV TFFFLSLILG YTWLDAVIFL IGIIVANVPE GLLATVTVCL TLTAKRMARK
+     NCLVKNLEAV ETLGSTSTIC SDKTGTLTQN RMTVAHLWFD KTVYEADTSE EQTTGKTFPK
+     SSDTWFYLAR IAGLCNRADF KPHQESLPIT KRTTTGDASE SALLKFIEQS YSPVSEMRQK
+     NPKVAEIPFN STNKYQMSIH LLEDNSEAHV LLMKGAPERI LDFCSSFLLN GQEYPMDEEM
+     KTDFQNAYIE LGGLGERVLG FCFLNLPSNF SKGFQFNTEE LNFPMENLCF AGLISMIDPP
+     RTAVPDAVSK CRSAGIKVIM VTGDHPITAK AIAKSVGIIS EANETAEDIA ARLNISISQV
+     SNKSIKAIVV HGSELKDMDS GQLDNILKSY KEIVFARTSP QQKLIIVEGC QRLGAIVAVT
+     GDGVNDSPAL KKADIGIAMG ITGSDVSKQA ADMILLDDNF ASIVTGVEEG RLIFDNLKKS
+     IAYTLTSNIP EITPFLLFIV LSIPLPLGTI TILCIDLGTD MVPAISLAYE TPESDIMKRL
+     PRNPKTDNLV NDRLIGMAYG QIGMIQALAG FFTYFVILAE NGFKPLDLLG IRLYWDDTNL
+     NDLEDTYGQQ WTYEQRKVVE FTCQTAFFIS IVIVQWADLI ICKTRRNSLF KQGMKNKVLI
+     FGLLEETILA ACLSYIPGMD VALRMYPLKI NWWFCALPYS VLIFIYDEVR KLIIRRRPGG
+     WLEKETYY
+//

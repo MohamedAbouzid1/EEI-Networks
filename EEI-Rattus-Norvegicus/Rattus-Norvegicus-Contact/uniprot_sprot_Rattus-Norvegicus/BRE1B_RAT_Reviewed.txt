@@ -1,0 +1,214 @@
+ID   BRE1B_RAT               Reviewed;        1002 AA.
+AC   Q8CJB9;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   29-MAY-2024, entry version 145.
+DE   RecName: Full=E3 ubiquitin-protein ligase BRE1B;
+DE            Short=BRE1-B;
+DE            EC=2.3.2.27 {ECO:0000269|PubMed:12121982};
+DE   AltName: Full=RING finger protein 40;
+DE   AltName: Full=RING-type E3 ubiquitin transferase BRE1B {ECO:0000305};
+DE   AltName: Full=Syntaxin-1-interacting RING finger protein;
+DE            Short=Protein staring;
+GN   Name=Rnf40; Synonyms=Bre1b;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], POSSIBLE FUNCTION, CATALYTIC ACTIVITY, TISSUE
+RP   SPECIFICITY, AND POSSIBLE INTERACTION WITH STX1A.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=12121982; DOI=10.1074/jbc.m203300200;
+RA   Chin L.-S., Vavalle J.P., Li L.;
+RT   "Staring, a novel E3 ubiquitin-protein ligase that targets syntaxin 1 for
+RT   degradation.";
+RL   J. Biol. Chem. 277:35071-35079(2002).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-585 AND SER-586, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Component of the RNF20/40 E3 ubiquitin-protein ligase complex
+CC       that mediates monoubiquitination of 'Lys-120' of histone H2B
+CC       (H2BK120ub1). H2BK120ub1 gives a specific tag for epigenetic
+CC       transcriptional activation and is also prerequisite for histone H3
+CC       'Lys-4' and 'Lys-79' methylation (H3K4me and H3K79me, respectively). It
+CC       thereby plays a central role in histone code and gene regulation. The
+CC       RNF20/40 complex forms a H2B ubiquitin ligase complex in cooperation
+CC       with the E2 enzyme UBE2A or UBE2B; reports about the cooperation with
+CC       UBE2E1/UBCH are contradictory. Required for transcriptional activation
+CC       of Hox genes. {ECO:0000250|UniProtKB:O75150}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-ubiquitinyl-[E2 ubiquitin-conjugating enzyme]-L-cysteine +
+CC         [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-
+CC         cysteine + N(6)-ubiquitinyl-[acceptor protein]-L-lysine.;
+CC         EC=2.3.2.27; Evidence={ECO:0000269|PubMed:12121982};
+CC   -!- PATHWAY: Protein modification; protein ubiquitination.
+CC   -!- SUBUNIT: Component of the RNF20/40 complex (also known as BRE1 complex)
+CC       probably composed of 2 copies of RNF20/BRE1A and 2 copies of
+CC       RNF40/BRE1B. Interacts with UBE2E1/UBCH6. Interacts with RB1 and WAC
+CC       (By similarity). May interact with STX1A.
+CC       {ECO:0000250|UniProtKB:O75150}.
+CC   -!- INTERACTION:
+CC       Q8CJB9; P61265: Stx1b; NbExp=4; IntAct=EBI-6110162, EBI-2255905;
+CC       Q8CJB9; O14933: UBE2L6; Xeno; NbExp=2; IntAct=EBI-6110162, EBI-2129974;
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:O75150}.
+CC   -!- TISSUE SPECIFICITY: Ubiquitously expressed. Expressed in brain, testis,
+CC       heart, liver and kidney. Weakly expressed in lung, spleen and skeletal
+CC       muscle (at protein level). {ECO:0000269|PubMed:12121982}.
+CC   -!- SIMILARITY: Belongs to the BRE1 family. {ECO:0000305}.
+CC   -!- CAUTION: Was originally thought to be cytoplasmic and membrane-
+CC       associated and to mediate ubiquitination and subsequent degradation of
+CC       STX1A. {ECO:0000305|PubMed:12121982}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF352815; AAN16401.1; -; mRNA.
+DR   RefSeq; NP_703201.1; NM_153471.1.
+DR   AlphaFoldDB; Q8CJB9; -.
+DR   SMR; Q8CJB9; -.
+DR   IntAct; Q8CJB9; 2.
+DR   STRING; 10116.ENSRNOP00000025500; -.
+DR   iPTMnet; Q8CJB9; -.
+DR   PhosphoSitePlus; Q8CJB9; -.
+DR   PaxDb; 10116-ENSRNOP00000025500; -.
+DR   GeneID; 266712; -.
+DR   KEGG; rno:266712; -.
+DR   UCSC; RGD:628638; rat.
+DR   AGR; RGD:628638; -.
+DR   CTD; 9810; -.
+DR   RGD; 628638; Rnf40.
+DR   VEuPathDB; HostDB:ENSRNOG00000018840; -.
+DR   eggNOG; KOG0978; Eukaryota.
+DR   HOGENOM; CLU_002640_0_0_1; -.
+DR   InParanoid; Q8CJB9; -.
+DR   OrthoDB; 53681at2759; -.
+DR   PhylomeDB; Q8CJB9; -.
+DR   TreeFam; TF323183; -.
+DR   BRENDA; 2.3.2.27; 5301.
+DR   Reactome; R-RNO-8866654; E3 ubiquitin ligases ubiquitinate target proteins.
+DR   UniPathway; UPA00143; -.
+DR   PRO; PR:Q8CJB9; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000018840; Expressed in thymus and 18 other cell types or tissues.
+DR   GO; GO:0033503; C:HULC complex; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0000151; C:ubiquitin ligase complex; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003730; F:mRNA 3'-UTR binding; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0017075; F:syntaxin-1 binding; IPI:RGD.
+DR   GO; GO:0031624; F:ubiquitin conjugating enzyme binding; IDA:RGD.
+DR   GO; GO:0061630; F:ubiquitin protein ligase activity; IBA:GO_Central.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0004842; F:ubiquitin-protein transferase activity; IDA:RGD.
+DR   GO; GO:0006325; P:chromatin organization; IEA:UniProtKB-KW.
+DR   GO; GO:1901800; P:positive regulation of proteasomal protein catabolic process; IDA:RGD.
+DR   GO; GO:1902916; P:positive regulation of protein polyubiquitination; IDA:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0016567; P:protein ubiquitination; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0043434; P:response to peptide hormone; IEP:RGD.
+DR   GO; GO:0006511; P:ubiquitin-dependent protein catabolic process; IDA:RGD.
+DR   CDD; cd16815; RING-HC_RNF40; 1.
+DR   Gene3D; 3.30.40.10; Zinc/RING finger domain, C3HC4 (zinc finger); 1.
+DR   InterPro; IPR013956; E3_ubiquit_lig_Bre1.
+DR   InterPro; IPR018957; Znf_C3HC4_RING-type.
+DR   InterPro; IPR001841; Znf_RING.
+DR   InterPro; IPR013083; Znf_RING/FYVE/PHD.
+DR   InterPro; IPR017907; Znf_RING_CS.
+DR   PANTHER; PTHR23163:SF4; E3 UBIQUITIN-PROTEIN LIGASE BRE1B; 1.
+DR   PANTHER; PTHR23163; RING FINGER PROTEIN-RELATED; 1.
+DR   Pfam; PF00097; zf-C3HC4; 1.
+DR   SMART; SM00184; RING; 1.
+DR   SUPFAM; SSF57850; RING/U-box; 1.
+DR   PROSITE; PS00518; ZF_RING_1; 1.
+DR   PROSITE; PS50089; ZF_RING_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Chromatin regulator; Coiled coil; Isopeptide bond;
+KW   Metal-binding; Nucleus; Phosphoprotein; Reference proteome; Transferase;
+KW   Ubl conjugation; Ubl conjugation pathway; Zinc; Zinc-finger.
+FT   CHAIN           1..1002
+FT                   /note="E3 ubiquitin-protein ligase BRE1B"
+FT                   /id="PRO_0000055843"
+FT   ZN_FING         949..988
+FT                   /note="RING-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00175"
+FT   REGION          1..32
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          120..148
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          520..562
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          579..652
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          55..91
+FT                   /evidence="ECO:0000255"
+FT   COILED          190..378
+FT                   /evidence="ECO:0000255"
+FT   COILED          438..526
+FT                   /evidence="ECO:0000255"
+FT   COILED          628..947
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        605..620
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        634..652
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         20
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q3U319"
+FT   MOD_RES         42
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5VTR2"
+FT   MOD_RES         356
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5VTR2"
+FT   MOD_RES         518
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q3U319"
+FT   MOD_RES         585
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         586
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CROSSLNK        579
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:O75150"
+FT   CROSSLNK        580
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:O75150"
+SQ   SEQUENCE   1002 AA;  113841 MW;  EFF371C06B52D231 CRC64;
+     MSGLSNKRAA GDGGSGPPEK KLNREEKTTT TLIEPIRLGG ISSTEEMDSK VLQFKNKKLA
+     ERLEQRQACE DELRERIEKL EKRQATDDAT LLIVNRYWAQ LDETVEALLQ CYENQRELSS
+     SGTEVPGCQE GLTRDVIPRT DPGTSDLREP LPMQFRAPLS EPALAFVVAL GASSCEEVEL
+     QLQGRMEFSK AAVSRVVEAS DRLQRQVEEL CQRVYSRGDS EAPGEVARAR TRELGRENRR
+     LQDLATQLQE KHHRISLEYS ELQDKVTSTE TKVLEMETTV EDLQWDIEKL RKREQKLNKH
+     LAEALEQLNS GYYVSGSSTG FQGGQITLSM QKFEMLNAEL EENQELANSR MAELEKLQAE
+     LQGAVRTNER LKVALRSLPE EVVRETGEYR MLQAQFSLLY NESLQVKTQL DEARGLLLAS
+     KNSHLRHIEH MESDELGLQK KLRTEVIQLE DTLAQVRKEY EMLRIEFEQN LAANEQAGPI
+     NREMRHLISS LQNHNHQLKG DAQRYKRKLR EVQAEIGKLR AQASGSSHCG PNLSHPDDSG
+     LNALAPGKED SGPGPGGTPD SKKELALVAG ATSVASSVKK EELVSSEDDA QALAPGTQGL
+     PSRGREPEAR PKRELREREG PSLGPPPAAS TLSRADREKA KAEEARRKES ELLKGLRAEL
+     KKAQESQKEM KLLLDMYKSA PKEQRDKVQL MAAERKAKAE VDELRSRIRD LEERDRRESK
+     KIADEDALRR IRQAEEQIEH LQRKLGATKQ EEEALLSEMD VTGQAFEDMQ EQNGRLLQQL
+     REKDDANFKL MSERIKANQI HKLLREEKDE LGEQVLGLKS QVDAQLLTVQ KLEEKERALQ
+     GSLGGVEKEL TLRSQALELN KRKAVEAAQL AEDLKVQLEH VQTRLREIQP CLAESRAARE
+     KESFNLKRAQ EDISRLRRKL EKQRKVEVYA DADEILQEEI KEYKARLTCP CCNTRKKDAV
+     LTKCFHVFCF ECVRGRYEAR QRKCPKCNAA FGAHDFHRVY IS
+//

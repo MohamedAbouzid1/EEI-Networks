@@ -1,0 +1,271 @@
+ID   TKFC_RAT                Reviewed;         578 AA.
+AC   Q4KLZ6;
+DT   24-JAN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   02-AUG-2005, sequence version 1.
+DT   02-OCT-2024, entry version 122.
+DE   RecName: Full=Triokinase/FMN cyclase;
+DE   AltName: Full=Bifunctional ATP-dependent dihydroxyacetone kinase/FAD-AMP lyase (cyclizing);
+DE   Includes:
+DE     RecName: Full=ATP-dependent dihydroxyacetone kinase;
+DE              Short=DHA kinase;
+DE              EC=2.7.1.28;
+DE              EC=2.7.1.29;
+DE     AltName: Full=Glycerone kinase;
+DE     AltName: Full=Triokinase;
+DE     AltName: Full=Triose kinase;
+DE   Includes:
+DE     RecName: Full=FAD-AMP lyase (cyclizing);
+DE              EC=4.6.1.15;
+DE     AltName: Full=FAD-AMP lyase (cyclic FMN forming);
+DE     AltName: Full=FMN cyclase;
+GN   Name=Tkfc; Synonyms=Dak;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Brown Norway; TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   FUNCTION, AND FAD-AMP LYASE ACTIVITY.
+RX   PubMed=16289032; DOI=10.1016/j.bbrc.2005.10.142;
+RA   Cabezas A., Costas M.J., Pinto R.M., Couto A., Cameselle J.C.;
+RT   "Identification of human and rat FAD-AMP lyase (cyclic FMN forming) as ATP-
+RT   dependent dihydroxyacetone kinases.";
+RL   Biochem. Biophys. Res. Commun. 338:1682-1689(2005).
+RN   [3]
+RP   COFACTOR, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=11695920; DOI=10.1021/bi0157159;
+RA   Cabezas A., Pinto R.M., Fraiz F., Canales J., Gonzalez-Santiago S.,
+RA   Cameselle J.C.;
+RT   "Purification, characterization, and substrate and inhibitor structure-
+RT   activity studies of rat liver FAD-AMP lyase (cyclizing): preference for FAD
+RT   and specificity for splitting ribonucleoside diphosphate-X into
+RT   ribonucleotide and a five-atom cyclic phosphodiester of X, either a
+RT   monocyclic compound or a cis-bicyclic phosphodiester-pyranose fusion.";
+RL   Biochemistry 40:13710-13722(2001).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-511 AND SER-545, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes both the phosphorylation of dihydroxyacetone and of
+CC       glyceraldehyde, and the splitting of ribonucleoside diphosphate-X
+CC       compounds among which FAD is the best substrate (PubMed:16289032).
+CC       Represses IFIH1-mediated cellular antiviral response (By similarity).
+CC       {ECO:0000250|UniProtKB:F1RKQ4, ECO:0000250|UniProtKB:Q3LXA3,
+CC       ECO:0000269|PubMed:16289032}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + dihydroxyacetone = ADP + dihydroxyacetone phosphate +
+CC         H(+); Xref=Rhea:RHEA:15773, ChEBI:CHEBI:15378, ChEBI:CHEBI:16016,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57642, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.29;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-glyceraldehyde = ADP + D-glyceraldehyde 3-phosphate +
+CC         H(+); Xref=Rhea:RHEA:13941, ChEBI:CHEBI:15378, ChEBI:CHEBI:17378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:59776, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.28;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=FAD = AMP + H(+) + riboflavin cyclic-4',5'-phosphate;
+CC         Xref=Rhea:RHEA:13729, ChEBI:CHEBI:15378, ChEBI:CHEBI:57692,
+CC         ChEBI:CHEBI:76202, ChEBI:CHEBI:456215; EC=4.6.1.15;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:11695920};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000269|PubMed:11695920};
+CC       Note=Manganese or cobalt are requested for FAD-AMP lyase activity.
+CC       {ECO:0000269|PubMed:11695920};
+CC   -!- ACTIVITY REGULATION: Each activity is inhibited by the substrate(s) of
+CC       the other.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=8.8 uM for FAD with manganese {ECO:0000269|PubMed:11695920};
+CC         KM=12.5 uM for ADP-glucose with manganese
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=652 uM for UDP-glucose with manganese
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=606 uM for UDP-galactose with manganese
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=714 uM for UDP-xylose with manganese
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=107 uM for UDP-glucuronate with manganese
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=108 uM for UDP-galacturonate with manganese
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=416 uM for CDP-glucose with manganese
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=795 uM for CDP-glycerol with manganese
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=784 uM for GDP-glucose with manganese
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=343 uM for GDP-alpha-L-fucose with manganese
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=114 uM for FAD with cobalt {ECO:0000269|PubMed:11695920};
+CC         KM=120 uM for ADP-glucose with cobalt {ECO:0000269|PubMed:11695920};
+CC         KM=2550 uM for UDP-glucose with cobalt {ECO:0000269|PubMed:11695920};
+CC         KM=3661 uM for UDP-galactose with cobalt
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=2354 uM for UDP-xylose with cobalt {ECO:0000269|PubMed:11695920};
+CC         KM=539 uM for UDP-glucuronate with cobalt
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=759 uM for UDP-galacturonate with cobalt
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=3703 uM for CDP-glucose with cobalt {ECO:0000269|PubMed:11695920};
+CC         KM=2031 uM for CDP-glycerol with cobalt
+CC         {ECO:0000269|PubMed:11695920};
+CC         KM=2246 uM for GDP-glucose with cobalt {ECO:0000269|PubMed:11695920};
+CC         KM=991 uM for GDP-alpha-L-fucose with cobalt
+CC         {ECO:0000269|PubMed:11695920};
+CC   -!- SUBUNIT: Homodimer (By similarity). Interacts with IFIH1 (via the CARD
+CC       domains), the interaction is inhibited by viral infection (By
+CC       similarity). {ECO:0000250|UniProtKB:F1RKQ4,
+CC       ECO:0000250|UniProtKB:Q3LXA3}.
+CC   -!- DOMAIN: DhaK and DhaL domains have differential roles, individually
+CC       DhaK is inactive and DhaL displays cyclase but not kinase activity.
+CC       {ECO:0000250|UniProtKB:Q3LXA3}.
+CC   -!- SIMILARITY: Belongs to the dihydroxyacetone kinase (DAK) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC098925; AAH98925.1; -; mRNA.
+DR   RefSeq; NP_001034120.1; NM_001039031.1.
+DR   RefSeq; XP_006231118.1; XM_006231056.3.
+DR   RefSeq; XP_006231119.2; XM_006231057.2.
+DR   AlphaFoldDB; Q4KLZ6; -.
+DR   SMR; Q4KLZ6; -.
+DR   STRING; 10116.ENSRNOP00000028102; -.
+DR   iPTMnet; Q4KLZ6; -.
+DR   PhosphoSitePlus; Q4KLZ6; -.
+DR   jPOST; Q4KLZ6; -.
+DR   PaxDb; 10116-ENSRNOP00000028102; -.
+DR   Ensembl; ENSRNOT00000028102.6; ENSRNOP00000028102.4; ENSRNOG00000020704.6.
+DR   Ensembl; ENSRNOT00055030806; ENSRNOP00055024794; ENSRNOG00055018152.
+DR   Ensembl; ENSRNOT00060042316; ENSRNOP00060035079; ENSRNOG00060024206.
+DR   Ensembl; ENSRNOT00065043902; ENSRNOP00065036004; ENSRNOG00065025351.
+DR   GeneID; 361730; -.
+DR   KEGG; rno:361730; -.
+DR   UCSC; RGD:1311026; rat.
+DR   AGR; RGD:1311026; -.
+DR   CTD; 26007; -.
+DR   RGD; 1311026; Tkfc.
+DR   eggNOG; KOG2426; Eukaryota.
+DR   GeneTree; ENSGT00390000015415; -.
+DR   HOGENOM; CLU_017054_6_2_1; -.
+DR   InParanoid; Q4KLZ6; -.
+DR   OrthoDB; 6043at2759; -.
+DR   PhylomeDB; Q4KLZ6; -.
+DR   TreeFam; TF313821; -.
+DR   BioCyc; MetaCyc:MONOMER-15866; -.
+DR   Reactome; R-RNO-70350; Fructose catabolism.
+DR   PRO; PR:Q4KLZ6; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000020704; Expressed in duodenum and 19 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; IDA:MGI.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0034012; F:FAD-AMP lyase (cyclizing) activity; ISO:RGD.
+DR   GO; GO:0004371; F:glycerone kinase activity; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050354; F:triokinase activity; IDA:MGI.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; ISO:RGD.
+DR   GO; GO:0046835; P:carbohydrate phosphorylation; ISO:RGD.
+DR   GO; GO:0061624; P:fructose catabolic process to hydroxyacetone phosphate and glyceraldehyde-3-phosphate; ISO:RGD.
+DR   GO; GO:0019563; P:glycerol catabolic process; IBA:GO_Central.
+DR   GO; GO:0039534; P:negative regulation of MDA-5 signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0045088; P:regulation of innate immune response; ISO:RGD.
+DR   Gene3D; 1.25.40.340; -; 1.
+DR   InterPro; IPR012734; DhaK_ATP.
+DR   InterPro; IPR004006; DhaK_dom.
+DR   InterPro; IPR004007; DhaL_dom.
+DR   InterPro; IPR036117; DhaL_dom_sf.
+DR   InterPro; IPR050861; Dihydroxyacetone_Kinase.
+DR   NCBIfam; TIGR02361; dak_ATP; 1.
+DR   PANTHER; PTHR28629; TRIOKINASE/FMN CYCLASE; 1.
+DR   PANTHER; PTHR28629:SF4; TRIOKINASE_FMN CYCLASE; 1.
+DR   Pfam; PF02733; Dak1; 1.
+DR   Pfam; PF02734; Dak2; 1.
+DR   SMART; SM01120; Dak2; 1.
+DR   SUPFAM; SSF82549; DAK1/DegV-like; 1.
+DR   SUPFAM; SSF101473; DhaL-like; 1.
+DR   PROSITE; PS51481; DHAK; 1.
+DR   PROSITE; PS51480; DHAL; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cobalt; FAD; Flavoprotein; Kinase; Lyase; Magnesium;
+KW   Manganese; Metal-binding; Multifunctional enzyme; Nucleotide-binding;
+KW   Phosphoprotein; Reference proteome; Transferase.
+FT   CHAIN           1..578
+FT                   /note="Triokinase/FMN cyclase"
+FT                   /id="PRO_0000121527"
+FT   DOMAIN          9..336
+FT                   /note="DhaK"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00814"
+FT   DOMAIN          372..571
+FT                   /note="DhaL"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00813"
+FT   ACT_SITE        221
+FT                   /note="Tele-hemiaminal-histidine intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00814"
+FT   BINDING         56..59
+FT                   /ligand="dihydroxyacetone"
+FT                   /ligand_id="ChEBI:CHEBI:16016"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         109
+FT                   /ligand="dihydroxyacetone"
+FT                   /ligand_id="ChEBI:CHEBI:16016"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00814"
+FT   BINDING         114
+FT                   /ligand="dihydroxyacetone"
+FT                   /ligand_id="ChEBI:CHEBI:16016"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00814"
+FT   BINDING         401..404
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         446..447
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         486
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         494..495
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         556..558
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         511
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         545
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   578 AA;  59444 MW;  C343482447F9770B CRC64;
+     MSSKKMVNSV EGCAGDALAG FVACNPDLQL LQGYRVALRS DLDSLKGRVA LLSGGGSGHE
+     PAHAGFIGKG MLTGVIAGAV FASPAVGSIL AAIRAVAQAG TAGTLLIVKN YTGDRLNFGL
+     AMEQAKAEGI SVEMVVIEDD SAFTVLKKAG RRGLCGTILI HKVAGALAEE GMGLEEITKK
+     VSVIAKAIGT LGVSLSPCSV PGTKPTFELA ADEMELGLGI HGEAGVRRIK LVPVDQIVTL
+     MLDHMTDTSN ISHVPVKSGS SVVLMVNNLG GLSFLELGII ADAAIRLLEG RGVKVARALV
+     GTFMSALEMR GVSLTLMLVD EPLLKLIDAE TNAKAWPHMS KVSVTGRNRI RAAPTEPAEA
+     PEATAAGGVA SKQMTLVLDR ISTTLIGLEE HLNALDRAAG DGDCGSTHSR AAKAIQGWLK
+     EGPTPASPAQ VLSKLSVLLL EKMGGSSGAL YGLFLTAAAQ PLKANTDLPA WSAAMDAGLK
+     AMQKYGKAAP GDRTMLDSLW AAAQELQAWK SPGASLLPVL TKAVKSAEAA AEATKNMEAG
+     AGRASYISSA QLDQPDPGAV AAAAIFRAIL EVLQTKAA
+//

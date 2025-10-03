@@ -1,0 +1,102 @@
+ID   S31F3_RAT               Reviewed;         329 AA.
+AC   Q642A3;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   24-JAN-2024, entry version 83.
+DE   RecName: Full=Protein SPATA31F3;
+DE   AltName: Full=Protein FAM205C {ECO:0000305};
+GN   Name=Spata31f3 {ECO:0000312|RGD:1561387}; Synonyms=Fam205c;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-152 AND SER-153, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the SPATA31 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC082005; AAH82005.1; -; mRNA.
+DR   RefSeq; NP_001019514.2; NM_001024343.2.
+DR   AlphaFoldDB; Q642A3; -.
+DR   STRING; 10116.ENSRNOP00000069401; -.
+DR   iPTMnet; Q642A3; -.
+DR   PhosphoSitePlus; Q642A3; -.
+DR   PaxDb; 10116-ENSRNOP00000038393; -.
+DR   GeneID; 500445; -.
+DR   KEGG; rno:500445; -.
+DR   UCSC; RGD:1561387; rat.
+DR   AGR; RGD:1561387; -.
+DR   CTD; 100129969; -.
+DR   RGD; 1561387; Spata31f3.
+DR   eggNOG; ENOG502THPB; Eukaryota.
+DR   InParanoid; Q642A3; -.
+DR   OrthoDB; 4737936at2759; -.
+DR   PhylomeDB; Q642A3; -.
+DR   TreeFam; TF337856; -.
+DR   PRO; PR:Q642A3; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR027970; SPATA31F3-like.
+DR   PANTHER; PTHR21859; ACROSOME-SPECIFIC PROTEIN; 1.
+DR   PANTHER; PTHR21859:SF15; PROTEIN FAM205A-RELATED; 1.
+DR   Pfam; PF15371; DUF4599; 1.
+PE   1: Evidence at protein level;
+KW   Coiled coil; Membrane; Phosphoprotein; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..329
+FT                   /note="Protein SPATA31F3"
+FT                   /id="PRO_0000319054"
+FT   TRANSMEM        11..31
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   REGION          149..184
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          201..250
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          288..329
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          58..85
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        201..228
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        289..329
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         152
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         153
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   329 AA;  36941 MW;  156AC64A7843FF9E CRC64;
+     MLIPPFILWD VGYSVYTYGS IFIIALIIWQ VKRSHRGLRM GPTKSCAKCF RRIKQTPSDR
+     ATRAKRTSKE EAEKLQKLLD TMKSQGWLPQ EGSVRRLLCP DPSCSICNAM TLEIQQLLGV
+     ENKKTSSSLL RPSRSFSCLE ALSPSKSLAD RSSELTYQDT RDVSLSSRFP QSQETDQQST
+     RSATPSIGDA VLQCYHSAPQ QQLDPQGSKM TQDAKGLSSS STDEPGVPAN QQKKRKKTKK
+     LALKNQAAPT EVETENKMTF FSHWVNPEVK CDRQEESLVF SKYDTGAKPM TVEPEKTHSP
+     VRDQAEGAEK KKKPECDLKA KPLRAKRNI
+//

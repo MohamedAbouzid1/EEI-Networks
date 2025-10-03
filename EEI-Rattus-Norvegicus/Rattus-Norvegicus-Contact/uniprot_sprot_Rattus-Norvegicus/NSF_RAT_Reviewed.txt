@@ -1,0 +1,232 @@
+ID   NSF_RAT                 Reviewed;         744 AA.
+AC   Q9QUL6;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   02-OCT-2024, entry version 157.
+DE   RecName: Full=Vesicle-fusing ATPase;
+DE            EC=3.6.4.6;
+DE   AltName: Full=N-ethylmaleimide-sensitive fusion protein;
+DE            Short=NEM-sensitive fusion protein;
+DE   AltName: Full=Vesicular-fusion protein NSF;
+GN   Name=Nsf; Synonyms=Erg1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RA   Guan Z., Lu L.R., Zheng Z.C., Liu X.Y.;
+RL   Submitted (APR-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RA   Viswanathan V., Vincent S.R.;
+RL   Submitted (SEP-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   PROTEIN SEQUENCE OF 11-27; 69-87; 170-187; 218-232; 255-266; 316-335;
+RP   338-357; 404-413; 435-446; 534-549; 556-566; 595-631 AND 708-725, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Hippocampus, and Spinal cord;
+RA   Lubec G., Afjehi-Sadat L., Diao W.;
+RL   Submitted (APR-2007) to UniProtKB.
+RN   [4]
+RP   INTERACTION WITH CDK16, AND TISSUE SPECIFICITY.
+RX   PubMed=16461345; DOI=10.1074/jbc.m513496200;
+RA   Liu Y., Cheng K., Gong K., Fu A.K., Ip N.Y.;
+RT   "Pctaire1 phosphorylates N-ethylmaleimide-sensitive fusion protein:
+RT   implications in the regulation of its hexamerization and exocytosis.";
+RL   J. Biol. Chem. 281:9852-9858(2006).
+RN   [5]
+RP   INTERACTION WITH GRIA2 AND NSF.
+RX   PubMed=20802490; DOI=10.1038/nn.2624;
+RA   Evers D.M., Matta J.A., Hoe H.S., Zarkowsky D., Lee S.H., Isaac J.T.,
+RA   Pak D.T.;
+RT   "Plk2 attachment to NSF induces homeostatic removal of GluA2 during chronic
+RT   overexcitation.";
+RL   Nat. Neurosci. 13:1199-1207(2010).
+RN   [6]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Required for vesicle-mediated transport. Catalyzes the fusion
+CC       of transport vesicles within the Golgi cisternae. Is also required for
+CC       transport from the endoplasmic reticulum to the Golgi stack. Seems to
+CC       function as a fusion protein required for the delivery of cargo
+CC       proteins to all compartments of the Golgi stack independent of vesicle
+CC       origin. Interaction with AMPAR subunit GRIA2 leads to influence GRIA2
+CC       membrane cycling.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.6;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P18708};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250|UniProtKB:P18708};
+CC   -!- SUBUNIT: Homohexamer. Interacts with GABARAP and GABARAPL2 (By
+CC       similarity). Interacts with GRIA2. Interacts with PLK2, leading to
+CC       disrupt the interaction with GRIA2. Interacts with MUSK; may regulate
+CC       MUSK endocytosis and activity (By similarity). Interacts with CDK16.
+CC       {ECO:0000250, ECO:0000269|PubMed:16461345,
+CC       ECO:0000269|PubMed:20802490}.
+CC   -!- INTERACTION:
+CC       Q9QUL6; P19491: Gria2; NbExp=5; IntAct=EBI-925794, EBI-77718;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Detected in brain (at protein level).
+CC       {ECO:0000269|PubMed:16461345}.
+CC   -!- PTM: Phosphorylation at Ser-569 interferes with homohexamerization.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the AAA ATPase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF142097; AAD39485.1; -; mRNA.
+DR   EMBL; AF189019; AAF01051.1; -; mRNA.
+DR   RefSeq; NP_068516.1; NM_021748.1.
+DR   AlphaFoldDB; Q9QUL6; -.
+DR   SMR; Q9QUL6; -.
+DR   BioGRID; 248797; 5.
+DR   CORUM; Q9QUL6; -.
+DR   IntAct; Q9QUL6; 7.
+DR   MINT; Q9QUL6; -.
+DR   STRING; 10116.ENSRNOP00000006361; -.
+DR   GlyGen; Q9QUL6; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; Q9QUL6; -.
+DR   PhosphoSitePlus; Q9QUL6; -.
+DR   jPOST; Q9QUL6; -.
+DR   PaxDb; 10116-ENSRNOP00000006361; -.
+DR   GeneID; 60355; -.
+DR   KEGG; rno:60355; -.
+DR   UCSC; RGD:621594; rat.
+DR   AGR; RGD:621594; -.
+DR   CTD; 4905; -.
+DR   RGD; 621594; Nsf.
+DR   eggNOG; KOG0741; Eukaryota.
+DR   InParanoid; Q9QUL6; -.
+DR   OrthoDB; 553800at2759; -.
+DR   PhylomeDB; Q9QUL6; -.
+DR   Reactome; R-RNO-204005; COPII-mediated vesicle transport.
+DR   Reactome; R-RNO-416993; Trafficking of GluR2-containing AMPA receptors.
+DR   Reactome; R-RNO-6807878; COPI-mediated anterograde transport.
+DR   Reactome; R-RNO-6811434; COPI-dependent Golgi-to-ER retrograde traffic.
+DR   Reactome; R-RNO-6811438; Intra-Golgi traffic.
+DR   Reactome; R-RNO-6811440; Retrograde transport at the Trans-Golgi-Network.
+DR   PRO; PR:Q9QUL6; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0043198; C:dendritic shaft; IDA:UniProtKB.
+DR   GO; GO:0098982; C:GABA-ergic synapse; IDA:SynGO.
+DR   GO; GO:0005795; C:Golgi stack; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0014069; C:postsynaptic density; TAS:UniProtKB.
+DR   GO; GO:0099091; C:postsynaptic specialization, intracellular component; IDA:SynGO.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IDA:UniProtKB.
+DR   GO; GO:0043008; F:ATP-dependent protein binding; IPI:RGD.
+DR   GO; GO:0140545; F:ATP-dependent protein disaggregase activity; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:0031748; F:D1 dopamine receptor binding; IPI:RGD.
+DR   GO; GO:0035255; F:ionotropic glutamate receptor binding; IPI:ParkinsonsUK-UCL.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030165; F:PDZ domain binding; ISO:RGD.
+DR   GO; GO:0019901; F:protein kinase binding; ISO:RGD.
+DR   GO; GO:0120283; F:protein serine/threonine kinase binding; IPI:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:UniProtKB.
+DR   GO; GO:0031267; F:small GTPase binding; IPI:RGD.
+DR   GO; GO:0000149; F:SNARE binding; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:0019905; F:syntaxin binding; ISO:RGD.
+DR   GO; GO:0017075; F:syntaxin-1 binding; ISO:RGD.
+DR   GO; GO:0043001; P:Golgi to plasma membrane protein transport; IBA:GO_Central.
+DR   GO; GO:0006891; P:intra-Golgi vesicle-mediated transport; IBA:GO_Central.
+DR   GO; GO:0006886; P:intracellular protein transport; ISO:RGD.
+DR   GO; GO:0045732; P:positive regulation of protein catabolic process; ISO:RGD.
+DR   GO; GO:0001921; P:positive regulation of receptor recycling; ISO:RGD.
+DR   GO; GO:0048260; P:positive regulation of receptor-mediated endocytosis; IMP:RGD.
+DR   GO; GO:0006813; P:potassium ion transport; ISO:RGD.
+DR   GO; GO:0032984; P:protein-containing complex disassembly; IDA:UniProtKB.
+DR   GO; GO:0017157; P:regulation of exocytosis; IMP:RGD.
+DR   GO; GO:0002090; P:regulation of receptor internalization; IDA:UniProtKB.
+DR   GO; GO:0035494; P:SNARE complex disassembly; ISS:ParkinsonsUK-UCL.
+DR   GO; GO:0016192; P:vesicle-mediated transport; IMP:RGD.
+DR   CDD; cd19504; RecA-like_NSF-SEC18_r1-like; 1.
+DR   Gene3D; 1.10.8.60; -; 2.
+DR   Gene3D; 2.40.40.20; -; 1.
+DR   Gene3D; 3.10.330.10; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR041569; AAA_lid_3.
+DR   InterPro; IPR009010; Asp_de-COase-like_dom_sf.
+DR   InterPro; IPR003959; ATPase_AAA_core.
+DR   InterPro; IPR003960; ATPase_AAA_CS.
+DR   InterPro; IPR004201; Cdc48_dom2.
+DR   InterPro; IPR029067; CDC48_domain_2-like_sf.
+DR   InterPro; IPR003338; CDC4_N-term_subdom.
+DR   InterPro; IPR054419; NSF_ATPase_lid.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR039812; Vesicle-fus_ATPase.
+DR   PANTHER; PTHR23078:SF3; VESICLE-FUSING ATPASE; 1.
+DR   PANTHER; PTHR23078; VESICULAR-FUSION PROTEIN NSF; 1.
+DR   Pfam; PF00004; AAA; 2.
+DR   Pfam; PF17862; AAA_lid_3; 1.
+DR   Pfam; PF02933; CDC48_2; 1.
+DR   Pfam; PF02359; CDC48_N; 1.
+DR   Pfam; PF21964; NSF_ATPase_lid; 1.
+DR   PRINTS; PR00830; ENDOLAPTASE.
+DR   SMART; SM00382; AAA; 2.
+DR   SMART; SM01072; CDC48_2; 1.
+DR   SMART; SM01073; CDC48_N; 1.
+DR   SUPFAM; SSF50692; ADC-like; 1.
+DR   SUPFAM; SSF54585; Cdc48 domain 2-like; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+DR   PROSITE; PS00674; AAA; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Cytoplasm; Direct protein sequencing; Hydrolase;
+KW   Magnesium; Metal-binding; Nucleotide-binding; Phosphoprotein;
+KW   Protein transport; Reference proteome; Repeat; Transport.
+FT   CHAIN           1..744
+FT                   /note="Vesicle-fusing ATPase"
+FT                   /id="PRO_0000263087"
+FT   BINDING         505..510
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P18708"
+FT   BINDING         545..552
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P18708"
+FT   BINDING         550
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P18708"
+FT   MOD_RES         105
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P46460"
+FT   MOD_RES         207
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P46459"
+FT   MOD_RES         259
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P46460"
+FT   MOD_RES         569
+FT                   /note="Phosphoserine; by CDK16"
+FT                   /evidence="ECO:0000250|UniProtKB:P46460"
+SQ   SEQUENCE   744 AA;  82652 MW;  82978187FC3E0E03 CRC64;
+     MAGRTMQAAR CPTDELSLSN CAVVNEKDYQ SGQHVMVRTS PNHKYIFTLR THPSVVPGCI
+     AFSLPQRKWA GLSIGQDIEV ALYSFDKAKQ CIGTMTIEID FLQKKNIDSN PYDTDKMAAE
+     FIQQFNHQAF SVGQQLVFSF NDKLFGLLVK DIEAMDPSIL KGEPASGKRQ KIEVGLVVGN
+     SQVAFEKAEN SSLNLIGKAK TKENRQSIIN PDWNFEKMGI GGLDKEFSDI FRRAFASRVF
+     PPEIVEQMGC KHVKGILLYG PPGCGKTLLA RQIGKMLNAR EPKVVNGPEI LNKYVGESEA
+     NIRKLFADAE EEQRRLGANS GLHIIIFDEI DAICKQRGSM AGSTGVHDTV VNQLLSKIDG
+     VEQLNNILVI GMTNRPDLID EALLRPGRLE VKMEIGLPDE KGRLQILHIH TARMRGHQLL
+     SADVDIKELA VETKNFSGAE LEGLVRAAQS TAMNRHIKAS TKVEVDMEKA ESLQVTRGDF
+     LASLENDIKP AFGTNQEDYA SYIMNGIIKW GDPVTRVLDD GELLVQQTKN SDRTPLVSVL
+     LEGPPHSGKT ALAAKIAEES NFPFIKICSP DKMIGFSETA KCQAMKKIFD DAYKSQLSCV
+     VVDDIERLLD YVPIGPRFSN LVLQALLVLL KKAPPQGRKL LIIGTTSRKD VLQEMEMLNA
+     FSTTIHVPNI ATGEQLLEAL ELLGNFKDKE RTTIAQQVKG KKVWIGIKKL LMLIEMSLQM
+     DPEYRVRKFL ALMREEGASP LDFD
+//

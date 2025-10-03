@@ -1,0 +1,172 @@
+ID   AL1A7_RAT               Reviewed;         501 AA.
+AC   P13601;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   02-OCT-2024, entry version 145.
+DE   RecName: Full=Aldehyde dehydrogenase, cytosolic 1;
+DE            EC=1.2.1.3 {ECO:0000269|PubMed:10998257};
+DE   AltName: Full=ALDH class 1;
+DE   AltName: Full=ALDH-E1;
+DE   AltName: Full=ALHDII;
+DE   AltName: Full=Aldehyde dehydrogenase family 1 member A7;
+DE   AltName: Full=Aldehyde dehydrogenase phenobarbital-inducible;
+GN   Name=Aldh1a7;
+GN   Synonyms=Aldh-pb {ECO:0000303|PubMed:10998257}, Aldh1, Aldh1a4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2753900; DOI=10.1016/s0021-9258(18)51595-7;
+RA   Dunn T.J., Koleske A.J., Lindahl R., Pitot H.C.;
+RT   "Phenobarbital-inducible aldehyde dehydrogenase in the rat. cDNA sequence
+RT   and regulation of the mRNA by phenobarbital in responsive rats.";
+RL   J. Biol. Chem. 264:13057-13065(1989).
+RN   [2]
+RP   FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, SUBUNIT, TISSUE SPECIFICITY, AND
+RP   CATALYTIC ACTIVITY.
+RX   PubMed=10998257; DOI=10.1021/bi001120m;
+RA   Kathmann E.C., Naylor S., Lipsky J.J.;
+RT   "Rat liver constitutive and phenobarbital-inducible cytosolic aldehyde
+RT   dehydrogenases are highly homologous proteins that function as distinct
+RT   isozymes.";
+RL   Biochemistry 39:11170-11176(2000).
+CC   -!- FUNCTION: Can oxidize benzaldehyde, propionaldehyde and acetaldehyde.
+CC       No detectable activity with retinal. {ECO:0000269|PubMed:10998257}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an aldehyde + H2O + NAD(+) = a carboxylate + 2 H(+) + NADH;
+CC         Xref=Rhea:RHEA:16185, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17478, ChEBI:CHEBI:29067, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.2.1.3;
+CC         Evidence={ECO:0000269|PubMed:10998257};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16186;
+CC         Evidence={ECO:0000269|PubMed:10998257};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=2.4 mM for acetaldehyde {ECO:0000269|PubMed:10998257};
+CC         KM=1.6 mM for propionaldehyde {ECO:0000269|PubMed:10998257};
+CC         KM=4.7 uM for benzaldehyde {ECO:0000269|PubMed:10998257};
+CC         Note=The highest catalytic efficiency is observed with benzaldehyde
+CC         as substrate. No activity with retinal.;
+CC   -!- PATHWAY: Alcohol metabolism; ethanol degradation; acetate from ethanol:
+CC       step 2/2. {ECO:0000305|PubMed:10998257}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:10998257}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- TISSUE SPECIFICITY: Very low levels in lung and liver.
+CC       {ECO:0000269|PubMed:10998257}.
+CC   -!- INDUCTION: By phenobarbital.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M23995; AAA40718.1; -; mRNA.
+DR   PIR; A32616; A32616.
+DR   RefSeq; NP_058968.14; NM_017272.15.
+DR   AlphaFoldDB; P13601; -.
+DR   SMR; P13601; -.
+DR   IntAct; P13601; 3.
+DR   BindingDB; P13601; -.
+DR   ChEMBL; CHEMBL5354; -.
+DR   GlyGen; P13601; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; P13601; -.
+DR   PhosphoSitePlus; P13601; -.
+DR   jPOST; P13601; -.
+DR   UCSC; RGD:620252; rat.
+DR   AGR; RGD:620252; -.
+DR   RGD; 620252; Aldh1a7.
+DR   InParanoid; P13601; -.
+DR   PhylomeDB; P13601; -.
+DR   SABIO-RK; P13601; -.
+DR   UniPathway; UPA00780; UER00768.
+DR   PRO; PR:P13601; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0018479; F:benzaldehyde dehydrogenase (NAD+) activity; IBA:GO_Central.
+DR   GO; GO:0043878; F:glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051287; F:NAD binding; ISS:CAFA.
+DR   GO; GO:0006068; P:ethanol catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd07141; ALDH_F1AB_F2_RALDH1; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR029510; Ald_DH_CS_GLU.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   PANTHER; PTHR11699:SF221; ALDEHYDE DEHYDROGENASE, CYTOSOLIC 1; 1.
+DR   PANTHER; PTHR11699; ALDEHYDE DEHYDROGENASE-RELATED; 1.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; ALDH-like; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+DR   PROSITE; PS00687; ALDEHYDE_DEHYDR_GLU; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; NAD; Oxidoreductase; Phosphoprotein;
+KW   Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+FT   CHAIN           2..501
+FT                   /note="Aldehyde dehydrogenase, cytosolic 1"
+FT                   /id="PRO_0000056426"
+FT   ACT_SITE        269
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10007,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10008"
+FT   ACT_SITE        303
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10007,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10008"
+FT   BINDING         246..251
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   SITE            170
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+FT   MOD_RES         91
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+FT   MOD_RES         128
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+FT   MOD_RES         252
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+FT   MOD_RES         353
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+FT   MOD_RES         367
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+FT   MOD_RES         410
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+FT   MOD_RES         413
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+FT   MOD_RES         419
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+FT   MOD_RES         435
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+FT   MOD_RES         495
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00352"
+SQ   SEQUENCE   501 AA;  54560 MW;  E6806A1AF736AF1F CRC64;
+     MSSPAQPAVP APLANLKIQH TKIFINNEWH NSLNGKKFPV INPATEEVIC HVEEGDKADV
+     DKAVKAARQA FQIGSPWRTM DASERGCLLN KLADLMERDR VLLATMESMN AGKIFTHAYL
+     LDTEVSIKAL KYFAGWADKI HGQTIPSDGD VFTYTRREPI GVCGQIIPWN GPLILFIWKI
+     GAALSCGNTV IVKPAEQTPL TALYMASLIK EAGFPPGVVN VVPGYGSTAG AAISSHMDID
+     KVSFTGSTEV GKLIKEAAGK SNLKRVTLEL GGKSPCIVFA DADLDSAVEF AHQGVFFHQG
+     QICVAASRLF VEESIYDEFV RRSVERAKKY VLGNPLDSGI SQGPQIDKEQ HAKILDLIES
+     GKKEGAKLEC GGGRWGNKGF FVQPTVFSNV TDEMRIAKEE IFGPVQQIMK FKSIDEVIKR
+     ANNTPYGLAA GVFTKDLDRA ITVSSALQAG TVWVNCYLTL SVQCPFGGFK MSGNGREMGE
+     QGVYEYTELK TVAMKISQKN S
+//

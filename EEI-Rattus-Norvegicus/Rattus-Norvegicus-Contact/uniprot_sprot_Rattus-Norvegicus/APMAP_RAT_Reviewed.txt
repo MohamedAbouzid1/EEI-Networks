@@ -1,0 +1,124 @@
+ID   APMAP_RAT               Reviewed;         376 AA.
+AC   Q7TP48; Q3KR93;
+DT   05-MAY-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-MAY-2009, sequence version 2.
+DT   24-JUL-2024, entry version 109.
+DE   RecName: Full=Adipocyte plasma membrane-associated protein;
+GN   Name=Apmap; ORFNames=Ab2-305;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RA   Xu C.S., Li W.Q., Li Y.C., Zhao L.F., Ma H., Wang L., Wang S.F., Han H.P.,
+RA   Wang G.P., Chai L.Q., Yuan J.Y., Yang K.J., Yan H.M., Chang C.F., Shi J.B.,
+RA   Rahman S., Wang Q.N., Zhang J.B.;
+RT   "Liver regeneration after PH.";
+RL   Submitted (JUN-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Exhibits strong arylesterase activity with beta-naphthyl
+CC       acetate and phenyl acetate. May play a role in adipocyte
+CC       differentiation (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q7TP48-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q7TP48-2; Sequence=VSP_036994, VSP_036995, VSP_036996;
+CC   -!- SIMILARITY: Belongs to the strictosidine synthase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY325201; AAP92602.1; -; mRNA.
+DR   EMBL; BC105824; AAI05825.1; -; mRNA.
+DR   RefSeq; NP_001029175.1; NM_001034003.1. [Q7TP48-1]
+DR   RefSeq; XP_008760584.1; XM_008762362.2.
+DR   AlphaFoldDB; Q7TP48; -.
+DR   SMR; Q7TP48; -.
+DR   STRING; 10116.ENSRNOP00000073800; -.
+DR   GlyCosmos; Q7TP48; 1 site, 2 glycans.
+DR   GlyGen; Q7TP48; 1 site, 2 N-linked glycans (1 site).
+DR   iPTMnet; Q7TP48; -.
+DR   PhosphoSitePlus; Q7TP48; -.
+DR   jPOST; Q7TP48; -.
+DR   GeneID; 366227; -.
+DR   KEGG; rno:366227; -.
+DR   UCSC; RGD:1308874; rat. [Q7TP48-1]
+DR   AGR; RGD:1308874; -.
+DR   CTD; 57136; -.
+DR   RGD; 1308874; Apmap.
+DR   VEuPathDB; HostDB:ENSRNOG00000006795; -.
+DR   HOGENOM; CLU_023267_0_0_1; -.
+DR   InParanoid; Q7TP48; -.
+DR   OrthoDB; 1066791at2759; -.
+DR   PhylomeDB; Q7TP48; -.
+DR   PRO; PR:Q7TP48; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000006795; Expressed in adult mammalian kidney and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q7TP48; baseline and differential.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0004064; F:arylesterase activity; ISO:RGD.
+DR   GO; GO:0016844; F:strictosidine synthase activity; IEA:InterPro.
+DR   GO; GO:0009058; P:biosynthetic process; IEA:InterPro.
+DR   Gene3D; 2.120.10.30; TolB, C-terminal domain; 1.
+DR   InterPro; IPR011042; 6-blade_b-propeller_TolB-like.
+DR   InterPro; IPR018119; Strictosidine_synth_cons-reg.
+DR   PANTHER; PTHR10426:SF130; ADIPOCYTE PLASMA MEMBRANE-ASSOCIATED PROTEIN; 1.
+DR   PANTHER; PTHR10426; STRICTOSIDINE SYNTHASE-RELATED; 1.
+DR   Pfam; PF20067; SSL_N; 1.
+DR   Pfam; PF03088; Str_synth; 1.
+DR   SUPFAM; SSF63829; Calcium-dependent phosphotriesterase; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Glycoprotein; Membrane; Reference proteome;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..376
+FT                   /note="Adipocyte plasma membrane-associated protein"
+FT                   /id="PRO_0000370858"
+FT   TRANSMEM        1..17
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        120
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         70
+FT                   /note="D -> AVYWVTPLLWTQDSRSASVPVDVKH (in isoform 2)"
+FT                   /evidence="ECO:0000303|Ref.1"
+FT                   /id="VSP_036994"
+FT   VAR_SEQ         198
+FT                   /note="R -> RQVVVNVLKGWMYTGLCMSS (in isoform 2)"
+FT                   /evidence="ECO:0000303|Ref.1"
+FT                   /id="VSP_036995"
+FT   VAR_SEQ         327..376
+FT                   /note="VSDSGAFRRSLHDPDGQVVTYVSEAHEHDGYLYLGSFRSPFICRLSLQSI
+FT                   -> PLTVVPSGEVCMILMDRWSPM (in isoform 2)"
+FT                   /evidence="ECO:0000303|Ref.1"
+FT                   /id="VSP_036996"
+FT   CONFLICT        309
+FT                   /note="F -> I (in Ref. 1; AAP92602)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        314
+FT                   /note="V -> A (in Ref. 1; AAP92602)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   376 AA;  42062 MW;  023FF1B600C688C2 CRC64;
+     MTFLMLAVSL AIPLLGAMML LESPIDPQSF SFKEPPFMFG VLQPNTKLRQ AERLFENQLN
+     GPESIVNIGD VLFTGTADGR VVKLENGEIE TIARFGSGPC KTRDDEPTCG RPLGIRVGPN
+     GTLFVVDAYK GLFEVNPQKR SVKLLLSSET PIEGKKMSFV NDLTITRDGR KIYFTDSSSK
+     WQRRDYLLLV MEGTDDGRLL EYDTVTKEVK VLLDQLQFPN GVQLSPEEDF VLVAETAMAR
+     IRRVYVSGLM KGGADMFVEN MPGFPDNIRP SSSGGYWVAA ATIRANPGFS MLDFLSDKPF
+     IKRMIFKLFS QETVMKFVPR YSLVLEVSDS GAFRRSLHDP DGQVVTYVSE AHEHDGYLYL
+     GSFRSPFICR LSLQSI
+//

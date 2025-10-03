@@ -1,0 +1,245 @@
+ID   FPPS_RAT                Reviewed;         353 AA.
+AC   P05369; Q6GT82;
+DT   01-NOV-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1991, sequence version 2.
+DT   24-JAN-2024, entry version 165.
+DE   RecName: Full=Farnesyl pyrophosphate synthase;
+DE            Short=FPP synthase;
+DE            Short=FPS;
+DE            EC=2.5.1.10;
+DE   AltName: Full=(2E,6E)-farnesyl diphosphate synthase;
+DE   AltName: Full=Cholesterol-regulated 39 kDa protein;
+DE            Short=CR 39;
+DE   AltName: Full=Dimethylallyltranstransferase;
+DE            EC=2.5.1.1;
+DE   AltName: Full=Farnesyl diphosphate synthase;
+DE   AltName: Full=Geranyltranstransferase;
+GN   Name=Fdps;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=3670308; DOI=10.1128/mcb.7.9.3138-3146.1987;
+RA   Clarke C.F., Tanaka R.D., Svenson K., Wamsley M., Fogelman A.M.,
+RA   Edwards P.A.;
+RT   "Molecular cloning and sequence of a cholesterol-repressible enzyme related
+RT   to prenyltransferase in the isoprene biosynthetic pathway.";
+RL   Mol. Cell. Biol. 7:3138-3146(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND SEQUENCE REVISION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Testis;
+RX   PubMed=2325654; DOI=10.1128/mcb.10.5.2315-2326.1990;
+RA   Teruya J.H., Kutsunai S.Y., Spear D.H., Edwards P.A., Clarke C.F.;
+RT   "Testis-specific transcription initiation sites of rat farnesyl
+RT   pyrophosphate synthetase mRNA.";
+RL   Mol. Cell. Biol. 10:2315-2326(1990).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA], AND VARIANT HIS-110.
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Key enzyme in isoprenoid biosynthesis which catalyzes the
+CC       formation of farnesyl diphosphate (FPP), a precursor for several
+CC       classes of essential metabolites including sterols, dolichols,
+CC       carotenoids, and ubiquinones. FPP also serves as substrate for protein
+CC       farnesylation and geranylgeranylation. Catalyzes the sequential
+CC       condensation of isopentenyl pyrophosphate with the allylic
+CC       pyrophosphates, dimethylallyl pyrophosphate, and then with the
+CC       resultant geranylpyrophosphate to the ultimate product farnesyl
+CC       pyrophosphate (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dimethylallyl diphosphate + isopentenyl diphosphate = (2E)-
+CC         geranyl diphosphate + diphosphate; Xref=Rhea:RHEA:22408,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:58057,
+CC         ChEBI:CHEBI:128769; EC=2.5.1.1;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E)-geranyl diphosphate + isopentenyl diphosphate = (2E,6E)-
+CC         farnesyl diphosphate + diphosphate; Xref=Rhea:RHEA:19361,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58057, ChEBI:CHEBI:128769,
+CC         ChEBI:CHEBI:175763; EC=2.5.1.10;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 2 Mg(2+) ions per subunit. {ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Inactivated by interferon-induced RSAD2. This
+CC       inactivation may result of disruption of lipid rafts at the plasma
+CC       membrane, and thus have an antiviral effect since many enveloped
+CC       viruses need lipid rafts to bud efficiently out of the cell (By
+CC       similarity). {ECO:0000250}.
+CC   -!- PATHWAY: Isoprenoid biosynthesis; farnesyl diphosphate biosynthesis;
+CC       farnesyl diphosphate from geranyl diphosphate and isopentenyl
+CC       diphosphate: step 1/1.
+CC   -!- PATHWAY: Isoprenoid biosynthesis; geranyl diphosphate biosynthesis;
+CC       geranyl diphosphate from dimethylallyl diphosphate and isopentenyl
+CC       diphosphate: step 1/1.
+CC   -!- SUBUNIT: Homodimer. Interacts with RSAD2 (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- TISSUE SPECIFICITY: Testis, liver, kidney, brain and adrenal gland.
+CC   -!- SIMILARITY: Belongs to the FPP/GGPP synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M34477; AAA41143.1; -; mRNA.
+DR   EMBL; M17300; AAA40960.1; ALT_SEQ; mRNA.
+DR   EMBL; BC059125; AAH59125.1; -; mRNA.
+DR   PIR; A34713; A34713.
+DR   PIR; B34713; B34713.
+DR   RefSeq; NP_114028.1; NM_031840.1.
+DR   AlphaFoldDB; P05369; -.
+DR   SMR; P05369; -.
+DR   BioGRID; 249834; 1.
+DR   IntAct; P05369; 1.
+DR   STRING; 10116.ENSRNOP00000031191; -.
+DR   BindingDB; P05369; -.
+DR   ChEMBL; CHEMBL1075093; -.
+DR   DrugCentral; P05369; -.
+DR   GuidetoPHARMACOLOGY; 644; -.
+DR   iPTMnet; P05369; -.
+DR   PhosphoSitePlus; P05369; -.
+DR   jPOST; P05369; -.
+DR   GeneID; 83791; -.
+DR   KEGG; rno:83791; -.
+DR   UCSC; RGD:68953; rat.
+DR   AGR; RGD:68953; -.
+DR   CTD; 2224; -.
+DR   RGD; 68953; Fdps.
+DR   InParanoid; P05369; -.
+DR   OrthoDB; 509027at2759; -.
+DR   PhylomeDB; P05369; -.
+DR   Reactome; R-RNO-191273; Cholesterol biosynthesis.
+DR   SABIO-RK; P05369; -.
+DR   UniPathway; UPA00259; UER00368.
+DR   UniPathway; UPA00260; UER00369.
+DR   PRO; PR:P05369; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005759; C:mitochondrial matrix; IDA:RGD.
+DR   GO; GO:0005777; C:peroxisome; IDA:UniProtKB.
+DR   GO; GO:0004161; F:dimethylallyltranstransferase activity; IBA:GO_Central.
+DR   GO; GO:0004337; F:geranyltranstransferase activity; IDA:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0071398; P:cellular response to fatty acid; IEP:RGD.
+DR   GO; GO:0006695; P:cholesterol biosynthetic process; TAS:RGD.
+DR   GO; GO:0045337; P:farnesyl diphosphate biosynthetic process; IDA:RGD.
+DR   GO; GO:0033384; P:geranyl diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008584; P:male gonad development; IEP:RGD.
+DR   GO; GO:0061051; P:positive regulation of cell growth involved in cardiac muscle cell development; IMP:RGD.
+DR   GO; GO:0045542; P:positive regulation of cholesterol biosynthetic process; IMP:RGD.
+DR   GO; GO:0070723; P:response to cholesterol; IEP:RGD.
+DR   GO; GO:0043434; P:response to peptide hormone; IEP:RGD.
+DR   GO; GO:0033574; P:response to testosterone; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0007283; P:spermatogenesis; IEP:RGD.
+DR   CDD; cd00685; Trans_IPPS_HT; 1.
+DR   Gene3D; 1.10.600.10; Farnesyl Diphosphate Synthase; 1.
+DR   InterPro; IPR039702; FPS1-like.
+DR   InterPro; IPR008949; Isoprenoid_synthase_dom_sf.
+DR   InterPro; IPR000092; Polyprenyl_synt.
+DR   InterPro; IPR033749; Polyprenyl_synt_CS.
+DR   PANTHER; PTHR11525:SF0; FARNESYL PYROPHOSPHATE SYNTHASE; 1.
+DR   PANTHER; PTHR11525; FARNESYL-PYROPHOSPHATE SYNTHETASE; 1.
+DR   Pfam; PF00348; polyprenyl_synt; 1.
+DR   SFLD; SFLDS00005; Isoprenoid_Synthase_Type_I; 1.
+DR   SFLD; SFLDG01017; Polyprenyl_Transferase_Like; 1.
+DR   SUPFAM; SSF48576; Terpenoid synthases; 1.
+DR   PROSITE; PS00723; POLYPRENYL_SYNTHASE_1; 1.
+DR   PROSITE; PS00444; POLYPRENYL_SYNTHASE_2; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Cholesterol biosynthesis; Cholesterol metabolism; Cytoplasm;
+KW   Hydroxylation; Isoprene biosynthesis; Lipid biosynthesis; Lipid metabolism;
+KW   Magnesium; Metal-binding; Reference proteome; Steroid biosynthesis;
+KW   Steroid metabolism; Sterol biosynthesis; Sterol metabolism; Transferase.
+FT   CHAIN           1..353
+FT                   /note="Farnesyl pyrophosphate synthase"
+FT                   /id="PRO_0000123946"
+FT   BINDING         57
+FT                   /ligand="isopentenyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128769"
+FT                   /evidence="ECO:0000250|UniProtKB:P14324"
+FT   BINDING         60
+FT                   /ligand="isopentenyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128769"
+FT                   /evidence="ECO:0000250|UniProtKB:P14324"
+FT   BINDING         96
+FT                   /ligand="isopentenyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128769"
+FT                   /evidence="ECO:0000250|UniProtKB:P14324"
+FT   BINDING         103
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P14324"
+FT   BINDING         103
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P14324"
+FT   BINDING         107
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P14324"
+FT   BINDING         107
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P14324"
+FT   BINDING         112
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         113
+FT                   /ligand="isopentenyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128769"
+FT                   /evidence="ECO:0000250|UniProtKB:P14324"
+FT   BINDING         200
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         201
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         240
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         257
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         266
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000250"
+FT   SITE            98
+FT                   /note="Important for determining product chain length"
+FT                   /evidence="ECO:0000250"
+FT   SITE            99
+FT                   /note="Important for determining product chain length"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         57
+FT                   /note="N6-(2-hydroxyisobutyryl)lysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P14324"
+FT   MOD_RES         57
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P14324"
+FT   VARIANT         110
+FT                   /note="Y -> H"
+FT                   /evidence="ECO:0000269|PubMed:15489334"
+SQ   SEQUENCE   353 AA;  40830 MW;  27FD7E0DD6FEA001 CRC64;
+     MNGDQKLDVH NQEKQNFIQH FSQIVKVLTE DELGHPEKGD AITRIKEVLE YNTVGGKYNR
+     GLTVVQTFQE LVEPRKQDAE SLQRALTVGW CVELLQAFFL VLDDIMDSSY TRRGQICWYQ
+     KPGIGLDAIN DALLLEAAIY RLLKFYCREQ PYYLNLLELF LQSSYQTEIG QTLDLITAPQ
+     GQVDLGRYTE KRYKSIVKYK TAFYSFYLPI AAAMYMAGID GEKEHANALK ILLEMGEFFQ
+     IQDDYLDLFG DPSVTGKVGT DIQDNKCSWL VVQCLLRATP QQRQILEENY GQKDPEKVAR
+     VKALYEELDL RSVFFKYEED SYNRLKSLIE QCSAPLPPSI FLELANKIYK RRK
+//

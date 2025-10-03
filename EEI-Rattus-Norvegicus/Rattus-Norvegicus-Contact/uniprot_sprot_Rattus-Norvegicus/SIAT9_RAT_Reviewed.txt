@@ -1,0 +1,166 @@
+ID   SIAT9_RAT               Reviewed;         387 AA.
+AC   Q68G12; O88830;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   24-JUL-2024, entry version 121.
+DE   RecName: Full=Lactosylceramide alpha-2,3-sialyltransferase;
+DE            EC=2.4.3.9 {ECO:0000250|UniProtKB:Q9UNP4};
+DE   AltName: Full=CMP-NeuAc:lactosylceramide alpha-2,3-sialyltransferase;
+DE   AltName: Full=Ganglioside GM3 synthase;
+DE   AltName: Full=ST3Gal V;
+DE            Short=ST3GalV;
+DE   AltName: Full=Sialyltransferase 9;
+GN   Name=St3gal5; Synonyms=Siat9;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RA   Ishii A., Saito M.;
+RT   "Rat GM3 synthase cDNA.";
+RL   Submitted (SEP-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Transfers the sialyl group (N-acetyl-alpha-neuraminyl or
+CC       NeuAc) from CMP-NeuAc to the non-reducing terminal galactose (Gal) of
+CC       glycosphingolipids forming gangliosides (important molecules involved
+CC       in the regulation of multiple cellular processes, including cell
+CC       proliferation and differentiation, apoptosis, embryogenesis,
+CC       development, and oncogenesis). Mainly involved in the biosynthesis of
+CC       ganglioside GM3 but can also use different glycolipids as substrate
+CC       acceptors such as D-galactosylceramide (GalCer), asialo-GM2 (GA2) and
+CC       asialo-GM1 (GA1), although less preferentially than beta-D-Gal-(1->4)-
+CC       beta-D-Glc-(1<->1)-Cer (LacCer). {ECO:0000250|UniProtKB:Q9UNP4}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-D-Gal-(1->4)-beta-D-Glc-(1<->1)-Cer(d18:1(4E)) + CMP-N-
+CC         acetyl-beta-neuraminate = a ganglioside GM3 (d18:1(4E)) + CMP + H(+);
+CC         Xref=Rhea:RHEA:18417, ChEBI:CHEBI:15378, ChEBI:CHEBI:17950,
+CC         ChEBI:CHEBI:57812, ChEBI:CHEBI:60065, ChEBI:CHEBI:60377; EC=2.4.3.9;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:18418;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CMP-N-acetyl-beta-neuraminate + ganglioside GA2
+CC         (d18:1(4E)/18:0) = CMP + ganglioside GM2 (d18:1(4E)/18:0) + H(+);
+CC         Xref=Rhea:RHEA:41776, ChEBI:CHEBI:15378, ChEBI:CHEBI:57812,
+CC         ChEBI:CHEBI:60377, ChEBI:CHEBI:78485, ChEBI:CHEBI:78486;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41777;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=beta-D-Gal-(1<->1')-Cer + CMP-N-acetyl-beta-neuraminate = CMP
+CC         + H(+) + N-acetyl-alpha-neuraminosyl-(2->3)-beta-D-galactosyl-
+CC         (1<->1')-ceramide; Xref=Rhea:RHEA:41780, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57812, ChEBI:CHEBI:60377, ChEBI:CHEBI:82643,
+CC         ChEBI:CHEBI:143593; Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41781;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CMP-N-acetyl-beta-neuraminate + ganglioside GA1
+CC         (d18:1(4E)/18:0) = CMP + ganglioside GM1 (d18:1(4E)/18:0) + H(+);
+CC         Xref=Rhea:RHEA:41784, ChEBI:CHEBI:15378, ChEBI:CHEBI:57812,
+CC         ChEBI:CHEBI:60377, ChEBI:CHEBI:73110, ChEBI:CHEBI:78484;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41785;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane {ECO:0000305}; Single-
+CC       pass type II membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 29 family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA33492.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB018049; BAA33492.1; ALT_INIT; mRNA.
+DR   EMBL; BC078798; AAH78798.1; -; mRNA.
+DR   RefSeq; NP_112627.2; NM_031337.2.
+DR   RefSeq; XP_006236739.1; XM_006236677.1.
+DR   RefSeq; XP_006236741.1; XM_006236679.3.
+DR   RefSeq; XP_008761218.1; XM_008762996.1.
+DR   AlphaFoldDB; Q68G12; -.
+DR   SMR; Q68G12; -.
+DR   STRING; 10116.ENSRNOP00000042426; -.
+DR   CAZy; GT29; Glycosyltransferase Family 29.
+DR   GlyCosmos; Q68G12; 2 sites, No reported glycans.
+DR   GlyGen; Q68G12; 2 sites.
+DR   PhosphoSitePlus; Q68G12; -.
+DR   PaxDb; 10116-ENSRNOP00000042426; -.
+DR   Ensembl; ENSRNOT00000050249.3; ENSRNOP00000042426.1; ENSRNOG00000010284.7.
+DR   Ensembl; ENSRNOT00055034826; ENSRNOP00055028243; ENSRNOG00055020371.
+DR   Ensembl; ENSRNOT00060025288; ENSRNOP00060020148; ENSRNOG00060014774.
+DR   Ensembl; ENSRNOT00065007736; ENSRNOP00065005369; ENSRNOG00065005253.
+DR   GeneID; 83505; -.
+DR   KEGG; rno:83505; -.
+DR   UCSC; RGD:620875; rat.
+DR   AGR; RGD:620875; -.
+DR   CTD; 8869; -.
+DR   RGD; 620875; St3gal5.
+DR   eggNOG; KOG2692; Eukaryota.
+DR   GeneTree; ENSGT00940000157929; -.
+DR   InParanoid; Q68G12; -.
+DR   OMA; TPLHWVD; -.
+DR   OrthoDB; 5404317at2759; -.
+DR   PhylomeDB; Q68G12; -.
+DR   Reactome; R-RNO-4085001; Sialic acid metabolism.
+DR   Reactome; R-RNO-9840309; Glycosphingolipid biosynthesis.
+DR   PRO; PR:Q68G12; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000010284; Expressed in heart and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q68G12; baseline and differential.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0047291; F:lactosylceramide alpha-2,3-sialyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0006629; P:lipid metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006486; P:protein glycosylation; IBA:GO_Central.
+DR   Gene3D; 3.90.1480.20; Glycosyl transferase family 29; 1.
+DR   InterPro; IPR001675; Glyco_trans_29.
+DR   InterPro; IPR051142; Glycosyltransferase_29.
+DR   InterPro; IPR038578; GT29-like_sf.
+DR   InterPro; IPR012163; Sialyl_trans.
+DR   PANTHER; PTHR13713:SF60; LACTOSYLCERAMIDE ALPHA-2,3-SIALYLTRANSFERASE; 1.
+DR   PANTHER; PTHR13713; SIALYLTRANSFERASE; 1.
+DR   Pfam; PF00777; Glyco_transf_29; 1.
+DR   PIRSF; PIRSF005557; Sialyl_trans; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Glycosyltransferase; Golgi apparatus;
+KW   Lipid metabolism; Membrane; Reference proteome; Signal-anchor; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..387
+FT                   /note="Lactosylceramide alpha-2,3-sialyltransferase"
+FT                   /id="PRO_0000334618"
+FT   TOPO_DOM        1..33
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        34..54
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        55..387
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        58
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        208
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        167..325
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   387 AA;  44640 MW;  BF53342B7E8C06EA CRC64;
+     MPNEFTSAKL RSDCSRTSLQ WYTQTQHKMR RPSLLLKDIL KCMLVVFGVW LLYILKLNYT
+     AEECDMKKLN YVDPARIKRA HRNTQEVFQK ECRPGHAKKT MDLLFKGKYS MDLEPFVQKI
+     PTASEAELKY DPPFGFRKFS SKVQSLLDML PEHDFPEHLR AKHCKRCVVI GNGGILHGLE
+     LGHALNQFDV VIRLNSAPIE GYSEHVGNKT TIRMTYPEGA PLSDAEYYAN DLFVAVLFKS
+     VDFKWLQAMV KNESLPFWIR LFFWKQVAEK IPLQPKHFRI LNPVIIKETA FDILQYSEPQ
+     SRFWGHDKNI PTIGIIAIVL ATHLCDEVSL AGFGYDLSQP RTPLHYFDSQ CMGAMNWQVM
+     HNVTTETQFL QKLIKEGVVQ DLSGGIH
+//

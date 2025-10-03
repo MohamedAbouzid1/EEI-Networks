@@ -1,0 +1,165 @@
+ID   COQ6_RAT                Reviewed;         476 AA.
+AC   Q68FU7;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   02-OCT-2024, entry version 123.
+DE   RecName: Full=Ubiquinone biosynthesis monooxygenase COQ6, mitochondrial {ECO:0000255|HAMAP-Rule:MF_03193};
+DE            EC=1.14.13.- {ECO:0000255|HAMAP-Rule:MF_03193};
+DE   AltName: Full=Coenzyme Q10 monooxygenase 6 {ECO:0000255|HAMAP-Rule:MF_03193};
+DE   Flags: Precursor;
+GN   Name=Coq6 {ECO:0000255|HAMAP-Rule:MF_03193};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=21540551; DOI=10.1172/jci45693;
+RA   Heeringa S.F., Chernin G., Chaki M., Zhou W., Sloan A.J., Ji Z., Xie L.X.,
+RA   Salviati L., Hurd T.W., Vega-Warner V., Killen P.D., Raphael Y., Ashraf S.,
+RA   Ovunc B., Schoeb D.S., McLaughlin H.M., Airik R., Vlangos C.N.,
+RA   Gbadegesin R., Hinkes B., Saisawat P., Trevisson E., Doimo M., Casarin A.,
+RA   Pertegato V., Giorgi G., Prokisch H., Rotig A., Nurnberg G., Becker C.,
+RA   Wang S., Ozaltin F., Topaloglu R., Bakkaloglu A., Bakkaloglu S.A.,
+RA   Muller D., Beissert A., Mir S., Berdeli A., Varpizen S., Zenker M.,
+RA   Matejas V., Santos-Ocana C., Navas P., Kusakabe T., Kispert A., Akman S.,
+RA   Soliman N.A., Krick S., Mundel P., Reiser J., Nurnberg P., Clarke C.F.,
+RA   Wiggins R.C., Faul C., Hildebrandt F.;
+RT   "COQ6 mutations in human patients produce nephrotic syndrome with
+RT   sensorineural deafness.";
+RL   J. Clin. Invest. 121:2013-2024(2011).
+CC   -!- FUNCTION: FAD-dependent monooxygenase required for the C5-ring
+CC       hydroxylation during ubiquinone biosynthesis. Catalyzes the
+CC       hydroxylation of 3-polyprenyl-4-hydroxybenzoic acid to 3-polyprenyl-
+CC       4,5-dihydroxybenzoic acid. The electrons required for the hydroxylation
+CC       reaction may be funneled indirectly from NADPH via a
+CC       ferredoxin/ferredoxin reductase system to COQ6. {ECO:0000255|HAMAP-
+CC       Rule:MF_03193}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-hydroxy-3-all-trans-hexaprenylbenzoate + 2 H(+) + O2 + 2
+CC         reduced [2Fe-2S]-[ferredoxin] = 3,4-dihydroxy-5-all-trans-
+CC         hexaprenylbenzoate + H2O + 2 oxidized [2Fe-2S]-[ferredoxin];
+CC         Xref=Rhea:RHEA:20361, Rhea:RHEA-COMP:10000, Rhea:RHEA-COMP:10001,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:33737, ChEBI:CHEBI:33738, ChEBI:CHEBI:58373,
+CC         ChEBI:CHEBI:84492; Evidence={ECO:0000255|HAMAP-Rule:MF_03193};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03193};
+CC   -!- PATHWAY: Cofactor biosynthesis; ubiquinone biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_03193}.
+CC   -!- SUBUNIT: Component of a multi-subunit COQ enzyme complex, composed of
+CC       at least COQ3, COQ4, COQ5, COQ6, COQ7 and COQ9. Interacts with COQ8B
+CC       and COQ7. {ECO:0000255|HAMAP-Rule:MF_03193}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_03193}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_03193}; Matrix side {ECO:0000255|HAMAP-Rule:MF_03193}. Golgi
+CC       apparatus {ECO:0000255|HAMAP-Rule:MF_03193,
+CC       ECO:0000269|PubMed:21540551}. Cell projection {ECO:0000255|HAMAP-
+CC       Rule:MF_03193, ECO:0000269|PubMed:21540551}. Note=Localizes to cell
+CC       processes and Golgi apparatus in podocytes. {ECO:0000255|HAMAP-
+CC       Rule:MF_03193, ECO:0000269|PubMed:21540551}.
+CC   -!- TISSUE SPECIFICITY: In the kidney, expressed almost exclusively in
+CC       glomerular podocytes. In the inner ear, expressed in the spiral
+CC       ganglion, as well as in stria vascularis and spiral ligament cells.
+CC       {ECO:0000269|PubMed:21540551}.
+CC   -!- SIMILARITY: Belongs to the UbiH/COQ6 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_03193}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH473982; EDL81500.1; -; Genomic_DNA.
+DR   EMBL; BC079342; AAH79342.1; -; mRNA.
+DR   RefSeq; NP_001011983.1; NM_001011983.1.
+DR   AlphaFoldDB; Q68FU7; -.
+DR   SMR; Q68FU7; -.
+DR   STRING; 10116.ENSRNOP00000014914; -.
+DR   PhosphoSitePlus; Q68FU7; -.
+DR   PaxDb; 10116-ENSRNOP00000014914; -.
+DR   Ensembl; ENSRNOT00000014913.7; ENSRNOP00000014914.5; ENSRNOG00000011164.7.
+DR   Ensembl; ENSRNOT00055044829; ENSRNOP00055036730; ENSRNOG00055025973.
+DR   Ensembl; ENSRNOT00060042866; ENSRNOP00060035501; ENSRNOG00060024764.
+DR   Ensembl; ENSRNOT00065047493; ENSRNOP00065038970; ENSRNOG00065027538.
+DR   GeneID; 299195; -.
+DR   KEGG; rno:299195; -.
+DR   UCSC; RGD:1311149; rat.
+DR   AGR; RGD:1311149; -.
+DR   CTD; 51004; -.
+DR   RGD; 1311149; Coq6.
+DR   eggNOG; KOG3855; Eukaryota.
+DR   GeneTree; ENSGT00390000015152; -.
+DR   HOGENOM; CLU_009665_8_0_1; -.
+DR   InParanoid; Q68FU7; -.
+DR   OMA; VKQMQVW; -.
+DR   OrthoDB; 5473786at2759; -.
+DR   PhylomeDB; Q68FU7; -.
+DR   TreeFam; TF105772; -.
+DR   Reactome; R-RNO-2142789; Ubiquinol biosynthesis.
+DR   UniPathway; UPA00232; -.
+DR   PRO; PR:Q68FU7; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Proteomes; UP000234681; Chromosome 6.
+DR   Bgee; ENSRNOG00000011164; Expressed in heart and 20 other cell types or tissues.
+DR   GO; GO:0042995; C:cell projection; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031314; C:extrinsic component of mitochondrial inner membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0110142; C:ubiquinone biosynthesis complex; ISO:RGD.
+DR   GO; GO:0008681; F:2-octaprenyl-6-methoxyphenol hydroxylase activity; IEA:InterPro.
+DR   GO; GO:0106364; F:4-hydroxy-3-all-trans-hexaprenylbenzoate oxygenase activity; IEA:RHEA.
+DR   GO; GO:0071949; F:FAD binding; IEA:InterPro.
+DR   GO; GO:0016491; F:oxidoreductase activity; IBA:GO_Central.
+DR   GO; GO:0016712; F:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006744; P:ubiquinone biosynthetic process; IBA:GO_Central.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   HAMAP; MF_03193; COQ6_monooxygenase; 1.
+DR   InterPro; IPR002938; FAD-bd.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR018168; Ubi_Hdrlase_CS.
+DR   InterPro; IPR010971; UbiH/COQ6.
+DR   InterPro; IPR051205; UbiH/COQ6_monooxygenase.
+DR   InterPro; IPR000689; UbQ_mOase_COQ6.
+DR   NCBIfam; TIGR01989; COQ6; 1.
+DR   NCBIfam; TIGR01988; Ubi-OHases; 1.
+DR   PANTHER; PTHR43876; UBIQUINONE BIOSYNTHESIS MONOOXYGENASE COQ6, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43876:SF7; UBIQUINONE BIOSYNTHESIS MONOOXYGENASE COQ6, MITOCHONDRIAL; 1.
+DR   Pfam; PF01494; FAD_binding_3; 2.
+DR   PRINTS; PR00420; RNGMNOXGNASE.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   PROSITE; PS01304; UBIH; 1.
+PE   2: Evidence at transcript level;
+KW   Cell projection; FAD; Flavoprotein; Golgi apparatus; Membrane;
+KW   Mitochondrion; Mitochondrion inner membrane; Monooxygenase; Oxidoreductase;
+KW   Reference proteome; Transit peptide; Ubiquinone biosynthesis.
+FT   TRANSIT         1..42
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03193"
+FT   CHAIN           43..476
+FT                   /note="Ubiquinone biosynthesis monooxygenase COQ6,
+FT                   mitochondrial"
+FT                   /id="PRO_0000418621"
+SQ   SEQUENCE   476 AA;  51496 MW;  CD4D2BC7D7C03880 CRC64;
+     MAARIGPMAG LLCVRWWSTA QLAARGGPLV ACRRWTSSST DSVYDVVVSG GGMVGSAMAC
+     ALGHDIHFHD KKILLLEAGP KKTLEKLSET YSNRVSSISL GSTTLLSSFG AWDHICNMRC
+     KAFRRMQVWD SCSEALIMFD KDNLDDMGYI VENDVIMHAI TKQLEAVADR VKVLYESKAV
+     GYAWPGPFSL ADSSPWVHIT LGDGSTLQTK LLIGADGHNS GVRQAAGIQN VGWNYDQSAV
+     VATLHLSEAT ENNVAWQRFL PSGPIALLPL SDTLSSLVWS TSHAHAAELV SMHEEEFVDA
+     INSAFWSDVH HTDFVDSASA MVHHAVALLK PTKVSARQLP PSVAKVDAKS RALFPLGLGH
+     AAEYVRPRVA LIGDAAHRVH PLAGQGVNMG FGDISSLIHY LSTAAFNGKD LGSMSHLTGY
+     ETDRQRHNTA LLAATDLLKR LYSTSTTPLV LLRTWGLQAT NAVSPLKEQI MAFASR
+//

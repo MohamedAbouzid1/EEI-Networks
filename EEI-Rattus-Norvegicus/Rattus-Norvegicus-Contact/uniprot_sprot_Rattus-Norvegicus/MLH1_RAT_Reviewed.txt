@@ -1,0 +1,212 @@
+ID   MLH1_RAT                Reviewed;         757 AA.
+AC   P97679;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   24-JAN-2024, entry version 145.
+DE   RecName: Full=DNA mismatch repair protein Mlh1;
+DE   AltName: Full=MutL protein homolog 1;
+GN   Name=Mlh1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar;
+RA   Vani G.R., Rao M.R.S.;
+RT   "Cloning and sequencing of rat mismatch repair gene MLH1.";
+RL   Submitted (NOV-1996) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Heterodimerizes with Pms2 to form MutL alpha, a component of
+CC       the post-replicative DNA mismatch repair system (MMR). DNA repair is
+CC       initiated by MutS alpha (Msh2-Msh6) or MutS beta (MSH2-MSH3) binding to
+CC       a dsDNA mismatch, then MutL alpha is recruited to the heteroduplex.
+CC       Assembly of the MutL-MutS-heteroduplex ternary complex in presence of
+CC       RFC and PCNA is sufficient to activate endonuclease activity of Pms2.
+CC       It introduces single-strand breaks near the mismatch and thus generates
+CC       new entry points for the exonuclease EXO1 to degrade the strand
+CC       containing the mismatch. DNA methylation would prevent cleavage and
+CC       therefore assure that only the newly mutated DNA strand is going to be
+CC       corrected. MutL alpha (Mlh1-Pms2) interacts physically with the clamp
+CC       loader subunits of DNA polymerase III, suggesting that it may play a
+CC       role to recruit the DNA polymerase III to the site of the MMR. Also
+CC       implicated in DNA damage signaling, a process which induces cell cycle
+CC       arrest and can lead to apoptosis in case of major DNA damages.
+CC       Heterodimerizes with Mlh3 to form MutL gamma which plays a role in
+CC       meiosis (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Component of the DNA mismatch repair (MMR) complex composed at
+CC       least of MSH2, MSH3, MSH6, PMS1 and MLH1. Heterodimer of MLH1 and PMS2
+CC       (MutL alpha), MLH1 and PMS1 (MutL beta) or MLH1 and MLH3 (MutL gamma).
+CC       Forms a ternary complex with MutS alpha (MSH2-MSH6) or MutS beta (MSH2-
+CC       MSH3). Part of the BRCA1-associated genome surveillance complex (BASC),
+CC       which contains BRCA1, MSH2, MSH6, MLH1, ATM, BLM, PMS2 and the RAD50-
+CC       MRE11-NBS1 protein complex. This association could be a dynamic process
+CC       changing throughout the cell cycle and within subnuclear domains.
+CC       Interacts with MCM9; the interaction recruits MLH1 to chromatin.
+CC       Interacts with MCM8. Interacts with PMS2. Interacts with MBD4.
+CC       Interacts with EXO1. Interacts with MTMR15/FAN1.
+CC       {ECO:0000250|UniProtKB:P40692}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:P40692}.
+CC       Chromosome {ECO:0000250|UniProtKB:P40692}. Note=Recruited to chromatin
+CC       in a MCM9-dependent manner. {ECO:0000250|UniProtKB:P40692}.
+CC   -!- SIMILARITY: Belongs to the DNA mismatch repair MutL/HexB family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U80054; AAB38506.1; -; mRNA.
+DR   RefSeq; NP_112315.1; NM_031053.1.
+DR   AlphaFoldDB; P97679; -.
+DR   SMR; P97679; -.
+DR   STRING; 10116.ENSRNOP00000072285; -.
+DR   PhosphoSitePlus; P97679; -.
+DR   PaxDb; 10116-ENSRNOP00000061834; -.
+DR   GeneID; 81685; -.
+DR   KEGG; rno:81685; -.
+DR   UCSC; RGD:620937; rat.
+DR   AGR; RGD:620937; -.
+DR   CTD; 4292; -.
+DR   RGD; 620937; Mlh1.
+DR   eggNOG; KOG1979; Eukaryota.
+DR   InParanoid; P97679; -.
+DR   OrthoDB; 5475669at2759; -.
+DR   Reactome; R-RNO-5358565; Mismatch repair (MMR) directed by MSH2:MSH6 (MutSalpha).
+DR   PRO; PR:P97679; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005712; C:chiasma; ISO:RGD.
+DR   GO; GO:0005694; C:chromosome; ISO:RGD.
+DR   GO; GO:0000793; C:condensed chromosome; ISO:RGD.
+DR   GO; GO:0000794; C:condensed nuclear chromosome; ISO:RGD.
+DR   GO; GO:0005715; C:late recombination nodule; ISO:RGD.
+DR   GO; GO:0001673; C:male germ cell nucleus; ISO:RGD.
+DR   GO; GO:0032389; C:MutLalpha complex; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0000795; C:synaptonemal complex; IDA:MGI.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IBA:GO_Central.
+DR   GO; GO:0140664; F:ATP-dependent DNA damage sensor activity; IEA:InterPro.
+DR   GO; GO:0003682; F:chromatin binding; ISO:RGD.
+DR   GO; GO:0019899; F:enzyme binding; ISO:RGD.
+DR   GO; GO:0032137; F:guanine/thymine mispair binding; ISO:RGD.
+DR   GO; GO:0071407; P:cellular response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:0006974; P:DNA damage response; ISO:RGD.
+DR   GO; GO:0006281; P:DNA repair; ISO:RGD.
+DR   GO; GO:0006303; P:double-strand break repair via nonhomologous end joining; ISO:RGD.
+DR   GO; GO:0016321; P:female meiosis chromosome segregation; ISO:RGD.
+DR   GO; GO:0007129; P:homologous chromosome pairing at meiosis; ISO:RGD.
+DR   GO; GO:0045143; P:homologous chromosome segregation; ISO:RGD.
+DR   GO; GO:0008630; P:intrinsic apoptotic signaling pathway in response to DNA damage; ISO:RGD.
+DR   GO; GO:0045190; P:isotype switching; ISO:RGD.
+DR   GO; GO:0007060; P:male meiosis chromosome segregation; ISO:RGD.
+DR   GO; GO:0007140; P:male meiotic nuclear division; ISO:RGD.
+DR   GO; GO:0051321; P:meiotic cell cycle; ISO:RGD.
+DR   GO; GO:0045132; P:meiotic chromosome segregation; ISO:RGD.
+DR   GO; GO:0043060; P:meiotic metaphase I homologous chromosome alignment; ISO:RGD.
+DR   GO; GO:0051257; P:meiotic spindle midzone assembly; ISO:RGD.
+DR   GO; GO:0045141; P:meiotic telomere clustering; ISO:RGD.
+DR   GO; GO:0006298; P:mismatch repair; ISO:RGD.
+DR   GO; GO:0045950; P:negative regulation of mitotic recombination; ISO:RGD.
+DR   GO; GO:0000289; P:nuclear-transcribed mRNA poly(A) tail shortening; ISO:RGD.
+DR   GO; GO:0048477; P:oogenesis; ISO:RGD.
+DR   GO; GO:0048298; P:positive regulation of isotype switching to IgA isotypes; ISO:RGD.
+DR   GO; GO:0048304; P:positive regulation of isotype switching to IgG isotypes; ISO:RGD.
+DR   GO; GO:0007131; P:reciprocal meiotic recombination; ISO:RGD.
+DR   GO; GO:0000712; P:resolution of meiotic recombination intermediates; ISO:RGD.
+DR   GO; GO:0009617; P:response to bacterium; ISO:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0009636; P:response to toxic substance; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0016446; P:somatic hypermutation of immunoglobulin genes; ISO:RGD.
+DR   GO; GO:0016447; P:somatic recombination of immunoglobulin gene segments; ISO:RGD.
+DR   GO; GO:0002204; P:somatic recombination of immunoglobulin genes involved in immune response; ISO:RGD.
+DR   GO; GO:0007283; P:spermatogenesis; IEP:RGD.
+DR   CDD; cd16926; HATPase_MutL-MLH-PMS-like; 1.
+DR   CDD; cd03483; MutL_Trans_MLH1; 1.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.30.565.10; Histidine kinase-like ATPase, C-terminal domain; 1.
+DR   InterPro; IPR014762; DNA_mismatch_repair_CS.
+DR   InterPro; IPR013507; DNA_mismatch_S5_2-like.
+DR   InterPro; IPR036890; HATPase_C_sf.
+DR   InterPro; IPR032189; Mlh1_C.
+DR   InterPro; IPR002099; MutL/Mlh/PMS.
+DR   InterPro; IPR038973; MutL/Mlh/Pms-like.
+DR   InterPro; IPR020568; Ribosomal_Su5_D2-typ_SF.
+DR   InterPro; IPR014721; Ribsml_uS5_D2-typ_fold_subgr.
+DR   NCBIfam; TIGR00585; mutl; 1.
+DR   PANTHER; PTHR10073; DNA MISMATCH REPAIR PROTEIN MLH, PMS, MUTL; 1.
+DR   PANTHER; PTHR10073:SF12; DNA MISMATCH REPAIR PROTEIN MLH1; 1.
+DR   Pfam; PF01119; DNA_mis_repair; 1.
+DR   Pfam; PF13589; HATPase_c_3; 1.
+DR   Pfam; PF16413; Mlh1_C; 1.
+DR   SMART; SM01340; DNA_mis_repair; 1.
+DR   SUPFAM; SSF55874; ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase; 1.
+DR   SUPFAM; SSF54211; Ribosomal protein S5 domain 2-like; 1.
+DR   PROSITE; PS00058; DNA_MISMATCH_REPAIR_1; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; ATP-binding; Cell cycle; Chromosome; DNA damage; DNA repair;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P40692"
+FT   CHAIN           2..757
+FT                   /note="DNA mismatch repair protein Mlh1"
+FT                   /id="PRO_0000178002"
+FT   REGION          355..378
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          400..434
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          412..652
+FT                   /note="Interaction with EXO1"
+FT                   /evidence="ECO:0000250|UniProtKB:P40692"
+FT   REGION          456..487
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           473..476
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000250|UniProtKB:P40692"
+FT   COMPBIAS        361..377
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        470..487
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         38
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P40692"
+FT   BINDING         63
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P40692"
+FT   BINDING         82..84
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P40692"
+FT   BINDING         100..104
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P40692"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P40692"
+FT   MOD_RES         479
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P40692"
+SQ   SEQUENCE   757 AA;  84540 MW;  27E3A007D8BAB287 CRC64;
+     MSFVAGVIRR LDETVVNRIA AGEVIQRPAN AIKEMTENCL DAKSTNIQVI VREGGLKLIQ
+     IQDNGTGIRK EDLDIVCERF TTSKLQTFED LAMISTYGFR GEALASISHV AHVTITTKTA
+     DGKCAYRASY SDGKLQAPPK PCAGNQGTLI TVEDLFYNII TRKKALKNPS EEYGKILEVV
+     GRYSIHNSGI SFSVKKQGET VSDVRTLPNA TTVDNIRSIF GNAVSRELIE VGCEDKTLAF
+     KMNGYISNAN YSVKKCIFLL FINHRLVESA ALKKAIEAVY AAYLPKNTHP FLYLILEISP
+     QNVDVNVHPT KHEVHFLHEE SILERVQQHI ESKLLGSNSS RMYFTQTLLP GLAGPSGEAV
+     KSTTGIASSS TSGSGDKVHA YQMVRTDSRD QKLDAFMQPV SRRLPSQPQD PVPGNRTEGS
+     PEKAMQKDQE ISELPAPMEA AADSASLERE SVIGASEVVA PQRHPSSPGS SRKRHPEDSD
+     VEMMENDSRK EMTAACYPRR RIINLTSVLS LQEEINDRGH ETLREMLRNH TFVGCVNPQW
+     ALAQHQTKLY LLNTTKLSEE LFYQILIYDF ANFGVLRLPE PAPLFDFAML ALDSPESGWT
+     EEDGPKEGLA EYIVEFLKKK AKMLADYFSV EIDEEGNLIG LPLLIDSYVP PLEGLPIFIL
+     RLATEVNWDE EECFESLSKE CAVFYSIRKQ YILEESALSG QQSDMPGSPS KPWKWTVEHI
+     IYKAFRSHLL PPKHFTEDGN VLQLANLPDL CKVFERC
+//

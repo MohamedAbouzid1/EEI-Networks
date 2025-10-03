@@ -1,0 +1,4 @@
+cd /path/to/EGIO-main
+chmod 777 _RUN_egio.sh
+
+./_RUN_egio.sh -s hsa -S rno -r ../../data/ensembl_gtf/Homo_sapiens.GRCh38.114.gtf -R ../../data/ensembl_gtf/Rattus_norvegicus.mRatBN7.2.111.gtf -e ../../data/ensembl_cdna/Homo_sapiens.GRCh38.cdna.all.fa -E ../../data/ensembl_cdna/Rattus_norvegicus.mRatBN7.2.cdna.all.fa -o ../../data/ensembl_cds/Homo_sapiens.GRCh38.cds.all.fa -O ../../data/ensembl_cds/Rattus_norvegicus.mRatBN7.2.cds.all.fa -h orthologs_prep/homogene.txt -p 6 -i 0.6 -c 0.6 -m 2 -n -2 -g -1

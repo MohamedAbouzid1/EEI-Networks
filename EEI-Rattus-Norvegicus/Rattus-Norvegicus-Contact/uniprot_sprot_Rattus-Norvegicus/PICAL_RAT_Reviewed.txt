@@ -1,0 +1,321 @@
+ID   PICAL_RAT               Reviewed;         640 AA.
+AC   O55012; O55011;
+DT   01-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   02-OCT-2024, entry version 159.
+DE   RecName: Full=Phosphatidylinositol-binding clathrin assembly protein;
+DE   AltName: Full=Clathrin assembly lymphoid myeloid leukemia protein;
+DE            Short=rCALM;
+GN   Name=Picalm; Synonyms=Calm;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116 {ECO:0000312|EMBL:AAB97079.1};
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley {ECO:0000312|EMBL:AAB97079.1};
+RC   TISSUE=Brain {ECO:0000312|EMBL:AAB97079.1};
+RX   PubMed=10630373; DOI=10.1038/emm.1999.31;
+RA   Kim H.-L., Lee S.C.;
+RT   "Molecular cloning of clathrin assembly protein gene (rCALM) and its
+RT   differential expression to AP180 in rat brain.";
+RL   Exp. Mol. Med. 31:191-196(1999).
+RN   [2]
+RP   FUNCTION, AND INTERACTION WITH CLATHRIN.
+RX   PubMed=11190274; DOI=10.1038/emm.2000.36;
+RA   Kim H.L., Kim J.A.;
+RT   "Purification of clathrin assembly protein from rat liver.";
+RL   Exp. Mol. Med. 32:222-226(2000).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 19-281.
+RX   PubMed=11161218; DOI=10.1126/science.291.5506.1051;
+RA   Ford M.G., Pearse B.M., Higgins M.K., Vallis Y., Owen D.J., Gibson A.,
+RA   Hopkins C.R., Evans P.R., McMahon H.T.;
+RT   "Simultaneous binding of PtdIns(4,5)P2 and clathrin by AP180 in the
+RT   nucleation of clathrin lattices on membranes.";
+RL   Science 291:1051-1055(2001).
+CC   -!- FUNCTION: Cytoplasmic adapter protein that plays a critical role in
+CC       clathrin-mediated endocytosis which is important in processes such as
+CC       internalization of cell receptors, synaptic transmission or removal of
+CC       apoptotic cells. Recruits AP-2 and attaches clathrin triskelions to the
+CC       cytoplasmic side of plasma membrane leading to clathrin-coated vesicles
+CC       (CCVs) assembly. Furthermore, regulates clathrin-coated vesicle size
+CC       and maturation by directly sensing and driving membrane curvature. In
+CC       addition to binding to clathrin, mediates the endocytosis of small R-
+CC       SNARES (Soluble NSF Attachment Protein REceptors) between plasma
+CC       membranes and endosomes including VAMP2, VAMP3, VAMP4, VAMP7 or VAMP8.
+CC       In turn, PICALM-dependent SNARE endocytosis is required for the
+CC       formation and maturation of autophagic precursors. Modulates thereby
+CC       autophagy and the turnover of autophagy substrates such as MAPT/TAU or
+CC       amyloid precursor protein cleaved C-terminal fragment (APP-CTF).
+CC       {ECO:0000250|UniProtKB:Q13492, ECO:0000269|PubMed:11190274}.
+CC   -!- SUBUNIT: Binds to clathrin; involves primarily the C-terminal
+CC       sequences, but the full-length protein is required for full binding
+CC       capacity. Binds phosphatidylinositol 4,5- bisphosphate. Interacts with
+CC       PIMREG; this interaction may change the subcellular location into the
+CC       nucleus. Interacts with AP2A1 (via its alpha-appendage domain).
+CC       Interacts (via N-terminus) with VAMP2; VAMP3; VAMP7 and VAMP8 (Via N-
+CC       terminus). Interacts with LC3/MAP1LC3A. {ECO:0000250|UniProtKB:Q13492,
+CC       ECO:0000269|PubMed:11190274}.
+CC   -!- INTERACTION:
+CC       O55012; O55012: Picalm; NbExp=3; IntAct=EBI-915601, EBI-915601;
+CC       O55012; P63027: VAMP2; Xeno; NbExp=2; IntAct=EBI-915601, EBI-520113;
+CC       O55012; Q15836: VAMP3; Xeno; NbExp=2; IntAct=EBI-915601, EBI-722343;
+CC       O55012; O70404: Vamp8; Xeno; NbExp=4; IntAct=EBI-915601, EBI-1812572;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q13492}.
+CC       Membrane, clathrin-coated pit {ECO:0000250|UniProtKB:Q13492}. Golgi
+CC       apparatus {ECO:0000250|UniProtKB:Q13492}. Cytoplasmic vesicle,
+CC       clathrin-coated vesicle {ECO:0000250|UniProtKB:Q13492}. Nucleus
+CC       {ECO:0000250|UniProtKB:Q13492}. Note=Colocalized with clathrin in the
+CC       Golgi area. Interaction with PIMREG may target PICALM to the nucleus in
+CC       some cells. {ECO:0000250|UniProtKB:Q13492}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1 {ECO:0000269|PubMed:10630373}; Synonyms=Long
+CC       {ECO:0000269|PubMed:10630373};
+CC         IsoId=O55012-1; Sequence=Displayed;
+CC       Name=2 {ECO:0000269|PubMed:10630373}; Synonyms=Short
+CC       {ECO:0000269|PubMed:10630373};
+CC         IsoId=O55012-2; Sequence=VSP_050687;
+CC   -!- TISSUE SPECIFICITY: Isoform 2 was found in most tissues examined.
+CC       Isoform 1 has an overlapping expression pattern but is absent from
+CC       lung, heart and pancreas. Both isoforms are widely expressed in the
+CC       brain, higher levels are seen in hippocampus, dentate gyrus, medial
+CC       habenula nucleus and cerebellar granule cells.
+CC       {ECO:0000269|PubMed:10630373}.
+CC   -!- SIMILARITY: Belongs to the PICALM/SNAP91 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF041373; AAB97078.1; -; mRNA.
+DR   EMBL; AF041374; AAB97079.1; -; mRNA.
+DR   RefSeq; NP_446006.1; NM_053554.2. [O55012-1]
+DR   PDB; 1HF8; X-ray; 2.00 A; A=1-289.
+DR   PDB; 1HFA; X-ray; 2.00 A; A=1-289.
+DR   PDB; 1HG2; X-ray; 2.00 A; A=1-289.
+DR   PDB; 1HG5; X-ray; 2.00 A; A=1-289.
+DR   PDB; 3ZYK; X-ray; 1.80 A; A/B=1-289.
+DR   PDB; 3ZYL; X-ray; 1.70 A; A/B=1-264.
+DR   PDB; 3ZYM; X-ray; 2.03 A; A/B/C=1-264.
+DR   PDB; 7JXV; X-ray; 2.35 A; A=1-281.
+DR   PDBsum; 1HF8; -.
+DR   PDBsum; 1HFA; -.
+DR   PDBsum; 1HG2; -.
+DR   PDBsum; 1HG5; -.
+DR   PDBsum; 3ZYK; -.
+DR   PDBsum; 3ZYL; -.
+DR   PDBsum; 3ZYM; -.
+DR   PDBsum; 7JXV; -.
+DR   AlphaFoldDB; O55012; -.
+DR   SMR; O55012; -.
+DR   BioGRID; 250139; 2.
+DR   ELM; O55012; -.
+DR   IntAct; O55012; 4.
+DR   STRING; 10116.ENSRNOP00000076067; -.
+DR   GlyGen; O55012; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; O55012; -.
+DR   PhosphoSitePlus; O55012; -.
+DR   jPOST; O55012; -.
+DR   PaxDb; 10116-ENSRNOP00000025415; -.
+DR   PeptideAtlas; O55012; -.
+DR   GeneID; 89816; -.
+DR   KEGG; rno:89816; -.
+DR   UCSC; RGD:621054; rat. [O55012-1]
+DR   AGR; RGD:621054; -.
+DR   CTD; 8301; -.
+DR   RGD; 621054; Picalm.
+DR   eggNOG; KOG0251; Eukaryota.
+DR   InParanoid; O55012; -.
+DR   OrthoDB; 3667239at2759; -.
+DR   PhylomeDB; O55012; -.
+DR   Reactome; R-RNO-432722; Golgi Associated Vesicle Biogenesis.
+DR   Reactome; R-RNO-8856825; Cargo recognition for clathrin-mediated endocytosis.
+DR   Reactome; R-RNO-8856828; Clathrin-mediated endocytosis.
+DR   Reactome; R-RNO-9696264; RND3 GTPase cycle.
+DR   EvolutionaryTrace; O55012; -.
+DR   PRO; PR:O55012; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0009986; C:cell surface; ISO:RGD.
+DR   GO; GO:0030132; C:clathrin coat of coated pit; ISO:RGD.
+DR   GO; GO:0005905; C:clathrin-coated pit; ISS:UniProtKB.
+DR   GO; GO:0030136; C:clathrin-coated vesicle; IDA:BHF-UCL.
+DR   GO; GO:0005769; C:early endosome; ISO:RGD.
+DR   GO; GO:0005768; C:endosome; IDA:BHF-UCL.
+DR   GO; GO:0070381; C:endosome to plasma membrane transport vesicle; ISO:RGD.
+DR   GO; GO:0098894; C:extrinsic component of presynaptic endocytic zone membrane; IDA:SynGO.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IMP:ARUK-UCL.
+DR   GO; GO:0097418; C:neurofibrillary tangle; ISS:Alzheimers_University_of_Toronto.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0098688; C:parallel fiber to Purkinje cell synapse; IDA:SynGO.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IDA:BHF-UCL.
+DR   GO; GO:0098794; C:postsynapse; IDA:SynGO.
+DR   GO; GO:0014069; C:postsynaptic density; IDA:BHF-UCL.
+DR   GO; GO:0098843; C:postsynaptic endocytic zone; IDA:SynGO.
+DR   GO; GO:0045211; C:postsynaptic membrane; IDA:BHF-UCL.
+DR   GO; GO:0042734; C:presynaptic membrane; IDA:BHF-UCL.
+DR   GO; GO:0098685; C:Schaffer collateral - CA1 synapse; IDA:SynGO.
+DR   GO; GO:0008021; C:synaptic vesicle; IDA:BHF-UCL.
+DR   GO; GO:0031982; C:vesicle; ISS:Alzheimers_University_of_Toronto.
+DR   GO; GO:0005545; F:1-phosphatidylinositol binding; IDA:UniProtKB.
+DR   GO; GO:0030276; F:clathrin binding; IDA:UniProtKB.
+DR   GO; GO:0032050; F:clathrin heavy chain binding; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0050750; F:low-density lipoprotein particle receptor binding; ISO:RGD.
+DR   GO; GO:0005546; F:phosphatidylinositol-4,5-bisphosphate binding; IMP:ARUK-UCL.
+DR   GO; GO:0017124; F:SH3 domain binding; IDA:RGD.
+DR   GO; GO:0031267; F:small GTPase binding; ISO:RGD.
+DR   GO; GO:0000149; F:SNARE binding; IPI:RGD.
+DR   GO; GO:0048156; F:tau protein binding; ISO:RGD.
+DR   GO; GO:0150093; P:amyloid-beta clearance by transcytosis; ISO:RGD.
+DR   GO; GO:0007409; P:axonogenesis; IMP:BHF-UCL.
+DR   GO; GO:0048268; P:clathrin coat assembly; IDA:RGD.
+DR   GO; GO:0072583; P:clathrin-dependent endocytosis; ISS:Alzheimers_University_of_Toronto.
+DR   GO; GO:0048813; P:dendrite morphogenesis; IMP:BHF-UCL.
+DR   GO; GO:0006897; P:endocytosis; ISO:RGD.
+DR   GO; GO:0016197; P:endosomal transport; ISO:RGD.
+DR   GO; GO:0030097; P:hemopoiesis; ISO:RGD.
+DR   GO; GO:0006879; P:intracellular iron ion homeostasis; ISO:RGD.
+DR   GO; GO:0007611; P:learning or memory; ISO:RGD.
+DR   GO; GO:0097753; P:membrane bending; ISO:RGD.
+DR   GO; GO:0060586; P:multicellular organismal-level iron ion homeostasis; ISS:Alzheimers_University_of_Toronto.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISS:Alzheimers_University_of_Toronto.
+DR   GO; GO:2000009; P:negative regulation of protein localization to cell surface; ISO:RGD.
+DR   GO; GO:1903077; P:negative regulation of protein localization to plasma membrane; ISO:RGD.
+DR   GO; GO:0048261; P:negative regulation of receptor-mediated endocytosis; ISO:RGD.
+DR   GO; GO:1902993; P:positive regulation of amyloid precursor protein catabolic process; ISS:Alzheimers_University_of_Toronto.
+DR   GO; GO:1902004; P:positive regulation of amyloid-beta formation; ISS:Alzheimers_University_of_Toronto.
+DR   GO; GO:0050772; P:positive regulation of axonogenesis; IMP:RGD.
+DR   GO; GO:1903861; P:positive regulation of dendrite extension; IMP:RGD.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0046579; P:positive regulation of Ras protein signal transduction; ISO:RGD.
+DR   GO; GO:2000809; P:positive regulation of synaptic vesicle clustering; IMP:RGD.
+DR   GO; GO:1900244; P:positive regulation of synaptic vesicle endocytosis; IMP:RGD.
+DR   GO; GO:0031623; P:receptor internalization; ISO:RGD.
+DR   GO; GO:0006898; P:receptor-mediated endocytosis; ISS:UniProtKB.
+DR   GO; GO:1902991; P:regulation of amyloid precursor protein catabolic process; ISS:Alzheimers_University_of_Toronto.
+DR   GO; GO:0030100; P:regulation of endocytosis; IMP:BHF-UCL.
+DR   GO; GO:0032880; P:regulation of protein localization; ISO:RGD.
+DR   GO; GO:0051223; P:regulation of protein transport; IMP:BHF-UCL.
+DR   GO; GO:1900242; P:regulation of synaptic vesicle endocytosis; IMP:RGD.
+DR   GO; GO:1902803; P:regulation of synaptic vesicle transport; IMP:RGD.
+DR   GO; GO:2000331; P:regulation of terminal button organization; IMP:RGD.
+DR   GO; GO:0097494; P:regulation of vesicle size; ISO:RGD.
+DR   GO; GO:0016185; P:synaptic vesicle budding from presynaptic endocytic zone membrane; IBA:GO_Central.
+DR   GO; GO:0048488; P:synaptic vesicle endocytosis; IDA:SynGO.
+DR   GO; GO:0016188; P:synaptic vesicle maturation; ISS:Alzheimers_University_of_Toronto.
+DR   GO; GO:0006900; P:vesicle budding from membrane; ISO:RGD.
+DR   GO; GO:0035459; P:vesicle cargo loading; ISS:Alzheimers_University_of_Toronto.
+DR   GO; GO:0016192; P:vesicle-mediated transport; IMP:BHF-UCL.
+DR   CDD; cd16985; ANTH_N_AP180; 1.
+DR   Gene3D; 1.25.40.90; -; 1.
+DR   Gene3D; 1.20.58.150; ANTH domain; 1.
+DR   InterPro; IPR011417; ANTH_dom.
+DR   InterPro; IPR014712; ANTH_dom_sf.
+DR   InterPro; IPR045192; AP180-like.
+DR   InterPro; IPR013809; ENTH.
+DR   InterPro; IPR008942; ENTH_VHS.
+DR   PANTHER; PTHR22951; CLATHRIN ASSEMBLY PROTEIN; 1.
+DR   PANTHER; PTHR22951:SF16; PHOSPHATIDYLINOSITOL-BINDING CLATHRIN ASSEMBLY PROTEIN; 1.
+DR   Pfam; PF07651; ANTH; 1.
+DR   SMART; SM00273; ENTH; 1.
+DR   SUPFAM; SSF48464; ENTH/VHS domain; 1.
+DR   SUPFAM; SSF89009; GAT-like domain; 1.
+DR   PROSITE; PS50942; ENTH; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Alternative splicing; Cell membrane; Coated pit;
+KW   Cytoplasmic vesicle; Endocytosis; Golgi apparatus; Isopeptide bond;
+KW   Membrane; Nucleus; Phosphoprotein; Reference proteome; Ubl conjugation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13492"
+FT   CHAIN           2..640
+FT                   /note="Phosphatidylinositol-binding clathrin assembly
+FT                   protein"
+FT                   /id="PRO_0000187064"
+FT   DOMAIN          14..145
+FT                   /note="ENTH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00243,
+FT                   ECO:0000305"
+FT   REGION          221..294
+FT                   /note="Interaction with PIMREG"
+FT                   /evidence="ECO:0000250"
+FT   REGION          543..568
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13492"
+FT   MOD_RES         16
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13492"
+FT   MOD_RES         20
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13492"
+FT   MOD_RES         303
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13492"
+FT   MOD_RES         315
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13492"
+FT   CROSSLNK        238
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13492"
+FT   VAR_SEQ         420..462
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:10630373"
+FT                   /id="VSP_050687"
+FT   HELIX           6..29
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   STRAND          32..35
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           39..50
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           56..66
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           72..88
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           91..99
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           115..141
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   TURN            145..147
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   STRAND          151..154
+FT                   /evidence="ECO:0007829|PDB:1HF8"
+FT   HELIX           155..158
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           161..179
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           185..187
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           191..220
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           222..224
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           227..256
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           261..263
+FT                   /evidence="ECO:0007829|PDB:3ZYL"
+FT   HELIX           267..269
+FT                   /evidence="ECO:0007829|PDB:3ZYK"
+FT   HELIX           275..285
+FT                   /evidence="ECO:0007829|PDB:3ZYK"
+SQ   SEQUENCE   640 AA;  69286 MW;  7395A92C285FA10A CRC64;
+     MSGQSLTDRI TAAQHSVTGS AVSKTVCKAT THEIMGPKKK HLDYLIQCTN EMNVNIPQLA
+     DSLFERTTNS SWVVVFKSLI TTHHLMVYGN ERFIQYLASR NTLFNLSNFL DKSGLQGYDM
+     STFIRRYSRY LNEKAVSYRQ VAFDFTKVKR GADGVMRTMN TEKLLKTVPI IQNQMDALLD
+     FNVNSNELTN GVINAAFMLL FKDAIRLFAA YNEGIINLLE KYFDMKKNQC KEGLDIYKKF
+     LTRMTRISEF LKVAEQVGID RGDIPDLSQA PSSLLDALEQ HLASLEGKKI KDSTAASRAT
+     TLSNAVSSLA STGLSLTKVD EREKQAALEE EQARLKALKE QRLKELAKKP HTSLTTAASP
+     VSTSAGGIMT APAIDIFSTP SSSNSTSKLP NDLLDLQQPT FHPSVHAMSA APQVASTWGD
+     AVDDAIPSLN PFLTKSSGDV HLPISSDVST FTTRTPTHEM FVGFSPSPVT QPHPSAGLNV
+     DFESVFGNKS TNVAVDSGGG LLKPTVASQN QSLPVAKLPP NKLVSDDLDS SLANLVGNLG
+     IGNGTTKNDV SCSQPGEKKL TGGSNWQPKV APTTAWSAAT MAPPVMAYPA TTPTGMIGYG
+     IPPQMGSVPV MTQPTLIYSQ PVMRPPNPFG PVPGAQIQFM
+//

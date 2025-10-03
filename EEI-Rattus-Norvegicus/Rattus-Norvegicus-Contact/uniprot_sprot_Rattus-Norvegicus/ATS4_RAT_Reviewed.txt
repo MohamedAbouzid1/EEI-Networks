@@ -1,0 +1,208 @@
+ID   ATS4_RAT                Reviewed;         630 AA.
+AC   Q9ESP7; Q9ESP6; Q9ESP8;
+DT   05-DEC-2001, integrated into UniProtKB/Swiss-Prot.
+DT   05-DEC-2001, sequence version 2.
+DT   24-JUL-2024, entry version 149.
+DE   RecName: Full=A disintegrin and metalloproteinase with thrombospondin motifs 4;
+DE            Short=ADAM-TS 4;
+DE            Short=ADAM-TS4;
+DE            Short=ADAMTS-4;
+DE            EC=3.4.24.82;
+DE   AltName: Full=Aggrecanase-1;
+DE   Flags: Precursor; Fragment;
+GN   Name=Adamts4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar; TISSUE=Brain;
+RX   PubMed=10961658; DOI=10.1016/s0304-3940(00)01285-4;
+RA   Satoh K., Suzuki N., Yokota H.;
+RT   "ADAMTS-4 (a disintegrin and metalloproteinase with thrombospondin motifs)
+RT   is transcriptionally induced in beta-amyloid treated rat astrocytes.";
+RL   Neurosci. Lett. 289:177-180(2000).
+CC   -!- FUNCTION: Cleaves aggrecan, a cartilage proteoglycan, and may be
+CC       involved in its turnover. May play an important role in the destruction
+CC       of aggrecan in arthritic diseases. Cleaves aggrecan at the '392-Glu-|-
+CC       Ala-393' site.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Glutamyl endopeptidase. Bonds cleaved include 370-Thr-Glu-Gly-
+CC         Glu-|-Ala-Arg-Gly-Ser-377 in the interglobular domain of mammalian
+CC         aggrecan.; EC=3.4.24.82;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:O75173};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:O75173};
+CC   -!- SUBUNIT: Interacts with SRPX2. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Brain specific.
+CC   -!- DOMAIN: The spacer domain and the TSP type-1 domains are important for
+CC       a tight interaction with the extracellular matrix.
+CC   -!- PTM: The precursor is cleaved by a furin endopeptidase.
+CC   -!- PTM: Glycosylated. Can be O-fucosylated by POFUT2 on a serine or a
+CC       threonine residue found within the consensus sequence C1-X(2)-(S/T)-C2-
+CC       G of the TSP type-1 repeat domains where C1 and C2 are the first and
+CC       second cysteine residue of the repeat, respectively. Fucosylated
+CC       repeats can then be further glycosylated by the addition of a beta-1,3-
+CC       glucose residue by the glucosyltransferase, B3GALTL. Fucosylation
+CC       mediates the efficient secretion of ADAMTS family members. Can also be
+CC       C-glycosylated with one or two mannose molecules on tryptophan residues
+CC       within the consensus sequence W-X-X-W of the TPRs, and N-glycosylated.
+CC       These other glycosylations can also facilitate secretion (By
+CC       similarity). {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB042272; BAB16474.1; -; mRNA.
+DR   EMBL; AB042271; BAB16473.1; -; mRNA.
+DR   EMBL; AB042273; BAB16475.1; -; mRNA.
+DR   RefSeq; NP_076449.1; NM_023959.1.
+DR   AlphaFoldDB; Q9ESP7; -.
+DR   SMR; Q9ESP7; -.
+DR   STRING; 10116.ENSRNOP00000004713; -.
+DR   ChEMBL; CHEMBL4523453; -.
+DR   MEROPS; M12.221; -.
+DR   GlyCosmos; Q9ESP7; 2 sites, No reported glycans.
+DR   GlyGen; Q9ESP7; 2 sites.
+DR   PhosphoSitePlus; Q9ESP7; -.
+DR   PaxDb; 10116-ENSRNOP00000004713; -.
+DR   GeneID; 66015; -.
+DR   KEGG; rno:66015; -.
+DR   UCSC; RGD:621242; rat.
+DR   AGR; RGD:621242; -.
+DR   CTD; 9507; -.
+DR   RGD; 621242; Adamts4.
+DR   eggNOG; KOG3538; Eukaryota.
+DR   InParanoid; Q9ESP7; -.
+DR   OrthoDB; 2910701at2759; -.
+DR   PhylomeDB; Q9ESP7; -.
+DR   BRENDA; 3.4.24.82; 5301.
+DR   Reactome; R-RNO-1474228; Degradation of the extracellular matrix.
+DR   Reactome; R-RNO-5173214; O-glycosylation of TSR domain-containing proteins.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0031012; C:extracellular matrix; IBA:GO_Central.
+DR   GO; GO:0005615; C:extracellular space; ISO:RGD.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; ISO:RGD.
+DR   GO; GO:0008237; F:metallopeptidase activity; ISS:UniProtKB.
+DR   GO; GO:0008233; F:peptidase activity; ISS:UniProtKB.
+DR   GO; GO:0002020; F:protease binding; ISO:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; ISO:RGD.
+DR   GO; GO:0042742; P:defense response to bacterium; ISO:RGD.
+DR   GO; GO:0030198; P:extracellular matrix organization; IBA:GO_Central.
+DR   GO; GO:0006508; P:proteolysis; ISO:RGD.
+DR   CDD; cd04273; ZnMc_ADAMTS_like; 1.
+DR   Gene3D; 2.60.120.830; -; 1.
+DR   Gene3D; 3.40.1620.60; -; 1.
+DR   Gene3D; 3.40.390.10; Collagenase (Catalytic Domain); 1.
+DR   Gene3D; 2.20.100.10; Thrombospondin type-1 (TSP1) repeat; 1.
+DR   InterPro; IPR006586; ADAM_Cys-rich.
+DR   InterPro; IPR013273; ADAMTS/ADAMTS-like.
+DR   InterPro; IPR050439; ADAMTS_ADAMTS-like.
+DR   InterPro; IPR041645; ADAMTS_CR_2.
+DR   InterPro; IPR045371; ADAMTS_CR_3.
+DR   InterPro; IPR010294; ADAMTS_spacer1.
+DR   InterPro; IPR024079; MetalloPept_cat_dom_sf.
+DR   InterPro; IPR001590; Peptidase_M12B.
+DR   InterPro; IPR000884; TSP1_rpt.
+DR   InterPro; IPR036383; TSP1_rpt_sf.
+DR   PANTHER; PTHR13723:SF38; A DISINTEGRIN AND METALLOPROTEINASE WITH THROMBOSPONDIN MOTIFS 4; 1.
+DR   PANTHER; PTHR13723; ADAMTS A DISINTEGRIN AND METALLOPROTEASE WITH THROMBOSPONDIN MOTIFS PROTEASE; 1.
+DR   Pfam; PF17771; ADAMTS_CR_2; 1.
+DR   Pfam; PF19236; ADAMTS_CR_3; 1.
+DR   Pfam; PF05986; ADAMTS_spacer1; 1.
+DR   Pfam; PF01421; Reprolysin; 1.
+DR   Pfam; PF00090; TSP_1; 1.
+DR   PRINTS; PR01857; ADAMTSFAMILY.
+DR   SMART; SM00608; ACR; 1.
+DR   SMART; SM00209; TSP1; 1.
+DR   SUPFAM; SSF55486; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   SUPFAM; SSF82895; TSP-1 type 1 repeat; 1.
+DR   PROSITE; PS50215; ADAM_MEPRO; 1.
+DR   PROSITE; PS50092; TSP1; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   2: Evidence at transcript level;
+KW   Cleavage on pair of basic residues; Disulfide bond; Extracellular matrix;
+KW   Glycoprotein; Hydrolase; Metal-binding; Metalloprotease; Protease;
+KW   Reference proteome; Secreted; Zinc; Zymogen.
+FT   PROPEP          <1..5
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000029168"
+FT   CHAIN           6..630
+FT                   /note="A disintegrin and metalloproteinase with
+FT                   thrombospondin motifs 4"
+FT                   /id="PRO_0000029169"
+FT   DOMAIN          11..221
+FT                   /note="Peptidase M12B"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00276"
+FT   DOMAIN          233..303
+FT                   /note="Disintegrin"
+FT   DOMAIN          313..368
+FT                   /note="TSP type-1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00210"
+FT   REGION          479..630
+FT                   /note="Spacer"
+FT   ACT_SITE        155
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00276,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         154
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:O75173"
+FT   BINDING         158
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:O75173"
+FT   BINDING         164
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:O75173"
+FT   CARBOHYD        96
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        474
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        86..138
+FT                   /evidence="ECO:0000250|UniProtKB:O75173"
+FT   DISULFID        115..120
+FT                   /evidence="ECO:0000250|UniProtKB:O75173"
+FT   DISULFID        132..216
+FT                   /evidence="ECO:0000250|UniProtKB:O75173"
+FT   DISULFID        170..200
+FT                   /evidence="ECO:0000250|UniProtKB:O75173"
+FT   DISULFID        242..265
+FT                   /evidence="ECO:0000250|UniProtKB:O75173"
+FT   DISULFID        253..275
+FT                   /evidence="ECO:0000250|UniProtKB:O75173"
+FT   DISULFID        260..294
+FT                   /evidence="ECO:0000250|UniProtKB:O75173"
+FT   DISULFID        288..299
+FT                   /evidence="ECO:0000250|UniProtKB:O75173"
+FT   DISULFID        325..362
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        329..367
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        340..352
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         1
+SQ   SEQUENCE   630 AA;  68385 MW;  63A428753167C7EF CRC64;
+     RRTKRFASLS RFVETLVVAD DKMAAFHGAG LKHYLLTVMA AAAKAFKHPS IRNPVNLVVT
+     RLVILGSGQE VPQVGPSAAQ TLRSFCTWQK GLNPPNDSDP DHFDTAILFT RQDLCGVSTC
+     DALGMAGVGT VCDPARSCAI VEDDGLQSAF TAAHELGHVF NMLHDNSKPC ANLNGQGSSS
+     RHVMAPVMAH VDPEEPWSPC SARFITDFLD NGYGHCLLDK PEAPLHLPVT FPGKDYDADR
+     QCQLTFGPDS SHCPQLPPPC AALWCFGHLN GHAMCQTKHS PWADGTPCGP AQACMGGRCL
+     HVDQLKDFNI PQAGGWGPWG PWGDCSRTCG GGVQFSSRDC TKPVPRNGGK YCEGRRTPFR
+     SCNTKNCPHG SALTFREEQC AAYNHRTDLF KSFPGPMDWV PRYTGVAPRD QCKLTCQARA
+     LGYYYVLEPR VADGTPCSPD SSSVCVQGRC IHAGCDRIIG SKKKFDKCMV CGGNGSSCSK
+     QSGSFKKFRY GYSDVVTIPA GRTHILVRQQ GGSGLKSIYL ALKLADGSYA LNGEYTLMPS
+     STDVVLPGAV SLRYSGRTAA SETLSGHGPL AQPLTLQVLV AGNPQNVRLR YSFFVPRPVP
+     STPRPPPQNW LQRRAEILEI LRKRTWAGRK
+//

@@ -1,0 +1,350 @@
+ID   ACADV_RAT               Reviewed;         655 AA.
+AC   P45953;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   29-MAY-2024, entry version 164.
+DE   RecName: Full=Very long-chain specific acyl-CoA dehydrogenase, mitochondrial {ECO:0000305|PubMed:1730632};
+DE            Short=VLCAD {ECO:0000303|PubMed:8034667};
+DE            EC=1.3.8.9 {ECO:0000269|PubMed:1730632, ECO:0000269|PubMed:8034667};
+DE   Flags: Precursor;
+GN   Name=Acadvl {ECO:0000312|RGD:2014};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, FUNCTION, CATALYTIC
+RP   ACTIVITY, PATHWAY, SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=8034667; DOI=10.1016/s0021-9258(17)32278-0;
+RA   Aoyama T., Ueno I., Kamijo T., Hashimoto T.;
+RT   "Rat very-long-chain acyl-CoA dehydrogenase, a novel mitochondrial acyl-CoA
+RT   dehydrogenase gene product, is a rate-limiting enzyme in long-chain fatty
+RT   acid beta-oxidation system. cDNA and deduced amino acid sequence and
+RT   distinct specificities of the cDNA-expressed protein.";
+RL   J. Biol. Chem. 269:19088-19094(1994).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, PATHWAY, SUBSTRATE SPECIFICITY,
+RP   SUBUNIT, AND SUBCELLULAR LOCATION.
+RX   PubMed=1730632; DOI=10.1016/s0021-9258(18)48390-1;
+RA   Izai K., Uchida Y., Orii T., Yamamoto S., Hashimoto T.;
+RT   "Novel fatty acid beta-oxidation enzymes in rat liver mitochondria. I.
+RT   Purification and properties of very-long-chain acyl-coenzyme A
+RT   dehydrogenase.";
+RL   J. Biol. Chem. 267:1027-1033(1992).
+CC   -!- FUNCTION: Very long-chain specific acyl-CoA dehydrogenase is one of the
+CC       acyl-CoA dehydrogenases that catalyze the first step of mitochondrial
+CC       fatty acid beta-oxidation, an aerobic process breaking down fatty acids
+CC       into acetyl-CoA and allowing the production of energy from fats
+CC       (PubMed:1730632, PubMed:8034667). The first step of fatty acid beta-
+CC       oxidation consists in the removal of one hydrogen from C-2 and C-3 of
+CC       the straight-chain fatty acyl-CoA thioester, resulting in the formation
+CC       of trans-2-enoyl-CoA (PubMed:1730632, PubMed:8034667). Among the
+CC       different mitochondrial acyl-CoA dehydrogenases, very long-chain
+CC       specific acyl-CoA dehydrogenase acts specifically on acyl-CoAs with
+CC       saturated 12 to 24 carbons long primary chains (PubMed:1730632).
+CC       {ECO:0000269|PubMed:1730632, ECO:0000269|PubMed:8034667}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a very-long-chain 2,3-saturated fatty acyl-CoA + H(+) +
+CC         oxidized [electron-transfer flavoprotein] = a very-long-chain (2E)-
+CC         enoyl-CoA + reduced [electron-transfer flavoprotein];
+CC         Xref=Rhea:RHEA:19181, Rhea:RHEA-COMP:10685, Rhea:RHEA-COMP:10686,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57692, ChEBI:CHEBI:58307,
+CC         ChEBI:CHEBI:83724, ChEBI:CHEBI:83728; EC=1.3.8.9;
+CC         Evidence={ECO:0000269|PubMed:1730632, ECO:0000269|PubMed:8034667};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19182;
+CC         Evidence={ECO:0000305|PubMed:1730632};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dodecanoyl-CoA + H(+) + oxidized [electron-transfer
+CC         flavoprotein] = (2E)-dodecenoyl-CoA + reduced [electron-transfer
+CC         flavoprotein]; Xref=Rhea:RHEA:47296, Rhea:RHEA-COMP:10685, Rhea:RHEA-
+CC         COMP:10686, ChEBI:CHEBI:15378, ChEBI:CHEBI:57330, ChEBI:CHEBI:57375,
+CC         ChEBI:CHEBI:57692, ChEBI:CHEBI:58307;
+CC         Evidence={ECO:0000269|PubMed:1730632};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47297;
+CC         Evidence={ECO:0000305|PubMed:1730632};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + oxidized [electron-transfer flavoprotein] +
+CC         tetradecanoyl-CoA = (2E)-tetradecenoyl-CoA + reduced [electron-
+CC         transfer flavoprotein]; Xref=Rhea:RHEA:47316, Rhea:RHEA-COMP:10685,
+CC         Rhea:RHEA-COMP:10686, ChEBI:CHEBI:15378, ChEBI:CHEBI:57385,
+CC         ChEBI:CHEBI:57692, ChEBI:CHEBI:58307, ChEBI:CHEBI:61405;
+CC         Evidence={ECO:0000269|PubMed:1730632};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47317;
+CC         Evidence={ECO:0000305|PubMed:1730632};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + hexadecanoyl-CoA + oxidized [electron-transfer
+CC         flavoprotein] = (2E)-hexadecenoyl-CoA + reduced [electron-transfer
+CC         flavoprotein]; Xref=Rhea:RHEA:43448, Rhea:RHEA-COMP:10685, Rhea:RHEA-
+CC         COMP:10686, ChEBI:CHEBI:15378, ChEBI:CHEBI:57379, ChEBI:CHEBI:57692,
+CC         ChEBI:CHEBI:58307, ChEBI:CHEBI:61526;
+CC         Evidence={ECO:0000269|PubMed:1730632, ECO:0000269|PubMed:8034667};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:43449;
+CC         Evidence={ECO:0000305|PubMed:1730632};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + octadecanoyl-CoA + oxidized [electron-transfer
+CC         flavoprotein] = (2E)-octadecenoyl-CoA + reduced [electron-transfer
+CC         flavoprotein]; Xref=Rhea:RHEA:47240, Rhea:RHEA-COMP:10685, Rhea:RHEA-
+CC         COMP:10686, ChEBI:CHEBI:15378, ChEBI:CHEBI:57394, ChEBI:CHEBI:57692,
+CC         ChEBI:CHEBI:58307, ChEBI:CHEBI:71412;
+CC         Evidence={ECO:0000269|PubMed:1730632, ECO:0000269|PubMed:8034667};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47241;
+CC         Evidence={ECO:0000305|PubMed:1730632};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=eicosanoyl-CoA + H(+) + oxidized [electron-transfer
+CC         flavoprotein] = (2E)-eicosenoyl-CoA + reduced [electron-transfer
+CC         flavoprotein]; Xref=Rhea:RHEA:47236, Rhea:RHEA-COMP:10685, Rhea:RHEA-
+CC         COMP:10686, ChEBI:CHEBI:15378, ChEBI:CHEBI:57380, ChEBI:CHEBI:57692,
+CC         ChEBI:CHEBI:58307, ChEBI:CHEBI:74691;
+CC         Evidence={ECO:0000269|PubMed:1730632};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47237;
+CC         Evidence={ECO:0000305|PubMed:1730632};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=docosanoyl-CoA + H(+) + oxidized [electron-transfer
+CC         flavoprotein] = (2E)-docosenoyl-CoA + reduced [electron-transfer
+CC         flavoprotein]; Xref=Rhea:RHEA:47228, Rhea:RHEA-COMP:10685, Rhea:RHEA-
+CC         COMP:10686, ChEBI:CHEBI:15378, ChEBI:CHEBI:57692, ChEBI:CHEBI:58307,
+CC         ChEBI:CHEBI:65059, ChEBI:CHEBI:74692;
+CC         Evidence={ECO:0000269|PubMed:1730632};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + oxidized [electron-transfer flavoprotein] +
+CC         tetracosanoyl-CoA = (2E)-tetracosenoyl-CoA + reduced [electron-
+CC         transfer flavoprotein]; Xref=Rhea:RHEA:47232, Rhea:RHEA-COMP:10685,
+CC         Rhea:RHEA-COMP:10686, ChEBI:CHEBI:15378, ChEBI:CHEBI:57692,
+CC         ChEBI:CHEBI:58307, ChEBI:CHEBI:65052, ChEBI:CHEBI:74693;
+CC         Evidence={ECO:0000269|PubMed:1730632};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47233;
+CC         Evidence={ECO:0000305|PubMed:1730632};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000269|PubMed:1730632};
+CC   -!- PATHWAY: Lipid metabolism; mitochondrial fatty acid beta-oxidation.
+CC       {ECO:0000269|PubMed:1730632, ECO:0000269|PubMed:8034667}.
+CC   -!- SUBUNIT: Homodimer (PubMed:1730632). Homodimerizes after import into
+CC       the mitochondrion (By similarity). {ECO:0000250|UniProtKB:P49748,
+CC       ECO:0000269|PubMed:1730632}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000269|PubMed:1730632, ECO:0000269|PubMed:8034667}; Peripheral
+CC       membrane protein {ECO:0000250|UniProtKB:P49748}.
+CC   -!- TISSUE SPECIFICITY: Widely expressed (at protein level).
+CC       {ECO:0000269|PubMed:8034667}.
+CC   -!- PTM: S-nitrosylation at Cys-237 in liver improves catalytic efficiency.
+CC       {ECO:0000250|UniProtKB:P50544}.
+CC   -!- SIMILARITY: Belongs to the acyl-CoA dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D30647; BAA06331.1; -; mRNA.
+DR   PIR; A54872; A54872.
+DR   RefSeq; NP_037023.1; NM_012891.2.
+DR   AlphaFoldDB; P45953; -.
+DR   SMR; P45953; -.
+DR   BioGRID; 247402; 2.
+DR   STRING; 10116.ENSRNOP00000024973; -.
+DR   ChEMBL; CHEMBL2176830; -.
+DR   SwissLipids; SLP:000001587; -.
+DR   CarbonylDB; P45953; -.
+DR   GlyGen; P45953; 2 sites, 1 O-linked glycan (2 sites).
+DR   iPTMnet; P45953; -.
+DR   PhosphoSitePlus; P45953; -.
+DR   SwissPalm; P45953; -.
+DR   jPOST; P45953; -.
+DR   PaxDb; 10116-ENSRNOP00000024973; -.
+DR   GeneID; 25363; -.
+DR   KEGG; rno:25363; -.
+DR   UCSC; RGD:2014; rat.
+DR   AGR; RGD:2014; -.
+DR   CTD; 37; -.
+DR   RGD; 2014; Acadvl.
+DR   eggNOG; KOG0137; Eukaryota.
+DR   InParanoid; P45953; -.
+DR   OrthoDB; 275353at2759; -.
+DR   PhylomeDB; P45953; -.
+DR   Reactome; R-RNO-77305; Beta oxidation of palmitoyl-CoA to myristoyl-CoA.
+DR   UniPathway; UPA00660; -.
+DR   PRO; PR:P45953; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IDA:RGD.
+DR   GO; GO:0031966; C:mitochondrial membrane; ISO:RGD.
+DR   GO; GO:0042645; C:mitochondrial nucleoid; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0003995; F:acyl-CoA dehydrogenase activity; IDA:RGD.
+DR   GO; GO:0000062; F:fatty-acyl-CoA binding; IDA:RGD.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISS:UniProtKB.
+DR   GO; GO:0004466; F:long-chain fatty acyl-CoA dehydrogenase activity; IDA:RGD.
+DR   GO; GO:0017099; F:very-long-chain fatty acyl-CoA dehydrogenase activity; IDA:RGD.
+DR   GO; GO:0030855; P:epithelial cell differentiation; ISO:RGD.
+DR   GO; GO:0006635; P:fatty acid beta-oxidation; IDA:RGD.
+DR   GO; GO:0033539; P:fatty acid beta-oxidation using acyl-CoA dehydrogenase; ISS:UniProtKB.
+DR   GO; GO:0009062; P:fatty acid catabolic process; ISO:RGD.
+DR   GO; GO:0045717; P:negative regulation of fatty acid biosynthetic process; ISO:RGD.
+DR   GO; GO:0046322; P:negative regulation of fatty acid oxidation; ISO:RGD.
+DR   GO; GO:0090181; P:regulation of cholesterol metabolic process; ISO:RGD.
+DR   GO; GO:0009409; P:response to cold; ISO:RGD.
+DR   GO; GO:0001659; P:temperature homeostasis; ISO:RGD.
+DR   CDD; cd01161; VLCAD; 1.
+DR   Gene3D; 1.10.540.10; Acyl-CoA dehydrogenase/oxidase, N-terminal domain; 1.
+DR   Gene3D; 2.40.110.10; Butyryl-CoA Dehydrogenase, subunit A, domain 2; 1.
+DR   Gene3D; 1.20.140.10; Butyryl-CoA Dehydrogenase, subunit A, domain 3; 2.
+DR   InterPro; IPR049448; ACAD9/ACADV-like_C.
+DR   InterPro; IPR006089; Acyl-CoA_DH_CS.
+DR   InterPro; IPR006091; Acyl-CoA_Oxase/DH_mid-dom.
+DR   InterPro; IPR046373; Acyl-CoA_Oxase/DH_mid-dom_sf.
+DR   InterPro; IPR036250; AcylCo_DH-like_C.
+DR   InterPro; IPR009075; AcylCo_DH/oxidase_C.
+DR   InterPro; IPR013786; AcylCoA_DH/ox_N.
+DR   InterPro; IPR037069; AcylCoA_DH/ox_N_sf.
+DR   InterPro; IPR009100; AcylCoA_DH/oxidase_NM_dom_sf.
+DR   PANTHER; PTHR43884; ACYL-COA DEHYDROGENASE; 1.
+DR   PANTHER; PTHR43884:SF11; VERY LONG-CHAIN SPECIFIC ACYL-COA DEHYDROGENASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF21343; ACAD9-ACADV_C; 1.
+DR   Pfam; PF00441; Acyl-CoA_dh_1; 1.
+DR   Pfam; PF02770; Acyl-CoA_dh_M; 1.
+DR   Pfam; PF02771; Acyl-CoA_dh_N; 1.
+DR   SUPFAM; SSF47203; Acyl-CoA dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF56645; Acyl-CoA dehydrogenase NM domain-like; 1.
+DR   PROSITE; PS00072; ACYL_COA_DH_1; 1.
+DR   PROSITE; PS00073; ACYL_COA_DH_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; FAD; Fatty acid metabolism;
+KW   Flavoprotein; Lipid metabolism; Membrane; Mitochondrion;
+KW   Mitochondrion inner membrane; Oxidoreductase; Phosphoprotein;
+KW   Reference proteome; S-nitrosylation; Transit peptide.
+FT   TRANSIT         1..40
+FT                   /note="Mitochondrion"
+FT   CHAIN           41..655
+FT                   /note="Very long-chain specific acyl-CoA dehydrogenase,
+FT                   mitochondrial"
+FT                   /id="PRO_0000000518"
+FT   REGION          1..70
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          41..482
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   REGION          483..516
+FT                   /note="Membrane-anchoring"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   COMPBIAS        23..42
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        462
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   BINDING         214..223
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   BINDING         249..251
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   BINDING         461..463
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   BINDING         464..466
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   BINDING         562
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   MOD_RES         51
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         71
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         71
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         127
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         127
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         195
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         237
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         239
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   MOD_RES         239
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         268
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         276
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         276
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         278
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         278
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         298
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         316
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         331
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   MOD_RES         331
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         372
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         482
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         482
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         517
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   MOD_RES         522
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49748"
+FT   MOD_RES         550
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         556
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         556
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+FT   MOD_RES         639
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P50544"
+SQ   SEQUENCE   655 AA;  70749 MW;  E808EDEB0E4595D7 CRC64;
+     MQSARMTPSV GRQLLRLGAR SSRSAALQGQ PRPTSAQRLY ASEATQAVLE KPETLSSDAS
+     TREKPARAES KSFAVGMFKG QLTTDQVFPY PSVLNEGQTQ FLKELVGPVA RFFEEVNDPA
+     KNDSLEKVEE DTLQGLKELG AFGLQVPSEL GGLGLSNTQY ARLAEIVGMH DLGVSVTLGA
+     HQSIGFKGIL LYGTKAQKEK YLPRVASGQA LAAFCLTEPS SGSDVASIRS SAVPSPCGKY
+     YTLNGSKIWI SNGGLADIFT VFAKTPIKDA ATGAVKEKIT AFVVERSFGG VTHGLPEKKM
+     GIKASNTSEV YFDGVKVPAE NVLGEVGDGF KVAVNILNNG RFGMAATLAG TMKAIIAKAV
+     DHATNRTQFG DKIHNFGVIQ EKLARMAILQ YVTESMAYML SANMDQGFKD FQIEAAISKI
+     FGSEAAWKVT DECIQIMGGM GFMKEPGVER VLRDIRIFRI FEGTNDILRL FVALQGCMDK
+     GKELTGLGNA LKNPLGNVGL LIGEASKQLR RRTGIGSGLS LSGIVHPELS RSGELAVQAL
+     EQFATVVEAK LMKHKKGIVN EQFLLQRLAD GAIDLYAMVV VLSRASRSLS EGYPTAQHEK
+     MLCDSWCIEA ATRIRENMAS LQSNPQQQEL FRNFRSISKA MVENGGLVTS NPLRV
+//

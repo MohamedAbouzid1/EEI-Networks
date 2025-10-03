@@ -1,0 +1,252 @@
+ID   SOAT_RAT                Reviewed;         370 AA.
+AC   Q70EX6;
+DT   13-NOV-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   29-MAY-2024, entry version 105.
+DE   RecName: Full=Sodium-dependent organic anion transporter {ECO:0000303|PubMed:15020217};
+DE            Short=Soat {ECO:0000303|PubMed:15020217};
+DE   AltName: Full=Solute carrier family 10 member 6;
+DE            Short=SLC10A6;
+GN   Name=Slc10a6; Synonyms=Soat;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Adrenal gland;
+RX   PubMed=15020217; DOI=10.1016/j.bbrc.2004.02.048;
+RA   Geyer J., Godoy J.R., Petzinger E.;
+RT   "Identification of a sodium-dependent organic anion transporter from rat
+RT   adrenal gland.";
+RL   Biochem. Biophys. Res. Commun. 316:300-306(2004).
+CC   -!- FUNCTION: Transports sulfoconjugated steroid hormones from the
+CC       extracellular compartment into the cytosol in a sodium-dependent manner
+CC       without hydrolysis (PubMed:15020217). Steroid sulfate hormones are
+CC       commonly considered to be biologically inactive metabolites, that may
+CC       be activated by steroid sulfatases into free steroids (By similarity).
+CC       May play an important role by delivering sulfoconjugated steroids to
+CC       specific target cells in reproductive organs (By similarity). May play
+CC       a role transporting the estriol precursor 16alpha-
+CC       hydroxydehydroepiandrosterone 3-sulfate (16a-OH-DHEAS) at the fetal
+CC       blood vessel endothelium (By similarity). Can also transport other
+CC       sulfoconjugated molecules such as taurolithocholic acid-3-sulfate and
+CC       sulfoconjugated pyrenes (By similarity). {ECO:0000250|UniProtKB:Q3KNW5,
+CC       ECO:0000250|UniProtKB:Q9CXB2, ECO:0000269|PubMed:15020217}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=estrone 3-sulfate(out) + 2 Na(+)(out) = estrone 3-sulfate(in)
+CC         + 2 Na(+)(in); Xref=Rhea:RHEA:71083, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:60050; Evidence={ECO:0000269|PubMed:15020217};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol 3-sulfate(out) + 2 Na(+)(out) = 17beta-
+CC         estradiol 3-sulfate(in) + 2 Na(+)(in); Xref=Rhea:RHEA:71087,
+CC         ChEBI:CHEBI:29101, ChEBI:CHEBI:136582;
+CC         Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dehydroepiandrosterone 3-sulfate(out) + 2 Na(+)(out) =
+CC         dehydroepiandrosterone 3-sulfate(in) + 2 Na(+)(in);
+CC         Xref=Rhea:RHEA:71091, ChEBI:CHEBI:29101, ChEBI:CHEBI:57905;
+CC         Evidence={ECO:0000269|PubMed:15020217};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=androst-5-ene-diol 3-sulfate(out) + 2 Na(+)(out) = androst-5-
+CC         ene-diol 3-sulfate(in) + 2 Na(+)(in); Xref=Rhea:RHEA:71099,
+CC         ChEBI:CHEBI:29101, ChEBI:CHEBI:190287;
+CC         Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + pregnenolone sulfate(out) = 2 Na(+)(in) +
+CC         pregnenolone sulfate(in); Xref=Rhea:RHEA:71095, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:133000; Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + taurolithocholate 3-sulfate(out) = 2 Na(+)(in)
+CC         + taurolithocholate 3-sulfate(in); Xref=Rhea:RHEA:71275,
+CC         ChEBI:CHEBI:29101, ChEBI:CHEBI:58301;
+CC         Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=androsterone 3alpha-sulfate(out) + 2 Na(+)(out) = androsterone
+CC         3alpha-sulfate(in) + 2 Na(+)(in); Xref=Rhea:RHEA:71351,
+CC         ChEBI:CHEBI:29101, ChEBI:CHEBI:133003;
+CC         Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5alpha-dihydrotestosterone sulfate(out) + 2 Na(+)(out) =
+CC         5alpha-dihydrotestosterone sulfate(in) + 2 Na(+)(in);
+CC         Xref=Rhea:RHEA:71355, ChEBI:CHEBI:29101, ChEBI:CHEBI:136982;
+CC         Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol 17-sulfate(out) + 2 Na(+)(out) = 17beta-
+CC         estradiol 17-sulfate(in) + 2 Na(+)(in); Xref=Rhea:RHEA:71359,
+CC         ChEBI:CHEBI:29101, ChEBI:CHEBI:190469;
+CC         Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17alpha-hydroxypregnenolone 3-sulfate(out) + 2 Na(+)(out) =
+CC         17alpha-hydroxypregnenolone 3-sulfate(in) + 2 Na(+)(in);
+CC         Xref=Rhea:RHEA:71363, ChEBI:CHEBI:29101, ChEBI:CHEBI:133742;
+CC         Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=epiandrosterone 3-sulfate(out) + 2 Na(+)(out) =
+CC         epiandrosterone 3-sulfate(in) + 2 Na(+)(in); Xref=Rhea:RHEA:71367,
+CC         ChEBI:CHEBI:29101, ChEBI:CHEBI:133729;
+CC         Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=epitestosterone 17-sulfate(out) + 2 Na(+)(out) =
+CC         epitestosterone 17-sulfate(in) + 2 Na(+)(in); Xref=Rhea:RHEA:71371,
+CC         ChEBI:CHEBI:29101, ChEBI:CHEBI:190485;
+CC         Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Na(+)(out) + testosterone 17-sulfate(out) = 2 Na(+)(in) +
+CC         testosterone 17-sulfate(in); Xref=Rhea:RHEA:71375, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:190489; Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=16alpha-hydroxydehydroepiandrosterone 3-sulfate(out) + 2
+CC         Na(+)(out) = 16alpha-hydroxydehydroepiandrosterone 3-sulfate(in) + 2
+CC         Na(+)(in); Xref=Rhea:RHEA:71391, ChEBI:CHEBI:29101,
+CC         ChEBI:CHEBI:87538; Evidence={ECO:0000250|UniProtKB:Q3KNW5};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=31 uM for estrone 3-sulfate (E1S) {ECO:0000269|PubMed:15020217};
+CC         KM=30 uM for dehydroepiandrosterone 3-sulfate (DHEAS)
+CC         {ECO:0000269|PubMed:15020217};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in heart, lung, spleen and adrenal
+CC       gland. Moderately expressed in skeletal muscle, testis and small
+CC       intestine. {ECO:0000269|PubMed:15020217}.
+CC   -!- PTM: Glycosylated. {ECO:0000250}.
+CC   -!- MISCELLANEOUS: In humans, 3-beta-sulfooxy-androst-5-en-17-one (DHEAS)
+CC       is the most abundant circulating steroid sulfate in the human body, it
+CC       is mainly synthesized from adrenal glands and gonads, whereas rats and
+CC       mice have low circulating concentrations of DHEAS in the periphery as
+CC       they can only produce DHEAS in their gonads.
+CC       {ECO:0000250|UniProtKB:Q9CXB2}.
+CC   -!- SIMILARITY: Belongs to the bile acid:sodium symporter (BASS) (TC
+CC       2.A.28) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ583503; CAE47478.1; -; mRNA.
+DR   RefSeq; NP_932166.1; NM_198049.1.
+DR   AlphaFoldDB; Q70EX6; -.
+DR   SMR; Q70EX6; -.
+DR   STRING; 10116.ENSRNOP00000002819; -.
+DR   TCDB; 2.A.28.1.3; the bile acid:na(+) symporter (bass) family.
+DR   GlyCosmos; Q70EX6; 2 sites, No reported glycans.
+DR   GlyGen; Q70EX6; 2 sites.
+DR   PaxDb; 10116-ENSRNOP00000002819; -.
+DR   Ensembl; ENSRNOT00000088508.2; ENSRNOP00000072386.1; ENSRNOG00000002057.4.
+DR   Ensembl; ENSRNOT00065019376; ENSRNOP00065014818; ENSRNOG00065011928.
+DR   GeneID; 289459; -.
+DR   KEGG; rno:289459; -.
+DR   AGR; RGD:727800; -.
+DR   CTD; 345274; -.
+DR   RGD; 727800; Slc10a6.
+DR   eggNOG; KOG2718; Eukaryota.
+DR   GeneTree; ENSGT00950000182808; -.
+DR   HOGENOM; CLU_034788_7_5_1; -.
+DR   InParanoid; Q70EX6; -.
+DR   OMA; CLYLYTW; -.
+DR   OrthoDB; 3035577at2759; -.
+DR   PhylomeDB; Q70EX6; -.
+DR   TreeFam; TF315811; -.
+DR   Reactome; R-RNO-425366; Transport of bile salts and organic acids, metal ions and amine compounds.
+DR   PRO; PR:Q70EX6; -.
+DR   Proteomes; UP000002494; Chromosome 14.
+DR   Bgee; ENSRNOG00000002057; Expressed in esophagus and 19 other cell types or tissues.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008508; F:bile acid:sodium symporter activity; IBA:GO_Central.
+DR   GO; GO:0043250; F:sodium-dependent organic anion transmembrane transporter activity; IDA:RGD.
+DR   GO; GO:0015721; P:bile acid and bile salt transport; IBA:GO_Central.
+DR   GO; GO:0043251; P:sodium-dependent organic anion transport; IDA:RGD.
+DR   Gene3D; 1.20.1530.20; -; 1.
+DR   InterPro; IPR002657; BilAc:Na_symport/Acr3.
+DR   InterPro; IPR004710; Bilac:Na_transpt.
+DR   InterPro; IPR038770; Na+/solute_symporter_sf.
+DR   PANTHER; PTHR10361; SODIUM-BILE ACID COTRANSPORTER; 1.
+DR   PANTHER; PTHR10361:SF55; SOLUTE CARRIER FAMILY 10 MEMBER 6; 1.
+DR   Pfam; PF01758; SBF; 1.
+PE   1: Evidence at protein level;
+KW   Glycoprotein; Ion transport; Lipid transport; Membrane; Reference proteome;
+KW   Sodium; Sodium transport; Symport; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..370
+FT                   /note="Sodium-dependent organic anion transporter"
+FT                   /id="PRO_0000309217"
+FT   TOPO_DOM        1..32
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        33..53
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        54..67
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        68..88
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        89..97
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        98..118
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        119..126
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        127..147
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        148..159
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        160..180
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        181..195
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        196..216
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        217..224
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        225..245
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        246..265
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        266..283
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        284
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        285..305
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        306..370
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          1..24
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..16
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        8
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        14
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   370 AA;  40310 MW;  27CBA6E42B0733D7 CRC64;
+     MSADCEGNST CPANSTEEDP PVGMEGQGSL KLVFTVLSAV MVGLVMFSFG CSVESRKLWL
+     HLRRPWGIAV GLLCQFGLMP LTAYLLAIGF GLKPFQAIAV LIMGSCPGGT VSNVLTFWVD
+     GDMDLSISMT TCSTVAALGM MPLCLYVYTR SWTLPQSLTI PYQSIGITLV SLVVPVASGI
+     YVNYRWPKQA TFILKVGAAV GGMLLLVVAV TGVVLAKGWN IDVTLLVISC IFPLVGHVMG
+     FLLAFLTHQS WQRCRTISIE TGAQNIQLCI AMMQLSFSAE YLVQLLNFAL AYGLFQVLHG
+     LLIVAAYQAY KRRQKSQYRR QHPECQDISS EKQPRETSAF LDKGAEAAVT LGLEQHHRTA
+     ELTSHVPSCE
+//

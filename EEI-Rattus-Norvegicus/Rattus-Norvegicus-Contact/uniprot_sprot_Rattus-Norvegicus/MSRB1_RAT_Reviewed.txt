@@ -1,0 +1,146 @@
+ID   MSRB1_RAT               Reviewed;         116 AA.
+AC   Q52KJ8;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 2.
+DT   02-OCT-2024, entry version 107.
+DE   RecName: Full=Methionine-R-sulfoxide reductase B1;
+DE            Short=MsrB1;
+DE            EC=1.8.4.12 {ECO:0000250|UniProtKB:Q9JLC3};
+DE            EC=1.8.4.14 {ECO:0000250|UniProtKB:Q9JLC3};
+DE   AltName: Full=Selenoprotein X;
+DE            Short=SelX;
+GN   Name=Msrb1; Synonyms=Sepx1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Methionine-sulfoxide reductase that specifically reduces
+CC       methionine (R)-sulfoxide back to methionine. While in many cases,
+CC       methionine oxidation is the result of random oxidation following
+CC       oxidative stress, methionine oxidation is also a post-translational
+CC       modification that takes place on specific residue. Acts as a regulator
+CC       of actin assembly by reducing methionine (R)-sulfoxide mediated by
+CC       MICALs (MICAL1, MICAL2 or MICAL3) on actin, thereby promoting filament
+CC       repolymerization. Plays a role in innate immunity by reducing oxidized
+CC       actin, leading to actin repolymerization in macrophages.
+CC       {ECO:0000250|UniProtKB:Q9JLC3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-disulfide + H2O + L-methionyl-[protein] =
+CC         [thioredoxin]-dithiol + L-methionyl-(R)-S-oxide-[protein];
+CC         Xref=Rhea:RHEA:24164, Rhea:RHEA-COMP:10698, Rhea:RHEA-COMP:10700,
+CC         Rhea:RHEA-COMP:12313, Rhea:RHEA-COMP:12314, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:16044, ChEBI:CHEBI:29950, ChEBI:CHEBI:45764,
+CC         ChEBI:CHEBI:50058; EC=1.8.4.12;
+CC         Evidence={ECO:0000250|UniProtKB:Q9JLC3};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-disulfide + H2O + L-methionine = [thioredoxin]-
+CC         dithiol + L-methionine (R)-S-oxide; Xref=Rhea:RHEA:21260, Rhea:RHEA-
+CC         COMP:10698, Rhea:RHEA-COMP:10700, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:29950, ChEBI:CHEBI:50058, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:58773; EC=1.8.4.14;
+CC         Evidence={ECO:0000250|UniProtKB:Q9JLC3};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q9JLC3};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:Q9JLC3};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q9JLC3}. Nucleus
+CC       {ECO:0000250|UniProtKB:Q9JLC3}. Cytoplasm, cytoskeleton
+CC       {ECO:0000250|UniProtKB:Q9JLC3}.
+CC   -!- PTM: Truncated MSRB1/SEPX1 proteins produced by failed UGA/Sec decoding
+CC       are ubiquitinated by the CRL2(FEM1C) E3 ubiquitin-protein ligase
+CC       complex. {ECO:0000250|UniProtKB:Q9NZV6}.
+CC   -!- SIMILARITY: Belongs to the MsrB Met sulfoxide reductase family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH94309.1; Type=Erroneous termination; Note=Truncated C-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC094309; AAH94309.1; ALT_SEQ; mRNA.
+DR   RefSeq; NP_001037750.2; NM_001044285.3.
+DR   STRING; 10116.ENSRNOP00000074809; -.
+DR   ChEMBL; CHEMBL3509600; -.
+DR   PhosphoSitePlus; Q52KJ8; -.
+DR   Ensembl; ENSRNOT00000090552.2; ENSRNOP00000074809.2; ENSRNOG00000055314.2.
+DR   Ensembl; ENSRNOT00055048792; ENSRNOP00055040103; ENSRNOG00055028205.
+DR   Ensembl; ENSRNOT00060018053; ENSRNOP00060014058; ENSRNOG00060010653.
+DR   Ensembl; ENSRNOT00065014845; ENSRNOP00065011097; ENSRNOG00065009290.
+DR   GeneID; 685059; -.
+DR   KEGG; rno:685059; -.
+DR   UCSC; RGD:1583243; rat.
+DR   AGR; RGD:1583243; -.
+DR   CTD; 51734; -.
+DR   RGD; 1583243; Msrb1.
+DR   GeneTree; ENSGT00510000047678; -.
+DR   InParanoid; Q52KJ8; -.
+DR   OMA; SKCDHEL; -.
+DR   OrthoDB; 3659822at2759; -.
+DR   PhylomeDB; Q52KJ8; -.
+DR   TreeFam; TF329147; -.
+DR   Reactome; R-RNO-5676934; Protein repair.
+DR   PRO; PR:Q52KJ8; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   GO; GO:0015629; C:actin cytoskeleton; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0003779; F:actin binding; ISS:UniProtKB.
+DR   GO; GO:0033745; F:L-methionine-(R)-S-oxide reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0033743; F:peptide-methionine (R)-S-oxide reductase activity; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISO:RGD.
+DR   GO; GO:0030041; P:actin filament polymerization; ISS:UniProtKB.
+DR   GO; GO:0045087; P:innate immune response; ISS:UniProtKB.
+DR   GO; GO:0030091; P:protein repair; ISO:RGD.
+DR   Gene3D; 2.170.150.20; Peptide methionine sulfoxide reductase; 1.
+DR   InterPro; IPR002579; Met_Sox_Rdtase_MsrB_dom.
+DR   InterPro; IPR052150; MsrB_Met_sulfoxide_reductase.
+DR   InterPro; IPR011057; Mss4-like_sf.
+DR   PANTHER; PTHR46755; METHIONINE-R-SULFOXIDE REDUCTASE B1; 1.
+DR   PANTHER; PTHR46755:SF5; METHIONINE-R-SULFOXIDE REDUCTASE B1; 1.
+DR   Pfam; PF01641; SelR; 1.
+DR   SUPFAM; SSF51316; Mss4-like; 1.
+DR   PROSITE; PS51790; MSRB; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Cytoskeleton; Immunity; Innate immunity; Metal-binding; Nucleus;
+KW   Oxidoreductase; Reference proteome; Selenocysteine; Ubl conjugation; Zinc.
+FT   CHAIN           1..116
+FT                   /note="Methionine-R-sulfoxide reductase B1"
+FT                   /id="PRO_0000318612"
+FT   DOMAIN          1..106
+FT                   /note="MsrB"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01126"
+FT   ACT_SITE        95
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01126"
+FT   BINDING         23
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01126"
+FT   BINDING         26
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01126"
+FT   BINDING         71
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01126"
+FT   BINDING         74
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01126"
+FT   NON_STD         95
+FT                   /note="Selenocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NZV6"
+SQ   SEQUENCE   116 AA;  12797 MW;  2CADD12D1C32CCC8 CRC64;
+     MSFCSFFGGE VFQNHFEPGV YVCAKCGYEL FSSRSKYAHS SPWPAFTETI HEDSVAKCPE
+     KNRPEALKVS CGKCGNGLGH EFLNDGPKRG QSRFUIFSSS LKFIPKGKEA PASQGD
+//

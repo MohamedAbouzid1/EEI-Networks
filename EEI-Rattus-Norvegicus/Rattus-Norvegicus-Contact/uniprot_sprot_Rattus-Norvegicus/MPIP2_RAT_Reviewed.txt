@@ -1,0 +1,173 @@
+ID   MPIP2_RAT               Reviewed;         574 AA.
+AC   P48966;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   27-MAR-2024, entry version 146.
+DE   RecName: Full=M-phase inducer phosphatase 2;
+DE            EC=3.1.3.48 {ECO:0000250|UniProtKB:P30305};
+DE   AltName: Full=Dual specificity phosphatase Cdc25B;
+GN   Name=Cdc25b;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=NRK49F;
+RX   PubMed=8156993; DOI=10.1002/j.1460-2075.1994.tb06417.x;
+RA   Jinno S., Suto K., Nagata A., Igarashi M., Kanaoka Y., Nojima H.,
+RA   Okayama H.;
+RT   "Cdc25A is a novel phosphatase functioning early in the cell cycle.";
+RL   EMBO J. 13:1549-1556(1994).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-42, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Tyrosine protein phosphatase which functions as a dosage-
+CC       dependent inducer of mitotic progression. Directly dephosphorylates
+CC       CDK1 and stimulates its kinase activity. Required for G2/M phases of
+CC       the cell cycle progression and abscission during cytokinesis in a ECT2-
+CC       dependent manner. The three isoforms seem to have a different level of
+CC       activity. {ECO:0000250|UniProtKB:P30305}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O-phospho-L-tyrosyl-[protein] = L-tyrosyl-[protein] +
+CC         phosphate; Xref=Rhea:RHEA:10684, Rhea:RHEA-COMP:10136, Rhea:RHEA-
+CC         COMP:10137, ChEBI:CHEBI:15377, ChEBI:CHEBI:43474, ChEBI:CHEBI:46858,
+CC         ChEBI:CHEBI:82620; EC=3.1.3.48;
+CC         Evidence={ECO:0000250|UniProtKB:P30305};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:10685;
+CC         Evidence={ECO:0000250|UniProtKB:P30305};
+CC   -!- ACTIVITY REGULATION: Stimulated by B-type cyclins.
+CC       {ECO:0000250|UniProtKB:P30305}.
+CC   -!- SUBUNIT: Interacts with MAPK14 and 14-3-3 proteins.
+CC       {ECO:0000250|UniProtKB:P30305}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton, microtubule organizing
+CC       center, centrosome {ECO:0000250|UniProtKB:P30305}. Cytoplasm,
+CC       cytoskeleton, spindle pole {ECO:0000250|UniProtKB:P30305}.
+CC   -!- PTM: Phosphorylated by BRSK1 in vitro. Phosphorylated by CHEK1, which
+CC       inhibits the activity of this protein. Phosphorylation at Ser-349 by
+CC       AURKA might locally participate in the control of the onset of mitosis.
+CC       Phosphorylation by MELK at Ser-166 promotes localization to the
+CC       centrosome and the spindle poles during mitosis. Phosphorylation at
+CC       Ser-319 and Ser-370 by MAPK14 is required for binding to 14-3-3
+CC       proteins (By similarity). {ECO:0000250|UniProtKB:P30305}.
+CC   -!- SIMILARITY: Belongs to the MPI phosphatase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D16237; BAA03762.1; -; mRNA.
+DR   RefSeq; NP_598256.1; NM_133572.1.
+DR   AlphaFoldDB; P48966; -.
+DR   SMR; P48966; -.
+DR   BioGRID; 251111; 2.
+DR   STRING; 10116.ENSRNOP00000051129; -.
+DR   iPTMnet; P48966; -.
+DR   PhosphoSitePlus; P48966; -.
+DR   PaxDb; 10116-ENSRNOP00000051129; -.
+DR   GeneID; 171103; -.
+DR   KEGG; rno:171103; -.
+DR   AGR; RGD:621500; -.
+DR   CTD; 994; -.
+DR   RGD; 621500; Cdc25b.
+DR   eggNOG; KOG3772; Eukaryota.
+DR   InParanoid; P48966; -.
+DR   OrthoDB; 12481at2759; -.
+DR   PhylomeDB; P48966; -.
+DR   Reactome; R-RNO-69273; Cyclin A/B1/B2 associated events during G2/M transition.
+DR   Reactome; R-RNO-69656; Cyclin A:Cdk2-associated events at S phase entry.
+DR   PRO; PR:P48966; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005813; C:centrosome; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0000922; C:spindle pole; ISS:UniProtKB.
+DR   GO; GO:0004721; F:phosphoprotein phosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0019901; F:protein kinase binding; ISO:RGD.
+DR   GO; GO:0004725; F:protein tyrosine phosphatase activity; IBA:GO_Central.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007144; P:female meiosis I; ISO:RGD.
+DR   GO; GO:0000086; P:G2/M transition of mitotic cell cycle; IBA:GO_Central.
+DR   GO; GO:0001556; P:oocyte maturation; ISO:RGD.
+DR   GO; GO:0032467; P:positive regulation of cytokinesis; ISO:RGD.
+DR   GO; GO:0010971; P:positive regulation of G2/M transition of mitotic cell cycle; ISS:UniProtKB.
+DR   GO; GO:0110032; P:positive regulation of G2/MI transition of meiotic cell cycle; IBA:GO_Central.
+DR   GO; GO:0045931; P:positive regulation of mitotic cell cycle; ISO:RGD.
+DR   CDD; cd01530; Cdc25; 1.
+DR   Gene3D; 3.40.250.10; Rhodanese-like domain; 1.
+DR   InterPro; IPR000751; MPI_Phosphatase.
+DR   InterPro; IPR001763; Rhodanese-like_dom.
+DR   InterPro; IPR036873; Rhodanese-like_dom_sf.
+DR   PANTHER; PTHR10828:SF48; M-PHASE INDUCER PHOSPHATASE 2; 1.
+DR   PANTHER; PTHR10828; M-PHASE INDUCER PHOSPHATASE DUAL SPECIFICITY PHOSPHATASE CDC25; 1.
+DR   Pfam; PF06617; M-inducer_phosp; 1.
+DR   Pfam; PF00581; Rhodanese; 1.
+DR   PRINTS; PR00716; MPIPHPHTASE.
+DR   SMART; SM00450; RHOD; 1.
+DR   SUPFAM; SSF52821; Rhodanese/Cell cycle control phosphatase; 1.
+DR   PROSITE; PS50206; RHODANESE_3; 1.
+PE   1: Evidence at protein level;
+KW   Cell cycle; Cell division; Cytoplasm; Cytoskeleton; Hydrolase; Mitosis;
+KW   Phosphoprotein; Protein phosphatase; Reference proteome.
+FT   CHAIN           1..574
+FT                   /note="M-phase inducer phosphatase 2"
+FT                   /id="PRO_0000198646"
+FT   DOMAIN          425..532
+FT                   /note="Rhodanese"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00173"
+FT   REGION          31..51
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          90..110
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          339..359
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        90..109
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        481
+FT                   /evidence="ECO:0000250|UniProtKB:P30304"
+FT   MOD_RES         42
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         166
+FT                   /note="Phosphoserine; by MELK"
+FT                   /evidence="ECO:0000250|UniProtKB:P30305"
+FT   MOD_RES         246
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30305"
+FT   MOD_RES         319
+FT                   /note="Phosphoserine; by MAPKAPK2 and MELK"
+FT                   /evidence="ECO:0000250|UniProtKB:P30305"
+FT   MOD_RES         319
+FT                   /note="Phosphoserine; by MELK and MAPK14"
+FT                   /evidence="ECO:0000250|UniProtKB:P30305"
+FT   MOD_RES         349
+FT                   /note="Phosphoserine; by AURKA"
+FT                   /evidence="ECO:0000250|UniProtKB:P30305"
+FT   MOD_RES         370
+FT                   /note="Phosphoserine; by BRSK1 and MAPK14"
+FT                   /evidence="ECO:0000250|UniProtKB:P30305"
+FT   MOD_RES         557
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30305"
+SQ   SEQUENCE   574 AA;  64287 MW;  9367CE203B15FAAD CRC64;
+     MEVPPQKSAP GSALSTARVL GGIQRPRHLS GFGFGSDGLL GSPERAASSS PVTTLTQTMY
+     NLAGLGSETP KTQVGSLSFQ NRLTDLSLSR RTSECSLSSE SSESSDAGLC MDSPSPMDPQ
+     TAERTFEQAI QAASRVIQKM QFTIKASVFA SEAAGHSPVL QNITNSQALD SWEKDEAGYR
+     AASSPGEDKE NDGYIFKMPQ KLPHSSSARA LAEWASRREA FTQRPSSAPD LMCLTTDGKM
+     DVEEASPVAQ SSSLTPVERA CEEDDGFVDI LESDLKDDDM VPAGMENLIS APLVKKLDKE
+     EEQDLIMFSK CQRLFRSPSM PCSVIRPILK RLERPHDRDV PVLSKRRKSG TPLEEQQLEE
+     PKARVFRSKS LCHEIESILD SDHRGLIGDY SKAFLLQTVD GKHQDLKYIS PETMVALLTG
+     KFSNIVEKFV IVDCRYPYEY EGGHIKNAVN LPLEPDAETF LLKHPITPCN LDKRIILIFH
+     CEFSSERGPR MCRFIRERDR AANDYPSLYY PEMYILKGGY KEFFPQHPNF CEPQDYRPMN
+     HAAFRDELRN FRLKTRSWAG ERSTTQLCSR LQDQ
+//

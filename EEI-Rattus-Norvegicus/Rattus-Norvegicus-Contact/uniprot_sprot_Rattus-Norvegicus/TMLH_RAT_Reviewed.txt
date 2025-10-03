@@ -1,0 +1,166 @@
+ID   TMLH_RAT                Reviewed;         421 AA.
+AC   Q91ZW6; Q5U2P7;
+DT   20-JUN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   28-NOV-2006, sequence version 2.
+DT   24-JUL-2024, entry version 147.
+DE   RecName: Full=Trimethyllysine dioxygenase, mitochondrial;
+DE            EC=1.14.11.8 {ECO:0000269|PubMed:11431483};
+DE   AltName: Full=Epsilon-trimethyllysine 2-oxoglutarate dioxygenase;
+DE   AltName: Full=TML hydroxylase;
+DE   AltName: Full=TML-alpha-ketoglutarate dioxygenase;
+DE            Short=TML dioxygenase;
+DE            Short=TMLD;
+DE   Flags: Precursor;
+GN   Name=Tmlhe; Synonyms=Tmlh;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 17-421 (ISOFORM 1), PARTIAL PROTEIN SEQUENCE,
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBUNIT, AND SUBCELLULAR LOCATION.
+RC   STRAIN=Wistar;
+RX   PubMed=11431483; DOI=10.1074/jbc.m105929200;
+RA   Vaz F.M., Ofman R., Westinga K., Back J.W., Wanders R.J.A.;
+RT   "Molecular and biochemical characterization of rat epsilon-N-
+RT   trimethyllysine hydroxylase, the first enzyme of carnitine biosynthesis.";
+RL   J. Biol. Chem. 276:33512-33517(2001).
+CC   -!- FUNCTION: Converts trimethyllysine (TML) into hydroxytrimethyllysine
+CC       (HTML) (PubMed:11431483). {ECO:0000269|PubMed:11431483}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + N(6),N(6),N(6)-trimethyl-L-lysine + O2 =
+CC         (3S)-3-hydroxy-N(6),N(6),N(6)-trimethyl-L-lysine + CO2 + succinate;
+CC         Xref=Rhea:RHEA:14181, ChEBI:CHEBI:15379, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:30031, ChEBI:CHEBI:58100,
+CC         ChEBI:CHEBI:141499; EC=1.14.11.8;
+CC         Evidence={ECO:0000269|PubMed:11431483};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=L-ascorbate; Xref=ChEBI:CHEBI:38290;
+CC   -!- PATHWAY: Amine and polyamine biosynthesis; carnitine biosynthesis.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:11431483}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix
+CC       {ECO:0000269|PubMed:11431483}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q91ZW6-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q91ZW6-2; Sequence=VSP_021580;
+CC   -!- SIMILARITY: Belongs to the gamma-BBH/TMLD family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC085923; AAH85923.1; -; mRNA.
+DR   EMBL; AF374406; AAL01252.1; -; mRNA.
+DR   RefSeq; NP_596878.2; NM_133387.2. [Q91ZW6-2]
+DR   RefSeq; XP_006255917.1; XM_006255855.1. [Q91ZW6-1]
+DR   AlphaFoldDB; Q91ZW6; -.
+DR   SMR; Q91ZW6; -.
+DR   IntAct; Q91ZW6; 1.
+DR   STRING; 10116.ENSRNOP00000068322; -.
+DR   iPTMnet; Q91ZW6; -.
+DR   PhosphoSitePlus; Q91ZW6; -.
+DR   jPOST; Q91ZW6; -.
+DR   PaxDb; 10116-ENSRNOP00000068031; -.
+DR   Ensembl; ENSRNOT00000076655.3; ENSRNOP00000068322.1; ENSRNOG00000000729.8. [Q91ZW6-1]
+DR   Ensembl; ENSRNOT00000076901.3; ENSRNOP00000068031.1; ENSRNOG00000000729.8. [Q91ZW6-2]
+DR   Ensembl; ENSRNOT00065056107; ENSRNOP00065046217; ENSRNOG00065032616. [Q91ZW6-1]
+DR   GeneID; 170898; -.
+DR   KEGG; rno:170898; -.
+DR   UCSC; RGD:620629; rat. [Q91ZW6-1]
+DR   AGR; RGD:620629; -.
+DR   CTD; 55217; -.
+DR   RGD; 620629; Tmlhe.
+DR   eggNOG; KOG3889; Eukaryota.
+DR   GeneTree; ENSGT00530000063582; -.
+DR   HOGENOM; CLU_021859_2_0_1; -.
+DR   InParanoid; Q91ZW6; -.
+DR   OMA; EEKVCIQ; -.
+DR   PhylomeDB; Q91ZW6; -.
+DR   TreeFam; TF313805; -.
+DR   BioCyc; MetaCyc:MONOMER-14429; -.
+DR   BRENDA; 1.14.11.8; 5301.
+DR   Reactome; R-RNO-71262; Carnitine synthesis.
+DR   UniPathway; UPA00118; -.
+DR   PRO; PR:Q91ZW6; -.
+DR   Proteomes; UP000002494; Chromosome 20.
+DR   Bgee; ENSRNOG00000000729; Expressed in kidney and 19 other cell types or tissues.
+DR   GO; GO:0005759; C:mitochondrial matrix; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0016702; F:oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen; ISO:RGD.
+DR   GO; GO:0050353; F:trimethyllysine dioxygenase activity; IDA:RGD.
+DR   GO; GO:0045329; P:carnitine biosynthetic process; ISS:UniProtKB.
+DR   CDD; cd00250; CAS_like; 1.
+DR   Gene3D; 3.30.2020.30; -; 1.
+DR   Gene3D; 3.60.130.10; Clavaminate synthase-like; 1.
+DR   InterPro; IPR050411; AlphaKG_dependent_hydroxylases.
+DR   InterPro; IPR010376; GBBH-like_N.
+DR   InterPro; IPR038492; GBBH-like_N_sf.
+DR   InterPro; IPR042098; TauD-like_sf.
+DR   InterPro; IPR003819; TauD/TfdA-like.
+DR   InterPro; IPR012776; Trimethyllysine_dOase.
+DR   NCBIfam; TIGR02410; carnitine_TMLD; 1.
+DR   PANTHER; PTHR10696; GAMMA-BUTYROBETAINE HYDROXYLASE-RELATED; 1.
+DR   PANTHER; PTHR10696:SF51; TRIMETHYLLYSINE DIOXYGENASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF06155; GBBH-like_N; 1.
+DR   Pfam; PF02668; TauD; 1.
+DR   SUPFAM; SSF51197; Clavaminate synthase-like; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Alternative splicing; Carnitine biosynthesis; Dioxygenase;
+KW   Direct protein sequencing; Iron; Metal-binding; Mitochondrion;
+KW   Oxidoreductase; Reference proteome; Transit peptide.
+FT   TRANSIT         1..15
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           16..421
+FT                   /note="Trimethyllysine dioxygenase, mitochondrial"
+FT                   /id="PRO_0000002797"
+FT   BINDING         242
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         244
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         389
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         179
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91ZE0"
+FT   MOD_RES         236
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NVH6"
+FT   VAR_SEQ         62
+FT                   /note="L -> LGTKPRALRLLEL (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_021580"
+SQ   SEQUENCE   421 AA;  49568 MW;  487AB5FCA0D02D25 CRC64;
+     MWYHKLLHQQ SRLQNLMKRG DIAHGLRLSG FKSLFPFSLH WCHTASKSVN CTWHQHEDHL
+     ELQYASTVMR FDYVWLRDHC RSASCYNSKT HQRSLDTASV DLCIKPKTIR LDESTLFFTW
+     PDGHVTRYDL DWLVKNSYEG QKQEVIQPRV LWNAKLYQDA QLPSVDFQGF LETKEGLKKF
+     LQNFLLYGIA FVENVPPTQE HTEKLARRVS LIRETIYGRM WYFTSDFSRG DTAYTKLALD
+     RHTDTTYFQE PCGIQVFHCL KHEGTGGRTL LVDGFYAAQQ VLQRAPEEFD LLSQVPLKHE
+     YIENVGQCHN HMIGVGPILN IYPWNKELYL IRYNNYDRAV INTVPYDVVR RWYAAHRTLT
+     TELRRPENEL WVKLKPGKVL FIDNWRVLHG RESFTGYRQL CGCYLTRDDV LNTARILGLH
+     A
+//

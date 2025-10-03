@@ -1,0 +1,541 @@
+ID   SHH_RAT                 Reviewed;         437 AA.
+AC   Q63673;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-OCT-2024, entry version 181.
+DE   RecName: Full=Sonic hedgehog protein {ECO:0000305};
+DE            Short=SHH;
+DE            EC=3.1.-.- {ECO:0000250|UniProtKB:Q62226};
+DE   AltName: Full=Shh unprocessed N-terminal signaling and C-terminal autoprocessing domains {ECO:0000250|UniProtKB:Q62226};
+DE            Short=ShhNC {ECO:0000250|UniProtKB:Q62226};
+DE   Contains:
+DE     RecName: Full=Sonic hedgehog protein N-product;
+DE              Short=ShhN;
+DE     AltName: Full=Shh N-terminal processed signaling domains {ECO:0000250|UniProtKB:Q62226};
+DE              Short=ShhNp {ECO:0000250|UniProtKB:Q62226};
+DE   Flags: Precursor;
+GN   Name=Shh {ECO:0000312|RGD:3673}; Synonyms=Vhh-1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Embryonic floor plate;
+RX   PubMed=8124714; DOI=10.1016/0092-8674(94)90514-2;
+RA   Roelink H., Augsburger A., Heemskerk J., Korzh V., Norlin S.,
+RA   Ruiz i Altaba A., Tanabe Y., Placzek M., Edlund T., Jessell T.M., Dodd J.;
+RT   "Floor plate and motor neuron induction by vhh-1, a vertebrate homolog of
+RT   hedgehog expressed by the notochord.";
+RL   Cell 76:761-775(1994).
+RN   [2]
+RP   SUBUNIT, AND SUBCELLULAR LOCATION.
+RX   PubMed=11395778; DOI=10.1038/35079648;
+RA   Zeng X., Goetz J.A., Suber L.M., Scott W.J. Jr., Schreiner C.M.,
+RA   Robbins D.J.;
+RT   "A freely diffusible form of Sonic hedgehog mediates long-range
+RT   signalling.";
+RL   Nature 411:716-720(2001).
+CC   -!- FUNCTION: [Sonic hedgehog protein]: The C-terminal part of the sonic
+CC       hedgehog protein precursor displays an autoproteolysis and a
+CC       cholesterol transferase activity (By similarity). Both activities
+CC       result in the cleavage of the full-length protein into two parts (ShhN
+CC       and ShhC) followed by the covalent attachment of a cholesterol moiety
+CC       to the C-terminal of the newly generated ShhN (By similarity). Both
+CC       activities occur in the reticulum endoplasmic (By similarity). Once
+CC       cleaved, ShhC is degraded in the endoplasmic reticulum (By similarity).
+CC       {ECO:0000250|UniProtKB:Q15465, ECO:0000250|UniProtKB:Q62226}.
+CC   -!- FUNCTION: [Sonic hedgehog protein N-product]: The dually lipidated
+CC       sonic hedgehog protein N-product (ShhNp) is a morphogen which is
+CC       essential for a variety of patterning events during development.
+CC       Induces ventral cell fate in the neural tube and somites (By
+CC       similarity). Involved in the patterning of the anterior-posterior axis
+CC       of the developing limb bud (By similarity). Essential for axon guidance
+CC       (By similarity). Binds to the patched (PTCH1) receptor, which functions
+CC       in association with smoothened (SMO), to activate the transcription of
+CC       target genes (By similarity). In the absence of SHH, PTCH1 represses
+CC       the constitutive signaling activity of SMO (By similarity).
+CC       {ECO:0000250|UniProtKB:Q15465, ECO:0000250|UniProtKB:Q62226}.
+CC   -!- CATALYTIC ACTIVITY: [Sonic hedgehog protein]:
+CC       Reaction=cholesterol + glycyl-L-cysteinyl-[protein] + H(+) = [protein]-
+CC         C-terminal glycyl cholesterol ester + N-terminal L-cysteinyl-
+CC         [protein]; Xref=Rhea:RHEA:59504, Rhea:RHEA-COMP:12707, Rhea:RHEA-
+CC         COMP:15369, Rhea:RHEA-COMP:15374, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16113, ChEBI:CHEBI:65250, ChEBI:CHEBI:143135,
+CC         ChEBI:CHEBI:143140; Evidence={ECO:0000250|UniProtKB:Q62226};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:59505;
+CC         Evidence={ECO:0000250|UniProtKB:Q62226};
+CC   -!- SUBUNIT: Interacts with HHATL/GUP1 which negatively regulates HHAT-
+CC       mediated palmitoylation of the SHH N-terminus (By similarity).
+CC       Interacts with BOC and CDON (By similarity). Interacts with HHIP (By
+CC       similarity). Interacts with DISP1 via its cholesterol anchor (By
+CC       similarity). Interacts with SCUBE2 (By similarity). Interacts with
+CC       glypican GPC3 (By similarity). {ECO:0000250|UniProtKB:Q15465,
+CC       ECO:0000250|UniProtKB:Q62226, ECO:0000269|PubMed:11395778}.
+CC   -!- SUBUNIT: [Sonic hedgehog protein N-product]: Multimer.
+CC       {ECO:0000250|UniProtKB:Q15465}.
+CC   -!- SUBCELLULAR LOCATION: [Sonic hedgehog protein]: Endoplasmic reticulum
+CC       membrane {ECO:0000250|UniProtKB:Q15465}. Golgi apparatus membrane
+CC       {ECO:0000250|UniProtKB:Q15465}. Note=Co-localizes with HHAT in the ER
+CC       and Golgi membrane. {ECO:0000250|UniProtKB:Q15465}.
+CC   -!- SUBCELLULAR LOCATION: [Sonic hedgehog protein N-product]: Cell membrane
+CC       {ECO:0000250|UniProtKB:Q62226}; Lipid-anchor
+CC       {ECO:0000250|UniProtKB:Q62226}. Note=The dual-lipidated sonic hedgehog
+CC       protein N-product (ShhNp) is firmly tethered to the cell membrane where
+CC       it forms multimers (By similarity). Further solubilization and release
+CC       from the cell surface seem to be achieved through different mechanisms,
+CC       including the interaction with DISP1 and SCUBE2, movement by
+CC       lipoprotein particles, transport by cellular extensions called
+CC       cytonemes or by the proteolytic removal of both terminal lipidated
+CC       peptides. {ECO:0000250|UniProtKB:Q62226}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the node, notochord, floor plate, and
+CC       posterior limb bud mesenchyme. {ECO:0000269|PubMed:8124714}.
+CC   -!- DOMAIN: [Sonic hedgehog protein N-product]: Binds calcium and zinc
+CC       ions; this stabilizes the protein fold and is essential for protein-
+CC       protein interactions mediated by this domain.
+CC       {ECO:0000250|UniProtKB:Q62226}.
+CC   -!- DOMAIN: [Sonic hedgehog protein N-product]: The Cardin-Weintraub (CW)
+CC       motif is required for heparan sulfate binding of the solubilized ShhNp
+CC       (By similarity). The N-terminal palmitoylated peptide is cleaved at the
+CC       Heparan sulfate-binding Cardin-Weintraub (CW) motif site (By
+CC       similarity). The cleavage reduced the interactions with heparan
+CC       sulfate. The cleavage is enhanced by SCUBE2 (By similarity).
+CC       {ECO:0000250|UniProtKB:Q62226}.
+CC   -!- PTM: [Sonic hedgehog protein]: The C-terminal domain displays an
+CC       autoproteolysis activity and a cholesterol transferase activity (By
+CC       similarity). Both activities result in the cleavage of the full-length
+CC       protein and covalent attachment of a cholesterol moiety to the C-
+CC       terminal of the newly generated N-terminal fragment (ShhN) (By
+CC       similarity). Cholesterylation is required for the sonic hedgehog
+CC       protein N-product targeting to lipid rafts and multimerization (By
+CC       similarity). ShhN is the active species in both local and long-range
+CC       signaling, whereas the C-product (ShhC) is degraded in the reticulum
+CC       endoplasmic (By similarity). {ECO:0000250|UniProtKB:Q62226}.
+CC   -!- PTM: [Sonic hedgehog protein N-product]: N-palmitoylation by HHAT of
+CC       ShhN is required for sonic hedgehog protein N-product multimerization
+CC       and full activity (By similarity). It is a prerequisite for the
+CC       membrane-proximal positioning and the subsequent shedding of this N-
+CC       terminal peptide (By similarity). {ECO:0000250|UniProtKB:Q62226}.
+CC   -!- PTM: [Sonic hedgehog protein N-product]: The lipidated N- and C-
+CC       terminal peptides of ShhNp can be cleaved (shedding) (By similarity).
+CC       The N-terminal palmitoylated peptide is cleaved at the Cardin-Weintraub
+CC       (CW) motif site (By similarity). The cleavage reduced the interactions
+CC       with heparan sulfate (By similarity). The cleavage is enhanced by
+CC       SCUBE2 (By similarity). {ECO:0000250|UniProtKB:Q62226}.
+CC   -!- SIMILARITY: Belongs to the hedgehog family. {ECO:0000305}.
+CC   -!- CAUTION: The several steps and mechanisms that permit controlled Shh
+CC       dispersion and gradient formation remain controversial. The ShhNC C-
+CC       terminal domain displays an autoproteolysis activity and a cholesterol
+CC       transferase activity resulting in the cleavage and covalent attachment
+CC       of a cholesterol moiety to the C-terminal of the newly generated N-
+CC       terminal fragment (ShhN). The protein is further modified by covalent
+CC       addition of palmitate at the N-terminal of ShhN, resulting to the dual-
+CC       lipidated Shh (ShhNp). ShhNp is firmly tethered to the cell membrane
+CC       where it forms multimers. Further solubilization and release from the
+CC       cell surface seem to be achieved through different mechanisms,
+CC       including the interaction with DISP1 and SCUBE2, movement by
+CC       lipoprotein particles, transport by cellular extensions called
+CC       cytonemes or by proteolytic removal of both terminal lipidated
+CC       peptides. Once released, the fully processed Shh can signal within
+CC       embryonic tissues both at short and long-range.
+CC       {ECO:0000250|UniProtKB:Q62226}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L27340; AAA20999.1; -; mRNA.
+DR   PIR; B53193; B53193.
+DR   RefSeq; NP_058917.1; NM_017221.1.
+DR   AlphaFoldDB; Q63673; -.
+DR   SMR; Q63673; -.
+DR   STRING; 10116.ENSRNOP00000008497; -.
+DR   MEROPS; C46.002; -.
+DR   GlyCosmos; Q63673; 1 site, No reported glycans.
+DR   GlyGen; Q63673; 1 site.
+DR   PhosphoSitePlus; Q63673; -.
+DR   PaxDb; 10116-ENSRNOP00000008497; -.
+DR   GeneID; 29499; -.
+DR   KEGG; rno:29499; -.
+DR   AGR; RGD:3673; -.
+DR   CTD; 6469; -.
+DR   RGD; 3673; Shh.
+DR   eggNOG; KOG3638; Eukaryota.
+DR   InParanoid; Q63673; -.
+DR   OrthoDB; 197397at2759; -.
+DR   PhylomeDB; Q63673; -.
+DR   Reactome; R-RNO-5358346; Hedgehog ligand biogenesis.
+DR   Reactome; R-RNO-5362798; Release of Hh-Np from the secreting cell.
+DR   Reactome; R-RNO-5632681; Ligand-receptor interactions.
+DR   PRO; PR:Q63673; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0009986; C:cell surface; ISS:UniProtKB.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031012; C:extracellular matrix; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0005794; C:Golgi apparatus; ISO:RGD.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0098686; C:hippocampal mossy fiber to CA3 synapse; IDA:SynGO.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0045121; C:membrane raft; ISS:UniProtKB.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0098794; C:postsynapse; IDA:SynGO.
+DR   GO; GO:0098793; C:presynapse; IDA:SynGO.
+DR   GO; GO:0008021; C:synaptic vesicle; IDA:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0140853; F:cholesterol-protein transferase activity; ISS:UniProtKB.
+DR   GO; GO:0005539; F:glycosaminoglycan binding; ISO:RGD.
+DR   GO; GO:0043237; F:laminin-1 binding; ISS:UniProtKB.
+DR   GO; GO:0005113; F:patched binding; ISS:UniProtKB.
+DR   GO; GO:0008233; F:peptidase activity; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0046632; P:alpha-beta T cell differentiation; ISO:RGD.
+DR   GO; GO:0048646; P:anatomical structure formation involved in morphogenesis; ISO:RGD.
+DR   GO; GO:0008209; P:androgen metabolic process; ISS:UniProtKB.
+DR   GO; GO:0001525; P:angiogenesis; ISO:RGD.
+DR   GO; GO:0048645; P:animal organ formation; ISO:RGD.
+DR   GO; GO:0009952; P:anterior/posterior pattern specification; ISO:RGD.
+DR   GO; GO:0097190; P:apoptotic signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0060840; P:artery development; ISO:RGD.
+DR   GO; GO:0048708; P:astrocyte differentiation; ISO:RGD.
+DR   GO; GO:0007411; P:axon guidance; ISS:UniProtKB.
+DR   GO; GO:0060020; P:Bergmann glial cell differentiation; ISO:RGD.
+DR   GO; GO:0007596; P:blood coagulation; ISO:RGD.
+DR   GO; GO:0001569; P:branching involved in blood vessel morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0060442; P:branching involved in prostate gland morphogenesis; ISO:RGD.
+DR   GO; GO:0060445; P:branching involved in salivary gland morphogenesis; ISO:RGD.
+DR   GO; GO:0001658; P:branching involved in ureteric bud morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0048754; P:branching morphogenesis of an epithelial tube; ISS:UniProtKB.
+DR   GO; GO:0060447; P:bud outgrowth involved in lung branching; ISO:RGD.
+DR   GO; GO:0043010; P:camera-type eye development; ISO:RGD.
+DR   GO; GO:0060070; P:canonical Wnt signaling pathway; ISO:RGD.
+DR   GO; GO:0043369; P:CD4-positive or CD8-positive, alpha-beta T cell lineage commitment; ISS:UniProtKB.
+DR   GO; GO:0048468; P:cell development; ISS:UniProtKB.
+DR   GO; GO:0045165; P:cell fate commitment; ISO:RGD.
+DR   GO; GO:0001708; P:cell fate specification; ISS:UniProtKB.
+DR   GO; GO:0016477; P:cell migration; ISO:RGD.
+DR   GO; GO:0008283; P:cell population proliferation; ISO:RGD.
+DR   GO; GO:0021924; P:cell proliferation in external granule layer; ISO:RGD.
+DR   GO; GO:0007267; P:cell-cell signaling; ISS:UniProtKB.
+DR   GO; GO:0071285; P:cellular response to lithium ion; ISO:RGD.
+DR   GO; GO:0007417; P:central nervous system development; ISS:UniProtKB.
+DR   GO; GO:0021930; P:cerebellar granule cell precursor proliferation; ISS:UniProtKB.
+DR   GO; GO:0071679; P:commissural neuron axon guidance; IMP:RGD.
+DR   GO; GO:0003140; P:determination of left/right asymmetry in lateral mesoderm; ISO:RGD.
+DR   GO; GO:0007368; P:determination of left/right symmetry; ISO:RGD.
+DR   GO; GO:0048589; P:developmental growth; ISO:RGD.
+DR   GO; GO:0007502; P:digestive tract mesoderm development; IDA:RGD.
+DR   GO; GO:0048546; P:digestive tract morphogenesis; ISO:RGD.
+DR   GO; GO:0021904; P:dorsal/ventral neural tube patterning; ISO:RGD.
+DR   GO; GO:0009953; P:dorsal/ventral pattern formation; ISS:UniProtKB.
+DR   GO; GO:0007398; P:ectoderm development; ISO:RGD.
+DR   GO; GO:0048557; P:embryonic digestive tract morphogenesis; ISO:RGD.
+DR   GO; GO:0042733; P:embryonic digit morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0048617; P:embryonic foregut morphogenesis; ISO:RGD.
+DR   GO; GO:0035115; P:embryonic forelimb morphogenesis; ISO:RGD.
+DR   GO; GO:0035116; P:embryonic hindlimb morphogenesis; ISO:RGD.
+DR   GO; GO:0030326; P:embryonic limb morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0048598; P:embryonic morphogenesis; ISO:RGD.
+DR   GO; GO:0048568; P:embryonic organ development; ISO:RGD.
+DR   GO; GO:0048706; P:embryonic skeletal system development; ISO:RGD.
+DR   GO; GO:0006897; P:endocytosis; ISO:RGD.
+DR   GO; GO:0050673; P:epithelial cell proliferation; ISO:RGD.
+DR   GO; GO:0060767; P:epithelial cell proliferation involved in prostate gland development; ISO:RGD.
+DR   GO; GO:0060664; P:epithelial cell proliferation involved in salivary gland morphogenesis; ISO:RGD.
+DR   GO; GO:0060441; P:epithelial tube branching involved in lung morphogenesis; IEP:RGD.
+DR   GO; GO:0060684; P:epithelial-mesenchymal cell signaling; ISO:RGD.
+DR   GO; GO:0060738; P:epithelial-mesenchymal signaling involved in prostate gland development; ISO:RGD.
+DR   GO; GO:0090162; P:establishment of epithelial cell polarity; ISO:RGD.
+DR   GO; GO:0030900; P:forebrain development; ISS:UniProtKB.
+DR   GO; GO:0021871; P:forebrain regionalization; ISO:RGD.
+DR   GO; GO:0048859; P:formation of anatomical boundary; ISO:RGD.
+DR   GO; GO:0061196; P:fungiform papilla development; IMP:RGD.
+DR   GO; GO:0061198; P:fungiform papilla formation; IMP:RGD.
+DR   GO; GO:0061197; P:fungiform papilla morphogenesis; IMP:RGD.
+DR   GO; GO:0010467; P:gene expression; ISO:RGD.
+DR   GO; GO:0001942; P:hair follicle development; ISO:RGD.
+DR   GO; GO:0031069; P:hair follicle morphogenesis; ISO:RGD.
+DR   GO; GO:0007507; P:heart development; ISS:UniProtKB.
+DR   GO; GO:0001947; P:heart looping; ISO:RGD.
+DR   GO; GO:0030902; P:hindbrain development; ISS:UniProtKB.
+DR   GO; GO:0007442; P:hindgut morphogenesis; ISO:RGD.
+DR   GO; GO:0048839; P:inner ear development; ISO:RGD.
+DR   GO; GO:0016539; P:intein-mediated protein splicing; IEA:InterPro.
+DR   GO; GO:0045109; P:intermediate filament organization; ISO:RGD.
+DR   GO; GO:0001822; P:kidney development; ISO:RGD.
+DR   GO; GO:0060459; P:left lung development; ISO:RGD.
+DR   GO; GO:0060174; P:limb bud formation; ISO:RGD.
+DR   GO; GO:0060173; P:limb development; ISO:RGD.
+DR   GO; GO:0097421; P:liver regeneration; IEP:RGD.
+DR   GO; GO:0030324; P:lung development; ISS:UniProtKB.
+DR   GO; GO:0060428; P:lung epithelium development; ISO:RGD.
+DR   GO; GO:0060463; P:lung lobe morphogenesis; ISO:RGD.
+DR   GO; GO:0060425; P:lung morphogenesis; ISO:RGD.
+DR   GO; GO:0060484; P:lung-associated mesenchyme development; ISO:RGD.
+DR   GO; GO:0002320; P:lymphoid progenitor cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0030539; P:male genitalia development; ISS:UniProtKB.
+DR   GO; GO:0048808; P:male genitalia morphogenesis; IMP:RGD.
+DR   GO; GO:0097152; P:mesenchymal cell apoptotic process; ISO:RGD.
+DR   GO; GO:0010463; P:mesenchymal cell proliferation; ISO:RGD.
+DR   GO; GO:0060916; P:mesenchymal cell proliferation involved in lung development; ISO:RGD.
+DR   GO; GO:0060783; P:mesenchymal smoothened signaling pathway involved in prostate gland development; ISO:RGD.
+DR   GO; GO:0072205; P:metanephric collecting duct development; ISO:RGD.
+DR   GO; GO:0072136; P:metanephric mesenchymal cell proliferation involved in metanephros development; ISS:UniProtKB.
+DR   GO; GO:0001656; P:metanephros development; ISS:UniProtKB.
+DR   GO; GO:0030901; P:midbrain development; ISS:UniProtKB.
+DR   GO; GO:0045445; P:myoblast differentiation; ISO:RGD.
+DR   GO; GO:0014902; P:myotube differentiation; ISO:RGD.
+DR   GO; GO:0046639; P:negative regulation of alpha-beta T cell differentiation; ISO:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:0090090; P:negative regulation of canonical Wnt signaling pathway; ISO:RGD.
+DR   GO; GO:0045596; P:negative regulation of cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0030336; P:negative regulation of cell migration; ISS:UniProtKB.
+DR   GO; GO:0090370; P:negative regulation of cholesterol efflux; ISO:RGD.
+DR   GO; GO:1904339; P:negative regulation of dopaminergic neuron differentiation; ISO:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:2000357; P:negative regulation of kidney smooth muscle cell differentiation; ISS:UniProtKB.
+DR   GO; GO:2001054; P:negative regulation of mesenchymal cell apoptotic process; ISO:RGD.
+DR   GO; GO:0045665; P:negative regulation of neuron differentiation; ISO:RGD.
+DR   GO; GO:0032435; P:negative regulation of proteasomal ubiquitin-dependent protein catabolic process; ISO:RGD.
+DR   GO; GO:0042177; P:negative regulation of protein catabolic process; ISO:RGD.
+DR   GO; GO:0033085; P:negative regulation of T cell differentiation in thymus; ISO:RGD.
+DR   GO; GO:0042130; P:negative regulation of T cell proliferation; ISO:RGD.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0034244; P:negative regulation of transcription elongation by RNA polymerase II; ISO:RGD.
+DR   GO; GO:2000062; P:negative regulation of ureter smooth muscle cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0030178; P:negative regulation of Wnt signaling pathway; ISO:RGD.
+DR   GO; GO:0045060; P:negative thymic T cell selection; ISS:UniProtKB.
+DR   GO; GO:0001755; P:neural crest cell migration; ISS:UniProtKB.
+DR   GO; GO:0001841; P:neural tube formation; IMP:RGD.
+DR   GO; GO:0007405; P:neuroblast proliferation; ISS:UniProtKB.
+DR   GO; GO:0030182; P:neuron differentiation; ISO:RGD.
+DR   GO; GO:0048663; P:neuron fate commitment; ISS:UniProtKB.
+DR   GO; GO:0042476; P:odontogenesis; ISO:RGD.
+DR   GO; GO:0042475; P:odontogenesis of dentin-containing tooth; ISO:RGD.
+DR   GO; GO:0014003; P:oligodendrocyte development; ISO:RGD.
+DR   GO; GO:0048709; P:oligodendrocyte differentiation; ISO:RGD.
+DR   GO; GO:0002076; P:osteoblast development; ISO:RGD.
+DR   GO; GO:0031016; P:pancreas development; ISO:RGD.
+DR   GO; GO:0007389; P:pattern specification process; ISS:UniProtKB.
+DR   GO; GO:0009949; P:polarity specification of anterior/posterior axis; ISS:UniProtKB.
+DR   GO; GO:0046638; P:positive regulation of alpha-beta T cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0048711; P:positive regulation of astrocyte differentiation; ISO:RGD.
+DR   GO; GO:0051781; P:positive regulation of cell division; ISO:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IDA:RGD.
+DR   GO; GO:0021940; P:positive regulation of cerebellar granule cell precursor proliferation; ISO:RGD.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; ISS:UniProtKB.
+DR   GO; GO:2001028; P:positive regulation of endothelial cell chemotaxis; IDA:RGD.
+DR   GO; GO:0050679; P:positive regulation of epithelial cell proliferation; ISO:RGD.
+DR   GO; GO:0060769; P:positive regulation of epithelial cell proliferation involved in prostate gland development; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:0033092; P:positive regulation of immature T cell proliferation in thymus; ISS:UniProtKB.
+DR   GO; GO:2000358; P:positive regulation of kidney smooth muscle cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0002053; P:positive regulation of mesenchymal cell proliferation; ISO:RGD.
+DR   GO; GO:2000729; P:positive regulation of mesenchymal cell proliferation involved in ureter development; ISS:UniProtKB.
+DR   GO; GO:0002052; P:positive regulation of neuroblast proliferation; IMP:RGD.
+DR   GO; GO:0045666; P:positive regulation of neuron differentiation; IMP:RGD.
+DR   GO; GO:0032901; P:positive regulation of neurotrophin production; IMP:RGD.
+DR   GO; GO:0048714; P:positive regulation of oligodendrocyte differentiation; ISO:RGD.
+DR   GO; GO:0070447; P:positive regulation of oligodendrocyte progenitor proliferation; IDA:RGD.
+DR   GO; GO:0060406; P:positive regulation of penile erection; IMP:RGD.
+DR   GO; GO:0046534; P:positive regulation of photoreceptor cell differentiation; IDA:RGD.
+DR   GO; GO:0042307; P:positive regulation of protein import into nucleus; ISO:RGD.
+DR   GO; GO:0061189; P:positive regulation of sclerotome development; ISO:RGD.
+DR   GO; GO:0014858; P:positive regulation of skeletal muscle cell proliferation; ISO:RGD.
+DR   GO; GO:0048643; P:positive regulation of skeletal muscle tissue development; ISO:RGD.
+DR   GO; GO:0045880; P:positive regulation of smoothened signaling pathway; ISS:UniProtKB.
+DR   GO; GO:1903672; P:positive regulation of sprouting angiogenesis; IDA:RGD.
+DR   GO; GO:0051155; P:positive regulation of striated muscle cell differentiation; ISO:RGD.
+DR   GO; GO:0033089; P:positive regulation of T cell differentiation in thymus; ISS:UniProtKB.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:2000063; P:positive regulation of ureter smooth muscle cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0030177; P:positive regulation of Wnt signaling pathway; ISO:RGD.
+DR   GO; GO:0045059; P:positive thymic T cell selection; ISS:UniProtKB.
+DR   GO; GO:0060516; P:primary prostatic bud elongation; ISO:RGD.
+DR   GO; GO:0060523; P:prostate epithelial cord elongation; ISO:RGD.
+DR   GO; GO:0030850; P:prostate gland development; IEP:RGD.
+DR   GO; GO:0016540; P:protein autoprocessing; IEA:InterPro.
+DR   GO; GO:0006606; P:protein import into nucleus; ISO:RGD.
+DR   GO; GO:0034504; P:protein localization to nucleus; ISO:RGD.
+DR   GO; GO:0042127; P:regulation of cell population proliferation; IDA:RGD.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0030856; P:regulation of epithelial cell differentiation; IEP:RGD.
+DR   GO; GO:0060768; P:regulation of epithelial cell proliferation involved in prostate gland development; ISO:RGD.
+DR   GO; GO:0010468; P:regulation of gene expression; ISO:RGD.
+DR   GO; GO:0060251; P:regulation of glial cell proliferation; ISO:RGD.
+DR   GO; GO:0060782; P:regulation of mesenchymal cell proliferation involved in prostate gland development; ISO:RGD.
+DR   GO; GO:0042481; P:regulation of odontogenesis; ISO:RGD.
+DR   GO; GO:0060685; P:regulation of prostatic bud formation; ISO:RGD.
+DR   GO; GO:1900180; P:regulation of protein localization to nucleus; ISO:RGD.
+DR   GO; GO:0030162; P:regulation of proteolysis; ISS:UniProtKB.
+DR   GO; GO:0072091; P:regulation of stem cell proliferation; ISO:RGD.
+DR   GO; GO:0030323; P:respiratory tube development; ISO:RGD.
+DR   GO; GO:0048678; P:response to axon injury; IMP:RGD.
+DR   GO; GO:0032355; P:response to estradiol; IEP:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IDA:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0032526; P:response to retinoic acid; IEP:RGD.
+DR   GO; GO:0060458; P:right lung development; ISO:RGD.
+DR   GO; GO:0060021; P:roof of mouth development; ISO:RGD.
+DR   GO; GO:0060662; P:salivary gland cavitation; ISO:RGD.
+DR   GO; GO:0097264; P:self proteolysis; ISS:UniProtKB.
+DR   GO; GO:0014856; P:skeletal muscle cell proliferation; ISO:RGD.
+DR   GO; GO:0098528; P:skeletal muscle fiber differentiation; ISO:RGD.
+DR   GO; GO:0007519; P:skeletal muscle tissue development; ISO:RGD.
+DR   GO; GO:0043588; P:skin development; ISO:RGD.
+DR   GO; GO:0048745; P:smooth muscle tissue development; ISO:RGD.
+DR   GO; GO:0007224; P:smoothened signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0061053; P:somite development; ISO:RGD.
+DR   GO; GO:0021513; P:spinal cord dorsal/ventral patterning; IDA:MGI.
+DR   GO; GO:0021522; P:spinal cord motor neuron differentiation; ISO:RGD.
+DR   GO; GO:0048864; P:stem cell development; ISS:UniProtKB.
+DR   GO; GO:0072089; P:stem cell proliferation; ISO:RGD.
+DR   GO; GO:0051146; P:striated muscle cell differentiation; ISO:RGD.
+DR   GO; GO:0014706; P:striated muscle tissue development; ISO:RGD.
+DR   GO; GO:0033077; P:T cell differentiation in thymus; ISS:UniProtKB.
+DR   GO; GO:0042098; P:T cell proliferation; ISO:RGD.
+DR   GO; GO:0021978; P:telencephalon regionalization; IMP:RGD.
+DR   GO; GO:0021794; P:thalamus development; ISO:RGD.
+DR   GO; GO:0048538; P:thymus development; ISS:UniProtKB.
+DR   GO; GO:0030878; P:thyroid gland development; ISO:RGD.
+DR   GO; GO:0043586; P:tongue development; IMP:RGD.
+DR   GO; GO:0043587; P:tongue morphogenesis; IMP:RGD.
+DR   GO; GO:0060438; P:trachea development; ISO:RGD.
+DR   GO; GO:0060439; P:trachea morphogenesis; ISO:RGD.
+DR   GO; GO:1905327; P:tracheoesophageal septum formation; ISO:RGD.
+DR   GO; GO:0036484; P:trunk neural crest cell migration; ISO:RGD.
+DR   GO; GO:0001944; P:vasculature development; ISO:RGD.
+DR   GO; GO:0001570; P:vasculogenesis; ISS:UniProtKB.
+DR   GO; GO:0021521; P:ventral spinal cord interneuron specification; IDA:MGI.
+DR   GO; GO:0022006; P:zona limitans intrathalamica formation; IDA:RGD.
+DR   CDD; cd00081; Hint; 1.
+DR   Gene3D; 3.30.1380.10; -; 1.
+DR   Gene3D; 2.170.16.10; Hedgehog/Intein (Hint) domain; 1.
+DR   InterPro; IPR001657; Hedgehog.
+DR   InterPro; IPR001767; Hedgehog_Hint.
+DR   InterPro; IPR009045; Hedgehog_sig/DD-Pept_Zn-bd_sf.
+DR   InterPro; IPR050387; Hedgehog_Signaling.
+DR   InterPro; IPR000320; Hedgehog_signalling_dom.
+DR   InterPro; IPR003586; Hint_dom_C.
+DR   InterPro; IPR003587; Hint_dom_N.
+DR   InterPro; IPR036844; Hint_dom_sf.
+DR   InterPro; IPR006141; Intein_N.
+DR   PANTHER; PTHR11889; HEDGEHOG; 1.
+DR   PANTHER; PTHR11889:SF36; SONIC HEDGEHOG PROTEIN; 1.
+DR   Pfam; PF01085; HH_signal; 1.
+DR   Pfam; PF01079; Hint; 1.
+DR   PIRSF; PIRSF009400; Peptidase_C46; 1.
+DR   PRINTS; PR00632; SONICHHOG.
+DR   SMART; SM00305; HintC; 1.
+DR   SMART; SM00306; HintN; 1.
+DR   SUPFAM; SSF55166; Hedgehog/DD-peptidase; 1.
+DR   SUPFAM; SSF51294; Hedgehog/intein (Hint) domain; 1.
+DR   PROSITE; PS50817; INTEIN_N_TER; 1.
+PE   1: Evidence at protein level;
+KW   Autocatalytic cleavage; Calcium; Cell membrane; Developmental protein;
+KW   Endoplasmic reticulum; Glycoprotein; Golgi apparatus; Hydrolase;
+KW   Lipoprotein; Membrane; Metal-binding; Palmitate; Protease;
+KW   Reference proteome; Signal; Transferase; Zinc.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   CHAIN           25..437
+FT                   /note="Sonic hedgehog protein"
+FT                   /id="PRO_0000013214"
+FT   CHAIN           25..198
+FT                   /note="Sonic hedgehog protein N-product"
+FT                   /id="PRO_0000013215"
+FT   MOTIF           33..39
+FT                   /note="Cardin-Weintraub"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62226"
+FT   BINDING         90
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   BINDING         91
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   BINDING         91
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   BINDING         96
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   BINDING         126
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   BINDING         127
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   BINDING         127
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   BINDING         130
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   BINDING         132
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   BINDING         141
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   BINDING         148
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   BINDING         183
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q15465"
+FT   SITE            198..199
+FT                   /note="Cleavage; by autolysis"
+FT   SITE            244
+FT                   /note="Involved in cholesterol transfer"
+FT                   /evidence="ECO:0000250|UniProtKB:Q02936"
+FT   SITE            268
+FT                   /note="Involved in auto-cleavage"
+FT                   /evidence="ECO:0000250|UniProtKB:Q02936"
+FT   SITE            271
+FT                   /note="Essential for auto-cleavage"
+FT                   /evidence="ECO:0000250|UniProtKB:Q02936"
+FT   LIPID           25
+FT                   /note="N-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250"
+FT   LIPID           198
+FT                   /note="Cholesterol glycine ester"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62226"
+FT   CARBOHYD        279
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   437 AA;  47630 MW;  0DBFC19F0D1662A0 CRC64;
+     MLLLLARCFL VALASSLLVC PGLACGPGRG FGKRQHPKKL TPLAYKQFIP NVAEKTLGAS
+     GRYEGKITRN SERFKELTPN YNPDIIFKDE ENTGADRLMT QRCKDKLNAL AISVMNQWPG
+     VKLRVTEGWD EDGHHSEESL HYEGRAVDIT TSDRDRSKYG MLARLAVEAG FDWVYYESKA
+     RIHCSVKAEN SVAAKSDGCF PGSATVHLEQ GGTKLVKDLS PGDRVLAADD QGRLLYSDFL
+     TFLDRDEGAK KVFYVIETRE PRERLLLTAA HLLFVAPHND SGPTPGPSPL FASRVRPGQR
+     VYVVAERGGD RRLLPAAVHS VTLREEAAGA YAPLTADGTI LINRVLASCY AVIEEHSWAH
+     RAFAPFRLAH ALLAALAPAR TDGGGGGSIP APQSVAEARG AGPPAGIHWY SQLLYHIGTW
+     LLDSETLHPL GMAVKSS
+//

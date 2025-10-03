@@ -1,0 +1,219 @@
+ID   M2OM_RAT                Reviewed;         314 AA.
+AC   P97700;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   24-JUL-2024, entry version 140.
+DE   RecName: Full=Mitochondrial 2-oxoglutarate/malate carrier protein {ECO:0000303|PubMed:16291728, ECO:0000303|PubMed:7703504};
+DE            Short=OGCP;
+DE            Short=alpha-oxoglutarate carrier;
+DE   AltName: Full=Solute carrier family 25 member 11;
+DE            Short=SLC25A11;
+GN   Name=Slc25a11; Synonyms=Slc20a4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RA   Bei D., Lehmann J.;
+RL   Submitted (FEB-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND TRANSPORT ACTIVITY.
+RX   PubMed=5083502; DOI=10.1111/j.1432-1033.1972.tb02003.x;
+RA   Palmieri F., Quagliariello E., Klingenberger M.;
+RT   "Kinetics and specificity of the oxoglutarate carrier in rat-liver
+RT   mitochondria.";
+RL   Eur. J. Biochem. 29:408-416(1972).
+RN   [3]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND TRANSPORT ACTIVITY.
+RX   PubMed=3355813; DOI=10.1016/0005-2728(88)90030-8;
+RA   Bisaccia F., Indiveri C., Palmieri F.;
+RT   "Purification and reconstitution of two anion carriers from rat liver
+RT   mitochondria: the dicarboxylate and the 2-oxoglutarate carrier.";
+RL   Biochim. Biophys. Acta 933:229-240(1988).
+RN   [4]
+RP   FUNCTION, TISSUE SPECIFICITY, AND TRANSPORT ACTIVITY.
+RX   PubMed=7703504; DOI=10.3109/10425179409039711;
+RA   Dolce V., Messina A., Cambria A., Palmieri F.;
+RT   "Cloning and sequencing of the rat cDNA encoding the mitochondrial 2-
+RT   oxoglutarate carrier protein.";
+RL   DNA Seq. 5:103-109(1994).
+RN   [5]
+RP   FUNCTION.
+RX   PubMed=16291728; DOI=10.1124/jpet.105.094599;
+RA   Xu F., Putt D.A., Matherly L.H., Lash L.H.;
+RT   "Modulation of expression of rat mitochondrial 2-oxoglutarate carrier in
+RT   NRK-52E cells alters mitochondrial transport and accumulation of
+RT   glutathione and susceptibility to chemically induced apoptosis.";
+RL   J. Pharmacol. Exp. Ther. 316:1175-1186(2006).
+RN   [6]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the transport of 2-oxoglutarate (alpha-
+CC       oxoglutarate) across the inner mitochondrial membrane in an
+CC       electroneutral exchange for malate (PubMed:3355813, PubMed:5083502,
+CC       PubMed:7703504). Can also exchange 2-oxoglutarate for other
+CC       dicarboxylic acids such as malonate, succinate, maleate and
+CC       oxaloacetate, although with lower affinity (PubMed:3355813,
+CC       PubMed:7703504). Contributes to several metabolic processes, including
+CC       the malate-aspartate shuttle, the oxoglutarate/isocitrate shuttle, in
+CC       gluconeogenesis from lactate, and in nitrogen metabolism
+CC       (PubMed:3355813, PubMed:5083502). Maintains mitochondrial fusion and
+CC       fission events, and the organization and morphology of cristae (By
+CC       similarity). Involved in the regulation of apoptosis (PubMed:16291728).
+CC       Helps protect from cytotoxic-induced apoptosis by modulating
+CC       glutathione levels in mitochondria (PubMed:16291728).
+CC       {ECO:0000250|UniProtKB:Q02978, ECO:0000269|PubMed:16291728,
+CC       ECO:0000269|PubMed:3355813, ECO:0000269|PubMed:5083502,
+CC       ECO:0000269|PubMed:7703504}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-malate(in) + 2-oxoglutarate(out) = (S)-malate(out) + 2-
+CC         oxoglutarate(in); Xref=Rhea:RHEA:71587, ChEBI:CHEBI:15589,
+CC         ChEBI:CHEBI:16810; Evidence={ECO:0000269|PubMed:3355813,
+CC         ECO:0000269|PubMed:5083502, ECO:0000269|PubMed:7703504};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate(out) + malonate(in) = 2-oxoglutarate(in) +
+CC         malonate(out); Xref=Rhea:RHEA:71591, ChEBI:CHEBI:15792,
+CC         ChEBI:CHEBI:16810; Evidence={ECO:0000305|PubMed:3355813};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate(out) + succinate(in) = 2-oxoglutarate(in) +
+CC         succinate(out); Xref=Rhea:RHEA:71595, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30031; Evidence={ECO:0000305|PubMed:3355813};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate(out) + maleate(in) = 2-oxoglutarate(in) +
+CC         maleate(out); Xref=Rhea:RHEA:71599, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:30780; Evidence={ECO:0000305|PubMed:3355813};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate(out) + oxaloacetate(in) = 2-oxoglutarate(in) +
+CC         oxaloacetate(out); Xref=Rhea:RHEA:71603, ChEBI:CHEBI:16452,
+CC         ChEBI:CHEBI:16810; Evidence={ECO:0000305|PubMed:3355813};
+CC   -!- SUBUNIT: Interacts with SMIM26. {ECO:0000250|UniProtKB:Q02978}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000305|PubMed:3355813, ECO:0000305|PubMed:5083502}; Multi-pass
+CC       membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in liver, heart and brain.
+CC       {ECO:0000269|PubMed:7703504}.
+CC   -!- SIMILARITY: Belongs to the mitochondrial carrier (TC 2.A.29) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U84727; AAB41797.1; -; mRNA.
+DR   RefSeq; NP_071793.1; NM_022398.2.
+DR   BioGRID; 249007; 2.
+DR   IntAct; P97700; 3.
+DR   MINT; P97700; -.
+DR   STRING; 10116.ENSRNOP00000005144; -.
+DR   GlyGen; P97700; 3 sites, 1 O-linked glycan (3 sites).
+DR   iPTMnet; P97700; -.
+DR   PhosphoSitePlus; P97700; -.
+DR   jPOST; P97700; -.
+DR   PaxDb; 10116-ENSRNOP00000005144; -.
+DR   GeneID; 64201; -.
+DR   KEGG; rno:64201; -.
+DR   UCSC; RGD:708476; rat.
+DR   AGR; RGD:708476; -.
+DR   CTD; 8402; -.
+DR   RGD; 708476; Slc25a11.
+DR   eggNOG; KOG0759; Eukaryota.
+DR   InParanoid; P97700; -.
+DR   OrthoDB; 2086232at2759; -.
+DR   PhylomeDB; P97700; -.
+DR   Reactome; R-RNO-428643; Organic anion transporters.
+DR   Reactome; R-RNO-9856872; Malate-aspartate shuttle.
+DR   PRO; PR:P97700; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISO:RGD.
+DR   GO; GO:0015139; F:alpha-ketoglutarate transmembrane transporter activity; IMP:RGD.
+DR   GO; GO:0015297; F:antiporter activity; IBA:GO_Central.
+DR   GO; GO:0015140; F:malate transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0015131; F:oxaloacetate transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0015367; F:oxoglutarate:malate antiporter activity; ISO:RGD.
+DR   GO; GO:0015141; F:succinate transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0015116; F:sulfate transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0015117; F:thiosulfate transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0006094; P:gluconeogenesis; ISO:RGD.
+DR   GO; GO:0006869; P:lipid transport; IEA:UniProtKB-KW.
+DR   GO; GO:0071423; P:malate transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0015729; P:oxaloacetate transport; IBA:GO_Central.
+DR   GO; GO:0035435; P:phosphate ion transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0071422; P:succinate transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0008272; P:sulfate transport; IBA:GO_Central.
+DR   GO; GO:0015709; P:thiosulfate transport; IBA:GO_Central.
+DR   Gene3D; 1.50.40.10; Mitochondrial carrier domain; 1.
+DR   InterPro; IPR050391; Mito_Metabolite_Transporter.
+DR   InterPro; IPR018108; Mitochondrial_sb/sol_carrier.
+DR   InterPro; IPR023395; Mt_carrier_dom_sf.
+DR   PANTHER; PTHR45618:SF9; MITOCHONDRIAL 2-OXOGLUTARATE_MALATE CARRIER PROTEIN; 1.
+DR   PANTHER; PTHR45618; MITOCHONDRIAL DICARBOXYLATE CARRIER-RELATED; 1.
+DR   Pfam; PF00153; Mito_carr; 3.
+DR   SUPFAM; SSF103506; Mitochondrial carrier; 1.
+DR   PROSITE; PS50920; SOLCAR; 3.
+PE   1: Evidence at protein level;
+KW   Acetylation; Antiport; Lipid transport; Membrane; Mitochondrion;
+KW   Mitochondrion inner membrane; Phosphoprotein; Reference proteome; Repeat;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q02978"
+FT   CHAIN           2..314
+FT                   /note="Mitochondrial 2-oxoglutarate/malate carrier protein"
+FT                   /id="PRO_0000090627"
+FT   TRANSMEM        24..42
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        83..101
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        119..140
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        183..202
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        222..240
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        281..300
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          23..108
+FT                   /note="Solcar 1"
+FT   REPEAT          117..208
+FT                   /note="Solcar 2"
+FT   REPEAT          217..306
+FT                   /note="Solcar 3"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q02978"
+FT   MOD_RES         6
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q02978"
+FT   MOD_RES         57
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CR62"
+FT   MOD_RES         73
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q02978"
+FT   MOD_RES         102
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CR62"
+FT   MOD_RES         256
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9CR62"
+SQ   SEQUENCE   314 AA;  34244 MW;  0DD88F3865E79D04 CRC64;
+     MAATASPGAG RMDGKPRTSP KSVKFLFGGL AGMGATVFVQ PLDLVXNRMQ LSGEGAKTRE
+     YKTSFHALTS ILKAEGLRGI YTGLSAGLLR QATYTTTRLG IYTVLFERLT GADGTPPGFL
+     LKALIGMTAG ATGAFVGPPA EVALIRMTAD GRLPADQRRG YKNVFNALIR IAREEGVPTL
+     WRGCIPTMAR AVVVNAAQLA SYSQSKQFLL DSGYFSDNIL CHFCAIMISG LVTTAASMPV
+     DIVKTRIQNM RMIDEKPEYK NGLDVLLKVV RYEGFFSLWK GFTPYYARLG PHTVLTFIFL
+     EQMNKAYKRL FLSG
+//

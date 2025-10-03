@@ -1,0 +1,205 @@
+ID   PPM1A_RAT               Reviewed;         382 AA.
+AC   P20650;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1991, sequence version 1.
+DT   02-OCT-2024, entry version 170.
+DE   RecName: Full=Protein phosphatase 1A;
+DE            EC=3.1.3.16;
+DE   AltName: Full=Protein phosphatase 2C isoform alpha;
+DE            Short=PP2C-alpha;
+DE   AltName: Full=Protein phosphatase IA;
+GN   Name=Ppm1a; Synonyms=Pp2c1, Pppm1a;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   TISSUE=Kidney;
+RX   PubMed=2538815; DOI=10.1073/pnas.86.6.1796;
+RA   Tamura S., Lynch K.R., Larner J., Fox J., Yasui A., Kikuchi K., Suzuki Y.,
+RA   Tsuiki S.;
+RT   "Molecular cloning of rat type 2C (IA) protein phosphatase mRNA.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 86:1796-1800(1989).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Enzyme with a broad specificity. Negatively regulates TGF-
+CC       beta signaling through dephosphorylating SMAD2 and SMAD3, resulting in
+CC       their dissociation from SMAD4, nuclear export of the SMADs and
+CC       termination of the TGF-beta-mediated signaling (By similarity).
+CC       Dephosphorylates PRKAA1 and PRKAA2. Plays an important role in the
+CC       termination of TNF-alpha-mediated NF-kappa-B activation through
+CC       dephosphorylating and inactivating IKBKB/IKKB (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O-phospho-L-seryl-[protein] = L-seryl-[protein] +
+CC         phosphate; Xref=Rhea:RHEA:20629, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15377, ChEBI:CHEBI:29999, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:83421; EC=3.1.3.16;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O-phospho-L-threonyl-[protein] = L-threonyl-[protein] +
+CC         phosphate; Xref=Rhea:RHEA:47004, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11605, ChEBI:CHEBI:15377, ChEBI:CHEBI:30013, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:61977; EC=3.1.3.16;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC       Note=Binds 2 magnesium or manganese ions per subunit.;
+CC   -!- SUBUNIT: Monomer (By similarity). Interacts with SMAD2; the interaction
+CC       dephosphorylates SMAD2 in its C-terminal SXS motif resulting in
+CC       disruption of the SMAD2/SMAD4 complex, SMAD2 nuclear export and
+CC       termination of the TGF-beta-mediated signaling. Interacts with SMAD2;
+CC       the interaction dephosphorylates SMAD2 in its C-terminal SXS motif
+CC       resulting in disruption of the SMAD2/SMAD4 complex, SMAD2 nuclear
+CC       export and termination of the TGF-beta-mediated signaling (By
+CC       similarity). Interacts with the phosphorylated form of IKBKB/IKKB (By
+CC       similarity). {ECO:0000250}.
+CC   -!- INTERACTION:
+CC       P20650; Q00975: CACNA1B; Xeno; NbExp=3; IntAct=EBI-7491743, EBI-1055161;
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:P35813}.
+CC       Cytoplasm, cytosol {ECO:0000250|UniProtKB:P35813}. Membrane
+CC       {ECO:0000250|UniProtKB:P35813}; Lipid-anchor
+CC       {ECO:0000250|UniProtKB:P35813}. Note=Weakly associates at the membrane
+CC       and N-myristoylation mediates the membrane localization.
+CC       {ECO:0000250|UniProtKB:P49443}.
+CC   -!- PTM: N-myristoylation is essential for the recognition of its
+CC       substrates for dephosphorylation. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PP2C family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J04503; AAA41917.1; -; mRNA.
+DR   PIR; A32399; A32399.
+DR   RefSeq; NP_058734.1; NM_017038.1.
+DR   RefSeq; XP_017449523.1; XM_017594034.1.
+DR   AlphaFoldDB; P20650; -.
+DR   SMR; P20650; -.
+DR   BioGRID; 246798; 1.
+DR   IntAct; P20650; 4.
+DR   MINT; P20650; -.
+DR   STRING; 10116.ENSRNOP00000008238; -.
+DR   iPTMnet; P20650; -.
+DR   PhosphoSitePlus; P20650; -.
+DR   jPOST; P20650; -.
+DR   PaxDb; 10116-ENSRNOP00000008238; -.
+DR   GeneID; 24666; -.
+DR   KEGG; rno:24666; -.
+DR   UCSC; RGD:3373; rat.
+DR   AGR; RGD:3373; -.
+DR   CTD; 5494; -.
+DR   RGD; 3373; Ppm1a.
+DR   eggNOG; KOG0697; Eukaryota.
+DR   HOGENOM; CLU_013173_4_0_1; -.
+DR   InParanoid; P20650; -.
+DR   OrthoDB; 11028at2759; -.
+DR   PhylomeDB; P20650; -.
+DR   TreeFam; TF313590; -.
+DR   Reactome; R-RNO-2173795; Downregulation of SMAD2/3:SMAD4 transcriptional activity.
+DR   Reactome; R-RNO-380972; Energy dependent regulation of mTOR by LKB1-AMPK.
+DR   PRO; PR:P20650; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0043005; C:neuron projection; IDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0033192; F:calmodulin-dependent protein phosphatase activity; ISO:RGD.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:InterPro.
+DR   GO; GO:0017018; F:myosin phosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004721; F:phosphoprotein phosphatase activity; IDA:RGD.
+DR   GO; GO:0004722; F:protein serine/threonine phosphatase activity; ISO:RGD.
+DR   GO; GO:0070412; F:R-SMAD binding; ISS:UniProtKB.
+DR   GO; GO:0044325; F:transmembrane transporter binding; IDA:UniProtKB.
+DR   GO; GO:0071560; P:cellular response to transforming growth factor beta stimulus; ISO:RGD.
+DR   GO; GO:0006499; P:N-terminal protein myristoylation; ISS:UniProtKB.
+DR   GO; GO:0030514; P:negative regulation of BMP signaling pathway; ISO:RGD.
+DR   GO; GO:0043124; P:negative regulation of canonical NF-kappaB signal transduction; ISS:UniProtKB.
+DR   GO; GO:1901223; P:negative regulation of non-canonical NF-kappaB signal transduction; ISS:UniProtKB.
+DR   GO; GO:0030512; P:negative regulation of transforming growth factor beta receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0090263; P:positive regulation of canonical Wnt signaling pathway; ISO:RGD.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; ISO:RGD.
+DR   GO; GO:0046827; P:positive regulation of protein export from nucleus; ISO:RGD.
+DR   GO; GO:0006470; P:protein dephosphorylation; ISS:UniProtKB.
+DR   GO; GO:0006611; P:protein export from nucleus; ISO:RGD.
+DR   CDD; cd00143; PP2Cc; 1.
+DR   Gene3D; 1.10.10.430; Phosphatase 2C, C-terminal domain suprefamily; 1.
+DR   Gene3D; 3.60.40.10; PPM-type phosphatase domain; 1.
+DR   InterPro; IPR015655; PP2C.
+DR   InterPro; IPR000222; PP2C_BS.
+DR   InterPro; IPR012911; PP2C_C.
+DR   InterPro; IPR036580; PP2C_C_sf.
+DR   InterPro; IPR036457; PPM-type-like_dom_sf.
+DR   InterPro; IPR001932; PPM-type_phosphatase-like_dom.
+DR   PANTHER; PTHR47992; PROTEIN PHOSPHATASE; 1.
+DR   PANTHER; PTHR47992:SF121; PROTEIN PHOSPHATASE 1A; 1.
+DR   Pfam; PF00481; PP2C; 1.
+DR   Pfam; PF07830; PP2C_C; 1.
+DR   SMART; SM00332; PP2Cc; 1.
+DR   SUPFAM; SSF81606; PP2C-like; 1.
+DR   SUPFAM; SSF81601; Protein serine/threonine phosphatase 2C, C-terminal domain; 1.
+DR   PROSITE; PS01032; PPM_1; 1.
+DR   PROSITE; PS51746; PPM_2; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Direct protein sequencing; Hydrolase; Lipoprotein; Magnesium;
+KW   Manganese; Membrane; Metal-binding; Myristate; Nucleus; Phosphoprotein;
+KW   Protein phosphatase; Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P35813"
+FT   CHAIN           2..382
+FT                   /note="Protein phosphatase 1A"
+FT                   /id="PRO_0000057744"
+FT   DOMAIN          23..291
+FT                   /note="PPM-type phosphatase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01082"
+FT   BINDING         60
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         60
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         61
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         239
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         282
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         375
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35813"
+FT   MOD_RES         377
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P49443"
+FT   LIPID           2
+FT                   /note="N-myristoyl glycine"
+FT                   /evidence="ECO:0000250|UniProtKB:P35813"
+SQ   SEQUENCE   382 AA;  42417 MW;  C1C386E935374F89 CRC64;
+     MGAFLDKPKM EKHNAQGQGN GLRYGLSSMQ GWRVEMEDAH TAVIGLPSGL ETWSFFAVYD
+     GHAGSQVAKY CCEHLLDHIT NNQDFKGSAG APSVENVKNG IRTGFLEIDE HMRVMSEKKH
+     GADRSGSTAV GVLISPQHTY FINCGDSRGL LCRNRKVHFF TQDHKPSNPL EKERIQNAGG
+     SVMIQRVNGS LAVSRALGDF DYKCVHGKGP TEQLVSPEPE VHDIERSEED DQFIILACDG
+     IWDVMGNEEL CDFVRSRLEV TDDLEKVCNE VVDTCLYKGS RDNMSVILIC FPNAPKVSAE
+     AVKKEAELDK YLENRVEEII KKQGEGVPDL VHVMRTLASE NIPSLPPGGE LASKRNVIEA
+     VYNRLNPYKN DDTDSASTDD MW
+//

@@ -1,0 +1,244 @@
+ID   PLPP6_RAT               Reviewed;         293 AA.
+AC   Q66H88;
+DT   13-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   29-MAY-2024, entry version 110.
+DE   RecName: Full=Polyisoprenoid diphosphate/phosphate phosphohydrolase PLPP6 {ECO:0000305};
+DE            EC=3.1.3.- {ECO:0000250|UniProtKB:Q8IY26};
+DE            EC=3.6.1.- {ECO:0000250|UniProtKB:Q8IY26};
+DE            EC=3.6.1.68 {ECO:0000250|UniProtKB:Q8IY26};
+DE   AltName: Full=Phospholipid phosphatase 6 {ECO:0000312|RGD:1566000};
+GN   Name=Plpp6 {ECO:0000312|RGD:1566000};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Magnesium-independent polyisoprenoid diphosphatase that
+CC       catalyzes the sequential dephosphorylation of presqualene, farnesyl,
+CC       geranyl and geranylgeranyl diphosphates. Functions in the innate immune
+CC       response through the dephosphorylation of presqualene diphosphate which
+CC       acts as a potent inhibitor of the signaling pathways contributing to
+CC       polymorphonuclear neutrophils activation. May regulate the biosynthesis
+CC       of cholesterol and related sterols by dephosphorylating presqualene and
+CC       farnesyl diphosphate, two key intermediates in this biosynthetic
+CC       pathway. May also play a role in protein prenylation by acting on
+CC       farnesyl diphosphate and its derivative geranylgeranyl diphosphate, two
+CC       precursors for the addition of isoprenoid anchors to membrane proteins.
+CC       Has a lower activity towards phosphatidic acid (PA), but through
+CC       phosphatidic acid dephosphorylation may participate in the biosynthesis
+CC       of phospholipids and triacylglycerols. May also act on ceramide-1-P,
+CC       lysophosphatidic acid (LPA) and sphing-4-enine 1-phosphate/sphingosine-
+CC       1-phosphate. {ECO:0000250|UniProtKB:Q8IY26}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + presqualene diphosphate = H(+) + phosphate + presqualene
+CC         phosphate; Xref=Rhea:RHEA:67968, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:43474, ChEBI:CHEBI:57310,
+CC         ChEBI:CHEBI:176803; Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67969;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + presqualene phosphate = phosphate + presqualene alcohol;
+CC         Xref=Rhea:RHEA:68024, ChEBI:CHEBI:15377, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:176803, ChEBI:CHEBI:176962;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68025;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E,6E)-farnesyl diphosphate + H2O = (2E,6E)-farnesyl
+CC         phosphate + H(+) + phosphate; Xref=Rhea:RHEA:48128,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:88226, ChEBI:CHEBI:175763;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48129;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E,6E)-farnesyl phosphate + H2O = (2E,6E)-farnesol +
+CC         phosphate; Xref=Rhea:RHEA:48132, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:16619, ChEBI:CHEBI:43474, ChEBI:CHEBI:88226;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48133;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E,6E,10E)-geranylgeranyl diphosphate + H2O = (2E,6E,10E)-
+CC         geranylgeranyl phosphate + H(+) + phosphate; Xref=Rhea:RHEA:68008,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58756, ChEBI:CHEBI:144936;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68009;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E,6E,10E)-geranylgeranyl phosphate + H2O = (2E,6E,10E)-
+CC         geranylgeraniol + phosphate; Xref=Rhea:RHEA:68016, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:46762, ChEBI:CHEBI:144936;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68017;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E)-geranyl diphosphate + H2O = (2E)-geranyl phosphate + H(+)
+CC         + phosphate; Xref=Rhea:RHEA:47944, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:43474, ChEBI:CHEBI:58057,
+CC         ChEBI:CHEBI:88107; EC=3.6.1.68;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:47945;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E)-geranyl phosphate + H2O = (2E)-geraniol + phosphate;
+CC         Xref=Rhea:RHEA:68020, ChEBI:CHEBI:15377, ChEBI:CHEBI:17447,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:88107;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68021;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihexadecanoyl-sn-glycero-3-phosphate + H2O = 1,2-
+CC         dihexadecanoyl-sn-glycerol + phosphate; Xref=Rhea:RHEA:43236,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:43474, ChEBI:CHEBI:72859,
+CC         ChEBI:CHEBI:82929; Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:43237;
+CC         Evidence={ECO:0000250|UniProtKB:Q8IY26};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q8IY26}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:Q8IY26}. Nucleus envelope
+CC       {ECO:0000250|UniProtKB:Q8IY26}. Nucleus inner membrane
+CC       {ECO:0000250|UniProtKB:Q8IY26}.
+CC   -!- PTM: Phosphorylation by PKC activates the phosphatase activity towards
+CC       presqualene diphosphate. {ECO:0000250|UniProtKB:Q8IY26}.
+CC   -!- SIMILARITY: Belongs to the PA-phosphatase related phosphoesterase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC081970; AAH81970.1; -; mRNA.
+DR   RefSeq; NP_001030026.1; NM_001034854.1.
+DR   AlphaFoldDB; Q66H88; -.
+DR   SMR; Q66H88; -.
+DR   STRING; 10116.ENSRNOP00000020475; -.
+DR   PhosphoSitePlus; Q66H88; -.
+DR   PaxDb; 10116-ENSRNOP00000020475; -.
+DR   Ensembl; ENSRNOT00000020475.5; ENSRNOP00000020475.3; ENSRNOG00000015268.5.
+DR   Ensembl; ENSRNOT00055055492; ENSRNOP00055045787; ENSRNOG00055032101.
+DR   Ensembl; ENSRNOT00060053488; ENSRNOP00060044433; ENSRNOG00060030797.
+DR   Ensembl; ENSRNOT00065046573; ENSRNOP00065038200; ENSRNOG00065027005.
+DR   GeneID; 619549; -.
+DR   KEGG; rno:619549; -.
+DR   UCSC; RGD:1566000; rat.
+DR   AGR; RGD:1566000; -.
+DR   CTD; 403313; -.
+DR   RGD; 1566000; Plpp6.
+DR   eggNOG; KOG4268; Eukaryota.
+DR   GeneTree; ENSGT00940000160907; -.
+DR   HOGENOM; CLU_072573_4_0_1; -.
+DR   InParanoid; Q66H88; -.
+DR   OMA; MYKSDSA; -.
+DR   OrthoDB; 1221241at2759; -.
+DR   PhylomeDB; Q66H88; -.
+DR   TreeFam; TF323272; -.
+DR   Reactome; R-RNO-191273; Cholesterol biosynthesis.
+DR   PRO; PR:Q66H88; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000015268; Expressed in jejunum and 20 other cell types or tissues.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0005637; C:nuclear inner membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031965; C:nuclear membrane; ISS:UniProtKB.
+DR   GO; GO:0106405; F:isoprenoid diphosphate phosphatase activity; ISO:RGD.
+DR   GO; GO:0042577; F:lipid phosphatase activity; ISO:RGD.
+DR   GO; GO:0052642; F:lysophosphatidic acid phosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0008195; F:phosphatidate phosphatase activity; ISO:RGD.
+DR   GO; GO:0042392; F:sphingosine-1-phosphate phosphatase activity; ISO:RGD.
+DR   GO; GO:0045339; P:farnesyl diphosphate catabolic process; ISS:UniProtKB.
+DR   GO; GO:0033383; P:geranyl diphosphate metabolic process; ISS:UniProtKB.
+DR   GO; GO:1902247; P:geranylgeranyl diphosphate catabolic process; ISS:UniProtKB.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0006720; P:isoprenoid metabolic process; ISS:UniProtKB.
+DR   GO; GO:0046839; P:phospholipid dephosphorylation; ISO:RGD.
+DR   GO; GO:1902565; P:positive regulation of neutrophil activation; ISS:UniProtKB.
+DR   GO; GO:0018342; P:protein prenylation; ISS:UniProtKB.
+DR   CDD; cd03391; PAP2_containing_2_like; 1.
+DR   Gene3D; 1.20.144.10; Phosphatidic acid phosphatase type 2/haloperoxidase; 1.
+DR   InterPro; IPR036938; P_Acid_Pase_2/haloperoxi_sf.
+DR   InterPro; IPR000326; P_Acid_Pase_2/haloperoxidase.
+DR   PANTHER; PTHR14969:SF18; POLYISOPRENOID DIPHOSPHATE_PHOSPHATE PHOSPHOHYDROLASE PLPP6; 1.
+DR   PANTHER; PTHR14969; SPHINGOSINE-1-PHOSPHATE PHOSPHOHYDROLASE; 1.
+DR   Pfam; PF01569; PAP2; 1.
+DR   SMART; SM00014; acidPPc; 1.
+DR   SUPFAM; SSF48317; Acid phosphatase/Vanadium-dependent haloperoxidase; 1.
+PE   2: Evidence at transcript level;
+KW   Endoplasmic reticulum; Hydrolase; Immunity; Innate immunity;
+KW   Lipid metabolism; Membrane; Nucleus; Phosphoprotein; Reference proteome;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..293
+FT                   /note="Polyisoprenoid diphosphate/phosphate
+FT                   phosphohydrolase PLPP6"
+FT                   /id="PRO_0000239398"
+FT   TOPO_DOM        1..132
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IY26"
+FT   TRANSMEM        133..153
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        154..162
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IY26"
+FT   TRANSMEM        163..183
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        184..226
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IY26"
+FT   TRANSMEM        227..247
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        248..269
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IY26"
+FT   TRANSMEM        270..290
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        291..293
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IY26"
+FT   REGION          1..34
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          182..190
+FT                   /note="Phosphatase sequence motif I"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   REGION          209..212
+FT                   /note="Phosphatase sequence motif II"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   REGION          247..258
+FT                   /note="Phosphatase sequence motif III"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   ACT_SITE        212
+FT                   /note="Proton donors"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   ACT_SITE        254
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   SITE            258
+FT                   /note="Stabilizes the active site histidine for
+FT                   nucleophilic attack"
+FT                   /evidence="ECO:0000250|UniProtKB:O34349"
+FT   MOD_RES         24
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8IY26"
+FT   MOD_RES         68
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9D4F2"
+SQ   SEQUENCE   293 AA;  31700 MW;  96530C11EFEA0E26 CRC64;
+     MPSPRRTIEG RPLGSSGGSS VPGSPAHGGG GGGSGRFEFQ SLLSCRSGAD PACARLRASD
+     SPVHRRGSFP LAAACPAQVA PAPPPEDAGM NLNPSFLGIA LRSLLAIDLW LSKKLGVCAG
+     ESSAWGSVRP LMKLLEISGH GIPWLLGTLY CLLRSDSWAG REVLMNLLFA LLLDLLLVAV
+     IKGLVRRRRP AHNQMDMFFT LSVDKYSFPS GHATRAALVS RFILNHLVLA IPLRVLVVLW
+     AFVLGLSRVM LGRHNVTDVA FGFFLGYMQY SIVDYCWLSP LNVPVLFVLW NQQ
+//

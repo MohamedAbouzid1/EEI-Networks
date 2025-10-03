@@ -1,0 +1,132 @@
+ID   DHB11_RAT               Reviewed;         298 AA.
+AC   Q6AYS8;
+DT   16-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   02-OCT-2024, entry version 134.
+DE   RecName: Full=Estradiol 17-beta-dehydrogenase 11;
+DE            EC=1.1.1.62 {ECO:0000250|UniProtKB:Q9EQ06};
+DE   AltName: Full=17-beta-hydroxysteroid dehydrogenase 11;
+DE            Short=17-beta-HSD 11;
+DE            Short=17bHSD11;
+DE            Short=17betaHSD11;
+DE   AltName: Full=17-beta-hydroxysteroid dehydrogenase XI;
+DE            Short=17-beta-HSD XI;
+DE            Short=17betaHSDXI;
+DE   AltName: Full=Dehydrogenase/reductase SDR family member 8;
+DE   Flags: Precursor;
+GN   Name=Hsd17b11; Synonyms=Dhrs8;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Can convert androstan-3-alpha,17-beta-diol (3-alpha-diol) to
+CC       androsterone in vitro, suggesting that it may participate in androgen
+CC       metabolism during steroidogenesis. May act by metabolizing compounds
+CC       that stimulate steroid synthesis and/or by generating metabolites that
+CC       inhibit it. Has no activity toward DHEA (dehydroepiandrosterone), or A-
+CC       dione (4-androste-3,17-dione), and only a slight activity toward
+CC       testosterone to A-dione. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol + NAD(+) = estrone + H(+) + NADH;
+CC         Xref=Rhea:RHEA:24612, ChEBI:CHEBI:15378, ChEBI:CHEBI:16469,
+CC         ChEBI:CHEBI:17263, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.62;
+CC         Evidence={ECO:0000250|UniProtKB:Q9EQ06};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol + NADP(+) = estrone + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:24616, ChEBI:CHEBI:15378, ChEBI:CHEBI:16469,
+CC         ChEBI:CHEBI:17263, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.1.1.62;
+CC         Evidence={ECO:0000250|UniProtKB:Q9EQ06};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum
+CC       {ECO:0000250|UniProtKB:Q9EQ06}. Lipid droplet
+CC       {ECO:0000250|UniProtKB:Q9EQ06}. Note=Redistributed from the endoplasmic
+CC       reticulum to lipids droplets in the cell upon induction of lipids
+CC       droplet formation. {ECO:0000250|UniProtKB:Q9EQ06}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. 17-beta-HSD 3 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC078929; AAH78929.1; -; mRNA.
+DR   RefSeq; NP_001004209.1; NM_001004209.1.
+DR   RefSeq; XP_006250689.1; XM_006250627.3.
+DR   RefSeq; XP_006250691.1; XM_006250629.3.
+DR   RefSeq; XP_017454586.1; XM_017599097.1.
+DR   AlphaFoldDB; Q6AYS8; -.
+DR   SMR; Q6AYS8; -.
+DR   STRING; 10116.ENSRNOP00000003004; -.
+DR   PhosphoSitePlus; Q6AYS8; -.
+DR   jPOST; Q6AYS8; -.
+DR   PaxDb; 10116-ENSRNOP00000003004; -.
+DR   Ensembl; ENSRNOT00000003004.7; ENSRNOP00000003004.3; ENSRNOG00000002210.7.
+DR   Ensembl; ENSRNOT00055045193; ENSRNOP00055037062; ENSRNOG00055026190.
+DR   Ensembl; ENSRNOT00060018228; ENSRNOP00060014189; ENSRNOG00060010768.
+DR   GeneID; 289456; -.
+DR   KEGG; rno:289456; -.
+DR   AGR; RGD:1303235; -.
+DR   CTD; 51170; -.
+DR   RGD; 1303235; Hsd17b11.
+DR   eggNOG; KOG1201; Eukaryota.
+DR   GeneTree; ENSGT00940000160856; -.
+DR   HOGENOM; CLU_010194_2_5_1; -.
+DR   InParanoid; Q6AYS8; -.
+DR   OMA; NTLAHYW; -.
+DR   OrthoDB; 6845at2759; -.
+DR   PhylomeDB; Q6AYS8; -.
+DR   TreeFam; TF312837; -.
+DR   Reactome; R-RNO-193144; Estrogen biosynthesis.
+DR   PRO; PR:Q6AYS8; -.
+DR   Proteomes; UP000002494; Chromosome 14.
+DR   Bgee; ENSRNOG00000002210; Expressed in jejunum and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005811; C:lipid droplet; IBA:GO_Central.
+DR   GO; GO:0004303; F:estradiol 17-beta-dehydrogenase [NAD(P)+] activity; ISO:RGD.
+DR   GO; GO:0016616; F:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor; IBA:GO_Central.
+DR   GO; GO:0016229; F:steroid dehydrogenase activity; ISO:RGD.
+DR   GO; GO:0006710; P:androgen catabolic process; ISO:RGD.
+DR   GO; GO:0006694; P:steroid biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd05339; 17beta-HSDXI-like_SDR_c; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PANTHER; PTHR24322:SF489; ESTRADIOL 17-BETA-DEHYDROGENASE 11; 1.
+DR   PANTHER; PTHR24322; PKSB; 1.
+DR   Pfam; PF00106; adh_short; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   2: Evidence at transcript level;
+KW   Endoplasmic reticulum; Lipid biosynthesis; Lipid droplet; Lipid metabolism;
+KW   NADP; Oxidoreductase; Reference proteome; Signal; Steroid biosynthesis.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..298
+FT                   /note="Estradiol 17-beta-dehydrogenase 11"
+FT                   /id="PRO_0000031973"
+FT   ACT_SITE        185
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         40..64
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         172
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   298 AA;  32938 MW;  51D6D1D30068B398 CRC64;
+     MKYLLDLILL LPLLIVFCIE SFIKRLIPKK KKSVAGEIVL ITGAGHGIGR LTAYEFAKLN
+     TKLVLWDINK NGIEETAAKC RKLGAQVHPF VVDCSQREEI YSAVRKVKEE VGDVSILVNN
+     AGVVYTADLF ATQDPQIEKT FEVNVLAHFW TTKAFLPAMM KNNHGHVVTV ASAAGHTVVP
+     FLLAYCSSKF AAVGFHRALT DELAALGCTG VRTSCLCPNF INTGFIKNPS TNLGPTLEPE
+     EVVEHLMHGI LTNQKMIFVP GSIALLTVLE RVFPERFLDV LKRRINVKFD AVVGYKDK
+//

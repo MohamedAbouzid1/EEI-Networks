@@ -1,0 +1,177 @@
+ID   ARHG1_RAT               Reviewed;         919 AA.
+AC   Q9Z1I6;
+DT   29-AUG-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   29-MAY-2024, entry version 134.
+DE   RecName: Full=Rho guanine nucleotide exchange factor 1;
+DE   AltName: Full=Lbc's second cousin;
+GN   Name=Arhgef1; Synonyms=Lsc;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Steinbrenner H., Wuensche C., Seissler J.;
+RT   "Cloning of a rat homologue of lsc, a mouse oncogene with structural
+RT   similarities to the Dbl family of guanine nucleotide exchange factors.";
+RL   Submitted (FEB-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=20098430; DOI=10.1038/nm.2079;
+RA   Guilluy C., Bregeon J., Toumaniantz G., Rolli-Derkinderen M.,
+RA   Retailleau K., Loufrani L., Henrion D., Scalbert E., Bril A., Torres R.M.,
+RA   Offermanns S., Pacaud P., Loirand G.;
+RT   "The Rho exchange factor Arhgef1 mediates the effects of angiotensin II on
+RT   vascular tone and blood pressure.";
+RL   Nat. Med. 16:183-190(2010).
+CC   -!- FUNCTION: Seems to play a role in the regulation of RhoA GTPase by
+CC       guanine nucleotide-binding alpha-12 (GNA12) and alpha-13 (GNA13)
+CC       subunits. Acts as a GTPase-activating protein (GAP) for GNA12 and
+CC       GNA13, and as guanine nucleotide exchange factor (GEF) for RhoA GTPase.
+CC       Activated G alpha 13/GNA13 stimulates the RhoGEF activity through
+CC       interaction with the RGS-like domain. This GEF activity is inhibited by
+CC       binding to activated GNA12 (By similarity). Mediates angiotensin-2-
+CC       induced RhoA activation. {ECO:0000250, ECO:0000269|PubMed:20098430}.
+CC   -!- SUBUNIT: Interacts with RHOA, GNA12 and GNA13. Homooligomerizes through
+CC       the coiled coil region. Interacts with CTNNAL1. May interact with CCPG1
+CC       (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Membrane {ECO:0000250}.
+CC       Note=Translocated to the membrane by activated GNA13 or LPA
+CC       stimulation. {ECO:0000250}.
+CC   -!- DOMAIN: The RGSL domain, also known as rgRGS domain, is necessary but
+CC       not sufficient for full GAP activity. {ECO:0000250}.
+CC   -!- DOMAIN: The DH domain is involved in interaction with CCPG1.
+CC       {ECO:0000250}.
+CC   -!- PTM: Phosphorylated by PKCA. Angiotensin-2 induced Tyr-736
+CC       phosphorylation is mediated by JAK2. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ236911; CAA15426.1; -; mRNA.
+DR   AlphaFoldDB; Q9Z1I6; -.
+DR   SMR; Q9Z1I6; -.
+DR   IntAct; Q9Z1I6; 4.
+DR   STRING; 10116.ENSRNOP00000072904; -.
+DR   iPTMnet; Q9Z1I6; -.
+DR   PhosphoSitePlus; Q9Z1I6; -.
+DR   jPOST; Q9Z1I6; -.
+DR   PaxDb; 10116-ENSRNOP00000059325; -.
+DR   UCSC; RGD:620951; rat.
+DR   AGR; RGD:620951; -.
+DR   RGD; 620951; Arhgef1.
+DR   eggNOG; KOG3520; Eukaryota.
+DR   InParanoid; Q9Z1I6; -.
+DR   PhylomeDB; Q9Z1I6; -.
+DR   Reactome; R-RNO-193648; NRAGE signals death through JNK.
+DR   Reactome; R-RNO-416482; G alpha (12/13) signalling events.
+DR   Reactome; R-RNO-8980692; RHOA GTPase cycle.
+DR   Reactome; R-RNO-9013026; RHOB GTPase cycle.
+DR   PRO; PR:Q9Z1I6; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0001664; F:G protein-coupled receptor binding; IBA:GO_Central.
+DR   GO; GO:0005096; F:GTPase activator activity; IEA:UniProtKB-KW.
+DR   GO; GO:0005085; F:guanyl-nucleotide exchange factor activity; IBA:GO_Central.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; IBA:GO_Central.
+DR   GO; GO:0007019; P:microtubule depolymerization; IMP:RGD.
+DR   CDD; cd08755; RGS_p115RhoGEF; 1.
+DR   CDD; cd00160; RhoGEF; 1.
+DR   Gene3D; 1.20.900.10; Dbl homology (DH) domain; 1.
+DR   Gene3D; 2.30.29.30; Pleckstrin-homology domain (PH domain)/Phosphotyrosine-binding domain (PTB); 1.
+DR   Gene3D; 1.10.167.10; Regulator of G-protein Signalling 4, domain 2; 1.
+DR   InterPro; IPR035899; DBL_dom_sf.
+DR   InterPro; IPR000219; DH-domain.
+DR   InterPro; IPR037887; p115RhoGEF_RGS.
+DR   InterPro; IPR011993; PH-like_dom_sf.
+DR   InterPro; IPR041020; PH_16.
+DR   InterPro; IPR001849; PH_domain.
+DR   InterPro; IPR015212; RGS-like_dom.
+DR   InterPro; IPR036305; RGS_sf.
+DR   InterPro; IPR044926; RGS_subdomain_2.
+DR   PANTHER; PTHR45872:SF4; RHO GUANINE NUCLEOTIDE EXCHANGE FACTOR 1; 1.
+DR   PANTHER; PTHR45872; RHO GUANINE NUCLEOTIDE EXCHANGE FACTOR 2, ISOFORM D; 1.
+DR   Pfam; PF17838; PH_16; 1.
+DR   Pfam; PF09128; RGS-like; 1.
+DR   Pfam; PF00621; RhoGEF; 1.
+DR   SMART; SM00233; PH; 1.
+DR   SMART; SM00325; RhoGEF; 1.
+DR   SUPFAM; SSF48065; DBL homology domain (DH-domain); 1.
+DR   SUPFAM; SSF50729; PH domain-like; 1.
+DR   SUPFAM; SSF48097; Regulator of G-protein signaling, RGS; 1.
+DR   PROSITE; PS50010; DH_2; 1.
+DR   PROSITE; PS50003; PH_DOMAIN; 1.
+PE   2: Evidence at transcript level;
+KW   Coiled coil; Cytoplasm; GTPase activation;
+KW   Guanine-nucleotide releasing factor; Membrane; Phosphoprotein;
+KW   Reference proteome.
+FT   CHAIN           1..919
+FT                   /note="Rho guanine nucleotide exchange factor 1"
+FT                   /id="PRO_0000080908"
+FT   DOMAIN          39..230
+FT                   /note="RGSL"
+FT   DOMAIN          414..603
+FT                   /note="DH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00062"
+FT   DOMAIN          645..758
+FT                   /note="PH"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00145"
+FT   REGION          247..402
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          761..800
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          839..865
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          864..893
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        247..261
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        277..297
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        342..356
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        376..396
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        777..792
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         372
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92888"
+FT   MOD_RES         693
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92888"
+FT   MOD_RES         736
+FT                   /note="Phosphotyrosine; by JAK2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92888"
+FT   MOD_RES         904
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q61210"
+SQ   SEQUENCE   919 AA;  102597 MW;  CF328CD2587717F8 CRC64;
+     MGEVAGGAAP GPPRSGLVSI IIGAEDEDFE NELEANPEDQ NSQFQSLEQV KRRPAHLMAL
+     LQHVALQFEP GPLLCCLHAD MLSSLGPKEA KKAFLDFYHS FLEKTAVLRV PVPPSVAFEL
+     DRTRPDLISE DVQRRFIQEV VQSQQAAVTR QLEDFRSKRL MGMTPWEQEL SLLEPWIGKD
+     RGNYEARERH VAERLLSHLE EMQHTISTDE EKSAAVVTAI SLYMRHLGVR TKSGDKKSGR
+     NFFRKKVMGN RRSDEPPKTK KGLSSILDPA RWNRGEPSAP DCRHLKVEVD EKPGPADRKG
+     SLGISSRDRT VGTPGQDNPG VSLHPLSVDS LDSREPGVDT PQEPGDTPPQ GPTSLEPLAP
+     PESTEDNGET ESPEPGDDGE PGRSGLEQEP EEPPGWRELV PSDTLLGLPK NQVKRQEVIS
+     ELLVTEAAHV RMLRVLHDLF YQPMAEGGFF PLEELQNIFP SLDELIEVHS LFLDRLMKRR
+     QESGYLIEEI GDVLLARFDG AEGSWFQKIS SRFCSRQSFA LEQLKAKQRK EPRFCAFVQE
+     AESRPRCRRL QLKDMIPTEM QRLTKYPLLL QSIGQNTEEP AERAKVELAA ECCREILHHV
+     NQAVRDMEDL LRLKDYQRRL DLTHLRQSND PMLSEFKNLD ITKKKLVHEG PLTWRLTKDK
+     AVEVHVLLLD DLLLLLQRQD EGCCSSHTSR TLTPTPDGKT MLRPVLRLTS AMTREVATDH
+     KAFYVIFTWD QEAQIYELVA QTSSERKSWC ALITETAGSL KVPAPASRPK PRPSPSSTRE
+     PLLSSSENGT GGTEAAPADA RTERILNDLL PFCRPGPEGQ LAATALQKVL SLKQILLSTE
+     EDSGAGPPRD GDGVPGGGAP GPTHTQEVEE NLLSLEVVIK QLEELEEEFC RLRPFLSQLG
+     EILSPNLAAP ERSAQTGLS
+//

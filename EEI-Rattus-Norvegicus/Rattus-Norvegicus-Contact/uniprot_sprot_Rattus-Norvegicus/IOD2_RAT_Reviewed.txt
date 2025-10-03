@@ -1,0 +1,154 @@
+ID   IOD2_RAT                Reviewed;         266 AA.
+AC   P70551; O70179;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 4.
+DT   27-MAR-2024, entry version 147.
+DE   RecName: Full=Type II iodothyronine deiodinase;
+DE            EC=1.21.99.4;
+DE   AltName: Full=5DII;
+DE   AltName: Full=DIOII;
+DE   AltName: Full=Type 2 DI;
+DE   AltName: Full=Type-II 5'-deiodinase;
+GN   Name=Dio2; Synonyms=Itdi2, Txdi2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND INDUCTION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brown adipose tissue;
+RX   PubMed=8755651; DOI=10.1172/jci118806;
+RA   Croteau W., Davey J.C., Galton V.A., St Germain D.L.;
+RT   "Cloning of the mammalian type II iodothyronine deiodinase. A selenoprotein
+RT   differentially expressed and regulated in human and rat brain and other
+RT   tissues.";
+RL   J. Clin. Invest. 98:405-417(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=9709916; DOI=10.1089/thy.1998.8.615;
+RA   Gondou A., Toyoda N., Nishikawa M., Tabata S., Yonemoto T., Ogawa Y.,
+RA   Tokoro T., Sakaguchi N., Wang F., Inada M.;
+RT   "Induction of type 2 deiodinase activity by cyclic guanosine 3',5'-
+RT   monophosphate in cultured rat glial cells.";
+RL   Thyroid 8:615-622(1998).
+RN   [3]
+RP   TISSUE SPECIFICITY, AND INDUCTION.
+RX   PubMed=9178860; DOI=10.1016/s0304-3940(97)00298-x;
+RA   Murakami M., Hosoi Y., Negishi T., Kamiya Y., Ogiwara T., Mizuma H.,
+RA   Yamada M., Iriuchijima T., Mori M.;
+RT   "Expression and nocturnal increase of type II iodothyronine deiodinase mRNA
+RT   in rat pineal gland.";
+RL   Neurosci. Lett. 227:65-67(1997).
+RN   [4]
+RP   TISSUE SPECIFICITY, AND INDUCTION.
+RX   PubMed=19103603; DOI=10.1074/jbc.m808394200;
+RA   Bailey M.J., Coon S.L., Carter D.A., Humphries A., Kim J.S., Shi Q.,
+RA   Gaildrat P., Morin F., Ganguly S., Hogenesch J.B., Weller J.L., Rath M.F.,
+RA   Moller M., Baler R., Sugden D., Rangel Z.G., Munson P.J., Klein D.C.;
+RT   "Night/day changes in pineal expression of >600 genes: central role of
+RT   adrenergic/cAMP signaling.";
+RL   J. Biol. Chem. 284:7606-7622(2009).
+CC   -!- FUNCTION: Catalyzes the deiodination of T4 (3,5,3',5'-
+CC       tetraiodothyronine) into T3 (3,5,3'-triiodothyronine). Essential for
+CC       providing the brain with appropriate levels of T3 during the critical
+CC       period of development.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3,3',5-triiodo-L-thyronine + A + H(+) + iodide = AH2 + L-
+CC         thyroxine; Xref=Rhea:RHEA:19745, ChEBI:CHEBI:13193,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16382, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:58448, ChEBI:CHEBI:533015; EC=1.21.99.4;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10107};
+CC   -!- SUBUNIT: Interacts with USP20 and USP33. Interacts with MARCHF6 (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed in cerebral cortex, cerebellum, pituitary
+CC       gland, mostly in anterior pituitary gland, and pineal gland, as well as
+CC       in brown adipose tissue (BAT). {ECO:0000269|PubMed:19103603,
+CC       ECO:0000269|PubMed:8755651, ECO:0000269|PubMed:9178860}.
+CC   -!- INDUCTION: In the pineal gland, exhibits night/day variations with a 9-
+CC       fold increased expression at night. Up-regulation is due to a large
+CC       degree to the release of norepinephrine from nerve terminals in the
+CC       pineal gland and cAMP signaling pathway. In BAT, up-regulated in
+CC       animals exposed to cold. {ECO:0000269|PubMed:19103603,
+CC       ECO:0000269|PubMed:8755651, ECO:0000269|PubMed:9178860}.
+CC   -!- PTM: Ubiquitinated by MARCHF6, leading to its degradation by the
+CC       proteasome. Deubiquitinated by USP20 and USP33 (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the iodothyronine deiodinase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U53505; AAC52767.1; -; mRNA.
+DR   EMBL; AB011068; BAA25186.1; -; mRNA.
+DR   PIR; T10816; T10816.
+DR   RefSeq; NP_113908.3; NM_031720.4.
+DR   STRING; 10116.ENSRNOP00000071065; -.
+DR   Ensembl; ENSRNOT00000099607.1; ENSRNOP00000093973.1; ENSRNOG00000062383.1.
+DR   Ensembl; ENSRNOT00055045883; ENSRNOP00055037615; ENSRNOG00055026584.
+DR   Ensembl; ENSRNOT00060034371; ENSRNOP00060028203; ENSRNOG00060019869.
+DR   GeneID; 65162; -.
+DR   KEGG; rno:65162; -.
+DR   UCSC; RGD:68418; rat.
+DR   AGR; RGD:68418; -.
+DR   CTD; 1734; -.
+DR   RGD; 68418; Dio2.
+DR   GeneTree; ENSGT00940000154482; -.
+DR   InParanoid; P70551; -.
+DR   OMA; KSIWNSF; -.
+DR   OrthoDB; 5405869at2759; -.
+DR   PhylomeDB; P70551; -.
+DR   BRENDA; 1.21.99.4; 5301.
+DR   Reactome; R-RNO-350864; Regulation of thyroid hormone activity.
+DR   PRO; PR:P70551; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004800; F:thyroxine 5'-deiodinase activity; IDA:RGD.
+DR   GO; GO:0033798; F:thyroxine 5-deiodinase activity; ISO:RGD.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0050873; P:brown fat cell differentiation; ISO:RGD.
+DR   GO; GO:0044255; P:cellular lipid metabolic process; ISO:RGD.
+DR   GO; GO:0042446; P:hormone biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0120162; P:positive regulation of cold-induced thermogenesis; ISS:YuBioLab.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0042404; P:thyroid hormone catabolic process; ISO:RGD.
+DR   GO; GO:0006590; P:thyroid hormone generation; IDA:RGD.
+DR   GO; GO:0042403; P:thyroid hormone metabolic process; IDA:RGD.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   InterPro; IPR000643; Iodothyronine_deiodinase.
+DR   InterPro; IPR008261; Iodothyronine_deiodinase_AS.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   PANTHER; PTHR11781; IODOTHYRONINE DEIODINASE; 1.
+DR   PANTHER; PTHR11781:SF20; TYPE II IODOTHYRONINE DEIODINASE; 1.
+DR   Pfam; PF00837; T4_deiodinase; 1.
+DR   PIRSF; PIRSF001330; IOD; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS01205; T4_DEIODINASE; 1.
+PE   2: Evidence at transcript level;
+KW   Membrane; Oxidoreductase; Reference proteome; Selenocysteine;
+KW   Thyroid hormones biosynthesis; Transmembrane; Transmembrane helix;
+KW   Ubl conjugation.
+FT   CHAIN           1..266
+FT                   /note="Type II iodothyronine deiodinase"
+FT                   /id="PRO_0000154319"
+FT   TRANSMEM        10..34
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        130
+FT   NON_STD         130
+FT                   /note="Selenocysteine"
+FT   NON_STD         263
+FT                   /note="Selenocysteine"
+FT   CONFLICT        116
+FT                   /note="S -> C (in Ref. 2; BAA25186)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   266 AA;  29871 MW;  06DE3292FB467578 CRC64;
+     MGLLSVDLLI TLQILPVFFS NCLFLALYDS VILLKHVALL LSRSKSTRGE WRRMLTSEGL
+     RCVWNSFLLD AYKQVKLGED APNSSVVHVS NPEAGNNCAS EKTADGAECH LLDFASAERP
+     LVVNFGSATU PPFTRQLPAF RQLVEEFSSV ADFLLVYIDE AHPSDGWAVP GDSSMSFEVK
+     KHRNQEDRCA AAHQLLERFS LPPQCQVVAD RMDNNANVAY GVAFERVCIV QRRKIAYLGG
+     KGPFSYNLQE VRSWLEKNFS KRUILD
+//

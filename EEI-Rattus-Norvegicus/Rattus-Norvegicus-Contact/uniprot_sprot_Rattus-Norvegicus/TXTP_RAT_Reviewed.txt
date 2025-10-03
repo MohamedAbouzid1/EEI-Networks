@@ -1,0 +1,205 @@
+ID   TXTP_RAT                Reviewed;         311 AA.
+AC   P32089; Q498T8;
+DT   01-OCT-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1993, sequence version 1.
+DT   24-JUL-2024, entry version 162.
+DE   RecName: Full=Tricarboxylate transport protein, mitochondrial;
+DE   AltName: Full=Citrate carrier {ECO:0000303|PubMed:12488104};
+DE            Short=CIC {ECO:0000303|PubMed:12488104};
+DE   AltName: Full=Citrate transport protein {ECO:0000303|PubMed:8514800};
+DE            Short=CTP {ECO:0000303|PubMed:8514800};
+DE   AltName: Full=Solute carrier family 25 member 1;
+DE   AltName: Full=Tricarboxylate carrier protein {ECO:0000303|PubMed:2804096};
+DE   Flags: Precursor;
+GN   Name=Slc25a1; Synonyms=Slc20a3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=8514800; DOI=10.1016/s0021-9258(19)38701-0;
+RA   Kaplan R.S., Mayor J.A., Wood D.O.;
+RT   "The mitochondrial tricarboxylate transport protein. cDNA cloning, primary
+RT   structure, and comparison with other mitochondrial transport proteins.";
+RL   J. Biol. Chem. 268:13682-13690(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   SUBCELLULAR LOCATION, FUNCTION, AND TRANSPORTER ACTIVITY.
+RX   PubMed=2804096; DOI=10.1016/s0005-2728(89)80068-4;
+RA   Bisaccia F., De Palma A., Palmieri F.;
+RT   "Identification and purification of the tricarboxylate carrier from rat
+RT   liver mitochondria.";
+RL   Biochim. Biophys. Acta 977:171-176(1989).
+RN   [4]
+RP   SUBCELLULAR LOCATION, AND PROTEOLYTIC PROCESSING.
+RX   PubMed=12488104; DOI=10.1016/s0022-2836(02)01236-6;
+RA   Zara V., Ferramosca A., Palmisano I., Palmieri F., Rassow J.;
+RT   "Biogenesis of rat mitochondrial citrate carrier (CIC): the N-terminal
+RT   presequence facilitates the solubility of the preprotein but does not act
+RT   as a targeting signal.";
+RL   J. Mol. Biol. 325:399-408(2003).
+CC   -!- FUNCTION: Mitochondrial electroneutral antiporter that exports citrate
+CC       from the mitochondria into the cytosol in exchange for malate. Also
+CC       able to mediate the exchange of citrate for isocitrate,
+CC       phosphoenolpyruvate, cis-aconitate and to a lesser extend cis-
+CC       aconitate, maleate and succinate (PubMed:2804096). In the cytoplasm
+CC       citrate is important in the regulation of glycolysis through a feedback
+CC       mechanism and in the production of acetyl-CoA which is needed for the
+CC       synthesis of fatty acids, sterols, prostaglandins, dolichol and
+CC       coenzyme Q (CoQ). Required for proper neuromuscular junction formation
+CC       (By similarity). {ECO:0000250|UniProtKB:P53007,
+CC       ECO:0000269|PubMed:2804096}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-malate(in) + citrate(out) = (S)-malate(out) + citrate(in);
+CC         Xref=Rhea:RHEA:72483, ChEBI:CHEBI:15589, ChEBI:CHEBI:16947;
+CC         Evidence={ECO:0000269|PubMed:2804096};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=citrate(out) + succinate(in) = citrate(in) + succinate(out);
+CC         Xref=Rhea:RHEA:28835, ChEBI:CHEBI:16947, ChEBI:CHEBI:30031;
+CC         Evidence={ECO:0000250|UniProtKB:P53007};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=citrate(out) + D-threo-isocitrate(in) = citrate(in) + D-threo-
+CC         isocitrate(out); Xref=Rhea:RHEA:72471, ChEBI:CHEBI:15562,
+CC         ChEBI:CHEBI:16947; Evidence={ECO:0000269|PubMed:2804096};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cis-aconitate(in) + citrate(out) = cis-aconitate(out) +
+CC         citrate(in); Xref=Rhea:RHEA:72475, ChEBI:CHEBI:16383,
+CC         ChEBI:CHEBI:16947; Evidence={ECO:0000269|PubMed:2804096};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=citrate(out) + trans-aconitate(in) = citrate(in) + trans-
+CC         aconitate(out); Xref=Rhea:RHEA:72479, ChEBI:CHEBI:15708,
+CC         ChEBI:CHEBI:16947; Evidence={ECO:0000269|PubMed:2804096};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=citrate(out) + phosphoenolpyruvate(in) = citrate(in) +
+CC         phosphoenolpyruvate(out); Xref=Rhea:RHEA:72487, ChEBI:CHEBI:16947,
+CC         ChEBI:CHEBI:58702; Evidence={ECO:0000269|PubMed:2804096};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=citrate(out) + maleate(in) = citrate(in) + maleate(out);
+CC         Xref=Rhea:RHEA:72491, ChEBI:CHEBI:16947, ChEBI:CHEBI:30780;
+CC         Evidence={ECO:0000250|UniProtKB:P53007};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000269|PubMed:12488104}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- PTM: Possesses a short cleavable presequence, which, however, is found
+CC       to be dispensable both for targeting to mitochondria and insertion into
+CC       the inner membrane. However, the presequence is required to keep
+CC       SLC25A1 in a soluble state and thus in an import-competent state.
+CC       Mature SLC25A1 lacking the presequence is prone to aggregation.
+CC       {ECO:0000269|PubMed:12488104}.
+CC   -!- SIMILARITY: Belongs to the mitochondrial carrier (TC 2.A.29) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L12016; AAA18899.1; -; mRNA.
+DR   EMBL; BC100077; AAI00078.1; -; mRNA.
+DR   PIR; A46595; A46595.
+DR   RefSeq; NP_059003.1; NM_017307.3.
+DR   AlphaFoldDB; P32089; -.
+DR   SMR; P32089; -.
+DR   BioGRID; 248354; 2.
+DR   IntAct; P32089; 3.
+DR   STRING; 10116.ENSRNOP00000000306; -.
+DR   TCDB; 2.A.29.7.1; the mitochondrial carrier (mc) family.
+DR   CarbonylDB; P32089; -.
+DR   iPTMnet; P32089; -.
+DR   PhosphoSitePlus; P32089; -.
+DR   jPOST; P32089; -.
+DR   PaxDb; 10116-ENSRNOP00000000306; -.
+DR   Ensembl; ENSRNOT00055005826; ENSRNOP00055004374; ENSRNOG00055003706.
+DR   Ensembl; ENSRNOT00060021831; ENSRNOP00060017276; ENSRNOG00060012833.
+DR   Ensembl; ENSRNOT00065012100; ENSRNOP00065008831; ENSRNOG00065007735.
+DR   GeneID; 29743; -.
+DR   KEGG; rno:29743; -.
+DR   AGR; RGD:3703; -.
+DR   CTD; 6576; -.
+DR   RGD; 3703; Slc25a1.
+DR   VEuPathDB; HostDB:ENSRNOG00000038001; -.
+DR   eggNOG; KOG0756; Eukaryota.
+DR   HOGENOM; CLU_015166_5_1_1; -.
+DR   InParanoid; P32089; -.
+DR   OrthoDB; 5473154at2759; -.
+DR   PhylomeDB; P32089; -.
+DR   TreeFam; TF105786; -.
+DR   Reactome; R-RNO-428643; Organic anion transporters.
+DR   PRO; PR:P32089; -.
+DR   Proteomes; UP000002494; Chromosome 11.
+DR   Bgee; ENSRNOG00000038001; Expressed in ovary and 19 other cell types or tissues.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISS:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0015297; F:antiporter activity; IEA:UniProtKB-KW.
+DR   GO; GO:0071913; F:citrate secondary active transmembrane transporter activity; IDA:UniProtKB.
+DR   GO; GO:0015137; F:citrate transmembrane transporter activity; TAS:RGD.
+DR   GO; GO:0015142; F:tricarboxylic acid transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0006843; P:mitochondrial citrate transmembrane transport; IDA:UniProtKB.
+DR   Gene3D; 1.50.40.10; Mitochondrial carrier domain; 1.
+DR   InterPro; IPR002067; Mit_carrier.
+DR   InterPro; IPR018108; Mitochondrial_sb/sol_carrier.
+DR   InterPro; IPR023395; Mt_carrier_dom_sf.
+DR   InterPro; IPR049563; TXTP-like.
+DR   PANTHER; PTHR45788; SUCCINATE/FUMARATE MITOCHONDRIAL TRANSPORTER-RELATED; 1.
+DR   PANTHER; PTHR45788:SF4; TRICARBOXYLATE TRANSPORT PROTEIN, MITOCHONDRIAL; 1.
+DR   Pfam; PF00153; Mito_carr; 3.
+DR   PRINTS; PR00926; MITOCARRIER.
+DR   SUPFAM; SSF103506; Mitochondrial carrier; 1.
+DR   PROSITE; PS50920; SOLCAR; 3.
+PE   1: Evidence at protein level;
+KW   Antiport; Direct protein sequencing; Membrane; Mitochondrion;
+KW   Mitochondrion inner membrane; Phosphoprotein; Reference proteome; Repeat;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   PROPEP          1..13
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000269|PubMed:8514800"
+FT                   /id="PRO_0000456577"
+FT   CHAIN           14..311
+FT                   /note="Tricarboxylate transport protein, mitochondrial"
+FT                   /id="PRO_0000019263"
+FT   TRANSMEM        29..46
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        86..105
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        129..143
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        183..202
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        224..241
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        278..297
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          23..111
+FT                   /note="Solcar 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00282"
+FT   REPEAT          122..208
+FT                   /note="Solcar 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00282"
+FT   REPEAT          218..303
+FT                   /note="Solcar 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00282"
+FT   MOD_RES         156
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P53007"
+SQ   SEQUENCE   311 AA;  33835 MW;  C7B5B8D82311F6D6 CRC64;
+     MAAPRAPRAL TAAAPGSGKA KLTHPGKAIL AGGLAGGIEI CITFPTEYVK TQLQLDERAN
+     PPRYRGIGDC VRQTVRSHGV LGLYRGLSSL LYGSIPKAAV RFGMFEFLSN HMRDAQGRLD
+     SRRGLLCGLG AGVAEAVVVV CPMETVKVKF IHDQTSSNPK YRGFFHGVRE IVREQGLKGT
+     YQGLTATVLK QGSNQAIRFF VMTSLRNWYQ GDNPNKPMNP LITGVFGAVA GAASVFGNTP
+     LDVIKTRMQG LEAHKYRNTL DCGVQILKNE GPKAFYKGTV PRLGRVCLDV AIVFVIYDEV
+     VKLLNKVWKT D
+//

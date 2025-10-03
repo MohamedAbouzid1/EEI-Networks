@@ -1,0 +1,310 @@
+ID   S29A3_RAT               Reviewed;         475 AA.
+AC   Q80WK7; Q6AZ86;
+DT   24-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2009, sequence version 2.
+DT   24-JUL-2024, entry version 126.
+DE   RecName: Full=Equilibrative nucleoside transporter 3 {ECO:0000303|PubMed:15701636};
+DE            Short=rENT3 {ECO:0000303|PubMed:15701636};
+DE   AltName: Full=Solute carrier family 29 member 3 {ECO:0000250|UniProtKB:Q9BZD2};
+GN   Name=Slc29a3 {ECO:0000312|RGD:727811}; Synonyms=Ent3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RA   Toan S.-V., Ward J.L., Tse C.-M.;
+RT   "Molecular cloning of rat equilibrative nucleoside transporter type 3
+RT   isoform.";
+RL   Submitted (APR-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Brown Norway; TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=15701636; DOI=10.1074/jbc.m414337200;
+RA   Baldwin S.A., Yao S.Y.M., Hyde R.J., Ng A.M.L., Foppolo S., Barnes K.,
+RA   Ritzel M.W.L., Cass C.E., Young J.D.;
+RT   "Functional characterization of novel human and mouse equilibrative
+RT   nucleoside transporters (hENT3 and mENT3) located in intracellular
+RT   membranes.";
+RL   J. Biol. Chem. 280:15880-15887(2005).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Uniporter that mediates the facilitative transport of
+CC       nucleoside across lysosomal and mitochondrial membranes. Functions as a
+CC       non-electrogenic Na(+)-independent transporter. Substrate transport is
+CC       pH-dependent and enhanced under acidic condition, probably reflecting
+CC       the location of the transporter in acidic intracellular compartments.
+CC       Proton is not a cotransporting ion but most likely change the
+CC       ionization state of the transporter which dictates transport-
+CC       permissible/impermissible conformation for nucleoside translocation.
+CC       May direct the nucleoside transport from lysosomes to cytosol or
+CC       cytosol to mitochondria to facilitate the fundamental function of
+CC       salvage synthesis of nucleic acids. Involved in the transport of
+CC       nucleosides (adenosine, guanosine, uridine, thymidine, cytidine and
+CC       inosine) and deoxynucleosides (deoxyadenosine, deoxycytidine). Also
+CC       mediates transport of purine nucleobases (adenine, guanine) and
+CC       pyrimidine nucleobases (uracil). Also able to transport monoamine
+CC       neurotransmitters dopamine, serotonin, noradrenaline and tyramine.
+CC       Capable of transporting ATP (By similarity). Mediates nucleoside export
+CC       from lysosomes in macrophages, which regulates macrophage functions and
+CC       numbers (By similarity). {ECO:0000250|UniProtKB:Q99P65,
+CC       ECO:0000250|UniProtKB:Q9BZD2}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(in) = adenosine(out); Xref=Rhea:RHEA:75343,
+CC         ChEBI:CHEBI:16335; Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(in) = guanosine(out); Xref=Rhea:RHEA:75371,
+CC         ChEBI:CHEBI:16750; Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=inosine(in) = inosine(out); Xref=Rhea:RHEA:75375,
+CC         ChEBI:CHEBI:17596; Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uridine(out) = uridine(in); Xref=Rhea:RHEA:71519,
+CC         ChEBI:CHEBI:16704; Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(in) = cytidine(out); Xref=Rhea:RHEA:75367,
+CC         ChEBI:CHEBI:17562; Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=thymidine(in) = thymidine(out); Xref=Rhea:RHEA:75363,
+CC         ChEBI:CHEBI:17748; Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2'-deoxyadenosine(in) = 2'-deoxyadenosine(out);
+CC         Xref=Rhea:RHEA:75691, ChEBI:CHEBI:17256;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2'-deoxycytidine(in) = 2'-deoxycytidine(out);
+CC         Xref=Rhea:RHEA:75695, ChEBI:CHEBI:15698;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanine(out) = guanine(in); Xref=Rhea:RHEA:71531,
+CC         ChEBI:CHEBI:16235; Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uracil(in) = uracil(out); Xref=Rhea:RHEA:69404,
+CC         ChEBI:CHEBI:17568; Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-noradrenaline(out) = (R)-noradrenaline(in);
+CC         Xref=Rhea:RHEA:73871, ChEBI:CHEBI:72587;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dopamine(out) = dopamine(in); Xref=Rhea:RHEA:73863,
+CC         ChEBI:CHEBI:59905; Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=serotonin(out) = serotonin(in); Xref=Rhea:RHEA:73867,
+CC         ChEBI:CHEBI:350546; Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tyramine(in) = tyramine(out); Xref=Rhea:RHEA:74783,
+CC         ChEBI:CHEBI:327995; Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP(in) = ATP(out); Xref=Rhea:RHEA:75687, ChEBI:CHEBI:30616;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BZD2};
+CC   -!- SUBCELLULAR LOCATION: Lysosome membrane {ECO:0000250|UniProtKB:Q9BZD2};
+CC       Multi-pass membrane protein {ECO:0000305}. Late endosome membrane
+CC       {ECO:0000250|UniProtKB:Q9BZD2}; Multi-pass membrane protein
+CC       {ECO:0000305}. Mitochondrion membrane {ECO:0000250|UniProtKB:Q9BZD2};
+CC       Multi-pass membrane protein {ECO:0000305}. Cell membrane
+CC       {ECO:0000250|UniProtKB:Q9BZD2}; Multi-pass membrane protein
+CC       {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Widely expressed. Highest levels in heart and liver
+CC       (at protein level). {ECO:0000269|PubMed:15701636}.
+CC   -!- DOMAIN: Contains a N-terminal dileucine motif (DE)XXXL(LI) important
+CC       for endosomal/lysosomal and mitochondrial subcellular localization.
+CC       {ECO:0000250|UniProtKB:Q9BZD2}.
+CC   -!- SIMILARITY: Belongs to the SLC29A/ENT transporter (TC 2.A.57) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY273196; AAP23232.1; -; mRNA.
+DR   EMBL; BC078678; AAH78678.1; -; mRNA.
+DR   RefSeq; NP_853670.2; NM_181639.3.
+DR   AlphaFoldDB; Q80WK7; -.
+DR   SMR; Q80WK7; -.
+DR   STRING; 10116.ENSRNOP00000000689; -.
+DR   GlyCosmos; Q80WK7; 1 site, No reported glycans.
+DR   GlyGen; Q80WK7; 1 site.
+DR   iPTMnet; Q80WK7; -.
+DR   PhosphoSitePlus; Q80WK7; -.
+DR   PaxDb; 10116-ENSRNOP00000000689; -.
+DR   Ensembl; ENSRNOT00000113968.1; ENSRNOP00000082643.1; ENSRNOG00000000568.6.
+DR   Ensembl; ENSRNOT00055015544; ENSRNOP00055012459; ENSRNOG00055009182.
+DR   Ensembl; ENSRNOT00060004545; ENSRNOP00060003239; ENSRNOG00060002821.
+DR   Ensembl; ENSRNOT00065040902; ENSRNOP00065033384; ENSRNOG00065023841.
+DR   GeneID; 353307; -.
+DR   KEGG; rno:353307; -.
+DR   UCSC; RGD:727811; rat.
+DR   AGR; RGD:727811; -.
+DR   CTD; 55315; -.
+DR   RGD; 727811; Slc29a3.
+DR   eggNOG; KOG1479; Eukaryota.
+DR   GeneTree; ENSGT00950000182898; -.
+DR   HOGENOM; CLU_021611_6_1_1; -.
+DR   InParanoid; Q80WK7; -.
+DR   OrthoDB; 517168at2759; -.
+DR   PhylomeDB; Q80WK7; -.
+DR   Reactome; R-RNO-83936; Transport of nucleosides and free purine and pyrimidine bases across the plasma membrane.
+DR   Reactome; R-RNO-9755088; Ribavirin ADME.
+DR   PRO; PR:Q80WK7; -.
+DR   Proteomes; UP000002494; Chromosome 20.
+DR   Bgee; ENSRNOG00000000568; Expressed in adult mammalian kidney and 19 other cell types or tissues.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0031902; C:late endosome membrane; ISS:UniProtKB.
+DR   GO; GO:0005765; C:lysosomal membrane; ISS:UniProtKB.
+DR   GO; GO:0031966; C:mitochondrial membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0015212; F:cytidine transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015208; F:guanine transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0008504; F:monoamine transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0005326; F:neurotransmitter transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015205; F:nucleobase transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0005337; F:nucleoside transmembrane transporter activity; IMP:RGD.
+DR   GO; GO:0015101; F:organic cation transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015210; F:uracil transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015213; F:uridine transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0032238; P:adenosine transport; ISS:UniProtKB.
+DR   GO; GO:0015861; P:cytidine transport; ISS:UniProtKB.
+DR   GO; GO:0015872; P:dopamine transport; ISS:UniProtKB.
+DR   GO; GO:1903716; P:guanine transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0035340; P:inosine transport; ISS:UniProtKB.
+DR   GO; GO:0015874; P:norepinephrine transport; ISS:UniProtKB.
+DR   GO; GO:0015851; P:nucleobase transport; ISS:UniProtKB.
+DR   GO; GO:1901642; P:nucleoside transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0015858; P:nucleoside transport; IMP:RGD.
+DR   GO; GO:1904823; P:purine nucleobase transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:1904082; P:pyrimidine nucleobase transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0006837; P:serotonin transport; ISS:UniProtKB.
+DR   GO; GO:1903791; P:uracil transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0015862; P:uridine transmembrane transport; ISS:UniProtKB.
+DR   InterPro; IPR002259; Eqnu_transpt.
+DR   PANTHER; PTHR10332; EQUILIBRATIVE NUCLEOSIDE TRANSPORTER; 1.
+DR   PANTHER; PTHR10332:SF17; EQUILIBRATIVE NUCLEOSIDE TRANSPORTER 3; 1.
+DR   Pfam; PF01733; Nucleoside_tran; 1.
+DR   PIRSF; PIRSF016379; ENT; 1.
+DR   PRINTS; PR01130; DERENTRNSPRT.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Endosome; Glycoprotein; Lysosome; Membrane; Mitochondrion;
+KW   Phosphoprotein; Reference proteome; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..475
+FT                   /note="Equilibrative nucleoside transporter 3"
+FT                   /id="PRO_0000209345"
+FT   TOPO_DOM        1..51
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        52..72
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        73..105
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        106..126
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        127..132
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        133..153
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        154..162
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        163..183
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        184..199
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        200..220
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        221..230
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        231..251
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        252..305
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        306..326
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        327..340
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        341..361
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        362..377
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        378..398
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        399..414
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        415..437
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        438..450
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        451..471
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        472..475
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   REGION          272..291
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           31..32
+FT                   /note="Dileucine internalization motif"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BZD2"
+FT   COMPBIAS        276..290
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   SITE            219
+FT                   /note="Important for acidic pH-dependent nucleoside
+FT                   transporter activity. Acts as a pH sensor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BZD2"
+FT   SITE            447
+FT                   /note="Important for acidic pH-dependent nucleoside
+FT                   transporter activity. Acts as a pH sensor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BZD2"
+FT   MOD_RES         21
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99P65"
+FT   CARBOHYD        84
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        142
+FT                   /note="S -> P (in Ref. 1; AAP23232)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   475 AA;  51677 MW;  014B34E12CCA6303 CRC64;
+     MAFASEDIAY HSSNAVYRVP SNRHEADQEA LLGKPLDYPA PGLQRPEDRF NGAYIIFFCL
+     GIGGLLPWNF FVTAKEYWAF KLRNCSSPAS GKDPEDADIL NYFESYLAVA STVPSLLFLV
+     ANFLLVNRIR VHVRVLASLS VSLAIFVVMA VLVRVDTSSW TRGFFSIAMA CMAIISSSST
+     IFNSSVYGLT GSFPMRNAQA LISGGAMGGT VSAVASLVDL AASSDVRDSA LAFFLTAAVF
+     LGLCVGLYLL LPQLEYARYY MRPVVPIHVF SSEDSPPRDA PSTSSVAPAS RAVHTPPLGP
+     ILKKTAGLGF CAVFLYFITA LIFPAISTNI QPMHKGTGSP WTSKFYVPLT VFLLFNFADL
+     CGRQVTAWIQ VPGPRSKLLP ILAVSRVCLV PLFLLCNYQP RSHLTLVLFQ SDIYPILFTC
+     LLGLSNGYLS TLVLMYGPKI VPRELAEATS VVMLFYMSLG LMLGSACAAL LEHFI
+//

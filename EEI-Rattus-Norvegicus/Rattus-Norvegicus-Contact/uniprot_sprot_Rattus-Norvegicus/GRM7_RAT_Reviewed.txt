@@ -1,0 +1,403 @@
+ID   GRM7_RAT                Reviewed;         915 AA.
+AC   P35400;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   02-OCT-2024, entry version 158.
+DE   RecName: Full=Metabotropic glutamate receptor 7;
+DE            Short=mGluR7;
+DE   Flags: Precursor;
+GN   Name=Grm7; Synonyms=Gprc1g, Mglur7;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=8288585; DOI=10.1016/s0021-9258(17)42247-2;
+RA   Okamoto N., Hori S., Akazawa C., Hayashi Y., Shigemoto R., Mizuno N.,
+RA   Nakanishi S.;
+RT   "Molecular characterization of a new metabotropic glutamate receptor mGluR7
+RT   coupled to inhibitory cyclic AMP signal transduction.";
+RL   J. Biol. Chem. 269:1231-1236(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Olfactory bulb;
+RX   PubMed=8145723;
+RA   Saugstad J.A., Kinzie J.M., Mulvihill E.R., Segerson T.P., Westbrook G.L.;
+RT   "Cloning and expression of a new member of the L-2-amino-4-phosphonobutyric
+RT   acid-sensitive class of metabotropic glutamate receptors.";
+RL   Mol. Pharmacol. 45:367-372(1994).
+RN   [3]
+RP   INTERACTION WITH PICK1.
+RX   PubMed=11122333; DOI=10.1046/j.1460-9568.2000.01309.x;
+RA   El Far O., Airas J., Wischmeyer E., Nehring R.B., Karschin A., Betz H.;
+RT   "Interaction of the C-terminal tail region of the metabotropic glutamate
+RT   receptor 7 with the protein kinase C substrate PICK1.";
+RL   Eur. J. Neurosci. 12:4215-4221(2000).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (3.3 ANGSTROMS) OF 33-521, AND DISULFIDE BONDS.
+RX   PubMed=17360426; DOI=10.1073/pnas.0611577104;
+RA   Muto T., Tsuchiya D., Morikawa K., Jingami H.;
+RT   "Structures of the extracellular regions of the group II/III metabotropic
+RT   glutamate receptors.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:3759-3764(2007).
+RN   [5]
+RP   FUNCTION.
+RX   PubMed=33500274; DOI=10.1523/jneurosci.2108-20.2021;
+RA   Song J.M., Kang M., Park D.H., Park S., Lee S., Suh Y.H.;
+RT   "Pathogenic GRM7 mutations associated with neurodevelopmental disorders
+RT   impair axon outgrowth and presynaptic terminal development.";
+RL   J. Neurosci. 41:2344-2359(2021).
+CC   -!- FUNCTION: G-protein coupled receptor activated by glutamate that
+CC       regulates axon outgrowth through the MAPK-cAMP-PKA signaling pathway
+CC       during neuronal development (By similarity). Ligand binding causes a
+CC       conformation change that triggers signaling via guanine nucleotide-
+CC       binding proteins (G proteins) and modulates the activity of downstream
+CC       effectors, such as adenylate cyclase that it inhibits.
+CC       {ECO:0000250|UniProtKB:Q14831, ECO:0000269|PubMed:33500274,
+CC       ECO:0000269|PubMed:8145723, ECO:0000269|PubMed:8288585}.
+CC   -!- SUBUNIT: Homodimer (By similarity). Interacts with PICK1.
+CC       {ECO:0000250|UniProtKB:Q14831, ECO:0000269|PubMed:11122333}.
+CC   -!- INTERACTION:
+CC       P35400; P97879: Grip1; NbExp=3; IntAct=EBI-6936416, EBI-936113;
+CC       P35400; Q9EP80: Pick1; NbExp=2; IntAct=EBI-6936416, EBI-77728;
+CC       P35400; P63088: Ppp1cc; NbExp=4; IntAct=EBI-6936416, EBI-80049;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q14831};
+CC       Multi-pass membrane protein {ECO:0000250|UniProtKB:Q14831}.
+CC   -!- TISSUE SPECIFICITY: Widely distributed throughout the brain.
+CC       {ECO:0000269|PubMed:8145723, ECO:0000269|PubMed:8288585}.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 3 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D16817; BAA04092.1; -; mRNA.
+DR   EMBL; U06832; AAA20655.1; -; mRNA.
+DR   PIR; A49874; A49874.
+DR   RefSeq; NP_112302.1; NM_031040.1.
+DR   PDB; 2E4Z; X-ray; 3.30 A; A=33-521.
+DR   PDBsum; 2E4Z; -.
+DR   AlphaFoldDB; P35400; -.
+DR   SMR; P35400; -.
+DR   BioGRID; 249569; 9.
+DR   DIP; DIP-41145N; -.
+DR   IntAct; P35400; 7.
+DR   MINT; P35400; -.
+DR   STRING; 10116.ENSRNOP00000053411; -.
+DR   BindingDB; P35400; -.
+DR   ChEMBL; CHEMBL3879; -.
+DR   GuidetoPHARMACOLOGY; 295; -.
+DR   CarbonylDB; P35400; -.
+DR   GlyCosmos; P35400; 4 sites, No reported glycans.
+DR   GlyGen; P35400; 4 sites.
+DR   iPTMnet; P35400; -.
+DR   PhosphoSitePlus; P35400; -.
+DR   PaxDb; 10116-ENSRNOP00000053411; -.
+DR   Ensembl; ENSRNOT00000056570.4; ENSRNOP00000053411.4; ENSRNOG00000005662.7.
+DR   Ensembl; ENSRNOT00055013461; ENSRNOP00055010783; ENSRNOG00055007981.
+DR   Ensembl; ENSRNOT00060024174; ENSRNOP00060019288; ENSRNOG00060014101.
+DR   Ensembl; ENSRNOT00065020013; ENSRNOP00065015358; ENSRNOG00065012289.
+DR   GeneID; 81672; -.
+DR   KEGG; rno:81672; -.
+DR   AGR; RGD:619857; -.
+DR   CTD; 2917; -.
+DR   RGD; 619857; Grm7.
+DR   eggNOG; KOG1056; Eukaryota.
+DR   GeneTree; ENSGT01030000234648; -.
+DR   InParanoid; P35400; -.
+DR   OrthoDB; 5388627at2759; -.
+DR   PhylomeDB; P35400; -.
+DR   Reactome; R-RNO-418594; G alpha (i) signalling events.
+DR   Reactome; R-RNO-420499; Class C/3 (Metabotropic glutamate/pheromone receptors).
+DR   EvolutionaryTrace; P35400; -.
+DR   PRO; PR:P35400; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   GO; GO:0032279; C:asymmetric synapse; IDA:RGD.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0043679; C:axon terminus; IDA:RGD.
+DR   GO; GO:0005938; C:cell cortex; ISO:RGD.
+DR   GO; GO:0009986; C:cell surface; IDA:UniProtKB.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0043198; C:dendritic shaft; IDA:RGD.
+DR   GO; GO:0098982; C:GABA-ergic synapse; IDA:SynGO.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0045211; C:postsynaptic membrane; IDA:UniProtKB.
+DR   GO; GO:0048786; C:presynaptic active zone; IDA:UniProtKB.
+DR   GO; GO:0048787; C:presynaptic active zone membrane; IDA:SynGO.
+DR   GO; GO:0042734; C:presynaptic membrane; IDA:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0043235; C:receptor complex; ISO:RGD.
+DR   GO; GO:0043195; C:terminal bouton; IDA:RGD.
+DR   GO; GO:0001640; F:adenylate cyclase inhibiting G protein-coupled glutamate receptor activity; IDA:RGD.
+DR   GO; GO:0010855; F:adenylate cyclase inhibitor activity; ISO:RGD.
+DR   GO; GO:0005246; F:calcium channel regulator activity; ISO:RGD.
+DR   GO; GO:0048306; F:calcium-dependent protein binding; IPI:RGD.
+DR   GO; GO:0005516; F:calmodulin binding; IPI:UniProtKB.
+DR   GO; GO:0016595; F:glutamate binding; IDA:RGD.
+DR   GO; GO:0008066; F:glutamate receptor activity; ISO:RGD.
+DR   GO; GO:0001642; F:group III metabotropic glutamate receptor activity; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0030165; F:PDZ domain binding; IPI:RGD.
+DR   GO; GO:0046983; F:protein dimerization activity; ISS:UniProtKB.
+DR   GO; GO:0070905; F:serine binding; ISO:RGD.
+DR   GO; GO:0005245; F:voltage-gated calcium channel activity; ISO:RGD.
+DR   GO; GO:0007196; P:adenylate cyclase-inhibiting G protein-coupled glutamate receptor signaling pathway; IDA:RGD.
+DR   GO; GO:0030534; P:adult behavior; ISO:RGD.
+DR   GO; GO:0008306; P:associative learning; ISO:RGD.
+DR   GO; GO:0061564; P:axon development; ISS:UniProtKB.
+DR   GO; GO:0001662; P:behavioral fear response; ISO:RGD.
+DR   GO; GO:0007268; P:chemical synaptic transmission; ISO:RGD.
+DR   GO; GO:0001661; P:conditioned taste aversion; ISO:RGD.
+DR   GO; GO:0007216; P:G protein-coupled glutamate receptor signaling pathway; IBA:GO_Central.
+DR   GO; GO:0070085; P:glycosylation; ISO:RGD.
+DR   GO; GO:0007611; P:learning or memory; TAS:UniProtKB.
+DR   GO; GO:0007613; P:memory; ISO:RGD.
+DR   GO; GO:0033555; P:multicellular organismal response to stress; ISO:RGD.
+DR   GO; GO:0014050; P:negative regulation of glutamate secretion; IDA:RGD.
+DR   GO; GO:0043524; P:negative regulation of neuron apoptotic process; IDA:RGD.
+DR   GO; GO:0050877; P:nervous system process; ISO:RGD.
+DR   GO; GO:0099171; P:presynaptic modulation of chemical synaptic transmission; ISO:RGD.
+DR   GO; GO:0051966; P:regulation of synaptic transmission, glutamatergic; IBA:GO_Central.
+DR   GO; GO:0007605; P:sensory perception of sound; ISO:RGD.
+DR   GO; GO:0007614; P:short-term memory; ISO:RGD.
+DR   GO; GO:0019226; P:transmission of nerve impulse; ISO:RGD.
+DR   CDD; cd15451; 7tmC_mGluR7; 1.
+DR   CDD; cd06376; PBP1_mGluR_groupIII; 1.
+DR   Gene3D; 3.40.50.2300; -; 2.
+DR   Gene3D; 2.10.50.30; GPCR, family 3, nine cysteines domain; 1.
+DR   InterPro; IPR001828; ANF_lig-bd_rcpt.
+DR   InterPro; IPR000337; GPCR_3.
+DR   InterPro; IPR011500; GPCR_3_9-Cys_dom.
+DR   InterPro; IPR038550; GPCR_3_9-Cys_sf.
+DR   InterPro; IPR017978; GPCR_3_C.
+DR   InterPro; IPR017979; GPCR_3_CS.
+DR   InterPro; IPR001883; GPCR_3_mGluR7.
+DR   InterPro; IPR000162; GPCR_3_mtglu_rcpt.
+DR   InterPro; IPR050726; mGluR.
+DR   InterPro; IPR028082; Peripla_BP_I.
+DR   PANTHER; PTHR24060; METABOTROPIC GLUTAMATE RECEPTOR; 1.
+DR   PANTHER; PTHR24060:SF98; METABOTROPIC GLUTAMATE RECEPTOR 7; 1.
+DR   Pfam; PF00003; 7tm_3; 1.
+DR   Pfam; PF01094; ANF_receptor; 1.
+DR   Pfam; PF07562; NCD3G; 1.
+DR   PRINTS; PR00248; GPCRMGR.
+DR   PRINTS; PR01057; MTABOTROPC7R.
+DR   PRINTS; PR00593; MTABOTROPICR.
+DR   SUPFAM; SSF53822; Periplasmic binding protein-like I; 1.
+DR   PROSITE; PS00979; G_PROTEIN_RECEP_F3_1; 1.
+DR   PROSITE; PS00980; G_PROTEIN_RECEP_F3_2; 1.
+DR   PROSITE; PS00981; G_PROTEIN_RECEP_F3_3; 1.
+DR   PROSITE; PS50259; G_PROTEIN_RECEP_F3_4; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Disulfide bond; G-protein coupled receptor;
+KW   Glycoprotein; Membrane; Phosphoprotein; Receptor; Reference proteome;
+KW   Sensory transduction; Signal; Transducer; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..34
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           35..915
+FT                   /note="Metabotropic glutamate receptor 7"
+FT                   /id="PRO_0000012940"
+FT   TOPO_DOM        35..590
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        591..615
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        616..627
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        628..648
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        649..654
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        655..675
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        676..702
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        703..723
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        724..753
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        754..775
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        776..788
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        789..810
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        811..825
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        826..850
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        851..915
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          874..895
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         159
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         180..182
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         230
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         314
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         407
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         900
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q68ED2"
+FT   CARBOHYD        98
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        458
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        486
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        572
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        67..109
+FT                   /evidence="ECO:0000269|PubMed:17360426"
+FT   DISULFID        249..541
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        374..390
+FT                   /evidence="ECO:0000269|PubMed:17360426"
+FT   DISULFID        430..437
+FT                   /evidence="ECO:0000269|PubMed:17360426"
+FT   DISULFID        523..542
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        527..545
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        548..560
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        563..576
+FT                   /evidence="ECO:0000250"
+FT   STRAND          42..45
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          48..55
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          58..60
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          62..64
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          66..70
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           72..91
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          93..98
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          101..107
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           112..118
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           119..126
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          150..154
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           159..165
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           168..171
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          176..180
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           184..187
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   TURN            189..192
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          193..199
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           202..215
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          221..228
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           229..244
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          250..256
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           265..274
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          282..286
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           289..301
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   TURN            305..307
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          308..312
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   TURN            314..318
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           321..323
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           327..330
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          334..339
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           344..350
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   TURN            355..357
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           364..371
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           394..397
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           408..429
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   TURN            438..443
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   HELIX           445..452
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          477..483
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          491..504
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+FT   STRAND          506..508
+FT                   /evidence="ECO:0007829|PDB:2E4Z"
+SQ   SEQUENCE   915 AA;  102232 MW;  F28AFC4C6454A6C2 CRC64;
+     MVQLGKLLRV LTLMKFPCCV LEVLLCVLAA AARGQEMYAP HSIRIEGDVT LGGLFPVHAK
+     GPSGVPCGDI KRENGIHRLE AMLYALDQIN SDPNLLPNVT LGARILDTCS RDTYALEQSL
+     TFVQALIQKD TSDVRCTNGE PPVFVKPEKV VGVIGASGSS VSIMVANILR LFQIPQISYA
+     STAPELSDDR RYDFFSRVVP PDSFQAQAMV DIVKALGWNY VSTLASEGSY GEKGVESFTQ
+     ISKEAGGLCI AQSVRIPQER KDRTIDFDRI IKQLLDTPNS RAVVIFANDE DIKQILAAAK
+     RADQVGHFLW VGSDSWGSKI NPLHQHEDIA EGAITIQPKR ATVEGFDAYF TSRTLENNRR
+     NVWFAEYWEE NFNCKLTISG SKKEDTDRKC TGQERIGKDS NYEQEGKVQF VIDAVYAMAH
+     ALHHMNKDLC ADYRGVCPEM EQAGGKKLLK YIRHVNFNGS AGTPVMFNKN GDAPGRYDIF
+     QYQTTNTTNP GYRLIGQWTD ELQLNIEDMQ WGKGVREIPS SVCTLPCKPG QRKKTQKGTP
+     CCWTCEPCDG YQYQFDEMTC QHCPYDQRPN ENRTGCQNIP IIKLEWHSPW AVIPVFLAML
+     GIIATIFVMA TFIRYNDTPI VRASGRELSY VLLTGIFLCY IITFLMIAKP DVAVCSFRRV
+     FLGLGMCISY AALLTKTNRI YRIFEQGKKS VTAPRLISPT SQLAITSSLI SVQLLGVFIW
+     FGVDPPNIII DYDEHKTMNP EQARGVLKCD ITDLQIICSL GYSILLMVTC TVYAIKTRGV
+     PENFNEAKPI GFTMYTTCIV WLAFIPIFFG TAQSAEKLYI QTTTLTISMN LSASVALGML
+     YMPKVYIIIF HPELNVQKRK RSFKAVVTAA TMSSRLSHKP SDRPNGEAKT ELCENVDPNS
+     PAAKKKYVSY NNLVI
+//

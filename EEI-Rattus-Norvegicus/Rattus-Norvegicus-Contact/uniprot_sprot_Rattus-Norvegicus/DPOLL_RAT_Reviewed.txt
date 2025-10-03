@@ -1,0 +1,203 @@
+ID   DPOLL_RAT               Reviewed;         573 AA.
+AC   Q5RKI3;
+DT   13-SEP-2005, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 1.
+DT   29-MAY-2024, entry version 133.
+DE   RecName: Full=DNA polymerase lambda {ECO:0000305};
+DE            Short=Pol Lambda {ECO:0000305};
+DE            EC=2.7.7.7 {ECO:0000250|UniProtKB:Q9UGP5};
+DE            EC=4.2.99.- {ECO:0000250|UniProtKB:Q9UGP5};
+GN   Name=Poll {ECO:0000312|RGD:1308053};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: DNA polymerase that functions in several pathways of DNA
+CC       repair. Involved in base excision repair (BER) responsible for repair
+CC       of lesions that give rise to abasic (AP) sites in DNA. Also contributes
+CC       to DNA double-strand break repair by non-homologous end joining and
+CC       homologous recombination. Has both template-dependent and template-
+CC       independent (terminal transferase) DNA polymerase activities. Has also
+CC       a 5'-deoxyribose-5-phosphate lyase (dRP lyase) activity.
+CC       {ECO:0000250|UniProtKB:Q9UGP5}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-triphosphate + DNA(n) =
+CC         diphosphate + DNA(n+1); Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:17339,
+CC         Rhea:RHEA-COMP:17340, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560,
+CC         ChEBI:CHEBI:173112; EC=2.7.7.7;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UGP5};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UGP5};
+CC   -!- SUBUNIT: Interacts with PCNA. Interacts with PAXX; promoting POLL
+CC       recruitment to double-strand breaks (DSBs) and stimulation of the end-
+CC       filling activity of POLL. Interacts with XRCC4; promoting POLL
+CC       recruitment to double-strand breaks (DSBs) and stimulation of the end-
+CC       filling activity of POLL. Interacts with NHEJ1/XLF; promoting POLL
+CC       recruitment to double-strand breaks (DSBs) and stimulation of the end-
+CC       filling activity of POLL. {ECO:0000250|UniProtKB:Q9UGP5}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q9UGP5}.
+CC   -!- SIMILARITY: Belongs to the DNA polymerase type-X family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC085841; AAH85841.1; -; mRNA.
+DR   RefSeq; NP_001014190.1; NM_001014168.1.
+DR   AlphaFoldDB; Q5RKI3; -.
+DR   SMR; Q5RKI3; -.
+DR   STRING; 10116.ENSRNOP00000023137; -.
+DR   iPTMnet; Q5RKI3; -.
+DR   PhosphoSitePlus; Q5RKI3; -.
+DR   PaxDb; 10116-ENSRNOP00000023137; -.
+DR   Ensembl; ENSRNOT00000023137.6; ENSRNOP00000023137.4; ENSRNOG00000016748.6.
+DR   Ensembl; ENSRNOT00055006985; ENSRNOP00055005216; ENSRNOG00055004426.
+DR   Ensembl; ENSRNOT00060037822; ENSRNOP00060031193; ENSRNOG00060021806.
+DR   GeneID; 361767; -.
+DR   KEGG; rno:361767; -.
+DR   AGR; RGD:1308053; -.
+DR   CTD; 27343; -.
+DR   RGD; 1308053; Poll.
+DR   eggNOG; KOG2534; Eukaryota.
+DR   GeneTree; ENSGT00940000158515; -.
+DR   HOGENOM; CLU_008698_6_1_1; -.
+DR   InParanoid; Q5RKI3; -.
+DR   OMA; KWHGASA; -.
+DR   OrthoDB; 49764at2759; -.
+DR   PhylomeDB; Q5RKI3; -.
+DR   TreeFam; TF103011; -.
+DR   Reactome; R-RNO-5693571; Nonhomologous End-Joining (NHEJ).
+DR   PRO; PR:Q5RKI3; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000016748; Expressed in pancreas and 19 other cell types or tissues.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0035861; C:site of double-strand break; ISS:UniProtKB.
+DR   GO; GO:0051575; F:5'-deoxyribose-5-phosphate lyase activity; ISS:UniProtKB.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006287; P:base-excision repair, gap-filling; ISS:UniProtKB.
+DR   GO; GO:0071897; P:DNA biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   GO; GO:0000724; P:double-strand break repair via homologous recombination; ISS:UniProtKB.
+DR   GO; GO:0006303; P:double-strand break repair via nonhomologous end joining; ISS:UniProtKB.
+DR   GO; GO:0006289; P:nucleotide-excision repair; ISO:RGD.
+DR   CDD; cd17715; BRCT_polymerase_lambda; 1.
+DR   CDD; cd00141; NT_POLXc; 1.
+DR   Gene3D; 1.10.150.20; 5' to 3' exonuclease, C-terminal subdomain; 1.
+DR   Gene3D; 3.30.460.10; Beta Polymerase, domain 2; 1.
+DR   Gene3D; 3.40.50.10190; BRCT domain; 1.
+DR   Gene3D; 1.10.150.110; DNA polymerase beta, N-terminal domain-like; 1.
+DR   Gene3D; 3.30.210.10; DNA polymerase, thumb domain; 1.
+DR   InterPro; IPR001357; BRCT_dom.
+DR   InterPro; IPR036420; BRCT_dom_sf.
+DR   InterPro; IPR002054; DNA-dir_DNA_pol_X.
+DR   InterPro; IPR019843; DNA_pol-X_BS.
+DR   InterPro; IPR010996; DNA_pol_b-like_N.
+DR   InterPro; IPR028207; DNA_pol_B_palm_palm.
+DR   InterPro; IPR018944; DNA_pol_lambd_fingers_domain.
+DR   InterPro; IPR027421; DNA_pol_lamdba_lyase_dom_sf.
+DR   InterPro; IPR037160; DNA_Pol_thumb_sf.
+DR   InterPro; IPR022312; DNA_pol_X.
+DR   InterPro; IPR002008; DNA_pol_X_beta-like.
+DR   InterPro; IPR043519; NT_sf.
+DR   InterPro; IPR029398; PolB_thumb.
+DR   PANTHER; PTHR11276:SF44; DNA POLYMERASE LAMBDA; 1.
+DR   PANTHER; PTHR11276; DNA POLYMERASE TYPE-X FAMILY MEMBER; 1.
+DR   Pfam; PF14792; DNA_pol_B_palm; 1.
+DR   Pfam; PF14791; DNA_pol_B_thumb; 1.
+DR   Pfam; PF10391; DNA_pol_lambd_f; 1.
+DR   Pfam; PF14716; HHH_8; 1.
+DR   PRINTS; PR00869; DNAPOLX.
+DR   PRINTS; PR00870; DNAPOLXBETA.
+DR   SMART; SM00483; POLXc; 1.
+DR   SUPFAM; SSF52113; BRCT domain; 1.
+DR   SUPFAM; SSF47802; DNA polymerase beta, N-terminal domain-like; 1.
+DR   SUPFAM; SSF81301; Nucleotidyltransferase; 1.
+DR   SUPFAM; SSF81585; PsbU/PolX domain-like; 1.
+DR   PROSITE; PS50172; BRCT; 1.
+DR   PROSITE; PS00522; DNA_POLYMERASE_X; 1.
+PE   2: Evidence at transcript level;
+KW   DNA damage; DNA repair; DNA replication; DNA synthesis; DNA-binding;
+KW   DNA-directed DNA polymerase; Lyase; Manganese; Metal-binding;
+KW   Nucleotidyltransferase; Nucleus; Reference proteome; Transferase.
+FT   CHAIN           1..573
+FT                   /note="DNA polymerase lambda"
+FT                   /id="PRO_0000218786"
+FT   DOMAIN          35..131
+FT                   /note="BRCT"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00033"
+FT   REGION          126..235
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          263..277
+FT                   /note="DNA-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGP5"
+FT   REGION          343..346
+FT                   /note="DNA-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGP5"
+FT   REGION          418..427
+FT                   /note="Involved in primer binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          464..503
+FT                   /note="DNA-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGP5"
+FT   COMPBIAS        126..170
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        184..212
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        310
+FT                   /note="Schiff-base intermediate with DNA"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGP5"
+FT   BINDING         384
+FT                   /ligand="dCTP"
+FT                   /ligand_id="ChEBI:CHEBI:61481"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGP5"
+FT   BINDING         415..418
+FT                   /ligand="dCTP"
+FT                   /ligand_id="ChEBI:CHEBI:61481"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGP5"
+FT   BINDING         424..427
+FT                   /ligand="dCTP"
+FT                   /ligand_id="ChEBI:CHEBI:61481"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGP5"
+FT   BINDING         425
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGP5"
+FT   BINDING         427
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGP5"
+FT   BINDING         488
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGP5"
+FT   BINDING         511
+FT                   /ligand="dCTP"
+FT                   /ligand_id="ChEBI:CHEBI:61481"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UGP5"
+SQ   SEQUENCE   573 AA;  62401 MW;  5978076D6CC463B0 CRC64;
+     MDPQGILKAF PKRKKIHADP SSNALAKIPK REAGDARGWL SSLRAHIMPT GIGRARAELF
+     EKQIIQHGGQ VCSAQAPGVT HIVVDEGMDY ERALRLLRLP QLPPGAQLVK SAWLSLCLQE
+     KKLTDTDGFS LSSPKRSLNE PQPSKSGQDA SAPGTQGVLP RTTLSLSPPC TRAVSPPPKA
+     EKPPKTQTQL SSEDEASDGE GPQVSSADLQ ALISGHYPTP PGEDGGPDPA PEALGKWVCA
+     QPSSQKATNY NLHITEKLEV LAKAYNVQGD KWRALGYAKA INALKSFHKP VSSYQEACSI
+     PGVGRRMAEK VMEILESGHL RKLDHISDSV PVLELFSNIW GAGTKTAQMW YHQGFRSLED
+     IRGLASLTAQ QAIGLKHYDD FLDRMPREEA AEIEQMVRVS AQAFNPGLLC VACGSFRRGK
+     VTCGDVDVLI THPDGRSHQG IFSPLLDSLR QQGFLTDDLV SQEENGQQQK YLGVCRLPGA
+     GQRHRRLDII VVPYSEFACA LLYFTGSAHF NRSMRALAKT KGMSLSEHAL SAAVVRNSQG
+     VKVGAGQVLP TPTEKDVFKL LGLPYREPAE RDW
+//

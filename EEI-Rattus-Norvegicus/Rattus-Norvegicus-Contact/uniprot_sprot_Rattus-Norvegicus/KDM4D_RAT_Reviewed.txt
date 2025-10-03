@@ -1,0 +1,201 @@
+ID   KDM4D_RAT               Reviewed;         510 AA.
+AC   A1A5Q5;
+DT   16-JUN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   29-MAY-2024, entry version 108.
+DE   RecName: Full=Lysine-specific demethylase 4D;
+DE            EC=1.14.11.66 {ECO:0000250|UniProtKB:Q6B0I6};
+DE   AltName: Full=JmjC domain-containing histone demethylation protein 3D;
+DE   AltName: Full=Jumonji domain-containing protein 2D;
+DE   AltName: Full=[histone H3]-trimethyl-L-lysine(9) demethylase 4D {ECO:0000305};
+GN   Name=Kdm4d; Synonyms=Jhdm3d, Jmjd2d;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Histone demethylase that specifically demethylates 'Lys-9' of
+CC       histone H3, thereby playing a central role in histone code. Does not
+CC       demethylate histone H3 'Lys-4', H3 'Lys-27', H3 'Lys-36' nor H4 'Lys-
+CC       20'. Demethylates both di- and trimethylated H3 'Lys-9' residue, while
+CC       it has no activity on monomethylated residues. Demethylation of Lys
+CC       residue generates formaldehyde and succinate.
+CC       {ECO:0000250|UniProtKB:Q6B0I6}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 2-oxoglutarate + N(6),N(6),N(6)-trimethyl-L-lysyl(9)-
+CC         [histone H3] + 2 O2 = 2 CO2 + 2 formaldehyde + N(6)-methyl-L-
+CC         lysyl(9)-[histone H3] + 2 succinate; Xref=Rhea:RHEA:60200, Rhea:RHEA-
+CC         COMP:15538, Rhea:RHEA-COMP:15542, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:16842,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:61929, ChEBI:CHEBI:61961;
+CC         EC=1.14.11.66; Evidence={ECO:0000250|UniProtKB:Q6B0I6};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000255|PROSITE-ProRule:PRU00537}.
+CC   -!- PTM: Ubiquitinated via 'Lys-63'-linked ubiquitin chains.
+CC       Deubiquitinated by USP14 with the help of TRIM14 leading to
+CC       stabilization. {ECO:0000250|UniProtKB:Q6B0I6}.
+CC   -!- SIMILARITY: Belongs to the JHDM3 histone demethylase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC128760; AAI28761.1; -; mRNA.
+DR   RefSeq; NP_001073180.1; NM_001079712.1.
+DR   RefSeq; XP_017451454.1; XM_017595965.1.
+DR   RefSeq; XP_017459055.1; XM_017603566.1.
+DR   AlphaFoldDB; A1A5Q5; -.
+DR   SMR; A1A5Q5; -.
+DR   STRING; 10116.ENSRNOP00000059913; -.
+DR   PhosphoSitePlus; A1A5Q5; -.
+DR   PaxDb; 10116-ENSRNOP00000059913; -.
+DR   Ensembl; ENSRNOT00000033932.6; ENSRNOP00000059913.1; ENSRNOG00000045905.2.
+DR   Ensembl; ENSRNOT00000071532.2; ENSRNOP00000067344.1; ENSRNOG00000045905.2.
+DR   Ensembl; ENSRNOT00055011992; ENSRNOP00055009496; ENSRNOG00055007218.
+DR   Ensembl; ENSRNOT00055011996; ENSRNOP00055009500; ENSRNOG00055007218.
+DR   Ensembl; ENSRNOT00060009645; ENSRNOP00060007251; ENSRNOG00060005823.
+DR   Ensembl; ENSRNOT00060009652; ENSRNOP00060007257; ENSRNOG00060005823.
+DR   Ensembl; ENSRNOT00060009658; ENSRNOP00060007261; ENSRNOG00060005823.
+DR   Ensembl; ENSRNOT00065019007; ENSRNOP00065014534; ENSRNOG00065011690.
+DR   Ensembl; ENSRNOT00065019009; ENSRNOP00065014536; ENSRNOG00065011690.
+DR   GeneID; 689582; -.
+DR   KEGG; rno:689582; -.
+DR   UCSC; RGD:1591045; rat.
+DR   AGR; RGD:1591045; -.
+DR   CTD; 55693; -.
+DR   RGD; 1591045; Kdm4d.
+DR   eggNOG; KOG0958; Eukaryota.
+DR   GeneTree; ENSGT00940000162152; -.
+DR   HOGENOM; CLU_001442_6_1_1; -.
+DR   InParanoid; A1A5Q5; -.
+DR   OMA; RASICKC; -.
+DR   OrthoDB; 48111at2759; -.
+DR   PhylomeDB; A1A5Q5; -.
+DR   TreeFam; TF106449; -.
+DR   Reactome; R-RNO-3214842; HDMs demethylate histones.
+DR   PRO; PR:A1A5Q5; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000024726; Expressed in testis and 2 other cell types or tissues.
+DR   GO; GO:0000785; C:chromatin; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0005721; C:pericentric heterochromatin; ISO:RGD.
+DR   GO; GO:0035861; C:site of double-strand break; ISO:RGD.
+DR   GO; GO:0031490; F:chromatin DNA binding; ISO:RGD.
+DR   GO; GO:0003684; F:damaged DNA binding; ISO:RGD.
+DR   GO; GO:0032452; F:histone demethylase activity; ISO:RGD.
+DR   GO; GO:0032454; F:histone H3K9 demethylase activity; ISO:RGD.
+DR   GO; GO:0140684; F:histone H3K9me2/H3K9me3 demethylase activity; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0071479; P:cellular response to ionizing radiation; ISO:RGD.
+DR   GO; GO:0006338; P:chromatin remodeling; IBA:GO_Central.
+DR   GO; GO:0006974; P:DNA damage response; ISO:RGD.
+DR   GO; GO:0000724; P:double-strand break repair via homologous recombination; ISO:RGD.
+DR   GO; GO:0006954; P:inflammatory response; ISO:RGD.
+DR   GO; GO:2001034; P:positive regulation of double-strand break repair via nonhomologous end joining; ISO:RGD.
+DR   GO; GO:0010468; P:regulation of gene expression; IBA:GO_Central.
+DR   GO; GO:0001932; P:regulation of protein phosphorylation; ISO:RGD.
+DR   Gene3D; 2.60.120.650; Cupin; 1.
+DR   InterPro; IPR003347; JmjC_dom.
+DR   InterPro; IPR003349; JmjN.
+DR   PANTHER; PTHR10694; LYSINE-SPECIFIC DEMETHYLASE; 1.
+DR   PANTHER; PTHR10694:SF21; LYSINE-SPECIFIC DEMETHYLASE 4D; 1.
+DR   Pfam; PF02373; JmjC; 1.
+DR   Pfam; PF02375; JmjN; 1.
+DR   SMART; SM00558; JmjC; 1.
+DR   SMART; SM00545; JmjN; 1.
+DR   SUPFAM; SSF51197; Clavaminate synthase-like; 1.
+DR   PROSITE; PS51184; JMJC; 1.
+DR   PROSITE; PS51183; JMJN; 1.
+PE   2: Evidence at transcript level;
+KW   ADP-ribosylation; Chromatin regulator; Dioxygenase; Iron; Metal-binding;
+KW   Nucleus; Oxidoreductase; Reference proteome; Transcription;
+KW   Transcription regulation; Ubl conjugation; Zinc.
+FT   CHAIN           1..510
+FT                   /note="Lysine-specific demethylase 4D"
+FT                   /id="PRO_0000376824"
+FT   DOMAIN          15..57
+FT                   /note="JmjN"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00537"
+FT   DOMAIN          143..309
+FT                   /note="JmjC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   REGION          397..510
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        472..486
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         133
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:B2RXH2"
+FT   BINDING         189
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   BINDING         191
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   BINDING         199
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:B2RXH2"
+FT   BINDING         207
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:B2RXH2"
+FT   BINDING         235
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6B0I6"
+FT   BINDING         241
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6B0I6"
+FT   BINDING         242
+FT                   /ligand="2-oxoglutarate"
+FT                   /ligand_id="ChEBI:CHEBI:16810"
+FT                   /evidence="ECO:0000250|UniProtKB:B2RXH2"
+FT   BINDING         277
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00538"
+FT   BINDING         307
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6B0I6"
+FT   BINDING         309
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6B0I6"
+FT   MOD_RES         23
+FT                   /note="PolyADP-ribosyl glutamic acid"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         24
+FT                   /note="PolyADP-ribosyl glutamic acid"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   510 AA;  57188 MW;  3F312BF389E05560 CRC64;
+     MKTKSTCAQN PNCSIMIFRP TKEEFNDFDK YIAYMESQGA HRAGLAKVIP PKEWRARQSY
+     DNISNILIAT PLQQVVSGQA GVFTQYHKKK KAMTVGQYRH LANSKKYQTP PHLDFEDLER
+     KYWKNRLYES PIYGADVSGS LFDGKTQQWN VGHLGTIQDL LEQECGIVIE GVNTPYLYFG
+     MWKTSFAWHT EDMDLYSINY LHFGQPKTWY AVPPEHGRRL ELLAKELFPG SSQGCQAFLR
+     HKVALISPTV LKENGIPFGR ITQEAGEFMV TFPYGYHAGF NHGFNCAEAI NFATPRWIDY
+     GKVASQCSCG EARVSFSMDA FVRILQPERY EMWKRGQDQA VVDHTEAMGP TSQELTTWRV
+     IQAPRKTWGL KHLRLRQVSR CLLPVATDSN IANNTQMCHT SRQAADSKGD EVQESDPAIA
+     PPYPLGLSSP GHMSTGKRGL GRRPCELGVQ ESTNGAPVKR RLPEGRDDRS PSPELQSQSV
+     TGDLIVNSDL VNPGPQHPVT ASEGGLTSDP
+//

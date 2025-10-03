@@ -1,0 +1,445 @@
+ID   JAK2_RAT                Reviewed;        1132 AA.
+AC   Q62689;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   02-OCT-2024, entry version 206.
+DE   RecName: Full=Tyrosine-protein kinase JAK2 {ECO:0000305};
+DE            EC=2.7.10.2 {ECO:0000250|UniProtKB:O60674};
+DE   AltName: Full=Janus kinase 2;
+DE            Short=JAK-2;
+GN   Name=Jak2 {ECO:0000312|RGD:2939};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RX   PubMed=7607555; DOI=10.1016/0378-1119(95)00041-4;
+RA   Duhe R.J., Rui H., Greenwood J.D., Garvey K., Farrar W.L.;
+RT   "Cloning of the gene encoding rat JAK2, a protein tyrosine kinase.";
+RL   Gene 158:281-285(1995).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-523, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Non-receptor tyrosine kinase involved in various processes
+CC       such as cell growth, development, differentiation or histone
+CC       modifications. Mediates essential signaling events in both innate and
+CC       adaptive immunity. In the cytoplasm, plays a pivotal role in signal
+CC       transduction via its association with type I receptors such as growth
+CC       hormone (GHR), prolactin (PRLR), leptin (LEPR), erythropoietin (EPOR),
+CC       thrombopoietin (THPO); or type II receptors including IFN-alpha, IFN-
+CC       beta, IFN-gamma and multiple interleukins. Following ligand-binding to
+CC       cell surface receptors, phosphorylates specific tyrosine residues on
+CC       the cytoplasmic tails of the receptor, creating docking sites for STATs
+CC       proteins. Subsequently, phosphorylates the STATs proteins once they are
+CC       recruited to the receptor. Phosphorylated STATs then form homodimer or
+CC       heterodimers and translocate to the nucleus to activate gene
+CC       transcription. For example, cell stimulation with erythropoietin (EPO)
+CC       during erythropoiesis leads to JAK2 autophosphorylation, activation,
+CC       and its association with erythropoietin receptor (EPOR) that becomes
+CC       phosphorylated in its cytoplasmic domain. Then, STAT5 (STAT5A or
+CC       STAT5B) is recruited, phosphorylated and activated by JAK2. Once
+CC       activated, dimerized STAT5 translocates into the nucleus and promotes
+CC       the transcription of several essential genes involved in the modulation
+CC       of erythropoiesis. Part of a signaling cascade that is activated by
+CC       increased cellular retinol and that leads to the activation of STAT5
+CC       (STAT5A or STAT5B). In addition, JAK2 mediates angiotensin-2-induced
+CC       ARHGEF1 phosphorylation. Plays a role in cell cycle by phosphorylating
+CC       CDKN1B. Cooperates with TEC through reciprocal phosphorylation to
+CC       mediate cytokine-driven activation of FOS transcription. In the
+CC       nucleus, plays a key role in chromatin by specifically mediating
+CC       phosphorylation of 'Tyr-41' of histone H3 (H3Y41ph), a specific tag
+CC       that promotes exclusion of CBX5 (HP1 alpha) from chromatin. Up-
+CC       regulates the potassium voltage-gated channel activity of KCNA3.
+CC       {ECO:0000250|UniProtKB:O60674}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tyrosyl-[protein] = ADP + H(+) + O-phospho-L-tyrosyl-
+CC         [protein]; Xref=Rhea:RHEA:10596, Rhea:RHEA-COMP:10136, Rhea:RHEA-
+CC         COMP:10137, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:46858,
+CC         ChEBI:CHEBI:82620, ChEBI:CHEBI:456216; EC=2.7.10.2;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10028};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305};
+CC       Note=Mn(2+) was used in the in vitro kinase assay but Mg(2+) is likely
+CC       to be the in vivo cofactor. {ECO:0000305};
+CC   -!- ACTIVITY REGULATION: Regulated by autophosphorylation, can both
+CC       activate or decrease activity. Heme regulates its activity by enhancing
+CC       the phosphorylation on Tyr-1007 and Tyr-1008.
+CC       {ECO:0000250|UniProtKB:O60674, ECO:0000250|UniProtKB:Q62120}.
+CC   -!- SUBUNIT: Interacts with IL23R, SKB1 and STAM2 (By similarity).
+CC       Interacts with EPOR. Interacts with LYN. Interacts with SIRPA.
+CC       Interacts with SH2B1. Interacts with TEC (By similarity). Interacts
+CC       with IFNGR2 (via intracellular domain) (By similarity). Interacts with
+CC       LEPR (Isoform B) (By similarity). Interacts with HSP90AB1; promotes
+CC       functional activation in a heat shock-dependent manner. Interacts with
+CC       STRA6 (By similarity). Interacts with ASB2; the interaction targets
+CC       JAK2 for Notch-induced proteasomal degradation (By similarity).
+CC       {ECO:0000250|UniProtKB:O60674, ECO:0000250|UniProtKB:Q62120}.
+CC   -!- INTERACTION:
+CC       Q62689; P15127: Insr; NbExp=2; IntAct=EBI-8656708, EBI-7472166;
+CC       Q62689; P41499: Ptpn11; NbExp=3; IntAct=EBI-8656708, EBI-7180604;
+CC   -!- SUBCELLULAR LOCATION: Endomembrane system {ECO:0000250}; Peripheral
+CC       membrane protein {ECO:0000250}. Cytoplasm {ECO:0000250}. Nucleus
+CC       {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Ubiquitously expressed throughout most tissues.
+CC       {ECO:0000269|PubMed:7607555}.
+CC   -!- DOMAIN: The N-terminal domain of JAKs mediates their interaction with
+CC       cytokine/interferon/growth hormone receptors. Possesses 2 protein
+CC       kinase domains. The second one probably contains the catalytic domain,
+CC       while the presence of slight differences suggest a different role for
+CC       protein kinase 1 (By similarity). {ECO:0000250}.
+CC   -!- PTM: Autophosphorylated, leading to regulate its activity. Leptin
+CC       promotes phosphorylation on tyrosine residues, including
+CC       phosphorylation on Tyr-813. Autophosphorylation on Tyr-119 in response
+CC       to EPO down-regulates its kinase activity. Autophosphorylation on Tyr-
+CC       868, Tyr-966 and Tyr-972 in response to growth hormone (GH) are
+CC       required for maximal kinase activity. Also phosphorylated by TEC (By
+CC       similarity). Phosphorylated on tyrosine residues in response to
+CC       interferon gamma signaling. Phosphorylated on tyrosine residues in
+CC       response to a signaling cascade that is activated by increased cellular
+CC       retinol (By similarity). {ECO:0000250|UniProtKB:O60674,
+CC       ECO:0000250|UniProtKB:Q62120}.
+CC   -!- PTM: Undergoes Notch-induced ubiquitination and subsequent proteasomal
+CC       degradation which is mediated by ASB1 or ASB2, the substrate-
+CC       recognition components of probable ECS E3 ubiquitin-protein ligase
+CC       complexes. {ECO:0000250|UniProtKB:O60674}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. JAK subfamily. {ECO:0000255|PROSITE-ProRule:PRU00159}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U13396; AAA79911.1; -; mRNA.
+DR   PIR; JC4127; JC4127.
+DR   RefSeq; NP_113702.1; NM_031514.1.
+DR   AlphaFoldDB; Q62689; -.
+DR   SMR; Q62689; -.
+DR   BioGRID; 246670; 9.
+DR   DIP; DIP-491N; -.
+DR   IntAct; Q62689; 3.
+DR   MINT; Q62689; -.
+DR   STRING; 10116.ENSRNOP00000071877; -.
+DR   BindingDB; Q62689; -.
+DR   ChEMBL; CHEMBL1075225; -.
+DR   DrugCentral; Q62689; -.
+DR   iPTMnet; Q62689; -.
+DR   PhosphoSitePlus; Q62689; -.
+DR   PaxDb; 10116-ENSRNOP00000021218; -.
+DR   Ensembl; ENSRNOT00000087011.2; ENSRNOP00000071877.1; ENSRNOG00000059968.2.
+DR   Ensembl; ENSRNOT00055053783; ENSRNOP00055044502; ENSRNOG00055031013.
+DR   Ensembl; ENSRNOT00060053416; ENSRNOP00060044381; ENSRNOG00060030737.
+DR   GeneID; 24514; -.
+DR   KEGG; rno:24514; -.
+DR   UCSC; RGD:2939; rat.
+DR   AGR; RGD:2939; -.
+DR   CTD; 3717; -.
+DR   RGD; 2939; Jak2.
+DR   eggNOG; KOG0197; Eukaryota.
+DR   GeneTree; ENSGT00940000155640; -.
+DR   HOGENOM; CLU_008155_1_0_1; -.
+DR   InParanoid; Q62689; -.
+DR   OMA; FMKLHEN; -.
+DR   OrthoDB; 1614410at2759; -.
+DR   PhylomeDB; Q62689; -.
+DR   BRENDA; 2.7.10.2; 5301.
+DR   Reactome; R-RNO-1059683; Interleukin-6 signaling.
+DR   Reactome; R-RNO-110056; MAPK3 (ERK1) activation.
+DR   Reactome; R-RNO-112411; MAPK1 (ERK2) activation.
+DR   Reactome; R-RNO-1170546; Prolactin receptor signaling.
+DR   Reactome; R-RNO-1433557; Signaling by SCF-KIT.
+DR   Reactome; R-RNO-512988; Interleukin-3, Interleukin-5 and GM-CSF signaling.
+DR   Reactome; R-RNO-5673000; RAF activation.
+DR   Reactome; R-RNO-5673001; RAF/MAP kinase cascade.
+DR   Reactome; R-RNO-6785807; Interleukin-4 and Interleukin-13 signaling.
+DR   Reactome; R-RNO-6788467; IL-6-type cytokine receptor ligand interactions.
+DR   Reactome; R-RNO-69231; Cyclin D associated events in G1.
+DR   Reactome; R-RNO-877300; Interferon gamma signaling.
+DR   Reactome; R-RNO-877312; Regulation of IFNG signaling.
+DR   Reactome; R-RNO-8854691; Interleukin-20 family signaling.
+DR   Reactome; R-RNO-8984722; Interleukin-35 Signalling.
+DR   Reactome; R-RNO-9006335; Signaling by Erythropoietin.
+DR   Reactome; R-RNO-9020591; Interleukin-12 signaling.
+DR   Reactome; R-RNO-9020933; Interleukin-23 signaling.
+DR   Reactome; R-RNO-9020956; Interleukin-27 signaling.
+DR   Reactome; R-RNO-9027276; Erythropoietin activates Phosphoinositide-3-kinase (PI3K).
+DR   Reactome; R-RNO-9027284; Erythropoietin activates RAS.
+DR   Reactome; R-RNO-912526; Interleukin receptor SHC signaling.
+DR   Reactome; R-RNO-9674555; Signaling by CSF3 (G-CSF).
+DR   Reactome; R-RNO-9705462; Inactivation of CSF3 (G-CSF) signaling.
+DR   Reactome; R-RNO-9732724; IFNG signaling activates MAPKs.
+DR   Reactome; R-RNO-982772; Growth hormone receptor signaling.
+DR   Reactome; R-RNO-983231; Factors involved in megakaryocyte development and platelet production.
+DR   PRO; PR:Q62689; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000059968; Expressed in thymus and 20 other cell types or tissues.
+DR   GO; GO:0005901; C:caveola; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005856; C:cytoskeleton; IEA:InterPro.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0012505; C:endomembrane system; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000791; C:euchromatin; IDA:RGD.
+DR   GO; GO:0031234; C:extrinsic component of cytoplasmic side of plasma membrane; ISO:RGD.
+DR   GO; GO:0019897; C:extrinsic component of plasma membrane; ISO:RGD.
+DR   GO; GO:0005925; C:focal adhesion; IEA:Ensembl.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0030526; C:granulocyte macrophage colony-stimulating factor receptor complex; ISO:RGD.
+DR   GO; GO:0045121; C:membrane raft; ISO:RGD.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0098794; C:postsynapse; IDA:SynGO.
+DR   GO; GO:0033130; F:acetylcholine receptor binding; IPI:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005131; F:growth hormone receptor binding; IPI:BHF-UCL.
+DR   GO; GO:0020037; F:heme binding; ISS:UniProtKB.
+DR   GO; GO:0042393; F:histone binding; ISS:UniProtKB.
+DR   GO; GO:0035401; F:histone H3Y41 kinase activity; ISS:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0043560; F:insulin receptor substrate binding; IPI:RGD.
+DR   GO; GO:0005143; F:interleukin-12 receptor binding; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004715; F:non-membrane spanning protein tyrosine kinase activity; IBA:GO_Central.
+DR   GO; GO:0051428; F:peptide hormone receptor binding; IPI:RGD.
+DR   GO; GO:0043548; F:phosphatidylinositol 3-kinase binding; IPI:RGD.
+DR   GO; GO:0019901; F:protein kinase binding; ISO:RGD.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IMP:RGD.
+DR   GO; GO:0042169; F:SH2 domain binding; ISO:RGD.
+DR   GO; GO:0005102; F:signaling receptor binding; ISO:RGD.
+DR   GO; GO:0031702; F:type 1 angiotensin receptor binding; IPI:RGD.
+DR   GO; GO:0042976; P:activation of Janus kinase activity; ISS:UniProtKB.
+DR   GO; GO:0002250; P:adaptive immune response; IEA:UniProtKB-KW.
+DR   GO; GO:0031103; P:axon regeneration; IMP:RGD.
+DR   GO; GO:0030154; P:cell differentiation; ISO:RGD.
+DR   GO; GO:0007259; P:cell surface receptor signaling pathway via JAK-STAT; IDA:RGD.
+DR   GO; GO:0071549; P:cellular response to dexamethasone stimulus; ISO:RGD.
+DR   GO; GO:0036016; P:cellular response to interleukin-3; ISO:RGD.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; ISO:RGD.
+DR   GO; GO:0038065; P:collagen-activated signaling pathway; ISO:RGD.
+DR   GO; GO:0019221; P:cytokine-mediated signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0007167; P:enzyme-linked receptor protein signaling pathway; ISO:RGD.
+DR   GO; GO:0030218; P:erythrocyte differentiation; ISS:UniProtKB.
+DR   GO; GO:0097191; P:extrinsic apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; IMP:RGD.
+DR   GO; GO:0038157; P:granulocyte-macrophage colony-stimulating factor signaling pathway; ISO:RGD.
+DR   GO; GO:0060396; P:growth hormone receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0060397; P:growth hormone receptor signaling pathway via JAK-STAT; IDA:RGD.
+DR   GO; GO:0009755; P:hormone-mediated signaling pathway; IDA:RGD.
+DR   GO; GO:0035722; P:interleukin-12-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0038156; P:interleukin-3-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0038043; P:interleukin-5-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0035556; P:intracellular signal transduction; ISO:RGD.
+DR   GO; GO:0008631; P:intrinsic apoptotic signaling pathway in response to oxidative stress; IMP:RGD.
+DR   GO; GO:0061180; P:mammary gland epithelium development; ISO:RGD.
+DR   GO; GO:0001774; P:microglial cell activation; ISO:RGD.
+DR   GO; GO:0050804; P:modulation of chemical synaptic transmission; IDA:SynGO.
+DR   GO; GO:0030099; P:myeloid cell differentiation; ISO:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:0010667; P:negative regulation of cardiac muscle cell apoptotic process; IMP:RGD.
+DR   GO; GO:0008285; P:negative regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0022408; P:negative regulation of cell-cell adhesion; IMP:RGD.
+DR   GO; GO:0043524; P:negative regulation of neuron apoptotic process; IMP:RGD.
+DR   GO; GO:0031959; P:nuclear receptor-mediated mineralocorticoid signaling pathway; IMP:RGD.
+DR   GO; GO:0048008; P:platelet-derived growth factor receptor signaling pathway; IMP:RGD.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:2001235; P:positive regulation of apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:0050867; P:positive regulation of cell activation; IMP:RGD.
+DR   GO; GO:0045597; P:positive regulation of cell differentiation; IMP:RGD.
+DR   GO; GO:0030335; P:positive regulation of cell migration; IMP:RGD.
+DR   GO; GO:0008284; P:positive regulation of cell population proliferation; IMP:RGD.
+DR   GO; GO:0010811; P:positive regulation of cell-substrate adhesion; ISO:RGD.
+DR   GO; GO:0120162; P:positive regulation of cold-induced thermogenesis; ISS:YuBioLab.
+DR   GO; GO:0007204; P:positive regulation of cytosolic calcium ion concentration; IMP:RGD.
+DR   GO; GO:1904037; P:positive regulation of epithelial cell apoptotic process; IMP:RGD.
+DR   GO; GO:1902728; P:positive regulation of growth factor dependent skeletal muscle satellite cell proliferation; IMP:RGD.
+DR   GO; GO:0060399; P:positive regulation of growth hormone receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0032024; P:positive regulation of insulin secretion; IMP:RGD.
+DR   GO; GO:0032731; P:positive regulation of interleukin-1 beta production; IMP:RGD.
+DR   GO; GO:0070665; P:positive regulation of leukocyte proliferation; ISO:RGD.
+DR   GO; GO:0043410; P:positive regulation of MAPK cascade; IMP:RGD.
+DR   GO; GO:0045348; P:positive regulation of MHC class II biosynthetic process; ISO:RGD.
+DR   GO; GO:0032819; P:positive regulation of natural killer cell proliferation; ISO:RGD.
+DR   GO; GO:0045429; P:positive regulation of nitric oxide biosynthetic process; IMP:RGD.
+DR   GO; GO:0051770; P:positive regulation of nitric-oxide synthase biosynthetic process; IDA:BHF-UCL.
+DR   GO; GO:0051142; P:positive regulation of NK T cell proliferation; ISO:RGD.
+DR   GO; GO:0051897; P:positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction; ISO:RGD.
+DR   GO; GO:0010572; P:positive regulation of platelet activation; ISO:RGD.
+DR   GO; GO:1901731; P:positive regulation of platelet aggregation; ISO:RGD.
+DR   GO; GO:0042307; P:positive regulation of protein import into nucleus; IMP:RGD.
+DR   GO; GO:0046427; P:positive regulation of receptor signaling pathway via JAK-STAT; ISO:RGD.
+DR   GO; GO:0060391; P:positive regulation of SMAD protein signal transduction; ISO:RGD.
+DR   GO; GO:0042102; P:positive regulation of T cell proliferation; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0032760; P:positive regulation of tumor necrosis factor production; ISO:RGD.
+DR   GO; GO:0032729; P:positive regulation of type II interferon production; ISO:RGD.
+DR   GO; GO:0042531; P:positive regulation of tyrosine phosphorylation of STAT protein; ISS:UniProtKB.
+DR   GO; GO:1904707; P:positive regulation of vascular associated smooth muscle cell proliferation; IMP:RGD.
+DR   GO; GO:0035166; P:post-embryonic hemopoiesis; ISO:RGD.
+DR   GO; GO:0043687; P:post-translational protein modification; ISS:UniProtKB.
+DR   GO; GO:0046777; P:protein autophosphorylation; ISS:UniProtKB.
+DR   GO; GO:0042981; P:regulation of apoptotic process; IBA:GO_Central.
+DR   GO; GO:0050727; P:regulation of inflammatory response; ISO:RGD.
+DR   GO; GO:0045428; P:regulation of nitric oxide biosynthetic process; IGI:ARUK-UCL.
+DR   GO; GO:1905539; P:regulation of postsynapse to nucleus signaling pathway; IDA:SynGO.
+DR   GO; GO:0014075; P:response to amine; IEP:RGD.
+DR   GO; GO:0046677; P:response to antibiotic; ISO:RGD.
+DR   GO; GO:0033194; P:response to hydroperoxide; IMP:RGD.
+DR   GO; GO:0070671; P:response to interleukin-12; ISO:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; ISO:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:0006979; P:response to oxidative stress; IMP:RGD.
+DR   GO; GO:0034612; P:response to tumor necrosis factor; ISO:RGD.
+DR   GO; GO:0007165; P:signal transduction; ISS:UniProtKB.
+DR   GO; GO:0034050; P:symbiont-induced defense-related programmed cell death; ISO:RGD.
+DR   GO; GO:0006366; P:transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0033209; P:tumor necrosis factor-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0060333; P:type II interferon-mediated signaling pathway; IDA:BHF-UCL.
+DR   CDD; cd14473; FERM_B-lobe; 1.
+DR   CDD; cd13333; FERM_C_JAK2; 1.
+DR   CDD; cd05078; PTK_Jak2_rpt1; 1.
+DR   CDD; cd14205; PTKc_Jak2_rpt2; 1.
+DR   CDD; cd10379; SH2_Jak2; 1.
+DR   Gene3D; 2.30.29.30; Pleckstrin-homology domain (PH domain)/Phosphotyrosine-binding domain (PTB); 1.
+DR   Gene3D; 3.30.505.10; SH2 domain; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 2.
+DR   InterPro; IPR019749; Band_41_domain.
+DR   InterPro; IPR035963; FERM_2.
+DR   InterPro; IPR019748; FERM_central.
+DR   InterPro; IPR000299; FERM_domain.
+DR   InterPro; IPR041155; FERM_F1.
+DR   InterPro; IPR041046; FERM_F2.
+DR   InterPro; IPR051286; JAK.
+DR   InterPro; IPR041381; JAK1-3/TYK2_PHL_dom.
+DR   InterPro; IPR037838; JAK2_FERM_C-lobe.
+DR   InterPro; IPR035860; JAK2_SH2.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR011993; PH-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR035588; PTK_Jak2_rpt1.
+DR   InterPro; IPR035589; PTKc_Jak2_rpt2.
+DR   InterPro; IPR001245; Ser-Thr/Tyr_kinase_cat_dom.
+DR   InterPro; IPR000980; SH2.
+DR   InterPro; IPR036860; SH2_dom_sf.
+DR   InterPro; IPR008266; Tyr_kinase_AS.
+DR   InterPro; IPR020635; Tyr_kinase_cat_dom.
+DR   InterPro; IPR016251; Tyr_kinase_non-rcpt_Jak/Tyk2.
+DR   InterPro; IPR020693; Tyr_kinase_non-rcpt_Jak2.
+DR   PANTHER; PTHR45807; TYROSINE-PROTEIN KINASE HOPSCOTCH; 1.
+DR   PANTHER; PTHR45807:SF1; TYROSINE-PROTEIN KINASE JAK2; 1.
+DR   Pfam; PF18379; FERM_F1; 1.
+DR   Pfam; PF18377; FERM_F2; 1.
+DR   Pfam; PF17887; Jak1_Phl; 1.
+DR   Pfam; PF07714; PK_Tyr_Ser-Thr; 2.
+DR   Pfam; PF21990; SH2_1; 1.
+DR   PIRSF; PIRSF000636; TyrPK_Jak; 1.
+DR   PRINTS; PR01823; JANUSKINASE.
+DR   PRINTS; PR01825; JANUSKINASE2.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00295; B41; 1.
+DR   SMART; SM00252; SH2; 1.
+DR   SMART; SM00219; TyrKc; 2.
+DR   SUPFAM; SSF50729; PH domain-like; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 2.
+DR   SUPFAM; SSF47031; Second domain of FERM; 1.
+DR   SUPFAM; SSF55550; SH2 domain; 1.
+DR   PROSITE; PS50057; FERM_3; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 2.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS50001; SH2; 1.
+PE   1: Evidence at protein level;
+KW   Adaptive immunity; ATP-binding; Chromatin regulator; Cytoplasm; Immunity;
+KW   Innate immunity; Kinase; Magnesium; Membrane; Metal-binding;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Reference proteome; Repeat;
+KW   SH2 domain; Transferase; Tyrosine-protein kinase; Ubl conjugation.
+FT   CHAIN           1..1132
+FT                   /note="Tyrosine-protein kinase JAK2"
+FT                   /id="PRO_0000088114"
+FT   DOMAIN          37..380
+FT                   /note="FERM"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00084"
+FT   DOMAIN          401..482
+FT                   /note="SH2; atypical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00191"
+FT   DOMAIN          545..809
+FT                   /note="Protein kinase 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   DOMAIN          849..1126
+FT                   /note="Protein kinase 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          1..239
+FT                   /note="Interaction with cytokine/interferon/growth hormone
+FT                   receptors"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        976
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10028"
+FT   BINDING         855..863
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         882
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         119
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62120"
+FT   MOD_RES         372
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62120"
+FT   MOD_RES         373
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62120"
+FT   MOD_RES         523
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         570
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60674"
+FT   MOD_RES         813
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62120"
+FT   MOD_RES         868
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62120"
+FT   MOD_RES         966
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62120"
+FT   MOD_RES         972
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q62120"
+FT   MOD_RES         1007
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:O60674"
+FT   MOD_RES         1008
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:O60674"
+SQ   SEQUENCE   1132 AA;  130585 MW;  C3AEDF2FECE8B95A CRC64;
+     MGMACLTMTE MEGTSTSPAH QNGDIPGNAN SVKQTEPVLQ VYLYHSLGQA EGDYLKFPNG
+     EYVAEEICVA ASKACGITPV YHNMFALMSE TERIWYPPNH VFHIDESTRH NILYRIRFYF
+     PHWYCSGSNR TYRYGVSRGA EAPLLDDFVM SYLFAQWRHD FVHGWIKVPV THETQEECLG
+     MAVLDMMRIA KEKDQTPLAV YNSISYKTFL PKCVRAKIQD YHILTRKRIR YRFRRFIQQF
+     SQCKATARNL KLKYLINLET LQSAFYTEQF EVKESARGPS GEEIFATIII TGNGGIQWSR
+     GKHKESETLT EQDLQLYCDF PDIIDVSIKQ ANQECSTESR VVTVHKQDGK VLEIELSSLK
+     EALSFVSLID GYYRLTADAH HYLCKEVAPP AVLENIHSNC HGPISMDFAI SKLKKAGNQT
+     GLYVLRCSPK DFNKYFLTFA VERENVIEYK HCLITKNENG EYNLSGTKRN FSSLKDLLNC
+     YQMETVRSDS IIFQFTKCCP PKPKDKSNLL VFRTNGVSDV QLSPTLQRHN NVNQMVFHKI
+     RNEDLIFNES LGQGTFTKIF KGVRREVGDY GQLHETEVLL KVLDKAHRNY SESFFEAASM
+     MSQLSHKHLV LNYGVCVCGE ENILVQEFVK FGSLDTYLKK NKNSINILWK LGVAKQLAWA
+     MHFLEEKSLI HGNVCAKNIL LIREEDRKTG NPPFIKLSDP GISITVLPKD ILQERIPWVP
+     PECIENPKNL TLATDKWSFG TTLWEICSGG DKPLSALDSQ RKLQFYEDKH QLPAPKWTEL
+     ANLINTCMDY EPDFRPAFRA VIRDLNSLFT PDYELLTEND MLPNMRIGAL GFSGAFEDRD
+     PTQFEERHLK FLQQLGKGNF GSVEMCRYDP LQDNTGEVVA VKKLQHSTEE HLRDFEREIE
+     ILKSLQHDNI VKYKGVCYSA GRRNLRLIME YLPYGSLRDY LQKHKERIDH KKLLQYTSQI
+     CKGMEYLGTK RYIHRDLATR NILVENENRV KIGDFGLTKV LPQDKEYYKV KEPGESPIFW
+     YAPESLTESK FSVASDVWSF GVVLYELFTY IEKSKSPPVE FMRMIGNDKQ GQMIVFHLIE
+     LLKNNGRLPR PEGCPDEIYV IMTECWNNNV NQRPSFRDLS LRVDQIRDSM AA
+//

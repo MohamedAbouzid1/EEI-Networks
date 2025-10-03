@@ -1,0 +1,151 @@
+ID   UD2B2_RAT               Reviewed;         530 AA.
+AC   P08541;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1988, sequence version 1.
+DT   24-JUL-2024, entry version 144.
+DE   RecName: Full=UDP-glucuronosyltransferase 2B2;
+DE            Short=UDPGT 2B2;
+DE            EC=2.4.1.17 {ECO:0000269|PubMed:2429951};
+DE   AltName: Full=3-hydroxyandrogen-specific UDPGT;
+DE   AltName: Full=RLUG23;
+DE   AltName: Full=UDPGTr-4 {ECO:0000303|PubMed:2429951};
+DE   Flags: Precursor;
+GN   Name=Ugt2b; Synonyms=Ugt2b2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND CATALYTIC ACTIVITY.
+RC   TISSUE=Liver;
+RX   PubMed=2429951; DOI=10.1016/s0021-9258(18)66989-3;
+RA   McKenzie P.I.;
+RT   "Rat liver UDP-glucuronosyltransferase. cDNA sequence and expression of a
+RT   form glucuronidating 3-hydroxyandrogens.";
+RL   J. Biol. Chem. 261:14112-14117(1986).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1909872; DOI=10.1089/dna.1991.10.515;
+RA   Haque S.J., Peterson D.D., Nebert D.W., McKenzie P.I.;
+RT   "Isolation, sequence, and developmental expression of rat UGT2B2: the gene
+RT   encoding a constitutive UDP glucuronosyltransferase that metabolizes
+RT   etiocholanolone and androsterone.";
+RL   DNA Cell Biol. 10:515-524(1991).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 30-530.
+RC   TISSUE=Liver;
+RX   PubMed=3003696; DOI=10.1093/nar/14.2.779;
+RA   Jackson M.R., Burchell B.;
+RT   "The full length coding sequence of rat liver androsterone UDP-
+RT   glucuronyltransferase cDNA and comparison with other members of this gene
+RT   family.";
+RL   Nucleic Acids Res. 14:779-795(1986).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 24-44, AND LIPID-BINDING.
+RX   PubMed=7492328; DOI=10.1042/bj3120301;
+RA   Yamashita A., Watanabe M., Tonegawa T., Sugiura T., Waku K.;
+RT   "Acyl-CoA binding and acylation of UDP-glucuronosyltransferase isoforms of
+RT   rat liver: their effect on enzyme activity.";
+RL   Biochem. J. 312:301-308(1995).
+CC   -!- FUNCTION: UDPGT is of major importance in the conjugation and
+CC       subsequent elimination of potentially toxic xenobiotics and endogenous
+CC       compounds. 2B2 acts on various endogenous steroids, especially
+CC       etiocholanolone and androsterone.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glucuronate acceptor + UDP-alpha-D-glucuronate = acceptor
+CC         beta-D-glucuronoside + H(+) + UDP; Xref=Rhea:RHEA:21032,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58052, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:132367, ChEBI:CHEBI:132368; EC=2.4.1.17;
+CC         Evidence={ECO:0000269|PubMed:2429951};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21033;
+CC         Evidence={ECO:0000305|PubMed:2429951};
+CC   -!- SUBCELLULAR LOCATION: Microsome membrane {ECO:0000305}; Single-pass
+CC       membrane protein {ECO:0000305}. Endoplasmic reticulum membrane
+CC       {ECO:0000305}; Single-pass membrane protein {ECO:0000305}.
+CC   -!- INDUCTION: Constitutively expressed.
+CC   -!- PTM: Autoacylation in vitro.
+CC   -!- SIMILARITY: Belongs to the UDP-glycosyltransferase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J02589; AAA42314.1; -; Genomic_DNA.
+DR   EMBL; M74439; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; X03478; CAA27198.1; -; mRNA.
+DR   PIR; A40467; A40467.
+DR   AlphaFoldDB; P08541; -.
+DR   SMR; P08541; -.
+DR   IntAct; P08541; 2.
+DR   CAZy; GT1; Glycosyltransferase Family 1.
+DR   GlyCosmos; P08541; 1 site, No reported glycans.
+DR   GlyGen; P08541; 1 site.
+DR   iPTMnet; P08541; -.
+DR   PhosphoSitePlus; P08541; -.
+DR   PaxDb; 10116-ENSRNOP00000043239; -.
+DR   UCSC; RGD:3936; rat.
+DR   AGR; RGD:3936; -.
+DR   RGD; 3936; Ugt2b.
+DR   eggNOG; KOG1192; Eukaryota.
+DR   InParanoid; P08541; -.
+DR   PhylomeDB; P08541; -.
+DR   BRENDA; 2.4.1.17; 5301.
+DR   Reactome; R-RNO-156588; Glucuronidation.
+DR   Reactome; R-RNO-9749641; Aspirin ADME.
+DR   Reactome; R-RNO-9753281; Paracetamol ADME.
+DR   Reactome; R-RNO-9757110; Prednisone ADME.
+DR   PRO; PR:P08541; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015020; F:glucuronosyltransferase activity; IDA:RGD.
+DR   GO; GO:0052695; P:cellular glucuronidation; IBA:GO_Central.
+DR   GO; GO:0008210; P:estrogen metabolic process; IBA:GO_Central.
+DR   CDD; cd03784; GT1_Gtf-like; 1.
+DR   Gene3D; 3.40.50.2000; Glycogen Phosphorylase B; 2.
+DR   InterPro; IPR050271; UDP-glycosyltransferase.
+DR   InterPro; IPR002213; UDP_glucos_trans.
+DR   InterPro; IPR035595; UDP_glycos_trans_CS.
+DR   PANTHER; PTHR48043; EG:EG0003.4 PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR48043:SF113; UDP GLUCURONOSYLTRANSFERASE 2 FAMILY, POLYPEPTIDE B38-RELATED; 1.
+DR   Pfam; PF00201; UDPGT; 1.
+DR   SUPFAM; SSF53756; UDP-Glycosyltransferase/glycogen phosphorylase; 1.
+DR   PROSITE; PS00375; UDPGT; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Endoplasmic reticulum; Glycoprotein;
+KW   Glycosyltransferase; Membrane; Microsome; Reference proteome; Signal;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000269|PubMed:7492328"
+FT   CHAIN           24..530
+FT                   /note="UDP-glucuronosyltransferase 2B2"
+FT                   /id="PRO_0000036026"
+FT   TRANSMEM        494..510
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        316
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        159
+FT                   /note="D -> E (in Ref. 3; CAA27198)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        286
+FT                   /note="A -> S (in Ref. 3; CAA27198)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        351
+FT                   /note="N -> I (in Ref. 3; CAA27198)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        363
+FT                   /note="L -> I (in Ref. 3; CAA27198)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   530 AA;  60986 MW;  F2FFF3E23E2D75B2 CRC64;
+     MPRKWISALF LLQISYCFKS GHCGKVLVWP MDFSHWMNIK IILDELVQRG HEVTVLKPSA
+     YFFLDPKKSS DLKFEIFSTS ISKDELQNHF IKLLDVWTYE LPRDTCLSYS PILQNLVYEF
+     SYFYLSICKD AVSNKQLMTK LQESKFDVLF ADPVASCGDL IAELLHIPFL YSLSFSPGHK
+     LEKSIGKFIL PPSYVPVILS GLAGKMTFID RVKNMICMLY FDFWFERLRH KEWDTFYSEI
+     LGRPTTVDET MSKVEIWLIR SYWDLKFPHP TLPNVDYIGG LHCKPAKPLP KDMEEFVQSS
+     GEHGVVVFSL GSMVSNMTEE KANAIAWALA QIPQKVLWKF DGKTPATLGP NTRVYKWLPQ
+     NDLLGHPKTK AFVTHGGANG LYEAIYHGIP MIGIPLFGDQ PDNIAHMVAK GAAVSLNIRT
+     MSKLDFLSAL EEVIDNPFYK KNVMLLSTIH HDQPMKPLDR AVFWIEFIMR HKGAKHLRPL
+     GHNLPWYQYH SLDVIGFLLT CFAVIAALTV KCLLFMYRFF VKKEKKMKNE
+//

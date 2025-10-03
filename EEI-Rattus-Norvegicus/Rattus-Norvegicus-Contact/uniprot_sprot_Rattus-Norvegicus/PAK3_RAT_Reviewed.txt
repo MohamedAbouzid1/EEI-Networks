@@ -1,0 +1,289 @@
+ID   PAK3_RAT                Reviewed;         544 AA.
+AC   Q62829;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JUL-2024, entry version 189.
+DE   RecName: Full=Serine/threonine-protein kinase PAK 3;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Beta-PAK;
+DE   AltName: Full=p21-activated kinase 3;
+DE            Short=PAK-3;
+DE   AltName: Full=p65-PAK;
+GN   Name=Pak3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 37-56.
+RC   TISSUE=Brain;
+RX   PubMed=7559638; DOI=10.1074/jbc.270.42.25070;
+RA   Manser E., Chong C., Zhao Z.-S., Leung T., Michael G., Hall C., Lim L.;
+RT   "Molecular cloning of a new member of the p21-Cdc42/Rac-activated kinase
+RT   (PAK) family.";
+RL   J. Biol. Chem. 270:25070-25078(1995).
+RN   [2]
+RP   FUNCTION, TISSUE SPECIFICITY, INTERACTION WITH APP, AND MUTAGENESIS OF
+RP   LYS-297 AND THR-421.
+RX   PubMed=12890786; DOI=10.1523/jneurosci.23-17-06914.2003;
+RA   McPhie D.L., Coopersmith R., Hines-Peralta A., Chen Y., Ivins K.J.,
+RA   Manly S.P., Kozlowski M.R., Neve K.A., Neve R.L.;
+RT   "DNA synthesis and neuronal apoptosis caused by familial Alzheimer disease
+RT   mutants of the amyloid precursor protein are mediated by the p21 activated
+RT   kinase PAK3.";
+RL   J. Neurosci. 23:6914-6927(2003).
+RN   [3]
+RP   PHOSPHORYLATION AT SER-50; SER-139 AND THR-421.
+RX   PubMed=11278486; DOI=10.1074/jbc.m009316200;
+RA   Chong C., Tan L., Lim L., Manser E.;
+RT   "The mechanism of PAK activation. Autophosphorylation events in both
+RT   regulatory and kinase domains control activity.";
+RL   J. Biol. Chem. 276:17347-17353(2001).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-2 AND SER-4, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Serine/threonine protein kinase that plays a role in a
+CC       variety of different signaling pathways including cytoskeleton
+CC       regulation, cell migration, or cell cycle regulation. Plays a role in
+CC       dendrite spine morphogenesis as well as synapse formation and
+CC       plasticity. Acts as a downstream effector of the small GTPases CDC42
+CC       and RAC1. Activation by the binding of active CDC42 and RAC1 results in
+CC       a conformational change and a subsequent autophosphorylation on several
+CC       serine and/or threonine residues. Phosphorylates MAPK4 and MAPK6 and
+CC       activates the downstream target MAPKAPK5, a regulator of F-actin
+CC       polymerization and cell migration. Additionally, phosphorylates
+CC       TNNI3/troponin I to modulate calcium sensitivity and relaxation
+CC       kinetics of thin myofilaments. May also be involved in early neuronal
+CC       development (PubMed:12890786). In hippocampal neurons, necessary for
+CC       the formation of dendritic spines and excitatory synapses; this
+CC       function is dependent on kinase activity and may be exerted by the
+CC       regulation of actomyosin contractility through the phosphorylation of
+CC       myosin II regulatory light chain (MLC) (By similarity).
+CC       {ECO:0000250|UniProtKB:Q61036, ECO:0000269|PubMed:12890786}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC   -!- ACTIVITY REGULATION: Activated by binding small G proteins. Binding of
+CC       GTP-bound CDC42 or RAC1 to the autoregulatory region releases monomers
+CC       from the autoinhibited dimer, enables phosphorylation of Thr-421 and
+CC       allows the kinase domain to adopt an active structure (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts tightly with GTP-bound but not GDP-bound CDC42/p21
+CC       and RAC1. Shows highly specific binding to the SH3 domains of
+CC       phospholipase C-gamma and of adapter protein NCK. Interacts with the C-
+CC       terminal of APP. Interacts with ARHGEF6 and ARHGEF7 (By similarity).
+CC       Interacts with GIT1 and GIT2 (By similarity). {ECO:0000250,
+CC       ECO:0000250|UniProtKB:O75914}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Detected at high levels in the brain and at low
+CC       levels in the testis. {ECO:0000269|PubMed:12890786}.
+CC   -!- DEVELOPMENTAL STAGE: Found in the embryonic CNS with little expression
+CC       elsewhere.
+CC   -!- PTM: Autophosphorylated when activated by CDC42/p21.
+CC       {ECO:0000269|PubMed:11278486}.
+CC   -!- PTM: Neddylated. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. STE20 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U33314; AAC52268.1; -; mRNA.
+DR   PIR; A57597; A57597.
+DR   RefSeq; NP_062083.1; NM_019210.1.
+DR   RefSeq; XP_006257401.1; XM_006257339.3.
+DR   AlphaFoldDB; Q62829; -.
+DR   SMR; Q62829; -.
+DR   BioGRID; 248080; 2.
+DR   MINT; Q62829; -.
+DR   STRING; 10116.ENSRNOP00000006459; -.
+DR   iPTMnet; Q62829; -.
+DR   PhosphoSitePlus; Q62829; -.
+DR   jPOST; Q62829; -.
+DR   PaxDb; 10116-ENSRNOP00000006459; -.
+DR   Ensembl; ENSRNOT00000006459.6; ENSRNOP00000006459.4; ENSRNOG00000004676.8.
+DR   Ensembl; ENSRNOT00055043349; ENSRNOP00055035354; ENSRNOG00055025067.
+DR   Ensembl; ENSRNOT00060033310; ENSRNOP00060027261; ENSRNOG00060019042.
+DR   Ensembl; ENSRNOT00065045719; ENSRNOP00065037491; ENSRNOG00065026400.
+DR   GeneID; 29433; -.
+DR   KEGG; rno:29433; -.
+DR   AGR; RGD:3251; -.
+DR   CTD; 5063; -.
+DR   RGD; 3251; Pak3.
+DR   eggNOG; KOG0578; Eukaryota.
+DR   GeneTree; ENSGT00950000182988; -.
+DR   HOGENOM; CLU_000288_26_6_1; -.
+DR   InParanoid; Q62829; -.
+DR   OrthoDB; 460351at2759; -.
+DR   BRENDA; 2.7.11.1; 5301.
+DR   Reactome; R-RNO-202433; Generation of second messenger molecules.
+DR   Reactome; R-RNO-389359; CD28 dependent Vav1 pathway.
+DR   Reactome; R-RNO-3928664; Ephrin signaling.
+DR   Reactome; R-RNO-399954; Sema3A PAK dependent Axon repulsion.
+DR   Reactome; R-RNO-5218920; VEGFR2 mediated vascular permeability.
+DR   Reactome; R-RNO-5621575; CD209 (DC-SIGN) signaling.
+DR   Reactome; R-RNO-5627123; RHO GTPases activate PAKs.
+DR   Reactome; R-RNO-5687128; MAPK6/MAPK4 signaling.
+DR   Reactome; R-RNO-9013149; RAC1 GTPase cycle.
+DR   Reactome; R-RNO-9013420; RHOU GTPase cycle.
+DR   PRO; PR:Q62829; -.
+DR   Proteomes; UP000002494; Chromosome X.
+DR   Bgee; ENSRNOG00000004676; Expressed in Ammon's horn and 7 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005768; C:endosome; IDA:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0014069; C:postsynaptic density; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051020; F:GTPase binding; IDA:RGD.
+DR   GO; GO:0004708; F:MAP kinase kinase activity; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004672; F:protein kinase activity; IDA:RGD.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:RGD.
+DR   GO; GO:0017124; F:SH3 domain binding; IEA:UniProtKB-KW.
+DR   GO; GO:0031267; F:small GTPase binding; ISO:RGD.
+DR   GO; GO:0007409; P:axonogenesis; ISS:UniProtKB.
+DR   GO; GO:0071407; P:cellular response to organic cyclic compound; ISO:RGD.
+DR   GO; GO:0016358; P:dendrite development; ISS:UniProtKB.
+DR   GO; GO:0060996; P:dendritic spine development; ISO:RGD.
+DR   GO; GO:0060997; P:dendritic spine morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0035556; P:intracellular signal transduction; IBA:GO_Central.
+DR   GO; GO:0061003; P:positive regulation of dendritic spine morphogenesis; IMP:RGD.
+DR   GO; GO:2000573; P:positive regulation of DNA biosynthetic process; IMP:RGD.
+DR   GO; GO:0010763; P:positive regulation of fibroblast migration; IMP:RGD.
+DR   GO; GO:0043525; P:positive regulation of neuron apoptotic process; IMP:RGD.
+DR   GO; GO:0032956; P:regulation of actin cytoskeleton organization; IMP:RGD.
+DR   GO; GO:0030833; P:regulation of actin filament polymerization; ISS:UniProtKB.
+DR   GO; GO:0050770; P:regulation of axonogenesis; IBA:GO_Central.
+DR   GO; GO:0043408; P:regulation of MAPK cascade; IBA:GO_Central.
+DR   GO; GO:0010975; P:regulation of neuron projection development; IMP:RGD.
+DR   GO; GO:0099175; P:regulation of postsynapse organization; ISO:RGD.
+DR   CDD; cd01093; CRIB_PAK_like; 1.
+DR   CDD; cd06656; STKc_PAK3; 1.
+DR   Gene3D; 3.90.810.10; CRIB domain; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR000095; CRIB_dom.
+DR   InterPro; IPR036936; CRIB_dom_sf.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR033923; PAK_BD.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   InterPro; IPR050285; STE20_Ser/Thr_kinase.
+DR   InterPro; IPR035063; STK_PAK3.
+DR   PANTHER; PTHR48015; SERINE/THREONINE-PROTEIN KINASE TAO; 1.
+DR   PANTHER; PTHR48015:SF30; SERINE_THREONINE-PROTEIN KINASE PAK 3; 1.
+DR   Pfam; PF00786; PBD; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00285; PBD; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS50108; CRIB; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Allosteric enzyme; ATP-binding; Cytoplasm; Developmental protein;
+KW   Direct protein sequencing; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Reference proteome;
+KW   Serine/threonine-protein kinase; SH3-binding; Transferase; Ubl conjugation.
+FT   CHAIN           1..544
+FT                   /note="Serine/threonine-protein kinase PAK 3"
+FT                   /id="PRO_0000086473"
+FT   DOMAIN          70..83
+FT                   /note="CRIB"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00057"
+FT   DOMAIN          268..519
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          1..73
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          65..135
+FT                   /note="Autoregulatory region"
+FT                   /evidence="ECO:0000250"
+FT   REGION          65..108
+FT                   /note="GTPase-binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          84..267
+FT                   /note="Linker"
+FT   REGION          156..197
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          213..248
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        18..32
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        56..73
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        169..186
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        387
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         274..282
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         297
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000305"
+FT   MOD_RES         2
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         4
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         50
+FT                   /note="Phosphoserine; by autocatalysis"
+FT                   /evidence="ECO:0000269|PubMed:11278486"
+FT   MOD_RES         139
+FT                   /note="Phosphoserine; by autocatalysis"
+FT                   /evidence="ECO:0000269|PubMed:11278486"
+FT   MOD_RES         171
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q61036"
+FT   MOD_RES         421
+FT                   /note="Phosphothreonine; by autocatalysis"
+FT                   /evidence="ECO:0000269|PubMed:11278486"
+FT   MUTAGEN         297
+FT                   /note="K->A: Loss of kinase activity."
+FT                   /evidence="ECO:0000269|PubMed:12890786"
+FT   MUTAGEN         421
+FT                   /note="T->E: Constitutively active."
+FT                   /evidence="ECO:0000269|PubMed:12890786"
+SQ   SEQUENCE   544 AA;  60711 MW;  7B940FC204A2B48B CRC64;
+     MSDSLDNEEK PPAPPLRMNS NNRDSSALNH SSKPLPMAPE EKNKKARLRS IFPGGGDKTN
+     KKKEKERPEI SLPSDFEHTI HVGFDAVTGE FTGIPEQWAR LLQTSNITKL EQKKNPQAVL
+     DVLKFYDSKE TVNNQKYMSF TSGDKSAHGY IAAHQSNTKT ASEPPLAPPV SEEEDEEEEE
+     EEDDNEPPPV IAPRPEHTKS IYTRSVVESI ASPAAPNKEA TPPSAENANS STLYRNTDRQ
+     RKKSKMTDEE ILEKLRSIVS VGDPKKKYTR FEKIGQGASG TVYTALDIAT GQEVAIKQMN
+     LQQQPKKELI INEILVMREN KNPNIVNYLD SYLVGDELWV VMEYLAGGSL TDVVTETCMD
+     EGQIAAVCRE CLQALDFLHS NQVIHRDIKS DNILLGMDGS VKLTDFGFCA QITPEQSKRS
+     TMVGTPYWMA PEVVTRKAYG PKVDIWSLGI MAIEMVEGEP PYLNENPLRA LYLIATNGTP
+     ELQNPERLSA VFRDFLNRCL EMDVDRRGSA KELLQHPFLK LAKPLSSLTP LILAAKEAIK
+     NSSR
+//

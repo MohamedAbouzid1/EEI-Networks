@@ -1,0 +1,321 @@
+ID   CAB45_RAT               Reviewed;         361 AA.
+AC   Q91ZS3; Q5PQW3;
+DT   27-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   27-MAR-2024, entry version 134.
+DE   RecName: Full=45 kDa calcium-binding protein;
+DE            Short=Cab45;
+DE   AltName: Full=Stromal cell-derived factor 4;
+DE            Short=SDF-4;
+DE   Flags: Precursor;
+GN   Name=Sdf4; Synonyms=Cab45;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), TISSUE SPECIFICITY, AND INDUCTION.
+RC   STRAIN=BDIX;
+RX   PubMed=18355758; DOI=10.1016/s1673-8527(08)60021-1;
+RA   Zhu Y., Wang Q., Xu W., Li S.;
+RT   "The ethanol response gene Cab45 can modulate the impairment elicited by
+RT   ethanol and ultraviolet in PC12 cells.";
+RL   J. Genet. Genomics 35:153-161(2008).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   FUNCTION, INTERACTION WITH STXBP1, SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RX   PubMed=17442889; DOI=10.1091/mbc.e06-10-0950;
+RA   Lam P.P., Hyvaerinen K., Kauppi M., Cosen-Binker L., Laitinen S.,
+RA   Keraenen S., Gaisano H.Y., Olkkonen V.M.;
+RT   "A cytosolic splice variant of Cab45 interacts with Munc18b and impacts on
+RT   amylase secretion by pancreatic acini.";
+RL   Mol. Biol. Cell 18:2473-2480(2007).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-192, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: A membrane-associated isoform may be involved in the
+CC       exocytosis of zymogens by pancreatic acini. May regulate calcium-
+CC       dependent activities in the endoplasmic reticulum lumen or post-ER
+CC       compartment. {ECO:0000269|PubMed:17442889}.
+CC   -!- SUBUNIT: A membrane-associated isoform interacts with STX3 and STXBP1.
+CC       {ECO:0000269|PubMed:17442889}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus lumen
+CC       {ECO:0000250|UniProtKB:Q61112}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC         Comment=Additional isoforms seem to exist.;
+CC       Name=1;
+CC         IsoId=Q91ZS3-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q91ZS3-2; Sequence=VSP_037452;
+CC   -!- TISSUE SPECIFICITY: A membrane-associated isoform is expressed in acini
+CC       of the pancreas (at protein level). Ubiquitous.
+CC       {ECO:0000269|PubMed:17442889, ECO:0000269|PubMed:18355758}.
+CC   -!- INDUCTION: Down-regulated by ethanol. Down-regulated during the
+CC       progression of cerebellum differentiation.
+CC       {ECO:0000269|PubMed:18355758}.
+CC   -!- DOMAIN: Binds calcium via its EF-hands. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the CREC family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF405545; AAL01370.1; -; mRNA.
+DR   EMBL; BC086996; AAH86996.1; -; mRNA.
+DR   RefSeq; NP_569096.2; NM_130412.2.
+DR   AlphaFoldDB; Q91ZS3; -.
+DR   STRING; 10116.ENSRNOP00000027215; -.
+DR   GlyCosmos; Q91ZS3; 1 site, No reported glycans.
+DR   GlyGen; Q91ZS3; 1 site.
+DR   iPTMnet; Q91ZS3; -.
+DR   PhosphoSitePlus; Q91ZS3; -.
+DR   jPOST; Q91ZS3; -.
+DR   PaxDb; 10116-ENSRNOP00000027215; -.
+DR   GeneID; 155173; -.
+DR   KEGG; rno:155173; -.
+DR   AGR; RGD:621521; -.
+DR   CTD; 51150; -.
+DR   RGD; 621521; Sdf4.
+DR   eggNOG; KOG4251; Eukaryota.
+DR   InParanoid; Q91ZS3; -.
+DR   OrthoDB; 2913938at2759; -.
+DR   PhylomeDB; Q91ZS3; -.
+DR   TreeFam; TF314849; -.
+DR   PRO; PR:Q91ZS3; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IDA:BHF-UCL.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IBA:GO_Central.
+DR   GO; GO:0005796; C:Golgi lumen; ISS:BHF-UCL.
+DR   GO; GO:0005770; C:late endosome; IDA:BHF-UCL.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:BHF-UCL.
+DR   GO; GO:0042802; F:identical protein binding; IPI:BHF-UCL.
+DR   GO; GO:0017156; P:calcium-ion regulated exocytosis; IMP:BHF-UCL.
+DR   GO; GO:0021549; P:cerebellum development; IEP:BHF-UCL.
+DR   GO; GO:0045444; P:fat cell differentiation; ISS:BHF-UCL.
+DR   GO; GO:0099558; P:maintenance of synapse structure; ISO:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IEP:BHF-UCL.
+DR   GO; GO:0009650; P:UV protection; IMP:BHF-UCL.
+DR   GO; GO:0070625; P:zymogen granule exocytosis; IMP:BHF-UCL.
+DR   CDD; cd16225; EFh_CREC_cab45; 1.
+DR   Gene3D; 1.10.238.10; EF-hand; 2.
+DR   InterPro; IPR027240; CAB45_EFh.
+DR   InterPro; IPR011992; EF-hand-dom_pair.
+DR   InterPro; IPR018247; EF_Hand_1_Ca_BS.
+DR   InterPro; IPR002048; EF_hand_dom.
+DR   PANTHER; PTHR10827:SF98; 45 KDA CALCIUM-BINDING PROTEIN; 1.
+DR   PANTHER; PTHR10827; RETICULOCALBIN; 1.
+DR   Pfam; PF13202; EF-hand_5; 1.
+DR   Pfam; PF13499; EF-hand_7; 1.
+DR   SMART; SM00054; EFh; 5.
+DR   SUPFAM; SSF47473; EF-hand; 2.
+DR   PROSITE; PS00018; EF_HAND_1; 5.
+DR   PROSITE; PS50222; EF_HAND_2; 5.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Calcium; Exocytosis; Glycoprotein; Golgi apparatus;
+KW   Metal-binding; Phosphoprotein; Reference proteome; Repeat; Signal.
+FT   SIGNAL          1..35
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           36..361
+FT                   /note="45 kDa calcium-binding protein"
+FT                   /id="PRO_0000004158"
+FT   DOMAIN          97..132
+FT                   /note="EF-hand 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          136..171
+FT                   /note="EF-hand 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          196..231
+FT                   /note="EF-hand 3"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          232..267
+FT                   /note="EF-hand 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          277..312
+FT                   /note="EF-hand 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          313..348
+FT                   /note="EF-hand 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   REGION          308..361
+FT                   /note="Necessary for intracellular retention in Golgi
+FT                   apparatus lumen"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         110
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         112
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         114
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         116
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         121
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         149
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         151
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         153
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         155
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         160
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         212
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         219
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         245
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         247
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         249
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         251
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         256
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         290
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         292
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         294
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         301
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         326
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         328
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         330
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         332
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   BINDING         337
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   MOD_RES         98
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BRK5"
+FT   MOD_RES         192
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         216
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BRK5"
+FT   MOD_RES         264
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BRK5"
+FT   MOD_RES         298
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BRK5"
+FT   CARBOHYD        39
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         1
+FT                   /note="M -> MTSRAPNCAPQTRRIRKPGSPV (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15489334"
+FT                   /id="VSP_037452"
+FT   CONFLICT        5
+FT                   /note="V -> A (in Ref. 2; AAH86996)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   361 AA;  42075 MW;  1BF74F014B033FC5 CRC64;
+     MVWLVAMTSR QRSLCGLAAH GLWFLGLVLL MDATARPANH SFSRERAANR DENEIIPPDH
+     LNGVKLEMDG HLNKDFHQEV FLGKDMDGFD EDSEPRRSRR KLMVIFSKVD VNTDRRISAK
+     EMQHWIMEKT AEHFQEAVKE NKLHFRAVDP DGDGHVSWDE YKVKFLASKG HNEREIADAI
+     KNHEELKVDE ETQEVLGNLR DRWYQADNPP ADLLLTEDEF LSFLHPEHSR GMLKFMVKEI
+     VRDLDQDGDK QLSLPEFISL PVGTVENQQG QDIDDNWVKD RKKEFEELID SNHDGIVTME
+     ELENYMDPMN EYNALNEAKQ MIAIADENQN HHLEPEEILK YSEFFTGSKL MDYARNVHEE
+     F
+//

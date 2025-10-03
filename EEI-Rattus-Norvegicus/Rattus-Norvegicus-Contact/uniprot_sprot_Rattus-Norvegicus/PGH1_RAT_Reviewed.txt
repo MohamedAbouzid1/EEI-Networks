@@ -1,0 +1,344 @@
+ID   PGH1_RAT                Reviewed;         602 AA.
+AC   Q63921; Q62731; Q63684;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-1998, sequence version 2.
+DT   02-OCT-2024, entry version 179.
+DE   RecName: Full=Prostaglandin G/H synthase 1 {ECO:0000305};
+DE            EC=1.14.99.1 {ECO:0000250|UniProtKB:P23219};
+DE   AltName: Full=Cyclooxygenase-1;
+DE            Short=COX-1;
+DE   AltName: Full=Prostaglandin H2 synthase 1;
+DE            Short=PGH synthase 1;
+DE            Short=PGHS-1;
+DE            Short=PHS 1;
+DE   AltName: Full=Prostaglandin-endoperoxide synthase 1;
+DE   Flags: Precursor;
+GN   Name=Ptgs1 {ECO:0000312|RGD:3439}; Synonyms=Cox-1, Cox1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=8274023; DOI=10.1006/abbi.1993.1601;
+RA   Feng L., Sun W., Xia Y., Tang W.W., Chanmugam P., Soyoola E., Wilson C.B.,
+RA   Hwang D.;
+RT   "Cloning two isoforms of rat cyclooxygenase: differential regulation of
+RT   their expression.";
+RL   Arch. Biochem. Biophys. 307:361-368(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Fischer 344; TISSUE=Trachea;
+RX   PubMed=7864644; DOI=10.1006/abbi.1995.1115;
+RA   Kitzler J., Hill E., Hardman R., Reddy N., Philpot R., Eling T.E.;
+RT   "Analysis and quantitation of splicing variants of the TPA-inducible PGHS-1
+RT   mRNA in rat tracheal epithelial cells.";
+RL   Arch. Biochem. Biophys. 316:856-863(1995).
+RN   [3]
+RP   REVIEW ON FUNCTION; TISSUE SPECIFICITY AND INHIBITION BY NSAIDS.
+RX   PubMed=10966456; DOI=10.1146/annurev.biochem.69.1.145;
+RA   Smith W.L., DeWitt D.L., Garavito R.M.;
+RT   "Cyclooxygenases: structural, cellular, and molecular biology.";
+RL   Annu. Rev. Biochem. 69:145-182(2000).
+RN   [4]
+RP   REVIEW ON FUNCTION; INHIBITION BY ASPIRIN AND INVOLVEMENT IN COLORECTAL
+RP   CANCER.
+RX   PubMed=24605250; DOI=10.4292/wjgpt.v5.i1.40;
+RA   Sostres C., Gargallo C.J., Lanas A.;
+RT   "Aspirin, cyclooxygenase inhibition and colorectal cancer.";
+RL   World J. Gastrointest. Pharmacol. Ther. 5:40-49(2014).
+CC   -!- FUNCTION: Dual cyclooxygenase and peroxidase that plays an important
+CC       role in the biosynthesis pathway of prostanoids, a class of C20
+CC       oxylipins mainly derived from arachidonate ((5Z,8Z,11Z,14Z)-
+CC       eicosatetraenoate, AA, C20:4(n-6)), with a particular role in the
+CC       inflammatory response. The cyclooxygenase activity oxygenates AA to the
+CC       hydroperoxy endoperoxide prostaglandin G2 (PGG2), and the peroxidase
+CC       activity reduces PGG2 to the hydroxy endoperoxide prostaglandin H2
+CC       (PGH2), the precursor of all 2-series prostaglandins and thromboxanes.
+CC       This complex transformation is initiated by abstraction of hydrogen at
+CC       carbon 13 (with S-stereochemistry), followed by insertion of molecular
+CC       O2 to form the endoperoxide bridge between carbon 9 and 11 that defines
+CC       prostaglandins. The insertion of a second molecule of O2 (bis-oxygenase
+CC       activity) yields a hydroperoxy group in PGG2 that is then reduced to
+CC       PGH2 by two electrons. Involved in the constitutive production of
+CC       prostanoids in particular in the stomach and platelets. In gastric
+CC       epithelial cells, it is a key step in the generation of prostaglandins,
+CC       such as prostaglandin E2 (PGE2), which plays an important role in
+CC       cytoprotection. In platelets, it is involved in the generation of
+CC       thromboxane A2 (TXA2), which promotes platelet activation and
+CC       aggregation, vasoconstriction and proliferation of vascular smooth
+CC       muscle cells. Can also use linoleate (LA, (9Z,12Z)-octadecadienoate,
+CC       C18:2(n-6)) as substrate and produce hydroxyoctadecadienoates (HODEs)
+CC       in a regio- and stereospecific manner, being (9R)-HODE ((9R)-hydroxy-
+CC       (10E,12Z)-octadecadienoate) and (13S)-HODE ((13S)-hydroxy-(9Z,11E)-
+CC       octadecadienoate) its major products. {ECO:0000250|UniProtKB:P05979}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5Z,8Z,11Z,14Z)-eicosatetraenoate + AH2 + 2 O2 = A + H2O +
+CC         prostaglandin H2; Xref=Rhea:RHEA:23728, ChEBI:CHEBI:13193,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15379, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:32395, ChEBI:CHEBI:57405; EC=1.14.99.1;
+CC         Evidence={ECO:0000250|UniProtKB:P23219};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:23729;
+CC         Evidence={ECO:0000250|UniProtKB:P23219};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5Z,8Z,11Z,14Z)-eicosatetraenoate + 2 O2 = prostaglandin G2;
+CC         Xref=Rhea:RHEA:42596, ChEBI:CHEBI:15379, ChEBI:CHEBI:32395,
+CC         ChEBI:CHEBI:82629; Evidence={ECO:0000250|UniProtKB:P23219};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:42597;
+CC         Evidence={ECO:0000250|UniProtKB:P23219};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AH2 + prostaglandin G2 = A + H2O + prostaglandin H2;
+CC         Xref=Rhea:RHEA:42600, ChEBI:CHEBI:13193, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:17499, ChEBI:CHEBI:57405, ChEBI:CHEBI:82629;
+CC         Evidence={ECO:0000250|UniProtKB:P23219};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:42601;
+CC         Evidence={ECO:0000250|UniProtKB:P23219};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z,12Z)-octadecadienoate + AH2 + O2 = (9R)-hydroxy-(10E,12Z)-
+CC         octadecadienoate + A + H2O; Xref=Rhea:RHEA:75447, ChEBI:CHEBI:13193,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15379, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:30245, ChEBI:CHEBI:77895;
+CC         Evidence={ECO:0000250|UniProtKB:P05979};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:75448;
+CC         Evidence={ECO:0000250|UniProtKB:P05979};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z,12Z)-octadecadienoate + AH2 + O2 = (9S)-hydroxy-(10E,12Z)-
+CC         octadecadienoate + A + H2O; Xref=Rhea:RHEA:75459, ChEBI:CHEBI:13193,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15379, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:30245, ChEBI:CHEBI:77852;
+CC         Evidence={ECO:0000250|UniProtKB:P05979};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:75460;
+CC         Evidence={ECO:0000250|UniProtKB:P05979};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z,12Z)-octadecadienoate + AH2 + O2 = (13S)-hydroxy-(9Z,11E)-
+CC         octadecadienoate + A + H2O; Xref=Rhea:RHEA:75451, ChEBI:CHEBI:13193,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15379, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:30245, ChEBI:CHEBI:90850;
+CC         Evidence={ECO:0000250|UniProtKB:P05979};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:75452;
+CC         Evidence={ECO:0000250|UniProtKB:P05979};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z,12Z)-octadecadienoate + AH2 + O2 = (13R)-hydroxy-(9Z,11E)-
+CC         octadecadienoate + A + H2O; Xref=Rhea:RHEA:75455, ChEBI:CHEBI:13193,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15379, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:30245, ChEBI:CHEBI:136655;
+CC         Evidence={ECO:0000250|UniProtKB:P05979};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:75456;
+CC         Evidence={ECO:0000250|UniProtKB:P05979};
+CC   -!- COFACTOR:
+CC       Name=heme b; Xref=ChEBI:CHEBI:60344; Evidence={ECO:0000250};
+CC       Note=Binds 1 heme b (iron(II)-protoporphyrin IX) group per subunit.
+CC       {ECO:0000250};
+CC   -!- ACTIVITY REGULATION: The cyclooxygenase activity is inhibited by
+CC       nonsteroidal anti-inflammatory drugs (NSAIDs) including ibuprofen,
+CC       flurbiprofen, ketoprofen, naproxen, flurbiprofen, anirolac, fenclofenac
+CC       and diclofenac. {ECO:0000250|UniProtKB:P23219}.
+CC   -!- PATHWAY: Lipid metabolism; prostaglandin biosynthesis.
+CC       {ECO:0000250|UniProtKB:P23219}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Microsome membrane; Peripheral membrane protein.
+CC       Endoplasmic reticulum membrane; Peripheral membrane protein.
+CC   -!- MISCELLANEOUS: The conversion of arachidonate to prostaglandin H2 is a
+CC       2 step reaction: a cyclooxygenase (COX) reaction which converts
+CC       arachidonate to prostaglandin G2 (PGG2) and a peroxidase reaction in
+CC       which PGG2 is reduced to prostaglandin H2 (PGH2). The cyclooxygenase
+CC       reaction occurs in a hydrophobic channel in the core of the enzyme. The
+CC       peroxidase reaction occurs at a heme-containing active site located
+CC       near the protein surface. The nonsteroidal anti-inflammatory drugs
+CC       (NSAIDs) binding site corresponds to the cyclooxygenase active site.
+CC   -!- MISCELLANEOUS: Conversion of arachidonate to prostaglandin H2 is
+CC       mediated by 2 different isozymes: the constitutive PTGS1 and the
+CC       inducible PTGS2. PTGS1 is expressed constitutively and generally
+CC       produces prostanoids acutely in response to hormonal stimuli to fine-
+CC       tune physiological processes requiring instantaneous, continuous
+CC       regulation (e.g. hemostasis). PTGS2 is inducible and typically produces
+CC       prostanoids that mediate responses to physiological stresses such as
+CC       infection and inflammation.
+CC   -!- MISCELLANEOUS: PTGS1 and PTGS2 are the targets of nonsteroidal anti-
+CC       inflammatory drugs (NSAIDs) including aspirin and ibuprofen. Aspirin is
+CC       able to produce an irreversible inactivation of the enzyme through a
+CC       serine acetylation. Inhibition of the PGHSs with NSAIDs acutely reduces
+CC       inflammation, pain, and fever, and long-term use of these drugs reduces
+CC       fatal thrombotic events, as well as the development of colon cancer and
+CC       Alzheimer's disease. PTGS2 is the principal isozyme responsible for
+CC       production of inflammatory prostaglandins. New generation PTGSs
+CC       inhibitors strive to be selective for PTGS2, to avoid side effects such
+CC       as gastrointestinal complications and ulceration.
+CC   -!- SIMILARITY: Belongs to the prostaglandin G/H synthase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U03388; AAA03465.1; -; mRNA.
+DR   EMBL; S67721; AAB29400.2; -; mRNA.
+DR   EMBL; U18060; AAA85823.1; -; mRNA.
+DR   PIR; S39782; S39782.
+DR   PIR; S69198; S69198.
+DR   AlphaFoldDB; Q63921; -.
+DR   SMR; Q63921; -.
+DR   IntAct; Q63921; 1.
+DR   STRING; 10116.ENSRNOP00000010218; -.
+DR   BindingDB; Q63921; -.
+DR   ChEMBL; CHEMBL4042; -.
+DR   DrugCentral; Q63921; -.
+DR   PeroxiBase; 3974; RnoPGHS01.
+DR   GlyCosmos; Q63921; 4 sites, No reported glycans.
+DR   GlyGen; Q63921; 4 sites.
+DR   PhosphoSitePlus; Q63921; -.
+DR   jPOST; Q63921; -.
+DR   PaxDb; 10116-ENSRNOP00000010218; -.
+DR   UCSC; RGD:3439; rat.
+DR   AGR; RGD:3439; -.
+DR   RGD; 3439; Ptgs1.
+DR   eggNOG; KOG2408; Eukaryota.
+DR   InParanoid; Q63921; -.
+DR   PhylomeDB; Q63921; -.
+DR   BRENDA; 1.14.99.1; 5301.
+DR   Reactome; R-RNO-140180; COX reactions.
+DR   Reactome; R-RNO-2162123; Synthesis of Prostaglandins (PG) and Thromboxanes (TX).
+DR   UniPathway; UPA00662; -.
+DR   PRO; PR:Q63921; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; ISS:UniProtKB.
+DR   GO; GO:0043005; C:neuron projection; IBA:GO_Central.
+DR   GO; GO:0005635; C:nuclear envelope; IDA:RGD.
+DR   GO; GO:0001750; C:photoreceptor outer segment; ISO:RGD.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016702; F:oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen; IBA:GO_Central.
+DR   GO; GO:0004601; F:peroxidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004666; F:prostaglandin-endoperoxide synthase activity; ISO:RGD.
+DR   GO; GO:0019371; P:cyclooxygenase pathway; ISO:RGD.
+DR   GO; GO:0007612; P:learning; IMP:RGD.
+DR   GO; GO:0035633; P:maintenance of blood-brain barrier; IMP:RGD.
+DR   GO; GO:0007613; P:memory; IMP:RGD.
+DR   GO; GO:0032811; P:negative regulation of epinephrine secretion; IMP:RGD.
+DR   GO; GO:0010700; P:negative regulation of norepinephrine secretion; IMP:RGD.
+DR   GO; GO:0045987; P:positive regulation of smooth muscle contraction; IMP:RGD.
+DR   GO; GO:0045907; P:positive regulation of vasoconstriction; IMP:RGD.
+DR   GO; GO:0001516; P:prostaglandin biosynthetic process; IMP:RGD.
+DR   GO; GO:0006693; P:prostaglandin metabolic process; ISO:RGD.
+DR   GO; GO:0008217; P:regulation of blood pressure; ISS:UniProtKB.
+DR   GO; GO:0042127; P:regulation of cell population proliferation; ISO:RGD.
+DR   GO; GO:0051412; P:response to corticosterone; IEP:RGD.
+DR   GO; GO:0070542; P:response to fatty acid; IEP:RGD.
+DR   GO; GO:0006979; P:response to oxidative stress; IEA:InterPro.
+DR   CDD; cd00054; EGF_CA; 1.
+DR   CDD; cd09816; prostaglandin_endoperoxide_synthase; 1.
+DR   Gene3D; 1.10.640.10; Haem peroxidase domain superfamily, animal type; 1.
+DR   Gene3D; 2.10.25.10; Laminin; 1.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR019791; Haem_peroxidase_animal.
+DR   InterPro; IPR010255; Haem_peroxidase_sf.
+DR   InterPro; IPR037120; Haem_peroxidase_sf_animal.
+DR   InterPro; IPR050783; Oxylipin_biosynth_metab.
+DR   PANTHER; PTHR11903; PROSTAGLANDIN G/H SYNTHASE; 1.
+DR   PANTHER; PTHR11903:SF6; PROSTAGLANDIN G_H SYNTHASE 1; 1.
+DR   Pfam; PF03098; An_peroxidase; 1.
+DR   PRINTS; PR00457; ANPEROXIDASE.
+DR   SUPFAM; SSF57196; EGF/Laminin; 1.
+DR   SUPFAM; SSF48113; Heme-dependent peroxidases; 1.
+DR   PROSITE; PS50026; EGF_3; 1.
+DR   PROSITE; PS50292; PEROXIDASE_3; 1.
+PE   2: Evidence at transcript level;
+KW   Dioxygenase; Disulfide bond; EGF-like domain; Endoplasmic reticulum;
+KW   Fatty acid biosynthesis; Fatty acid metabolism; Glycoprotein; Heme; Iron;
+KW   Lipid biosynthesis; Lipid metabolism; Membrane; Metal-binding; Microsome;
+KW   Oxidoreductase; Peroxidase; Prostaglandin biosynthesis;
+KW   Prostaglandin metabolism; Reference proteome; Signal.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           27..602
+FT                   /note="Prostaglandin G/H synthase 1"
+FT                   /id="PRO_0000023870"
+FT   DOMAIN          34..72
+FT                   /note="EGF-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   ACT_SITE        209
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00298"
+FT   ACT_SITE        387
+FT                   /note="For cyclooxygenase activity"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         390
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00298"
+FT   SITE            532
+FT                   /note="Aspirin-acetylated serine"
+FT   CARBOHYD        70
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        106
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        146
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        412
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        38..49
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        39..161
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        43..59
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        61..71
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        571..577
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        36
+FT                   /note="N -> I (in Ref. 1; AAA03465/AAB29400)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        116..117
+FT                   /note="RL -> GW (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        119
+FT                   /note="I -> L (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        192
+FT                   /note="G -> A (in Ref. 1; AAA03465/AAB29400)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        263
+FT                   /note="V -> L (in Ref. 1; AAA03465/AAB29400)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        274
+FT                   /note="L -> K (in Ref. 1; AAA03465/AAB29400)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        290
+FT                   /note="G -> A (in Ref. 1; AAA03465/AAB29400)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        339
+FT                   /note="I -> R (in Ref. 1; AAB29400)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        344
+FT                   /note="K -> E (in Ref. 1; AAA03465/AAB29400)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        381
+FT                   /note="L -> M (in Ref. 1; AAA03465/AAB29400)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        392
+FT                   /note="L -> F (in Ref. 1; AAA03465/AAB29400)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   602 AA;  69032 MW;  0BFAF7EBFDA0C7C2 CRC64;
+     MSRRSLSLQF PLLLLLLLLP PPPVLLTDAG VPSPVNPCCY YPCQNQGVCV RFGLDHYQCD
+     CTRTGYSGPN CTIPEIWTWL RSSLRPSPSF THFLLTHGYW IWEFVNATFI REVLMRLVIT
+     VRSNLIPSPP TYNTAHDYIS WESFSNVSYY TRILPSVPKD CPTPMGTKGK KQLPDIHLLA
+     QRLLLRREFI PGPQGTNVLF AFFAQHFTHQ FFKTSGKMGP GFTKALGHGV DLGHIYGDSL
+     ERQYHLRLFK DGKLKYQVLD GEVYPPSVEQ ASVLMRYPPG VPPEKQMAVG QEVFGLLPGL
+     MLFSTIWLRE HNRVCDLLKE EHPTWDDEQL FQTTRLILIG ETIKIIIEEY VQHLSGYFLQ
+     LKFDPELLFR AQFQYRNRIA LEFNHLYHWH PLMPDSFQVG SQEYSYEQFL FNTSMLVDYG
+     VEALVDAFSR QRAGRIGGGR NFDYHVLHVA EDVIKESREM RLQSFNEYRK RFGLKPYTSF
+     QEFTGEKEMA AELEELYGDI DALEFYPGLM LEKCQPNSLF GESMIEMGAP FSLKGLLGNP
+     ICSPEYWKPS TFGGDVGFNI VNTASLKKLV CLNTKTCPYV SFRVPDYPGD DGSVFVRPST
+     EL
+//

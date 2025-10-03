@@ -1,0 +1,309 @@
+ID   RGS12_RAT               Reviewed;        1387 AA.
+AC   O08774; O88383;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1997, sequence version 1.
+DT   24-JAN-2024, entry version 162.
+DE   RecName: Full=Regulator of G-protein signaling 12;
+DE            Short=RGS12;
+GN   Name=Rgs12;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   TISSUE=Brain;
+RX   PubMed=9168931; DOI=10.1006/bbrc.1997.6537;
+RA   Snow B.E., Antonio L., Suggs S., Gutstein H.B., Siderovski D.P.;
+RT   "Molecular cloning and expression analysis of rat Rgs12 and Rgs14.";
+RL   Biochem. Biophys. Res. Commun. 233:770-777(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], ALTERNATIVE SPLICING, AND FUNCTION.
+RC   TISSUE=Brain;
+RX   PubMed=9651375; DOI=10.1074/jbc.273.28.17749;
+RA   Snow B.E., Hall R.A., Krumins A.M., Brothers G.M., Bouchard D.,
+RA   Brothers C.A., Chung S., Mangion J., Gilman A.G., Lefkowitz R.J.,
+RA   Siderovski D.P.;
+RT   "GTPase activating specificity of RGS12 and binding specificity of an
+RT   alternatively spliced PDZ (PSD-95/Dlg/ZO-1) domain.";
+RL   J. Biol. Chem. 273:17749-17755(1998).
+RN   [3]
+RP   FUNCTION, AND INTERACTION WITH GNAI1; GNAI2 AND GNAI3.
+RX   PubMed=11387333; DOI=10.1074/jbc.m103208200;
+RA   Kimple R.J., De Vries L., Tronchere H., Behe C.I., Morris R.A.,
+RA   Gist Farquhar M., Siderovski D.P.;
+RT   "RGS12 and RGS14 GoLoco motifs are G alpha(i) interaction sites with
+RT   guanine nucleotide dissociation inhibitor activity.";
+RL   J. Biol. Chem. 276:29275-29281(2001).
+RN   [4]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=16819986; DOI=10.1111/j.1460-9568.2006.04838.x;
+RA   Lopez-Aranda M.F., Acevedo M.J., Carballo F.J., Gutierrez A., Khan Z.U.;
+RT   "Localization of the GoLoco motif carrier regulator of G-protein signalling
+RT   12 and 14 proteins in monkey and rat brain.";
+RL   Eur. J. Neurosci. 23:2971-2982(2006).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-171; SER-661; SER-671 AND
+RP   SER-879, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Regulates G protein-coupled receptor signaling cascades.
+CC       Inhibits signal transduction by increasing the GTPase activity of G
+CC       protein alpha subunits, thereby driving them into their inactive GDP-
+CC       bound form. {ECO:0000269|PubMed:11387333, ECO:0000269|PubMed:9651375}.
+CC   -!- SUBUNIT: Interacts with GNAI1, GNAI2 and GNAI3; the interactions are
+CC       GDP-dependent. {ECO:0000269|PubMed:11387333}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000269|PubMed:16819986}. Cytoplasm
+CC       {ECO:0000269|PubMed:16819986}. Cell projection, dendrite
+CC       {ECO:0000269|PubMed:16819986}. Synapse {ECO:0000269|PubMed:16819986}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC         Comment=Additional isoforms seem to exist.;
+CC       Name=1;
+CC         IsoId=O08774-1; Sequence=Displayed;
+CC       Name=2; Synonyms=PDZ-less;
+CC         IsoId=O08774-2; Sequence=VSP_005688, VSP_005689;
+CC   -!- TISSUE SPECIFICITY: Detected in brain cortex GABAergic neurons, in
+CC       striatum and substantia nigra, and in the Purkinje cell layer in the
+CC       cerebellum and hippocampus (at protein level) (PubMed:16819986).
+CC       Expressed at high levels in brain and lung and lower levels in testis,
+CC       heart, and spleen (PubMed:9168931). {ECO:0000269|PubMed:16819986,
+CC       ECO:0000269|PubMed:9168931}.
+CC   -!- DOMAIN: The GoLoco domain is necessary for interaction with GNAI1,
+CC       GNAI2 and GNAI3.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U92280; AAC53176.1; -; mRNA.
+DR   EMBL; AF035151; AAC40154.1; -; mRNA.
+DR   PIR; JC5502; JC5502.
+DR   RefSeq; NP_062212.1; NM_019339.1.
+DR   AlphaFoldDB; O08774; -.
+DR   SMR; O08774; -.
+DR   BioGRID; 248512; 10.
+DR   IntAct; O08774; 3.
+DR   MINT; O08774; -.
+DR   STRING; 10116.ENSRNOP00000045065; -.
+DR   iPTMnet; O08774; -.
+DR   PhosphoSitePlus; O08774; -.
+DR   PaxDb; 10116-ENSRNOP00000045065; -.
+DR   GeneID; 54292; -.
+DR   KEGG; rno:54292; -.
+DR   AGR; RGD:3564; -.
+DR   CTD; 6002; -.
+DR   RGD; 3564; Rgs12.
+DR   eggNOG; KOG3589; Eukaryota.
+DR   InParanoid; O08774; -.
+DR   OrthoDB; 22856at2759; -.
+DR   PhylomeDB; O08774; -.
+DR   Reactome; R-RNO-418594; G alpha (i) signalling events.
+DR   PRO; PR:O08774; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0097440; C:apical dendrite; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0030425; C:dendrite; IDA:UniProtKB.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0045202; C:synapse; IEA:UniProtKB-SubCell.
+DR   GO; GO:0001965; F:G-protein alpha-subunit binding; IPI:RGD.
+DR   GO; GO:0005096; F:GTPase activator activity; IDA:RGD.
+DR   GO; GO:0030695; F:GTPase regulator activity; ISO:RGD.
+DR   GO; GO:0045744; P:negative regulation of G protein-coupled receptor signaling pathway; IEP:RGD.
+DR   GO; GO:0008277; P:regulation of G protein-coupled receptor signaling pathway; IBA:GO_Central.
+DR   GO; GO:0007165; P:signal transduction; IEA:InterPro.
+DR   GO; GO:0038032; P:termination of G protein-coupled receptor signaling pathway; IDA:RGD.
+DR   CDD; cd00992; PDZ_signaling; 1.
+DR   CDD; cd13162; PTB_RGS12; 1.
+DR   CDD; cd17136; RBD1_RGS12; 1.
+DR   CDD; cd08742; RGS_RGS12; 1.
+DR   Gene3D; 1.10.196.10; -; 1.
+DR   Gene3D; 2.30.42.10; -; 1.
+DR   Gene3D; 2.30.29.30; Pleckstrin-homology domain (PH domain)/Phosphotyrosine-binding domain (PTB); 1.
+DR   Gene3D; 1.10.167.10; Regulator of G-protein Signalling 4, domain 2; 1.
+DR   InterPro; IPR003109; GoLoco_motif.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   InterPro; IPR011993; PH-like_dom_sf.
+DR   InterPro; IPR006020; PTB/PI_dom.
+DR   InterPro; IPR003116; RBD_dom.
+DR   InterPro; IPR016137; RGS.
+DR   InterPro; IPR046995; RGS10/12/14-like.
+DR   InterPro; IPR037880; RGS12_RGS.
+DR   InterPro; IPR036305; RGS_sf.
+DR   InterPro; IPR024066; RGS_subdom1/3.
+DR   InterPro; IPR044926; RGS_subdomain_2.
+DR   InterPro; IPR029071; Ubiquitin-like_domsf.
+DR   PANTHER; PTHR45945:SF1; REGULATOR OF G-PROTEIN SIGNALING 12; 1.
+DR   PANTHER; PTHR45945; REGULATOR OF G-PROTEIN SIGNALING LOCO; 1.
+DR   Pfam; PF02188; GoLoco; 1.
+DR   Pfam; PF00595; PDZ; 1.
+DR   Pfam; PF02196; RBD; 1.
+DR   Pfam; PF00615; RGS; 1.
+DR   Pfam; PF16613; RGS12_us1; 1.
+DR   Pfam; PF16611; RGS12_us2; 1.
+DR   Pfam; PF16612; RGS12_usC; 1.
+DR   PRINTS; PR01301; RGSPROTEIN.
+DR   SMART; SM00390; GoLoco; 1.
+DR   SMART; SM00228; PDZ; 1.
+DR   SMART; SM00462; PTB; 1.
+DR   SMART; SM00455; RBD; 2.
+DR   SMART; SM00315; RGS; 1.
+DR   SUPFAM; SSF50156; PDZ domain-like; 1.
+DR   SUPFAM; SSF50729; PH domain-like; 1.
+DR   SUPFAM; SSF48097; Regulator of G-protein signaling, RGS; 1.
+DR   SUPFAM; SSF54236; Ubiquitin-like; 2.
+DR   PROSITE; PS50877; GOLOCO; 1.
+DR   PROSITE; PS50106; PDZ; 1.
+DR   PROSITE; PS01179; PID; 1.
+DR   PROSITE; PS50898; RBD; 2.
+DR   PROSITE; PS50132; RGS; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell projection; Cytoplasm; GTPase activation;
+KW   Isopeptide bond; Methylation; Nucleus; Phosphoprotein; Reference proteome;
+KW   Repeat; Signal transduction inhibitor; Synapse; Ubl conjugation.
+FT   CHAIN           1..1387
+FT                   /note="Regulator of G-protein signaling 12"
+FT                   /id="PRO_0000204214"
+FT   DOMAIN          21..97
+FT                   /note="PDZ"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00143"
+FT   DOMAIN          227..339
+FT                   /note="PID"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00148"
+FT   DOMAIN          715..832
+FT                   /note="RGS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00171"
+FT   DOMAIN          962..1032
+FT                   /note="RBD 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00262"
+FT   DOMAIN          1034..1104
+FT                   /note="RBD 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00262"
+FT   DOMAIN          1187..1209
+FT                   /note="GoLoco"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00097"
+FT   REGION          409..429
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          442..488
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          620..650
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          842..934
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1103..1168
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1224..1325
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1349..1387
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        410..429
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        447..473
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        842..874
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        875..897
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        910..927
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1117..1153
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1154..1168
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1248..1301
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1311..1325
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1364..1378
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         171
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         194
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8CGE9"
+FT   MOD_RES         524
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:O14924"
+FT   MOD_RES         633
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8CGE9"
+FT   MOD_RES         661
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         671
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         850
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8CGE9"
+FT   MOD_RES         879
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         943
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8CGE9"
+FT   CROSSLNK        195
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:O14924"
+FT   VAR_SEQ         1..648
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_005688"
+FT   VAR_SEQ         649..666
+FT                   /note="SFGRSRRFSLTRSLDDLE -> MNLEKGLSDDSDVFIDQQ (in isoform
+FT                   2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_005689"
+SQ   SEQUENCE   1387 AA;  150469 MW;  958047D106B08310 CRC64;
+     MYRAGEPGKR QSGPAPPRVR SVEVARGRAG YGFTLSGQAP CVLSCVMRGS PADFVGLRAG
+     DQILAINEIN VKKASHEDVV KLIGKCSGVL RMVISEGSSH VEPSSSDEEG GLCEGKGWLR
+     PKLDSKALGI NRAERVVEEV QSGGIFNMIF ESPSLCASGS EPLKLKQRSL SESAALRLDV
+     GQDSLCTPHP SMLSKEEISK VINDDSVFTV GLDNHDDFGL DASILNVAMV VGYLGSIELP
+     STSSNLEHDS LQAIRGCMRR LRAEQKIHSL VTMKVMHDCV QLVTDRAGVV AEYPAEKLAF
+     SAVCPDDRRF FGLVTMQTND DGCLAQEDEG ALRTSCHVFM VDPDLFHHKI HQGIARRFGF
+     ACTADPDTSG CLEFPASSLP VLQFISVLYR DMGELIEGVR ARAFLDGDAD AHQNNSTSSN
+     SDSGIGNFNQ EEKSNRVLVV DLGGGSSRHG QGSSPGWESV SGRGSQPWSA PWNGTFCHDS
+     EAGSPLETSP NTDRFWDLTK HSGPVFHMEV PPATLRSSIP PSKRGATGSS CGFNQRWLPV
+     HVLQEWQCGH ASDQESYTDS TDGWSSVNCG TLPPPMSKIP ADRYRVEGSF AQAPLSTQKR
+     DWSRKAFGMQ NLFGPHRNVR KTKEDKKSSK LGRGVALAQT SQRTSARRSF GRSRRFSLTR
+     SLDDLESATV SDGELTGADL KDCISNNSLS SNASLPSVQS CRRLRERRVA SWAVSFERLL
+     QDPVGVRYFS DFLRKEFSEE NILFWQACEC FSHVPAHDKK ELSYRAREIF SKFLCSKATT
+     PVNIDSQAQL ADDILNAPHP DMFKEQQLQI FNLMKFDSYT RFLKSQLYQE CVLAEVEGRT
+     LPDSQQVPSS PASKHSISSD HSNVSTPKKL SGKSKSGRSL NEDVGEEDSE KKRKGAFFSW
+     SRSRSTGRSQ KKKDHGDHAH DALHANGGLC RRESQGSVSS AGSLDLSEAC RTSALERDKA
+     AKHCCVHLPD GTSCVVAVKS GFSIKEILSG LCERHGINGA AVDLFLVGGD KPLVLHQDSS
+     ILATRDLRLG KRTLFRLDLV PINRSVGLKA KPTKPVTEVL RPVVAKYGLD LGSLLVRLSG
+     EKEPLDLGAP ISSLDGQRVI LEERDPSRGK VSTEKQKGAP VKQSSAVNSS PRNHSAMGEE
+     RTLGKSNSIK IRGENGKSAR DPRLSKREES IAKIGKKKYQ KINLDEAEEF FELISKAQSN
+     RADDQRGLLR KEDLVLPEFL RLPPGSSELA LSSPPPVKGF SKRAVTSHGQ EGAVQTEESY
+     SDSPATSPAS AQSPCSAYSP GSAHSPGSAH SPGSAHSTPG PPGTAQPGEK PTKPSCISTV
+     QEGTTQAWRR LSPELEAGGI QTVEEEQVAD LTLMGEGDIS SPNSTLLPPP PLPQDTPGPT
+     RPGTSRF
+//

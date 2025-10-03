@@ -1,0 +1,168 @@
+ID   GASP1_RAT               Reviewed;        1346 AA.
+AC   Q920R4;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   08-NOV-2023, entry version 95.
+DE   RecName: Full=G-protein coupled receptor-associated sorting protein 1;
+DE            Short=GASP-1;
+DE   AltName: Full=Per1-interacting protein;
+GN   Name=Gprasp1; Synonyms=Pips;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, AND INTERACTION WITH
+RP   PER1.
+RX   PubMed=11597585; DOI=10.1016/s0006-8993(01)02857-8;
+RA   Matsuki T., Kiyama A., Kawabuchi M., Okada M., Nagai K.;
+RT   "A novel protein interacts with a clock-related protein, rPer1.";
+RL   Brain Res. 916:1-10(2001).
+RN   [2]
+RP   FUNCTION, TISSUE SPECIFICITY, AND INTERACTION WITH DRD2.
+RX   PubMed=16049099; DOI=10.1073/pnas.0502418102;
+RA   Bartlett S.E., Enquist J., Hopf F.W., Lee J.H., Gladher F., Kharazia V.,
+RA   Waldhoer M., Mailliard W.S., Armstrong R., Bonci A., Whistler J.L.;
+RT   "Dopamine responsiveness is regulated by targeted sorting of D2
+RT   receptors.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:11521-11526(2005).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-860 AND SER-862, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Modulates lysosomal sorting and functional down-regulation of
+CC       a variety of G-protein coupled receptors. Targets receptors for
+CC       degradation in lysosomes via its interaction with BECN2 (By
+CC       similarity). {ECO:0000250, ECO:0000269|PubMed:16049099}.
+CC   -!- SUBUNIT: Interacts with cytoplasmic tails of a variety of G-protein
+CC       coupled receptors such as delta opioid receptor/OPRD1, beta-2
+CC       adrenergic receptor/ADRB2 and D4 dopamine receptor/DRD4. Interacts with
+CC       BECN2; the interaction is direct (By similarity) and with D2 dopamine
+CC       receptor/DRD2. Interacts with PER1. {ECO:0000250,
+CC       ECO:0000269|PubMed:11597585, ECO:0000269|PubMed:16049099}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:11597585}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the brain.
+CC       {ECO:0000269|PubMed:16049099}.
+CC   -!- SIMILARITY: Belongs to the GPRASP family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB051807; BAB64314.1; -; mRNA.
+DR   RefSeq; NP_599213.1; NM_134386.1.
+DR   AlphaFoldDB; Q920R4; -.
+DR   STRING; 10116.ENSRNOP00000066239; -.
+DR   iPTMnet; Q920R4; -.
+DR   PhosphoSitePlus; Q920R4; -.
+DR   jPOST; Q920R4; -.
+DR   PaxDb; 10116-ENSRNOP00000066239; -.
+DR   GeneID; 171407; -.
+DR   KEGG; rno:171407; -.
+DR   AGR; RGD:621343; -.
+DR   CTD; 9737; -.
+DR   RGD; 621343; Gprasp1.
+DR   eggNOG; ENOG502S6CE; Eukaryota.
+DR   InParanoid; Q920R4; -.
+DR   OrthoDB; 5070809at2759; -.
+DR   PhylomeDB; Q920R4; -.
+DR   PRO; PR:Q920R4; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0008333; P:endosome to lysosome transport; ISS:UniProtKB.
+DR   GO; GO:1990172; P:G protein-coupled receptor catabolic process; ISS:UniProtKB.
+DR   InterPro; IPR006911; ARM-rpt_dom.
+DR   InterPro; IPR016024; ARM-type_fold.
+DR   InterPro; IPR043374; GASP1-3.
+DR   PANTHER; PTHR46414:SF3; G-PROTEIN COUPLED RECEPTOR-ASSOCIATED SORTING PROTEIN 1; 1.
+DR   PANTHER; PTHR46414; PROTEIN BHLHB9-RELATED; 1.
+DR   Pfam; PF04826; Arm_2; 1.
+DR   SUPFAM; SSF48371; ARM repeat; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..1346
+FT                   /note="G-protein coupled receptor-associated sorting
+FT                   protein 1"
+FT                   /id="PRO_0000239052"
+FT   REGION          1..101
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          144..177
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          192..258
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          311..399
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          461..485
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          984..1004
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        192..206
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        223..237
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        238..255
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        345..399
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        465..480
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        987..1001
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         295
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5U4C1"
+FT   MOD_RES         619
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5U4C1"
+FT   MOD_RES         626
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5U4C1"
+FT   MOD_RES         860
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         862
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+SQ   SEQUENCE   1346 AA;  151349 MW;  C6B07255D167E951 CRC64;
+     MTGAEVEPGA QAKAENKPGD ENANAAEVEP EVPLVVRPKV RTQMMTGARP KVKPKGTPGA
+     RPKGETSSPG GAYAKCKPRS IPISRSKHDA QVWAPSKFRG ESMSKMGKQC QISAADSPLV
+     SNDSGAVAQA KCLSVDRELA NMDTESIPKK ASSPARFQPS FGPEEGTSMG SWYRPRPIPK
+     GEAYENSDFK WADKSSGSSS FWNRDETSTR FRPRKSMKSN TRFRHMAKQE ANTMSRHKNK
+     QEFYNISSSD SEDESAKTPW FWAKDKPKVW SRPKEEPNTR SWFRSKKEVR VESTSGSECE
+     NHTKSLFWSG EEAKCRSKPR ARKGVNMRAR HQAKREAYSD VTSGSVDKNK KDSWFLPEEK
+     ANAFSKSKTK KEPRTRAMPR EEVKTKARAS TKQEARPEEE VLVGAWVLDT QDNTMGERIS
+     MKTTCVEEEP IVGDWFWSEE EASVDSETGL KSRPRAKEEQ VSSFCLGSGK KTSMESGPKA
+     TSKSMPVAKD DEVIIGSWFW ADDEEISLQA DDESIFGSWF WGTGEKSLRS VGVSCEKMPK
+     SGEKEVTDSW FWAGEVNTEA EMEEQASSAS TKGTIFVPWF WSEKQAHMDL GTEPCSDIMA
+     GAEEEPIIGP WFWAKVDNSV EAEVNSKSSL EDEEEPIRSP WFGAREQPNM KYAAGVGYKP
+     MAEAEEANKK SCVWAKEPCL YPTNRESLKS TLGEKEDTVD PWLWSNNYPR TETITGSWLW
+     AAEEGNIDDE TGEEIKLPTL EDNVFNSWSW KENEETVVEA PNREESKPEA EEEDIIGSWF
+     WAGDEDRFQP AAKIKEENKI APEDEDTVGS WFWGKEEASV EAVKGGTFES VSGIKEEKAT
+     GSWFWTDKAK IGAGPQTVET GSETEDEAIF ESLIWAAKKD SMQTGVNRVS KPKDEGEGIE
+     SWLWSGDKAT TESKTVTVSE SSPENGKESI VKFGSRAKDE VINKTGSGDN CKFSTEAESI
+     VGPWFWEGDE ASFESNPVPV CKAACEPESS TEHEPDPSRR PQSWDEVTVQ FKPGPWGKAG
+     FPSLNPFRFP KEAASLFAEM FGGKPKLVEV GTEREPEPQF PFQYDPSYRS VREIREHLKA
+     RESAQAENWS CNCIQCELRI GSEEFEELLL MMDRNRDPFI HEISKIAMGM RGASQFTRDF
+     IRNSGVISLI EALMNYPSSR ARTAFLENMI QMAPTYPDLN MIETYVCQVC EDTFDYDLDS
+     SDQLSGLTMI THLTTTFDYH KVVVAYLAGF YYLLNSGNTT TRFHVLKLLL NLSESLVMTK
+     RLLITDSVSE FMALFNREDS DENIQIILAI FENISKNIQK EALFADDEEE EEEEEAVNLE
+     PLISAFREAE KFAKELKRKT DDQKSP
+//

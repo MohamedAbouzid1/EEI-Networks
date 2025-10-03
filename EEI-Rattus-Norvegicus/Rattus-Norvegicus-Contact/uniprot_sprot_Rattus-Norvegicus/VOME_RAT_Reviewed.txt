@@ -1,0 +1,115 @@
+ID   VOME_RAT                Reviewed;         589 AA.
+AC   Q63751; Q05703;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2017, sequence version 2.
+DT   29-MAY-2024, entry version 83.
+DE   RecName: Full=Vomeromodulin {ECO:0000303|PubMed:1752363};
+DE   AltName: Full=BPI fold-containing family B member 9 {ECO:0000250|UniProtKB:Q80XI7};
+DE   Flags: Precursor;
+GN   Name=Bpifb9 {ECO:0000250|UniProtKB:Q80XI7};
+GN   Synonyms=RYF3 {ECO:0000303|PubMed:1915264};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Fischer {ECO:0000312|EMBL:CAA43066.1};
+RC   TISSUE=Olfactory epithelium {ECO:0000312|EMBL:CAA43066.1};
+RX   PubMed=1915264; DOI=10.1002/j.1460-2075.1991.tb07830.x;
+RA   Dear T.N., Boehm T., Keverne E.B., Rabbitts T.H.;
+RT   "Novel genes for potential ligand-binding proteins in subregions of the
+RT   olfactory mucosa.";
+RL   EMBO J. 10:2813-2819(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 493-589, SUBCELLULAR LOCATION, TISSUE
+RP   SPECIFICITY, AND GLYCOSYLATION.
+RC   STRAIN=CD Charles River {ECO:0000312|EMBL:CAA45366.1};
+RC   TISSUE=Nasal mucosa {ECO:0000312|EMBL:CAA45366.1};
+RX   PubMed=1752363; DOI=10.1096/fasebj.5.14.1752363;
+RA   Khew-Goodall Y.S., Grillo M., Getchell M.L., Danho W., Getchell T.V.,
+RA   Margolis F.L.;
+RT   "Vomeromodulin, a putative pheromone transporter: cloning,
+RT   characterization, and cellular localization of a novel glycoprotein of
+RT   lateral nasal gland.";
+RL   FASEB J. 5:2976-2982(1991).
+RN   [3]
+RP   STRUCTURE OF CARBOHYDRATES.
+RX   PubMed=10049729; DOI=10.1006/bbrc.1999.0176;
+RA   Mechref Y., Ma W., Hao G., Novotny M.V.;
+RT   "N-linked oligosaccharides of vomeromodulin, a putative pheromone
+RT   transporter in rat.";
+RL   Biochem. Biophys. Res. Commun. 255:451-455(1999).
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:1752363}.
+CC   -!- TISSUE SPECIFICITY: Abundant in the lateral nasal glands
+CC       (PubMed:1752363, PubMed:1915264). Also present in the posterior septal
+CC       and vomeronasal glands (PubMed:1752363). {ECO:0000269|PubMed:1752363,
+CC       ECO:0000269|PubMed:1915264}.
+CC   -!- PTM: N-glycosylated (PubMed:10049729, PubMed:1752363). The N-glycans
+CC       consist mainly of complex sialylated and fucosylated biantennary
+CC       structures (PubMed:10049729). {ECO:0000269|PubMed:10049729,
+CC       ECO:0000269|PubMed:1752363}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA43066.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC       Sequence=CAA43066.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X60659; CAA43066.1; ALT_SEQ; mRNA.
+DR   EMBL; X63911; CAA45366.1; -; mRNA.
+DR   PIR; S23808; S23808.
+DR   AlphaFoldDB; Q63751; -.
+DR   STRING; 10116.ENSRNOP00000065522; -.
+DR   GlyConnect; 626; 3 N-Linked glycans.
+DR   GlyCosmos; Q63751; 2 sites, 5 glycans.
+DR   GlyGen; Q63751; 3 sites, 5 N-linked glycans (1 site).
+DR   PhosphoSitePlus; Q63751; -.
+DR   PaxDb; 10116-ENSRNOP00000065522; -.
+DR   UCSC; RGD:1594746; rat.
+DR   AGR; RGD:1594746; -.
+DR   RGD; 1594746; LOC690507.
+DR   eggNOG; ENOG502TKQD; Eukaryota.
+DR   InParanoid; Q63751; -.
+DR   PRO; PR:Q63751; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0007608; P:sensory perception of smell; IEA:InterPro.
+DR   InterPro; IPR034433; Vomeromodulin.
+DR   PANTHER; PTHR40142; BPI FOLD-CONTAINING FAMILY B, MEMBER 9B-RELATED; 1.
+DR   PANTHER; PTHR40142:SF1; BPI FOLD-CONTAINING FAMILY B, MEMBER 9B-RELATED; 1.
+PE   1: Evidence at protein level;
+KW   Glycoprotein; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..29
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           30..589
+FT                   /note="Vomeromodulin"
+FT                   /id="PRO_0000065878"
+FT   REGION          49..71
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          146..170
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        419
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        437
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        510
+FT                   /note="S -> C (in Ref. 1; CAA43066)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   589 AA;  62793 MW;  CABA02EAE0E8F9D9 CRC64;
+     MWVLQALAIM LSIQAGVLDL VEVPPVVRSL PVALPAPVNL PAVLPGSPGL NDPAKNRMLP
+     PKRPGAPSRG GKCAPAARYF LSSDKLQAYL LSILPPQIED MVKCDKVNME GVLGDILATM
+     QDSNLLSILD ITSLLQGGGG LGLGGLLGKE GNEDPSKPSS GSKATGGLGQ LLPEGLPGKE
+     GLGGLLNLGG GKGSGKGLLN GDGLSNVVKP LDDIVENVDS LKAAVQDKVK SVVPENIKDP
+     FSDLLNMDIQ ETMLKLKVKQ VKVGSTDINM GADGIKVLSE VTADVEGEGL LGPVFTLLQF
+     QSVMDVTMNI AVSSNNTQCV NLDVQDTHMH VKEMNIQLLQ TVTETVPLPT SLPLNDIIPI
+     VLTAKMNENL EKSDSCGIVL SDFNDCKNTT GLFGYQVHTA RISPKGLSID YCVKANIDNK
+     TVPVPGGRLP PDPKNANVSI TTASSALRTL VKYVAKQSSV QMNDLEAQIT YIAFAPQENN
+     MLRLLYKVDI TKDSQPYATG ETKLFISHAS KILNSKLVPD VKLTRSEHSV VPPETKEEVE
+     GIMAEVTRKA WSRFNELYKK MSIPDGVSSN TLTNSDVKLL RSNDLQAAS
+//

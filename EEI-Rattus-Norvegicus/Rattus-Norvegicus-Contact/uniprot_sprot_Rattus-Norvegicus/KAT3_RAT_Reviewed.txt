@@ -1,0 +1,159 @@
+ID   KAT3_RAT                Reviewed;         454 AA.
+AC   Q58FK9;
+DT   15-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   26-APR-2005, sequence version 1.
+DT   24-JUL-2024, entry version 99.
+DE   RecName: Full=Kynurenine--oxoglutarate transaminase 3 {ECO:0000250|UniProtKB:Q71RI9};
+DE            EC=2.6.1.7 {ECO:0000250|UniProtKB:Q71RI9};
+DE   AltName: Full=Cysteine-S-conjugate beta-lyase 2 {ECO:0000250|UniProtKB:Q71RI9};
+DE            EC=4.4.1.13 {ECO:0000250|UniProtKB:Q71RI9};
+DE   AltName: Full=Kynurenine aminotransferase 3 {ECO:0000312|RGD:1359262};
+DE   AltName: Full=Kynurenine aminotransferase III;
+DE            Short=KATIII;
+DE   AltName: Full=Kynurenine--glyoxylate transaminase {ECO:0000250|UniProtKB:Q71RI9};
+DE            EC=2.6.1.63 {ECO:0000250|UniProtKB:Q71RI9};
+DE   AltName: Full=Kynurenine--oxoglutarate transaminase III;
+GN   Name=Kyat3 {ECO:0000312|RGD:1359262}; Synonyms=Ccbl2, Kat3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=16376499; DOI=10.1016/j.gene.2005.09.034;
+RA   Yu P., Li Z., Zhang L., Tagle D.A., Cai T.;
+RT   "Characterization of kynurenine aminotransferase III, a novel member of a
+RT   phylogenetically conserved KAT family.";
+RL   Gene 365:111-118(2006).
+CC   -!- FUNCTION: Catalyzes the irreversible transamination of the L-tryptophan
+CC       metabolite L-kynurenine to form kynurenic acid (KA), an intermediate in
+CC       the tryptophan catabolic pathway which is also a broad spectrum
+CC       antagonist of the three ionotropic excitatory amino acid receptors
+CC       among others. May catalyze the beta-elimination of S-conjugates and Se-
+CC       conjugates of L-(seleno)cysteine, resulting in the cleavage of the C-S
+CC       or C-Se bond. Has transaminase activity towards L-kynurenine,
+CC       tryptophan, phenylalanine, serine, cysteine, methionine, histidine,
+CC       glutamine and asparagine with glyoxylate as an amino group acceptor (in
+CC       vitro). Has lower activity with 2-oxoglutarate as amino group acceptor
+CC       (in vitro). {ECO:0000250|UniProtKB:Q71RI9}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + L-kynurenine = H2O + kynurenate + L-
+CC         glutamate; Xref=Rhea:RHEA:65560, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:29985, ChEBI:CHEBI:57959,
+CC         ChEBI:CHEBI:58454; EC=2.6.1.7;
+CC         Evidence={ECO:0000250|UniProtKB:Q71RI9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:65561;
+CC         Evidence={ECO:0000250|UniProtKB:Q71RI9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glyoxylate + L-kynurenine = glycine + H2O + kynurenate;
+CC         Xref=Rhea:RHEA:65896, ChEBI:CHEBI:15377, ChEBI:CHEBI:36655,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:57959, ChEBI:CHEBI:58454; EC=2.6.1.63;
+CC         Evidence={ECO:0000250|UniProtKB:Q71RI9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:65897;
+CC         Evidence={ECO:0000250|UniProtKB:Q71RI9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-hydroxy-L-kynurenine + glyoxylate = glycine + H2O +
+CC         xanthurenate; Xref=Rhea:RHEA:65900, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:36655, ChEBI:CHEBI:57305, ChEBI:CHEBI:58125,
+CC         ChEBI:CHEBI:71201; EC=2.6.1.63;
+CC         Evidence={ECO:0000250|UniProtKB:Q71RI9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:65901;
+CC         Evidence={ECO:0000250|UniProtKB:Q71RI9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an S-substituted L-cysteine + H2O = a thiol + NH4(+) +
+CC         pyruvate; Xref=Rhea:RHEA:18121, ChEBI:CHEBI:15361, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:29256, ChEBI:CHEBI:58717; EC=4.4.1.13;
+CC         Evidence={ECO:0000250|UniProtKB:Q71RI9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:18122;
+CC         Evidence={ECO:0000250|UniProtKB:Q71RI9};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250|UniProtKB:Q71RI9};
+CC   -!- PATHWAY: Amino-acid degradation; L-kynurenine degradation; kynurenate
+CC       from L-kynurenine: step 1/2. {ECO:0000250|UniProtKB:Q71RI9}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q71RI9}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridoxal-phosphate-dependent
+CC       aminotransferase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY955395; AAX55607.1; -; mRNA.
+DR   RefSeq; NP_001015037.1; NM_001015037.1.
+DR   AlphaFoldDB; Q58FK9; -.
+DR   SMR; Q58FK9; -.
+DR   STRING; 10116.ENSRNOP00000059667; -.
+DR   iPTMnet; Q58FK9; -.
+DR   PhosphoSitePlus; Q58FK9; -.
+DR   SwissPalm; Q58FK9; -.
+DR   GeneID; 541589; -.
+DR   KEGG; rno:541589; -.
+DR   AGR; RGD:1359262; -.
+DR   CTD; 56267; -.
+DR   RGD; 1359262; Kyat3.
+DR   InParanoid; Q58FK9; -.
+DR   OrthoDB; 176869at2759; -.
+DR   PhylomeDB; Q58FK9; -.
+DR   BRENDA; 2.6.1.7; 5301.
+DR   UniPathway; UPA00334; UER00726.
+DR   PRO; PR:Q58FK9; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0047804; F:cysteine-S-conjugate beta-lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0047315; F:kynurenine-glyoxylate transaminase activity; ISS:UniProtKB.
+DR   GO; GO:0016212; F:kynurenine-oxoglutarate transaminase activity; ISS:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0006103; P:2-oxoglutarate metabolic process; ISO:RGD.
+DR   GO; GO:0006520; P:amino acid metabolic process; ISS:UniProtKB.
+DR   GO; GO:0009058; P:biosynthetic process; IEA:InterPro.
+DR   GO; GO:0070189; P:kynurenine metabolic process; ISS:UniProtKB.
+DR   GO; GO:0097053; P:L-kynurenine catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00609; AAT_like; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR051326; Kynurenine-oxoglutarate_AT.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   PANTHER; PTHR43807; FI04487P; 1.
+DR   PANTHER; PTHR43807:SF6; KYNURENINE--OXOGLUTARATE TRANSAMINASE 3; 1.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Aminotransferase; Lyase; Pyridoxal phosphate;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..454
+FT                   /note="Kynurenine--oxoglutarate transaminase 3"
+FT                   /id="PRO_0000287706"
+FT   BINDING         71
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16773"
+FT   BINDING         218
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16773"
+FT   BINDING         429
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16773"
+FT   MOD_RES         116
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6YP21"
+FT   MOD_RES         116
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q71RI9"
+FT   MOD_RES         280
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16773"
+SQ   SEQUENCE   454 AA;  51044 MW;  77F70B4DEC32D9AC CRC64;
+     MLLAQRRLFS LGCRAKPIKT IYSSKVLGLS TSAKMALRFK NAKRIEGLDQ NVWVEFTKLA
+     ADPSVVNLGQ GFPDITLPSY VQEELSKAAF IDNLNQYTRG FGHPSLVKAL SCLYGKIYQK
+     QIDPNEEILV TVGGYGSLFN AIQGLVDPGD EVIIMVPFYD CYEPMVKMAG AVPVFIPLRS
+     KRTDGMKWTS SDWTFNPQEL ESKFSSKTKA IILNTPHNPI GKVYTREELQ VIADLCIKHD
+     TLCISDEVYE WLVYTGHKHI KVASLPGMWD RTLTIGSAGK TFSVTGWKLG WSIGPGHLIK
+     HLRTVQQTSV YTCATPLQAA LAEAFWIDIK RMDDPECYFN SLPKELEVKR DRMACLLNSV
+     GLKPIIPDGG YFIIADVSSL GVDLSDVKSD EPYDYKFVKW MTKNKKLSAI PVSAFCDSES
+     KPHFEKLVRF CFIKKDSTLD AAEEIFRTWN SRKS
+//

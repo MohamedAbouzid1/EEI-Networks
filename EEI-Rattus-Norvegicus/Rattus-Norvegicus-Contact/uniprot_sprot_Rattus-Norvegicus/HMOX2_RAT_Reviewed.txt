@@ -1,0 +1,256 @@
+ID   HMOX2_RAT               Reviewed;         315 AA.
+AC   P23711;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1991, sequence version 1.
+DT   29-MAY-2024, entry version 177.
+DE   RecName: Full=Heme oxygenase 2;
+DE            Short=HO-2;
+DE            EC=1.14.14.18 {ECO:0000269|PubMed:1575508, ECO:0000269|PubMed:2185251};
+DE   Contains:
+DE     RecName: Full=Heme oxygenase 2 soluble form {ECO:0000250|UniProtKB:P30519};
+GN   Name=Hmox2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND CATALYTIC ACTIVITY.
+RC   TISSUE=Testis;
+RX   PubMed=2185251; DOI=10.1016/s0021-9258(19)39141-0;
+RA   Rotenberg M.O., Maines M.D.;
+RT   "Isolation, characterization, and expression in Escherichia coli of a cDNA
+RT   encoding rat heme oxygenase-2.";
+RL   J. Biol. Chem. 265:7501-7506(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=8112599; DOI=10.1016/0378-1119(94)90749-8;
+RA   McCoubrey W.K. Jr., Maines M.D.;
+RT   "The structure, organization and differential expression of the gene
+RT   encoding rat heme oxygenase-2.";
+RL   Gene 139:155-161(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 142-232, PARTIAL PROTEIN SEQUENCE, AND
+RP   INDUCTION.
+RC   TISSUE=Liver, and Testis;
+RX   PubMed=3343248; DOI=10.1016/s0021-9258(18)69078-7;
+RA   Cruse I., Maines M.D.;
+RT   "Evidence suggesting that the two forms of heme oxygenase are products of
+RT   different genes.";
+RL   J. Biol. Chem. 263:3348-3353(1988).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND ACTIVITY REGULATION.
+RX   PubMed=1575508; DOI=10.1016/0003-9861(92)90481-b;
+RA   McCoubrey W.K. Jr., Ewing J.F., Maines M.D.;
+RT   "Human heme oxygenase-2: characterization and expression of a full-length
+RT   cDNA and evidence suggesting that the two HO-2 transcripts may differ by
+RT   choice of polyadenylation signal.";
+RL   Arch. Biochem. Biophys. 295:13-20(1992).
+RN   [6]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: [Heme oxygenase 2]: Catalyzes the oxidative cleavage of heme
+CC       at the alpha-methene bridge carbon, released as carbon monoxide (CO),
+CC       to generate biliverdin IXalpha, while releasing the central heme iron
+CC       chelate as ferrous iron. {ECO:0000269|PubMed:1575508,
+CC       ECO:0000269|PubMed:2185251}.
+CC   -!- FUNCTION: [Heme oxygenase 2 soluble form]: Catalyzes the oxidative
+CC       cleavage of heme at the alpha-methene bridge carbon, released as carbon
+CC       monoxide (CO), to generate biliverdin IXalpha, while releasing the
+CC       central heme iron chelate as ferrous iron.
+CC       {ECO:0000250|UniProtKB:P30519}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=heme b + 3 O2 + 3 reduced [NADPH--hemoprotein reductase] =
+CC         biliverdin IXalpha + CO + Fe(2+) + H(+) + 3 H2O + 3 oxidized [NADPH--
+CC         hemoprotein reductase]; Xref=Rhea:RHEA:21764, Rhea:RHEA-COMP:11964,
+CC         Rhea:RHEA-COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:17245, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:57618, ChEBI:CHEBI:57991, ChEBI:CHEBI:58210,
+CC         ChEBI:CHEBI:60344; EC=1.14.14.18;
+CC         Evidence={ECO:0000269|PubMed:1575508, ECO:0000269|PubMed:2185251};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21765;
+CC         Evidence={ECO:0000305|PubMed:2185251};
+CC   -!- ACTIVITY REGULATION: Inhibited by metalloporphyrins such as Sn- and Zn-
+CC       protoporphyrins. {ECO:0000269|PubMed:1575508}.
+CC   -!- INTERACTION:
+CC       P23711; P0DP29: Calm3; NbExp=2; IntAct=EBI-2910092, EBI-397530;
+CC       P23711; P62157: CALM; Xeno; NbExp=3; IntAct=EBI-2910092, EBI-397403;
+CC   -!- SUBCELLULAR LOCATION: Microsome membrane
+CC       {ECO:0000250|UniProtKB:P30519}; Single-pass type IV membrane protein
+CC       {ECO:0000255}; Cytoplasmic side {ECO:0000250|UniProtKB:P09601}.
+CC       Endoplasmic reticulum membrane {ECO:0000250|UniProtKB:P09601}; Single-
+CC       pass type IV membrane protein {ECO:0000255}; Cytoplasmic side
+CC       {ECO:0000250|UniProtKB:P09601}.
+CC   -!- TISSUE SPECIFICITY: Widely distributed in body with a high
+CC       concentration in the brain. {ECO:0000269|PubMed:8112599}.
+CC   -!- INDUCTION: Heme oxygenase 2 activity is non-inducible.
+CC       {ECO:0000269|PubMed:3343248}.
+CC   -!- PTM: A soluble form arises by proteolytic removal of the membrane
+CC       anchor. {ECO:0000250|UniProtKB:P30519}.
+CC   -!- PTM: S-nitrosylated by BLVRB. {ECO:0000250|UniProtKB:P30519}.
+CC   -!- SIMILARITY: Belongs to the heme oxygenase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J05405; AAA41340.1; -; mRNA.
+DR   EMBL; U05013; AAA19130.1; -; Genomic_DNA.
+DR   EMBL; BC062061; AAH62061.1; -; mRNA.
+DR   EMBL; M18918; AAA41347.1; -; mRNA.
+DR   PIR; A35199; A35199.
+DR   RefSeq; NP_001264002.1; NM_001277073.1.
+DR   RefSeq; NP_077363.1; NM_024387.2.
+DR   RefSeq; XP_006245889.1; XM_006245827.3.
+DR   AlphaFoldDB; P23711; -.
+DR   SMR; P23711; -.
+DR   IntAct; P23711; 2.
+DR   STRING; 10116.ENSRNOP00000005031; -.
+DR   BindingDB; P23711; -.
+DR   ChEMBL; CHEMBL3348; -.
+DR   DrugCentral; P23711; -.
+DR   GuidetoPHARMACOLOGY; 1442; -.
+DR   iPTMnet; P23711; -.
+DR   PhosphoSitePlus; P23711; -.
+DR   jPOST; P23711; -.
+DR   PaxDb; 10116-ENSRNOP00000005031; -.
+DR   Ensembl; ENSRNOT00000005031.6; ENSRNOP00000005031.2; ENSRNOG00000003773.7.
+DR   Ensembl; ENSRNOT00055048553; ENSRNOP00055039913; ENSRNOG00055028051.
+DR   Ensembl; ENSRNOT00060012904; ENSRNOP00060009780; ENSRNOG00060007820.
+DR   Ensembl; ENSRNOT00065016608; ENSRNOP00065012651; ENSRNOG00065010283.
+DR   GeneID; 79239; -.
+DR   KEGG; rno:79239; -.
+DR   UCSC; RGD:67402; rat.
+DR   AGR; RGD:67402; -.
+DR   CTD; 3163; -.
+DR   RGD; 67402; Hmox2.
+DR   eggNOG; KOG4480; Eukaryota.
+DR   GeneTree; ENSGT00390000017673; -.
+DR   InParanoid; P23711; -.
+DR   OMA; ANRAFEY; -.
+DR   OrthoDB; 1366343at2759; -.
+DR   PhylomeDB; P23711; -.
+DR   TreeFam; TF314786; -.
+DR   BRENDA; 1.14.14.18; 5301.
+DR   Reactome; R-RNO-189483; Heme degradation.
+DR   Reactome; R-RNO-6798695; Neutrophil degranulation.
+DR   Reactome; R-RNO-8980692; RHOA GTPase cycle.
+DR   Reactome; R-RNO-917937; Iron uptake and transport.
+DR   Reactome; R-RNO-9707564; Cytoprotection by HMOX1.
+DR   SABIO-RK; P23711; -.
+DR   PRO; PR:P23711; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000003773; Expressed in testis and 20 other cell types or tissues.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0020037; F:heme binding; IBA:GO_Central.
+DR   GO; GO:0004392; F:heme oxygenase (decyclizing) activity; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042167; P:heme catabolic process; IBA:GO_Central.
+DR   GO; GO:0006788; P:heme oxidation; IBA:GO_Central.
+DR   GO; GO:0001666; P:response to hypoxia; ISO:RGD.
+DR   GO; GO:0006979; P:response to oxidative stress; IDA:RGD.
+DR   CDD; cd19165; HemeO; 1.
+DR   Gene3D; 1.20.910.10; Heme oxygenase-like; 1.
+DR   InterPro; IPR002051; Haem_Oase.
+DR   InterPro; IPR016053; Haem_Oase-like.
+DR   InterPro; IPR016084; Haem_Oase-like_multi-hlx.
+DR   InterPro; IPR018207; Haem_oxygenase_CS.
+DR   PANTHER; PTHR10720; HEME OXYGENASE; 1.
+DR   PANTHER; PTHR10720:SF2; HEME OXYGENASE 2; 1.
+DR   Pfam; PF01126; Heme_oxygenase; 1.
+DR   PRINTS; PR00088; HAEMOXYGNASE.
+DR   SUPFAM; SSF48613; Heme oxygenase-like; 1.
+DR   PROSITE; PS00593; HEME_OXYGENASE; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; Endoplasmic reticulum; Heme; Iron;
+KW   Membrane; Metal-binding; Microsome; Oxidoreductase; Phosphoprotein;
+KW   Reference proteome; Repeat; S-nitrosylation; Transmembrane;
+KW   Transmembrane helix.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P30519"
+FT   CHAIN           2..315
+FT                   /note="Heme oxygenase 2"
+FT                   /id="PRO_0000209694"
+FT   CHAIN           2..294
+FT                   /note="Heme oxygenase 2 soluble form"
+FT                   /evidence="ECO:0000250|UniProtKB:P30519"
+FT                   /id="PRO_0000455628"
+FT   TOPO_DOM        2..294
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P09601"
+FT   TRANSMEM        295..315
+FT                   /note="Helical; Anchor for type IV membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          263..268
+FT                   /note="HRM 1"
+FT   REPEAT          280..285
+FT                   /note="HRM 2"
+FT   REGION          1..29
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..15
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         44
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000250|UniProtKB:P30519"
+FT   BINDING         153
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /evidence="ECO:0000250|UniProtKB:P30519"
+FT   BINDING         198
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /evidence="ECO:0000250|UniProtKB:P30519"
+FT   BINDING         202
+FT                   /ligand="heme b"
+FT                   /ligand_id="ChEBI:CHEBI:60344"
+FT                   /evidence="ECO:0000250|UniProtKB:P30519"
+FT   SITE            159
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P09601"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30519"
+FT   MOD_RES         2
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30519"
+FT   MOD_RES         264
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30519"
+FT   MOD_RES         281
+FT                   /note="S-nitrosocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30519"
+FT   CONFLICT        142..146
+FT                   /note="QNEPE -> EFRNK (in Ref. 4; AAA41347)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        230..232
+FT                   /note="MQI -> TEF (in Ref. 4; AAA41347)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   315 AA;  35762 MW;  981AADE01DE1AFCF CRC64;
+     MSSEVETSEG VDESENNSTA PEKENHTKMA DLSELLKEGT KEAHDRAENT QFVKDFLKGN
+     IKKELFKLAT TALYFTYSAL EEEMDRNKDH PAFAPLYFPT ELHRKEALIK DMEYFFGENW
+     EEQVKCSEAA QKYVDRIHYV GQNEPELLVA HAYTRYMGDL SGGQVLKKVA QRALKLPSTG
+     EGTQFYLFEH VDNAQQFKQF YRARMNALDL SMKTKERIVE EANKAFEYNM QIFSELDQAG
+     SMLTKETLED GLPVHDGKGD VRKCPFYAAQ PDKGTLGGSN CPFRTAMAVL RKPSLQLILA
+     ASVALVAGLL AWYYM
+//

@@ -1,0 +1,86 @@
+ID   WFD18_RAT               Reviewed;          74 AA.
+AC   P14730;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 2.
+DT   24-JUL-2024, entry version 129.
+DE   RecName: Full=WAP four-disulfide core domain protein 18;
+DE   AltName: Full=Extracellular peptidase inhibitor;
+DE   AltName: Full=Protein WDNM1;
+DE   Flags: Precursor; Fragment;
+GN   Name=Wfdc18; Synonyms=Expi, Wdnm1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Mammary carcinoma;
+RX   PubMed=3136918;
+RA   Dear T.N., Ramshaw I.A., Kefford R.F.;
+RT   "Differential expression of a novel gene, WDNM1, in nonmetastatic rat
+RT   mammary adenocarcinoma cells.";
+RL   Cancer Res. 48:5203-5209(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Thymus;
+RX   PubMed=2018519; DOI=10.1016/0006-291x(91)90916-u;
+RA   Dear T.N., Kefford R.F.;
+RT   "The WDNM1 gene product is a novel member of the 'four-disulphide core'
+RT   family of proteins.";
+RL   Biochem. Biophys. Res. Commun. 176:247-254(1991).
+CC   -!- FUNCTION: Involved in the metastatic potential of adenocarcinomas in
+CC       rat. Could have proteinase inhibiting capacity.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Spleen, kidney, brain, liver, lung and cell line
+CC       Rat-2.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA31688.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X13309; CAA31688.1; ALT_INIT; mRNA.
+DR   PIR; S07807; S07807.
+DR   AlphaFoldDB; P14730; -.
+DR   SMR; P14730; -.
+DR   STRING; 10116.ENSRNOP00000052774; -.
+DR   MEROPS; I17.004; -.
+DR   PaxDb; 10116-ENSRNOP00000052774; -.
+DR   AGR; RGD:619957; -.
+DR   RGD; 619957; Wfdc18.
+DR   eggNOG; ENOG502RXHY; Eukaryota.
+DR   InParanoid; P14730; -.
+DR   PhylomeDB; P14730; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0004867; F:serine-type endopeptidase inhibitor activity; IBA:GO_Central.
+DR   GO; GO:0019731; P:antibacterial humoral response; IBA:GO_Central.
+DR   GO; GO:0045087; P:innate immune response; IBA:GO_Central.
+DR   CDD; cd00199; WAP; 1.
+DR   Gene3D; 4.10.75.10; Elafin-like; 1.
+DR   InterPro; IPR036645; Elafin-like_sf.
+DR   InterPro; IPR008197; WAP_dom.
+DR   InterPro; IPR050514; WAP_four-disulfide_core.
+DR   PANTHER; PTHR19441:SF87; ACTIVATED MACROPHAGE_MICROGLIA WAP DOMAIN PROTEIN; 1.
+DR   PANTHER; PTHR19441; WHEY ACDIC PROTEIN WAP; 1.
+DR   Pfam; PF00095; WAP; 1.
+DR   PRINTS; PR00003; 4DISULPHCORE.
+DR   SMART; SM00217; WAP; 1.
+DR   SUPFAM; SSF57256; Elafin-like; 1.
+DR   PROSITE; PS51390; WAP; 1.
+PE   2: Evidence at transcript level;
+KW   Protease inhibitor; Reference proteome; Secreted; Signal.
+FT   SIGNAL          <1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..74
+FT                   /note="WAP four-disulfide core domain protein 18"
+FT                   /id="PRO_0000041377"
+FT   DOMAIN          26..73
+FT                   /note="WAP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00722"
+FT   NON_TER         1
+SQ   SEQUENCE   74 AA;  7740 MW;  51802C70CDAF0521 CRC64;
+     TASVLLLVAL IAVGMNITYA LFSPTKLEKP GKCPKNPPRS IGTCVELCSG DQSCPNIQKC
+     CSNGCGHVCK SPVF
+//

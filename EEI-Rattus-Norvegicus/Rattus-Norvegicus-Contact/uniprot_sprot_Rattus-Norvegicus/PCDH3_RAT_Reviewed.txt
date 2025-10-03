@@ -1,0 +1,141 @@
+ID   PCDH3_RAT               Reviewed;         797 AA.
+AC   Q63418;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   24-JUL-2024, entry version 120.
+DE   RecName: Full=Protocadherin-3;
+DE   Flags: Precursor;
+GN   Name=Pcdh3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=8575755; DOI=10.1006/geno.1995.9956;
+RA   Sago H., Kitagawa M., Obata S., Mori N., Taketani S., Rochelle J.M.,
+RA   Seldin M.F., Davidson M.K., John T., Suzuki S.T.;
+RT   "Cloning, expression, and chromosomal localization of a novel cadherin-
+RT   related protein, protocadherin-3.";
+RL   Genomics 29:631-640(1995).
+CC   -!- FUNCTION: Potential calcium-dependent cell-adhesion protein. May be
+CC       involved in the establishment and maintenance of specific neuronal
+CC       connections in the brain.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Single-pass type I
+CC       membrane protein {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed in brain.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L43592; AAC42079.1; -; mRNA.
+DR   RefSeq; NP_775122.1; NM_173099.1.
+DR   AlphaFoldDB; Q63418; -.
+DR   SMR; Q63418; -.
+DR   STRING; 10116.ENSRNOP00000045459; -.
+DR   GlyCosmos; Q63418; 4 sites, No reported glycans.
+DR   GlyGen; Q63418; 4 sites.
+DR   iPTMnet; Q63418; -.
+DR   PhosphoSitePlus; Q63418; -.
+DR   SwissPalm; Q63418; -.
+DR   PaxDb; 10116-ENSRNOP00000045459; -.
+DR   GeneID; 25133; -.
+DR   KEGG; rno:25133; -.
+DR   UCSC; RGD:3266; rat.
+DR   AGR; RGD:3266; -.
+DR   CTD; 56124; -.
+DR   RGD; 3266; Pcdh3.
+DR   eggNOG; KOG3594; Eukaryota.
+DR   InParanoid; Q63418; -.
+DR   OrthoDB; 5402790at2759; -.
+DR   PhylomeDB; Q63418; -.
+DR   PRO; PR:Q63418; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005911; C:cell-cell junction; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0007155; P:cell adhesion; IBA:GO_Central.
+DR   GO; GO:0007156; P:homophilic cell adhesion via plasma membrane adhesion molecules; IEA:InterPro.
+DR   CDD; cd11304; Cadherin_repeat; 5.
+DR   Gene3D; 2.60.40.60; Cadherins; 6.
+DR   InterPro; IPR002126; Cadherin-like_dom.
+DR   InterPro; IPR015919; Cadherin-like_sf.
+DR   InterPro; IPR032455; Cadherin_C.
+DR   InterPro; IPR020894; Cadherin_CS.
+DR   InterPro; IPR013164; Cadherin_N.
+DR   InterPro; IPR050174; Protocadherin/Cadherin-CA.
+DR   PANTHER; PTHR24028; CADHERIN-87A; 1.
+DR   PANTHER; PTHR24028:SF95; PROTOCADHERIN BETA 12; 1.
+DR   Pfam; PF00028; Cadherin; 5.
+DR   Pfam; PF08266; Cadherin_2; 1.
+DR   Pfam; PF16492; Cadherin_C_2; 1.
+DR   PRINTS; PR00205; CADHERIN.
+DR   SMART; SM00112; CA; 6.
+DR   SUPFAM; SSF49313; Cadherin-like; 6.
+DR   PROSITE; PS00232; CADHERIN_1; 4.
+DR   PROSITE; PS50268; CADHERIN_2; 6.
+PE   2: Evidence at transcript level;
+KW   Calcium; Cell adhesion; Cell membrane; Glycoprotein; Membrane;
+KW   Reference proteome; Repeat; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..797
+FT                   /note="Protocadherin-3"
+FT                   /id="PRO_0000003947"
+FT   TOPO_DOM        31..691
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        692..712
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        713..797
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          35..133
+FT                   /note="Cadherin 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00043"
+FT   DOMAIN          138..242
+FT                   /note="Cadherin 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00043"
+FT   DOMAIN          247..346
+FT                   /note="Cadherin 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00043"
+FT   DOMAIN          351..450
+FT                   /note="Cadherin 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00043"
+FT   DOMAIN          455..560
+FT                   /note="Cadherin 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00043"
+FT   DOMAIN          567..670
+FT                   /note="Cadherin 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00043"
+FT   CARBOHYD        169
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        276
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        417
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        566
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   797 AA;  87474 MW;  42E279E6C6117861 CRC64;
+     METALAKIPQ QRQVFFLTIL SLLWKSSSEA IRYSMPEETE SGYMVANLAK DLGIRVGELS
+     SRGAQIHYKG NKELLQLDAE TGNLFLKEKL DRELLCGETE PCVLNFQIIL ENPMQFFQTE
+     LQLTDINDHS PEFPNKKMLL TIPESAHPGT VFPLKAARDS DIGSNAVQNY TVNPNLHFHV
+     VTHSRTDGRK YPELVLDRAL DREEQPELTL ILTALDGGAP SRSGTTTVHI EVVDINDNSP
+     QFVQSLYKVQ VPENNPLNAF VVTVSATDLD AGVYGNVTYS LFQGYGVFQP FVIDEITGEI
+     HLSKELDFEE ISNHNIEIAA TDGGGLSGKC TVAVQVLDVN DNAPELTIRK LTVLVPENSA
+     ETVVAVFSVS DSDSGDNGRM VCSIPNNIPF LLKPTFENYY TLVTEGPLDR ENRAEYNITI
+     TVSDLGTPRL TTQHTITVQV SDINDNAPAF TQTSYTMFVH ENNSPALHIG TISATDSDSG
+     SNAHITYSLL PPDDPQLALD SLISINVDNG QLFALRALDY EALQSFEFYV GATDGGSPAL
+     SSQTLVRMVV LDDNDNAPFV LYPLQNASAP CTELLPRAAE PGYLITKVVA VDRDSGQNAW
+     LSFQLLKATE PGLFSVWAHN GEVRTTRLLS ERDAQKHKLL LLVKDNGDPL RSANVTLHVL
+     VVDGFSQPYL PLAEVAQDSM QDNYDVLTLY LVIALASVSS LFLLSVVLFV GVRLCRRARE
+     ASLGDYSVPE GHFPSHLVDV SGAGTLSQSY QYEVCLNGGT RTNEFNFLKP LFPILPTQAA
+     AAEERENAVV HNSVGFY
+//

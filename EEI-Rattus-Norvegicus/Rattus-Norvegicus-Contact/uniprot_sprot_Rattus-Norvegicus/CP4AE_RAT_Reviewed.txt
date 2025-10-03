@@ -1,0 +1,252 @@
+ID   CP4AE_RAT               Reviewed;         507 AA.
+AC   P20817;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 2.
+DT   24-JUL-2024, entry version 164.
+DE   RecName: Full=Cytochrome P450 4A14;
+DE   AltName: Full=CYPIVA14;
+DE   AltName: Full=Cytochrome P450-LA-omega 3;
+DE   AltName: Full=Lauric acid omega-hydroxylase;
+DE   AltName: Full=Long-chain fatty acid omega-monooxygenase;
+DE            EC=1.14.14.80 {ECO:0000250|UniProtKB:Q02928};
+DE   Flags: Precursor;
+GN   Name=Cyp4a14 {ECO:0000312|RGD:631356};
+GN   Synonyms=Cyp4a-3, Cyp4a3 {ECO:0000303|PubMed:10869363};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=2766933; DOI=10.1089/dna.1.1989.8.517;
+RA   Kimura S., Hardwick J.P., Kozak C.A., Gonzalez F.J.;
+RT   "The rat clofibrate-inducible CYP4A subfamily. II. cDNA sequence of IVA3,
+RT   mapping of the Cyp4a locus to mouse chromosome 4, and coordinate and
+RT   tissue-specific regulation of the CYP4A genes.";
+RL   DNA 8:517-525(1989).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 5-19.
+RX   PubMed=3365247; DOI=10.1016/s0006-291x(88)80092-5;
+RA   Imaoka S., Shimojo N., Funae Y.;
+RT   "Induction of renal cytochrome P-450 in hepatic microsomes of diabetic
+RT   rats.";
+RL   Biochem. Biophys. Res. Commun. 152:680-687(1988).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, MUTAGENESIS OF ASP-63; LYS-91; THR-92;
+RP   ALA-113; 114-SER--ILE-116 AND PHE-119, AND PATHWAY.
+RX   PubMed=10869363; DOI=10.1074/jbc.m004841200;
+RA   Hoch U., Falck J.R., de Montellano P.R.;
+RT   "Molecular basis for the omega-regiospecificity of the CYP4A2 and CYP4A3
+RT   fatty acid hydroxylases.";
+RL   J. Biol. Chem. 275:26952-26958(2000).
+RN   [4]
+RP   COVALENT HEME ATTACHMENT.
+RX   PubMed=11139583; DOI=10.1074/jbc.m009969200;
+RA   Hoch U., Ortiz de Montellano P.R.;
+RT   "Covalently linked heme in cytochrome P4504A fatty acid hydroxylases.";
+RL   J. Biol. Chem. 276:11339-11346(2001).
+RN   [5]
+RP   COVALENT HEME ATTACHMENT, AND MUTAGENESIS OF GLU-318.
+RX   PubMed=11821421; DOI=10.1074/jbc.m112155200;
+RA   LeBrun L.A., Hoch U., Ortiz de Montellano P.R.;
+RT   "Autocatalytic mechanism and consequences of covalent heme attachment in
+RT   the cytochrome P4504A family.";
+RL   J. Biol. Chem. 277:12755-12761(2002).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-437, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: A cytochrome P450 monooxygenase that catalyzes omega and
+CC       omega-1 hydroxylation of saturated fatty acids. Exhibits preferential
+CC       omega versus omega-1 regioselectivity and (R) versus (S)
+CC       stereoselectivity for hydroxylation of dodecanoic (lauric) acid.
+CC       Mechanistically, uses molecular oxygen inserting one oxygen atom into a
+CC       substrate, and reducing the second into a water molecule, with two
+CC       electrons provided by NADPH via cytochrome P450 reductase (CPR; NADPH-
+CC       ferrihemoprotein reductase). {ECO:0000269|PubMed:10869363}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an omega-methyl-long-chain fatty acid + O2 + reduced [NADPH--
+CC         hemoprotein reductase] = an omega-hydroxy-long-chain fatty acid +
+CC         H(+) + H2O + oxidized [NADPH--hemoprotein reductase];
+CC         Xref=Rhea:RHEA:56748, Rhea:RHEA-COMP:11964, Rhea:RHEA-COMP:11965,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:57618, ChEBI:CHEBI:58210, ChEBI:CHEBI:140991,
+CC         ChEBI:CHEBI:140992; EC=1.14.14.80;
+CC         Evidence={ECO:0000269|PubMed:10869363};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dodecanoate + O2 + reduced [NADPH--hemoprotein reductase] =
+CC         (11R)-hydroxydodecanoate + H(+) + H2O + oxidized [NADPH--hemoprotein
+CC         reductase]; Xref=Rhea:RHEA:41724, Rhea:RHEA-COMP:11964, Rhea:RHEA-
+CC         COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:18262, ChEBI:CHEBI:57618, ChEBI:CHEBI:58210,
+CC         ChEBI:CHEBI:78423; Evidence={ECO:0000269|PubMed:10869363};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41725;
+CC         Evidence={ECO:0000305|PubMed:10869363};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dodecanoate + O2 + reduced [NADPH--hemoprotein reductase] =
+CC         12-hydroxydodecanoate + H(+) + H2O + oxidized [NADPH--hemoprotein
+CC         reductase]; Xref=Rhea:RHEA:38947, Rhea:RHEA-COMP:11964, Rhea:RHEA-
+CC         COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:18262, ChEBI:CHEBI:36204, ChEBI:CHEBI:57618,
+CC         ChEBI:CHEBI:58210; Evidence={ECO:0000269|PubMed:10869363};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38948;
+CC         Evidence={ECO:0000305|PubMed:10869363};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O2 + reduced [NADPH--hemoprotein reductase] + tetradecanoate =
+CC         14-hydroxytetradecanoate + H(+) + H2O + oxidized [NADPH--hemoprotein
+CC         reductase]; Xref=Rhea:RHEA:40203, Rhea:RHEA-COMP:11964, Rhea:RHEA-
+CC         COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:30807, ChEBI:CHEBI:57618, ChEBI:CHEBI:58210,
+CC         ChEBI:CHEBI:77033; Evidence={ECO:0000269|PubMed:10869363};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40204;
+CC         Evidence={ECO:0000305|PubMed:10869363};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000269|PubMed:11139583, ECO:0000269|PubMed:11821421};
+CC   -!- PATHWAY: Lipid metabolism; fatty acid metabolism.
+CC       {ECO:0000305|PubMed:10869363}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane; Peripheral
+CC       membrane protein. Microsome membrane; Peripheral membrane protein.
+CC   -!- INDUCTION: By clofibrate.
+CC   -!- SIMILARITY: Belongs to the cytochrome P450 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M33936; AAA41458.1; -; mRNA.
+DR   PIR; A32966; A32966.
+DR   PIR; PC4351; PC4351.
+DR   RefSeq; NP_786936.1; NM_175760.2.
+DR   AlphaFoldDB; P20817; -.
+DR   SMR; P20817; -.
+DR   SwissLipids; SLP:000000744; -.
+DR   iPTMnet; P20817; -.
+DR   PhosphoSitePlus; P20817; -.
+DR   GeneID; 298423; -.
+DR   KEGG; rno:298423; -.
+DR   UCSC; RGD:631356; rat.
+DR   AGR; RGD:631356; -.
+DR   CTD; 298423; -.
+DR   RGD; 631356; Cyp4a3.
+DR   InParanoid; P20817; -.
+DR   OrthoDB; 1611592at2759; -.
+DR   PhylomeDB; P20817; -.
+DR   BRENDA; 1.14.14.80; 5301.
+DR   Reactome; R-RNO-211935; Fatty acids.
+DR   Reactome; R-RNO-211958; Miscellaneous substrates.
+DR   Reactome; R-RNO-211979; Eicosanoids.
+DR   Reactome; R-RNO-2142691; Synthesis of Leukotrienes (LT) and Eoxins (EX).
+DR   UniPathway; UPA00199; -.
+DR   PRO; PR:P20817; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IBA:GO_Central.
+DR   GO; GO:0018685; F:alkane 1-monooxygenase activity; IMP:RGD.
+DR   GO; GO:0008391; F:arachidonic acid monooxygenase activity; IMP:RGD.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0102033; F:long-chain fatty acid omega-hydroxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019369; P:arachidonic acid metabolic process; IMP:RGD.
+DR   GO; GO:0046456; P:icosanoid biosynthetic process; IMP:RGD.
+DR   GO; GO:0001822; P:kidney development; IEP:RGD.
+DR   GO; GO:0048252; P:lauric acid metabolic process; IDA:RGD.
+DR   GO; GO:0043651; P:linoleic acid metabolic process; IDA:RGD.
+DR   GO; GO:1904681; P:response to 3-methylcholanthrene; IEP:RGD.
+DR   CDD; cd20678; CYP4B-like; 1.
+DR   Gene3D; 1.10.630.10; Cytochrome P450; 1.
+DR   InterPro; IPR001128; Cyt_P450.
+DR   InterPro; IPR017972; Cyt_P450_CS.
+DR   InterPro; IPR002401; Cyt_P450_E_grp-I.
+DR   InterPro; IPR036396; Cyt_P450_sf.
+DR   InterPro; IPR050196; Cytochrome_P450_Monoox.
+DR   PANTHER; PTHR24291:SF47; CYTOCHROME P450 4A14-RELATED; 1.
+DR   PANTHER; PTHR24291; CYTOCHROME P450 FAMILY 4; 1.
+DR   Pfam; PF00067; p450; 1.
+DR   PRINTS; PR00463; EP450I.
+DR   PRINTS; PR00385; P450.
+DR   SUPFAM; SSF48264; Cytochrome P450; 1.
+DR   PROSITE; PS00086; CYTOCHROME_P450; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Endoplasmic reticulum; Heme; Iron; Membrane;
+KW   Metal-binding; Microsome; Monooxygenase; NADP; Oxidoreductase;
+KW   Phosphoprotein; Reference proteome.
+FT   PROPEP          1..4
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000269|PubMed:3365247"
+FT                   /id="PRO_0000003569"
+FT   CHAIN           5..507
+FT                   /note="Cytochrome P450 4A14"
+FT                   /id="PRO_0000003570"
+FT   BINDING         318
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /note="covalent"
+FT                   /evidence="ECO:0000269|PubMed:11139583,
+FT                   ECO:0000269|PubMed:11821421"
+FT   BINDING         454
+FT                   /ligand="heme"
+FT                   /ligand_id="ChEBI:CHEBI:30413"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000269|PubMed:11139583,
+FT                   ECO:0000269|PubMed:11821421"
+FT   MOD_RES         437
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MUTAGEN         63
+FT                   /note="D->N: Has no significant effect on the catalytic
+FT                   activity toward lauric and myristic acids."
+FT                   /evidence="ECO:0000269|PubMed:10869363"
+FT   MUTAGEN         91
+FT                   /note="K->T: Impairs substrate binding."
+FT                   /evidence="ECO:0000269|PubMed:10869363"
+FT   MUTAGEN         92
+FT                   /note="T->A: Has no significant effect on the catalytic
+FT                   activity toward lauric and myristic acids."
+FT   MUTAGEN         113
+FT                   /note="A->P: 70-fold increase of the binding constant for
+FT                   lauric acid associated with higher catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:10869363"
+FT   MUTAGEN         114..116
+FT                   /note="Missing: Higher kcat for hydroxylation of lauric
+FT                   acid. 2-fold increase of omega/(omega-1) hydroxylation
+FT                   ratio for lauric and myristic acids; when associated with
+FT                   S-119."
+FT                   /evidence="ECO:0000269|PubMed:10869363"
+FT   MUTAGEN         119
+FT                   /note="F->S: 7-fold increase of the binding constant for
+FT                   lauric acid associated with higher catalytic activity. 2-
+FT                   fold increase of omega/omega-1 hydroxylation ratio for
+FT                   lauric and myristic acids; when associated with
+FT                   S114_I116del."
+FT                   /evidence="ECO:0000269|PubMed:10869363"
+FT   MUTAGEN         318
+FT                   /note="E->A: Loss of covalent heme binding."
+FT                   /evidence="ECO:0000269|PubMed:11821421"
+FT   MUTAGEN         318
+FT                   /note="E->D: Significant reduction in covalent heme
+FT                   binding."
+FT                   /evidence="ECO:0000269|PubMed:11821421"
+FT   MUTAGEN         318
+FT                   /note="E->Q: Significant reduction in covalent heme
+FT                   binding."
+FT                   /evidence="ECO:0000269|PubMed:11821421"
+SQ   SEQUENCE   507 AA;  58232 MW;  1A972C6F967BF1AB CRC64;
+     MGFSVFTPTR SLDGVSGFFQ GAFLLSLFLV LFKAVQFYLR RQWLLKALEK FPSTPSHWLW
+     GHDLKDREFQ QVLTWVEKFP GACLQWLSGS KTRVLLYDPD YVKVVLGRSD PKASGIYQFL
+     APWIGYGLLL LNGKKWFQHR RMLTPAFHYG ILKPYVKIMA DSVNIMLDKW EKLDDQDHPL
+     EIFHYVSLMT LDTVMKCAFS HQGSVQLDVN SRSYTKAVED LNNLTFFRVR SAFYGNSIIY
+     NMSSDGRLSR RACQIAHEHT DGVIKMRKAQ LQNEEELQKA RKKRHLDFLD ILLFAKMEDG
+     KSLSDEDLRA EVDTFMFEGH DTTASGISWV FYALATHPEH QERCREEVQS ILGDGTSVTW
+     DHLDQIPYTT MCIKEALRLY PPVPSVSREL SSPVTFPDGR SIPKGITTTI LIYGLHHNPS
+     YWPNPKVFDP SRFSPDSPRH SHAYLPFSGG ARNCIGKQFA MNELKVAVAL TLLRFELLPD
+     PTRIPVPMAR LVLKSKNGIH LRLKKLR
+//

@@ -1,0 +1,158 @@
+ID   SRA1_RAT                Reviewed;         219 AA.
+AC   Q6QGW5; Q811X7;
+DT   02-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   23-FEB-2022, sequence version 2.
+DT   27-MAR-2024, entry version 117.
+DE   RecName: Full=Steroid receptor RNA activator 1 {ECO:0000305};
+DE   AltName: Full=Steroid receptor RNA activator protein;
+DE            Short=SRAP;
+GN   Name=Sra1 {ECO:0000312|RGD:621148};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAO45011.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3), FUNCTION, INTERACTION WITH AR, AND
+RP   TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley {ECO:0000312|EMBL:AAO45011.1};
+RC   TISSUE=Prostate {ECO:0000312|EMBL:AAO45011.1};
+RX   PubMed=12350225; DOI=10.1042/bj20020743;
+RA   Kawashima H., Takano H., Sugita S., Takahara Y., Sugimura K., Nakatani T.;
+RT   "A novel steroid receptor co-activator protein (SRAP) as an alternative
+RT   form of steroid receptor RNA-activator gene: expression in prostate cancer
+RT   cells and enhancement of androgen receptor activity.";
+RL   Biochem. J. 369:163-171(2003).
+RN   [2] {ECO:0000305, ECO:0000312|EMBL:AAS48375.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   PubMed=15147866; DOI=10.1016/j.febslet.2004.03.104;
+RA   Chooniedass-Kothari S., Emberley E., Hamedani M.K., Troup S., Wang X.,
+RA   Czosnek A., Hube F., Mutawe M., Watson P.H., Leygue E.;
+RT   "The steroid receptor RNA activator is the first functional RNA encoding a
+RT   protein.";
+RL   FEBS Lett. 566:43-47(2004).
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Functional RNA which acts as a transcriptional coactivator
+CC       that selectively enhances steroid receptor-mediated transactivation
+CC       ligand-independently through a mechanism involving the modulating N-
+CC       terminal domain (AF-1) of steroid receptors. Also mediates
+CC       transcriptional coactivation of steroid receptors ligand-dependently
+CC       through the steroid-binding domain (AF-2). Enhances cellular
+CC       proliferation and differentiation and promotes apoptosis in vivo. May
+CC       play a role in tumorigenesis. {ECO:0000250|UniProtKB:Q9HD15,
+CC       ECO:0000269|PubMed:12350225}.
+CC   -!- SUBUNIT: SRA1 RNA exists in a ribonucleoprotein complex containing
+CC       NCOA1. The RNA also forms a complex with PUS1 and RARG in the nucleus.
+CC       Interacts with AR. {ECO:0000250|UniProtKB:Q80VJ2,
+CC       ECO:0000250|UniProtKB:Q9HD15, ECO:0000269|PubMed:12350225}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q9HD15}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:Q9HD15}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1 {ECO:0000269|PubMed:15147866};
+CC         IsoId=Q6QGW5-1; Sequence=Displayed;
+CC       Name=3;
+CC         IsoId=Q6QGW5-3; Sequence=VSP_061414, VSP_061415;
+CC   -!- TISSUE SPECIFICITY: Expressed in various prostate cancer cell lines.
+CC       {ECO:0000269|PubMed:12350225}.
+CC   -!- MISCELLANEOUS: Appears to be the first example of a new class of
+CC       functional RNAs also able to encode a protein. Rat SRAP1 may act as a
+CC       protein rather than an RNA transcript.
+CC   -!- SIMILARITY: Belongs to the SRA1 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAS48375.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY026354; AAO45011.1; -; mRNA.
+DR   EMBL; AY542868; AAS48375.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_899158.3; NM_183329.3.
+DR   AlphaFoldDB; Q6QGW5; -.
+DR   SMR; Q6QGW5; -.
+DR   STRING; 10116.ENSRNOP00000024671; -.
+DR   iPTMnet; Q6QGW5; -.
+DR   PhosphoSitePlus; Q6QGW5; -.
+DR   jPOST; Q6QGW5; -.
+DR   PaxDb; 10116-ENSRNOP00000024671; -.
+DR   GeneID; 252891; -.
+DR   KEGG; rno:252891; -.
+DR   UCSC; RGD:621148; rat. [Q6QGW5-1]
+DR   AGR; RGD:621148; -.
+DR   CTD; 10011; -.
+DR   RGD; 621148; Sra1.
+DR   eggNOG; ENOG502RZ38; Eukaryota.
+DR   InParanoid; Q6QGW5; -.
+DR   OrthoDB; 5404923at2759; -.
+DR   PhylomeDB; Q6QGW5; -.
+DR   PRO; PR:Q6QGW5; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0031252; C:cell leading edge; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:1990904; C:ribonucleoprotein complex; ISS:UniProtKB.
+DR   GO; GO:0031209; C:SCAR complex; ISO:RGD.
+DR   GO; GO:0005667; C:transcription regulator complex; ISO:RGD.
+DR   GO; GO:0003677; F:DNA binding; ISO:RGD.
+DR   GO; GO:0016922; F:nuclear receptor binding; IPI:RGD.
+DR   GO; GO:0030374; F:nuclear receptor coactivator activity; IDA:RGD.
+DR   GO; GO:0002153; F:steroid receptor RNA activator RNA binding; ISO:RGD.
+DR   GO; GO:0003713; F:transcription coactivator activity; IDA:UniProtKB.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   GO; GO:0030154; P:cell differentiation; ISS:UniProtKB.
+DR   GO; GO:0071391; P:cellular response to estrogen stimulus; ISO:RGD.
+DR   GO; GO:0045662; P:negative regulation of myoblast differentiation; ISS:UniProtKB.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0042981; P:regulation of apoptotic process; ISS:UniProtKB.
+DR   GO; GO:0007346; P:regulation of mitotic cell cycle; ISS:UniProtKB.
+DR   Gene3D; 1.20.940.10; Functional domain of the splicing factor Prp18; 1.
+DR   InterPro; IPR009917; SRA1/Sec31.
+DR   InterPro; IPR040243; Steroid_recept_RNA_1.
+DR   PANTHER; PTHR18834; STEROID RECEPTOR RNA ACTIVATOR 1; 1.
+DR   PANTHER; PTHR18834:SF2; STEROID RECEPTOR RNA ACTIVATOR 1; 1.
+DR   Pfam; PF07304; SRA1; 1.
+PE   1: Evidence at protein level;
+KW   Activator; Alternative splicing; Apoptosis; Cytoplasm; Nucleus;
+KW   Phosphoprotein; Receptor; Reference proteome; Ribonucleoprotein;
+KW   Transcription; Transcription regulation.
+FT   CHAIN           1..219
+FT                   /note="Steroid receptor RNA activator 1"
+FT                   /id="PRO_0000234107"
+FT   REGION          1..90
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          192..219
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        20..35
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        51..72
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        205..219
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         48
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9HD15"
+FT   VAR_SEQ         1..74
+FT                   /note="Missing (in isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:12350225"
+FT                   /id="VSP_061414"
+FT   VAR_SEQ         116
+FT                   /note="K -> KK (in isoform 3)"
+FT                   /id="VSP_061415"
+SQ   SEQUENCE   219 AA;  24114 MW;  FEE3558D5202376C CRC64;
+     MAELYVKPGN KERGWNDPPQ FSYGLQTQTG GTKRTPLTKR VAAPQDGSPR APETSGPPPV
+     DHPPPSSKAS RPPPMGSCPA SGVDPPSSPV IESETLIEDV LRPLEQALED CRGHTKQVCD
+     DISRRLALLH EQWDGGKLSV PVKKRMALLV QELLHHQWDT ADDIHRSLMV DHVTEVSQWM
+     VGVKRLIAEK RSLSSEENKE EKSTVAPENQ TIPGFQPSS
+//

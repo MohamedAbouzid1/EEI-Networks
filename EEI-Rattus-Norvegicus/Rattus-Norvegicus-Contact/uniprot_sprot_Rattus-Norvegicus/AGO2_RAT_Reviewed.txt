@@ -1,0 +1,358 @@
+ID   AGO2_RAT                Reviewed;         860 AA.
+AC   Q9QZ81;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2003, sequence version 2.
+DT   02-OCT-2024, entry version 152.
+DE   RecName: Full=Protein argonaute-2 {ECO:0000255|HAMAP-Rule:MF_03031};
+DE            Short=Argonaute2 {ECO:0000255|HAMAP-Rule:MF_03031};
+DE            EC=3.1.26.n2 {ECO:0000255|HAMAP-Rule:MF_03031};
+DE   AltName: Full=Argonaute RISC catalytic component 2;
+DE   AltName: Full=Eukaryotic translation initiation factor 2C 2 {ECO:0000255|HAMAP-Rule:MF_03031};
+DE            Short=eIF-2C 2 {ECO:0000255|HAMAP-Rule:MF_03031};
+DE            Short=eIF2C 2 {ECO:0000255|HAMAP-Rule:MF_03031};
+DE   AltName: Full=Golgi ER protein 95 kDa;
+DE            Short=GERp95;
+DE   AltName: Full=Protein slicer {ECO:0000255|HAMAP-Rule:MF_03031};
+GN   Name=Ago2; Synonyms=Eif2c2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Hepatoma;
+RX   PubMed=10512872; DOI=10.1091/mbc.10.10.3357;
+RA   Cikaluk D.E., Tahbaz N., Hendricks L.C., DiMattia G.E., Hansen D.,
+RA   Pilgrim D., Hobman T.C.;
+RT   "GERp95, a membrane-associated protein that belongs to a family of proteins
+RT   involved in stem cell differentiation.";
+RL   Mol. Biol. Cell 10:3357-3372(1999).
+RN   [2]
+RP   INTERACTION WITH AGO2 AND SND1.
+RX   PubMed=24882364; DOI=10.1016/j.febslet.2014.05.031;
+RA   Milochau A., Lagree V., Benassy M.N., Chaignepain S., Papin J.,
+RA   Garcia-Arcos I., Lajoix A., Monterrat C., Coudert L., Schmitter J.M.,
+RA   Ochoa B., Lang J.;
+RT   "Synaptotagmin 11 interacts with components of the RNA-induced silencing
+RT   complex RISC in clonal pancreatic beta-cells.";
+RL   FEBS Lett. 588:2217-2222(2014).
+CC   -!- FUNCTION: Required for RNA-mediated gene silencing (RNAi) by the RNA-
+CC       induced silencing complex (RISC). The 'minimal RISC' appears to include
+CC       AGO2 bound to a short guide RNA such as a microRNA (miRNA) or short
+CC       interfering RNA (siRNA). These guide RNAs direct RISC to complementary
+CC       mRNAs that are targets for RISC-mediated gene silencing. The precise
+CC       mechanism of gene silencing depends on the degree of complementarity
+CC       between the miRNA or siRNA and its target. Binding of RISC to a
+CC       perfectly complementary mRNA generally results in silencing due to
+CC       endonucleolytic cleavage of the mRNA specifically by AGO2. Binding of
+CC       RISC to a partially complementary mRNA results in silencing through
+CC       inhibition of translation, and this is independent of endonuclease
+CC       activity. May inhibit translation initiation by binding to the 7-
+CC       methylguanosine cap, thereby preventing the recruitment of the
+CC       translation initiation factor eIF4-E. May also inhibit translation
+CC       initiation via interaction with EIF6, which itself binds to the 60S
+CC       ribosomal subunit and prevents its association with the 40S ribosomal
+CC       subunit. The inhibition of translational initiation leads to the
+CC       accumulation of the affected mRNA in cytoplasmic processing bodies (P-
+CC       bodies), where mRNA degradation may subsequently occur. In some cases
+CC       RISC-mediated translational repression is also observed for miRNAs that
+CC       perfectly match the 3' untranslated region (3'-UTR). Can also up-
+CC       regulate the translation of specific mRNAs under certain growth
+CC       conditions. Binds to the AU element of the 3'-UTR of the TNF (TNF-
+CC       alpha) mRNA and up-regulates translation under conditions of serum
+CC       starvation. Also required for transcriptional gene silencing (TGS), in
+CC       which short RNAs known as antigene RNAs or agRNAs direct the
+CC       transcriptional repression of complementary promoter regions.
+CC       {ECO:0000255|HAMAP-Rule:MF_03031}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage to 5'-phosphomonoester.;
+CC         EC=3.1.26.n2; Evidence={ECO:0000255|HAMAP-Rule:MF_03031};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Interacts with DICER1 through its Piwi domain and with TARBP2
+CC       during assembly of the RNA-induced silencing complex (RISC). Together,
+CC       DICER1, AGO2 and TARBP2 constitute the trimeric RISC loading complex
+CC       (RLC), or micro-RNA (miRNA) loading complex (miRLC). Within the
+CC       RLC/miRLC, DICER1 and TARBP2 are required to process precursor miRNAs
+CC       (pre-miRNAs) to mature miRNAs and then load them onto AGO2. AGO2 bound
+CC       to the mature miRNA constitutes the minimal RISC and may subsequently
+CC       dissociate from DICER1 and TARBP2. Note however that the term RISC has
+CC       also been used to describe the trimeric RLC/miRLC. The formation of
+CC       RISC complexes containing siRNAs rather than miRNAs appears to occur
+CC       independently of DICER1. Interacts with AGO1. Also interacts with DDB1,
+CC       DDX5, DDX6, DDX20, DHX30, DHX36, DDX47, DHX9, ELAVL, FXR1, GEMIN4,
+CC       HNRNPF, IGF2BP1, ILF3, IMP8, MATR3, PABPC1, PRMT5, P4HA1, P4HB, RBM4,
+CC       SART3, TNRC6A, TNRC6B, UPF1 and YBX1. Interacts with the P-body
+CC       components DCP1A and XRN1. Associates with polysomes and messenger
+CC       ribonucleoproteins (mNRPs). Interacts with RBM4; the interaction is
+CC       modulated under stress-induced conditions, occurs under both cell
+CC       proliferation and differentiation conditions and in an RNA- and
+CC       phosphorylation-independent manner. Interacts with LIMD1, WTIP and
+CC       AJUBA. Interacts with TRIM71; the interaction increases in presence of
+CC       RNA. Interacts with APOBEC3G in an RNA-dependent manner. Interacts with
+CC       APOBEC3A, APOBEC3C, APOBEC3F and APOBEC3H. Interacts with DICER1,
+CC       TARBP2, EIF6, MOV10 and RPL7A (60S ribosome subunit); they form a large
+CC       RNA-induced silencing complex (RISC). Interacts with FMR1. Interacts
+CC       with ZFP36. Interacts with RC3H1; the interaction is RNA independent
+CC       (By similarity). Found in a complex, composed of AGO2, CHD7 and ARB2A
+CC       (By similarity). Interacts with SND1 and SYT11 (PubMed:24882364).
+CC       Interacts with CLNK (By similarity). Interacts with GARRE1 (By
+CC       similarity). Interacts with GRB2; this interaction is important for the
+CC       formation of a ternary complex containing GRB2, AGO2 and DICER1 (By
+CC       similarity). {ECO:0000250|UniProtKB:Q8CJG0,
+CC       ECO:0000250|UniProtKB:Q9UKV8, ECO:0000255|HAMAP-Rule:MF_03031,
+CC       ECO:0000269|PubMed:24882364}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, P-body {ECO:0000255|HAMAP-
+CC       Rule:MF_03031}. Nucleus {ECO:0000255|HAMAP-Rule:MF_03031}.
+CC       Note=Translational repression of mRNAs results in their recruitment to
+CC       P-bodies. Translocation to the nucleus requires IMP8.
+CC       {ECO:0000255|HAMAP-Rule:MF_03031}.
+CC   -!- DOMAIN: The Piwi domain may perform RNA cleavage by a mechanism similar
+CC       to that of RNase H. However, while RNase H utilizes a triad of Asp-Asp-
+CC       Glu (DDE) for metal ion coordination, this protein appears to utilize a
+CC       triad of Asp-Asp-His (DDH). {ECO:0000255|HAMAP-Rule:MF_03031}.
+CC   -!- PTM: Hydroxylated. 4-hydroxylation appears to enhance protein stability
+CC       but is not required for miRNA-binding or endonuclease activity.
+CC       {ECO:0000255|HAMAP-Rule:MF_03031}.
+CC   -!- PTM: Ubiquitinated on surface-exposed lysines by a SCF-like E3
+CC       ubiquitin-protein ligase complex containing ZSWIM8 during target-
+CC       directed microRNA degradation (TDMD), a process that mediates
+CC       degradation of microRNAs (miRNAs). Ubiquitination by the SCF-like E3
+CC       ubiquitin-protein ligase complex containing ZSWIM8 leads to its
+CC       subsequent degradation, thereby exposing miRNAs for degradation. ZSWIM8
+CC       recognizes and binds AGO2 when it is engaged with a TDMD target.
+CC       {ECO:0000250|UniProtKB:Q9UKV8}.
+CC   -!- PTM: Phosphorylation at Ser-388 by AKT3; leads to up-regulate
+CC       translational repression of microRNA target and down-regulate
+CC       endonucleolytic cleavage. {ECO:0000250|UniProtKB:Q9UKV8}.
+CC   -!- PTM: A phosphorylation cycle of C-terminal serine cluster (Ser-825-Ser-
+CC       835) regulates the release of target mRNAs. Target-binding leads to
+CC       phosphorylation of these residues by CSNK1A1, which reduces the
+CC       affinity of AGO2 for mRNA and enables target release. The ANKRD52-PPP6C
+CC       phosphatase complex dephosphorylates the residues, which primes AGO2
+CC       for binding a new target. {ECO:0000250|UniProtKB:Q9UKV8}.
+CC   -!- SIMILARITY: Belongs to the argonaute family. Ago subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_03031}.
+CC   -!- CAUTION: Was originally thought to be membrane-associated.
+CC       {ECO:0000305|PubMed:10512872}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAF12800.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF195534; AAF12800.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_067608.1; NM_021597.1.
+DR   AlphaFoldDB; Q9QZ81; -.
+DR   SMR; Q9QZ81; -.
+DR   BioGRID; 248738; 1.
+DR   IntAct; Q9QZ81; 7.
+DR   MINT; Q9QZ81; -.
+DR   STRING; 10116.ENSRNOP00000011898; -.
+DR   iPTMnet; Q9QZ81; -.
+DR   PhosphoSitePlus; Q9QZ81; -.
+DR   jPOST; Q9QZ81; -.
+DR   PaxDb; 10116-ENSRNOP00000011898; -.
+DR   PeptideAtlas; Q9QZ81; -.
+DR   UCSC; RGD:621255; rat.
+DR   AGR; RGD:621255; -.
+DR   RGD; 621255; Ago2.
+DR   eggNOG; KOG1041; Eukaryota.
+DR   InParanoid; Q9QZ81; -.
+DR   OrthoDB; 3060088at2759; -.
+DR   PhylomeDB; Q9QZ81; -.
+DR   Reactome; R-RNO-203927; MicroRNA (miRNA) biogenesis.
+DR   Reactome; R-RNO-426486; Small interfering RNA (siRNA) biogenesis.
+DR   Reactome; R-RNO-426496; Post-transcriptional silencing by small RNAs.
+DR   Reactome; R-RNO-5578749; Transcriptional regulation by small RNAs.
+DR   PRO; PR:Q9QZ81; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0033391; C:chromatoid body; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; IDA:RGD.
+DR   GO; GO:0036464; C:cytoplasmic ribonucleoprotein granule; IBA:GO_Central.
+DR   GO; GO:0010494; C:cytoplasmic stress granule; IDA:RGD.
+DR   GO; GO:0005829; C:cytosol; IDA:RGD.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0070062; C:extracellular exosome; ISO:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; IDA:RGD.
+DR   GO; GO:0016020; C:membrane; IDA:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IDA:BHF-UCL.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0043186; C:P granule; IDA:RGD.
+DR   GO; GO:0000932; C:P-body; ISO:RGD.
+DR   GO; GO:0071546; C:pi-body; IDA:RGD.
+DR   GO; GO:0098794; C:postsynapse; ISO:RGD.
+DR   GO; GO:1990904; C:ribonucleoprotein complex; IDA:RGD.
+DR   GO; GO:0016442; C:RISC complex; IDA:RGD.
+DR   GO; GO:0070578; C:RISC-loading complex; ISS:UniProtKB.
+DR   GO; GO:0001046; F:core promoter sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0003725; F:double-stranded RNA binding; ISO:RGD.
+DR   GO; GO:0090624; F:endoribonuclease activity, cleaving miRNA-paired mRNA; ISO:RGD.
+DR   GO; GO:0070551; F:endoribonuclease activity, cleaving siRNA-paired mRNA; ISS:UniProtKB.
+DR   GO; GO:0030544; F:Hsp70 protein binding; IDA:RGD.
+DR   GO; GO:0051879; F:Hsp90 protein binding; IDA:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0035198; F:miRNA binding; ISO:RGD.
+DR   GO; GO:0035925; F:mRNA 3'-UTR AU-rich region binding; ISO:RGD.
+DR   GO; GO:0003729; F:mRNA binding; ISO:RGD.
+DR   GO; GO:0098808; F:mRNA cap binding; ISS:UniProtKB.
+DR   GO; GO:1905172; F:RISC complex binding; IDA:RGD.
+DR   GO; GO:0000340; F:RNA 7-methylguanosine cap binding; ISS:UniProtKB.
+DR   GO; GO:0003723; F:RNA binding; ISO:RGD.
+DR   GO; GO:0004521; F:RNA endonuclease activity; ISO:RGD.
+DR   GO; GO:0000993; F:RNA polymerase II complex binding; ISO:RGD.
+DR   GO; GO:0003727; F:single-stranded RNA binding; ISO:RGD.
+DR   GO; GO:0035197; F:siRNA binding; ISS:UniProtKB.
+DR   GO; GO:0030154; P:cell differentiation; NAS:RGD.
+DR   GO; GO:0071277; P:cellular response to calcium ion; IEP:RGD.
+DR   GO; GO:0010586; P:miRNA metabolic process; ISO:RGD.
+DR   GO; GO:0035196; P:miRNA processing; ISO:RGD.
+DR   GO; GO:0035278; P:miRNA-mediated gene silencing by inhibition of translation; ISS:UniProtKB.
+DR   GO; GO:0035279; P:miRNA-mediated gene silencing by mRNA destabilization; ISS:UniProtKB.
+DR   GO; GO:0042985; P:negative regulation of amyloid precursor protein biosynthetic process; IMP:ARUK-UCL.
+DR   GO; GO:0045947; P:negative regulation of translational initiation; ISS:UniProtKB.
+DR   GO; GO:0033962; P:P-body assembly; ISO:RGD.
+DR   GO; GO:0045766; P:positive regulation of angiogenesis; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:1900153; P:positive regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay; ISS:UniProtKB.
+DR   GO; GO:0060213; P:positive regulation of nuclear-transcribed mRNA poly(A) tail shortening; ISS:UniProtKB.
+DR   GO; GO:1900370; P:positive regulation of post-transcriptional gene silencing by RNA; IMP:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0045727; P:positive regulation of translation; ISO:RGD.
+DR   GO; GO:1901165; P:positive regulation of trophoblast cell migration; ISO:RGD.
+DR   GO; GO:0009791; P:post-embryonic development; ISO:RGD.
+DR   GO; GO:0031054; P:pre-miRNA processing; ISS:UniProtKB.
+DR   GO; GO:0043488; P:regulation of mRNA stability; IMP:RGD.
+DR   GO; GO:0090128; P:regulation of synapse maturation; ISO:RGD.
+DR   GO; GO:0031047; P:regulatory ncRNA-mediated gene silencing; ISS:UniProtKB.
+DR   GO; GO:0035194; P:regulatory ncRNA-mediated post-transcriptional gene silencing; IBA:GO_Central.
+DR   GO; GO:0042220; P:response to cocaine; IEP:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0043278; P:response to morphine; IEP:RGD.
+DR   GO; GO:0070922; P:RISC complex assembly; ISO:RGD.
+DR   GO; GO:0010501; P:RNA secondary structure unwinding; ISO:RGD.
+DR   GO; GO:0030422; P:siRNA processing; ISO:RGD.
+DR   GO; GO:0090625; P:siRNA-mediated gene silencing by mRNA destabilization; ISO:RGD.
+DR   GO; GO:0007283; P:spermatogenesis; IEP:RGD.
+DR   CDD; cd02846; PAZ_argonaute_like; 1.
+DR   CDD; cd04657; Piwi_ago-like; 1.
+DR   Gene3D; 3.40.50.2300; -; 1.
+DR   Gene3D; 2.170.260.10; paz domain; 1.
+DR   Gene3D; 3.30.420.10; Ribonuclease H-like superfamily/Ribonuclease H; 1.
+DR   HAMAP; MF_03031; AGO2; 1.
+DR   InterPro; IPR028602; AGO2.
+DR   InterPro; IPR014811; ArgoL1.
+DR   InterPro; IPR032472; ArgoL2.
+DR   InterPro; IPR032473; Argonaute_Mid_dom.
+DR   InterPro; IPR032474; Argonaute_N.
+DR   InterPro; IPR003100; PAZ_dom.
+DR   InterPro; IPR036085; PAZ_dom_sf.
+DR   InterPro; IPR003165; Piwi.
+DR   InterPro; IPR045246; Piwi_ago-like.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   PANTHER; PTHR22891; EUKARYOTIC TRANSLATION INITIATION FACTOR 2C; 1.
+DR   PANTHER; PTHR22891:SF59; PROTEIN ARGONAUTE-2; 1.
+DR   Pfam; PF08699; ArgoL1; 1.
+DR   Pfam; PF16488; ArgoL2; 1.
+DR   Pfam; PF16487; ArgoMid; 1.
+DR   Pfam; PF16486; ArgoN; 1.
+DR   Pfam; PF02170; PAZ; 1.
+DR   Pfam; PF02171; Piwi; 1.
+DR   SMART; SM01163; DUF1785; 1.
+DR   SMART; SM00949; PAZ; 1.
+DR   SMART; SM00950; Piwi; 1.
+DR   SUPFAM; SSF101690; PAZ domain; 1.
+DR   SUPFAM; SSF53098; Ribonuclease H-like; 1.
+DR   PROSITE; PS50821; PAZ; 1.
+DR   PROSITE; PS50822; PIWI; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Endonuclease; Hydrolase; Hydroxylation; Magnesium; Manganese;
+KW   Metal-binding; Nitration; Nuclease; Nucleus; Phosphoprotein;
+KW   Reference proteome; Repressor; Ribonucleoprotein; RNA-binding;
+KW   RNA-mediated gene silencing; Transcription; Transcription regulation;
+KW   Translation regulation; Ubl conjugation.
+FT   CHAIN           1..860
+FT                   /note="Protein argonaute-2"
+FT                   /id="PRO_0000194060"
+FT   DOMAIN          230..349
+FT                   /note="PAZ"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00142"
+FT   DOMAIN          518..819
+FT                   /note="Piwi"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03031"
+FT   REGION          312..317
+FT                   /note="Interaction with guide RNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          525..567
+FT                   /note="Interaction with guide RNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          588..591
+FT                   /note="Interaction with GW182 family members"
+FT                   /evidence="ECO:0000255"
+FT   REGION          651..661
+FT                   /note="Interaction with GW182 family members"
+FT                   /evidence="ECO:0000255"
+FT   REGION          710..711
+FT                   /note="Interaction with guide RNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          754..762
+FT                   /note="Interaction with guide RNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          791..813
+FT                   /note="Interaction with guide RNA"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         598
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03031"
+FT   BINDING         670
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03031"
+FT   BINDING         808
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03031"
+FT   MOD_RES         2
+FT                   /note="3'-nitrotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8CJG0, ECO:0000255|HAMAP-
+FT                   Rule:MF_03031"
+FT   MOD_RES         388
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKV8"
+FT   MOD_RES         701
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03031"
+FT   MOD_RES         825
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKV8"
+FT   MOD_RES         829
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKV8"
+FT   MOD_RES         832
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKV8"
+FT   MOD_RES         835
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UKV8"
+SQ   SEQUENCE   860 AA;  97318 MW;  A5B0798C66481C9C CRC64;
+     MYSGAGPVLA SPAPTTSPIP GYAFKPPPRP DFGTTGRTIK LQANFFEMDI PKIDIYHYEL
+     DIKPEKCPRR VNREIVEHMV QHFKTQIFGD RKPVFDGRKN LYTAMPLPIG RDKVELEVTL
+     PGEGKDRIFK VSIKWVSCVS LQALHDALSG RLPSVPFETI QALDVVMRHL PSMRYTPVGR
+     SFFTASEGCS NPLGGGREVW FGFHQSVRPS LWKMMLNIDV SATAFYKAQP VIEFVCEVLD
+     FKSIEEQQKP LTDSQRVKFT KEIKGLKVEI THCGQMKRKY RVCNVTRRPA SHQTFPLQQE
+     SGQTVECTVA QYFKDRHKLV LRYPHLPCLQ VGQEQKHTYL PLEVCNIVAG QRCIKKLTDN
+     QTSTMIRATA RSAPDRQEEI SKLMRSASFN TDPYVREFGI MVKDEMTDVT GRVLQPPSIL
+     YGGRNKAIAT PVQGVWDMRN KQFHTGIEIK VWAIACFAPQ RQCTEVHLKS FTEQLRKISR
+     DAGMPIQGQP CFCKYAQGAD SVEPMFRHLK NTYAGLQLVV VILPGKTPVY AEVKRVGDTV
+     LGMATQCVQM KNVQRTTPQT LSNLCLKINV KLGGVNNILL PQGRPPVFQQ PVIFLGADVT
+     HPPAGDGKKP SIAAVVGSMD AHPNRYCATV RVQQHRQEII QDLAAMVREL LIQFYKSTRF
+     KPTRIIFYRD GVSEGQFQQV LHHELLAIRE ACIKLEKEYQ PGITFIVVQK RHHTRLFCTD
+     KNERVGKSGN IPAGTTVDTK ITHPTEFDFY LCSHAGIQGT SRPSHYHVLW DDNRFSSDEL
+     QILTYQLCHT YVRCTRSVSI PAPAYYAHLV AFRARYHLVD KEHDSAEGSH TSGQSNGRDH
+     QALAKAVQVH QDTLRTMYFA
+//

@@ -1,0 +1,136 @@
+ID   METL6_RAT               Reviewed;         287 AA.
+AC   Q6AXU8;
+DT   13-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   29-MAY-2024, entry version 117.
+DE   RecName: Full=tRNA N(3)-methylcytidine methyltransferase METTL6 {ECO:0000305};
+DE            EC=2.1.1.- {ECO:0000250|UniProtKB:Q8BVH9};
+DE   AltName: Full=Methyltransferase-like protein 6;
+GN   Name=Mettl6;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: S-adenosyl-L-methionine-dependent methyltransferase that
+CC       mediates N(3)-methylcytidine modification of residue 32 of the tRNA
+CC       anticodon loop of tRNA(Ser), including tRNA(Ser)(UGA) and
+CC       tRNA(Ser)(GCU). Interaction with SARS1/SerRS is required for N(3)-
+CC       methylcytidine methylation. {ECO:0000250|UniProtKB:Q8TCB7}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(32) in tRNA(Ser) + S-adenosyl-L-methionine = H(+) +
+CC         N(3)-methylcytidine(32) in tRNA(Ser) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:50956, Rhea:RHEA-COMP:12849, Rhea:RHEA-COMP:12851,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74894, ChEBI:CHEBI:82748;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BVH9};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:50957;
+CC         Evidence={ECO:0000250|UniProtKB:Q8BVH9};
+CC   -!- SUBUNIT: Monomer. Interacts with SARS1/SerRS; interaction is mediated
+CC       via tRNA(Ser) and is required for N(3)-methylcytidine methylation.
+CC       {ECO:0000250|UniProtKB:Q8TCB7}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q8TCB7}. Nucleus
+CC       {ECO:0000250|UniProtKB:Q8TCB7}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. METL family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079309; AAH79309.1; -; mRNA.
+DR   RefSeq; NP_001007624.1; NM_001007623.1.
+DR   AlphaFoldDB; Q6AXU8; -.
+DR   SMR; Q6AXU8; -.
+DR   STRING; 10116.ENSRNOP00000074466; -.
+DR   PhosphoSitePlus; Q6AXU8; -.
+DR   PaxDb; 10116-ENSRNOP00000026413; -.
+DR   DNASU; 290564; -.
+DR   Ensembl; ENSRNOT00000084645.2; ENSRNOP00000074466.1; ENSRNOG00000052391.2.
+DR   Ensembl; ENSRNOT00055039098; ENSRNOP00055031750; ENSRNOG00055022766.
+DR   Ensembl; ENSRNOT00060021262; ENSRNOP00060016764; ENSRNOG00060012551.
+DR   Ensembl; ENSRNOT00065022927; ENSRNOP00065017818; ENSRNOG00065013903.
+DR   GeneID; 290564; -.
+DR   KEGG; rno:290564; -.
+DR   UCSC; RGD:1359565; rat.
+DR   AGR; RGD:1359565; -.
+DR   CTD; 131965; -.
+DR   RGD; 1359565; Mettl6.
+DR   eggNOG; KOG2361; Eukaryota.
+DR   GeneTree; ENSGT00390000018500; -.
+DR   HOGENOM; CLU_029724_2_2_1; -.
+DR   InParanoid; Q6AXU8; -.
+DR   OMA; DAQRNWD; -.
+DR   OrthoDB; 5471626at2759; -.
+DR   PhylomeDB; Q6AXU8; -.
+DR   TreeFam; TF321001; -.
+DR   PRO; PR:Q6AXU8; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000057372; Expressed in thymus and 19 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0019899; F:enzyme binding; ISO:RGD.
+DR   GO; GO:0052735; F:tRNA (cytidine-3-)-methyltransferase activity; ISO:RGD.
+DR   GO; GO:0030488; P:tRNA methylation; ISO:RGD.
+DR   GO; GO:0006400; P:tRNA modification; ISO:RGD.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR013217; Methyltransf_12.
+DR   InterPro; IPR026113; METTL2/6/8-like.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   PANTHER; PTHR22809; METHYLTRANSFERASE-RELATED; 1.
+DR   PANTHER; PTHR22809:SF5; TRNA N(3)-METHYLCYTIDINE METHYLTRANSFERASE METTL6; 1.
+DR   Pfam; PF08242; Methyltransf_12; 1.
+DR   PIRSF; PIRSF037755; Mettl2_prd; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Methyltransferase; Nucleus; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN           1..287
+FT                   /note="tRNA N(3)-methylcytidine methyltransferase METTL6"
+FT                   /id="PRO_0000240314"
+FT   REGION          267..287
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         45
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8TCB7"
+FT   BINDING         49
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8TCB7"
+FT   BINDING         87
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8TCB7"
+FT   BINDING         110
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8TCB7"
+FT   BINDING         136
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8TCB7"
+FT   BINDING         137
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8TCB7"
+FT   BINDING         157
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8TCB7"
+SQ   SEQUENCE   287 AA;  33381 MW;  4282D866E296DE1A CRC64;
+     MTSLQRKGPQ TRILSTGEEE KLKRDQALVS AFKQQKLEKE AQKNWDLFYK RNSTNFFKDR
+     HWTTREFEEL RSCREYEGQK LTLLEAGCGV GNCLFPLLEE DSNIFAYACD FSPRAVDYVK
+     QHPLYNAERC KVFQCDLTRD DLLDHIPPES VDAVTLIFVL SAVHPEKMHL VLLNVYKVLK
+     PGRSVLFRDY GLNDHAMLRF KAGSKLGENF YVRQDGTRSY FFTDEFLAKL FVDAGYEEVV
+     NEYVFRETVN KKEGLCVPRV FLQSKFRKPP KDPAPTTDSA SLLRKEF
+//

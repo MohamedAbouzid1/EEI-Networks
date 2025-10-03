@@ -1,0 +1,314 @@
+ID   PCFT_RAT                Reviewed;         459 AA.
+AC   Q5EBA8;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   29-MAY-2024, entry version 123.
+DE   RecName: Full=Proton-coupled folate transporter {ECO:0000303|PubMed:31792273};
+DE            Short=rPCFT {ECO:0000303|PubMed:31792273};
+DE   AltName: Full=Heme carrier protein 1 {ECO:0000303|PubMed:16143108};
+DE   AltName: Full=PCFT/HCP1 {ECO:0000303|PubMed:18174275};
+DE   AltName: Full=Solute carrier family 46 member 1 {ECO:0000305};
+GN   Name=Slc46a1 {ECO:0000312|RGD:1309472};
+GN   Synonyms=Hcp1 {ECO:0000303|PubMed:16143108},
+GN   Pcft {ECO:0000303|PubMed:31792273};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=16143108; DOI=10.1016/j.cell.2005.06.025;
+RA   Shayeghi M., Latunde-Dada G.O., Oakhill J.S., Laftah A.H., Takeuchi K.,
+RA   Halliday N., Khan Y., Warley A., McCann F.E., Hider R.C., Frazer D.M.,
+RA   Anderson G.J., Vulpe C.D., Simpson R.J., McKie A.T.;
+RT   "Identification of an intestinal heme transporter.";
+RL   Cell 122:789-801(2005).
+RN   [3]
+RP   FUNCTION, TRANSPORTER ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=18174275; DOI=10.1152/ajpgi.00309.2007;
+RA   Inoue K., Nakai Y., Ueda S., Kamigaso S., Ohta K.Y., Hatakeyama M.,
+RA   Hayashi Y., Otagiri M., Yuasa H.;
+RT   "Functional characterization of PCFT/HCP1 as the molecular entity of the
+RT   carrier-mediated intestinal folate transport system in the rat model.";
+RL   Am. J. Physiol. 294:G660-G668(2008).
+RN   [4]
+RP   FUNCTION, ACTIVITY REGULATION, AND MUTAGENESIS OF ASN-158.
+RX   PubMed=31792273; DOI=10.1038/s41598-019-54367-9;
+RA   Yamashiro T., Yasujima T., Ohta K., Inoue K., Yuasa H.;
+RT   "Identification of the amino acid residue responsible for the myricetin
+RT   sensitivity of human proton-coupled folate transporter.";
+RL   Sci. Rep. 9:18105-18105(2019).
+CC   -!- FUNCTION: Proton-coupled folate symporter that mediates folate
+CC       absorption using an H(+) gradient as a driving force (PubMed:18174275,
+CC       PubMed:31792273). Involved in the intestinal absorption of folates at
+CC       the brush-border membrane of the proximal jejunum, and the transport
+CC       from blood to cerebrospinal fluid across the choroid plexus
+CC       (PubMed:18174275). Functions at acidic pH via alternate outward- and
+CC       inward-open conformation states (By similarity). Protonation of
+CC       residues in the outward open state primes the protein for transport (By
+CC       similarity). Binding of folate promotes breaking of salt bridge network
+CC       and subsequent closure of the extracellular gate, leading to the
+CC       inward-open state and release of protons and folate (By similarity).
+CC       Also able to transport antifolate drugs, such as methotrexate and
+CC       pemetrexed (PubMed:18174275). Involved in FOLR1-mediated endocytosis by
+CC       serving as a route of export of folates from acidified endosomes (By
+CC       similarity). Also acts as a lower-affinity, pH-independent heme carrier
+CC       protein and constitutes the main importer of heme in the intestine (By
+CC       similarity). Imports heme in the retina and retinal pigment epithelium,
+CC       in neurons of the hippocampus, in hepatocytes and in the renal
+CC       epithelial cells (By similarity). Hence, participates in the
+CC       trafficking of heme and increases intracellular iron content (By
+CC       similarity). {ECO:0000250|UniProtKB:Q96NT5,
+CC       ECO:0000269|PubMed:18174275, ECO:0000269|PubMed:31792273}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=folate(in) + H(+)(in) = folate(out) + H(+)(out);
+CC         Xref=Rhea:RHEA:70159, ChEBI:CHEBI:15378, ChEBI:CHEBI:62501;
+CC         Evidence={ECO:0000305|PubMed:18174275};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6S)-5-methyl-5,6,7,8-tetrahydrofolate(in) + H(+)(in) = (6S)-
+CC         5-methyl-5,6,7,8-tetrahydrofolate(out) + H(+)(out);
+CC         Xref=Rhea:RHEA:70167, ChEBI:CHEBI:15378, ChEBI:CHEBI:18608;
+CC         Evidence={ECO:0000250|UniProtKB:Q6PEM8};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(in) + methotrexate(in) = H(+)(out) + methotrexate(out);
+CC         Xref=Rhea:RHEA:70163, ChEBI:CHEBI:15378, ChEBI:CHEBI:50681;
+CC         Evidence={ECO:0000305|PubMed:18174275};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(in) + pemetrexed(in) = H(+)(out) + pemetrexed(out);
+CC         Xref=Rhea:RHEA:70171, ChEBI:CHEBI:15378, ChEBI:CHEBI:63724;
+CC         Evidence={ECO:0000250|UniProtKB:Q96NT5};
+CC   -!- ACTIVITY REGULATION: In contrast to human ortholog, not inhibited by
+CC       myricetin. {ECO:0000269|PubMed:31792273}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=2.4 uM for folic acid {ECO:0000269|PubMed:18174275};
+CC         KM=5.7 uM for methotrexate {ECO:0000269|PubMed:18174275};
+CC       pH dependence:
+CC         Optimum pH is 5.5. {ECO:0000269|PubMed:18174275};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:Q96NT5}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q96NT5};
+CC       Multi-pass membrane protein {ECO:0000255}. Apical cell membrane
+CC       {ECO:0000250|UniProtKB:Q96NT5}; Multi-pass membrane protein
+CC       {ECO:0000255}. Basolateral cell membrane
+CC       {ECO:0000250|UniProtKB:Q96NT5}; Multi-pass membrane protein
+CC       {ECO:0000255}. Endosome membrane {ECO:0000250|UniProtKB:Q96NT5}; Multi-
+CC       pass membrane protein {ECO:0000255}. Cytoplasm
+CC       {ECO:0000250|UniProtKB:Q6PEM8}. Note=Localizes to the apical membrane
+CC       of intestinal cells in iron-deficient cells, while it resides in the
+CC       cytoplasm in iron-replete cells (By similarity). Localizes to the
+CC       basolateral membrane of choroid plexus (By similarity).
+CC       {ECO:0000250|UniProtKB:Q6PEM8}.
+CC   -!- TISSUE SPECIFICITY: Expressed almost exclusively in the small
+CC       intestine: expressed at high level in the upper half of the small
+CC       intestine (duodenum and jejunum), expression decreases downwardly in
+CC       the subsequent quarter and is undetectable in the last quarter (the
+CC       lowest ileum) (PubMed:18174275). Expressed at low level in other
+CC       tissues, including liver (PubMed:16143108, PubMed:18174275).
+CC       {ECO:0000269|PubMed:16143108, ECO:0000269|PubMed:18174275}.
+CC   -!- SIMILARITY: Belongs to the major facilitator superfamily. SLC46A
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC089868; AAH89868.1; -; mRNA.
+DR   RefSeq; NP_001013991.1; NM_001013969.1.
+DR   RefSeq; XP_006247001.1; XM_006246939.3.
+DR   AlphaFoldDB; Q5EBA8; -.
+DR   SMR; Q5EBA8; -.
+DR   STRING; 10116.ENSRNOP00000013698; -.
+DR   GlyCosmos; Q5EBA8; 2 sites, No reported glycans.
+DR   GlyGen; Q5EBA8; 2 sites.
+DR   iPTMnet; Q5EBA8; -.
+DR   PhosphoSitePlus; Q5EBA8; -.
+DR   PaxDb; 10116-ENSRNOP00000013698; -.
+DR   Ensembl; ENSRNOT00000013698.8; ENSRNOP00000013698.4; ENSRNOG00000010291.8.
+DR   Ensembl; ENSRNOT00055044520; ENSRNOP00055036427; ENSRNOG00055025814.
+DR   Ensembl; ENSRNOT00060032825; ENSRNOP00060026824; ENSRNOG00060018987.
+DR   Ensembl; ENSRNOT00065040019; ENSRNOP00065032526; ENSRNOG00065023418.
+DR   GeneID; 303333; -.
+DR   KEGG; rno:303333; -.
+DR   AGR; RGD:1309472; -.
+DR   CTD; 113235; -.
+DR   RGD; 1309472; Slc46a1.
+DR   eggNOG; KOG2816; Eukaryota.
+DR   GeneTree; ENSGT00950000183096; -.
+DR   HOGENOM; CLU_028365_1_0_1; -.
+DR   InParanoid; Q5EBA8; -.
+DR   OMA; WHLYSSG; -.
+DR   OrthoDB; 2880402at2759; -.
+DR   PhylomeDB; Q5EBA8; -.
+DR   TreeFam; TF315701; -.
+DR   Reactome; R-RNO-196757; Metabolism of folate and pterines.
+DR   Reactome; R-RNO-917937; Iron uptake and transport.
+DR   Reactome; R-RNO-9707616; Heme signaling.
+DR   PRO; PR:Q5EBA8; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000010291; Expressed in liver and 18 other cell types or tissues.
+DR   GO; GO:0016324; C:apical plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0016323; C:basolateral plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0031526; C:brush border membrane; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005768; C:endosome; ISS:UniProtKB.
+DR   GO; GO:0010008; C:endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0005542; F:folic acid binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008517; F:folic acid transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0140211; F:folic acid:proton symporter activity; ISO:RGD.
+DR   GO; GO:0015232; F:heme transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015350; F:methotrexate transmembrane transporter activity; ISS:UniProtKB.
+DR   GO; GO:0015078; F:proton transmembrane transporter activity; ISO:RGD.
+DR   GO; GO:0015293; F:symporter activity; ISS:UniProtKB.
+DR   GO; GO:0022857; F:transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:1904447; P:folate import across plasma membrane; ISO:RGD.
+DR   GO; GO:0098838; P:folate transmembrane transport; ISO:RGD.
+DR   GO; GO:0015884; P:folic acid transport; ISS:UniProtKB.
+DR   GO; GO:0015886; P:heme transport; ISS:UniProtKB.
+DR   GO; GO:1902600; P:proton transmembrane transport; ISO:RGD.
+DR   GO; GO:0055085; P:transmembrane transport; IBA:GO_Central.
+DR   Gene3D; 1.20.1250.20; MFS general substrate transporter like domains; 1.
+DR   InterPro; IPR011701; MFS.
+DR   InterPro; IPR020846; MFS_dom.
+DR   InterPro; IPR036259; MFS_trans_sf.
+DR   InterPro; IPR005829; Sugar_transporter_CS.
+DR   PANTHER; PTHR23507:SF2; PROTON-COUPLED FOLATE TRANSPORTER; 1.
+DR   PANTHER; PTHR23507; ZGC:174356; 1.
+DR   Pfam; PF07690; MFS_1; 1.
+DR   SUPFAM; SSF103473; MFS general substrate transporter; 1.
+DR   PROSITE; PS50850; MFS; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cell membrane; Cytoplasm; Disulfide bond; Endosome;
+KW   Folate-binding; Glycoprotein; Membrane; Phosphoprotein; Reference proteome;
+KW   Symport; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..459
+FT                   /note="Proton-coupled folate transporter"
+FT                   /id="PRO_0000084853"
+FT   TOPO_DOM        1..25
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        26..44
+FT                   /note="Helical; Name=TM1"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        45..82
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        83..108
+FT                   /note="Helical; Name=TM2"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        109..112
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        113..135
+FT                   /note="Helical; Name=TM3"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        136..140
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        141..154
+FT                   /note="Helical; Name=TM4"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        155..177
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        178..203
+FT                   /note="Helical; Name=TM5"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        204..208
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        209..227
+FT                   /note="Helical; Name=TM6"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        228..266
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        267..289
+FT                   /note="Helical; Name=TM7"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        290..302
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        303..325
+FT                   /note="Helical; Name=TM8"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        326..331
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        332..351
+FT                   /note="Helical; Name=TM9"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        352..355
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        356..376
+FT                   /note="Helical; Name=TM10"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        377..388
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        389..414
+FT                   /note="Helical; Name=TM11"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        415..422
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TRANSMEM        423..441
+FT                   /note="Helical; Name=TM12"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   TOPO_DOM        442..459
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   BINDING         156
+FT                   /ligand="H(+)"
+FT                   /ligand_id="ChEBI:CHEBI:15378"
+FT                   /note="reversibly protonated residue during proton
+FT                   transport"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96NT5"
+FT   BINDING         185
+FT                   /ligand="H(+)"
+FT                   /ligand_id="ChEBI:CHEBI:15378"
+FT                   /note="reversibly protonated residue during proton
+FT                   transport"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96NT5"
+FT   BINDING         281
+FT                   /ligand="H(+)"
+FT                   /ligand_id="ChEBI:CHEBI:15378"
+FT                   /note="reversibly protonated residue during proton
+FT                   transport"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96NT5"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96NT5"
+FT   MOD_RES         6
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96NT5"
+FT   CARBOHYD        58
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        68
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        66..298
+FT                   /evidence="ECO:0000250|UniProtKB:F1NJ67"
+FT   MUTAGEN         158
+FT                   /note="N->G: Promotes sensitivity to myricetin inhibitor."
+FT                   /evidence="ECO:0000269|PubMed:31792273"
+SQ   SEQUENCE   459 AA;  50095 MW;  4F590DA8DE7D6FA7 CRC64;
+     MEGRVSPVGS SHRLLTAAVL FRGPVEPLVF LANFALVLQG PLTTQYIWHR ISTELGYNGT
+     RHRENCGNQS ADPVLKEVET LTSHWTLYMN VGGFLVGLFW STLLGAWSDR VGRRPLLVLA
+     SLGLLLQAVV SIFVVQLQLH IGFFVLGRAL CALLGDFNGL LAASFASVAD VSSNHSRTFR
+     MALLEACIGV AGTLASLLGG HWLRAQGYAN PFWLALAVLI VMTLYAAFCF GETVKEPKST
+     RLFTLRHHRS IVQLYVVPAP EKSRMHLALY SLAIFVVVTV HFGAQDILTL YELSTPLCWD
+     SKLIGYGSAA QHLPYLTSLL GLRLLQFCLA DTWVAEIGLA FNILGMVVFA FATITPLMFT
+     GYGLLFLSLV TTPVIRAKLS KLVSESEQGA LFSAVACVNS LAMLMASGIF NSLYPATLNF
+     MKGFPFLLGA GLLFIPAILI GVLEKVNPHP EFQQFPQNS
+//

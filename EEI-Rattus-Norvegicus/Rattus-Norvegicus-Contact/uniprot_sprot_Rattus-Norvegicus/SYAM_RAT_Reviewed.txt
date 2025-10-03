@@ -1,0 +1,181 @@
+ID   SYAM_RAT                Reviewed;         985 AA.
+AC   D3ZX08;
+DT   30-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   20-APR-2010, sequence version 1.
+DT   24-JUL-2024, entry version 76.
+DE   RecName: Full=Alanine--tRNA ligase, mitochondrial {ECO:0000255|HAMAP-Rule:MF_03133};
+DE            EC=6.1.1.7 {ECO:0000255|HAMAP-Rule:MF_03133};
+DE   AltName: Full=Alanyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_03133};
+DE            Short=AlaRS {ECO:0000255|HAMAP-Rule:MF_03133};
+DE   Flags: Precursor;
+GN   Name=Aars2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the attachment of alanine to tRNA(Ala) in a two-
+CC       step reaction: alanine is first activated by ATP to form Ala-AMP and
+CC       then transferred to the acceptor end of tRNA(Ala). Also edits
+CC       incorrectly charged tRNA(Ala) via its editing domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_03133}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-alanine + tRNA(Ala) = AMP + diphosphate + L-alanyl-
+CC         tRNA(Ala); Xref=Rhea:RHEA:12540, Rhea:RHEA-COMP:9657, Rhea:RHEA-
+CC         COMP:9923, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78497, ChEBI:CHEBI:456215; EC=6.1.1.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03133};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03133};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_03133};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_03133}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion.
+CC   -!- DOMAIN: Consists of three domains; the N-terminal catalytic domain, the
+CC       editing domain and the C-terminal C-Ala domain. The editing domain
+CC       removes incorrectly charged amino acids, while the C-Ala domain, along
+CC       with tRNA(Ala), serves as a bridge to cooperatively bring together the
+CC       editing and aminoacylation centers thus stimulating deacylation of
+CC       misacylated tRNAs. {ECO:0000255|HAMAP-Rule:MF_03133}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_03133}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH473987; EDM18733.1; -; Genomic_DNA.
+DR   RefSeq; NP_001100361.1; NM_001106891.1.
+DR   AlphaFoldDB; D3ZX08; -.
+DR   SMR; D3ZX08; -.
+DR   IntAct; D3ZX08; 3.
+DR   STRING; 10116.ENSRNOP00000037568; -.
+DR   PhosphoSitePlus; D3ZX08; -.
+DR   PaxDb; 10116-ENSRNOP00000037568; -.
+DR   PeptideAtlas; D3ZX08; -.
+DR   GeneID; 301254; -.
+DR   KEGG; rno:301254; -.
+DR   UCSC; RGD:1310617; rat.
+DR   AGR; RGD:1310617; -.
+DR   CTD; 57505; -.
+DR   RGD; 1310617; Aars2.
+DR   eggNOG; KOG0188; Eukaryota.
+DR   HOGENOM; CLU_004485_5_0_1; -.
+DR   InParanoid; D3ZX08; -.
+DR   OrthoDB; 3639120at2759; -.
+DR   PhylomeDB; D3ZX08; -.
+DR   TreeFam; TF300737; -.
+DR   PRO; PR:D3ZX08; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   Proteomes; UP000234681; Chromosome 9.
+DR   GO; GO:0005739; C:mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0004813; F:alanine-tRNA ligase activity; ISO:RGD.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006419; P:alanyl-tRNA aminoacylation; IBA:GO_Central.
+DR   GO; GO:0070143; P:mitochondrial alanyl-tRNA aminoacylation; ISO:RGD.
+DR   CDD; cd00673; AlaRS_core; 1.
+DR   Gene3D; 2.40.30.130; -; 1.
+DR   Gene3D; 3.10.310.40; -; 1.
+DR   HAMAP; MF_00036_B; Ala_tRNA_synth_B; 1.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR002318; Ala-tRNA-lgiase_IIc.
+DR   InterPro; IPR018162; Ala-tRNA-ligase_IIc_anticod-bd.
+DR   InterPro; IPR018165; Ala-tRNA-synth_IIc_core.
+DR   InterPro; IPR018164; Ala-tRNA-synth_IIc_N.
+DR   InterPro; IPR050058; Ala-tRNA_ligase.
+DR   InterPro; IPR023033; Ala_tRNA_ligase_euk/bac.
+DR   InterPro; IPR018163; Thr/Ala-tRNA-synth_IIc_edit.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   InterPro; IPR012947; tRNA_SAD.
+DR   NCBIfam; TIGR00344; alaS; 1.
+DR   PANTHER; PTHR11777:SF8; ALANINE--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11777; ALANYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF01411; tRNA-synt_2c; 1.
+DR   Pfam; PF07973; tRNA_SAD; 1.
+DR   PRINTS; PR00980; TRNASYNTHALA.
+DR   SMART; SM00863; tRNA_SAD; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF101353; Putative anticodon-binding domain of alanyl-tRNA synthetase (AlaRS); 1.
+DR   SUPFAM; SSF55186; ThrRS/AlaRS common domain; 1.
+DR   SUPFAM; SSF50447; Translation proteins; 1.
+DR   PROSITE; PS50860; AA_TRNA_LIGASE_II_ALA; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Ligase; Metal-binding;
+KW   Mitochondrion; Nucleotide-binding; Protein biosynthesis;
+KW   Reference proteome; RNA-binding; Transit peptide; tRNA-binding; Zinc.
+FT   TRANSIT         1..23
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03133"
+FT   CHAIN           24..985
+FT                   /note="Alanine--tRNA ligase, mitochondrial"
+FT                   /id="PRO_0000402117"
+FT   BINDING         105
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P49588"
+FT   BINDING         123
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P49588"
+FT   BINDING         205
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P49588"
+FT   BINDING         235..237
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P49588"
+FT   BINDING         237
+FT                   /ligand="L-alanine"
+FT                   /ligand_id="ChEBI:CHEBI:57972"
+FT                   /evidence="ECO:0000250|UniProtKB:P49588"
+FT   BINDING         260
+FT                   /ligand="L-alanine"
+FT                   /ligand_id="ChEBI:CHEBI:57972"
+FT                   /evidence="ECO:0000250|UniProtKB:P49588"
+FT   BINDING         264
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P49588"
+FT   BINDING         632
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03133"
+FT   BINDING         636
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03133"
+FT   BINDING         749
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03133"
+FT   BINDING         753
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03133"
+SQ   SEQUENCE   985 AA;  107806 MW;  A019BF4379DCADC7 CRC64;
+     MAASVAAAAG RLRRAIGRSC PWQRFSTEPH PPHGAAVRDA FLSFFRDRHG HRLVPSASVR
+     PRGDPSLLFV NAGMNQFKPI FLGTVDPRSE MAGFRRVANS QKCVRAGGRH NDLEDVGRDL
+     SHHTFFEMLG NWAFGGEYFK KEACSMAWEL LTQVYGIPED RLWVSYFSGD SKTGLDPDLE
+     TRDIWLSLGV PASRVLSFGL QENFWEMGDT GPCGPCTEIH YDLAGGMGPP QLVELWNLVF
+     MQHYREADGS LHLLPQQHVD TGMGLERLVA VLQGKHSTYD TDLFSPLLDA IHQSCRVPPY
+     SGRVGAADEG RIDTAYRVVA DHIRTLSVCI ADGVSPGMSG APLVLRRILR RAVRYSTEVL
+     QAPPGFLGNL VPVVVATLGA AYPELQKNSV KVLIWEIANL VSEDEAAFLA SLQRGRRIID
+     RTVKRLGPSD LFPAEVAWSL SLSGNLGIPL DLVQLMLEEK GVKLDTAGLE QLAQKEAQHR
+     AQQAEAAQEE GLCLDVHALE ELHRQGIPTT DDSPKYNYSL RPNGDYEFGL CEAQVLQLYS
+     ETGTAVASVG EGQRCGLLLD RTNFYAEQGG QASDRGYLIR TGQQDVLFPV ARAQVCGGFI
+     LHEAMAPECL QVGDRVQLYV DKAWRMGCMV KHTATHLLNW ALRQTLGPTT EQRGSHLNPE
+     RLRFDVATQT PLTTEQLRTV ESYVQEAVGQ DKPVYMEEVP LAHTARIPGL RSLDEVYPDP
+     VRVVSVGVPV AQALAPASQA ALQTSVELCC GTHLLSTGAV GDLVIIGDRQ LVKGITRLLA
+     ITGEQAQQAR EVGQSLSQEV EVASERLSRG SRDLLEAHRL SKDIGRLIEF TESAVIPQWQ
+     RQEQQTTLKM LQRRANTAIR KLEKSQATEK SQELLKRHSE GPLIVDTVSA QSLSVLVKVV
+     RQLCKQAPSM SVLLLSPQPT GSVLCACQVA QGATPTFTAE AWALAVCSHM GGKAWGSPVI
+     AQGTGHTADL EAALRTARAY ALNQL
+//

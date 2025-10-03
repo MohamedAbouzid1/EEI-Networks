@@ -1,0 +1,98 @@
+ID   MMP1_RAT                Reviewed;          15 AA.
+AC   P81563;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2000, sequence version 1.
+DT   24-JAN-2024, entry version 74.
+DE   RecName: Full=Interstitial collagenase;
+DE            EC=3.4.24.7;
+DE   AltName: Full=Fibroblast collagenase;
+DE   AltName: Full=Matrix metalloproteinase-1;
+DE            Short=MMP-1;
+DE   AltName: Full=Myocardial collagenase;
+DE   Flags: Fragment;
+GN   Name=Mmp1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RC   TISSUE=Heart;
+RX   PubMed=8605638;
+RA   Tyagi S.C., Cleutjens J.P.M.;
+RT   "Myocardial collagenase: purification and structural characterization.";
+RL   Can. J. Cardiol. 12:165-171(1996).
+CC   -!- FUNCTION: Cleaves collagens of types I, II, and III at one site in the
+CC       helical domain. Also cleaves collagens of types VII and X. May play a
+CC       role in the deterioration of the heart wall extracellular matrix
+CC       proteins during the onset of dilated cardiomyopathy.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Cleavage of the triple helix of collagen at about three-
+CC         quarters of the length of the molecule from the N-terminus, at 775-
+CC         Gly-|-Ile-776 in the alpha1(I) chain. Cleaves synthetic substrates
+CC         and alpha-macroglobulins at bonds where P1' is a hydrophobic
+CC         residue.; EC=3.4.24.7;
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 4 Ca(2+) ions per subunit. {ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Can be activated without removal of the activation
+CC       peptide.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}.
+CC   -!- PTM: The N-terminus is blocked.
+CC   -!- PTM: Tyrosine phosphorylated in platelets by PKDCC/VLK.
+CC       {ECO:0000250|UniProtKB:P03956}.
+CC   -!- SIMILARITY: Belongs to the peptidase M10A family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PhosphoSitePlus; P81563; -.
+DR   AGR; RGD:1307917; -.
+DR   RGD; 1307917; Mmp1.
+DR   InParanoid; P81563; -.
+DR   BRENDA; 3.4.24.7; 5301.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0004175; F:endopeptidase activity; ISO:RGD.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; ISO:RGD.
+DR   GO; GO:0008233; F:peptidase activity; IDA:RGD.
+DR   GO; GO:0071312; P:cellular response to alkaloid; IEP:RGD.
+DR   GO; GO:0071498; P:cellular response to fluid shear stress; IEP:RGD.
+DR   GO; GO:0071347; P:cellular response to interleukin-1; IEP:RGD.
+DR   GO; GO:0071283; P:cellular response to iron(III) ion; IEP:RGD.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0071407; P:cellular response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:0071375; P:cellular response to peptide hormone stimulus; IEP:RGD.
+DR   GO; GO:0071356; P:cellular response to tumor necrosis factor; IEP:RGD.
+DR   GO; GO:0071492; P:cellular response to UV-A; ISO:RGD.
+DR   GO; GO:0071305; P:cellular response to vitamin D; IEP:RGD.
+DR   GO; GO:0071466; P:cellular response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0030574; P:collagen catabolic process; IBA:GO_Central.
+DR   GO; GO:0030198; P:extracellular matrix organization; IBA:GO_Central.
+DR   GO; GO:0001553; P:luteinization; IEP:RGD.
+DR   GO; GO:0001554; P:luteolysis; IEP:RGD.
+DR   GO; GO:0010763; P:positive regulation of fibroblast migration; IMP:RGD.
+DR   GO; GO:0031334; P:positive regulation of protein-containing complex assembly; ISO:RGD.
+DR   GO; GO:0014911; P:positive regulation of smooth muscle cell migration; IMP:RGD.
+DR   GO; GO:0006508; P:proteolysis; ISO:RGD.
+DR   GO; GO:0014854; P:response to inactivity; IEP:RGD.
+DR   GO; GO:0071680; P:response to indole-3-methanol; IEP:RGD.
+DR   GO; GO:0009612; P:response to mechanical stimulus; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+PE   1: Evidence at protein level;
+KW   Calcium; Collagen degradation; Direct protein sequencing;
+KW   Extracellular matrix; Hydrolase; Metalloprotease; Phosphoprotein; Protease;
+KW   Reference proteome; Secreted; Zinc.
+FT   CHAIN           <1..>15
+FT                   /note="Interstitial collagenase"
+FT                   /id="PRO_0000078182"
+FT   NON_TER         1
+FT   NON_TER         15
+SQ   SEQUENCE   15 AA;  1787 MW;  15A57D24C0F6FD80 CRC64;
+     DTLKSEKNAD FKDLY
+//

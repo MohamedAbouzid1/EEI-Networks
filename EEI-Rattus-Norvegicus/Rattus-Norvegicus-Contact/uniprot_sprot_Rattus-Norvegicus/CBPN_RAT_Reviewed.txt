@@ -1,0 +1,165 @@
+ID   CBPN_RAT                Reviewed;         457 AA.
+AC   Q9EQV8;
+DT   11-OCT-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   24-JUL-2024, entry version 136.
+DE   RecName: Full=Carboxypeptidase N catalytic chain;
+DE            Short=CPN;
+DE            EC=3.4.17.3;
+DE   AltName: Full=Carboxypeptidase N polypeptide 1;
+DE   AltName: Full=Carboxypeptidase N small subunit;
+DE   Flags: Precursor;
+GN   Name=Cpn1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RX   PubMed=11021404; DOI=10.1111/j.1348-0421.2000.tb02555.x;
+RA   Kato T., Sato T., Matsuo S., Yamamoto T., Campbell W., Hotta N., Okada N.,
+RA   Okada H.;
+RT   "Molecular cloning and partial characterization of rat procarboxypeptidase
+RT   R and carboxypeptidase N.";
+RL   Microbiol. Immunol. 44:719-728(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Protects the body from potent vasoactive and inflammatory
+CC       peptides containing C-terminal Arg or Lys (such as kinins or
+CC       anaphylatoxins) which are released into the circulation. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of a C-terminal basic amino acid, preferentially
+CC         lysine.; EC=3.4.17.3;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P00730};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P00730};
+CC   -!- SUBUNIT: Tetramer of two catalytic chains and two glycosylated inactive
+CC       chains. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Plasma. Expressed in liver.
+CC       {ECO:0000269|PubMed:11021404}.
+CC   -!- SIMILARITY: Belongs to the peptidase M14 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB042599; BAB18618.1; -; mRNA.
+DR   EMBL; BC088124; AAH88124.1; -; mRNA.
+DR   RefSeq; NP_445978.1; NM_053526.2.
+DR   AlphaFoldDB; Q9EQV8; -.
+DR   SMR; Q9EQV8; -.
+DR   STRING; 10116.ENSRNOP00000018221; -.
+DR   MEROPS; M14.004; -.
+DR   GlyCosmos; Q9EQV8; 3 sites, No reported glycans.
+DR   GlyGen; Q9EQV8; 3 sites.
+DR   PhosphoSitePlus; Q9EQV8; -.
+DR   PaxDb; 10116-ENSRNOP00000018221; -.
+DR   Ensembl; ENSRNOT00000018221.8; ENSRNOP00000018221.6; ENSRNOG00000013439.8.
+DR   Ensembl; ENSRNOT00055006701; ENSRNOP00055005121; ENSRNOG00055004185.
+DR   Ensembl; ENSRNOT00060031807; ENSRNOP00060025836; ENSRNOG00060018481.
+DR   Ensembl; ENSRNOT00065049972; ENSRNOP00065041051; ENSRNOG00065028928.
+DR   GeneID; 365466; -.
+DR   KEGG; rno:365466; -.
+DR   AGR; RGD:70931; -.
+DR   CTD; 1369; -.
+DR   RGD; 70931; Cpn1.
+DR   eggNOG; KOG2649; Eukaryota.
+DR   GeneTree; ENSGT00940000158235; -.
+DR   HOGENOM; CLU_006722_1_3_1; -.
+DR   InParanoid; Q9EQV8; -.
+DR   OMA; RNQRIVQ; -.
+DR   OrthoDB; 5490979at2759; -.
+DR   PhylomeDB; Q9EQV8; -.
+DR   Reactome; R-RNO-977606; Regulation of Complement cascade.
+DR   PRO; PR:Q9EQV8; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000013439; Expressed in liver and 5 other cell types or tissues.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0004180; F:carboxypeptidase activity; IDA:RGD.
+DR   GO; GO:0004181; F:metallocarboxypeptidase activity; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0010815; P:bradykinin catabolic process; IMP:RGD.
+DR   GO; GO:0006518; P:peptide metabolic process; IBA:GO_Central.
+DR   GO; GO:0030163; P:protein catabolic process; IDA:RGD.
+DR   GO; GO:0016485; P:protein processing; IBA:GO_Central.
+DR   GO; GO:0051384; P:response to glucocorticoid; IDA:RGD.
+DR   CDD; cd11308; Peptidase_M14NE-CP-C_like; 1.
+DR   Gene3D; 2.60.40.1120; Carboxypeptidase-like, regulatory domain; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 1.
+DR   InterPro; IPR008969; CarboxyPept-like_regulatory.
+DR   InterPro; IPR000834; Peptidase_M14.
+DR   InterPro; IPR050753; Peptidase_M14_domain.
+DR   PANTHER; PTHR11532:SF80; CARBOXYPEPTIDASE N CATALYTIC CHAIN; 1.
+DR   PANTHER; PTHR11532; PROTEASE M14 CARBOXYPEPTIDASE; 1.
+DR   Pfam; PF13620; CarboxypepD_reg; 1.
+DR   Pfam; PF00246; Peptidase_M14; 1.
+DR   PRINTS; PR00765; CRBOXYPTASEA.
+DR   SMART; SM00631; Zn_pept; 1.
+DR   SUPFAM; SSF49464; Carboxypeptidase regulatory domain-like; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+DR   PROSITE; PS00132; CARBOXYPEPT_ZN_1; 1.
+DR   PROSITE; PS00133; CARBOXYPEPT_ZN_2; 1.
+DR   PROSITE; PS52035; PEPTIDASE_M14; 1.
+PE   2: Evidence at transcript level;
+KW   Carboxypeptidase; Disulfide bond; Glycoprotein; Hydrolase; Metal-binding;
+KW   Metalloprotease; Protease; Reference proteome; Secreted; Signal; Zinc.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..457
+FT                   /note="Carboxypeptidase N catalytic chain"
+FT                   /id="PRO_0000042579"
+FT   DOMAIN          24..338
+FT                   /note="Peptidase M14"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   REGION          418..457
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        308
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   BINDING         86
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   BINDING         89
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   BINDING         216
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   CARBOHYD        400
+FT                   /note="O-linked (GalNAc...) threonine"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        402
+FT                   /note="O-linked (GalNAc...) threonine"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        409
+FT                   /note="O-linked (GalNAc...) threonine"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        42..104
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        271..311
+FT                   /evidence="ECO:0000250|UniProtKB:P14384"
+SQ   SEQUENCE   457 AA;  51981 MW;  6C8FC2C5325186D9 CRC64;
+     MPDLPSAFLP LLLLSKFVTP VTFRHHRYDD LVRTLYKVHN QCPDITRLYN IGRSVKGRYL
+     YVLEFSDYPG THEPLEPEVK YVGNMHGNEV LGRELLLQLS EFLCEEFRNR NQRILRLIQD
+     TRIHILPSMN PDGYEVAAAQ GPNTSGYLVG RNNANGVDLN RNFPDLNTYF YYNSKYGGPN
+     HHLPLPDNWK SQVEPETRAV IQWIRSLNFV LSANMHGGAV VANYPYDKSL EHRFRSPHRT
+     SNSPTPDDEL FQTLAKVYSY AHGWMHQGWN CGDYFPDGIT NGASWYSLSK GMQDFNYLHT
+     NCFEITLELS CNKFPRQEEL QREWLGNREA LIQFLEQVHQ GIKGMVLDEN YNNLTGAVIS
+     VTGINHDVTS GEHGDYFRLL LPGTYSVTAK ASGYEPKTVT VTVGPAGPTL VDFQLKRSTT
+     QVHPVQKAPG RGQGSRAKQP RTSRKKDQAA KRHRGPA
+//

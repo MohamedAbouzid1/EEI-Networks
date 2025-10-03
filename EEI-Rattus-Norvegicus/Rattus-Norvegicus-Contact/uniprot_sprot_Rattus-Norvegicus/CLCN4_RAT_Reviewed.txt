@@ -1,0 +1,241 @@
+ID   CLCN4_RAT               Reviewed;         747 AA.
+AC   P51794;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   24-JUL-2024, entry version 134.
+DE   RecName: Full=H(+)/Cl(-) exchange transporter 4;
+DE   AltName: Full=Chloride channel protein 4;
+DE            Short=ClC-4;
+DE   AltName: Full=Chloride transporter ClC-4;
+GN   Name=Clcn4; Synonyms=Clcn4-2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RX   PubMed=7730971; DOI=10.1113/jphysiol.1995.sp020560;
+RA   Jentsch T.J., Guenther W., Pusch M., Schwappach B.;
+RT   "Properties of voltage-gated chloride channels of the ClC gene family.";
+RL   J. Physiol. (Lond.) 482:19-25(1995).
+RN   [2]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=16222710; DOI=10.1002/jcp.20516;
+RA   Suzuki T., Rai T., Hayama A., Sohara E., Suda S., Itoh T., Sasaki S.,
+RA   Uchida S.;
+RT   "Intracellular localization of ClC chloride channels and their ability to
+RT   form hetero-oligomers.";
+RL   J. Cell. Physiol. 206:792-798(2006).
+CC   -!- FUNCTION: Strongly outwardly rectifying, electrogenic
+CC       H(+)/Cl(-)exchanger which mediates the exchange of chloride ions
+CC       against protons (By similarity). The CLC channel family contains both
+CC       chloride channels and proton-coupled anion transporters that exchange
+CC       chloride or another anion for protons (By similarity). The presence of
+CC       conserved gating glutamate residues is typical for family members that
+CC       function as antiporters (By similarity).
+CC       {ECO:0000250|UniProtKB:P51793}.
+CC   -!- SUBCELLULAR LOCATION: Early endosome membrane
+CC       {ECO:0000269|PubMed:16222710}; Multi-pass membrane protein
+CC       {ECO:0000255}. Late endosome membrane {ECO:0000269|PubMed:16222710};
+CC       Multi-pass membrane protein {ECO:0000255}. Endoplasmic reticulum
+CC       membrane {ECO:0000250|UniProtKB:P51793}; Multi-pass membrane protein
+CC       {ECO:0000255}. Lysosome membrane {ECO:0000250|UniProtKB:P51793}; Multi-
+CC       pass membrane protein {ECO:0000255}. Recycling endosome membrane
+CC       {ECO:0000250|UniProtKB:P51793}; Multi-pass membrane protein
+CC       {ECO:0000255}. Note=Localizes to late endosome membrane, lysosome
+CC       membrane and recycling endosome membrane in the presence of CLCN3.
+CC       {ECO:0000250|UniProtKB:P51793}.
+CC   -!- TISSUE SPECIFICITY: Strongly expressed in liver and brain, but also in
+CC       heart, muscle, kidney and spleen. {ECO:0000269|PubMed:7730971}.
+CC   -!- SIMILARITY: Belongs to the chloride channel (TC 2.A.49) family. ClC-
+CC       4/CLCN4 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z36944; CAA85406.1; -; mRNA.
+DR   PIR; S47327; S47327.
+DR   AlphaFoldDB; P51794; -.
+DR   SMR; P51794; -.
+DR   STRING; 10116.ENSRNOP00000056037; -.
+DR   PhosphoSitePlus; P51794; -.
+DR   PaxDb; 10116-ENSRNOP00000056037; -.
+DR   PeptideAtlas; P51794; -.
+DR   AGR; RGD:708381; -.
+DR   RGD; 708381; Clcn4.
+DR   eggNOG; KOG0475; Eukaryota.
+DR   InParanoid; P51794; -.
+DR   Reactome; R-RNO-2672351; Stimuli-sensing channels.
+DR   PRO; PR:P51794; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0097546; C:ciliary base; ISO:RGD.
+DR   GO; GO:0005769; C:early endosome; IBA:GO_Central.
+DR   GO; GO:0031901; C:early endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0010008; C:endosome membrane; ISS:UniProtKB.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0031902; C:late endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005765; C:lysosomal membrane; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0055037; C:recycling endosome; ISS:UniProtKB.
+DR   GO; GO:0055038; C:recycling endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008021; C:synaptic vesicle; IBA:GO_Central.
+DR   GO; GO:0015297; F:antiporter activity; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005254; F:chloride channel activity; ISO:RGD.
+DR   GO; GO:0005247; F:voltage-gated chloride channel activity; IBA:GO_Central.
+DR   GO; GO:0006821; P:chloride transport; ISS:UniProtKB.
+DR   GO; GO:1905515; P:non-motile cilium assembly; ISO:RGD.
+DR   CDD; cd04591; CBS_pair_voltage-gated_CLC_euk_bac; 1.
+DR   CDD; cd03684; ClC_3_like; 1.
+DR   Gene3D; 3.10.580.20; -; 1.
+DR   Gene3D; 3.90.1280.20; -; 1.
+DR   Gene3D; 1.10.3080.10; Clc chloride channel; 1.
+DR   InterPro; IPR000644; CBS_dom.
+DR   InterPro; IPR046342; CBS_dom_sf.
+DR   InterPro; IPR014743; Cl-channel_core.
+DR   InterPro; IPR001807; Cl-channel_volt-gated.
+DR   InterPro; IPR002246; Cl_channel-4.
+DR   PANTHER; PTHR45711; CHLORIDE CHANNEL PROTEIN; 1.
+DR   PANTHER; PTHR45711:SF2; H(+)_CL(-) EXCHANGE TRANSPORTER 4; 1.
+DR   Pfam; PF00571; CBS; 2.
+DR   Pfam; PF00654; Voltage_CLC; 1.
+DR   PRINTS; PR00762; CLCHANNEL.
+DR   PRINTS; PR01115; CLCHANNEL4.
+DR   SMART; SM00116; CBS; 2.
+DR   SUPFAM; SSF54631; CBS-domain pair; 1.
+DR   SUPFAM; SSF81340; Clc chloride channel; 1.
+DR   PROSITE; PS51371; CBS; 2.
+PE   2: Evidence at transcript level;
+KW   Antiport; ATP-binding; CBS domain; Chloride; Endoplasmic reticulum;
+KW   Endosome; Ion transport; Lysosome; Membrane; Nucleotide-binding;
+KW   Reference proteome; Repeat; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..747
+FT                   /note="H(+)/Cl(-) exchange transporter 4"
+FT                   /id="PRO_0000094445"
+FT   TOPO_DOM        1..54
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   TRANSMEM        55..92
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   TRANSMEM        138..161
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   INTRAMEM        170..177
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   TRANSMEM        187..205
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   TRANSMEM        211..230
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   INTRAMEM        242..254
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   INTRAMEM        258..266
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   TRANSMEM        278..296
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   TRANSMEM        320..345
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   TRANSMEM        352..372
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   TRANSMEM        429..449
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   TRANSMEM        454..473
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   INTRAMEM        501..515
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   INTRAMEM        519..530
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   INTRAMEM        531..534
+FT                   /note="Note=Loop between two helices"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   TRANSMEM        535..553
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   TOPO_DOM        554..747
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P35523"
+FT   DOMAIN          587..653
+FT                   /note="CBS 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00703"
+FT   DOMAIN          684..742
+FT                   /note="CBS 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00703"
+FT   REGION          1..50
+FT                   /note="Required for localization in the endoplasmic
+FT                   reticulum"
+FT                   /evidence="ECO:0000250|UniProtKB:P51793"
+FT   REGION          654..683
+FT                   /note="Required for localization in the endoplasmic
+FT                   reticulum"
+FT                   /evidence="ECO:0000250|UniProtKB:P51793"
+FT   MOTIF           167..171
+FT                   /note="Selectivity filter part_1"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           209..213
+FT                   /note="Selectivity filter part_2"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           454..458
+FT                   /note="Selectivity filter part_3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         168
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         456
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         559
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         597
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         618..620
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         725..728
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   SITE            211
+FT                   /note="Mediates proton transfer from the outer aqueous
+FT                   phase to the interior of the protein; involved in linking
+FT                   H(+) and Cl(-) transport"
+FT                   /evidence="ECO:0000250"
+FT   SITE            268
+FT                   /note="Mediates proton transfer from the protein to the
+FT                   inner aqueous phase"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   747 AA;  83701 MW;  E86B5732248BA0C3 CRC64;
+     MDFLDEPFPD VGTYEDFHTI DWLREKSRDT DRHRKITSKS KESIWEFIKS LLDAWSGWVV
+     MLLIGLLAGT LAGVIDLAVD WMTDLKEGVC LSAFWYSHEQ CCWTSNETTF EDRDKCPLWQ
+     KWSELLLSQS EGASAYILNY LMYILWALLF AFLAVSLVRV FAPYACGSGI PEIKTILSGF
+     IIRGYLGKWT LLIKTVTLVL VVSSGLSLGK EGPLVHVACC CGNFFSSLFS KYSKNEGKRR
+     EVLSAAAAAG VSVAFGAPIG GVLFSLEEVS YYFPLKTLWR SFFAALVAAF TLRSINPFGN
+     SRLVLFYVEY HTPWYMAELF PFILLGVFGG LWGTVFTRCN IAWCRRRKTT RLGKYPVLEV
+     IVVTAITAII AYPNPYTRQS TSELISELFN DCGALESSQL CDYINDPNMT RPVDDIPDRP
+     AGVGVYTAMW QLALALIFKI VITIFTFGMK IPSGLFIPSM AVGAMAGRMV GIGVEQLAYH
+     HHDWIIFRNW CRPGADCVTP GLYAMVGAAA CLGGVTRMTV SLVVIMFELT GGLEYIVPLM
+     AAAVTSKWVA DAFGKEGIYE AHIHLNGYPF LDVKDEFTHR TLATDVMRPR RGEPPLSVLT
+     QDSMTVEDVE TLIKETDYNG FPVVVSRDSE RLIGFAQRRE LILAIKNARQ RQEGIVSNSI
+     MYFTEEPPEL PANSPHPLKL RRILNLSPFT VTDHTPMETV VDIFRKLGLR QCLVTRSGRL
+     LGIITKKDVL RHMAQMANQD PESIIFN
+//

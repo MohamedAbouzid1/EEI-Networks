@@ -1,0 +1,139 @@
+ID   NAT8_RAT                Reviewed;         222 AA.
+AC   Q9QXT3;
+DT   17-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   24-JUL-2024, entry version 105.
+DE   RecName: Full=N-acetyltransferase 8;
+DE            EC=2.3.1.-;
+DE   AltName: Full=Acetyltransferase 2;
+DE            Short=ATase2;
+DE   AltName: Full=Camello-like protein 4;
+DE   AltName: Full=Cysteinyl-conjugate N-acetyltransferase;
+DE            Short=CCNAT;
+DE            EC=2.3.1.80;
+GN   Name=Nat8; Synonyms=Cml4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000312|EMBL:AAF22298.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Kidney {ECO:0000312|EMBL:AAF22298.1};
+RX   PubMed=11397015; DOI=10.1006/dbio.2001.0261;
+RA   Popsueva A.E., Luchinskaya N.N., Ludwig A.V., Zinovjeva O.Y.,
+RA   Poteryaev D.A., Feigelman M.M., Ponomarev M.B., Berekelya L.,
+RA   Belyavsky A.V.;
+RT   "Overexpression of camello, a member of a novel protein family, reduces
+RT   blastomere adhesion and inhibits gastrulation in Xenopus laevis.";
+RL   Dev. Biol. 234:483-496(2001).
+RN   [2]
+RP   CATALYTIC ACTIVITY.
+RX   PubMed=6892478;
+RA   Duffel M.W., Jakoby W.B.;
+RT   "Cysteine S-conjugate N-acetyltransferase from rat kidney microsomes.";
+RL   Mol. Pharmacol. 21:444-448(1982).
+CC   -!- FUNCTION: Acetylates the free alpha-amino group of cysteine S-
+CC       conjugates to form mercapturic acids. This is the final step in a major
+CC       route for detoxification of a wide variety of reactive electrophiles
+CC       which starts with their incorporation into glutathione S-conjugates.
+CC       The glutathione S-conjugates are then further processed into cysteine
+CC       S-conjugates and finally mercapturic acids which are water soluble and
+CC       can be readily excreted in urine or bile. Alternatively, may have a
+CC       lysine N-acetyltransferase activity catalyzing peptidyl-lysine N6-
+CC       acetylation of various proteins. Thereby, may regulate apoptosis
+CC       through the acetylation and the regulation of the expression of PROM1.
+CC       May also regulate amyloid beta-peptide secretion through acetylation of
+CC       BACE1 and the regulation of its expression in neurons (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + an S-substituted L-cysteine = an N-acetyl-L-
+CC         cysteine-S-conjugate + CoA + H(+); Xref=Rhea:RHEA:19213,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:58717, ChEBI:CHEBI:58718; EC=2.3.1.80;
+CC         Evidence={ECO:0000269|PubMed:6892478};
+CC   -!- PATHWAY: Sulfur metabolism; glutathione metabolism.
+CC   -!- SUBUNIT: Interacts with PROM1. Interacts with BACE1 (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum-Golgi intermediate
+CC       compartment membrane {ECO:0000250}; Single-pass type II membrane
+CC       protein {ECO:0000250}. Endoplasmic reticulum membrane {ECO:0000250};
+CC       Single-pass type II membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the camello family.
+CC       {ECO:0000269|PubMed:11397015}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF185570; AAF22298.1; -; mRNA.
+DR   RefSeq; NP_072157.1; NM_022635.1.
+DR   RefSeq; XP_006236851.1; XM_006236789.3.
+DR   RefSeq; XP_006236852.1; XM_006236790.3.
+DR   AlphaFoldDB; Q9QXT3; -.
+DR   SMR; Q9QXT3; -.
+DR   iPTMnet; Q9QXT3; -.
+DR   PhosphoSitePlus; Q9QXT3; -.
+DR   Ensembl; ENSRNOT00000021243.6; ENSRNOP00000021243.3; ENSRNOG00000063398.1.
+DR   Ensembl; ENSRNOT00000097720.1; ENSRNOP00000080047.1; ENSRNOG00000063398.1.
+DR   Ensembl; ENSRNOT00000099459.1; ENSRNOP00000080565.1; ENSRNOG00000063398.1.
+DR   Ensembl; ENSRNOT00000102192.1; ENSRNOP00000083742.1; ENSRNOG00000063398.1.
+DR   GeneID; 64570; -.
+DR   KEGG; rno:64570; -.
+DR   UCSC; RGD:621609; rat.
+DR   AGR; RGD:621609; -.
+DR   CTD; 9027; -.
+DR   RGD; 621609; Nat8.
+DR   GeneTree; ENSGT00950000182932; -.
+DR   InParanoid; Q9QXT3; -.
+DR   OMA; ITIRRFE; -.
+DR   OrthoDB; 74682at2759; -.
+DR   PhylomeDB; Q9QXT3; -.
+DR   BioCyc; MetaCyc:MONOMER-10113; -.
+DR   UniPathway; UPA00204; -.
+DR   PRO; PR:Q9QXT3; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0005793; C:endoplasmic reticulum-Golgi intermediate compartment; ISO:RGD.
+DR   GO; GO:0033116; C:endoplasmic reticulum-Golgi intermediate compartment membrane; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0047198; F:cysteine-S-conjugate N-acetyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0004468; F:lysine N-acetyltransferase activity, acting on acetyl phosphate as donor; ISS:UniProtKB.
+DR   GO; GO:0008080; F:N-acetyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0001702; P:gastrulation with mouth forming second; ISS:UniProtKB.
+DR   GO; GO:0006749; P:glutathione metabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0018003; P:peptidyl-lysine N6-acetylation; ISS:UniProtKB.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISS:UniProtKB.
+DR   CDD; cd04301; NAT_SF; 1.
+DR   Gene3D; 3.40.630.30; -; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR050769; Camello_NAT.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   PANTHER; PTHR13947; GNAT FAMILY N-ACETYLTRANSFERASE; 1.
+DR   PANTHER; PTHR13947:SF42; N-ACETYLTRANSFERASE 8; 1.
+DR   Pfam; PF00583; Acetyltransf_1; 1.
+DR   SUPFAM; SSF55729; Acyl-CoA N-acyltransferases (Nat); 1.
+DR   PROSITE; PS51186; GNAT; 1.
+PE   1: Evidence at protein level;
+KW   Acyltransferase; Endoplasmic reticulum; Membrane; Reference proteome;
+KW   Signal-anchor; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..222
+FT                   /note="N-acetyltransferase 8"
+FT                   /id="PRO_0000284693"
+FT   TOPO_DOM        1..35
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        36..56
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        57..222
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          62..217
+FT                   /note="N-acetyltransferase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00532"
+SQ   SEQUENCE   222 AA;  24894 MW;  8D28228022E8DC2B CRC64;
+     MASFHIRQFQ ERDYEQVVDM FSRGMKEHIP TAFRHLLLLP RTLLLLLGVP LALVLVSGSW
+     LLAVVCIFFL LPFLWFLAGQ PWKNYVSKCL HTDMADITKS YLSDRGSGFW VAESGGQIVG
+     TVGALPVKDP PSGRKQLQLF RLSVSSQHRG QGIAKALVRT VLQFARDQGY TDVVLVTGLL
+     QQGAVTLYYS MGFQKTGESF MDILTWLVDV SLIHFIYPLP SS
+//

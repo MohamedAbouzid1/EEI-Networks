@@ -1,0 +1,100 @@
+ID   SIVA_RAT                Reviewed;         177 AA.
+AC   P59692;
+DT   23-MAY-2003, integrated into UniProtKB/Swiss-Prot.
+DT   23-MAY-2003, sequence version 1.
+DT   29-MAY-2024, entry version 114.
+DE   RecName: Full=Apoptosis regulatory protein Siva;
+DE   AltName: Full=CD27-binding protein;
+DE            Short=CD27BP;
+GN   Name=Siva1; Synonyms=Siva;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND INDUCTION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Kidney;
+RX   PubMed=9853261; DOI=10.1046/j.1523-1755.1998.00197.x;
+RA   Padanilam B.J., Lewington A.J.P., Hammerman M.R.;
+RT   "Expression of CD27 and ischemia/reperfusion-induced expression of its
+RT   ligand Siva in rat kidneys.";
+RL   Kidney Int. 54:1967-1975(1998).
+CC   -!- FUNCTION: Induces CD27-mediated apoptosis. Inhibits BCL2L1 isoform Bcl-
+CC       x(L) anti-apoptotic activity. Inhibits activation of NF-kappa-B and
+CC       promotes T-cell receptor-mediated apoptosis (By similarity).
+CC       {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 3 Zn(2+) ions. {ECO:0000250};
+CC   -!- SUBUNIT: Binds through its N-terminal region to the C-terminus of CD27
+CC       and to PXMP2/PMP22. Binds to the C-terminus of TNFRSF18/GITR. Binds to
+CC       BCL2L1/BCLX isoform Bcl-x(L) but not to BAX (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Nucleus {ECO:0000250}.
+CC       Note=In the nucleus, accumulates in dot-like structures. {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: In post-ischemic kidney, found in cells lining the
+CC       S3 segment of proximal tubules at 12 hours and 1 day post-ischemia. At
+CC       five and seven days post-ischemia, found in epithelial cells of
+CC       papillary proliferations in regenerating tubules.
+CC       {ECO:0000269|PubMed:9853261}.
+CC   -!- INDUCTION: By ischemia. {ECO:0000269|PubMed:9853261}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_006240707.1; XM_006240645.3.
+DR   AlphaFoldDB; P59692; -.
+DR   STRING; 10116.ENSRNOP00000034257; -.
+DR   PhosphoSitePlus; P59692; -.
+DR   PaxDb; 10116-ENSRNOP00000034257; -.
+DR   Ensembl; ENSRNOT00000031788.6; ENSRNOP00000034257.4; ENSRNOG00000028640.8.
+DR   Ensembl; ENSRNOT00055008269; ENSRNOP00055006239; ENSRNOG00055005158.
+DR   Ensembl; ENSRNOT00055049682; ENSRNOP00055040883; ENSRNOG00055028698.
+DR   Ensembl; ENSRNOT00060046232; ENSRNOP00060038407; ENSRNOG00060026657.
+DR   Ensembl; ENSRNOT00065048391; ENSRNOP00065039697; ENSRNOG00065028062.
+DR   UCSC; RGD:1561872; rat.
+DR   AGR; RGD:1561872; -.
+DR   RGD; 1561872; Siva1.
+DR   eggNOG; ENOG502S2B7; Eukaryota.
+DR   GeneTree; ENSGT00390000004842; -.
+DR   HOGENOM; CLU_127299_0_0_1; -.
+DR   InParanoid; P59692; -.
+DR   OMA; RSCPFGE; -.
+DR   OrthoDB; 2906916at2759; -.
+DR   PhylomeDB; P59692; -.
+DR   TreeFam; TF332962; -.
+DR   PRO; PR:P59692; -.
+DR   Proteomes; UP000002494; Chromosome 6.
+DR   Bgee; ENSRNOG00000028640; Expressed in thymus and 19 other cell types or tissues.
+DR   ExpressionAtlas; P59692; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0005175; F:CD27 receptor binding; ISO:RGD.
+DR   GO; GO:0005164; F:tumor necrosis factor receptor binding; ISO:RGD.
+DR   GO; GO:0001618; F:virus receptor activity; ISO:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; ISO:RGD.
+DR   GO; GO:0097191; P:extrinsic apoptotic signaling pathway; ISO:RGD.
+DR   InterPro; IPR022773; Siva.
+DR   PANTHER; PTHR14365; APOPTOSIS REGULATORY PROTEIN SIVA; 1.
+DR   PANTHER; PTHR14365:SF1; APOPTOSIS REGULATORY PROTEIN SIVA; 1.
+DR   Pfam; PF05458; Siva; 1.
+DR   PIRSF; PIRSF038096; Siva_cd27_bd; 1.
+PE   2: Evidence at transcript level;
+KW   Apoptosis; Cytoplasm; Metal-binding; Nucleus; Phosphoprotein;
+KW   Reference proteome; Zinc.
+FT   CHAIN           1..177
+FT                   /note="Apoptosis regulatory protein Siva"
+FT                   /id="PRO_0000097776"
+FT   REGION          36..55
+FT                   /note="Interaction with BCL2L1 isoform Bcl-x(L) and
+FT                   inhibition of BCL2L1 anti-apoptotic activity"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         34
+FT                   /note="Phosphotyrosine; by ABL2"
+FT                   /evidence="ECO:0000250|UniProtKB:O15304"
+SQ   SEQUENCE   177 AA;  18899 MW;  4372588F50FF5DEE CRC64;
+     MPKRSCPFTD AAPLQLKVHV SPRELSHGVF AERYSREVFE RTKQLLFQGA QAYRDHIWGE
+     GCSINHLPEP LKPGLVGAPQ AARGQMLIGP DGRLTRCQAQ ASEAGLPGAA PIACSSCVRS
+     VDGKAVCSQC ERALCGQCVY TCWGCGALAC VLCGLADYAD DDDGEKTLCT SCAMFEA
+//

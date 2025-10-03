@@ -1,0 +1,198 @@
+ID   RALB_RAT                Reviewed;         206 AA.
+AC   P36860;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   24-JUL-2024, entry version 159.
+DE   RecName: Full=Ras-related protein Ral-B;
+DE            EC=3.6.5.2 {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=Ralb; Synonyms=Ral-b;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=7687439; DOI=10.1006/bbrc.1993.1855;
+RA   Wildey G.M., Viggeswarapu M., Rim S., Denker J.K.;
+RT   "Isolation of cDNA clones and tissue expression of rat ral A and ral B GTP-
+RT   binding proteins.";
+RL   Biochem. Biophys. Res. Commun. 194:552-559(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=16382162; DOI=10.1128/mcb.26.2.727-734.2006;
+RA   Rosse C., Hatzoglou A., Parrini M.C., White M.A., Chavrier P., Camonis J.;
+RT   "RalB mobilizes the exocyst to drive cell migration.";
+RL   Mol. Cell. Biol. 26:727-734(2006).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=17202486; DOI=10.1523/jneurosci.2537-06.2007;
+RA   Li G., Han L., Chou T.C., Fujita Y., Arunachalam L., Xu A., Wong A.,
+RA   Chiew S.K., Wan Q., Wang L., Sugita S.;
+RT   "RalA and RalB function as the critical GTP sensors for GTP-dependent
+RT   exocytosis.";
+RL   J. Neurosci. 27:190-202(2007).
+CC   -!- FUNCTION: Multifunctional GTPase involved in a variety of cellular
+CC       processes including gene expression, cell migration, cell
+CC       proliferation, oncogenic transformation and membrane trafficking.
+CC       Accomplishes its multiple functions by interacting with distinct
+CC       downstream effectors. Acts as a GTP sensor for GTP-dependent exocytosis
+CC       of dense core vesicles (PubMed:17202486). Required both to stabilize
+CC       the assembly of the exocyst complex and to localize functional exocyst
+CC       complexes to the leading edge of migrating cells (PubMed:16382162).
+CC       Required for suppression of apoptosis (By similarity). In late stages
+CC       of cytokinesis, upon completion of the bridge formation between
+CC       dividing cells, mediates exocyst recruitment to the midbody to drive
+CC       abscission (By similarity). Involved in ligand-dependent receptor
+CC       mediated endocytosis of the EGF and insulin receptors (By similarity).
+CC       {ECO:0000250|UniProtKB:P11234, ECO:0000269|PubMed:16382162,
+CC       ECO:0000269|PubMed:17202486}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = GDP + H(+) + phosphate; Xref=Rhea:RHEA:19669,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58189; EC=3.6.5.2;
+CC         Evidence={ECO:0000305};
+CC   -!- ACTIVITY REGULATION: Alternates between an inactive form bound to GDP
+CC       and an active form bound to GTP. Activated by a guanine nucleotide-
+CC       exchange factor (GEF) and inactivated by a GTPase-activating protein
+CC       (GAP).
+CC   -!- SUBUNIT: Interacts with EXOC2/Sec5 and EXOC8/Exo84. Interacts (via
+CC       effector domain) with RALBP1. {ECO:0000250|UniProtKB:P11234}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P11234};
+CC       Lipid-anchor {ECO:0000250|UniProtKB:P11234}; Cytoplasmic side
+CC       {ECO:0000250|UniProtKB:P11234}. Midbody {ECO:0000250|UniProtKB:P11234}.
+CC       Note=During late cytokinesis, enriched at the midbody.
+CC       {ECO:0000250|UniProtKB:P11234}.
+CC   -!- PTM: Prenylation is essential for membrane localization.
+CC       {ECO:0000250|UniProtKB:P11234}.
+CC   -!- PTM: The farnesylated form confers resistance to the proapoptotic and
+CC       anti-anchorage-dependent growth effects of some
+CC       geranylgeranyltransferase I inhibitors. {ECO:0000250|UniProtKB:P11234}.
+CC   -!- SIMILARITY: Belongs to the small GTPase superfamily. Ras family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L19699; AAA42004.1; -; mRNA.
+DR   EMBL; BC072505; AAH72505.1; -; mRNA.
+DR   PIR; JN0623; JN0623.
+DR   RefSeq; NP_446273.1; NM_053821.2.
+DR   RefSeq; XP_017454125.1; XM_017598636.1.
+DR   AlphaFoldDB; P36860; -.
+DR   SMR; P36860; -.
+DR   BioGRID; 250481; 1.
+DR   IntAct; P36860; 4.
+DR   STRING; 10116.ENSRNOP00000003413; -.
+DR   iPTMnet; P36860; -.
+DR   PhosphoSitePlus; P36860; -.
+DR   SwissPalm; P36860; -.
+DR   jPOST; P36860; -.
+DR   PaxDb; 10116-ENSRNOP00000003413; -.
+DR   Ensembl; ENSRNOT00000096405.1; ENSRNOP00000087562.1; ENSRNOG00000002440.7.
+DR   Ensembl; ENSRNOT00055022511; ENSRNOP00055018279; ENSRNOG00055013141.
+DR   Ensembl; ENSRNOT00060009099; ENSRNOP00060006858; ENSRNOG00060005469.
+DR   Ensembl; ENSRNOT00065015348; ENSRNOP00065011543; ENSRNOG00065009578.
+DR   GeneID; 116546; -.
+DR   KEGG; rno:116546; -.
+DR   AGR; RGD:619852; -.
+DR   CTD; 5899; -.
+DR   RGD; 619852; Ralb.
+DR   eggNOG; KOG0395; Eukaryota.
+DR   GeneTree; ENSGT00940000155984; -.
+DR   InParanoid; P36860; -.
+DR   OMA; DDTIPFI; -.
+DR   OrthoDB; 8685at2759; -.
+DR   PhylomeDB; P36860; -.
+DR   PRO; PR:P36860; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   GO; GO:0005829; C:cytosol; TAS:Reactome.
+DR   GO; GO:0030496; C:midbody; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0051117; F:ATPase binding; ISO:RGD.
+DR   GO; GO:0003925; F:G protein activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019003; F:GDP binding; ISO:RGD.
+DR   GO; GO:0005525; F:GTP binding; ISS:UniProtKB.
+DR   GO; GO:0003924; F:GTPase activity; ISS:UniProtKB.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISO:RGD.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071360; P:cellular response to exogenous dsRNA; ISO:RGD.
+DR   GO; GO:0009267; P:cellular response to starvation; ISO:RGD.
+DR   GO; GO:2000786; P:positive regulation of autophagosome assembly; ISO:RGD.
+DR   GO; GO:0045742; P:positive regulation of epidermal growth factor receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0001934; P:positive regulation of protein phosphorylation; ISO:RGD.
+DR   GO; GO:0007265; P:Ras protein signal transduction; IBA:GO_Central.
+DR   GO; GO:0031623; P:receptor internalization; ISO:RGD.
+DR   GO; GO:0001928; P:regulation of exocyst assembly; IDA:UniProtKB.
+DR   GO; GO:0060178; P:regulation of exocyst localization; IDA:UniProtKB.
+DR   CDD; cd04139; RalA_RalB; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR001806; Small_GTPase.
+DR   InterPro; IPR020849; Small_GTPase_Ras-type.
+DR   NCBIfam; TIGR00231; small_GTP; 1.
+DR   PANTHER; PTHR24070; RAS, DI-RAS, AND RHEB FAMILY MEMBERS OF SMALL GTPASE SUPERFAMILY; 1.
+DR   PANTHER; PTHR24070:SF199; RAS-RELATED PROTEIN RAL-B; 1.
+DR   Pfam; PF00071; Ras; 1.
+DR   PRINTS; PR00449; RASTRNSFRMNG.
+DR   SMART; SM00175; RAB; 1.
+DR   SMART; SM00176; RAN; 1.
+DR   SMART; SM00173; RAS; 1.
+DR   SMART; SM00174; RHO; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51421; RAS; 1.
+PE   2: Evidence at transcript level;
+KW   Apoptosis; Cell cycle; Cell division; Cell membrane; GTP-binding;
+KW   Hydrolase; Lipoprotein; Membrane; Methylation; Nucleotide-binding;
+KW   Prenylation; Reference proteome.
+FT   CHAIN           1..203
+FT                   /note="Ras-related protein Ral-B"
+FT                   /id="PRO_0000082700"
+FT   PROPEP          204..206
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000281353"
+FT   REGION          181..206
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           43..51
+FT                   /note="Effector region"
+FT   BINDING         21..29
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         68..72
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         128..131
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         158..160
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         203
+FT                   /note="Cysteine methyl ester"
+FT                   /evidence="ECO:0000250"
+FT   LIPID           203
+FT                   /note="S-geranylgeranyl cysteine"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   206 AA;  23317 MW;  42C43BCE66A3D421 CRC64;
+     MAANKGKSQG SLVLHKVIMV GSGGVGKSAL TLQFMYDEFV EDYEPTKADS YRKKVVLDGE
+     EVQIDILDTA GQEDYAAIRD NYFRSGEGFL LVFSITEHES FTATAEFREQ ILRVKAEEDK
+     IPLLVVGNKS DLEERRQVPV EEARGKAEEW GVQYVETSAK TRANVDKVFF DLMREIRAKK
+     MSENKDKNGR KSGKSKKSFK ERCCLL
+//

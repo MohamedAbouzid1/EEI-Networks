@@ -1,0 +1,153 @@
+ID   CBPB1_RAT               Reviewed;         415 AA.
+AC   P19223;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1990, sequence version 1.
+DT   24-JAN-2024, entry version 146.
+DE   RecName: Full=Carboxypeptidase B;
+DE            EC=3.4.17.2 {ECO:0000250|UniProtKB:P00732};
+DE   Flags: Precursor;
+GN   Name=Cpb1; Synonyms=Cpb;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3182872; DOI=10.1016/s0021-9258(19)77911-3;
+RA   Clauser E., Gardell S.J., Craik C.S., Macdonald R.J., Rutter W.J.;
+RT   "Structural characterization of the rat carboxypeptidase A1 and B genes.
+RT   Comparative analysis of the rat carboxypeptidase gene family.";
+RL   J. Biol. Chem. 263:17837-17845(1988).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 109-130.
+RC   STRAIN=Wistar; TISSUE=Pancreas;
+RX   PubMed=1898371; DOI=10.1042/bj2780857;
+RA   Kodama H., Shimojo N., Suzuki K.T.;
+RT   "Distribution of manganese in rat pancreas and identification of its
+RT   primary binding protein as pro-carboxypeptidase B.";
+RL   Biochem. J. 278:857-862(1991).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Preferential release of a C-terminal lysine or arginine amino
+CC         acid.; EC=3.4.17.2; Evidence={ECO:0000250|UniProtKB:P00732};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P15086};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P15086};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P00732}. Zymogen
+CC       granule lumen {ECO:0000250|UniProtKB:P55261}.
+CC   -!- SIMILARITY: Belongs to the peptidase M14 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M23959; AAA40872.1; -; Genomic_DNA.
+DR   EMBL; M23947; AAA40872.1; JOINED; Genomic_DNA.
+DR   EMBL; M23950; AAA40872.1; JOINED; Genomic_DNA.
+DR   EMBL; M23952; AAA40872.1; JOINED; Genomic_DNA.
+DR   EMBL; M23953; AAA40872.1; JOINED; Genomic_DNA.
+DR   EMBL; M23954; AAA40872.1; JOINED; Genomic_DNA.
+DR   PIR; A32129; A32129.
+DR   AlphaFoldDB; P19223; -.
+DR   SMR; P19223; -.
+DR   STRING; 10116.ENSRNOP00000048109; -.
+DR   MEROPS; M14.003; -.
+DR   PhosphoSitePlus; P19223; -.
+DR   PaxDb; 10116-ENSRNOP00000048109; -.
+DR   UCSC; RGD:2391; rat.
+DR   AGR; RGD:2391; -.
+DR   RGD; 2391; Cpb1.
+DR   eggNOG; KOG2650; Eukaryota.
+DR   InParanoid; P19223; -.
+DR   PhylomeDB; P19223; -.
+DR   Reactome; R-RNO-2022377; Metabolism of Angiotensinogen to Angiotensins.
+DR   PRO; PR:P19223; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; IEA:UniProtKB-KW.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0004180; F:carboxypeptidase activity; IDA:RGD.
+DR   GO; GO:0004181; F:metallocarboxypeptidase activity; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; ISO:RGD.
+DR   CDD; cd03871; M14_CPB; 1.
+DR   Gene3D; 3.30.70.340; Metallocarboxypeptidase-like; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 1.
+DR   InterPro; IPR034253; CPB_M14_CPD.
+DR   InterPro; IPR036990; M14A-like_propep.
+DR   InterPro; IPR003146; M14A_act_pep.
+DR   InterPro; IPR000834; Peptidase_M14.
+DR   PANTHER; PTHR11705:SF20; CARBOXYPEPTIDASE B; 1.
+DR   PANTHER; PTHR11705; PROTEASE FAMILY M14 CARBOXYPEPTIDASE A,B; 1.
+DR   Pfam; PF00246; Peptidase_M14; 1.
+DR   Pfam; PF02244; Propep_M14; 1.
+DR   PRINTS; PR00765; CRBOXYPTASEA.
+DR   SMART; SM00631; Zn_pept; 1.
+DR   SUPFAM; SSF54897; Protease propeptides/inhibitors; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+DR   PROSITE; PS00132; CARBOXYPEPT_ZN_1; 1.
+DR   PROSITE; PS00133; CARBOXYPEPT_ZN_2; 1.
+DR   PROSITE; PS52035; PEPTIDASE_M14; 1.
+PE   1: Evidence at protein level;
+KW   Carboxypeptidase; Cytoplasmic vesicle; Direct protein sequencing;
+KW   Disulfide bond; Hydrolase; Metal-binding; Metalloprotease; Protease;
+KW   Reference proteome; Secreted; Signal; Zinc; Zymogen.
+FT   SIGNAL          1..13
+FT                   /evidence="ECO:0000250|UniProtKB:P15086"
+FT   PROPEP          14..108
+FT                   /note="Activation peptide"
+FT                   /evidence="ECO:0000269|PubMed:1898371"
+FT                   /id="PRO_0000004375"
+FT   CHAIN           109..415
+FT                   /note="Carboxypeptidase B"
+FT                   /id="PRO_0000004376"
+FT   DOMAIN          116..410
+FT                   /note="Peptidase M14"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   ACT_SITE        376
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   BINDING         174..177
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00730"
+FT   BINDING         174
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   BINDING         177
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   BINDING         232
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00730"
+FT   BINDING         249..250
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00730"
+FT   BINDING         302
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01379"
+FT   BINDING         303..304
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00730"
+FT   BINDING         354
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00730"
+FT   DISULFID        171..184
+FT                   /evidence="ECO:0000250|UniProtKB:P00732"
+FT   DISULFID        243..266
+FT                   /evidence="ECO:0000250|UniProtKB:P00732"
+FT   DISULFID        257..271
+FT                   /evidence="ECO:0000250|UniProtKB:P00732"
+SQ   SEQUENCE   415 AA;  47515 MW;  8EA06CCADE30B6F2 CRC64;
+     MLLLLALVSV ALAHASEEHF DGNRVYRVSV HGEDHVNLIQ ELANTKEIDF WKPDSATQVK
+     PLTTVDFHVK AEDVADVENF LEENEVHYEV LISNVRNALE SQFDSHTRAS GHSYTKYNKW
+     ETIEAWIQQV ATDNPDLVTQ SVIGTTFEGR NMYVLKIGKT RPNKPAIFID CGFHAREWIS
+     PAFCQWFVRE AVRTYNQEIH MKQLLDELDF YVLPVVNIDG YVYTWTKDRM WRKTRSTMAG
+     SSCLGVRPNR NFNAGWCEVG ASRSPCSETY CGPAPESEKE TKALADFIRN NLSTIKAYLT
+     IHSYSQMMLY PYSYDYKLPE NYEELNALVK GAAKELATLH GTKYTYGPGA TTIYPAAGGS
+     DDWSYDQGIK YSFTFELRDT GFFGFLLPES QIRQTCEETM LAVKYIANYV REHLY
+//

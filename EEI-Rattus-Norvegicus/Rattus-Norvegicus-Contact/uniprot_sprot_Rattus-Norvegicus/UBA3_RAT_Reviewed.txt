@@ -1,0 +1,191 @@
+ID   UBA3_RAT                Reviewed;         462 AA.
+AC   Q99MI7;
+DT   19-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   29-MAY-2024, entry version 153.
+DE   RecName: Full=NEDD8-activating enzyme E1 catalytic subunit;
+DE            EC=6.2.1.64 {ECO:0000250|UniProtKB:Q8TBC4};
+DE   AltName: Full=NEDD8-activating enzyme E1C;
+DE   AltName: Full=Ubiquitin-activating enzyme E1C;
+DE   AltName: Full=Ubiquitin-like modifier-activating enzyme 3;
+DE            Short=Ubiquitin-activating enzyme 3;
+GN   Name=Uba3; Synonyms=Ube1c;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, INTERACTION WITH ESR1 AND ESR2, AND
+RP   TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Uterus;
+RX   PubMed=11818503; DOI=10.1210/mend.16.2.0778;
+RA   Fan M., Long X., Bailey J.A., Reed C.A., Osborne E., Gize E.A., Kirk E.A.,
+RA   Bigsby R.M., Nephew K.P.;
+RT   "The activating enzyme of NEDD8 inhibits steroid receptor function.";
+RL   Mol. Endocrinol. 16:315-330(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Catalytic subunit of the dimeric UBA3-NAE1 E1 enzyme. E1
+CC       activates NEDD8 by first adenylating its C-terminal glycine residue
+CC       with ATP, thereafter linking this residue to the side chain of the
+CC       catalytic cysteine, yielding a NEDD8-UBA3 thioester and free AMP. E1
+CC       finally transfers NEDD8 to the catalytic cysteine of UBE2M. Down-
+CC       regulates steroid receptor activity. Necessary for cell cycle
+CC       progression. {ECO:0000269|PubMed:11818503}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + [NEDD8 protein] + [E1 NEDD8-activating enzyme]-L-
+CC         cysteine = AMP + diphosphate + [E1 NEDD8-activating enzyme]-S-[NEDD8
+CC         protein]-yl-L-cysteine.; EC=6.2.1.64;
+CC         Evidence={ECO:0000250|UniProtKB:Q8TBC4};
+CC   -!- ACTIVITY REGULATION: Binding of TP53BP2 to the regulatory subunit NAE1
+CC       decreases activity. {ECO:0000250}.
+CC   -!- PATHWAY: Protein modification; protein neddylation.
+CC   -!- SUBUNIT: Heterodimer of UBA3 and NAE1. Interacts with NEDD8, UBE2F and
+CC       UBE2M (By similarity). Binds ESR1 and ESR2 with bound steroid ligand.
+CC       Interacts with TBATA (By similarity). {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Ubiquitously expressed.
+CC       {ECO:0000269|PubMed:11818503}.
+CC   -!- MISCELLANEOUS: Arg-211 acts as a selectivity gate, preventing
+CC       misactivation of ubiquitin by this NEDD8-specific E1 complex.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the ubiquitin-activating E1 family. UBA3
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF336829; AAK21298.1; -; mRNA.
+DR   EMBL; BC081743; AAH81743.1; -; mRNA.
+DR   RefSeq; NP_476553.1; NM_057205.2.
+DR   AlphaFoldDB; Q99MI7; -.
+DR   BMRB; Q99MI7; -.
+DR   SMR; Q99MI7; -.
+DR   BioGRID; 250766; 2.
+DR   STRING; 10116.ENSRNOP00000008893; -.
+DR   iPTMnet; Q99MI7; -.
+DR   PhosphoSitePlus; Q99MI7; -.
+DR   jPOST; Q99MI7; -.
+DR   PaxDb; 10116-ENSRNOP00000008893; -.
+DR   GeneID; 117553; -.
+DR   KEGG; rno:117553; -.
+DR   UCSC; RGD:621084; rat.
+DR   AGR; RGD:621084; -.
+DR   CTD; 9039; -.
+DR   RGD; 621084; Uba3.
+DR   VEuPathDB; HostDB:ENSRNOG00000006221; -.
+DR   eggNOG; KOG2015; Eukaryota.
+DR   HOGENOM; CLU_013325_13_1_1; -.
+DR   InParanoid; Q99MI7; -.
+DR   OrthoDB; 20494at2759; -.
+DR   PhylomeDB; Q99MI7; -.
+DR   TreeFam; TF300499; -.
+DR   Reactome; R-RNO-5607761; Dectin-1 mediated noncanonical NF-kB signaling.
+DR   Reactome; R-RNO-5676590; NIK-->noncanonical NF-kB signaling.
+DR   Reactome; R-RNO-8951664; Neddylation.
+DR   Reactome; R-RNO-983168; Antigen processing: Ubiquitination & Proteasome degradation.
+DR   UniPathway; UPA00885; -.
+DR   PRO; PR:Q99MI7; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000006221; Expressed in duodenum and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0019781; F:NEDD8 activating enzyme activity; IDA:RGD.
+DR   GO; GO:0016922; F:nuclear receptor binding; IPI:RGD.
+DR   GO; GO:0046982; F:protein heterodimerization activity; ISO:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IMP:RGD.
+DR   GO; GO:0007113; P:endomitotic cell cycle; ISO:RGD.
+DR   GO; GO:0000278; P:mitotic cell cycle; ISO:RGD.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IDA:RGD.
+DR   GO; GO:0045116; P:protein neddylation; ISO:RGD.
+DR   GO; GO:0051726; P:regulation of cell cycle; ISO:RGD.
+DR   CDD; cd01488; Uba3_RUB; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 1.10.10.520; Ubiquitin activating enzymes (Uba3). Chain: B, domain 2; 1.
+DR   Gene3D; 3.10.290.20; Ubiquitin-like 2 activating enzyme e1b. Chain: B, domain 3; 1.
+DR   InterPro; IPR014929; E2-binding.
+DR   InterPro; IPR045886; ThiF/MoeB/HesA.
+DR   InterPro; IPR000594; ThiF_NAD_FAD-bd.
+DR   InterPro; IPR023318; Ub_act_enz_dom_a_sf.
+DR   InterPro; IPR030468; Uba3_N.
+DR   InterPro; IPR035985; Ubiquitin-activating_enz.
+DR   InterPro; IPR033127; UBQ-activ_enz_E1_Cys_AS.
+DR   PANTHER; PTHR10953:SF6; NEDD8-ACTIVATING ENZYME E1 CATALYTIC SUBUNIT; 1.
+DR   PANTHER; PTHR10953; UBIQUITIN-ACTIVATING ENZYME E1; 1.
+DR   Pfam; PF08825; E2_bind; 1.
+DR   Pfam; PF00899; ThiF; 1.
+DR   SMART; SM01181; E2_bind; 1.
+DR   SUPFAM; SSF69572; Activating enzymes of the ubiquitin-like proteins; 1.
+DR   PROSITE; PS00865; UBIQUITIN_ACTIVAT_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Cell cycle; Ligase; Nucleotide-binding;
+KW   Reference proteome; Ubl conjugation pathway.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8TBC4"
+FT   CHAIN           2..462
+FT                   /note="NEDD8-activating enzyme E1 catalytic subunit"
+FT                   /id="PRO_0000194944"
+FT   REGION          53..70
+FT                   /note="Interaction with UBE2M N-terminus"
+FT                   /evidence="ECO:0000250"
+FT   REGION          157..161
+FT                   /note="Interaction with UBE2M N-terminus"
+FT                   /evidence="ECO:0000250"
+FT   REGION          192..217
+FT                   /note="Interaction with UBE2M N-terminus"
+FT                   /evidence="ECO:0000250"
+FT   REGION          227..229
+FT                   /note="Interaction with NEDD8"
+FT                   /evidence="ECO:0000250"
+FT   REGION          242..248
+FT                   /note="Interaction with NAE1"
+FT                   /evidence="ECO:0000250"
+FT   REGION          292..295
+FT                   /note="Interaction with NAE1"
+FT                   /evidence="ECO:0000250"
+FT   REGION          331..338
+FT                   /note="Interaction with UBE2M N-terminus"
+FT                   /evidence="ECO:0000250"
+FT   REGION          352..357
+FT                   /note="Interaction with NEDD8"
+FT                   /evidence="ECO:0000250"
+FT   REGION          368..462
+FT                   /note="Interaction with UBE2M core domain"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        237
+FT                   /note="Glycyl thioester intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10132"
+FT   BINDING         100..124
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         148..171
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250"
+FT   SITE            211
+FT                   /note="Determines specificity for NEDD8"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8TBC4"
+SQ   SEQUENCE   462 AA;  51723 MW;  183FAB8C44486645 CRC64;
+     MADGEEPEKK RRRIEELLAE KMAVDGGCGD TGDWEGRWNH VKKFLERSGP FTHPDFEPST
+     ESLQFLLDTC KVLVIGAGGL GCELLKNLAL SGFRQIHVID MDTIDVSNLN RQFLFRPKDV
+     GRPKAEVAAE FLNDRVPNCN VVPHFNKIQD FNDTFYRQFH IIVCGLDSII ARRWINGMLI
+     SLLNYEDGVL DPSSIVPLID GGTEGFKGNA RVILPGMTAC IECTLELYPP QVNFPMCTIA
+     SMPRLPEHCI EYVRMLQWPK EQPFGDGVPL DGDDPEHIQW IFQKSVERAS QYNIRGVTYR
+     LTQGVVKRII PAVASTNAVI AAVCATEVFK IATSAYIPLN NYLVFNDVDG LYTYTFEAER
+     KENCPACSQL PQNIQFSPSA KLQEVLDYLT NSASLQMKSP AITATLEGKN RTLYLQSVTS
+     IEERTRPNLS KTLKELGLVD GQELAVADVT TPQTVLFKLH FT
+//

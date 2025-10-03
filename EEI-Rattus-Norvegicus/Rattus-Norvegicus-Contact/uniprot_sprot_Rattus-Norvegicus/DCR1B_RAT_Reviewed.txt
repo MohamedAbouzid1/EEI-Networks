@@ -1,0 +1,160 @@
+ID   DCR1B_RAT               Reviewed;         541 AA.
+AC   Q4KLY6;
+DT   05-OCT-2010, integrated into UniProtKB/Swiss-Prot.
+DT   05-OCT-2010, sequence version 2.
+DT   27-MAR-2024, entry version 91.
+DE   RecName: Full=5' exonuclease Apollo;
+DE            EC=3.1.-.-;
+DE   AltName: Full=Beta-lactamase MBLAC2;
+DE            EC=3.5.2.6 {ECO:0000250|UniProtKB:Q9H816};
+DE   AltName: Full=DNA cross-link repair 1B protein;
+DE   AltName: Full=SNM1 homolog B;
+GN   Name=Dclre1b; Synonyms=Snm1b;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: 5'-3' exonuclease that plays a central role in telomere
+CC       maintenance and protection during S-phase. Participates in the
+CC       protection of telomeres against non-homologous end-joining (NHEJ)-
+CC       mediated repair, thereby ensuring that telomeres do not fuse. Plays a
+CC       key role in telomeric loop (T loop) formation by being recruited by
+CC       TERF2 at the leading end telomeres and by processing leading-end
+CC       telomeres immediately after their replication via its exonuclease
+CC       activity: generates 3' single-stranded overhang at the leading end
+CC       telomeres avoiding blunt leading-end telomeres that are vulnerable to
+CC       end-joining reactions and expose the telomere end in a manner that
+CC       activates the DNA repair pathways. Together with TERF2, required to
+CC       protect telomeres from replicative damage during replication by
+CC       controlling the amount of DNA topoisomerase (TOP1, TOP2A and TOP2B)
+CC       needed for telomere replication during fork passage and prevent
+CC       aberrant telomere topology. Also involved in response to DNA damage:
+CC       plays a role in response to DNA interstrand cross-links (ICLs) by
+CC       facilitating double-strand break formation. In case of spindle stress,
+CC       involved in prophase checkpoint (By similarity). Possesses beta-
+CC       lactamase activity, catalyzing the hydrolysis of penicillin G and
+CC       nitrocefin (By similarity). Exhibits no activity towards other beta-
+CC       lactam antibiotic classes including cephalosporins (cefotaxime) and
+CC       carbapenems (imipenem) (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-lactam + H2O = a substituted beta-amino acid;
+CC         Xref=Rhea:RHEA:20401, ChEBI:CHEBI:15377, ChEBI:CHEBI:35627,
+CC         ChEBI:CHEBI:140347; EC=3.5.2.6;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H816};
+CC   -!- SUBUNIT: Interacts with TERF2; the interaction is direct. Interacts
+CC       with MUS81, MRE11 and FANCD2. Interacts with HSPA2, HSPA8 and HSPA14.
+CC       Interacts with SPAG5 (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Chromosome, telomere {ECO:0000250}. Nucleus
+CC       {ECO:0000250}. Cytoplasm, cytoskeleton, microtubule organizing center,
+CC       centrosome {ECO:0000250}. Note=Mainly localizes to telomeres, recruited
+CC       via its interaction with TERF2. During mitosis, localizes to the
+CC       centrosome (By similarity). {ECO:0000250}.
+CC   -!- DOMAIN: The TBM domain mediates interaction with TERF2. {ECO:0000250}.
+CC   -!- PTM: Ubiquitinated, leading to its degradation. Interaction with TERF2
+CC       protects it from ubiquitination (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the DNA repair metallo-beta-lactamase (DRMBL)
+CC       family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH98939.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC098939; AAH98939.1; ALT_FRAME; mRNA.
+DR   RefSeq; NP_001020858.1; NM_001025687.1.
+DR   AlphaFoldDB; Q4KLY6; -.
+DR   SMR; Q4KLY6; -.
+DR   STRING; 10116.ENSRNOP00000072954; -.
+DR   PhosphoSitePlus; Q4KLY6; -.
+DR   PaxDb; 10116-ENSRNOP00000026213; -.
+DR   GeneID; 310745; -.
+DR   KEGG; rno:310745; -.
+DR   UCSC; RGD:1310343; rat.
+DR   AGR; RGD:1310343; -.
+DR   CTD; 64858; -.
+DR   RGD; 1310343; Dclre1b.
+DR   eggNOG; KOG1361; Eukaryota.
+DR   InParanoid; Q4KLY6; -.
+DR   OrthoDB; 23465at2759; -.
+DR   PhylomeDB; Q4KLY6; -.
+DR   Reactome; R-RNO-6783310; Fanconi Anemia Pathway.
+DR   PRO; PR:Q4KLY6; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005813; C:centrosome; ISS:UniProtKB.
+DR   GO; GO:0000781; C:chromosome, telomeric region; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-KW.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0035312; F:5'-3' DNA exonuclease activity; IBA:GO_Central.
+DR   GO; GO:0008409; F:5'-3' exonuclease activity; ISS:UniProtKB.
+DR   GO; GO:0008800; F:beta-lactamase activity; ISS:UniProtKB.
+DR   GO; GO:0003684; F:damaged DNA binding; IBA:GO_Central.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; ISO:RGD.
+DR   GO; GO:0006303; P:double-strand break repair via nonhomologous end joining; IBA:GO_Central.
+DR   GO; GO:0036297; P:interstrand cross-link repair; ISO:RGD.
+DR   GO; GO:0031848; P:protection from non-homologous end joining at telomere; ISS:UniProtKB.
+DR   GO; GO:0016233; P:telomere capping; ISO:RGD.
+DR   GO; GO:0000723; P:telomere maintenance; ISS:UniProtKB.
+DR   GO; GO:0010833; P:telomere maintenance via telomere lengthening; ISO:RGD.
+DR   GO; GO:0031860; P:telomeric 3' overhang formation; ISS:UniProtKB.
+DR   GO; GO:0031627; P:telomeric loop formation; ISS:UniProtKB.
+DR   CDD; cd16273; SNM1A-1C-like_MBL-fold; 1.
+DR   Gene3D; 3.40.50.12650; -; 1.
+DR   Gene3D; 3.60.15.10; Ribonuclease Z/Hydroxyacylglutathione hydrolase-like; 1.
+DR   InterPro; IPR011084; DRMBL.
+DR   InterPro; IPR036866; RibonucZ/Hydroxyglut_hydro.
+DR   PANTHER; PTHR23240:SF8; 5' EXONUCLEASE APOLLO; 1.
+DR   PANTHER; PTHR23240; DNA CROSS-LINK REPAIR PROTEIN PSO2/SNM1-RELATED; 1.
+DR   Pfam; PF07522; DRMBL; 1.
+DR   SUPFAM; SSF56281; Metallo-hydrolase/oxidoreductase; 1.
+PE   1: Evidence at protein level;
+KW   Chromosome; Cytoplasm; Cytoskeleton; DNA damage; DNA repair; Exonuclease;
+KW   Hydrolase; Isopeptide bond; Nuclease; Nucleus; Reference proteome;
+KW   Telomere; Ubl conjugation.
+FT   CHAIN           1..541
+FT                   /note="5' exonuclease Apollo"
+FT                   /id="PRO_0000398626"
+FT   REGION          350..375
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          450..489
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           492..507
+FT                   /note="TBM"
+FT   COMPBIAS        459..489
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CROSSLNK        334
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H816"
+SQ   SEQUENCE   541 AA;  60924 MW;  C194022A218F9D2C CRC64;
+     MNGVVIPQTP IAVDFWSLRR AGTARLFFLS HMHCDHTVGL SSTWARPLYC SPITAHLLHR
+     RLQVSKQWIR ALEIGESHVL LLDEIGQETM TVTLIDANHC PGSVMFLFEG YFGTILYTGD
+     FRYTPSMLKE PALTLGKQIH TLYLDNTNCN PALVLPSRQE ATQQIIQLIR QFPQHNIKIG
+     LYSLGKESLL EQLALEFQTW VVLSPQRLEL VQLLGLADVF TVEEEAGRIH AVDHMEICHS
+     AMLQWNQTHP TIAIFPTSRK IRSPHPSIYS IPYSDHSSYS ELRAFVAALR PCQVVPIVRE
+     QPCGEFFQDS LSPRLSMPLI PHSVQQYMSS SSRKTNVFWQ LERRLKRPRT QGVVFESPEE
+     KADQVKVDRD SKKHKKESLS PWAGCLSRLC PHPLQARKQL FPDFCRKEGD EPVLFCDSNK
+     MATVLTAPLE LSVQLQPVDE FPFPETREEI GLGSPLWSGG GSGSPTRGKQ SNGMGCGSPP
+     THISRTTHLT PESGGLALKY LLTPVDFLQA GFSSRNFDQQ VEKHQRVQCN NPAVMNTVDD
+     V
+//

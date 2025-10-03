@@ -1,0 +1,586 @@
+ID   NPCL1_RAT               Reviewed;        1331 AA.
+AC   Q6T3U3;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   02-OCT-2024, entry version 118.
+DE   RecName: Full=NPC1-like intracellular cholesterol transporter 1 {ECO:0000312|RGD:1303135};
+DE            Short=Npc1l1 {ECO:0000303|PubMed:15928087};
+DE   AltName: Full=Niemann-Pick C1-like protein 1 {ECO:0000303|PubMed:14976318};
+DE   Flags: Precursor;
+GN   Name=Npc1l1 {ECO:0000312|RGD:1303135};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND SUBCELLULAR LOCATION.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=14976318; DOI=10.1126/science.1093131;
+RA   Altmann S.W., Davis H.R. Jr., Zhu L.-J., Yao X., Hoos L.M., Tetzloff G.,
+RA   Iyer S.P.N., Maguire M., Golovko A., Zeng M., Wang L., Murgolo N.,
+RA   Graziano M.P.;
+RT   "Niemann-Pick C1 like 1 protein is critical for intestinal cholesterol
+RT   absorption.";
+RL   Science 303:1201-1204(2004).
+RN   [2]
+RP   SUBCELLULAR LOCATION, AND CHARACTERIZATION.
+RX   PubMed=15777641; DOI=10.1016/j.bbagen.2004.12.021;
+RA   Iyer S.P.N., Yao X., Crona J.H., Hoos L.M., Tetzloff G., Davis H.R. Jr.,
+RA   Graziano M.P., Altmann S.W.;
+RT   "Characterization of the putative native and recombinant rat sterol
+RT   transporter Niemann-Pick C1 Like 1 (NPC1L1) protein.";
+RL   Biochim. Biophys. Acta 1722:282-292(2005).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=15928087; DOI=10.1073/pnas.0500269102;
+RA   Garcia-Calvo M., Lisnock J., Bull H.G., Hawes B.E., Burnett D.A.,
+RA   Braun M.P., Crona J.H., Davis H.R. Jr., Dean D.C., Detmers P.A.,
+RA   Graziano M.P., Hughes M., MacIntyre D.E., Ogawa A., O'neill K.A.,
+RA   Iyer S.P.N., Shevell D.E., Smith M.M., Tang Y.S., Makarewicz A.M.,
+RA   Ujjainwalla F., Altmann S.W., Chapman K.T., Thornberry N.A.;
+RT   "The target of ezetimibe is Niemann-Pick C1-like 1 (NPC1L1).";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:8132-8137(2005).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=17135346; DOI=10.1124/jpet.106.114181;
+RA   Yamanashi Y., Takada T., Suzuki H.;
+RT   "Niemann-Pick C1-like 1 overexpression facilitates ezetimibe-sensitive
+RT   cholesterol and beta-sitosterol uptake in CaCo-2 cells.";
+RL   J. Pharmacol. Exp. Ther. 320:559-564(2007).
+RN   [5]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=29880681; DOI=10.1126/science.aao6575;
+RA   Zhang Y.Y., Fu Z.Y., Wei J., Qi W., Baituola G., Luo J., Meng Y.J.,
+RA   Guo S.Y., Yin H., Jiang S.Y., Li Y.F., Miao H.H., Liu Y., Wang Y., Li B.L.,
+RA   Ma Y.T., Song B.L.;
+RT   "A LIMA1 variant promotes low plasma LDL cholesterol and decreases
+RT   intestinal cholesterol absorption.";
+RL   Science 360:1087-1092(2018).
+CC   -!- FUNCTION: Plays a major role in cholesterol homeostasis
+CC       (PubMed:17135346). Critical for the uptake of cholesterol across the
+CC       plasma membrane of the intestinal enterocyte (PubMed:17135346).
+CC       Involved in plant sterol absorption, it transports sitosterol, although
+CC       at lower rates than cholesterol (PubMed:17135346). Is the direct
+CC       molecular target of ezetimibe, a drug that inhibits cholesterol
+CC       absorption and is approved for the treatment of hypercholesterolemia
+CC       (PubMed:15928087). May have a function in the transport of multiple
+CC       lipids and their homeostasis, thereby influencing lipid metabolism
+CC       regulation (By similarity). May be involved in caveolin trafficking
+CC       from the plasma membrane (By similarity). Acts as a negative regulator
+CC       of NPC2 and down-regulates its expression and secretion by inhibiting
+CC       its maturation and accelerating its degradation (By similarity).
+CC       {ECO:0000250|UniProtKB:Q6T3U4, ECO:0000250|UniProtKB:Q9UHC9,
+CC       ECO:0000269|PubMed:15928087, ECO:0000269|PubMed:17135346}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cholesterol(in) = cholesterol(out); Xref=Rhea:RHEA:39747,
+CC         ChEBI:CHEBI:16113; Evidence={ECO:0000269|PubMed:17135346};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=sitosterol(out) = sitosterol(in); Xref=Rhea:RHEA:70723,
+CC         ChEBI:CHEBI:27693; Evidence={ECO:0000269|PubMed:17135346};
+CC   -!- SUBUNIT: Interacts with RAB11A, MYO5B and RAB11FIP2. Interaction with
+CC       RAB11A, MYO5B and RAB11FIP2 is required for proper transport to the
+CC       plasma membrane upon cholesterol depletion (By similarity). Interacts
+CC       with NPC2 (By similarity). Interacts with LIMA1 (By similarity).
+CC       {ECO:0000250, ECO:0000250|UniProtKB:Q6T3U4}.
+CC   -!- SUBCELLULAR LOCATION: Apical cell membrane
+CC       {ECO:0000269|PubMed:17135346}; Multi-pass membrane protein. Cell
+CC       membrane {ECO:0000269|PubMed:29880681}; Multi-pass membrane protein.
+CC       Note=Subfractionation of brush border membranes from proximal
+CC       enterocytes suggests considerable association with the apical membrane
+CC       fraction. Exists as a predominantly cell surface membrane expressed
+CC       protein. {ECO:0000269|PubMed:14976318}.
+CC   -!- TISSUE SPECIFICITY: Small intestine showed the highest level of
+CC       expression (PubMed:14976318). Expression in other tissues including
+CC       gall bladder, liver, testis and stomach is also observed
+CC       (PubMed:14976318). Along the duodenum-ileum axis, the levels vary in
+CC       different segments of the intestine with peak expression in the
+CC       proximal jejunum (PubMed:14976318). Protein expression is confined to
+CC       the enterocyte (PubMed:14976318). Discrete localization to the
+CC       epithelial layer bordering the luminal space along the crypt-villus
+CC       axis (PubMed:14976318). Protein expression in the enterocyte is
+CC       observed closest to the luminal space. Expression in enterocytes from
+CC       the proximal (jejunum) but not in the distal (ileum) region
+CC       (PubMed:14976318). {ECO:0000269|PubMed:14976318}.
+CC   -!- PTM: Highly glycosylated.
+CC   -!- SIMILARITY: Belongs to the patched family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY437867; AAR97888.1; -; mRNA.
+DR   RefSeq; NP_001002025.1; NM_001002025.1.
+DR   PDB; 6V3F; EM; 3.70 A; A=21-1331.
+DR   PDB; 6V3H; EM; 3.50 A; A=21-1331.
+DR   PDBsum; 6V3F; -.
+DR   PDBsum; 6V3H; -.
+DR   AlphaFoldDB; Q6T3U3; -.
+DR   EMDB; EMD-21035; -.
+DR   EMDB; EMD-21037; -.
+DR   SMR; Q6T3U3; -.
+DR   STRING; 10116.ENSRNOP00000065524; -.
+DR   BindingDB; Q6T3U3; -.
+DR   ChEMBL; CHEMBL5161; -.
+DR   DrugCentral; Q6T3U3; -.
+DR   GlyCosmos; Q6T3U3; 17 sites, No reported glycans.
+DR   GlyGen; Q6T3U3; 17 sites.
+DR   PhosphoSitePlus; Q6T3U3; -.
+DR   PaxDb; 10116-ENSRNOP00000065524; -.
+DR   Ensembl; ENSRNOT00000075827.3; ENSRNOP00000065524.1; ENSRNOG00000049955.3.
+DR   GeneID; 432367; -.
+DR   KEGG; rno:432367; -.
+DR   AGR; RGD:1303135; -.
+DR   CTD; 29881; -.
+DR   RGD; 1303135; Npc1l1.
+DR   eggNOG; KOG1933; Eukaryota.
+DR   GeneTree; ENSGT00940000159904; -.
+DR   HOGENOM; CLU_002359_0_0_1; -.
+DR   InParanoid; Q6T3U3; -.
+DR   OMA; VSLHCQN; -.
+DR   OrthoDB; 2786103at2759; -.
+DR   PhylomeDB; Q6T3U3; -.
+DR   Reactome; R-RNO-8963678; Intestinal lipid absorption.
+DR   PRO; PR:Q6T3U3; -.
+DR   Proteomes; UP000002494; Chromosome 14.
+DR   Bgee; ENSRNOG00000049955; Expressed in jejunum and 6 other cell types or tissues.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0031526; C:brush border membrane; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0015485; F:cholesterol binding; ISO:RGD.
+DR   GO; GO:1901363; F:heterocyclic compound binding; IPI:RGD.
+DR   GO; GO:0005319; F:lipid transporter activity; IEA:InterPro.
+DR   GO; GO:0031489; F:myosin V binding; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0031267; F:small GTPase binding; ISO:RGD.
+DR   GO; GO:0008431; F:vitamin E binding; ISO:RGD.
+DR   GO; GO:0071501; P:cellular response to sterol depletion; ISO:RGD.
+DR   GO; GO:0006695; P:cholesterol biosynthetic process; ISO:RGD.
+DR   GO; GO:0042632; P:cholesterol homeostasis; ISO:RGD.
+DR   GO; GO:0070508; P:cholesterol import; IDA:UniProtKB.
+DR   GO; GO:0030301; P:cholesterol transport; ISO:RGD.
+DR   GO; GO:0030299; P:intestinal cholesterol absorption; ISO:RGD.
+DR   GO; GO:0042157; P:lipoprotein metabolic process; ISO:RGD.
+DR   GO; GO:0014850; P:response to muscle activity; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0042360; P:vitamin E metabolic process; ISO:RGD.
+DR   GO; GO:0051180; P:vitamin transport; IDA:UniProtKB.
+DR   Gene3D; 1.20.1640.10; Multidrug efflux transporter AcrB transmembrane domain; 2.
+DR   InterPro; IPR053958; HMGCR/SNAP/NPC1-like_SSD.
+DR   InterPro; IPR004765; NPC1-like.
+DR   InterPro; IPR053956; NPC1_MLD.
+DR   InterPro; IPR032190; NPC1_N.
+DR   InterPro; IPR003392; Ptc/Disp.
+DR   InterPro; IPR000731; SSD.
+DR   NCBIfam; TIGR00917; 2A060601; 1.
+DR   PANTHER; PTHR45727; NPC INTRACELLULAR CHOLESTEROL TRANSPORTER 1; 1.
+DR   PANTHER; PTHR45727:SF3; NPC1-LIKE INTRACELLULAR CHOLESTEROL TRANSPORTER 1; 1.
+DR   Pfam; PF22314; NPC1_MLD; 1.
+DR   Pfam; PF16414; NPC1_N; 1.
+DR   Pfam; PF02460; Patched; 1.
+DR   Pfam; PF12349; Sterol-sensing; 1.
+DR   SUPFAM; SSF82866; Multidrug efflux transporter AcrB transmembrane domain; 2.
+DR   PROSITE; PS50156; SSD; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Cholesterol metabolism; Disulfide bond;
+KW   Glycoprotein; Lipid metabolism; Membrane; Reference proteome; Signal;
+KW   Steroid metabolism; Sterol metabolism; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..1331
+FT                   /note="NPC1-like intracellular cholesterol transporter 1"
+FT                   /id="PRO_0000023268"
+FT   TOPO_DOM        21..282
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        283..303
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        304..352
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        353..373
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        374..632
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        633..653
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        654..665
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        666..686
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        687..696
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        697..717
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        718..742
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        743..763
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        764..776
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        777..797
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        798..846
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        847..867
+FT                   /note="Helical; Name=8"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        868..1113
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1114..1134
+FT                   /note="Helical; Name=9"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1135..1142
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1143..1163
+FT                   /note="Helical; Name=10"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1164..1165
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1166..1186
+FT                   /note="Helical; Name=11"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1187..1206
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1207..1227
+FT                   /note="Helical; Name=12"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1228..1242
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1243..1263
+FT                   /note="Helical; Name=13"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1264..1331
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          632..797
+FT                   /note="SSD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00199"
+FT   CARBOHYD        53
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        85
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        138
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        244
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        416
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        431
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        464
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        479
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        497
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        506
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        606
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        626
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        909
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        917
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        996
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1038
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1076
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        32..90
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UHC9"
+FT   DISULFID        38..56
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UHC9"
+FT   DISULFID        77..125
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UHC9"
+FT   DISULFID        91..129
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UHC9"
+FT   DISULFID        113..254
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UHC9"
+FT   DISULFID        116..172
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UHC9"
+FT   DISULFID        189..197
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UHC9"
+FT   DISULFID        243..259
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UHC9"
+FT   DISULFID        256..263
+FT                   /evidence="ECO:0000250|UniProtKB:Q9UHC9"
+FT   DISULFID        471..485
+FT                   /evidence="ECO:0000250|UniProtKB:O15118"
+FT   DISULFID        525..542
+FT                   /evidence="ECO:0000250|UniProtKB:O15118"
+FT   DISULFID        920..925
+FT                   /evidence="ECO:0000250|UniProtKB:O15118"
+FT   DISULFID        967..1025
+FT                   /evidence="ECO:0000250|UniProtKB:O15118"
+FT   DISULFID        981..990
+FT                   /evidence="ECO:0000250|UniProtKB:O15118"
+FT   STRAND          28..37
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   TURN            42..44
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          55..61
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           67..76
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   TURN            83..86
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           93..102
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           104..110
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           114..129
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           133..135
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          137..143
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          152..161
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           162..172
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   TURN            178..181
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           184..187
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           194..196
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           199..206
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           209..211
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          215..223
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          225..227
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           256..259
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          260..263
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           283..311
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           333..350
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           352..367
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           368..372
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           379..383
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           389..401
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          406..416
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          420..423
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          425..427
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          429..432
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           434..436
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           438..452
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          456..458
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   TURN            459..462
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          463..465
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           467..469
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           482..484
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          487..489
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           490..494
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           498..501
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          505..509
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          512..516
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           518..527
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           552..555
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          556..558
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           564..566
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          569..576
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           585..606
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   TURN            608..610
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          611..616
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           620..625
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   TURN            626..632
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           633..636
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           638..650
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          655..659
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           660..663
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           666..689
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           696..699
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           702..723
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           732..761
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           767..787
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           790..803
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           827..834
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           836..840
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   TURN            843..845
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           846..863
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           873..876
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           883..893
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          899..904
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          910..912
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           913..917
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           930..938
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   TURN            941..943
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          946..948
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           953..961
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           963..965
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          968..970
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   TURN            975..978
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          979..981
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          987..989
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          992..995
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          999..1001
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1006..1016
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1029..1032
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   TURN            1033..1036
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          1037..1040
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   TURN            1041..1043
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          1044..1054
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1060..1081
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   STRAND          1093..1096
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1100..1103
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1104..1107
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1109..1131
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1136..1160
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1166..1178
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1180..1191
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1198..1226
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1227..1230
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1234..1239
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1241..1256
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1258..1266
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+FT   HELIX           1272..1281
+FT                   /evidence="ECO:0007829|PDB:6V3H"
+SQ   SEQUENCE   1331 AA;  146415 MW;  2E10EF2E3A337F70 CRC64;
+     MAAAWLGWLL WALLLSAAQG ELYTPKHEAG VCTFYEECGK NPELSGGLTS LSNVSCLSNT
+     PARHVTGEHL ALLQRICPRL YNGPNTTFAC CSTKQLLSLE SSMSITKALL TRCPACSDNF
+     VSLHCHNTCS PDQSLFINVT RVVERGAGEP PAVVAYEAFY QRSFAEKAYE SCSQVRIPAA
+     ASLAVGSMCG VYGSALCNAQ RWLNFQGDTG NGLAPLDITF HLLEPGQALP DGIQPLNGKI
+     APCNESQGDD SAVCSCQDCA ASCPVIPPPE ALRPSFYMGR MPGWLALIII FTAVFVLLSA
+     VLVRLRVVSN RNKNKAEGPQ EAPKLPHKHK LSPHTILGRF FQNWGTRVAS WPLTVLALSF
+     IVVIALAAGL TFIELTTDPV ELWSAPKSQA RKEKSFHDEH FGPFFRTNQI FVTARNRSSY
+     KYDSLLLGSK NFSGILSLDF LLELLELQER LRHLQVWSPE AERNISLQDI CYAPLNPYNT
+     SLSDCCVNSL LQYFQNNRTL LMLTANQTLN GQTSLVDWKD HFLYCANAPL TFKDGTSLAL
+     SCMADYGAPV FPFLAVGGYQ GTDYSEAEAL IITFSLNNYP ADDPRMAQAK LWEEAFLKEM
+     ESFQRNTSDK FQVAFSAERS LEDEINRTTI QDLPVFAVSY IIVFLYISLA LGSYSRCSRV
+     AVESKATLGL GGVIVVLGAV LAAMGFYSYL GVPSSLVIIQ VVPFLVLAVG ADNIFIFVLE
+     YQRLPRMPGE QREAHIGRTL GSVAPSMLLC SLSEAICFFL GALTPMPAVR TFALTSGLAI
+     ILDFLLQMTA FVALLSLDSK RQEASRPDVL CCFSTRKLPP PKEKEGLLLR FFRKIYAPFL
+     LHRFIRPVVM LLFLTLFGAN LYLMCNINVG LDQELALPKD SYLIDYFLFL NRYLEVGPPV
+     YFVTTSGFNF SSEAGMNATC SSAGCKSFSL TQKIQYASEF PDQSYVAIAA SSWVDDFIDW
+     LTPSSSCCRL YIRGPHKDEF CPSTDTSFNC LKNCMNRTLG PVRPTAEQFH KYLPWFLNDP
+     PNIRCPKGGL AAYRTSVNLS SDGQVIASQF MAYHKPLRNS QDFTEALRAS RLLAANITAD
+     LRKVPGTDPN FEVFPYTISN VFYQQYLTVL PEGIFTLALC FVPTFVVCYL LLGLDMCSGI
+     LNLLSIIMIL VDTIGLMAVW GISYNAVSLI NLVTAVGMSV EFVSHITRSF AVSTKPTRLE
+     RAKDATVFMG SAVFAGVAMT NFPGILILGF AQAQLIQIFF FRLNLLITLL GLLHGLVFLP
+     VVLSYLGPDV NQALVQEEKL ASEAAVAPEP SCPQYPSPAD ADANVNYGFA PELAHGANAA
+     RSSLPKSDQK F
+//

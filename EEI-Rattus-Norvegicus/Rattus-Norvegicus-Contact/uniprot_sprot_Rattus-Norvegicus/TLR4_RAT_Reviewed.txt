@@ -1,0 +1,420 @@
+ID   TLR4_RAT                Reviewed;         835 AA.
+AC   Q9QX05;
+DT   11-FEB-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   24-JUL-2024, entry version 171.
+DE   RecName: Full=Toll-like receptor 4;
+DE            Short=Toll4;
+DE   AltName: CD_antigen=CD284;
+DE   Flags: Precursor;
+GN   Name=Tlr4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Heart;
+RX   PubMed=10430608; DOI=10.1172/jci6709;
+RA   Frantz S., Kobzik L., Kim Y.-D., Fukazawa R., Medzhitov R., Lee R.T.,
+RA   Kelly R.A.;
+RT   "Toll4 (TLR4) expression in cardiac myocytes in normal and failing
+RT   myocardium.";
+RL   J. Clin. Invest. 104:271-280(1999).
+RN   [2]
+RP   INDUCTION BY LIPOPOLYSACCHARIDES.
+RX   PubMed=30980393; DOI=10.1002/jcp.28614;
+RA   Chao C.N., Lai C.H., Badrealam K.F., Lo J.F., Shen C.Y., Chen C.H.,
+RA   Chen R.J., Viswanadha V.P., Kuo W.W., Huang C.Y.;
+RT   "CHIP attenuates lipopolysaccharide-induced cardiac hypertrophy and
+RT   apoptosis by promoting NFATc3 proteasomal degradation.";
+RL   J. Cell. Physiol. 234:20128-20138(2019).
+CC   -!- FUNCTION: Transmembrane receptor that functions as a pattern
+CC       recognition receptor recognizing pathogen- and damage-associated
+CC       molecular patterns (PAMPs and DAMPs) to induce innate immune responses
+CC       via downstream signaling pathways. At the plasma membrane, cooperates
+CC       with LY96 to mediate the innate immune response to bacterial
+CC       lipopolysaccharide (LPS). Also involved in LPS-independent inflammatory
+CC       responses triggered by free fatty acids, such as palmitate, and Ni(2+).
+CC       Mechanistically, acts via MYD88, TIRAP and TRAF6, leading to NF-kappa-B
+CC       activation, cytokine secretion and the inflammatory response.
+CC       Alternatively, CD14-mediated TLR4 internalization via endocytosis is
+CC       associated with the initiation of a MYD88-independent signaling via the
+CC       TICAM1-TBK1-IRF3 axis leading to type I interferon production. In
+CC       addition to the secretion of proinflammatory cytokines, initiates the
+CC       activation of NLRP3 inflammasome and formation of a positive feedback
+CC       loop between autophagy and NF-kappa-B signaling cascade. In complex
+CC       with TLR6, promotes inflammation in monocytes/macrophages by
+CC       associating with TLR6 and the receptor CD86. Upon ligand binding, such
+CC       as oxLDL or amyloid-beta 42, the TLR4:TLR6 complex is internalized and
+CC       triggers inflammatory response, leading to NF-kappa-B-dependent
+CC       production of CXCL1, CXCL2 and CCL9 cytokines, via MYD88 signaling
+CC       pathway, and CCL5 cytokine, via TICAM1 signaling pathway. In myeloid
+CC       dendritic cells, vesicular stomatitis virus glycoprotein G but not LPS
+CC       promotes the activation of IRF7, leading to type I IFN production in a
+CC       CD14-dependent manner. {ECO:0000250|UniProtKB:O00206}.
+CC   -!- SUBUNIT: Belongs to the lipopolysaccharide (LPS) receptor, a multi-
+CC       protein complex containing at least CD14, LY96 and TLR4. Binding to
+CC       bacterial LPS leads to homodimerization. Interacts with LY96 via the
+CC       extracellular domain. Interacts with MYD88 and TIRAP via their
+CC       respective TIR domains. Interacts with TICAM2. Interacts with NOX4.
+CC       Interacts with CNPY3 and HSP90B1; this interaction is required for
+CC       proper folding in the endoplasmic reticulum. Interacts with MAP3K21;
+CC       this interaction leads to negative regulation of TLR4 signaling.
+CC       Interacts with CD36, following CD36 stimulation by oxLDL or amyloid-
+CC       beta 42, and forms a heterodimer with TLR6. The trimeric complex is
+CC       internalized and triggers inflammatory response. LYN kinase activity
+CC       facilitates TLR4-TLR6 heterodimerization and signal initiation.
+CC       Interacts with TICAM1 in response to LPS in a WDFY1-dependent manner.
+CC       Interacts with WDFY1 in response to LPS. Interacts with SMPDL3B.
+CC       Interacts with CEACAM1; upon lipopolysaccharide stimulation, forms a
+CC       complex including TLR4 and the phosphorylated form of SYK and CEACAM1,
+CC       which in turn, recruits PTPN6 that dephosphorylates SYK, reducing the
+CC       production of reactive oxygen species (ROS) and lysosome disruption,
+CC       which in turn, reduces the activity of the inflammasome. Interacts with
+CC       RFTN1; the interaction occurs in response to lipopolysaccharide
+CC       stimulation. Interacts with SCIMP; the interaction occurs in response
+CC       to lipopolysaccharide stimulation and is enhanced by phosphorylation of
+CC       SCIMP by LYN (By similarity). This interaction facilitates the
+CC       phosphorylation of TLR4 by LYN which elicits a selective cytokine
+CC       response in macrophages (By similarity). Interacts with TRAF3IP3 (By
+CC       similarity). Interacts with TREM1; this interaction enhances TLR4-
+CC       mediated inflammatory response (By similarity). Interacts with
+CC       ZG16B/PAUF (By similarity). Interacts with CD82; this interaction
+CC       inhibits TLR4-mediated signaling pathway (By similarity).
+CC       {ECO:0000250|UniProtKB:O00206, ECO:0000250|UniProtKB:Q9QUK6}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:O00206};
+CC       Single-pass type I membrane protein {ECO:0000250|UniProtKB:O00206}.
+CC       Early endosome {ECO:0000250|UniProtKB:O00206}. Cell projection, ruffle
+CC       {ECO:0000250|UniProtKB:Q9QUK6}. Note=Upon complex formation with CD36
+CC       and TLR6, internalized through dynamin-dependent endocytosis.
+CC       Colocalizes with RFTN1 at cell membrane and then together with RFTN1
+CC       moves to endosomes, upon lipopolysaccharide stimulation.
+CC       {ECO:0000250|UniProtKB:O00206}.
+CC   -!- INDUCTION: Induced by lipopolysaccharides.
+CC       {ECO:0000269|PubMed:30980393}.
+CC   -!- DOMAIN: The TIR domain mediates interaction with NOX4.
+CC       {ECO:0000250|UniProtKB:O00206}.
+CC   -!- PTM: Phosphorylated on tyrosine residues by LYN after binding
+CC       lipopolysaccharide. {ECO:0000250|UniProtKB:Q9QUK6}.
+CC   -!- SIMILARITY: Belongs to the Toll-like receptor family. {ECO:0000305}.
+CC   -!- CAUTION: In some plant proteins and in human SARM1, the TIR domain has
+CC       NAD(+) hydrolase (NADase) activity (By similarity). However, despite
+CC       the presence of the catalytic Asp residue, the isolated TIR domain of
+CC       human TLR4 lacks NADase activity (By similarity). Based on this, it is
+CC       unlikely that Toll-like receptors have NADase activity.
+CC       {ECO:0000250|UniProtKB:O00206, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF057025; AAC13313.1; -; mRNA.
+DR   RefSeq; NP_062051.1; NM_019178.1.
+DR   AlphaFoldDB; Q9QX05; -.
+DR   SMR; Q9QX05; -.
+DR   BioGRID; 247933; 1.
+DR   IntAct; Q9QX05; 1.
+DR   MINT; Q9QX05; -.
+DR   STRING; 10116.ENSRNOP00000014020; -.
+DR   ChEMBL; CHEMBL4523480; -.
+DR   GlyCosmos; Q9QX05; 15 sites, No reported glycans.
+DR   GlyGen; Q9QX05; 15 sites.
+DR   PhosphoSitePlus; Q9QX05; -.
+DR   PaxDb; 10116-ENSRNOP00000014020; -.
+DR   ABCD; Q9QX05; 2 sequenced antibodies.
+DR   GeneID; 29260; -.
+DR   KEGG; rno:29260; -.
+DR   UCSC; RGD:3870; rat.
+DR   AGR; RGD:3870; -.
+DR   CTD; 7099; -.
+DR   RGD; 3870; Tlr4.
+DR   eggNOG; KOG4641; Eukaryota.
+DR   InParanoid; Q9QX05; -.
+DR   OrthoDB; 1207361at2759; -.
+DR   PhylomeDB; Q9QX05; -.
+DR   Reactome; R-RNO-140534; Caspase activation via Death Receptors in the presence of ligand.
+DR   Reactome; R-RNO-166016; Toll Like Receptor 4 (TLR4) Cascade.
+DR   Reactome; R-RNO-166166; MyD88-independent TLR4 cascade.
+DR   Reactome; R-RNO-2562578; TRIF-mediated programmed cell death.
+DR   Reactome; R-RNO-5686938; Regulation of TLR by endogenous ligand.
+DR   Reactome; R-RNO-936964; Activation of IRF3, IRF7 mediated by TBK1, IKKEpsilon (IKBKE).
+DR   Reactome; R-RNO-937041; IKK complex recruitment mediated by RIP1.
+DR   Reactome; R-RNO-937072; TRAF6-mediated induction of TAK1 complex within TLR4 complex.
+DR   Reactome; R-RNO-9707616; Heme signaling.
+DR   Reactome; R-RNO-975163; IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation.
+DR   Reactome; R-RNO-9824878; Regulation of TBK1, IKKEpsilon (IKBKE)-mediated activation of IRF3, IRF7.
+DR   PRO; PR:Q9QX05; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0009986; C:cell surface; IDA:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005769; C:early endosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0010008; C:endosome membrane; ISO:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISO:RGD.
+DR   GO; GO:0046696; C:lipopolysaccharide receptor complex; ISS:UniProtKB.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISO:RGD.
+DR   GO; GO:0001891; C:phagocytic cup; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0043235; C:receptor complex; ISO:RGD.
+DR   GO; GO:0001726; C:ruffle; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0001530; F:lipopolysaccharide binding; IDA:RGD.
+DR   GO; GO:0001875; F:lipopolysaccharide immune receptor activity; ISS:UniProtKB.
+DR   GO; GO:0061809; F:NAD+ nucleotidase, cyclic ADP-ribose generating; IEA:UniProtKB-EC.
+DR   GO; GO:0043548; F:phosphatidylinositol 3-kinase binding; IPI:RGD.
+DR   GO; GO:0046982; F:protein heterodimerization activity; ISO:RGD.
+DR   GO; GO:0038023; F:signaling receptor activity; ISO:RGD.
+DR   GO; GO:0005102; F:signaling receptor binding; ISO:RGD.
+DR   GO; GO:0004888; F:transmembrane signaling receptor activity; IEA:InterPro.
+DR   GO; GO:0002218; P:activation of innate immune response; ISO:RGD.
+DR   GO; GO:0014002; P:astrocyte development; ISO:RGD.
+DR   GO; GO:0042100; P:B cell proliferation; ISO:RGD.
+DR   GO; GO:0002322; P:B cell proliferation involved in immune response; ISO:RGD.
+DR   GO; GO:1904646; P:cellular response to amyloid-beta; ISO:RGD.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; IEP:RGD.
+DR   GO; GO:0071223; P:cellular response to lipoteichoic acid; ISO:RGD.
+DR   GO; GO:0071260; P:cellular response to mechanical stimulus; IEP:RGD.
+DR   GO; GO:0140052; P:cellular response to oxidised low-density lipoprotein particle stimulus; ISO:RGD.
+DR   GO; GO:0036120; P:cellular response to platelet-derived growth factor stimulus; ISO:RGD.
+DR   GO; GO:0071300; P:cellular response to retinoic acid; IEP:RGD.
+DR   GO; GO:0071346; P:cellular response to type II interferon; ISO:RGD.
+DR   GO; GO:0050829; P:defense response to Gram-negative bacterium; ISO:RGD.
+DR   GO; GO:0032497; P:detection of lipopolysaccharide; ISS:UniProtKB.
+DR   GO; GO:0050966; P:detection of mechanical stimulus involved in sensory perception of pain; IMP:RGD.
+DR   GO; GO:0050965; P:detection of temperature stimulus involved in sensory perception of pain; IMP:RGD.
+DR   GO; GO:0070371; P:ERK1 and ERK2 cascade; ISO:RGD.
+DR   GO; GO:0010467; P:gene expression; ISO:RGD.
+DR   GO; GO:0016064; P:immunoglobulin mediated immune response; IEP:RGD.
+DR   GO; GO:0006954; P:inflammatory response; ISO:RGD.
+DR   GO; GO:0002758; P:innate immune response-activating signaling pathway; IMP:RGD.
+DR   GO; GO:0060729; P:intestinal epithelial structure maintenance; ISO:RGD.
+DR   GO; GO:0007254; P:JNK cascade; ISO:RGD.
+DR   GO; GO:0006691; P:leukotriene metabolic process; IDA:RGD.
+DR   GO; GO:0031663; P:lipopolysaccharide-mediated signaling pathway; ISO:RGD.
+DR   GO; GO:0046651; P:lymphocyte proliferation; ISO:RGD.
+DR   GO; GO:0042116; P:macrophage activation; ISO:RGD.
+DR   GO; GO:0045342; P:MHC class II biosynthetic process; ISO:RGD.
+DR   GO; GO:0014004; P:microglia differentiation; ISO:RGD.
+DR   GO; GO:0001774; P:microglial cell activation; IDA:RGD.
+DR   GO; GO:0002755; P:MyD88-dependent toll-like receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0120163; P:negative regulation of cold-induced thermogenesis; ISS:YuBioLab.
+DR   GO; GO:0070373; P:negative regulation of ERK1 and ERK2 cascade; ISO:RGD.
+DR   GO; GO:0032700; P:negative regulation of interleukin-17 production; ISO:RGD.
+DR   GO; GO:0032707; P:negative regulation of interleukin-23 production; ISO:RGD.
+DR   GO; GO:0032715; P:negative regulation of interleukin-6 production; ISO:RGD.
+DR   GO; GO:0032720; P:negative regulation of tumor necrosis factor production; ISO:RGD.
+DR   GO; GO:0032689; P:negative regulation of type II interferon production; ISO:RGD.
+DR   GO; GO:0022008; P:neurogenesis; ISO:RGD.
+DR   GO; GO:0006809; P:nitric oxide biosynthetic process; ISO:RGD.
+DR   GO; GO:0002537; P:nitric oxide production involved in inflammatory response; ISO:RGD.
+DR   GO; GO:0070427; P:nucleotide-binding oligomerization domain containing 1 signaling pathway; ISO:RGD.
+DR   GO; GO:0070431; P:nucleotide-binding oligomerization domain containing 2 signaling pathway; ISO:RGD.
+DR   GO; GO:0006909; P:phagocytosis; ISO:RGD.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:0030890; P:positive regulation of B cell proliferation; ISO:RGD.
+DR   GO; GO:0043123; P:positive regulation of canonical NF-kappaB signal transduction; ISO:RGD.
+DR   GO; GO:1903974; P:positive regulation of cellular response to macrophage colony-stimulating factor stimulus; ISO:RGD.
+DR   GO; GO:2000343; P:positive regulation of chemokine (C-X-C motif) ligand 2 production; ISO:RGD.
+DR   GO; GO:0032722; P:positive regulation of chemokine production; ISO:RGD.
+DR   GO; GO:1900017; P:positive regulation of cytokine production involved in inflammatory response; ISO:RGD.
+DR   GO; GO:0070374; P:positive regulation of ERK1 and ERK2 cascade; ISO:RGD.
+DR   GO; GO:2001238; P:positive regulation of extrinsic apoptotic signaling pathway; ISO:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:0050729; P:positive regulation of inflammatory response; ISO:RGD.
+DR   GO; GO:0032727; P:positive regulation of interferon-alpha production; ISO:RGD.
+DR   GO; GO:0032728; P:positive regulation of interferon-beta production; ISO:RGD.
+DR   GO; GO:0032731; P:positive regulation of interleukin-1 beta production; ISS:UniProtKB.
+DR   GO; GO:0032732; P:positive regulation of interleukin-1 production; ISO:RGD.
+DR   GO; GO:0032733; P:positive regulation of interleukin-10 production; ISO:RGD.
+DR   GO; GO:0032735; P:positive regulation of interleukin-12 production; ISO:RGD.
+DR   GO; GO:0032755; P:positive regulation of interleukin-6 production; ISO:RGD.
+DR   GO; GO:0032757; P:positive regulation of interleukin-8 production; ISO:RGD.
+DR   GO; GO:0046330; P:positive regulation of JNK cascade; ISO:RGD.
+DR   GO; GO:0050671; P:positive regulation of lymphocyte proliferation; ISO:RGD.
+DR   GO; GO:0043032; P:positive regulation of macrophage activation; ISO:RGD.
+DR   GO; GO:0060907; P:positive regulation of macrophage cytokine production; ISO:RGD.
+DR   GO; GO:1904466; P:positive regulation of matrix metallopeptidase secretion; ISO:RGD.
+DR   GO; GO:0045348; P:positive regulation of MHC class II biosynthetic process; ISO:RGD.
+DR   GO; GO:0045429; P:positive regulation of nitric oxide biosynthetic process; ISO:RGD.
+DR   GO; GO:0051770; P:positive regulation of nitric-oxide synthase biosynthetic process; ISO:RGD.
+DR   GO; GO:1900227; P:positive regulation of NLRP3 inflammasome complex assembly; ISS:UniProtKB.
+DR   GO; GO:1901224; P:positive regulation of non-canonical NF-kappaB signal transduction; ISO:RGD.
+DR   GO; GO:0070430; P:positive regulation of nucleotide-binding oligomerization domain containing 1 signaling pathway; ISO:RGD.
+DR   GO; GO:0070434; P:positive regulation of nucleotide-binding oligomerization domain containing 2 signaling pathway; ISO:RGD.
+DR   GO; GO:0050731; P:positive regulation of peptidyl-tyrosine phosphorylation; IDA:RGD.
+DR   GO; GO:0010572; P:positive regulation of platelet activation; ISO:RGD.
+DR   GO; GO:1903428; P:positive regulation of reactive oxygen species biosynthetic process; ISO:RGD.
+DR   GO; GO:0014911; P:positive regulation of smooth muscle cell migration; ISO:RGD.
+DR   GO; GO:0048661; P:positive regulation of smooth muscle cell proliferation; ISO:RGD.
+DR   GO; GO:0032874; P:positive regulation of stress-activated MAPK cascade; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0032760; P:positive regulation of tumor necrosis factor production; ISO:RGD.
+DR   GO; GO:0032729; P:positive regulation of type II interferon production; ISO:RGD.
+DR   GO; GO:0002730; P:regulation of dendritic cell cytokine production; ISO:RGD.
+DR   GO; GO:0050727; P:regulation of inflammatory response; ISO:RGD.
+DR   GO; GO:0032680; P:regulation of tumor necrosis factor production; IMP:RGD.
+DR   GO; GO:0014823; P:response to activity; IEP:RGD.
+DR   GO; GO:0009617; P:response to bacterium; ISO:RGD.
+DR   GO; GO:0045471; P:response to ethanol; IMP:RGD.
+DR   GO; GO:0070542; P:response to fatty acid; IDA:RGD.
+DR   GO; GO:0051384; P:response to glucocorticoid; IEP:RGD.
+DR   GO; GO:1990268; P:response to gold nanoparticle; IEP:RGD.
+DR   GO; GO:0001666; P:response to hypoxia; IEP:RGD.
+DR   GO; GO:0032868; P:response to insulin; IEP:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IDA:RGD.
+DR   GO; GO:0006979; P:response to oxidative stress; IMP:RGD.
+DR   GO; GO:0032570; P:response to progesterone; IEP:RGD.
+DR   GO; GO:0032526; P:response to retinoic acid; IEP:RGD.
+DR   GO; GO:0009636; P:response to toxic substance; IEP:RGD.
+DR   GO; GO:0003009; P:skeletal muscle contraction; IEP:RGD.
+DR   GO; GO:0051403; P:stress-activated MAPK cascade; ISO:RGD.
+DR   GO; GO:0034142; P:toll-like receptor 4 signaling pathway; ISO:RGD.
+DR   GO; GO:0002224; P:toll-like receptor signaling pathway; IDA:RGD.
+DR   GO; GO:0035666; P:TRIF-dependent toll-like receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0002246; P:wound healing involved in inflammatory response; ISO:RGD.
+DR   Gene3D; 3.80.10.10; Ribonuclease Inhibitor; 1.
+DR   Gene3D; 3.40.50.10140; Toll/interleukin-1 receptor homology (TIR) domain; 1.
+DR   InterPro; IPR001611; Leu-rich_rpt.
+DR   InterPro; IPR003591; Leu-rich_rpt_typical-subtyp.
+DR   InterPro; IPR032675; LRR_dom_sf.
+DR   InterPro; IPR000157; TIR_dom.
+DR   InterPro; IPR017241; Toll-like_receptor.
+DR   InterPro; IPR035897; Toll_tir_struct_dom_sf.
+DR   PANTHER; PTHR24365; TOLL-LIKE RECEPTOR; 1.
+DR   PANTHER; PTHR24365:SF521; TOLL-LIKE RECEPTOR 4; 1.
+DR   Pfam; PF13855; LRR_8; 3.
+DR   Pfam; PF01582; TIR; 1.
+DR   PIRSF; PIRSF037595; Toll-like_receptor; 1.
+DR   SMART; SM00369; LRR_TYP; 9.
+DR   SMART; SM00255; TIR; 1.
+DR   SUPFAM; SSF52058; L domain-like; 3.
+DR   SUPFAM; SSF52200; Toll/Interleukin receptor TIR domain; 1.
+DR   PROSITE; PS51450; LRR; 13.
+DR   PROSITE; PS50104; TIR; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Cell projection; Disulfide bond; Endosome; Glycoprotein;
+KW   Immunity; Inflammatory response; Innate immunity; Leucine-rich repeat;
+KW   Membrane; NAD; Receptor; Reference proteome; Repeat; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..835
+FT                   /note="Toll-like receptor 4"
+FT                   /id="PRO_0000034728"
+FT   TOPO_DOM        26..638
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        639..659
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        660..835
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          54..75
+FT                   /note="LRR 1"
+FT   REPEAT          78..99
+FT                   /note="LRR 2"
+FT   REPEAT          102..123
+FT                   /note="LRR 3"
+FT   REPEAT          126..147
+FT                   /note="LRR 4"
+FT   REPEAT          150..171
+FT                   /note="LRR 5"
+FT   REPEAT          175..198
+FT                   /note="LRR 6"
+FT   REPEAT          204..224
+FT                   /note="LRR 7"
+FT   REPEAT          226..247
+FT                   /note="LRR 8"
+FT   REPEAT          372..381
+FT                   /note="LRR 9"
+FT   REPEAT          398..420
+FT                   /note="LRR 10"
+FT   REPEAT          421..442
+FT                   /note="LRR 11"
+FT   REPEAT          446..467
+FT                   /note="LRR 12"
+FT   REPEAT          470..491
+FT                   /note="LRR 13"
+FT   REPEAT          495..516
+FT                   /note="LRR 14"
+FT   REPEAT          519..540
+FT                   /note="LRR 15"
+FT   REPEAT          543..564
+FT                   /note="LRR 16"
+FT   DOMAIN          576..627
+FT                   /note="LRRCT"
+FT   DOMAIN          670..813
+FT                   /note="TIR"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00204"
+FT   CARBOHYD        34
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        43
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        75
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        172
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        204
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        237
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        248
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        281
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        307
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        492
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        495
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        524
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        572
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        575
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        622
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        28..39
+FT                   /evidence="ECO:0000250|UniProtKB:O00206"
+FT   DISULFID        280..304
+FT                   /evidence="ECO:0000250|UniProtKB:O00206"
+FT   DISULFID        388..389
+FT                   /evidence="ECO:0000250|UniProtKB:O00206"
+FT   DISULFID        580..606
+FT                   /evidence="ECO:0000250|UniProtKB:O00206"
+FT   DISULFID        582..625
+FT                   /evidence="ECO:0000250|UniProtKB:O00206"
+SQ   SEQUENCE   835 AA;  96072 MW;  DF5E16A30851E3A0 CRC64;
+     MMPLLHLAGT LIMALFLSCL RPGSLNPCIE VLPNITYQCM DQNLSKIPHD IPYSTKNLDL
+     SFNPLKILRS YSFTNFSQLQ WLDLSRCEIE TIEDKAWHGL NQLSTLVLTG NPIKSFSPGS
+     FSGLTNLENL VAVETKMTSL EGFHIGQLIS LKKLNVAHNL IHSFKLPEYF SNLTNLEHVD
+     LSYNYIQTIS VKDLQFLREN PQVNLSLDLS LNPIDSIQAQ AFQGIRLHEL TLRSNFNSSN
+     VLKMCLQNMT GLHVHRLILG EFKNERNLES FDRSVMEGLC NVSIDEFRLT YINHFSDDIY
+     NLNCLANISA MSFTGVHIKH IADVPRHFKW QSLSIIRCHL KPFPKLSLPF LKSWTLTTNR
+     EDISFGQLAL PSLRYLDLSR NAMSFRGCCS YSDFGTNNLK YLDLSFNGVI LMSANFMGLE
+     ELEYLDFQHS TLKKVTEFSV FLSLEKLLYL DISYTNTKID FDGIFLGLIS LNTLKMAGNS
+     FKDNTLSNVF TNTTNLTFLD LSKCQLEQIS RGVFDTLYRL QLLNMSHNNL LFLDPSHYKQ
+     LYSLRTLDCS FNRIETSKGI LQHFPKSLAV FNLTNNSVAC ICEYQNFLQW VKDQKMFLVN
+     VEQMKCASPI DMKASLVLDF TNSTCYIYKT IISVSVVSVL VVATVAFLIY HFYFHLILIA
+     GCKKYSRGES IYDAFVIYSS QNEDWVRNEL VKNLEEGVPR FQLCLHYRDF IPGVAIAANI
+     IQEGFHKSRK VIVVVSRHFI QSRWCIFEYE IAQTWQFLSS RSGIIFIVLE KVEKSLLRQQ
+     VELYRLLSRN TYLEWEDNAL GRHIFWRRLK KALLDGKALN PDETSEEEQE ATTLT
+//

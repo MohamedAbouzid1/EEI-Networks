@@ -1,0 +1,263 @@
+ID   SC5A7_RAT               Reviewed;         580 AA.
+AC   Q9JMD7;
+DT   07-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   24-JUL-2024, entry version 115.
+DE   RecName: Full=High affinity choline transporter 1 {ECO:0000303|PubMed:10649566};
+DE            Short=rCHT1 {ECO:0000303|PubMed:10649566};
+DE   AltName: Full=Hemicholinium-3-sensitive choline transporter {ECO:0000250|UniProtKB:Q9GZV3};
+DE            Short=CHT {ECO:0000250|UniProtKB:Q9GZV3};
+DE   AltName: Full=Solute carrier family 5 member 7 {ECO:0000250|UniProtKB:Q9GZV3};
+GN   Name=Slc5a7 {ECO:0000312|RGD:69270}; Synonyms=Cht1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TRANSPORTER ACTIVITY, ACTIVITY
+RP   REGULATION, AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Spinal cord;
+RX   PubMed=10649566; DOI=10.1038/72059;
+RA   Okuda T., Haga T., Kanai Y., Endou H., Ishihara T., Katsura I.;
+RT   "Identification and characterization of the high-affinity choline
+RT   transporter.";
+RL   Nat. Neurosci. 3:120-125(2000).
+RN   [2]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=12969261; DOI=10.1046/j.1471-4159.2003.01974.x;
+RA   Ribeiro F.M., Alves-Silva J., Volknandt W., Martins-Silva C., Mahmud H.,
+RA   Wilhelm A., Gomez M.V., Rylett R.J., Ferguson S.S., Prado V.F., Prado M.A.;
+RT   "The hemicholinium-3 sensitive high affinity choline transporter is
+RT   internalized by clathrin-mediated endocytosis and is present in endosomes
+RT   and synaptic vesicles.";
+RL   J. Neurochem. 87:136-146(2003).
+RN   [3]
+RP   INTERACTION WITH SEC14L1, AND REGION.
+RX   PubMed=17092608; DOI=10.1016/j.neuint.2006.09.010;
+RA   Ribeiro F.M., Ferreira L.T., Marion S., Fontes S., Gomez M., Ferguson S.S.,
+RA   Prado M.A., Prado V.F.;
+RT   "SEC14-like protein 1 interacts with cholinergic transporters.";
+RL   Neurochem. Int. 50:356-364(2007).
+CC   -!- FUNCTION: High-affinity Na(+)-coupled choline transmembrane symporter
+CC       (PubMed:10649566). Functions as an electrogenic, voltage-dependent
+CC       transporter with variable charge/choline stoichiometry (By similarity).
+CC       Choline uptake and choline-induced current is also Cl(-)-dependent
+CC       where Cl(-) is likely a regulatory ion rather than cotransported ion
+CC       (By similarity). Plays a critical role in acetylcholine (ACh) synthesis
+CC       by taking up the substrate choline from the synaptic cleft into the
+CC       presynaptic nerve terminals after neurotransmitter release (By
+CC       similarity). SLC5A7/CHT1-mediated choline high-affinity transport in
+CC       cholinergic neurons is the rate-limiting step for production of ACh,
+CC       thereby facilitating communication by subsequent action potentials (By
+CC       similarity). Localized predominantly in presynaptic terminal
+CC       intracellular organelles, and translocated to the plasma membrane in
+CC       active form in response to neuronal activity (By similarity).
+CC       {ECO:0000250|UniProtKB:Q8BGY9, ECO:0000250|UniProtKB:Q9GZV3,
+CC       ECO:0000269|PubMed:10649566}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=choline(out) + n Na(+)(out) = choline(in) + n Na(+)(in);
+CC         Xref=Rhea:RHEA:76443, ChEBI:CHEBI:15354, ChEBI:CHEBI:29101;
+CC         Evidence={ECO:0000269|PubMed:10649566};
+CC   -!- ACTIVITY REGULATION: Choline uptake activity is regulated by
+CC       SLC5A7/CHT1 internalization (inactive form) from the cell surface and
+CC       recycling of internalized SLC5A7/CHT1 into the cell surface (active
+CC       form) (By similarity). Activated by extracellular chloride ion (By
+CC       similarity). Specifically inhibited by nanomolar concentrations of
+CC       hemicholinium 3 (PubMed:10649566). {ECO:0000250|UniProtKB:Q9GZV3,
+CC       ECO:0000269|PubMed:10649566}.
+CC   -!- SUBUNIT: Homooligomerizes at cell surface (By similarity). Interacts
+CC       with SEC14L1; may regulate SLC5A7 (PubMed:17092608).
+CC       {ECO:0000250|UniProtKB:Q9GZV3, ECO:0000269|PubMed:17092608}.
+CC   -!- SUBCELLULAR LOCATION: Presynaptic cell membrane
+CC       {ECO:0000250|UniProtKB:Q9GZV3}; Multi-pass membrane protein
+CC       {ECO:0000305}. Cell projection, axon {ECO:0000250|UniProtKB:Q8BGY9}.
+CC       Early endosome membrane {ECO:0000250|UniProtKB:Q9GZV3}; Multi-pass
+CC       membrane protein {ECO:0000305}. Cytoplasmic vesicle, secretory vesicle,
+CC       synaptic vesicle membrane {ECO:0000269|PubMed:12969261}; Multi-pass
+CC       membrane protein {ECO:0000305}. Note=Localized to synaptic vesicles.
+CC       {ECO:0000269|PubMed:12969261}.
+CC   -!- TISSUE SPECIFICITY: Expressed in basal forebrain, brain stem, spinal
+CC       chord, and striatum (PubMed:10649566). Specific for cholinergic neurons
+CC       (PubMed:10649566). {ECO:0000269|PubMed:10649566}.
+CC   -!- DOMAIN: The C-terminal dileucine-like motif (DKTILV) controls
+CC       SLC5A7/CHT1 internalization in clathrin-coated vesicles to early
+CC       endosomes as well as choline transporter activity.
+CC       {ECO:0000250|UniProtKB:Q9GZV3}.
+CC   -!- PTM: Phosphorylated. {ECO:0000250|UniProtKB:Q8BGY9}.
+CC   -!- SIMILARITY: Belongs to the sodium:solute symporter (SSF) (TC 2.A.21)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB030947; BAA90484.1; -; mRNA.
+DR   RefSeq; NP_445973.1; NM_053521.1.
+DR   AlphaFoldDB; Q9JMD7; -.
+DR   SMR; Q9JMD7; -.
+DR   STRING; 10116.ENSRNOP00000014548; -.
+DR   BindingDB; Q9JMD7; -.
+DR   ChEMBL; CHEMBL5797; -.
+DR   TCDB; 2.A.21.8.1; the solute:sodium symporter (sss) family.
+DR   GlyCosmos; Q9JMD7; 1 site, No reported glycans.
+DR   GlyGen; Q9JMD7; 1 site.
+DR   iPTMnet; Q9JMD7; -.
+DR   PhosphoSitePlus; Q9JMD7; -.
+DR   PaxDb; 10116-ENSRNOP00000014548; -.
+DR   GeneID; 85426; -.
+DR   KEGG; rno:85426; -.
+DR   UCSC; RGD:69270; rat.
+DR   AGR; RGD:69270; -.
+DR   CTD; 60482; -.
+DR   RGD; 69270; Slc5a7.
+DR   eggNOG; KOG3761; Eukaryota.
+DR   InParanoid; Q9JMD7; -.
+DR   OrthoDB; 3680931at2759; -.
+DR   PhylomeDB; Q9JMD7; -.
+DR   Reactome; R-RNO-264642; Acetylcholine Neurotransmitter Release Cycle.
+DR   Reactome; R-RNO-425366; Transport of bile salts and organic acids, metal ions and amine compounds.
+DR   PRO; PR:Q9JMD7; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:RGD.
+DR   GO; GO:0030424; C:axon; IDA:RGD.
+DR   GO; GO:0045334; C:clathrin-coated endocytic vesicle; IDA:RGD.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0005769; C:early endosome; IDA:RGD.
+DR   GO; GO:0031901; C:early endosome membrane; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0031594; C:neuromuscular junction; ISO:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; ISO:RGD.
+DR   GO; GO:0043204; C:perikaryon; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0044853; C:plasma membrane raft; IDA:RGD.
+DR   GO; GO:0042734; C:presynaptic membrane; ISS:UniProtKB.
+DR   GO; GO:0045202; C:synapse; IBA:GO_Central.
+DR   GO; GO:0008021; C:synaptic vesicle; IDA:RGD.
+DR   GO; GO:0030672; C:synaptic vesicle membrane; ISS:UniProtKB.
+DR   GO; GO:0033265; F:choline binding; ISO:RGD.
+DR   GO; GO:0015220; F:choline transmembrane transporter activity; IDA:UniProtKB.
+DR   GO; GO:0005307; F:choline:sodium symporter activity; ISS:UniProtKB.
+DR   GO; GO:0008292; P:acetylcholine biosynthetic process; IMP:UniProtKB.
+DR   GO; GO:0015871; P:choline transport; IDA:UniProtKB.
+DR   GO; GO:0001701; P:in utero embryonic development; ISO:RGD.
+DR   GO; GO:0007274; P:neuromuscular synaptic transmission; ISO:RGD.
+DR   GO; GO:0007271; P:synaptic transmission, cholinergic; ISO:RGD.
+DR   CDD; cd11474; SLC5sbd_CHT; 1.
+DR   Gene3D; 1.20.1730.10; Sodium/glucose cotransporter; 1.
+DR   InterPro; IPR052244; Choline_transporter.
+DR   InterPro; IPR038377; Na/Glc_symporter_sf.
+DR   InterPro; IPR001734; Na/solute_symporter.
+DR   PANTHER; PTHR45897:SF2; HIGH AFFINITY CHOLINE TRANSPORTER 1; 1.
+DR   PANTHER; PTHR45897; HIGH-AFFINITY CHOLINE TRANSPORTER 1; 1.
+DR   Pfam; PF00474; SSF; 1.
+DR   PROSITE; PS50283; NA_SOLUT_SYMP_3; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Cell projection; Cytoplasmic vesicle; Endosome;
+KW   Glycoprotein; Ion transport; Membrane; Neurotransmitter biosynthesis;
+KW   Phosphoprotein; Reference proteome; Sodium; Sodium transport; Symport;
+KW   Synapse; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..580
+FT                   /note="High affinity choline transporter 1"
+FT                   /id="PRO_0000105393"
+FT   TOPO_DOM        1..6
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        7..27
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        28..48
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        49..69
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        70..81
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        82..102
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        103..125
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        126..146
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        147..164
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        165..185
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        186..191
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        192..212
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        213..237
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        238..258
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        259..274
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        275..295
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        296..317
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        318..338
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        339..376
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        377..397
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        398..406
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        407..427
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        428..435
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        436..456
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        457..481
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        482..502
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        503..580
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          502..580
+FT                   /note="Mediates interaction with SEC14L1"
+FT                   /evidence="ECO:0000269|PubMed:17092608"
+FT   MOTIF           527..532
+FT                   /note="Dileucine-like motif"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9GZV3"
+FT   CARBOHYD        301
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   580 AA;  63407 MW;  B7CB73323DAD17A7 CRC64;
+     MPFHVEGLVA IILFYLLIFL VGIWAAWKTK NSGNAEERSE AIIVGGRDIG LLVGGFTMTA
+     TWVGGGYING TAEAVYGPGC GLAWAQAPIG YSLSLILGGL FFAKPMRSKG YVTMLDPFQQ
+     IYGKRMGGLL FIPALMGEMF WAAAIFSALG ATISVIIDVD VNISVIVSAL IAILYTLVGG
+     LYSVAYTDVV QLFCIFIGLW ISVPFALSHP AVTDIGFTAV HAKYQSPWLG TIESVEVYTW
+     LDNFLLLMLG GIPWQAYFQR VLSSSSATYA QVLSFLAAFG CLVMALPAIC IGAIGASTDW
+     NQTAYGFPDP KTKEEADMIL PIVLQYLCPV YISFFGLGAV SAAVMSSADS SILSASSMFA
+     RNIYQLSFRQ NASDKEIVWV MRITVFVFGA SATAMALLTK TVYGLWYLSS DLVYIIIFPQ
+     LLCVLFIKGT NTYGAVAGYI FGLFLRITGG EPYLYLQPLI FYPGYYPDKN GIYNQRFPFK
+     TLSMVTSFFT NICVSYLAKY LFESGTLPPK LDIFDAVVSR HSEENMDKTI LVRNENIKLN
+     ELAPVKPRQS LTLSSTFTNK EALLDVDSSP EGSGTEDNLQ
+//

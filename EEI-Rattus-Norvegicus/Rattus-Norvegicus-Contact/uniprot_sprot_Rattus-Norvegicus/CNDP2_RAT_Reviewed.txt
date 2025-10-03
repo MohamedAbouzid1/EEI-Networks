@@ -1,0 +1,290 @@
+ID   CNDP2_RAT               Reviewed;         475 AA.
+AC   Q6Q0N1;
+DT   29-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   24-JUL-2024, entry version 130.
+DE   RecName: Full=Cytosolic non-specific dipeptidase;
+DE            EC=3.4.13.18 {ECO:0000250|UniProtKB:Q96KP4, ECO:0000250|UniProtKB:Q9D1A2};
+DE   AltName: Full=CNDP dipeptidase 2;
+DE   AltName: Full=Threonyl dipeptidase {ECO:0000250|UniProtKB:Q9D1A2};
+GN   Name=Cndp2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Wistar; TISSUE=Iris, Ocular ciliary body, and Trabecular meshwork;
+RX   PubMed=15326124; DOI=10.1167/iovs.04-0302;
+RA   Ahmed F., Torrado M., Zinovieva R.D., Senatorov V.V., Wistow G.,
+RA   Tomarev S.I.;
+RT   "Gene expression profile of the rat eye iridocorneal angle: NEIBank
+RT   expressed sequence tag analysis.";
+RL   Invest. Ophthalmol. Vis. Sci. 45:3081-3090(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 55-66; 311-329; 403-413; 431-450 AND 462-474, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Hippocampus;
+RA   Lubec G., Diao W.;
+RL   Submitted (APR-2007) to UniProtKB.
+RN   [4]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=18790006; DOI=10.1016/j.neulet.2008.09.008;
+RA   Otani H., Okumura A., Nagai K., Okumura N.;
+RT   "Colocalization of a carnosine-splitting enzyme, tissue carnosinase
+RT   (CN2)/cytosolic non-specific dipeptidase 2 (CNDP2), with histidine
+RT   decarboxylase in the tuberomammillary nucleus of the hypothalamus.";
+RL   Neurosci. Lett. 445:166-169(2008).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RA   Maurya D.K., Bhargava P.;
+RL   Submitted (DEC-2008) to UniProtKB.
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-58, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the peptide bond hydrolysis in dipeptides,
+CC       displaying a non-redundant activity toward threonyl dipeptides.
+CC       Mediates threonyl dipeptide catabolism in a tissue-specific way (By
+CC       similarity). Has high dipeptidase activity toward cysteinylglycine, an
+CC       intermediate metabolite in glutathione metabolism. Metabolizes N-
+CC       lactoyl-amino acids, both through hydrolysis to form lactic acid and
+CC       amino acids, as well as through their formation by reverse proteolysis.
+CC       Plays a role in the regulation of cell cycle arrest and apoptosis (By
+CC       similarity). {ECO:0000250|UniProtKB:Q96KP4,
+CC       ECO:0000250|UniProtKB:Q9D1A2}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of dipeptides, preferentially hydrophobic
+CC         dipeptides including prolyl amino acids.; EC=3.4.13.18;
+CC         Evidence={ECO:0000250|UniProtKB:Q96KP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-threonyl-L-threonine = 2 L-threonine;
+CC         Xref=Rhea:RHEA:67360, ChEBI:CHEBI:15377, ChEBI:CHEBI:57926,
+CC         ChEBI:CHEBI:169953; Evidence={ECO:0000250|UniProtKB:Q9D1A2};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67361;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D1A2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-threonyl-L-serine = L-serine + L-threonine;
+CC         Xref=Rhea:RHEA:67364, ChEBI:CHEBI:15377, ChEBI:CHEBI:33384,
+CC         ChEBI:CHEBI:57926, ChEBI:CHEBI:169954;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D1A2};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67365;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D1A2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-seryl-L-threonine = L-serine + L-threonine;
+CC         Xref=Rhea:RHEA:67372, ChEBI:CHEBI:15377, ChEBI:CHEBI:33384,
+CC         ChEBI:CHEBI:57926, ChEBI:CHEBI:169955;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D1A2};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67373;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D1A2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-cysteinylglycine = glycine + L-cysteine;
+CC         Xref=Rhea:RHEA:28783, ChEBI:CHEBI:15377, ChEBI:CHEBI:35235,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:61694;
+CC         Evidence={ECO:0000250|UniProtKB:Q96KP4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:28784;
+CC         Evidence={ECO:0000250|UniProtKB:Q96KP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-alanyl-L-cysteine = L-alanine + L-cysteine;
+CC         Xref=Rhea:RHEA:67380, ChEBI:CHEBI:15377, ChEBI:CHEBI:35235,
+CC         ChEBI:CHEBI:57972, ChEBI:CHEBI:169958;
+CC         Evidence={ECO:0000250|UniProtKB:Q96KP4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67381;
+CC         Evidence={ECO:0000250|UniProtKB:Q96KP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-lactate + L-phenylalanine = H2O + N-[(S)-lactoyl]-L-
+CC         phenylalanine; Xref=Rhea:RHEA:66724, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:16651, ChEBI:CHEBI:58095, ChEBI:CHEBI:167456;
+CC         Evidence={ECO:0000250|UniProtKB:Q96KP4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:66725;
+CC         Evidence={ECO:0000250|UniProtKB:Q96KP4};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:66726;
+CC         Evidence={ECO:0000250|UniProtKB:Q96KP4};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q96KP4};
+CC       Note=Binds 2 manganese ions per subunit.
+CC       {ECO:0000250|UniProtKB:Q96KP4};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q96KP4}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q96KP4}.
+CC   -!- TISSUE SPECIFICITY: Detected in neuronal cells in the dorsal part of
+CC       the tuberomammilary nucleus of the posterior hypothalamus (at protein
+CC       level). Expressed in the iris, ciliary body, trabecular meshwork,
+CC       Schlemm's canal, sclera, retina, brain, kidney and lung.
+CC       {ECO:0000269|PubMed:15326124, ECO:0000269|PubMed:18790006}.
+CC   -!- SIMILARITY: Belongs to the peptidase M20A family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY569013; AAS75316.1; -; mRNA.
+DR   EMBL; BC095904; AAH95904.1; -; mRNA.
+DR   RefSeq; NP_001010920.1; NM_001010920.1.
+DR   RefSeq; XP_006255061.1; XM_006254999.3.
+DR   AlphaFoldDB; Q6Q0N1; -.
+DR   SMR; Q6Q0N1; -.
+DR   BioGRID; 253502; 1.
+DR   IntAct; Q6Q0N1; 1.
+DR   MINT; Q6Q0N1; -.
+DR   STRING; 10116.ENSRNOP00000021400; -.
+DR   MEROPS; M20.005; -.
+DR   GlyGen; Q6Q0N1; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; Q6Q0N1; -.
+DR   PhosphoSitePlus; Q6Q0N1; -.
+DR   SwissPalm; Q6Q0N1; -.
+DR   jPOST; Q6Q0N1; -.
+DR   PaxDb; 10116-ENSRNOP00000021400; -.
+DR   Ensembl; ENSRNOT00000021400.5; ENSRNOP00000021400.3; ENSRNOG00000015591.6.
+DR   Ensembl; ENSRNOT00055023264; ENSRNOP00055018884; ENSRNOG00055013564.
+DR   Ensembl; ENSRNOT00060025607; ENSRNOP00060020434; ENSRNOG00060014955.
+DR   Ensembl; ENSRNOT00065003871; ENSRNOP00065002730; ENSRNOG00065002815.
+DR   GeneID; 291394; -.
+DR   KEGG; rno:291394; -.
+DR   AGR; RGD:1305827; -.
+DR   CTD; 55748; -.
+DR   RGD; 1305827; Cndp2.
+DR   eggNOG; KOG2276; Eukaryota.
+DR   GeneTree; ENSGT00940000156500; -.
+DR   HOGENOM; CLU_029469_3_1_1; -.
+DR   InParanoid; Q6Q0N1; -.
+DR   OMA; HITIPGF; -.
+DR   OrthoDB; 177966at2759; -.
+DR   PhylomeDB; Q6Q0N1; -.
+DR   TreeFam; TF300633; -.
+DR   Reactome; R-RNO-174403; Glutathione synthesis and recycling.
+DR   Reactome; R-RNO-9753281; Paracetamol ADME.
+DR   PRO; PR:Q6Q0N1; -.
+DR   Proteomes; UP000002494; Chromosome 18.
+DR   Bgee; ENSRNOG00000015591; Expressed in adult mammalian kidney and 19 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0103046; F:alanylglutamate dipeptidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004180; F:carboxypeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016805; F:dipeptidase activity; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0070573; F:metallodipeptidase activity; IEA:InterPro.
+DR   GO; GO:0008233; F:peptidase activity; ISO:RGD.
+DR   GO; GO:0006508; P:proteolysis; ISO:RGD.
+DR   CDD; cd05676; M20_dipept_like_CNDP; 1.
+DR   Gene3D; 3.30.70.360; -; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 1.
+DR   InterPro; IPR001261; ArgE/DapE_CS.
+DR   InterPro; IPR017153; CNDP/DUG1.
+DR   InterPro; IPR051458; Cyt/Met_Dipeptidase.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   InterPro; IPR011650; Peptidase_M20_dimer.
+DR   PANTHER; PTHR43270; BETA-ALA-HIS DIPEPTIDASE; 1.
+DR   PANTHER; PTHR43270:SF11; CYTOSOLIC NON-SPECIFIC DIPEPTIDASE; 1.
+DR   Pfam; PF07687; M20_dimer; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   PIRSF; PIRSF037242; CNDP_dipeptidase; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+DR   PROSITE; PS00759; ARGE_DAPE_CPG2_2; 1.
+PE   1: Evidence at protein level;
+KW   Carboxypeptidase; Cytoplasm; Direct protein sequencing; Hydrolase;
+KW   Manganese; Metal-binding; Metalloprotease; Phosphoprotein; Protease;
+KW   Reference proteome.
+FT   CHAIN           1..475
+FT                   /note="Cytosolic non-specific dipeptidase"
+FT                   /id="PRO_0000288496"
+FT   ACT_SITE        101
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        166
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         99
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KP4"
+FT   BINDING         132
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KP4"
+FT   BINDING         132
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KP4"
+FT   BINDING         166..167
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between homodimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         167
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KP4"
+FT   BINDING         195
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KP4"
+FT   BINDING         195
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between homodimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         228
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between homodimeric partners"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         330
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between homodimeric partners"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         343
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between homodimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         417
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between homodimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         445
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KP4"
+FT   BINDING         445
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared between homodimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250"
+FT   SITE            228
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         58
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         299
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96KP4"
+SQ   SEQUENCE   475 AA;  52693 MW;  5B591868ABC02C55 CRC64;
+     MSALKAVFQY IDENQDRFVK KLAEWVAIQS VSAWPEKRGE IRRMTEAAAA DVQRLGGSVE
+     LVDIGKQKLP DGSEIPLPPI LLGKLGSDPQ KKTVCIYGHL DVQPAALEDG WDSEPFTLVE
+     REGKLYGRGS TDDKGPVAGW MNALEAYQKT GQEIPVNLRF CLEGMEESGS EGLDELIFAQ
+     KDKFFKDVDY VCISDNYWLG KNKPCITYGL RGICYFFIEV ECSDKDLHSG VYGGSVHEAM
+     TDLISLMGCL IDKKGKILIP GINDAVAPVT DEEHELYDHI DFDMEEFAKD VGAGTLLHSC
+     KKDILMHRWR YPSLSLHGIE GAFSGSGAKT VIPRKVVGKF SIRLVPDMIP EVVSEQVSSY
+     LSKKFAELQS PNKFKVYMGH GGKPWVSDFN HPHYQAGRRA LKTVFGVEPD LTREGGSIPV
+     TLTFQEATGK NVMLLPVGSA DDGAHSQNEK LNRLNYIEGT KMLAAYLYEV SQLKN
+//

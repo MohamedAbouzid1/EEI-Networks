@@ -1,0 +1,237 @@
+ID   5HT4R_RAT               Reviewed;         406 AA.
+AC   Q62758; O89034; Q62757; Q63006;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-OCT-2024, entry version 161.
+DE   RecName: Full=5-hydroxytryptamine receptor 4;
+DE            Short=5-HT-4;
+DE            Short=5-HT4;
+DE   AltName: Full=Serotonin receptor 4;
+GN   Name=Htr4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Brain;
+RX   PubMed=7796807; DOI=10.1002/j.1460-2075.1995.tb07280.x;
+RA   Gerald C., Adham N., Kao H.T., Olsen M.A., Laz T.M., Schechter L.E.,
+RA   Bard J.A., Vaysse P., Hartig P.R., Branchek T.A., Weinshank R.L.;
+RT   "The 5-HT4 receptor: molecular cloning and pharmacological characterization
+RT   of two splice variants.";
+RL   EMBO J. 14:2806-2815(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 165-259.
+RC   TISSUE=Brain;
+RX   PubMed=7656980; DOI=10.1016/0014-5793(95)00828-w;
+RA   Ullmer C., Schmuck K., Kalkman H.O., Luebbert H.;
+RT   "Expression of serotonin receptor mRNAs in blood vessels.";
+RL   FEBS Lett. 370:215-221(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 5-HT4(E)), AND FUNCTION.
+RC   TISSUE=Brain;
+RX   PubMed=10220570;
+RA   Claeysen S., Sebben M., Becamel C., Bockaert J., Dumuis A.;
+RT   "Novel brain-specific 5-HT4 receptor splice variants show marked
+RT   constitutive activity: role of the C-terminal intracellular domain.";
+RL   Mol. Pharmacol. 55:910-920(1999).
+CC   -!- FUNCTION: G-protein coupled receptor for 5-hydroxytryptamine
+CC       (serotonin), a biogenic hormone that functions as a neurotransmitter, a
+CC       hormone and a mitogen (PubMed:10220570, PubMed:7796807). Ligand binding
+CC       causes a conformation change that triggers signaling via guanine
+CC       nucleotide-binding proteins (G proteins) and modulates the activity of
+CC       downstream effectors (By similarity). HTR4 is coupled to G(s) G alpha
+CC       proteins and mediates activation of adenylate cyclase activity (By
+CC       similarity). {ECO:0000250|UniProtKB:Q13639,
+CC       ECO:0000269|PubMed:10220570, ECO:0000269|PubMed:7796807}.
+CC   -!- SUBUNIT: Interacts (via C-terminus 330-346 AA) with GRK5; this
+CC       interaction is promoted by 5-HT (serotonin).
+CC       {ECO:0000250|UniProtKB:Q13639}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q13639};
+CC       Multi-pass membrane protein {ECO:0000255}. Endosome membrane
+CC       {ECO:0000250|UniProtKB:P97288}; Multi-pass membrane protein
+CC       {ECO:0000255}. Note=Interaction with SNX27 mediates recruitment to
+CC       early endosomes, while interaction with NHERF1 and EZR might target the
+CC       protein to specialized subcellular regions, such as microvilli.
+CC       {ECO:0000250|UniProtKB:P97288}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC         Comment=Additional isoforms seem to exist.;
+CC       Name=5-HT4L;
+CC         IsoId=Q62758-1; Sequence=Displayed;
+CC       Name=5-HT4S;
+CC         IsoId=Q62758-2; Sequence=VSP_001854;
+CC       Name=5-HT4(E);
+CC         IsoId=Q62758-3; Sequence=VSP_001855;
+CC   -!- TISSUE SPECIFICITY: [Isoform 5-HT4S]: In brain, isoform 5-HT4S is
+CC       restricted to the striatum (PubMed:7796807). In peripheral tissues,
+CC       differential expression is also observed in the atrium of the heart
+CC       where only isoform 5-HT4S is detectable (PubMed:7796807).
+CC       {ECO:0000269|PubMed:7796807}.
+CC   -!- TISSUE SPECIFICITY: [Isoform 5-HT4L]: In brain, isoform 5-HT4L is
+CC       expressed throughout the brain, except in the cerebellum.
+CC       {ECO:0000269|PubMed:7796807}.
+CC   -!- DOMAIN: Specificity for G(s) G alpha proteins is determined by the
+CC       length of transmembrane regions 5 and 6 (TM5 and TM6).
+CC       {ECO:0000250|UniProtKB:Q13639}.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 1 family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00521}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U20907; AAC52233.1; -; mRNA.
+DR   EMBL; U20906; AAC52232.1; -; mRNA.
+DR   EMBL; Z48153; CAA88170.1; -; mRNA.
+DR   EMBL; AJ011370; CAA09599.1; -; mRNA.
+DR   PIR; S55549; S55549.
+DR   PIR; S55550; S55550.
+DR   RefSeq; NP_036985.1; NM_012853.1.
+DR   AlphaFoldDB; Q62758; -.
+DR   SMR; Q62758; -.
+DR   STRING; 10116.ENSRNOP00000025892; -.
+DR   BindingDB; Q62758; -.
+DR   ChEMBL; CHEMBL4317; -.
+DR   DrugCentral; Q62758; -.
+DR   GuidetoPHARMACOLOGY; 9; -.
+DR   GlyCosmos; Q62758; 1 site, No reported glycans.
+DR   GlyGen; Q62758; 1 site.
+DR   PhosphoSitePlus; Q62758; -.
+DR   PaxDb; 10116-ENSRNOP00000025892; -.
+DR   GeneID; 25324; -.
+DR   KEGG; rno:25324; -.
+DR   UCSC; RGD:2850; rat. [Q62758-1]
+DR   AGR; RGD:2850; -.
+DR   CTD; 3360; -.
+DR   RGD; 2850; Htr4.
+DR   eggNOG; KOG3656; Eukaryota.
+DR   InParanoid; Q62758; -.
+DR   PhylomeDB; Q62758; -.
+DR   Reactome; R-RNO-390666; Serotonin receptors.
+DR   PRO; PR:Q62758; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0030425; C:dendrite; IBA:GO_Central.
+DR   GO; GO:0005768; C:endosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0098794; C:postsynapse; ISO:RGD.
+DR   GO; GO:0004993; F:G protein-coupled serotonin receptor activity; IMP:RGD.
+DR   GO; GO:0030594; F:neurotransmitter receptor activity; IBA:GO_Central.
+DR   GO; GO:0099589; F:serotonin receptor activity; ISO:RGD.
+DR   GO; GO:0007189; P:adenylate cyclase-activating G protein-coupled receptor signaling pathway; IMP:RGD.
+DR   GO; GO:0007188; P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway; IBA:GO_Central.
+DR   GO; GO:0007268; P:chemical synaptic transmission; IBA:GO_Central.
+DR   GO; GO:0050890; P:cognition; TAS:RGD.
+DR   GO; GO:0007186; P:G protein-coupled receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0007187; P:G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger; IBA:GO_Central.
+DR   GO; GO:0007214; P:gamma-aminobutyric acid signaling pathway; IMP:RGD.
+DR   GO; GO:0120056; P:large intestinal transit; ISO:RGD.
+DR   GO; GO:0030277; P:maintenance of gastrointestinal epithelium; ISO:RGD.
+DR   GO; GO:0070254; P:mucus secretion; ISO:RGD.
+DR   GO; GO:0032098; P:regulation of appetite; IEA:InterPro.
+DR   GO; GO:0150052; P:regulation of postsynapse assembly; ISO:RGD.
+DR   CDD; cd15056; 7tmA_5-HT4; 1.
+DR   Gene3D; 1.20.1070.10; Rhodopsin 7-helix transmembrane proteins; 1.
+DR   InterPro; IPR001520; 5HT4_rcpt.
+DR   InterPro; IPR000276; GPCR_Rhodpsn.
+DR   InterPro; IPR017452; GPCR_Rhodpsn_7TM.
+DR   PANTHER; PTHR24248:SF169; 5-HYDROXYTRYPTAMINE RECEPTOR 4; 1.
+DR   PANTHER; PTHR24248; ADRENERGIC RECEPTOR-RELATED G-PROTEIN COUPLED RECEPTOR; 1.
+DR   Pfam; PF00001; 7tm_1; 1.
+DR   PRINTS; PR01059; 5HT4RECEPTR.
+DR   PRINTS; PR00237; GPCRRHODOPSN.
+DR   SMART; SM01381; 7TM_GPCR_Srsx; 1.
+DR   SUPFAM; SSF81321; Family A G protein-coupled receptor-like; 1.
+DR   PROSITE; PS00237; G_PROTEIN_RECEP_F1_1; 1.
+DR   PROSITE; PS50262; G_PROTEIN_RECEP_F1_2; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Cell membrane; Disulfide bond; Endosome;
+KW   G-protein coupled receptor; Glycoprotein; Membrane; Receptor;
+KW   Reference proteome; Transducer; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..406
+FT                   /note="5-hydroxytryptamine receptor 4"
+FT                   /id="PRO_0000068968"
+FT   TOPO_DOM        1..19
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TRANSMEM        20..44
+FT                   /note="Helical; Name=1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TOPO_DOM        45..54
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TRANSMEM        55..78
+FT                   /note="Helical; Name=2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TOPO_DOM        79..92
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TRANSMEM        93..117
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TOPO_DOM        118..133
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TRANSMEM        134..157
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TOPO_DOM        158..188
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TRANSMEM        189..212
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TOPO_DOM        213..257
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TRANSMEM        258..283
+FT                   /note="Helical; Name=6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TOPO_DOM        284..290
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TRANSMEM        291..314
+FT                   /note="Helical; Name=7"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   TOPO_DOM        315..406
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   BINDING         100
+FT                   /ligand="serotonin"
+FT                   /ligand_id="ChEBI:CHEBI:350546"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   BINDING         279
+FT                   /ligand="serotonin"
+FT                   /ligand_id="ChEBI:CHEBI:350546"
+FT                   /evidence="ECO:0000250|UniProtKB:Q13639"
+FT   CARBOHYD        7
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        93..184
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00521"
+FT   VAR_SEQ         359..406
+FT                   /note="RDTVECGGQWESRCHLTATSPLVAAQPVIRRPQDNDLEDSCSLKRSQS ->
+FT                   SFPLLFCNRPVPV (in isoform 5-HT4(E))"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_001855"
+FT   VAR_SEQ         360..406
+FT                   /note="DTVECGGQWESRCHLTATSPLVAAQPVIRRPQDNDLEDSCSLKRSQS -> Y
+FT                   TVLHSGQHQELEKLPIHNDPESLESCF (in isoform 5-HT4S)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_001854"
+FT   CONFLICT        74..75
+FT                   /note="NA -> MP (in Ref. 3; CAA09599)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   406 AA;  46107 MW;  A1889155A08930B4 CRC64;
+     MDRLDANVSS NEGFGSVEKV VLLTFFAMVI LMAILGNLLV MVAVCRDRQL RKIKTNYFIV
+     SLAFADLLVS VLVNAFGAIE LVQDIWFYGE MFCLVRTSLD VLLTTASIFH LCCISLDRYY
+     AICCQPLVYR NKMTPLRIAL MLGGCWVIPM FISFLPIMQG WNNIGIVDVI EKRKFNHNSN
+     STFCVFMVNK PYAITCSVVA FYIPFLLMVL AYYRIYVTAK EHAQQIQMLQ RAGATSESRP
+     QTADQHSTHR MRTETKAAKT LCVIMGCFCF CWAPFFVTNI VDPFIDYTVP EKVWTAFLWL
+     GYINSGLNPF LYAFLNKSFR RAFLIILCCD DERYKRPPIL GQTVPCSTTT INGSTHVLRD
+     TVECGGQWES RCHLTATSPL VAAQPVIRRP QDNDLEDSCS LKRSQS
+//

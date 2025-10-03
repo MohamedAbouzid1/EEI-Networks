@@ -1,0 +1,207 @@
+ID   MGAT3_RAT               Reviewed;         538 AA.
+AC   Q02527;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 2.
+DT   29-MAY-2024, entry version 162.
+DE   RecName: Full=Beta-1,4-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase;
+DE            EC=2.4.1.144;
+DE   AltName: Full=N-glycosyl-oligosaccharide-glycoprotein N-acetylglucosaminyltransferase III;
+DE            Short=GNT-III;
+DE            Short=GlcNAc-T III;
+DE            Short=N-acetylglucosaminyltransferase III;
+GN   Name=Mgat3; Synonyms=Gnt3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 287-297; 447-453 AND
+RP   494-509.
+RC   STRAIN=Donryu; TISSUE=Kidney;
+RX   PubMed=1325461; DOI=10.1016/s0021-9258(19)37172-8;
+RA   Nishikawa A., Ihara Y., Hatakeyama M., Kangawa K., Taniguchi N.;
+RT   "Purification, cDNA cloning, and expression of UDP-N-acetylglucosamine:
+RT   beta-D-mannoside beta-1,4N-acetylglucosaminyltransferase III from rat
+RT   kidney.";
+RL   J. Biol. Chem. 267:18199-18204(1992).
+CC   -!- FUNCTION: It is involved in the regulation of the biosynthesis and
+CC       biological function of glycoprotein oligosaccharides. Catalyzes the
+CC       addition of N-acetylglucosamine in beta 1-4 linkage to the beta-linked
+CC       mannose of the trimannosyl core of N-linked sugar chains, called
+CC       bisecting N-acetylglucosamine (GlcNAc). It is one of the most important
+CC       enzymes involved in the regulation of the biosynthesis of glycoprotein
+CC       oligosaccharides. The addition of this bisecting GlcNAc residue alters
+CC       not only the composition, but also the conformation of the N-glycan.
+CC       The introduction of the bisecting GlcNAc residue results in the
+CC       suppression of further processing and elongation of N-glycans,
+CC       precluding the formation of beta-1,6 GlcNAc branching, catalyzed by
+CC       MGAT5 since it is unable to use the bisected oligosaccharide as a
+CC       substrate. Addition of bisecting N-acetylglucosamine to CDH1/E-cadherin
+CC       modulates CDH1 cell membrane location. Inhibits NeuAc-alpha-2,3-Gal-
+CC       beta-1,4-GlcNAc- formation which modulates sialylation levels and plays
+CC       a role in cell migration regulation (By similarity). In brain, addition
+CC       of bisecting N-acetylglucosamine to BACE1 blocks its lysosomal
+CC       targeting in response to oxidative stress and further degradation which
+CC       increases its location to early endosome and the APP cleavage (By
+CC       similarity). {ECO:0000250|UniProtKB:Q09327,
+CC       ECO:0000250|UniProtKB:Q10470}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(4)-{beta-D-GlcNAc-(1->2)-alpha-D-Man-(1->3)-[beta-D-GlcNAc-
+CC         (1->2)-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-
+CC         beta-D-GlcNAc}-L-asparaginyl-[protein] + UDP-N-acetyl-alpha-D-
+CC         glucosamine = H(+) + N(4)-{beta-D-GlcNAc-(1->2)-alpha-D-Man-(1->3)-
+CC         [beta-D-GlcNAc-(1->4)]-[beta-D-GlcNAc-(1->2)-alpha-D-Man-(1->6)]-
+CC         beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-beta-D-GlcNAc}-L-asparaginyl-
+CC         [protein] + UDP; Xref=Rhea:RHEA:15509, Rhea:RHEA-COMP:13526,
+CC         Rhea:RHEA-COMP:14371, ChEBI:CHEBI:15378, ChEBI:CHEBI:57705,
+CC         ChEBI:CHEBI:58223, ChEBI:CHEBI:60651, ChEBI:CHEBI:139504;
+CC         EC=2.4.1.144;
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC   -!- SUBUNIT: Interacts with MGAT4D. {ECO:0000250|UniProtKB:Q10470}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane; Single-pass type II
+CC       membrane protein.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 17 family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA01625.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D10852; BAA01625.1; ALT_INIT; mRNA.
+DR   PIR; A43415; A43415.
+DR   RefSeq; NP_062112.2; NM_019239.2.
+DR   RefSeq; XP_006242134.1; XM_006242072.2.
+DR   RefSeq; XP_006242135.1; XM_006242073.3.
+DR   RefSeq; XP_006242136.1; XM_006242074.3.
+DR   RefSeq; XP_017450192.1; XM_017594703.1.
+DR   AlphaFoldDB; Q02527; -.
+DR   STRING; 10116.ENSRNOP00000023434; -.
+DR   CAZy; GT17; Glycosyltransferase Family 17.
+DR   GlyCosmos; Q02527; 3 sites, No reported glycans.
+DR   GlyGen; Q02527; 3 sites.
+DR   PhosphoSitePlus; Q02527; -.
+DR   PaxDb; 10116-ENSRNOP00000023434; -.
+DR   Ensembl; ENSRNOT00000023434.3; ENSRNOP00000023434.4; ENSRNOG00000017434.3.
+DR   Ensembl; ENSRNOT00000095447.1; ENSRNOP00000093292.1; ENSRNOG00000017434.3.
+DR   Ensembl; ENSRNOT00000097844.1; ENSRNOP00000080479.1; ENSRNOG00000017434.3.
+DR   Ensembl; ENSRNOT00000098313.1; ENSRNOP00000076545.1; ENSRNOG00000017434.3.
+DR   Ensembl; ENSRNOT00000103460.1; ENSRNOP00000082492.1; ENSRNOG00000017434.3.
+DR   Ensembl; ENSRNOT00000105515.1; ENSRNOP00000076485.1; ENSRNOG00000017434.3.
+DR   Ensembl; ENSRNOT00000109650.1; ENSRNOP00000082287.1; ENSRNOG00000017434.3.
+DR   Ensembl; ENSRNOT00000113053.1; ENSRNOP00000097179.1; ENSRNOG00000017434.3.
+DR   Ensembl; ENSRNOT00000117804.1; ENSRNOP00000077338.1; ENSRNOG00000017434.3.
+DR   Ensembl; ENSRNOT00000117832.1; ENSRNOP00000086583.1; ENSRNOG00000017434.3.
+DR   Ensembl; ENSRNOT00055051259; ENSRNOP00055042228; ENSRNOG00055029609.
+DR   Ensembl; ENSRNOT00055051263; ENSRNOP00055042232; ENSRNOG00055029609.
+DR   Ensembl; ENSRNOT00055051266; ENSRNOP00055042235; ENSRNOG00055029609.
+DR   Ensembl; ENSRNOT00055051269; ENSRNOP00055042237; ENSRNOG00055029609.
+DR   Ensembl; ENSRNOT00055051272; ENSRNOP00055042240; ENSRNOG00055029609.
+DR   Ensembl; ENSRNOT00055051277; ENSRNOP00055042246; ENSRNOG00055029609.
+DR   Ensembl; ENSRNOT00055051286; ENSRNOP00055042254; ENSRNOG00055029609.
+DR   Ensembl; ENSRNOT00055051289; ENSRNOP00055042255; ENSRNOG00055029609.
+DR   Ensembl; ENSRNOT00055051292; ENSRNOP00055042260; ENSRNOG00055029609.
+DR   Ensembl; ENSRNOT00055051296; ENSRNOP00055042264; ENSRNOG00055029609.
+DR   Ensembl; ENSRNOT00060054680; ENSRNOP00060045215; ENSRNOG00060031561.
+DR   Ensembl; ENSRNOT00060054685; ENSRNOP00060045220; ENSRNOG00060031561.
+DR   Ensembl; ENSRNOT00060054691; ENSRNOP00060045226; ENSRNOG00060031561.
+DR   Ensembl; ENSRNOT00060054693; ENSRNOP00060045228; ENSRNOG00060031561.
+DR   Ensembl; ENSRNOT00060054695; ENSRNOP00060045230; ENSRNOG00060031561.
+DR   Ensembl; ENSRNOT00060054698; ENSRNOP00060045233; ENSRNOG00060031561.
+DR   Ensembl; ENSRNOT00060054703; ENSRNOP00060045238; ENSRNOG00060031561.
+DR   Ensembl; ENSRNOT00060054706; ENSRNOP00060045241; ENSRNOG00060031561.
+DR   Ensembl; ENSRNOT00060054709; ENSRNOP00060045244; ENSRNOG00060031561.
+DR   Ensembl; ENSRNOT00060054713; ENSRNOP00060045248; ENSRNOG00060031561.
+DR   Ensembl; ENSRNOT00065057335; ENSRNOP00065047176; ENSRNOG00065033353.
+DR   Ensembl; ENSRNOT00065057336; ENSRNOP00065047177; ENSRNOG00065033353.
+DR   Ensembl; ENSRNOT00065057340; ENSRNOP00065047181; ENSRNOG00065033353.
+DR   Ensembl; ENSRNOT00065057342; ENSRNOP00065047183; ENSRNOG00065033353.
+DR   Ensembl; ENSRNOT00065057344; ENSRNOP00065047185; ENSRNOG00065033353.
+DR   Ensembl; ENSRNOT00065057346; ENSRNOP00065047187; ENSRNOG00065033353.
+DR   Ensembl; ENSRNOT00065057349; ENSRNOP00065047190; ENSRNOG00065033353.
+DR   Ensembl; ENSRNOT00065057352; ENSRNOP00065047193; ENSRNOG00065033353.
+DR   Ensembl; ENSRNOT00065057353; ENSRNOP00065047194; ENSRNOG00065033353.
+DR   Ensembl; ENSRNOT00065057355; ENSRNOP00065047196; ENSRNOG00065033353.
+DR   GeneID; 29582; -.
+DR   KEGG; rno:29582; -.
+DR   UCSC; RGD:3084; rat.
+DR   AGR; RGD:3084; -.
+DR   CTD; 4248; -.
+DR   RGD; 3084; Mgat3.
+DR   eggNOG; ENOG502QUBY; Eukaryota.
+DR   GeneTree; ENSGT00390000008221; -.
+DR   HOGENOM; CLU_029534_0_0_1; -.
+DR   InParanoid; Q02527; -.
+DR   OMA; HFRRQLW; -.
+DR   OrthoDB; 5344891at2759; -.
+DR   PhylomeDB; Q02527; -.
+DR   TreeFam; TF323781; -.
+DR   BRENDA; 2.4.1.144; 5301.
+DR   Reactome; R-RNO-975574; Reactions specific to the hybrid N-glycan synthesis pathway.
+DR   UniPathway; UPA00378; -.
+DR   PRO; PR:Q02527; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Bgee; ENSRNOG00000017434; Expressed in stomach and 17 other cell types or tissues.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005764; C:lysosome; IEA:GOC.
+DR   GO; GO:0003830; F:beta-1,4-mannosylglycoprotein 4-beta-N-acetylglucosaminyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0016757; F:glycosyltransferase activity; ISO:RGD.
+DR   GO; GO:0050435; P:amyloid-beta metabolic process; ISS:UniProtKB.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; ISS:UniProtKB.
+DR   GO; GO:0050890; P:cognition; ISS:UniProtKB.
+DR   GO; GO:1905146; P:lysosomal protein catabolic process; ISO:RGD.
+DR   GO; GO:0006044; P:N-acetylglucosamine metabolic process; ISO:RGD.
+DR   GO; GO:1905166; P:negative regulation of lysosomal protein catabolic process; ISS:UniProtKB.
+DR   GO; GO:1902966; P:positive regulation of protein localization to early endosome; ISS:UniProtKB.
+DR   GO; GO:0008104; P:protein localization; ISS:UniProtKB.
+DR   GO; GO:1902946; P:protein localization to early endosome; ISO:RGD.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; ISS:UniProtKB.
+DR   GO; GO:0030334; P:regulation of cell migration; ISS:UniProtKB.
+DR   InterPro; IPR006813; Glyco_trans_17.
+DR   PANTHER; PTHR12224:SF0; BETA-1,4-MANNOSYL-GLYCOPROTEIN 4-BETA-N-ACETYLGLUCOSAMINYLTRANSFERASE; 1.
+DR   PANTHER; PTHR12224; BETA-1,4-MANNOSYL-GLYCOPROTEIN BETA-1,4-N-ACETYLGLUCOSAMINYL-TRANSFERASE; 1.
+DR   Pfam; PF04724; Glyco_transf_17; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Glycoprotein; Glycosyltransferase;
+KW   Golgi apparatus; Membrane; Reference proteome; Signal-anchor; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..538
+FT                   /note="Beta-1,4-mannosyl-glycoprotein 4-beta-N-
+FT                   acetylglucosaminyltransferase"
+FT                   /id="PRO_0000188844"
+FT   TOPO_DOM        1..7
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        8..23
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        24..538
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   REGION          121..151
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          509..538
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        245
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        263
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        401
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   538 AA;  62022 MW;  9DCBE619284D7438 CRC64;
+     MKMRRYKLFL MFCMAGLCLI SFLHFFKTLS YVTFPRELAS LSPNLISSFF WNNAPVTPQA
+     SPEPGDPDLL RTPLYSHSPL LQPLSPSKAT EELHRVDFVL PEDTTEYFVR TKAGGVCFKP
+     GTRMLEKPSP GRTEEKTKVA EGSSVRGPAR RPMRHVLSAR ERLGGRGTRR KWVECVCLPG
+     WHGPSCGVPT VVQYSNLPTK ERLVPREVPR RVINAININH EFDLLDVRFH ELGDVVDAFV
+     VCESNFTAYG EPRPLKFREM LTNGTFEYIR HKVLYVFLDH FPPGGRQDGW IADDYLRTFL
+     TQDGVSRLRN LRPDDVFIID DADEIPARDG VLFLKLYDGW TEPFAFHMRK SLYGFFWKQP
+     GTLEVVSGCT IDMLQAVYGL DGIRLRRRQY YTMPNFRQYE NRTGHILVQW SLGSPLHFAG
+     WHCSWCFTPE GIYFKLVSAQ NGDFPRWGDY EDKRDLNYIR SLIRTGGWFD GTQQEYPPAD
+     PSEHMYAPKY LLKNYDQFRY LLENPYREPK STVEGGRRNQ GSDGRSSAVR GKLDTTEG
+//

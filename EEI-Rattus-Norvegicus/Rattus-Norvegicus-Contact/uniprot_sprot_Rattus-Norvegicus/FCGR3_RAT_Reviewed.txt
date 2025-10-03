@@ -1,0 +1,237 @@
+ID   FCGR3_RAT               Reviewed;         267 AA.
+AC   P27645; Q04798; Q63204;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 1.
+DT   02-OCT-2024, entry version 190.
+DE   RecName: Full=Low affinity immunoglobulin gamma Fc region receptor III;
+DE            Short=IgG Fc receptor III;
+DE   AltName: Full=Fc-gamma RIII;
+DE            Short=FcRIII;
+DE   AltName: CD_antigen=CD16;
+DE   Flags: Precursor;
+GN   Name=Fcgr3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS B; C AND D).
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=1710249;
+RA   Farber D.L., Sears D.W.;
+RT   "Rat CD16 is defined by a family of class III Fc gamma receptors requiring
+RT   co-expression of heteroprotein subunits.";
+RL   J. Immunol. 146:4352-4361(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM A), AND FUNCTION.
+RC   TISSUE=Natural killer cell;
+RX   PubMed=1692135; DOI=10.1073/pnas.87.9.3425;
+RA   Zeger D.L., Hogarth P.M., Sears D.W.;
+RT   "Characterization and expression of an Fc gamma receptor cDNA cloned from
+RT   rat natural killer cells.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:3425-3429(1990).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM H).
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=8482840;
+RA   Farber D.L., Giorda R., Nettleton M.Y., Trucco M., Kochan J.P., Sears D.W.;
+RT   "Rat class III Fc gamma receptor isoforms differ in IgG subclass-binding
+RT   specificity and fail to associate productively with rat CD3 zeta.";
+RL   J. Immunol. 150:4364-4375(1993).
+CC   -!- FUNCTION: Receptor for the Fc region of complexed immunoglobulins gamma
+CC       (PubMed:1692135). Low affinity receptor which binds to IgG1, IgG2a and
+CC       IgG2b (By similarity). Mediates neutrophil activation by IgG complexes
+CC       redundantly with Fcgr4 (By similarity). {ECO:0000250|UniProtKB:P08508,
+CC       ECO:0000269|PubMed:1692135}.
+CC   -!- SUBUNIT: May form multisubunit complex with other heteroproteins. This
+CC       association is required for efficient cell-surface expression. Does not
+CC       associate with CD3 zeta.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P08508};
+CC       Single-pass type I membrane protein {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=8;
+CC         Comment=Additional isoforms seem to exist.;
+CC       Name=C;
+CC         IsoId=P27645-1; Sequence=Displayed;
+CC       Name=A;
+CC         IsoId=P27645-3; Sequence=Not described;
+CC       Name=B;
+CC         IsoId=P27645-4; Sequence=Not described;
+CC       Name=D;
+CC         IsoId=P27645-5; Sequence=Not described;
+CC       Name=E;
+CC         IsoId=P27645-6; Sequence=Not described;
+CC       Name=F;
+CC         IsoId=P27645-7; Sequence=Not described;
+CC       Name=G;
+CC         IsoId=P27645-8; Sequence=Not described;
+CC       Name=H;
+CC         IsoId=P27645-2; Sequence=VSP_002647;
+CC   -!- TISSUE SPECIFICITY: Expressed on natural killer cells and macrophages.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M64368; AAA42049.1; -; mRNA.
+DR   EMBL; M64369; AAA42048.1; -; mRNA.
+DR   EMBL; M64370; AAA42050.1; -; mRNA.
+DR   EMBL; M32062; AAA41148.1; -; mRNA.
+DR   EMBL; L08446; AAA41151.1; -; mRNA.
+DR   PIR; A35902; A35902.
+DR   PIR; I56110; I56110.
+DR   PIR; I72882; I72882.
+DR   RefSeq; NP_001129464.1; NM_001135992.1.
+DR   RefSeq; NP_446295.2; NM_053843.2.
+DR   RefSeq; XP_006250365.1; XM_006250303.3.
+DR   RefSeq; XP_006250367.1; XM_006250305.3.
+DR   RefSeq; XP_008767970.1; XM_008769748.2.
+DR   RefSeq; XP_008767989.1; XM_008769767.1.
+DR   RefSeq; XP_008767990.1; XM_008769768.2.
+DR   RefSeq; XP_008767991.1; XM_008769769.2.
+DR   RefSeq; XP_008767993.1; XM_008769771.2.
+DR   RefSeq; XP_008767994.1; XM_008769772.2.
+DR   RefSeq; XP_008767996.1; XM_008769774.2.
+DR   RefSeq; XP_008767997.1; XM_008769775.2.
+DR   RefSeq; XP_008767998.1; XM_008769776.2.
+DR   RefSeq; XP_017454126.1; XM_017598637.1.
+DR   AlphaFoldDB; P27645; -.
+DR   SMR; P27645; -.
+DR   STRING; 10116.ENSRNOP00000004204; -.
+DR   GlyCosmos; P27645; 5 sites, No reported glycans.
+DR   GlyGen; P27645; 5 sites.
+DR   PhosphoSitePlus; P27645; -.
+DR   PaxDb; 10116-ENSRNOP00000039989; -.
+DR   Ensembl; ENSRNOT00000047349.7; ENSRNOP00000039989.4; ENSRNOG00000046663.3. [P27645-1]
+DR   Ensembl; ENSRNOT00000073643.3; ENSRNOP00000064819.2; ENSRNOG00000046663.3. [P27645-1]
+DR   Ensembl; ENSRNOT00060043098; ENSRNOP00060035662; ENSRNOG00060024893. [P27645-1]
+DR   GeneID; 116591; -.
+DR   GeneID; 498276; -.
+DR   KEGG; rno:116591; -.
+DR   KEGG; rno:498276; -.
+DR   UCSC; RGD:71069; rat. [P27645-1]
+DR   AGR; RGD:1594388; -.
+DR   AGR; RGD:71069; -.
+DR   CTD; 2212; -.
+DR   CTD; 498276; -.
+DR   RGD; 71069; Fcgr3.
+DR   VEuPathDB; HostDB:ENSRNOG00000049422; -.
+DR   eggNOG; ENOG502SVEW; Eukaryota.
+DR   GeneTree; ENSGT01050000244808; -.
+DR   InParanoid; P27645; -.
+DR   OMA; LKCHGAH; -.
+DR   OrthoDB; 5261894at2759; -.
+DR   PhylomeDB; P27645; -.
+DR   Reactome; R-RNO-198933; Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell.
+DR   PRO; PR:P27645; -.
+DR   Proteomes; UP000002494; Chromosome 13.
+DR   Bgee; ENSRNOG00000049422; Expressed in lung and 19 other cell types or tissues.
+DR   GO; GO:0009986; C:cell surface; IDA:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISO:RGD.
+DR   GO; GO:0019864; F:IgG binding; ISO:RGD.
+DR   GO; GO:0019770; F:IgG receptor activity; ISO:RGD.
+DR   GO; GO:0034987; F:immunoglobulin receptor binding; IDA:RGD.
+DR   GO; GO:0001788; P:antibody-dependent cellular cytotoxicity; ISO:RGD.
+DR   GO; GO:0042590; P:antigen processing and presentation of exogenous peptide antigen via MHC class I; ISO:RGD.
+DR   GO; GO:0007166; P:cell surface receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0045576; P:mast cell activation; ISO:RGD.
+DR   GO; GO:0021675; P:nerve development; IEP:RGD.
+DR   GO; GO:0030593; P:neutrophil chemotaxis; ISO:RGD.
+DR   GO; GO:0006911; P:phagocytosis, engulfment; ISO:RGD.
+DR   GO; GO:0006910; P:phagocytosis, recognition; ISO:RGD.
+DR   GO; GO:0050766; P:positive regulation of phagocytosis; ISO:RGD.
+DR   GO; GO:0032760; P:positive regulation of tumor necrosis factor production; ISO:RGD.
+DR   GO; GO:0001812; P:positive regulation of type I hypersensitivity; ISO:RGD.
+DR   GO; GO:0001798; P:positive regulation of type IIa hypersensitivity; ISO:RGD.
+DR   GO; GO:0001805; P:positive regulation of type III hypersensitivity; ISO:RGD.
+DR   GO; GO:0001813; P:regulation of antibody-dependent cellular cytotoxicity; IMP:RGD.
+DR   GO; GO:0060368; P:regulation of Fc receptor mediated stimulatory signaling pathway; IMP:RGD.
+DR   GO; GO:0050776; P:regulation of immune response; ISO:RGD.
+DR   GO; GO:0050764; P:regulation of phagocytosis; IMP:RGD.
+DR   GO; GO:0032680; P:regulation of tumor necrosis factor production; IMP:RGD.
+DR   GO; GO:0001820; P:serotonin secretion; ISO:RGD.
+DR   CDD; cd05753; Ig2_FcgammaR_like; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 2.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR050488; Ig_Fc_receptor.
+DR   InterPro; IPR003599; Ig_sub.
+DR   PANTHER; PTHR11481; IMMUNOGLOBULIN FC RECEPTOR; 1.
+DR   PANTHER; PTHR11481:SF97; LOW AFFINITY IMMUNOGLOBULIN GAMMA FC REGION RECEPTOR II-A-RELATED; 1.
+DR   Pfam; PF13895; Ig_2; 2.
+DR   SMART; SM00409; IG; 2.
+DR   SUPFAM; SSF48726; Immunoglobulin; 2.
+DR   PROSITE; PS50835; IG_LIKE; 2.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Cell membrane; Disulfide bond; Glycoprotein;
+KW   IgG-binding protein; Immunoglobulin domain; Membrane; Receptor;
+KW   Reference proteome; Repeat; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..36
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           37..267
+FT                   /note="Low affinity immunoglobulin gamma Fc region receptor
+FT                   III"
+FT                   /id="PRO_0000015156"
+FT   TOPO_DOM        37..221
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        222..241
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        242..267
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          39..121
+FT                   /note="Ig-like C2-type 1"
+FT   DOMAIN          122..204
+FT                   /note="Ig-like C2-type 2"
+FT   CARBOHYD        70
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        78
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        97
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        171
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        178
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        62..104
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   DISULFID        143..187
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00114"
+FT   VAR_SEQ         145..176
+FT                   /note="SWKNKQLTKVLLFQNGKPVRYYYQSSNFSIPK -> GWKSIQLARISFLQNG
+FT                   EFVSFHPYNVSYSISN (in isoform H)"
+FT                   /evidence="ECO:0000303|PubMed:8482840"
+FT                   /id="VSP_002647"
+FT   VARIANT         36..39
+FT                   /note="ANLP -> GDLL (in isoform A and isoform H)"
+FT   VARIANT         55
+FT                   /note="E -> D (in isoform A and isoform H)"
+FT   VARIANT         56
+FT                   /note="D -> G (in isoform D)"
+FT   VARIANT         115
+FT                   /note="V -> I (in isoform A and isoform B)"
+FT   VARIANT         134
+FT                   /note="E -> L (in isoform H)"
+FT   VARIANT         138
+FT                   /note="T -> R (in isoform H)"
+FT   VARIANT         184
+FT                   /note="N -> D (in isoform H)"
+FT   VARIANT         195
+FT                   /note="M -> E (in isoform H)"
+FT   VARIANT         254
+FT                   /note="K -> R (in isoform H)"
+SQ   SEQUENCE   267 AA;  30282 MW;  DD4D6A7A3F70ED92 CRC64;
+     MTLETQMFQN AHSGSQWLLP PLTMLLLFAF ADRQTANLPK AVVKRDPPWI QVLKEDTVTL
+     TCEGTHNPGN SSTQWFHNQS STWGQVQASY TFKATVNDSG EYRCRMAHTS LSDPVHLEVI
+     SDWLLLQTPQ LVFEEGETIT LRCHSWKNKQ LTKVLLFQNG KPVRYYYQSS NFSIPKANHS
+     HSGNYYCKAY LGRTMHVSKP VTITVQGSAT ASTSSLVWFH AAFCLVMCLL FAVDTGLYFC
+     VRRNLQTSGE DWRKSLSVGK YKAPQDK
+//

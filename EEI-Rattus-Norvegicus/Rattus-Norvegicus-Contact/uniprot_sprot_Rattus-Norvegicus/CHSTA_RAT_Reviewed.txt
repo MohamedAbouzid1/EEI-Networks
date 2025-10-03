@@ -1,0 +1,284 @@
+ID   CHSTA_RAT               Reviewed;         356 AA.
+AC   O54702;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   29-MAY-2024, entry version 124.
+DE   RecName: Full=Carbohydrate sulfotransferase 10;
+DE            EC=2.8.2.- {ECO:0000269|PubMed:23723439};
+DE   AltName: Full=HNK-1 sulfotransferase {ECO:0000303|PubMed:23723439};
+DE            Short=HNK-1ST;
+DE            Short=HNK1ST;
+DE            Short=RaHNK-1ST;
+DE            Short=Sul-T;
+GN   Name=Chst10;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND FUNCTION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain cortex;
+RX   PubMed=9368071; DOI=10.1074/jbc.272.47.29942;
+RA   Bakker H., Friedmann I., Oka S., Kawasaki T., Nifant'ev N., Schachner M.,
+RA   Mantei N.;
+RT   "Expression cloning of a cDNA encoding a sulfotransferase involved in the
+RT   biosynthesis of the HNK-1 carbohydrate epitope.";
+RL   J. Biol. Chem. 272:29942-29946(1997).
+RN   [2]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=11044619; DOI=10.1016/s0925-4773(00)00449-4;
+RA   Nagase T., Shimoda Y., Sanai Y., Nakamura S., Harii K., Osumi N.;
+RT   "Differential expression of two glucuronyltransferases synthesizing HNK-1
+RT   carbohydrate epitope in the sublineages of the rat myogenic progenitors.";
+RL   Mech. Dev. 98:145-149(2000).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=23723439; DOI=10.1093/glycob/cwt043;
+RA   Nakagawa N., Takematsu H., Oka S.;
+RT   "HNK-1 sulfotransferase-dependent sulfation regulating laminin-binding
+RT   glycans occurs in the post-phosphoryl moiety on alpha-dystroglycan.";
+RL   Glycobiology 23:1066-1074(2013).
+CC   -!- FUNCTION: Catalyzes the transfer of sulfate from 3'-phosphoadenylyl
+CC       sulfate (PAPS) to position 3 of terminal glucuronic acid of both
+CC       protein- and lipid-linked oligosaccharides. Participates in
+CC       biosynthesis of HNK-1 carbohydrate structure 3-O-sulfo-beta-D-GlcA-
+CC       (1->3)-beta-D-Gal-(1->4)-D-GlcNAc-R, a sulfated glucuronyl-lactosaminyl
+CC       residue carried by many neural recognition molecules, which is involved
+CC       in cell interactions during ontogenetic development and in synaptic
+CC       plasticity in the adult. May be indirectly involved in synapse
+CC       plasticity of the hippocampus, via its role in HNK-1 biosynthesis
+CC       (PubMed:9368071). Sulfates terminal glucuronyl residue of the laminin
+CC       globular (LG)-domain binding epitope on DAG1/alpha-dystroglycan and
+CC       prevents further polymerization by LARGE1 glycosyltransferase. Likely
+CC       defines the chain length of LG epitope, conferring binding specificity
+CC       to extracellular matrix components (PubMed:23723439). Plays a role in
+CC       down-regulating the steroid hormones. Sulfates glucuronidated estrogens
+CC       and androgens with an impact in hormone cycle and fertility. Has a
+CC       preference for glucuronyl moiety at the 3-hydroxyl group of a sterol
+CC       ring rather than the 17-hydroxyl group, showing high catalytic
+CC       efficiency for 17beta-estradiol 3-O-(beta-D-glucuronate) and
+CC       dehydroepiandrosterone 3-O-(beta-D-glucuronate) hormones (By
+CC       similarity). {ECO:0000250|UniProtKB:O43529,
+CC       ECO:0000269|PubMed:23723439, ECO:0000269|PubMed:9368071}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3'-phosphoadenylyl sulfate + 3-O-{beta-D-GlcA-(1->[3)-alpha-D-
+CC         Xyl-(1->3)-beta-D-GlcA-(1->](n)-4)-beta-D-Xyl-(1->4)-Rib-ol-P-Rib-ol-
+CC         P-3-beta-D-GalNAc-(1->3)-beta-D-GlcNAc-(1->4)-O-6-P-alpha-D-Man}-L-
+CC         Thr-[protein] = 3-O-{O-3-S-beta-D-GlcA-(1->[3)-alpha-D-Xyl-(1->3)-
+CC         beta-D-GlcA-(1->](n)-4)-beta-D-Xyl-(1->4)-Rib-ol-P-Rib-ol-P-3-beta-D-
+CC         GalNAc-(1->3)-beta-D-GlcNAc-(1->4)-O-6-P-alpha-D-Man}-L-Thr-[protein]
+CC         + adenosine 3',5'-bisphosphate + H(+); Xref=Rhea:RHEA:68304,
+CC         Rhea:RHEA-COMP:17486, Rhea:RHEA-COMP:17487, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:58339, ChEBI:CHEBI:58343, ChEBI:CHEBI:177355,
+CC         ChEBI:CHEBI:177363; Evidence={ECO:0000269|PubMed:23723439};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68305;
+CC         Evidence={ECO:0000305|PubMed:23723439};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol 3-O-(beta-D-glucuronate) + 3'-phosphoadenylyl
+CC         sulfate = 17beta-estradiol 3-O-(3-sulfo-beta-D-glucuronate) +
+CC         adenosine 3',5'-bisphosphate + H(+); Xref=Rhea:RHEA:68696,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58339, ChEBI:CHEBI:58343,
+CC         ChEBI:CHEBI:136641, ChEBI:CHEBI:178093;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68697;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol 3-O-(beta-D-glucuronate) 17-sulfate + 3'-
+CC         phosphoadenylyl sulfate = 17beta-estradiol 3-O-(3-sulfo-beta-D-
+CC         glucuronate) 17-sulfate + adenosine 3',5'-bisphosphate + H(+);
+CC         Xref=Rhea:RHEA:68660, ChEBI:CHEBI:15378, ChEBI:CHEBI:58339,
+CC         ChEBI:CHEBI:58343, ChEBI:CHEBI:178094, ChEBI:CHEBI:178095;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68661;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol 17-O-(beta-D-glucuronate) + 3'-
+CC         phosphoadenylyl sulfate = 17beta-estradiol 17-O-(3-sulfo-beta-D-
+CC         glucuronate) + adenosine 3',5'-bisphosphate + H(+);
+CC         Xref=Rhea:RHEA:68664, ChEBI:CHEBI:15378, ChEBI:CHEBI:58339,
+CC         ChEBI:CHEBI:58343, ChEBI:CHEBI:82961, ChEBI:CHEBI:178096;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68665;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=16alpha,17beta-estriol 3-O-(beta-D-glucuronate) + 3'-
+CC         phosphoadenylyl sulfate = 16alpha,17beta-estriol 3-O-(3-sulfo-beta-D-
+CC         glucuronate) + adenosine 3',5'-bisphosphate + H(+);
+CC         Xref=Rhea:RHEA:68668, ChEBI:CHEBI:15378, ChEBI:CHEBI:58339,
+CC         ChEBI:CHEBI:58343, ChEBI:CHEBI:136649, ChEBI:CHEBI:178097;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68669;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=16alpha,17beta-estriol 16-O-(beta-D-glucuronate) + 3'-
+CC         phosphoadenylyl sulfate = 16alpha,17beta-estriol 16-O-(3-sulfo-beta-
+CC         D-glucuronate) + adenosine 3',5'-bisphosphate + H(+);
+CC         Xref=Rhea:RHEA:68672, ChEBI:CHEBI:15378, ChEBI:CHEBI:58339,
+CC         ChEBI:CHEBI:58343, ChEBI:CHEBI:136650, ChEBI:CHEBI:178098;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68673;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=16alpha,17beta-estriol 17-O-(beta-D-glucuronate) + 3'-
+CC         phosphoadenylyl sulfate = 16alpha,17beta-estriol 17-O-(3-sulfo-beta-
+CC         D-glucuronate) + adenosine 3',5'-bisphosphate + H(+);
+CC         Xref=Rhea:RHEA:68700, ChEBI:CHEBI:15378, ChEBI:CHEBI:58339,
+CC         ChEBI:CHEBI:58343, ChEBI:CHEBI:178099, ChEBI:CHEBI:178100;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68701;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3'-phosphoadenylyl sulfate + estrone 3-O-(beta-D-glucuronate)
+CC         = adenosine 3',5'-bisphosphate + estrone 3-O-(3-sulfo-beta-D-
+CC         glucuronate) + H(+); Xref=Rhea:RHEA:68676, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:58339, ChEBI:CHEBI:58343, ChEBI:CHEBI:136634,
+CC         ChEBI:CHEBI:178101; Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68677;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3'-phosphoadenylyl sulfate + 3alpha,20alpha-dihydroxy-5beta-
+CC         pregnane 3-O-(beta-D-glucuronate) = 3alpha,20alpha-dihydroxy-5beta-
+CC         pregnane 3-O-(3-sulfo-beta-D-glucuronate) + adenosine 3',5'-
+CC         bisphosphate + H(+); Xref=Rhea:RHEA:68680, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:58339, ChEBI:CHEBI:58343, ChEBI:CHEBI:178102,
+CC         ChEBI:CHEBI:178103; Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68681;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3'-phosphoadenylyl sulfate + testosterone 17-O-(beta-D-
+CC         glucuronate) = adenosine 3',5'-bisphosphate + H(+) + testosterone 17-
+CC         O-(3-sulfo-beta-D-glucuronate); Xref=Rhea:RHEA:68684,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58339, ChEBI:CHEBI:58343,
+CC         ChEBI:CHEBI:136639, ChEBI:CHEBI:178104;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68685;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3'-phosphoadenylyl sulfate + 3beta-androst-5-en-17-one 3-O-
+CC         (beta-D-glucuronate) = 3beta-androst-5-en-17-one 3-O-(3-sulfo-beta-D-
+CC         glucuronate) + adenosine 3',5'-bisphosphate + H(+);
+CC         Xref=Rhea:RHEA:68688, ChEBI:CHEBI:15378, ChEBI:CHEBI:58339,
+CC         ChEBI:CHEBI:58343, ChEBI:CHEBI:178105, ChEBI:CHEBI:178106;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68689;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3'-phosphoadenylyl sulfate + 3alpha,17alpha-dihydroxy-5beta-
+CC         androstane-11-one-17beta-carboxylate 3-O-(beta-D-glucuronate) =
+CC         3alpha,17alpha-dihydroxy-5beta-androstane-11-one-17beta-carboxylate
+CC         3-O-(3-sulfo-beta-D-glucuronate) + adenosine 3',5'-bisphosphate +
+CC         H(+); Xref=Rhea:RHEA:68692, ChEBI:CHEBI:15378, ChEBI:CHEBI:58339,
+CC         ChEBI:CHEBI:58343, ChEBI:CHEBI:178107, ChEBI:CHEBI:178108;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68693;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3'-phosphoadenylyl sulfate + 3alpha-hydroxyetiocholan-17-one
+CC         3-O-(beta-D-glucuronate) = 3alpha-hydroxyetiocholan-17-one 3-O-(3-
+CC         sulfo-beta-D-glucuronate) + adenosine 3',5'-bisphosphate + H(+);
+CC         Xref=Rhea:RHEA:68704, ChEBI:CHEBI:15378, ChEBI:CHEBI:58339,
+CC         ChEBI:CHEBI:58343, ChEBI:CHEBI:178197, ChEBI:CHEBI:178198;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:68705;
+CC         Evidence={ECO:0000250|UniProtKB:O43529};
+CC   -!- PATHWAY: Steroid metabolism. {ECO:0000250|UniProtKB:O43529}.
+CC   -!- PATHWAY: Protein modification; carbohydrate sulfation.
+CC       {ECO:0000250|UniProtKB:O43529}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000269|PubMed:23723439}; Single-pass type II membrane protein
+CC       {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: In myogenic progenitors, it is ubiquitously
+CC       expressed. {ECO:0000269|PubMed:11044619}.
+CC   -!- SIMILARITY: Belongs to the sulfotransferase 2 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF022729; AAB88123.1; -; mRNA.
+DR   RefSeq; NP_536322.1; NM_080397.1.
+DR   RefSeq; XP_006244794.1; XM_006244732.3.
+DR   RefSeq; XP_017451739.1; XM_017596250.1.
+DR   RefSeq; XP_017451740.1; XM_017596251.1.
+DR   AlphaFoldDB; O54702; -.
+DR   STRING; 10116.ENSRNOP00000073358; -.
+DR   GlyCosmos; O54702; 3 sites, No reported glycans.
+DR   GlyGen; O54702; 3 sites.
+DR   PhosphoSitePlus; O54702; -.
+DR   PaxDb; 10116-ENSRNOP00000017714; -.
+DR   Ensembl; ENSRNOT00055032249; ENSRNOP00055026103; ENSRNOG00055018911.
+DR   Ensembl; ENSRNOT00060033802; ENSRNOP00060027690; ENSRNOG00060019560.
+DR   Ensembl; ENSRNOT00065049250; ENSRNOP00065040386; ENSRNOG00065028564.
+DR   GeneID; 140568; -.
+DR   KEGG; rno:140568; -.
+DR   UCSC; RGD:621216; rat.
+DR   AGR; RGD:621216; -.
+DR   CTD; 9486; -.
+DR   RGD; 621216; Chst10.
+DR   VEuPathDB; HostDB:ENSRNOG00000012815; -.
+DR   eggNOG; KOG4651; Eukaryota.
+DR   HOGENOM; CLU_043398_2_0_1; -.
+DR   InParanoid; O54702; -.
+DR   OrthoDB; 2907043at2759; -.
+DR   PhylomeDB; O54702; -.
+DR   Reactome; R-RNO-975578; Reactions specific to the complex N-glycan synthesis pathway.
+DR   UniPathway; UPA00353; -.
+DR   PRO; PR:O54702; -.
+DR   Proteomes; UP000002494; Chromosome 9.
+DR   Bgee; ENSRNOG00000012815; Expressed in frontal cortex and 16 other cell types or tissues.
+DR   ExpressionAtlas; O54702; baseline and differential.
+DR   GO; GO:0000139; C:Golgi membrane; IDA:UniProtKB.
+DR   GO; GO:0016232; F:HNK-1 sulfotransferase activity; IDA:RGD.
+DR   GO; GO:0008146; F:sulfotransferase activity; IDA:UniProtKB.
+DR   GO; GO:0008209; P:androgen metabolic process; ISO:RGD.
+DR   GO; GO:0016051; P:carbohydrate biosynthetic process; IEA:InterPro.
+DR   GO; GO:0008210; P:estrogen metabolic process; ISO:RGD.
+DR   GO; GO:0007612; P:learning; ISO:RGD.
+DR   GO; GO:0007616; P:long-term memory; ISO:RGD.
+DR   GO; GO:0030166; P:proteoglycan biosynthetic process; IBA:GO_Central.
+DR   InterPro; IPR018011; Carb_sulfotrans_8-10.
+DR   InterPro; IPR005331; Sulfotransferase.
+DR   PANTHER; PTHR12137; CARBOHYDRATE SULFOTRANSFERASE; 1.
+DR   PANTHER; PTHR12137:SF2; CARBOHYDRATE SULFOTRANSFERASE 10; 1.
+DR   Pfam; PF03567; Sulfotransfer_2; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Glycoprotein; Golgi apparatus; Lipid metabolism;
+KW   Membrane; Reference proteome; Signal-anchor; Steroid metabolism;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..356
+FT                   /note="Carbohydrate sulfotransferase 10"
+FT                   /id="PRO_0000189660"
+FT   TOPO_DOM        1..6
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        7..27
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        28..356
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         127..133
+FT                   /ligand="3'-phosphoadenylyl sulfate"
+FT                   /ligand_id="ChEBI:CHEBI:58339"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         189..197
+FT                   /ligand="3'-phosphoadenylyl sulfate"
+FT                   /ligand_id="ChEBI:CHEBI:58339"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        99
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        228
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        316
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   356 AA;  42027 MW;  48DDC990973B5B28 CRC64;
+     MHHQWLLLAA CFWVIFMFMV ASKFITLTFK DPDGYSAKQE FVFLTAMPEA EKLRGEKHFS
+     EVMKPTGKML SESHPDQPPV YLERLELIRN ACKEEALRNL SHTEVSKFVL DRIFVCDKHK
+     ILFCQTPKVG NTQWKKVLIV LNGAFSSIEE IPENVVHDHE KNGLPRLSSF SKIGIQKRLK
+     TYFKFFIVRD PFERLISAFK DKFVHNPRFE PWYRHEIAPG IIRKYRKNRT ETRGIQFEDF
+     VRYLGDPNRR WLDLQFGDHI IHWVTYVKLC APCEIKYSVI GHHETLEADA PYILKEAGID
+     HLVSYPTIPP GITMYNRTKV EQYFLGISKR DIRRLYARFE GDFKLFGYQK PDFLLN
+//

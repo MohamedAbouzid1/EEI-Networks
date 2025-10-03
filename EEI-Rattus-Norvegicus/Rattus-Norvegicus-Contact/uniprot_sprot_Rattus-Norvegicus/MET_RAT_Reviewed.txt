@@ -1,0 +1,542 @@
+ID   MET_RAT                 Reviewed;        1382 AA.
+AC   P97523; P97579; Q63119; Q63964;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   02-OCT-2024, entry version 196.
+DE   RecName: Full=Hepatocyte growth factor receptor;
+DE            Short=HGF receptor;
+DE            EC=2.7.10.1;
+DE   AltName: Full=HGF/SF receptor;
+DE   AltName: Full=Proto-oncogene c-Met;
+DE   AltName: Full=Scatter factor receptor;
+DE            Short=SF receptor;
+DE   AltName: Full=Tyrosine-protein kinase Met;
+DE   Flags: Precursor;
+GN   Name=Met;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Liver;
+RX   PubMed=9271668; DOI=10.1007/s003359900533;
+RA   Wallenius V.R., Rawet H., Skrtic S., Helou K., Qiu Y., Levan G., Ekberg S.,
+RA   Carlsson B., Isaksson O.G.P., Nakamura T., Jansson J.-O.;
+RT   "Chromosomal localization of rat hepatocyte growth factor (Hgf) and HGF
+RT   receptor (Met) and characterization of HGF receptor cDNA.";
+RL   Mamm. Genome 8:661-667(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND CHARACTERIZATION.
+RC   STRAIN=Sprague-Dawley; TISSUE=Kidney;
+RX   PubMed=8853431; DOI=10.1152/ajprenal.1996.271.3.f679;
+RA   Liu Y., Tolbert E.M., Sun A.M., Dworkin L.D.;
+RT   "Primary structure of rat HGF receptor and induced expression in glomerular
+RT   mesangial cells.";
+RL   Am. J. Physiol. 271:F679-F688(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 364-495.
+RC   STRAIN=Sprague-Dawley; TISSUE=Gastric mucosa;
+RX   PubMed=8166728; DOI=10.1006/bbrc.1994.1481;
+RA   Tsujii M., Kawano S., Tsuji S., Ito T., Hayashi N., Horimoto M., Mita E.,
+RA   Nagano K., Masuda E., Hayashi N., Fusamoto H., Kamada T.;
+RT   "Increased expression of c-met messenger RNA following acute gastric injury
+RT   in rats.";
+RL   Biochem. Biophys. Res. Commun. 200:536-541(1994).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 851-1002.
+RC   TISSUE=Intestine;
+RX   PubMed=7628535; DOI=10.1006/excr.1995.1220;
+RA   Pepper M.S., Soriano J.V., Menoud P.-A., Sappino A.-P., Orci L.,
+RA   Montesano R.;
+RT   "Modulation of hepatocyte growth factor and c-met in the rat mammary gland
+RT   during pregnancy, lactation, and involution.";
+RL   Exp. Cell Res. 219:204-210(1995).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1129-1267.
+RA   Kikuchi Y.;
+RL   Submitted (MAR-1998) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Receptor tyrosine kinase that transduces signals from the
+CC       extracellular matrix into the cytoplasm by binding to hepatocyte growth
+CC       factor/HGF ligand. Regulates many physiological processes including
+CC       proliferation, scattering, morphogenesis and survival. Ligand binding
+CC       at the cell surface induces autophosphorylation of MET on its
+CC       intracellular domain that provides docking sites for downstream
+CC       signaling molecules. Following activation by ligand, interacts with the
+CC       PI3-kinase subunit PIK3R1, PLCG1, SRC, GRB2, STAT3 or the adapter GAB1.
+CC       Recruitment of these downstream effectors by MET leads to the
+CC       activation of several signaling cascades including the RAS-ERK, PI3
+CC       kinase-AKT, or PLCgamma-PKC. The RAS-ERK activation is associated with
+CC       the morphogenetic effects while PI3K/AKT coordinates prosurvival
+CC       effects. During embryonic development, MET signaling plays a role in
+CC       gastrulation, development and migration of muscles and neuronal
+CC       precursors, angiogenesis and kidney formation. In adults, participates
+CC       in wound healing as well as organ regeneration and tissue remodeling.
+CC       Promotes also differentiation and proliferation of hematopoietic cells
+CC       (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tyrosyl-[protein] = ADP + H(+) + O-phospho-L-tyrosyl-
+CC         [protein]; Xref=Rhea:RHEA:10596, Rhea:RHEA-COMP:10136, Rhea:RHEA-
+CC         COMP:10137, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:46858,
+CC         ChEBI:CHEBI:82620, ChEBI:CHEBI:456216; EC=2.7.10.1;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10028};
+CC   -!- ACTIVITY REGULATION: In its inactive state, the C-terminal tail
+CC       interacts with the catalytic domain and inhibits the kinase activity.
+CC       Upon ligand binding, the C-terminal tail is displaced and becomes
+CC       phosphorylated, thus increasing the kinase activity (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Heterodimer made of an alpha chain (50 kDa) and a beta chain
+CC       (145 kDa) which are disulfide linked. Binds PLXNB1. Interacts when
+CC       phosphorylated with downstream effectors including STAT3, PIK3R1, SRC,
+CC       PCLG1, GRB2 and GAB1. Interacts with SPSB1, SPSB2 and SPSB4. Interacts
+CC       with INPP5D/SHIP1. When phosphorylated at Tyr-1357, interacts with
+CC       INPPL1/SHIP2. Interacts with RANBP9 and RANBP10, as well as SPSB1,
+CC       SPSB2, SPSB3 and SPSB4. SPSB1 binding occurs in the presence and in the
+CC       absence of HGF, however HGF treatment has a positive effect on this
+CC       interaction. Interacts with MUC20; prevents interaction with GRB2 and
+CC       suppresses hepatocyte growth factor-induced cell proliferation.
+CC       Interacts with GRB10. Interacts with PTPN1 and PTPN2. Interacts with
+CC       HSP90AA1 and HSP90AB1; the interaction suppresses MET kinase activity.
+CC       Interacts with tensin TNS3 (By similarity). Interacts (when
+CC       phosphorylated) with tensin TNS4 (via SH2 domain); the interaction
+CC       increases MET protein stability by inhibiting MET endocytosis and
+CC       subsequent lysosomal degradation (By similarity).
+CC       {ECO:0000250|UniProtKB:P08581, ECO:0000250|UniProtKB:P16056}.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane protein.
+CC   -!- TISSUE SPECIFICITY: Expressed at highest levels in lung, liver and
+CC       kidney, also expressed in stomach, intestine, spleen, testis and brain.
+CC       Not expressed in heart or muscle.
+CC   -!- DEVELOPMENTAL STAGE: Expression is down-regulated during pregnancy and
+CC       is virtually undetectable during lactation. Expression progressively
+CC       increases post-lactation.
+CC   -!- INDUCTION: By interleukin-6 and acute acid-induced gastric injury.
+CC       Inhibited by prolactin.
+CC   -!- DOMAIN: The kinase domain is involved in SPSB1 binding. {ECO:0000250}.
+CC   -!- DOMAIN: The beta-propeller Sema domain mediates binding to HGF.
+CC       {ECO:0000250}.
+CC   -!- PTM: Autophosphorylated in response to ligand binding on Tyr-1235 and
+CC       Tyr-1236 in the kinase domain leading to further phosphorylation of
+CC       Tyr-1350 and Tyr-1357 in the C-terminal multifunctional docking site.
+CC       Dephosphorylated by PTPRJ at Tyr-1350 and Tyr-1366. Dephosphorylated by
+CC       PTPN1 and PTPN2 (By similarity). {ECO:0000250|UniProtKB:P08581}.
+CC   -!- PTM: Ubiquitinated. Ubiquitination by CBL regulates the receptor
+CC       stability and activity through proteasomal degradation (By similarity).
+CC       {ECO:0000250|UniProtKB:P08581}.
+CC   -!- PTM: O-mannosylation of IPT/TIG domains by TMEM260 is required for
+CC       protein maturation. O-mannosylated residues are composed of single
+CC       mannose glycans that are not elongated or modified.
+CC       {ECO:0000250|UniProtKB:P08581}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. {ECO:0000255|PROSITE-ProRule:PRU00159}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X96786; CAA65582.1; -; mRNA.
+DR   EMBL; U65007; AAB19189.1; -; mRNA.
+DR   EMBL; S69881; AAB30575.1; -; mRNA.
+DR   EMBL; Z46374; CAA86508.1; -; mRNA.
+DR   EMBL; AB012281; BAA28171.1; -; Genomic_DNA.
+DR   PIR; PC2131; PC2131.
+DR   RefSeq; NP_113705.1; NM_031517.2.
+DR   AlphaFoldDB; P97523; -.
+DR   SMR; P97523; -.
+DR   STRING; 10116.ENSRNOP00000070486; -.
+DR   GlyCosmos; P97523; 10 sites, No reported glycans.
+DR   GlyGen; P97523; 10 sites.
+DR   iPTMnet; P97523; -.
+DR   PhosphoSitePlus; P97523; -.
+DR   PaxDb; 10116-ENSRNOP00000009662; -.
+DR   GeneID; 24553; -.
+DR   KEGG; rno:24553; -.
+DR   UCSC; RGD:3082; rat.
+DR   AGR; RGD:3082; -.
+DR   CTD; 4233; -.
+DR   RGD; 3082; Met.
+DR   eggNOG; KOG1095; Eukaryota.
+DR   eggNOG; KOG3610; Eukaryota.
+DR   InParanoid; P97523; -.
+DR   OrthoDB; 1614410at2759; -.
+DR   PhylomeDB; P97523; -.
+DR   BRENDA; 2.7.10.1; 5301.
+DR   Reactome; R-RNO-1257604; PIP3 activates AKT signaling.
+DR   Reactome; R-RNO-416550; Sema4D mediated inhibition of cell attachment and migration.
+DR   Reactome; R-RNO-5673001; RAF/MAP kinase cascade.
+DR   Reactome; R-RNO-6806942; MET Receptor Activation.
+DR   Reactome; R-RNO-6807004; Negative regulation of MET activity.
+DR   Reactome; R-RNO-6811558; PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling.
+DR   Reactome; R-RNO-8851805; MET activates RAS signaling.
+DR   Reactome; R-RNO-8851907; MET activates PI3K/AKT signaling.
+DR   Reactome; R-RNO-8865999; MET activates PTPN11.
+DR   Reactome; R-RNO-8874081; MET activates PTK2 signaling.
+DR   Reactome; R-RNO-8875513; MET interacts with TNS proteins.
+DR   Reactome; R-RNO-8875555; MET activates RAP1 and RAC1.
+DR   Reactome; R-RNO-8875656; MET receptor recycling.
+DR   Reactome; R-RNO-8875791; MET activates STAT3.
+DR   Reactome; R-RNO-9734091; Drug-mediated inhibition of MET activation.
+DR   PRO; PR:P97523; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0009925; C:basal plasma membrane; ISO:RGD.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0060076; C:excitatory synapse; IDA:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0045211; C:postsynaptic membrane; IDA:RGD.
+DR   GO; GO:0043235; C:receptor complex; IBA:GO_Central.
+DR   GO; GO:0036126; C:sperm flagellum; IDA:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008013; F:beta-catenin binding; IPI:RGD.
+DR   GO; GO:0005008; F:hepatocyte growth factor receptor activity; IMP:RGD.
+DR   GO; GO:0042802; F:identical protein binding; ISO:RGD.
+DR   GO; GO:0140677; F:molecular function activator activity; ISO:RGD.
+DR   GO; GO:0043548; F:phosphatidylinositol 3-kinase binding; IDA:RGD.
+DR   GO; GO:0043274; F:phospholipase binding; IPI:RGD.
+DR   GO; GO:0004672; F:protein kinase activity; ISO:RGD.
+DR   GO; GO:0019903; F:protein phosphatase binding; ISO:RGD.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IDA:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0017154; F:semaphorin receptor activity; IEA:InterPro.
+DR   GO; GO:0030534; P:adult behavior; ISO:RGD.
+DR   GO; GO:0007420; P:brain development; ISO:RGD.
+DR   GO; GO:0048754; P:branching morphogenesis of an epithelial tube; ISO:RGD.
+DR   GO; GO:0055013; P:cardiac muscle cell development; ISO:RGD.
+DR   GO; GO:0060048; P:cardiac muscle contraction; ISO:RGD.
+DR   GO; GO:0016477; P:cell migration; IBA:GO_Central.
+DR   GO; GO:0071243; P:cellular response to arsenic-containing substance; IEP:RGD.
+DR   GO; GO:0071333; P:cellular response to glucose stimulus; IEP:RGD.
+DR   GO; GO:0071363; P:cellular response to growth factor stimulus; IEP:RGD.
+DR   GO; GO:0071354; P:cellular response to interleukin-6; IEP:RGD.
+DR   GO; GO:0071375; P:cellular response to peptide hormone stimulus; IEP:RGD.
+DR   GO; GO:0021953; P:central nervous system neuron differentiation; IEP:RGD.
+DR   GO; GO:0007268; P:chemical synaptic transmission; ISO:RGD.
+DR   GO; GO:0001886; P:endothelial cell morphogenesis; ISO:RGD.
+DR   GO; GO:0051649; P:establishment of localization in cell; ISO:RGD.
+DR   GO; GO:0061436; P:establishment of skin barrier; ISO:RGD.
+DR   GO; GO:0060079; P:excitatory postsynaptic potential; ISO:RGD.
+DR   GO; GO:0030317; P:flagellated sperm motility; IMP:RGD.
+DR   GO; GO:0042593; P:glucose homeostasis; ISO:RGD.
+DR   GO; GO:1904659; P:glucose transmembrane transport; ISO:RGD.
+DR   GO; GO:0048012; P:hepatocyte growth factor receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0007595; P:lactation; IEP:RGD.
+DR   GO; GO:0001889; P:liver development; IEP:RGD.
+DR   GO; GO:0008584; P:male gonad development; IEP:RGD.
+DR   GO; GO:0050804; P:modulation of chemical synaptic transmission; ISO:RGD.
+DR   GO; GO:0014812; P:muscle cell migration; ISO:RGD.
+DR   GO; GO:0007517; P:muscle organ development; ISO:RGD.
+DR   GO; GO:0051450; P:myoblast proliferation; ISO:RGD.
+DR   GO; GO:0014902; P:myotube differentiation; ISO:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:1901299; P:negative regulation of hydrogen peroxide-mediated programmed cell death; ISO:RGD.
+DR   GO; GO:0010801; P:negative regulation of peptidyl-threonine phosphorylation; IMP:RGD.
+DR   GO; GO:0035024; P:negative regulation of Rho protein signal transduction; ISO:RGD.
+DR   GO; GO:0051497; P:negative regulation of stress fiber assembly; ISO:RGD.
+DR   GO; GO:0070495; P:negative regulation of thrombin-activated receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; IMP:RGD.
+DR   GO; GO:0071635; P:negative regulation of transforming growth factor beta production; ISO:RGD.
+DR   GO; GO:0007399; P:nervous system development; IBA:GO_Central.
+DR   GO; GO:0030182; P:neuron differentiation; IBA:GO_Central.
+DR   GO; GO:0001764; P:neuron migration; IDA:RGD.
+DR   GO; GO:0014003; P:oligodendrocyte development; IEP:RGD.
+DR   GO; GO:0031016; P:pancreas development; IEP:RGD.
+DR   GO; GO:0006909; P:phagocytosis; IBA:GO_Central.
+DR   GO; GO:0001890; P:placenta development; ISO:RGD.
+DR   GO; GO:0050918; P:positive chemotaxis; ISS:UniProtKB.
+DR   GO; GO:0050775; P:positive regulation of dendrite morphogenesis; IMP:RGD.
+DR   GO; GO:0045740; P:positive regulation of DNA replication; IMP:RGD.
+DR   GO; GO:2001028; P:positive regulation of endothelial cell chemotaxis; ISS:UniProtKB.
+DR   GO; GO:0010628; P:positive regulation of gene expression; IMP:RGD.
+DR   GO; GO:0010828; P:positive regulation of glucose transmembrane transport; ISO:RGD.
+DR   GO; GO:0043410; P:positive regulation of MAPK cascade; ISO:RGD.
+DR   GO; GO:0031116; P:positive regulation of microtubule polymerization; ISO:RGD.
+DR   GO; GO:0045840; P:positive regulation of mitotic nuclear division; IMP:RGD.
+DR   GO; GO:0010976; P:positive regulation of neuron projection development; IMP:RGD.
+DR   GO; GO:1900745; P:positive regulation of p38MAPK cascade; ISO:RGD.
+DR   GO; GO:0033138; P:positive regulation of peptidyl-serine phosphorylation; IMP:RGD.
+DR   GO; GO:0010800; P:positive regulation of peptidyl-threonine phosphorylation; IMP:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; IMP:RGD.
+DR   GO; GO:0072593; P:reactive oxygen species metabolic process; ISO:RGD.
+DR   GO; GO:0060665; P:regulation of branching involved in salivary gland morphogenesis by mesenchymal-epithelial signaling; ISO:RGD.
+DR   GO; GO:1900407; P:regulation of cellular response to oxidative stress; ISO:RGD.
+DR   GO; GO:0032675; P:regulation of interleukin-6 production; ISO:RGD.
+DR   GO; GO:0010447; P:response to acidic pH; IEP:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IEP:RGD.
+DR   GO; GO:0043434; P:response to peptide hormone; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0071526; P:semaphorin-plexin signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0007519; P:skeletal muscle tissue development; ISO:RGD.
+DR   CDD; cd00603; IPT_PCSR; 1.
+DR   CDD; cd01180; IPT_plexin_repeat1; 1.
+DR   CDD; cd01179; IPT_plexin_repeat2; 1.
+DR   CDD; cd05058; PTKc_Met_Ron; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 3.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   Gene3D; 2.130.10.10; YVTN repeat-like/Quinoprotein amine dehydrogenase; 1.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR002909; IPT_dom.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR031148; Plexin.
+DR   InterPro; IPR002165; Plexin_repeat.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR016201; PSI.
+DR   InterPro; IPR001627; Semap_dom.
+DR   InterPro; IPR036352; Semap_dom_sf.
+DR   InterPro; IPR001245; Ser-Thr/Tyr_kinase_cat_dom.
+DR   InterPro; IPR008266; Tyr_kinase_AS.
+DR   InterPro; IPR020635; Tyr_kinase_cat_dom.
+DR   InterPro; IPR016244; Tyr_kinase_HGF/MSP_rcpt.
+DR   InterPro; IPR015943; WD40/YVTN_repeat-like_dom_sf.
+DR   PANTHER; PTHR22625:SF61; HEPATOCYTE GROWTH FACTOR RECEPTOR; 1.
+DR   PANTHER; PTHR22625; PLEXIN; 1.
+DR   Pfam; PF07714; PK_Tyr_Ser-Thr; 1.
+DR   Pfam; PF01437; PSI; 1.
+DR   Pfam; PF01403; Sema; 1.
+DR   Pfam; PF01833; TIG; 3.
+DR   PIRSF; PIRSF000617; TyrPK_HGF-R; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00429; IPT; 4.
+DR   SMART; SM00423; PSI; 1.
+DR   SMART; SM00630; Sema; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF81296; E set domains; 3.
+DR   SUPFAM; SSF103575; Plexin repeat; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   SUPFAM; SSF101912; Sema domain; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS51004; SEMA; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Disulfide bond; Glycoprotein; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Proto-oncogene; Receptor;
+KW   Reference proteome; Repeat; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix; Tyrosine-protein kinase; Ubl conjugation.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           25..1382
+FT                   /note="Hepatocyte growth factor receptor"
+FT                   /id="PRO_0000024442"
+FT   TOPO_DOM        25..935
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        936..956
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        957..1379
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          27..516
+FT                   /note="Sema"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00352"
+FT   DOMAIN          564..656
+FT                   /note="IPT/TIG 1"
+FT   DOMAIN          658..740
+FT                   /note="IPT/TIG 2"
+FT   DOMAIN          743..837
+FT                   /note="IPT/TIG 3"
+FT   DOMAIN          1079..1346
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          1213..1382
+FT                   /note="Interaction with RANBP9"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1321..1360
+FT                   /note="Interaction with MUC20"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        1205
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10028"
+FT   BINDING         1085..1093
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         1111
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   SITE            308..309
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         967
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         978
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         991
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         998
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         1001
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         1004
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         1231
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         1235
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         1236
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         1290
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         1350
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         1357
+FT                   /note="Phosphotyrosine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   MOD_RES         1366
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   CARBOHYD        45
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        106
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        203
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        359
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        400
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        406
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        583
+FT                   /note="O-linked (Man) threonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   CARBOHYD        608
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        636
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        677
+FT                   /note="O-linked (Man) threonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   CARBOHYD        762
+FT                   /note="O-linked (Man) threonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P08581"
+FT   CARBOHYD        786
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        880
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        95..101
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00352"
+FT   DISULFID        98..160
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00352"
+FT   DISULFID        133..141
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00352"
+FT   DISULFID        173..176
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00352"
+FT   DISULFID        299..364
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00352"
+FT   DISULFID        386..398
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00352"
+FT   DISULFID        521..539
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00352"
+FT   DISULFID        527..562
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00352"
+FT   DISULFID        530..546
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00352"
+FT   DISULFID        542..552
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00352"
+FT   CONFLICT        53
+FT                   /note="H -> Q (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        58
+FT                   /note="P -> H (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        240
+FT                   /note="P -> G (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        427
+FT                   /note="R -> A (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        485
+FT                   /note="Y -> H (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        490..495
+FT                   /note="EVIVEH -> GAAGIR (in Ref. 3)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        533
+FT                   /note="P -> A (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        740
+FT                   /note="R -> G (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        744
+FT                   /note="V -> F (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        808
+FT                   /note="R -> Q (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        890..893
+FT                   /note="SEAL -> TASV (in Ref. 4; CAA86508)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        907
+FT                   /note="Missing (in Ref. 4; CAA86508)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        924
+FT                   /note="K -> E (in Ref. 4; CAA86508)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        934
+FT                   /note="A -> R (in Ref. 4; CAA86508)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1028
+FT                   /note="L -> P (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1068
+FT                   /note="P -> Q (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1197
+FT                   /note="V -> A (in Ref. 2 and 5)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1331
+FT                   /note="V -> F (in Ref. 2; AAB19189)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1382 AA;  153941 MW;  66B8F2C88FE34427 CRC64;
+     MKAPTALAPG ILLLLLTLAQ RSHGECKEAL VKSEMNVNMK YQLPNFTAET PIHNVVLPGH
+     HIYLGATNYI YVLNDKDLQK VSEFKTGPVV EHPDCFPCQD CSSKANVSGG VWKDNVNMAL
+     LVDTYYDDQL ISCGSVNRGT CQRHVLPPDN AADIQSEVHC MFSPLAEEES GQCPDCVVSA
+     LGAKVLLSEK DRFINFFVGN TINSSYPPDY SLHSISVRRL KETQDGFKFL TDQSYIDVLP
+     EFRDSYPIKY IHAFESNHFI YFLTVQKETL DAQTFHTRII RFCSVDSGLH SYMEMPLECI
+     LTEKRRKRST REEVFNILQA AYVSKPGANL AKQIGASPYD DILYGVFAQS KPDSAEPMNR
+     SAVCAFPIKY VNDFFNKIVN KNNVRCLQHF YGPNHEHCFN RTLLRNSSGC EVRSDEYRTE
+     FTTALQRVDL FMGRLNHVLL TSISTFIKGD LTIANLGTSE GRFMQVVLSR TAHFTPHVNF
+     LLDSYPVSPE VIVEHPSNQN GYTLVVTGKK ITKIPLNGLG CGHFQSCSQC LSPPYFIQCG
+     WCHNRCVHSN ECPSGTWTQE ICLPAVYKVF PTSAPLEGGT MLTICGWDFG FKKNNKFDLR
+     KTKVLLGNES CTLTLSESTT NTLKCTVGPA MSEHFNVSVI VSNSRETTQY SAFSYVDPVI
+     TSISPRYGPH AGGTLLTLTG KYLNSGNSRH ISIGGKTCTL KSVSDSILEC YTPGHTVSAE
+     FPVKLKIDLA DRVTSSFSYR EDPVVSEIHP TKSFISGGST ITGIGKNLNS VSTPKLVIEV
+     HDVGVNYTVA CQHRSSSEII CCTTPSLRQL DLQLPLKTKA FFLLDGILSK HFDLTYVHDP
+     MFKPFEKPVM ISMGNENVVE IKGDDIDPEA VKGEVLKVGN KSCENLHWHS EALLCTVPSD
+     LLKLNGGELN IEWKQAVSST VLGKVIVQPD QNFAGLIIGA VSISVVVLLV SGLFLWLRKR
+     KHKDLGSELV RYDARVHTPH LDRLVSARSV SPTTEMVSNE SVDYRATFPE DQFPNSSQNG
+     ACRQVQYLLT DLSPILTSGD SDISSPLLQN TVHIDLSALN PELVQAVPHV VIGPSSLIVH
+     FNEVIGRGHF GCVYHGTLLD SDGKKIHCAV KSLNRITDIE EVSQFLTEGI IMKDFSHPNV
+     LSLLGICLRS EGSPLVVLPY MKHGDLRNFI RNETHNPTVK DLIGFGLQVA KGMKYLVSKK
+     FVHRDLAARN CMLDEKFTVK VADFGLARDM YDKEYYSVHN KTGAKLPVKW MALESLQTQK
+     FTTKSDVWSF GVLLWELMTR GAPPYPDVNT FDITIYLLQG RRLLQPEYCP DALYEVMLKC
+     WHPKAEMRPS VSELVSRISS IFSTFIGEHY VHVNATYVNV KCVAPYPSLL PSQDNIDGEA
+     NT
+//

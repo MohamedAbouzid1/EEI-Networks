@@ -1,0 +1,243 @@
+ID   H17B6_RAT               Reviewed;         317 AA.
+AC   O54753; Q5M8C8;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 2.
+DT   02-OCT-2024, entry version 132.
+DE   RecName: Full=17-beta-hydroxysteroid dehydrogenase type 6;
+DE            Short=17-beta-HSD 6;
+DE            Short=17-beta-HSD6;
+DE            EC=1.1.1.105 {ECO:0000250|UniProtKB:O14756};
+DE            EC=1.1.1.209 {ECO:0000269|PubMed:9188497};
+DE            EC=1.1.1.239 {ECO:0000269|PubMed:9188497};
+DE            EC=1.1.1.53 {ECO:0000269|PubMed:9188497};
+DE            EC=1.1.1.62 {ECO:0000269|PubMed:9188497};
+DE   AltName: Full=3-alpha->beta-hydroxysteroid epimerase;
+DE            Short=3-alpha->beta-HSE;
+DE   AltName: Full=Oxidative 3-alpha hydroxysteroid dehydrogenase;
+DE   Flags: Precursor;
+GN   Name=Hsd17b6; Synonyms=Hsd17b9;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, ACTIVITY REGULATION, INDUCTION, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Prostate;
+RX   PubMed=9188497; DOI=10.1074/jbc.272.25.15959;
+RA   Biswas M.G., Russell D.W.;
+RT   "Expression cloning and characterization of oxidative 17beta- and 3alpha-
+RT   hydroxysteroid dehydrogenases from rat and human prostate.";
+RL   J. Biol. Chem. 272:15959-15966(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: NAD-dependent oxidoreductase with broad substrate specificity
+CC       that shows both oxidative and reductive activity (in vitro). Has
+CC       retinol dehydrogenase activity towards all-trans-retinol (in vitro) (By
+CC       similarity). Has 17-beta-hydroxysteroid dehydrogenase activity towards
+CC       various steroids (in vitro). Converts 5-alpha-androstan-3-alpha,17-
+CC       beta-diol to androsterone and estradiol to estrone (in vitro). Has 3-
+CC       alpha-hydroxysteroid dehydrogenase activity towards androsterone (in
+CC       vitro). {ECO:0000250|UniProtKB:O14756, ECO:0000269|PubMed:9188497}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinol--[retinol-binding protein] + NAD(+) = all-
+CC         trans-retinal--[retinol-binding protein] + H(+) + NADH;
+CC         Xref=Rhea:RHEA:48488, Rhea:RHEA-COMP:14428, Rhea:RHEA-COMP:14430,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17336, ChEBI:CHEBI:17898,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:83228;
+CC         EC=1.1.1.105; Evidence={ECO:0000250|UniProtKB:O14756};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=all-trans-retinol + NAD(+) = all-trans-retinal + H(+) + NADH;
+CC         Xref=Rhea:RHEA:21284, ChEBI:CHEBI:15378, ChEBI:CHEBI:17336,
+CC         ChEBI:CHEBI:17898, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         EC=1.1.1.105; Evidence={ECO:0000250|UniProtKB:O14756};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21285;
+CC         Evidence={ECO:0000250|UniProtKB:O14756};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=androsterone + NAD(+) = 5alpha-androstan-3,17-dione + H(+) +
+CC         NADH; Xref=Rhea:RHEA:20381, ChEBI:CHEBI:15378, ChEBI:CHEBI:15994,
+CC         ChEBI:CHEBI:16032, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         EC=1.1.1.209; Evidence={ECO:0000269|PubMed:9188497};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:20382;
+CC         Evidence={ECO:0000305|PubMed:9188497};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:20383;
+CC         Evidence={ECO:0000305|PubMed:9188497};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + testosterone = androst-4-ene-3,17-dione + H(+) +
+CC         NADH; Xref=Rhea:RHEA:14929, ChEBI:CHEBI:15378, ChEBI:CHEBI:16422,
+CC         ChEBI:CHEBI:17347, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         EC=1.1.1.239; Evidence={ECO:0000269|PubMed:9188497};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5alpha-androstane-3alpha,17beta-diol + NAD(+) = 17beta-
+CC         hydroxy-5alpha-androstan-3-one + H(+) + NADH; Xref=Rhea:RHEA:42004,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16330, ChEBI:CHEBI:36713,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.53;
+CC         Evidence={ECO:0000269|PubMed:9188497};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:42006;
+CC         Evidence={ECO:0000305|PubMed:9188497};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol + NAD(+) = estrone + H(+) + NADH;
+CC         Xref=Rhea:RHEA:24612, ChEBI:CHEBI:15378, ChEBI:CHEBI:16469,
+CC         ChEBI:CHEBI:17263, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.62;
+CC         Evidence={ECO:0000269|PubMed:9188497};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=17beta-estradiol + NADP(+) = estrone + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:24616, ChEBI:CHEBI:15378, ChEBI:CHEBI:16469,
+CC         ChEBI:CHEBI:17263, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.1.1.62;
+CC         Evidence={ECO:0000269|PubMed:9188497};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3alpha-hydroxy-5alpha-pregnan-20-one + NAD(+) = 5alpha-
+CC         pregnane-3,20-dione + H(+) + NADH; Xref=Rhea:RHEA:41980,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:28952, ChEBI:CHEBI:50169,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000250|UniProtKB:O14756};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41981;
+CC         Evidence={ECO:0000250|UniProtKB:O14756};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5alpha-androstane-3beta,17beta-diol + NAD(+) = 17beta-hydroxy-
+CC         5alpha-androstan-3-one + H(+) + NADH; Xref=Rhea:RHEA:42184,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16330, ChEBI:CHEBI:18329,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000250|UniProtKB:O14756};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:42186;
+CC         Evidence={ECO:0000250|UniProtKB:O14756};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3beta-hydroxy-5alpha-androstan-17-one + NAD(+) = 5alpha-
+CC         androstan-3,17-dione + H(+) + NADH; Xref=Rhea:RHEA:42188,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15994, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:541975;
+CC         Evidence={ECO:0000250|UniProtKB:O14756};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:42190;
+CC         Evidence={ECO:0000250|UniProtKB:O14756};
+CC   -!- ACTIVITY REGULATION: Competitively inhibited by 9-cis-retinoic acid and
+CC       13-cis-retinoic acid. {ECO:0000269|PubMed:9188497}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.1 uM for 5-alpha-androstan-3-alpha,17-beta-diol
+CC         {ECO:0000269|PubMed:9188497};
+CC         KM=0.2 uM for androsterone {ECO:0000269|PubMed:9188497};
+CC         KM=0.5 uM for dihydrotestosterone {ECO:0000269|PubMed:9188497};
+CC         KM=1.1 uM for testosterone {ECO:0000269|PubMed:9188497};
+CC         KM=0.8 uM for estradiol {ECO:0000269|PubMed:9188497};
+CC         KM=3 uM for NAD {ECO:0000269|PubMed:9188497};
+CC         KM=1 mM for NADP {ECO:0000269|PubMed:9188497};
+CC         Vmax=2.5 nmol/min/mg enzyme for 5-alpha-androstan-3-alpha,17-beta-
+CC         diol {ECO:0000269|PubMed:9188497};
+CC         Vmax=0.1 nmol/min/mg enzyme for androsterone
+CC         {ECO:0000269|PubMed:9188497};
+CC         Vmax=0.5 nmol/min/mg enzyme for dihydrotestosterone
+CC         {ECO:0000269|PubMed:9188497};
+CC         Vmax=1.1 nmol/min/mg enzyme for testosterone
+CC         {ECO:0000269|PubMed:9188497};
+CC         Vmax=2.1 nmol/min/mg enzyme for estradiol
+CC         {ECO:0000269|PubMed:9188497};
+CC         Note=Vmax was measured using transfected cell lysates.;
+CC   -!- SUBCELLULAR LOCATION: Microsome membrane
+CC       {ECO:0000250|UniProtKB:O14756}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:O14756}; Lumenal side
+CC       {ECO:0000250|UniProtKB:O14756}. Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:O14756}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:O14756}; Lumenal side
+CC       {ECO:0000250|UniProtKB:O14756}.
+CC   -!- TISSUE SPECIFICITY: Detected in prostate, liver and kidney.
+CC       {ECO:0000269|PubMed:9188497}.
+CC   -!- INDUCTION: Up-regulated by testosterone. Levels are very low in
+CC       castrated male rats. {ECO:0000269|PubMed:9188497}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAB88253.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=AAH88104.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=AAH91114.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U89280; AAB88253.1; ALT_INIT; mRNA.
+DR   EMBL; BC088104; AAH88104.1; ALT_INIT; mRNA.
+DR   EMBL; BC091114; AAH91114.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_775427.1; NM_173305.1.
+DR   AlphaFoldDB; O54753; -.
+DR   SMR; O54753; -.
+DR   STRING; 10116.ENSRNOP00000003498; -.
+DR   GlyCosmos; O54753; 1 site, No reported glycans.
+DR   GlyGen; O54753; 1 site.
+DR   PhosphoSitePlus; O54753; -.
+DR   PaxDb; 10116-ENSRNOP00000003498; -.
+DR   PeptideAtlas; O54753; -.
+DR   GeneID; 286964; -.
+DR   KEGG; rno:286964; -.
+DR   UCSC; RGD:708343; rat.
+DR   AGR; RGD:708343; -.
+DR   CTD; 8630; -.
+DR   RGD; 708343; Hsd17b6.
+DR   eggNOG; KOG1610; Eukaryota.
+DR   InParanoid; O54753; -.
+DR   OrthoDB; 5403248at2759; -.
+DR   PhylomeDB; O54753; -.
+DR   PRO; PR:O54753; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043231; C:intracellular membrane-bounded organelle; IBA:GO_Central.
+DR   GO; GO:0047024; F:5alpha-androstane-3beta,17beta-diol dehydrogenase activity; ISS:UniProtKB.
+DR   GO; GO:0004745; F:all-trans-retinol dehydrogenase (NAD+) activity; ISO:RGD.
+DR   GO; GO:0047044; F:androstan-3-alpha,17-beta-diol dehydrogenase activity; IDA:UniProtKB.
+DR   GO; GO:0047023; F:androsterone dehydrogenase activity; IDA:UniProtKB.
+DR   GO; GO:0004303; F:estradiol 17-beta-dehydrogenase [NAD(P)+] activity; IDA:UniProtKB.
+DR   GO; GO:0047045; F:testosterone 17-beta-dehydrogenase (NADP+) activity; ISO:RGD.
+DR   GO; GO:0047035; F:testosterone dehydrogenase (NAD+) activity; IDA:UniProtKB.
+DR   GO; GO:0008209; P:androgen metabolic process; TAS:RGD.
+DR   GO; GO:0062175; P:brexanolone catabolic process; ISS:UniProtKB.
+DR   GO; GO:0042572; P:retinol metabolic process; IBA:GO_Central.
+DR   GO; GO:0008202; P:steroid metabolic process; IBA:GO_Central.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR020904; Sc_DH/Rdtase_CS.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PANTHER; PTHR43313:SF4; 17-BETA-HYDROXYSTEROID DEHYDROGENASE TYPE 6; 1.
+DR   PANTHER; PTHR43313; SHORT-CHAIN DEHYDROGENASE/REDUCTASE FAMILY 9C; 1.
+DR   Pfam; PF00106; adh_short; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00061; ADH_SHORT; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Glycoprotein; Lipid metabolism; Membrane; Microsome;
+KW   NAD; Oxidoreductase; Reference proteome; Signal; Steroid metabolism.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           18..317
+FT                   /note="17-beta-hydroxysteroid dehydrogenase type 6"
+FT                   /id="PRO_0000303213"
+FT   ACT_SITE        176
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10001"
+FT   BINDING         33..57
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         164
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        161
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        219
+FT                   /note="I -> S (in Ref. 1; AAB88253)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   317 AA;  36145 MW;  4AB3F3160C6675A9 CRC64;
+     MWFYLVTLVG LYYLLRWYRE RQVVSHLHDK YVFITGCDSG FGNLLARQLD RRGMRVLAAC
+     LTEKGAEELK SKTSDRLETV ILDVTNTDSI SAATQWVKEH VGDKGLWGLV NNAGVFQAFA
+     YIEWCRPEDC MSIFQVNLIG LAQVTLSMLF LVKKARGRIV NVSSVLGRVA LFGGFYSCSK
+     YGVEAFSDVL RREIRDFGVK VSIIEPGSFK TRMTDAELII EKTKKTWEAT PEHIRESYGQ
+     QFFDDFCNTT RRELKKCSTN LSLVTDCMEH ALTSKYPRTR YSAGWDARLF FIPLSYLPTS
+     LVDCLLAISR RKPAQAV
+//

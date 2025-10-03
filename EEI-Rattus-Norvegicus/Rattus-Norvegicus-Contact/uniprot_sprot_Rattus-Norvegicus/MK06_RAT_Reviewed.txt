@@ -1,0 +1,222 @@
+ID   MK06_RAT                Reviewed;         720 AA.
+AC   P27704; Q32LY4;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 2.
+DT   24-JUL-2024, entry version 172.
+DE   RecName: Full=Mitogen-activated protein kinase 6;
+DE            Short=MAP kinase 6;
+DE            Short=MAPK 6;
+DE            EC=2.7.11.24;
+DE   AltName: Full=Extracellular signal-regulated kinase 3;
+DE            Short=ERK-3;
+DE   AltName: Full=p55-MAPK;
+GN   Name=Mapk6; Synonyms=Erk3, Prkm6;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, and Liver;
+RX   PubMed=2032290; DOI=10.1016/0092-8674(91)90098-j;
+RA   Boulton T.G., Nye S.H., Robbins D.J., Ip N.Y., Radziejewska E.,
+RA   Morgenbesser S.D., DePinho R.A., Panayotatos N., Cobb M.H.,
+RA   Yancopoulos G.D.;
+RT   "ERKs: a family of protein-serine/threonine kinases that are activated and
+RT   tyrosine phosphorylated in response to insulin and NGF.";
+RL   Cell 65:663-675(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Atypical MAPK protein. Phosphorylates microtubule-associated
+CC       protein 2 (MAP2) and MAPKAPK5. The precise role of the complex formed
+CC       with MAPKAPK5 is still unclear, but the complex follows a complex set
+CC       of phosphorylation events: upon interaction with atypical MAPKAPK5,
+CC       ERK3/MAPK6 is phosphorylated at Ser-189 and then mediates
+CC       phosphorylation and activation of MAPKAPK5, which in turn
+CC       phosphorylates ERK3/MAPK6. May promote entry in the cell cycle (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.24;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.24;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Activated by phosphorylation at Ser-189.
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Heterodimer with ERK4/MAPK4. Interacts with (via FRIEDE motif)
+CC       MAPKAPK5 (By similarity). Interacts with UBE3A; this interaction may be
+CC       indirect and mediated by HERC2, possibly via HERC2 interaction with
+CC       NEURL4 (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Nucleus {ECO:0000250}.
+CC       Note=Translocates to the cytoplasm following interaction with MAPKAPK5.
+CC       {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Highest levels within the nervous system, expressed
+CC       in different tissues, mostly in skeletal muscle.
+CC   -!- DEVELOPMENTAL STAGE: Expressed at highest levels early in development.
+CC   -!- DOMAIN: In contrast to classical MAPKs, the TXY motif within the
+CC       activation loop is replaced by the SEG motif, whose phosphorylation
+CC       activates the MAP kinases. {ECO:0000250}.
+CC   -!- PTM: Phosphorylated at Ser-189 by PAK1, PAK2 and PAK3 resulting in
+CC       catalytic activation. Phosphorylated by MAPKAPK5 at other sites (By
+CC       similarity). {ECO:0000250}.
+CC   -!- PTM: Ubiquitination at Met-1 leads to degradation by the proteasome
+CC       pathway. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC Ser/Thr
+CC       protein kinase family. MAP kinase subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA41125.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M64301; AAA41125.1; ALT_FRAME; mRNA.
+DR   EMBL; BC109380; AAI09381.1; -; mRNA.
+DR   PIR; B40033; B40033.
+DR   RefSeq; NP_113810.2; NM_031622.2.
+DR   RefSeq; XP_006243471.1; XM_006243409.3.
+DR   AlphaFoldDB; P27704; -.
+DR   SMR; P27704; -.
+DR   STRING; 10116.ENSRNOP00000013053; -.
+DR   iPTMnet; P27704; -.
+DR   PhosphoSitePlus; P27704; -.
+DR   PaxDb; 10116-ENSRNOP00000013053; -.
+DR   Ensembl; ENSRNOT00000013053.7; ENSRNOP00000013053.3; ENSRNOG00000009381.7.
+DR   Ensembl; ENSRNOT00055012198; ENSRNOP00055009675; ENSRNOG00055007320.
+DR   Ensembl; ENSRNOT00060029098; ENSRNOP00060023424; ENSRNOG00060017014.
+DR   Ensembl; ENSRNOT00065028204; ENSRNOP00065022301; ENSRNOG00065016898.
+DR   GeneID; 58840; -.
+DR   KEGG; rno:58840; -.
+DR   UCSC; RGD:62087; rat.
+DR   AGR; RGD:62087; -.
+DR   CTD; 5597; -.
+DR   RGD; 62087; Mapk6.
+DR   eggNOG; KOG0660; Eukaryota.
+DR   GeneTree; ENSGT00940000154351; -.
+DR   InParanoid; P27704; -.
+DR   OMA; EADWQLH; -.
+DR   OrthoDB; 5344491at2759; -.
+DR   PhylomeDB; P27704; -.
+DR   TreeFam; TF105098; -.
+DR   BRENDA; 2.7.11.24; 5301.
+DR   Reactome; R-RNO-5687128; MAPK6/MAPK4 signaling.
+DR   PRO; PR:P27704; -.
+DR   Proteomes; UP000002494; Chromosome 8.
+DR   Bgee; ENSRNOG00000009381; Expressed in testis and 19 other cell types or tissues.
+DR   ExpressionAtlas; P27704; baseline and differential.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IEA:Ensembl.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0032156; C:septin cytoskeleton; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004707; F:MAP kinase activity; ISS:UniProtKB.
+DR   GO; GO:0046982; F:protein heterodimerization activity; ISO:RGD.
+DR   GO; GO:0004672; F:protein kinase activity; ISO:RGD.
+DR   GO; GO:0019901; F:protein kinase binding; ISO:RGD.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IBA:GO_Central.
+DR   GO; GO:0035556; P:intracellular signal transduction; IBA:GO_Central.
+DR   GO; GO:0060999; P:positive regulation of dendritic spine development; ISO:RGD.
+DR   GO; GO:0006468; P:protein phosphorylation; ISS:UniProtKB.
+DR   CDD; cd07854; STKc_MAPK4_6; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR050117; MAP_kinase.
+DR   InterPro; IPR008350; MAPK_ERK3/4.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   PANTHER; PTHR24055; MITOGEN-ACTIVATED PROTEIN KINASE; 1.
+DR   PANTHER; PTHR24055:SF171; MITOGEN-ACTIVATED PROTEIN KINASE 6; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   PRINTS; PR01771; ERK3ERK4MAPK.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Cell cycle; Cytoplasm; Kinase; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Reference proteome; Serine/threonine-protein kinase;
+KW   Transferase; Ubl conjugation.
+FT   CHAIN           1..720
+FT                   /note="Mitogen-activated protein kinase 6"
+FT                   /id="PRO_0000186259"
+FT   DOMAIN          20..316
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          638..657
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          698..720
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           189..191
+FT                   /note="SEG motif"
+FT   MOTIF           332..337
+FT                   /note="FRIEDE motif"
+FT   COMPBIAS        698..713
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        152
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10027"
+FT   BINDING         26..34
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         49
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   MOD_RES         189
+FT                   /note="Phosphoserine; by PAK1, PAK2 and PAK3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16659"
+FT   MOD_RES         386
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16659"
+FT   MOD_RES         452
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16659"
+FT   MOD_RES         554
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16659"
+FT   MOD_RES         556
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16659"
+FT   MOD_RES         683
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q16659"
+FT   CROSSLNK        1
+FT                   /note="Peptide (Met-Gly) (interchain with G-Cter in
+FT                   ubiquitin)"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   720 AA;  82275 MW;  B200B215574AB84D CRC64;
+     MAEKFESLMN IHGFDLGSRY MDLKPLGCGG NGLVFSAVDN DCDKRVAIKK IVLTDPQSVK
+     HALREIKIIR RLDHDNIVKV FEILGPSGSQ LTDDVGSLTE LNSVYIVQEY METDLANVLE
+     QGPLLEEHAR LFMYQLLRGL KYIHSANVLH RDLKPANLFI NTEDLVLKIG DFGLARIMDP
+     HYSHKGHLSE GLVTKWYRSP RLLLSPNNYT KAIDMWAAGC IFAEMLTGKT LFAGAHELEQ
+     MQLILESIPV VHEEDRQELL SVIPVYIRND MTEPHKPLTQ LLPGISREAL DFLEQILTFS
+     PMDRLTAEEA LSHPYMSIYS FPTDEPISSH PFHIEDEVDD ILLMDETHSH IYNWERYHDC
+     QFSEHDWPIH NNFDIDEVQL DPRALSDVTD EEEVQVDPRK YLDGDREKYL EDPAFDTSYS
+     AEPCWQYPDH HENKYCDLEC SHTCNYKTRS PSYLDNLVWR ESEVNHYYEP KLIIDLSNWK
+     EQSKDKSDKR GKSKCERNGL VKAQIALEEA SQQLAERERG QGFDFDAFIA GTVQLSAQRE
+     SADVVDKLND LNSSVSQLEM KSLISKSVSR EKQEKGRANL AQLGALYQPS WESQFVSGGE
+     ECFLISQFCC EVRKDEHVEK ENTYTSYLDK FFSRKEDSEM LETEPVEEGK RGERGREAGL
+     LSSGGEFLLS RQLESIGTPQ FHSPGGSPLK SIQATLTPSA MKSSPQIPHK TYSNILKHLN
+//

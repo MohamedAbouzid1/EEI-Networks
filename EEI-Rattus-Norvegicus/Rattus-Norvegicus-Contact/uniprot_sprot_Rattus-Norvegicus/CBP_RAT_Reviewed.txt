@@ -1,0 +1,665 @@
+ID   CBP_RAT                 Reviewed;        2442 AA.
+AC   Q6JHU9;
+DT   31-MAY-2011, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   02-OCT-2024, entry version 149.
+DE   RecName: Full=Histone lysine acetyltransferase CREBBP;
+DE            EC=2.3.1.48 {ECO:0000250|UniProtKB:Q92793};
+DE   AltName: Full=Protein lactyltransferas CREBBP;
+DE            EC=2.3.1.- {ECO:0000250|UniProtKB:Q92793};
+DE   AltName: Full=Protein-lysine acetyltransferase CREBBP;
+DE            EC=2.3.1.- {ECO:0000250|UniProtKB:Q92793};
+GN   Name=Crebbp; Synonyms=Cbp;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND INDUCTION.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=15950780; DOI=10.1016/j.molbrainres.2005.03.009;
+RA   Tang C., Sula M.J., Bohnet S., Rehman A., Taishi P., Krueger J.M.;
+RT   "Interleukin-1beta induces CREB-binding protein (CBP) mRNA in brain and the
+RT   sequencing of rat CBP.";
+RL   Brain Res. Mol. Brain Res. 137:213-222(2005).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-2064, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Acetylates histones, giving a specific tag for
+CC       transcriptional activation (By similarity). Mediates acetylation of
+CC       histone H3 at 'Lys-18' and 'Lys-27' (H3K18ac and H3K27ac, respectively)
+CC       (By similarity). Also acetylates non-histone proteins, like DDX21, FBL,
+CC       IRF2, MAFG, NCOA3, POLR1E/PAF53 and FOXO1 (By similarity). Binds
+CC       specifically to phosphorylated CREB and enhances its transcriptional
+CC       activity toward cAMP-responsive genes. Acts as a coactivator of ALX1.
+CC       Acts as a circadian transcriptional coactivator which enhances the
+CC       activity of the circadian transcriptional activators: NPAS2-BMAL1 and
+CC       CLOCK-BMAL1 heterodimers (By similarity). Acetylates PCNA; acetylation
+CC       promotes removal of chromatin-bound PCNA and its degradation during
+CC       nucleotide excision repair (NER) (By similarity). Acetylates
+CC       POLR1E/PAF53, leading to decreased association of RNA polymerase I with
+CC       the rDNA promoter region and coding region (By similarity). Acetylates
+CC       DDX21, thereby inhibiting DDX21 helicase activity (By similarity).
+CC       Acetylates FBL, preventing methylation of 'Gln-105' of histone H2A
+CC       (H2AQ104me) (By similarity). In addition to protein acetyltransferase,
+CC       can use different acyl-CoA substrates, such as lactoyl-CoA, and is able
+CC       to mediate protein lactylation (By similarity). Catalyzes lactylation
+CC       of MRE11 in response to DNA damage, thereby promoting DNA double-strand
+CC       breaks (DSBs) via homologous recombination (HR) (By similarity).
+CC       Functions as a transcriptional coactivator for SMAD4 in the TGF-beta
+CC       signaling pathway (By similarity). {ECO:0000250|UniProtKB:P45481,
+CC       ECO:0000250|UniProtKB:Q92793}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + L-lysyl-[histone] = CoA + H(+) + N(6)-acetyl-L-
+CC         lysyl-[histone]; Xref=Rhea:RHEA:21992, Rhea:RHEA-COMP:9845,
+CC         Rhea:RHEA-COMP:11338, ChEBI:CHEBI:15378, ChEBI:CHEBI:29969,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288, ChEBI:CHEBI:61930; EC=2.3.1.48;
+CC         Evidence={ECO:0000250|UniProtKB:Q92793};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + L-lysyl-[protein] = CoA + H(+) + N(6)-acetyl-L-
+CC         lysyl-[protein]; Xref=Rhea:RHEA:45948, Rhea:RHEA-COMP:9752,
+CC         Rhea:RHEA-COMP:10731, ChEBI:CHEBI:15378, ChEBI:CHEBI:29969,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288, ChEBI:CHEBI:61930;
+CC         Evidence={ECO:0000250|UniProtKB:Q92793};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-lactoyl-CoA + L-lysyl-[protein] = CoA + H(+) + N(6)-[(S)-
+CC         lactoyl]-L-lysyl-[protein]; Xref=Rhea:RHEA:61996, Rhea:RHEA-
+CC         COMP:9752, Rhea:RHEA-COMP:19466, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29969, ChEBI:CHEBI:57287, ChEBI:CHEBI:231527,
+CC         ChEBI:CHEBI:231528; Evidence={ECO:0000250|UniProtKB:Q92793};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:61997;
+CC         Evidence={ECO:0000250|UniProtKB:Q92793};
+CC   -!- SUBUNIT: Part of a complex composed of MSX3, CREBBP/CBP AND EP300/p300;
+CC       the interaction with MSX3 decreases histone acetylation activity (By
+CC       similarity). Found in a complex containing NCOA2; NCOA3; IKKA; IKKB and
+CC       IKBKG. Probably part of a complex with HIF1A and EP300. Interacts with
+CC       phosphorylated CREB1. Interacts with the C-terminal region of CITED4.
+CC       The TAZ-type 1 domain interacts with HIF1A. Interacts with SRCAP,
+CC       CARM1, ELF3, MLLT7/FOXO4, N4BP2, NCOA1, NCOA3, NCOA6, PCAF, DDX5,
+CC       DDX17, PELP1, PML, SMAD1, SMAD2, SMAD3, SPIB, TRERF1 and ZCCHC12.
+CC       Interacts with KLF1; the interaction results in acetylation and
+CC       enhancement of transcriptional activity of KLF1. Interacts with DAXX;
+CC       the interaction is dependent on CBP sumoylation and results in
+CC       suppression of the transcriptional activity via recruitment of HDAC2 to
+CC       DAXX. Interacts with MAF. Interacts with MTDH. Interacts with MAFG; the
+CC       interaction acetylates MAFG in the basic region and stimulates NFE2
+CC       transcriptional activity through increasing its DNA-binding activity.
+CC       Interacts with IRF2; the interaction acetylates IRF2 and regulates its
+CC       activity on the H4 promoter. Interacts (via N-terminus) with
+CC       SS18L1/CREST (via C-terminus) (By similarity). Interacts with IRF3
+CC       (when phosphorylated); forming the dsRNA-activated factor 1 (DRAF1), a
+CC       complex which activates the transcription of the type I interferon
+CC       genes (By similarity). Interacts with MECOM. Interacts with CITED1 (via
+CC       C-terminus) Interacts with GATA1; the interaction results in
+CC       acetylation and enhancement of transcriptional activity of GATA1.
+CC       Interacts with FOXO1; the interaction acetylates FOXO1 and inhibits its
+CC       transcriptional activity. Interacts with NPAS2, CLOCK and BMAL1.
+CC       Interacts with ASF1A and ASF1B; this promotes histone acetylation.
+CC       Interacts with acetylated TP53/p53 and with the acetylated histones H3
+CC       and H4. Interacts (via transactivation domain and C-terminus) with
+CC       PCNA; the interaction occurs on chromatin in UV-irradiated damaged
+CC       cells. Interacts with DHX9 (via N-terminus); this interaction mediates
+CC       association with RNA polymerase II holoenzyme and stimulates CREB-
+CC       dependent transcriptional activation (By similarity). Interacts with
+CC       SMAD4; negatively regulated by ZBTB7A (By similarity). Forms a complex
+CC       with KMT2A and CREB1 (By similarity). Interacts with DDX3X; this
+CC       interaction may facilitate HNF4A acetylation (By similarity). Interacts
+CC       with MSX1; the interaction may inhibit MSX1 autoinactivation (By
+CC       similarity). Interacts with MSX3 (By similarity). Interacts with ACSS2
+CC       (By similarity). {ECO:0000250|UniProtKB:P45481,
+CC       ECO:0000250|UniProtKB:Q92793}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q92793}. Nucleus
+CC       {ECO:0000255|PROSITE-ProRule:PRU00311}. Note=Recruited to nuclear
+CC       bodies by SS18L1/CREST. In the presence of ALX1 relocalizes from the
+CC       cytoplasm to the nucleus. {ECO:0000250|UniProtKB:Q92793}.
+CC   -!- TISSUE SPECIFICITY: Expressed in hypothalamus and cortex.
+CC       {ECO:0000269|PubMed:15950780}.
+CC   -!- INDUCTION: Up-regulated by IL-1 treatment.
+CC       {ECO:0000269|PubMed:15950780}.
+CC   -!- PTM: Methylation of the KIX domain by CARM1 blocks association with
+CC       CREB. This results in the blockade of CREB signaling, and in activation
+CC       of apoptotic response (By similarity). {ECO:0000250|UniProtKB:P45481}.
+CC   -!- PTM: Phosphorylated by CHUK/IKKA at Ser-1383 and Ser-1387; these
+CC       phosphorylations promote cell growth by switching the binding
+CC       preference of CREBBP from TP53 to NF-kappa-B.
+CC       {ECO:0000250|UniProtKB:Q92793}.
+CC   -!- PTM: Sumoylation negatively regulates transcriptional activity via the
+CC       recruitment of DAAX. {ECO:0000250|UniProtKB:P45481}.
+CC   -!- PTM: Autoacetylation is required for binding to protein substrates,
+CC       such as acetylated histones and acetylated TP53/p53. Autoacetylation is
+CC       induced by glucose and fatty acids. {ECO:0000250|UniProtKB:Q92793}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY462245; AAR23149.1; -; mRNA.
+DR   AlphaFoldDB; Q6JHU9; -.
+DR   BMRB; Q6JHU9; -.
+DR   SMR; Q6JHU9; -.
+DR   IntAct; Q6JHU9; 1.
+DR   MINT; Q6JHU9; -.
+DR   STRING; 10116.ENSRNOP00000007079; -.
+DR   iPTMnet; Q6JHU9; -.
+DR   PhosphoSitePlus; Q6JHU9; -.
+DR   PaxDb; 10116-ENSRNOP00000007079; -.
+DR   UCSC; RGD:2401; rat.
+DR   AGR; RGD:2401; -.
+DR   RGD; 2401; Crebbp.
+DR   eggNOG; KOG1778; Eukaryota.
+DR   InParanoid; Q6JHU9; -.
+DR   Reactome; R-RNO-1234158; Regulation of gene expression by Hypoxia-inducible Factor.
+DR   Reactome; R-RNO-201722; Formation of the beta-catenin:TCF transactivating complex.
+DR   Reactome; R-RNO-3134973; LRR FLII-interacting protein 1 (LRRFIP1) activates type I IFN production.
+DR   Reactome; R-RNO-3371568; Attenuation phase.
+DR   Reactome; R-RNO-350054; Notch-HLH transcription pathway.
+DR   Reactome; R-RNO-400206; Regulation of lipid metabolism by PPARalpha.
+DR   Reactome; R-RNO-8866907; Activation of the TFAP2 (AP-2) family of transcription factors.
+DR   Reactome; R-RNO-8939246; RUNX1 regulates transcription of genes involved in differentiation of myeloid cells.
+DR   Reactome; R-RNO-8941856; RUNX3 regulates NOTCH signaling.
+DR   Reactome; R-RNO-9018519; Estrogen-dependent gene expression.
+DR   Reactome; R-RNO-933541; TRAF6 mediated IRF7 activation.
+DR   Reactome; R-RNO-9617629; Regulation of FOXO transcriptional activity by acetylation.
+DR   Reactome; R-RNO-9707564; Cytoprotection by HMOX1.
+DR   Reactome; R-RNO-9759194; Nuclear events mediated by NFE2L2.
+DR   Reactome; R-RNO-9856649; Transcriptional and post-translational regulation of MITF-M expression and activity.
+DR   PRO; PR:Q6JHU9; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0000785; C:chromatin; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0000123; C:histone acetyltransferase complex; ISO:RGD.
+DR   GO; GO:0016604; C:nuclear body; IDA:RGD.
+DR   GO; GO:0005654; C:nucleoplasm; TAS:Reactome.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0000940; C:outer kinetochore; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:0090575; C:RNA polymerase II transcription regulator complex; ISO:RGD.
+DR   GO; GO:0005667; C:transcription regulator complex; IDA:RGD.
+DR   GO; GO:0016407; F:acetyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0008140; F:cAMP response element binding protein binding; ISO:RGD.
+DR   GO; GO:0003682; F:chromatin binding; ISS:UniProtKB.
+DR   GO; GO:0031490; F:chromatin DNA binding; IBA:GO_Central.
+DR   GO; GO:0003684; F:damaged DNA binding; ISS:UniProtKB.
+DR   GO; GO:0097718; F:disordered domain specific binding; ISO:RGD.
+DR   GO; GO:0003677; F:DNA binding; ISO:RGD.
+DR   GO; GO:0140297; F:DNA-binding transcription factor binding; IPI:RGD.
+DR   GO; GO:0004402; F:histone acetyltransferase activity; IDA:RGD.
+DR   GO; GO:0043993; F:histone H3K18 acetyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0044017; F:histone H3K27 acetyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0060090; F:molecular adaptor activity; ISO:RGD.
+DR   GO; GO:0043426; F:MRF binding; ISS:UniProtKB.
+DR   GO; GO:0002039; F:p53 binding; ISO:RGD.
+DR   GO; GO:0120300; F:peptide lactyltransferase (CoA-dependent) activity; ISS:UniProtKB.
+DR   GO; GO:0061733; F:peptide-lysine-N-acetyltransferase activity; ISO:RGD.
+DR   GO; GO:0042975; F:peroxisome proliferator activated receptor binding; IDA:RGD.
+DR   GO; GO:0019904; F:protein domain specific binding; ISO:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IPI:RGD.
+DR   GO; GO:0000977; F:RNA polymerase II transcription regulatory region sequence-specific DNA binding; ISO:RGD.
+DR   GO; GO:0061629; F:RNA polymerase II-specific DNA-binding transcription factor binding; ISO:RGD.
+DR   GO; GO:0046332; F:SMAD binding; IPI:RGD.
+DR   GO; GO:0001093; F:TFIIB-class transcription factor binding; ISO:RGD.
+DR   GO; GO:0003713; F:transcription coactivator activity; ISO:RGD.
+DR   GO; GO:0001223; F:transcription coactivator binding; IPI:RGD.
+DR   GO; GO:0003714; F:transcription corepressor activity; ISO:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; ISO:RGD.
+DR   GO; GO:0048148; P:behavioral response to cocaine; IMP:RGD.
+DR   GO; GO:0007249; P:canonical NF-kappaB signal transduction; ISO:RGD.
+DR   GO; GO:0035729; P:cellular response to hepatocyte growth factor stimulus; ISO:RGD.
+DR   GO; GO:0031669; P:cellular response to nutrient levels; ISO:RGD.
+DR   GO; GO:0034644; P:cellular response to UV; ISS:UniProtKB.
+DR   GO; GO:0098586; P:cellular response to virus; ISO:RGD.
+DR   GO; GO:0060325; P:face morphogenesis; ISO:RGD.
+DR   GO; GO:0030718; P:germ-line stem cell population maintenance; ISO:RGD.
+DR   GO; GO:0007616; P:long-term memory; IMP:RGD.
+DR   GO; GO:0032688; P:negative regulation of interferon-beta production; ISO:RGD.
+DR   GO; GO:0016479; P:negative regulation of transcription by RNA polymerase I; ISS:UniProtKB.
+DR   GO; GO:0000122; P:negative regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0048525; P:negative regulation of viral process; ISO:RGD.
+DR   GO; GO:0060355; P:positive regulation of cell adhesion molecule production; IMP:RGD.
+DR   GO; GO:0060999; P:positive regulation of dendritic spine development; IMP:RGD.
+DR   GO; GO:0045893; P:positive regulation of DNA-templated transcription; ISS:UniProtKB.
+DR   GO; GO:1905168; P:positive regulation of double-strand break repair via homologous recombination; ISS:UniProtKB.
+DR   GO; GO:1900087; P:positive regulation of G1/S transition of mitotic cell cycle; IMP:RGD.
+DR   GO; GO:0010628; P:positive regulation of gene expression; ISO:RGD.
+DR   GO; GO:1901224; P:positive regulation of non-canonical NF-kappaB signal transduction; IMP:RGD.
+DR   GO; GO:1900182; P:positive regulation of protein localization to nucleus; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; IMP:RGD.
+DR   GO; GO:0030511; P:positive regulation of transforming growth factor beta receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0031648; P:protein destabilization; ISS:UniProtKB.
+DR   GO; GO:0036211; P:protein modification process; IDA:RGD.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; IDA:RGD.
+DR   GO; GO:0070555; P:response to interleukin-1; IEP:RGD.
+DR   GO; GO:0002931; P:response to ischemia; IEP:RGD.
+DR   GO; GO:0048511; P:rhythmic process; IEA:UniProtKB-KW.
+DR   CDD; cd05495; Bromo_cbp_like; 1.
+DR   CDD; cd20910; NCBD_CREBBP-p300_like; 1.
+DR   CDD; cd15557; PHD_CBP_p300; 1.
+DR   CDD; cd15802; RING_CBP-p300; 1.
+DR   CDD; cd02337; ZZ_CBP; 1.
+DR   Gene3D; 2.10.110.40; -; 1.
+DR   Gene3D; 3.30.60.90; -; 1.
+DR   Gene3D; 1.20.920.10; Bromodomain-like; 1.
+DR   Gene3D; 1.10.246.20; Coactivator CBP, KIX domain; 1.
+DR   Gene3D; 1.10.1630.10; Nuclear receptor coactivator, CREB-bp-like, interlocking domain; 1.
+DR   Gene3D; 1.20.1020.10; TAZ domain; 2.
+DR   Gene3D; 3.30.40.10; Zinc/RING finger domain, C3HC4 (zinc finger); 1.
+DR   InterPro; IPR001487; Bromodomain.
+DR   InterPro; IPR036427; Bromodomain-like_sf.
+DR   InterPro; IPR018359; Bromodomain_CS.
+DR   InterPro; IPR031162; CBP_P300_HAT.
+DR   InterPro; IPR013178; Histone_AcTrfase_Rtt109/CBP.
+DR   InterPro; IPR003101; KIX_dom.
+DR   InterPro; IPR036529; KIX_dom_sf.
+DR   InterPro; IPR009110; Nuc_rcpt_coact.
+DR   InterPro; IPR014744; Nuc_rcpt_coact_CREBbp.
+DR   InterPro; IPR037073; Nuc_rcpt_coact_CREBbp_sf.
+DR   InterPro; IPR010303; RING_CBP-p300.
+DR   InterPro; IPR038547; RING_CBP-p300_sf.
+DR   InterPro; IPR035898; TAZ_dom_sf.
+DR   InterPro; IPR013083; Znf_RING/FYVE/PHD.
+DR   InterPro; IPR000197; Znf_TAZ.
+DR   InterPro; IPR000433; Znf_ZZ.
+DR   InterPro; IPR043145; Znf_ZZ_sf.
+DR   PANTHER; PTHR13808; CBP/P300-RELATED; 1.
+DR   PANTHER; PTHR13808:SF34; CREB-BINDING PROTEIN; 1.
+DR   Pfam; PF00439; Bromodomain; 1.
+DR   Pfam; PF09030; Creb_binding; 1.
+DR   Pfam; PF08214; HAT_KAT11; 1.
+DR   Pfam; PF02172; KIX; 1.
+DR   Pfam; PF06001; RING_CBP-p300; 1.
+DR   Pfam; PF02135; zf-TAZ; 2.
+DR   Pfam; PF00569; ZZ; 1.
+DR   PRINTS; PR00503; BROMODOMAIN.
+DR   SMART; SM00297; BROMO; 1.
+DR   SMART; SM01250; KAT11; 1.
+DR   SMART; SM00551; ZnF_TAZ; 2.
+DR   SMART; SM00291; ZnF_ZZ; 1.
+DR   SUPFAM; SSF47370; Bromodomain; 1.
+DR   SUPFAM; SSF47040; Kix domain of CBP (creb binding protein); 1.
+DR   SUPFAM; SSF69125; Nuclear receptor coactivator interlocking domain; 1.
+DR   SUPFAM; SSF57850; RING/U-box; 1.
+DR   SUPFAM; SSF57933; TAZ domain; 2.
+DR   PROSITE; PS00633; BROMODOMAIN_1; 1.
+DR   PROSITE; PS50014; BROMODOMAIN_2; 1.
+DR   PROSITE; PS51727; CBP_P300_HAT; 1.
+DR   PROSITE; PS50952; KIX; 1.
+DR   PROSITE; PS50134; ZF_TAZ; 2.
+DR   PROSITE; PS01357; ZF_ZZ_1; 1.
+DR   PROSITE; PS50135; ZF_ZZ_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Activator; Acyltransferase; Biological rhythms; Bromodomain;
+KW   Coiled coil; Cytoplasm; Isopeptide bond; Metal-binding; Methylation;
+KW   Nucleus; Phosphoprotein; Reference proteome; Repeat; Transcription;
+KW   Transcription regulation; Transferase; Ubl conjugation; Zinc; Zinc-finger.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   CHAIN           2..2442
+FT                   /note="Histone lysine acetyltransferase CREBBP"
+FT                   /id="PRO_0000409385"
+FT   DOMAIN          586..665
+FT                   /note="KIX"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00311"
+FT   DOMAIN          1104..1176
+FT                   /note="Bromo"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00035"
+FT   DOMAIN          1324..1701
+FT                   /note="CBP/p300-type HAT"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01065"
+FT   ZN_FING         346..432
+FT                   /note="TAZ-type 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00203"
+FT   ZN_FING         1703..1751
+FT                   /note="ZZ-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00228"
+FT   ZN_FING         1766..1847
+FT                   /note="TAZ-type 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00203"
+FT   REGION          1..40
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          74..168
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          226..409
+FT                   /note="Interaction with SRCAP"
+FT                   /evidence="ECO:0000250"
+FT   REGION          261..290
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          792..1084
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1125..1171
+FT                   /note="Interaction with histone"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   REGION          1163..1181
+FT                   /note="Interaction with ASF1A"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   REGION          1434..1436
+FT                   /note="Interaction with histone"
+FT                   /evidence="ECO:0000250|UniProtKB:Q09472"
+FT   REGION          1557..1616
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1875..1960
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          2112..2421
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          1548..1575
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        18..32
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        262..290
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        792..849
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        850..864
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        874..889
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        890..930
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        939..991
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        999..1066
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1067..1082
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1557..1572
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1589..1603
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1884..1917
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1922..1939
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1941..1955
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        2112..2146
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        2163..2187
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        2196..2266
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        2277..2350
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        2351..2378
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        2395..2421
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         362
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         366
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         379
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         384
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         393
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         397
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         403
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         408
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         417
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         421
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         426
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         429
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   BINDING         1435..1437
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000250|UniProtKB:Q09472"
+FT   BINDING         1447..1448
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000250|UniProtKB:Q09472"
+FT   BINDING         1494
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000250|UniProtKB:Q09472"
+FT   BINDING         1499
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000250|UniProtKB:Q09472"
+FT   BINDING         1503
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000250|UniProtKB:Q09472"
+FT   BINDING         1708
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00228"
+FT   BINDING         1711
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00228"
+FT   BINDING         1721
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00228"
+FT   BINDING         1724
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00228"
+FT   BINDING         1730
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00228"
+FT   BINDING         1733
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00228"
+FT   BINDING         1739
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00228"
+FT   BINDING         1741
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00228"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         120
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         219
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         600
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   MOD_RES         624
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   MOD_RES         656
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   MOD_RES         1015
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1031
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1077
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1217
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1383
+FT                   /note="Phosphoserine; by IKKA"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1387
+FT                   /note="Phosphoserine; by IKKA"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1584
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1592
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1593
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1596
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1598
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1742
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1745
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         1764
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         2064
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         2077
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         2080
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92793"
+FT   MOD_RES         2351
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   CROSSLNK        999
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1)"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   CROSSLNK        1034
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1)"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+FT   CROSSLNK        1057
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1)"
+FT                   /evidence="ECO:0000250|UniProtKB:P45481"
+SQ   SEQUENCE   2442 AA;  265424 MW;  2E77EF213C72C024 CRC64;
+     MAENLLDGPP NPKRAKLSSP GFSANDSTDF GSLFDLENDL PDELIPNGEL SLLNSGNLVP
+     DAASKHKQLS ELLRGGSGSS ITPGIGNVSA SSPVQQGLGG QAQGQPNSTS MASLGAMGKS
+     PLNPGDSSTP SLPKQAASTS GPTPPASQAL NPQAQKQVGL VTSSPATSQT GPGICMNANF
+     NQTHPGLLNS NSGHSLMNQA QQGQAQVMNG SLGAAGRGRG AGMPYPAPAM QGATSSVLAE
+     TLTQVSPQMA GHAGLNTAQA GGMTKMGMTG NTSPFGQPFS QTGGQPMGAT GVNPQLASKQ
+     SMVNSLPAFP TDIKNTSVTT VPNMSQLQTS VGIVPAQGIA TGPTADPEKR KLIQQQLVLL
+     LHAHKCQRRE QANGEVRACS LPHCRTMKNV LNHMTHCQAG KACQVAHCAS SRQIISHWKN
+     CTRHDCPVCL PLKNASDKRN QQTILGSPAS GIQNTIGSVG AGQQNATSLS NPNPIDPSSM
+     QRAYAALGLP YMNQPQTQLQ PQVPGQQPAQ PPAHQQMRTL NALGNNPMSI PAGGITTDQQ
+     PPNLISESAL PTSLGATNPL MNDGSNSDSI GSLSTIPTAA PPSSTGVRKG WHEHVTQDLR
+     SHLVHKLVQA IFPTPDPAAL KDRRMENLVA YAKKVEGDMY ESANSRDEYY HLLAEKIYKI
+     QKELEEKRRS RLHKQGILGN QPALPAPGAQ PPVIPPTQSV RPPNGPLSLP VNRVQVSQGM
+     NSFNPMSLGN VQLPQAPMGP RAASPMNHSV QMNSMASVPG MAISPSRMPQ PPNMMGTHAN
+     NIMAQAPTQN QFLPQNQFPS SSGAMSVNSV GMGQPATQAG VSQGQVPGGT LPNPLNMLAP
+     QTSQLPCPPV TQSPLHPTPP PASTAAGMPS LQHPTPPGMT PPQPAAPTQP STPVSSGQTP
+     TPTPGSVPSA AQTQSTPTVQ AAAQAQVTPQ PQTPVQPPSV ATPQSSQQQP TPVHTQPPGT
+     PLSQAAASID NRVPTPSSVT SAETSSQQPG PDVPMLEMKT EVQTDDAEPD PAESKGEPRS
+     EMMEEDLQGS SQVKEETDTT EQKSEPMEVE EKKPEVKVEA KEEEENSANG TASQSTSPSQ
+     PRKKIFKPEE LRQALMPTLE ALYRQDPESL PFRQPVDPQL LGIPDYFDIV KNPMDLSTIK
+     RKLDTGQYQE PWQYVDDVWL MFNNAWLYNR KTSRVYKFCS KLAEVFEQEI DPVMQSLGYC
+     CGRKYEFSPQ TLCCYGKQLC TIPRDAAYYS YQNRYHFCEK CFTEIQGENV TLGDDPSQPQ
+     TTISKDQFEK KKNDTLDPEP FVDCKECGRK MHQICVLHYD IIWPSGFVCD NCLKKTGRPR
+     KENKFSAKRL QTTRLGNHLE DRVNKFLRRQ NHPEAGEVFV RVVASSDKTV EVKPGMKSRF
+     VDSGEMSESF PYRTKALFAF EEIDGVDVCF FGMHVQEYGS DCPPPNTRRV YISYLDSIHF
+     FRPRCLRTAV YHEILIGYLE YVKKLGYVTG HIWACPPSEG DDYIFHCHPP DQKIPKPKRL
+     QEWYKKMLDK AFAERIINDY KDIFKQANED RLTSAKELPY FEGDFWPNVL EESIKELEQE
+     EEERKKEEST AASETPEGSQ GDSKNAKKKN NKKTNKNKSS ISRANKKKPS MPNVSNDLSQ
+     KLYATMEKHK EVFFVIHLHA GPVISTQPPI VDPDPLLSCD LMDGRDAFLT LARDKHWEFS
+     SLRRSKWSTL CMLVELHTQG QDRFVYTCNE CKHHVETRWH CTVCEDYDLC INCYNTKSHT
+     HKMVKWGLGL DDEGSSQGEP QSKSPQESRR LSIQRCIQSL VHACQCRNAN CSLPSCQKMK
+     RVVQHTKGCK RKTNGGCPVC KQLIALCCYH AKHCQENKCP VPFCLNIKHK LRQQQIQHRL
+     QQAQLMRRRM ATMNTRNVPQ QSLPSPTSAP PGTPTQQPST PQTPQPPAQP QPSPVNMSPA
+     GFPSVARTQP PTIVSAGKPT NQVPAPPPPA QPPPAAVEAA RQIEREGQQQ QHLYRANINN
+     GMPPGRAGMG TPGSQMAPVG LNVPRPNQVS GPVMSSMPPG QWQQAPIPQQ QPMPGMPRPV
+     MSMQAQAAVA GPRMPNVQPP RSISPSALQD LLRTLKSPSS PQQQQQVLNI LKSNPQLMAA
+     FIKQRTAKYV ANQPGMQPQP GLQSQPGMQP QPGMHQQPSL QNLNAMQAGV PRPGVPPPQQ
+     AMGGLNPQGQ ALNIMNPGHN PNMANMNPQY REMVRRQLLQ HQQQQQQQQQ QQQQQQQSSA
+     SLAGGMAGHS QFQQPQGPGG YAPAMQQQRM QQHLPIQGSS MGQMAAPMGQ LGQMGQPGLG
+     ADSTPNIQQA LQQRILQQQQ MKQQIGSPGQ PNPMSPQQHM LSGQPQASHL PGQQIATSLS
+     NQVRSPAPVQ SPRPQSQPPH SSPSPRIQPQ PSPHHVSPQT GSPHPGLAVT MASSMDQGHL
+     GNPEQSAMLP QLNTPNRSAL SSELSLVGDT TGDTLEKFVE GL
+//

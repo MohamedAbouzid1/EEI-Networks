@@ -1,0 +1,92 @@
+ID   RHBL1_RAT               Reviewed;         164 AA.
+AC   O88779;
+DT   05-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   24-JUL-2024, entry version 126.
+DE   RecName: Full=Rhomboid-related protein 1;
+DE            Short=RRP;
+DE            EC=3.4.21.105;
+DE   AltName: Full=Rhomboid-like protein 1;
+DE   Flags: Fragment;
+GN   Name=Rhbdl1; Synonyms=Rhbdl;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Intestinal epithelium;
+RX   PubMed=9662444; DOI=10.1016/s0014-5793(98)00622-x;
+RA   Pascall J.C., Brown K.D.;
+RT   "Characterization of a mammalian cDNA encoding a protein with high sequence
+RT   similarity to the Drosophila regulatory protein Rhomboid.";
+RL   FEBS Lett. 429:337-340(1998).
+CC   -!- FUNCTION: May be involved in regulated intramembrane proteolysis and
+CC       the subsequent release of functional polypeptides from their membrane
+CC       anchors. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Cleaves type-1 transmembrane domains using a catalytic dyad
+CC         composed of serine and histidine that are contributed by different
+CC         transmembrane domains.; EC=3.4.21.105;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Multi-pass membrane protein.
+CC   -!- SIMILARITY: Belongs to the peptidase S54 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y17258; CAA76716.1; -; mRNA.
+DR   AlphaFoldDB; O88779; -.
+DR   SMR; O88779; -.
+DR   STRING; 10116.ENSRNOP00000026971; -.
+DR   MEROPS; S54.005; -.
+DR   PhosphoSitePlus; O88779; -.
+DR   PaxDb; 10116-ENSRNOP00000026971; -.
+DR   UCSC; RGD:620699; rat.
+DR   AGR; RGD:620699; -.
+DR   RGD; 620699; Rhbdl1.
+DR   eggNOG; KOG2289; Eukaryota.
+DR   InParanoid; O88779; -.
+DR   PhylomeDB; O88779; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   Gene3D; 1.20.1540.10; Rhomboid-like; 1.
+DR   InterPro; IPR022764; Peptidase_S54_rhomboid_dom.
+DR   InterPro; IPR035952; Rhomboid-like_sf.
+DR   InterPro; IPR051739; Rhomboid_IM_Serine_Proteases.
+DR   PANTHER; PTHR45840; RHOMBOID-RELATED PROTEIN; 1.
+DR   PANTHER; PTHR45840:SF4; RHOMBOID-RELATED PROTEIN 1; 1.
+DR   Pfam; PF01694; Rhomboid; 1.
+DR   SUPFAM; SSF144091; Rhomboid-like; 1.
+PE   2: Evidence at transcript level;
+KW   Hydrolase; Membrane; Protease; Reference proteome; Serine protease;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           <1..>164
+FT                   /note="Rhomboid-related protein 1"
+FT                   /id="PRO_0000206175"
+FT   TRANSMEM        10..30
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        32..52
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        56..76
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        120..140
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        60
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        125
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         1
+FT   NON_TER         164
+SQ   SEQUENCE   164 AA;  17662 MW;  CF62ACE3B6C99210 CRC64;
+     FMHVGLEQLG FNALLQLMIG VPLEMVHGVL RISLLYLAGV LAGSLTVSIT DMRAPVVGGS
+     GGVYALCSAH LANVVMNWAG MRCPYKLLRM VLALVCMSSE VGRAVWLRFS PPLPASGPQP
+     SFMAHLAGAV VGVSMGLTIL RSYEERLRDQ CGWWVVLLAY GTFL
+//

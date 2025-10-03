@@ -1,0 +1,342 @@
+ID   DPYD_RAT                Reviewed;        1025 AA.
+AC   O89000;
+DT   08-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   27-MAR-2024, entry version 152.
+DE   RecName: Full=Dihydropyrimidine dehydrogenase [NADP(+)];
+DE            Short=DHPDHase;
+DE            Short=DPD;
+DE            EC=1.3.1.2 {ECO:0000250|UniProtKB:Q12882};
+DE   AltName: Full=Dihydrothymine dehydrogenase;
+DE   AltName: Full=Dihydrouracil dehydrogenase;
+GN   Name=Dpyd {ECO:0000312|RGD:621218}; Synonyms=DPD;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=9819714; DOI=10.3177/jnsv.44.537;
+RA   Kimura M., Fujimoto Sakata S., Matoba Y., Matsuda K., Kontani Y.,
+RA   Kaneko M., Tamaki N.;
+RT   "Cloning of rat dihydropyrimidine dehydrogenase and correlation of its mRNA
+RT   increase in the rat liver with age.";
+RL   J. Nutr. Sci. Vitaminol. 44:537-546(1998).
+CC   -!- FUNCTION: Involved in pyrimidine base degradation. Catalyzes the
+CC       reduction of uracil and thymine. Also involved the degradation of the
+CC       chemotherapeutic drug 5-fluorouracil. {ECO:0000250|UniProtKB:Q12882}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5,6-dihydrouracil + NADP(+) = H(+) + NADPH + uracil;
+CC         Xref=Rhea:RHEA:18093, ChEBI:CHEBI:15378, ChEBI:CHEBI:15901,
+CC         ChEBI:CHEBI:17568, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.3.1.2;
+CC         Evidence={ECO:0000250|UniProtKB:Q12882};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:18095;
+CC         Evidence={ECO:0000250|UniProtKB:Q12882};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5,6-dihydrothymine + NADP(+) = H(+) + NADPH + thymine;
+CC         Xref=Rhea:RHEA:58284, ChEBI:CHEBI:15378, ChEBI:CHEBI:17821,
+CC         ChEBI:CHEBI:27468, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.3.1.2;
+CC         Evidence={ECO:0000250|UniProtKB:Q12882};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:58286;
+CC         Evidence={ECO:0000250|UniProtKB:Q12882};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000250|UniProtKB:Q28943};
+CC       Note=Binds 2 FAD. {ECO:0000250|UniProtKB:Q28943};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000250|UniProtKB:Q28943};
+CC       Note=Binds 2 FMN. {ECO:0000250|UniProtKB:Q28943};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000250|UniProtKB:Q28943};
+CC       Note=Binds 4 [4Fe-4S] clusters. Contains approximately 16 iron atoms
+CC       per subunit. {ECO:0000250|UniProtKB:Q28943};
+CC   -!- ACTIVITY REGULATION: Inactivated by 5-iodouracil.
+CC       {ECO:0000250|UniProtKB:Q28943}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; beta-alanine biosynthesis.
+CC       {ECO:0000250|UniProtKB:Q12882}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q12882}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q12882}.
+CC   -!- SIMILARITY: Belongs to the dihydropyrimidine dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D85035; BAA33218.1; -; mRNA.
+DR   RefSeq; NP_112289.1; NM_031027.1.
+DR   AlphaFoldDB; O89000; -.
+DR   SMR; O89000; -.
+DR   STRING; 10116.ENSRNOP00000072507; -.
+DR   iPTMnet; O89000; -.
+DR   PhosphoSitePlus; O89000; -.
+DR   PaxDb; 10116-ENSRNOP00000052583; -.
+DR   GeneID; 81656; -.
+DR   KEGG; rno:81656; -.
+DR   UCSC; RGD:621218; rat.
+DR   AGR; RGD:621218; -.
+DR   CTD; 1806; -.
+DR   RGD; 621218; Dpyd.
+DR   eggNOG; KOG1799; Eukaryota.
+DR   InParanoid; O89000; -.
+DR   OrthoDB; 1211169at2759; -.
+DR   PhylomeDB; O89000; -.
+DR   BioCyc; MetaCyc:MONOMER-15405; -.
+DR   Reactome; R-RNO-73621; Pyrimidine catabolism.
+DR   SABIO-RK; O89000; -.
+DR   UniPathway; UPA00131; -.
+DR   PRO; PR:O89000; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IDA:UniProtKB.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017113; F:dihydropyrimidine dehydrogenase (NADP+) activity; IDA:UniProtKB.
+DR   GO; GO:0071949; F:FAD binding; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0005506; F:iron ion binding; IDA:RGD.
+DR   GO; GO:0050661; F:NADP binding; IDA:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; IDA:UniProtKB.
+DR   GO; GO:0002058; F:uracil binding; IDA:RGD.
+DR   GO; GO:0019483; P:beta-alanine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0007623; P:circadian rhythm; IDA:RGD.
+DR   GO; GO:0006248; P:CMP catabolic process; ISO:RGD.
+DR   GO; GO:0006249; P:dCMP catabolic process; ISO:RGD.
+DR   GO; GO:0046079; P:dUMP catabolic process; ISO:RGD.
+DR   GO; GO:0006145; P:purine nucleobase catabolic process; ISO:RGD.
+DR   GO; GO:0006208; P:pyrimidine nucleobase catabolic process; IDA:RGD.
+DR   GO; GO:0051384; P:response to glucocorticoid; IEP:RGD.
+DR   GO; GO:0007584; P:response to nutrient; IDA:RGD.
+DR   GO; GO:0014070; P:response to organic cyclic compound; IDA:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IDA:RGD.
+DR   GO; GO:0006214; P:thymidine catabolic process; ISS:UniProtKB.
+DR   GO; GO:0006210; P:thymine catabolic process; ISO:RGD.
+DR   GO; GO:0046050; P:UMP catabolic process; ISO:RGD.
+DR   GO; GO:0006212; P:uracil catabolic process; ISS:UniProtKB.
+DR   GO; GO:0019860; P:uracil metabolic process; IDA:RGD.
+DR   CDD; cd02940; DHPD_FMN; 1.
+DR   Gene3D; 3.30.70.20; -; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   Gene3D; 1.10.1060.10; Alpha-helical ferredoxin; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR017900; 4Fe4S_Fe_S_CS.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR005720; Dihydroorotate_DH_cat.
+DR   InterPro; IPR028261; DPD_II.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR009051; Helical_ferredxn.
+DR   PANTHER; PTHR43073; DIHYDROPYRIMIDINE DEHYDROGENASE [NADP(+)]; 1.
+DR   PANTHER; PTHR43073:SF2; DIHYDROPYRIMIDINE DEHYDROGENASE [NADP(+)]; 1.
+DR   Pfam; PF01180; DHO_dh; 1.
+DR   Pfam; PF14691; Fer4_20; 1.
+DR   Pfam; PF14697; Fer4_21; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   PRINTS; PR00419; ADXRDTASE.
+DR   SUPFAM; SSF54862; 4Fe-4S ferredoxins; 1.
+DR   SUPFAM; SSF46548; alpha-helical ferredoxin; 1.
+DR   SUPFAM; SSF51395; FMN-linked oxidoreductases; 1.
+DR   SUPFAM; SSF51971; Nucleotide-binding domain; 1.
+DR   PROSITE; PS00198; 4FE4S_FER_1; 1.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 3.
+PE   2: Evidence at transcript level;
+KW   4Fe-4S; Acetylation; Cytoplasm; FAD; Flavoprotein; FMN; Iron; Iron-sulfur;
+KW   Metal-binding; NADP; Nucleotide-binding; Oxidoreductase; Phosphoprotein;
+KW   Reference proteome; Repeat.
+FT   CHAIN           1..1025
+FT                   /note="Dihydropyrimidine dehydrogenase [NADP(+)]"
+FT                   /id="PRO_0000327502"
+FT   DOMAIN          69..100
+FT                   /note="4Fe-4S ferredoxin-type 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   DOMAIN          944..976
+FT                   /note="4Fe-4S ferredoxin-type 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   DOMAIN          978..1007
+FT                   /note="4Fe-4S ferredoxin-type 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   ACT_SITE        671
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         79
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         82
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         87
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         91
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         129
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         130
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         136
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         140
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         156
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         194..198
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         218..226
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         235
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         340..343
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         364..365
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         371
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         437..439
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         480..489
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         481..487
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         550
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         574..575
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         609
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         668..670
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         709
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         736..737
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         767
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         793..795
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         816..817
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         953
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         956
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         959
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         963
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         986
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         989
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         992
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         996
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         384
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q12882"
+FT   MOD_RES         905
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q12882"
+SQ   SEQUENCE   1025 AA;  111468 MW;  07859E73D249828C CRC64;
+     MAGVLSRDAP DIESILALNP RIQAHATLRS TMAKKLDKKH WKRNTDKNCF ICEKLENNFD
+     DIKHTTLGER GALREAVRCL KCADAPCQKS CPTSLDIKSF ITSIANKNYY GAAKLIFSDN
+     PLGLTCGMVC PTSDLCVGGC NLHATEEGPI NIGGLQQFAT EVFKAMNIPQ IRSPLLPPPE
+     HMPEAYSAKI ALFGAGPASI SCASFLARLG YSDITIFEKQ EYVGGLSTSE IPQFRLPYDV
+     VNFEIELMKD LGVKIICGKS ISTDEMTLST LKENGYKAAF IGIGLPEPKK DHIFQGLTQV
+     QGFYTSKDFL PLVAKGSKPG MCACHSPLPS VRGAVIVLGA GDTAFDCATS ALRCGARRVF
+     IVFRKGFANI RAVPEEMELA KEEKCEFLPF LSPRKVIVKD GKIVGMQFVR TEQDETGNWV
+     EDEEQIVRLK ADVVISPFGS VLDDPKVIEA LSPIKFNRWG LPEVNPETMQ TSEPWVFAGG
+     DVVGMANTTV ESVNDGKQAS WYIHEYIQAQ YGALVPSQPT LPLFYTPVDL VDISVEMAGL
+     RFPNPFGLAS ATPATSTPMI RRAFEAGWGF ALTKTFSLDK DIVTNVSPRI IRGTTSGPLY
+     GPGQSSFLNI ELISEKTAAY WCHSVTELKA DFPDNILIAS IMCSYNKNDW MELSKMAEAS
+     GADALELNLS CPHGMGERGM GLACGQDPEL VRNICRWVRQ SVRVPFFAKL TPNVTDIVSI
+     ARAAKEGGAD GVTATNTVSG LMGLKADGSP WPSVGSGKRT TYGGVSGTTI RPIALRAVTA
+     IARALPGFPI LATGGIDSAE SGLQFLHSGA SVLQVCSAIQ NQDFTVIEDY CTGLKALLYL
+     KSIEELSDWD GQSPPTMSHQ KGKPVPHIAE LMGQKLPSFG PYLERRKKIL AASKIRENDQ
+     NRACSPLQRK HFNSQKPIPA IKDVIGKSLQ YLGTFGELNI MEQVVALIDE EMCINCGKCY
+     MTCNDSGYQA IQFDPETHLP TVSDTCTGCT LCLSVCPIMD CIRMVSRATP YEPKRGLPLA
+     VKPVC
+//

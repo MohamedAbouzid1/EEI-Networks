@@ -1,0 +1,192 @@
+ID   KCRU_RAT                Reviewed;         418 AA.
+AC   P25809;
+DT   01-MAY-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1992, sequence version 1.
+DT   24-JUL-2024, entry version 150.
+DE   RecName: Full=Creatine kinase U-type, mitochondrial;
+DE            EC=2.7.3.2;
+DE   AltName: Full=Acidic-type mitochondrial creatine kinase;
+DE            Short=Mia-CK;
+DE   AltName: Full=Ubiquitous mitochondrial creatine kinase;
+DE            Short=U-MtCK;
+DE   Flags: Precursor;
+GN   Name=Ckmt1; Synonyms=Ckmt;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Intestine;
+RX   PubMed=1859839; DOI=10.1016/0167-4781(91)90176-m;
+RA   Payne R.M., Haas R.C., Strauss A.W.;
+RT   "Structural characterization and tissue-specific expression of the mRNAs
+RT   encoding isoenzymes from two rat mitochondrial creatine kinase genes.";
+RL   Biochim. Biophys. Acta 1089:352-361(1991).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 40-56, AND TISSUE SPECIFICITY.
+RX   PubMed=1939264; DOI=10.1016/s0021-9258(18)54587-7;
+RA   Friedman D.L., Perryman M.B.;
+RT   "Compartmentation of multiple forms of creatine kinase in the distal
+RT   nephron of the rat kidney.";
+RL   J. Biol. Chem. 266:22404-22410(1991).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 152-158; 191-200; 258-270 AND 311-326, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Hippocampus, and Spinal cord;
+RA   Lubec G., Afjehi-Sadat L., Chen W.-Q.;
+RL   Submitted (APR-2007) to UniProtKB.
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-152 AND SER-197, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Reversibly catalyzes the transfer of phosphate between ATP
+CC       and various phosphogens (e.g. creatine phosphate). Creatine kinase
+CC       isoenzymes play a central role in energy transduction in tissues with
+CC       large, fluctuating energy demands, such as skeletal muscle, heart,
+CC       brain and spermatozoa.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + creatine = ADP + H(+) + N-phosphocreatine;
+CC         Xref=Rhea:RHEA:17157, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57947, ChEBI:CHEBI:58092, ChEBI:CHEBI:456216; EC=2.7.3.2;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10029};
+CC   -!- SUBUNIT: Exists as an octamer composed of four MTCK homodimers.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane; Peripheral membrane
+CC       protein; Intermembrane side.
+CC   -!- TISSUE SPECIFICITY: In many tissues, with highest levels in brain gut
+CC       and kidney. In the kidney localized primarily in the outer medulla in
+CC       the thick ascending limb and distal convoluted tubule.
+CC       {ECO:0000269|PubMed:1939264}.
+CC   -!- MISCELLANEOUS: Mitochondrial creatine kinase binds cardiolipin.
+CC   -!- SIMILARITY: Belongs to the ATP:guanido phosphotransferase family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00842, ECO:0000255|PROSITE-
+CC       ProRule:PRU00843}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X59737; CAA42415.1; -; mRNA.
+DR   PIR; S17189; S17189.
+DR   AlphaFoldDB; P25809; -.
+DR   SMR; P25809; -.
+DR   IntAct; P25809; 3.
+DR   MINT; P25809; -.
+DR   STRING; 10116.ENSRNOP00000044253; -.
+DR   iPTMnet; P25809; -.
+DR   PhosphoSitePlus; P25809; -.
+DR   SwissPalm; P25809; -.
+DR   jPOST; P25809; -.
+DR   PaxDb; 10116-ENSRNOP00000044253; -.
+DR   UCSC; RGD:61976; rat.
+DR   AGR; RGD:61976; -.
+DR   RGD; 61976; Ckmt1.
+DR   eggNOG; KOG3581; Eukaryota.
+DR   InParanoid; P25809; -.
+DR   PhylomeDB; P25809; -.
+DR   Reactome; R-RNO-71288; Creatine metabolism.
+DR   PRO; PR:P25809; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044289; C:mitochondrial inner-outer membrane contact site; IDA:RGD.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0043204; C:perikaryon; IDA:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004111; F:creatine kinase activity; IDA:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:RGD.
+DR   GO; GO:0021549; P:cerebellum development; IEP:RGD.
+DR   GO; GO:0048565; P:digestive tract development; IEP:RGD.
+DR   GO; GO:0001822; P:kidney development; IEP:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:0046314; P:phosphocreatine biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0007519; P:skeletal muscle tissue development; IEP:RGD.
+DR   CDD; cd00716; creatine_kinase_like; 1.
+DR   Gene3D; 1.10.135.10; ATP:guanido phosphotransferase, N-terminal domain; 1.
+DR   Gene3D; 3.30.590.10; Glutamine synthetase/guanido kinase, catalytic domain; 1.
+DR   InterPro; IPR000749; ATP-guanido_PTrfase.
+DR   InterPro; IPR022415; ATP-guanido_PTrfase_AS.
+DR   InterPro; IPR022414; ATP-guanido_PTrfase_cat.
+DR   InterPro; IPR022413; ATP-guanido_PTrfase_N.
+DR   InterPro; IPR036802; ATP-guanido_PTrfase_N_sf.
+DR   InterPro; IPR014746; Gln_synth/guanido_kin_cat_dom.
+DR   PANTHER; PTHR11547; ARGININE OR CREATINE KINASE; 1.
+DR   PANTHER; PTHR11547:SF24; CREATINE KINASE U-TYPE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00217; ATP-gua_Ptrans; 1.
+DR   Pfam; PF02807; ATP-gua_PtransN; 1.
+DR   SUPFAM; SSF55931; Glutamine synthetase/guanido kinase; 1.
+DR   SUPFAM; SSF48034; Guanido kinase N-terminal domain; 1.
+DR   PROSITE; PS00112; PHOSPHAGEN_KINASE; 1.
+DR   PROSITE; PS51510; PHOSPHAGEN_KINASE_C; 1.
+DR   PROSITE; PS51509; PHOSPHAGEN_KINASE_N; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Direct protein sequencing; Kinase; Membrane; Mitochondrion;
+KW   Mitochondrion inner membrane; Nucleotide-binding; Phosphoprotein;
+KW   Reference proteome; Transferase; Transit peptide.
+FT   TRANSIT         1..39
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000269|PubMed:1939264"
+FT   CHAIN           40..418
+FT                   /note="Creatine kinase U-type, mitochondrial"
+FT                   /id="PRO_0000016592"
+FT   DOMAIN          46..132
+FT                   /note="Phosphagen kinase N-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00842"
+FT   DOMAIN          159..401
+FT                   /note="Phosphagen kinase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00843"
+FT   REGION          40..64
+FT                   /note="Cardiolipin-binding"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         162..166
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00843"
+FT   BINDING         225
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00843"
+FT   BINDING         270
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00843"
+FT   BINDING         326
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00843"
+FT   BINDING         354..359
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00843"
+FT   BINDING         369
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00843"
+FT   MOD_RES         152
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         197
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         214
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00564"
+FT   MOD_RES         233
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30275"
+FT   MOD_RES         356
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P07310"
+SQ   SEQUENCE   418 AA;  47029 MW;  468339C52E4232D5 CRC64;
+     MAGPFSRLLS ARPGLKLLAL AGAGSLAAGI LLRPESVRAA TGERRRLYPP SAEYPDLRKH
+     NNCMASHLTP AVYARLCDKT TPTGWTLDQC IQTGVDNPGH PFIKTVGMVA GDEETYEVFA
+     ELFDPVIQER HNGYDPRTMK HTTDLDASKI RSGYFDERYV LSSRVRTGRS IRGLSLPPAC
+     TRAERREVER VVVDALSGLK GDLAGRYYRL SEMTEAEQQQ LIDDHFLFDK PVSPLLTAAG
+     MARDWPDARG IWHNNEKSFL IWVNEEDHTR VISMEKGGNM KRVFERFCRG LKKVEKLIQE
+     RGWEFMWNER LGYILTCPSN LGTGLRAGVH VKLPLLSKDS RFPKILENLR LQKRGTGGVD
+     TPATADVFDI SNLDRLGKSE VELVQLVIDG VNYLIDCERR LEKGQDIRIP PPLVHGKH
+//

@@ -1,0 +1,211 @@
+ID   ATAT_RAT                Reviewed;         421 AA.
+AC   Q6MG11;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   29-MAY-2024, entry version 114.
+DE   RecName: Full=Alpha-tubulin N-acetyltransferase 1 {ECO:0000255|HAMAP-Rule:MF_03130};
+DE            Short=Alpha-TAT {ECO:0000255|HAMAP-Rule:MF_03130};
+DE            Short=Alpha-TAT1 {ECO:0000255|HAMAP-Rule:MF_03130};
+DE            Short=TAT {ECO:0000255|HAMAP-Rule:MF_03130};
+DE            EC=2.3.1.108 {ECO:0000255|HAMAP-Rule:MF_03130};
+DE   AltName: Full=Acetyltransferase mec-17 homolog {ECO:0000255|HAMAP-Rule:MF_03130};
+GN   Name=Atat1 {ECO:0000255|HAMAP-Rule:MF_03130}; Synonyms=Mec17;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000312|EMBL:CAE84036.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway {ECO:0000312|EMBL:CAE84036.1};
+RX   PubMed=15060004; DOI=10.1101/gr.1987704;
+RA   Hurt P., Walter L., Sudbrak R., Klages S., Mueller I., Shiina T., Inoko H.,
+RA   Lehrach H., Guenther E., Reinhardt R., Himmelbauer H.;
+RT   "The genomic sequence and comparative analysis of the rat major
+RT   histocompatibility complex.";
+RL   Genome Res. 14:631-639(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-272; SER-276 AND SER-315, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Specifically acetylates 'Lys-40' in alpha-tubulin on the
+CC       lumenal side of microtubules. Promotes microtubule destabilization and
+CC       accelerates microtubule dynamics; this activity may be independent of
+CC       acetylation activity. Acetylates alpha-tubulin with a slow enzymatic
+CC       rate, due to a catalytic site that is not optimized for acetyl
+CC       transfer. Enters the microtubule through each end and diffuses quickly
+CC       throughout the lumen of microtubules. Acetylates only long/old
+CC       microtubules because of its slow acetylation rate since it does not
+CC       have time to act on dynamically unstable microtubules before the enzyme
+CC       is released. Required for normal sperm flagellar function. Promotes
+CC       directional cell locomotion and chemotaxis, through AP2A2-dependent
+CC       acetylation of alpha-tubulin at clathrin-coated pits that are
+CC       concentrated at the leading edge of migrating cells. May facilitate
+CC       primary cilium assembly. {ECO:0000255|HAMAP-Rule:MF_03130}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + L-lysyl-[alpha-tubulin] = CoA + H(+) + N(6)-
+CC         acetyl-L-lysyl-[alpha-tubulin]; Xref=Rhea:RHEA:15277, Rhea:RHEA-
+CC         COMP:11278, Rhea:RHEA-COMP:11279, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29969, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:61930; EC=2.3.1.108; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_03130};
+CC   -!- SUBUNIT: Component of the BBSome complex. Interacts with AP2 alpha-
+CC       adaptins, including AP2A2, but not with AP1 gamma-adaptin
+CC       (AP1G1/AP1G2); this interaction is required for efficient alpha-tubulin
+CC       acetylation, hence clathrin-coated pits are sites of microtubule
+CC       acetylation. {ECO:0000255|HAMAP-Rule:MF_03130}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_03130}.
+CC       Membrane, clathrin-coated pit {ECO:0000255|HAMAP-Rule:MF_03130}. Cell
+CC       junction, focal adhesion {ECO:0000255|HAMAP-Rule:MF_03130}. Cell
+CC       projection, axon {ECO:0000255|HAMAP-Rule:MF_03130}. Cytoplasm,
+CC       cytoskeleton {ECO:0000255|HAMAP-Rule:MF_03130}. Cytoplasm,
+CC       cytoskeleton, spindle {ECO:0000255|HAMAP-Rule:MF_03130}.
+CC   -!- PTM: Autoacetylation strongly increases tubulin acetylation.
+CC       {ECO:0000255|HAMAP-Rule:MF_03130}.
+CC   -!- SIMILARITY: Belongs to the acetyltransferase ATAT1 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_03130}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX883048; CAE84036.1; -; Genomic_DNA.
+DR   RefSeq; NP_997663.1; NM_212498.1.
+DR   AlphaFoldDB; Q6MG11; -.
+DR   SMR; Q6MG11; -.
+DR   STRING; 10116.ENSRNOP00000001065; -.
+DR   iPTMnet; Q6MG11; -.
+DR   PhosphoSitePlus; Q6MG11; -.
+DR   jPOST; Q6MG11; -.
+DR   PaxDb; 10116-ENSRNOP00000001065; -.
+DR   ABCD; Q6MG11; 1 sequenced antibody.
+DR   GeneID; 361789; -.
+DR   KEGG; rno:361789; -.
+DR   UCSC; RGD:1303066; rat.
+DR   AGR; RGD:1303066; -.
+DR   CTD; 79969; -.
+DR   RGD; 1303066; Atat1.
+DR   VEuPathDB; HostDB:ENSRNOG00000000809; -.
+DR   eggNOG; KOG4601; Eukaryota.
+DR   InParanoid; Q6MG11; -.
+DR   OrthoDB; 125820at2759; -.
+DR   PhylomeDB; Q6MG11; -.
+DR   TreeFam; TF315643; -.
+DR   Reactome; R-RNO-5617833; Cilium Assembly.
+DR   PRO; PR:Q6MG11; -.
+DR   Proteomes; UP000002494; Chromosome 20.
+DR   Bgee; ENSRNOG00000000809; Expressed in ovary and 19 other cell types or tissues.
+DR   ExpressionAtlas; Q6MG11; baseline and differential.
+DR   GO; GO:0030424; C:axon; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005905; C:clathrin-coated pit; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005925; C:focal adhesion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005874; C:microtubule; IEA:InterPro.
+DR   GO; GO:0097427; C:microtubule bundle; ISO:RGD.
+DR   GO; GO:0072686; C:mitotic spindle; ISO:RGD.
+DR   GO; GO:0016407; F:acetyltransferase activity; ISO:RGD.
+DR   GO; GO:0004468; F:lysine N-acetyltransferase activity, acting on acetyl phosphate as donor; ISS:UniProtKB.
+DR   GO; GO:0019799; F:tubulin N-acetyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0071929; P:alpha-tubulin acetylation; ISS:UniProtKB.
+DR   GO; GO:0021542; P:dentate gyrus development; ISO:RGD.
+DR   GO; GO:0000226; P:microtubule cytoskeleton organization; ISO:RGD.
+DR   GO; GO:0048666; P:neuron development; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044546; P:NLRP3 inflammasome complex assembly; ISO:RGD.
+DR   GO; GO:1900227; P:positive regulation of NLRP3 inflammasome complex assembly; ISO:RGD.
+DR   GO; GO:0045598; P:regulation of fat cell differentiation; ISO:RGD.
+DR   GO; GO:0070507; P:regulation of microtubule cytoskeleton organization; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009612; P:response to mechanical stimulus; ISO:RGD.
+DR   GO; GO:0048265; P:response to pain; ISO:RGD.
+DR   GO; GO:0007283; P:spermatogenesis; ISO:RGD.
+DR   CDD; cd04301; NAT_SF; 1.
+DR   Gene3D; 3.40.630.30; -; 1.
+DR   Gene3D; 6.20.370.120; -; 1.
+DR   HAMAP; MF_03130; mec17; 1.
+DR   InterPro; IPR038746; Atat.
+DR   InterPro; IPR007965; GNAT_ATAT.
+DR   PANTHER; PTHR12327:SF0; ALPHA-TUBULIN N-ACETYLTRANSFERASE 1; 1.
+DR   PANTHER; PTHR12327; UNCHARACTERIZED; 1.
+DR   Pfam; PF05301; Acetyltransf_16; 1.
+DR   PROSITE; PS51730; GNAT_ATAT; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Acyltransferase; Cell junction; Cell projection; Coated pit;
+KW   Cytoplasm; Cytoskeleton; Membrane; Methylation; Phosphoprotein;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..421
+FT                   /note="Alpha-tubulin N-acetyltransferase 1"
+FT                   /id="PRO_0000348068"
+FT   DOMAIN          1..190
+FT                   /note="N-acetyltransferase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03130"
+FT   REGION          214..235
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          252..284
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          342..398
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        255..270
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        355..369
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         124..137
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03130"
+FT   BINDING         160..169
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03130"
+FT   SITE            58
+FT                   /note="Crucial for catalytic activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03130"
+FT   MOD_RES         56
+FT                   /note="N6-acetyllysine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K341, ECO:0000255|HAMAP-
+FT                   Rule:MF_03130"
+FT   MOD_RES         146
+FT                   /note="N6-acetyllysine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K341, ECO:0000255|HAMAP-
+FT                   Rule:MF_03130"
+FT   MOD_RES         233
+FT                   /note="N6-acetyllysine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K341, ECO:0000255|HAMAP-
+FT                   Rule:MF_03130"
+FT   MOD_RES         244
+FT                   /note="N6-acetyllysine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K341, ECO:0000255|HAMAP-
+FT                   Rule:MF_03130"
+FT   MOD_RES         272
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         276
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         305
+FT                   /note="Asymmetric dimethylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8K341"
+FT   MOD_RES         315
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         323
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5SQI0"
+SQ   SEQUENCE   421 AA;  47327 MW;  8AE25A0BD01279AA CRC64;
+     MEFPFDVDAL FPERITVLDQ HLRPPARRPG TTTPARVDLQ QQIMTIVDEL GKASAKAQHL
+     PAPITSALRM QSNRHVIYVL KDTSARPAGK GAIIGFLKVG YKKLFVLDDR EAHNEVEPLC
+     ILDFYIHESV QRHGHGRELF QYMLQKERVE PHQLAIDRPS PKLLKFLNKH YNLETTVPQV
+     NNFVIFEGFF AHQHRSPTPS LRATRHSRAA VVDPIPAAPA RKLPPKRAEG DIKPYSSSDR
+     EFLKVAVEPP WPLNRAPRRA TPPAHPPPRS SSLGNSPDRG PLRPFVPEQE LLRSLRLCPP
+     HPTARLLLAT DPGGSPAQRR RTRETPWGLV AQSCHYSRHG GFNTSFLGTG NQERKQGEQE
+     AEDRSASEDQ VLLQDGSGEE PTHTVAPRAQ APPAQSWMVG GDILNARVIR NLQERRNTRP
+     W
+//

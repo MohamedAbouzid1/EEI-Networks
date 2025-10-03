@@ -1,0 +1,126 @@
+ID   MTEF1_RAT               Reviewed;         374 AA.
+AC   Q9EPI8;
+DT   07-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   24-JAN-2024, entry version 90.
+DE   RecName: Full=Transcription termination factor 1, mitochondrial;
+DE   AltName: Full=Mitochondrial transcription termination factor 1;
+DE            Short=mTERF;
+DE   Flags: Precursor;
+GN   Name=Mterf1; Synonyms=Mterf;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, AND PHOSPHORYLATION.
+RC   TISSUE=Liver;
+RX   PubMed=15087485; DOI=10.1093/nar/gkh528;
+RA   Prieto-Martin A., Montoya J., Martinez-Azorin F.;
+RT   "Phosphorylation of rat mitochondrial transcription termination factor
+RT   (mTERF) is required for transcription termination but not for binding to
+RT   DNA.";
+RL   Nucleic Acids Res. 32:2059-2068(2004).
+CC   -!- FUNCTION: Transcription termination factor. Binds to a 28 bp region
+CC       within the tRNA(Leu(uur)) gene at a position immediately adjacent to
+CC       and downstream of the 16S rRNA gene; this region comprises a tridecamer
+CC       sequence critical for directing accurate termination. Binds DNA along
+CC       the major grove and promotes DNA bending and partial unwinding.
+CC       Promotes base flipping. Transcription termination activity appears to
+CC       be polarized with highest specificity for transcripts initiated on the
+CC       light strand (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000269|PubMed:15087485}.
+CC   -!- DOMAIN: Contains nine structural repeats of about 35 residues, where
+CC       each repeat contains three helices. The repeats form a left-handed
+CC       superhelical assembly with a solenoid structure that wraps itself
+CC       around DNA (By similarity). {ECO:0000250}.
+CC   -!- PTM: Is a phosphoprotein. While the DNA-binding activity is unaffected
+CC       by the phosphorylation/dephosphorylation state, only the phosphorylated
+CC       form of the protein is active for termination activity. Functioning
+CC       seems to be regulated by phosphorylation.
+CC       {ECO:0000269|PubMed:15087485}.
+CC   -!- SIMILARITY: Belongs to the mTERF family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ292524; CAC20864.1; -; mRNA.
+DR   RefSeq; NP_445951.1; NM_053499.1.
+DR   AlphaFoldDB; Q9EPI8; -.
+DR   SMR; Q9EPI8; -.
+DR   STRING; 10116.ENSRNOP00000010425; -.
+DR   PhosphoSitePlus; Q9EPI8; -.
+DR   PaxDb; 10116-ENSRNOP00000010425; -.
+DR   GeneID; 85261; -.
+DR   KEGG; rno:85261; -.
+DR   UCSC; RGD:621318; rat.
+DR   AGR; RGD:621318; -.
+DR   CTD; 7978; -.
+DR   RGD; 621318; Mterf1.
+DR   eggNOG; KOG1267; Eukaryota.
+DR   InParanoid; Q9EPI8; -.
+DR   OrthoDB; 5301408at2759; -.
+DR   PhylomeDB; Q9EPI8; -.
+DR   Reactome; R-RNO-163316; Mitochondrial transcription termination.
+DR   PRO; PR:Q9EPI8; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005759; C:mitochondrial matrix; IBA:GO_Central.
+DR   GO; GO:0042645; C:mitochondrial nucleoid; ISO:RGD.
+DR   GO; GO:0003690; F:double-stranded DNA binding; ISS:UniProtKB.
+DR   GO; GO:0003676; F:nucleic acid binding; IBA:GO_Central.
+DR   GO; GO:0032392; P:DNA geometric change; ISS:UniProtKB.
+DR   GO; GO:0006353; P:DNA-templated transcription termination; ISS:UniProtKB.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; IEA:InterPro.
+DR   GO; GO:0006393; P:termination of mitochondrial transcription; ISS:UniProtKB.
+DR   Gene3D; 1.25.70.10; Transcription termination factor 3, mitochondrial; 2.
+DR   InterPro; IPR003690; MTERF.
+DR   InterPro; IPR038538; MTERF_sf.
+DR   PANTHER; PTHR15437:SF2; TRANSCRIPTION TERMINATION FACTOR 1, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR15437; TRANSCRIPTION TERMINATION FACTOR, MITOCHONDRIAL; 1.
+DR   Pfam; PF02536; mTERF; 1.
+DR   SMART; SM00733; Mterf; 6.
+PE   1: Evidence at protein level;
+KW   DNA-binding; Mitochondrion; Phosphoprotein; Reference proteome; Repeat;
+KW   Transcription; Transcription regulation; Transcription termination;
+KW   Transit peptide.
+FT   TRANSIT         1..37
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           38..374
+FT                   /note="Transcription termination factor 1, mitochondrial"
+FT                   /id="PRO_0000021782"
+FT   REGION          146..147
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          224..228
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          301..308
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          332..335
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          361..368
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            139
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            179
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            327
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   374 AA;  42937 MW;  43FD94B40069B3F0 CRC64;
+     MASRNIWRVR RNFLFDLRGW VPQYSAEVFL KSIPFRPFSV ECNSKDGENG DLLNNLLTMG
+     VDVDMARRRQ PGVFNKAVTN EQELKMFLLS KGASDKVIGS IISRYPRAIT RTPESLSKRW
+     DLWREIMASD LEIVNILERS PESFFRSNNN LNLENNIKFL CSVGLTHKCL CRLLTSAPRT
+     FSNSLNLNKQ MVEFLQETGI SLGHNNPTDF VRKIISKNPS ILIQSTKRVK TNIEFLQSTF
+     NLDKEDLLLL ICGPGARILD LSNDCTKRNY TNIKKRLLSL GCTEEEVQKF VLSYLNMIFL
+     SEKKFNDKID CLLEEKISTS QILENPRVLD SSIHTLKTRI RELAHAGYDV STSSIALLSW
+     SQRRYEAKLK RLSG
+//

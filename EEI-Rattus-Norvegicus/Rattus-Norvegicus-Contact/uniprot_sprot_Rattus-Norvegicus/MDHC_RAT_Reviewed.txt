@@ -1,0 +1,265 @@
+ID   MDHC_RAT                Reviewed;         334 AA.
+AC   O88989; O88585; Q6PCV2;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   24-JUL-2024, entry version 162.
+DE   RecName: Full=Malate dehydrogenase, cytoplasmic;
+DE            EC=1.1.1.37;
+DE   AltName: Full=Aromatic alpha-keto acid reductase {ECO:0000305};
+DE            Short=KAR {ECO:0000305};
+DE            EC=1.1.1.96 {ECO:0000250|UniProtKB:P40925};
+DE   AltName: Full=Cytosolic malate dehydrogenase;
+GN   Name=Mdh1; Synonyms=Mdh;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Achenbach P., Steinbrenner H., Reindl G., Seissler J.;
+RT   "Cloning of rat cytosolic malate dehydrogenase.";
+RL   Submitted (SEP-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 7-32; 80-92; 126-157; 171-199; 206-230; 239-255;
+RP   299-310 AND 319-334, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain, Hippocampus, and Spinal cord;
+RA   Lubec G., Afjehi-Sadat L., Diao W., Kang S.U.;
+RL   Submitted (JUL-2007) to UniProtKB.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 251-284.
+RA   Earley S.;
+RT   "Partial sequence of rat malate dehydrogenase (MDH) mRNA.";
+RL   Submitted (JUN-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-217; SER-241; SER-332 AND
+RP   SER-333, AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Catalyzes the reduction of aromatic alpha-keto acids in the
+CC       presence of NADH. Plays essential roles in the malate-aspartate shuttle
+CC       and the tricarboxylic acid cycle, important in mitochondrial NADH
+CC       supply for oxidative phosphorylation. Catalyzes the reduction of 2-
+CC       oxoglutarate to 2-hydroxyglutarate, leading to elevated reactive oxygen
+CC       species (ROS). {ECO:0000250|UniProtKB:P40925}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-malate + NAD(+) = H(+) + NADH + oxaloacetate;
+CC         Xref=Rhea:RHEA:21432, ChEBI:CHEBI:15378, ChEBI:CHEBI:15589,
+CC         ChEBI:CHEBI:16452, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.37;
+CC         Evidence={ECO:0000250|UniProtKB:P40925};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21433;
+CC         Evidence={ECO:0000250|UniProtKB:P40925};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:21434;
+CC         Evidence={ECO:0000250|UniProtKB:P40925};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-2-hydroxy-3-(4-hydroxyphenyl)propanoate + NAD(+) = 3-(4-
+CC         hydroxyphenyl)pyruvate + H(+) + NADH; Xref=Rhea:RHEA:10780,
+CC         ChEBI:CHEBI:10980, ChEBI:CHEBI:15378, ChEBI:CHEBI:36242,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.96;
+CC         Evidence={ECO:0000250|UniProtKB:P40925};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:10782;
+CC         Evidence={ECO:0000250|UniProtKB:P40925};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-2-hydroxyglutarate + NAD(+) = 2-oxoglutarate + H(+) +
+CC         NADH; Xref=Rhea:RHEA:57172, ChEBI:CHEBI:15378, ChEBI:CHEBI:16782,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000250|UniProtKB:P40925};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:57174;
+CC         Evidence={ECO:0000250|UniProtKB:P40925};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:P11708}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:P40925}.
+CC   -!- PTM: ISGylated. {ECO:0000250|UniProtKB:P40925}.
+CC   -!- PTM: Acetylation at Lys-118 dramatically enhances enzymatic activity
+CC       and promotes adipogenic differentiation.
+CC       {ECO:0000250|UniProtKB:P40925}.
+CC   -!- SIMILARITY: Belongs to the LDH/MDH superfamily. MDH type 2 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF093773; AAC64180.1; -; mRNA.
+DR   EMBL; BC059124; AAH59124.1; -; mRNA.
+DR   EMBL; AF075574; AAC26799.1; -; mRNA.
+DR   RefSeq; NP_150238.1; NM_033235.2.
+DR   AlphaFoldDB; O88989; -.
+DR   SMR; O88989; -.
+DR   BioGRID; 246700; 6.
+DR   CORUM; O88989; -.
+DR   IntAct; O88989; 2.
+DR   STRING; 10116.ENSRNOP00000011429; -.
+DR   GlyGen; O88989; 1 site, 1 O-linked glycan (1 site).
+DR   iPTMnet; O88989; -.
+DR   PhosphoSitePlus; O88989; -.
+DR   SwissPalm; O88989; -.
+DR   jPOST; O88989; -.
+DR   PaxDb; 10116-ENSRNOP00000011429; -.
+DR   Ensembl; ENSRNOT00000011429.8; ENSRNOP00000011429.5; ENSRNOG00000008103.8.
+DR   Ensembl; ENSRNOT00055013672; ENSRNOP00055010983; ENSRNOG00055008079.
+DR   Ensembl; ENSRNOT00060024739; ENSRNOP00060019706; ENSRNOG00060014463.
+DR   Ensembl; ENSRNOT00065008968; ENSRNOP00065006387; ENSRNOG00065005943.
+DR   GeneID; 24551; -.
+DR   KEGG; rno:24551; -.
+DR   UCSC; RGD:3072; rat.
+DR   AGR; RGD:3072; -.
+DR   CTD; 4190; -.
+DR   RGD; 3072; Mdh1.
+DR   eggNOG; KOG1496; Eukaryota.
+DR   GeneTree; ENSGT00530000063410; -.
+DR   HOGENOM; CLU_040727_2_0_1; -.
+DR   InParanoid; O88989; -.
+DR   OrthoDB; 501358at2759; -.
+DR   PhylomeDB; O88989; -.
+DR   TreeFam; TF105826; -.
+DR   Reactome; R-RNO-9856872; Malate-aspartate shuttle.
+DR   PRO; PR:O88989; -.
+DR   Proteomes; UP000002494; Chromosome 14.
+DR   Bgee; ENSRNOG00000008103; Expressed in heart and 20 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0047995; F:hydroxyphenylpyruvate reductase activity; IEA:RHEA.
+DR   GO; GO:0030060; F:L-malate dehydrogenase activity; IDA:RGD.
+DR   GO; GO:0016615; F:malate dehydrogenase activity; IDA:RGD.
+DR   GO; GO:0051287; F:NAD binding; IDA:RGD.
+DR   GO; GO:0006108; P:malate metabolic process; IDA:RGD.
+DR   GO; GO:0019674; P:NAD metabolic process; IDA:RGD.
+DR   GO; GO:0006734; P:NADH metabolic process; IDA:RGD.
+DR   GO; GO:0006739; P:NADP metabolic process; ISO:RGD.
+DR   GO; GO:0006107; P:oxaloacetate metabolic process; IDA:RGD.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IBA:GO_Central.
+DR   CDD; cd01336; MDH_cytoplasmic_cytosolic; 1.
+DR   Gene3D; 3.90.110.10; Lactate dehydrogenase/glycoside hydrolase, family 4, C-terminal; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_01517; Malate_dehydrog_2; 1.
+DR   InterPro; IPR001557; L-lactate/malate_DH.
+DR   InterPro; IPR022383; Lactate/malate_DH_C.
+DR   InterPro; IPR001236; Lactate/malate_DH_N.
+DR   InterPro; IPR015955; Lactate_DH/Glyco_Ohase_4_C.
+DR   InterPro; IPR001252; Malate_DH_AS.
+DR   InterPro; IPR011274; Malate_DH_NAD-dep_euk.
+DR   InterPro; IPR010945; Malate_DH_type2.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   NCBIfam; TIGR01759; MalateDH-SF1; 1.
+DR   NCBIfam; TIGR01758; MDH_euk_cyt; 1.
+DR   PANTHER; PTHR23382; MALATE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR23382:SF3; MALATE DEHYDROGENASE, CYTOPLASMIC; 1.
+DR   Pfam; PF02866; Ldh_1_C; 1.
+DR   Pfam; PF00056; Ldh_1_N; 1.
+DR   PIRSF; PIRSF000102; Lac_mal_DH; 1.
+DR   SUPFAM; SSF56327; LDH C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00068; MDH; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Cytoplasm; Direct protein sequencing; Methylation; NAD;
+KW   Oxidoreductase; Phosphoprotein; Reference proteome;
+KW   Tricarboxylic acid cycle; Ubl conjugation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P40925"
+FT   CHAIN           2..334
+FT                   /note="Malate dehydrogenase, cytoplasmic"
+FT                   /id="PRO_0000226737"
+FT   ACT_SITE        187
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P11708"
+FT   BINDING         11..17
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P11708"
+FT   BINDING         42
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P11708"
+FT   BINDING         92
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11708"
+FT   BINDING         98
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11708"
+FT   BINDING         105
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P11708"
+FT   BINDING         112
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P11708"
+FT   BINDING         129..131
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250|UniProtKB:P11708"
+FT   BINDING         131
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11708"
+FT   BINDING         162
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11708"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P40925"
+FT   MOD_RES         110
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14152"
+FT   MOD_RES         118
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P40925"
+FT   MOD_RES         121
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P40925"
+FT   MOD_RES         214
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14152"
+FT   MOD_RES         217
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         230
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14152"
+FT   MOD_RES         241
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         298
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P40925"
+FT   MOD_RES         298
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P14152"
+FT   MOD_RES         309
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14152"
+FT   MOD_RES         318
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14152"
+FT   MOD_RES         332
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         333
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CONFLICT        251
+FT                   /note="S -> A (in Ref. 4; AAC26799)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        276
+FT                   /note="N -> D (in Ref. 2; AAH59124)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   334 AA;  36483 MW;  8F6778722A607B3C CRC64;
+     MSEPIRVLVT GAAGQIAYSL LYSIGNGSVF GKDQPIILVL LDITPMMGVL DGVLMELQDC
+     ALPLLQDVIA TDKEEVAFKD LDVAVLVGSM PRREGMERKD LLKANVKIFK SQGAALEKYA
+     KKSVKVIVVG NPANTNCLTA SKSAPSIPKE NFSCLTRLDH NRAKSQIALK LGVTADDVKN
+     VIIWGNHSST QYPDVNHAKV KLQGKEVGVY EALKDDSWLK GEFITTVQQR GAAVIKARKL
+     SSAMSAAKAI SDHIRDIWFG TPEGEFVSMG VISDGNSYGV PDDLLYSFPV VIKNKTWKFV
+     EGLPINDFSR EKMDLTAKEL TEEKETAFEF LSSA
+//

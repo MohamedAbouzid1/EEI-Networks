@@ -1,0 +1,222 @@
+ID   DOC2A_RAT               Reviewed;         403 AA.
+AC   P70611;
+DT   31-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   24-JAN-2024, entry version 161.
+DE   RecName: Full=Double C2-like domain-containing protein alpha;
+DE            Short=Doc2-alpha;
+GN   Name=Doc2a;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RX   PubMed=9115738; DOI=10.1016/s0896-6273(00)81245-3;
+RA   Verhage M., de Vries K.J., Roeshol H., Burbach J.P., Gispen W.H.,
+RA   Suedhof T.C.;
+RT   "DOC2 proteins in rat brain: complementary distribution and proposed
+RT   function as vesicular adapter proteins in early stages of secretion.";
+RL   Neuron 18:453-461(1997).
+RN   [2]
+RP   INTERACTION WITH DYNLT1.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=9804756; DOI=10.1074/jbc.273.46.30065;
+RA   Nagano F., Orita S., Sasaki T., Naito A., Sakaguchi G., Maeda M.,
+RA   Watanabe T., Kominami E., Uchiyama Y., Takai Y.;
+RT   "Interaction of Doc2 with tctex-1, a light chain of cytoplasmic dynein.
+RT   Implication in dynein-dependent vesicle transport.";
+RL   J. Biol. Chem. 273:30065-30068(1998).
+RN   [3]
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=18354201; DOI=10.4049/jimmunol.180.7.4774;
+RA   Higashio H., Nishimura N., Ishizaki H., Miyoshi J., Orita S., Sakane A.,
+RA   Sasaki T.;
+RT   "Doc2 alpha and Munc13-4 regulate Ca(2+) -dependent secretory lysosome
+RT   exocytosis in mast cells.";
+RL   J. Immunol. 180:4774-4784(2008).
+CC   -!- FUNCTION: Calcium sensor which most probably regulates fusion of
+CC       vesicles with membranes. Binds calcium and phospholipids. May be
+CC       involved in calcium dependent neurotransmitter release through the
+CC       interaction with UNC13A. May be involved in calcium-dependent
+CC       spontaneous release of neurotransmitter in absence of action potentials
+CC       in neuronal cells. Regulates Ca(2+)-dependent secretory lysosome
+CC       exocytosis in mast cells (By similarity). {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00041};
+CC   -!- SUBUNIT: Interacts (via N-terminus) with UNC13A. Interacts with
+CC       cytoplasmic dynein light chain DYNLT1. Interacts with UNC13D (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasmic vesicle, secretory vesicle, synaptic
+CC       vesicle membrane {ECO:0000250}; Peripheral membrane protein
+CC       {ECO:0000250}. Synapse, synaptosome {ECO:0000250}. Lysosome
+CC       {ECO:0000269|PubMed:18354201}.
+CC   -!- TISSUE SPECIFICITY: Predominantly expressed in brain. Also found in
+CC       non-neural tissues. Expressed in RBL-2H3 mast cell line.
+CC       {ECO:0000269|PubMed:18354201, ECO:0000269|PubMed:9115738}.
+CC   -!- DOMAIN: C2 domain 1 is involved in binding calcium and phospholipids.
+CC       {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U70779; AAB47748.1; -; mRNA.
+DR   RefSeq; NP_075226.1; NM_022937.2.
+DR   RefSeq; XP_006230397.1; XM_006230335.3.
+DR   RefSeq; XP_006230398.1; XM_006230336.1.
+DR   RefSeq; XP_006230399.1; XM_006230337.3.
+DR   RefSeq; XP_006230401.1; XM_006230339.3.
+DR   RefSeq; XP_006230402.1; XM_006230340.1.
+DR   RefSeq; XP_006230403.1; XM_006230341.3.
+DR   RefSeq; XP_008758140.1; XM_008759918.2.
+DR   RefSeq; XP_017445177.1; XM_017589688.1.
+DR   RefSeq; XP_017445178.1; XM_017589689.1.
+DR   AlphaFoldDB; P70611; -.
+DR   SMR; P70611; -.
+DR   STRING; 10116.ENSRNOP00000027022; -.
+DR   iPTMnet; P70611; -.
+DR   PhosphoSitePlus; P70611; -.
+DR   PaxDb; 10116-ENSRNOP00000027022; -.
+DR   Ensembl; ENSRNOT00000027022.5; ENSRNOP00000027022.1; ENSRNOG00000019920.5.
+DR   Ensembl; ENSRNOT00055047077; ENSRNOP00055038694; ENSRNOG00055027222.
+DR   Ensembl; ENSRNOT00060055117; ENSRNOP00060045562; ENSRNOG00060031815.
+DR   Ensembl; ENSRNOT00065022733; ENSRNOP00065017629; ENSRNOG00065013819.
+DR   GeneID; 65031; -.
+DR   KEGG; rno:65031; -.
+DR   UCSC; RGD:620518; rat.
+DR   AGR; RGD:620518; -.
+DR   CTD; 8448; -.
+DR   RGD; 620518; Doc2a.
+DR   eggNOG; KOG1013; Eukaryota.
+DR   GeneTree; ENSGT00940000159141; -.
+DR   HOGENOM; CLU_023008_3_0_1; -.
+DR   InParanoid; P70611; -.
+DR   OMA; SPMTVRK; -.
+DR   OrthoDB; 590187at2759; -.
+DR   PhylomeDB; P70611; -.
+DR   TreeFam; TF351844; -.
+DR   PRO; PR:P70611; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000019920; Expressed in frontal cortex and 14 other cell types or tissues.
+DR   GO; GO:0098850; C:extrinsic component of synaptic vesicle membrane; IDA:SynGO.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0005764; C:lysosome; IDA:UniProtKB.
+DR   GO; GO:0043005; C:neuron projection; IEA:UniProtKB-KW.
+DR   GO; GO:0005730; C:nucleolus; IEA:Ensembl.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0045202; C:synapse; IBA:GO_Central.
+DR   GO; GO:0005544; F:calcium-dependent phospholipid binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0099502; P:calcium-dependent activation of synaptic vesicle fusion; IDA:SynGO.
+DR   GO; GO:0006887; P:exocytosis; IBA:GO_Central.
+DR   GO; GO:0017158; P:regulation of calcium ion-dependent exocytosis; ISO:RGD.
+DR   GO; GO:0061669; P:spontaneous neurotransmitter secretion; ISO:RGD.
+DR   GO; GO:0016079; P:synaptic vesicle exocytosis; IEP:RGD.
+DR   CDD; cd04035; C2A_Rabphilin_Doc2; 1.
+DR   CDD; cd08384; C2B_Rabphilin_Doc2; 1.
+DR   Gene3D; 2.60.40.150; C2 domain; 2.
+DR   InterPro; IPR000008; C2_dom.
+DR   InterPro; IPR035892; C2_domain_sf.
+DR   InterPro; IPR014638; Doc2.
+DR   InterPro; IPR043566; Rabphilin/DOC2/Noc2.
+DR   InterPro; IPR047022; Rabphilin_Doc2_C2A.
+DR   InterPro; IPR001565; Synaptotagmin.
+DR   PANTHER; PTHR45729:SF1; DOUBLE C2-LIKE DOMAIN-CONTAINING PROTEIN ALPHA; 1.
+DR   PANTHER; PTHR45729; RABPHILIN, ISOFORM A; 1.
+DR   Pfam; PF00168; C2; 2.
+DR   PIRSF; PIRSF036931; Doc2; 1.
+DR   PRINTS; PR00360; C2DOMAIN.
+DR   PRINTS; PR00399; SYNAPTOTAGMN.
+DR   SMART; SM00239; C2; 2.
+DR   SUPFAM; SSF49562; C2 domain (Calcium/lipid-binding domain, CaLB); 2.
+DR   PROSITE; PS50004; C2; 2.
+PE   1: Evidence at protein level;
+KW   Calcium; Calcium/phospholipid-binding; Cytoplasmic vesicle; Exocytosis;
+KW   Lysosome; Membrane; Metal-binding; Reference proteome; Repeat; Synapse;
+KW   Synaptosome.
+FT   CHAIN           1..403
+FT                   /note="Double C2-like domain-containing protein alpha"
+FT                   /id="PRO_0000079967"
+FT   DOMAIN          92..214
+FT                   /note="C2 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   DOMAIN          254..387
+FT                   /note="C2 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   REGION          1..92
+FT                   /note="Interaction with UNC13D and DYNLT1"
+FT                   /evidence="ECO:0000250"
+FT   REGION          218..403
+FT                   /note="Interaction with UNC13D"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         123
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         129
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         184
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         186
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         285
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         285
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         291
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         345
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         345
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         347
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         347
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+FT   BINDING         353
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00041"
+SQ   SEQUENCE   403 AA;  44590 MW;  24EECA95486FF673 CRC64;
+     MRGRRGDRMT INIQEHMAIN VCPGPIRPIR QISDYFPRRG PGPEGGGGGR GFGEAPAHLA
+     PLALAPPAAL LGATTPDDGA EVDSYDSDDT TALGTLEFDL LYDQASCMLH CRILRAKGLK
+     PMDFNGLADP YVKLHLLPGA CKANKLKTKT QRNTLNPVWN EELTYSGITD DDITHKVLRI
+     SVCDEDKLSH NEFIGEIRVP LRRLKPSQKK HFNICLERQV PLPSPSSMSA ALRGISCYLK
+     ELEQAEQGPG LLEERGRILL SLSYSSRRHG LLVGIVRCAH LAAMDVNGYS DPYVKTYLRP
+     DVDKKSKHKT CVKKKTLNPE FNEEFFYEME LSTLATKTLE VTVWDYDIGK SNDFIGGVSL
+     GPGARGEAQK HWRDCLHQPD TAVERWHTLT SELPPAAGAL PLA
+//

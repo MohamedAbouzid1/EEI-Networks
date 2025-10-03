@@ -1,0 +1,280 @@
+ID   WASL_RAT                Reviewed;         501 AA.
+AC   O08816;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 2.
+DT   27-MAR-2024, entry version 203.
+DE   RecName: Full=Actin nucleation-promoting factor WASL {ECO:0000305};
+DE   AltName: Full=Neural Wiskott-Aldrich syndrome protein;
+DE            Short=N-WASP;
+GN   Name=Wasl;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=9322739; DOI=10.1016/s0378-1119(97)00184-4;
+RA   Fukuoka M., Miki H., Takenawa T.;
+RT   "Identification of N-WASP homologs in human and rat brain.";
+RL   Gene 196:43-48(1997).
+RN   [2]
+RP   INTERACTION WITH PTK2/FAK1, SUBCELLULAR LOCATION, AND PHOSPHORYLATION AT
+RP   TYR-253.
+RX   PubMed=14676198; DOI=10.1074/jbc.m310739200;
+RA   Wu X., Suetsugu S., Cooper L.A., Takenawa T., Guan J.L.;
+RT   "Focal adhesion kinase regulation of N-WASP subcellular localization and
+RT   function.";
+RL   J. Biol. Chem. 279:9565-9576(2004).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-253, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+RN   [4]
+RP   STRUCTURE BY NMR OF 37-485.
+RX   PubMed=12437929; DOI=10.1016/s0092-8674(02)01076-0;
+RA   Volkman B.F., Prehoda K.E., Scott J.A., Peterson F.C., Lim W.A.;
+RT   "Structure of the N-WASP EVH1 domain-WIP complex: insight into the
+RT   molecular basis of Wiskott-Aldrich Syndrome.";
+RL   Cell 111:565-576(2002).
+CC   -!- FUNCTION: Regulates actin polymerization by stimulating the actin-
+CC       nucleating activity of the Arp2/3 complex. Involved in various
+CC       processes, such as mitosis and cytokinesis, via its role in the
+CC       regulation of actin polymerization. Together with CDC42, involved in
+CC       the extension and maintenance of the formation of thin, actin-rich
+CC       surface projections called filopodia. In addition to its role in the
+CC       cytoplasm, also plays a role in the nucleus by regulating gene
+CC       transcription, probably by promoting nuclear actin polymerization (By
+CC       similarity). Binds to HSF1/HSTF1 and forms a complex on heat shock
+CC       promoter elements (HSE) that negatively regulates HSP90 expression.
+CC       Plays a role in dendrite spine morphogenesis (By similarity).
+CC       {ECO:0000250|UniProtKB:O00401, ECO:0000250|UniProtKB:Q91YD9}.
+CC   -!- SUBUNIT: Binds actin and the Arp2/3 complex. Interacts with CDC42 (By
+CC       similarity). Interacts with FCHSD1. Interacts with FCHSD2 (By
+CC       similarity). Binds to SH3 domains of GRB2. Interacts with the C-
+CC       terminal SH3 domain of DNMBP (By similarity). Interacts with SNX9 (By
+CC       similarity). Interacts with the WW domains of PRPF40A/FBP11 (By
+CC       similarity). Interacts with PTK2/FAK1 (PubMed:14676198). Interacts with
+CC       PACSIN1, PACSIN2 and PACSIN3 (By similarity). Interacts with NOSTRIN.
+CC       Binds to TNK2. Interacts with SNX33. Interacts with NONO (via second
+CC       RRM domain); the interaction is direct. Component of a multiprotein
+CC       complex with NONO and SFPQ; associates with the complex via direct
+CC       interaction with NONO (By similarity). {ECO:0000250|UniProtKB:O00401,
+CC       ECO:0000250|UniProtKB:Q91YD9, ECO:0000250|UniProtKB:Q95107,
+CC       ECO:0000269|PubMed:14676198}.
+CC   -!- INTERACTION:
+CC       O08816; O08816: Wasl; NbExp=3; IntAct=EBI-6142604, EBI-6142604;
+CC       O08816; Q6IN36: Wipf1; NbExp=2; IntAct=EBI-6142604, EBI-6986245;
+CC       O08816; P60953: CDC42; Xeno; NbExp=2; IntAct=EBI-6142604, EBI-81752;
+CC       O08816; Q60598: Cttn; Xeno; NbExp=2; IntAct=EBI-6142604, EBI-397955;
+CC       O08816; P0DJ88: espF(U); Xeno; NbExp=4; IntAct=EBI-6142604, EBI-10039462;
+CC       O08816; Q8X482: espF(U); Xeno; NbExp=5; IntAct=EBI-6142604, EBI-22229752;
+CC       O08816; Q8IVI9: NOSTRIN; Xeno; NbExp=3; IntAct=EBI-6142604, EBI-1391643;
+CC       O08816; P07737: PFN1; Xeno; NbExp=4; IntAct=EBI-6142604, EBI-713780;
+CC       O08816; P35080: PFN2; Xeno; NbExp=3; IntAct=EBI-6142604, EBI-473138;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton
+CC       {ECO:0000269|PubMed:14676198}. Nucleus {ECO:0000269|PubMed:14676198}.
+CC       Cytoplasm {ECO:0000250|UniProtKB:Q91YD9}. Note=Preferentially localized
+CC       in the cytoplasm when phosphorylated and in the nucleus when
+CC       unphosphorylated (By similarity). Exported from the nucleus by an
+CC       nuclear export signal (NES)-dependent mechanism to the cytoplasm (By
+CC       similarity). {ECO:0000250|UniProtKB:Q91YD9}.
+CC   -!- PTM: Phosphorylation at Ser-239, Tyr-253, Ser-480 and Ser-481 enhances
+CC       actin polymerization activity. {ECO:0000250|UniProtKB:O00401}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D88461; BAA21534.1; -; mRNA.
+DR   PDB; 1MKE; NMR; -; A=26-147.
+DR   PDB; 2IFS; NMR; -; A=26-147.
+DR   PDBsum; 1MKE; -.
+DR   PDBsum; 2IFS; -.
+DR   AlphaFoldDB; O08816; -.
+DR   BMRB; O08816; -.
+DR   SMR; O08816; -.
+DR   DIP; DIP-17016N; -.
+DR   ELM; O08816; -.
+DR   IntAct; O08816; 19.
+DR   MINT; O08816; -.
+DR   STRING; 10116.ENSRNOP00000009261; -.
+DR   BindingDB; O08816; -.
+DR   ChEMBL; CHEMBL3774296; -.
+DR   iPTMnet; O08816; -.
+DR   PhosphoSitePlus; O08816; -.
+DR   jPOST; O08816; -.
+DR   PaxDb; 10116-ENSRNOP00000009261; -.
+DR   UCSC; RGD:735144; rat.
+DR   AGR; RGD:735144; -.
+DR   RGD; 735144; Wasl.
+DR   eggNOG; KOG3671; Eukaryota.
+DR   InParanoid; O08816; -.
+DR   PhylomeDB; O08816; -.
+DR   EvolutionaryTrace; O08816; -.
+DR   PRO; PR:O08816; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0030478; C:actin cap; ISO:RGD.
+DR   GO; GO:0031252; C:cell leading edge; IDA:RGD.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; IDA:BHF-UCL.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; IDA:SynGO.
+DR   GO; GO:0000139; C:Golgi membrane; IDA:RGD.
+DR   GO; GO:0030027; C:lamellipodium; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0098794; C:postsynapse; IDA:SynGO.
+DR   GO; GO:0003779; F:actin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008092; F:cytoskeletal protein binding; IPI:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0030036; P:actin cytoskeleton organization; ISO:RGD.
+DR   GO; GO:0030041; P:actin filament polymerization; ISS:UniProtKB.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0060997; P:dendritic spine morphogenesis; ISS:UniProtKB.
+DR   GO; GO:0010324; P:membrane invagination; IDA:BHF-UCL.
+DR   GO; GO:2000402; P:negative regulation of lymphocyte migration; ISO:RGD.
+DR   GO; GO:1903526; P:negative regulation of membrane tubulation; ISO:RGD.
+DR   GO; GO:0097320; P:plasma membrane tubulation; IDA:BHF-UCL.
+DR   GO; GO:0050921; P:positive regulation of chemotaxis; IMP:RGD.
+DR   GO; GO:2000370; P:positive regulation of clathrin-dependent endocytosis; IDA:BHF-UCL.
+DR   GO; GO:0051491; P:positive regulation of filopodium assembly; IDA:BHF-UCL.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISS:UniProtKB.
+DR   GO; GO:0099173; P:postsynapse organization; IDA:SynGO.
+DR   GO; GO:0098974; P:postsynaptic actin cytoskeleton organization; IDA:SynGO.
+DR   GO; GO:0031503; P:protein-containing complex localization; ISO:RGD.
+DR   GO; GO:0060491; P:regulation of cell projection assembly; IMP:RGD.
+DR   GO; GO:0099175; P:regulation of postsynapse organization; ISO:RGD.
+DR   GO; GO:0032880; P:regulation of protein localization; ISO:RGD.
+DR   GO; GO:0009617; P:response to bacterium; ISO:RGD.
+DR   GO; GO:0051653; P:spindle localization; ISO:RGD.
+DR   GO; GO:0006900; P:vesicle budding from membrane; IDA:BHF-UCL.
+DR   GO; GO:0016050; P:vesicle organization; IDA:BHF-UCL.
+DR   GO; GO:0030050; P:vesicle transport along actin filament; IDA:BHF-UCL.
+DR   CDD; cd00132; CRIB; 1.
+DR   CDD; cd01205; EVH1_WASP-like; 1.
+DR   CDD; cd22075; WH2_hN-WASP_r2_like; 1.
+DR   CDD; cd22074; WH2_N-WASP_r1; 1.
+DR   Gene3D; 3.90.810.10; CRIB domain; 2.
+DR   Gene3D; 2.30.29.30; Pleckstrin-homology domain (PH domain)/Phosphotyrosine-binding domain (PTB); 1.
+DR   InterPro; IPR000095; CRIB_dom.
+DR   InterPro; IPR036936; CRIB_dom_sf.
+DR   InterPro; IPR011993; PH-like_dom_sf.
+DR   InterPro; IPR011026; WAS_C.
+DR   InterPro; IPR033927; WASPfam_EVH1.
+DR   InterPro; IPR000697; WH1/EVH1_dom.
+DR   InterPro; IPR003124; WH2_dom.
+DR   PANTHER; PTHR11202:SF36; NEURAL WISKOTT-ALDRICH SYNDROME PROTEIN; 1.
+DR   PANTHER; PTHR11202; SPROUTY-RELATED, EVH1 DOMAIN-CONTAINING PROTEIN FAMILY MEMBER; 1.
+DR   Pfam; PF00786; PBD; 1.
+DR   Pfam; PF00568; WH1; 1.
+DR   Pfam; PF02205; WH2; 2.
+DR   SMART; SM00285; PBD; 1.
+DR   SMART; SM00461; WH1; 1.
+DR   SMART; SM00246; WH2; 2.
+DR   SUPFAM; SSF50729; PH domain-like; 1.
+DR   SUPFAM; SSF47912; Wiscott-Aldrich syndrome protein, WASP, C-terminal domain; 2.
+DR   PROSITE; PS50108; CRIB; 1.
+DR   PROSITE; PS50229; WH1; 1.
+DR   PROSITE; PS51082; WH2; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Actin-binding; Cell cycle; Cell division;
+KW   Cytoplasm; Cytoskeleton; Methylation; Mitosis; Nucleus; Phosphoprotein;
+KW   Reference proteome; Repeat; Transcription; Transcription regulation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:O00401"
+FT   CHAIN           2..501
+FT                   /note="Actin nucleation-promoting factor WASL"
+FT                   /id="PRO_0000189002"
+FT   DOMAIN          31..138
+FT                   /note="WH1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00410"
+FT   DOMAIN          200..213
+FT                   /note="CRIB"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00057"
+FT   DOMAIN          401..418
+FT                   /note="WH2 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00406"
+FT   DOMAIN          429..446
+FT                   /note="WH2 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00406"
+FT   REGION          135..159
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          180..202
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          263..405
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          442..501
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        271..390
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        442..459
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        482..501
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O00401"
+FT   MOD_RES         239
+FT                   /note="Phosphoserine; by TNK2"
+FT                   /evidence="ECO:0000250|UniProtKB:O00401"
+FT   MOD_RES         253
+FT                   /note="Phosphotyrosine; by FAK1 and TNK2"
+FT                   /evidence="ECO:0000269|PubMed:14676198,
+FT                   ECO:0007744|PubMed:22673903"
+FT   MOD_RES         304
+FT                   /note="Omega-N-methylarginine"
+FT                   /evidence="ECO:0000250|UniProtKB:O00401"
+FT   MOD_RES         480
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O00401"
+FT   MOD_RES         481
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O00401"
+FT   TURN            8..11
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+FT   STRAND          13..16
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+FT   STRAND          19..21
+FT                   /evidence="ECO:0007829|PDB:2IFS"
+FT   STRAND          36..49
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+FT   TURN            50..52
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+FT   STRAND          53..67
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+FT   TURN            68..71
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+FT   STRAND          72..78
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+FT   STRAND          80..82
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+FT   STRAND          84..90
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+FT   STRAND          100..108
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+FT   STRAND          110..120
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+FT   HELIX           121..137
+FT                   /evidence="ECO:0007829|PDB:1MKE"
+SQ   SEQUENCE   501 AA;  54325 MW;  480E21F26F7FC77E CRC64;
+     MSSGQQPPRR VTNVGSLLLT PQENESLFSF LGKKCVTMSS AVVQLYAADR NCMWSKKCSG
+     VACLVKDNPQ RSYFLRIFDI KDGKLLWEQE LYNNFVYNSP RGYFHTFAGD TCQVALNFAN
+     EEEAKKFRKA VTDLLGRRQR KSEKRRDAPN GPNLPMATVD IKNPEITTNR FYSSQVNNIS
+     HTKEKKKGKA KKKRLTKADI GTPSNFQHIG HVGWDPNTGF DLNNLDPELK NLFDMCGISE
+     AQLKDRETSK VIYDFIEKTG GVEAVKNELR RQAPPPPPPS RGGPPPPPPP PHSSGPPPPP
+     ARGRGAPPPP PSRAPTAAPP PPPPSRPGVV VPPPPPNRMY PPPPPALPSS APSGPPPPPP
+     LSMAGSTAPP PPPPPPPPPG PPPPPGLPSD GDHQVPASSG NKAALLDQIR EGAQLKKVEQ
+     NSRPVSCSGR DALLDQIRQG IQLKSVSDGQ ESTPPTPAPT SGIVGALMEV MQKRSKAIHS
+     SDEDEDDDDE EDFQDDDEWE D
+//

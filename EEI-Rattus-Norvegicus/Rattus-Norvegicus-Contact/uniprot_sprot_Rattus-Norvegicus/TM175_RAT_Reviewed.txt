@@ -1,0 +1,274 @@
+ID   TM175_RAT               Reviewed;         499 AA.
+AC   Q6AY05;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   29-MAY-2024, entry version 103.
+DE   RecName: Full=Endosomal/lysosomal proton channel TMEM175 {ECO:0000305};
+DE   AltName: Full=Potassium channel TMEM175 {ECO:0000305};
+DE   AltName: Full=Transmembrane protein 175 {ECO:0000250|UniProtKB:Q9BSA9};
+GN   Name=Tmem175 {ECO:0000312|RGD:1309712};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   SUBCELLULAR LOCATION, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=23436907; DOI=10.1074/mcp.m112.021980;
+RA   Chapel A., Kieffer-Jaquinod S., Sagne C., Verdon Q., Ivaldi C., Mellal M.,
+RA   Thirion J., Jadot M., Bruley C., Garin J., Gasnier B., Journet A.;
+RT   "An extended proteome map of the lysosomal membrane reveals novel potential
+RT   transporters.";
+RL   Mol. Cell. Proteomics 12:1572-1588(2013).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=32799888; DOI=10.1186/s13041-020-00651-z;
+RA   Zhang M., Lu H., Xie X., Shen H., Li X., Zhang Y., Wu J., Ni J., Li H.,
+RA   Chen G.;
+RT   "TMEM175 mediates lysosomal function and participates in neuronal injury
+RT   induced by cerebral ischemia-reperfusion.";
+RL   Mol. Brain 13:113-113(2020).
+CC   -!- FUNCTION: Proton-activated proton channel that catalyzes proton efflux
+CC       from endosomes and lysosomes to maintain a steady-state pH (By
+CC       similarity). Activated at low pH (under pH 4.6) by luminal side
+CC       protons: selectively mediates lysosomal proton release from lysosomes,
+CC       eliciting a proton leak that balances V-ATPase activity to maintain pH
+CC       homeostasis (By similarity). Regulation of lumenal pH stability is
+CC       required for autophagosome-lysosome fusion (By similarity). Also acts
+CC       as a potassium channel at higher pH, regulating potassium conductance
+CC       in endosomes and lysosomes (By similarity). Constitutes the pore-
+CC       forming subunit of the lysoK(GF) complex, a complex activated by
+CC       extracellular growth factors (By similarity). The lysoK(GF) complex is
+CC       composed of TMEM175 and AKT (AKT1, AKT2 or AKT3), a major target of
+CC       growth factor receptors: in the complex, TMEM175 channel is opened by
+CC       conformational changes by AKT, leading to its activation (By
+CC       similarity). The lysoK(GF) complex is required to protect neurons
+CC       against stress-induced damage (Probable) (PubMed:32799888).
+CC       {ECO:0000250|UniProtKB:Q9BSA9, ECO:0000305|PubMed:32799888}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+)(in) = H(+)(out); Xref=Rhea:RHEA:34979, ChEBI:CHEBI:15378;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BSA9};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=K(+)(in) = K(+)(out); Xref=Rhea:RHEA:29463, ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000250|UniProtKB:Q9BSA9};
+CC   -!- ACTIVITY REGULATION: Active at low pH (under pH 4.6): proton channel
+CC       activity is activated by luminal side protons. Polyunsaturated fatty
+CC       acids, such as arachidonic acid, also activate the channel activity.
+CC       Proton channel activity is directly inhibited by LAMP1 or LAMP2,
+CC       facilitating lysosomal acidification. Channel activity is activated
+CC       following interaction with AKT (AKT1, AKT2 or AKT3): interaction
+CC       promotes activation from closed to an open state. Activation by AKT is
+CC       independent of AKT serine/threonine-protein kinase activity.
+CC       {ECO:0000250|UniProtKB:Q9BSA9}.
+CC   -!- SUBUNIT: Homodimer. Interacts with AKT (AKT1, AKT2 or AKT3); leading to
+CC       formation of the lysoK(GF) complex, which activates the channel.
+CC       Interacts with LAMP1; inhibiting the proton channel activity of
+CC       TMEM175. Interacts with LAMP2; inhibiting the proton channel activity
+CC       of TMEM175. {ECO:0000250|UniProtKB:Q9BSA9}.
+CC   -!- SUBCELLULAR LOCATION: Endosome membrane {ECO:0000250|UniProtKB:Q9BSA9};
+CC       Multi-pass membrane protein {ECO:0000255}. Lysosome membrane
+CC       {ECO:0000269|PubMed:23436907}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- DOMAIN: Composed of two modules of six transmembranes, forming a
+CC       homodimer with a tetrameric architecture. The six transmembrane regions
+CC       of each module are tightly packed within each subunit without
+CC       undergoing domain swapping. Forms a central ion-conduction pore lined
+CC       by the side chains of the pore-lining helices. Conserved isoleucine
+CC       residues (Ile-43 in the first module and Ile-268 in the second module)
+CC       in the center of the pore serve as the gate in the closed conformation.
+CC       In the widened channel in the open conformation, the same residues
+CC       establish a constriction essential for potassium selectivity.
+CC       {ECO:0000250|UniProtKB:Q9BSA9}.
+CC   -!- SIMILARITY: Belongs to the TMEM175 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC079245; AAH79245.1; -; mRNA.
+DR   RefSeq; NP_001014013.1; NM_001013991.1.
+DR   RefSeq; XP_006250620.1; XM_006250558.3.
+DR   RefSeq; XP_017454749.1; XM_017599260.1.
+DR   AlphaFoldDB; Q6AY05; -.
+DR   SMR; Q6AY05; -.
+DR   STRING; 10116.ENSRNOP00000000050; -.
+DR   PhosphoSitePlus; Q6AY05; -.
+DR   PaxDb; 10116-ENSRNOP00000000050; -.
+DR   Ensembl; ENSRNOT00000000050.7; ENSRNOP00000000050.3; ENSRNOG00000000044.7.
+DR   Ensembl; ENSRNOT00055046361; ENSRNOP00055038028; ENSRNOG00055026816.
+DR   Ensembl; ENSRNOT00060019125; ENSRNOP00060014946; ENSRNOG00060011308.
+DR   Ensembl; ENSRNOT00065019881; ENSRNOP00065015231; ENSRNOG00065012230.
+DR   GeneID; 305623; -.
+DR   KEGG; rno:305623; -.
+DR   UCSC; RGD:1309712; rat.
+DR   AGR; RGD:1309712; -.
+DR   CTD; 84286; -.
+DR   RGD; 1309712; Tmem175.
+DR   eggNOG; ENOG502QR5C; Eukaryota.
+DR   GeneTree; ENSGT00390000015667; -.
+DR   HOGENOM; CLU_052593_0_0_1; -.
+DR   InParanoid; Q6AY05; -.
+DR   OMA; FFFPVSY; -.
+DR   OrthoDB; 5353701at2759; -.
+DR   PhylomeDB; Q6AY05; -.
+DR   TreeFam; TF328838; -.
+DR   PRO; PR:Q6AY05; -.
+DR   Proteomes; UP000002494; Chromosome 14.
+DR   Bgee; ENSRNOG00000000044; Expressed in testis and 18 other cell types or tissues.
+DR   GO; GO:0005768; C:endosome; ISS:UniProtKB.
+DR   GO; GO:0010008; C:endosome membrane; ISS:UniProtKB.
+DR   GO; GO:0005765; C:lysosomal membrane; ISS:UniProtKB.
+DR   GO; GO:0005764; C:lysosome; ISS:UniProtKB.
+DR   GO; GO:0050544; F:arachidonic acid binding; ISS:UniProtKB.
+DR   GO; GO:0005267; F:potassium channel activity; ISS:UniProtKB.
+DR   GO; GO:0022841; F:potassium ion leak channel activity; ISS:UniProtKB.
+DR   GO; GO:0015252; F:proton channel activity; ISS:UniProtKB.
+DR   GO; GO:0035752; P:lysosomal lumen pH elevation; ISS:UniProtKB.
+DR   GO; GO:0070050; P:neuron cellular homeostasis; ISS:UniProtKB.
+DR   GO; GO:0090385; P:phagosome-lysosome fusion; ISS:UniProtKB.
+DR   GO; GO:0071805; P:potassium ion transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:1902600; P:proton transmembrane transport; ISS:UniProtKB.
+DR   GO; GO:0035751; P:regulation of lysosomal lumen pH; ISS:UniProtKB.
+DR   InterPro; IPR010617; TMEM175-like.
+DR   PANTHER; PTHR31462; ENDOSOMAL/LYSOSOMAL POTASSIUM CHANNEL TMEM175; 1.
+DR   PANTHER; PTHR31462:SF5; ENDOSOMAL_LYSOSOMAL POTASSIUM CHANNEL TMEM175; 1.
+DR   Pfam; PF06736; TMEM175; 2.
+PE   1: Evidence at protein level;
+KW   Endosome; Ion channel; Ion transport; Lysosome; Membrane; Potassium;
+KW   Potassium channel; Potassium transport; Reference proteome; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..499
+FT                   /note="Endosomal/lysosomal proton channel TMEM175"
+FT                   /id="PRO_0000282590"
+FT   TOPO_DOM        1..30
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        31..53
+FT                   /note="Helical; Name=TM1-1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TOPO_DOM        54..74
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        75..97
+FT                   /note="Helical; Name=TM2-1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TOPO_DOM        98..103
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        104..125
+FT                   /note="Helical; Name=TM3-1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TOPO_DOM        126..135
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        136..157
+FT                   /note="Helical; Name=TM4-1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TOPO_DOM        158..181
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        182..202
+FT                   /note="Helical; Name=TM5-1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        203..207
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        208..227
+FT                   /note="Helical; Name=TM6-1"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        228..254
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        255..279
+FT                   /note="Helical; Name=TM1-2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TOPO_DOM        280..306
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        307..329
+FT                   /note="Helical; Name=TM2-2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TOPO_DOM        330..335
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        336..357
+FT                   /note="Helical; Name=TM3-2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TOPO_DOM        358..372
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        373..393
+FT                   /note="Helical; Name=TM4-2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TOPO_DOM        394..413
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        414..437
+FT                   /note="Helical; Name=TM5-2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TOPO_DOM        438..439
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TRANSMEM        440..466
+FT                   /note="Helical; Name=TM6-2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   TOPO_DOM        467..499
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   REGION          1..26
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          55..60
+FT                   /note="Short helix H1-1"
+FT                   /evidence="ECO:0000250|UniProtKB:K9UJK2"
+FT   REGION          62..68
+FT                   /note="Short helix H2-1"
+FT                   /evidence="ECO:0000250|UniProtKB:K9UJK2"
+FT   REGION          285..293
+FT                   /note="Short helix H1-2"
+FT                   /evidence="ECO:0000250|UniProtKB:K9UJK2"
+FT   REGION          295..301
+FT                   /note="Short helix H2-2"
+FT                   /evidence="ECO:0000250|UniProtKB:K9UJK2"
+FT   MOTIF           32..38
+FT                   /note="RxxxFSD motif 1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   MOTIF           257..263
+FT                   /note="RxxxFSD motif 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   SITE            43
+FT                   /note="Hydrophobic filter residue 1-1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   SITE            47
+FT                   /note="Hydrophobic filter residue 2-1"
+FT                   /evidence="ECO:0000250|UniProtKB:K9UJK2"
+FT   SITE            50
+FT                   /note="Hydrophobic filter residue 3-1"
+FT                   /evidence="ECO:0000250|UniProtKB:K9UJK2"
+FT   SITE            268
+FT                   /note="Hydrophobic filter residue 1-2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9BSA9"
+FT   SITE            272
+FT                   /note="Hydrophobic filter residue 2-2"
+FT                   /evidence="ECO:0000250|UniProtKB:K9UJK2"
+FT   SITE            275
+FT                   /note="Hydrophobic filter residue 3-2"
+FT                   /evidence="ECO:0000250|UniProtKB:K9UJK2"
+SQ   SEQUENCE   499 AA;  55706 MW;  416114F28FEF3AEA CRC64;
+     MSRLQVQEQA VDSEGDSSLY RRDEEGTQSS HRMLGFSDAL LSIIATVMIL PVTHTEISPE
+     QQFDKSIQKL LATRIAVYLM TFLIVTVAWA AHTRLFQVVG KIDDTLALLN LACMMTITLL
+     PYTFSLMVTF PDVPLGIFLF CMCVIAIGSV QAMIVGYAFH FPHLLNPQIQ CSTHRALSRR
+     HILHLVLRGP ALCFVAAVFS LFFFPLSYLL MVTVIFLPHI SKATTWCKDK FMGHRESPAH
+     NVEPFSIDLH APLSKERVEA FSDGVYAIVA TLLILDICED NVPDPKDVQQ KFSGSLVAAL
+     GAYGPQFLAY FGSFATVGLL WFAHHSLFLH VRKATQTMGL FNILSLAFVG GLPLAYQQTS
+     AFARQPRDEL ERVRVSCAII FFASIFQFAI WTTALLHQRE TLQPAVQFGG QEHAFMFAKL
+     ALYPCASLLA FAATCLLSRF STAIFHLMQI AVPFAFLLLR LLVRLALAGL QVLWDLWPER
+     PQQDQGEPET QSQLLPASC
+//

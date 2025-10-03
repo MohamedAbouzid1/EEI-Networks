@@ -1,0 +1,156 @@
+ID   CCD86_RAT               Reviewed;         341 AA.
+AC   Q5XIB5;
+DT   01-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   29-MAY-2024, entry version 103.
+DE   RecName: Full=Coiled-coil domain-containing protein 86;
+DE   AltName: Full=Cytokine-induced protein with coiled-coil domain;
+GN   Name=Ccdc86; Synonyms=Cyclon;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=17300783; DOI=10.1016/j.febslet.2007.01.083;
+RA   Hoshino A., Fujii H.;
+RT   "Redundant promoter elements mediate IL-3-induced expression of a novel
+RT   cytokine-inducible gene, cyclon.";
+RL   FEBS Lett. 581:975-980(2007).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-81 AND SER-124, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250}.
+CC   -!- PTM: Citrullinated by PADI4. {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ501253; ABF68614.1; -; mRNA.
+DR   EMBL; BC083770; AAH83770.1; -; mRNA.
+DR   RefSeq; NP_001006975.1; NM_001006974.2.
+DR   AlphaFoldDB; Q5XIB5; -.
+DR   SMR; Q5XIB5; -.
+DR   STRING; 10116.ENSRNOP00000028405; -.
+DR   iPTMnet; Q5XIB5; -.
+DR   PhosphoSitePlus; Q5XIB5; -.
+DR   jPOST; Q5XIB5; -.
+DR   PaxDb; 10116-ENSRNOP00000028405; -.
+DR   Ensembl; ENSRNOT00060045284; ENSRNOP00060037590; ENSRNOG00060026143.
+DR   Ensembl; ENSRNOT00065045405; ENSRNOP00065037228; ENSRNOG00065026295.
+DR   GeneID; 293738; -.
+DR   KEGG; rno:293738; -.
+DR   UCSC; RGD:1359280; rat.
+DR   AGR; RGD:1359280; -.
+DR   CTD; 79080; -.
+DR   RGD; 1359280; Ccdc86.
+DR   VEuPathDB; HostDB:ENSRNOG00000020925; -.
+DR   eggNOG; KOG4538; Eukaryota.
+DR   HOGENOM; CLU_065828_0_0_1; -.
+DR   InParanoid; Q5XIB5; -.
+DR   OrthoDB; 5405694at2759; -.
+DR   PhylomeDB; Q5XIB5; -.
+DR   TreeFam; TF325663; -.
+DR   PRO; PR:Q5XIB5; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000020925; Expressed in ovary and 20 other cell types or tissues.
+DR   GO; GO:0005730; C:nucleolus; IBA:GO_Central.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   InterPro; IPR026570; CCDC86.
+DR   InterPro; IPR005579; Cgr1-like.
+DR   PANTHER; PTHR13557:SF1; COILED-COIL DOMAIN-CONTAINING PROTEIN 86; 1.
+DR   PANTHER; PTHR13557; UNCHARACTERIZED; 1.
+DR   Pfam; PF03879; Cgr1; 1.
+PE   1: Evidence at protein level;
+KW   Citrullination; Coiled coil; Nucleus; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..341
+FT                   /note="Coiled-coil domain-containing protein 86"
+FT                   /id="PRO_0000286095"
+FT   REGION          1..341
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          261..304
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        25..50
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        55..69
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        101..128
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        211..239
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        246..301
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         18
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H6F5"
+FT   MOD_RES         59
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H6F5"
+FT   MOD_RES         66
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H6F5"
+FT   MOD_RES         67
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H6F5"
+FT   MOD_RES         70
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H6F5"
+FT   MOD_RES         81
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         92
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H6F5"
+FT   MOD_RES         103
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H6F5"
+FT   MOD_RES         114
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H6F5"
+FT   MOD_RES         124
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         142
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JJ89"
+FT   MOD_RES         169
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JJ89"
+FT   MOD_RES         170
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JJ89"
+FT   MOD_RES         200
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JJ89"
+FT   MOD_RES         323
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   341 AA;  38585 MW;  7ECF8C9CC5607477 CRC64;
+     MGTPLRRSRR LEGLNPLSLE NLPDPEVSRA KRALVDFKSN PEETRELESP RVPPLDLVSP
+     QPQPETSPES PCPKQDAGFG SPQRQPEPHP GSLQLHQDLG LDSPAGQTES NPESPQREQS
+     SKLSPTQDSE VAHAKEEVIP RSPEPCPGQQ APGPEPSQPA QELAFQAPSS PERQLEPSKL
+     PPAGESVTGS LDLKKRVIAS PQAPASKKLK EELPVIPKGK PKSGRVWKDR SKKRFSQMVQ
+     DKPLRTSWQR KMKERQERKL AKDFARHLEE EKQRRRQEKK ERRAENLRRR LENERKAEIV
+     QVIRNPAKLK KAKKKQLRSI QKRDTLALLQ KQPPQRPVAK V
+//

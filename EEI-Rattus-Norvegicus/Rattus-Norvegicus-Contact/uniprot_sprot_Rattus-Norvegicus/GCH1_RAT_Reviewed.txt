@@ -1,0 +1,284 @@
+ID   GCH1_RAT                Reviewed;         241 AA.
+AC   P22288;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 1.
+DT   29-MAY-2024, entry version 186.
+DE   RecName: Full=GTP cyclohydrolase 1;
+DE            EC=3.5.4.16 {ECO:0000269|PubMed:2557335};
+DE   AltName: Full=GTP cyclohydrolase I;
+DE            Short=GTP-CH-I;
+DE   Flags: Precursor;
+GN   Name=Gch1; Synonyms=Gch;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   STRAIN=Wistar; TISSUE=Liver;
+RX   PubMed=1985963; DOI=10.1016/s0021-9258(17)35238-9;
+RA   Hatakeyama K., Inoue Y., Harada T., Kagamiyama H.;
+RT   "Cloning and sequencing of cDNA encoding rat GTP cyclohydrolase I. The
+RT   first enzyme of the tetrahydrobiopterin biosynthetic pathway.";
+RL   J. Biol. Chem. 266:765-769(1991).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 37-46 AND 99-116.
+RX   PubMed=7802677; DOI=10.1006/bbrc.1994.2822;
+RA   Imazumi K., Sasaki T., Takahashi K., Takai Y.;
+RT   "Identification of a rabphilin-3A-interacting protein as GTP cyclohydrolase
+RT   I in PC12 cells.";
+RL   Biochem. Biophys. Res. Commun. 205:1409-1416(1994).
+RN   [3]
+RP   PARTIAL PROTEIN SEQUENCE, CATALYTIC ACTIVITY, PATHWAY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, AND ACTIVITY REGULATION.
+RX   PubMed=2557335; DOI=10.1016/s0021-9258(20)88236-2;
+RA   Hatakeyama K., Harada T., Suzuki S., Watanabe Y., Kagamiyama H.;
+RT   "Purification and characterization of rat liver GTP cyclohydrolase I.
+RT   Cooperative binding of GTP to the enzyme.";
+RL   J. Biol. Chem. 264:21660-21664(1989).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=17057711; DOI=10.1038/nm1490;
+RA   Tegeder I., Costigan M., Griffin R.S., Abele A., Belfer I., Schmidt H.,
+RA   Ehnert C., Nejim J., Marian C., Scholz J., Wu T., Allchorne A.,
+RA   Diatchenko L., Binshtok A.M., Goldman D., Adolph J., Sama S., Atlas S.J.,
+RA   Carlezon W.A., Parsegian A., Loetsch J., Fillingim R.B., Maixner W.,
+RA   Geisslinger G., Max M.B., Woolf C.J.;
+RT   "GTP cyclohydrolase and tetrahydrobiopterin regulate pain sensitivity and
+RT   persistence.";
+RL   Nat. Med. 12:1269-1277(2006).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-51, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.8 ANGSTROMS) OF 12-241 IN COMPLEX WITH GCHFR, AND
+RP   SUBUNIT.
+RX   PubMed=11818540; DOI=10.1073/pnas.022646999;
+RA   Maita N., Okada K., Hatakeyama K., Hakoshima T.;
+RT   "Crystal structure of the stimulatory complex of GTP cyclohydrolase I and
+RT   its feedback regulatory protein GFRP.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:1212-1217(2002).
+CC   -!- FUNCTION: May positively regulate nitric oxide synthesis in endothelial
+CC       cells. May be involved in dopamine synthesis (By similarity). May
+CC       modify pain sensitivity and persistence. {ECO:0000250|UniProtKB:P30793,
+CC       ECO:0000269|PubMed:17057711}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = 7,8-dihydroneopterin 3'-triphosphate + formate +
+CC         H(+); Xref=Rhea:RHEA:17473, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:37565, ChEBI:CHEBI:58462; EC=3.5.4.16;
+CC         Evidence={ECO:0000269|PubMed:2557335};
+CC   -!- ACTIVITY REGULATION: GTP shows a positive allosteric effect, and
+CC       tetrahydrobiopterin inhibits the enzyme activity. Zinc is required for
+CC       catalytic activity. Inhibited by Mg(2+). {ECO:0000269|PubMed:2557335}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         Vmax=2.7 umol/h/mg enzyme (at pH 7.5 and 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:2557335};
+CC   -!- PATHWAY: Cofactor biosynthesis; 7,8-dihydroneopterin triphosphate
+CC       biosynthesis; 7,8-dihydroneopterin triphosphate from GTP: step 1/1.
+CC       {ECO:0000305|PubMed:2557335}.
+CC   -!- SUBUNIT: Toroid-shaped homodecamer, composed of two pentamers of five
+CC       dimers. Interacts with AHSA1 and GCHFR/GFRP.
+CC       {ECO:0000269|PubMed:11818540}.
+CC   -!- INTERACTION:
+CC       P22288; P70552: Gchfr; NbExp=3; IntAct=EBI-1032708, EBI-1032715;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P30793}. Nucleus
+CC       {ECO:0000250|UniProtKB:P30793}.
+CC   -!- INDUCTION: By cytokines such as insulin, interferon-gamma, and
+CC       phytohemagglutinin in adrenal gland, macrophages, and T-cell
+CC       respectively.
+CC   -!- PTM: Phosphorylated. {ECO:0000250|UniProtKB:P30793}.
+CC   -!- SIMILARITY: Belongs to the GTP cyclohydrolase I family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M58364; AAA41299.1; -; mRNA.
+DR   PIR; A39080; A39080.
+DR   RefSeq; NP_077332.1; NM_024356.1.
+DR   PDB; 1IS7; X-ray; 2.80 A; A/B/C/D/E/F/G/H/I/J=12-241.
+DR   PDB; 1IS8; X-ray; 2.70 A; A/B/C/D/E/F/G/H/I/J=12-241.
+DR   PDB; 1WPL; X-ray; 2.80 A; A/B/C/D/E/F/G/H/I/J=12-241.
+DR   PDBsum; 1IS7; -.
+DR   PDBsum; 1IS8; -.
+DR   PDBsum; 1WPL; -.
+DR   AlphaFoldDB; P22288; -.
+DR   SMR; P22288; -.
+DR   BioGRID; 247920; 2.
+DR   CORUM; P22288; -.
+DR   IntAct; P22288; 1.
+DR   STRING; 10116.ENSRNOP00000014821; -.
+DR   iPTMnet; P22288; -.
+DR   PhosphoSitePlus; P22288; -.
+DR   jPOST; P22288; -.
+DR   PaxDb; 10116-ENSRNOP00000014821; -.
+DR   Ensembl; ENSRNOT00000014821.8; ENSRNOP00000014821.5; ENSRNOG00000011039.8.
+DR   Ensembl; ENSRNOT00055047412; ENSRNOP00055038992; ENSRNOG00055027391.
+DR   Ensembl; ENSRNOT00060041347; ENSRNOP00060034254; ENSRNOG00060023866.
+DR   Ensembl; ENSRNOT00065056961; ENSRNOP00065046901; ENSRNOG00065033111.
+DR   GeneID; 29244; -.
+DR   KEGG; rno:29244; -.
+DR   UCSC; RGD:61992; rat.
+DR   AGR; RGD:61992; -.
+DR   CTD; 2643; -.
+DR   RGD; 61992; Gch1.
+DR   eggNOG; KOG2698; Eukaryota.
+DR   GeneTree; ENSGT00390000013481; -.
+DR   HOGENOM; CLU_049768_1_3_1; -.
+DR   InParanoid; P22288; -.
+DR   OMA; CEHMCMS; -.
+DR   OrthoDB; 1009at2759; -.
+DR   PhylomeDB; P22288; -.
+DR   BRENDA; 3.5.4.16; 5301.
+DR   Reactome; R-RNO-1474151; Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation.
+DR   SABIO-RK; P22288; -.
+DR   UniPathway; UPA00848; UER00151.
+DR   EvolutionaryTrace; P22288; -.
+DR   PRO; PR:P22288; -.
+DR   Proteomes; UP000002494; Chromosome 15.
+DR   Bgee; ENSRNOG00000011039; Expressed in duodenum and 17 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; ISO:RGD.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005739; C:mitochondrion; IDA:RGD.
+DR   GO; GO:0031965; C:nuclear membrane; IEA:Ensembl.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:Ensembl.
+DR   GO; GO:0005634; C:nucleus; IDA:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; IDA:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:RGD.
+DR   GO; GO:0005525; F:GTP binding; IDA:RGD.
+DR   GO; GO:0003934; F:GTP cyclohydrolase I activity; IDA:RGD.
+DR   GO; GO:0030742; F:GTP-dependent protein binding; IPI:RGD.
+DR   GO; GO:0003924; F:GTPase activity; ISO:RGD.
+DR   GO; GO:0042802; F:identical protein binding; IDA:RGD.
+DR   GO; GO:0051019; F:mitogen-activated protein kinase binding; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; IDA:RGD.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:RGD.
+DR   GO; GO:0051066; P:dihydrobiopterin metabolic process; IDA:RGD.
+DR   GO; GO:0042416; P:dopamine biosynthetic process; ISO:RGD.
+DR   GO; GO:0045776; P:negative regulation of blood pressure; IMP:RGD.
+DR   GO; GO:0010667; P:negative regulation of cardiac muscle cell apoptotic process; IMP:RGD.
+DR   GO; GO:2000773; P:negative regulation of cellular senescence; IMP:RGD.
+DR   GO; GO:0050884; P:neuromuscular process controlling posture; ISO:RGD.
+DR   GO; GO:0010460; P:positive regulation of heart rate; ISO:RGD.
+DR   GO; GO:0043525; P:positive regulation of neuron apoptotic process; IMP:RGD.
+DR   GO; GO:0032212; P:positive regulation of telomere maintenance via telomerase; IMP:RGD.
+DR   GO; GO:0065003; P:protein-containing complex assembly; IDA:RGD.
+DR   GO; GO:0042559; P:pteridine-containing compound biosynthetic process; ISO:RGD.
+DR   GO; GO:0008217; P:regulation of blood pressure; ISO:RGD.
+DR   GO; GO:0014916; P:regulation of lung blood pressure; ISO:RGD.
+DR   GO; GO:2000121; P:regulation of removal of superoxide radicals; ISO:RGD.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; ISO:RGD.
+DR   GO; GO:0048265; P:response to pain; IDA:UniProtKB.
+DR   GO; GO:0034612; P:response to tumor necrosis factor; ISO:RGD.
+DR   GO; GO:0034341; P:response to type II interferon; ISO:RGD.
+DR   GO; GO:0006729; P:tetrahydrobiopterin biosynthetic process; ISO:RGD.
+DR   GO; GO:0046654; P:tetrahydrofolate biosynthetic process; IEA:InterPro.
+DR   GO; GO:0042311; P:vasodilation; IMP:RGD.
+DR   CDD; cd00642; GTP_cyclohydro1; 1.
+DR   Gene3D; 1.10.286.10; -; 1.
+DR   Gene3D; 3.30.1130.10; -; 1.
+DR   HAMAP; MF_00223; FolE; 1.
+DR   InterPro; IPR043133; GTP-CH-I_C/QueF.
+DR   InterPro; IPR043134; GTP-CH-I_N.
+DR   InterPro; IPR001474; GTP_CycHdrlase_I.
+DR   InterPro; IPR018234; GTP_CycHdrlase_I_CS.
+DR   InterPro; IPR020602; GTP_CycHdrlase_I_dom.
+DR   NCBIfam; TIGR00063; folE; 1.
+DR   PANTHER; PTHR11109:SF11; GTP CYCLOHYDROLASE 1; 1.
+DR   PANTHER; PTHR11109; GTP CYCLOHYDROLASE I; 1.
+DR   Pfam; PF01227; GTP_cyclohydroI; 1.
+DR   SUPFAM; SSF55620; Tetrahydrobiopterin biosynthesis enzymes-like; 1.
+DR   PROSITE; PS00859; GTP_CYCLOHYDROL_1_1; 1.
+DR   PROSITE; PS00860; GTP_CYCLOHYDROL_1_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Allosteric enzyme; Cytoplasm; Direct protein sequencing;
+KW   GTP-binding; Hydrolase; Metal-binding; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Reference proteome; Tetrahydrobiopterin biosynthesis; Zinc.
+FT   PROPEP          1..11
+FT                   /id="PRO_0000010720"
+FT   CHAIN           12..241
+FT                   /note="GTP cyclohydrolase 1"
+FT                   /id="PRO_0000010721"
+FT   REGION          1..58
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         132
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:P30793"
+FT   BINDING         135
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:P30793"
+FT   BINDING         203
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000250|UniProtKB:P30793"
+FT   SITE            87
+FT                   /note="Involved in pterin ring binding"
+FT                   /evidence="ECO:0000250"
+FT   SITE            96
+FT                   /note="Involved in pterin ring binding"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         51
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         72
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30793"
+FT   HELIX           52..73
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   TURN            80..84
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   HELIX           85..96
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   HELIX           98..101
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   HELIX           105..108
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   STRAND          109..111
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   STRAND          112..117
+FT                   /evidence="ECO:0007829|PDB:1IS7"
+FT   STRAND          121..132
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   TURN            133..135
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   STRAND          138..148
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   STRAND          150..154
+FT                   /evidence="ECO:0007829|PDB:1IS7"
+FT   HELIX           156..167
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   STRAND          168..171
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   HELIX           173..188
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   STRAND          191..201
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   HELIX           202..205
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   STRAND          207..210
+FT                   /evidence="ECO:0007829|PDB:1IS7"
+FT   STRAND          215..223
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   HELIX           224..227
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+FT   HELIX           229..239
+FT                   /evidence="ECO:0007829|PDB:1IS8"
+SQ   SEQUENCE   241 AA;  27057 MW;  8226E3319816325B CRC64;
+     MEKPRGVRCT NGFPERELPR PGASRPAEKS RPPEAKGAQP ADAWKAGRPR SEEDNELNLP
+     NLAAAYSSIL RSLGEDPQRQ GLLKTPWRAA TAMQFFTKGY QETISDVLND AIFDEDHDEM
+     VIVKDIDMFS MCEHHLVPFV GRVHIGYLPN KQVLGLSKLA RIVEIYSRRL QVQERLTKQI
+     AVAITEALQP AGVGVVIEAT HMCMVMRGVQ KMNSKTVTST MLGVFREDPK TREEFLTLIR
+     S
+//

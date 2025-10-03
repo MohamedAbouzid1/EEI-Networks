@@ -1,0 +1,1174 @@
+ID   LRP1_RAT                Reviewed;        4545 AA.
+AC   G3V928; Q5I0H1;
+DT   13-NOV-2019, integrated into UniProtKB/Swiss-Prot.
+DT   16-NOV-2011, sequence version 1.
+DT   02-OCT-2024, entry version 108.
+DE   RecName: Full=Prolow-density lipoprotein receptor-related protein 1 {ECO:0000305};
+DE            Short=LRP-1;
+DE   Contains:
+DE     RecName: Full=Low-density lipoprotein receptor-related protein 1 85 kDa subunit {ECO:0000250|UniProtKB:Q07954};
+DE              Short=LRP-85 {ECO:0000250|UniProtKB:Q07954};
+DE   Contains:
+DE     RecName: Full=Low-density lipoprotein receptor-related protein 1 515 kDa subunit {ECO:0000250|UniProtKB:Q07954};
+DE              Short=LRP-515 {ECO:0000250|UniProtKB:Q07954};
+DE   Contains:
+DE     RecName: Full=Low-density lipoprotein receptor-related protein 1 intracellular domain {ECO:0000250|UniProtKB:Q07954};
+DE              Short=LRPICD {ECO:0000250|UniProtKB:Q07954};
+DE   Flags: Precursor;
+GN   Name=Lrp1 {ECO:0000312|RGD:1307535};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RX   PubMed=15057822; DOI=10.1038/nature02426;
+RA   Gibbs R.A., Weinstock G.M., Metzker M.L., Muzny D.M., Sodergren E.J.,
+RA   Scherer S., Scott G., Steffen D., Worley K.C., Burch P.E., Okwuonu G.,
+RA   Hines S., Lewis L., Deramo C., Delgado O., Dugan-Rocha S., Miner G.,
+RA   Morgan M., Hawes A., Gill R., Holt R.A., Adams M.D., Amanatides P.G.,
+RA   Baden-Tillson H., Barnstead M., Chin S., Evans C.A., Ferriera S.,
+RA   Fosler C., Glodek A., Gu Z., Jennings D., Kraft C.L., Nguyen T.,
+RA   Pfannkoch C.M., Sitter C., Sutton G.G., Venter J.C., Woodage T., Smith D.,
+RA   Lee H.-M., Gustafson E., Cahill P., Kana A., Doucette-Stamm L.,
+RA   Weinstock K., Fechtel K., Weiss R.B., Dunn D.M., Green E.D.,
+RA   Blakesley R.W., Bouffard G.G., De Jong P.J., Osoegawa K., Zhu B., Marra M.,
+RA   Schein J., Bosdet I., Fjell C., Jones S., Krzywinski M., Mathewson C.,
+RA   Siddiqui A., Wye N., McPherson J., Zhao S., Fraser C.M., Shetty J.,
+RA   Shatsman S., Geer K., Chen Y., Abramzon S., Nierman W.C., Havlak P.H.,
+RA   Chen R., Durbin K.J., Egan A., Ren Y., Song X.-Z., Li B., Liu Y., Qin X.,
+RA   Cawley S., Cooney A.J., D'Souza L.M., Martin K., Wu J.Q.,
+RA   Gonzalez-Garay M.L., Jackson A.R., Kalafus K.J., McLeod M.P.,
+RA   Milosavljevic A., Virk D., Volkov A., Wheeler D.A., Zhang Z., Bailey J.A.,
+RA   Eichler E.E., Tuzun E., Birney E., Mongin E., Ureta-Vidal A., Woodwark C.,
+RA   Zdobnov E., Bork P., Suyama M., Torrents D., Alexandersson M., Trask B.J.,
+RA   Young J.M., Huang H., Wang H., Xing H., Daniels S., Gietzen D., Schmidt J.,
+RA   Stevens K., Vitt U., Wingrove J., Camara F., Mar Alba M., Abril J.F.,
+RA   Guigo R., Smit A., Dubchak I., Rubin E.M., Couronne O., Poliakov A.,
+RA   Huebner N., Ganten D., Goesele C., Hummel O., Kreitler T., Lee Y.-A.,
+RA   Monti J., Schulz H., Zimdahl H., Himmelbauer H., Lehrach H., Jacob H.J.,
+RA   Bromberg S., Gullings-Handley J., Jensen-Seaman M.I., Kwitek A.E.,
+RA   Lazar J., Pasko D., Tonellato P.J., Twigger S., Ponting C.P., Duarte J.M.,
+RA   Rice S., Goodstadt L., Beatson S.A., Emes R.D., Winter E.E., Webber C.,
+RA   Brandt P., Nyakatura G., Adetobi M., Chiaromonte F., Elnitski L.,
+RA   Eswara P., Hardison R.C., Hou M., Kolbe D., Makova K., Miller W.,
+RA   Nekrutenko A., Riemer C., Schwartz S., Taylor J., Yang S., Zhang Y.,
+RA   Lindpaintner K., Andrews T.D., Caccamo M., Clamp M., Clarke L., Curwen V.,
+RA   Durbin R.M., Eyras E., Searle S.M., Cooper G.M., Batzoglou S., Brudno M.,
+RA   Sidow A., Stone E.A., Payseur B.A., Bourque G., Lopez-Otin C., Puente X.S.,
+RA   Chakrabarti K., Chatterji S., Dewey C., Pachter L., Bray N., Yap V.B.,
+RA   Caspi A., Tesler G., Pevzner P.A., Haussler D., Roskin K.M., Baertsch R.,
+RA   Clawson H., Furey T.S., Hinrichs A.S., Karolchik D., Kent W.J.,
+RA   Rosenbloom K.R., Trumbower H., Weirauch M., Cooper D.N., Stenson P.D.,
+RA   Ma B., Brent M., Arumugam M., Shteynberg D., Copley R.R., Taylor M.S.,
+RA   Riethman H., Mudunuri U., Peterson J., Guyer M., Felsenfeld A., Old S.,
+RA   Mockrin S., Collins F.S.;
+RT   "Genome sequence of the Brown Norway rat yields insights into mammalian
+RT   evolution.";
+RL   Nature 428:493-521(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway {ECO:0000312|EMBL:EDM16460.1};
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 4274-4545.
+RC   TISSUE=Spleen {ECO:0000312|EMBL:AAH88327.1};
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=24090084; DOI=10.1021/pr400783j;
+RA   Parker B.L., Thaysen-Andersen M., Solis N., Scott N.E., Larsen M.R.,
+RA   Graham M.E., Packer N.H., Cordwell S.J.;
+RT   "Site-specific glycan-peptide analysis for determination of N-glycoproteome
+RT   heterogeneity.";
+RL   J. Proteome Res. 12:5791-5800(2013).
+RN   [6]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=31522887; DOI=10.1016/j.cell.2019.08.025;
+RA   Fu M.M., McAlear T.S., Nguyen H., Oses-Prieto J.A., Valenzuela A.,
+RA   Shi R.D., Perrino J.J., Huang T.T., Burlingame A.L., Bechstedt S.,
+RA   Barres B.A.;
+RT   "The Golgi outpost protein TPPP nucleates microtubules and is critical for
+RT   myelination.";
+RL   Cell 0:0-0(2019).
+CC   -!- FUNCTION: Endocytic receptor involved in endocytosis and in
+CC       phagocytosis of apoptotic cells (By similarity). Required for early
+CC       embryonic development (By similarity). Involved in cellular lipid
+CC       homeostasis. Involved in the plasma clearance of chylomicron remnants
+CC       and activated LRPAP1 (alpha 2-macroglobulin), as well as the local
+CC       metabolism of complexes between plasminogen activators and their
+CC       endogenous inhibitors. Acts as an LRPAP1 alpha-2-macroglobulin
+CC       receptor. Acts as a TAU/MAPT receptor and controls the endocytosis of
+CC       TAU/MAPT as well as its subsequent spread. May modulate cellular
+CC       events, such as APP metabolism, kinase-dependent intracellular
+CC       signaling, neuronal calcium signaling as well as neurotransmission (By
+CC       similarity). {ECO:0000250|UniProtKB:Q07954,
+CC       ECO:0000250|UniProtKB:Q91ZX7}.
+CC   -!- SUBUNIT: Heterodimer of an 85-kDa membrane-bound carboxyl subunit and a
+CC       non-covalently attached 515-kDa N-terminal subunit. Intracellular
+CC       domain interacts with MAFB (By similarity). Found in a complex with
+CC       PID1/PCLI1, LRP1 and CUBNI. Interacts with SNX17, PID1/PCLI1, PDGF and
+CC       CUBN. The intracellular domain interacts with SHC1, GULP1 and DAB1. Can
+CC       weakly interact (via NPXY motif) with DAB2 (via PID domain); the
+CC       interaction is enhanced by tyrosine phosphorylation of the NPXY motif.
+CC       Interacts with MDK; promotes neuronal survival. Interacts with LRPAP1;
+CC       this interaction is followed by rapid internalization. Interacts with
+CC       uPA/PLAU and PAI1/SERPINE1, either individually or in complex with each
+CC       other, leading to rapid endocytosis; this interaction is abolished in
+CC       the presence of LRPAP1/RAP. Also interacts with tPA/PLAT alone or in
+CC       complex with SERPINE1. Interacts with the urokinase receptor PLAUR;
+CC       this interaction leads to PLAUR internalization and is impaired in the
+CC       presence of SORL1. Interacts with PDGFB. Interacts with TAU/MAPT,
+CC       leading to endocytosis; this interaction is reduced in the presence of
+CC       LRPAP1/RAP (By similarity). {ECO:0000250|UniProtKB:Q07954,
+CC       ECO:0000250|UniProtKB:Q91ZX7}.
+CC   -!- SUBCELLULAR LOCATION: [Low-density lipoprotein receptor-related protein
+CC       1 85 kDa subunit]: Cell membrane {ECO:0000250|UniProtKB:Q07954};
+CC       Single-pass type I membrane protein {ECO:0000250|UniProtKB:Q07954}.
+CC       Membrane, coated pit {ECO:0000250|UniProtKB:Q07954}.
+CC   -!- SUBCELLULAR LOCATION: [Low-density lipoprotein receptor-related protein
+CC       1 515 kDa subunit]: Cell membrane {ECO:0000250|UniProtKB:Q07954};
+CC       Peripheral membrane protein {ECO:0000250|UniProtKB:Q07954};
+CC       Extracellular side {ECO:0000250|UniProtKB:Q07954}. Membrane, coated pit
+CC       {ECO:0000250|UniProtKB:Q07954}.
+CC   -!- SUBCELLULAR LOCATION: Golgi outpost {ECO:0000269|PubMed:31522887}.
+CC       Cytoplasm, cytoskeleton, microtubule organizing center
+CC       {ECO:0000269|PubMed:31522887}. Note=Localizes to the postsynaptic Golgi
+CC       apparatus region, also named Golgi outpost, which shapes dendrite
+CC       morphology by functioning as sites of acentrosomal microtubule
+CC       nucleation. {ECO:0000269|PubMed:31522887}.
+CC   -!- SUBCELLULAR LOCATION: [Low-density lipoprotein receptor-related protein
+CC       1 intracellular domain]: Cytoplasm {ECO:0000250|UniProtKB:Q07954}.
+CC       Nucleus {ECO:0000250|UniProtKB:Q07954}. Note=After cleavage, the
+CC       intracellular domain (LRPICD) is detected both in the cytoplasm and in
+CC       the nucleus. {ECO:0000250|UniProtKB:Q07954}.
+CC   -!- PTM: Cleaved into a 85 kDa membrane-spanning subunit (LRP-85) and a 515
+CC       kDa large extracellular domain (LRP-515) that remains non-covalently
+CC       associated. Gamma-secretase-dependent cleavage of LRP-85 releases the
+CC       intracellular domain from the membrane. {ECO:0000250|UniProtKB:Q07954}.
+CC   -!- PTM: Phosphorylated on serine and threonine residues.
+CC       {ECO:0000250|UniProtKB:Q07954}.
+CC   -!- PTM: Phosphorylated on tyrosine residues upon stimulation with PDGF.
+CC       Tyrosine phosphorylation promotes interaction with SHC1.
+CC       {ECO:0000250|UniProtKB:Q07954}.
+CC   -!- SIMILARITY: Belongs to the LDLR family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AABR07057430; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AABR07057431; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH473950; EDM16460.1; -; Genomic_DNA.
+DR   EMBL; BC088327; AAH88327.1; -; mRNA.
+DR   RefSeq; NP_001123962.1; NM_001130490.1.
+DR   SMR; G3V928; -.
+DR   ComplexPortal; CPX-4462; Prolow-density lipoprotein receptor-related protein 1 complex.
+DR   IntAct; G3V928; 3.
+DR   STRING; 10116.ENSRNOP00000034210; -.
+DR   GlyCosmos; G3V928; 49 sites, 14 glycans.
+DR   GlyGen; G3V928; 49 sites, 14 N-linked glycans (11 sites).
+DR   iPTMnet; G3V928; -.
+DR   PhosphoSitePlus; G3V928; -.
+DR   jPOST; G3V928; -.
+DR   PaxDb; 10116-ENSRNOP00000034210; -.
+DR   Ensembl; ENSRNOT00000031005.6; ENSRNOP00000034210.4; ENSRNOG00000025053.6.
+DR   Ensembl; ENSRNOT00055046227; ENSRNOP00055037951; ENSRNOG00055026725.
+DR   Ensembl; ENSRNOT00060015110; ENSRNOP00060011735; ENSRNOG00060009000.
+DR   Ensembl; ENSRNOT00065027660; ENSRNOP00065021781; ENSRNOG00065016589.
+DR   GeneID; 299858; -.
+DR   KEGG; rno:299858; -.
+DR   AGR; RGD:1307535; -.
+DR   CTD; 4035; -.
+DR   RGD; 1307535; Lrp1.
+DR   eggNOG; KOG1215; Eukaryota.
+DR   GeneTree; ENSGT00940000157899; -.
+DR   HOGENOM; CLU_000085_1_0_1; -.
+DR   InParanoid; G3V928; -.
+DR   OrthoDB; 2876235at2759; -.
+DR   TreeFam; TF315253; -.
+DR   Reactome; R-RNO-2168880; Scavenging of heme from plasma.
+DR   Reactome; R-RNO-975634; Retinoid metabolism and transport.
+DR   PRO; PR:G3V928; -.
+DR   Proteomes; UP000002494; Chromosome 7.
+DR   Proteomes; UP000234681; Chromosome 7.
+DR   Bgee; ENSRNOG00000025053; Expressed in liver and 19 other cell types or tissues.
+DR   GO; GO:0045177; C:apical part of cell; IDA:RGD.
+DR   GO; GO:0044295; C:axonal growth cone; IDA:RGD.
+DR   GO; GO:0016323; C:basolateral plasma membrane; ISO:RGD.
+DR   GO; GO:0005905; C:clathrin-coated pit; IEA:UniProtKB-KW.
+DR   GO; GO:0030136; C:clathrin-coated vesicle; IDA:RGD.
+DR   GO; GO:0030425; C:dendrite; IDA:RGD.
+DR   GO; GO:0005769; C:early endosome; ISO:RGD.
+DR   GO; GO:0005768; C:endosome; IDA:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; ISO:RGD.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; IEA:UniProtKB-KW.
+DR   GO; GO:0032593; C:insulin-responsive compartment; IDA:RGD.
+DR   GO; GO:0062136; C:low-density lipoprotein receptor complex; NAS:ComplexPortal.
+DR   GO; GO:0016020; C:membrane; ISO:RGD.
+DR   GO; GO:0005815; C:microtubule organizing center; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043025; C:neuronal cell body; IDA:RGD.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0098839; C:postsynaptic density membrane; ISO:RGD.
+DR   GO; GO:0043235; C:receptor complex; ISO:RGD.
+DR   GO; GO:0016964; F:alpha-2 macroglobulin receptor activity; ISO:RGD.
+DR   GO; GO:0034185; F:apolipoprotein binding; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; ISO:RGD.
+DR   GO; GO:0038024; F:cargo receptor activity; ISO:RGD.
+DR   GO; GO:0032050; F:clathrin heavy chain binding; ISO:RGD.
+DR   GO; GO:0015026; F:coreceptor activity; IDA:RGD.
+DR   GO; GO:0002020; F:protease binding; IPI:RGD.
+DR   GO; GO:0044877; F:protein-containing complex binding; ISO:RGD.
+DR   GO; GO:0005102; F:signaling receptor binding; ISO:RGD.
+DR   GO; GO:0097242; P:amyloid-beta clearance; ISO:RGD.
+DR   GO; GO:0150094; P:amyloid-beta clearance by cellular catabolic process; ISO:RGD.
+DR   GO; GO:0150093; P:amyloid-beta clearance by transcytosis; ISO:RGD.
+DR   GO; GO:0035909; P:aorta morphogenesis; ISO:RGD.
+DR   GO; GO:0043277; P:apoptotic cell clearance; ISO:RGD.
+DR   GO; GO:0002265; P:astrocyte activation involved in immune response; ISO:RGD.
+DR   GO; GO:0003279; P:cardiac septum development; ISO:RGD.
+DR   GO; GO:0044242; P:cellular lipid catabolic process; IMP:RGD.
+DR   GO; GO:1904646; P:cellular response to amyloid-beta; ISO:RGD.
+DR   GO; GO:0021987; P:cerebral cortex development; IEP:RGD.
+DR   GO; GO:0061642; P:chemoattraction of axon; IMP:RGD.
+DR   GO; GO:0008203; P:cholesterol metabolic process; ISO:RGD.
+DR   GO; GO:0060976; P:coronary vasculature development; ISO:RGD.
+DR   GO; GO:0007167; P:enzyme-linked receptor protein signaling pathway; ISO:RGD.
+DR   GO; GO:0007041; P:lysosomal transport; ISO:RGD.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; IMP:RGD.
+DR   GO; GO:0010812; P:negative regulation of cell-substrate adhesion; IMP:RGD.
+DR   GO; GO:0051481; P:negative regulation of cytosolic calcium ion concentration; IMP:RGD.
+DR   GO; GO:0010951; P:negative regulation of endopeptidase activity; IC:BHF-UCL.
+DR   GO; GO:0051895; P:negative regulation of focal adhesion assembly; IMP:RGD.
+DR   GO; GO:0010629; P:negative regulation of gene expression; ISO:RGD.
+DR   GO; GO:0043524; P:negative regulation of neuron apoptotic process; IDA:RGD.
+DR   GO; GO:0010977; P:negative regulation of neuron projection development; IMP:RGD.
+DR   GO; GO:2000587; P:negative regulation of platelet-derived growth factor receptor-beta signaling pathway; ISO:RGD.
+DR   GO; GO:0060392; P:negative regulation of SMAD protein signal transduction; ISO:RGD.
+DR   GO; GO:0014912; P:negative regulation of smooth muscle cell migration; ISO:RGD.
+DR   GO; GO:0030512; P:negative regulation of transforming growth factor beta receptor signaling pathway; ISO:RGD.
+DR   GO; GO:0030178; P:negative regulation of Wnt signaling pathway; ISO:RGD.
+DR   GO; GO:0006909; P:phagocytosis; ISO:RGD.
+DR   GO; GO:1900223; P:positive regulation of amyloid-beta clearance; ISO:RGD.
+DR   GO; GO:0045773; P:positive regulation of axon extension; IMP:RGD.
+DR   GO; GO:0048691; P:positive regulation of axon extension involved in regeneration; IDA:RGD.
+DR   GO; GO:2000343; P:positive regulation of chemokine (C-X-C motif) ligand 2 production; IMP:RGD.
+DR   GO; GO:0010875; P:positive regulation of cholesterol efflux; ISO:RGD.
+DR   GO; GO:1904109; P:positive regulation of cholesterol import; IMP:RGD.
+DR   GO; GO:0032376; P:positive regulation of cholesterol transport; ISO:ComplexPortal.
+DR   GO; GO:0048694; P:positive regulation of collateral sprouting of injured axon; IDA:RGD.
+DR   GO; GO:0007204; P:positive regulation of cytosolic calcium ion concentration; IMP:RGD.
+DR   GO; GO:0045807; P:positive regulation of endocytosis; ISO:RGD.
+DR   GO; GO:0070374; P:positive regulation of ERK1 and ERK2 cascade; IMP:RGD.
+DR   GO; GO:0035774; P:positive regulation of insulin secretion involved in cellular response to glucose stimulus; IMP:RGD.
+DR   GO; GO:0032370; P:positive regulation of lipid transport; ISO:RGD.
+DR   GO; GO:1905167; P:positive regulation of lysosomal protein catabolic process; ISO:RGD.
+DR   GO; GO:0010976; P:positive regulation of neuron projection development; IMP:RGD.
+DR   GO; GO:0050766; P:positive regulation of phagocytosis; IMP:RGD.
+DR   GO; GO:1903078; P:positive regulation of protein localization to plasma membrane; ISO:RGD.
+DR   GO; GO:0051222; P:positive regulation of protein transport; IMP:RGD.
+DR   GO; GO:1900149; P:positive regulation of Schwann cell migration; IMP:RGD.
+DR   GO; GO:1904300; P:positive regulation of transcytosis; ISO:RGD.
+DR   GO; GO:1904754; P:positive regulation of vascular associated smooth muscle cell migration; IMP:RGD.
+DR   GO; GO:0007205; P:protein kinase C-activating G protein-coupled receptor signaling pathway; IMP:RGD.
+DR   GO; GO:0031623; P:receptor internalization; ISO:ComplexPortal.
+DR   GO; GO:0006898; P:receptor-mediated endocytosis; IMP:BHF-UCL.
+DR   GO; GO:0032956; P:regulation of actin cytoskeleton organization; ISO:RGD.
+DR   GO; GO:0032374; P:regulation of cholesterol transport; ISO:RGD.
+DR   GO; GO:0099149; P:regulation of postsynaptic neurotransmitter receptor internalization; ISO:RGD.
+DR   GO; GO:1905109; P:regulation of pulmonary blood vessel remodeling; ISO:RGD.
+DR   GO; GO:0150104; P:transport across blood-brain barrier; ISO:RGD.
+DR   CDD; cd00054; EGF_CA; 1.
+DR   CDD; cd00112; LDLa; 31.
+DR   Gene3D; 4.10.1220.10; EGF-type module; 1.
+DR   Gene3D; 2.10.25.10; Laminin; 13.
+DR   Gene3D; 4.10.400.10; Low-density Lipoprotein Receptor; 30.
+DR   Gene3D; 2.120.10.30; TolB, C-terminal domain; 8.
+DR   InterPro; IPR011042; 6-blade_b-propeller_TolB-like.
+DR   InterPro; IPR026823; cEGF.
+DR   InterPro; IPR001881; EGF-like_Ca-bd_dom.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR000152; EGF-type_Asp/Asn_hydroxyl_site.
+DR   InterPro; IPR018097; EGF_Ca-bd_CS.
+DR   InterPro; IPR009030; Growth_fac_rcpt_cys_sf.
+DR   InterPro; IPR036055; LDL_receptor-like_sf.
+DR   InterPro; IPR051221; LDLR-related.
+DR   InterPro; IPR023415; LDLR_class-A_CS.
+DR   InterPro; IPR000033; LDLR_classB_rpt.
+DR   InterPro; IPR002172; LDrepeatLR_classA_rpt.
+DR   InterPro; IPR032485; LRP1-like_beta_prop.
+DR   InterPro; IPR049883; NOTCH1_EGF-like.
+DR   PANTHER; PTHR22722:SF5; LOW-DENSITY LIPOPROTEIN RECEPTOR-RELATED PROTEIN 1B; 1.
+DR   PANTHER; PTHR22722; LOW-DENSITY LIPOPROTEIN RECEPTOR-RELATED PROTEIN 2-RELATED; 1.
+DR   Pfam; PF12662; cEGF; 1.
+DR   Pfam; PF16472; DUF5050; 1.
+DR   Pfam; PF00008; EGF; 1.
+DR   Pfam; PF07645; EGF_CA; 2.
+DR   Pfam; PF14670; FXa_inhibition; 3.
+DR   Pfam; PF00057; Ldl_recept_a; 29.
+DR   Pfam; PF00058; Ldl_recept_b; 12.
+DR   PRINTS; PR00261; LDLRECEPTOR.
+DR   SMART; SM00181; EGF; 26.
+DR   SMART; SM00179; EGF_CA; 7.
+DR   SMART; SM00192; LDLa; 31.
+DR   SMART; SM00135; LY; 35.
+DR   SUPFAM; SSF57196; EGF/Laminin; 5.
+DR   SUPFAM; SSF57184; Growth factor receptor domain; 3.
+DR   SUPFAM; SSF57424; LDL receptor-like module; 30.
+DR   SUPFAM; SSF63825; YWTD domain; 8.
+DR   PROSITE; PS00010; ASX_HYDROXYL; 3.
+DR   PROSITE; PS00022; EGF_1; 5.
+DR   PROSITE; PS01186; EGF_2; 8.
+DR   PROSITE; PS50026; EGF_3; 6.
+DR   PROSITE; PS01187; EGF_CA; 2.
+DR   PROSITE; PS01209; LDLRA_1; 27.
+DR   PROSITE; PS50068; LDLRA_2; 31.
+DR   PROSITE; PS51120; LDLRB; 34.
+PE   1: Evidence at protein level;
+KW   Acetylation; Calcium; Cell membrane; Coated pit; Cytoplasm; Cytoskeleton;
+KW   Developmental protein; Disulfide bond; EGF-like domain; Endocytosis;
+KW   Glycoprotein; Golgi apparatus; Membrane; Metal-binding; Nucleus;
+KW   Phosphoprotein; Receptor; Reference proteome; Repeat; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..4545
+FT                   /note="Prolow-density lipoprotein receptor-related protein
+FT                   1"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_5015091774"
+FT   CHAIN           20..?3944
+FT                   /note="Low-density lipoprotein receptor-related protein 1
+FT                   515 kDa subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT                   /id="PRO_0000448596"
+FT   CHAIN           3945..4545
+FT                   /note="Low-density lipoprotein receptor-related protein 1
+FT                   85 kDa subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT                   /id="PRO_0000448597"
+FT   CHAIN           4442..4545
+FT                   /note="Low-density lipoprotein receptor-related protein 1
+FT                   intracellular domain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT                   /id="PRO_0000448598"
+FT   TOPO_DOM        20..4424
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        4425..4445
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        4446..4545
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          27..66
+FT                   /note="LDL-receptor class A 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          72..110
+FT                   /note="LDL-receptor class A 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   REPEAT          293..335
+FT                   /note="LDL-receptor class B 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          336..379
+FT                   /note="LDL-receptor class B 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          380..423
+FT                   /note="LDL-receptor class B 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          572..614
+FT                   /note="LDL-receptor class B 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          615..660
+FT                   /note="LDL-receptor class B 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          639..671
+FT                   /note="HAT 1"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          661..711
+FT                   /note="LDL-receptor class B 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          712..755
+FT                   /note="LDL-receptor class B 7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   DOMAIN          854..892
+FT                   /note="LDL-receptor class A 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          895..933
+FT                   /note="LDL-receptor class A 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          936..973
+FT                   /note="LDL-receptor class A 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          976..1013
+FT                   /note="LDL-receptor class A 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          1015..1053
+FT                   /note="LDL-receptor class A 7"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          1062..1099
+FT                   /note="LDL-receptor class A 8"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          1104..1142
+FT                   /note="LDL-receptor class A 9"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          1145..1184
+FT                   /note="LDL-receptor class A 10"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   REPEAT          1310..1356
+FT                   /note="LDL-receptor class B 8"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          1357..1399
+FT                   /note="LDL-receptor class B 9"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          1380..1413
+FT                   /note="HAT 2"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          1400..1446
+FT                   /note="LDL-receptor class B 10"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          1447..1491
+FT                   /note="LDL-receptor class B 11"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          1470..1503
+FT                   /note="HAT 3"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          1492..1532
+FT                   /note="LDL-receptor class B 12"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          1628..1670
+FT                   /note="LDL-receptor class B 13"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          1653..1684
+FT                   /note="HAT 4"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          1671..1714
+FT                   /note="LDL-receptor class B 14"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          1715..1754
+FT                   /note="LDL-receptor class B 15"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          1755..1799
+FT                   /note="LDL-receptor class B 16"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          1935..1977
+FT                   /note="LDL-receptor class B 17"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          1978..2020
+FT                   /note="LDL-receptor class B 18"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          2021..2064
+FT                   /note="LDL-receptor class B 19"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          2065..2108
+FT                   /note="LDL-receptor class B 20"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          2254..2295
+FT                   /note="LDL-receptor class B 21"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          2277..2309
+FT                   /note="HAT 5"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          2296..2344
+FT                   /note="LDL-receptor class B 22"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          2325..2358
+FT                   /note="HAT 6"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          2345..2389
+FT                   /note="LDL-receptor class B 23"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          2390..2432
+FT                   /note="LDL-receptor class B 24"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          2411..2444
+FT                   /note="HAT 7"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          2433..2474
+FT                   /note="LDL-receptor class B 25"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   DOMAIN          2524..2563
+FT                   /note="LDL-receptor class A 11"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          2566..2602
+FT                   /note="LDL-receptor class A 12"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          2605..2641
+FT                   /note="LDL-receptor class A 13"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          2639..2690
+FT                   /note="LDL-receptor class A 14"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          2696..2732
+FT                   /note="LDL-receptor class A 15"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          2734..2771
+FT                   /note="LDL-receptor class A 16"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          2774..2814
+FT                   /note="LDL-receptor class A 17"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          2818..2855
+FT                   /note="LDL-receptor class A 18"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          2858..2899
+FT                   /note="LDL-receptor class A 19"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          2904..2941
+FT                   /note="LDL-receptor class A 20"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          2983..3018
+FT                   /note="EGF-like 1; calcium-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   REPEAT          3070..3114
+FT                   /note="LDL-receptor class B 26"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          3115..3157
+FT                   /note="LDL-receptor class B 27"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          3128..3171
+FT                   /note="HAT 8"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          3158..3201
+FT                   /note="LDL-receptor class B 28"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          3202..3244
+FT                   /note="LDL-receptor class B 29"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          3224..3256
+FT                   /note="HAT 9"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          3245..3285
+FT                   /note="LDL-receptor class B 30"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   DOMAIN          3334..3371
+FT                   /note="LDL-receptor class A 21"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          3374..3410
+FT                   /note="LDL-receptor class A 22"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          3413..3450
+FT                   /note="LDL-receptor class A 23"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          3453..3491
+FT                   /note="LDL-receptor class A 24"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          3494..3533
+FT                   /note="LDL-receptor class A 25"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          3536..3572
+FT                   /note="LDL-receptor class A 26"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          3575..3611
+FT                   /note="LDL-receptor class A 27"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          3613..3649
+FT                   /note="LDL-receptor class A 28"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          3654..3692
+FT                   /note="LDL-receptor class A 29"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          3695..3733
+FT                   /note="LDL-receptor class A 30"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DOMAIN          3741..3778
+FT                   /note="LDL-receptor class A 31"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   REPEAT          3913..3925
+FT                   /note="LDL-receptor class B 31"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          3971..4013
+FT                   /note="LDL-receptor class B 32"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          3995..4027
+FT                   /note="HAT 10"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          4014..4057
+FT                   /note="LDL-receptor class B 33"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   REPEAT          4058..4102
+FT                   /note="LDL-receptor class B 34"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00461"
+FT   DOMAIN          4197..4230
+FT                   /note="EGF-like 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          4233..4269
+FT                   /note="EGF-like 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          4270..4302
+FT                   /note="EGF-like 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          4305..4341
+FT                   /note="EGF-like 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          4376..4410
+FT                   /note="EGF-like 6"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   REGION          4446..4545
+FT                   /note="Interaction with MAFB"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91ZX7"
+FT   BINDING         872
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         875
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         877
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         879
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         885
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         886
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1033
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1036
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1038
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1040
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1046
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1047
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1081
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1084
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1086
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1088
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1094
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   BINDING         1095
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   MOD_RES         2010
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91ZX7"
+FT   MOD_RES         4461
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   MOD_RES         4508
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   MOD_RES         4518
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   MOD_RES         4521
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q07954"
+FT   MOD_RES         4524
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91ZX7"
+FT   CARBOHYD        115
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        137
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        186
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        240
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        275
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        358
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        447
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        730
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        929
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1051
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1156
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1196
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1219
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1512
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1559
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1576
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1617
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1646
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1724
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1734
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1764
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1826
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1934
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        1996
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2049
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2118
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2128
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2473
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2503
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2522
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2602
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2621
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2639
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2816
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        2906
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        3049
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        3090
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        3265
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        3334
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        3489
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        3663
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        3789
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        3840
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        3954
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        4076
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        4126
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        4180
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        4280
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        4365
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        28..41
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        35..54
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        48..65
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        73..86
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        80..99
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        93..109
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        855..867
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        862..880
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        874..891
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        896..908
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        903..921
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        915..932
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        937..949
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        944..962
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        956..972
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        977..990
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        985..1003
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        997..1012
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1016..1028
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1023..1041
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1035..1052
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1063..1076
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1070..1089
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1083..1098
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1105..1119
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1113..1132
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1126..1141
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1146..1160
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1153..1173
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        1167..1183
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2525..2538
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2533..2551
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2545..2562
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2567..2579
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2574..2592
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2586..2601
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2606..2618
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2613..2631
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2625..2640
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2640..2667
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2645..2680
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2674..2689
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2697..2709
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2704..2722
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2716..2731
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2735..2747
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2742..2760
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2754..2770
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2775..2788
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2782..2801
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2795..2813
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2819..2831
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2826..2844
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2838..2854
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2859..2871
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2866..2885
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2879..2898
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2905..2918
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2913..2931
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2925..2940
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        2987..2997
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        2993..3006
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        3335..3347
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3342..3360
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3354..3370
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3375..3387
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3382..3400
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3394..3409
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3414..3427
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3421..3440
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3434..3449
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3454..3467
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3461..3480
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3474..3490
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3495..3508
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3502..3521
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3515..3532
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3537..3549
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3544..3562
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3556..3571
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3576..3588
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3583..3601
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3595..3610
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3614..3626
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3621..3639
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3633..3648
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3655..3667
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3662..3680
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3674..3691
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3696..3710
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3704..3723
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3717..3732
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3742..3755
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3750..3768
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        3762..3777
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00124"
+FT   DISULFID        4201..4211
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4205..4221
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4237..4247
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4241..4257
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4259..4268
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4273..4283
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4277..4293
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4309..4319
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4313..4329
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4331..4340
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4378..4388
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4382..4398
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DISULFID        4400..4409
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+SQ   SEQUENCE   4545 AA;  504889 MW;  E0C4668E30481D47 CRC64;
+     MLTPPLLLLL PLLSALVAGA TMDAPKTCSP KQFACRDQIT CISKGWRCDG ERDCPDGSDE
+     APEICPQSKA QRCPPNEHSC LGTELCVPMS RLCNGIQDCM DGSDEGAHCR ELRVNCSRMG
+     CQHHCVPTPS GPTCYCNNSF QLQADGKTCK DFDECSVYGT CSQLCTNTDG SFTCGCVEGY
+     LLQPDNRSCK AKNEPVDRPP VLLIANSQNI LATYLSGAQV STITPTSTRQ TTAMDFSYAN
+     ETVCWVHVGD SAAQTQLKCA RMPSLKGFVD EHTINISLSL HHVEQMAIDW LTGNFYFVDD
+     IDDRIFVCNR NGDTCVTLLD LELYNPKGIA LDPAMGKVFF TDYGQIPKVE RCDMDGQNRT
+     KLVDSKIVFP HGITLDLVSR LVYWADAYLD YIEVVDYEGK GRQTIIQGIL IEHLYGLTVF
+     ENYLYATNSD NANTQQKTSV IRVNRFNSTE YQVVTRVDKG GALHIYHQRR QPRVRSHACE
+     NDQYGKPGGC SDICLLANSH KARTCRCRSG FSLGSDGKSC KKPEHELFLV YGKGRPGIIR
+     GMDMGAKVPD EHMIPIENLM NPRALDFHAE TGFIYFADTT SYLIGRQKID GTERETILKD
+     GIHNVEGVAV DWMGDNLYWT DDGPKKTISV ARLEKAAQTR KTLIEGKMTH PRAIVVDPLN
+     GWMYWTDWEE DPKDSRRGRL ERAWMDGSHR DIFVTSKTVL WPNGLSLDIP AGRLYWVDAF
+     YDRIETILLN GTDRKIVYEG PELNHAFGLC HHGNYLFWTE YRSGSVYRLE RGVAGAQPTV
+     TLLRSERPPI FEIRMYDAQQ QQVGTNKCRV NNGGCSSLCL ATPGSRQCAC AEDQVLDADG
+     VTCLANPSYV PPPQCQPGEF ACANNRCIQE RWKCDGDNDC LDNSDEAPAL CHQHTCPSDR
+     FKCENNRCIP NRWLCDGDND CGNSEDESNA TCSARTCPPN QFSCASGRCI PISWTCDLDD
+     DCGDRSDESA SCAYPTCFPL TQFTCNNGRC ININWRCDND NDCGDNSDEA GCSHSCSSTQ
+     FKCNSGRCIP EHWTCDGDND CGDYSDETHA NCTNQATRPP GGCHSDEFQC RLDGLCIPLR
+     WRCDGDTDCM DSSDEKGCEG VTHVCDPNVK FGCKDSARCI SKAWVCDGDS DCEDNSDEEN
+     CEALACRPPS HPCANNTSVC LSPDKLCDGK DDCGDGSDEG ELCDQCSLNN GGCSHNCSVA
+     PGEGIVCSCP LGMELGPDNH TCQIQSYCAK HLKCSQKCDQ NKFSVKCSCY EGWVLEPDGE
+     SCRSLDPFKP FIIFSNRHEI RRIDLHKGDY SVLVPGLRNT IALDFHLSQS ALYWTDVVED
+     KIYRGKLLDN GALTSFEVVI QYGLATPEGL AVDWIAGNIY WVESNLDQIE VAKLDGTLRT
+     TLLAGDIEHP RAIALDPRDG ILFWTDWDAS LPRIEAASMS GAGRRTIHRE TGSGGWPNGL
+     TVDYLEKRIL WIDARSDAIY SARYDGSGHM EVLRGHEFLS HPFAVTLYGG EVYWTDWRTN
+     TLAKANKWTG HNVTVVQRTN TQPFDLQVYH PSRQPMAPNP CEANGGRGPC SHLCLINYNR
+     TVSCACPHLM KLHNDNTTCY EFKKFLLYAR QMEIRGVDLD APYYNYIISF TVPDIDNVTV
+     LDYDAREQRV YWSDVRTQAI KRAFINGTGV ETVVSADLPN AHGLAVDWVS RNLFWTSYDT
+     NKKQINVARL DGSFKNAVVQ GLEQPHGLVV HPLRGKLYWT DGDNISMVNM DGSNRTLLFS
+     GQKGPVGLAI DFPESKLYWI SSGNHTINRC NLDGSELEVI DTMRSQLGKA TALAIMGDKL
+     WWADQVSEKM GTCNKADGSG SVVLRNSTTL VMHMKVYDES IQLEHEGTNP CSVNNGDCSQ
+     LCLPTSETTR SCMCTAGYSL RSGQQACEGV GSFLLYSVHE GIRGIPLDPN DKSDALVPVS
+     GTSLAVGIDF HAENDTIYWV DMGLSTISRA KRDQTWREDV VTNGIGRVEG IAVDWIAGNI
+     YWTDQGFDVI EVARLNGSFR YVVISQGLDK PRAITVHPEK GYLFWTEWGH YPRIERSRLD
+     GTERVVLVNV SISWPNGISV DYQGGKLYWC DARMDKIERI DLETGENREV VLSSNNMDMF
+     SVSVFEDFIY WSDRTHANGS IKRGCKDNAT DSVPLRTGIG VQLKDIKVFN RDRQKGTNVC
+     AVANGGCQQL CLYRGGGQRA CACAHGMLAE DGASCREYAG YLLYSERTIL KSIHLSDERN
+     LNAPVQPFED PEHMKNVIAL AFDYRAGTSP GTPNRIFFSD IHFGNIQQIN DDGSGRTTIV
+     ENVGSVEGLA YHRGWDTLYW TSYTTSTITR HTVDQTRPGA FERETVITMS GDDHPRAFVL
+     DECQNLMFWT NWNELHPSIM RAALSGANVL TLIEKDIRTP NGLAIDHRAE KLYFSDATLD
+     KIERCEYDGS HRYVILKSEP VHPFGLAVYG EHIFWTDWVR RAVQRANKYV GSDMKLLRVD
+     IPQQPMGIIA VANDTNSCEL SPCRINNGGC QDLCLLTHQG HVNCSCRGGR ILQEDFTCRA
+     MNSSCRAQDE FECANGECIS FSLTCDGVSH CKDKSDEKPS YCNSRRCKKT FRQCNNGRCV
+     SNMLWCNGVD DCGDGSDEIP CNKTACGVGE FRCRDGSCIG NSSRCNQFVD CEDASDEMNC
+     SATDCSSYFR LGVKGVLFQP CERTSLCYAP SWVCDGANDC GDYSDERDCP GVKRPRCPLN
+     YFACPSGRCI PMSWTCDKED DCENGEDETH CNKFCSEAQF ECQNHRCISK QWLCDGSDDC
+     GDGSDEAAHC EGKTCGPSSF SCPGTHVCVP ERWLCDGDKD CADGADESIS AGCLYNSTCD
+     DREFMCQNRL CIPKHFVCDH DRDCADGSDE SPECEYPTCG PNEFRCANGR CLSSRQWECD
+     GENDCHDHSD EAPKNPHCTS PEHKCNASSQ FLCSSGRCVA EALLCNGQDD CGDGSDERGC
+     HVNECLSRKL SGCSQDCEDL KIGFKCRCRP GFRLKDDGRT CADVDECSTT FPCSQLCINT
+     HGSYKCLCVE GYAPRGGDPH SCKAVTDEEP FLIFANRYYL RKLNLDGSNY TLLKQGLNNA
+     VALDFDYRGQ MIYWTDVTTQ GSMIRRMHLN GSNVQVLHRT GLSNPDGLAV DWVGGNLYWC
+     DKGRDTIEVS KLNGAYRTVL VSSGLREPRA LVVDVQNGYL YWTDWGDHSL IGRIGMDGSG
+     RSIIVDTKIT WPNGLTVDYV TERIYWADAR EDYIEFASLD GSNRHVVLSQ DIPHIFALTL
+     FEDYVYWTDW ETKSINRAHK TTGANKTLLI STLHRPMDLH VFHALRQPDV PNHPCKVNNG
+     GCSNLCLLSP GGGHKCACPT NFYLGGDGRT CVSNCTASQF VCKNDKCIPF WWKCDTEDDC
+     GDHSDEPPDC PEFKCRPGQF QCSTGICTNP AFICDGDNDC QDNSDEANCD IHVCLPSQFK
+     CTNTNRCIPG IFRCNGQDNC GDGEDERDCP EVTCAPNQFQ CSITKRCIPR VWVCDRDNDC
+     VDGSDEPANC TQMTCGVDEF RCKDSGRCIP ARWKCDGEDD CGDGSDEPKE ECDERTCEPY
+     QFRCKNNRCV PGRWQCDYDN DCGDNSDEES CTPRPCSESE FSCANGRCIA GRWKCDGDHD
+     CADGSDEKDC TPRCDMDQFQ CKSGHCIPLR WRCDADADCM DGSDEEACGT GVRTCPLDEF
+     QCNNTLCKPL AWKCDGEDDC GDNSDENPEE CTRFQCPPNR PFRCKNDRVC LWIGRQCDGT
+     DNCGDGTDEE DCEPPTAQNP HCKDKKEFLC RNQRCLSSSL RCNMFDDCGD GSDEEDCSID
+     PKLTSCATNA SMCGDEARCV RTEKAAYCAC RPGFHTVPGQ PGCQDINECL RFGTCSQLCN
+     NTKGGHLCSC ARNFMKTHNT CKAEGSEYQV LYIADDNEIR SLFPGHPHSA YEQAFQGDES
+     VRIDAMDVHV KAGRVYWTNW HTGTISYRSL PPAAPPTTSN RHRRQIDRGV THLNISGLKM
+     PRGIAIDWVA GNVYWTDSGR DVIEVAQMKG ENRKTLISGM IDEPHAIVVD PLRGTMYWSD
+     WGNHPKIETA AMDGTLRETL VQDNIQWPTG LAVDYHNERL YWADAKLSVI GSIRLNGTDP
+     IVAVDSKRGL SHPFSIDVFE DYIYGVTYIN NRVFKIHKFG HSPLINLTGG LSHASDVVLY
+     HQHKQPEVTN PCDRKKCEWL CLLSPSGPVC TCPNGKRLDN GTCVPVPSPT PPPDAPRPGT
+     CTLQCFNGGS CFLNARRQPK CRCQPRYTGD KCELDQCWEY CHNGGTCAAS PSGMPTCRCP
+     TGFTGPRCTQ QVCAGYCANN STCTVNQGNQ PQCRCLPGFL GDRCQYRQCS GFCENFGTCQ
+     MAADGSRQCR CTVYFEGTRC EVNKCSRCLQ GACVVNKQTG DVTCNCTDGR VAPSCLTCID
+     HCSNGGSCTM NSKMMPECQC PPHMTGPRCE EQVVSQQQPG HMTSILIPLL LLLLLLLVAG
+     VVFWYKRRVR GAKGFQHQRM TNGAMNVEIG NPTYKMYEGG EPDDVGGLLD ADFALDPDKP
+     TNFTNPVYAT LYMGGHGSRH SLASTDEKRE LLGRGPEDEI GDPLA
+//

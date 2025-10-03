@@ -1,0 +1,119 @@
+ID   PGPI_RAT                Reviewed;         209 AA.
+AC   Q76IC5;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   29-MAY-2024, entry version 105.
+DE   RecName: Full=Pyroglutamyl-peptidase 1;
+DE            EC=3.4.19.3;
+DE   AltName: Full=5-oxoprolyl-peptidase;
+DE   AltName: Full=Pyroglutamyl aminopeptidase I;
+DE            Short=PAP-I;
+DE   AltName: Full=Pyroglutamyl-peptidase I;
+DE            Short=PGP-I;
+DE   AltName: Full=Pyrrolidone-carboxylate peptidase;
+GN   Name=Pgpep1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, SUBUNIT, AND
+RP   SUBCELLULAR LOCATION.
+RC   STRAIN=Fischer 344/DuCrj; TISSUE=Liver;
+RX   PubMed=14600395; DOI=10.1248/bpb.26.1528;
+RA   Abe K., Watanabe N., Kosaka T., Yamada M., Tokui T., Ikeda T.;
+RT   "Hydrolysis of synthetic substrate, L-pyroglutamyl p-nitroanilide is
+RT   catalyzed solely by pyroglutamyl aminopeptidase I in rat liver cytosol.";
+RL   Biol. Pharm. Bull. 26:1528-1533(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Removes 5-oxoproline from various penultimate amino acid
+CC       residues except L-proline. {ECO:0000269|PubMed:14600395}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of an N-terminal pyroglutamyl group from a
+CC         polypeptide, the second amino acid generally not being Pro.;
+CC         EC=3.4.19.3; Evidence={ECO:0000255|PROSITE-ProRule:PRU10076,
+CC         ECO:0000255|PROSITE-ProRule:PRU10077, ECO:0000269|PubMed:14600395};
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:14600395}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:14600395}.
+CC   -!- SIMILARITY: Belongs to the peptidase C15 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC098645; AAH98645.1; -; mRNA.
+DR   EMBL; AB098134; BAD01533.1; -; mRNA.
+DR   RefSeq; NP_973717.1; NM_201988.2.
+DR   AlphaFoldDB; Q76IC5; -.
+DR   SMR; Q76IC5; -.
+DR   STRING; 10116.ENSRNOP00000026597; -.
+DR   MEROPS; C15.010; -.
+DR   PhosphoSitePlus; Q76IC5; -.
+DR   jPOST; Q76IC5; -.
+DR   PaxDb; 10116-ENSRNOP00000026597; -.
+DR   Ensembl; ENSRNOT00000026597.7; ENSRNOP00000026597.5; ENSRNOG00000019639.7.
+DR   Ensembl; ENSRNOT00055017407; ENSRNOP00055014005; ENSRNOG00055010299.
+DR   Ensembl; ENSRNOT00060015404; ENSRNOP00060012005; ENSRNOG00060009146.
+DR   Ensembl; ENSRNOT00065040431; ENSRNOP00065032927; ENSRNOG00065023616.
+DR   GeneID; 290648; -.
+DR   KEGG; rno:290648; -.
+DR   UCSC; RGD:1303133; rat.
+DR   AGR; RGD:1303133; -.
+DR   CTD; 54858; -.
+DR   RGD; 1303133; Pgpep1.
+DR   eggNOG; KOG4755; Eukaryota.
+DR   GeneTree; ENSGT00390000015368; -.
+DR   HOGENOM; CLU_043960_3_1_1; -.
+DR   InParanoid; Q76IC5; -.
+DR   OMA; KLAYNHK; -.
+DR   OrthoDB; 5490159at2759; -.
+DR   PhylomeDB; Q76IC5; -.
+DR   TreeFam; TF313278; -.
+DR   BRENDA; 3.4.19.3; 5301.
+DR   PRO; PR:Q76IC5; -.
+DR   Proteomes; UP000002494; Chromosome 16.
+DR   Bgee; ENSRNOG00000019639; Expressed in adult mammalian kidney and 19 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; IEA:InterPro.
+DR   GO; GO:0008233; F:peptidase activity; IDA:RGD.
+DR   GO; GO:0016920; F:pyroglutamyl-peptidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030163; P:protein catabolic process; IDA:RGD.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd00501; Peptidase_C15; 1.
+DR   Gene3D; 3.40.630.20; Peptidase C15, pyroglutamyl peptidase I-like; 1.
+DR   InterPro; IPR000816; Peptidase_C15.
+DR   InterPro; IPR016125; Peptidase_C15-like.
+DR   InterPro; IPR036440; Peptidase_C15-like_sf.
+DR   InterPro; IPR033694; PGPEP1_Cys_AS.
+DR   InterPro; IPR033693; PGPEP1_Glu_AS.
+DR   PANTHER; PTHR23402; PROTEASE FAMILY C15 PYROGLUTAMYL-PEPTIDASE I-RELATED; 1.
+DR   PANTHER; PTHR23402:SF16; PYROGLUTAMYL-PEPTIDASE 1; 1.
+DR   Pfam; PF01470; Peptidase_C15; 1.
+DR   PIRSF; PIRSF015592; Prld-crbxl_pptds; 1.
+DR   PRINTS; PR00706; PYROGLUPTASE.
+DR   SUPFAM; SSF53182; Pyrrolidone carboxyl peptidase (pyroglutamate aminopeptidase); 1.
+DR   PROSITE; PS01334; PYRASE_CYS; 1.
+DR   PROSITE; PS01333; PYRASE_GLU; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Hydrolase; Protease; Reference proteome; Thiol protease.
+FT   CHAIN           1..209
+FT                   /note="Pyroglutamyl-peptidase 1"
+FT                   /id="PRO_0000334693"
+FT   ACT_SITE        85
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        149
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        168
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   209 AA;  22913 MW;  A9C058F7A7D71D5A CRC64;
+     MEQPRKAVVV TGFGPFGEHA VNASWIAVQE LEKLGLGDSV DLHVYEIPVE YQTVQRLIPA
+     LWEKHSPQLV VHVGVSGMAT TVTLEKCGHN KGYKGLDNCR FCPGSQCCVE DGPESIDSII
+     DMDAVCKRVT TLGLDVSVTI SQDAGRYLCD FTYYTSLYRG RGRSAFVHVP PLGKPYNADQ
+     LGRALRAIIE EMLGVLEQAE GDISCCHQL
+//

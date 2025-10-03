@@ -1,0 +1,178 @@
+ID   ENTP6_RAT               Reviewed;         455 AA.
+AC   Q9ER31;
+DT   29-AUG-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   29-MAY-2024, entry version 143.
+DE   RecName: Full=Ectonucleoside triphosphate diphosphohydrolase 6;
+DE            Short=NTPDase 6;
+DE            EC=3.6.1.6 {ECO:0000269|PubMed:11042118};
+DE   AltName: Full=CD39 antigen-like 2;
+GN   Name=Entpd6; Synonyms=Cd39l2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, CATALYTIC ACTIVITY,
+RP   FUNCTION, TISSUE SPECIFICITY, BIOPHYSICOCHEMICAL PROPERTIES, AND COFACTOR.
+RC   STRAIN=Sprague-Dawley; TISSUE=Brain;
+RX   PubMed=11042118; DOI=10.1042/bj3510639;
+RA   Braun N., Fengler S., Ebeling C., Servos J., Zimmermann H.;
+RT   "Sequencing, functional expression and characterization of rat NTPDase6, a
+RT   nucleoside diphosphatase and novel member of the ecto-nucleoside
+RT   triphosphate diphosphohydrolase family.";
+RL   Biochem. J. 351:639-647(2000).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of nucleoside triphosphates and
+CC       diphosphates in a calcium- or magnesium-dependent manner. Has a strong
+CC       preference for nucleoside diphosphates, preferentially hydrolyzes GDP,
+CC       IDP, and UDP, with slower hydrolysis of CDP, ITP, GTP, CTP, ADP, and
+CC       UTP and virtually no hydrolysis of ATP (PubMed:11042118). The membrane
+CC       bound form might support glycosylation reactions in the Golgi apparatus
+CC       and, when released from cells, might catalyze the hydrolysis of
+CC       extracellular nucleotides (PubMed:11042118).
+CC       {ECO:0000269|PubMed:11042118}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-diphosphate + H2O = a ribonucleoside 5'-
+CC         phosphate + H(+) + phosphate; Xref=Rhea:RHEA:36799,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:58043; EC=3.6.1.6;
+CC         Evidence={ECO:0000269|PubMed:11042118};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + IDP = H(+) + IMP + phosphate; Xref=Rhea:RHEA:35207,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58053, ChEBI:CHEBI:58280; EC=3.6.1.6;
+CC         Evidence={ECO:0000269|PubMed:11042118};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GDP + H2O = GMP + H(+) + phosphate; Xref=Rhea:RHEA:22156,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58115, ChEBI:CHEBI:58189; EC=3.6.1.6;
+CC         Evidence={ECO:0000269|PubMed:11042118};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + UDP = H(+) + phosphate + UMP; Xref=Rhea:RHEA:64876,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57865, ChEBI:CHEBI:58223; EC=3.6.1.6;
+CC         Evidence={ECO:0000269|PubMed:11042118};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:11042118};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:11042118};
+CC       Note=Strongly and equally activated by either Ca(2+) or Mg(2+).
+CC       {ECO:0000269|PubMed:11042118};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=211 uM for GDP {ECO:0000269|PubMed:11042118};
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane
+CC       {ECO:0000269|PubMed:11042118}; Single-pass type II membrane protein
+CC       {ECO:0000255}. Secreted {ECO:0000269|PubMed:11042118}. Cell membrane
+CC       {ECO:0000269|PubMed:11042118}; Single-pass type II membrane protein
+CC       {ECO:0000255}. Note=Exists as a secreted and membrane-bound forms in
+CC       the medium of transfected cells, the secreted form is predominant.
+CC       {ECO:0000269|PubMed:11042118}.
+CC   -!- TISSUE SPECIFICITY: Expressed in heart and brain.
+CC       {ECO:0000269|PubMed:11042118}.
+CC   -!- PTM: Might be cleaved at the N-terminus, retained in an intracellular
+CC       membrane compartment and in addition be released into the extracellular
+CC       medium. {ECO:0000269|PubMed:11042118}.
+CC   -!- PTM: N-glycosylated. {ECO:0000250|UniProtKB:O75354}.
+CC   -!- SIMILARITY: Belongs to the GDA1/CD39 NTPase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ277748; CAC16598.1; -; mRNA.
+DR   RefSeq; NP_445950.1; NM_053498.1.
+DR   RefSeq; XP_006235280.1; XM_006235218.3.
+DR   AlphaFoldDB; Q9ER31; -.
+DR   SMR; Q9ER31; -.
+DR   STRING; 10116.ENSRNOP00000009946; -.
+DR   GlyCosmos; Q9ER31; 2 sites, No reported glycans.
+DR   GlyGen; Q9ER31; 2 sites.
+DR   PhosphoSitePlus; Q9ER31; -.
+DR   PaxDb; 10116-ENSRNOP00000009946; -.
+DR   Ensembl; ENSRNOT00000009946.6; ENSRNOP00000009946.3; ENSRNOG00000007427.6.
+DR   Ensembl; ENSRNOT00055040450; ENSRNOP00055032861; ENSRNOG00055023532.
+DR   Ensembl; ENSRNOT00060002839; ENSRNOP00060001849; ENSRNOG00060001847.
+DR   GeneID; 85260; -.
+DR   KEGG; rno:85260; -.
+DR   UCSC; RGD:619725; rat.
+DR   AGR; RGD:619725; -.
+DR   CTD; 955; -.
+DR   RGD; 619725; Entpd6.
+DR   eggNOG; KOG1385; Eukaryota.
+DR   GeneTree; ENSGT01110000267162; -.
+DR   HOGENOM; CLU_010246_0_2_1; -.
+DR   InParanoid; Q9ER31; -.
+DR   OMA; VVYIKWH; -.
+DR   OrthoDB; 180318at2759; -.
+DR   PhylomeDB; Q9ER31; -.
+DR   TreeFam; TF315029; -.
+DR   Reactome; R-RNO-8850843; Phosphate bond hydrolysis by NTPDase proteins.
+DR   PRO; PR:Q9ER31; -.
+DR   Proteomes; UP000002494; Chromosome 3.
+DR   Bgee; ENSRNOG00000007427; Expressed in frontal cortex and 20 other cell types or tissues.
+DR   GO; GO:0009986; C:cell surface; IDA:RGD.
+DR   GO; GO:0005576; C:extracellular region; ISO:RGD.
+DR   GO; GO:0005615; C:extracellular space; IDA:RGD.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0036384; F:CDP phosphatase activity; IDA:UniProtKB.
+DR   GO; GO:0004382; F:GDP phosphatase activity; IDA:UniProtKB.
+DR   GO; GO:0008894; F:guanosine-5'-triphosphate,3'-diphosphate diphosphatase activity; IDA:RGD.
+DR   GO; GO:1990003; F:IDP phosphatase activity; IDA:UniProtKB.
+DR   GO; GO:0017110; F:nucleoside diphosphate phosphatase activity; IDA:RGD.
+DR   GO; GO:0017111; F:ribonucleoside triphosphate phosphatase activity; IDA:RGD.
+DR   GO; GO:0045134; F:UDP phosphatase activity; IDA:UniProtKB.
+DR   GO; GO:0009134; P:nucleoside diphosphate catabolic process; IBA:GO_Central.
+DR   GO; GO:0051592; P:response to calcium ion; IDA:RGD.
+DR   GO; GO:0032026; P:response to magnesium ion; IDA:RGD.
+DR   CDD; cd00012; NBD_sugar-kinase_HSP70_actin; 1.
+DR   Gene3D; 3.30.420.40; -; 1.
+DR   Gene3D; 3.30.420.150; Exopolyphosphatase. Domain 2; 1.
+DR   InterPro; IPR000407; GDA1_CD39_NTPase.
+DR   PANTHER; PTHR11782; ADENOSINE/GUANOSINE DIPHOSPHATASE; 1.
+DR   PANTHER; PTHR11782:SF99; ECTONUCLEOSIDE TRIPHOSPHATE DIPHOSPHOHYDROLASE 6; 1.
+DR   Pfam; PF01150; GDA1_CD39; 1.
+DR   PROSITE; PS01238; GDA1_CD39_NTPASE; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Cell membrane; Disulfide bond; Glycoprotein; Golgi apparatus;
+KW   Hydrolase; Magnesium; Membrane; Reference proteome; Secreted;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..455
+FT                   /note="Ectonucleoside triphosphate diphosphohydrolase 6"
+FT                   /id="PRO_0000209914"
+FT   TOPO_DOM        1..12
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        13..32
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        33..455
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        196
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:O35795"
+FT   CARBOHYD        192
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        256
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        297..327
+FT                   /evidence="ECO:0000250|UniProtKB:O75354"
+FT   DISULFID        387..401
+FT                   /evidence="ECO:0000250|UniProtKB:O75354"
+SQ   SEQUENCE   455 AA;  49899 MW;  19A22E8BAEF0F77B CRC64;
+     MRKIPNHGTL RMTKVAYPLG LCVGLFIYVA YIKWHRASAA QAFFTIAGAA SGVRWTQQAF
+     SSPDSATRGH EVFYGIMFDA GSTGTRIHVF QFARPPGETP TLTHETFKAL KPGLSAYADD
+     VEKSAQGIQE LLNVAKQHIP YDFWKATPLV LKATAGLRLL PGEKAQKLLQ KVKEVFKASP
+     FLVGDDCVSI MNGTDEGVSA WITVNFLTGS LKTPGSSSVG MLDLGGGSTQ ITFLPRVEGT
+     LQASPPGHLT ALQMFNRTFK LYSYSYLGLG LMSARLAILG GVEGKPAEDD KELVSPCLSP
+     RFRGKWEHAE VTYRISGQKA VGLYELCASR VSEVLRNKVH RTEEAQHVDF YAFSYYYDLA
+     ASFGLIDAEK GGSLVVGDFE IAAKYVCRTL ETQPPSSPFA CMDLTYISLL LHEFGFPGDK
+     VLKLARKIDN VETSWALGAI FHYIDSLKRQ KVPAL
+//

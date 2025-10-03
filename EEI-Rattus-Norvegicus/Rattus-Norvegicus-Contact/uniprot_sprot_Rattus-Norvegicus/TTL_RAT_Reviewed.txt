@@ -1,0 +1,113 @@
+ID   TTL_RAT                 Reviewed;         377 AA.
+AC   Q9QXJ0; Q9Z1E5;
+DT   02-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   24-JUL-2024, entry version 112.
+DE   RecName: Full=Tubulin--tyrosine ligase;
+DE            Short=TTL;
+DE            EC=6.3.2.25 {ECO:0000269|PubMed:9108330};
+GN   Name=Ttl;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Olfactory bulb;
+RX   PubMed=12512949; DOI=10.1023/a:1021640203644;
+RA   Mas C.R., Arregui C.O., Filiberti A., Argarana C.E., Barra H.S.;
+RT   "Cloning of rat olfactory bulb tubulin tyrosine ligase cDNA: a dominant
+RT   negative mutant and an antisense cDNA increase the proliferation rate of
+RT   cells in culture.";
+RL   Neurochem. Res. 27:1453-1458(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-220, FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=Wistar; TISSUE=Brain;
+RX   PubMed=9108330; DOI=10.1046/j.1440-169x.1997.t01-1-00005.x;
+RA   Arregui C.O., Mas C.R., Argarana C.E., Barra H.S.;
+RT   "Tubulin tyrosine ligase: protein and mRNA expression in developing rat
+RT   skeletal muscle.";
+RL   Dev. Growth Differ. 39:167-178(1997).
+CC   -!- FUNCTION: Catalyzes the post-translational addition of a tyrosine to
+CC       the C-terminal end of detyrosinated alpha-tubulin.
+CC       {ECO:0000269|PubMed:9108330}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + C-terminal L-alpha-aminoacyl-L-glutamyl-L-glutamyl-
+CC         [tubulin] + L-tyrosine = ADP + C-terminal L-alpha-aminoacyl-L-
+CC         glutamyl-L-glutamyl-L-tyrosyl-[tubulin] + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:17605, Rhea:RHEA-COMP:16434, Rhea:RHEA-COMP:16435,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58315, ChEBI:CHEBI:149554, ChEBI:CHEBI:149555,
+CC         ChEBI:CHEBI:456216; EC=6.3.2.25;
+CC         Evidence={ECO:0000269|PubMed:9108330};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P38584};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000250|UniProtKB:P38584};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:P38584}.
+CC   -!- SIMILARITY: Belongs to the tubulin--tyrosine ligase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF207605; AAF18465.1; -; mRNA.
+DR   EMBL; U53214; AAD10402.1; -; mRNA.
+DR   RefSeq; NP_612545.1; NM_138536.1.
+DR   AlphaFoldDB; Q9QXJ0; -.
+DR   SMR; Q9QXJ0; -.
+DR   STRING; 10116.ENSRNOP00000024695; -.
+DR   PhosphoSitePlus; Q9QXJ0; -.
+DR   jPOST; Q9QXJ0; -.
+DR   PaxDb; 10116-ENSRNOP00000024695; -.
+DR   GeneID; 171572; -.
+DR   KEGG; rno:171572; -.
+DR   UCSC; RGD:621113; rat.
+DR   AGR; RGD:621113; -.
+DR   CTD; 150465; -.
+DR   RGD; 621113; Ttl.
+DR   eggNOG; KOG2157; Eukaryota.
+DR   InParanoid; Q9QXJ0; -.
+DR   OrthoDB; 160834at2759; -.
+DR   PhylomeDB; Q9QXJ0; -.
+DR   BRENDA; 6.3.2.25; 5301.
+DR   PRO; PR:Q9QXJ0; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005876; C:spindle microtubule; ISO:RGD.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004835; F:tubulin-tyrosine ligase activity; IDA:RGD.
+DR   GO; GO:0000226; P:microtubule cytoskeleton organization; ISO:RGD.
+DR   GO; GO:0045931; P:positive regulation of mitotic cell cycle; ISO:RGD.
+DR   GO; GO:0043687; P:post-translational protein modification; ISO:RGD.
+DR   GO; GO:0030516; P:regulation of axon extension; ISO:RGD.
+DR   GO; GO:0090235; P:regulation of metaphase plate congression; ISO:RGD.
+DR   Gene3D; 3.40.50.11480; -; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 1.
+DR   InterPro; IPR004344; TTL/TTLL_fam.
+DR   InterPro; IPR052492; Tubulin-tyrosine_ligase.
+DR   PANTHER; PTHR46570; TUBULIN--TYROSINE LIGASE; 1.
+DR   PANTHER; PTHR46570:SF1; TUBULIN--TYROSINE LIGASE; 1.
+DR   Pfam; PF03133; TTL; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 1.
+DR   PROSITE; PS51221; TTL; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Ligase; Magnesium; Nucleotide-binding; Potassium;
+KW   Reference proteome.
+FT   CHAIN           1..377
+FT                   /note="Tubulin--tyrosine ligase"
+FT                   /id="PRO_0000212437"
+FT   DOMAIN          3..370
+FT                   /note="TTL"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00568"
+SQ   SEQUENCE   377 AA;  43118 MW;  1CB3B914D088A316 CRC64;
+     MYTFVVRQEN SSVYAEVSRL LLATGYWKRL RRDNPRFNLM LGGRNRLPFG RLGHEPGLAQ
+     LVNYYRGADK LCRKASLVKL VKTSPELSES CSWFPESYVI HPTNLKTPVA PAQNGIQLPV
+     SNSRTDEREF FLASYNRKKE DGEGNVWIAK SSAGAKGEGI LISSEASELL DFIDNQGQVH
+     VIQKYLEHPL LLEPGHRKFD IRSWVLVDHQ YNIYLYREGV LRTASEPYHV DNFQDKTCHL
+     TNHCIQKEYS KNYGKYEEGN EMFFEEFNQY LTSALNITLE NSILLQIKHI IRSCLMSVEP
+     AISTKHLPYQ SFQLLGFDFM VDEELKVWLI EVNGAPACAQ KLYAELCQGI VDIAISSVFP
+     PPDTEQVPQQ PAAFMKL
+//

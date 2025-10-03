@@ -1,0 +1,187 @@
+ID   NOX3_RAT                Reviewed;         568 AA.
+AC   Q672K1;
+DT   21-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   24-JUL-2024, entry version 105.
+DE   RecName: Full=NADPH oxidase 3;
+DE            EC=1.6.3.-;
+GN   Name=Nox3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley; TISSUE=Inner ear;
+RX   PubMed=15326186; DOI=10.1074/jbc.m403046200;
+RA   Banfi B., Malgrange B., Knisz J., Steger K., Dubois-Dauphin M.,
+RA   Krause K.-H.;
+RT   "NOX3, a superoxide-generating NADPH oxidase of the inner ear.";
+RL   J. Biol. Chem. 279:46065-46072(2004).
+CC   -!- FUNCTION: NADPH oxidase that catalyzes the generation of superoxide
+CC       from molecular oxygen utilizing NADPH as an electron donor, upon
+CC       formation of a complex with CYBA/p22phox (By similarity). Plays a role
+CC       in the biogenesis of otoconia/otolith, which are crystalline structures
+CC       of the inner ear involved in the perception of gravity (By similarity).
+CC       {ECO:0000250|UniProtKB:Q672J9}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADPH + 2 O2 = H(+) + NADP(+) + 2 superoxide;
+CC         Xref=Rhea:RHEA:63180, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:18421, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         Evidence={ECO:0000250|UniProtKB:Q672J9};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000250|UniProtKB:Q672J9};
+CC   -!- ACTIVITY REGULATION: Activated by the ototoxic drug cisplatin.
+CC       Activated by NOXO1. Cooperatively activated by NCF1 and NCF2 or NOXA1
+CC       in a phorbol 12-myristate 13-acetate (PMA)-dependent manner. Inhibited
+CC       by diphenyleneiodonium chloride (By similarity).
+CC       {ECO:0000250|UniProtKB:Q672J9}.
+CC   -!- SUBUNIT: Forms a heterodimer with CYBA/p22phox which is essential for
+CC       its activity and cell membrane localization.
+CC       {ECO:0000250|UniProtKB:Q672J9}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q672J9};
+CC       Multi-pass membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the inner ear by the spiral glanglia
+CC       and the organ of Corti. {ECO:0000269|PubMed:15326186}.
+CC   -!- PTM: N-glycosylated in a CYBA/p22phox-dependent manner.
+CC       {ECO:0000250|UniProtKB:Q672J9}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY573239; AAT80343.1; -; mRNA.
+DR   RefSeq; NP_001004216.1; NM_001004216.1.
+DR   AlphaFoldDB; Q672K1; -.
+DR   SMR; Q672K1; -.
+DR   STRING; 10116.ENSRNOP00000022148; -.
+DR   PeroxiBase; 5407; RnoNOx03.
+DR   GlyCosmos; Q672K1; 1 site, No reported glycans.
+DR   GlyGen; Q672K1; 1 site.
+DR   PhosphoSitePlus; Q672K1; -.
+DR   PaxDb; 10116-ENSRNOP00000022148; -.
+DR   Ensembl; ENSRNOT00000022148.5; ENSRNOP00000022148.3; ENSRNOG00000016490.5.
+DR   Ensembl; ENSRNOT00055049847; ENSRNOP00055041045; ENSRNOG00055028772.
+DR   Ensembl; ENSRNOT00060014539; ENSRNOP00060011196; ENSRNOG00060008694.
+DR   Ensembl; ENSRNOT00065048343; ENSRNOP00065039666; ENSRNOG00065028038.
+DR   GeneID; 292279; -.
+DR   KEGG; rno:292279; -.
+DR   UCSC; RGD:1303190; rat.
+DR   AGR; RGD:1303190; -.
+DR   CTD; 50508; -.
+DR   RGD; 1303190; Nox3.
+DR   eggNOG; KOG0039; Eukaryota.
+DR   GeneTree; ENSGT00940000160501; -.
+DR   HOGENOM; CLU_005646_3_1_1; -.
+DR   InParanoid; Q672K1; -.
+DR   OMA; DENQAIH; -.
+DR   OrthoDB; 367877at2759; -.
+DR   PhylomeDB; Q672K1; -.
+DR   BRENDA; 1.6.3.1; 5301.
+DR   Reactome; R-RNO-5668599; RHO GTPases Activate NADPH Oxidases.
+DR   Reactome; R-RNO-9013149; RAC1 GTPase cycle.
+DR   PRO; PR:Q672K1; -.
+DR   Proteomes; UP000002494; Chromosome 1.
+DR   Bgee; ENSRNOG00000016490; Expressed in frontal cortex.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0043020; C:NADPH oxidase complex; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0020037; F:heme binding; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016491; F:oxidoreductase activity; TAS:RGD.
+DR   GO; GO:0016175; F:superoxide-generating NAD(P)H oxidase activity; ISS:UniProtKB.
+DR   GO; GO:0106292; F:superoxide-generating NADPH oxidase activity; IEA:RHEA.
+DR   GO; GO:0006952; P:defense response; IBA:GO_Central.
+DR   GO; GO:0009590; P:detection of gravity; ISO:RGD.
+DR   GO; GO:0048840; P:otolith development; ISO:RGD.
+DR   GO; GO:0009629; P:response to gravity; ISO:RGD.
+DR   GO; GO:0042554; P:superoxide anion generation; IBA:GO_Central.
+DR   GO; GO:0001659; P:temperature homeostasis; ISO:RGD.
+DR   CDD; cd06186; NOX_Duox_like_FAD_NADP; 1.
+DR   Gene3D; 3.40.50.80; Nucleotide-binding domain of ferredoxin-NADP reductase (FNR) module; 1.
+DR   Gene3D; 2.40.30.10; Translation factors; 1.
+DR   InterPro; IPR000778; Cyt_b245_heavy_chain.
+DR   InterPro; IPR013112; FAD-bd_8.
+DR   InterPro; IPR017927; FAD-bd_FR_type.
+DR   InterPro; IPR013130; Fe3_Rdtase_TM_dom.
+DR   InterPro; IPR013121; Fe_red_NAD-bd_6.
+DR   InterPro; IPR039261; FNR_nucleotide-bd.
+DR   InterPro; IPR050369; RBOH/FRE.
+DR   InterPro; IPR017938; Riboflavin_synthase-like_b-brl.
+DR   PANTHER; PTHR11972; NADPH OXIDASE; 1.
+DR   PANTHER; PTHR11972:SF12; NADPH OXIDASE 3; 1.
+DR   Pfam; PF08022; FAD_binding_8; 1.
+DR   Pfam; PF01794; Ferric_reduct; 1.
+DR   Pfam; PF08030; NAD_binding_6; 1.
+DR   PRINTS; PR00466; GP91PHOX.
+DR   SFLD; SFLDS00052; Ferric_Reductase_Domain; 1.
+DR   SFLD; SFLDG01168; Ferric_reductase_subgroup_(FRE; 1.
+DR   SUPFAM; SSF52343; Ferredoxin reductase-like, C-terminal NADP-linked domain; 1.
+DR   SUPFAM; SSF63380; Riboflavin synthase domain-like; 1.
+DR   PROSITE; PS51384; FAD_FR; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Glycoprotein; Heme; Iron; Membrane; Metal-binding;
+KW   Oxidoreductase; Reference proteome; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..568
+FT                   /note="NADPH oxidase 3"
+FT                   /id="PRO_0000227598"
+FT   TOPO_DOM        1..12
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        13..33
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        34..49
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        50..70
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        71..103
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        104..124
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        125..167
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        168..188
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        189..201
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        202..222
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        223..395
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        396..416
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        417..568
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          55..284
+FT                   /note="Ferric oxidoreductase"
+FT   DOMAIN          285..395
+FT                   /note="FAD-binding FR-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00716"
+FT   CARBOHYD        238
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   568 AA;  64416 MW;  1E19B013E7320EE2 CRC64;
+     MPTCWILNES VSFVVALLWL AINIYLFIDT FCWYAEEESF FYTRVILGSA LAWARASAVC
+     LNFNCMLILL PVSRNFVSLV RGTSVCCRGP WRRQLDKNLK FHKLVAYGIA VNSVIHIVAH
+     LFNLERYHLG QAKDAEGLLA ALSKLGNAPN ESYLNPVRTL YTGTTTQLLM TVSGITGLVI
+     SLALILIMTS STEFIRQSSY ELFWYTHHIF IFLFISLAIH GGGRIIRGQT PESLRLHNVT
+     FCRDHFDEWQ EAASCPVPQF SGKEPSAWKW TLGPVVLYAC EIIIRFWRSH QEVVITKVVS
+     HPSAVLELHM KKRDFKMAPG QYIFIQCPSI SPLEWHPFTL TSAPQEDFFS VHIRASGDWT
+     EALLKAFGAE GQAPSELCSM PRLAVDGPFG GSLADVFHYP VSVCIATGIG VTPFASLLKS
+     VWYKCCESQS LPGLSKVYFY WICRDAAAFE WFADLLLSLE TQMSEQGKAH LLSYHIYLTG
+     WDEYQAIHIA LHWDESLDVI TGLKQKTFYG RPNWNEEFKQ IAYNHPSSSI GVFFCGPKAM
+     SKTLQKMCRL YSSSDPRGVH FYYNKENF
+//

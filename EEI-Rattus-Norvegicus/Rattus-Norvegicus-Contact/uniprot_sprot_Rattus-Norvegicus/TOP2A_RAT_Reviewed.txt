@@ -1,0 +1,609 @@
+ID   TOP2A_RAT               Reviewed;        1526 AA.
+AC   P41516;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   02-OCT-2024, entry version 198.
+DE   RecName: Full=DNA topoisomerase 2-alpha;
+DE            EC=5.6.2.2 {ECO:0000255|PROSITE-ProRule:PRU00995};
+DE   AltName: Full=DNA topoisomerase II, alpha isozyme;
+GN   Name=Top2a; Synonyms=Top-2, Top2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley; TISSUE=Testis;
+RX   PubMed=8390253; DOI=10.1006/bbrc.1993.1694;
+RA   Park S.H., Yoon J.H., Kwon Y.D., Park S.D.;
+RT   "Nucleotide sequence analysis of the cDNA for rat DNA topoisomerase II.";
+RL   Biochem. Biophys. Res. Commun. 193:787-793(1993).
+RN   [2]
+RP   INTERACTION WITH HNRNPU.
+RX   PubMed=20554522; DOI=10.1074/jbc.m110.112979;
+RA   Kawano S., Miyaji M., Ichiyasu S., Tsutsui K.M., Tsutsui K.;
+RT   "Regulation of DNA Topoisomerase IIbeta through RNA-dependent association
+RT   with heterogeneous nuclear ribonucleoprotein U (hnRNP U).";
+RL   J. Biol. Chem. 285:26451-26460(2010).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-4; SER-1210; SER-1328;
+RP   SER-1333; THR-1350; SER-1383 AND SER-1387, AND IDENTIFICATION BY MASS
+RP   SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Key decatenating enzyme that alters DNA topology by binding
+CC       to two double-stranded DNA molecules, generating a double-stranded
+CC       break in one of the strands, passing the intact strand through the
+CC       broken strand, and religating the broken strand (By similarity). May
+CC       play a role in regulating the period length of BMAL1 transcriptional
+CC       oscillation (By similarity). {ECO:0000250|UniProtKB:P11388,
+CC       ECO:0000250|UniProtKB:Q01320}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP-dependent breakage, passage and rejoining of double-
+CC         stranded DNA.; EC=5.6.2.2; Evidence={ECO:0000255|PROSITE-
+CC         ProRule:PRU00995};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00995};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00995};
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00995};
+CC       Note=Binds two Mg(2+) per subunit. The magnesium ions form salt bridges
+CC       with both the protein and the DNA. Can also accept other divalent metal
+CC       cations, such as Mn(2+) or Ca(2+). {ECO:0000255|PROSITE-
+CC       ProRule:PRU00995};
+CC   -!- SUBUNIT: Homodimer (By similarity). Interacts with COPS5 (By
+CC       similarity). Interacts with RECQL5; this stimulates DNA decatenation
+CC       (By similarity). Interacts with SETMAR; stimulates the topoisomerase
+CC       activity (By similarity). Interacts with DHX9; this interaction occurs
+CC       in a E2 enzyme UBE2I- and RNA-dependent manner, negatively regulates
+CC       DHX9-mediated double-stranded DNA and RNA duplex helicase activity and
+CC       stimulates TOP2A-mediated supercoiled DNA relaxation activity (By
+CC       similarity). Interacts with HNRNPU (via C-terminus); this interaction
+CC       protects the topoisomerase TOP2A from degradation and positively
+CC       regulates the relaxation of supercoiled DNA in a RNA-dependent manner
+CC       (PubMed:20554522). Interacts with MCM3AP (By similarity). Interacts
+CC       with ERCC6 (By similarity). Interacts with PLSCR1 (By similarity).
+CC       Interacts with GCNA; this interaction allows the resolution of
+CC       topoisomerase II (TOP2A) DNA-protein cross-links (By similarity).
+CC       Interacts with POL1RA/RPA1 (via dock II) and UBTF in the context of Pol
+CC       I complex; may assist Pol I transcription initiation by releasing
+CC       supercoils occurring during DNA unwinding. Interacts with TPRN; TPRN
+CC       interacts with a number of DNA damage response proteins, is recruited
+CC       to sites of DNA damage and may play a role in DNA damage repair (By
+CC       similarity). {ECO:0000250|UniProtKB:P11388,
+CC       ECO:0000250|UniProtKB:Q01320, ECO:0000269|PubMed:20554522}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P11388}.
+CC       Nucleus, nucleoplasm {ECO:0000250|UniProtKB:P11388}. Nucleus
+CC       {ECO:0000250|UniProtKB:P11388}. Nucleus, nucleolus
+CC       {ECO:0000250|UniProtKB:P11388}.
+CC   -!- PTM: Phosphorylation has no effect on catalytic activity.
+CC       {ECO:0000250|UniProtKB:P11388}.
+CC   -!- MISCELLANEOUS: Eukaryotic topoisomerase I and II can relax both
+CC       negative and positive supercoils, whereas prokaryotic enzymes relax
+CC       only negative supercoils.
+CC   -!- SIMILARITY: Belongs to the type II topoisomerase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z46372; CAA86496.1; -; mRNA.
+DR   EMBL; Z19552; CAA79611.1; -; mRNA.
+DR   EMBL; Z29676; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   PIR; A48536; A48536.
+DR   PIR; JN0598; JN0598.
+DR   RefSeq; NP_071519.2; NM_022183.2.
+DR   AlphaFoldDB; P41516; -.
+DR   SMR; P41516; -.
+DR   BioGRID; 261906; 4.
+DR   IntAct; P41516; 1.
+DR   STRING; 10116.ENSRNOP00000069963; -.
+DR   ChEMBL; CHEMBL3400; -.
+DR   iPTMnet; P41516; -.
+DR   PhosphoSitePlus; P41516; -.
+DR   jPOST; P41516; -.
+DR   PaxDb; 10116-ENSRNOP00000040257; -.
+DR   AGR; RGD:62048; -.
+DR   RGD; 62048; Top2a.
+DR   eggNOG; KOG0355; Eukaryota.
+DR   InParanoid; P41516; -.
+DR   OrthoDB; 1944951at2759; -.
+DR   PhylomeDB; P41516; -.
+DR   BRENDA; 5.6.2.2; 5301.
+DR   BRENDA; 5.99.1.3; 5301.
+DR   Reactome; R-RNO-4615885; SUMOylation of DNA replication proteins.
+DR   PRO; PR:P41516; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005814; C:centriole; ISO:RGD.
+DR   GO; GO:0000775; C:chromosome, centromeric region; ISO:RGD.
+DR   GO; GO:0000793; C:condensed chromosome; ISO:RGD.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0009330; C:DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) complex; IDA:RGD.
+DR   GO; GO:0001673; C:male germ cell nucleus; ISO:RGD.
+DR   GO; GO:0000228; C:nuclear chromosome; ISO:RGD.
+DR   GO; GO:0005730; C:nucleolus; ISO:RGD.
+DR   GO; GO:0005654; C:nucleoplasm; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:RGD.
+DR   GO; GO:1990904; C:ribonucleoprotein complex; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IDA:RGD.
+DR   GO; GO:0008094; F:ATP-dependent activity, acting on DNA; ISO:RGD.
+DR   GO; GO:0003682; F:chromatin binding; IDA:RGD.
+DR   GO; GO:0003677; F:DNA binding; IDA:RGD.
+DR   GO; GO:0008301; F:DNA binding, bending; ISS:UniProtKB.
+DR   GO; GO:0003916; F:DNA topoisomerase activity; IDA:RGD.
+DR   GO; GO:0003918; F:DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity; IDA:RGD.
+DR   GO; GO:0000287; F:magnesium ion binding; ISS:UniProtKB.
+DR   GO; GO:0046982; F:protein heterodimerization activity; ISO:RGD.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:0005080; F:protein kinase C binding; ISO:RGD.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IDA:RGD.
+DR   GO; GO:0043130; F:ubiquitin binding; ISO:RGD.
+DR   GO; GO:0030263; P:apoptotic chromosome condensation; ISO:RGD.
+DR   GO; GO:0021707; P:cerebellar granule cell differentiation; IEP:RGD.
+DR   GO; GO:0021702; P:cerebellar Purkinje cell differentiation; IEP:RGD.
+DR   GO; GO:0030261; P:chromosome condensation; ISO:RGD.
+DR   GO; GO:0007059; P:chromosome segregation; ISO:RGD.
+DR   GO; GO:0006974; P:DNA damage response; ISO:RGD.
+DR   GO; GO:0006266; P:DNA ligation; ISO:RGD.
+DR   GO; GO:0006265; P:DNA topological change; IDA:RGD.
+DR   GO; GO:0040016; P:embryonic cleavage; ISO:RGD.
+DR   GO; GO:0007143; P:female meiotic nuclear division; ISO:RGD.
+DR   GO; GO:0002244; P:hematopoietic progenitor cell differentiation; ISO:RGD.
+DR   GO; GO:1905463; P:negative regulation of DNA duplex unwinding; ISS:UniProtKB.
+DR   GO; GO:0043065; P:positive regulation of apoptotic process; ISO:RGD.
+DR   GO; GO:0045870; P:positive regulation of single stranded viral RNA replication via double stranded DNA intermediate; ISO:RGD.
+DR   GO; GO:0045944; P:positive regulation of transcription by RNA polymerase II; ISO:RGD.
+DR   GO; GO:0042752; P:regulation of circadian rhythm; ISS:UniProtKB.
+DR   GO; GO:0000712; P:resolution of meiotic recombination intermediates; IBA:GO_Central.
+DR   GO; GO:0010212; P:response to ionizing radiation; IEP:RGD.
+DR   GO; GO:0071107; P:response to parathyroid hormone; IEP:RGD.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; IEP:RGD.
+DR   GO; GO:0048511; P:rhythmic process; IEA:UniProtKB-KW.
+DR   GO; GO:0000819; P:sister chromatid segregation; IBA:GO_Central.
+DR   CDD; cd16930; HATPase_TopII-like; 1.
+DR   CDD; cd00187; TOP4c; 1.
+DR   CDD; cd03481; TopoIIA_Trans_ScTopoIIA; 1.
+DR   CDD; cd03365; TOPRIM_TopoIIA; 1.
+DR   Gene3D; 3.30.1360.40; -; 1.
+DR   Gene3D; 3.30.1490.30; -; 1.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.40.50.670; -; 1.
+DR   Gene3D; 3.30.565.10; Histidine kinase-like ATPase, C-terminal domain; 1.
+DR   Gene3D; 3.90.199.10; Topoisomerase II, domain 5; 1.
+DR   Gene3D; 1.10.268.10; Topoisomerase, domain 3; 1.
+DR   InterPro; IPR050634; DNA_Topoisomerase_II.
+DR   InterPro; IPR012542; DTHCT.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR036890; HATPase_C_sf.
+DR   InterPro; IPR020568; Ribosomal_Su5_D2-typ_SF.
+DR   InterPro; IPR014721; Ribsml_uS5_D2-typ_fold_subgr.
+DR   InterPro; IPR001241; Topo_IIA.
+DR   InterPro; IPR013760; Topo_IIA-like_dom_sf.
+DR   InterPro; IPR013758; Topo_IIA_A/C_ab.
+DR   InterPro; IPR013757; Topo_IIA_A_a_sf.
+DR   InterPro; IPR013759; Topo_IIA_B_C.
+DR   InterPro; IPR013506; Topo_IIA_bsu_dom2.
+DR   InterPro; IPR002205; Topo_IIA_dom_A.
+DR   InterPro; IPR001154; TopoII_euk.
+DR   InterPro; IPR018522; TopoIIA_CS.
+DR   InterPro; IPR031660; TOPRIM_C.
+DR   InterPro; IPR006171; TOPRIM_dom.
+DR   InterPro; IPR034157; TOPRIM_TopoII.
+DR   PANTHER; PTHR10169:SF61; DNA TOPOISOMERASE 2-ALPHA; 1.
+DR   PANTHER; PTHR10169; DNA TOPOISOMERASE/GYRASE; 1.
+DR   Pfam; PF00204; DNA_gyraseB; 1.
+DR   Pfam; PF00521; DNA_topoisoIV; 1.
+DR   Pfam; PF08070; DTHCT; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF01751; Toprim; 1.
+DR   Pfam; PF16898; TOPRIM_C; 1.
+DR   PRINTS; PR01158; TOPISMRASEII.
+DR   PRINTS; PR00418; TPI2FAMILY.
+DR   SMART; SM00433; TOP2c; 1.
+DR   SMART; SM00434; TOP4c; 1.
+DR   SUPFAM; SSF55874; ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase; 1.
+DR   SUPFAM; SSF54211; Ribosomal protein S5 domain 2-like; 1.
+DR   SUPFAM; SSF56719; Type II DNA topoisomerase; 1.
+DR   PROSITE; PS52040; TOPO_IIA; 1.
+DR   PROSITE; PS00177; TOPOISOMERASE_II; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Biological rhythms; Cytoplasm; DNA-binding;
+KW   Isomerase; Isopeptide bond; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Nucleus; Phosphoprotein; Reference proteome; Topoisomerase;
+KW   Ubl conjugation.
+FT   CHAIN           1..1526
+FT                   /note="DNA topoisomerase 2-alpha"
+FT                   /id="PRO_0000145366"
+FT   DOMAIN          453..570
+FT                   /note="Toprim"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   DOMAIN          713..1168
+FT                   /note="Topo IIA-type catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01384"
+FT   REGION          340..342
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   REGION          988..997
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   REGION          1087..1120
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1229..1526
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1429..1435
+FT                   /note="Interaction with PLSCR1"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   COMPBIAS        1229..1244
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1252..1270
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1286..1304
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1305..1328
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1329..1346
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1364..1378
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1401..1430
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1461..1526
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        803
+FT                   /note="O-(5'-phospho-DNA)-tyrosine intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01384"
+FT   BINDING         90
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   BINDING         118
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   BINDING         146..148
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   BINDING         159..166
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   BINDING         374..376
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   BINDING         459
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   BINDING         539
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   BINDING         539
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   BINDING         541
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   SITE            487
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   SITE            490
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   SITE            659
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   SITE            660
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   SITE            721
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   SITE            755
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   SITE            761
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   SITE            802
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P06786"
+FT   SITE            854
+FT                   /note="Important for DNA bending; intercalates between base
+FT                   pairs of target DNA"
+FT                   /evidence="ECO:0000250|UniProtKB:P06786"
+FT   SITE            929
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00995"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         4
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         280
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         1210
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1244
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q01320"
+FT   MOD_RES         1291
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         1293
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         1295
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         1298
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         1323
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q01320"
+FT   MOD_RES         1328
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1333
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1350
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1370
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         1373
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         1383
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1387
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1418
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q01320"
+FT   MOD_RES         1438
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q01320"
+FT   MOD_RES         1465
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         1467
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         1470
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         1472
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   MOD_RES         1521
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        17
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        154
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        155
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        350
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        384
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        395
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        414
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        416
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        423
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        438
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        464
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        478
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        527
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        582
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        597
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        612
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        620
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        623
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        630
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        637
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        653
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        660
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        674
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1073
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1193
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1201
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1237
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO1); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1237
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1272
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1279
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1282
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1359
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1363
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1369
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1381
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1418
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1438
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1450
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1455
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1480
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+FT   CROSSLNK        1488
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11388"
+SQ   SEQUENCE   1526 AA;  173221 MW;  A1961ABBDB1B050F CRC64;
+     MELSPLQPVN ENMLLNKKKN EDGKKRLSVE RIYQKKTQLE HILLRPDTYI GSVELVTQQM
+     WVYDEDVGIN YREVTFVPGL YKIFDEILVN AADNKQRDPK MSCIRVTMMR NNLISIWNNG
+     KGIPVVEHKV EKMYVPALIF GQLLTSSNYD DDEKKVTGGR NGYGAKLCNI FSTKFTVETA
+     SREYKKMFKQ TWMDNMGRAG DMELKPFSGE DYTCITFQPD LSKFKMQSLD KDIVALMVRR
+     AYDIAGSTKD VKVFLNGNRL PVKGFRSYVD MYLKDKVDET GNALKVVHEQ VNPRWEVCLT
+     MSEKGFQQIS FVNSIATSKG GRHVDYVADQ IVSKLVDVVK KKNKGGVAVK ADQVKNHMWI
+     FGNAVIENPT FDSQTKENMT LQAKSFGSTC QLSEKFIKAA IGCGIVESIL NWVKFKAQIQ
+     LNKKCSAVKH NRIKGIPKLD DANDAGSRNS AECTLILTEG DSAKTLAVSG LGVVGRDKYG
+     VFPLRGKILN VREASHKQIM ENAEINNIIK IVGLQYKKNY EDEDSLKTLR YGKIMIMTDQ
+     DQDGSHIKGL LINFIHHNWP SLLRHRFLEE FITPIVKVSK NKQEIAFYSL PEFEEWKSTN
+     PNHKKWKVKY YKGLGTSTSK EAKEYFANMK RHRIQFKYSG PEDDAAISLA FSKKQVDDRK
+     EWLTNFMEDR RQRKLLGLPE DYLYGQTTMY LTYNDFINKE LILFSNSDNE RSIPSMVDGL
+     KPGQRKVLFT CFKRNDKREV KVAQLAGSVA EMSSYHHGEM SLMMTIINLA QNFVGSNNLN
+     LLQPIGQFGT RLHGGKDSAS PRYIFTMLSP LARLLFPSKD DHTLRFLYDD NQRVEPEWYI
+     PIIPMVLING AEGIGTGWSC KIPNFDVREV VNNIRRLLDG EEPLPMLPSY KNYKGTIEEL
+     ASNQYVINGE VAILNSTTIE ITELPIRTWT QTYKEQVLEP MLNGTEKTPP LITDYREYHT
+     DTTVKFVIKM TEEKLAEAER VGLHKVFKLQ TSLTCNSMVL FDHVGCLKKY DTVLDILRDF
+     FELRLKYYGL RKEWLLGMLG AESSKLNNQA RFILEKIDGK IVIENKPKKE LIKVLIQRGY
+     DSDPVKAWKE AQQKVPEEEE NEENEESESE STSPAAESGP TFNYLLDMPL WYLTKEKKDE
+     LCKQRDEKEQ ELNTLKKKTP SDLWKEDLAA FVEELEVVEA KEKQDEQVGL PGKGVKAKGK
+     KAQISEVLPS PVGKRVIPQV TMEMRAEAEK KIRRKIKSEN VEGTPAEDGA EPGLRQRLEK
+     RQKREPGTRA KKQTTLPFKP IKKAQKQNPW SDSESDMSSN ESNFDVPPRE KEPRIAATKA
+     KFTADLDSDD DFSGLDEKDE DEDFFPLDDT PPKTKMPPKN TKKALKPQKS STSVDLESDG
+     KDSVPASPGA SAADVPAETE PSKPSSKQTV GVKRTITKGQ SLTSTAGTKK RAVPKETKSD
+     SALNAHVSKK PAPAKAKNSR KRMPSSSDSS DSEFEKAISK GATSKKLKGE ERDFHVDLDD
+     TVAPRAKSGR ARKPIKYLEE SDDDLF
+//

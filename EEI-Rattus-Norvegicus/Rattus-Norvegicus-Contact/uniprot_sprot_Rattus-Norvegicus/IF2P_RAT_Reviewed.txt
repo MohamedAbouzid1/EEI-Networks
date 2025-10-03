@@ -1,0 +1,341 @@
+ID   IF2P_RAT                Reviewed;        1216 AA.
+AC   B2GUV7; A0JN31; P70488;
+DT   25-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   24-JUL-2024, entry version 112.
+DE   RecName: Full=Eukaryotic translation initiation factor 5B;
+DE            Short=eIF-5B;
+DE            EC=3.6.5.3;
+DE   AltName: Full=Annexin V-binding protein ABP-7;
+DE   AltName: Full=Translation initiation factor IF-2;
+GN   Name=Eif5b; Synonyms=If2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Embryo, Liver, and Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 101-334, AND INTERACTION WITH ANXA5.
+RC   STRAIN=Wistar; TISSUE=Brain;
+RX   PubMed=8667030; DOI=10.1046/j.1471-4159.1996.67010089.x;
+RA   Ohsawa K., Imai Y., Ito D., Kohsaka S.;
+RT   "Molecular cloning and characterization of annexin V-binding proteins with
+RT   highly hydrophilic peptide structure.";
+RL   J. Neurochem. 67:89-97(1996).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-544; SER-553 AND SER-556, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Plays a role in translation initiation. Ribosome-dependent
+CC       GTPase that promotes the joining of the 60S ribosomal subunit to the
+CC       pre-initiation complex to form the 80S initiation complex with the
+CC       initiator methionine-tRNA in the P-site base paired to the start codon.
+CC       Together with eIF1A (EIF1AX), actively orients the initiator
+CC       methionine-tRNA in a conformation that allows 60S ribosomal subunit
+CC       joining to form the 80S initiation complex. Is released after formation
+CC       of the 80S initiation complex. Its GTPase activity is not essential for
+CC       ribosomal subunits joining, but GTP hydrolysis is needed for eIF1A
+CC       (EIF1AX) ejection quickly followed by EIF5B release to form elongation-
+CC       competent ribosomes. In contrast to its procaryotic homolog, does not
+CC       promote recruitment of Met-rRNA to the small ribosomal subunit.
+CC       {ECO:0000250|UniProtKB:O60841}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = GDP + H(+) + phosphate; Xref=Rhea:RHEA:19669,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58189; EC=3.6.5.3;
+CC         Evidence={ECO:0000250|UniProtKB:O60841};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:19670;
+CC         Evidence={ECO:0000250|UniProtKB:O60841};
+CC   -!- COFACTOR:
+CC       Name=a monovalent cation; Xref=ChEBI:CHEBI:60242;
+CC         Evidence={ECO:0000250|UniProtKB:G0S8G9};
+CC       Note=Binds 1 monovalent cation per monomer in the active site.
+CC       Structural cofactor that stabilizes the GTP-bound 'on' state. May also
+CC       act as a transition state stabilizer of the hydrolysis reaction.
+CC       {ECO:0000250|UniProtKB:G0S8G9};
+CC   -!- SUBUNIT: Interacts through its C-terminal domain (CTD) with the CTD of
+CC       eIF1A (EIF1AX) or with the CTD of EIF5 (mutually exclusive) through a
+CC       common binding site. Interacts with eIF1A (EIF1AX) from the location of
+CC       the start codon by the 43S complex until the formation of the 80S
+CC       complex (By similarity). Interacts with ANXA5 in a calcium and
+CC       phospholipid-dependent manner (PubMed:8667030).
+CC       {ECO:0000250|UniProtKB:O60841, ECO:0000269|PubMed:8667030}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q05D44}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. IF-2 subfamily.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAI26103.1; Type=Miscellaneous discrepancy; Note=Contaminating sequence. Potential poly-A sequence.; Evidence={ECO:0000305};
+CC       Sequence=AAI67065.1; Type=Miscellaneous discrepancy; Note=Contaminating sequence. Potential poly-A sequence.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC126102; AAI26103.1; ALT_SEQ; mRNA.
+DR   EMBL; BC166424; AAI66424.1; -; mRNA.
+DR   EMBL; BC167065; AAI67065.1; ALT_SEQ; mRNA.
+DR   EMBL; D64061; BAA10937.1; -; mRNA.
+DR   RefSeq; NP_001103611.1; NM_001110141.1.
+DR   AlphaFoldDB; B2GUV7; -.
+DR   SMR; B2GUV7; -.
+DR   BioGRID; 258950; 2.
+DR   IntAct; B2GUV7; 4.
+DR   STRING; 10116.ENSRNOP00000065578; -.
+DR   iPTMnet; B2GUV7; -.
+DR   PhosphoSitePlus; B2GUV7; -.
+DR   jPOST; B2GUV7; -.
+DR   PaxDb; 10116-ENSRNOP00000036844; -.
+DR   PeptideAtlas; B2GUV7; -.
+DR   Ensembl; ENSRNOT00000114110.1; ENSRNOP00000079088.1; ENSRNOG00000023356.6.
+DR   Ensembl; ENSRNOT00065047461; ENSRNOP00065038948; ENSRNOG00065027451.
+DR   GeneID; 308306; -.
+DR   KEGG; rno:308306; -.
+DR   AGR; RGD:735017; -.
+DR   CTD; 9669; -.
+DR   RGD; 735017; Eif5b.
+DR   eggNOG; KOG1144; Eukaryota.
+DR   GeneTree; ENSGT00940000162583; -.
+DR   HOGENOM; CLU_002656_0_1_1; -.
+DR   InParanoid; B2GUV7; -.
+DR   OMA; EFAVMLC; -.
+DR   OrthoDB; 169393at2759; -.
+DR   PhylomeDB; B2GUV7; -.
+DR   TreeFam; TF101535; -.
+DR   Reactome; R-RNO-72706; GTP hydrolysis and joining of the 60S ribosomal subunit.
+DR   PRO; PR:B2GUV7; -.
+DR   Proteomes; UP000002494; Chromosome 9.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0045202; C:synapse; ISO:RGD.
+DR   GO; GO:0005525; F:GTP binding; ISO:RGD.
+DR   GO; GO:0003924; F:GTPase activity; ISO:RGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003743; F:translation initiation factor activity; ISO:RGD.
+DR   GO; GO:0000049; F:tRNA binding; ISO:RGD.
+DR   GO; GO:0006446; P:regulation of translational initiation; ISO:RGD.
+DR   GO; GO:0042255; P:ribosome assembly; ISO:RGD.
+DR   GO; GO:0006413; P:translational initiation; IBA:GO_Central.
+DR   CDD; cd03703; aeIF5B_II; 1.
+DR   CDD; cd16266; IF2_aeIF5B_IV; 1.
+DR   CDD; cd01887; IF2_eIF5B; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 2.40.30.10; Translation factors; 2.
+DR   Gene3D; 3.40.50.10050; Translation initiation factor IF- 2, domain 3; 1.
+DR   InterPro; IPR029459; EFTU-type.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR000795; T_Tr_GTP-bd_dom.
+DR   InterPro; IPR015760; TIF_IF2.
+DR   InterPro; IPR023115; TIF_IF2_dom3.
+DR   InterPro; IPR036925; TIF_IF2_dom3_sf.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   NCBIfam; TIGR00231; small_GTP; 1.
+DR   PANTHER; PTHR43381:SF4; EUKARYOTIC TRANSLATION INITIATION FACTOR 5B; 1.
+DR   PANTHER; PTHR43381; TRANSLATION INITIATION FACTOR IF-2-RELATED; 1.
+DR   Pfam; PF00009; GTP_EFTU; 1.
+DR   Pfam; PF14578; GTP_EFTU_D4; 1.
+DR   Pfam; PF11987; IF-2; 1.
+DR   PRINTS; PR00315; ELONGATNFCT.
+DR   SUPFAM; SSF52156; Initiation factor IF2/eIF5b, domain 3; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF50447; Translation proteins; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; GTP-binding; Hydrolase; Initiation factor; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Protein biosynthesis;
+KW   Reference proteome.
+FT   CHAIN           1..1216
+FT                   /note="Eukaryotic translation initiation factor 5B"
+FT                   /id="PRO_0000354073"
+FT   DOMAIN          625..842
+FT                   /note="tr-type G"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01059"
+FT   REGION          1..604
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          634..641
+FT                   /note="G1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01059"
+FT   REGION          659..663
+FT                   /note="G2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01059"
+FT   REGION          698..701
+FT                   /note="G3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01059"
+FT   REGION          752..755
+FT                   /note="G4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01059"
+FT   REGION          820..822
+FT                   /note="G5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01059"
+FT   COMPBIAS        1..21
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        32..64
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        81..128
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        159..183
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        213..283
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        299..338
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        346..420
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        435..458
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        487..506
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        507..525
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        526..564
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        565..604
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        702
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   BINDING         636..642
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   BINDING         659..661
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   BINDING         752..753
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   BINDING         755..756
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   BINDING         821..822
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         66
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         107
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q05D44"
+FT   MOD_RES         108
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         114
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         137
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         139
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         165
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         172
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         183
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         184
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         187
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         191
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         209
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q05D44"
+FT   MOD_RES         215
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         223
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         437
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         497
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         544
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         553
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         556
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         584
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         585
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         587
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         591
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   MOD_RES         1164
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O60841"
+FT   CONFLICT        393
+FT                   /note="E -> K (in Ref. 1; AAI26103/AAI67065)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1216 AA;  137686 MW;  515ACABDF33C3D00 CRC64;
+     MGKKQKNKSE DSTKDDTDLG ALAAEIEGAG AAKEQEPQKG KGKKKKEKKK QDFDENDILR
+     ELEELSLEAQ GIGADRDAAT VKPTENNEEE SASKQDKKKK GQKGKKTSFD ENDSEELEDK
+     DSKSKKPARP NSEVLLSGSE DADDPNKLSK KGKKAQKSTK KRDGSEEDED NSKRSKERSR
+     VNSSGESGGE SDEFLQSRKG QKKNQKNKSV PTIDSGNEDD DSSFKIKTVA QKKAEKKERE
+     RKKREEEKAK LRKVKEKEEL EKGRKEQSKQ REPQKRPDEE VLVLRGTPDA GAASEEKGDI
+     AATLEDDNEG DKKKKDKKKK KTEKDDKEKE KKKGPSKSTV KAIQEALAKL REEEERQKRE
+     EEERIKRLEE LEAKRKEEER LEQEKRERKK QKEKERKERL KKEGKLLTKS QREARARAEV
+     TLRHLQAQGV EVPSKDSLPK KRPVYEDKKK KKTPQQLESK EALETVEVSA PVEVVDQGVP
+     EKEETPPSVD AEEDEETEDA GLDDWEAMAS DEEREKEGNM IHIEVEENPE EEEEEEEDED
+     EEDSEDEEDE GDSEGSDGDE EDYKLSDEKD LGKAGDTKPN KDASSDSEYD SDDDRTKEER
+     AYDKAKRRIE KRRLEHGKNV NTEKLRAPII CVLGHVDTGK TKILDKLRHT HVQDGEAGGI
+     TQQIGATNVP LEAINEQTKM IKNFDRENVR IPGMLIIDTP GHESFSNLRN RGSSLCDIAI
+     LVVDIMHGLE PQTIESINIL KSKKCPFIVA LNKIDRLYDW KKSPDSDVAV TLKKQKKNTK
+     DEFEERAKAI IVEFAQQGLN AALFYENKDP RTFVSLVPTS AHTGDGMGSL IYLLVELTQT
+     MLSKRLAHCE ELRAQVMEVK ALPGMGTTID VILINGRLKE GDTIIVPGVE GPIVTQIRGL
+     LLPPPMKELR VKNQYEKHKE VEAAQGVKIL GKDLEKTLAG LPLLVAYKDD EIPVLKDELI
+     HELKQTLNAI KLEEKGVYVQ ASTLGSLEAL LEFLKTSEVP YAGINIGPVH KKDVMKASVM
+     LEHDPQYAVI LAFDVRIERD AQEMADSLGV RIFSAEIIYH LFDAFTKYRQ DYKKQKQEEF
+     KHIAVFPCKM KILPQYIFNS RDPIVIGVTV EAGQVKQGTP MCVPSKNFVD IGIVTSIEIN
+     HKQVDVAKKG QEVCVKIEPI PGESPKMFGR HFEATDILVS KISRQSIDAL KDWFRDEMQK
+     SDWQLIVELK KVFEII
+//

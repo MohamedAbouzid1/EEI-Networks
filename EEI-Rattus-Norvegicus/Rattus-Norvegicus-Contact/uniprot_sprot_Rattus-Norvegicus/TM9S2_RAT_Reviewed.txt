@@ -1,0 +1,161 @@
+ID   TM9S2_RAT               Reviewed;         663 AA.
+AC   Q66HG5;
+DT   29-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   29-MAY-2024, entry version 112.
+DE   RecName: Full=Transmembrane 9 superfamily member 2;
+DE   Flags: Precursor;
+GN   Name=Tm9sf2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=31522887; DOI=10.1016/j.cell.2019.08.025;
+RA   Fu M.M., McAlear T.S., Nguyen H., Oses-Prieto J.A., Valenzuela A.,
+RA   Shi R.D., Perrino J.J., Huang T.T., Burlingame A.L., Bechstedt S.,
+RA   Barres B.A.;
+RT   "The Golgi outpost protein TPPP nucleates microtubules and is critical for
+RT   myelination.";
+RL   Cell 0:0-0(2019).
+CC   -!- FUNCTION: In the intracellular compartments, may function as a channel
+CC       or small molecule transporter. {ECO:0000250|UniProtKB:Q99805}.
+CC   -!- SUBCELLULAR LOCATION: Endosome membrane {ECO:0000250|UniProtKB:Q99805};
+CC       Multi-pass membrane protein {ECO:0000255}. Golgi outpost
+CC       {ECO:0000269|PubMed:31522887}. Cytoplasm, cytoskeleton, microtubule
+CC       organizing center {ECO:0000269|PubMed:31522887}. Note=Localizes to the
+CC       postsynaptic Golgi apparatus region, also named Golgi outpost, which
+CC       shapes dendrite morphology by functioning as sites of acentrosomal
+CC       microtubule nucleation. {ECO:0000269|PubMed:31522887}.
+CC   -!- SIMILARITY: Belongs to the nonaspanin (TM9SF) (TC 9.A.2) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC081873; AAH81873.1; -; mRNA.
+DR   RefSeq; NP_001005554.1; NM_001005554.1.
+DR   AlphaFoldDB; Q66HG5; -.
+DR   IntAct; Q66HG5; 1.
+DR   STRING; 10116.ENSRNOP00000017211; -.
+DR   PhosphoSitePlus; Q66HG5; -.
+DR   SwissPalm; Q66HG5; -.
+DR   jPOST; Q66HG5; -.
+DR   PaxDb; 10116-ENSRNOP00000017211; -.
+DR   Ensembl; ENSRNOT00000017211.7; ENSRNOP00000017211.5; ENSRNOG00000012751.8.
+DR   Ensembl; ENSRNOT00060014695; ENSRNOP00060011348; ENSRNOG00060008789.
+DR   GeneID; 306197; -.
+DR   KEGG; rno:306197; -.
+DR   AGR; RGD:1359230; -.
+DR   CTD; 9375; -.
+DR   RGD; 1359230; Tm9sf2.
+DR   eggNOG; KOG1278; Eukaryota.
+DR   GeneTree; ENSGT00940000157563; -.
+DR   HOGENOM; CLU_010714_4_1_1; -.
+DR   InParanoid; Q66HG5; -.
+DR   OMA; VNFCEAG; -.
+DR   OrthoDB; 3078144at2759; -.
+DR   PRO; PR:Q66HG5; -.
+DR   Proteomes; UP000002494; Chromosome 15.
+DR   Bgee; ENSRNOG00000012751; Expressed in jejunum and 20 other cell types or tissues.
+DR   GO; GO:0010008; C:endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005794; C:Golgi apparatus; ISS:UniProtKB.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0005815; C:microtubule organizing center; IEA:UniProtKB-SubCell.
+DR   GO; GO:0006672; P:ceramide metabolic process; ISO:RGD.
+DR   GO; GO:0006688; P:glycosphingolipid biosynthetic process; ISO:RGD.
+DR   GO; GO:0072657; P:protein localization to membrane; IBA:GO_Central.
+DR   GO; GO:0010908; P:regulation of heparan sulfate proteoglycan biosynthetic process; ISO:RGD.
+DR   InterPro; IPR004240; EMP70.
+DR   PANTHER; PTHR10766:SF36; TRANSMEMBRANE 9 SUPERFAMILY MEMBER 2; 1.
+DR   PANTHER; PTHR10766; TRANSMEMBRANE 9 SUPERFAMILY PROTEIN; 1.
+DR   Pfam; PF02990; EMP70; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Cytoskeleton; Endosome; Golgi apparatus; Membrane;
+KW   Reference proteome; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           29..663
+FT                   /note="Transmembrane 9 superfamily member 2"
+FT                   /id="PRO_0000034368"
+FT   TOPO_DOM        29..300
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        301..321
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        322..374
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        375..395
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        396..398
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        399..419
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        420..437
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        438..458
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        459..466
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        467..487
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        488..522
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        523..543
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        544..554
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        555..575
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        576..591
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        592..612
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        613..631
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        632..652
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        653..663
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   663 AA;  75586 MW;  D10FD1885D85AFD1 CRC64;
+     MSSRPPASLP ARGPRLLLLS LLLLGTVPGP RPGSAFYLPG LAPVNFCTEE KKSNECKAEI
+     ELFVNRLDSV ESVLPYEYTA FDFCQASEGK RPSENLGQVL FGERIEPSPY KFTFNKEETC
+     KLVCTKTYHT EKAEDKQKLD FLKKSMLLNY QHHWIVDNMP VTWCYEVEDN QKFCNPGFPI
+     GCYITDKGHA KDACVISSEF HERDTFYIFN HVDIKIQYHV VETGSMGARL VAAKLEPKSF
+     RHTHIDKPDC SGPAMDISNK ASGEIKIAYT YSISFEEEKN IRWASRWDYI LESMPHTHIQ
+     WFSIMNSLVI VLFLSGMVAM IMLRTLHKDI ARYNQMDSTE DAQEEFGWKL VHGDIFRPPR
+     KGMLLSVFLG SGTQILIMTF VTLFFACLGF LSPANRGALM TCAVVLWVLL GTPAGYVAAR
+     FYKSFGGEKW KTNVLLTSFL CPGIVFADFF IMNLILWGEG SSAAIPFGTL VAILALWFCI
+     SVPLTFIGAY FGFKKNAIEH PVRTNQIPRQ IPEQSFYTKP LPGIIMGGIL PFGCIFIQLF
+     FILNSIWSHQ MYYMFGFLFL VFIILVITCS EATILLCYFH LCAEDYHWQW RSFLTSGFTA
+     VYFLVYAIHY FFSKLQITGT ASTILYFGYT MIMVLIFFLF TGTIGFFACF WFVTKIYSVV
+     KVD
+//

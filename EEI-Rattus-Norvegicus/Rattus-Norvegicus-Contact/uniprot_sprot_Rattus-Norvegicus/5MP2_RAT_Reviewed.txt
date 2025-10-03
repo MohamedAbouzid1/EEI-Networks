@@ -1,0 +1,122 @@
+ID   5MP2_RAT                Reviewed;         419 AA.
+AC   Q6P7P5;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   24-JUL-2024, entry version 135.
+DE   RecName: Full=eIF5-mimic protein 2 {ECO:0000250|UniProtKB:Q7L1Q6};
+DE   AltName: Full=Basic leucine zipper and W2 domain-containing protein 1;
+GN   Name=Bzw1; Synonyms=5mp2 {ECO:0000250|UniProtKB:Q7L1Q6};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pituitary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-411 AND SER-413, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Translation initiation regulator which represses repeat-
+CC       associated non-AUG (RAN) initiated translation probably by acting as a
+CC       competitive inhibitor of eukaryotic translation initiation factor 5
+CC       (EIF5) function (By similarity). Enhances histone H4 gene transcription
+CC       but does not seem to bind DNA directly (By similarity).
+CC       {ECO:0000250|UniProtKB:Q7L1Q6}.
+CC   -!- SIMILARITY: Belongs to the BZW family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC061580; AAH61580.1; -; mRNA.
+DR   RefSeq; NP_942084.1; NM_198789.2.
+DR   AlphaFoldDB; Q6P7P5; -.
+DR   SMR; Q6P7P5; -.
+DR   STRING; 10116.ENSRNOP00000019486; -.
+DR   iPTMnet; Q6P7P5; -.
+DR   PhosphoSitePlus; Q6P7P5; -.
+DR   jPOST; Q6P7P5; -.
+DR   PaxDb; 10116-ENSRNOP00000019486; -.
+DR   Ensembl; ENSRNOT00000019486.5; ENSRNOP00000019486.4; ENSRNOG00000013977.5.
+DR   Ensembl; ENSRNOT00055039520; ENSRNOP00055032094; ENSRNOG00055022996.
+DR   Ensembl; ENSRNOT00060045904; ENSRNOP00060038098; ENSRNOG00060026494.
+DR   Ensembl; ENSRNOT00065052399; ENSRNOP00065043083; ENSRNOG00065030388.
+DR   GeneID; 363232; -.
+DR   KEGG; rno:363232; -.
+DR   UCSC; RGD:735129; rat.
+DR   AGR; RGD:735129; -.
+DR   CTD; 9689; -.
+DR   RGD; 735129; Bzw1.
+DR   eggNOG; KOG2297; Eukaryota.
+DR   GeneTree; ENSGT00390000012561; -.
+DR   HOGENOM; CLU_032849_0_1_1; -.
+DR   InParanoid; Q6P7P5; -.
+DR   OrthoDB; 5475947at2759; -.
+DR   PhylomeDB; Q6P7P5; -.
+DR   TreeFam; TF324313; -.
+DR   PRO; PR:Q6P7P5; -.
+DR   Proteomes; UP000002494; Chromosome 9.
+DR   Bgee; ENSRNOG00000013977; Expressed in quadriceps femoris and 19 other cell types or tissues.
+DR   GO; GO:0005737; C:cytoplasm; ISO:RGD.
+DR   GO; GO:0006446; P:regulation of translational initiation; ISS:UniProtKB.
+DR   CDD; cd11560; W2_eIF5C_like; 1.
+DR   Gene3D; 1.25.40.180; -; 1.
+DR   InterPro; IPR016024; ARM-type_fold.
+DR   InterPro; IPR051245; eIF5-mimic_regulator.
+DR   InterPro; IPR043510; W2_BZW1/2.
+DR   InterPro; IPR003307; W2_domain.
+DR   PANTHER; PTHR14208; BASIC LEUCINE ZIPPER AND W2 DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR14208:SF0; EIF5-MIMIC PROTEIN 2; 1.
+DR   Pfam; PF02020; W2; 1.
+DR   SMART; SM00515; eIF5C; 1.
+DR   SUPFAM; SSF48371; ARM repeat; 1.
+DR   PROSITE; PS51363; W2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Activator; Isopeptide bond; Phosphoprotein;
+KW   Reference proteome; Transcription; Transcription regulation;
+KW   Translation regulation; Ubl conjugation.
+FT   CHAIN           1..419
+FT                   /note="eIF5-mimic protein 2"
+FT                   /id="PRO_0000254612"
+FT   DOMAIN          247..414
+FT                   /note="W2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00695"
+FT   REGION          1..26
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7L1Q6"
+FT   MOD_RES         12
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7L1Q6"
+FT   MOD_RES         411
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         413
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   CROSSLNK        368
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in SUMO2)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q7L1Q6"
+SQ   SEQUENCE   419 AA;  48043 MW;  9E952D52F5796F60 CRC64;
+     MNNQKQQKPT LSGQRFKTRK RDEKERFDPT QFQDCIIQGL TETGTDLEAV AKFLDASGAK
+     LDYRRYAETL FDILVAGGML APGGTLADDM MRTDVCVFAA QEDLETMQAF AQVFNKLIRR
+     YKYLEKGFED EVKKLLLFLK GFSESERNKL AMLTGVLLAN GTLNASILNS LYNENLVKEG
+     VSAAFAVKLF KSWINEKDIN AVAASLRKVS MDNRLMELFP ANKQSVEHFT KYFTEAGLKE
+     LSEYVRNQQT IGARKELQKE LQEQMSRGDP FKDIILYVKE EMKKNNIPEP VVIGIVWSSV
+     MSTVEWNKKE ELVAEQAIKH LKQYSPLLAA FTTQGQSELT LLLKIQEYCY DNIHFMKAFQ
+     KIVVLFYKAE VLSEEPILKW YKDAHVAKGK SVFLEQMKKF VEWLKNAEEE SESEAEEGD
+//

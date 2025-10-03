@@ -1,0 +1,120 @@
+ID   T4S4_RAT                Reviewed;         202 AA.
+AC   Q9EQL5;
+DT   26-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   24-JUL-2024, entry version 103.
+DE   RecName: Full=Transmembrane 4 L6 family member 4;
+GN   Name=Tm4sf4; Synonyms=Lrtm4;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=11267677; DOI=10.1016/s0167-4781(01)00170-1;
+RA   Liu Z.W., Zhao M.J., Yokoyama K.K., Li T.P.;
+RT   "Molecular cloning of a cDNA for rat TM4SF4, a homolog of human il-TMP
+RT   (TM4SF4), and enhanced expression of the corresponding gene in regenerating
+RT   rat liver.";
+RL   Biochim. Biophys. Acta 1518:183-189(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Regulates the adhesive and proliferative status of intestinal
+CC       epithelial cells. Can mediate density-dependent cell proliferation (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250}; Multi-pass membrane
+CC       protein {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed in liver and testis. Up-regulated in
+CC       regenerating liver after partial hepatectomy.
+CC       {ECO:0000269|PubMed:11267677}.
+CC   -!- SIMILARITY: Belongs to the L6 tetraspanin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF205717; AAG35665.1; -; mRNA.
+DR   EMBL; BC091131; AAH91131.1; -; mRNA.
+DR   RefSeq; NP_446237.1; NM_053785.1.
+DR   AlphaFoldDB; Q9EQL5; -.
+DR   STRING; 10116.ENSRNOP00000022105; -.
+DR   GlyCosmos; Q9EQL5; 1 site, No reported glycans.
+DR   GlyGen; Q9EQL5; 1 site.
+DR   PhosphoSitePlus; Q9EQL5; -.
+DR   PaxDb; 10116-ENSRNOP00000022105; -.
+DR   Ensembl; ENSRNOT00000022105.5; ENSRNOP00000022105.3; ENSRNOG00000016437.5.
+DR   Ensembl; ENSRNOT00055031706; ENSRNOP00055025634; ENSRNOG00055018626.
+DR   Ensembl; ENSRNOT00060008540; ENSRNOP00060006408; ENSRNOG00060005138.
+DR   Ensembl; ENSRNOT00065044122; ENSRNOP00065036204; ENSRNOG00065025603.
+DR   GeneID; 116467; -.
+DR   KEGG; rno:116467; -.
+DR   UCSC; RGD:621784; rat.
+DR   AGR; RGD:621784; -.
+DR   CTD; 7104; -.
+DR   RGD; 621784; Tm4sf4.
+DR   eggNOG; ENOG502QVGK; Eukaryota.
+DR   GeneTree; ENSGT01030000234590; -.
+DR   HOGENOM; CLU_087168_1_0_1; -.
+DR   InParanoid; Q9EQL5; -.
+DR   OMA; CGCCGNQ; -.
+DR   OrthoDB; 5362788at2759; -.
+DR   PhylomeDB; Q9EQL5; -.
+DR   TreeFam; TF331371; -.
+DR   PRO; PR:Q9EQL5; -.
+DR   Proteomes; UP000002494; Chromosome 2.
+DR   Bgee; ENSRNOG00000016437; Expressed in duodenum and 16 other cell types or tissues.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0042246; P:tissue regeneration; IEP:RGD.
+DR   InterPro; IPR008661; L6_membrane.
+DR   PANTHER; PTHR14198; TRANSMEMBRANE 4 L6 FAMILY MEMBER 1-RELATED; 1.
+DR   PANTHER; PTHR14198:SF15; TRANSMEMBRANE 4 L6 FAMILY MEMBER 4; 1.
+DR   Pfam; PF05805; L6_membrane; 1.
+PE   2: Evidence at transcript level;
+KW   Glycoprotein; Membrane; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..202
+FT                   /note="Transmembrane 4 L6 family member 4"
+FT                   /id="PRO_0000219302"
+FT   TOPO_DOM        1..9
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        10..30
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        31..48
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        49..69
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        70..93
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        94..114
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        115..158
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        159..179
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        180..202
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        156
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   202 AA;  21484 MW;  8E97E5F699A2CE2B CRC64;
+     MCTGGCARCL GGTLIPLAVF AVLANILLFF PGGKVVDDNS HLSDEVWYFG GILGSGVLMI
+     FPALVFLGLQ NNDCCGCCGN ESCGKRFAMF TSTLFAVVGF LGAAYSFIVS AVSINKGPKC
+     FMTNNTWGYP FHDGDYLNDQ ALWSKCEEPR DVVPWNLTLF SILLVIGGIQ MVLCAIQVIN
+     GLLGTLCGDC QCCGCCGGDR PV
+//

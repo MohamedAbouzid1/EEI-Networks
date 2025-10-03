@@ -1,0 +1,226 @@
+ID   PLS3_RAT                Reviewed;         296 AA.
+AC   Q6QBQ4; Q4V7A3;
+DT   24-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   24-JUL-2024, entry version 109.
+DE   RecName: Full=Phospholipid scramblase 3;
+DE            Short=PL scramblase 3;
+DE   AltName: Full=Ca(2+)-dependent phospholipid scramblase 3;
+GN   Name=Plscr3; Synonyms=Pls3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RA   Chien E.K., Phillippe M., Ji H.;
+RT   "Phospholipid scramblase 3 expression in pregnant rat myometrium.";
+RL   Submitted (FEB-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, BIOPHYSICOCHEMICAL PROPERTIES,
+RP   SUBCELLULAR LOCATION, AND TOPOLOGY.
+RX   PubMed=29171872; DOI=10.1002/1873-3468.12917;
+RA   Luevano-Martinez L.A., Kowaltowski A.J.;
+RT   "Topological characterization of the mitochondrial phospholipid scramblase
+RT   3.";
+RL   FEBS Lett. 591:4056-4066(2017).
+CC   -!- FUNCTION: Catalyzes calcium-induced ATP-independent rapid bidirectional
+CC       and non-specific movement of the phospholipids (lipid scrambling or
+CC       lipid flip-flop) between the inner and outer membrane of the
+CC       mitochondria (PubMed:29171872). Plays an important role in
+CC       mitochondrial respiratory function, morphology, and apoptotic response
+CC       (By similarity). Mediates the translocation of cardiolipin from the
+CC       mitochondrial inner membrane to outer membrane enhancing t-Bid induced
+CC       cytochrome c release and apoptosis (By similarity). Enhances TNFSF10-
+CC       induced apoptosis by regulating the distribution of cardiolipin in the
+CC       mitochondrial membrane resulting in increased release of apoptogenic
+CC       factors and consequent amplification of the activity of caspases (By
+CC       similarity). Regulates cardiolipin de novo biosynthesis and its
+CC       resynthesis (By similarity). {ECO:0000250|UniProtKB:Q9NRY6,
+CC       ECO:0000269|PubMed:29171872}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a cardiolipin(in) = a cardiolipin(out); Xref=Rhea:RHEA:38695,
+CC         ChEBI:CHEBI:62237; Evidence={ECO:0000250|UniProtKB:Q9NRY6};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38696;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NRY6};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphoethanolamine(in) = a 1,2-
+CC         diacyl-sn-glycero-3-phosphoethanolamine(out); Xref=Rhea:RHEA:38895,
+CC         ChEBI:CHEBI:64612; Evidence={ECO:0000269|PubMed:29171872};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38896;
+CC         Evidence={ECO:0000305|PubMed:29171872};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine(in) = a 1,2-diacyl-
+CC         sn-glycero-3-phosphocholine(out); Xref=Rhea:RHEA:38571,
+CC         ChEBI:CHEBI:57643; Evidence={ECO:0000250|UniProtKB:Q9NRY6};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38572;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NRY6};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:38573;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NRY6};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-L-serine(in) = a 1,2-diacyl-
+CC         sn-glycero-3-phospho-L-serine(out); Xref=Rhea:RHEA:38663,
+CC         ChEBI:CHEBI:57262; Evidence={ECO:0000250|UniProtKB:Q9NRY6};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38664;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NRY6};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol)(in) = 1,2-
+CC         diacyl-sn-glycero-3-phospho-(1'-sn-glycerol)(out);
+CC         Xref=Rhea:RHEA:39743, ChEBI:CHEBI:64716;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NRY6};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:39744;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NRY6};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:29171872};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NRY6};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 5.8. Activity decreases at higher pH values.
+CC         {ECO:0000269|PubMed:29171872};
+CC   -!- SUBUNIT: Monomer (By similarity). Forms homooligomers upon binding to
+CC       Ca(2+), Pb(2+) and Hg(2+) ions (By similarity). Interacts with PDCD6 in
+CC       a calcium-dependent manner (By similarity). Interacts with PRKCD;
+CC       interaction is enhanced by UV irradiation (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9NRY6}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000269|PubMed:29171872}; Single-pass type II membrane protein
+CC       {ECO:0000305|PubMed:29171872}. Nucleus {ECO:0000250|UniProtKB:Q9JIZ9}.
+CC       Note=Palmitoylation regulates its localization to the cell membrane or
+CC       the nucleus; trafficking to the cell membrane is dependent upon
+CC       palmitoylation whereas in the absence of palmitoylation, localizes to
+CC       the nucleus. {ECO:0000250|UniProtKB:Q9JIZ9}.
+CC   -!- DOMAIN: The Proline-rich domain is required for phospholipid scramblase
+CC       activity. {ECO:0000250|UniProtKB:O15162}.
+CC   -!- PTM: Palmitoylation regulates its localization to the cell membrane or
+CC       the nucleus; trafficking to the cell membrane is dependent upon
+CC       palmitoylation whereas in the absence of palmitoylation, localizes to
+CC       the nucleus. {ECO:0000250|UniProtKB:Q9JIZ9}.
+CC   -!- SIMILARITY: Belongs to the phospholipid scramblase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY548831; AAS55061.1; -; mRNA.
+DR   EMBL; BC098055; AAH98055.1; -; mRNA.
+DR   RefSeq; NP_001012139.1; NM_001012139.2.
+DR   AlphaFoldDB; Q6QBQ4; -.
+DR   STRING; 10116.ENSRNOP00000035566; -.
+DR   PhosphoSitePlus; Q6QBQ4; -.
+DR   SwissPalm; Q6QBQ4; -.
+DR   PaxDb; 10116-ENSRNOP00000035566; -.
+DR   Ensembl; ENSRNOT00055050832; ENSRNOP00055041879; ENSRNOG00055029287.
+DR   Ensembl; ENSRNOT00060054640; ENSRNOP00060045177; ENSRNOG00060031515.
+DR   Ensembl; ENSRNOT00065051525; ENSRNOP00065042426; ENSRNOG00065029789.
+DR   GeneID; 360549; -.
+DR   KEGG; rno:360549; -.
+DR   UCSC; RGD:1307016; rat.
+DR   AGR; RGD:1307016; -.
+DR   CTD; 57048; -.
+DR   RGD; 1307016; Plscr3.
+DR   VEuPathDB; HostDB:ENSRNOG00000027914; -.
+DR   eggNOG; KOG0621; Eukaryota.
+DR   HOGENOM; CLU_053024_1_0_1; -.
+DR   InParanoid; Q6QBQ4; -.
+DR   OrthoDB; 4390at2759; -.
+DR   PhylomeDB; Q6QBQ4; -.
+DR   TreeFam; TF314939; -.
+DR   ChiTaRS; Plscr3; rat.
+DR   PRO; PR:Q6QBQ4; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000027914; Expressed in lung and 19 other cell types or tissues.
+DR   GO; GO:0005829; C:cytosol; ISO:RGD.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IDA:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; ISO:RGD.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0005509; F:calcium ion binding; IDA:UniProtKB.
+DR   GO; GO:0048306; F:calcium-dependent protein binding; ISO:RGD.
+DR   GO; GO:0032791; F:lead ion binding; ISS:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; ISS:UniProtKB.
+DR   GO; GO:0045340; F:mercury ion binding; ISS:UniProtKB.
+DR   GO; GO:0017128; F:phospholipid scramblase activity; IDA:UniProtKB.
+DR   GO; GO:0017124; F:SH3 domain binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006915; P:apoptotic process; ISO:RGD.
+DR   GO; GO:0032049; P:cardiolipin biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0071222; P:cellular response to lipopolysaccharide; ISO:RGD.
+DR   GO; GO:0042632; P:cholesterol homeostasis; ISO:RGD.
+DR   GO; GO:0042593; P:glucose homeostasis; ISO:RGD.
+DR   GO; GO:0017121; P:plasma membrane phospholipid scrambling; IBA:GO_Central.
+DR   GO; GO:0042981; P:regulation of apoptotic process; ISS:UniProtKB.
+DR   GO; GO:0090199; P:regulation of release of cytochrome c from mitochondria; ISS:UniProtKB.
+DR   InterPro; IPR005552; Scramblase.
+DR   PANTHER; PTHR23248:SF37; PHOSPHOLIPID SCRAMBLASE 3; 1.
+DR   PANTHER; PTHR23248; PHOSPHOLIPID SCRAMBLASE-RELATED; 1.
+DR   Pfam; PF03803; Scramblase; 1.
+PE   1: Evidence at protein level;
+KW   Apoptosis; Calcium; Lipid transport; Lipoprotein; Membrane; Mitochondrion;
+KW   Mitochondrion inner membrane; Nucleus; Palmitate; Reference proteome;
+KW   Repeat; SH3-binding; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..296
+FT                   /note="Phospholipid scramblase 3"
+FT                   /id="PRO_0000100791"
+FT   TOPO_DOM        1..266
+FT                   /note="Mitochondrial intermembrane"
+FT                   /evidence="ECO:0000305|PubMed:29171872"
+FT   TRANSMEM        267..283
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   REGION          1..58
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1..58
+FT                   /note="Proline-rich domain (PRD)"
+FT                   /evidence="ECO:0000250|UniProtKB:O15162"
+FT   MOTIF           7..15
+FT                   /note="SH3-binding 1"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           15..18
+FT                   /note="PPxY motif"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           21..27
+FT                   /note="SH3-binding 2"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           66..71
+FT                   /note="SH3-binding 3"
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        8..23
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        37..58
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   LIPID           159
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JIZ9"
+FT   LIPID           161
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JIZ9"
+FT   LIPID           163
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JIZ9"
+FT   LIPID           164
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JIZ9"
+FT   LIPID           166
+FT                   /note="S-palmitoyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9JIZ9"
+SQ   SEQUENCE   296 AA;  31646 MW;  9CD3B3B0CAFEADEB CRC64;
+     MAGYLPPKGY APSPPPPYPV PAGYPEAAAL HPGPGQAPVP TQGPAPAPGF SLFPSPGPVV
+     PGPPGPFVPL PGVPSGLEFL VQIDQILIHQ KAERVETFLG WETCNRYELR SGTGQQLGQA
+     AEESNCCARL CCGARRPLRI RLADPGDREV LRLLRPLHCG CSCCPCGLQE MEVQAPPGTT
+     IGHVLQTWHP FIPKFSILDA DRQPVLRVVG PCCTCGCGTD TNFEVKTKDE SRSVGRISKQ
+     WGGLLREALT DADDFGLQFP VDLDVRVKAV LLGATFLIDY MFFEKRGGAG PSAITS
+//

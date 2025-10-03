@@ -1,0 +1,269 @@
+ID   SYNJ2_RAT               Reviewed;        1496 AA.
+AC   O55207; Q91ZD8; Q91ZD9;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 2.
+DT   02-OCT-2024, entry version 170.
+DE   RecName: Full=Synaptojanin-2;
+DE            EC=3.1.3.36 {ECO:0000250|UniProtKB:Q9D2G5};
+DE   AltName: Full=Synaptic inositol 1,4,5-trisphosphate 5-phosphatase 2;
+GN   Name=Synj2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2A), AND CHARACTERIZATION.
+RC   TISSUE=Brain;
+RX   PubMed=9388224; DOI=10.1074/jbc.272.49.30817;
+RA   Nemoto Y., Arribas M., Haffner C., de Camilli P.;
+RT   "Synaptojanin 2, a novel synaptojanin isoform with a distinct targeting
+RT   domain and expression pattern.";
+RL   J. Biol. Chem. 272:30817-30821(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 2B1 AND 2B2), SUBCELLULAR LOCATION,
+RP   AND MUTAGENESIS OF ASP-388; GLY-435 AND ARG-466.
+RC   STRAIN=Sprague-Dawley;
+RX   PubMed=11498538; DOI=10.1074/jbc.m106404200;
+RA   Nemoto Y., Wenk M.R., Watanabe M., Daniell L., Murakami T., Ringstad N.,
+RA   Yamada H., Takei K., De Camilli P.;
+RT   "Identification and characterization of a synaptojanin 2 splice isoform
+RT   predominantly expressed in nerve terminals.";
+RL   J. Biol. Chem. 276:41133-41142(2001).
+RN   [3]
+RP   INTERACTION WITH SYNJ2BP, SUBCELLULAR LOCATION (ISOFORM 2A), AND
+RP   MUTAGENESIS.
+RX   PubMed=10357812; DOI=10.1093/emboj/18.11.2991;
+RA   Nemoto Y., De Camilli P.;
+RT   "Recruitment of an alternatively spliced form of synaptojanin 2 to
+RT   mitochondria by the interaction with the PDZ domain of a mitochondrial
+RT   outer membrane protein.";
+RL   EMBO J. 18:2991-3006(1999).
+CC   -!- FUNCTION: Inositol 5-phosphatase which may be involved in distinct
+CC       membrane trafficking and signal transduction pathways. May mediate the
+CC       inhibitory effect of Rac1 on endocytosis (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol-4,5-
+CC         bisphosphate) + H2O = a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-
+CC         inositol 4-phosphate) + phosphate; Xref=Rhea:RHEA:22764,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:43474, ChEBI:CHEBI:58178,
+CC         ChEBI:CHEBI:58456; EC=3.1.3.36;
+CC         Evidence={ECO:0000250|UniProtKB:Q9D2G5};
+CC   -!- SUBUNIT: Binds to GRB2 (By similarity). Isoform 2A binds to
+CC       SYNJ2BP/OMP25. {ECO:0000250, ECO:0000269|PubMed:10357812}.
+CC   -!- INTERACTION:
+CC       O55207-3; Q9WVJ4: Synj2bp; NbExp=9; IntAct=EBI-7007476, EBI-7007454;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:11498538}. Cell
+CC       membrane {ECO:0000269|PubMed:11498538}. Presynapse
+CC       {ECO:0000269|PubMed:11498538}. Cytoplasm, cytoskeleton
+CC       {ECO:0000269|PubMed:11498538}. Membrane raft. Note=Localizes at
+CC       presynapse terminals in brain and at bundles of microtubules
+CC       surrounding the nucleus in the elongating spermatids corresponding to
+CC       the manchette (PubMed:11498538). Translocates from the cytoplasm to
+CC       membrane ruffles in a RAC1-dependent manner (PubMed:11498538).
+CC       {ECO:0000269|PubMed:11498538}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform 2A]: Mitochondrion
+CC       {ECO:0000269|PubMed:10357812}. Note=Interaction of isoform 2A with
+CC       SYNJ2BP/OMP25 results in localization to the mitochondrion
+CC       (PubMed:10357812). {ECO:0000269|PubMed:10357812}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=7;
+CC         Comment=Additional isoforms seem to exist. Experimental confirmation
+CC         may be lacking for some isoforms.;
+CC       Name=2B2;
+CC         IsoId=O55207-1; Sequence=Displayed;
+CC       Name=2B1;
+CC         IsoId=O55207-2; Sequence=VSP_012914;
+CC       Name=2A; Synonyms=7.5kb;
+CC         IsoId=O55207-3; Sequence=VSP_012915, VSP_012916;
+CC       Name=7.2kb;
+CC         IsoId=O55207-4; Sequence=Not described;
+CC       Name=6.0kb;
+CC         IsoId=O55207-5; Sequence=Not described;
+CC       Name=5.2kb;
+CC         IsoId=O55207-6; Sequence=Not described;
+CC       Name=3.5kb;
+CC         IsoId=O55207-7; Sequence=Not described;
+CC   -!- TISSUE SPECIFICITY: Widely expressed. Isoforms 2B1 and 2B2 are
+CC       concentrated at nerve terminals in brain and at spermatid manchette in
+CC       testis.
+CC   -!- MISCELLANEOUS: [Isoform 2A]: The PDZ domain of isoform 2A binds
+CC       SYNJ2BP/OMP25. Mutagenesis of Ser-1246 or Val-1248 to Ala abolishes
+CC       SYNJ2BP/OMP25 binding. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the synaptojanin family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the central section; belongs to the inositol 1,4,5-
+CC       trisphosphate 5-phosphatase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U90312; AAB92481.1; -; mRNA.
+DR   EMBL; AY034050; AAK61722.1; -; mRNA.
+DR   EMBL; AY034051; AAK61723.1; -; mRNA.
+DR   RefSeq; NP_001106842.1; NM_001113371.1.
+DR   RefSeq; NP_001106843.1; NM_001113372.1.
+DR   RefSeq; NP_114460.1; NM_032071.2.
+DR   AlphaFoldDB; O55207; -.
+DR   SMR; O55207; -.
+DR   ELM; O55207; -.
+DR   IntAct; O55207; 1.
+DR   MINT; O55207; -.
+DR   STRING; 10116.ENSRNOP00000059744; -.
+DR   iPTMnet; O55207; -.
+DR   PhosphoSitePlus; O55207; -.
+DR   PaxDb; 10116-ENSRNOP00000062564; -.
+DR   GeneID; 84018; -.
+DR   KEGG; rno:84018; -.
+DR   AGR; RGD:69436; -.
+DR   CTD; 8871; -.
+DR   RGD; 69436; Synj2.
+DR   eggNOG; KOG0566; Eukaryota.
+DR   InParanoid; O55207; -.
+DR   OrthoDB; 21647at2759; -.
+DR   PhylomeDB; O55207; -.
+DR   Reactome; R-RNO-1660499; Synthesis of PIPs at the plasma membrane.
+DR   Reactome; R-RNO-8856828; Clathrin-mediated endocytosis.
+DR   PRO; PR:O55207; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0043679; C:axon terminus; IDA:RGD.
+DR   GO; GO:0005881; C:cytoplasmic microtubule; IDA:RGD.
+DR   GO; GO:0045121; C:membrane raft; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; IBA:GO_Central.
+DR   GO; GO:0098793; C:presynapse; IDA:SynGO.
+DR   GO; GO:0032587; C:ruffle membrane; IDA:RGD.
+DR   GO; GO:0052659; F:inositol-1,3,4,5-tetrakisphosphate 5-phosphatase activity; IDA:RGD.
+DR   GO; GO:0052658; F:inositol-1,4,5-trisphosphate 5-phosphatase activity; IDA:RGD.
+DR   GO; GO:0030165; F:PDZ domain binding; IPI:RGD.
+DR   GO; GO:0052744; F:phosphatidylinositol monophosphate phosphatase activity; IDA:RGD.
+DR   GO; GO:0004439; F:phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity; ISO:RGD.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017124; F:SH3 domain binding; IPI:RGD.
+DR   GO; GO:0071545; P:inositol phosphate catabolic process; IDA:RGD.
+DR   GO; GO:0046856; P:phosphatidylinositol dephosphorylation; IDA:RGD.
+DR   GO; GO:0048488; P:synaptic vesicle endocytosis; ISO:RGD.
+DR   CDD; cd12720; RRM_SYNJ2; 1.
+DR   Gene3D; 3.30.70.330; -; 1.
+DR   Gene3D; 3.60.10.10; Endonuclease/exonuclease/phosphatase; 1.
+DR   InterPro; IPR036691; Endo/exonu/phosph_ase_sf.
+DR   InterPro; IPR046985; IP5.
+DR   InterPro; IPR000300; IPPc.
+DR   InterPro; IPR012677; Nucleotide-bd_a/b_plait_sf.
+DR   InterPro; IPR035979; RBD_domain_sf.
+DR   InterPro; IPR000504; RRM_dom.
+DR   InterPro; IPR002013; SAC_dom.
+DR   InterPro; IPR015047; SYNJ1/2_RRM.
+DR   InterPro; IPR034973; SYNJ2_RRM.
+DR   PANTHER; PTHR11200; INOSITOL 5-PHOSPHATASE; 1.
+DR   PANTHER; PTHR11200:SF148; SYNAPTOJANIN-2; 1.
+DR   Pfam; PF08952; DUF1866; 1.
+DR   Pfam; PF22669; Exo_endo_phos2; 1.
+DR   Pfam; PF02383; Syja_N; 1.
+DR   SMART; SM01165; DUF1866; 1.
+DR   SMART; SM00128; IPPc; 1.
+DR   SUPFAM; SSF56219; DNase I-like; 1.
+DR   SUPFAM; SSF54928; RNA-binding domain, RBD; 1.
+DR   PROSITE; PS50102; RRM; 1.
+DR   PROSITE; PS50275; SAC; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell membrane; Cell projection; Cytoplasm;
+KW   Cytoskeleton; Hydrolase; Lipid metabolism; Membrane; Mitochondrion;
+KW   Phosphoprotein; Reference proteome; RNA-binding; Synapse.
+FT   CHAIN           1..1496
+FT                   /note="Synaptojanin-2"
+FT                   /id="PRO_0000209735"
+FT   DOMAIN          120..444
+FT                   /note="SAC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00183"
+FT   DOMAIN          906..985
+FT                   /note="RRM"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00176"
+FT   REGION          450..?
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1047..1083
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1100..1149
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1205..1357
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1393..1413
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1442..1461
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          1468..1496
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1052..1072
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1113..1130
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1265..1279
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1281..1295
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         1139
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:O15056"
+FT   VAR_SEQ         1085..1129
+FT                   /note="Missing (in isoform 2B1)"
+FT                   /evidence="ECO:0000303|PubMed:11498538"
+FT                   /id="VSP_012914"
+FT   VAR_SEQ         1254..1293
+FT                   /note="PMLPEEQCEQQPVHFTMASQEMNLETPPPITAPIPPVPKP -> IVFCSSSQ
+FT                   ASQPCSLLQRHEFVRTVAAQRLTPVDASGSSV (in isoform 2A)"
+FT                   /evidence="ECO:0000303|PubMed:9388224"
+FT                   /id="VSP_012915"
+FT   VAR_SEQ         1294..1496
+FT                   /note="Missing (in isoform 2A)"
+FT                   /evidence="ECO:0000303|PubMed:9388224"
+FT                   /id="VSP_012916"
+FT   MUTAGEN         388
+FT                   /note="D->N: Abolishes phosphatase activity."
+FT                   /evidence="ECO:0000269|PubMed:11498538"
+FT   MUTAGEN         435
+FT                   /note="G->V: Reduced phosphatase activity."
+FT                   /evidence="ECO:0000269|PubMed:11498538"
+FT   MUTAGEN         466
+FT                   /note="R->H: No effect."
+FT                   /evidence="ECO:0000269|PubMed:11498538"
+FT   CONFLICT        1130
+FT                   /note="T -> A (in Ref. 2; AAK61722)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1496 AA;  165264 MW;  CB15017BF7821648 CRC64;
+     MALSKGLRLL ARLDPTGPSS VLLEARGRGD CLLFEAGAVA TLAPEEKEVI KGLYGKPTDA
+     YGCLGELSLK SGGVPLSFLV LVTGCTSVGR IPDAEIYKIT GTEFYPLQEE AKEEDRLPAL
+     KKILSSGVFY FAWPNDGACF DLTIRAQKQG DDCSEWGTSF FWNQLLHVPL RQHQVNCHDW
+     LLKVICGVVT IRTVYASHKQ AKACLISRIS CERAGARFLT RGVNDDGHVS NFVETEQAIY
+     MDDGVSSFVQ IRGSVPLFWE QPGLQVGSHH LRLHRGLEAN APAFERHMVL LKEQYGQQVV
+     VNLLGSRGGE EVLNRAFKKL LWASCHAGDT PMINFDFHQF AKGRKLEKLE NLLRPQLKLH
+     WDDFGVFAKG ENVSPRFQKG TLRMNCLDCL DRTNTVQCFI ALEVLHLQLE SLGLNSKPIT
+     DRFVESFKAM WSLNGHGLSK VFTGSRALEG KAKVGKLKDG ARSMSRTIQS NFFDGVKQEA
+     IKLLLVGDVY NEESTDKGRM LLDNTALLGL GSNKQNSLSG MLDGKATPRI LKAMTERQSE
+     FTNFKRIQIA MGTWNVNGGK QFRSNLLGTT ELTDWLLDAP QLSGAVDSQD DGGPADIFAV
+     GFEEMVELSA GNIVNASTTN RKMWGEQLQK AISRSHRYIL LTSAQLVGVC LYIFVRPYHV
+     PFIRDVAIDT VKTGMGGKAG NKGAVGIRFQ FHSTSFCFIC SHLTAGQSQV KERNEDYREI
+     THKLSFPSGR NIFSHDYVFW CGDFNYRIDL TYEEVFYFVK RQDWKKLMEF DQLQLQKSSG
+     KIFKDFHEGT INFGPTYKYD VGSAAYDTSD KCRTPAWTDR VLWWRKKHPY DKTAGELNLL
+     DSDLDGDANI RHTWSPGTLK YYGRAELQAS DHRPVLAIVE VEVQEVDVGA RERVFQEVSS
+     VQGPLDATVI VNLQSPTLEE RNEFPEDLRT ELMQTLGNYG TIILVRINQG QMLVTFADSH
+     SALSVLDVDG MKVKGRAVKI RPKTKDWLEG LREELIRKRD SMAPVSPTAN SCLLEENFDF
+     TSLDYESEGD VLEDDEDYLA DEFGQPVVSD SELGGDDSSD TMSASTPASK SPALAKKKQH
+     PTYKDDADLM TLKLELEVAG NFRHRSPSRS LSVPNRPRPP HPPQRPPPPT GLMVKKSASD
+     ASISSGTHGQ YSILQTAKLL PGAPQQPPKA RTGISKPYNV KQIKTTNAQE AEAAIRCLLE
+     AGGGVPESAP GATPLRNQGS SKPEASLGPP VLPRRPVPRV PTMKKPTLRR TGKPMLPEEQ
+     CEQQPVHFTM ASQEMNLETP PPITAPIPPV PKPRTFQPGR GVERRPSGGK PEPDDAPPVT
+     GAVELSSPEA PEAPSLAPKV PPRRKKSAPA AFHLQVLQSN SQLLQGLTCS SSSPSPPKPD
+     TPLLYPQMAL GTSSAISPET DGPRVTEPEA ASFHGDYPDP FWSLLHHPKL LNNNTWLSKS
+     SEPLDLGSRT PERTHTDSAQ VNASVVERGL PPDHGGKDFS HWMAASNKDK RTTLGV
+//

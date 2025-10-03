@@ -1,0 +1,272 @@
+ID   PLPL7_RAT               Reviewed;        1349 AA.
+AC   Q5BK26; Q5XIX2; Q8K3H9;
+DT   10-JUL-2007, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 2.
+DT   02-OCT-2024, entry version 113.
+DE   RecName: Full=Patatin-like phospholipase domain-containing protein 7;
+DE            EC=3.1.1.- {ECO:0000269|PubMed:12893290};
+DE            EC=3.1.1.5 {ECO:0000250|UniProtKB:A2AJ88};
+DE   AltName: Full=Liver NTE-related protein 1;
+DE   AltName: Full=NTE-related esterase;
+GN   Name=Pnpla7; Synonyms=Nre, Ntel1;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver, and Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 668-1349, CATALYTIC ACTIVITY, TISSUE
+RP   SPECIFICITY, AND MUTAGENESIS OF SER-980.
+RC   TISSUE=Brain, and Liver;
+RX   PubMed=12893290; DOI=10.1016/s0003-9861(03)00264-9;
+RA   Xie M., Yang D., Matoney L., Yan B.;
+RT   "Rat NTE-related esterase is a membrane-associated protein, hydrolyzes
+RT   phenyl valerate, and interacts with diisopropylfluorophosphate through a
+RT   serine catalytic machinery.";
+RL   Arch. Biochem. Biophys. 416:137-146(2003).
+RN   [3]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-341; SER-1277 AND THR-1281,
+RP   AND IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=22673903; DOI=10.1038/ncomms1871;
+RA   Lundby A., Secher A., Lage K., Nordsborg N.B., Dmytriyev A., Lundby C.,
+RA   Olsen J.V.;
+RT   "Quantitative maps of protein phosphorylation sites across 14 different rat
+RT   organs and tissues.";
+RL   Nat. Commun. 3:876-876(2012).
+CC   -!- FUNCTION: Lysophospholipase which preferentially deacylates unsaturated
+CC       lysophosphatidylcholine (C18:1), generating glycerophosphocholine. Also
+CC       can deacylate, to a lesser extent, lysophosphatidylethanolamine
+CC       (C18:1), lysophosphatidyl-L-serine (C18:1) and lysophosphatidic acid
+CC       (C16:0). {ECO:0000250|UniProtKB:A2AJ88}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1-acyl-sn-glycero-3-phosphocholine + H2O = a fatty acid +
+CC         H(+) + sn-glycerol 3-phosphocholine; Xref=Rhea:RHEA:15177,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16870,
+CC         ChEBI:CHEBI:28868, ChEBI:CHEBI:58168; EC=3.1.1.5;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15178;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + H2O = (9Z)-
+CC         octadecenoate + H(+) + sn-glycerol 3-phosphocholine;
+CC         Xref=Rhea:RHEA:40807, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16870, ChEBI:CHEBI:28610, ChEBI:CHEBI:30823;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40808;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine + H2O =
+CC         (9Z)-octadecenoate + H(+) + sn-glycero-3-phosphoethanolamine;
+CC         Xref=Rhea:RHEA:40895, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30823, ChEBI:CHEBI:74971, ChEBI:CHEBI:143890;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40896;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(9Z-octadecenoyl)-sn-glycero-3-phospho-L-serine + H2O =
+CC         (9Z)-octadecenoate + H(+) + sn-glycero-3-phospho-L-serine;
+CC         Xref=Rhea:RHEA:40499, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30823, ChEBI:CHEBI:64765, ChEBI:CHEBI:74617;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40500;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-sn-glycero-3-phosphocholine + H2O = H(+) +
+CC         hexadecanoate + sn-glycerol 3-phosphocholine; Xref=Rhea:RHEA:40435,
+CC         ChEBI:CHEBI:7896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16870, ChEBI:CHEBI:72998;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40436;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-sn-glycero-3-phosphate + H2O = H(+) +
+CC         hexadecanoate + sn-glycerol 3-phosphate; Xref=Rhea:RHEA:49092,
+CC         ChEBI:CHEBI:7896, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57518, ChEBI:CHEBI:57597;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:49093;
+CC         Evidence={ECO:0000250|UniProtKB:A2AJ88};
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:A2AJ88}; Single-pass type III membrane protein
+CC       {ECO:0000250|UniProtKB:A2AJ88}. Lipid droplet
+CC       {ECO:0000250|UniProtKB:A2AJ88}.
+CC   -!- TISSUE SPECIFICITY: Expressed in the brain, liver, kidney, lung and
+CC       testis. {ECO:0000269|PubMed:12893290}.
+CC   -!- DOMAIN: The 3 cNMP binding domains are required for localization to the
+CC       endoplasmic reticulum. The cNMP binding domain 3 is involved in the
+CC       binding to lipid droplets. {ECO:0000250|UniProtKB:A2AJ88}.
+CC   -!- SIMILARITY: Belongs to the NTE family. {ECO:0000305}.
+CC   -!- CAUTION: It is uncertain whether Met-1 or Met-27 is the initiator.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH91230.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC083547; AAH83547.2; -; mRNA.
+DR   EMBL; BC091230; AAH91230.1; ALT_INIT; mRNA.
+DR   EMBL; AY100477; AAM44077.1; -; mRNA.
+DR   RefSeq; NP_653339.2; NM_144738.2.
+DR   AlphaFoldDB; Q5BK26; -.
+DR   SMR; Q5BK26; -.
+DR   STRING; 10116.ENSRNOP00000011633; -.
+DR   iPTMnet; Q5BK26; -.
+DR   PhosphoSitePlus; Q5BK26; -.
+DR   jPOST; Q5BK26; -.
+DR   PaxDb; 10116-ENSRNOP00000011633; -.
+DR   GeneID; 246246; -.
+DR   KEGG; rno:246246; -.
+DR   UCSC; RGD:708466; rat.
+DR   AGR; RGD:708466; -.
+DR   CTD; 375775; -.
+DR   RGD; 708466; Pnpla7.
+DR   eggNOG; KOG2968; Eukaryota.
+DR   InParanoid; Q5BK26; -.
+DR   OrthoDB; 5303733at2759; -.
+DR   PhylomeDB; Q5BK26; -.
+DR   PRO; PR:Q5BK26; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; ISS:UniProtKB.
+DR   GO; GO:0005811; C:lipid droplet; ISS:UniProtKB.
+DR   GO; GO:0004622; F:lysophospholipase activity; ISS:UniProtKB.
+DR   GO; GO:0034638; P:phosphatidylcholine catabolic process; ISS:UniProtKB.
+DR   CDD; cd00038; CAP_ED; 3.
+DR   CDD; cd07225; Pat_PNPLA6_PNPLA7; 1.
+DR   Gene3D; 3.40.1090.10; Cytosolic phospholipase A2 catalytic domain; 1.
+DR   Gene3D; 2.60.120.10; Jelly Rolls; 3.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR000595; cNMP-bd_dom.
+DR   InterPro; IPR018490; cNMP-bd_dom_sf.
+DR   InterPro; IPR050301; NTE.
+DR   InterPro; IPR002641; PNPLA_dom.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   PANTHER; PTHR14226; NEUROPATHY TARGET ESTERASE/SWISS CHEESE D.MELANOGASTER; 1.
+DR   PANTHER; PTHR14226:SF23; PATATIN-LIKE PHOSPHOLIPASE DOMAIN-CONTAINING PROTEIN 7; 1.
+DR   Pfam; PF00027; cNMP_binding; 3.
+DR   Pfam; PF01734; Patatin; 1.
+DR   SMART; SM00100; cNMP; 3.
+DR   SUPFAM; SSF51206; cAMP-binding domain-like; 3.
+DR   SUPFAM; SSF52151; FabD/lysophospholipase-like; 1.
+DR   PROSITE; PS50042; CNMP_BINDING_3; 3.
+DR   PROSITE; PS51635; PNPLA; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Hydrolase; Lipid degradation; Lipid droplet;
+KW   Lipid metabolism; Membrane; Phosphoprotein; Reference proteome; Repeat;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..1349
+FT                   /note="Patatin-like phospholipase domain-containing protein
+FT                   7"
+FT                   /id="PRO_0000293491"
+FT   TOPO_DOM        1..36
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        37..57
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        58..1349
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          947..1113
+FT                   /note="PNPLA"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   REGION          340..361
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          678..964
+FT                   /note="Involved in the binding to lipid droplets"
+FT                   /evidence="ECO:0000250|UniProtKB:A2AJ88"
+FT   REGION          1297..1349
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           951..956
+FT                   /note="GXGXXG"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   MOTIF           978..982
+FT                   /note="GXSXG"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   MOTIF           1100..1102
+FT                   /note="DGA/G"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   COMPBIAS        1300..1336
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        980
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   ACT_SITE        1100
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01161"
+FT   BINDING         170..297
+FT                   /ligand="a nucleoside 3',5'-cyclic phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58464"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00060"
+FT   BINDING         496..599
+FT                   /ligand="a nucleoside 3',5'-cyclic phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58464"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00060"
+FT   BINDING         610..715
+FT                   /ligand="a nucleoside 3',5'-cyclic phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58464"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00060"
+FT   MOD_RES         341
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         377
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6ZV29"
+FT   MOD_RES         1277
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MOD_RES         1281
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0007744|PubMed:22673903"
+FT   MUTAGEN         980
+FT                   /note="S->A,C,D,H: Abolishes hydrolytic activity."
+FT                   /evidence="ECO:0000269|PubMed:12893290"
+FT   CONFLICT        956..957
+FT                   /note="GC -> CT (in Ref. 1; AAH91230)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1071
+FT                   /note="A -> S (in Ref. 1; AAH83547)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1217..1219
+FT                   /note="PAG -> RTV (in Ref. 1; AAH83547)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1349 AA;  150024 MW;  4312292A0CFE2FDD CRC64;
+     MQKEEDVCPE AGYCLGTALS SWGLHFMEEH SQSTMLMGIG IGVLLTLAFV GLAAFFVYRK
+     VSRFRRAEPI PQYRFRKRDK VMFYGRKIMR KVTTLPHTLV GNTAAPRQRV RKRTKVLSLA
+     KRILRFKKEY PTLQPKEPPP SLLEADLTEF DVKNSHLPSE VLYMLKNVRV LGHFEKPLFL
+     ELCKHMVFVQ LQEGEHVFQP GEPDISIYVV QDGRLEVCIQ DADGTEVVVK EVLPGDSVHS
+     LLSILDVITG HTAPYKTVSA RAAVASTVLW LPAAAFQGVF EKYPETLVRV VQIIMVRLQR
+     VTFLALHNYL GLTTELFNPE SQAIPLLSVA SVAGRAKRQM SYGPEEQLER SPRLSEFNSS
+     DQRSVAVSGP LLKRSCSVPL PPIHGEIDEL RQAQGSGSNT SAFQESQEGA TSDLGMAYNR
+     ARILPHSEEQ LGSSLASKSK KSVVAETSAV FHYSEKPRDE PGPSGRTDAI FRAATKDLLT
+     LMKLDDPSLL DGRVAFLHVP AGTIVSKQGD QDVNILFVVS GMLHVYQQKI DSLEDTCLFL
+     THPGEMVGQL AVLTGEPLMF TIRANRDCSF LSISKAHFYE IMRKRPDVVL GVAHTVVRRM
+     SSFVRQIDFA LDWMEVEAGR AIYRQGDKSD CTYIVLSGRL RSVIRKDDGK KRLAGEYGRG
+     DLVGVVEMLT HQARATTVHA VRDSELAKLP AGALTSIKRR YPQVVTRLIH LLGEKILGSL
+     QQGSGTGHQL GFNTASSKWD LGNPPGNLST VAAMPVSEDV PLTAFALELQ HALSAIGPVL
+     LLTSDNIKQR LGSAALDSIH EYRLSSWLGQ QEDIHRIVLY QADSTLTPWT QRCIRQADCI
+     LIVGLGDQEP ALGELEQMLE STAVRAQKQL ILLHKEEGPA PSRTVEWLNM RSWCSGHLHL
+     CCPRRVFSKR SLPKLVEMYT RIFQRPPDRH SDFSRLARIL TGNAIALVLG GGGARGCAQV
+     GILRALAECG IPVDIIGGTS IGAFMGALFA EERSYSQIRI RAKQWAEDMT SMVKTILDLT
+     YPITSMFSGT GFNSSISNIF KDRQIEDLWL PYFAITTDIT ASAMRVHTDG ALWRYVRASM
+     SLSGYMPPLC DPKDGHLLMD GGYINNLPAD VARSMGAKVV IAIDVGSRDE TDLTNYGDAL
+     SGWWLLWKRW NPLATKVKVL NMAEIQTRLA YVCCVRQLEM VKNSDYCEYL RPPIDSYRTL
+     DFGKFDEICE VGYQHGPAGF DIWVRSGVLE KMLQDQQGTS KRMDCGVFTC PNSSFTDLAE
+     IVSRIEPAKV AAVDDESDYQ TEYEEELPAI PKETYADFQS TGIELDSDSE CEPSMSQGPH
+     SLTSPKQSQD SFPWLPNQDD QGPRLYRPS
+//

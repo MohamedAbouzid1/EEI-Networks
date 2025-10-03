@@ -1,0 +1,171 @@
+ID   MARC2_RAT               Reviewed;         338 AA.
+AC   O88994;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   24-JUL-2024, entry version 108.
+DE   RecName: Full=Mitochondrial amidoxime reducing component 2;
+DE            Short=mARC2;
+DE            EC=1.7.-.-;
+DE   AltName: Full=Molybdenum cofactor sulfurase C-terminal domain-containing protein 2;
+DE            Short=MOSC domain-containing protein 2;
+DE            Short=Moco sulfurase C-terminal domain-containing protein 2;
+DE   Flags: Precursor;
+GN   Name=Mtarc2; Synonyms=Marc2, Mg87, Mosc2;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=GK; TISSUE=Kidney;
+RA   Page R.A.;
+RT   "Isolation of a novel gene, MG87, from the diabetic kidney.";
+RL   Submitted (SEP-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Catalyzes the reduction of N-oxygenated molecules, acting as
+CC       a counterpart of cytochrome P450 and flavin-containing monooxygenases
+CC       in metabolic cycles. As a component of prodrug-converting system,
+CC       reduces a multitude of N-hydroxylated prodrugs particularly amidoximes,
+CC       leading to increased drug bioavailability. May be involved in
+CC       mitochondrial N(omega)-hydroxy-L-arginine (NOHA) reduction, regulating
+CC       endogenous nitric oxide levels and biosynthesis. Postulated to cleave
+CC       the N-OH bond of N-hydroxylated substrates in concert with electron
+CC       transfer from NADH to cytochrome b5 reductase then to cytochrome b5,
+CC       the ultimate electron donor that primes the active site for substrate
+CC       reduction. {ECO:0000250|UniProtKB:Q969Z3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Fe(II)-[cytochrome b5] + 2 H(+) + N(omega)-hydroxy-L-
+CC         arginine = 2 Fe(III)-[cytochrome b5] + H2O + L-arginine;
+CC         Xref=Rhea:RHEA:61644, Rhea:RHEA-COMP:10438, Rhea:RHEA-COMP:10439,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:29034, ChEBI:CHEBI:32682, ChEBI:CHEBI:60107;
+CC         Evidence={ECO:0000250|UniProtKB:Q969Z3};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:61645;
+CC         Evidence={ECO:0000250|UniProtKB:Q969Z3};
+CC   -!- COFACTOR:
+CC       Name=Mo-molybdopterin; Xref=ChEBI:CHEBI:71302; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mo-molybdopterin (Mo-MPT) cofactor per subunit.
+CC       {ECO:0000250};
+CC   -!- SUBUNIT: Component of a complex composed of cytochrome b5, NADH-
+CC       cytochrome b5 reductase (CYB5R3) and MTARC2. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion outer membrane {ECO:0000250};
+CC       Peripheral membrane protein {ECO:0000250}. Peroxisome {ECO:0000250}.
+CC   -!- PTM: Ubiquitinated by PRKN during mitophagy, leading to its degradation
+CC       and enhancement of mitophagy. Deubiquitinated by USP30.
+CC       {ECO:0000250|UniProtKB:Q969Z3}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF095741; AAC64190.1; -; mRNA.
+DR   EMBL; BC061734; AAH61734.1; -; mRNA.
+DR   RefSeq; NP_599237.1; NM_134410.2.
+DR   AlphaFoldDB; O88994; -.
+DR   SMR; O88994; -.
+DR   STRING; 10116.ENSRNOP00000034963; -.
+DR   iPTMnet; O88994; -.
+DR   PhosphoSitePlus; O88994; -.
+DR   SwissPalm; O88994; -.
+DR   jPOST; O88994; -.
+DR   PaxDb; 10116-ENSRNOP00000034963; -.
+DR   Ensembl; ENSRNOT00060011396; ENSRNOP00060008520; ENSRNOG00060006953.
+DR   Ensembl; ENSRNOT00065028650; ENSRNOP00065022697; ENSRNOG00065017179.
+DR   GeneID; 171451; -.
+DR   KEGG; rno:171451; -.
+DR   UCSC; RGD:621257; rat.
+DR   AGR; RGD:621257; -.
+DR   CTD; 54996; -.
+DR   RGD; 621257; Mtarc2.
+DR   eggNOG; KOG2362; Eukaryota.
+DR   InParanoid; O88994; -.
+DR   OrthoDB; 5490564at2759; -.
+DR   PhylomeDB; O88994; -.
+DR   Reactome; R-RNO-211945; Phase I - Functionalization of compounds.
+DR   PRO; PR:O88994; -.
+DR   Proteomes; UP000002494; Unplaced.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005739; C:mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0005777; C:peroxisome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030151; F:molybdenum ion binding; ISO:RGD.
+DR   GO; GO:0043546; F:molybdopterin cofactor binding; ISO:RGD.
+DR   GO; GO:0008940; F:nitrate reductase activity; ISO:RGD.
+DR   GO; GO:0098809; F:nitrite reductase activity; ISO:RGD.
+DR   GO; GO:0016661; F:oxidoreductase activity, acting on other nitrogenous compounds as donors; ISO:RGD.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0070458; P:cellular detoxification of nitrogen compound; ISO:RGD.
+DR   GO; GO:0042126; P:nitrate metabolic process; ISO:RGD.
+DR   GO; GO:0006809; P:nitric oxide biosynthetic process; ISO:RGD.
+DR   InterPro; IPR005302; MoCF_Sase_C.
+DR   InterPro; IPR005303; MOCOS_middle.
+DR   InterPro; IPR011037; Pyrv_Knase-like_insert_dom_sf.
+DR   PANTHER; PTHR14237:SF27; MITOCHONDRIAL AMIDOXIME REDUCING COMPONENT 2; 1.
+DR   PANTHER; PTHR14237; MOLYBDOPTERIN COFACTOR SULFURASE MOSC; 1.
+DR   Pfam; PF03473; MOSC; 1.
+DR   Pfam; PF03476; MOSC_N; 1.
+DR   SUPFAM; SSF141673; MOSC N-terminal domain-like; 1.
+DR   SUPFAM; SSF50800; PK beta-barrel domain-like; 1.
+DR   PROSITE; PS51340; MOSC; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Isopeptide bond; Membrane; Mitochondrion;
+KW   Mitochondrion outer membrane; Molybdenum; Oxidoreductase; Peroxisome;
+KW   Reference proteome; Transit peptide; Ubl conjugation.
+FT   TRANSIT         1..35
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           36..338
+FT                   /note="Mitochondrial amidoxime reducing component 2"
+FT                   /id="PRO_0000273344"
+FT   DOMAIN          188..336
+FT                   /note="MOSC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00670"
+FT   MOD_RES         156
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q922Q1"
+FT   CROSSLNK        59
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969Z3"
+FT   CROSSLNK        138
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969Z3"
+FT   CROSSLNK        144
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969Z3"
+FT   CROSSLNK        156
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin); alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969Z3"
+FT   CROSSLNK        173
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969Z3"
+FT   CROSSLNK        187
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969Z3"
+FT   CROSSLNK        289
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969Z3"
+FT   CROSSLNK        296
+FT                   /note="Glycyl lysine isopeptide (Lys-Gly) (interchain with
+FT                   G-Cter in ubiquitin)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q969Z3"
+SQ   SEQUENCE   338 AA;  38248 MW;  2FF2E1AFEFF8F7C6 CRC64;
+     MGSSSSTALA RLGLPGQPRS TWLGVAALGL AAVALGTVAW RRARPRRRRQ LQQVGTVSKV
+     WIYPIKSCKG VSVCETECTD MGLRCGKVRD RFWMVVKEDG HMITARQEPR LVLVTITLEN
+     NYLMLEAPGM EPIVLPIKLP SSNKIHDCRL FGLDIKGRDC GDEVARWFTS YLKTQAYRLV
+     QFDTKMKGRT TKKLYPSESY LQNYEVAYPD CSPIHLISEA SLVDLNTRLQ KKVKMEYFRP
+     NIVVSGCEAF EEDTWDELLI GDVEMKRVLS CPRCVLTTVD PDTGIIDRKE PLETLKSYRL
+     CDPSVKSLYQ SSPLFGMYFS VEKIGSLRVG DPVYRMVD
+//

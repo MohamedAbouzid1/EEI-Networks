@@ -1,0 +1,216 @@
+ID   PI42B_RAT               Reviewed;         416 AA.
+AC   O88377;
+DT   24-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   24-JUL-2024, entry version 152.
+DE   RecName: Full=Phosphatidylinositol 5-phosphate 4-kinase type-2 beta {ECO:0000305};
+DE            EC=2.7.1.149 {ECO:0000269|PubMed:9685379};
+DE   AltName: Full=1-phosphatidylinositol 5-phosphate 4-kinase 2-beta;
+DE   AltName: Full=Diphosphoinositide kinase 2-beta;
+DE   AltName: Full=Phosphatidylinositol 5-phosphate 4-kinase type II beta;
+DE            Short=PI(5)P 4-kinase type II beta;
+DE            Short=PIP4KII-beta;
+DE   AltName: Full=Phosphatidylinositol-phosphate kinase IIgamma;
+DE            Short=PIPKIIgamma;
+DE   AltName: Full=PtdIns(5)P-4-kinase isoform 2-beta;
+GN   Name=Pip4k2b {ECO:0000312|RGD:621710}; Synonyms=Pip5k2b;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND CATALYTIC ACTIVITY.
+RC   TISSUE=Brain;
+RX   PubMed=9685379; DOI=10.1074/jbc.273.32.20292;
+RA   Itoh T., Ijuin T., Takenawa T.;
+RT   "A novel phosphatidylinositol-5-phosphate 4-kinase (phosphatidylinositol-
+RT   phosphate kinase IIgamma) is phosphorylated in the endoplasmic reticulum in
+RT   response to mitogenic signals.";
+RL   J. Biol. Chem. 273:20292-20299(1998).
+CC   -!- FUNCTION: Participates in the biosynthesis of phosphatidylinositol 4,5-
+CC       bisphosphate (PubMed:9685379). Preferentially utilizes GTP, rather than
+CC       ATP, for PI(5)P phosphorylation and its activity reflects changes in
+CC       direct proportion to the physiological GTP concentration. Its GTP-
+CC       sensing activity is critical for metabolic adaptation (By similarity).
+CC       PIP4Ks negatively regulate insulin signaling through a catalytic-
+CC       independent mechanism. They interact with PIP5Ks and suppress PIP5K-
+CC       mediated PtdIns(4,5)P2 synthesis and insulin-dependent conversion to
+CC       PtdIns(3,4,5)P3 (By similarity). {ECO:0000250|UniProtKB:P78356,
+CC       ECO:0000269|PubMed:9685379}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol-5-
+CC         phosphate) + ATP = a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-
+CC         inositol-4,5-bisphosphate) + ADP + H(+); Xref=Rhea:RHEA:12280,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57795,
+CC         ChEBI:CHEBI:58456, ChEBI:CHEBI:456216; EC=2.7.1.149;
+CC         Evidence={ECO:0000269|PubMed:9685379};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:12281;
+CC         Evidence={ECO:0000305|PubMed:9685379};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihexadecanoyl-sn-glycero-3-phospho-(1D-myo-inositol-5-
+CC         phosphate) + ATP = 1,2-dihexadecanoyl-sn-glycero-3-phospho-(1D-myo-
+CC         inositol-4,5-bisphosphate) + ADP + H(+); Xref=Rhea:RHEA:55992,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:83423,
+CC         ChEBI:CHEBI:84968, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000250|UniProtKB:P78356};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55993;
+CC         Evidence={ECO:0000250|UniProtKB:P78356};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihexadecanoyl-sn-glycero-3-phospho-(1D-myo-inositol-5-
+CC         phosphate) + GTP = 1,2-dihexadecanoyl-sn-glycero-3-phospho-(1D-myo-
+CC         inositol-4,5-bisphosphate) + GDP + H(+); Xref=Rhea:RHEA:55964,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:37565, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:83423, ChEBI:CHEBI:84968;
+CC         Evidence={ECO:0000250|UniProtKB:P78356};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:55965;
+CC         Evidence={ECO:0000250|UniProtKB:P78356};
+CC   -!- SUBUNIT: Homodimer. Binds TNFRSF1A. Interacts with PIP4K2A; the
+CC       interaction suppresses ubiquitination by the SPOP/CUL3 complex (By
+CC       similarity). Probably interacts with PIP5K1A; the interaction inhibits
+CC       PIP5K1A kinase activity (By similarity). {ECO:0000250|UniProtKB:P78356,
+CC       ECO:0000250|UniProtKB:Q8TBX8}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000250};
+CC       Peripheral membrane protein {ECO:0000250}. Cell membrane {ECO:0000250};
+CC       Peripheral membrane protein {ECO:0000250}. Nucleus {ECO:0000250}.
+CC       Cytoplasm {ECO:0000250}. Note=Associated with the plasma membrane and
+CC       the endoplasmic reticulum. {ECO:0000250}.
+CC   -!- PTM: Ubiquitinated by the SPOP/CUL3 complex. Ubiquitination is
+CC       stimulated by PtdIns5P levels. {ECO:0000250|UniProtKB:P78356}.
+CC   -!- PTM: Phosphorylated on serine residues. {ECO:0000250|UniProtKB:P78356}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF033355; AAC40203.1; -; mRNA.
+DR   RefSeq; NP_446002.1; NM_053550.1.
+DR   AlphaFoldDB; O88377; -.
+DR   SMR; O88377; -.
+DR   BioGRID; 250135; 1.
+DR   IntAct; O88377; 1.
+DR   STRING; 10116.ENSRNOP00000017989; -.
+DR   iPTMnet; O88377; -.
+DR   PhosphoSitePlus; O88377; -.
+DR   SwissPalm; O88377; -.
+DR   jPOST; O88377; -.
+DR   PaxDb; 10116-ENSRNOP00000017989; -.
+DR   Ensembl; ENSRNOT00000017989.4; ENSRNOP00000017989.3; ENSRNOG00000013030.4.
+DR   Ensembl; ENSRNOT00055056425; ENSRNOP00055046531; ENSRNOG00055032651.
+DR   Ensembl; ENSRNOT00060045585; ENSRNOP00060037842; ENSRNOG00060026321.
+DR   Ensembl; ENSRNOT00065053691; ENSRNOP00065044137; ENSRNOG00065031143.
+DR   GeneID; 89812; -.
+DR   KEGG; rno:89812; -.
+DR   AGR; RGD:621710; -.
+DR   CTD; 8396; -.
+DR   RGD; 621710; Pip4k2b.
+DR   eggNOG; KOG0229; Eukaryota.
+DR   GeneTree; ENSGT00940000159874; -.
+DR   HOGENOM; CLU_004312_7_0_1; -.
+DR   InParanoid; O88377; -.
+DR   OMA; HEKWDIK; -.
+DR   OrthoDB; 5481504at2759; -.
+DR   PhylomeDB; O88377; -.
+DR   TreeFam; TF354315; -.
+DR   Reactome; R-RNO-1660499; Synthesis of PIPs at the plasma membrane.
+DR   Reactome; R-RNO-6811555; PI5P Regulates TP53 Acetylation.
+DR   Reactome; R-RNO-6811558; PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling.
+DR   Reactome; R-RNO-8847453; Synthesis of PIPs in the nucleus.
+DR   PRO; PR:O88377; -.
+DR   Proteomes; UP000002494; Chromosome 10.
+DR   Bgee; ENSRNOG00000013030; Expressed in skeletal muscle tissue and 18 other cell types or tissues.
+DR   GO; GO:0005776; C:autophagosome; ISO:RGD.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; ISO:RGD.
+DR   GO; GO:0005886; C:plasma membrane; ISO:RGD.
+DR   GO; GO:0016308; F:1-phosphatidylinositol-4-phosphate 5-kinase activity; ISS:UniProtKB.
+DR   GO; GO:0016309; F:1-phosphatidylinositol-5-phosphate 4-kinase activity; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; ISS:UniProtKB.
+DR   GO; GO:0005525; F:GTP binding; ISS:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISO:RGD.
+DR   GO; GO:1902635; P:1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0061909; P:autophagosome-lysosome fusion; ISS:UniProtKB.
+DR   GO; GO:0046627; P:negative regulation of insulin receptor signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0046488; P:phosphatidylinositol metabolic process; ISO:RGD.
+DR   GO; GO:0046854; P:phosphatidylinositol phosphate biosynthetic process; IBA:GO_Central.
+DR   GO; GO:2000786; P:positive regulation of autophagosome assembly; ISO:RGD.
+DR   GO; GO:0010506; P:regulation of autophagy; ISS:UniProtKB.
+DR   CDD; cd17310; PIPKc_PIP5K2B; 1.
+DR   Gene3D; 3.30.810.10; 2-Layer Sandwich; 2.
+DR   Gene3D; 3.30.800.10; Phosphatidylinositol Phosphate Kinase II Beta; 1.
+DR   InterPro; IPR027483; PInositol-4-P-4/5-kinase_C_sf.
+DR   InterPro; IPR002498; PInositol-4-P-4/5-kinase_core.
+DR   InterPro; IPR027484; PInositol-4-P-5-kinase_N.
+DR   InterPro; IPR023610; PInositol-4/5-P-5/4-kinase.
+DR   PANTHER; PTHR23086:SF22; PHOSPHATIDYLINOSITOL 5-PHOSPHATE 4-KINASE TYPE-2 BETA; 1.
+DR   PANTHER; PTHR23086; PHOSPHATIDYLINOSITOL-4-PHOSPHATE 5-KINASE; 1.
+DR   Pfam; PF01504; PIP5K; 1.
+DR   SMART; SM00330; PIPKc; 1.
+DR   SUPFAM; SSF56104; SAICAR synthase-like; 1.
+DR   PROSITE; PS51455; PIPK; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Cell membrane; Cytoplasm; Endoplasmic reticulum;
+KW   GTP-binding; Kinase; Lipid metabolism; Membrane; Nucleotide-binding;
+KW   Nucleus; Phosphoprotein; Reference proteome; Transferase; Ubl conjugation.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P78356"
+FT   CHAIN           2..416
+FT                   /note="Phosphatidylinositol 5-phosphate 4-kinase type-2
+FT                   beta"
+FT                   /id="PRO_0000185472"
+FT   DOMAIN          38..415
+FT                   /note="PIPK"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00781"
+FT   REGION          64..70
+FT                   /note="Required for interaction with PIP5K1A"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8TBX8"
+FT   BINDING         202..204
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P78356"
+FT   BINDING         203..204
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:P78356"
+FT   BINDING         214
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000250|UniProtKB:P78356"
+FT   BINDING         214
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:P78356"
+FT   BINDING         369
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000250|UniProtKB:P78356"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P78356"
+FT   MOD_RES         8
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P48426"
+FT   MOD_RES         19
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P48426"
+FT   MOD_RES         94
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P48426"
+FT   MOD_RES         150
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P78356"
+FT   MOD_RES         322
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q80XI4"
+FT   MOD_RES         326
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P78356"
+SQ   SEQUENCE   416 AA;  47264 MW;  9481AC50CBB6C196 CRC64;
+     MSSNCTSTTA VAVAPLSASK TKTKKKHFVC QKVKLFRASE PILSVLMWGV NHTINELSNV
+     PVPVMLMPDD FKAYSKIKVD NHLFNKENLP SRFKFKEYCP MVFRNLRERF GIDDQDYQNS
+     VTRSAPINSD SQGRCGTRFL TTYDRRFVIK TVSSEDVAEM HNILKKYHQF IVECHGNTLL
+     PQFLGMYRLT VDGVETYMVV TRNVFSHRLT VHRKYDLKGS TVAREASDKE KAKDLPTFKD
+     NDFLNEGQKL RVGEESKKNF LEKLKRDVEF LAQLKIMDYS LLVGIHDVDR AEQEETEVED
+     RAEEEECEND GVGGGLLCSY GTPPDSPGNL LSFPRFFGPG EFDPSVDVYA MKSHESAPKK
+     EVYFMAIIDI LTPYDAKKKA AHAAKTVKHG AGAEISTVNP EQYSKRFNEF MSNILT
+//

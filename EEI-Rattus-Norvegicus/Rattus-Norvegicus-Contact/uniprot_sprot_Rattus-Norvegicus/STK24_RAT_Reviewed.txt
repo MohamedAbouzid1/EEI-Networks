@@ -1,0 +1,248 @@
+ID   STK24_RAT               Reviewed;         431 AA.
+AC   B0LT89; F1LML1;
+DT   19-OCT-2011, integrated into UniProtKB/Swiss-Prot.
+DT   18-MAR-2008, sequence version 1.
+DT   02-OCT-2024, entry version 101.
+DE   RecName: Full=Serine/threonine-protein kinase 24;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Mammalian STE20-like protein kinase 3;
+DE            Short=MST-3;
+DE            Short=MST3b;
+DE   AltName: Full=STE20-like kinase MST3;
+DE   Contains:
+DE     RecName: Full=Serine/threonine-protein kinase 24 35 kDa subunit;
+DE     AltName: Full=Mammalian STE20-like protein kinase 3 N-terminal;
+DE              Short=MST3/N;
+DE   Contains:
+DE     RecName: Full=Serine/threonine-protein kinase 24 12 kDa subunit;
+DE     AltName: Full=Mammalian STE20-like protein kinase 3 C-terminal;
+DE              Short=MST3/C;
+GN   Name=Stk24; Synonyms=Mst3, Stk3;
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=Sprague-Dawley;
+RA   Fuller S.J., Pikkarainen S.A., Clerk A., Sugden P.H.;
+RT   "MST3 expression in rat cardiac myocytes.";
+RL   Submitted (JAN-2008) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=19855390; DOI=10.1038/nn.2414;
+RA   Lorber B., Howe M.L., Benowitz L.I., Irwin N.;
+RT   "Mst3b, an Ste20-like kinase, regulates axon regeneration in mature CNS and
+RT   PNS pathways.";
+RL   Nat. Neurosci. 12:1407-1414(2009).
+CC   -!- FUNCTION: Serine/threonine-protein kinase that acts on both serine and
+CC       threonine residues and promotes apoptosis in response to stress stimuli
+CC       and caspase activation. Mediates oxidative-stress-induced cell death by
+CC       modulating phosphorylation of JNK1-JNK2 (MAPK8 and MAPK9), p38 (MAPK11,
+CC       MAPK12, MAPK13 and MAPK14) during oxidative stress. Plays a role in a
+CC       staurosporine-induced caspase-independent apoptotic pathway by
+CC       regulating the nuclear translocation of AIFM1 and ENDOG and the DNase
+CC       activity associated with ENDOG. Phosphorylates STK38L on 'Thr-442' and
+CC       stimulates its kinase activity. In association with STK26 negatively
+CC       regulates Golgi reorientation in polarized cell migration upon RHO
+CC       activation. Regulates also cellular migration with alteration of PTPN12
+CC       activity and PXN phosphorylation: phosphorylates PTPN12 and inhibits
+CC       its activity and may regulate PXN phosphorylation through PTPN12 (By
+CC       similarity). May act as a key regulator of axon regeneration in the
+CC       optic nerve and radial nerve (PubMed:19855390). Part of the striatin-
+CC       interacting phosphatase and kinase (STRIPAK) complexes. STRIPAK
+CC       complexes have critical roles in protein (de)phosphorylation and are
+CC       regulators of multiple signaling pathways including Hippo, MAPK,
+CC       nuclear receptor and cytoskeleton remodeling. Different types of
+CC       STRIPAK complexes are involved in a variety of biological processes
+CC       such as cell growth, differentiation, apoptosis, metabolism and immune
+CC       regulation (By similarity). {ECO:0000250|UniProtKB:Q9Y6E0,
+CC       ECO:0000269|PubMed:19855390}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828; Evidence={ECO:0000250};
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Monomer. Interacts with CTTNBP2NL. Interacts with RIPOR1 (via
+CC       C-terminus); this interaction occurs in a PDCD10-dependent and Rho-
+CC       independent manner. Interacts with PDCD10; this interaction is required
+CC       for the association of STK24 with RIPOR1. Part of the core of STRIPAK
+CC       complexes composed of PP2A catalytic and scaffolding subunits, the
+CC       striatins (PP2A regulatory subunits), the striatin-associated proteins
+CC       MOB4, STRIP1 and STRIP2, PDCD10 and members of the STE20 kinases, such
+CC       as STK24 and STK26. {ECO:0000250|UniProtKB:Q9Y6E0}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Nucleus {ECO:0000250}.
+CC       Membrane {ECO:0000250}. Note=The truncated form (MST3/N) translocates
+CC       to the nucleus. Colocalizes with STK38L in the membrane (By
+CC       similarity). {ECO:0000250}.
+CC   -!- PTM: Proteolytically processed by caspases during apoptosis.
+CC       Proteolytic cleavage results in kinase activation, nuclear
+CC       translocation of the truncated form (MST3/N) and the induction of
+CC       apoptosis (By similarity). {ECO:0000250}.
+CC   -!- PTM: Oxidative stress induces phosphorylation. Activated by
+CC       autophosphorylation at Thr-178 and phosphorylation at this site is
+CC       essential for its function. Manganese, magnesium and cobalt-dependent
+CC       autophosphorylation is mainly on threonine residues while zinc-
+CC       dependent autophosphorylation is on both serine and threonine residues
+CC       (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. STE20 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU371958; ABY76171.1; -; mRNA.
+DR   RefSeq; NP_001120966.1; NM_001127494.1.
+DR   AlphaFoldDB; B0LT89; -.
+DR   SMR; B0LT89; -.
+DR   STRING; 10116.ENSRNOP00000031981; -.
+DR   iPTMnet; B0LT89; -.
+DR   PhosphoSitePlus; B0LT89; -.
+DR   jPOST; B0LT89; -.
+DR   PaxDb; 10116-ENSRNOP00000031981; -.
+DR   PeptideAtlas; B0LT89; -.
+DR   Ensembl; ENSRNOT00000118392.1; ENSRNOP00000078151.1; ENSRNOG00000011511.8.
+DR   Ensembl; ENSRNOT00055004685; ENSRNOP00055003456; ENSRNOG00055003005.
+DR   Ensembl; ENSRNOT00060013997; ENSRNOP00060010703; ENSRNOG00060008391.
+DR   GeneID; 361092; -.
+DR   KEGG; rno:361092; -.
+DR   AGR; RGD:1561742; -.
+DR   CTD; 8428; -.
+DR   RGD; 1561742; Stk24.
+DR   eggNOG; KOG0201; Eukaryota.
+DR   GeneTree; ENSGT00940000153476; -.
+DR   InParanoid; B0LT89; -.
+DR   OMA; ERSQACG; -.
+DR   OrthoDB; 152877at2759; -.
+DR   PhylomeDB; B0LT89; -.
+DR   Reactome; R-RNO-111465; Apoptotic cleavage of cellular proteins.
+DR   Reactome; R-RNO-75153; Apoptotic execution phase.
+DR   PRO; PR:B0LT89; -.
+DR   Proteomes; UP000002494; Chromosome 15.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IEA:Ensembl.
+DR   GO; GO:0090443; C:FAR/SIN/STRIPAK complex; ISS:UniProtKB.
+DR   GO; GO:0005794; C:Golgi apparatus; IBA:GO_Central.
+DR   GO; GO:0000139; C:Golgi membrane; IDA:UniProtKB.
+DR   GO; GO:0005730; C:nucleolus; IEA:Ensembl.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; ISS:UniProtKB.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; ISO:RGD.
+DR   GO; GO:0009267; P:cellular response to starvation; ISS:UniProtKB.
+DR   GO; GO:0097194; P:execution phase of apoptosis; ISO:RGD.
+DR   GO; GO:0008631; P:intrinsic apoptotic signaling pathway in response to oxidative stress; ISS:UniProtKB.
+DR   GO; GO:0030336; P:negative regulation of cell migration; ISS:UniProtKB.
+DR   GO; GO:0048680; P:positive regulation of axon regeneration; IMP:RGD.
+DR   GO; GO:0046777; P:protein autophosphorylation; ISS:UniProtKB.
+DR   GO; GO:0006468; P:protein phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0048679; P:regulation of axon regeneration; ISO:RGD.
+DR   CDD; cd06609; STKc_MST3_like; 1.
+DR   Gene3D; 1.10.12.70; -; 1.
+DR   Gene3D; 1.10.510.10; Transferase(Phosphotransferase) domain 1; 1.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR046409; PDC10_dimerisation_sf.
+DR   InterPro; IPR048288; PDCD10_N.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR050629; STE20/SPS1-PAK.
+DR   PANTHER; PTHR48012:SF22; SERINE_THREONINE-PROTEIN KINASE 24; 1.
+DR   PANTHER; PTHR48012; STERILE20-LIKE KINASE, ISOFORM B-RELATED; 1.
+DR   Pfam; PF20929; PDCD10_N; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Protein kinase-like (PK-like); 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Apoptosis; ATP-binding; Cytoplasm; Kinase; Magnesium;
+KW   Membrane; Metal-binding; Nucleotide-binding; Nucleus; Phosphoprotein;
+KW   Reference proteome; Serine/threonine-protein kinase; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99KH8"
+FT   CHAIN           2..431
+FT                   /note="Serine/threonine-protein kinase 24"
+FT                   /id="PRO_0000413622"
+FT   CHAIN           2..313
+FT                   /note="Serine/threonine-protein kinase 24 35 kDa subunit"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000413623"
+FT   CHAIN           314..431
+FT                   /note="Serine/threonine-protein kinase 24 12 kDa subunit"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000413624"
+FT   DOMAIN          24..274
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          297..325
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           266..280
+FT                   /note="Bipartite nuclear localization signal"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           323..374
+FT                   /note="Nuclear export signal (NES)"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        144
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         30..38
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         53
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         100..102
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         149
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         162
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250"
+FT   SITE            313..314
+FT                   /note="Cleavage; by caspase-3, caspase-7 and caspase-8"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99KH8"
+FT   MOD_RES         4
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q99KH8"
+FT   MOD_RES         178
+FT                   /note="Phosphothreonine; by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y6E0"
+FT   MOD_RES         308
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y6E0"
+SQ   SEQUENCE   431 AA;  47990 MW;  2700B01FB9B63AE6 CRC64;
+     MAHSPVQSGL PGMQTLKADP EELFTKLEKI GKGSFGEVFK GIDNRTQKVV AIKIIDLEEA
+     EDEIEDIQQE ITVLSQCDSP YVTKYYGSYL KDTKLWIIME YLGGGSALDL LEPGPLDEIQ
+     IATILREILK GLDYLHSEKK IHRDIKAANV LLSEHGEVKL ADFGVAGQLT DTQIKRNTFV
+     GTPFWMAPEV IKQSAYDSKA DIWSLGITAI ELAKGEPPHS ELHPMKVLFL IPKNNPPTLE
+     GSYSRPLKEF VEACLNKEPS FRPTAKELLK HKFIIRNAKK TSYLTELIDR YKRWKAEQSH
+     EDSSSEDSDV ETDSQASGGS DSGDWIFTIR EKDPKNLENG TLQPSDLERN KMKDFPKRPF
+     SQCLSTIISP LFAELKEKSQ ACGGNLGSIE ELRGAIYLAE EACPGISDTM VAQLVQRLQR
+     YSLSGGGASA H
+//

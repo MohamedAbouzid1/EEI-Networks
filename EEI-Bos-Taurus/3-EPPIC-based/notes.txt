@@ -1,0 +1,28 @@
+# most recent
+running in tmux session eppic
+
+--------------------------------------------------------------------------------------------
+path to Uniprot100 is /cosybio/project/public_data/Uniprot100/
+
+# run in the background and log the process
+nohup Rscript run_eppic.R > eppic_log.txt 2>&1 &
+
+# check the process
+ps -p [PROCESS_ID]
+
+
+
+# current process id
+ps -p 1437113
+
+# warnings
+15:16:16 [main] WARN  eppic.HomologList - The interval found from blast is off the bounds of the sequence retrieved from UniProt for entry A0A6Q2X1Y1_319-531. Mismatch of UniProt versions perhaps? Removing entry from list
+15:15:33 [main] WARN  eppic.commons.sequence.UniProtConnection - Information for uniprot ID A0A3P8YJG3 could not be retrieved with the Uniprot REST API.
+
+# command with path to eppic 
+/cosybio/project/mabouzid/EEI_networks/software/eppic/eppic-cli/target/eppic-cli-3.4.2-SNAPSHOT/eppic-cli-3.4.2-SNAPSHOT/bin/eppic -i 1ibx -o /cosybio/project/mabouzid/EEI_networks/ -s -a 30
+
+
+
+# example file
+java -jar /cosybio/project/mabouzid/EEI_networks/software/eppic/eppic-cli/target/uber-eppic-cli-3.4.2-SNAPSHOT.jar -i /cosybio/project/public_data/PDB_CIF/1a4y.cif -o /cosybio/project/mabouzid/EEI_networks/EEI-Conservation-main/EEI-Homo-Sapiens-2024/3-EPPIC-based/eppic_example_output -s -a 30

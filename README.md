@@ -1,4 +1,4 @@
-# EEI-Conservation
+# EEI-Networks
 This repository contains scripts to generate data and results in a research focus on the detection of exon-exon interactions, with the aim of getting wider knowledge of human EEI-networks used in the following paper:
 
 **Prognostic importance of splicing-triggered aberrations of protein complex interfaces in cancer** by *Khalique Newaz, Jan Baumbach and Dmitrij Frishman*

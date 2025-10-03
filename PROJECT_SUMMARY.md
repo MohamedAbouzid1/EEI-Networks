@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This thesis project implements a comprehensive four-pipeline approach for constructing and expanding Human Exon-Exon Interaction (EEI) networks through evolutionary conservation analysis. The work extends the original research on cancer-related protein complex interface aberrations by leveraging structural data from multiple eukaryote species.
+This thesis project implements a comprehensive five-pipeline approach for constructing and expanding Human Exon-Exon Interaction (EEI) networks through evolutionary conservation analysis. The work extends the original research on cancer-related protein complex interface aberrations by leveraging structural data from multiple eukaryote species and comprehensive analysis frameworks.
 
 ## Research Motivation
 
@@ -42,13 +42,33 @@ This thesis project implements a comprehensive four-pipeline approach for constr
 **Components**:
 Use EGIO to create a high-confidence map for each species and human for orthologous exons to use later in the fourth pipeline
 
-### Pipeline 4: Orthology Mapping and EEI Prediction
-**Objective**: Expand human EEI networks through evolutionary conservation
+### Pipeline 3: Species-Specific Orthology Mapping and EEI Prediction
+**Objective**: Expand human EEI networks through evolutionary conservation for each species
 
 **Components**:
 1. **EGIO Output**: Detect orthologous exons between human and each species
 2. **Exon-coordinate maps**: Map orthologous exons and transfer EEIs
 3. **Validation**: Cross-validate predictions against known human EEIs
+4. **Species-specific analysis**: Located in `EEI-[Species]/human_EEI_prediction/`
+
+### Pipeline 4: Comprehensive Analysis and Statistics
+**Objective**: Provide comprehensive analysis, visualization, and statistical evaluation
+
+**Components**:
+- EEI network statistics and comparisons
+- EGIO orthology analysis and visualization
+- Phylogenetic analysis and evolutionary relationships
+- Network visualization and comparative analysis
+- Overlap analysis and Venn diagram generation
+
+### Pipeline 5: Mouse RNA-seq Analysis
+**Objective**: Analyze mouse RNA-seq data in the context of EEI networks and cancer
+
+**Components**:
+- Survival analysis based on EEI networks
+- Expression correlation analysis
+- Cancer-related protein expression studies
+- Treatment response analysis
 
 
 ## Key Innovations
@@ -85,7 +105,7 @@ Use EGIO to create a high-confidence map for each species and human for ortholog
 ## Expected Outcomes
 
 ### Quantitative Targets
-- **Network Expansion**: 2-5x increase in human EEI network size
+- **Network Expansion**: ~2% increase in human EEI network size
 - **Prediction Accuracy**: >80% accuracy for high-confidence predictions
 - **Species Coverage**: >70% of human EEIs predictable from multiple species
 - **Conservation Insights**: Identification of evolutionarily conserved interaction patterns
@@ -102,8 +122,21 @@ Use EGIO to create a high-confidence map for each species and human for ortholog
 EEI-Conservation-main/
 ├── EEI-Homo-Sapiens/           # Pipeline 1: Human baseline
 ├── EEI-[Species]/              # Pipeline 2: Species networks (7 species)
-├── orthology_based_EEI_prediction/  # Pipeline 3: Orthology mapping
-├── data/                       # Shared data resources
+│   ├── EGIO/                   # Orthology detection
+│   ├── human_EEI_prediction/   # Pipeline 3: Species-specific orthology analysis
+│   ├── high_confidence_network/ # High-confidence EEI networks
+│   └── Homology-analysis/      # Homology analysis tools
+├── final_statistics/           # Pipeline 4: Comprehensive analysis
+│   ├── eei_stats/              # EEI network statistics
+│   ├── EGIO_analysis/          # EGIO orthology analysis
+│   ├── phylogenetic_analysis/  # Phylogenetic tree analysis
+│   ├── network_visualizations/ # Network visualization outputs
+│   └── venn_analysis_results/  # Overlap analysis results
+├── mm_RNA_seq_data/            # Pipeline 5: Mouse RNA-seq analysis
+│   ├── eei_analysis_survival/  # Survival analysis tools
+│   ├── coord_gene_mapping_files/ # Coordinate mapping data
+│   ├── crc2022_exon_expression/ # Expression data analysis
+│   └── CRPE_human/             # Cancer-related protein expression data
 ├── THESIS_DOCUMENTATION.md     # Main documentation
 ├── TECHNICAL_IMPLEMENTATION.md # Technical details
 └── PROJECT_SUMMARY.md          # This summary
@@ -133,8 +166,9 @@ EEI-Conservation-main/
 ### Quick Start
 1. **Human Baseline**: Run `EEI-Homo-Sapiens/` pipeline
 2. **Species Networks**: Run `EEI-[Species]/` pipelines for each species
-3. **Orthology Mapping**: Run `orthology_based_EEI_prediction/` pipeline
-4. **Web Interface**: Access `EEINet/` for network exploration
+3. **Species-Specific Orthology**: Run `EEI-[Species]/human_EEI_prediction/` for each species
+4. **Comprehensive Analysis**: Run `final_statistics/` analysis scripts
+5. **Mouse RNA-seq**: Run `mm_RNA_seq_data/` analysis
 
 ### Detailed Instructions
 Refer to `THESIS_DOCUMENTATION.md` for comprehensive usage instructions and `TECHNICAL_IMPLEMENTATION.md` for technical details.
@@ -176,7 +210,7 @@ Refer to `THESIS_DOCUMENTATION.md` for comprehensive usage instructions and `TEC
 For questions about the implementation or methodology:
 - Refer to the individual README files in each pipeline folder
 - Check the comprehensive documentation files
-- Contact the project maintainers
+- Contact Mohamed Abouzid, contact info in the Github profile.
 
 ---
 

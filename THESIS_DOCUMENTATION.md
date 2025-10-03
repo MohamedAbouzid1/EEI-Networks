@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains the complete implementation of a three-pipeline approach for constructing and expanding Human Exon-Exon Interaction (EEI) networks through evolutionary conservation analysis. The project aims to identify and predict human EEIs by leveraging structural data from multiple eukaryote species and orthology relationships.
+This repository contains the complete implementation of a five-pipeline approach for constructing and expanding Human Exon-Exon Interaction (EEI) networks through evolutionary conservation analysis. The project aims to identify and predict human EEIs by leveraging structural data from multiple eukaryote species and orthology relationships.
 
 ## Research Context
 
@@ -13,7 +13,7 @@ This thesis project extends the original work by implementing a comprehensive co
 
 ## Project Architecture
 
-The project is organized into three main pipelines that work sequentially:
+The project is organized into five main pipelines that work sequentially:
 
 ### Pipeline 1: Human EEI Network Construction
 **Location**: `EEI-Homo-Sapiens/`
@@ -54,20 +54,21 @@ The 7 eukaryote species were selected based on their abundance of high-resolutio
 6. **Rattus norvegicus** (Rat) - `EEI-Rattus-Norvegicus/`
 7. **Saccharomyces cerevisiae** (Yeast) - `EEI-Saccharomyces/`
 
-**Implementation**: Each species folder contains the same three-method pipeline as human:
+**Implementation**: Each species folder contains the same three-method pipeline as human plus orthology-based prediction:
 - `1-Contact-based/` - Contact-based EEI detection
 - `2-PISA-based/` - PISA-based EEI detection  
 - `3-EPPIC-based/` - EPPIC-based EEI detection
+- `human_EEI_prediction/` - Orthology-based human EEI prediction
 
 ### Pipeline 3: Orthology Mapping and EEI Prediction
-**Location**: `orthology_based_EEI_prediction/`
+**Location**: `EEI-[Species]/human_EEI_prediction/` (species-specific)
 
-**Objective**: Expand human EEI networks by leveraging orthology relationships between human and other species.
+**Objective**: Expand human EEI networks by leveraging orthology relationships between human and each species.
 
 **Components**:
 
 #### 3.1 EGIO (Exon Group Ideogram) Analysis
-**Location**: `EGIO/` and species-specific `EGIO/` folders
+**Location**: Species-specific `EEI-[Species]/EGIO/` folders
 
 **Purpose**: Detect orthologous exons between human and each of the 7 species using EGIO methodology.
 
@@ -84,13 +85,13 @@ The 7 eukaryote species were selected based on their abundance of high-resolutio
 - Coverage threshold: 0.8 (default)
 - Match score: 2, Mismatch penalty: -2, Gap penalty: -1
 
-#### 3.2 Orthology-Based EEI Prediction
-**Location**: `orthology_based_EEI_prediction/`
+#### 3.2 Species-Specific Orthology-Based EEI Prediction
+**Location**: `EEI-[Species]/human_EEI_prediction/`
 
 **Process**:
 1. **Data Integration**: Combine EGIO orthology results with species-specific EEI networks
 2. **Mapping**: Map orthologous exons between species and human
-3. **Prediction**: Predict human EEIs based on conserved interactions in other species
+3. **Prediction**: Predict human EEIs based on conserved interactions in the specific species
 4. **Validation**: Cross-validate predictions against known human EEIs
 
 **Output Analysis**:
@@ -98,6 +99,68 @@ The 7 eukaryote species were selected based on their abundance of high-resolutio
 - Confidence scoring based on conservation patterns
 - Statistical evaluation of prediction accuracy
 - Visualization of conservation patterns
+
+### Pipeline 4: Comprehensive Analysis and Statistics
+**Location**: `final_statistics/`
+
+**Objective**: Provide comprehensive analysis, visualization, and statistical evaluation of all EEI networks and predictions.
+
+**Components**:
+
+#### 4.1 EEI Network Statistics
+**Location**: `final_statistics/eei_stats/`
+- Network size and connectivity analysis
+- Method comparison statistics
+- Species-specific network properties
+
+#### 4.2 EGIO Orthology Analysis
+**Location**: `final_statistics/EGIO_analysis/`
+- Evolutionary divergence analysis
+- Orthology relationship visualization
+- Identity distribution analysis
+
+#### 4.3 Phylogenetic Analysis
+**Location**: `final_statistics/phylogenetic_analysis/`
+- Phylogenetic tree construction
+- EEI conservation across species
+- Evolutionary relationship analysis
+
+#### 4.4 Network Visualization
+**Location**: `final_statistics/network_visualizations/`
+- Interactive network visualizations
+- Comparative complex analysis
+- Network property visualizations
+
+#### 4.5 Overlap Analysis
+**Location**: `final_statistics/venn_analysis_results/`
+- Method overlap analysis
+- Species contribution analysis
+- Venn diagram visualizations
+
+### Pipeline 5: Mouse RNA-seq Analysis
+**Location**: `mm_RNA_seq_data/`
+
+**Objective**: Analyze mouse RNA-seq data in the context of EEI networks and cancer-related protein expression.
+
+**Components**:
+
+#### 5.1 Survival Analysis
+**Location**: `mm_RNA_seq_data/eei_analysis_survival/`
+- EEI-based survival analysis
+- Expression correlation analysis
+- Treatment response analysis
+
+#### 5.2 Expression Data Analysis
+**Location**: `mm_RNA_seq_data/crc2022_exon_expression/`
+- Exon expression quantification
+- Differential expression analysis
+- Expression masking and filtering
+
+#### 5.3 Cancer-Related Analysis
+**Location**: `mm_RNA_seq_data/CRPE_human/`
+- Cancer-related protein expression analysis
+- BRCA-specific EEI analysis
+- Survival correlation studies
 
 ## Technical Implementation
 
@@ -126,12 +189,22 @@ The 7 eukaryote species were selected based on their abundance of high-resolutio
 
 2. **Species Networks** (for each of 7 species)
    ```
-   EGIO/ → 1-Contact-based/ → 2-PISA-based/ → 3-EPPIC-based/
+   EGIO/ → 1-Contact-based/ → 2-PISA-based/ → 3-EPPIC-based/ → human_EEI_prediction/
    ```
 
-3. **Orthology Mapping**
+3. **Species-Specific Orthology Analysis** (`EEI-[Species]/human_EEI_prediction/`)
    ```
-   EGIO results + Species EEI networks → human_EEI_prediction/ → Analysis
+   Species EGIO results + Species EEI networks → human_EEI_prediction/ → Analysis
+   ```
+
+4. **Comprehensive Analysis** (`final_statistics/`)
+   ```
+   All pipeline results → Statistical analysis → Visualization → Reporting
+   ```
+
+5. **Mouse RNA-seq Analysis** (`mm_RNA_seq_data/`)
+   ```
+   Expression data → Survival analysis → Cancer correlation analysis
    ```
 
 ## Results and Outputs
@@ -167,12 +240,23 @@ EEI-Conservation-main/
 │   ├── 1-Contact-based/        # Contact-based detection
 │   ├── 2-PISA-based/           # PISA-based detection
 │   ├── 3-EPPIC-based/          # EPPIC-based detection
-│   └── human_EEI_prediction/   # Human EEI predictions
-├── EGIO/                       # Global EGIO results
-├── orthology_based_EEI_prediction/  # Pipeline 3: Orthology mapping
-│   ├── human_EEI_prediction/   # Prediction algorithms
-│   └── results_*/              # Analysis results by method
-└── data/                       # Shared data resources
+│   ├── human_EEI_prediction/   # Pipeline 3: Species-specific orthology analysis
+│   ├── high_confidence_network/ # High-confidence EEI networks
+│   └── Homology-analysis/      # Homology analysis tools
+├── final_statistics/           # Pipeline 4: Comprehensive analysis and statistics
+│   ├── eei_stats/              # EEI network statistics
+│   ├── EGIO_analysis/          # EGIO orthology analysis
+│   ├── phylogenetic_analysis/  # Phylogenetic tree analysis
+│   ├── network_visualizations/ # Network visualization outputs
+│   └── venn_analysis_results/  # Overlap analysis results
+├── mm_RNA_seq_data/            # Pipeline 5: Mouse RNA-seq analysis
+│   ├── eei_analysis_survival/  # Survival analysis tools
+│   ├── coord_gene_mapping_files/ # Coordinate mapping data
+│   ├── crc2022_exon_expression/ # Expression data analysis
+│   └── CRPE_human/             # Cancer-related protein expression data
+├── EEINet/                     # Web interface and database
+├── data/                       # Shared data resources
+└── PPI-Eukaryotes/             # Protein-protein interaction data (ignored)
 ```
 
 ## Detailed Methodology
@@ -311,12 +395,30 @@ Each species follows the same three-method approach as human:
    cd EGIO/
    ./_RUN_egio.sh [parameters]
    # Then run the three detection methods
+   cd ../1-Contact-based/
+   # Run contact-based analysis
+   cd ../2-PISA-based/
+   # Run PISA-based analysis
+   cd ../3-EPPIC-based/
+   # Run EPPIC-based analysis
+   cd ../human_EEI_prediction/
+   # Run species-specific orthology analysis
    ```
 
-3. **Orthology-Based Prediction**:
+3. **Comprehensive Analysis and Statistics**:
    ```bash
-   cd orthology_based_EEI_prediction/
-   python human_EEI_prediction/main.py
+   cd final_statistics/
+   # Run various analysis scripts
+   python phylogenetic_tree_eei.py
+   python venn_diagram_analysis.py
+   python sankey_orthology_visualization.py
+   ```
+
+4. **Mouse RNA-seq Analysis**:
+   ```bash
+   cd mm_RNA_seq_data/
+   cd eei_analysis_survival/
+   python main.py
    ```
 
 ## Results and Analysis Framework

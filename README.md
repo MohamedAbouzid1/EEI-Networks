@@ -1,14 +1,55 @@
-# EEI-Networks
-This repository contains scripts to generate data and results in a research focus on the detection of exon-exon interactions, with the aim of getting wider knowledge of human EEI-networks used in the following paper:
+# EEI-Networks: Conservation-Based Exon-Exon Interaction Prediction
 
-**Prognostic importance of splicing-triggered aberrations of protein complex interfaces in cancer** by *Khalique Newaz, Jan Baumbach and Dmitrij Frishman*
+This repository contains a comprehensive five-pipeline approach for constructing and expanding Human Exon-Exon Interaction (EEI) networks through evolutionary conservation analysis. The work extends the original research on cancer-related protein complex interface aberrations by leveraging structural data from multiple eukaryote species.
 
-In order to accomplish the task, three approaches have been used, divided in the three folders explained as follows:
+## Original Research
+**"Prognostic importance of splicing-triggered aberrations of protein complex interfaces in cancer"** by *Khalique Newaz, Jan Baumbach and Dmitrij Frishman*
 
-#### EEI-Homo-Sapiens-2024
-+ EEI-networks of Homo Sapiens are built using UniProt data updated to October 2024, while in the paper data from 2022 are used.
+## Project Overview
 
-#### EEI-Mus-Musculus
-+ EEI-networks of Mus Musculus are built. Using **EGIO**, a method for detection of orthologous exons between species, EEI in Mus musculus are then compared to those in Homo Sapiens (data from 2024).
+This thesis project implements a comprehensive approach to expand human EEI networks beyond direct detection by leveraging evolutionary conservation patterns across multiple species. The project includes:
 
-Each folder contains the scripts required for running each analysis: they are numbered and should be executed in the ascending order. 
+### Pipeline Structure
+
+#### 1. Human Baseline (`EEI-Homo-Sapiens/`)
+- EEI-networks of Homo Sapiens built using UniProt data updated to October 2024
+- Three complementary detection methods: Contact-based, PISA-based, and EPPIC-based
+- High-confidence combined network generation
+
+#### 2. Species Networks (`EEI-[Species]/`)
+- EEI networks for 7 eukaryote species: Mouse, Cattle, Fruit fly, Chicken, Rabbit, Rat, and Yeast
+- Each species includes EGIO orthology detection
+- Species-specific orthology-based EEI prediction analysis in `human_EEI_prediction/` folders
+- High-confidence network generation for each species
+
+#### 3. Species-Specific Orthology Analysis (`EEI-[Species]/human_EEI_prediction/`)
+- Orthology-based EEI prediction algorithms for each species
+- Analysis and evaluation tools for prediction accuracy
+- Results from multiple detection methods (Contact, PISA, EPPIC)
+
+#### 4. Comprehensive Analysis (`final_statistics/`)
+- EEI network statistics and method comparisons
+- EGIO orthology analysis and evolutionary divergence studies
+- Phylogenetic analysis and network visualizations
+- Overlap analysis and Venn diagram generation
+
+#### 5. Mouse RNA-seq Analysis (`mm_RNA_seq_data/`)
+- Survival analysis based on EEI networks
+- Expression correlation analysis
+- Cancer-related protein expression studies
+- Treatment response analysis
+
+## Usage
+
+Each folder contains numbered scripts that should be executed in ascending order. For detailed instructions, refer to:
+- [THESIS_DOCUMENTATION.md](THESIS_DOCUMENTATION.md) - Comprehensive project documentation
+- [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md) - Executive summary
+- [TECHNICAL_IMPLEMENTATION.md](TECHNICAL_IMPLEMENTATION.md) - Technical implementation details
+
+## Key Features
+
+- **Multi-Method Integration**: Combines three complementary EEI detection approaches
+- **Evolutionary Conservation**: Leverages orthology to expand human EEI networks
+- **Cross-Species Validation**: Uses multiple species for robust predictions
+- **Comprehensive Analysis**: Statistical evaluation and visualization of results
+- **Web Interface**: EEINet database for network exploration 

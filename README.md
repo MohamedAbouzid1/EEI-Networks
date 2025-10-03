@@ -1,9 +1,6 @@
 # EEI-Networks: Conservation-Based Exon-Exon Interaction Detection
 
-This repository contains a comprehensive five-pipeline approach for constructing and expanding Human Exon-Exon Interaction (EEI) networks through evolutionary conservation analysis. The work extends the original research on cancer-related protein complex interface aberrations by leveraging structural data from multiple eukaryote species.
-
-## Original Research
-**"Prognostic importance of splicing-triggered aberrations of protein complex interfaces in cancer"** by *Khalique Newaz, Jan Baumbach and Dmitrij Frishman*
+This repository contains a comprehensive four-pipeline approach for constructing and expanding Human Exon-Exon Interaction (EEI) networks through multiple complementary methods. The work extends the original research on cancer-related protein complex interface aberrations by leveraging structural data from multiple eukaryote species.
 
 ## Project Overview
 

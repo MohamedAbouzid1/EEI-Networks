@@ -168,7 +168,7 @@ The 7 eukaryote species were selected based on their abundance of high-resolutio
 - **UniProt**: Protein sequence and annotation data
 - **PDB**: Protein structure database
 - **SIFTS**: Structure Integration with Function, Taxonomy and Sequence
-- **Ensembl**: Genomic annotations and orthology data
+- **Ensembl**: Genomic annotations and orthology data (Ensembl release 114)
 - **PISA**: Protein interface analysis
 - **EPPIC**: Evolutionary interface classification
 
